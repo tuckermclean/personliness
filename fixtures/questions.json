@@ -1,0 +1,627 @@
+[
+  {
+    "model": "assessments.question",
+    "pk": 1,
+    "fields": {
+      "text": "When facing a big decision, how often do you think through multiple possible outcomes before acting?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Strategic Intelligence", "multiplier": 1.0 },
+        { "trait": "Numerical & Analytical Reasoning", "multiplier": 0.6 },
+        { "trait": "Strategic Planning & Command", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 2,
+    "fields": {
+      "text": "How often have you been able to persuade a group to follow a plan you proposed?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Leadership / Influence", "multiplier": 1.0 },
+        { "trait": "Leadership & Followership", "multiplier": 0.6 },
+        { "trait": "Ambition / Self-Assertion", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 3,
+    "fields": {
+      "text": "How often do you act on impulse without considering long-term effects?",
+      "is_reversed": true,
+      "mapped_traits": [
+        { "trait": "Strategic Intelligence", "multiplier": 1.0 },
+        { "trait": "Moral Fallibility & Growth", "multiplier": 0.5 },
+        { "trait": "Justice Orientation", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 4,
+    "fields": {
+      "text": "When people around you are struggling, how often do you step in to help them emotionally or physically?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Compassion / Empathy", "multiplier": 1.0 },
+        { "trait": "Caregiving & Nurture", "multiplier": 0.6 },
+        { "trait": "Relatability / Cultural Embeddedness", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 5,
+    "fields": {
+      "text": "How often do you adapt to sudden changes in plans without becoming frustrated?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Courage / Resilience", "multiplier": 1.0 },
+        { "trait": "Hardship Tolerance", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 6,
+    "fields": {
+      "text": "How often do you come up with ideas that others consider new or unusual?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Creative / Innovative Thinking", "multiplier": 1.0 },
+        { "trait": "Artistic & Cultural Expression", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 7,
+    "fields": {
+      "text": "How often do you organize people or resources to achieve a shared goal?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Administrative / Legislative Skill", "multiplier": 1.0 },
+        { "trait": "Institution-Building", "multiplier": 0.6 },
+        { "trait": "Impact Legacy", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 8,
+    "fields": {
+      "text": "How often do you stand up to unfair treatment of others, even at personal cost?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Justice Orientation", "multiplier": 1.0 },
+        { "trait": "Courage / Resilience", "multiplier": 0.6 },
+        { "trait": "Ethical / Philosophical Insight", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 9,
+    "fields": {
+      "text": "How often do you refuse to admit mistakes, even when evidence is clear?",
+      "is_reversed": true,
+      "mapped_traits": [
+        { "trait": "Moral Fallibility & Growth", "multiplier": 1.0 },
+        { "trait": "Justice Orientation", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 10,
+    "fields": {
+      "text": "How often do people see you as inspiring or motivating them?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Leadership / Influence", "multiplier": 1.0 },
+        { "trait": "Archetype Resonance", "multiplier": 0.6 },
+        { "trait": "Impact Legacy", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 11,
+    "fields": {
+      "text": "How often have you created something that lasted or kept functioning for years?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Institution-Building", "multiplier": 1.0 },
+        { "trait": "Impact Legacy", "multiplier": 0.8 },
+        { "trait": "Construction & Fabrication", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 12,
+    "fields": {
+      "text": "How often do you take part in activities that bring joy, humor, or beauty into your life?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Joy / Play / Aesthetic Appreciation", "multiplier": 1.0 },
+        { "trait": "Artistic & Cultural Expression", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 13,
+    "fields": {
+      "text": "How often do you keep calm and act deliberately when facing danger or a crisis?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Existential Composure", "multiplier": 1.0 },
+        { "trait": "Mortality Acceptance", "multiplier": 0.5 },
+        { "trait": "Medical Aid & Emergency Response", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 14,
+    "fields": {
+      "text": "How often do you reconcile seemingly opposite ideas or roles in your life?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Paradox Integration", "multiplier": 1.0 },
+        { "trait": "Ethical / Philosophical Insight", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 15,
+    "fields": {
+      "text": "How often do you avoid physical activity or let your fitness decline?",
+      "is_reversed": true,
+      "mapped_traits": [
+        { "trait": "Physical Endurance / Skill", "multiplier": 1.0 },
+        { "trait": "Hardship Tolerance", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 16,
+    "fields": {
+      "text": "How often do you care for children, elderly, or those who need special help?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Caregiving & Nurture", "multiplier": 1.0 },
+        { "trait": "Compassion / Empathy", "multiplier": 0.7 },
+        { "trait": "Relatability / Cultural Embeddedness", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 17,
+    "fields": {
+      "text": "How often do you plan complex projects with multiple steps or teams?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Strategic Planning & Command", "multiplier": 1.0 },
+        { "trait": "Administrative / Legislative Skill", "multiplier": 0.7 },
+        { "trait": "Ambition / Self-Assertion", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 18,
+    "fields": {
+      "text": "How often do you handle raw food (cleaning, cutting, preparing meat/vegetables)?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Animal & Food Processing", "multiplier": 1.0 },
+        { "trait": "Culinary Skill", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 19,
+    "fields": {
+      "text": "How often do you navigate or find your way in unfamiliar places?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Navigation & Wayfinding", "multiplier": 1.0 },
+        { "trait": "Strategic Intelligence", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 20,
+    "fields": {
+      "text": "How often do you waste resources or fail to plan for future needs?",
+      "is_reversed": true,
+      "mapped_traits": [
+        { "trait": "Strategic Planning & Command", "multiplier": 0.9 },
+        { "trait": "Agricultural & Resource Management", "multiplier": 0.7 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 21,
+    "fields": {
+      "text": "How often do you repair tools, appliances, or machines yourself?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Manual Craft & Repair", "multiplier": 1.0 },
+        { "trait": "Technical & Systemic Problem-Solving", "multiplier": 0.7 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 22,
+    "fields": {
+      "text": "How often do you treat or assist with injuries or health emergencies?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Medical Aid & Emergency Response", "multiplier": 1.0 },
+        { "trait": "Courage / Resilience", "multiplier": 0.6 },
+        { "trait": "Archetype Resonance", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 23,
+    "fields": {
+      "text": "How often do you insist on being in charge when someone else is better suited?",
+      "is_reversed": true,
+      "mapped_traits": [
+        { "trait": "Leadership & Followership", "multiplier": 1.0 },
+        { "trait": "Ambition / Self-Assertion", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 24,
+    "fields": {
+      "text": "How often do you grow plants or manage land for food or other resources?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Agricultural & Resource Management", "multiplier": 1.0 },
+        { "trait": "Hardship Tolerance", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 25,
+    "fields": {
+      "text": "How often do you prepare meals from scratch?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Culinary Skill", "multiplier": 1.0 },
+        { "trait": "Animal & Food Processing", "multiplier": 0.6 },
+        { "trait": "Joy / Play / Aesthetic Appreciation", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 26,
+    "fields": {
+      "text": "How often do you train or practice for self-defense or protecting others?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Combat & Defense", "multiplier": 1.0 },
+        { "trait": "Courage / Resilience", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 27,
+    "fields": {
+      "text": "How often do you solve technical or mechanical problems effectively?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Technical & Systemic Problem-Solving", "multiplier": 1.0 },
+        { "trait": "Manual Craft & Repair", "multiplier": 0.7 },
+        { "trait": "Numerical & Analytical Reasoning", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 28,
+    "fields": {
+      "text": "How often do you use numbers or data to make better decisions?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Numerical & Analytical Reasoning", "multiplier": 1.0 },
+        { "trait": "Strategic Intelligence", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 29,
+    "fields": {
+      "text": "How often do you create or perform art, music, or writing?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Artistic & Cultural Expression", "multiplier": 1.0 },
+        { "trait": "Creative / Innovative Thinking", "multiplier": 0.7 },
+        { "trait": "Archetype Resonance", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 30,
+    "fields": {
+      "text": "How often do you keep your commitments to others even when it's inconvenient?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Justice Orientation", "multiplier": 1.0 },
+        { "trait": "Ethical / Philosophical Insight", "multiplier": 0.6 },
+        { "trait": "Leadership & Followership", "multiplier": 0.5 },
+        { "trait": "Impact Legacy", "multiplier": 0.4 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 31,
+    "fields": {
+      "text": "How often do you act mainly for personal gain at the expense of others?",
+      "is_reversed": true,
+      "mapped_traits": [
+        { "trait": "Ambition / Self-Assertion", "multiplier": 1.0 },
+        { "trait": "Justice Orientation", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 32,
+    "fields": {
+      "text": "How often do you remain emotionally steady during serious illness or injury?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Existential Composure", "multiplier": 1.0 },
+        { "trait": "Mortality Acceptance", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 33,
+    "fields": {
+      "text": "How often do you maintain a connection with everyday people regardless of status?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Relatability / Cultural Embeddedness", "multiplier": 1.0 },
+        { "trait": "Compassion / Empathy", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 34,
+    "fields": {
+      "text": "How often do you avoid opportunities to experience beauty, humor, or play?",
+      "is_reversed": true,
+      "mapped_traits": [
+        { "trait": "Joy / Play / Aesthetic Appreciation", "multiplier": 1.0 },
+        { "trait": "Artistic & Cultural Expression", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 35,
+    "fields": {
+      "text": "How often do you serve as a symbol or role model for others?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Archetype Resonance", "multiplier": 1.0 },
+        { "trait": "Leadership / Influence", "multiplier": 0.6 },
+        { "trait": "Impact Legacy", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 36,
+    "fields": {
+      "text": "How often do you endure long periods of discomfort or difficulty without giving up?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Hardship Tolerance", "multiplier": 1.0 },
+        { "trait": "Courage / Resilience", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 37,
+    "fields": {
+      "text": "How often do you blend different sides of your personality or beliefs into harmony?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Paradox Integration", "multiplier": 1.0 },
+        { "trait": "Ethical / Philosophical Insight", "multiplier": 0.6 },
+        { "trait": "Moral Fallibility & Growth", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 38,
+    "fields": {
+      "text": "How often do you organize or change rules to improve fairness?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Administrative / Legislative Skill", "multiplier": 0.9 },
+        { "trait": "Justice Orientation", "multiplier": 0.8 },
+        { "trait": "Impact Legacy", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 39,
+    "fields": {
+      "text": "How often do you neglect physical skills that could keep you capable and independent?",
+      "is_reversed": true,
+      "mapped_traits": [
+        { "trait": "Physical Endurance / Skill", "multiplier": 1.0 },
+        { "trait": "Combat & Defense", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 40,
+    "fields": {
+      "text": "How often do you make meals that others find both tasty and nourishing?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Culinary Skill", "multiplier": 1.0 },
+        { "trait": "Animal & Food Processing", "multiplier": 0.5 },
+        { "trait": "Compassion / Empathy", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 41,
+    "fields": {
+      "text": "How often do you adapt tools or materials to serve new purposes?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Manual Craft & Repair", "multiplier": 0.9 },
+        { "trait": "Creative / Innovative Thinking", "multiplier": 0.8 },
+        { "trait": "Construction & Fabrication", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 42,
+    "fields": {
+      "text": "How often do you prepare for and act quickly in emergencies?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Medical Aid & Emergency Response", "multiplier": 0.9 },
+        { "trait": "Strategic Planning & Command", "multiplier": 0.7 },
+        { "trait": "Technical & Systemic Problem-Solving", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 43,
+    "fields": {
+      "text": "How often do you explore new places purely out of curiosity?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Navigation & Wayfinding", "multiplier": 0.9 },
+        { "trait": "Joy / Play / Aesthetic Appreciation", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 44,
+    "fields": {
+      "text": "How often do you let fear stop you from defending yourself or others?",
+      "is_reversed": true,
+      "mapped_traits": [
+        { "trait": "Courage / Resilience", "multiplier": 1.0 },
+        { "trait": "Combat & Defense", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 45,
+    "fields": {
+      "text": "How often do you take part in activities that keep your body strong and skilled?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Physical Endurance / Skill", "multiplier": 1.0 },
+        { "trait": "Hardship Tolerance", "multiplier": 0.6 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 46,
+    "fields": {
+      "text": "How often do you take part in cultural traditions or events?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Relatability / Cultural Embeddedness", "multiplier": 0.8 },
+        { "trait": "Artistic & Cultural Expression", "multiplier": 0.7 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 47,
+    "fields": {
+      "text": "How often do you contribute to building something that benefits your community?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Institution-Building", "multiplier": 1.0 },
+        { "trait": "Impact Legacy", "multiplier": 0.8 },
+        { "trait": "Construction & Fabrication", "multiplier": 0.7 },
+        { "trait": "Agricultural & Resource Management", "multiplier": 0.5 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 48,
+    "fields": {
+      "text": "How often do you face thoughts of mortality without panic or denial?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Mortality Acceptance", "multiplier": 1.0 },
+        { "trait": "Existential Composure", "multiplier": 0.7 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 49,
+    "fields": {
+      "text": "How often do you balance multiple demands without neglecting key responsibilities?",
+      "is_reversed": false,
+      "mapped_traits": [
+        { "trait": "Paradox Integration", "multiplier": 1.0 },
+        { "trait": "Strategic Intelligence", "multiplier": 0.7 }
+      ]
+    }
+  },
+  {
+    "model": "assessments.question",
+    "pk": 50,
+    "fields": {
+      "text": "How often do you ignore the needs of people who depend on you?",
+      "is_reversed": true,
+      "mapped_traits": [
+        { "trait": "Compassion / Empathy", "multiplier": 1.0 },
+        { "trait": "Caregiving & Nurture", "multiplier": 0.7 }
+      ]
+    }
+  }
+]
