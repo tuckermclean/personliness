@@ -183,6 +183,11 @@ LLM_BASE_URL = os.environ.get('LLM_BASE_URL', 'https://api.openai.com/v1')
 LLM_API_KEY = os.environ.get('LLM_API_KEY', '')
 LLM_MODEL = os.environ.get('LLM_MODEL', 'o3')
 
+# LLM confidence refinement settings
+LLM_ENABLE_REFINEMENT = os.environ.get('LLM_ENABLE_REFINEMENT', 'True') == 'True'
+LLM_MAX_REFINEMENT_PASSES = int(os.environ.get('LLM_MAX_REFINEMENT_PASSES', '2'))
+LLM_MIN_CONFIDENCE_TARGET = os.environ.get('LLM_MIN_CONFIDENCE_TARGET', 'High')
+
 # Celery beat schedule - periodic fallback for queue processing
 CELERY_BEAT_SCHEDULE = {
     'process-ingestion-queue': {
