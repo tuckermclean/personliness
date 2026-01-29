@@ -25,7 +25,7 @@ services:
     environment:
       DEBUG: "True"
       DJANGO_SECRET_KEY: "django-insecure-personliness-secret-key-for-development-only"
-      DJANGO_ALLOWED_HOSTS: "localhost,127.0.0.1,0.0.0.0"
+      DJANGO_ALLOWED_HOSTS: "localhost,127.0.0.1,0.0.0.0,web"
       POSTGRES_DB: personliness
       POSTGRES_USER: personliness
       POSTGRES_PASSWORD: personliness
@@ -50,7 +50,7 @@ services:
     environment:
       DEBUG: "True"
       DJANGO_SECRET_KEY: "django-insecure-personliness-secret-key-for-development-only"
-      DJANGO_ALLOWED_HOSTS: "localhost,127.0.0.1,0.0.0.0"
+      DJANGO_ALLOWED_HOSTS: "localhost,127.0.0.1,0.0.0.0,web"
       POSTGRES_DB: personliness
       POSTGRES_USER: personliness
       POSTGRES_PASSWORD: personliness
@@ -63,6 +63,17 @@ services:
     depends_on:
       - db
       - redis
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - "3000:3000"
+    depends_on:
+      - web
     restart: unless-stopped
 
 volumes:

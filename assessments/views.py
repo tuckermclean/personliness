@@ -15,6 +15,7 @@ import json
 class QuestionListView(generics.ListAPIView):
     queryset = Question.objects.all()
     serializer_class = QuestionSerializer
+    permission_classes = [AllowAny]
 
 
 class SignupView(APIView):
