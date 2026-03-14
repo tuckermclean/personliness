@@ -2,11 +2,17 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { getLatestAssessment, getLatestMatches } from '../api'
 
-const CORE_DIMENSIONS = [
-  { key: 'strategic_intelligence', label: 'Strategic Intelligence', color: 'bg-blue-500' },
-  { key: 'leadership_influence', label: 'Leadership / Influence', color: 'bg-purple-500' },
-  { key: 'compassion_empathy', label: 'Compassion / Empathy', color: 'bg-pink-500' },
-  { key: 'courage_resilience', label: 'Courage / Resilience', color: 'bg-orange-500' },
+const DIMENSION_NAMES = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential']
+
+const HEINLEIN_TRAIT_NAMES = [
+  'Caregiving & Nurture', 'Strategic Planning & Command',
+  'Animal & Food Processing', 'Navigation & Wayfinding',
+  'Construction & Fabrication', 'Artistic & Cultural Expression',
+  'Numerical & Analytical Reasoning', 'Manual Craft & Repair',
+  'Medical Aid & Emergency Response', 'Leadership & Followership',
+  'Agricultural & Resource Management', 'Culinary Skill',
+  'Combat & Defense', 'Technical & Systemic Problem-Solving',
+  'Existential Composure',
 ]
 
 function ScoreBar({ label, value, maxValue = 10, color }) {
@@ -81,7 +87,7 @@ export default function Results() {
     )
   }
 
-  const { dimension_averages_0_10, heinlein_averages, overall } = assessment
+  const { trait_scores_0_3, dimension_averages_0_10, heinlein_averages, overall } = assessment
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
@@ -93,20 +99,20 @@ export default function Results() {
       {/* Overall Scores */}
       <div className="grid md:grid-cols-3 gap-6 mb-10">
         <div className="bg-gradient-to-br from-indigo-500 to-purple-600 text-white p-6 rounded-xl">
-          <h3 className="text-lg opacity-90 mb-1">Overall Score</h3>
-          <p className="text-4xl font-bold">{overall?.overall_normalized_equal_avg_0_10?.toFixed(1) || '—'}</p>
+          <h3 className="text-lg opacity-90 mb-1">Overall</h3>
+          <p className="text-4xl font-bold">{overall?.Overall_Normalized_Equal_Avg?.toFixed(1) || '—'}</p>
           <p className="text-sm opacity-75 mt-1">out of 10</p>
         </div>
 
         <div className="bg-gradient-to-br from-blue-500 to-cyan-500 text-white p-6 rounded-xl">
-          <h3 className="text-lg opacity-90 mb-1">Core Dimensions</h3>
-          <p className="text-4xl font-bold">{overall?.core_4d_avg_0_10?.toFixed(1) || '—'}</p>
+          <h3 className="text-lg opacity-90 mb-1">Core 4D</h3>
+          <p className="text-4xl font-bold">{overall?.Core_4D_Avg?.toFixed(1) || '—'}</p>
           <p className="text-sm opacity-75 mt-1">out of 10</p>
         </div>
 
         <div className="bg-gradient-to-br from-emerald-500 to-teal-500 text-white p-6 rounded-xl">
-          <h3 className="text-lg opacity-90 mb-1">General Competency</h3>
-          <p className="text-4xl font-bold">{overall?.general_competency_avg_0_10?.toFixed(1) || '—'}</p>
+          <h3 className="text-lg opacity-90 mb-1">Competency</h3>
+          <p className="text-4xl font-bold">{overall?.General_Competency_Avg_10scale?.toFixed(1) || '—'}</p>
           <p className="text-sm opacity-75 mt-1">out of 10</p>
         </div>
       </div>
@@ -115,28 +121,33 @@ export default function Results() {
         {/* Core Dimensions */}
         <div className="bg-white p-6 rounded-xl border border-slate-200">
           <h2 className="text-xl font-semibold mb-4">Core Dimensions</h2>
-          {dimension_averages_0_10?.core_4d && Object.entries(dimension_averages_0_10.core_4d).map(([key, value]) => (
-            <ScoreBar
-              key={key}
-              label={key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
-              value={value}
-              color="bg-indigo-500"
-            />
-          ))}
+          {dimension_averages_0_10 && DIMENSION_NAMES
+            .filter(name => dimension_averages_0_10[name] != null)
+            .map(name => (
+              <ScoreBar
+                key={name}
+                label={name}
+                value={dimension_averages_0_10[name]}
+                color="bg-indigo-500"
+              />
+            ))}
         </div>
 
         {/* Heinlein Competencies */}
         <div className="bg-white p-6 rounded-xl border border-slate-200">
-          <h2 className="text-xl font-semibold mb-4">Practical Competencies</h2>
+          <h2 className="text-xl font-semibold mb-4">Heinlein Competencies</h2>
           <div className="max-h-64 overflow-y-auto pr-2">
-            {heinlein_averages && Object.entries(heinlein_averages).slice(0, 10).map(([key, value]) => (
-              <ScoreBar
-                key={key}
-                label={key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
-                value={value}
-                color="bg-emerald-500"
-              />
-            ))}
+            {trait_scores_0_3 && HEINLEIN_TRAIT_NAMES
+              .filter(name => trait_scores_0_3[name] != null)
+              .map(name => (
+                <ScoreBar
+                  key={name}
+                  label={name}
+                  value={trait_scores_0_3[name]}
+                  maxValue={3}
+                  color="bg-emerald-500"
+                />
+              ))}
           </div>
         </div>
       </div>
