@@ -87,3 +87,9 @@ export async function getFigure(slug) {
   if (!response.ok) throw new Error('Failed to fetch figure')
   return response.json()
 }
+
+export async function getComparison(slug) {
+  const response = await fetchWithAuth(`/compare/${slug}/`)
+  if (!response.ok) throw new Error('Failed to fetch comparison')
+  return response.json()
+}

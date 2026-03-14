@@ -8,6 +8,7 @@ import Assessment from './pages/Assessment'
 import Results from './pages/Results'
 import Figures from './pages/Figures'
 import FigureDetail from './pages/FigureDetail'
+import Compare from './pages/Compare'
 
 function PrivateRoute({ children }) {
   const { user, loading } = useAuth()
@@ -42,6 +43,11 @@ function App() {
         } />
         <Route path="/figures" element={<Figures />} />
         <Route path="/figures/:slug" element={<FigureDetail />} />
+        <Route path="/compare/:slug" element={
+          <PrivateRoute>
+            <Compare />
+          </PrivateRoute>
+        } />
       </Routes>
     </Layout>
   )

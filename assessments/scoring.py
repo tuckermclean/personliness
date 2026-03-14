@@ -1,6 +1,9 @@
-import math
 from .models import Question
-from personliness.traits import CORE_TRAIT_NAMES, HEINLEIN_TRAIT_NAMES, ALL_TRAIT_NAMES, calculate_averages
+from figures.models import HistoricalFigure
+from personliness.traits import (
+    CORE_TRAIT_NAMES, HEINLEIN_TRAIT_NAMES, ALL_TRAIT_NAMES,
+    CORE_DIMENSIONS, DIMENSION_NAMES, calculate_averages,
+)
 
 
 def calculate_scores(answers):
@@ -61,56 +64,140 @@ def calculate_scores(answers):
     }
 
 
-def calculate_similarity(user_scores, figure_scores):
+def flatten_figure_scores(score_json):
     """
-    Calculate cosine similarity between user and figure scores.
-
-    Args:
-        user_scores (dict): Trait scores for user
-        figure_scores (dict): Trait scores for figure (from score_json)
-
-    Returns:
-        float: Cosine similarity between 0 and 1
+    Extract a flat {trait_name: score_0_3} dict from a figure's nested score_json.
     """
-    # Extract all trait keys
-    all_traits = set(user_scores.keys()) | set(figure_scores.get('core', {}).keys())
+    flat = {}
 
-    # For figure scores, we need to extract from the nested structure
-    figure_core = figure_scores.get('core', {})
-    figure_heinlein = figure_scores.get('heinlein_competency', {})
-
-    # Flatten figure scores
-    flat_figure_scores = {}
-
-    # Extract core scores
-    for dimension, traits in figure_core.items():
-        if isinstance(traits, dict) and dimension != 'dimension_averages_0_10':
+    core = score_json.get('core', {})
+    for dimension in DIMENSION_NAMES:
+        traits = core.get(dimension, {})
+        if isinstance(traits, dict):
             for trait_name, trait_data in traits.items():
                 if isinstance(trait_data, dict) and 'score_0_3' in trait_data:
-                    flat_figure_scores[trait_name] = trait_data['score_0_3']
+                    flat[trait_name] = trait_data['score_0_3']
 
-    # Extract Heinlein scores
-    for trait_name, trait_data in figure_heinlein.items():
+    heinlein = score_json.get('heinlein_competency', {})
+    for trait_name, trait_data in heinlein.items():
         if isinstance(trait_data, dict) and 'score_0_3' in trait_data and trait_name != 'averages':
-            flat_figure_scores[trait_name] = trait_data['score_0_3']
+            flat[trait_name] = trait_data['score_0_3']
 
-    # Create vectors
-    user_vector = []
-    figure_vector = []
+    return flat
 
-    for trait in all_traits:
-        user_val = user_scores.get(trait, 0)
-        figure_val = flat_figure_scores.get(trait, 0)
 
-        user_vector.append(user_val)
-        figure_vector.append(figure_val)
+def calculate_match(user_scores, figure_score_json):
+    """
+    Calculate a rich match breakdown between user trait scores and a figure's score_json.
 
-    # Calculate cosine similarity
-    dot_product = sum(u * f for u, f in zip(user_vector, figure_vector))
-    magnitude_user = math.sqrt(sum(u * u for u in user_vector))
-    magnitude_figure = math.sqrt(sum(f * f for f in figure_vector))
+    Uses normalized mean absolute difference:
+      per-trait dissimilarity = |user - figure| / 3   (scores are 0-3)
+      similarity = 1 - mean(dissimilarities)
 
-    if magnitude_user == 0 or magnitude_figure == 0:
-        return 0
+    Returns dict with overall_similarity, core_similarity, heinlein_similarity,
+    per-dimension similarities, signed trait deltas, shared strengths, and key differences.
+    """
+    figure_scores = flatten_figure_scores(figure_score_json)
 
-    return dot_product / (magnitude_user * magnitude_figure)
+    # Per-trait deltas and dissimilarities
+    trait_deltas = {}
+    core_dissimilarities = []
+    heinlein_dissimilarities = []
+    dimension_dissimilarities = {dim: [] for dim in DIMENSION_NAMES}
+
+    for trait in CORE_TRAIT_NAMES:
+        u = user_scores.get(trait, 0)
+        f = figure_scores.get(trait, 0)
+        delta = u - f
+        trait_deltas[trait] = round(delta, 2)
+        dissim = abs(delta) / 3
+        core_dissimilarities.append(dissim)
+        # File into dimension
+        for dim, dim_traits in CORE_DIMENSIONS.items():
+            if trait in dim_traits:
+                dimension_dissimilarities[dim].append(dissim)
+                break
+
+    for trait in HEINLEIN_TRAIT_NAMES:
+        u = user_scores.get(trait, 0)
+        f = figure_scores.get(trait, 0)
+        delta = u - f
+        trait_deltas[trait] = round(delta, 2)
+        dissim = abs(delta) / 3
+        heinlein_dissimilarities.append(dissim)
+
+    # Similarities
+    core_similarity = 1 - (sum(core_dissimilarities) / len(core_dissimilarities)) if core_dissimilarities else 0
+    heinlein_similarity = 1 - (sum(heinlein_dissimilarities) / len(heinlein_dissimilarities)) if heinlein_dissimilarities else 0
+
+    # Overall: weighted 4:1 core:heinlein (matching the overall score weighting)
+    overall_similarity = (core_similarity * 4 + heinlein_similarity) / 5
+
+    # Per-dimension similarities
+    dimensions = {}
+    for dim, dissims in dimension_dissimilarities.items():
+        if dissims:
+            dimensions[dim] = round(1 - (sum(dissims) / len(dissims)), 4)
+        else:
+            dimensions[dim] = 0
+
+    # Shared strengths: both score >= 2.0, sorted by average score descending
+    shared_strengths = []
+    for trait in ALL_TRAIT_NAMES:
+        u = user_scores.get(trait, 0)
+        f = figure_scores.get(trait, 0)
+        if u >= 2.0 and f >= 2.0:
+            shared_strengths.append({
+                'trait': trait,
+                'user_score': round(u, 2),
+                'figure_score': round(f, 2),
+                'avg': round((u + f) / 2, 2),
+            })
+    shared_strengths.sort(key=lambda x: x['avg'], reverse=True)
+
+    # Key differences: |delta| >= 1.0, sorted by |delta| descending
+    key_differences = []
+    for trait, delta in trait_deltas.items():
+        if abs(delta) >= 1.0:
+            key_differences.append({
+                'trait': trait,
+                'delta': delta,
+                'user_score': round(user_scores.get(trait, 0), 2),
+                'figure_score': round(figure_scores.get(trait, 0), 2),
+            })
+    key_differences.sort(key=lambda x: abs(x['delta']), reverse=True)
+
+    return {
+        'overall_similarity': round(overall_similarity, 4),
+        'core_similarity': round(core_similarity, 4),
+        'heinlein_similarity': round(heinlein_similarity, 4),
+        'dimensions': dimensions,
+        'trait_deltas': trait_deltas,
+        'shared_strengths': shared_strengths,
+        'key_differences': key_differences,
+    }
+
+
+def rank_matches(user_scores, top_n=10):
+    """
+    Compare user scores against all historical figures and return top N matches.
+
+    Each entry includes figure metadata alongside the full match breakdown.
+    """
+    figures = HistoricalFigure.objects.all()
+    results = []
+
+    for figure in figures:
+        if not figure.score_json:
+            continue
+        match = calculate_match(user_scores, figure.score_json)
+        results.append({
+            'figure_id': figure.id,
+            'figure_name': figure.name,
+            'figure_slug': figure.slug,
+            'bio_short': figure.bio_short,
+            **match,
+        })
+
+    results.sort(key=lambda x: x['overall_similarity'], reverse=True)
+    return results[:top_n]

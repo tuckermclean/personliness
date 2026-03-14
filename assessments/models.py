@@ -23,6 +23,7 @@ class AssessmentSubmission(models.Model):
     overall = models.JSONField()
     best_match_figure = models.ForeignKey('figures.HistoricalFigure', on_delete=models.SET_NULL, null=True, blank=True)
     best_match_similarity = models.FloatField(null=True, blank=True)
+    match_results = models.JSONField(null=True, blank=True)
 
     def __str__(self):
         return f"{self.user.username} - {self.created_at}"

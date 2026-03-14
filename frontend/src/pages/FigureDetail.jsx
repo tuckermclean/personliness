@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getFigure } from '../api'
 
+const isLoggedIn = () => !!localStorage.getItem('access_token')
+
 function ScoreBar({ label, value, maxValue = 3, color = 'bg-indigo-500' }) {
   const percentage = (value / maxValue) * 100
   return (
@@ -102,8 +104,20 @@ export default function FigureDetail() {
 
       {/* Header */}
       <div className="bg-white p-8 rounded-xl border border-slate-200 mb-8">
-        <h1 className="text-3xl font-bold mb-2">{figure.name}</h1>
-        <p className="text-lg text-slate-600 mb-6">{figure.bio_short}</p>
+        <div className="flex items-start justify-between flex-wrap gap-4 mb-6">
+          <div>
+            <h1 className="text-3xl font-bold mb-2">{figure.name}</h1>
+            <p className="text-lg text-slate-600">{figure.bio_short}</p>
+          </div>
+          {isLoggedIn() && (
+            <Link
+              to={`/compare/${slug}`}
+              className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition whitespace-nowrap"
+            >
+              Compare with me
+            </Link>
+          )}
+        </div>
 
         {/* Overall Scores */}
         <div className="grid grid-cols-3 gap-4 mb-6">

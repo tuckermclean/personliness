@@ -8,5 +8,6 @@ urlpatterns = [
     path('assessments/latest/', views.LatestAssessmentView.as_view(), name='latest-assessment'),
     path('assessments/<int:pk>/', views.AssessmentDetailView.as_view(), name='assessment-detail'),
     path('matches/latest/', views.LatestMatchesView.as_view(), name='latest-matches'),
+    path('compare/<slug:slug>/', views.CompareView.as_view(), name='compare'),
     path('auth/signup/', views.SignupView.as_view(), name='signup'),
 ]
