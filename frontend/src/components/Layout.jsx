@@ -28,9 +28,6 @@ export default function Layout({ children }) {
                 <Link to="/assessment" className="text-slate-600 hover:text-slate-900">
                   Assessment
                 </Link>
-                <Link to="/results" className="text-slate-600 hover:text-slate-900">
-                  Results
-                </Link>
                 <span className="text-slate-500">|</span>
                 <span className="text-slate-600">{user.username}</span>
                 <button

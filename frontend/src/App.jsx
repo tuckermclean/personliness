@@ -5,7 +5,6 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Assessment from './pages/Assessment'
-import Results from './pages/Results'
 import Figures from './pages/Figures'
 import FigureDetail from './pages/FigureDetail'
 import Compare from './pages/Compare'
@@ -36,11 +35,7 @@ function App() {
             <Assessment />
           </PrivateRoute>
         } />
-        <Route path="/results" element={
-          <PrivateRoute>
-            <Results />
-          </PrivateRoute>
-        } />
+        <Route path="/results" element={<Navigate to="/assessment" />} />
         <Route path="/figures" element={<Figures />} />
         <Route path="/figures/:slug" element={<FigureDetail />} />
         <Route path="/compare/:slug" element={
