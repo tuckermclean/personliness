@@ -13,6 +13,7 @@ OPENSEARCH_URL = (
     "?action=opensearch&limit=1&format=json&search={}"
 )
 SUMMARY_URL = "https://en.wikipedia.org/api/rest_v1/page/summary/{}"
+USER_AGENT = "personliness/1.0 (educational research tool)"
 
 
 def resolve_figure_name(figure_name, timeout=5):
@@ -31,7 +32,8 @@ def resolve_figure_name(figure_name, timeout=5):
     # Step 1: opensearch → canonical article title
     try:
         url = OPENSEARCH_URL.format(urllib.parse.quote(name))
-        with urllib.request.urlopen(url, timeout=timeout) as resp:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
             data = json.loads(resp.read())
         titles = data[1]
         if not titles:
@@ -44,7 +46,8 @@ def resolve_figure_name(figure_name, timeout=5):
     # Step 2: page summary → canonical title + extract + thumbnail
     try:
         url = SUMMARY_URL.format(urllib.parse.quote(canonical, safe=''))
-        with urllib.request.urlopen(url, timeout=timeout) as resp:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
             summary = json.loads(resp.read())
         result['canonical_name'] = summary.get('title', canonical)
         result['extract'] = summary.get('extract') or None

@@ -65,6 +65,7 @@ services:
       LLM_ACTIVE_CONFIG: "${LLM_ACTIVE_CONFIG:-openai-o3}"
       LLM_OPENAI_API_KEY: "${LLM_OPENAI_API_KEY}"
       LLM_ANTHROPIC_API_KEY: "${LLM_ANTHROPIC_API_KEY}"
+      LLM_ENABLE_REFINEMENT: "${LLM_ENABLE_REFINEMENT:-True}"
       # Legacy flat vars (backwards compat — ignored if LLM_ACTIVE_CONFIG is set)
       LLM_API_KEY: "${LLM_API_KEY}"
       LLM_MODEL: "${LLM_MODEL}"

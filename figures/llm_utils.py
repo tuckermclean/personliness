@@ -89,8 +89,7 @@ def get_active_llm_config():
     }
 
 
-def call_anthropic_extended_thinking(api_key, model, prompt, system_message,
-                                     budget_tokens=8000):
+def call_anthropic_extended_thinking(api_key, model, prompt, system_message):
     """
     Call Anthropic SDK with extended thinking enabled.
     Returns (text_content, thinking_content) tuple.
@@ -100,8 +99,8 @@ def call_anthropic_extended_thinking(api_key, model, prompt, system_message,
     client = anthropic.Anthropic(api_key=api_key)
     response = client.messages.create(
         model=model,
-        max_tokens=budget_tokens + 4000,
-        thinking={"type": "enabled", "budget_tokens": budget_tokens},
+        max_tokens=16000,
+        thinking={"type": "adaptive"},
         system=system_message,
         messages=[{"role": "user", "content": prompt}],
     )

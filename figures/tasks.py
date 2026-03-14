@@ -129,7 +129,7 @@ def _execute_refinement_pass(client, llm_model, is_reasoning_model, prompt,
     if extended_thinking:
         try:
             text, thinking = call_anthropic_extended_thinking(
-                llm_api_key, llm_model, prompt, SYSTEM, thinking_budget)
+                llm_api_key, llm_model, prompt, SYSTEM)
             if thinking_log is not None and pass_label:
                 thinking_log.append({"pass": pass_label, "thinking": thinking})
             return extract_json_from_response(text)
@@ -735,7 +735,9 @@ def process_single_figure(request_id):
         image_content = None
         if wiki['image_url']:
             try:
-                with urllib.request.urlopen(wiki['image_url'], timeout=10) as resp:
+                from .wikipedia_utils import USER_AGENT
+                req = urllib.request.Request(wiki['image_url'], headers={"User-Agent": USER_AGENT})
+                with urllib.request.urlopen(req, timeout=10) as resp:
                     image_bytes = resp.read()
                 image_filename = wiki['image_url'].split('/')[-1].split('?')[0] or 'figure.jpg'
                 image_content = ContentFile(image_bytes, name=image_filename)
@@ -757,7 +759,7 @@ def process_single_figure(request_id):
             ingestion_request.save(update_fields=['status', 'error'])
             return
 
-        prompt = f"{RUBRIC_PROMPT}\n\nBiography:\n{biography_text}"
+        prompt = f"{RUBRIC_PROMPT}\n\nFigure: {figure_name}\n\nBiography:\n{biography_text}"
 
         # Call the LLM
         llm_cfg = get_active_llm_config()
@@ -774,7 +776,7 @@ def process_single_figure(request_id):
         if extended_thinking:
             # --- Anthropic extended-thinking path ---
             text, thinking = call_anthropic_extended_thinking(
-                llm_api_key, llm_model, prompt, SYSTEM, thinking_budget)
+                llm_api_key, llm_model, prompt, SYSTEM)
             thinking_log.append({"pass": "initial", "thinking": thinking})
 
             try:
@@ -786,8 +788,7 @@ def process_single_figure(request_id):
                 )
                 text, thinking = call_anthropic_extended_thinking(
                     llm_api_key, llm_model, repair_prompt,
-                    "You are a careful historical rater. Return ONLY valid JSON matching the schema.",
-                    thinking_budget)
+                    "You are a careful historical rater. Return ONLY valid JSON matching the schema.")
                 thinking_log.append({"pass": "repair", "thinking": thinking})
                 score_json = extract_json_from_response(text)
                 if score_json is None:
@@ -912,9 +913,8 @@ def process_single_figure(request_id):
         logger.info(f"Successfully processed figure: {ingestion_request.figure_name}")
 
     except Exception as exc:
-        # Update ingestion request with error - will be retried on next queue run
-        ingestion_request.status = 'pending'  # Keep as pending so it gets retried
-        ingestion_request.error = str(exc)[:500]  # Limit error message length
-        ingestion_request.save()
+        ingestion_request.status = 'failed'
+        ingestion_request.error = str(exc)[:500]
+        ingestion_request.save(update_fields=['status', 'error'])
 
         logger.error(f"Failed to process figure {ingestion_request.figure_name}: {exc}")
