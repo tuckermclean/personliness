@@ -714,6 +714,14 @@ def process_single_figure(request_id):
 
     logger.info(f"Processing figure: {ingestion_request.figure_name}")
 
+    # If a previous result figure exists (re-run scenario), delete it before proceeding
+    if ingestion_request.result_figure_id:
+        old_figure = ingestion_request.result_figure
+        ingestion_request.result_figure = None
+        ingestion_request.save(update_fields=['result_figure'])
+        old_figure.delete()
+        logger.info(f"Deleted stale result figure for re-run of request {request_id}")
+
     # Update status to running
     ingestion_request.status = 'running'
     ingestion_request.save()
