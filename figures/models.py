@@ -36,6 +36,8 @@ class FigureIngestionRequest(models.Model):
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='pending')
     error = models.TextField(null=True, blank=True)
     result_figure = models.ForeignKey(HistoricalFigure, on_delete=models.SET_NULL, null=True, blank=True)
+    thinking_log = models.JSONField(null=True, blank=True)
+    # Stores list of {"pass": str, "thinking": str} dicts from extended-thinking LLM calls
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 

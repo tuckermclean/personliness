@@ -4,7 +4,7 @@ import openai
 import json
 import logging
 from .models import FigureIngestionRequest, HistoricalFigure
-from .llm_utils import extract_json_from_response, build_llm_request_params, call_llm_for_json, get_active_llm_config
+from .llm_utils import extract_json_from_response, build_llm_request_params, call_llm_for_json, get_active_llm_config, call_anthropic_extended_thinking
 from personliness.traits import get_all_trait_paths, CORE_DIMENSIONS, HEINLEIN_TRAIT_NAMES, calculate_averages
 from django.utils.text import slugify
 
@@ -115,16 +115,31 @@ Include ALL {len(low_confidence_traits)} traits listed above in your response, u
     return prompt
 
 
-def _execute_refinement_pass(client, llm_model, is_reasoning_model, prompt):
+def _execute_refinement_pass(client, llm_model, is_reasoning_model, prompt,
+                             extended_thinking=False, llm_api_key=None,
+                             thinking_budget=8000, thinking_log=None, pass_label=None):
     """
     Makes LLM call for refinement and returns parsed JSON or None on failure.
+    When extended_thinking is True, uses Anthropic SDK and appends to thinking_log.
     """
-    return call_llm_for_json(
-        client, llm_model, is_reasoning_model, prompt,
-        system_message="You are a careful historical rater performing a refinement pass.",
-        max_completion_tokens=8000,
-        temperature=0.2,
-    )
+    SYSTEM = "You are a careful historical rater performing a refinement pass."
+    if extended_thinking:
+        try:
+            text, thinking = call_anthropic_extended_thinking(
+                llm_api_key, llm_model, prompt, SYSTEM, thinking_budget)
+            if thinking_log is not None and pass_label:
+                thinking_log.append({"pass": pass_label, "thinking": thinking})
+            return extract_json_from_response(text)
+        except (json.JSONDecodeError, Exception) as e:
+            logger.warning(f"Extended-thinking refinement pass failed: {e}")
+            return None
+    else:
+        return call_llm_for_json(
+            client, llm_model, is_reasoning_model, prompt,
+            system_message=SYSTEM,
+            max_completion_tokens=8000,
+            temperature=0.2,
+        )
 
 
 def _merge_refined_scores(score_json, refined_data, low_confidence_traits):
@@ -203,7 +218,9 @@ def _recalculate_averages(score_json):
     return score_json
 
 
-def _perform_confidence_refinement(score_json, figure_name, biography_text, client, llm_model, is_reasoning_model):
+def _perform_confidence_refinement(score_json, figure_name, biography_text, client, llm_model, is_reasoning_model,
+                                   extended_thinking=False, llm_api_key=None,
+                                   thinking_budget=8000, thinking_log=None):
     """
     Orchestrates the refinement loop for improving trait confidence.
     Returns the refined score_json with metadata.
@@ -255,7 +272,12 @@ def _perform_confidence_refinement(score_json, figure_name, biography_text, clie
 
         # Build and execute refinement prompt
         prompt = _build_refinement_prompt(figure_name, biography_text, low_confidence_traits)
-        refined_data = _execute_refinement_pass(client, llm_model, is_reasoning_model, prompt)
+        refined_data = _execute_refinement_pass(
+            client, llm_model, is_reasoning_model, prompt,
+            extended_thinking=extended_thinking, llm_api_key=llm_api_key,
+            thinking_budget=thinking_budget, thinking_log=thinking_log,
+            pass_label=f"refinement_{pass_num}",
+        )
 
         if refined_data is None:
             logger.warning(f"Refinement pass {pass_num} failed, skipping")
@@ -700,39 +722,39 @@ def process_single_figure(request_id):
 
         # Call the LLM
         llm_cfg = get_active_llm_config()
-        llm_base_url       = llm_cfg['base_url']
-        llm_api_key        = llm_cfg['api_key']
-        llm_model          = llm_cfg['model']
-        is_reasoning_model = llm_cfg['is_reasoning']
+        llm_base_url        = llm_cfg['base_url']
+        llm_api_key         = llm_cfg['api_key']
+        llm_model           = llm_cfg['model']
+        is_reasoning_model  = llm_cfg['is_reasoning']
+        extended_thinking   = llm_cfg['extended_thinking']
+        thinking_budget     = llm_cfg['thinking_budget_tokens']
+        thinking_log        = []
 
-        # Create fresh OpenAI client for this task
-        with openai.OpenAI(
-            base_url=llm_base_url,
-            api_key=llm_api_key
-        ) as client:
-            # Initial LLM call
-            request_params = build_llm_request_params(
-                llm_model, is_reasoning_model, prompt,
-                temperature=0.3,
-            )
-            response = client.chat.completions.create(**request_params)
-            response_text = response.choices[0].message.content.strip()
+        SYSTEM = "You are a careful historical rater."
 
-            # Try to extract JSON from the response
+        if extended_thinking:
+            # --- Anthropic extended-thinking path ---
+            text, thinking = call_anthropic_extended_thinking(
+                llm_api_key, llm_model, prompt, SYSTEM, thinking_budget)
+            thinking_log.append({"pass": "initial", "thinking": thinking})
+
             try:
-                score_json = extract_json_from_response(response_text)
+                score_json = extract_json_from_response(text)
             except json.JSONDecodeError:
-                # If parsing fails, try with a repair prompt
-                repair_prompt = f"The following response was not valid JSON. Please return ONLY valid JSON matching the schema:\n\n{response_text}"
-                score_json = call_llm_for_json(
-                    client, llm_model, is_reasoning_model, repair_prompt,
-                    system_message="You are a careful historical rater. Return ONLY valid JSON matching the schema.",
-                    temperature=0.2,
+                repair_prompt = (
+                    "The following response was not valid JSON. "
+                    "Please return ONLY valid JSON matching the schema:\n\n" + text
                 )
+                text, thinking = call_anthropic_extended_thinking(
+                    llm_api_key, llm_model, repair_prompt,
+                    "You are a careful historical rater. Return ONLY valid JSON matching the schema.",
+                    thinking_budget)
+                thinking_log.append({"pass": "repair", "thinking": thinking})
+                score_json = extract_json_from_response(text)
                 if score_json is None:
-                    raise ValueError(f"Could not parse JSON from LLM response: {response_text[:200]}...")
+                    raise ValueError(f"Could not parse JSON from LLM response after repair: {text[:200]}...")
 
-            # Validate the JSON structure (basic validation)
+            # Validate the JSON structure
             if 'figure' not in score_json or 'core' not in score_json or 'heinlein_competency' not in score_json:
                 raise ValueError("Invalid JSON structure from LLM")
 
@@ -742,12 +764,15 @@ def process_single_figure(request_id):
                     score_json=score_json,
                     figure_name=ingestion_request.figure_name,
                     biography_text=biography_text,
-                    client=client,
+                    client=None,
                     llm_model=llm_model,
-                    is_reasoning_model=is_reasoning_model
+                    is_reasoning_model=is_reasoning_model,
+                    extended_thinking=True,
+                    llm_api_key=llm_api_key,
+                    thinking_budget=thinking_budget,
+                    thinking_log=thinking_log,
                 )
             except Exception as refinement_exc:
-                # Refinement failure should never block ingestion - log and continue with original scores
                 logger.warning(f"Confidence refinement failed, using original scores: {refinement_exc}")
                 score_json['_refinement_metadata'] = {
                     'enabled': True,
@@ -755,7 +780,56 @@ def process_single_figure(request_id):
                     'passes_executed': 0
                 }
 
-        # Client is now closed - proceed with database operations outside the context manager
+        else:
+            # --- OpenAI / standard path ---
+            with openai.OpenAI(
+                base_url=llm_base_url,
+                api_key=llm_api_key
+            ) as client:
+                # Initial LLM call
+                request_params = build_llm_request_params(
+                    llm_model, is_reasoning_model, prompt,
+                    temperature=0.3,
+                )
+                response = client.chat.completions.create(**request_params)
+                response_text = response.choices[0].message.content.strip()
+
+                # Try to extract JSON from the response
+                try:
+                    score_json = extract_json_from_response(response_text)
+                except json.JSONDecodeError:
+                    repair_prompt = f"The following response was not valid JSON. Please return ONLY valid JSON matching the schema:\n\n{response_text}"
+                    score_json = call_llm_for_json(
+                        client, llm_model, is_reasoning_model, repair_prompt,
+                        system_message="You are a careful historical rater. Return ONLY valid JSON matching the schema.",
+                        temperature=0.2,
+                    )
+                    if score_json is None:
+                        raise ValueError(f"Could not parse JSON from LLM response: {response_text[:200]}...")
+
+                # Validate the JSON structure (basic validation)
+                if 'figure' not in score_json or 'core' not in score_json or 'heinlein_competency' not in score_json:
+                    raise ValueError("Invalid JSON structure from LLM")
+
+                # Perform confidence refinement if enabled
+                try:
+                    score_json = _perform_confidence_refinement(
+                        score_json=score_json,
+                        figure_name=ingestion_request.figure_name,
+                        biography_text=biography_text,
+                        client=client,
+                        llm_model=llm_model,
+                        is_reasoning_model=is_reasoning_model,
+                    )
+                except Exception as refinement_exc:
+                    logger.warning(f"Confidence refinement failed, using original scores: {refinement_exc}")
+                    score_json['_refinement_metadata'] = {
+                        'enabled': True,
+                        'error': str(refinement_exc)[:200],
+                        'passes_executed': 0
+                    }
+
+        # Proceed with database operations
 
         # Create bio_short from summary (max 600 chars)
         bio_short = score_json.get('summary', '')[:600]
@@ -791,6 +865,7 @@ def process_single_figure(request_id):
         # Update ingestion request
         ingestion_request.status = 'succeeded'
         ingestion_request.result_figure = figure
+        ingestion_request.thinking_log = thinking_log if thinking_log else None
         ingestion_request.save()
 
         logger.info(f"Successfully processed figure: {ingestion_request.figure_name}")

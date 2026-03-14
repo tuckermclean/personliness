@@ -197,6 +197,8 @@ LLM_CONFIGS = {
         'api_key_env': 'LLM_ANTHROPIC_API_KEY',
         'model': os.environ.get('LLM_ANTHROPIC_MODEL', 'claude-opus-4-6'),
         'is_reasoning': False,
+        'extended_thinking': True,
+        'thinking_budget_tokens': 8000,
     },
     'ollama': {
         'base_url': os.environ.get('LLM_OLLAMA_BASE_URL', 'http://ollama:11434/v1'),

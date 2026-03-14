@@ -84,7 +84,30 @@ def get_active_llm_config():
         'api_key': api_key,
         'model': profile['model'],
         'is_reasoning': is_reasoning,
+        'extended_thinking': profile.get('extended_thinking', False),
+        'thinking_budget_tokens': profile.get('thinking_budget_tokens', 8000),
     }
+
+
+def call_anthropic_extended_thinking(api_key, model, prompt, system_message,
+                                     budget_tokens=8000):
+    """
+    Call Anthropic SDK with extended thinking enabled.
+    Returns (text_content, thinking_content) tuple.
+    thinking_content is the raw thinking text (for admin logging only).
+    """
+    import anthropic
+    client = anthropic.Anthropic(api_key=api_key)
+    response = client.messages.create(
+        model=model,
+        max_tokens=budget_tokens + 4000,
+        thinking={"type": "enabled", "budget_tokens": budget_tokens},
+        system=system_message,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    text = "\n".join(b.text for b in response.content if b.type == "text")
+    thinking = "\n".join(b.thinking for b in response.content if b.type == "thinking")
+    return text, thinking
 
 
 def call_llm_for_json(client, model, is_reasoning, prompt, **kwargs):

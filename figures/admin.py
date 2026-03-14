@@ -16,4 +16,4 @@ class FigureIngestionRequestAdmin(admin.ModelAdmin):
     list_display = ('figure_name', 'status', 'requested_by', 'created_at')
     list_filter = ('status', 'created_at')
     search_fields = ('figure_name', 'requested_by__username')
-    readonly_fields = ('created_at', 'updated_at')
+    readonly_fields = ('created_at', 'updated_at', 'thinking_log')

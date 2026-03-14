@@ -11,3 +11,4 @@ pytest-django>=4.11.1
 django-cors-headers>=4.9.0
 coreapi>=2.3.3
 openai>=2.15.0
+anthropic>=0.40.0
