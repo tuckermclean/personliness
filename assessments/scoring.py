@@ -130,8 +130,8 @@ def calculate_match(user_scores, figure_score_json):
     core_similarity = 1 - (sum(core_dissimilarities) / len(core_dissimilarities)) if core_dissimilarities else 0
     heinlein_similarity = 1 - (sum(heinlein_dissimilarities) / len(heinlein_dissimilarities)) if heinlein_dissimilarities else 0
 
-    # Overall: weighted 4:1 core:heinlein (matching the overall score weighting)
-    overall_similarity = (core_similarity * 4 + heinlein_similarity) / 5
+    # Overall: weighted 5:1 core:heinlein (matching the overall score weighting)
+    overall_similarity = (core_similarity * 5 + heinlein_similarity) / 6
 
     # Per-dimension similarities
     dimensions = {}

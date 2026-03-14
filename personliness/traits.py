@@ -13,7 +13,6 @@ CORE_DIMENSIONS = {
         'Compassion / Empathy',
         'Courage / Resilience',
         'Justice Orientation',
-        'Ambition / Self-Assertion',
         'Moral Fallibility & Growth',
     ],
     'Cultural-Social': [
@@ -29,6 +28,11 @@ CORE_DIMENSIONS = {
         'Joy / Play / Aesthetic Appreciation',
         'Mortality Acceptance',
         'Paradox Integration',
+    ],
+    'Relational': [
+        'Spousal / Partner Quality',
+        'Parental / Mentoring Quality',
+        'Relational Range',
     ],
 }
 
@@ -90,10 +94,10 @@ def calculate_averages(trait_scores_0_3):
         avg_0_3 = sum(scores) / len(scores) if scores else 0
         dimension_averages_0_10[dimension] = round(avg_0_3 * (10 / 3), 2)
 
-    core_4d_avg = round(
-        sum(dimension_averages_0_10.values()) / len(dimension_averages_0_10), 2
+    core_5d_avg = round(
+        sum(dimension_averages_0_10.values()) / 5, 2
     )
-    dimension_averages_0_10['Core_4D_Avg'] = core_4d_avg
+    dimension_averages_0_10['Core_5D_Avg'] = core_5d_avg
 
     # Heinlein averages
     heinlein_scores = [trait_scores_0_3.get(t, 0) for t in HEINLEIN_TRAIT_NAMES]
@@ -106,9 +110,9 @@ def calculate_averages(trait_scores_0_3):
     }
 
     # Overall
-    overall_normalized = (core_4d_avg * 4 + round(general_avg_10scale, 2)) / 5
+    overall_normalized = (core_5d_avg * 5 + round(general_avg_10scale, 2)) / 6
     overall = {
-        'Core_4D_Avg': core_4d_avg,
+        'Core_5D_Avg': core_5d_avg,
         'General_Competency_Avg_10scale': round(general_avg_10scale, 2),
         'Overall_Normalized_Equal_Avg': round(overall_normalized, 2),
     }

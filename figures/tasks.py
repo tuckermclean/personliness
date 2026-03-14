@@ -328,190 +328,141 @@ def _perform_confidence_refinement(score_json, figure_name, biography_text, clie
     return score_json
 
 # LLM Rubric Prompt
-RUBRIC_PROMPT = """Prompt: Compute Personliness & General Competency Scores for a Historical Figure
+RUBRIC_PROMPT = """You are a careful historical rater.
 
-You are a careful historical rater.
+Your job is to assign evidence-backed scores for a single historical figure using the rubric below. Follow every instruction exactly.
 
-Your job is to assign evidence‑backed scores for a single historical figure using the rubric below. Follow every instruction exactly.
+---
 
-Scales
+## Scales
 
 Core sub-traits: score 0–3
 
-0 = absent/negligible; 1 = weak/occasional; 2 = moderate/consistent; 3 = exceptional/defining
+| Score | Meaning | Anchor |
+|-------|---------|--------|
+| 0 | Absent / negligible | No credible evidence of this trait in the historical record. |
+| 1 | Weak / occasional | Trait appears episodically or in limited contexts; not a defining feature. |
+| 2 | Moderate / consistent | Trait is clearly present across multiple life-domains or periods; would be notable among peers. |
+| 3 | Exceptional / defining | Among the strongest known exemplars of this trait in the historical record; a primary reason the figure is remembered. |
+
+Heinlein Competency domains: same 0–3 scale and anchors.
 
 Convert to 0–10 only at the aggregation step.
 
+---
 
-Heinlein Competency domains: score 0–3 (same meaning as above).
+## Evidence & Uncertainty Rules
 
-
-Evidence & uncertainty
-
-Each sub-trait/domain must include a short justification (1–3 sentences) referencing specific evidence (events, works, policies, campaigns, writings).
-
-Add 1–3 citations (book/article/primary source) when possible; if none are handy, write "(no citation)" and lower confidence.
-
-Include a confidence value for each score: High / Medium / Low.
-
-Normalize judgments by era/role (don't penalize ancient figures for not "programming a computer"; judge "cutting‑edge tech" relative to their time).
-
-
+1. Each sub-trait/domain must include a justification of 1–3 sentences referencing specific evidence (events, works, policies, campaigns, writings, named relationships).
+2. Vague justifications (e.g., "was known to be brave") score no higher than 1 regardless of reputation. The evidence must name a specific event, decision, or documented behavior.
+3. Add 1–3 citations (book/article/primary source) when possible; if none are handy, write "(no citation)" and cap confidence at Medium.
+4. Include a confidence value for each score: High / Medium / Low.
+5. Era normalization: Score relative to the practical ceiling available in the figure's time, geography, and social position. Do not penalize ancient figures for lacking modern capabilities.
+6. Anti-halo rule: A figure's fame in one domain must not inflate scores in unrelated domains. Each sub-trait is scored independently.
+7. Source-critical rule: When the primary sources are hagiographic, partisan, or written long after events, note this in the justification and cap confidence at Medium unless corroborated by independent sources.
 
 ---
 
-RUBRIC (Definitions)
+## RUBRIC: Section A — Core Dimensions & Sub-Traits (21 total)
 
-A) Core Dimensions & Sub-Traits (19 total)
+### 1. Cognitive (4 sub-traits)
 
-1) Cognitive
+1. Strategic Intelligence — Ability to foresee multiple outcomes, adapt plans, and manage uncertainty. Score 3 requires documented cases of successful adaptation when initial plans failed.
 
-1. Strategic Intelligence – Ability to foresee multiple outcomes, adapt plans, and manage uncertainty.
+2. Ethical / Philosophical Insight — Depth and coherence in moral or metaphysical reasoning. Score 3 requires articulation of principles that influenced thinkers beyond the figure's own community or era.
 
+3. Creative / Innovative Thinking — Generation of novel ideas, solutions, or perspectives that changed thinking or practice. Score 3 requires demonstrable paradigm shift attributable to this figure.
 
-2. Ethical / Philosophical Insight – Depth and coherence in moral or metaphysical reasoning.
+4. Administrative / Legislative Skill — Designing, organizing, and sustaining systems, policies, or laws. Score 3 requires systems that functioned and endured beyond the figure's direct oversight.
 
+### 2. Moral-Affective (4 sub-traits)
 
-3. Creative / Innovative Thinking – Generation of novel ideas, solutions, or perspectives that change thinking or practice.
+5. Compassion / Empathy — Genuine concern for the well-being of others, expressed in tangible acts. Score 3 requires documented acts of compassion toward adversaries or outgroup members.
 
+6. Courage / Resilience — Willingness to face danger or hardship in service of a cause. Score 3 requires sustained courage across multiple high-stakes situations.
 
-4. Administrative / Legislative Skill – Designing, organizing, and sustaining systems, policies, or laws.
+7. Justice Orientation — Commitment to fairness, equity, and impartiality in action or policy. Score 3 requires documented cases of ruling against personal or group interest in favor of principle.
 
+8. Moral Fallibility & Growth — Willingness to acknowledge mistakes and change behavior meaningfully. Score 3 requires documented instances where the figure reversed a prior position with visible behavioral change afterward.
 
+### 3. Cultural-Social (5 sub-traits)
 
-2) Moral-Affective
+9. Leadership / Influence — Mobilizing, inspiring, and directing groups toward shared goals. Score 3 requires successful leadership across qualitatively different contexts.
 
-5. Compassion / Empathy – Genuine concern for the well-being of others, expressed in tangible acts.
+10. Institution-Building — Creating or sustaining enduring organizations or social structures. Score 3 requires institutions that survived at least two generations beyond the founder.
 
+11. Impact Legacy — Long-term measurable effects on culture, politics, science, or society. Score 3 requires effects still clearly operative at least 500 years later across multiple civilizations.
 
-6. Courage / Resilience – Willingness to face danger or hardship in service of a cause.
+12. Archetype Resonance — Symbolic or mythic role with enduring cross-cultural recognition. Score 3 requires recognition as a symbol or archetype in cultures beyond the figure's own.
 
+13. Relatability / Cultural Embeddedness — Maintaining connection to ordinary life and shared human experience despite prominence. Score 3 requires documented engagement with mundane everyday activities even at the height of power or fame.
 
-7. Justice Orientation – Commitment to fairness, equity, and impartiality in action or policy.
+### 4. Embodied-Existential (5 sub-traits)
 
+14. Physical Endurance / Skill — Sustained physical capacity relevant to life's demands or challenges. Score 3 requires documented physical feats or endurance across multiple life-stages.
 
-8. Ambition / Self-Assertion – Drive to achieve and influence, even when morally mixed.
+15. Hardship Tolerance — Functioning effectively under prolonged adversity (poverty, exile, illness, grief). Score 3 requires effective functioning across at least two qualitatively different forms of adversity.
 
+16. Joy / Play / Aesthetic Appreciation — Engagement with beauty, leisure, humor, or art for its own sake. Score 3 requires evidence of play or aesthetic engagement that is not instrumental.
 
-9. Moral Fallibility & Growth – Willingness to acknowledge mistakes and change behavior meaningfully.
+17. Mortality Acceptance — Composure and intentionality in the face of aging, risk, or death. Score 3 requires documented composure in the face of one's own imminent death.
 
+18. Paradox Integration — Reconciling opposing traits or roles into a coherent whole. Score 3 requires the figure to have inhabited at least three seemingly contradictory roles without fragmenting.
 
+### 5. Relational (3 sub-traits) — NEW DIMENSION
 
-3) Cultural-Social
+19. Spousal / Partner Quality — Depth, mutuality, and durability of intimate partnerships. Score 3 requires documented evidence of mutual respect, support during crisis, and emotional availability across the arc of the relationship(s), not merely political alliance.
 
-10. Leadership / Influence – Mobilizing, inspiring, and directing groups toward shared goals.
+20. Parental / Mentoring Quality — Investment in the development of dependents, students, or successors. Score 3 requires evidence that mentees/children developed genuine autonomy and competence, not merely obedience or replication.
 
-
-11. Institution-Building – Creating or sustaining enduring organizations or social structures.
-
-
-12. Impact Legacy – Long-term measurable effects on culture, politics, science, or society.
-
-
-13. Archetype Resonance – Symbolic or mythic role with enduring cross-cultural recognition.
-
-
-14. Relatability / Cultural Embeddedness – Maintaining connection to ordinary life and shared human experience despite prominence.
-
-
-
-4) Embodied-Existential
-
-15. Physical Endurance / Skill – Sustained physical capacity relevant to life's demands or challenges.
-
-
-16. Hardship Tolerance – Functioning effectively under prolonged adversity (poverty, exile, illness).
-
-
-17. Joy / Play / Aesthetic Appreciation – Engagement with beauty, leisure, humor, or art for its own sake.
-
-
-18. Mortality Acceptance – Composure and intentionality in the face of aging, risk, or death.
-
-
-19. Paradox Integration – Reconciling opposing traits or roles into a coherent whole.
-
-
-
+21. Relational Range — The breadth of relational modes the figure inhabited: spouse, parent, child, friend, adversary, stranger, subordinate, superior. Score 3 requires documented, qualitatively distinct behavior across at least five of these modes.
 
 ---
 
-B) Heinlein-Generalized Competency Domains (15 total)
+## RUBRIC: Section B — Heinlein-Generalized Competency Domains (15 total)
 
-1. Caregiving & Nurture – Providing emotional and physical care across the human lifespan.
-
-
-2. Strategic Planning & Command – Coordinating complex operations and leading under constraints.
-
-
-3. Animal & Food Processing – Handling and preparing animals and raw food resources.
-
-
-4. Navigation & Wayfinding – Guiding travel across varied terrains or environments.
-
-
-5. Construction & Fabrication – Designing and building durable physical structures.
-
-
-6. Artistic & Cultural Expression – Creating works of art, music, literature, or performance.
-
-
-7. Numerical & Analytical Reasoning – Applying mathematics and logic to practical problems.
-
-
-8. Manual Craft & Repair – Making, fixing, or adapting tools, machines, or physical systems.
-
-
-9. Medical Aid & Emergency Response – Treating injury, illness, or urgent health threats.
-
-
-10. Leadership & Followership – Giving direction effectively and following others when appropriate.
-
-
-11. Agricultural & Resource Management – Cultivating food or managing natural resources sustainably.
-
-
-12. Culinary Skill – Preparing nutritious, appealing meals from available resources.
-
-
-13. Combat & Defense – Protecting self and others through skill in physical conflict.
-
-
-14. Technical & Systemic Problem-Solving – Operating or creating with complex tools and technologies.
-
-
-15. Existential Composure – Facing mortality or crisis with dignity and self-control.
-
+1. Caregiving & Nurture — Providing emotional and physical care across the human lifespan.
+2. Strategic Planning & Command — Coordinating complex operations and leading under constraints.
+3. Animal & Food Processing — Handling and preparing animals and raw food resources.
+4. Navigation & Wayfinding — Guiding travel across varied terrains or environments.
+5. Construction & Fabrication — Designing and building durable physical structures.
+6. Artistic & Cultural Expression — Creating works of art, music, literature, or performance.
+7. Numerical & Analytical Reasoning — Applying mathematics and logic to practical problems.
+8. Manual Craft & Repair — Making, fixing, or adapting tools, machines, or physical systems.
+9. Medical Aid & Emergency Response — Treating injury, illness, or urgent health threats.
+10. Leadership & Followership — Giving direction effectively and following others when appropriate.
+11. Agricultural & Resource Management — Cultivating food or managing natural resources sustainably.
+12. Culinary Skill — Preparing nutritious, appealing meals from available resources.
+13. Combat & Defense — Protecting self and others through skill in physical conflict.
+14. Technical & Systemic Problem-Solving — Operating or creating with the cutting-edge tools and technologies of the era.
+15. Existential Composure — Facing mortality or crisis with dignity and self-control.
 
 ---
 
-Output requirements
+## Aggregation Formulas
 
-1. Score every sub-trait/domain 0–3 with justification + confidence.
+For each of the 5 Core dimensions, average its sub-traits (0–3), then scale to 0–10:
+  Dimension_Score_0_10 = (sum of sub-trait scores / number of sub-traits) × (10/3)
 
+Core_5D_Avg (0–10) = average of the five dimension scores.
 
-2. Compute aggregates:
-
-For each Core dimension, average its 4 sub‑traits (0–3), then scale to 0–10.
-
-Core_4D_Avg (0–10) = average of the four Core dimensions (already scaled to 0–10).
-
-General_Competency_Avg (0–3) = average of the Heinlein domains.
-
+General_Competency_Avg (0–3) = average of all 15 domain scores.
 General_Competency_Avg_10scale (0–10) = General_Competency_Avg × (10/3).
 
-Overall_Normalized_Equal_Avg (0–10) = (Core_4D_Avg * 4 + General_Competency_Avg_10scale) / 5.
+Overall_Normalized_Equal_Avg (0–10) = (Core_5D_Avg × 5 + General_Competency_Avg_10scale) / 6.
 
+---
 
+## Output Requirements
 
+1. Score every sub-trait/domain 0–3 with justification + confidence.
+2. Compute aggregates as specified above.
 3. Provide a brief Summary (<=120 words) explaining the figure's overall profile.
-
-
 4. Return valid JSON matching the schema below. Do not include extra text outside JSON.
 
+---
 
-
-JSON schema
+## JSON Schema
 
 {
   "figure": "string",
@@ -526,7 +477,6 @@ JSON schema
       "Compassion / Empathy": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
       "Courage / Resilience": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
       "Justice Orientation": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Ambition / Self-Assertion": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
       "Moral Fallibility & Growth": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]}
     },
     "Cultural-Social": {
@@ -543,12 +493,18 @@ JSON schema
       "Mortality Acceptance": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
       "Paradox Integration": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]}
     },
+    "Relational": {
+      "Spousal / Partner Quality": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
+      "Parental / Mentoring Quality": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
+      "Relational Range": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]}
+    },
     "dimension_averages_0_10": {
       "Cognitive": 0,
       "Moral-Affective": 0,
       "Cultural-Social": 0,
       "Embodied-Existential": 0,
-      "Core_4D_Avg": 0
+      "Relational": 0,
+      "Core_5D_Avg": 0
     }
   },
   "heinlein_competency": {
@@ -573,95 +529,50 @@ JSON schema
     }
   },
   "overall": {
-    "Core_4D_Avg": 0,
+    "Core_5D_Avg": 0,
     "General_Competency_Avg_10scale": 0,
     "Overall_Normalized_Equal_Avg": 0
   },
   "summary": "string (<=120 words)"
 }
 
-
-
 ---
 
-Procedure (the steps you should follow)
-
-1. Read the figure's biography (career, works, campaigns, institutions, writings).
-
-
-2. Score each sub-trait/domain (0–3):
-
-Write a justification (1–3 sentences) with specific evidence.
-
-Add citations where possible; else write "(no citation)" and set confidence to Medium/Low.
-
-Apply era normalization.
-
-
-
-3. Compute dimension averages:
-
-For each Core dimension, average its four sub-traits (0–3) → scale to (0–10).
-
-Average those four (0–10) to produce Core_4D_Avg.
-
-
-
-4. Compute Heinlein averages:
-
-Average the 13 domains (0–3) → General_Competency_Avg (0–3).
-
-Convert to General_Competency_Avg_10scale = × (10/3).
-
-
-
-5. Final overall:
-
-Overall_Normalized_Equal_Avg (0–10) = (Core_4D_Avg * 4 + General_Competency_Avg_10scale) / 5.
-
-
-
-6. Return valid JSON only (no prose outside JSON).
-
-
-
-
----
-
-Mini‑Example (abbreviated; values are illustrative)
+## Mini-Example (abbreviated; values are illustrative)
 
 {
   "figure": "Hypothetical Person",
   "core": {
     "Cognitive": {
-      "Strategic Intelligence": {"score_0_3": 2, "justification": "Planned multi-city relief operations.", "confidence": "Medium", "citations": ["Smith 2018"]},
-      "Ethical / Philosophical Insight": {"score_0_3": 2, "justification": "Published moral essays on civic duty.", "confidence": "High", "citations": ["Journal of Ethics 2015"]},
-      "Creative / Innovative Thinking": {"score_0_3": 3, "justification": "Introduced a novel urban sanitation model.", "confidence": "High", "citations": ["Doe 2020"]},
-      "Administrative / Legislative Skill": {"score_0_3": 2, "justification": "Implemented city-wide policy.", "confidence": "Medium", "citations": ["City Records 1912"]}
+      "Strategic Intelligence": {"score_0_3": 2, "justification": "Planned multi-city relief operations; adapted logistics after the 1911 flood disrupted rail lines.", "confidence": "Medium", "citations": ["Smith 2018"]},
+      "Ethical / Philosophical Insight": {"score_0_3": 2, "justification": "Published moral essays on civic duty that influenced municipal reform movements in three states.", "confidence": "High", "citations": ["Journal of Ethics 2015"]},
+      "Creative / Innovative Thinking": {"score_0_3": 3, "justification": "Introduced a novel urban sanitation model adopted by 40+ cities within a decade.", "confidence": "High", "citations": ["Doe 2020"]},
+      "Administrative / Legislative Skill": {"score_0_3": 2, "justification": "Implemented city-wide waste policy that survived three subsequent administrations.", "confidence": "Medium", "citations": ["City Records 1912"]}
     },
     "Moral-Affective": { "...": "..." },
     "Cultural-Social": { "...": "..." },
     "Embodied-Existential": { "...": "..." },
+    "Relational": { "...": "..." },
     "dimension_averages_0_10": {
-      "Cognitive": 8.3,
-      "Moral-Affective": 7.5,
-      "Cultural-Social": 8.3,
-      "Embodied-Existential": 6.7,
-      "Core_4D_Avg": 7.7
+      "Cognitive": 7.5,
+      "Moral-Affective": 6.7,
+      "Cultural-Social": 8.0,
+      "Embodied-Existential": 5.8,
+      "Relational": 6.7,
+      "Core_5D_Avg": 6.9
     }
   },
   "heinlein_competency": {
-    "Caregiving & Nurture": {"score_0_3": 2, "justification": "Hospital volunteer.", "confidence": "High", "citations": ["Hospital Annual Report"]},
+    "Caregiving & Nurture": {"score_0_3": 2, "justification": "Volunteered at hospital for 12 years; personally nursed typhoid patients during 1918 outbreak.", "confidence": "High", "citations": ["Hospital Annual Report 1919"]},
     "...": "...",
-    "averages": {"General_Competency_Avg_0_3": 2.1, "General_Competency_Avg_10scale": 7.0}
+    "averages": {"General_Competency_Avg_0_3": 1.9, "General_Competency_Avg_10scale": 6.3}
   },
   "overall": {
-    "Core_4D_Avg": 7.7,
-    "General_Competency_Avg_10scale": 7.0,
-    "Overall_Normalized_Equal_Avg": 7.35
+    "Core_5D_Avg": 6.9,
+    "General_Competency_Avg_10scale": 6.3,
+    "Overall_Normalized_Equal_Avg": 6.8
   },
-
-  "summary": "A versatile civic reformer with high innovation and solid caregiving competence; moderate embodiment and institutional leadership."
+  "summary": "A versatile civic reformer with exceptional innovation in public health systems. Strong cognitive and social-cultural presence, moderate embodiment and relational depth."
 }
 """
 
@@ -885,7 +796,7 @@ def process_single_figure(request_id):
             counter += 1
 
         # Extract averages for sorting
-        core_4d_avg_0_10 = score_json.get('core', {}).get('dimension_averages_0_10', {}).get('Core_4D_Avg', 0)
+        core_4d_avg_0_10 = score_json.get('core', {}).get('dimension_averages_0_10', {}).get('Core_5D_Avg', 0)
         general_competency_avg_0_10 = score_json.get('heinlein_competency', {}).get('averages', {}).get('General_Competency_Avg_10scale', 0)
         overall_normalized_equal_avg_0_10 = score_json.get('overall', {}).get('Overall_Normalized_Equal_Avg', 0)
 

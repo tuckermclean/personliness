@@ -15,7 +15,7 @@ const QUESTIONS_PER_PAGE = 5
 
 // ── Results constants ─────────────────────────────────────────────────────────
 
-const DIMENSION_NAMES = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential']
+const DIMENSION_NAMES = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential', 'Relational']
 
 const HEINLEIN_TRAIT_NAMES = [
   'Caregiving & Nurture', 'Strategic Planning & Command',
@@ -33,6 +33,7 @@ const DIMENSION_COLORS = {
   'Moral-Affective': 'bg-pink-500',
   'Cultural-Social': 'bg-purple-500',
   'Embodied-Existential': 'bg-orange-500',
+  'Relational': 'bg-violet-500',
 }
 
 // ── Sub-components ────────────────────────────────────────────────────────────
@@ -393,8 +394,8 @@ export default function Assessment() {
           <p className="text-sm opacity-75 mt-1">out of 10</p>
         </div>
         <div className="bg-gradient-to-br from-blue-500 to-cyan-500 text-white p-6 rounded-xl">
-          <h3 className="text-lg opacity-90 mb-1">Core 4D</h3>
-          <p className="text-4xl font-bold">{overall?.Core_4D_Avg?.toFixed(1) || '—'}</p>
+          <h3 className="text-lg opacity-90 mb-1">Core 5D</h3>
+          <p className="text-4xl font-bold">{overall?.Core_5D_Avg?.toFixed(1) || '—'}</p>
           <p className="text-sm opacity-75 mt-1">out of 10</p>
         </div>
         <div className="bg-gradient-to-br from-emerald-500 to-teal-500 text-white p-6 rounded-xl">
@@ -409,12 +410,11 @@ export default function Assessment() {
         <div className="bg-white p-6 rounded-xl border border-slate-200">
           <h2 className="text-xl font-semibold mb-4">Core Dimensions</h2>
           {dimension_averages_0_10 && DIMENSION_NAMES
-            .filter(name => dimension_averages_0_10[name] != null)
             .map(name => (
               <ScoreBar
                 key={name}
                 label={name}
-                value={dimension_averages_0_10[name]}
+                value={dimension_averages_0_10[name] ?? 0}
                 color="bg-indigo-500"
               />
             ))}

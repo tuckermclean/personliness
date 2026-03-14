@@ -131,7 +131,7 @@ export default function FigureDetail() {
             <p className="text-3xl font-bold">
               {figure.core_4d_avg_0_10?.toFixed(1)}
             </p>
-            <p className="text-sm opacity-90">Core 4D</p>
+            <p className="text-sm opacity-90">Core 5D</p>
           </div>
           <div className="text-center p-4 bg-gradient-to-br from-emerald-500 to-teal-500 text-white rounded-lg">
             <p className="text-3xl font-bold">
@@ -185,17 +185,15 @@ export default function FigureDetail() {
           <div className="bg-white p-6 rounded-xl border border-slate-200">
             <h2 className="text-xl font-semibold mb-4">Dimension Averages (0-10)</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              {Object.entries(dimensionAverages)
-                .filter(([key]) => key !== 'Core_4D_Avg')
-                .map(([key, value]) => (
-                  <ScoreBar
-                    key={key}
-                    label={key}
-                    value={value}
-                    maxValue={10}
-                    color="bg-indigo-500"
-                  />
-                ))}
+              {['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential', 'Relational'].map(key => (
+                <ScoreBar
+                  key={key}
+                  label={key}
+                  value={dimensionAverages[key] ?? 0}
+                  maxValue={10}
+                  color="bg-indigo-500"
+                />
+              ))}
             </div>
           </div>
 

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getComparison } from '../api'
 
-const DIMENSION_NAMES = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential']
+const DIMENSION_NAMES = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential', 'Relational']
 
 const CORE_DIMENSIONS = {
   'Cognitive': [
@@ -15,7 +15,6 @@ const CORE_DIMENSIONS = {
     'Compassion / Empathy',
     'Courage / Resilience',
     'Justice Orientation',
-    'Ambition / Self-Assertion',
     'Moral Fallibility & Growth',
   ],
   'Cultural-Social': [
@@ -31,6 +30,11 @@ const CORE_DIMENSIONS = {
     'Joy / Play / Aesthetic Appreciation',
     'Mortality Acceptance',
     'Paradox Integration',
+  ],
+  'Relational': [
+    'Spousal / Partner Quality',
+    'Parental / Mentoring Quality',
+    'Relational Range',
   ],
 }
 
@@ -50,6 +54,7 @@ const DIMENSION_COLORS = {
   'Moral-Affective': '#ec4899',
   'Cultural-Social': '#a855f7',
   'Embodied-Existential': '#f97316',
+  'Relational': '#8b5cf6',
 }
 
 // --- Radar Chart (inline SVG, no library) ---
@@ -83,6 +88,7 @@ function RadarChart({ userDimensions, figureDimensions }) {
     'Moral-Affective': 'Moral-Aff.',
     'Cultural-Social': 'Cultural-Soc.',
     'Embodied-Existential': 'Embodied-Ext.',
+    'Relational': 'Relational',
   }
 
   return (
@@ -274,7 +280,7 @@ export default function Compare() {
 
         <div className="grid grid-cols-1 gap-4 content-center">
           <SimilarityCard label="Overall Similarity" value={match.overall_similarity} gradient="bg-gradient-to-br from-indigo-500 to-purple-600" />
-          <SimilarityCard label="Core 4D Similarity" value={match.core_similarity} gradient="bg-gradient-to-br from-blue-500 to-cyan-500" />
+          <SimilarityCard label="Core 5D Similarity" value={match.core_similarity} gradient="bg-gradient-to-br from-blue-500 to-cyan-500" />
           <SimilarityCard label="Heinlein Competency Similarity" value={match.heinlein_similarity} gradient="bg-gradient-to-br from-emerald-500 to-teal-500" />
         </div>
       </div>
