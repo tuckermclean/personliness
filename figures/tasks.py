@@ -4,7 +4,7 @@ import openai
 import json
 import logging
 from .models import FigureIngestionRequest, HistoricalFigure
-from .llm_utils import extract_json_from_response, build_llm_request_params, call_llm_for_json
+from .llm_utils import extract_json_from_response, build_llm_request_params, call_llm_for_json, get_active_llm_config
 from personliness.traits import get_all_trait_paths, CORE_DIMENSIONS, HEINLEIN_TRAIT_NAMES, calculate_averages
 from django.utils.text import slugify
 
@@ -699,11 +699,11 @@ def process_single_figure(request_id):
         prompt = f"{RUBRIC_PROMPT}\n\nBiography:\n{biography_text}"
 
         # Call the LLM
-        llm_base_url = getattr(settings, 'LLM_BASE_URL', 'https://api.openai.com/v1')
-        llm_api_key = getattr(settings, 'LLM_API_KEY', '')
-        llm_model = getattr(settings, 'LLM_MODEL', 'gpt-4-turbo')
-
-        is_reasoning_model = llm_model.startswith('o1') or llm_model.startswith('o3')
+        llm_cfg = get_active_llm_config()
+        llm_base_url       = llm_cfg['base_url']
+        llm_api_key        = llm_cfg['api_key']
+        llm_model          = llm_cfg['model']
+        is_reasoning_model = llm_cfg['is_reasoning']
 
         # Create fresh OpenAI client for this task
         with openai.OpenAI(

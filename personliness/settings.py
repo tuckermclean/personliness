@@ -178,12 +178,52 @@ CACHES = {
 CELERY_BROKER_URL = os.environ.get('CELERY_BROKER_URL', 'redis://redis:6379/0')
 CELERY_RESULT_BACKEND = os.environ.get('CELERY_RESULT_BACKEND', 'redis://redis:6379/0')
 
-# LLM settings for figure ingestion
-LLM_BASE_URL = os.environ.get('LLM_BASE_URL', 'https://api.openai.com/v1')
-LLM_API_KEY = os.environ.get('LLM_API_KEY', '')
-LLM_MODEL = os.environ.get('LLM_MODEL', 'o3')
+# LLM provider profiles
+LLM_CONFIGS = {
+    'openai-o3': {
+        'base_url': 'https://api.openai.com/v1',
+        'api_key_env': 'LLM_OPENAI_API_KEY',
+        'model': os.environ.get('LLM_OPENAI_MODEL', 'o3'),
+        'is_reasoning': True,
+    },
+    'openai-gpt4': {
+        'base_url': 'https://api.openai.com/v1',
+        'api_key_env': 'LLM_OPENAI_API_KEY',
+        'model': os.environ.get('LLM_OPENAI_GPT4_MODEL', 'gpt-4-turbo'),
+        'is_reasoning': False,
+    },
+    'anthropic': {
+        'base_url': 'https://api.anthropic.com/v1',
+        'api_key_env': 'LLM_ANTHROPIC_API_KEY',
+        'model': os.environ.get('LLM_ANTHROPIC_MODEL', 'claude-opus-4-6'),
+        'is_reasoning': False,
+    },
+    'ollama': {
+        'base_url': os.environ.get('LLM_OLLAMA_BASE_URL', 'http://ollama:11434/v1'),
+        'api_key_env': None,
+        'model': os.environ.get('LLM_OLLAMA_MODEL', 'llama3'),
+        'is_reasoning': False,
+    },
+}
 
-# LLM confidence refinement settings
+LLM_ACTIVE_CONFIG = os.environ.get('LLM_ACTIVE_CONFIG', 'openai-o3')
+
+# Backwards compatibility: old flat vars form an implicit 'custom' profile
+_legacy_base_url = os.environ.get('LLM_BASE_URL')
+_legacy_api_key  = os.environ.get('LLM_API_KEY')
+_legacy_model    = os.environ.get('LLM_MODEL')
+if _legacy_base_url or _legacy_model:
+    LLM_CONFIGS['custom'] = {
+        'base_url': _legacy_base_url or 'https://api.openai.com/v1',
+        'api_key_env': None,
+        'api_key': _legacy_api_key or '',
+        'model': _legacy_model or 'o3',
+        'is_reasoning': None,  # auto-detect from model name
+    }
+    if not os.environ.get('LLM_ACTIVE_CONFIG'):
+        LLM_ACTIVE_CONFIG = 'custom'
+
+# LLM confidence refinement settings (global, not per-profile)
 LLM_ENABLE_REFINEMENT = os.environ.get('LLM_ENABLE_REFINEMENT', 'True') == 'True'
 LLM_MAX_REFINEMENT_PASSES = int(os.environ.get('LLM_MAX_REFINEMENT_PASSES', '2'))
 LLM_MIN_CONFIDENCE_TARGET = os.environ.get('LLM_MIN_CONFIDENCE_TARGET', 'High')

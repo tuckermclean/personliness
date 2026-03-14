@@ -4,6 +4,7 @@ Shared LLM utilities for JSON extraction and request building.
 
 import json
 import logging
+import os
 
 logger = logging.getLogger(__name__)
 
@@ -54,6 +55,36 @@ def build_llm_request_params(model, is_reasoning, prompt, *,
         request_params["max_tokens"] = max_tokens
 
     return request_params
+
+
+def get_active_llm_config():
+    """
+    Resolve the active LLM profile from Django settings to concrete values.
+    Returns dict with: base_url, api_key, model, is_reasoning (bool)
+    """
+    from django.conf import settings
+    profile_name = settings.LLM_ACTIVE_CONFIG
+    profiles = settings.LLM_CONFIGS
+    if profile_name not in profiles:
+        raise ValueError(f"LLM_ACTIVE_CONFIG '{profile_name}' not found in LLM_CONFIGS")
+    profile = profiles[profile_name]
+
+    if profile.get('api_key_env'):
+        api_key = os.environ.get(profile['api_key_env'], '')
+    else:
+        api_key = profile.get('api_key', '')
+
+    is_reasoning = profile.get('is_reasoning')
+    if is_reasoning is None:
+        model = profile['model']
+        is_reasoning = model.startswith('o1') or model.startswith('o3')
+
+    return {
+        'base_url': profile['base_url'],
+        'api_key': api_key,
+        'model': profile['model'],
+        'is_reasoning': is_reasoning,
+    }
 
 
 def call_llm_for_json(client, model, is_reasoning, prompt, **kwargs):

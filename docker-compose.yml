@@ -34,8 +34,12 @@ services:
       CELERY_BROKER_URL: "redis://redis:6379/0"
       CELERY_RESULT_BACKEND: "redis://redis:6379/0"
       ADMIN_API_KEY: "your-admin-api-key-here"
+      LLM_ACTIVE_CONFIG: "${LLM_ACTIVE_CONFIG:-openai-o3}"
+      LLM_OPENAI_API_KEY: "${LLM_OPENAI_API_KEY}"
+      LLM_ANTHROPIC_API_KEY: "${LLM_ANTHROPIC_API_KEY}"
+      # Legacy flat vars (backwards compat — ignored if LLM_ACTIVE_CONFIG is set)
       LLM_API_KEY: "${LLM_API_KEY}"
-      LLM_MODEL: "o3"
+      LLM_MODEL: "${LLM_MODEL}"
       CREATE_SUPERUSER: "true"
     depends_on:
       - db
@@ -58,8 +62,12 @@ services:
       POSTGRES_PORT: 5432
       CELERY_BROKER_URL: "redis://redis:6379/0"
       CELERY_RESULT_BACKEND: "redis://redis:6379/0"
+      LLM_ACTIVE_CONFIG: "${LLM_ACTIVE_CONFIG:-openai-o3}"
+      LLM_OPENAI_API_KEY: "${LLM_OPENAI_API_KEY}"
+      LLM_ANTHROPIC_API_KEY: "${LLM_ANTHROPIC_API_KEY}"
+      # Legacy flat vars (backwards compat — ignored if LLM_ACTIVE_CONFIG is set)
       LLM_API_KEY: "${LLM_API_KEY}"
-      LLM_MODEL: "o3"
+      LLM_MODEL: "${LLM_MODEL}"
     depends_on:
       - db
       - redis
