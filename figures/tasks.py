@@ -1,6 +1,5 @@
 from celery import shared_task
 from django.conf import settings
-from django.core.cache import cache
 import openai
 import json
 import logging
@@ -8,9 +7,6 @@ from .models import FigureIngestionRequest, HistoricalFigure
 from django.utils.text import slugify
 
 logger = logging.getLogger(__name__)
-
-QUEUE_LOCK_KEY = 'figure_ingestion_queue_lock'
-QUEUE_LOCK_TIMEOUT = 60 * 30  # 30 minutes max per run
 
 # Confidence level ordering for comparison
 CONFIDENCE_LEVELS = {'Low': 0, 'Medium': 1, 'High': 2}
@@ -777,35 +773,51 @@ Mini‑Example (abbreviated; values are illustrative)
 @shared_task
 def process_ingestion_queue():
     """
-    Process all pending figure ingestion requests.
-    Uses a lock to ensure only one worker processes the queue at a time.
+    Dispatcher task that finds pending ingestion requests and spawns
+    a separate Celery task for each one.
+
+    Each figure is processed in its own task with a completely fresh
+    Python context to prevent any state bleeding between figures.
     """
-    # Try to acquire lock - if already running, skip
-    if not cache.add(QUEUE_LOCK_KEY, 'locked', QUEUE_LOCK_TIMEOUT):
-        logger.info("Ingestion queue already being processed, skipping")
+    pending_requests = FigureIngestionRequest.objects.filter(
+        status='pending'
+    ).order_by('created_at').values_list('id', flat=True)
+
+    pending_ids = list(pending_requests)
+
+    if not pending_ids:
+        logger.info("No pending ingestion requests")
         return
 
-    try:
-        while True:
-            # Get next pending request
-            ingestion_request = FigureIngestionRequest.objects.filter(
-                status='pending'
-            ).order_by('created_at').first()
+    logger.info(f"Dispatching {len(pending_ids)} figure ingestion tasks")
 
-            if not ingestion_request:
-                logger.info("No pending ingestion requests")
-                break
-
-            logger.info(f"Processing ingestion request for {ingestion_request.figure_name}")
-            _process_single_request(ingestion_request)
-    finally:
-        cache.delete(QUEUE_LOCK_KEY)
+    for request_id in pending_ids:
+        process_single_figure.delay(request_id)
+        logger.info(f"Dispatched process_single_figure task for request_id={request_id}")
 
 
-def _process_single_request(ingestion_request):
+@shared_task
+def process_single_figure(request_id):
     """
     Process a single figure ingestion request by calling an LLM to generate scores.
+
+    Each invocation runs in a fresh Celery task with its own Python context,
+    ensuring complete isolation between figures and preventing state bleeding.
     """
+    # Fetch the request fresh from DB
+    try:
+        ingestion_request = FigureIngestionRequest.objects.get(id=request_id)
+    except FigureIngestionRequest.DoesNotExist:
+        logger.error(f"Ingestion request {request_id} not found")
+        return
+
+    # Skip if no longer pending (another task may have picked it up)
+    if ingestion_request.status != 'pending':
+        logger.info(f"Ingestion request {request_id} is no longer pending (status={ingestion_request.status}), skipping")
+        return
+
+    logger.info(f"Processing figure: {ingestion_request.figure_name}")
+
     # Update status to running
     ingestion_request.status = 'running'
     ingestion_request.save()
@@ -820,111 +832,113 @@ def _process_single_request(ingestion_request):
         llm_api_key = getattr(settings, 'LLM_API_KEY', '')
         llm_model = getattr(settings, 'LLM_MODEL', 'gpt-4-turbo')
 
-        client = openai.OpenAI(
-            base_url=llm_base_url,
-            api_key=llm_api_key
-        )
-
         # Build request parameters - reasoning models (o1, o3) don't support temperature
         # and use max_completion_tokens instead of max_tokens
         is_reasoning_model = llm_model.startswith('o1') or llm_model.startswith('o3')
 
-        messages = [
-            {"role": "user", "content": f"You are a careful historical rater.\n\n{prompt}"}
-        ] if is_reasoning_model else [
-            {"role": "system", "content": "You are a careful historical rater."},
-            {"role": "user", "content": prompt}
-        ]
-
-        request_params = {
-            "model": llm_model,
-            "messages": messages,
-        }
-
-        if is_reasoning_model:
-            request_params["max_completion_tokens"] = 16000
-        else:
-            request_params["temperature"] = 0.3
-            request_params["max_tokens"] = 4000
-
-        response = client.chat.completions.create(**request_params)
-
-        # Parse the response
-        response_text = response.choices[0].message.content.strip()
-
-        # Try to extract JSON from the response
-        try:
-            # Look for JSON between ```json and ```
-            if "```json" in response_text:
-                json_start = response_text.find("```json") + 7
-                json_end = response_text.find("```", json_start)
-                json_str = response_text[json_start:json_end].strip()
-            else:
-                # Assume entire response is JSON
-                json_str = response_text
-
-            score_json = json.loads(json_str)
-        except json.JSONDecodeError:
-            # If parsing fails, try with a repair prompt
-            repair_prompt = f"The following response was not valid JSON. Please return ONLY valid JSON matching the schema:\n\n{response_text}"
-
-            repair_messages = [
-                {"role": "user", "content": f"You are a careful historical rater. Return ONLY valid JSON matching the schema.\n\n{repair_prompt}"}
+        # Create fresh OpenAI client for this task
+        with openai.OpenAI(
+            base_url=llm_base_url,
+            api_key=llm_api_key
+        ) as client:
+            messages = [
+                {"role": "user", "content": f"You are a careful historical rater.\n\n{prompt}"}
             ] if is_reasoning_model else [
-                {"role": "system", "content": "You are a careful historical rater. Return ONLY valid JSON matching the schema."},
-                {"role": "user", "content": repair_prompt}
+                {"role": "system", "content": "You are a careful historical rater."},
+                {"role": "user", "content": prompt}
             ]
 
-            repair_params = {
+            request_params = {
                 "model": llm_model,
-                "messages": repair_messages,
+                "messages": messages,
             }
 
             if is_reasoning_model:
-                repair_params["max_completion_tokens"] = 16000
+                request_params["max_completion_tokens"] = 16000
             else:
-                repair_params["temperature"] = 0.2
-                repair_params["max_tokens"] = 4000
+                request_params["temperature"] = 0.3
+                request_params["max_tokens"] = 4000
 
-            repair_response = client.chat.completions.create(**repair_params)
+            response = client.chat.completions.create(**request_params)
 
-            repair_text = repair_response.choices[0].message.content.strip()
+            # Parse the response
+            response_text = response.choices[0].message.content.strip()
 
-            # Try to extract JSON from repair response
+            # Try to extract JSON from the response
             try:
-                if "```json" in repair_text:
-                    json_start = repair_text.find("```json") + 7
-                    json_end = repair_text.find("```", json_start)
-                    json_str = repair_text[json_start:json_end].strip()
+                # Look for JSON between ```json and ```
+                if "```json" in response_text:
+                    json_start = response_text.find("```json") + 7
+                    json_end = response_text.find("```", json_start)
+                    json_str = response_text[json_start:json_end].strip()
                 else:
-                    json_str = repair_text
+                    # Assume entire response is JSON
+                    json_str = response_text
 
                 score_json = json.loads(json_str)
             except json.JSONDecodeError:
-                raise ValueError(f"Could not parse JSON from LLM response: {repair_text[:200]}...")
+                # If parsing fails, try with a repair prompt
+                repair_prompt = f"The following response was not valid JSON. Please return ONLY valid JSON matching the schema:\n\n{response_text}"
 
-        # Validate the JSON structure (basic validation)
-        if 'figure' not in score_json or 'core' not in score_json or 'heinlein_competency' not in score_json:
-            raise ValueError("Invalid JSON structure from LLM")
+                repair_messages = [
+                    {"role": "user", "content": f"You are a careful historical rater. Return ONLY valid JSON matching the schema.\n\n{repair_prompt}"}
+                ] if is_reasoning_model else [
+                    {"role": "system", "content": "You are a careful historical rater. Return ONLY valid JSON matching the schema."},
+                    {"role": "user", "content": repair_prompt}
+                ]
 
-        # Perform confidence refinement if enabled
-        try:
-            score_json = _perform_confidence_refinement(
-                score_json=score_json,
-                figure_name=ingestion_request.figure_name,
-                biography_text=biography_text,
-                client=client,
-                llm_model=llm_model,
-                is_reasoning_model=is_reasoning_model
-            )
-        except Exception as refinement_exc:
-            # Refinement failure should never block ingestion - log and continue with original scores
-            logger.warning(f"Confidence refinement failed, using original scores: {refinement_exc}")
-            score_json['_refinement_metadata'] = {
-                'enabled': True,
-                'error': str(refinement_exc)[:200],
-                'passes_executed': 0
-            }
+                repair_params = {
+                    "model": llm_model,
+                    "messages": repair_messages,
+                }
+
+                if is_reasoning_model:
+                    repair_params["max_completion_tokens"] = 16000
+                else:
+                    repair_params["temperature"] = 0.2
+                    repair_params["max_tokens"] = 4000
+
+                repair_response = client.chat.completions.create(**repair_params)
+
+                repair_text = repair_response.choices[0].message.content.strip()
+
+                # Try to extract JSON from repair response
+                try:
+                    if "```json" in repair_text:
+                        json_start = repair_text.find("```json") + 7
+                        json_end = repair_text.find("```", json_start)
+                        json_str = repair_text[json_start:json_end].strip()
+                    else:
+                        json_str = repair_text
+
+                    score_json = json.loads(json_str)
+                except json.JSONDecodeError:
+                    raise ValueError(f"Could not parse JSON from LLM response: {repair_text[:200]}...")
+
+            # Validate the JSON structure (basic validation)
+            if 'figure' not in score_json or 'core' not in score_json or 'heinlein_competency' not in score_json:
+                raise ValueError("Invalid JSON structure from LLM")
+
+            # Perform confidence refinement if enabled
+            try:
+                score_json = _perform_confidence_refinement(
+                    score_json=score_json,
+                    figure_name=ingestion_request.figure_name,
+                    biography_text=biography_text,
+                    client=client,
+                    llm_model=llm_model,
+                    is_reasoning_model=is_reasoning_model
+                )
+            except Exception as refinement_exc:
+                # Refinement failure should never block ingestion - log and continue with original scores
+                logger.warning(f"Confidence refinement failed, using original scores: {refinement_exc}")
+                score_json['_refinement_metadata'] = {
+                    'enabled': True,
+                    'error': str(refinement_exc)[:200],
+                    'passes_executed': 0
+                }
+
+        # Client is now closed - proceed with database operations outside the context manager
 
         # Create bio_short from summary (max 600 chars)
         bio_short = score_json.get('summary', '')[:600]
@@ -962,7 +976,7 @@ def _process_single_request(ingestion_request):
         ingestion_request.result_figure = figure
         ingestion_request.save()
 
-        logger.info(f"Successfully processed figure ingestion for {ingestion_request.figure_name}")
+        logger.info(f"Successfully processed figure: {ingestion_request.figure_name}")
 
     except Exception as exc:
         # Update ingestion request with error - will be retried on next queue run
@@ -970,4 +984,4 @@ def _process_single_request(ingestion_request):
         ingestion_request.error = str(exc)[:500]  # Limit error message length
         ingestion_request.save()
 
-        logger.error(f"Failed to process figure ingestion for {ingestion_request.figure_name}: {exc}")
+        logger.error(f"Failed to process figure {ingestion_request.figure_name}: {exc}")
