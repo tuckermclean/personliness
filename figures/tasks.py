@@ -4,79 +4,14 @@ import openai
 import json
 import logging
 from .models import FigureIngestionRequest, HistoricalFigure
+from .llm_utils import extract_json_from_response, build_llm_request_params, call_llm_for_json
+from personliness.traits import get_all_trait_paths, CORE_DIMENSIONS, HEINLEIN_TRAIT_NAMES, calculate_averages
 from django.utils.text import slugify
 
 logger = logging.getLogger(__name__)
 
 # Confidence level ordering for comparison
 CONFIDENCE_LEVELS = {'Low': 0, 'Medium': 1, 'High': 2}
-
-
-def _get_all_trait_paths():
-    """
-    Returns list of all 34 trait locations in score_json.
-    Each path is a tuple of (section, dimension/None, trait_name).
-    """
-    paths = []
-
-    # Core traits (19 total) - organized by dimension
-    core_dimensions = {
-        'Cognitive': [
-            'Strategic Intelligence',
-            'Ethical / Philosophical Insight',
-            'Creative / Innovative Thinking',
-            'Administrative / Legislative Skill'
-        ],
-        'Moral-Affective': [
-            'Compassion / Empathy',
-            'Courage / Resilience',
-            'Justice Orientation',
-            'Ambition / Self-Assertion',
-            'Moral Fallibility & Growth'
-        ],
-        'Cultural-Social': [
-            'Leadership / Influence',
-            'Institution-Building',
-            'Impact Legacy',
-            'Archetype Resonance',
-            'Relatability / Cultural Embeddedness'
-        ],
-        'Embodied-Existential': [
-            'Physical Endurance / Skill',
-            'Hardship Tolerance',
-            'Joy / Play / Aesthetic Appreciation',
-            'Mortality Acceptance',
-            'Paradox Integration'
-        ]
-    }
-
-    for dimension, traits in core_dimensions.items():
-        for trait in traits:
-            paths.append(('core', dimension, trait))
-
-    # Heinlein competency traits (15 total) - flat structure
-    heinlein_traits = [
-        'Caregiving & Nurture',
-        'Strategic Planning & Command',
-        'Animal & Food Processing',
-        'Navigation & Wayfinding',
-        'Construction & Fabrication',
-        'Artistic & Cultural Expression',
-        'Numerical & Analytical Reasoning',
-        'Manual Craft & Repair',
-        'Medical Aid & Emergency Response',
-        'Leadership & Followership',
-        'Agricultural & Resource Management',
-        'Culinary Skill',
-        'Combat & Defense',
-        'Technical & Systemic Problem-Solving',
-        'Existential Composure'
-    ]
-
-    for trait in heinlein_traits:
-        paths.append(('heinlein_competency', None, trait))
-
-    return paths
 
 
 def _identify_low_confidence_traits(score_json, target_confidence='High'):
@@ -87,7 +22,7 @@ def _identify_low_confidence_traits(score_json, target_confidence='High'):
     target_level = CONFIDENCE_LEVELS.get(target_confidence, 2)
     low_confidence_traits = []
 
-    for section, dimension, trait_name in _get_all_trait_paths():
+    for section, dimension, trait_name in get_all_trait_paths():
         try:
             if section == 'core':
                 trait_data = score_json.get('core', {}).get(dimension, {}).get(trait_name, {})
@@ -184,40 +119,12 @@ def _execute_refinement_pass(client, llm_model, is_reasoning_model, prompt):
     """
     Makes LLM call for refinement and returns parsed JSON or None on failure.
     """
-    messages = [
-        {"role": "user", "content": prompt}
-    ] if is_reasoning_model else [
-        {"role": "system", "content": "You are a careful historical rater performing a refinement pass."},
-        {"role": "user", "content": prompt}
-    ]
-
-    request_params = {
-        "model": llm_model,
-        "messages": messages,
-    }
-
-    if is_reasoning_model:
-        request_params["max_completion_tokens"] = 8000
-    else:
-        request_params["temperature"] = 0.2
-        request_params["max_tokens"] = 4000
-
-    try:
-        response = client.chat.completions.create(**request_params)
-        response_text = response.choices[0].message.content.strip()
-
-        # Try to extract JSON from the response
-        if "```json" in response_text:
-            json_start = response_text.find("```json") + 7
-            json_end = response_text.find("```", json_start)
-            json_str = response_text[json_start:json_end].strip()
-        else:
-            json_str = response_text
-
-        return json.loads(json_str)
-    except (json.JSONDecodeError, Exception) as e:
-        logger.warning(f"Refinement pass failed to parse: {e}")
-        return None
+    return call_llm_for_json(
+        client, llm_model, is_reasoning_model, prompt,
+        system_message="You are a careful historical rater performing a refinement pass.",
+        max_completion_tokens=8000,
+        temperature=0.2,
+    )
 
 
 def _merge_refined_scores(score_json, refined_data, low_confidence_traits):
@@ -271,63 +178,27 @@ def _recalculate_averages(score_json):
     """
     Recalculates all dimension and overall averages after refinement.
     """
-    # Core dimension averages
-    core_dimensions = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential']
-    dimension_avgs = {}
+    # Flatten scores from the nested score_json structure
+    trait_scores_0_3 = {}
 
-    for dimension in core_dimensions:
-        dimension_data = score_json.get('core', {}).get(dimension, {})
-        scores = []
-        for trait_name, trait_data in dimension_data.items():
+    for section, dimension, trait_name in get_all_trait_paths():
+        try:
+            if section == 'core':
+                trait_data = score_json.get('core', {}).get(dimension, {}).get(trait_name, {})
+            else:
+                trait_data = score_json.get('heinlein_competency', {}).get(trait_name, {})
+
             if isinstance(trait_data, dict) and 'score_0_3' in trait_data:
-                scores.append(trait_data['score_0_3'])
+                trait_scores_0_3[trait_name] = trait_data['score_0_3']
+        except (TypeError, AttributeError):
+            continue
 
-        if scores:
-            avg_0_3 = sum(scores) / len(scores)
-            avg_0_10 = avg_0_3 * (10 / 3)
-            dimension_avgs[dimension] = round(avg_0_10, 2)
-        else:
-            dimension_avgs[dimension] = 0
+    averages = calculate_averages(trait_scores_0_3)
 
-    # Core 4D average
-    core_4d_avg = sum(dimension_avgs.values()) / len(dimension_avgs) if dimension_avgs else 0
-    dimension_avgs['Core_4D_Avg'] = round(core_4d_avg, 2)
-
-    # Update core dimension averages
-    if 'dimension_averages_0_10' not in score_json.get('core', {}):
-        score_json['core']['dimension_averages_0_10'] = {}
-    score_json['core']['dimension_averages_0_10'] = dimension_avgs
-
-    # Heinlein competency averages
-    heinlein_data = score_json.get('heinlein_competency', {})
-    heinlein_scores = []
-    for trait_name, trait_data in heinlein_data.items():
-        if isinstance(trait_data, dict) and 'score_0_3' in trait_data:
-            heinlein_scores.append(trait_data['score_0_3'])
-
-    if heinlein_scores:
-        general_avg_0_3 = sum(heinlein_scores) / len(heinlein_scores)
-        general_avg_10scale = general_avg_0_3 * (10 / 3)
-    else:
-        general_avg_0_3 = 0
-        general_avg_10scale = 0
-
-    # Update heinlein averages
-    if 'averages' not in score_json.get('heinlein_competency', {}):
-        score_json['heinlein_competency']['averages'] = {}
-    score_json['heinlein_competency']['averages'] = {
-        'General_Competency_Avg_0_3': round(general_avg_0_3, 2),
-        'General_Competency_Avg_10scale': round(general_avg_10scale, 2)
-    }
-
-    # Overall averages
-    overall_normalized = (core_4d_avg * 4 + general_avg_10scale) / 5
-
-    score_json['overall'] = {
-        'Core_4D_Avg': round(core_4d_avg, 2),
-        'General_Competency_Avg_10scale': round(general_avg_10scale, 2),
-        'Overall_Normalized_Equal_Avg': round(overall_normalized, 2)
-    }
+    # Write results back into score_json
+    score_json['core']['dimension_averages_0_10'] = averages['dimension_averages_0_10']
+    score_json['heinlein_competency']['averages'] = averages['heinlein_averages']
+    score_json['overall'] = averages['overall']
 
     return score_json
 
@@ -832,8 +703,6 @@ def process_single_figure(request_id):
         llm_api_key = getattr(settings, 'LLM_API_KEY', '')
         llm_model = getattr(settings, 'LLM_MODEL', 'gpt-4-turbo')
 
-        # Build request parameters - reasoning models (o1, o3) don't support temperature
-        # and use max_completion_tokens instead of max_tokens
         is_reasoning_model = llm_model.startswith('o1') or llm_model.startswith('o3')
 
         # Create fresh OpenAI client for this task
@@ -841,79 +710,27 @@ def process_single_figure(request_id):
             base_url=llm_base_url,
             api_key=llm_api_key
         ) as client:
-            messages = [
-                {"role": "user", "content": f"You are a careful historical rater.\n\n{prompt}"}
-            ] if is_reasoning_model else [
-                {"role": "system", "content": "You are a careful historical rater."},
-                {"role": "user", "content": prompt}
-            ]
-
-            request_params = {
-                "model": llm_model,
-                "messages": messages,
-            }
-
-            if is_reasoning_model:
-                request_params["max_completion_tokens"] = 16000
-            else:
-                request_params["temperature"] = 0.3
-                request_params["max_tokens"] = 4000
-
+            # Initial LLM call
+            request_params = build_llm_request_params(
+                llm_model, is_reasoning_model, prompt,
+                temperature=0.3,
+            )
             response = client.chat.completions.create(**request_params)
-
-            # Parse the response
             response_text = response.choices[0].message.content.strip()
 
             # Try to extract JSON from the response
             try:
-                # Look for JSON between ```json and ```
-                if "```json" in response_text:
-                    json_start = response_text.find("```json") + 7
-                    json_end = response_text.find("```", json_start)
-                    json_str = response_text[json_start:json_end].strip()
-                else:
-                    # Assume entire response is JSON
-                    json_str = response_text
-
-                score_json = json.loads(json_str)
+                score_json = extract_json_from_response(response_text)
             except json.JSONDecodeError:
                 # If parsing fails, try with a repair prompt
                 repair_prompt = f"The following response was not valid JSON. Please return ONLY valid JSON matching the schema:\n\n{response_text}"
-
-                repair_messages = [
-                    {"role": "user", "content": f"You are a careful historical rater. Return ONLY valid JSON matching the schema.\n\n{repair_prompt}"}
-                ] if is_reasoning_model else [
-                    {"role": "system", "content": "You are a careful historical rater. Return ONLY valid JSON matching the schema."},
-                    {"role": "user", "content": repair_prompt}
-                ]
-
-                repair_params = {
-                    "model": llm_model,
-                    "messages": repair_messages,
-                }
-
-                if is_reasoning_model:
-                    repair_params["max_completion_tokens"] = 16000
-                else:
-                    repair_params["temperature"] = 0.2
-                    repair_params["max_tokens"] = 4000
-
-                repair_response = client.chat.completions.create(**repair_params)
-
-                repair_text = repair_response.choices[0].message.content.strip()
-
-                # Try to extract JSON from repair response
-                try:
-                    if "```json" in repair_text:
-                        json_start = repair_text.find("```json") + 7
-                        json_end = repair_text.find("```", json_start)
-                        json_str = repair_text[json_start:json_end].strip()
-                    else:
-                        json_str = repair_text
-
-                    score_json = json.loads(json_str)
-                except json.JSONDecodeError:
-                    raise ValueError(f"Could not parse JSON from LLM response: {repair_text[:200]}...")
+                score_json = call_llm_for_json(
+                    client, llm_model, is_reasoning_model, repair_prompt,
+                    system_message="You are a careful historical rater. Return ONLY valid JSON matching the schema.",
+                    temperature=0.2,
+                )
+                if score_json is None:
+                    raise ValueError(f"Could not parse JSON from LLM response: {response_text[:200]}...")
 
             # Validate the JSON structure (basic validation)
             if 'figure' not in score_json or 'core' not in score_json or 'heinlein_competency' not in score_json:

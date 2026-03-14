@@ -1,5 +1,6 @@
 import math
 from .models import Question
+from personliness.traits import CORE_TRAIT_NAMES, HEINLEIN_TRAIT_NAMES, ALL_TRAIT_NAMES, calculate_averages
 
 
 def calculate_scores(answers):
@@ -12,46 +13,7 @@ def calculate_scores(answers):
     Returns:
         dict: Contains trait_scores_0_3, dimension_averages_0_10, heinlein_averages, overall
     """
-    # Define all traits
-    core_traits = {
-        "Strategic Intelligence": [],
-        "Ethical / Philosophical Insight": [],
-        "Creative / Innovative Thinking": [],
-        "Administrative / Legislative Skill": [],
-        "Compassion / Empathy": [],
-        "Courage / Resilience": [],
-        "Justice Orientation": [],
-        "Ambition / Self-Assertion": [],
-        "Moral Fallibility & Growth": [],
-        "Leadership / Influence": [],
-        "Institution-Building": [],
-        "Impact Legacy": [],
-        "Archetype Resonance": [],
-        "Relatability / Cultural Embeddedness": [],
-        "Physical Endurance / Skill": [],
-        "Hardship Tolerance": [],
-        "Joy / Play / Aesthetic Appreciation": [],
-        "Mortality Acceptance": [],
-        "Paradox Integration": []
-    }
-
-    heinlein_traits = {
-        "Caregiving & Nurture": [],
-        "Strategic Planning & Command": [],
-        "Animal & Food Processing": [],
-        "Navigation & Wayfinding": [],
-        "Construction & Fabrication": [],
-        "Artistic & Cultural Expression": [],
-        "Numerical & Analytical Reasoning": [],
-        "Manual Craft & Repair": [],
-        "Medical Aid & Emergency Response": [],
-        "Leadership & Followership": [],
-        "Agricultural & Resource Management": [],
-        "Culinary Skill": [],
-        "Combat & Defense": [],
-        "Technical & Systemic Problem-Solving": [],
-        "Existential Composure": []
-    }
+    all_traits = {name: [] for name in ALL_TRAIT_NAMES}
 
     # Process each answer
     for question_id, answer_value in answers.items():
@@ -71,129 +33,31 @@ def calculate_scores(answers):
         for trait_mapping in question.mapped_traits:
             trait_name = trait_mapping["trait"]
             multiplier = trait_mapping["multiplier"]
-
-            # Add weighted score to appropriate trait
             weighted_score = normalized_answer * multiplier
 
-            if trait_name in core_traits:
-                core_traits[trait_name].append((weighted_score, multiplier))
-            elif trait_name in heinlein_traits:
-                heinlein_traits[trait_name].append((weighted_score, multiplier))
+            if trait_name in all_traits:
+                all_traits[trait_name].append((weighted_score, multiplier))
 
     # Calculate trait scores (0-3)
     trait_scores_0_3 = {}
-
-    # Calculate core trait scores
-    for trait_name, weighted_scores in core_traits.items():
+    for trait_name, weighted_scores in all_traits.items():
         if weighted_scores:
             total_weighted_score = sum(score for score, _ in weighted_scores)
             total_multiplier = sum(multiplier for _, multiplier in weighted_scores)
             if total_multiplier > 0:
-                trait_score_0_1 = total_weighted_score / total_multiplier
-                trait_scores_0_3[trait_name] = trait_score_0_1 * 3
+                trait_scores_0_3[trait_name] = (total_weighted_score / total_multiplier) * 3
             else:
                 trait_scores_0_3[trait_name] = 0
         else:
             trait_scores_0_3[trait_name] = 0
 
-    # Calculate Heinlein trait scores
-    for trait_name, weighted_scores in heinlein_traits.items():
-        if weighted_scores:
-            total_weighted_score = sum(score for score, _ in weighted_scores)
-            total_multiplier = sum(multiplier for _, multiplier in weighted_scores)
-            if total_multiplier > 0:
-                trait_score_0_1 = total_weighted_score / total_multiplier
-                trait_scores_0_3[trait_name] = trait_score_0_1 * 3
-            else:
-                trait_scores_0_3[trait_name] = 0
-        else:
-            trait_scores_0_3[trait_name] = 0
-
-    # Calculate dimension averages (0-10)
-    cognitive_traits = [
-        "Strategic Intelligence",
-        "Ethical / Philosophical Insight",
-        "Creative / Innovative Thinking",
-        "Administrative / Legislative Skill"
-    ]
-
-    moral_affective_traits = [
-        "Compassion / Empathy",
-        "Courage / Resilience",
-        "Justice Orientation",
-        "Ambition / Self-Assertion",
-        "Moral Fallibility & Growth"
-    ]
-
-    cultural_social_traits = [
-        "Leadership / Influence",
-        "Institution-Building",
-        "Impact Legacy",
-        "Archetype Resonance",
-        "Relatability / Cultural Embeddedness"
-    ]
-
-    embodied_existential_traits = [
-        "Physical Endurance / Skill",
-        "Hardship Tolerance",
-        "Joy / Play / Aesthetic Appreciation",
-        "Mortality Acceptance",
-        "Paradox Integration"
-    ]
-
-    def avg_trait_scores(trait_list):
-        scores = [trait_scores_0_3.get(trait, 0) for trait in trait_list]
-        return sum(scores) / len(scores) if scores else 0
-
-    cognitive_avg_0_3 = avg_trait_scores(cognitive_traits)
-    moral_affective_avg_0_3 = avg_trait_scores(moral_affective_traits)
-    cultural_social_avg_0_3 = avg_trait_scores(cultural_social_traits)
-    embodied_existential_avg_0_3 = avg_trait_scores(embodied_existential_traits)
-
-    # Scale to 0-10
-    cognitive_avg_0_10 = cognitive_avg_0_3 * (10/3)
-    moral_affective_avg_0_10 = moral_affective_avg_0_3 * (10/3)
-    cultural_social_avg_0_10 = cultural_social_avg_0_3 * (10/3)
-    embodied_existential_avg_0_10 = embodied_existential_avg_0_3 * (10/3)
-
-    core_4d_avg = (cognitive_avg_0_10 + moral_affective_avg_0_10 +
-                   cultural_social_avg_0_10 + embodied_existential_avg_0_10) / 4
-
-    dimension_averages_0_10 = {
-        "Cognitive": cognitive_avg_0_10,
-        "Moral-Affective": moral_affective_avg_0_10,
-        "Cultural-Social": cultural_social_avg_0_10,
-        "Embodied-Existential": embodied_existential_avg_0_10,
-        "Core_4D_Avg": core_4d_avg
-    }
-
-    # Calculate Heinlein averages
-    heinlein_domain_scores = []
-    for trait_name in heinlein_traits.keys():
-        heinlein_domain_scores.append(trait_scores_0_3.get(trait_name, 0))
-
-    general_competency_avg_0_3 = sum(heinlein_domain_scores) / len(heinlein_domain_scores) if heinlein_domain_scores else 0
-    general_competency_avg_10scale = general_competency_avg_0_3 * (10/3)
-
-    heinlein_averages = {
-        "General_Competency_Avg_0_3": general_competency_avg_0_3,
-        "General_Competency_Avg_10scale": general_competency_avg_10scale
-    }
-
-    # Calculate overall
-    overall_normalized_equal_avg = (core_4d_avg * 4 + general_competency_avg_10scale) / 5
-
-    overall = {
-        "Core_4D_Avg": core_4d_avg,
-        "General_Competency_Avg_10scale": general_competency_avg_10scale,
-        "Overall_Normalized_Equal_Avg": overall_normalized_equal_avg
-    }
+    averages = calculate_averages(trait_scores_0_3)
 
     return {
         "trait_scores_0_3": trait_scores_0_3,
-        "dimension_averages_0_10": dimension_averages_0_10,
-        "heinlein_averages": heinlein_averages,
-        "overall": overall
+        "dimension_averages_0_10": averages["dimension_averages_0_10"],
+        "heinlein_averages": averages["heinlein_averages"],
+        "overall": averages["overall"],
     }
 
 
