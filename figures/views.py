@@ -67,12 +67,12 @@ class FigureIngestView(APIView):
                     status=status.HTTP_403_FORBIDDEN
                 )
 
-        figure_name = request.data.get('figure_name')
-        biography_text = request.data.get('biography_text')
+        figure_name = request.data.get('figure_name', '').strip()
+        biography_text = request.data.get('biography_text', '').strip()
 
-        if not figure_name or not biography_text:
+        if not figure_name:
             return Response(
-                {'detail': 'figure_name and biography_text are required'},
+                {'detail': 'figure_name is required'},
                 status=status.HTTP_400_BAD_REQUEST
             )
 

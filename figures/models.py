@@ -8,6 +8,7 @@ class HistoricalFigure(models.Model):
     bio_short = models.CharField(max_length=600)  # <= 600 chars
     bio_long = models.TextField()
     source_notes = models.TextField()  # citations, links, provenance
+    image = models.ImageField(upload_to='figures/', null=True, blank=True)
     score_json = models.JSONField()  # must match the schema used by the LLM output
 
     # Derived numeric fields for sorting (denormalize)
@@ -32,7 +33,7 @@ class FigureIngestionRequest(models.Model):
 
     requested_by = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)
     figure_name = models.CharField(max_length=200)
-    biography_text = models.TextField()  # pasted bio; the LLM uses this
+    biography_text = models.TextField(blank=True)  # pasted bio; the LLM uses this
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='pending')
     error = models.TextField(null=True, blank=True)
     result_figure = models.ForeignKey(HistoricalFigure, on_delete=models.SET_NULL, null=True, blank=True)
