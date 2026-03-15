@@ -173,7 +173,7 @@ export default function FigureDetail() {
     }
     Object.values(core).forEach(dimData => {
       if (typeof dimData !== 'object' || dimData === null) return
-      Object.values(dimData).forEach(td => { if (td?.citations) add(td.citations) })
+      Object.values(dimData).forEach(td => { if (td && typeof td === 'object' && 'score_0_3' in td && td.citations) add(td.citations) })
     })
     Object.values(heinlein).forEach(td => { if (td?.citations) add(td.citations) })
     return out.sort((a, b) => a.localeCompare(b))

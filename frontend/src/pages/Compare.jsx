@@ -321,7 +321,7 @@ export default function Compare() {
       <div className="max-w-5xl mx-auto px-4 py-16">
         <div className="p-6 text-center" style={{ background: '#C2657A12', borderRadius: '2px' }}>
           <p className="mb-4" style={{ color: '#C2657A' }}>{error || 'Comparison not available'}</p>
-          <Link to="/results" style={{ color: 'var(--accent)' }}>Back to results</Link>
+          <Link to="/assessment" style={{ color: 'var(--accent)' }}>Back to results</Link>
         </div>
       </div>
     )
@@ -335,7 +335,7 @@ export default function Compare() {
     <div className="max-w-5xl mx-auto px-4 py-8">
       {/* Nav */}
       <div className="flex gap-4 mb-6 text-sm">
-        <Link to="/results" style={{ color: 'var(--accent)' }}>← Back to results</Link>
+        <Link to="/assessment" style={{ color: 'var(--accent)' }}>← Back to results</Link>
         <Link to={`/figures/${slug}`} style={{ color: 'var(--accent)' }}>View full profile</Link>
       </div>
 
@@ -527,7 +527,7 @@ export default function Compare() {
 
       {/* Bottom nav */}
       <div className="flex gap-4 justify-center">
-        <Link to="/results" className="btn-secondary">Back to results</Link>
+        <Link to="/assessment" className="btn-secondary">Back to results</Link>
         <Link to={`/figures/${slug}`} className="btn-primary">View full profile</Link>
       </div>
     </div>

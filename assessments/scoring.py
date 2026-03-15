@@ -11,7 +11,7 @@ def calculate_scores(answers):
     Calculate scores based on the Personliness assessment rubric.
 
     Args:
-        answers (dict): Mapping of question_id -> answer_value (1-5)
+        answers (dict): Mapping of question_id -> answer_value (0-3)
 
     Returns:
         dict: Contains trait_scores_0_3, dimension_averages_0_10, heinlein_averages, overall
@@ -25,12 +25,12 @@ def calculate_scores(answers):
         except Question.DoesNotExist:
             continue
 
-        # Apply reverse scoring if needed
+        # Apply reverse scoring if needed (0-3 scale)
         if question.is_reversed:
-            answer_value = 6 - answer_value
+            answer_value = 3 - answer_value
 
         # Convert to normalized value (0-1)
-        normalized_answer = (answer_value - 1) / 4
+        normalized_answer = answer_value / 3
 
         # Map to traits
         for trait_mapping in question.mapped_traits:

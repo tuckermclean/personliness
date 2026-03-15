@@ -1,0 +1,90 @@
+services:
+  db:
+    image: postgres:15
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      POSTGRES_DB: personliness
+      POSTGRES_USER: personliness
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    restart: unless-stopped
+    # No ports: block — db not exposed to host
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    # No ports: block — redis not exposed to host
+
+  web:
+    build: .
+    command: /entrypoint.sh
+    volumes:
+      - media_files:/app/media
+      - static_files:/app/staticfiles
+    environment:
+      DEBUG: "False"
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS}
+      POSTGRES_DB: personliness
+      POSTGRES_USER: personliness
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      CELERY_BROKER_URL: "redis://redis:6379/0"
+      CELERY_RESULT_BACKEND: "redis://redis:6379/0"
+      ADMIN_API_KEY: ${ADMIN_API_KEY}
+      CORS_ALLOWED_ORIGINS: ${CORS_ALLOWED_ORIGINS}
+      LLM_ACTIVE_CONFIG: ${LLM_ACTIVE_CONFIG:-openai-o3}
+      LLM_OPENAI_API_KEY: ${LLM_OPENAI_API_KEY}
+      LLM_ANTHROPIC_API_KEY: ${LLM_ANTHROPIC_API_KEY}
+      CREATE_SUPERUSER: "true"
+      DJANGO_SUPERUSER_USERNAME: ${DJANGO_SUPERUSER_USERNAME:-admin}
+      DJANGO_SUPERUSER_EMAIL: ${DJANGO_SUPERUSER_EMAIL:-admin@example.com}
+      DJANGO_SUPERUSER_PASSWORD: ${DJANGO_SUPERUSER_PASSWORD}
+    depends_on:
+      - db
+      - redis
+    restart: unless-stopped
+
+  worker:
+    build: .
+    command: celery -A personliness worker --loglevel=info
+    volumes:
+      - media_files:/app/media
+    environment:
+      DEBUG: "False"
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS}
+      POSTGRES_DB: personliness
+      POSTGRES_USER: personliness
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      CELERY_BROKER_URL: "redis://redis:6379/0"
+      CELERY_RESULT_BACKEND: "redis://redis:6379/0"
+      LLM_ACTIVE_CONFIG: ${LLM_ACTIVE_CONFIG:-openai-o3}
+      LLM_OPENAI_API_KEY: ${LLM_OPENAI_API_KEY}
+      LLM_ANTHROPIC_API_KEY: ${LLM_ANTHROPIC_API_KEY}
+      LLM_ENABLE_REFINEMENT: ${LLM_ENABLE_REFINEMENT:-True}
+    depends_on:
+      - db
+      - redis
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      target: prod
+    ports:
+      - "80:80"
+    volumes:
+      - media_files:/app/media:ro
+      - static_files:/app/staticfiles:ro
+    depends_on:
+      - web
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  media_files:
+  static_files:

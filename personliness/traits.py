@@ -95,7 +95,7 @@ def calculate_averages(trait_scores_0_3):
         dimension_averages_0_10[dimension] = round(avg_0_3 * (10 / 3), 2)
 
     core_5d_avg = round(
-        sum(dimension_averages_0_10.values()) / 5, 2
+        sum(dimension_averages_0_10.values()) / len(CORE_DIMENSIONS), 2
     )
     dimension_averages_0_10['Core_5D_Avg'] = core_5d_avg
 

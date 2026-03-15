@@ -410,6 +410,7 @@ export default function Assessment() {
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState('')
   const [clickAnim, setClickAnim] = useState(null)
+  const navigatingBack = useRef(false)
 
   useEffect(() => {
     async function init() {
@@ -446,9 +447,9 @@ export default function Assessment() {
   const isLastPage = currentPage === totalPages - 1
   const allAnswered = answeredCount === questions.length
 
-  // Auto-advance after all questions on page answered
+  // Auto-advance after all questions on page answered (suppressed when navigating backward)
   useEffect(() => {
-    if (canGoNext && !isLastPage) {
+    if (canGoNext && !isLastPage && !navigatingBack.current) {
       const t = setTimeout(() => setCurrentPage(p => p + 1), 400)
       return () => clearTimeout(t)
     }
@@ -663,7 +664,11 @@ export default function Assessment() {
 
         <div className="flex flex-col-reverse sm:flex-row justify-between mt-8 gap-3">
           <button
-            onClick={() => setCurrentPage(p => p - 1)}
+            onClick={() => {
+              navigatingBack.current = true
+              setCurrentPage(p => p - 1)
+              setTimeout(() => { navigatingBack.current = false }, 500)
+            }}
             disabled={currentPage === 0}
             className="btn-secondary"
             style={{ opacity: currentPage === 0 ? 0.4 : 1 }}

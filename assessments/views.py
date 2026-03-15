@@ -84,13 +84,18 @@ class LatestAssessmentView(APIView):
 
 
 class AssessmentDetailView(generics.RetrieveAPIView):
-    queryset = AssessmentSubmission.objects.all()
     serializer_class = AssessmentSerializer
+
+    def get_queryset(self):
+        return AssessmentSubmission.objects.filter(user=self.request.user)
 
 
 class LatestMatchesView(APIView):
     def get(self, request):
-        top_n = int(request.GET.get('top', 10))
+        try:
+            top_n = min(int(request.GET.get('top', 10)), 100)
+        except ValueError:
+            top_n = 10
 
         try:
             assessment = AssessmentSubmission.objects.filter(user=request.user).latest('created_at')
