@@ -1,19 +1,15 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { getQuestions, submitAssessment, getLatestAssessment, getLatestMatches } from '../api'
 
-// ── Assessment (questionnaire) constants ──────────────────────────────────────
-
 const LIKERT_OPTIONS = [
-  { value: 0, label: 'Never',     color: 'bg-red-100 hover:bg-red-200 border-red-300' },
-  { value: 1, label: 'Rarely',    color: 'bg-orange-100 hover:bg-orange-200 border-orange-300' },
-  { value: 2, label: 'Sometimes', color: 'bg-yellow-100 hover:bg-yellow-200 border-yellow-300' },
-  { value: 3, label: 'Often',     color: 'bg-green-100 hover:bg-green-200 border-green-300' },
+  { value: 0, label: 'Never' },
+  { value: 1, label: 'Rarely' },
+  { value: 2, label: 'Sometimes' },
+  { value: 3, label: 'Often' },
 ]
 
 const QUESTIONS_PER_PAGE = 5
-
-// ── Results constants ─────────────────────────────────────────────────────────
 
 const DIMENSION_NAMES = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential', 'Relational']
 
@@ -28,50 +24,125 @@ const HEINLEIN_TRAIT_NAMES = [
   'Existential Composure',
 ]
 
-const DIMENSION_COLORS = {
-  'Cognitive': 'bg-blue-500',
-  'Moral-Affective': 'bg-pink-500',
-  'Cultural-Social': 'bg-purple-500',
-  'Embodied-Existential': 'bg-orange-500',
-  'Relational': 'bg-violet-500',
+const DIM_COLORS = {
+  'Cognitive':            'var(--dim-cognitive)',
+  'Moral-Affective':      'var(--dim-moral)',
+  'Cultural-Social':      'var(--dim-cultural)',
+  'Embodied-Existential': 'var(--dim-embodied)',
+  'Relational':           'var(--dim-relational)',
 }
 
-// ── Sub-components ────────────────────────────────────────────────────────────
+const FAMOUS_NAMES = [
+  'Aristotle', 'Marie Curie', 'Leonardo da Vinci',
+  'Harriet Tubman', 'Marcus Aurelius', 'Ada Lovelace',
+  'Frederick Douglass', 'Hypatia', 'Nikola Tesla',
+  'Simone de Beauvoir', 'Ibn Khaldun', 'Florence Nightingale',
+  'Galileo Galilei', 'Mary Wollstonecraft',
+]
 
-function ScoreBar({ label, value, maxValue = 10, color }) {
-  const percentage = (value / maxValue) * 100
+// ── Calculating overlay ────────────────────────────────────────────────────────
+function CalculatingOverlay() {
+  const [nameIdx, setNameIdx] = useState(0)
+  const [visible, setVisible] = useState(true)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setVisible(false)
+      setTimeout(() => {
+        setNameIdx(i => (i + 1) % FAMOUS_NAMES.length)
+        setVisible(true)
+      }, 200)
+    }, 600)
+    return () => clearInterval(interval)
+  }, [])
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex flex-col items-center justify-center"
+      style={{ background: 'var(--surface-0)' }}
+    >
+      <p
+        className="text-xs uppercase tracking-[0.15em] mb-10"
+        style={{ color: 'var(--text-tertiary)' }}
+      >
+        Calibrating your profile
+      </p>
+      <p
+        className="figure-name font-light transition-opacity duration-200"
+        style={{
+          fontSize: 'clamp(2rem, 6vw, 3.5rem)',
+          color: 'var(--text-primary)',
+          opacity: visible ? 1 : 0,
+        }}
+      >
+        {FAMOUS_NAMES[nameIdx]}
+      </p>
+    </div>
+  )
+}
+
+// ── Sub-components for results view ───────────────────────────────────────────
+function AnimatedBar({ value, maxValue = 10, color, delay = 0 }) {
+  const pct = (value / maxValue) * 100
+  return (
+    <div className="score-track">
+      <div
+        className="score-fill"
+        style={{
+          '--bar-target': `${pct}%`,
+          animationDelay: `${(100 + delay) / 1000}s`,
+          background: `linear-gradient(to right, ${color}, color-mix(in srgb, ${color} 60%, transparent))`,
+        }}
+      />
+    </div>
+  )
+}
+
+function ScoreRow({ label, value, maxValue = 10, color, delay }) {
   return (
     <div className="mb-3">
       <div className="flex justify-between text-sm mb-1">
-        <span className="font-medium">{label}</span>
-        <span className="text-slate-600">{value.toFixed(2)}</span>
+        <span style={{ color: 'var(--text-secondary)' }}>{label}</span>
+        <span className="font-mono text-xs font-medium" style={{ color: 'var(--accent-figure)' }}>
+          {value.toFixed(2)}
+        </span>
       </div>
-      <div className="h-3 bg-slate-200 rounded-full overflow-hidden">
-        <div className={`h-full ${color} transition-all duration-500`} style={{ width: `${percentage}%` }} />
-      </div>
+      <AnimatedBar value={value} maxValue={maxValue} color={color} delay={delay} />
     </div>
   )
 }
 
-function SimilarityPill({ label, value, className = '' }) {
-  return (
-    <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${className}`}>
-      {label} {(value * 100).toFixed(0)}%
-    </span>
-  )
-}
-
-function DimensionBar({ name, similarity }) {
+function DimensionBar({ name, similarity, delay }) {
   const pct = similarity * 100
-  const color = DIMENSION_COLORS[name] || 'bg-slate-400'
+  const color = DIM_COLORS[name] || 'var(--accent)'
   return (
     <div className="flex items-center gap-2">
-      <span className="text-xs text-slate-600 w-28 truncate" title={name}>{name}</span>
-      <div className="flex-1 h-1.5 bg-slate-200 rounded-full overflow-hidden">
-        <div className={`h-full ${color} rounded-full`} style={{ width: `${pct}%` }} />
+      <span className="text-xs w-28 truncate" title={name} style={{ color: 'var(--text-tertiary)' }}>{name}</span>
+      <div className="flex-1 score-track" style={{ height: '6px' }}>
+        <div
+          className="score-fill"
+          style={{
+            '--bar-target': `${pct}%`,
+            animationDelay: `${(150 + delay) / 1000}s`,
+            background: `linear-gradient(to right, ${color}, color-mix(in srgb, ${color} 60%, transparent))`,
+          }}
+        />
       </div>
-      <span className="text-xs text-slate-500 w-8 text-right">{pct.toFixed(0)}%</span>
+      <span className="font-mono text-xs w-8 text-right" style={{ color: 'var(--text-tertiary)' }}>
+        {pct.toFixed(0)}%
+      </span>
     </div>
+  )
+}
+
+function SimilarityPill({ label, value, color }) {
+  return (
+    <span
+      className="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium font-mono"
+      style={{ background: `${color}18`, color, borderRadius: '2px' }}
+    >
+      {label} {(value * 100).toFixed(0)}%
+    </span>
   )
 }
 
@@ -79,45 +150,55 @@ function MatchCard({ match, rank }) {
   const dimensions = match.dimensions || {}
   const strengths = (match.shared_strengths || []).slice(0, 4)
   const differences = (match.key_differences || []).slice(0, 3)
+  const overallPct = Math.round(match.overall_similarity * 100)
 
   return (
-    <div className="p-4 rounded-xl border border-slate-200 hover:border-indigo-300 hover:shadow-sm transition bg-white">
+    <div
+      className="card"
+      style={{ borderLeft: rank === 0 ? '3px solid var(--accent)' : '3px solid var(--surface-3)' }}
+    >
       <div className="flex items-start justify-between mb-3">
         <div className="flex items-center gap-3">
-          <span className={`w-8 h-8 rounded-full flex items-center justify-center text-white font-bold text-sm ${
-            rank === 0 ? 'bg-yellow-500' :
-            rank === 1 ? 'bg-slate-400' :
-            rank === 2 ? 'bg-amber-600' :
-            'bg-slate-300'
-          }`}>
+          <span
+            className="w-8 h-8 flex items-center justify-center font-mono text-sm font-medium"
+            style={{
+              background: rank === 0 ? 'var(--accent)' : 'var(--surface-2)',
+              color: rank === 0 ? 'var(--surface-0)' : 'var(--text-tertiary)',
+              borderRadius: '50%',
+            }}
+          >
             {rank + 1}
           </span>
           <div>
-            <h3 className="font-semibold">{match.figure_name}</h3>
-            <p className="text-sm text-slate-600 line-clamp-1">{match.bio_short}</p>
+            <h3 className="figure-name text-lg font-light" style={{ color: 'var(--text-primary)' }}>
+              {match.figure_name}
+            </h3>
+            <p className="text-sm line-clamp-1" style={{ color: 'var(--text-secondary)' }}>
+              {match.bio_short}
+            </p>
           </div>
         </div>
-        <span className="text-xl font-bold text-indigo-600 whitespace-nowrap ml-2">
-          {(match.overall_similarity * 100).toFixed(0)}%
+        <span className="font-mono font-medium text-xl ml-2 whitespace-nowrap" style={{ color: 'var(--accent-figure)' }}>
+          {overallPct}%
         </span>
       </div>
 
       <div className="flex flex-wrap gap-1.5 mb-3">
-        <SimilarityPill label="Overall" value={match.overall_similarity} className="bg-indigo-100 text-indigo-700" />
-        <SimilarityPill label="Core" value={match.core_similarity} className="bg-blue-100 text-blue-700" />
-        <SimilarityPill label="Heinlein" value={match.heinlein_similarity} className="bg-emerald-100 text-emerald-700" />
+        <SimilarityPill label="Overall" value={match.overall_similarity} color="var(--accent)" />
+        <SimilarityPill label="Core" value={match.core_similarity} color="var(--dim-cognitive)" />
+        <SimilarityPill label="Heinlein" value={match.heinlein_similarity} color="var(--dim-competency)" />
       </div>
 
       <div className="space-y-1 mb-3">
-        {DIMENSION_NAMES.map(dim => (
-          <DimensionBar key={dim} name={dim} similarity={dimensions[dim] || 0} />
+        {DIMENSION_NAMES.map((dim, i) => (
+          <DimensionBar key={dim} name={dim} similarity={dimensions[dim] || 0} delay={i * 40} />
         ))}
       </div>
 
       {strengths.length > 0 && (
         <div className="flex flex-wrap gap-1 mb-2">
           {strengths.map(s => (
-            <span key={s.trait} className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">
+            <span key={s.trait} className="text-xs px-2 py-0.5 font-medium" style={{ background: '#4BA88818', color: '#4BA888', borderRadius: '2px' }}>
               {s.trait}
             </span>
           ))}
@@ -127,7 +208,7 @@ function MatchCard({ match, rank }) {
       {differences.length > 0 && (
         <div className="flex flex-wrap gap-1 mb-3">
           {differences.map(d => (
-            <span key={d.trait} className="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">
+            <span key={d.trait} className="text-xs px-2 py-0.5 font-medium" style={{ background: '#D4824A18', color: '#D4824A', borderRadius: '2px' }}>
               {d.trait} ({d.delta > 0 ? '+' : ''}{d.delta.toFixed(1)})
             </span>
           ))}
@@ -135,16 +216,10 @@ function MatchCard({ match, rank }) {
       )}
 
       <div className="flex gap-2">
-        <Link
-          to={`/compare/${match.figure_slug}`}
-          className="text-sm px-3 py-1 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 transition"
-        >
+        <Link to={`/compare/${match.figure_slug}`} className="btn-primary" style={{ padding: '0.375rem 0.875rem' }}>
           Compare
         </Link>
-        <Link
-          to={`/figures/${match.figure_slug}`}
-          className="text-sm px-3 py-1 rounded-lg border border-slate-300 text-slate-600 hover:bg-slate-50 transition"
-        >
+        <Link to={`/figures/${match.figure_slug}`} className="btn-secondary" style={{ padding: '0.375rem 0.875rem' }}>
           View Profile
         </Link>
       </div>
@@ -152,34 +227,27 @@ function MatchCard({ match, rank }) {
   )
 }
 
-// ── Main component ────────────────────────────────────────────────────────────
-
+// ── Main component ─────────────────────────────────────────────────────────────
 export default function Assessment() {
-  // view: 'loading' | 'questionnaire' | 'results'
   const [view, setView] = useState('loading')
   const [retakePrompt, setRetakePrompt] = useState(false)
-
-  // Results data
   const [assessment, setAssessment] = useState(null)
   const [matches, setMatches] = useState(null)
-
-  // Questionnaire data
   const [questions, setQuestions] = useState([])
   const [answers, setAnswers] = useState({})
   const [currentPage, setCurrentPage] = useState(0)
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState('')
+  const [clickAnim, setClickAnim] = useState(null)
 
   useEffect(() => {
     async function init() {
       try {
-        // Load questions and existing assessment in parallel
         const [assessmentData, questionsData] = await Promise.all([
           getLatestAssessment(),
           getQuestions(),
         ])
         setQuestions(questionsData)
-
         if (assessmentData) {
           setAssessment(assessmentData)
           const matchesData = await getLatestMatches(10)
@@ -188,15 +256,13 @@ export default function Assessment() {
         } else {
           setView('questionnaire')
         }
-      } catch (err) {
+      } catch {
         setError('Failed to load. Please try again.')
         setView('questionnaire')
       }
     }
     init()
   }, [])
-
-  // ── Questionnaire handlers ──────────────────────────────────────────────────
 
   const totalPages = Math.ceil(questions.length / QUESTIONS_PER_PAGE)
   const currentQuestions = questions.slice(
@@ -209,8 +275,15 @@ export default function Assessment() {
   const isLastPage = currentPage === totalPages - 1
   const allAnswered = answeredCount === questions.length
 
+  // Progress bar color: interpolate from blue to amber as progress increases
+  const progressHue = Math.round(220 - (progress / 100) * 165)
+  const progressColor = `hsl(${progressHue}, 65%, 52%)`
+
   const handleAnswer = (questionId, value) => {
     setAnswers(prev => ({ ...prev, [questionId]: value }))
+    // Spring micro-feedback
+    setClickAnim(`${questionId}-${value}`)
+    setTimeout(() => setClickAnim(null), 200)
   }
 
   const handleSubmit = async () => {
@@ -229,7 +302,7 @@ export default function Assessment() {
       setRetakePrompt(false)
       setAnswers({})
       setCurrentPage(0)
-    } catch (err) {
+    } catch {
       setError('Failed to submit assessment. Please try again.')
     } finally {
       setSubmitting(false)
@@ -244,80 +317,143 @@ export default function Assessment() {
     setView('questionnaire')
   }
 
-  // ── Render: loading ─────────────────────────────────────────────────────────
-
+  // ── Loading ──────────────────────────────────────────────────────────────────
   if (view === 'loading') {
     return (
       <div className="max-w-3xl mx-auto px-4 py-16 text-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto" />
-        <p className="mt-4 text-slate-600">Loading…</p>
+        <div
+          className="w-10 h-10 border-2 rounded-full animate-spin mx-auto"
+          style={{ borderColor: 'var(--surface-3)', borderTopColor: 'var(--accent)' }}
+        />
+        <p className="mt-4 text-sm" style={{ color: 'var(--text-tertiary)' }}>Loading…</p>
       </div>
     )
   }
 
-  // ── Render: questionnaire ───────────────────────────────────────────────────
+  // ── Calculating overlay ──────────────────────────────────────────────────────
+  if (submitting) return <CalculatingOverlay />
 
+  // ── Questionnaire ────────────────────────────────────────────────────────────
   if (view === 'questionnaire') {
     return (
       <div className="max-w-3xl mx-auto px-4 py-8">
+        {/* Thin progress line at very top of content */}
+        <div
+          className="w-full mb-8 relative"
+          style={{ height: '2px', background: 'var(--surface-2)', borderRadius: '1px' }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              height: '100%',
+              width: `${progress}%`,
+              background: progressColor,
+              borderRadius: '1px',
+              transition: 'width 0.4s ease, background 0.6s ease',
+            }}
+          />
+        </div>
+
         <div className="mb-8">
-          <h1 className="text-3xl font-bold mb-2">Personality Assessment</h1>
-          <p className="text-slate-600">
+          <h1
+            className="figure-name font-normal mb-2"
+            style={{ fontSize: '2.75rem', color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
+          >
+            Personality Assessment
+          </h1>
+          <p style={{ color: 'var(--text-secondary)' }}>
             Answer each question based on how often you exhibit the behavior described.
           </p>
         </div>
 
-        {/* Progress */}
-        <div className="mb-8">
-          <div className="flex justify-between text-sm text-slate-600 mb-2">
-            <span>{answeredCount} of {questions.length} answered</span>
-            <span>Page {currentPage + 1} of {totalPages}</span>
-          </div>
-          <div className="h-2 bg-slate-200 rounded-full overflow-hidden">
-            <div
-              className="h-full bg-indigo-600 transition-all duration-300"
-              style={{ width: `${progress}%` }}
-            />
-          </div>
+        <div className="flex justify-between text-xs mb-6 uppercase tracking-[0.06em]" style={{ color: 'var(--text-tertiary)' }}>
+          <span>{answeredCount} of {questions.length} answered</span>
+          <span>Page {currentPage + 1} of {totalPages}</span>
         </div>
 
         {error && (
-          <div className="bg-red-50 text-red-600 p-4 rounded-lg mb-6">{error}</div>
+          <div
+            className="p-4 mb-6 text-sm"
+            style={{ background: '#C2657A18', color: '#C2657A', borderRadius: '2px' }}
+          >
+            {error}
+          </div>
         )}
 
-        <div className="space-y-8">
-          {currentQuestions.map((question, idx) => (
-            <div key={question.id} className="bg-white p-6 rounded-xl border border-slate-200">
-              <p className="text-lg font-medium mb-4">
-                <span className="text-indigo-600 mr-2">
-                  {currentPage * QUESTIONS_PER_PAGE + idx + 1}.
-                </span>
-                {question.text}
-              </p>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                {LIKERT_OPTIONS.map(option => (
-                  <button
-                    key={option.value}
-                    onClick={() => handleAnswer(question.id, option.value)}
-                    className={`p-3 rounded-lg border-2 transition font-medium ${
-                      answers[question.id] === option.value
-                        ? 'border-indigo-600 bg-indigo-50 text-indigo-700'
-                        : `border-slate-200 ${option.color}`
-                    }`}
-                  >
-                    {option.label}
-                  </button>
-                ))}
+        <div className="space-y-6">
+          {currentQuestions.map((question, idx) => {
+            const qNumber = currentPage * QUESTIONS_PER_PAGE + idx + 1
+            return (
+              <div
+                key={question.id}
+                className="card relative overflow-hidden"
+              >
+                {/* Question number watermark */}
+                <div
+                  className="absolute top-3 right-4 figure-name font-light pointer-events-none select-none"
+                  style={{ fontSize: '5rem', color: 'var(--surface-2)', lineHeight: 1 }}
+                  aria-hidden
+                >
+                  {qNumber}
+                </div>
+
+                <h3
+                  className="figure-name font-medium mb-5 relative"
+                  style={{ fontSize: '1.25rem', color: 'var(--text-primary)', lineHeight: 1.4 }}
+                >
+                  {question.text}
+                </h3>
+
+                <div className="flex flex-col gap-2">
+                  {LIKERT_OPTIONS.map(option => {
+                    const isSelected = answers[question.id] === option.value
+                    const animKey = `${question.id}-${option.value}`
+                    const isAnimating = clickAnim === animKey
+                    return (
+                      <button
+                        key={option.value}
+                        onClick={() => handleAnswer(question.id, option.value)}
+                        className="w-full flex items-center gap-3 px-4 py-3 text-left text-sm font-medium transition-all"
+                        style={{
+                          background: isSelected ? `var(--accent)14` : 'var(--surface-2)',
+                          border: `1px solid ${isSelected ? 'var(--accent)' : 'var(--surface-3)'}`,
+                          borderRadius: '2px',
+                          color: isSelected ? 'var(--accent)' : 'var(--text-secondary)',
+                          cursor: 'pointer',
+                          transform: isAnimating ? 'scale(1.03)' : 'scale(1)',
+                          transition: 'transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.15s ease, border-color 0.15s ease, color 0.15s ease',
+                        }}
+                      >
+                        {/* Marginalia dot for selected */}
+                        <span
+                          style={{
+                            width: '6px',
+                            height: '6px',
+                            borderRadius: '1px',
+                            background: isSelected ? 'var(--accent)' : 'transparent',
+                            border: isSelected ? 'none' : '1px solid var(--surface-3)',
+                            flexShrink: 0,
+                            transition: 'background 0.15s ease',
+                          }}
+                        />
+                        {option.label}
+                      </button>
+                    )
+                  })}
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          })}
         </div>
 
         <div className="flex justify-between mt-8">
           <button
             onClick={() => setCurrentPage(p => p - 1)}
             disabled={currentPage === 0}
-            className="px-6 py-2 border border-slate-300 rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-slate-50"
+            className="btn-secondary"
+            style={{ opacity: currentPage === 0 ? 0.4 : 1 }}
           >
             Previous
           </button>
@@ -326,15 +462,17 @@ export default function Assessment() {
             <button
               onClick={handleSubmit}
               disabled={!allAnswered || submitting}
-              className="px-8 py-2 bg-indigo-600 text-white rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-indigo-700"
+              className="btn-primary"
+              style={{ opacity: !allAnswered ? 0.5 : 1 }}
             >
-              {submitting ? 'Submitting…' : 'Submit Assessment'}
+              Submit Assessment
             </button>
           ) : (
             <button
               onClick={() => setCurrentPage(p => p + 1)}
               disabled={!canGoNext}
-              className="px-6 py-2 bg-indigo-600 text-white rounded-lg disabled:opacity-50 disabled:cursor-not-allowed hover:bg-indigo-700"
+              className="btn-primary"
+              style={{ opacity: !canGoNext ? 0.5 : 1 }}
             >
               Next
             </button>
@@ -344,34 +482,37 @@ export default function Assessment() {
     )
   }
 
-  // ── Render: results ─────────────────────────────────────────────────────────
-
-  const { trait_scores_0_3, dimension_averages_0_10, heinlein_averages, overall } = assessment
+  // ── Results ──────────────────────────────────────────────────────────────────
+  const { trait_scores_0_3, dimension_averages_0_10, overall } = assessment
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-
-      {/* Header */}
+    <div className="max-w-4xl mx-auto px-4 py-10">
       <div className="flex items-start justify-between mb-2">
-        <h1 className="text-3xl font-bold">Your Results</h1>
+        <h1
+          className="figure-name font-normal"
+          style={{ fontSize: '2.75rem', color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
+        >
+          Your Results
+        </h1>
       </div>
-      <div className="flex items-center gap-3 mb-8">
-        <p className="text-slate-500 text-sm">
+      <div className="flex items-center gap-3 mb-10">
+        <p className="text-sm" style={{ color: 'var(--text-tertiary)' }}>
           Assessed on {new Date(assessment.created_at).toLocaleDateString()}
         </p>
-        <span className="text-slate-300">·</span>
+        <span style={{ color: 'var(--surface-3)' }}>·</span>
         {retakePrompt ? (
           <span className="flex items-center gap-2 text-sm">
-            <span className="text-slate-600">This will replace your current results.</span>
+            <span style={{ color: 'var(--text-secondary)' }}>This will replace your current results.</span>
             <button
               onClick={startRetake}
-              className="text-red-600 hover:text-red-700 font-medium underline underline-offset-2"
+              className="font-medium underline underline-offset-2"
+              style={{ color: '#C2657A' }}
             >
               Start over
             </button>
             <button
               onClick={() => setRetakePrompt(false)}
-              className="text-slate-500 hover:text-slate-700"
+              style={{ color: 'var(--text-tertiary)' }}
             >
               Never mind
             </button>
@@ -379,70 +520,77 @@ export default function Assessment() {
         ) : (
           <button
             onClick={() => setRetakePrompt(true)}
-            className="text-sm text-slate-400 hover:text-slate-600 transition"
+            className="text-sm transition-colors"
+            style={{ color: 'var(--text-tertiary)' }}
           >
             Retake assessment
           </button>
         )}
       </div>
 
-      {/* Overall Scores */}
-      <div className="grid md:grid-cols-3 gap-6 mb-10">
-        <div className="bg-gradient-to-br from-indigo-500 to-purple-600 text-white p-6 rounded-xl">
-          <h3 className="text-lg opacity-90 mb-1">Overall</h3>
-          <p className="text-4xl font-bold">{overall?.Overall_Normalized_Equal_Avg?.toFixed(2) || '—'}</p>
-          <p className="text-sm opacity-75 mt-1">out of 10</p>
-        </div>
-        <div className="bg-gradient-to-br from-blue-500 to-cyan-500 text-white p-6 rounded-xl">
-          <h3 className="text-lg opacity-90 mb-1">Core 5D</h3>
-          <p className="text-4xl font-bold">{overall?.Core_5D_Avg?.toFixed(2) || '—'}</p>
-          <p className="text-sm opacity-75 mt-1">out of 10</p>
-        </div>
-        <div className="bg-gradient-to-br from-emerald-500 to-teal-500 text-white p-6 rounded-xl">
-          <h3 className="text-lg opacity-90 mb-1">Competency</h3>
-          <p className="text-4xl font-bold">{overall?.General_Competency_Avg_10scale?.toFixed(2) || '—'}</p>
-          <p className="text-sm opacity-75 mt-1">out of 10</p>
-        </div>
+      {/* Score tiles */}
+      <div className="grid md:grid-cols-3 gap-4 mb-10">
+        {[
+          { label: 'Overall', value: overall?.Overall_Normalized_Equal_Avg, color: 'var(--accent)' },
+          { label: 'Core 5D', value: overall?.Core_5D_Avg, color: 'var(--dim-cognitive)' },
+          { label: 'Competency', value: overall?.General_Competency_Avg_10scale, color: 'var(--dim-competency)' },
+        ].map(({ label, value, color }) => (
+          <div
+            key={label}
+            className="p-6"
+            style={{ background: 'var(--surface-1)', borderRadius: '2px', borderLeft: `3px solid ${color}` }}
+          >
+            <p className="text-xs uppercase tracking-[0.06em] mb-1" style={{ color: 'var(--text-tertiary)' }}>{label}</p>
+            <p className="font-mono font-medium" style={{ fontSize: '2.5rem', color, lineHeight: 1 }}>
+              {value?.toFixed(2) ?? '—'}
+            </p>
+            <p className="text-xs mt-1" style={{ color: 'var(--text-tertiary)' }}>out of 10</p>
+          </div>
+        ))}
       </div>
 
-      <div className="grid md:grid-cols-2 gap-8 mb-10">
-        {/* Core Dimensions */}
-        <div className="bg-white p-6 rounded-xl border border-slate-200">
-          <h2 className="text-xl font-semibold mb-4">Core Dimensions</h2>
-          {dimension_averages_0_10 && DIMENSION_NAMES
-            .map(name => (
-              <ScoreBar
-                key={name}
-                label={name}
-                value={dimension_averages_0_10[name] ?? 0}
-                color="bg-indigo-500"
-              />
-            ))}
+      <div className="grid md:grid-cols-2 gap-6 mb-10">
+        <div className="card">
+          <h2 className="figure-name font-medium mb-4" style={{ fontSize: '1.375rem', color: 'var(--text-primary)' }}>
+            Core Dimensions
+          </h2>
+          {dimension_averages_0_10 && DIMENSION_NAMES.map((name, i) => (
+            <ScoreRow
+              key={name}
+              label={name}
+              value={dimension_averages_0_10[name] ?? 0}
+              color={DIM_COLORS[name] || 'var(--accent)'}
+              delay={i * 60}
+            />
+          ))}
         </div>
 
-        {/* Heinlein Competencies */}
-        <div className="bg-white p-6 rounded-xl border border-slate-200">
-          <h2 className="text-xl font-semibold mb-4">Heinlein Competencies</h2>
-          <div className="max-h-64 overflow-y-auto pr-2">
+        <div className="card">
+          <h2 className="figure-name font-medium mb-4" style={{ fontSize: '1.375rem', color: 'var(--text-primary)' }}>
+            Heinlein Competencies
+          </h2>
+          <div className="max-h-72 overflow-y-auto pr-2">
             {trait_scores_0_3 && HEINLEIN_TRAIT_NAMES
               .filter(name => trait_scores_0_3[name] != null)
-              .map(name => (
-                <ScoreBar
+              .map((name, i) => (
+                <ScoreRow
                   key={name}
                   label={name}
                   value={trait_scores_0_3[name]}
                   maxValue={3}
-                  color="bg-emerald-500"
+                  color="var(--dim-competency)"
+                  delay={i * 40}
                 />
               ))}
           </div>
         </div>
       </div>
 
-      {/* Historical Matches */}
       {matches?.top_matches && matches.top_matches.length > 0 && (
         <div>
-          <h2 className="text-xl font-semibold mb-4">Your Historical Matches</h2>
+          <h2 className="figure-name font-medium mb-6" style={{ fontSize: '1.875rem', color: 'var(--text-primary)' }}>
+            Your Historical Matches
+          </h2>
           <div className="grid gap-4 md:grid-cols-2">
             {matches.top_matches.map((match, idx) => (
               <MatchCard key={match.figure_slug} match={match} rank={idx} />

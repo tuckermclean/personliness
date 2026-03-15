@@ -4,18 +4,40 @@ import { getFigure } from '../api'
 
 const isLoggedIn = () => !!localStorage.getItem('access_token')
 
-function ScoreBar({ label, value, maxValue = 3, color = 'bg-indigo-500' }) {
-  const percentage = (value / maxValue) * 100
+const DIM_CSS_VARS = {
+  'Cognitive':            'var(--dim-cognitive)',
+  'Moral-Affective':      'var(--dim-moral)',
+  'Cultural-Social':      'var(--dim-cultural)',
+  'Embodied-Existential': 'var(--dim-embodied)',
+  'Relational':           'var(--dim-relational)',
+}
+
+function AnimatedScoreBar({ label, value, maxValue = 3, color, delay = 0, italic = false }) {
+  const pct = (value / maxValue) * 100
   return (
-    <div className="mb-2">
+    <div className="mb-3">
       <div className="flex justify-between text-sm mb-1">
-        <span className="text-slate-700">{label}</span>
-        <span className="text-slate-600">{value.toFixed(2)}</span>
+        <span
+          className={italic ? 'figure-name font-light italic' : ''}
+          style={{ color: 'var(--text-secondary)', fontSize: italic ? '0.95rem' : '0.875rem' }}
+        >
+          {label}
+        </span>
+        <span
+          className="font-mono font-medium text-xs"
+          style={{ color: 'var(--accent-figure)' }}
+        >
+          {value.toFixed(2)}
+        </span>
       </div>
-      <div className="h-2 bg-slate-200 rounded-full overflow-hidden">
+      <div className="score-track">
         <div
-          className={`h-full ${color} transition-all duration-500`}
-          style={{ width: `${percentage}%` }}
+          className="score-fill"
+          style={{
+            '--bar-target': `${pct}%`,
+            animationDelay: `${(80 + delay) / 1000}s`,
+            background: `linear-gradient(to right, ${color}, color-mix(in srgb, ${color} 60%, transparent))`,
+          }}
         />
       </div>
     </div>
@@ -23,18 +45,39 @@ function ScoreBar({ label, value, maxValue = 3, color = 'bg-indigo-500' }) {
 }
 
 function TraitCard({ name, data }) {
+  const confColor = {
+    High:   { bg: '#4BA88818', text: '#4BA888' },
+    Medium: { bg: '#D4824A18', text: '#D4824A' },
+    Low:    { bg: 'var(--surface-2)', text: 'var(--text-tertiary)' },
+  }[data.confidence] || { bg: 'var(--surface-2)', text: 'var(--text-tertiary)' }
+
   return (
-    <div className="p-3 bg-slate-50 rounded-lg">
+    <div className="p-3" style={{ background: 'var(--surface-2)', borderRadius: '2px' }}>
       <div className="flex justify-between items-start mb-1">
-        <span className="font-medium text-sm">{name}</span>
-        <span className="text-indigo-600 font-bold">{data.score_0_3}/3</span>
+        <span
+          className="figure-name font-light italic text-sm"
+          style={{ color: 'var(--text-primary)' }}
+        >
+          {name}
+        </span>
+        <span
+          className="font-mono font-medium text-sm ml-2 shrink-0"
+          style={{ color: 'var(--accent-figure)' }}
+        >
+          {data.score_0_3}/3
+        </span>
       </div>
-      <p className="text-xs text-slate-600 mb-1">{data.justification}</p>
-      <span className={`text-xs px-2 py-0.5 rounded ${
-        data.confidence === 'High' ? 'bg-green-100 text-green-700' :
-        data.confidence === 'Medium' ? 'bg-yellow-100 text-yellow-700' :
-        'bg-slate-100 text-slate-600'
-      }`}>
+      <p className="text-xs mb-2 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+        {data.justification}
+      </p>
+      <span
+        className="text-xs px-2 py-0.5 font-medium"
+        style={{
+          background: confColor.bg,
+          color: confColor.text,
+          borderRadius: '2px',
+        }}
+      >
         {data.confidence} confidence
       </span>
     </div>
@@ -53,7 +96,7 @@ export default function FigureDetail() {
       try {
         const data = await getFigure(slug)
         setFigure(data)
-      } catch (err) {
+      } catch {
         setError('Failed to load figure')
       } finally {
         setLoading(false)
@@ -65,7 +108,10 @@ export default function FigureDetail() {
   if (loading) {
     return (
       <div className="max-w-4xl mx-auto px-4 py-16 text-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto"></div>
+        <div
+          className="w-10 h-10 border-2 rounded-full animate-spin mx-auto"
+          style={{ borderColor: 'var(--surface-3)', borderTopColor: 'var(--accent)' }}
+        />
       </div>
     )
   }
@@ -73,9 +119,9 @@ export default function FigureDetail() {
   if (error || !figure) {
     return (
       <div className="max-w-4xl mx-auto px-4 py-16">
-        <div className="bg-red-50 text-red-600 p-6 rounded-xl text-center">
-          <p>{error || 'Figure not found'}</p>
-          <Link to="/figures" className="text-indigo-600 hover:underline mt-2 inline-block">
+        <div className="p-6 text-center" style={{ background: '#C2657A12', borderRadius: '2px' }}>
+          <p style={{ color: '#C2657A' }}>{error || 'Figure not found'}</p>
+          <Link to="/figures" className="text-sm mt-3 inline-block" style={{ color: 'var(--accent)' }}>
             Back to figures
           </Link>
         </div>
@@ -87,127 +133,151 @@ export default function FigureDetail() {
   const core = scores.core || {}
   const heinlein = scores.heinlein_competency || {}
   const dimensionAverages = core.dimension_averages_0_10 || {}
-
-  // Extract core dimensions (Cognitive, Moral-Affective, etc.)
   const coreDimensions = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential', 'Relational']
     .filter(dim => core[dim])
-
-  // Extract heinlein competencies (excluding 'averages')
   const heinleinCompetencies = Object.entries(heinlein)
     .filter(([, data]) => data && typeof data === 'object' && 'score_0_3' in data)
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
-      <Link to="/figures" className="text-indigo-600 hover:underline mb-4 inline-block">
-        ← Back to figures
+      <Link
+        to="/figures"
+        className="text-sm uppercase tracking-[0.06em] font-medium mb-6 inline-block"
+        style={{ color: 'var(--accent)' }}
+      >
+        ← Figures
       </Link>
 
-      {/* Header */}
-      <div className="bg-white p-8 rounded-xl border border-slate-200 mb-8">
-        <div className="flex items-start justify-between flex-wrap gap-4 mb-6">
+      {/* Header card */}
+      <div className="card mb-8 relative overflow-hidden">
+        {/* Watermark question number / decorative */}
+        <div
+          className="absolute top-4 right-6 figure-name font-light pointer-events-none select-none"
+          style={{ fontSize: '6rem', color: 'var(--surface-3)', lineHeight: 1 }}
+          aria-hidden
+        >
+          I
+        </div>
+
+        <div className="flex items-start justify-between flex-wrap gap-4 mb-6 relative">
           <div>
-            <h1 className="text-3xl font-bold mb-2">{figure.name}</h1>
-            <p className="text-lg text-slate-600">{figure.bio_short}</p>
+            <h1
+              className="figure-name font-light mb-2"
+              style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', letterSpacing: '-0.02em', color: 'var(--text-primary)' }}
+            >
+              {figure.name}
+            </h1>
+            <p className="text-base font-light" style={{ color: 'var(--text-secondary)' }}>
+              {figure.bio_short}
+            </p>
           </div>
           {isLoggedIn() && (
-            <Link
-              to={`/compare/${slug}`}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition whitespace-nowrap"
-            >
+            <Link to={`/compare/${slug}`} className="btn-primary whitespace-nowrap">
               Compare with me
             </Link>
           )}
         </div>
 
-        {/* Overall Scores */}
+        {/* Overall score tiles */}
         <div className="grid grid-cols-3 gap-4 mb-6">
-          <div className="text-center p-4 bg-gradient-to-br from-indigo-500 to-purple-600 text-white rounded-lg">
-            <p className="text-3xl font-bold">
-              {figure.overall_normalized_equal_avg_0_10?.toFixed(2)}
-            </p>
-            <p className="text-sm opacity-90">Overall</p>
-          </div>
-          <div className="text-center p-4 bg-gradient-to-br from-blue-500 to-cyan-500 text-white rounded-lg">
-            <p className="text-3xl font-bold">
-              {figure.core_4d_avg_0_10?.toFixed(2)}
-            </p>
-            <p className="text-sm opacity-90">Core 5D</p>
-          </div>
-          <div className="text-center p-4 bg-gradient-to-br from-emerald-500 to-teal-500 text-white rounded-lg">
-            <p className="text-3xl font-bold">
-              {figure.general_competency_avg_0_10?.toFixed(2)}
-            </p>
-            <p className="text-sm opacity-90">Competency</p>
-          </div>
+          {[
+            { label: 'Overall', value: figure.overall_normalized_equal_avg_0_10, color: 'var(--accent)' },
+            { label: 'Core 5D', value: figure.core_4d_avg_0_10, color: 'var(--dim-cognitive)' },
+            { label: 'Competency', value: figure.general_competency_avg_0_10, color: 'var(--dim-competency)' },
+          ].map(({ label, value, color }) => (
+            <div
+              key={label}
+              className="text-center p-4"
+              style={{ background: 'var(--surface-2)', borderRadius: '2px', borderLeft: `3px solid ${color}` }}
+            >
+              <p className="font-mono font-medium text-3xl" style={{ color }}>
+                {value?.toFixed(2) ?? '—'}
+              </p>
+              <p className="text-xs mt-1 uppercase tracking-[0.06em]" style={{ color: 'var(--text-tertiary)' }}>
+                {label}
+              </p>
+            </div>
+          ))}
         </div>
 
-        {/* Summary */}
         {scores.summary && (
-          <div className="bg-slate-50 p-4 rounded-lg mb-6">
-            <p className="text-slate-700 italic">{scores.summary}</p>
+          <div
+            className="p-4 mb-4"
+            style={{ background: 'var(--surface-2)', borderRadius: '2px' }}
+          >
+            <p className="figure-name font-light italic text-base" style={{ color: 'var(--text-secondary)' }}>
+              {scores.summary}
+            </p>
           </div>
         )}
 
-        {/* Bio */}
-        <div className="prose max-w-none">
-          <p className="text-slate-700 whitespace-pre-line">{figure.bio_long}</p>
-        </div>
+        <p className="text-sm leading-relaxed whitespace-pre-line" style={{ color: 'var(--text-secondary)' }}>
+          {figure.bio_long}
+        </p>
       </div>
 
-      {/* Tabs */}
-      <div className="flex gap-2 mb-6">
-        <button
-          onClick={() => setActiveTab('core')}
-          className={`px-4 py-2 rounded-lg font-medium transition ${
-            activeTab === 'core'
-              ? 'bg-indigo-600 text-white'
-              : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
-          }`}
-        >
-          Core Dimensions
-        </button>
-        <button
-          onClick={() => setActiveTab('heinlein')}
-          className={`px-4 py-2 rounded-lg font-medium transition ${
-            activeTab === 'heinlein'
-              ? 'bg-emerald-600 text-white'
-              : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
-          }`}
-        >
-          Heinlein Competencies
-        </button>
+      {/* Tab bar */}
+      <div
+        className="flex mb-6"
+        style={{ borderBottom: '1px solid var(--surface-3)' }}
+      >
+        {[
+          { key: 'core', label: 'Core Dimensions' },
+          { key: 'heinlein', label: 'Heinlein Competencies' },
+        ].map(({ key, label }) => (
+          <button
+            key={key}
+            onClick={() => setActiveTab(key)}
+            className="px-5 py-3 text-sm font-medium uppercase tracking-[0.06em] transition-all"
+            style={{
+              color: activeTab === key ? 'var(--accent)' : 'var(--text-tertiary)',
+              borderBottom: activeTab === key ? '2px solid var(--accent)' : '2px solid transparent',
+              marginBottom: '-1px',
+              background: 'none',
+              cursor: 'pointer',
+            }}
+          >
+            {label}
+          </button>
+        ))}
       </div>
 
       {/* Core Dimensions Tab */}
       {activeTab === 'core' && (
         <div className="space-y-6">
-          {/* Dimension Averages */}
-          <div className="bg-white p-6 rounded-xl border border-slate-200">
-            <h2 className="text-xl font-semibold mb-4">Dimension Averages (0-10)</h2>
+          {/* Dimension averages */}
+          <div className="card">
+            <h2
+              className="figure-name font-medium mb-4"
+              style={{ fontSize: '1.375rem', color: 'var(--text-primary)' }}
+            >
+              Dimension Averages
+            </h2>
             <div className="grid md:grid-cols-2 gap-4">
-              {['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential', 'Relational'].map(key => (
-                <ScoreBar
+              {['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential', 'Relational'].map((key, i) => (
+                <AnimatedScoreBar
                   key={key}
                   label={key}
                   value={dimensionAverages[key] ?? 0}
                   maxValue={10}
-                  color="bg-indigo-500"
+                  color={DIM_CSS_VARS[key] || 'var(--accent)'}
+                  delay={i * 60}
                 />
               ))}
             </div>
           </div>
 
-          {/* Individual Dimensions */}
-          {coreDimensions.map(dimName => (
-            <div key={dimName} className="bg-white p-6 rounded-xl border border-slate-200">
-              <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
-                <span className={`w-3 h-3 rounded-full ${
-                  dimName === 'Cognitive' ? 'bg-blue-500' :
-                  dimName === 'Moral-Affective' ? 'bg-pink-500' :
-                  dimName === 'Cultural-Social' ? 'bg-purple-500' :
-                  dimName === 'Relational' ? 'bg-teal-500' :
-                  'bg-orange-500'
-                }`}></span>
+          {/* Individual dimension cards */}
+          {coreDimensions.map((dimName, di) => (
+            <div
+              key={dimName}
+              className="card"
+              style={{ borderLeft: `3px solid ${DIM_CSS_VARS[dimName] || 'var(--accent)'}` }}
+            >
+              <h2
+                className="figure-name font-medium mb-4"
+                style={{ fontSize: '1.375rem', color: DIM_CSS_VARS[dimName] || 'var(--text-primary)' }}
+              >
                 {dimName}
               </h2>
               <div className="grid md:grid-cols-2 gap-3">
@@ -220,27 +290,36 @@ export default function FigureDetail() {
         </div>
       )}
 
-      {/* Heinlein Competencies Tab */}
+      {/* Heinlein Tab */}
       {activeTab === 'heinlein' && (
-        <div className="bg-white p-6 rounded-xl border border-slate-200">
-          <h2 className="text-xl font-semibold mb-4">Practical Competencies (Heinlein Scale)</h2>
+        <div className="card">
+          <h2
+            className="figure-name font-medium mb-4"
+            style={{ fontSize: '1.375rem', color: 'var(--text-primary)' }}
+          >
+            Practical Competencies
+          </h2>
 
-          {/* Averages */}
           {heinlein.averages && (
-            <div className="bg-emerald-50 p-4 rounded-lg mb-6">
-              <div className="grid grid-cols-2 gap-4 text-center">
-                <div>
-                  <p className="text-2xl font-bold text-emerald-600">
-                    {heinlein.averages.General_Competency_Avg_0_3?.toFixed(2)}
-                  </p>
-                  <p className="text-sm text-slate-600">Average (0-3)</p>
-                </div>
-                <div>
-                  <p className="text-2xl font-bold text-emerald-600">
-                    {heinlein.averages.General_Competency_Avg_10scale?.toFixed(2)}
-                  </p>
-                  <p className="text-sm text-slate-600">Average (0-10)</p>
-                </div>
+            <div
+              className="p-4 mb-6 grid grid-cols-2 gap-4 text-center"
+              style={{ background: 'var(--surface-2)', borderRadius: '2px', borderLeft: '3px solid var(--dim-competency)' }}
+            >
+              <div>
+                <p className="font-mono font-medium text-2xl" style={{ color: 'var(--dim-competency)' }}>
+                  {heinlein.averages.General_Competency_Avg_0_3?.toFixed(2)}
+                </p>
+                <p className="text-xs mt-1 uppercase tracking-[0.06em]" style={{ color: 'var(--text-tertiary)' }}>
+                  Average (0–3)
+                </p>
+              </div>
+              <div>
+                <p className="font-mono font-medium text-2xl" style={{ color: 'var(--dim-competency)' }}>
+                  {heinlein.averages.General_Competency_Avg_10scale?.toFixed(2)}
+                </p>
+                <p className="text-xs mt-1 uppercase tracking-[0.06em]" style={{ color: 'var(--text-tertiary)' }}>
+                  Average (0–10)
+                </p>
               </div>
             </div>
           )}
@@ -253,11 +332,14 @@ export default function FigureDetail() {
         </div>
       )}
 
-      {/* Source Notes */}
       {figure.source_notes && (
-        <div className="bg-slate-50 p-6 rounded-xl mt-8">
-          <h2 className="text-lg font-semibold mb-2">Sources</h2>
-          <p className="text-sm text-slate-600 whitespace-pre-line">{figure.source_notes}</p>
+        <div className="mt-8 p-6" style={{ background: 'var(--surface-1)', borderRadius: '2px', border: '1px solid var(--surface-3)' }}>
+          <h2 className="text-sm font-medium uppercase tracking-[0.06em] mb-3" style={{ color: 'var(--text-tertiary)' }}>
+            Sources
+          </h2>
+          <p className="text-sm whitespace-pre-line" style={{ color: 'var(--text-secondary)' }}>
+            {figure.source_notes}
+          </p>
         </div>
       )}
     </div>

@@ -2,6 +2,196 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-slate-50 text-slate-900;
+/* ─── Design Tokens: Light Mode (Warm Parchment) ──────────────────────────── */
+:root {
+  --surface-0: #FAF8F4;
+  --surface-1: #F2EFE8;
+  --surface-2: #E8E3D9;
+  --surface-3: #D4CFC4;
+  --text-primary:   #1C1814;
+  --text-secondary: #4A4438;
+  --text-tertiary:  #7A7067;
+  --accent:         #1E3A5F;
+  --accent-figure:  #9A7B4F;
+  --accent-glow:    rgba(30, 58, 95, 0.25);
+
+  --dim-cognitive:  #5B9BD5;
+  --dim-moral:      #C2657A;
+  --dim-cultural:   #9B72CF;
+  --dim-embodied:   #D4824A;
+  --dim-relational: #7B88CC;
+  --dim-competency: #4BA888;
+}
+
+/* ─── Design Tokens: Dark Mode (Deep Archive) ──────────────────────────────── */
+.dark {
+  --surface-0: #0F0D0B;
+  --surface-1: #1A1714;
+  --surface-2: #252119;
+  --surface-3: #453E33;
+  --text-primary:   #F5EED8;
+  --text-secondary: #C4B99A;
+  --text-tertiary:  #8A7F69;
+  --accent:         #D4A843;
+  --accent-figure:  #C9A060;
+  --accent-glow:    rgba(212, 168, 67, 0.25);
+}
+
+/* ─── Base ─────────────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    font-family: Inter, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--surface-0);
+    color: var(--text-primary);
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+/* ─── Components ───────────────────────────────────────────────────────────── */
+@layer components {
+  /* Card */
+  .card {
+    background-color: var(--surface-1);
+    border: 1px solid var(--surface-3);
+    border-radius: 2px;
+    padding: 1.5rem;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  .card:hover {
+    background-color: var(--surface-2);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+
+  /* Buttons */
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.625rem 1.5rem;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background-color: var(--accent);
+    color: var(--surface-0);
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease, transform 0.1s ease;
+    text-decoration: none;
+  }
+  .btn-primary:hover {
+    box-shadow: 0 0 0 3px var(--accent-glow);
+  }
+  .btn-primary:active {
+    transform: scale(0.98);
+  }
+  .btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.625rem 1.5rem;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: transparent;
+    color: var(--text-secondary);
+    border-radius: 2px;
+    border: 1px solid var(--surface-3);
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+    text-decoration: none;
+  }
+  .btn-secondary:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .btn-secondary:active {
+    transform: scale(0.98);
+  }
+  .btn-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  /* Input */
+  .input {
+    width: 100%;
+    padding: 0.625rem 1rem;
+    background-color: var(--surface-1);
+    border: 1px solid var(--surface-3);
+    border-radius: 2px;
+    color: var(--text-primary);
+    font-family: Inter, sans-serif;
+    font-size: 0.9375rem;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    outline: none;
+  }
+  .input::placeholder {
+    color: var(--text-tertiary);
+  }
+  .input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+  }
+
+  /* Score track/fill for animated bars */
+  .score-track {
+    height: 8px;
+    background-color: var(--surface-2);
+    border-radius: 1px;
+    overflow: hidden;
+  }
+  .score-fill {
+    height: 100%;
+    border-radius: 1px;
+    width: var(--bar-target, 0%);
+    animation: bar-fill 0.8s cubic-bezier(0.4, 0, 0.2, 1) both;
+  }
+}
+
+@keyframes bar-fill {
+  from { width: 0; }
+  to   { width: var(--bar-target, 0%); }
+}
+
+@layer components {
+  /* placeholder to keep layer open — actual rules above */
+
+  /* Figure name — always Cormorant Garamond */
+  .figure-name {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  /* Dimension left-border cards */
+  .dim-card {
+    border-left-width: 3px;
+    border-left-style: solid;
+    transition: border-left-width 0.15s ease, background-color 0.2s ease;
+  }
+  .dim-card:hover {
+    border-left-width: 5px;
+  }
+}
+
+/* ─── Reduced Motion ───────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

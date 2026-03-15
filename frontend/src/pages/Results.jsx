@@ -15,134 +15,242 @@ const HEINLEIN_TRAIT_NAMES = [
   'Existential Composure',
 ]
 
-const DIMENSION_COLORS = {
-  'Cognitive': 'bg-blue-500',
-  'Moral-Affective': 'bg-pink-500',
-  'Cultural-Social': 'bg-purple-500',
-  'Embodied-Existential': 'bg-orange-500',
-  'Relational': 'bg-violet-500',
+const DIM_COLORS = {
+  'Cognitive':            'var(--dim-cognitive)',
+  'Moral-Affective':      'var(--dim-moral)',
+  'Cultural-Social':      'var(--dim-cultural)',
+  'Embodied-Existential': 'var(--dim-embodied)',
+  'Relational':           'var(--dim-relational)',
 }
 
-function ScoreBar({ label, value, maxValue = 10, color }) {
-  const percentage = (value / maxValue) * 100
+function AnimatedBar({ value, maxValue = 10, color, delay = 0 }) {
+  const pct = (value / maxValue) * 100
+  return (
+    <div className="score-track">
+      <div
+        className="score-fill"
+        style={{
+          '--bar-target': `${pct}%`,
+          animationDelay: `${(100 + delay) / 1000}s`,
+          background: `linear-gradient(to right, ${color}, color-mix(in srgb, ${color} 60%, transparent))`,
+        }}
+      />
+    </div>
+  )
+}
+
+function ScoreRow({ label, value, maxValue = 10, color, delay }) {
   return (
     <div className="mb-3">
       <div className="flex justify-between text-sm mb-1">
-        <span className="font-medium">{label}</span>
-        <span className="text-slate-600">{value.toFixed(2)}</span>
+        <span style={{ color: 'var(--text-secondary)' }}>{label}</span>
+        <span className="font-mono text-xs font-medium" style={{ color: 'var(--accent-figure)' }}>
+          {value.toFixed(2)}
+        </span>
       </div>
-      <div className="h-3 bg-slate-200 rounded-full overflow-hidden">
-        <div
-          className={`h-full ${color} transition-all duration-500`}
-          style={{ width: `${percentage}%` }}
-        />
-      </div>
+      <AnimatedBar value={value} maxValue={maxValue} color={color} delay={delay} />
     </div>
   )
 }
 
-function SimilarityPill({ label, value, className = '' }) {
-  const pct = (value * 100).toFixed(0)
-  return (
-    <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium ${className}`}>
-      {label} {pct}%
-    </span>
-  )
-}
-
-function DimensionBar({ name, similarity }) {
+function DimensionBar({ name, similarity, delay }) {
   const pct = similarity * 100
-  const color = DIMENSION_COLORS[name] || 'bg-slate-400'
+  const color = DIM_COLORS[name] || 'var(--accent)'
   return (
     <div className="flex items-center gap-2">
-      <span className="text-xs text-slate-600 w-28 truncate" title={name}>{name}</span>
-      <div className="flex-1 h-1.5 bg-slate-200 rounded-full overflow-hidden">
-        <div className={`h-full ${color} rounded-full`} style={{ width: `${pct}%` }} />
+      <span className="text-xs w-28 truncate" title={name} style={{ color: 'var(--text-tertiary)' }}>{name}</span>
+      <div className="flex-1 score-track" style={{ height: '6px' }}>
+        <div
+          className="score-fill"
+          style={{
+            '--bar-target': `${pct}%`,
+            animationDelay: `${(150 + delay) / 1000}s`,
+            background: `linear-gradient(to right, ${color}, color-mix(in srgb, ${color} 60%, transparent))`,
+          }}
+        />
       </div>
-      <span className="text-xs text-slate-500 w-8 text-right">{pct.toFixed(0)}%</span>
+      <span className="font-mono text-xs w-8 text-right" style={{ color: 'var(--text-tertiary)' }}>
+        {pct.toFixed(0)}%
+      </span>
     </div>
   )
 }
 
-function MatchCard({ match, rank }) {
+function CountUp({ target, duration = 1200 }) {
+  const [value, setValue] = useState(0)
+  useEffect(() => {
+    const start = performance.now()
+    let raf
+    function step(now) {
+      const elapsed = now - start
+      const progress = Math.min(elapsed / duration, 1)
+      // ease-out cubic
+      const eased = 1 - Math.pow(1 - progress, 3)
+      setValue(Math.round(eased * target))
+      if (progress < 1) raf = requestAnimationFrame(step)
+    }
+    raf = requestAnimationFrame(step)
+    return () => cancelAnimationFrame(raf)
+  }, [target, duration])
+  return <>{value}</>
+}
+
+function MatchCard({ match, rank, isTop }) {
   const dimensions = match.dimensions || {}
   const strengths = (match.shared_strengths || []).slice(0, 4)
   const differences = (match.key_differences || []).slice(0, 3)
+  const overallPct = Math.round(match.overall_similarity * 100)
+
+  if (isTop) {
+    return (
+      <div
+        className="card col-span-full animate-fade-up"
+        style={{
+          borderLeft: '3px solid var(--accent)',
+          position: 'relative',
+          overflow: 'hidden',
+        }}
+      >
+        {/* Rank badge */}
+        <div className="flex items-start justify-between flex-wrap gap-4 mb-4">
+          <div className="flex items-center gap-3">
+            <span
+              className="w-10 h-10 flex items-center justify-center font-mono font-medium text-sm animate-ring-pulse"
+              style={{
+                background: 'var(--accent)',
+                color: 'var(--surface-0)',
+                borderRadius: '50%',
+              }}
+            >
+              1
+            </span>
+            <div>
+              <h3
+                className="figure-name text-2xl font-light"
+                style={{ color: 'var(--text-primary)' }}
+              >
+                {match.figure_name}
+              </h3>
+              <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+                {match.bio_short}
+              </p>
+            </div>
+          </div>
+          <div className="text-right">
+            <p
+              className="font-mono font-medium"
+              style={{ fontSize: '2.5rem', color: 'var(--accent)', lineHeight: 1 }}
+            >
+              <CountUp target={overallPct} />%
+            </p>
+            <p className="text-xs uppercase tracking-[0.06em]" style={{ color: 'var(--text-tertiary)' }}>
+              overall match
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-2 mb-4">
+          <SimilarityPill label="Core" value={match.core_similarity} color="var(--dim-cognitive)" />
+          <SimilarityPill label="Heinlein" value={match.heinlein_similarity} color="var(--dim-competency)" />
+        </div>
+
+        <div className="space-y-1 mb-4">
+          {DIMENSION_NAMES.map((dim, i) => (
+            <DimensionBar key={dim} name={dim} similarity={dimensions[dim] || 0} delay={i * 60} />
+          ))}
+        </div>
+
+        <div className="flex gap-2 mt-4">
+          <Link to={`/compare/${match.figure_slug}`} className="btn-primary">Compare</Link>
+          <Link to={`/figures/${match.figure_slug}`} className="btn-secondary">View Profile</Link>
+        </div>
+      </div>
+    )
+  }
 
   return (
-    <div className="p-4 rounded-xl border border-slate-200 hover:border-indigo-300 hover:shadow-sm transition bg-white">
+    <div
+      className="card"
+      style={{ borderLeft: '3px solid var(--surface-3)' }}
+    >
       <div className="flex items-start justify-between mb-3">
         <div className="flex items-center gap-3">
-          <span className={`w-8 h-8 rounded-full flex items-center justify-center text-white font-bold text-sm ${
-            rank === 0 ? 'bg-yellow-500' :
-            rank === 1 ? 'bg-slate-400' :
-            rank === 2 ? 'bg-amber-600' :
-            'bg-slate-300'
-          }`}>
+          <span
+            className="w-8 h-8 flex items-center justify-center font-mono text-sm font-medium"
+            style={{
+              background: 'var(--surface-2)',
+              color: 'var(--text-tertiary)',
+              borderRadius: '50%',
+            }}
+          >
             {rank + 1}
           </span>
           <div>
-            <h3 className="font-semibold">{match.figure_name}</h3>
-            <p className="text-sm text-slate-600 line-clamp-1">{match.bio_short}</p>
+            <h3 className="figure-name text-lg font-light" style={{ color: 'var(--text-primary)' }}>
+              {match.figure_name}
+            </h3>
+            <p className="text-sm line-clamp-1" style={{ color: 'var(--text-secondary)' }}>
+              {match.bio_short}
+            </p>
           </div>
         </div>
-        <span className="text-xl font-bold text-indigo-600 whitespace-nowrap ml-2">
-          {(match.overall_similarity * 100).toFixed(0)}%
+        <span className="font-mono font-medium text-xl ml-2 whitespace-nowrap" style={{ color: 'var(--accent-figure)' }}>
+          {overallPct}%
         </span>
       </div>
 
-      {/* Similarity pills */}
       <div className="flex flex-wrap gap-1.5 mb-3">
-        <SimilarityPill label="Overall" value={match.overall_similarity} className="bg-indigo-100 text-indigo-700" />
-        <SimilarityPill label="Core" value={match.core_similarity} className="bg-blue-100 text-blue-700" />
-        <SimilarityPill label="Heinlein" value={match.heinlein_similarity} className="bg-emerald-100 text-emerald-700" />
+        <SimilarityPill label="Overall" value={match.overall_similarity} color="var(--accent)" />
+        <SimilarityPill label="Core" value={match.core_similarity} color="var(--dim-cognitive)" />
+        <SimilarityPill label="Heinlein" value={match.heinlein_similarity} color="var(--dim-competency)" />
       </div>
 
-      {/* Dimension bars */}
       <div className="space-y-1 mb-3">
-        {DIMENSION_NAMES.map(dim => (
-          <DimensionBar key={dim} name={dim} similarity={dimensions[dim] || 0} />
+        {DIMENSION_NAMES.map((dim, i) => (
+          <DimensionBar key={dim} name={dim} similarity={dimensions[dim] || 0} delay={i * 40} />
         ))}
       </div>
 
-      {/* Shared strengths */}
       {strengths.length > 0 && (
         <div className="flex flex-wrap gap-1 mb-2">
           {strengths.map(s => (
-            <span key={s.trait} className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700">
+            <span key={s.trait} className="text-xs px-2 py-0.5 font-medium" style={{ background: '#4BA88818', color: '#4BA888', borderRadius: '2px' }}>
               {s.trait}
             </span>
           ))}
         </div>
       )}
 
-      {/* Key differences */}
       {differences.length > 0 && (
         <div className="flex flex-wrap gap-1 mb-3">
           {differences.map(d => (
-            <span key={d.trait} className="text-xs px-2 py-0.5 rounded-full bg-amber-100 text-amber-700">
+            <span key={d.trait} className="text-xs px-2 py-0.5 font-medium" style={{ background: '#D4824A18', color: '#D4824A', borderRadius: '2px' }}>
               {d.trait} ({d.delta > 0 ? '+' : ''}{d.delta.toFixed(1)})
             </span>
           ))}
         </div>
       )}
 
-      {/* Actions */}
       <div className="flex gap-2">
-        <Link
-          to={`/compare/${match.figure_slug}`}
-          className="text-sm px-3 py-1 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 transition"
-        >
+        <Link to={`/compare/${match.figure_slug}`} className="btn-primary" style={{ padding: '0.375rem 0.875rem' }}>
           Compare
         </Link>
-        <Link
-          to={`/figures/${match.figure_slug}`}
-          className="text-sm px-3 py-1 rounded-lg border border-slate-300 text-slate-600 hover:bg-slate-50 transition"
-        >
+        <Link to={`/figures/${match.figure_slug}`} className="btn-secondary" style={{ padding: '0.375rem 0.875rem' }}>
           View Profile
         </Link>
       </div>
     </div>
+  )
+}
+
+function SimilarityPill({ label, value, color }) {
+  return (
+    <span
+      className="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium font-mono"
+      style={{ background: `${color}18`, color, borderRadius: '2px' }}
+    >
+      {label} {(value * 100).toFixed(0)}%
+    </span>
   )
 }
 
@@ -157,16 +265,15 @@ export default function Results() {
       try {
         const [assessmentData, matchesData] = await Promise.all([
           getLatestAssessment(),
-          getLatestMatches(10)
+          getLatestMatches(10),
         ])
-
         if (!assessmentData) {
           setError('No assessment found. Take the assessment first.')
         } else {
           setAssessment(assessmentData)
           setMatches(matchesData)
         }
-      } catch (err) {
+      } catch {
         setError('Failed to load results')
       } finally {
         setLoading(false)
@@ -178,8 +285,11 @@ export default function Results() {
   if (loading) {
     return (
       <div className="max-w-4xl mx-auto px-4 py-16 text-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mx-auto"></div>
-        <p className="mt-4 text-slate-600">Loading results...</p>
+        <div
+          className="w-10 h-10 border-2 rounded-full animate-spin mx-auto"
+          style={{ borderColor: 'var(--surface-3)', borderTopColor: 'var(--accent)' }}
+        />
+        <p className="mt-4 text-sm" style={{ color: 'var(--text-tertiary)' }}>Loading results…</p>
       </div>
     )
   }
@@ -187,77 +297,82 @@ export default function Results() {
   if (error) {
     return (
       <div className="max-w-4xl mx-auto px-4 py-16">
-        <div className="bg-yellow-50 text-yellow-800 p-6 rounded-xl text-center">
-          <p className="mb-4">{error}</p>
-          <Link
-            to="/assessment"
-            className="inline-block bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700"
-          >
-            Take Assessment
-          </Link>
+        <div className="p-6 text-center" style={{ background: '#D4824A12', borderRadius: '2px' }}>
+          <p className="mb-4" style={{ color: '#D4824A' }}>{error}</p>
+          <Link to="/assessment" className="btn-primary">Take Assessment</Link>
         </div>
       </div>
     )
   }
 
-  const { trait_scores_0_3, dimension_averages_0_10, heinlein_averages, overall } = assessment
+  const { trait_scores_0_3, dimension_averages_0_10, overall } = assessment
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-2">Your Results</h1>
-      <p className="text-slate-600 mb-8">
+    <div className="max-w-4xl mx-auto px-4 py-10">
+      <h1
+        className="figure-name font-normal mb-1"
+        style={{ fontSize: '2.75rem', color: 'var(--text-primary)', letterSpacing: '-0.01em' }}
+      >
+        Your Results
+      </h1>
+      <p className="text-sm mb-10" style={{ color: 'var(--text-tertiary)' }}>
         Assessment completed on {new Date(assessment.created_at).toLocaleDateString()}
       </p>
 
-      {/* Overall Scores */}
-      <div className="grid md:grid-cols-3 gap-6 mb-10">
-        <div className="bg-gradient-to-br from-indigo-500 to-purple-600 text-white p-6 rounded-xl">
-          <h3 className="text-lg opacity-90 mb-1">Overall</h3>
-          <p className="text-4xl font-bold">{overall?.Overall_Normalized_Equal_Avg?.toFixed(2) || '—'}</p>
-          <p className="text-sm opacity-75 mt-1">out of 10</p>
-        </div>
-
-        <div className="bg-gradient-to-br from-blue-500 to-cyan-500 text-white p-6 rounded-xl">
-          <h3 className="text-lg opacity-90 mb-1">Core 5D</h3>
-          <p className="text-4xl font-bold">{overall?.Core_5D_Avg?.toFixed(2) || '—'}</p>
-          <p className="text-sm opacity-75 mt-1">out of 10</p>
-        </div>
-
-        <div className="bg-gradient-to-br from-emerald-500 to-teal-500 text-white p-6 rounded-xl">
-          <h3 className="text-lg opacity-90 mb-1">Competency</h3>
-          <p className="text-4xl font-bold">{overall?.General_Competency_Avg_10scale?.toFixed(2) || '—'}</p>
-          <p className="text-sm opacity-75 mt-1">out of 10</p>
-        </div>
+      {/* Overall score tiles */}
+      <div className="grid md:grid-cols-3 gap-4 mb-10">
+        {[
+          { label: 'Overall', value: overall?.Overall_Normalized_Equal_Avg, color: 'var(--accent)' },
+          { label: 'Core 5D', value: overall?.Core_5D_Avg, color: 'var(--dim-cognitive)' },
+          { label: 'Competency', value: overall?.General_Competency_Avg_10scale, color: 'var(--dim-competency)' },
+        ].map(({ label, value, color }) => (
+          <div
+            key={label}
+            className="p-6"
+            style={{ background: 'var(--surface-1)', borderRadius: '2px', borderLeft: `3px solid ${color}` }}
+          >
+            <p className="text-xs uppercase tracking-[0.06em] mb-1" style={{ color: 'var(--text-tertiary)' }}>{label}</p>
+            <p className="font-mono font-medium" style={{ fontSize: '2.5rem', color, lineHeight: 1 }}>
+              {value?.toFixed(2) ?? '—'}
+            </p>
+            <p className="text-xs mt-1" style={{ color: 'var(--text-tertiary)' }}>out of 10</p>
+          </div>
+        ))}
       </div>
 
-      <div className="grid md:grid-cols-2 gap-8 mb-10">
+      <div className="grid md:grid-cols-2 gap-6 mb-10">
         {/* Core Dimensions */}
-        <div className="bg-white p-6 rounded-xl border border-slate-200">
-          <h2 className="text-xl font-semibold mb-4">Core Dimensions</h2>
-          {dimension_averages_0_10 && DIMENSION_NAMES
-            .map(name => (
-              <ScoreBar
-                key={name}
-                label={name}
-                value={dimension_averages_0_10[name] ?? 0}
-                color="bg-indigo-500"
-              />
-            ))}
+        <div className="card">
+          <h2 className="figure-name font-medium mb-4" style={{ fontSize: '1.375rem', color: 'var(--text-primary)' }}>
+            Core Dimensions
+          </h2>
+          {dimension_averages_0_10 && DIMENSION_NAMES.map((name, i) => (
+            <ScoreRow
+              key={name}
+              label={name}
+              value={dimension_averages_0_10[name] ?? 0}
+              color={DIM_COLORS[name] || 'var(--accent)'}
+              delay={i * 60}
+            />
+          ))}
         </div>
 
         {/* Heinlein Competencies */}
-        <div className="bg-white p-6 rounded-xl border border-slate-200">
-          <h2 className="text-xl font-semibold mb-4">Heinlein Competencies</h2>
-          <div className="max-h-64 overflow-y-auto pr-2">
+        <div className="card">
+          <h2 className="figure-name font-medium mb-4" style={{ fontSize: '1.375rem', color: 'var(--text-primary)' }}>
+            Heinlein Competencies
+          </h2>
+          <div className="max-h-72 overflow-y-auto pr-2">
             {trait_scores_0_3 && HEINLEIN_TRAIT_NAMES
               .filter(name => trait_scores_0_3[name] != null)
-              .map(name => (
-                <ScoreBar
+              .map((name, i) => (
+                <ScoreRow
                   key={name}
                   label={name}
                   value={trait_scores_0_3[name]}
                   maxValue={3}
-                  color="bg-emerald-500"
+                  color="var(--dim-competency)"
+                  delay={i * 40}
                 />
               ))}
           </div>
@@ -267,22 +382,22 @@ export default function Results() {
       {/* Historical Matches */}
       {matches?.top_matches && matches.top_matches.length > 0 && (
         <div>
-          <h2 className="text-xl font-semibold mb-4">Your Historical Matches</h2>
+          <h2
+            className="figure-name font-medium mb-6"
+            style={{ fontSize: '1.875rem', color: 'var(--text-primary)' }}
+          >
+            Your Historical Matches
+          </h2>
           <div className="grid gap-4 md:grid-cols-2">
             {matches.top_matches.map((match, idx) => (
-              <MatchCard key={match.figure_slug} match={match} rank={idx} />
+              <MatchCard key={match.figure_slug} match={match} rank={idx} isTop={idx === 0} />
             ))}
           </div>
         </div>
       )}
 
-      <div className="mt-8 text-center">
-        <Link
-          to="/assessment"
-          className="inline-block border border-indigo-600 text-indigo-600 px-6 py-2 rounded-lg hover:bg-indigo-50"
-        >
-          Retake Assessment
-        </Link>
+      <div className="mt-10 text-center">
+        <Link to="/assessment" className="btn-secondary">Retake Assessment</Link>
       </div>
     </div>
   )
