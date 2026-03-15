@@ -233,6 +233,8 @@ LLM_ENABLE_REFINEMENT = os.environ.get('LLM_ENABLE_REFINEMENT', 'True') == 'True
 LLM_MAX_REFINEMENT_PASSES = int(os.environ.get('LLM_MAX_REFINEMENT_PASSES', '2'))
 LLM_MIN_CONFIDENCE_TARGET = os.environ.get('LLM_MIN_CONFIDENCE_TARGET', 'High')
 
+INGESTION_CONCURRENCY = int(os.environ.get('INGESTION_CONCURRENCY', '3'))
+
 # Celery beat schedule - periodic fallback for queue processing
 CELERY_BEAT_SCHEDULE = {
     'process-ingestion-queue': {

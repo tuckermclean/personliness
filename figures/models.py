@@ -26,6 +26,7 @@ class HistoricalFigure(models.Model):
 class FigureIngestionRequest(models.Model):
     STATUS_CHOICES = [
         ('pending', 'Pending'),
+        ('queued', 'Queued'),
         ('running', 'Running'),
         ('succeeded', 'Succeeded'),
         ('failed', 'Failed'),

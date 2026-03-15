@@ -363,19 +363,48 @@ def process_ingestion_queue():
     Each figure is processed in its own task with a completely fresh
     Python context to prevent any state bleeding between figures.
     """
-    pending_requests = FigureIngestionRequest.objects.filter(
-        status='pending'
-    ).order_by('created_at').values_list('id', flat=True)
+    from django.conf import settings
 
-    pending_ids = list(pending_requests)
+    concurrency = getattr(settings, 'INGESTION_CONCURRENCY', 3)
+    in_flight = FigureIngestionRequest.objects.filter(
+        status__in=['queued', 'running']
+    ).count()
+    slots = max(0, concurrency - in_flight)
 
-    if not pending_ids:
+    if slots == 0:
+        logger.info(f"Ingestion concurrency limit reached ({concurrency} in-flight), deferring")
+        return
+
+    # Optimistic-lock claim: the status='pending' WHERE condition ensures two concurrent
+    # dispatchers can't claim the same record — only one UPDATE will match each row.
+    candidates = list(
+        FigureIngestionRequest.objects.filter(status='pending')
+        .order_by('created_at')
+        .values_list('id', flat=True)[:slots]
+    )
+    if not candidates:
         logger.info("No pending ingestion requests")
         return
 
-    logger.info(f"Dispatching {len(pending_ids)} figure ingestion tasks")
+    claimed = FigureIngestionRequest.objects.filter(
+        id__in=candidates, status='pending'
+    ).update(status='queued')
 
-    for request_id in pending_ids:
+    if claimed == 0:
+        logger.info("All candidates already claimed by another dispatcher, skipping")
+        return
+
+    # Dispatch only the rows we actually claimed
+    claimed_ids = list(
+        FigureIngestionRequest.objects.filter(
+            id__in=candidates, status='queued'
+        ).values_list('id', flat=True)
+    )
+    logger.info(
+        f"Dispatching {len(claimed_ids)} figure ingestion tasks "
+        f"({in_flight} already in-flight, limit={concurrency})"
+    )
+    for request_id in claimed_ids:
         process_single_figure.delay(request_id)
         logger.info(f"Dispatched process_single_figure task for request_id={request_id}")
 
@@ -395,10 +424,17 @@ def process_single_figure(request_id):
         logger.error(f"Ingestion request {request_id} not found")
         return
 
-    # Skip if no longer pending (another task may have picked it up)
-    if ingestion_request.status != 'pending':
-        logger.info(f"Ingestion request {request_id} is no longer pending (status={ingestion_request.status}), skipping")
+    # Atomically transition queued → running; guards against double-dispatch races
+    updated = FigureIngestionRequest.objects.filter(
+        id=request_id, status='queued'
+    ).update(status='running')
+    if not updated:
+        logger.info(
+            f"Ingestion request {request_id} not in 'queued' state "
+            f"(status={ingestion_request.status}), skipping"
+        )
         return
+    ingestion_request.status = 'running'
 
     logger.info(f"Processing figure: {ingestion_request.figure_name}")
 
@@ -410,10 +446,9 @@ def process_single_figure(request_id):
         old_figure.delete()
         logger.info(f"Deleted stale result figure for re-run of request {request_id}")
 
-    # Update status to running, clearing any previous thinking log
-    ingestion_request.status = 'running'
+    # Clear any previous thinking log
     ingestion_request.thinking_log = None
-    ingestion_request.save(update_fields=['status', 'thinking_log'])
+    ingestion_request.save(update_fields=['thinking_log'])
 
     thinking_log = []
 
@@ -595,6 +630,7 @@ def process_single_figure(request_id):
         ingestion_request.result_figure = figure
         ingestion_request.thinking_log = thinking_log if thinking_log else None
         ingestion_request.save()
+        process_ingestion_queue.delay()
 
         logger.info(f"Successfully processed figure: {ingestion_request.figure_name}")
 
@@ -603,5 +639,6 @@ def process_single_figure(request_id):
         ingestion_request.error = str(exc)[:500]
         ingestion_request.thinking_log = thinking_log if thinking_log else None
         ingestion_request.save(update_fields=['status', 'error', 'thinking_log'])
+        process_ingestion_queue.delay()
 
         logger.error(f"Failed to process figure {ingestion_request.figure_name}: {exc}")
