@@ -1,4 +1,4 @@
-# Personliness & General Competency Rubric v2.0
+# Personliness & General Competency Rubric
 
 ## Prompt
 
@@ -28,11 +28,17 @@ Convert to 0–10 **only** at the aggregation step.
 ## Evidence & Uncertainty Rules
 
 1. Each sub-trait/domain **must** include a justification of 1–3 sentences referencing **specific** evidence (events, works, policies, campaigns, writings, named relationships).
+
 2. Vague justifications (e.g., "was known to be brave") score **no higher than 1** regardless of reputation. The evidence must name a specific event, decision, or documented behavior.
+
 3. Add 1–3 citations (book/article/primary source). For well-documented figures, draw on your knowledge of academic literature and cite named works (e.g., "Watt, *Muhammad at Mecca*", "Donner, *Muhammad and the Believers*"). Only write `"(no citation)"` when you genuinely cannot name any relevant work; doing so **caps confidence at Medium**.
+
 4. Include a confidence value for each score: **High / Medium / Low**.
+
 5. **Era normalization:** Score relative to the practical ceiling available in the figure's time, geography, and social position. Do not penalize ancient figures for lacking modern capabilities. A 7th-century Arabian merchant who could set bones and treat wounds scores the same on Medical Aid as a modern ER nurse — both represent high competence relative to their context.
+
 6. **Anti-halo rule:** A figure's fame in one domain must not inflate scores in unrelated domains. Each sub-trait is scored independently. If evidence is thin for a given trait, score it low even if the figure excels elsewhere.
+
 7. **Source-critical rule:** When the primary sources are hagiographic, partisan, or written long after events, note this in the justification and **cap confidence at Medium** unless corroborated by independent sources. Independent corroboration includes: (a) near-contemporary accounts from a different tradition (e.g., Byzantine chronicles for Islamic figures, Roman records for Jewish figures); (b) modern critical scholarship from non-partisan academic historians (university press monographs, peer-reviewed articles); or (c) archaeological or documentary evidence. Where a robust body of such scholarship substantially confirms a specific trait, confidence may be **High**.
 
 8. **High-confidence criteria:** Assign **High** confidence when two or more of the following apply: (1) multiple independent sources corroborate the evidence, (2) the specific claim is not disputed in mainstream scholarship, (3) you can cite at least one named academic work in support. If only one applies, default to **Medium**.
@@ -40,6 +46,8 @@ Convert to 0–10 **only** at the aggregation step.
 9. **Score-confidence separation rule:** The score is your best estimate of the trait given all available evidence. The confidence value is your certainty about that estimate. **These are independent variables.** Do not lower a score from 3 to 2 merely because your confidence is Medium or Low. Ask yourself: "If I were certain this evidence was accurate, what score would I assign?" — assign that score, then set confidence based on source quality. A score of 3/Medium is the correct output when evidence preponderantly supports 3 but sources are hagiographic. A score of 2/High is a different claim entirely: it asserts the true value is 2 with high certainty. Do not use a lower score as a proxy for uncertainty — that is what the confidence field is for.
 
 10. **Counterexample rule:** A single well-documented counterexample does not automatically reduce a score if the preponderant evidence supports a higher score. Document the counterexample in the justification and consider whether it affects confidence, but do not let one exception override a consistent pattern. Reserve score reduction for cases where the counterexample is *representative* of the trait's overall expression (i.e., the exception is actually the rule), or where evidence for the high score is genuinely thin. Similarly, do not let later doctrinal evolution within a tradition substitute for evidence about the figure's own behavior: rate what the figure did, not what the tradition later said about it.
+
+**11. Attribution rule:** When a figure deferred a judgment to a third party, arbitrator, or agreed-upon legal standard, score the decision under the decision-maker's authority, not the figure who accepted or deferred to it. If a figure chose the judge but did not dictate the verdict, that is evidence of *Justice Orientation* (willingness to submit to external adjudication), not evidence for or against *Compassion*.
 
 ---
 
@@ -289,20 +297,3 @@ Overall_Normalized_Equal_Avg (0–10) = (Core_5D_Avg × 5 + General_Competency_A
   "summary": "A versatile civic reformer with exceptional innovation in public health systems. Strong cognitive and social-cultural presence, moderate embodiment and relational depth. Competency breadth is above average but not exceptional outside his professional domain."
 }
 ```
-
----
-
-## Changelog from v1.0
-
-1. **Scoring anchors tightened:** Each level (0–3) now has explicit behavioral anchors. Score-2 and Score-3 thresholds specify the kind of evidence required, reducing rater drift.
-2. **Anti-halo rule added:** Fame in one domain cannot inflate scores in unrelated domains.
-3. **Source-critical rule added:** Hagiographic or partisan sources cap confidence at Medium.
-4. **Vague-justification penalty:** Justifications without specific named evidence cap the score at 1.
-5. **"Ambition / Self-Assertion" removed from Moral-Affective.** Ambition is a drive variable that modulates other traits rather than a moral quality. Its signal is captured implicitly by high scores in Leadership, Strategic Intelligence, and Impact Legacy.
-6. **Moral-Affective rebalanced to 4 sub-traits,** matching Cognitive.
-7. **New Relational dimension added (3 sub-traits):** Spousal/Partner Quality, Parental/Mentoring Quality, Relational Range. This captures the breadth and depth of interpersonal life, which is central to the "most humanly human" thesis.
-8. **Core dimensions expanded from 4 to 5;** aggregation formula updated accordingly (Core_5D_Avg; overall uses 5+1 weighting).
-9. **Heinlein domain count fixed:** Aggregation now correctly references all 15 domains.
-10. **Score-3 criteria specified per sub-trait,** providing trait-specific thresholds that constrain inflation.
-11. **Era normalization anchor added** with concrete example (7th-century bone-setting vs. modern ER nurse).
-12. **Weighting rationale made explicit** in aggregation section.
