@@ -105,19 +105,19 @@ export default function Figures() {
               <div className="grid grid-cols-3 gap-2 text-center text-sm">
                 <div className={`p-2 rounded ${sort === 'overall' ? 'bg-indigo-100' : 'bg-slate-100'}`}>
                   <p className="font-bold text-indigo-600">
-                    {figure.overall_normalized_equal_avg_0_10?.toFixed(1) || '—'}
+                    {figure.overall_normalized_equal_avg_0_10?.toFixed(2) || '—'}
                   </p>
                   <p className="text-xs text-slate-500">Overall</p>
                 </div>
                 <div className={`p-2 rounded ${sort === 'core' ? 'bg-indigo-100' : 'bg-slate-100'}`}>
                   <p className="font-bold text-blue-600">
-                    {figure.core_4d_avg_0_10?.toFixed(1) || '—'}
+                    {figure.core_4d_avg_0_10?.toFixed(2) || '—'}
                   </p>
                   <p className="text-xs text-slate-500">Core</p>
                 </div>
                 <div className={`p-2 rounded ${sort === 'heinlein' ? 'bg-indigo-100' : 'bg-slate-100'}`}>
                   <p className="font-bold text-emerald-600">
-                    {figure.general_competency_avg_0_10?.toFixed(1) || '—'}
+                    {figure.general_competency_avg_0_10?.toFixed(2) || '—'}
                   </p>
                   <p className="text-xs text-slate-500">Competency</p>
                 </div>

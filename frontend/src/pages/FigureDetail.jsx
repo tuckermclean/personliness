@@ -123,19 +123,19 @@ export default function FigureDetail() {
         <div className="grid grid-cols-3 gap-4 mb-6">
           <div className="text-center p-4 bg-gradient-to-br from-indigo-500 to-purple-600 text-white rounded-lg">
             <p className="text-3xl font-bold">
-              {figure.overall_normalized_equal_avg_0_10?.toFixed(1)}
+              {figure.overall_normalized_equal_avg_0_10?.toFixed(2)}
             </p>
             <p className="text-sm opacity-90">Overall</p>
           </div>
           <div className="text-center p-4 bg-gradient-to-br from-blue-500 to-cyan-500 text-white rounded-lg">
             <p className="text-3xl font-bold">
-              {figure.core_4d_avg_0_10?.toFixed(1)}
+              {figure.core_4d_avg_0_10?.toFixed(2)}
             </p>
             <p className="text-sm opacity-90">Core 5D</p>
           </div>
           <div className="text-center p-4 bg-gradient-to-br from-emerald-500 to-teal-500 text-white rounded-lg">
             <p className="text-3xl font-bold">
-              {figure.general_competency_avg_0_10?.toFixed(1)}
+              {figure.general_competency_avg_0_10?.toFixed(2)}
             </p>
             <p className="text-sm opacity-90">Competency</p>
           </div>
@@ -237,7 +237,7 @@ export default function FigureDetail() {
                 </div>
                 <div>
                   <p className="text-2xl font-bold text-emerald-600">
-                    {heinlein.averages.General_Competency_Avg_10scale?.toFixed(1)}
+                    {heinlein.averages.General_Competency_Avg_10scale?.toFixed(2)}
                   </p>
                   <p className="text-sm text-slate-600">Average (0-10)</p>
                 </div>

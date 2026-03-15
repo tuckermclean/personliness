@@ -44,7 +44,7 @@ function ScoreBar({ label, value, maxValue = 10, color }) {
     <div className="mb-3">
       <div className="flex justify-between text-sm mb-1">
         <span className="font-medium">{label}</span>
-        <span className="text-slate-600">{value.toFixed(1)}</span>
+        <span className="text-slate-600">{value.toFixed(2)}</span>
       </div>
       <div className="h-3 bg-slate-200 rounded-full overflow-hidden">
         <div className={`h-full ${color} transition-all duration-500`} style={{ width: `${percentage}%` }} />
@@ -390,17 +390,17 @@ export default function Assessment() {
       <div className="grid md:grid-cols-3 gap-6 mb-10">
         <div className="bg-gradient-to-br from-indigo-500 to-purple-600 text-white p-6 rounded-xl">
           <h3 className="text-lg opacity-90 mb-1">Overall</h3>
-          <p className="text-4xl font-bold">{overall?.Overall_Normalized_Equal_Avg?.toFixed(1) || '—'}</p>
+          <p className="text-4xl font-bold">{overall?.Overall_Normalized_Equal_Avg?.toFixed(2) || '—'}</p>
           <p className="text-sm opacity-75 mt-1">out of 10</p>
         </div>
         <div className="bg-gradient-to-br from-blue-500 to-cyan-500 text-white p-6 rounded-xl">
           <h3 className="text-lg opacity-90 mb-1">Core 5D</h3>
-          <p className="text-4xl font-bold">{overall?.Core_5D_Avg?.toFixed(1) || '—'}</p>
+          <p className="text-4xl font-bold">{overall?.Core_5D_Avg?.toFixed(2) || '—'}</p>
           <p className="text-sm opacity-75 mt-1">out of 10</p>
         </div>
         <div className="bg-gradient-to-br from-emerald-500 to-teal-500 text-white p-6 rounded-xl">
           <h3 className="text-lg opacity-90 mb-1">Competency</h3>
-          <p className="text-4xl font-bold">{overall?.General_Competency_Avg_10scale?.toFixed(1) || '—'}</p>
+          <p className="text-4xl font-bold">{overall?.General_Competency_Avg_10scale?.toFixed(2) || '—'}</p>
           <p className="text-sm opacity-75 mt-1">out of 10</p>
         </div>
       </div>
