@@ -1,221 +1,387 @@
 # Personliness
 
-A comprehensive web application for personality assessment and historical figure matching based on multi-dimensional trait analysis.
+A personality assessment app that matches users to historical figures based on multi-dimensional trait profiles.
 
-## Overview
+Users answer 62 Likert-scale questions, receive scores across 36 traits in 5 core dimensions plus Heinlein competencies, and are matched to the historical figures whose scored profiles most closely resemble theirs.
 
-Personliness is a Django-based web application that allows users to:
-- Take a comprehensive personality assessment based on multiple trait dimensions
-- Receive detailed scoring across cognitive, emotional, and competency dimensions
-- Match with historical figures who have similar trait profiles
-- Browse and search through a database of scored historical figures
-- Ingest new historical figures using LLM-based scoring
+**Features**
 
-## Features
+- 62-question assessment across 36 traits
+- 5 core personality dimensions + 15 Heinlein competency traits
+- LLM-powered historical figure scoring (OpenAI, Anthropic, or Ollama)
+- Mean absolute difference matching with per-dimension breakdown
+- React SPA with radar charts and side-by-side figure comparison
+- JWT authentication, Django admin, Celery async ingestion
 
-### Assessment System
-- **Multi-dimensional trait assessment**: 40+ questions covering various personality dimensions
-- **Sophisticated scoring algorithm**: Calculates scores across:
-  - Core 4D traits (Openness, Conscientiousness, Extraversion, Emotional Stability)
-  - Heinlein's General Competency traits (practical, creative, physical, social skills)
-  - Overall normalized scores
-- **Historical figure matching**: Find the closest matches to your personality profile
+---
 
-### Figure Database
-- **Searchable database** of historical figures with detailed biographies
-- **Multiple sorting options**: Sort by core traits, competency, or overall scores
-- **LLM-powered ingestion**: Add new figures with automated trait scoring via OpenAI API
+## Architecture
 
-### API Endpoints
-- RESTful API with JWT authentication
-- Comprehensive endpoints for assessments, figures, and user management
-- Admin-level endpoints for figure ingestion and management
+```
+ Browser
+    │
+    ▼
+┌─────────────────────────────────┐
+│  Nginx (port 80 in prod)        │  ← serves React SPA
+│  React SPA (port 3000 in dev)   │     proxies /api/ → Django
+└───────────────┬─────────────────┘
+                │ /api/
+                ▼
+        ┌──────────────┐
+        │  Django /    │◄──── Celery Worker
+        │  Gunicorn    │          │
+        │  :8000       │          │
+        └──────┬───────┘          │
+               │                  │
+       ┌───────┴──────┐    ┌──────┴──────┐
+       │ PostgreSQL 15 │    │  Redis 7    │
+       └───────────────┘    └─────────────┘
+                                          │
+                                    LLM API
+                             (OpenAI / Anthropic / Ollama)
+```
 
-## Tech Stack
+---
 
-- **Backend**: Django 6.0, Django REST Framework
-- **Database**: PostgreSQL 15
-- **Task Queue**: Celery with Redis
-- **Authentication**: JWT (SimpleJWT)
-- **Containerization**: Docker, Docker Compose
-- **Web Server**: Gunicorn
-- **LLM Integration**: OpenAI API
+## Quick Start (Development)
 
-## Getting Started
+```bash
+git clone <repo-url>
+cd personliness
+cp .env.example .env
+# Edit .env: set LLM_OPENAI_API_KEY (or another provider — see LLM section)
+docker compose up --build
+```
+
+- React dev server: http://localhost:3000 (hot reload)
+- Django API: http://localhost:8000
+- Django admin: http://localhost:8000/admin
+
+The entrypoint automatically runs migrations, loads the `questions` and `historical_figures` fixtures, and creates a superuser (`admin` / `admin` by default in dev).
+
+---
+
+## Production Deployment
 
 ### Prerequisites
 
-- Docker and Docker Compose
-- OpenAI API key (for figure ingestion feature)
+- Docker Engine + Docker Compose v2
+- Ports 80 (and 443 if you terminate TLS on the host) accessible
+- A domain name for `ALLOWED_HOSTS` and `CORS_ALLOWED_ORIGINS`
 
-### Installation
+### Environment Setup
 
-1. Clone the repository:
+Create a `.env` file from `.env.example` and set production values:
+
 ```bash
-git clone <repository-url>
-cd personliness
+# Django core
+DJANGO_SECRET_KEY=<generate: python -c "import secrets; print(secrets.token_urlsafe(50))">
+DEBUG=False
+DJANGO_ALLOWED_HOSTS=yourdomain.com,www.yourdomain.com
+
+# Database
+POSTGRES_DB=personliness
+POSTGRES_USER=personliness
+POSTGRES_PASSWORD=<strong password>
+
+# Redis/Celery (defaults work as-is in Docker)
+CELERY_BROKER_URL=redis://redis:6379/0
+CELERY_RESULT_BACKEND=redis://redis:6379/0
+
+# API security
+ADMIN_API_KEY=<strong random key>
+CORS_ALLOWED_ORIGINS=https://yourdomain.com
+
+# Superuser bootstrap
+DJANGO_SUPERUSER_USERNAME=admin
+DJANGO_SUPERUSER_EMAIL=admin@example.com
+DJANGO_SUPERUSER_PASSWORD=<strong password>
+
+# LLM provider (see LLM section below)
+LLM_ACTIVE_CONFIG=openai-o3
+LLM_OPENAI_API_KEY=sk-...
+
+# Refinement passes
+LLM_ENABLE_REFINEMENT=True
+LLM_MAX_REFINEMENT_PASSES=2
+LLM_MIN_CONFIDENCE_TARGET=High
 ```
 
-2. Copy the example environment file and configure it:
+> Note: `CORS_ALLOWED_ORIGINS` and `CREATE_SUPERUSER` are set directly in `docker-compose.prod.yml`. Override them in `.env` if needed.
+
+### Build & Launch
+
 ```bash
-cp .env.example .env
+docker compose -f docker-compose.prod.yml up --build -d
 ```
 
-3. Edit `.env` and set your configuration:
-   - Generate a secure `DJANGO_SECRET_KEY`
-   - Set your `OPENAI_API_KEY` for figure ingestion
-   - Set a secure `ADMIN_API_KEY`
-   - Configure superuser credentials
+**What the entrypoint does automatically on first boot:**
 
-4. Build and start the containers:
+1. Waits for PostgreSQL to accept connections
+2. Runs `manage.py migrate`
+3. Runs `manage.py collectstatic`
+4. Loads `questions` and `historical_figures` fixtures
+5. Creates a superuser if `CREATE_SUPERUSER=true`
+6. Starts Gunicorn on `:8000`
+
+The Nginx container serves the pre-built React SPA on port 80 and proxies `/api/`, `/admin/`, and `/static/` to Gunicorn.
+
+### TLS / HTTPS
+
+The prod stack exposes port 80. For HTTPS, terminate TLS upstream with Caddy, Traefik, a host-level Nginx, or Cloudflare Tunnel. Then set `CORS_ALLOWED_ORIGINS=https://yourdomain.com`.
+
+### Verify Deployment
+
 ```bash
-docker-compose up --build
+# API responds
+curl http://yourdomain.com/api/figures/
+
+# Admin login page
+open http://yourdomain.com/admin/
+
+# React SPA
+open http://yourdomain.com/
 ```
 
-5. The application will be available at:
-   - API: http://localhost:8000
-   - Admin: http://localhost:8000/admin
+---
 
-### Loading Initial Data
+## Configuration Reference
 
-Load the question fixtures and sample historical figures:
+### Django Core
+
+| Variable | Default (dev) | Description |
+|---|---|---|
+| `DJANGO_SECRET_KEY` | insecure dev key | Django secret key — **change in production** |
+| `DEBUG` | `True` | Set `False` in production |
+| `DJANGO_ALLOWED_HOSTS` | `localhost,127.0.0.1` | Comma-separated allowed hosts |
+
+### Database
+
+| Variable | Default | Description |
+|---|---|---|
+| `POSTGRES_DB` | `personliness` | Database name |
+| `POSTGRES_USER` | `personliness` | Database user |
+| `POSTGRES_PASSWORD` | `personliness` | Database password — **change in production** |
+| `POSTGRES_HOST` | `db` | Service name (Docker) or hostname |
+| `POSTGRES_PORT` | `5432` | Port |
+
+### Redis / Celery
+
+| Variable | Default | Description |
+|---|---|---|
+| `CELERY_BROKER_URL` | `redis://redis:6379/0` | Celery message broker |
+| `CELERY_RESULT_BACKEND` | `redis://redis:6379/0` | Celery result store |
+
+### API Security
+
+| Variable | Description |
+|---|---|
+| `ADMIN_API_KEY` | Bearer token required for figure ingestion endpoints |
+| `CORS_ALLOWED_ORIGINS` | Comma-separated origins allowed by CORS (e.g. `https://yourdomain.com`) |
+
+### Superuser Bootstrap
+
+| Variable | Default | Description |
+|---|---|---|
+| `CREATE_SUPERUSER` | `true` | Create superuser on first boot if not exists |
+| `DJANGO_SUPERUSER_USERNAME` | `admin` | Superuser username |
+| `DJANGO_SUPERUSER_EMAIL` | `admin@example.com` | Superuser email |
+| `DJANGO_SUPERUSER_PASSWORD` | `admin` (dev) | Superuser password — **change in production** |
+
+### LLM Provider
+
+| Variable | Description |
+|---|---|
+| `LLM_ACTIVE_CONFIG` | Active profile: `openai-o3`, `openai-gpt4`, `anthropic`, `ollama` |
+| `LLM_OPENAI_API_KEY` | OpenAI API key |
+| `LLM_ANTHROPIC_API_KEY` | Anthropic API key |
+| `LLM_OLLAMA_BASE_URL` | Ollama base URL (e.g. `http://ollama:11434/v1`) |
+| `LLM_OLLAMA_MODEL` | Ollama model name (e.g. `llama3`) |
+| `LLM_OPENAI_MODEL` | Override model for `openai-o3` profile |
+| `LLM_OPENAI_GPT4_MODEL` | Override model for `openai-gpt4` profile |
+| `LLM_ANTHROPIC_MODEL` | Override model for `anthropic` profile |
+| `LLM_ENABLE_REFINEMENT` | `True` — enable multi-pass refinement |
+| `LLM_MAX_REFINEMENT_PASSES` | `2` — max refinement iterations |
+| `LLM_MIN_CONFIDENCE_TARGET` | `High` — target confidence level before stopping |
+
+---
+
+## LLM Provider Selection
+
+Set `LLM_ACTIVE_CONFIG` to one of these profiles:
+
+| Profile | Required Key | Best For |
+|---|---|---|
+| `openai-o3` (default) | `LLM_OPENAI_API_KEY` | Highest accuracy, reasoning tasks |
+| `openai-gpt4` | `LLM_OPENAI_API_KEY` | Faster, lower cost |
+| `anthropic` | `LLM_ANTHROPIC_API_KEY` | Extended thinking, long context |
+| `ollama` | `LLM_OLLAMA_BASE_URL` + `LLM_OLLAMA_MODEL` | Local / air-gapped / private |
+
+**Refinement passes** (`LLM_ENABLE_REFINEMENT=True`): After the initial scoring, the worker re-prompts the LLM for any traits below `LLM_MIN_CONFIDENCE_TARGET`, up to `LLM_MAX_REFINEMENT_PASSES` times. This improves accuracy at the cost of additional API calls.
+
+---
+
+## Adding Historical Figures
+
+### Via Admin API (LLM-scored, async)
+
 ```bash
-docker-compose exec web python manage.py loaddata fixtures/questions.json
-docker-compose exec web python manage.py loaddata fixtures/sample_figures.json
+# Submit for ingestion
+curl -X POST http://yourdomain.com/api/figures/ingest/ \
+  -H "X-Admin-API-Key: $ADMIN_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "figure_name": "Ada Lovelace",
+    "biography_text": "Augusta Ada King, Countess of Lovelace..."
+  }'
+# Returns: {"id": 42, "status": "pending", ...}
+
+# Poll for completion
+curl http://yourdomain.com/api/figures/ingest/42/ \
+  -H "X-Admin-API-Key: $ADMIN_API_KEY"
+# status: pending → processing → complete (or failed)
 ```
 
-## API Endpoints
+The Celery worker picks up the task and scores the figure across all 36 traits using the configured LLM.
+
+### Via Fixture (manual)
+
+```bash
+docker compose exec web python manage.py loaddata fixtures/sample_figures.json
+```
+
+---
+
+## Scoring System
+
+### Assessment
+
+- **62 questions**, Likert scale 0–3
+- Each question maps to one or more traits with a multiplier weight
+- Some questions are reverse-scored
+- Trait scores are weighted averages normalized to the 0–3 scale
+
+### Traits
+
+- **21 core traits** across 5 dimensions:
+  - **Cognitive**: Strategic Intelligence, Ethical/Philosophical Insight, Creative/Innovative Thinking, Administrative/Legislative Skill
+  - **Moral-Affective**: Compassion/Empathy, Courage/Resilience, Justice Orientation, Moral Fallibility & Growth
+  - **Cultural-Social**: Leadership/Influence, Institution-Building, Impact Legacy, Archetype Resonance, Relatability/Cultural Embeddedness
+  - **Embodied-Existential**: Physical Endurance/Skill, Hardship Tolerance, Joy/Play/Aesthetic Appreciation, Mortality Acceptance, Paradox Integration
+  - **Relational**: Spousal/Partner Quality, Parental/Mentoring Quality, Relational Range
+- **15 Heinlein competency traits**: Caregiving & Nurture, Strategic Planning & Command, Animal & Food Processing, Navigation & Wayfinding, Construction & Fabrication, Artistic & Cultural Expression, Numerical & Analytical Reasoning, Manual Craft & Repair, Medical Aid & Emergency Response, Leadership & Followership, Agricultural & Resource Management, Culinary Skill, Combat & Defense, Technical & Systemic Problem-Solving, Existential Composure
+
+### Figure Matching
+
+Similarity is computed as **mean absolute difference** (not cosine):
+
+```
+per-trait dissimilarity = |user_score - figure_score| / 3
+similarity = 1 - mean(dissimilarities)
+```
+
+- `core_similarity`: average over 21 core traits
+- `heinlein_similarity`: average over 15 Heinlein traits
+- `overall_similarity`: weighted `(core × 5 + heinlein × 1) / 6`
+
+Top 10 matches are stored on the assessment at submission time (not recalculated on load).
+
+---
+
+## API Reference
 
 ### Authentication
-- `POST /api/auth/token/` - Obtain JWT token
-- `POST /api/auth/token/refresh/` - Refresh JWT token
-- `POST /api/auth/signup/` - Register new user
+
+| Method | Endpoint | Description |
+|---|---|---|
+| `POST` | `/api/auth/signup/` | Register new user |
+| `POST` | `/api/auth/token/` | Obtain JWT access + refresh tokens |
+| `POST` | `/api/auth/token/refresh/` | Refresh JWT access token |
 
 ### Assessments
-- `GET /api/questions/` - List all assessment questions
-- `POST /api/assessments/` - Submit assessment answers
-- `GET /api/assessments/latest/` - Get user's latest assessment
-- `GET /api/assessments/<id>/` - Get specific assessment
-- `GET /api/matches/latest/` - Get top matching figures for user's latest assessment
+
+| Method | Endpoint | Auth | Description |
+|---|---|---|---|
+| `GET` | `/api/questions/` | — | List all 62 questions |
+| `POST` | `/api/assessments/` | JWT | Submit answers, compute scores + matches |
+| `GET` | `/api/assessments/latest/` | JWT | Most recent assessment |
+| `GET` | `/api/assessments/<id>/` | JWT | Specific assessment by ID |
+| `GET` | `/api/assessments/history/` | JWT | All user assessments |
+| `GET` | `/api/matches/latest/` | JWT | Top 10 figure matches for latest assessment |
+| `GET` | `/api/compare/<slug>/` | JWT | Detailed trait-by-trait comparison with a figure |
 
 ### Historical Figures
-- `GET /api/figures/` - List figures (supports sorting and search)
-- `GET /api/figures/<slug>/` - Get figure details
-- `POST /api/figures/ingest/` - Ingest new figure (requires admin)
-- `GET /api/figures/ingest/<id>/` - Check ingestion status
+
+| Method | Endpoint | Auth | Description |
+|---|---|---|---|
+| `GET` | `/api/figures/` | — | List all figures |
+| `GET` | `/api/figures/<slug>/` | — | Figure detail with full score breakdown |
+| `POST` | `/api/figures/ingest/` | Admin key | Queue figure for LLM scoring |
+| `GET` | `/api/figures/ingest/<id>/` | Admin key | Check ingestion status |
+
+Admin key is passed as `X-Admin-API-Key: <ADMIN_API_KEY>` header.
+
+---
+
+## Development Workflow
+
+```bash
+# Run backend tests
+docker compose run --rm web python manage.py test
+
+# Make and apply migrations
+docker compose run --rm web python manage.py makemigrations
+docker compose run --rm web python manage.py migrate
+
+# Open Django shell
+docker compose run --rm web python manage.py shell
+
+# Watch Celery worker logs
+docker compose logs -f worker
+```
+
+Frontend dev server runs on port 3000 with Vite hot module reload. API calls proxy to Django on port 8000.
+
+---
 
 ## Project Structure
 
 ```
 personliness/
-├── assessments/          # Assessment app
-│   ├── models.py        # Question and AssessmentSubmission models
-│   ├── views.py         # API views for assessments
-│   ├── serializers.py   # DRF serializers
-│   ├── scoring.py       # Scoring algorithm implementation
-│   └── urls.py          # URL routing
-├── figures/             # Historical figures app
-│   ├── models.py        # HistoricalFigure and FigureIngestionRequest models
-│   ├── views.py         # API views for figures
-│   ├── tasks.py         # Celery tasks for LLM-based scoring
-│   ├── serializers.py   # DRF serializers
-│   └── urls.py          # URL routing
-├── personliness/        # Main project settings
-│   ├── settings.py      # Django settings
-│   ├── urls.py          # Main URL routing
-│   ├── celery.py        # Celery configuration
-│   └── wsgi.py          # WSGI application
-├── fixtures/            # Initial data fixtures
-│   ├── questions.json   # Assessment questions
-│   └── sample_figures.json  # Sample historical figures
-├── static/              # Static files
-├── templates/           # Django templates
-├── docker-compose.yml   # Docker Compose configuration
-├── Dockerfile           # Docker image definition
-├── entrypoint.sh        # Container entrypoint script
-└── requirements.txt     # Python dependencies
+├── assessments/              # Assessment app
+│   ├── models.py             # Question, AssessmentSubmission
+│   ├── views.py              # API views
+│   ├── serializers.py        # DRF serializers
+│   ├── scoring.py            # calculate_scores(), calculate_match(), rank_matches()
+│   └── urls.py
+├── figures/                  # Historical figures app
+│   ├── models.py             # HistoricalFigure, FigureIngestionRequest
+│   ├── views.py              # API views (list, detail, ingest)
+│   ├── tasks.py              # Celery task: LLM scoring
+│   ├── serializers.py
+│   └── urls.py
+├── personliness/             # Django project config
+│   ├── settings.py
+│   ├── urls.py               # Root URL routing
+│   ├── traits.py             # Canonical trait/dimension definitions (36 traits)
+│   ├── celery.py
+│   └── wsgi.py
+├── frontend/                 # React + Vite SPA
+│   ├── src/
+│   │   ├── pages/            # Home, Assessment, Results, Figures, FigureDetail,
+│   │   │                     #   Compare, Login, Signup, Layout
+│   │   ├── components/       # Shared UI components
+│   │   ├── context/          # Auth context
+│   │   └── api.js            # Axios API client
+│   └── Dockerfile            # Multi-stage: dev (Vite) + prod (Nginx)
+├── fixtures/
+│   ├── questions.json        # 62 assessment questions
+│   ├── historical_figures.json
+│   └── sample_figures.json
+├── docker-compose.yml        # Development stack
+├── docker-compose.prod.yml   # Production stack (Nginx on :80, no exposed DB/Redis)
+├── Dockerfile                # Django/Gunicorn image
+├── entrypoint.sh             # Migrate → collectstatic → loaddata → superuser → gunicorn
+├── nginx.prod.conf           # Nginx config: serve SPA, proxy /api/
+└── requirements.txt
 ```
-
-## Scoring System
-
-The assessment scoring follows a multi-tiered approach:
-
-1. **Raw Trait Scores (0-3 scale)**: Each question maps to one or more traits with multipliers
-2. **Dimension Averages (0-10 scale)**: Traits are grouped into dimensions and averaged
-3. **Category Averages**: Dimensions are grouped into Core 4D and Heinlein categories
-4. **Overall Score**: Equal-weighted average of all normalized scores
-
-### Similarity Calculation
-
-Historical figure matching uses cosine similarity between trait vectors, considering:
-- Core 4D dimensions
-- Heinlein competency dimensions
-- Overall trait profile alignment
-
-## Development
-
-### Running Locally Without Docker
-
-1. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set up PostgreSQL and Redis locally, then configure `.env`
-
-4. Run migrations:
-```bash
-python manage.py migrate
-```
-
-5. Load fixtures:
-```bash
-python manage.py loaddata fixtures/questions.json
-python manage.py loaddata fixtures/sample_figures.json
-```
-
-6. Create a superuser:
-```bash
-python manage.py createsuperuser
-```
-
-7. Run the development server:
-```bash
-python manage.py runserver
-```
-
-8. In another terminal, start Celery worker:
-```bash
-celery -A personliness worker -l info
-```
-
-### Running Tests
-
-```bash
-pytest
-```
-
-## Contributing
-
-Contributions are welcome! Please follow these guidelines:
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-[Your license here]
-
-## Acknowledgments
-
-- Assessment framework inspired by multi-trait personality research
-- Historical figure data sourced from publicly available biographies
-- LLM scoring powered by OpenAI's GPT models

@@ -1,286 +1,292 @@
 # Development Guide
 
-## Quick Start
+## Quick Start (Docker — Recommended)
 
-### Using Docker (Recommended)
-
-1. Run the start script:
-```bash
-./start.sh
-```
-
-2. Access the application:
-   - API: http://localhost:8000
-   - Admin: http://localhost:8000/admin
-
-### Manual Setup (Without Docker)
-
-1. Create virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Set up PostgreSQL and Redis locally
-
-4. Create and configure `.env` file:
 ```bash
 cp .env.example .env
-# Edit .env with your settings
+# Set at minimum: LLM_OPENAI_API_KEY (or another LLM provider — see README)
+docker compose up --build
 ```
 
-5. Run migrations:
+| Service | URL |
+|---|---|
+| React SPA (Vite dev server) | http://localhost:3000 |
+| Django API | http://localhost:8000 |
+| Django admin | http://localhost:8000/admin (user: `admin`, pass: `admin`) |
+
+The entrypoint automatically runs migrations, loads fixtures, and creates the `admin` superuser on first boot.
+
+---
+
+## Running Without Docker
+
+Requires: Python 3.11+, PostgreSQL 15, Redis 7, Node 18+
+
 ```bash
+# Python backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+# Edit .env: set POSTGRES_HOST=localhost, REDIS host, LLM key
+
 python manage.py migrate
-```
-
-6. Load fixtures:
-```bash
-python manage.py loaddata fixtures/questions.json
-python manage.py loaddata fixtures/sample_figures.json
-```
-
-7. Create superuser:
-```bash
+python manage.py loaddata questions historical_figures
 python manage.py createsuperuser
-```
+python manage.py runserver          # :8000
 
-8. Run development server:
-```bash
-python manage.py runserver
-```
-
-9. In another terminal, start Celery worker:
-```bash
+# In a second terminal
 celery -A personliness worker -l info
+
+# Frontend
+cd frontend
+npm install
+npm run dev                         # :3000
 ```
+
+---
 
 ## Testing
 
-Run tests with pytest:
 ```bash
-pytest
-```
+# Via Docker (preferred)
+docker compose run --rm web python manage.py test
 
-Run with coverage:
-```bash
+# With coverage (local venv)
 pytest --cov=assessments --cov=figures
 ```
 
-## API Testing
+---
 
-### Get JWT Token
+## Common Tasks
+
+### Migrations
+
+```bash
+docker compose run --rm web python manage.py makemigrations
+docker compose run --rm web python manage.py migrate
+```
+
+### Django Shell
+
+```bash
+docker compose run --rm web python manage.py shell
+```
+
+### Watch Celery Logs
+
+```bash
+docker compose logs -f worker
+```
+
+### Reset Everything (wipe volumes)
+
+```bash
+docker compose down -v
+docker compose up --build
+```
+
+---
+
+## API Testing Examples
+
+### Sign Up & Get Token
+
 ```bash
 curl -X POST http://localhost:8000/api/auth/signup/ \
   -H "Content-Type: application/json" \
   -d '{"username": "testuser", "email": "test@example.com", "password": "testpass123"}'
+# Returns: {"access": "...", "refresh": "..."}
+
+TOKEN="<access token from above>"
 ```
 
 ### List Questions
+
 ```bash
 curl http://localhost:8000/api/questions/
+# Returns array of 62 questions
 ```
 
 ### Submit Assessment
+
+Answers are `question_id → value (0–3)`:
+
 ```bash
 curl -X POST http://localhost:8000/api/assessments/ \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
-  -d '{"answers": {"1": 5, "2": 4, "3": 3}}'
+  -H "Authorization: Bearer $TOKEN" \
+  -d '{"answers": {"1": 2, "2": 3, "3": 1}}'
 ```
 
-### Get Matches
+### Get Top Matches
+
 ```bash
-curl http://localhost:8000/api/matches/latest/?top=10 \
-  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+curl http://localhost:8000/api/matches/latest/ \
+  -H "Authorization: Bearer $TOKEN"
 ```
 
-### List Figures
+### Compare with a Figure
+
 ```bash
-curl "http://localhost:8000/api/figures/?sort=overall&dir=desc"
+curl http://localhost:8000/api/compare/ada-lovelace/ \
+  -H "Authorization: Bearer $TOKEN"
 ```
 
-### Search Figures
+### List / Search Figures
+
 ```bash
+curl "http://localhost:8000/api/figures/"
 curl "http://localhost:8000/api/figures/?search=einstein"
 ```
 
-## Database Management
+### Ingest a Figure (Admin)
 
-### Apply Migrations
-```bash
-python manage.py migrate
-```
-
-### Create New Migration
-```bash
-python manage.py makemigrations
-```
-
-### Access Django Shell
-```bash
-python manage.py shell
-```
-
-### Access Database Shell
-```bash
-python manage.py dbshell
-```
-
-## Adding New Historical Figures
-
-### Via API (Requires Admin Key)
 ```bash
 curl -X POST http://localhost:8000/api/figures/ingest/ \
   -H "Content-Type: application/json" \
-  -H "X-Admin-API-Key: YOUR_ADMIN_API_KEY" \
-  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -H "X-Admin-API-Key: your-admin-api-key-here" \
   -d '{
     "figure_name": "Albert Einstein",
     "biography_text": "Albert Einstein was a German-born theoretical physicist..."
   }'
-```
+# Returns: {"id": 1, "status": "pending", ...}
 
-### Check Ingestion Status
-```bash
+# Poll status
 curl http://localhost:8000/api/figures/ingest/1/ \
-  -H "X-Admin-API-Key: YOUR_ADMIN_API_KEY" \
-  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
+  -H "X-Admin-API-Key: your-admin-api-key-here"
+# status: pending → processing → complete
 ```
 
-### Via Django Admin
-1. Go to http://localhost:8000/admin
-2. Login with admin credentials
-3. Navigate to "Historical figures" > "Add"
-4. Fill in the details and save
+---
 
-### Via Management Command
+## Adding Figures via Shell
+
 ```bash
-python manage.py shell
+docker compose run --rm web python manage.py shell
 ```
+
 ```python
 from figures.models import HistoricalFigure
 
 figure = HistoricalFigure.objects.create(
     name="Isaac Newton",
     slug="isaac-newton",
-    bio_short="English mathematician and physicist...",
-    bio_long="Full biography here...",
+    bio_short="English mathematician and physicist, 1643–1727.",
+    bio_long="Full biography...",
     source_notes="Wikipedia, Britannica",
-    score_json={...},  # Your score data
-    core_4d_avg_0_10=7.5,
-    general_competency_avg_0_10=8.2,
-    overall_normalized_equal_avg_0_10=7.8
+    score_json={
+        "core": {
+            "Cognitive": {
+                "Strategic Intelligence": {"score_0_3": 2.8, "justification": "...", "confidence": "High"},
+                # ... other traits
+            },
+            # ... other dimensions
+        },
+        "heinlein_competency": {
+            "Numerical & Analytical Reasoning": {"score_0_3": 3.0, "justification": "...", "confidence": "High"},
+            # ... other Heinlein traits
+        }
+    }
 )
 ```
+
+See `personliness/traits.py` for the full list of dimensions and trait names.
+
+---
+
+## Environment Variables (Development)
+
+Development defaults are hardcoded in `docker-compose.yml` and require no `.env` for basic use. Set these in `.env` to override:
+
+| Variable | What to set |
+|---|---|
+| `LLM_OPENAI_API_KEY` | Required for figure ingestion with OpenAI |
+| `LLM_ANTHROPIC_API_KEY` | Required for figure ingestion with Anthropic |
+| `LLM_ACTIVE_CONFIG` | `openai-o3` (default), `openai-gpt4`, `anthropic`, `ollama` |
+| `ADMIN_API_KEY` | Default is `your-admin-api-key-here` in dev compose |
+
+See `README.md` for the full configuration reference.
+
+---
 
 ## Project Structure
 
 ```
 personliness/
 ├── assessments/              # Assessment app
-│   ├── models.py            # Question, AssessmentSubmission models
-│   ├── views.py             # API views
-│   ├── serializers.py       # DRF serializers
-│   ├── scoring.py           # Scoring algorithm
-│   ├── urls.py              # URL routing
-│   ├── admin.py             # Admin configuration
-│   └── tests.py             # Unit tests
-├── figures/                 # Historical figures app
-│   ├── models.py            # HistoricalFigure, FigureIngestionRequest models
-│   ├── views.py             # API views
-│   ├── tasks.py             # Celery tasks
-│   ├── serializers.py       # DRF serializers
-│   ├── urls.py              # URL routing
-│   ├── admin.py             # Admin configuration
-│   └── tests.py             # Unit tests
-├── personliness/            # Main project
-│   ├── settings.py          # Django settings
-│   ├── urls.py              # Main URL configuration
-│   ├── celery.py            # Celery configuration
-│   └── wsgi.py              # WSGI application
-├── fixtures/                # Initial data
-│   ├── questions.json       # Assessment questions
-│   ├── historical_figures.json  # Historical figure data
-│   └── sample_figures.json  # Sample figures
-├── static/                  # Static files
-├── templates/               # Django templates
-├── docker-compose.yml       # Docker Compose configuration
-├── Dockerfile               # Docker image
-├── entrypoint.sh            # Container entrypoint
-├── requirements.txt         # Python dependencies
-├── pytest.ini               # Pytest configuration
-├── .env.example             # Environment variables template
-└── .gitignore              # Git ignore rules
+│   ├── models.py             # Question, AssessmentSubmission
+│   ├── views.py              # API views
+│   ├── serializers.py
+│   ├── scoring.py            # calculate_scores(), calculate_match(), rank_matches()
+│   ├── urls.py
+│   ├── admin.py
+│   └── tests.py
+├── figures/                  # Historical figures app
+│   ├── models.py             # HistoricalFigure, FigureIngestionRequest
+│   ├── views.py
+│   ├── tasks.py              # Celery: LLM scoring task
+│   ├── serializers.py
+│   ├── urls.py
+│   ├── admin.py
+│   └── tests.py
+├── personliness/             # Django project config
+│   ├── settings.py
+│   ├── urls.py
+│   ├── traits.py             # Canonical 36-trait definitions (21 core + 15 Heinlein)
+│   ├── celery.py
+│   └── wsgi.py
+├── frontend/                 # React + Vite SPA
+│   ├── src/
+│   │   ├── pages/            # Home, Assessment, Results, Figures, FigureDetail,
+│   │   │                     #   Compare, Login, Signup, Layout
+│   │   ├── components/
+│   │   ├── context/          # Auth context (JWT)
+│   │   └── api.js            # Axios client
+│   └── Dockerfile            # dev target (Vite :3000) + prod target (Nginx :80)
+├── fixtures/
+│   ├── questions.json        # 62 assessment questions
+│   ├── historical_figures.json
+│   └── sample_figures.json
+├── docker-compose.yml        # Dev stack
+├── docker-compose.prod.yml   # Prod stack (Nginx on :80, DB/Redis not exposed)
+├── Dockerfile                # Django/Gunicorn image
+├── entrypoint.sh             # migrate → collectstatic → loaddata → superuser → gunicorn
+├── nginx.prod.conf           # Nginx: serve SPA, proxy /api/ and /admin/
+├── requirements.txt
+└── .env.example
 ```
 
-## Environment Variables
-
-Key environment variables (see `.env.example`):
-
-- `DJANGO_SECRET_KEY`: Django secret key (generate a secure one for production)
-- `DEBUG`: Debug mode (True/False)
-- `DJANGO_ALLOWED_HOSTS`: Comma-separated list of allowed hosts
-- `POSTGRES_*`: PostgreSQL connection settings
-- `CELERY_*`: Celery broker and backend URLs
-- `OPENAI_API_KEY`: OpenAI API key for LLM-based figure scoring
-- `ADMIN_API_KEY`: Admin API key for protected endpoints
-- `CREATE_SUPERUSER`: Auto-create superuser on startup (Docker only)
+---
 
 ## Troubleshooting
 
-### Port Already in Use
-If port 8000 is already in use:
+**Port conflict on 3000 or 8000**
 ```bash
-docker-compose down
-# Or change the port in docker-compose.yml
+docker compose down
+# change ports in docker-compose.yml if needed
 ```
 
-### Database Connection Issues
-Check PostgreSQL is running:
+**Database connection refused**
 ```bash
-docker-compose ps
+docker compose ps          # check db container is healthy
+docker compose logs db
 ```
 
-Reset database:
+**Fixtures not loaded / missing questions**
 ```bash
-docker-compose down -v
-docker-compose up --build
+docker compose run --rm web python manage.py loaddata questions historical_figures
 ```
 
-### Static Files Not Loading
-Collect static files:
+**Celery not processing ingestion tasks**
 ```bash
-python manage.py collectstatic --noinput
+docker compose logs worker
+docker compose restart worker
 ```
 
-### Celery Tasks Not Running
-Check worker is running:
+**Frontend not reflecting code changes**
+
+Vite HMR should update automatically. If not:
 ```bash
-docker-compose logs worker
+docker compose restart frontend
 ```
-
-Restart worker:
-```bash
-docker-compose restart worker
-```
-
-## Code Style
-
-Follow PEP 8 guidelines. Use tools like:
-- `black` for formatting
-- `flake8` for linting
-- `isort` for import sorting
-
-## Contributing
-
-1. Create a feature branch
-2. Make your changes
-3. Add tests
-4. Run tests: `pytest`
-5. Submit a pull request
