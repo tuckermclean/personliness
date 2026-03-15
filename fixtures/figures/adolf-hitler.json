@@ -1,0 +1,372 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 123,
+  "fields": {
+    "name": "Adolf Hitler",
+    "slug": "adolf-hitler",
+    "bio_short": "Hitler scores high on cultural-social impact—leadership, legacy, and archetype resonance—as one of history's most consequential and destructive figures. Cognitive scores are moderate at best, marred by catastrophic strategic rigidity and absent philosophical depth. Moral-affective scores are near-zero except for personal physical courage in WWI and political struggles. Relational qualities are negligible. Heinlein competency breadth is very low: he was essentially a single-domain figure (political mobilization) with minimal practical skills outside rhetoric, propaganda, and command. The overal",
+    "bio_long": "Adolf Hitler was an Austrian-born German politician who was the dictator of Germany during the Nazi era, which lasted from 1933 until his suicide in 1945. He rose to power as the leader of the Nazi Party, becoming the chancellor of Germany in 1933 and then taking the title of Führer und Reichskanzler in 1934. Germany's invasion of Poland on 1 September 1939 under his leadership marked the outbreak of the Second World War. Throughout the ensuing conflict, Hitler was closely involved in the direction of German military operations as well as the perpetration of the Holocaust, the genocide of about six million Jews and millions of other victims.",
+    "source_notes": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+    "image": "figures/330px-Hitler_portrait_crop_28cropped2928229.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Kershaw, *Hitler: 1889–1936 Hubris* (1998)",
+              "Kershaw, *Hitler: 1936–1945 Nemesis* (2000)",
+              "Fest, *Hitler* (1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "After the Beer Hall Putsch failed in 1923, Hitler successfully adapted his strategy to a legal path to power (Legalitätstaktik), ultimately achieving chancellorship by 1933. His diplomatic brinkmanship during the Rhineland remilitarization (1936), Anschluss (1938), and Munich Agreement (1938) showed real strategic risk-assessment. However, his later military decisions—refusing retreat at Stalingrad, declaring war on the U.S. in December 1941, and micromanaging the Eastern Front—demonstrate catastrophic failure to adapt when initial plans collapsed, preventing a score of 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Kershaw, *The 'Hitler Myth'* (1987)",
+              "Welch, *Propaganda and the German Cinema* (1983)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Hitler contributed to innovations in political propaganda—mass rallies as total spectacle, the Führer cult, and systematic use of radio and film—as described in *Mein Kampf* and implemented with Goebbels. However, most specific propaganda innovations (Riefenstahl's *Triumph of the Will*, the Volksempfänger radio) were executed by others. Military innovations (blitzkrieg) were developed by Guderian and Manstein. His own creative output (architectural fantasies for 'Germania') remained unrealized."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Hitler, *Mein Kampf* (1925)",
+              "Picker/Jochmann, *Hitlers Tischgespräche* (1951/1980)",
+              "Mosse, *The Crisis of German Ideology* (1964)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Hitler's philosophical framework, as expressed in *Mein Kampf* (1925) and the *Table Talk* transcripts, is a derivative pastiche of social Darwinism, völkisch nationalism, and conspiracy theory, lacking internal coherence or original moral reasoning. No mainstream academic philosopher regards his thought as constituting a serious ethical or metaphysical contribution. His racial ideology provided the intellectual scaffolding for the Holocaust."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Kershaw, *Hitler: 1936–1945 Nemesis* (2000)",
+              "Broszat, *The Hitler State* (1981)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "The Nazi state was administratively chaotic by design. Hitler deliberately fostered competing fiefdoms among subordinates (Göring, Himmler, Bormann, Speer), resulting in what Kershaw calls 'working towards the Führer'—policy emerging from competitive interpretation rather than systematic governance. The Enabling Act (1933) concentrated power but created no durable administrative architecture. The entire system collapsed immediately upon his death."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Speer, *Inside the Third Reich* (1970)",
+              "Junge, *Until the Final Hour* (2002)",
+              "Kershaw, *Hitler: 1936–1945 Nemesis* (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Hitler operated primarily in one relational mode: dominance. As superior, he demanded obedience; as partner, he demanded subordination; as friend, he delivered monologues. He briefly served as a subordinate in WWI and nominally under Hindenburg (1933–34), but even there chafed at limits. His relational style was remarkably uniform—Speer, Braun, his generals, and his secretaries all describe the same pattern of one-directional charismatic dominance. This does not demonstrate the adaptability across five distinct modes required for higher scores."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Görtemaker, *Eva Braun: Life with Hitler* (2011)",
+              "Hamann, *Hitler's Vienna* (1999)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "Hitler's relationship with Eva Braun (c. 1932–1945) was characterized by enforced secrecy, emotional neglect, and her deep isolation—Braun attempted suicide twice (1932 and 1935), likely from despair at her marginalized position. He married her only hours before their joint suicide. His earlier close relationship with his half-niece Geli Raubal ended with her suicide in 1931 under circumstances suggesting a controlling, possessive dynamic. No evidence of mutual respect, emotional availability, or support during crisis exists."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Speer, *Inside the Third Reich* (1970)",
+              "Fest, *Speer: The Final Verdict* (2001)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "Hitler had no children. His mentoring relationships were characterized by demands for total obedience and ideological conformity. Albert Speer, his closest protégé, described a relationship of manipulation and psychological dependency. The Hitler Youth system he oversaw explicitly aimed at producing obedient followers rather than autonomous individuals. No documented mentee developed genuine independence of thought while under his influence; those who did (e.g., Speer's late-war divergence) did so against Hitler's wishes."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Snyder, *Bloodlands* (2010)",
+              "Judt, *Postwar* (2005)",
+              "Mazower, *Dark Continent* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hitler's actions precipitated WWII (approximately 70–85 million dead), the Holocaust, the partition of Europe, the creation of the United Nations, NATO, the European Union, the state of Israel, the Nuremberg Trials, the Universal Declaration of Human Rights, and the Genocide Convention. These effects reshaped the global order across multiple civilizations and remain clearly operative today. While only 80 years have passed, the scale and structural nature of these consequences make continued influence across centuries virtually certain."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Rosenfeld, *Hi Hitler! How the Nazi Past Is Being Normalized* (2015)",
+              "Kershaw, *The Nazi Dictatorship: Problems and Perspectives* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hitler functions as the paradigmatic archetype of political evil across virtually all modern cultures. 'Hitler' and 'Nazi' serve as universal referents for tyranny, genocide, and the dangers of demagoguery in cultures far removed from Europe (East Asia, Latin America, Africa). He is the central figure in one of modernity's foundational moral narratives. This cross-cultural symbolic recognition is unmatched among 20th-century figures."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Broszat, *The Hitler State* (1981)",
+              "Evans, *The Third Reich in Power* (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Hitler built the NSDAP into a mass party with millions of members, created the Hitler Youth (8 million members by 1939), and expanded the SS into a parallel state. However, none of these institutions survived his death—all were dissolved by Allied occupation authorities in 1945. The rubric's criterion for higher scores (surviving two generations beyond the founder) is definitively unmet. The organizations functioned during his lifetime but collapsed immediately afterward."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Kershaw, *Hitler: 1889–1936 Hubris* (1998)",
+              "Evans, *The Coming of the Third Reich* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hitler transformed a marginal party of a few hundred members into a mass movement that seized control of Europe's largest industrial economy. He led across qualitatively different contexts: small party cell (1920s), mass electoral movement (1930–33), peacetime nation-state (1933–39), and supreme military commander in a multi-front total war (1939–45). His charismatic authority is one of the most extensively documented cases in modern history, mobilizing tens of millions."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Speer, *Inside the Third Reich* (1970)",
+              "Junge, *Until the Final Hour* (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Some documented mundane habits exist—vegetarianism, love of his dog Blondi, watching films at the Berghof, his informal tea-time monologues—but during his years in power Hitler was increasingly isolated in the Berghof, Wolf's Lair, or the Berlin bunker. His 'man of the people' image was carefully constructed propaganda (the Hoffmann photographs of Hitler in Lederhosen, etc.) rather than genuine engagement with ordinary life. His inner circle was sycophantic rather than relational."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Friedländer, *Nazi Germany and the Jews* (1997, 2007)",
+              "Stolleis, *The Law Under the Swastika* (1998)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Hitler's entire political project was predicated on racial hierarchy and the denial of equal personhood. The Nuremberg Laws (1935) institutionalized discrimination; the Holocaust systematically exterminated millions on ethnic and racial grounds. He subordinated all legal processes to personal and ideological caprice, replacing the rule of law with the Führerprinzip. There is no documented instance of ruling against personal or group interest in favor of impartial principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Hilberg, *The Destruction of the European Jews* (1961/2003)",
+              "Longerich, *Holocaust: The Nazi Persecution and Murder of the Jews* (2010)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Hitler ordered and oversaw the Holocaust (approximately six million Jews murdered), the T4 euthanasia program targeting disabled persons, the Commissar Order mandating execution of Soviet political officers, the Hunger Plan for occupied Eastern Europe, and the Nero Decree (March 1945) ordering destruction of German infrastructure. Anecdotes of personal warmth toward secretaries or his dog Blondi are trivial against systematic mass murder directed at outgroup members on an industrial scale."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Weber, *Hitler's First War* (2010)",
+              "Fest, *Plotting Hitler's Death* (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Hitler served four years as a dispatch runner on the Western Front in WWI, was wounded at the Somme (1916) and gassed at Ypres (1918), and received the Iron Cross First and Second Class. He personally led the Beer Hall Putsch (1923) at physical risk, endured imprisonment at Landsberg, and persisted through years of political marginalization (1924–1929). He survived multiple assassination attempts, including the July 20 Plot (1944). This constitutes sustained courage across multiple high-stakes situations."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Kershaw, *Hitler: 1936–1945 Nemesis* (2000)",
+              "Trevor-Roper, *The Last Days of Hitler* (1947)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Hitler's core ideological commitments—racial anti-Semitism, Lebensraum, Führerprinzip—remained unchanged from *Mein Kampf* (1925) through his political testament dictated on April 29, 1945. His adaptation after the Putsch was purely tactical, not moral. He never acknowledged error in his racial program or war aims, and his final testament reaffirmed anti-Semitic ideology. No documented instance of genuine moral self-correction exists."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Hamann, *Hitler's Vienna* (1999)",
+              "Weber, *Hitler's First War* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Hitler endured genuine material deprivation during his Vienna years (1908–1913), including residence in a homeless shelter and men's hostel. He then endured four years of frontline combat in WWI, including two wounds. He later endured imprisonment at Landsberg (1924) and years of political marginalization. This spans at least two qualitatively different forms of adversity—material poverty and combat trauma—and he functioned effectively through both."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Kershaw, *Hitler: 1889–1936 Hubris* (1998)",
+              "Spotts, *Hitler and the Power of Aesthetics* (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Hitler combined some contradictory roles—failed artist and political leader, vegetarian animal lover and perpetrator of mass murder, populist commoner and absolute dictator. However, these contradictions were not genuinely integrated but compartmentalized or expressed as hypocrisy. His artistic identity was abandoned rather than synthesized with his political role. His populist persona was propaganda rather than genuine paradox integration. He did not inhabit three contradictory roles coherently."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Trevor-Roper, *The Last Days of Hitler* (1947)",
+              "Beevor, *The Fall of Berlin 1945* (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Hitler's final days showed methodical preparation for death—marrying Eva Braun, dictating his political testament, testing cyanide on Blondi, and arranging cremation of his remains. The mechanical act was executed with deliberateness. However, the preceding weeks were characterized by denial of military reality, erratic rages against 'traitors,' and grandiose orders to nonexistent armies. The composure was limited to the final hours rather than sustained, and the suicide was motivated primarily by avoiding capture rather than genuine acceptance."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Weber, *Hitler's First War* (2010)",
+              "Neumann & Eberle, *Was Hitler Ill?* (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Hitler's WWI service as a dispatch runner (1914–1918) required genuine physical endurance under combat conditions. However, from the mid-1930s onward his health deteriorated markedly—tremor (possibly Parkinson's disease), dependence on Dr. Morell's polypharmacy (including amphetamines), and increasing physical frailty documented by witnesses. No athletic accomplishments or physical feats beyond WWI service are documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Spotts, *Hitler and the Power of Aesthetics* (2002)",
+              "Speer, *Inside the Third Reich* (1970)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hitler's passion for Wagner's operas was genuine and lifelong—he attended performances obsessively from his Linz youth onward and maintained a personal friendship with the Wagner family at Bayreuth. His architectural interests (sketching buildings, poring over plans with Speer) and art collecting, while sometimes instrumental, also reflect genuine aesthetic engagement. His enjoyment of films at the Berghof (reportedly light comedies and musicals) appears non-instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 3.33,
+          "Relational": 1.11,
+          "Core_5D_Avg": 3.62,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 1.67,
+          "Embodied-Existential": 4.67
+        }
+      },
+      "figure": "Adolf Hitler",
+      "overall": {
+        "Core_5D_Avg": 3.62,
+        "Overall_Normalized_Equal_Avg": 3.31,
+        "General_Competency_Avg_10scale": 1.78
+      },
+      "summary": "Hitler scores high on cultural-social impact—leadership, legacy, and archetype resonance—as one of history's most consequential and destructive figures. Cognitive scores are moderate at best, marred by catastrophic strategic rigidity and absent philosophical depth. Moral-affective scores are near-zero except for personal physical courage in WWI and political struggles. Relational qualities are negligible. Heinlein competency breadth is very low: he was essentially a single-domain figure (political mobilization) with minimal practical skills outside rhetoric, propaganda, and command. The overall profile is deeply lopsided—enormous negative historical impact paired with narrow competence and profound moral failure.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.53,
+          "General_Competency_Avg_10scale": 1.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Hitler ever cooked meals. Throughout his adult life—from men's hostels to the Chancellery—his food was prepared by others. His dietary preferences (vegetarianism, bland foods) are well documented but reflect consumption, not preparation."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Weber, *Hitler's First War* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Hitler served four years on the Western Front in WWI as a dispatch runner, an inherently dangerous role requiring movement through active combat zones. He was wounded twice and survived. He also personally led the Beer Hall Putsch (1923), during which shots were fired and he was injured. However, dispatch running is not direct combat skill, and no evidence of trained martial proficiency exists."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Junge, *Until the Final Hour* (2002)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No documented evidence of sustained caregiving for any person across the lifespan. Hitler had no children and no record of nursing the sick or caring for the elderly. Anecdotal warmth toward his secretaries or his dog does not constitute caregiving competence in any meaningful sense."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Trevor-Roper, *The Last Days of Hitler* (1947)",
+            "Beevor, *The Fall of Berlin 1945* (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Hitler's final hours showed deliberate preparation—marriage to Braun, dictation of his testament, methodical arrangement of his suicide and cremation. However, the preceding weeks in the bunker were marked by erratic behavior, paranoid accusations of betrayal, and orders to nonexistent military units. The composure was narrow and final rather than sustained. His WWI service under fire shows earlier composure under mortal threat."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of manual craft, tool-making, or repair skills. Hitler's pre-political life involved painting and odd jobs but no recorded artisanal or mechanical work. His lifestyle as Führer was entirely serviced by others."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Weber, *Hitler's First War* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "As a WWI dispatch runner (Meldegänger) for the 16th Bavarian Reserve Infantry Regiment, Hitler navigated between command posts and front-line trenches under combat conditions, requiring practical wayfinding skill in the dangerous terrain of the Western Front. No evidence of broader navigational competence (seafaring, desert travel, etc.)."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Hitler ever butchered, processed, or prepared animal products. He became vegetarian in the 1930s and avoided involvement with animal slaughter. No record of hunting, fishing, or livestock management."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Kershaw, *Hitler: 1889–1936 Hubris* (1998)",
+            "Weber, *Hitler's First War* (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Hitler's ability to give orders and mobilize followers is among the most documented in modern history—he directed a nation of 80 million through total war. He also demonstrated followership during WWI, serving obediently as an enlisted soldier for four years and earning commendation from officers. However, his followership capacity diminished entirely after gaining power; he rejected all counsel that contradicted his views, particularly from 1941 onward, and could not subordinate himself to collective decision-making."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Spotts, *Hitler and the Power of Aesthetics* (2002)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Despite his passion for architecture and his grandiose sketches for 'Germania,' Hitler never personally designed a functional building or engaged in physical construction work. His architectural involvement was limited to amateur sketches and directing Speer's work as a patron rather than a practitioner."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Stahel, *Operation Barbarossa and Germany's Defeat in the East* (2009)",
+            "Beevor, *Stalingrad* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Hitler personally oversaw the planning of Fall Gelb (invasion of France, 1940), which succeeded spectacularly, and directed Barbarossa's initial phases. He coordinated multi-front operations involving millions of troops. However, his command deteriorated catastrophically—Stalingrad's no-retreat order, interference with Ardennes offensive logistics, and refusal to authorize tactical retreats in 1943–45 led to avoidable destruction. The mixture of early success and later catastrophe warrants a moderate score."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Price, *Adolf Hitler: The Unknown Artist* (1984)",
+            "Spotts, *Hitler and the Power of Aesthetics* (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Hitler produced hundreds of paintings and architectural watercolors during his Vienna and Munich years (c. 1908–1914), selling them commercially at modest prices. He was rejected twice by the Vienna Academy of Fine Arts. His works are technically competent but artistically undistinguished—described by the Academy as showing aptitude for architectural drawing but lacking in figure composition. This represents genuine but limited artistic ability."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented medical knowledge or emergency response capability. Despite four years of frontline WWI service, there is no record of Hitler providing medical aid to wounded comrades or possessing first-aid skills beyond the rudimentary."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Kershaw, *Hitler: 1889–1936 Hubris* (1998)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of mathematical training, aptitude, or application. Hitler left school without completing his education and showed no documented ability in accounting, engineering calculation, or quantitative analysis. His decision-making was characteristically intuitive rather than analytical."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Tooze, *The Wages of Destruction* (2006)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No personal agricultural experience or skill. The Nazi agricultural policies (Darré's 'Blood and Soil' program, the Four Year Plan for autarky) were conceived and executed by subordinates. Hitler showed no personal competence in cultivation or resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Speer, *Inside the Third Reich* (1970)",
+            "Tooze, *The Wages of Destruction* (2006)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Hitler took an amateur interest in military technology (V-2 rockets, Tiger tanks, jet aircraft) but his technical understanding was superficial and often counterproductive—he diverted resources to 'wonder weapons,' insisted the Me 262 jet fighter be used as a bomber, and made technically uninformed decisions about armaments production. Speer's memoirs document his interference as harmful rather than helpful."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 3.62,
+    "general_competency_avg_0_10": 1.78,
+    "overall_normalized_equal_avg_0_10": 3.31,
+    "created_at": "2026-03-15T22:52:32.875Z",
+    "updated_at": "2026-03-15T22:52:32.879Z"
+  }
+}
+]

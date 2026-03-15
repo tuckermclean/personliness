@@ -1,0 +1,390 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 121,
+  "fields": {
+    "name": "Theodor Herzl",
+    "slug": "theodor-herzl",
+    "bio_short": "Herzl was a visionary political organizer whose cognitive and institution-building strengths are exceptional: he transformed scattered proto-Zionist sentiment into an organized international movement with enduring institutions. His paradox integration—assimilated aesthete turned nationalist organizer, secular modernist championing religious-historical identity—is striking. Weaknesses cluster in relational and practical-competency domains: his marriage was strained, his children's lives were tragic, and he possessed few manual or survival skills. A specialist of extraordinary depth in political",
+    "bio_long": "Theodor Herzl was a Hungarian Jewish journalist and lawyer who was the father of modern political Zionism. Herzl formed the Zionist Organization and promoted Jewish immigration to Palestine, which, in the late 19th century was part of the Ottoman Empire, in an effort to form a Jewish state. Due to his Zionist work, he is known in Hebrew as Chozeh HaMedinah, lit. 'Visionary of the State'. He is specifically mentioned in the Israeli Declaration of Independence and is officially referred to as \"the spiritual father of the Jewish State\".",
+    "source_notes": "https://en.wikipedia.org/wiki/Theodor_Herzl",
+    "image": "figures/330px-Theodor_Herzl.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Pawel, Ernst. *The Labyrinth of Exile: A Life of Theodor Herzl* (1989)",
+              "Vital, David. *The Origins of Zionism* (1975)",
+              "Herzl, Theodor. *The Complete Diaries of Theodor Herzl*, ed. Patai (1960)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Herzl adapted his strategy multiple times: after wealthy patrons (Rothschild, Baron de Hirsch) rejected him, he pivoted to democratic mass mobilization via the Basel Congress (1897). He pursued parallel diplomatic tracks with the Ottoman Sultan, Kaiser Wilhelm II, the British government, and the Pope. The Uganda proposal (1903) showed willingness to adapt when Palestine seemed unattainable, though it nearly split the movement—a strategic miscalculation. His plans often failed in their immediate objectives during his lifetime, but his institutional framework succeeded long-term."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Vital, David. *The Origins of Zionism* (1975)",
+              "Laqueur, Walter. *A History of Zionism* (1972)",
+              "Stanislawski, Michael. *Zionism and the Fin de Siècle* (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Before Herzl, proto-Zionist efforts (Hovevei Zion, First Aliyah settlements) were small-scale, philanthropic, and lacked political structure. Herzl's paradigm shift was to reframe the Jewish question as a matter requiring international diplomacy, a chartered political organization, and financial institutions—creating political Zionism as a distinct movement. The before/after difference is sharp: the Basel Congress of 1897 marks the transition from scattered sentiment to organized political action, and the institutional model Herzl created (congresses, executive, colonial trust) became the template for the movement that eventually established Israel."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Herzl, Theodor. *Der Judenstaat* (1896)",
+              "Herzl, Theodor. *Altneuland* (1902)",
+              "Avineri, Shlomo. *Herzl: Theodor Herzl and the Foundation of the Jewish State* (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Der Judenstaat (1896) synthesized nationalist self-determination theory with the specific condition of European Jewry, arguing that antisemitism was structural rather than curable by assimilation. Altneuland (1902) articulated a progressive, pluralist vision including Arab citizens and women's suffrage. These ideas influenced subsequent Zionist thinkers and national liberation movements, though Herzl drew heavily on existing currents (Pinsker's Auto-Emancipation, European liberal nationalism) rather than originating a wholly new philosophical framework."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Vital, David. *Zionism: The Formative Years* (1982)",
+              "Herzl, Theodor. *The Complete Diaries*, ed. Patai (1960)",
+              "Avineri, Shlomo. *Herzl* (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Herzl founded the World Zionist Organization (1897), organized six Zionist Congresses with elected delegates and procedural rules, established Die Welt as the movement's organ, and created the Jewish Colonial Trust (1899) and the Anglo-Palestine Bank as financial instruments. These institutions functioned and endured well beyond his death in 1904: the WZO operated continuously and was instrumental in the 1948 founding of Israel, more than four decades later. The Congress system he designed remained the movement's governing framework throughout."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Herzl, *Complete Diaries*, ed. Patai (1960)",
+              "Pawel, *The Labyrinth of Exile* (1989)",
+              "Elon, *Herzl* (1975)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Herzl operated across multiple relational modes: spouse (to Julie, however troubled), parent (to three children), devoted son (to his mother Jeanette, with whom he was close), friend (literary circles in Vienna), diplomatic peer (Sultan, Kaiser, Pope, Chamberlain), organizational superior (to WZO officials), subordinate (to Neue Freie Presse editors Bacher and Benedikt, who forbade Zionist content), and adversary (to anti-Zionist Jewish leaders). This spans at least six distinct modes with documented behavioral differences across them."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Pawel, *The Labyrinth of Exile* (1989)",
+              "Elon, *Herzl* (1975)",
+              "Herzl, *Complete Diaries*, ed. Patai (1960)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Herzl's marriage to Julie Naschauer (m. 1889) was notably unhappy. Julie did not share his Zionist passion and reportedly resented his consuming devotion to the cause. The marriage was marked by frequent absences, financial strain from his political spending, and emotional distance. Herzl's diaries reveal frustration with the marriage. There is little evidence of mutual support during crisis or sustained emotional availability. The marriage survived until his death but appears to have been a source of suffering for both partners."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Pawel, *The Labyrinth of Exile* (1989)",
+              "Elon, *Herzl* (1975)",
+              "Stewart, Desmond. *Theodor Herzl: Artist and Politician* (1974)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Herzl's three children—Pauline, Hans, and Trude—all met tragic fates: Pauline struggled with mental illness and drug addiction, Hans committed suicide in 1930, and Trude perished in Theresienstadt. While Herzl died when they were young (ages 14, 13, and 11) and these outcomes cannot be solely attributed to him, his consuming political work left limited time for parenting. His diaries show affection but also guilt about his absences. As a political mentor, he inspired successors like David Wolffsohn and Max Nordau, though relationships were often strained by disagreements."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Israeli Declaration of Independence (1948)",
+              "Laqueur, *A History of Zionism* (1972)",
+              "Vital, David. *Zionism: The Crucial Phase* (1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Herzl is explicitly named in Israel's Declaration of Independence (1948) as the 'spiritual father of the Jewish State.' The movement he founded led directly to the creation of Israel, reshaping Middle Eastern geopolitics, Jewish identity worldwide, and international law (the Mandate system, UN partition). His impact crosses Jewish, Arab, and Western civilizations. However, the strict 500-year criterion cannot yet be met—Herzl died only 121 years ago—so a score of 3 is not warranted despite the enormous scale of impact."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Elon, *Herzl* (1975)",
+              "Avineri, *Herzl* (2013)",
+              "Stanislawski, *Zionism and the Fin de Siècle* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Herzl embodies the archetype of the prophetic visionary-founder—the man who saw a state before it existed (his Hebrew epithet 'Chozeh HaMedinah' means 'Visionary of the State'). His iconic bearded image on the Basel balcony is deeply embedded in Israeli and Jewish culture. He is recognized in broader Western and postcolonial discourse as a paradigmatic nationalist visionary. However, his cross-cultural archetypal recognition is narrower than figures like Moses, Gandhi, or Lincoln—primarily resonant within Jewish/Israeli, Western political, and Middle Eastern contexts rather than universally."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Vital, *Zionism: The Formative Years* (1982)",
+              "Laqueur, *A History of Zionism* (1972)",
+              "Avineri, *Herzl* (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The World Zionist Organization (f. 1897), its Congress system, the Jewish Colonial Trust (f. 1899), the Anglo-Palestine Bank (later Bank Leumi), and Die Welt newspaper all survived well beyond two generations. The WZO directly participated in the founding of Israel in 1948 and continues to operate today. The Congress model became the template for Jewish self-governance in the Yishuv period. These institutions maintained recognizable continuity with Herzl's founding vision."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Vital, *The Origins of Zionism* (1975)",
+              "Elon, *Herzl* (1975)",
+              "Laqueur, *A History of Zionism* (1972)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Herzl led across qualitatively different contexts: charismatic orator at mass congresses galvanizing thousands of delegates, behind-the-scenes diplomat negotiating with Sultan Abdul Hamid II, Kaiser Wilhelm II, British Colonial Secretary Joseph Chamberlain, and Pope Pius X, and organizational executive managing fractious internal factions (cultural vs. political Zionists, Eastern vs. Western European Jews). Delegates at the First Congress reportedly wept at his presence. He commanded loyalty from figures as diverse as Max Nordau and Israel Zangwill despite deep disagreements."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Pawel, *The Labyrinth of Exile* (1989)",
+              "Elon, *Herzl* (1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Herzl was an assimilated Viennese bourgeois intellectual—a dandy, theater-goer, and feuilletonist who was culturally distant from the Eastern European Jewish masses he led. He reportedly did not speak Yiddish or Hebrew. At the height of his political activity, he lived the life of a harried diplomat and editor, not a figure engaged in mundane communal life. His diaries mention his children with affection, but evidence of sustained engagement with everyday domestic activities is thin."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Avineri, *Herzl* (2013)",
+              "Herzl, *Der Judenstaat* (1896)",
+              "Laqueur, *A History of Zionism* (1972)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Herzl's Zionism was rooted in a justice claim: that Jews deserved national self-determination and safety from persecution. His response to the Dreyfus Affair was fundamentally about injustice. The Uganda proposal (1903) could be read as prioritizing the immediate safety of persecuted Russian Jews over ideological purity about Palestine—a form of ruling against group sentiment in favor of humanitarian principle. However, his vision's implications for the existing Arab population of Palestine were not fully confronted, though Altneuland imagined coexistence."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Herzl, *Complete Diaries*, ed. Patai (1960)",
+              "Pawel, Ernst. *The Labyrinth of Exile* (1989)",
+              "Herzl, *Altneuland* (1902)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Herzl's entire political project was motivated by genuine anguish at Jewish suffering—his diaries record visceral reactions to the Dreyfus Affair (1894) and to pogroms in Eastern Europe. In Altneuland, he envisioned a tolerant society including Arab residents and rejected exclusivism, with the villain being a character who advocates ethnic chauvinism. However, documented acts of personal compassion toward adversaries or outgroup members in his actual life (as opposed to literary works) are sparse, preventing a score of 3."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Pawel, *The Labyrinth of Exile* (1989)",
+              "Elon, Amos. *Herzl* (1975)",
+              "Vital, *Zionism: The Formative Years* (1982)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Herzl faced sustained ridicule from the established Jewish press and community (called a fantasist and madman), rejection by wealthy patrons, opposition from both Reform and Orthodox leaders, and the Uganda controversy that threatened to destroy his movement. He spent his personal fortune on the cause, accepted severe damage to his marriage and health, and continued diplomatic missions despite worsening cardiac disease. This represents consistent courage across social, financial, and personal domains, though not primarily physical danger."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Pawel, *The Labyrinth of Exile* (1989)",
+              "Herzl, *Complete Diaries*, ed. Patai (1960)",
+              "Elon, *Herzl* (1975)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Herzl underwent a dramatic reversal from believing in assimilation (he reportedly considered mass conversion in the early 1890s) to becoming the leader of Jewish nationalism after the Dreyfus Affair. He also evolved from an elitist, top-down approach (seeking a charter from the Sultan) to embracing democratic mass mobilization. His willingness to propose the Uganda scheme despite his own attachment to Palestine shows capacity to revise positions under pressure. These are documented behavioral changes, not merely rhetorical shifts."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Herzl, *Complete Diaries*, ed. Patai (1960)",
+              "Pawel, *The Labyrinth of Exile* (1989)",
+              "Elon, *Herzl* (1975)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Herzl functioned effectively under multiple forms of adversity: financial strain (spent his personal fortune on the movement), social ridicule and professional marginalization (his Neue Freie Presse editors forbade him from writing about Zionism), a deteriorating marriage, the deaths of his father (1902) and ongoing health decline. He continued organizing congresses, conducting diplomacy, and writing throughout, maintaining productivity until shortly before his death."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Stanislawski, *Zionism and the Fin de Siècle* (2001)",
+              "Avineri, *Herzl* (2013)",
+              "Kornberg, *Theodor Herzl: From Assimilation to Zionism* (1993)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Herzl coherently inhabited at least four seemingly contradictory roles: (1) assimilated Western cosmopolitan / Jewish nationalist leader; (2) literary aesthete and dandy / hardnosed political organizer; (3) secular modernist / champion of a people defined by religious-historical identity; (4) elite diplomat pursuing top-down chartered solutions / democratic movement builder through elected congresses. He did not fragment—his cosmopolitan literary sensibility informed his political vision (Altneuland's pluralism), and his diplomatic and democratic approaches were pursued simultaneously as complementary strategies."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Herzl, *Complete Diaries*, ed. Patai (1960)",
+              "Pawel, *The Labyrinth of Exile* (1989)",
+              "Elon, *Herzl* (1975)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Herzl's famous Basel diary entry (1897)—'At Basel I founded the Jewish State... in fifty years everyone will perceive it'—projects his vision beyond his own lifespan with evident composure. As his health declined, he continued working with awareness of his mortality, making provisions for movement leadership succession. His final days showed relative composure, and his will requested burial in Palestine. However, accounts of his deathbed are limited and partially hagiographic."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Pawel, *The Labyrinth of Exile* (1989)",
+              "Elon, *Herzl* (1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Herzl maintained a demanding travel schedule across European capitals, Constantinople, and Palestine despite worsening cardiac disease. However, he died at 44 of cardiac sclerosis, likely exacerbated by overwork. No documented physical feats or athletic prowess. His endurance was of a driven intellectual type rather than physical, and it did not extend across multiple life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Kornberg, Jacques. *Theodor Herzl: From Assimilation to Zionism* (1993)",
+              "Pawel, *The Labyrinth of Exile* (1989)",
+              "Herzl, *Feuilletons* (various)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Before his Zionist turn, Herzl was primarily a literary figure—a playwright and feuilletonist who reveled in Viennese café culture, theater, and belles-lettres. He wrote several plays (including *Das neue Ghetto*, 1894) and his feuilletons for the Neue Freie Presse were celebrated for their wit and style. His diaries contain passages of genuine aesthetic pleasure. This engagement with art and culture appears intrinsically motivated, not merely instrumental, though it diminished as Zionist work consumed him."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.69,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Theodor Herzl",
+      "overall": {
+        "Core_5D_Avg": 6.69,
+        "Overall_Normalized_Equal_Avg": 6.06,
+        "General_Competency_Avg_10scale": 2.89
+      },
+      "summary": "Herzl was a visionary political organizer whose cognitive and institution-building strengths are exceptional: he transformed scattered proto-Zionist sentiment into an organized international movement with enduring institutions. His paradox integration—assimilated aesthete turned nationalist organizer, secular modernist championing religious-historical identity—is striking. Weaknesses cluster in relational and practical-competency domains: his marriage was strained, his children's lives were tragic, and he possessed few manual or survival skills. A specialist of extraordinary depth in political vision and organizational creation, but narrow in Heinlein-style breadth.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.87,
+          "General_Competency_Avg_10scale": 2.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of culinary skill. Herzl lived in bourgeois Viennese households with domestic staff and no documented personal cooking."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Pawel, *The Labyrinth of Exile* (1989)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No military service or combat experience documented. Herzl's approach to the Jewish question was entirely diplomatic and political rather than martial."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Herzl, *Complete Diaries*, ed. Patai (1960)",
+            "Pawel, *The Labyrinth of Exile* (1989)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Herzl's diaries record affection for his children and he expressed concern for their welfare, but his consuming political work left little time for sustained caregiving. His mother Jeanette appears to have been the primary caregiver in the household. No evidence of caregiving beyond the immediate family context."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Herzl, *Complete Diaries*, ed. Patai (1960)",
+            "Pawel, *The Labyrinth of Exile* (1989)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Herzl continued his political work with evident composure despite awareness of his declining health and approaching death. His Basel diary entry projecting the Jewish state fifty years hence shows a man at peace with contributing to something beyond his lifespan. He made succession arrangements and his final days showed dignity, though detailed deathbed accounts are limited. His will requesting eventual reburial in Palestine reflected intentionality about his own mortality."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of manual craft, repair, or tool-making skills. Herzl's background was entirely intellectual and professional."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Herzl, *Complete Diaries*, ed. Patai (1960)",
+            "Elon, *Herzl* (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Herzl traveled extensively across Europe, to Constantinople, and to Palestine (1898 trip to meet Kaiser Wilhelm II). He navigated complex international logistics of late 19th-century travel. However, this was standard for a journalist and diplomat of his era and social class, representing competence rather than exceptional skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of any experience with animal husbandry, butchering, or food processing. Herzl was an urban bourgeois intellectual throughout his life."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Vital, *Zionism: The Formative Years* (1982)",
+            "Elon, *Herzl* (1975)",
+            "Laqueur, *A History of Zionism* (1972)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Herzl demonstrated exceptional leadership as founder and president of the WZO, charismatic orator at congresses, and high-level diplomat. He also demonstrated followership: he remained employed at the Neue Freie Presse under editors Bacher and Benedikt who opposed Zionism, following their editorial directives while pursuing his political work separately. He deferred to Congress votes even when they opposed his preferences (the Uganda rejection). This combination of commanding leadership and institutional subordination is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of construction, building, or fabrication skills. While Altneuland contains descriptions of imagined infrastructure, Herzl had no documented hands-on building experience."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Vital, *Zionism: The Formative Years* (1982)",
+            "Herzl, *Complete Diaries*, ed. Patai (1960)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Herzl coordinated the logistics of six Zionist Congresses with hundreds of delegates from multiple countries, managed parallel diplomatic tracks across the Ottoman Empire, Germany, Britain, and Italy, and directed the WZO's financial and organizational operations. He adapted plans when initial approaches failed, pivoting from elite patronage to mass mobilization and from Ottoman negotiations to the British Uganda offer."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Kornberg, *Theodor Herzl: From Assimilation to Zionism* (1993)",
+            "Pawel, *The Labyrinth of Exile* (1989)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Herzl was a professional literary figure: he wrote multiple plays (Das neue Ghetto, 1894; others performed in Vienna), was a celebrated feuilletonist for the Neue Freie Presse (one of Europe's leading newspapers), and authored the utopian novel Altneuland (1902). His literary output was of professional quality and recognized by contemporaries, though he is not remembered primarily as a literary artist."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of medical knowledge or emergency response capability. Herzl was himself a patient of multiple physicians for his cardiac condition rather than a provider of medical aid."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Pawel, *The Labyrinth of Exile* (1989)",
+            "Vital, *The Origins of Zionism* (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Herzl earned a doctorate in law from the University of Vienna (1884), demonstrating analytical training. He drafted the charter for the Jewish Colonial Trust and managed organizational budgets. However, he was not known for mathematical skill and his financial management of the movement relied heavily on others (e.g., Wolffsohn)."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural experience. Herzl's interest in land settlement was political and organizational (chartering colonization companies) rather than practical. He had no farming background."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Vital, *Zionism: The Formative Years* (1982)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Herzl utilized the publishing and communications technology of his era (newspapers, telegraph, international mail) effectively for political organizing. He conceptualized modern institutional and financial structures (the Jewish Colonial Trust as a joint-stock company). However, no evidence of hands-on technical problem-solving or engagement with cutting-edge technology beyond standard professional use."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.69,
+    "general_competency_avg_0_10": 2.89,
+    "overall_normalized_equal_avg_0_10": 6.06,
+    "created_at": "2026-03-15T22:52:21.333Z",
+    "updated_at": "2026-03-15T22:52:21.336Z"
+  }
+}
+]

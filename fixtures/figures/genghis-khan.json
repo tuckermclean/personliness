@@ -1,0 +1,371 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 122,
+  "fields": {
+    "name": "Genghis Khan",
+    "slug": "genghis-khan",
+    "bio_short": "An unparalleled conqueror-organizer whose strategic genius, institution-building, and cultural-social impact rank among the highest in recorded history. Cognitive and embodied-existential scores are exceptional, reflecting a life of adaptive warfare, hardship, and paradox integration. Moral-affective scores are the weakest dimension: extraordinary personal courage is offset by limited compassion evidence and massive civilian destruction during the Khwarezmian campaigns. Heinlein competency is moderate—supreme in command, combat, and leadership, but with thin evidence for caregiving, medical, c",
+    "bio_long": "Genghis Khan, also known as Chinggis Khan, was the founder and first khan of the Mongol Empire. After spending most of his life uniting the Mongol tribes, he launched a series of military campaigns, conquering large parts of China and Central Asia.",
+    "source_notes": "https://en.wikipedia.org/wiki/Genghis_Khan",
+    "image": "figures/330px-YuanEmperorAlbumGenghisPortrait.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "May, Timothy. *The Mongol Conquests in World History* (2012)",
+              "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)",
+              "Sverdrup, Carl. *The Mongol Conquests* (2017)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "After his devastating defeat at the Battle of Dalan Balzhut (c. 1187), Temüjin rebuilt his coalition and adapted his approach to tribal diplomacy. Against the Khwarezmian Empire (1219–1221), when Shah Muhammad dispersed his forces across fortified cities, Genghis split his army into multiple independent columns coordinating across thousands of miles—a logistical feat unmatched in the medieval world. He adapted siege tactics by recruiting Chinese and Muslim engineers after failing to breach fortified cities with cavalry alone."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Allsen, Thomas. *Mongol Imperialism* (1987)",
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Temüjin's reorganization of Mongol society from kinship-based tribes into the decimal military system (arban, zuun, mingghan, tümen) was a genuine paradigm shift that dissolved tribal loyalties and created a professional meritocratic army. He established the Yam postal relay system spanning the empire, and commissioned the adoption of the Uyghur script for the Mongolian language. These innovations collectively transformed steppe governance from before (fragmented tribal confederacies) to after (integrated imperial structure)."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Morgan, David. *The Mongols* (2007)",
+              "de Rachewiltz, Igor. 'The Jasagh of Chinggis Khan Re-Examined' in *East Asian History* (1993)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Yasa (legal code) contained pragmatic principles of religious tolerance and meritocracy, but it was a governance instrument rather than a philosophical treatise. No surviving texts articulate deep moral or metaphysical reasoning, and the Yasa's actual content is reconstructed from fragmentary later sources (Juvaini, Rashid al-Din). Its principles influenced Central Asian governance but did not generate a philosophical tradition that shaped thinkers across civilizations."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Allsen, Thomas. *Mongol Imperialism* (1987)",
+              "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)",
+              "Atwood, Christopher. *Encyclopedia of Mongolia and the Mongol Empire* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The decimal military-administrative system, the Yasa legal code, the Yam postal network, the census apparatus, and the division of the empire into appanages all functioned effectively beyond his death, sustaining the unified empire through Ögedei's reign (d. 1241) and the successor khanates (Yuan, Golden Horde, Chagatai, Ilkhanate) for generations. The Yam system was still operational under Kublai Khan fifty years later."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)",
+              "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Documented qualitatively distinct behavior across at least six relational modes: (1) devoted spouse to Börte; (2) parent to Jochi, Chagatai, Ögedei, and Tolui; (3) loyal son to his mother Hoelun, whose counsel he sought; (4) sworn blood-brother (anda) and then mortal adversary to Jamukha; (5) subordinate/vassal to Toghrul (Ong Khan) for years before their break; (6) supreme commander to his generals; (7) magnanimous recruiter of former enemies (Jebe). He navigated each mode with distinct behavioral registers."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)",
+              "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His devotion to Börte is well-documented: he launched a major military campaign to rescue her from the Merkits, and he accepted her son Jochi as his own despite uncertain paternity—an extraordinary act in a patrilineal honor culture. Börte remained his chief wife and closest political confidante throughout his life. However, he took numerous additional wives and concubines (polygamy was normative for his context), and evidence of emotional availability and mutual respect comes primarily from the Secret History. The relationship shows depth and crisis-support but through partially hagiographic sources."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "May, Timothy. *The Mongol Conquests in World History* (2012)",
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He mentored generals who achieved extraordinary independent success: Subutai became arguably the greatest general of the medieval world, Muqali governed northern China semi-independently, and Jebe led the famous reconnaissance-in-force around the Caspian. His sons were entrusted with genuine responsibilities. However, the bitter rivalry between Jochi and Chagatai—which nearly fractured the empire during the Khwarezmian campaign—suggests imperfect family management. Mentees developed genuine autonomy and competence, meeting the criterion for 2 but not the consistent quality for 3."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Weatherford, Jack. *Genghis Khan and the Making of the Modern World* (2004)",
+              "Jackson, Peter. *The Mongols and the West* (2005)",
+              "Zerjal et al., 'The Genetic Legacy of the Mongols,' *American Journal of Human Genetics* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Mongol conquests reshaped the political map of Eurasia: the modern borders of Russia, China, Iran, and Central Asian states trace to Mongol successor states. The Pax Mongolica facilitated transcontinental trade and cultural exchange (the Silk Road's peak era). The Black Death's westward spread was facilitated by Mongol trade routes. Genetic studies (Zerjal et al., 2003) suggest ~16 million male descendants. Effects clearly operative over 500 years later across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Weatherford, Jack. *Genghis Khan and the Making of the Modern World* (2004)",
+              "May, Timothy. *The Mongol Conquests in World History* (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Genghis Khan is a universal archetype of the conqueror and world-shaker, recognized across virtually every major civilization. He is simultaneously a national hero in Mongolia (on currency, the airport, the national vodka brand), a symbol of apocalyptic destruction in Persian and Islamic historiography, and an emblem of barbarian genius in European culture. His name is a byword across cultures far beyond his own."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Allsen, Thomas. *Mongol Imperialism* (1987)",
+              "Jackson, Peter. *The Mongols and the West* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Mongol Empire and its successor khanates (Yuan Dynasty lasted until 1368, Golden Horde until 1502, Chagatai Khanate until 1687) survived many generations with recognizable continuity to the institutions Genghis established. The decimal military system, the Yam, and the Yasa persisted as organizing principles across these successor states."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)",
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Temüjin led a small band of followers as a dispossessed youth, unified warring Mongol and Turkic tribes through shifting alliances, and ultimately commanded an army of over 100,000 in campaigns spanning China, Central Asia, and Persia. He led successfully in crisis (the unification wars, near-annihilation after Dalan Balzhut) and in stability (organizing and administering the growing empire). This represents leadership across qualitatively different contexts at vastly different scales."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)",
+              "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Secret History portrays Temüjin hunting marmots and fishing with his brothers as a starving youth, sharing food with companions, living in felt gers throughout his life even as Great Khan, and participating in the great hunts (nerge) alongside common soldiers. He reportedly ate simple Mongol fare (dried meat, airag) and slept in tents rather than palaces. However, these accounts derive primarily from the hagiographic Secret History, limiting confidence."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Morgan, David. *The Mongols* (2007)",
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He established the Yasa as a universal legal code applied to all ranks, including nobility, and promoted generals (Muqali, Subutai, Jebe) based on merit rather than birth—revolutionary for steppe society. He reportedly executed soldiers from his own guard who violated laws. He punished those who betrayed their own lords, even when the betrayal benefited him. However, without counterexample this might score 3; with the counterexample of collective punishment of entire cities for the resistance of their rulers—a practice that punished civilians for their leaders' decisions—the score is moderated to 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Juvaini, Ata-Malik. *Genghis Khan: The History of the World Conqueror* (trans. Boyle, 1958)",
+              "May, Timothy. *The Mongol Conquests in World History* (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Episodic compassion toward adversaries is documented: he recruited Jebe (Jirqo'adai) after Jebe confessed to shooting his horse in battle, and spared skilled artisans during conquests. He accepted Börte's son Jochi despite uncertain paternity. Without counterexample, these might reach a 2. However, the mass killings during the Khwarezmian campaign—documented destruction of Merv, Nishapur, Herat, and Bukhara with casualties in the hundreds of thousands—represent such extreme moral stakes that the counterexample dominates. Final score: 1, reflecting episodic compassion that is not a defining feature given the overwhelming evidence of large-scale civilian destruction."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)",
+              "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Temüjin was shot in the neck during battle (the Secret History records Jelme sucking the blood from his wound overnight), yet continued fighting. He rebuilt from total dispossession after his father's poisoning and his family's abandonment by their clan. He personally led cavalry charges across decades of warfare from the 1180s through the 1220s, enduring defeat at Dalan Balzhut and betrayal by Toghrul Khan, each time recovering and escalating. This represents sustained courage across multiple high-stakes situations spanning forty years."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)",
+              "Juvaini, Ata-Malik. *Genghis Khan: The History of the World Conqueror* (trans. Boyle, 1958)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Secret History shows some evolution—his early reliance on Toghrul and Jamukha gave way to independent leadership, and his approach to governance grew more sophisticated as the empire expanded. However, our primary source is the hagiographic Secret History, and there is no documented instance of Genghis publicly acknowledging a moral error or reversing a position based on ethical correction. Per the rubric, figures whose traditions sanitize them should be capped at 1 unless independent evidence exists; the Persian sources (Juvaini, Rashid al-Din) do not provide such evidence of moral self-correction."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)",
+              "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "His father Yesügei was poisoned when Temüjin was ~9, plunging the family into extreme poverty and abandonment by their clan. He was captured and enslaved by the Tayichi'ud, escaping with a wooden cangue around his neck. His wife Börte was kidnapped by the Merkits. He suffered military defeat at Dalan Balzhut. These represent at least three qualitatively different adversities—material deprivation, enslavement, personal bereavement, and military catastrophe—through all of which he functioned effectively and rebuilt."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Weatherford, Jack. *Genghis Khan and the Making of the Modern World* (2004)",
+              "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Genghis Khan simultaneously inhabited: (1) illiterate nomad and creator of a written legal code and script; (2) ruthless destroyer of cities and champion of religious tolerance; (3) humble steppe herdsman and ruler of the largest contiguous land empire; (4) warrior who led from the front and lawgiver/administrator; (5) fiercely loyal kinsman and the man who destroyed the tribal kinship system itself. These are at least five seemingly contradictory roles integrated without fragmentation into a coherent governing persona."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Rashid al-Din. *Jami' al-Tawarikh* (Compendium of Chronicles, c. 1307)",
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He planned his succession carefully before his death, dividing the empire among his four sons by Börte and designating Ögedei as Great Khan. He continued the Western Xia campaign despite declining health in 1227. Various accounts (Rashid al-Din, the Secret History) describe his final instructions as pragmatic and composed. However, the specific deathbed accounts are late and somewhat legendary, preventing a score of 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)",
+              "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "He was an expert horseman and archer from youth in a culture where these skills were supreme. He survived being shot in the neck during battle, endured Mongolian winters as a destitute youth, and continued active military campaigning until his death at approximately age 65 during the Western Xia campaign (1227). This demonstrates physical capability across multiple life-stages, not merely youth."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The great hunts (nerge) combined recreation with military training, making it difficult to isolate purely non-instrumental play. He reportedly enjoyed music, feasting, and storytelling. However, much of his documented 'leisure' activity served strategic or social-bonding purposes. No specific evidence of engagement with beauty or art purely for its own sake is recorded independently of instrumental goals."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 7.78,
+          "Core_5D_Avg": 7.85,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Genghis Khan (Temüjin, c. 1162–1227)",
+      "overall": {
+        "Core_5D_Avg": 7.85,
+        "Overall_Normalized_Equal_Avg": 7.47,
+        "General_Competency_Avg_10scale": 5.56
+      },
+      "summary": "An unparalleled conqueror-organizer whose strategic genius, institution-building, and cultural-social impact rank among the highest in recorded history. Cognitive and embodied-existential scores are exceptional, reflecting a life of adaptive warfare, hardship, and paradox integration. Moral-affective scores are the weakest dimension: extraordinary personal courage is offset by limited compassion evidence and massive civilian destruction during the Khwarezmian campaigns. Heinlein competency is moderate—supreme in command, combat, and leadership, but with thin evidence for caregiving, medical, culinary, or artistic domains. His legacy reshaped Eurasia permanently.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.67,
+          "General_Competency_Avg_10scale": 5.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a youth surviving destitution, Temüjin prepared food from hunted marmots and fish (Secret History). Mongol cuisine was functional (dried meat, dairy, blood pudding) rather than elaborate. No evidence suggests he was a notable cook, but basic food preparation was a survival necessity he demonstrably practiced."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "The Secret History of the Mongols (trans. de Rachewiltz, 2004)",
+            "May, Timothy. *The Mongol Art of War* (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "He was a skilled horseman and mounted archer from youth in the most martial culture of his era. He personally fought in numerous battles across four decades, surviving serious wounds (arrow to the neck). He killed his half-brother Begter with a bow in youth and participated in frontline combat through the unification wars. Even among Mongols—the most effective mounted warriors of the medieval world—he was recognized as formidable."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Secret History records Temüjin's devotion to his mother Hoelun and his efforts to protect his family during their years of destitution. He shared food with companions during hardship. However, no specific evidence documents sustained personal caregiving (e.g., nursing the sick or elderly) beyond general group loyalty and provision."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Rashid al-Din. *Jami' al-Tawarikh* (c. 1307)",
+            "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "He carefully planned his succession before death, dividing the empire and designating Ögedei as successor. He continued active campaigning against the Western Xia during his final illness in 1227. Multiple sources (Rashid al-Din, the Secret History) describe composed final instructions. The accounts suggest pragmatic acceptance of mortality rather than panic or denial, though specific deathbed details are somewhat legendary."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Steppe nomadic life required maintaining bows, arrows, leather goods, saddles, and other equipment. Temüjin would have possessed baseline manual craft skills common to Mongol warriors. However, no specific evidence documents exceptional craftsmanship or inventive repair work beyond what was standard for his culture."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Allsen, Thomas. *Mongol Imperialism* (1987)",
+            "May, Timothy. *The Mongol Art of War* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "He campaigned across the Mongolian steppe, the Gobi Desert, the Altai Mountains, northern China, and the plains of Central Asia. Mongol military operations required exceptional navigational skill across diverse and often featureless terrain. The establishment of the Yam relay system presupposes sophisticated knowledge of geography and route-planning across the empire."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a Mongol nomad, Temüjin would have been proficient in butchering livestock, processing meat (drying, smoking), and dairy production (airag/kumiss, dried curds). The Secret History describes him hunting marmots and fishing for survival during his impoverished youth. Era-normalized, this represents competent engagement with animal and food processing for his context."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "The Secret History of the Mongols (trans. de Rachewiltz, 2004)",
+            "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "His leadership is among the most consequential in history, mobilizing and directing a nomadic population into coordinated imperial conquest. Critically, he also demonstrated followership: he served as a vassal to Toghrul (Ong Khan of the Kerait) for years, deferring to his authority and fighting alongside him before their break (c. 1203). He took counsel from his mother Hoelun and advisor Shigi Qutuqu. He cooperated within the framework of the kurultai (assembly) system."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a nomad, Temüjin would have been familiar with ger (yurt) construction and maintenance, which requires assembling lattice frames, felt coverings, and tension systems. However, the Mongols relied on conquered peoples' engineers for permanent construction and siege works. No evidence of personal skill in building durable structures beyond nomadic shelters."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Sverdrup, Carl. *The Mongol Conquests* (2017)",
+            "May, Timothy. *The Mongol Art of War* (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The simultaneous multi-column invasion of the Khwarezmian Empire (1219–1221), coordinating armies across 2,000+ miles, is one of the most complex military operations in pre-modern history. The encirclement strategy against the Jin Dynasty and the long-distance reconnaissance campaign of Jebe and Subutai around the Caspian demonstrate supreme strategic planning and command capacity."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Ratchnevsky, Paul. *Genghis Khan: His Life and Legacy* (1991)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Genghis Khan commissioned the adoption of the Uyghur script and the recording of the Secret History, but there is no evidence he personally created works of art, music, literature, or performance. He was likely illiterate. Patronage of cultural production is not the same as personal artistic expression."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "The Secret History of the Mongols (trans. de Rachewiltz, 2004)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "While the Secret History records Temüjin receiving emergency medical care (Jelme sucking clotted blood from his neck wound), there is no evidence of him personally providing medical treatment. Mongol traditional medicine existed, but no source attributes medical skill to Genghis Khan personally. Per the anti-halo rule, his fame in other domains cannot inflate this score."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Allsen, Thomas. *Mongol Imperialism* (1987)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The decimal military organization, census administration, systematic logistics planning for campaigns across vast distances, and the division of the empire into appanages all required sophisticated analytical reasoning applied to practical problems. While he likely could not perform formal mathematics, his systems demonstrate high-level organizational logic. Era-normalized, this represents strong analytical capacity."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Allsen, Thomas. *Commodity and Exchange in the Mongol Empire* (1997)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a pastoralist, Temüjin managed herds across the steppe—a demanding form of resource management requiring knowledge of seasonal grazing patterns, water sources, and animal husbandry. As ruler, he managed trade routes (Silk Road), established resource distribution systems, and organized the economic infrastructure of a transcontinental empire. He was not an agriculturalist, but era-normalized pastoral resource management was the equivalent skill."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Allsen, Thomas. *Culture and Conquest in Mongol Eurasia* (2001)",
+            "May, Timothy. *The Mongol Art of War* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "He systematically identified and adopted cutting-edge technologies from conquered peoples: Chinese siege engineers, Muslim trebuchet operators, Uyghur scribes, and Jin Dynasty administrative techniques. The integration of these diverse technical capabilities into a functioning military-administrative system demonstrates high-level systemic problem-solving, even though he was not personally a technologist."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.85,
+    "general_competency_avg_0_10": 5.56,
+    "overall_normalized_equal_avg_0_10": 7.47,
+    "created_at": "2026-03-15T22:52:29.809Z",
+    "updated_at": "2026-03-15T22:52:29.813Z"
+  }
+}
+]
