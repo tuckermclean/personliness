@@ -219,17 +219,11 @@ To add a new figure and commit it for others:
 
 3. **Export the figure to its fixture file:**
    ```bash
-   docker compose run --rm web python manage.py shell -c "
-   from figures.models import HistoricalFigure
-   from django.core import serializers
-
-   fig = HistoricalFigure.objects.get(slug='your-figure-slug')
-   data = serializers.serialize('json', [fig], indent=2)
-   with open(f'fixtures/figures/{fig.slug}.json', 'w') as f:
-       f.write(data)
-   print('Wrote', fig.slug)
-   "
+   docker compose -f docker-compose.prod.yml exec web python manage.py export_figures
+   # Exports any figures not yet on disk. Or target one specifically:
+   docker compose -f docker-compose.prod.yml exec web python manage.py export_figures your-figure-slug
    ```
+   Files appear directly in `fixtures/figures/` on the host (bind-mounted).
 
 4. **Commit and open a PR:**
    ```bash

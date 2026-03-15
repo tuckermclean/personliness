@@ -8,11 +8,40 @@ import os as _os
 import urllib.request
 from .models import FigureIngestionRequest, HistoricalFigure
 from .llm_utils import extract_json_from_response, build_llm_request_params, call_llm_for_json, get_active_llm_config, call_anthropic_extended_thinking, call_anthropic_with_tool, FIGURE_ASSESSMENT_TOOL
-from .wikipedia_utils import resolve_figure_name
+from .wikipedia_utils import resolve_figure_name, USER_AGENT
 from personliness.traits import get_all_trait_paths, CORE_DIMENSIONS, HEINLEIN_TRAIT_NAMES, calculate_averages
 from django.utils.text import slugify
 
 logger = logging.getLogger(__name__)
+
+
+@shared_task(rate_limit='6/m')
+def fetch_figure_image(figure_id):
+    try:
+        figure = HistoricalFigure.objects.get(pk=figure_id)
+    except HistoricalFigure.DoesNotExist:
+        logger.warning("fetch_figure_image: figure %s not found", figure_id)
+        return
+
+    if figure.image and figure.image.storage.exists(figure.image.name):
+        logger.info("fetch_figure_image: %r already has an image, skipping", figure.name)
+        return
+
+    wiki = resolve_figure_name(figure.name)
+    if not wiki['image_url']:
+        logger.warning("fetch_figure_image: no Wikipedia image found for %r", figure.name)
+        return
+
+    try:
+        req = urllib.request.Request(wiki['image_url'], headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            image_bytes = resp.read()
+        filename = wiki['image_url'].split('/')[-1].split('?')[0] or 'figure.jpg'
+        figure.image.save(filename, ContentFile(image_bytes, name=filename), save=True)
+        logger.info("fetch_figure_image: saved %r for %r", filename, figure.name)
+    except Exception as exc:
+        logger.error("fetch_figure_image: failed for %r: %s", figure.name, exc)
+
 
 # Confidence level ordering for comparison
 CONFIDENCE_LEVELS = {'Low': 0, 'Medium': 1, 'High': 2}
@@ -461,7 +490,6 @@ def process_single_figure(request_id):
         image_content = None
         if wiki['image_url']:
             try:
-                from .wikipedia_utils import USER_AGENT
                 req = urllib.request.Request(wiki['image_url'], headers={"User-Agent": USER_AGENT})
                 with urllib.request.urlopen(req, timeout=10) as resp:
                     image_bytes = resp.read()

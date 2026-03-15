@@ -21,6 +21,7 @@ services:
     volumes:
       - media_files:/app/media
       - static_files:/app/staticfiles
+      - ./fixtures:/app/fixtures
     environment:
       DEBUG: "False"
       DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY}

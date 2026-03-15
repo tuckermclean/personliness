@@ -20,15 +20,25 @@ python manage.py migrate --noinput
 # Collect static files
 python manage.py collectstatic --noinput
 
-# Load fixtures
-python manage.py loaddata questions || true
+# Load fixtures (skip if data already exists)
+python manage.py shell -c "
+from assessments.models import Question
+import sys
+sys.exit(0 if Question.objects.exists() else 1)
+" && echo "Questions already loaded, skipping." || python manage.py loaddata questions
 
-# Load per-figure fixtures
 if ls fixtures/figures/*.json 1>/dev/null 2>&1; then
-  for fixture in fixtures/figures/*.json; do
-    python manage.py loaddata "$fixture" || true
-  done
+  python manage.py shell -c "
+from figures.models import HistoricalFigure
+import sys
+sys.exit(0 if HistoricalFigure.objects.exists() else 1)
+" && echo "Figures already loaded, skipping." || {
+    for fixture in fixtures/figures/*.json; do
+      python manage.py loaddata "$fixture" || true
+    done
+  }
 fi
+python manage.py fetch_missing_images || true
 
 # Create superuser if needed
 if [ "$CREATE_SUPERUSER" = "true" ]; then
