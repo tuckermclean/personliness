@@ -1,0 +1,398 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 88,
+  "fields": {
+    "name": "Ashoka",
+    "slug": "ashoka",
+    "bio_short": "Ashoka the Great exemplifies the repentant-conqueror archetype with unmatched moral-affective transformation. His Kalinga remorse and subsequent dhamma policy represent one of history's best-documented cases of moral growth. Exceptional in cultural-social impact—his patronage transformed Buddhism from a regional sect into a world religion, and his edicts articulate a pluralist ethic still resonant 2,300 years later. Cognitive and moral strengths are high; embodied-existential and relational dimensions are more limited by the available evidence. Heinlein competency is moderate: strong in leader",
+    "bio_long": "Ashoka, also known as Asoka or Aśoka, most commonly known as Ashoka the Great, was Emperor of Magadha from c. 268 BCE until his death, and the third ruler from the Mauryan dynasty. His empire covered a large part of the Indian subcontinent, stretching from present-day Afghanistan in the west to present-day Bangladesh in the east, with its capital at Pataliputra. A patron of Buddhism, he is credited with an important role in the spread of Buddhism across ancient Asia.",
+    "source_notes": "https://en.wikipedia.org/wiki/Ashoka",
+    "image": "figures/330px-Ashoka27s_visit_to_the_Ramagrama_stupa_Sanchi_Stupa_1_Southern_gateway.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+              "Lahiri, Ashoka in Ancient India (2015)",
+              "Rock Edict XIII (primary inscription)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Successfully planned and executed the Kalinga campaign (c. 261 BCE), then made the momentous strategic pivot from military conquest to dhamma-vijaya (conquest by righteousness), restructuring his entire governance model. He dispatched diplomatic missions to five Hellenistic kingdoms (Rock Edict XIII) and created a network of dhamma-mahamatras across the empire. However, the empire's rapid decline within ~50 years of his death suggests limits to the long-term strategic framework."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Rock Edict II (primary inscription)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+              "Allen, Ashoka: The Search for India's Lost Emperor (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The concept of dhamma-vijaya as governing policy was a genuine innovation in ancient statecraft, replacing the Arthashastra model of power politics. He pioneered the use of rock and pillar edicts as mass ethical communication across a vast, multilingual empire (adapting Achaemenid inscription practice but transforming its content). His establishment of state-funded hospitals for both humans and animals (Rock Edict II) was novel. However, the core philosophical ideas drew on existing Buddhist and Brahmanical traditions rather than constituting a wholly new paradigm of thought."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Rock Edict XII (primary inscription)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+              "Olivelle et al., Ashoka: In History and Historical Memory (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rock Edict XII articulates a sophisticated religious pluralism—'the sects of other people all deserve reverence for one reason or another'—unprecedented in the ancient world. His dhamma framework synthesized non-violence, welfare, and tolerance into a governing philosophy that influenced Buddhist ethics across Asia and, millennia later, inspired Gandhi and Nehru. H.G. Wells and modern political philosophers cite his ethical vision as foundational to concepts of the welfare state."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Rock Edict VI (primary inscription)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+              "Lahiri, Ashoka in Ancient India (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Administered one of the ancient world's largest empires through a layered bureaucracy of provincial governors, rajukas (district officials), and dhamma-mahamatras (moral officers). Rock Edict VI details his administrative reforms including regular inspection tours. He built roads, wells, rest houses, and hospitals across the empire. However, the Maurya Empire collapsed within approximately 50 years of his death (c. 185 BCE), indicating these systems did not endure robustly beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+              "Rock Edict XIII (primary inscription)",
+              "Lahiri, Ashoka in Ancient India (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Evidence exists for Ashoka operating as: imperial ruler/superior (edicts addressing subjects), military commander, father (Mahinda, Sanghamitta, Kunala), religious follower/subordinate (deference to the Buddhist sangha), and diplomat (missions to Hellenistic kings). His edicts show differentiated address to different audiences. However, specific documented behavior as friend, spouse, or in informal peer relationships is largely absent, limiting the demonstrated range of relational modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Queen's Edict (Allahabad inscription)",
+              "Strong, The Legend of King Ashoka (1983)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Several wives are attested: Devi (Vedisa-Mahadevi) is mentioned in traditions as mother of Mahinda and Sanghamitta; Karuvaki is the only queen named in the edicts (Queen's Edict at Allahabad). Asandhimitra and Tishyaraksha appear in legends. However, specific evidence of mutual respect, emotional availability, or support during crisis is absent from reliable sources. The Ashokavadana's accounts of his marriages are hagiographic and often depict relationships in terms of political or narrative function rather than relational quality."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Mahavamsa (Sri Lankan chronicle)",
+              "Strong, The Legend of King Ashoka (1983)",
+              "Lahiri, Ashoka in Ancient India (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He invested significantly in his children's development: Mahinda and Sanghamitta were sent as Buddhist missionaries to Sri Lanka, where they established enduring institutions—evidence that they developed genuine autonomy and competence. The Mahavamsa depicts them as accomplished figures in their own right. However, traditions also describe troubled relationships—the blinding of his son Kunala (Ashokavadana) and succession disputes suggest an incomplete picture. He also mentored through the dhamma-mahamatra system, training a cadre of moral officers."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+              "Lahiri, Ashoka in Ancient India (2015)",
+              "Olivelle et al., Ashoka: In History and Historical Memory (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Buddhism's transformation from a regional Indian sect into a pan-Asian world religion is significantly attributable to Ashoka's patronage and missionary activity. The Ashoka Chakra adorns the Indian national flag; his Lion Capital is India's national emblem. His ethical principles influenced Gandhi, Nehru, and the framers of the Indian constitution. Effects are clearly operative 2,300+ years later across South, Southeast, and East Asian civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Wells, The Outline of History (1920)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+              "Allen, Ashoka: The Search for India's Lost Emperor (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ashoka is the paradigmatic 'repentant conqueror' or 'warrior turned peacemaker'—an archetype recognized across Buddhist cultures (as Dharmaraja/Chakravartin), modern Indian nationalism, and global peace discourse. H.G. Wells called him the greatest of all kings. He is recognized as a symbol of non-violent governance in cultures well beyond South Asia, including Western political philosophy and comparative ethics."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Mahavamsa (Sri Lankan chronicle)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+              "Strong, The Legend of King Ashoka (1983)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "His missionary dispatch of Mahinda and Sanghamitta to Sri Lanka established Theravada Buddhism there—an institutional tradition persisting over 2,300 years. He sponsored monasteries, stupas (Sanchi, later enlarged), and the sangha's formal relationship with the state, creating a model replicated across Buddhist Asia. The Third Buddhist Council (traditional account) standardized the canon. While the Maurya Empire itself collapsed, the Buddhist institutions he founded survived far beyond two generations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+              "Rock Edict XIII (primary inscription)",
+              "Mahavamsa (Sri Lankan chronicle)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Ashoka led successfully across qualitatively different contexts: military command during the Kalinga campaign, peacetime governance of a subcontinental empire, and religious-missionary leadership (convening the Third Buddhist Council per tradition, dispatching missions to Sri Lanka and the Hellenistic world). He inspired loyalty from a diverse bureaucracy and mobilized resources for both warfare and welfare. His leadership style shifted from coercion to moral persuasion, demonstrating adaptability across crisis and stability."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Strong, The Legend of King Ashoka (1983)",
+              "Lahiri, Ashoka in Ancient India (2015)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Evidence for mundane, everyday activities is extremely thin. His edicts are official state proclamations; Buddhist legends (Ashokavadana, Divyavadana) portray him in royal and religious contexts. He reportedly conducted dhamma-yatras (pilgrimage tours) replacing pleasure tours, suggesting some personal engagement with ordinary life, but specific evidence of cooking, humor, manual labor, or domestic engagement at the height of power is essentially absent from the record."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Pillar Edict IV (primary inscription)",
+              "Rock Edict XII (primary inscription)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pillar Edict IV describes judicial reforms including three-day reprieves for condemned prisoners. Rock Edict XII advocates impartial honor toward all religious sects—ruling against the sectarian interest of his own Buddhist affiliation. He appointed dhamma-mahamatras to ensure equitable treatment. However, evidence is primarily self-reported through his own edicts, and we lack independent corroboration of specific cases where he ruled against personal interest."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Rock Edict XIII (primary inscription)",
+              "Rock Edict II (primary inscription)",
+              "Lahiri, Ashoka in Ancient India (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rock Edict XIII explicitly records his remorse after Kalinga: concern for 'the slaughter, death, and deportation of the people' of a conquered enemy nation—compassion directed at adversaries, not allies. He established hospitals for humans and animals (Rock Edict II), planted medicinal herbs along roads, and banned certain animal sacrifices. He expressed concern for forest-dwelling border peoples (Rock Edict XIII), urging restraint toward them despite their potential threat. These are documented acts of outgroup compassion meeting the score-3 criterion."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Strong, The Legend of King Ashoka (1983)",
+              "Rock Edict XIII (primary inscription)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He waged the devastating Kalinga war, one of ancient India's largest military campaigns. Buddhist traditions (Ashokavadana) describe a contested succession requiring personal courage, though these are hagiographic. His public expression of remorse and wholesale reversal of state policy—from military expansion to non-violence—was a politically risky act of moral courage for an absolute monarch. However, evidence for sustained personal danger across multiple high-stakes situations is thin outside the Kalinga episode."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Rock Edict XIII (primary inscription)",
+              "Olivelle et al., Ashoka: In History and Historical Memory (2012)",
+              "Lahiri, Ashoka in Ancient India (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rock Edict XIII is one of history's most explicit first-person accounts of moral reversal: Ashoka describes his remorse after Kalinga's devastation and his decision to abandon military conquest in favor of dhamma. The behavioral change was dramatic and sustained—he stopped territorial expansion, adopted vegetarianism, built welfare infrastructure, and sent Buddhist missionaries rather than armies. This meets every criterion for score 3: documented reversal, acceptance of prior error, and visible behavioral change over decades of subsequent rule."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Strong, The Legend of King Ashoka (1983)",
+              "Divyavadana (Buddhist text)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He navigated a contested succession (Buddhist legends describe fratricidal conflict), endured the psychological crisis of Kalinga's devastation, and continued effective governance for approximately 30 more years. The Ashokavadana describes later political difficulties including family disputes over succession. He experienced the death of his wife Asandhimitra and the blinding of his son Kunala (per tradition). He functioned across material/political adversity and personal bereavement, though much of this evidence comes from hagiographic sources."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Rock Edict XII (primary inscription)",
+              "Rock Edict XIII (primary inscription)",
+              "Olivelle et al., Ashoka: In History and Historical Memory (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ashoka inhabited at least four seemingly contradictory roles without fragmenting: ruthless military conqueror AND advocate of non-violence; absolute imperial sovereign AND humble Buddhist lay follower; champion of Buddhism AND impartial patron of all religions (Rock Edict XII); powerful king who publicly confessed moral failure (Rock Edict XIII). He integrated warrior, peacemaker, administrator, and spiritual seeker into a coherent identity documented in his own inscriptions."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Strong, The Legend of King Ashoka (1983)",
+              "Divyavadana (Buddhist text)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Buddhist legends (Ashokavadana) describe Ashoka dying while giving away his last possessions to the sangha, suggesting composure in death. However, this narrative is hagiographic and written centuries after his death. His edicts reflect philosophical engagement with suffering and impermanence (Buddhist themes), but specific documented composure in the face of his own imminent death from reliable sources is lacking."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Strong, The Legend of King Ashoka (1983)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "He participated in the Kalinga campaign (c. 261 BCE), which was a major military operation implying physical endurance during campaigning. As a Mauryan prince, he would have received martial training. However, specific documented physical feats are absent from the reliable record; the Ashokavadana's descriptions of his physical prowess are hagiographic. We lack evidence of endurance across multiple life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Lahiri, Ashoka in Ancient India (2015)",
+              "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+              "Rock Edict VIII (primary inscription)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He was a major patron of art and architecture—the Ashokan pillars (especially the Sarnath Lion Capital) are masterpieces of ancient Indian art. His edicts mention the replacement of vihara-yatras (pleasure tours) with dhamma-yatras, implying he had previously engaged in leisure and retained an appreciation for travel and gardens. He sponsored elaborate stupas and monastic architecture. However, distinguishing personal aesthetic enjoyment from political patronage is difficult."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.21,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 8.33,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Ashoka",
+      "overall": {
+        "Core_5D_Avg": 7.21,
+        "Overall_Normalized_Equal_Avg": 6.79,
+        "General_Competency_Avg_10scale": 4.67
+      },
+      "summary": "Ashoka the Great exemplifies the repentant-conqueror archetype with unmatched moral-affective transformation. His Kalinga remorse and subsequent dhamma policy represent one of history's best-documented cases of moral growth. Exceptional in cultural-social impact—his patronage transformed Buddhism from a regional sect into a world religion, and his edicts articulate a pluralist ethic still resonant 2,300 years later. Cognitive and moral strengths are high; embodied-existential and relational dimensions are more limited by the available evidence. Heinlein competency is moderate: strong in leadership and command, but thin evidence for manual, culinary, or craft skills typical of an imperial figure.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.4,
+          "General_Competency_Avg_10scale": 4.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Rock Edict I (primary inscription)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal culinary skill. As an emperor, meals would have been prepared by palace staff. His edicts mention dietary restrictions (limiting meat consumption) but not personal cooking."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Rock Edict XIII (primary inscription)",
+            "Strong, The Legend of King Ashoka (1983)",
+            "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Successfully waged the Kalinga war (c. 261 BCE), demonstrating effective military command and, by implication of Kshatriya training, personal combat competence. Buddhist legends (Ashokavadana) describe him as a fierce warrior in his youth. As a Mauryan prince, he would have received extensive martial training. Era-normalized, this represents significant military competence, though specific personal combat feats are poorly documented."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Rock Edict II (primary inscription)",
+            "Pillar Edict IV (primary inscription)",
+            "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Rock Edict II documents his establishment of hospitals for humans and animals and the planting of medicinal herbs along roads. His edicts express sustained systemic concern for subjects' welfare, including provisions for prisoners (Pillar Edict IV). This represents significant caregiving capacity at an institutional level, though evidence of personal, hands-on caregiving is absent."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Rock Edict XIII (primary inscription)",
+            "Strong, The Legend of King Ashoka (1983)",
+            "Olivelle et al., Ashoka: In History and Historical Memory (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "His response to Kalinga's devastation—confronting the horror of mass death and transforming it into a sustained moral mission rather than denial or collapse—demonstrates exceptional existential composure in crisis. His edicts display a composed, reflective voice addressing suffering, impermanence, and the meaning of power. Buddhist legends describe a composed death (giving away possessions to the sangha), but this is hagiographic."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal manual craft or repair skills. As an emperor from the Kshatriya class, manual craft would not have been part of his expected competencies, and no sources suggest such engagement."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Rummindei Pillar Inscription (Lumbini)",
+            "Lahiri, Ashoka in Ancient India (2015)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "He conducted extensive dhamma-yatras (pilgrimage tours) across his vast empire, including visits to Lumbini and other Buddhist sites documented in his inscriptions. He organized missions to distant lands including Sri Lanka and the Hellenistic kingdoms. However, this reflects organizational capacity and the use of established trade routes rather than personal navigational skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Rock Edict I (primary inscription)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal involvement in animal or food processing. As an emperor, he would have been far removed from such activities. His edicts actually restricted animal slaughter, suggesting ideological opposition to the practice rather than competence in it."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Rock Edict VI (primary inscription)",
+            "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+            "Strong, The Legend of King Ashoka (1983)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Exceptional leader who commanded a subcontinental empire through both military and moral authority. Simultaneously demonstrated followership: he submitted to Buddhist monastic authority, presented himself as a servant of dhamma rather than an absolute ruler, and in Rock Edict VI requested that he be informed of public affairs 'at all times'—accepting input from subordinates. He took direction from senior monks in religious matters."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Lahiri, Ashoka in Ancient India (2015)",
+            "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "He commissioned massive construction projects: the Ashokan pillars (requiring advanced stone quarrying, polishing, and transport), stupas, monasteries, roads, wells, and rest houses across the empire. However, he was a patron and commissioner rather than a designer or builder; the technical expertise belonged to his artisans and engineers."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Rock Edict XIII (primary inscription)",
+            "Thapar, Ashoka and the Decline of the Mauryas (2012)",
+            "Lahiri, Ashoka in Ancient India (2015)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Successfully planned and executed the Kalinga campaign (c. 261 BCE), one of ancient India's largest military operations. Subsequently coordinated the governance of a subcontinental empire and organized Buddhist missionary expeditions to Sri Lanka and five Hellenistic kingdoms. Demonstrated strategic planning across both military and diplomatic-missionary contexts."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Lahiri, Ashoka in Ancient India (2015)",
+            "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "He patronized some of the finest art of the ancient world—the Sarnath Lion Capital, Ashokan pillars, and stupa architecture. His edicts display rhetorical sophistication and a distinctive personal voice. However, he was a patron and author of state documents rather than an artist; no evidence of personal artistic creation exists."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Rock Edict II (primary inscription)",
+            "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Rock Edict II documents his establishment of hospitals and the planting of medicinal herbs for both humans and animals—including in border regions and neighboring kingdoms. This demonstrates knowledge of medical infrastructure and herbal pharmacology at a policy level, but no evidence of personal medical practice exists."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Governing the Maurya Empire—one of the ancient world's largest states—required taxation systems, resource allocation, and logistical planning implying analytical capacity. The Arthashastra tradition (associated with his grandfather's court) emphasizes quantitative governance. However, no specific evidence of personal mathematical or analytical work exists for Ashoka himself."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Rock Edict II (primary inscription)",
+            "Pillar Edict V (primary inscription)",
+            "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Rock Edict II documents his planting of medicinal herbs, fruit trees, and the digging of wells along roads. He managed the agricultural resources of the vast Maurya Empire. His policies included sustainable resource management—banning forest burning, restricting hunting seasons, and protecting certain animal species. This represents sophisticated resource management at a systemic level."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Lahiri, Ashoka in Ancient India (2015)",
+            "Thapar, Ashoka and the Decline of the Mauryas (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Ashokan pillar engineering—quarrying, polishing to a mirror finish, and transporting monolithic stone columns weighing up to 50 tons—represents cutting-edge technology of the 3rd century BCE. His communication system of inscriptions in multiple scripts (Brahmi, Kharosthi, Greek, Aramaic) across the empire was a sophisticated technical solution to multilingual governance. He oversaw and directed these technical systems even if he did not personally execute them."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.21,
+    "general_competency_avg_0_10": 4.67,
+    "overall_normalized_equal_avg_0_10": 6.79,
+    "created_at": "2026-03-15T07:29:51.399Z",
+    "updated_at": "2026-03-15T07:29:51.402Z"
+  }
+}
+]

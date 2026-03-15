@@ -1,0 +1,374 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 84,
+  "fields": {
+    "name": "Marie Curie",
+    "slug": "marie-curie",
+    "bio_short": "A transcendent scientific innovator whose discovery of radioactivity and isolation of radium constituted a genuine paradigm shift in physics and chemistry. Exceptional courage and hardship tolerance across poverty, bereavement, public scandal, and chronic radiation illness. Globally iconic as the archetype of the woman scientist. Strong but not universal relational and embodied depth; limited evidence of play, artistic expression, or moral self-correction. Heinlein-competency breadth is moderate — outstanding in analytical and technical domains but with little documented skill in agricultural,",
+    "bio_long": "Maria Salomea Skłodowska Curie, better known as Marie Curie, was a Polish and naturalised-French physicist and chemist. She shared the 1903 Nobel Prize in Physics with her husband Pierre Curie \"for their joint researches on the radioactivity phenomena discovered by Professor Henri Becquerel\". She won the 1911 Nobel Prize in Chemistry \"[for] the discovery of the elements radium and polonium, by the isolation of radium and the study of the nature and compounds of this remarkable element\".",
+    "source_notes": "https://en.wikipedia.org/wiki/Marie_Curie",
+    "image": "figures/330px-Marie_Curie_c._1920s.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Quinn, *Marie Curie: A Life* (1995)",
+              "Eve Curie, *Madame Curie* (1937)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Curie strategically chose the underexplored field of Becquerel rays for her doctoral thesis, correctly sensing its potential. She adapted her research methods repeatedly during the four-year effort to isolate radium from tons of pitchblende. During WWI, she recognized the need for mobile radiography and rapidly organized a fleet of 20 'petites Curies' and 200 fixed installations, adapting logistics to wartime conditions."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Curie, M., 'Recherches sur les substances radioactives' (doctoral thesis, 1903)",
+              "Quinn, *Marie Curie: A Life* (1995)",
+              "Nobel Prize Committee records, 1903 and 1911"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Curie's work constituted a genuine paradigm shift. She coined the term 'radioactivity,' demonstrated it was an atomic (not chemical) property, and discovered two new elements — polonium and radium. Her systematic survey of all known elements for radioactivity was methodologically novel. The before/after difference is stark: before Curie, radiation was a curiosity associated with uranium; after her, radioactivity was recognized as a fundamental atomic phenomenon, opening the entire field of nuclear physics."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Marie Curie, *Pierre Curie* (autobiographical notes, 1923)",
+              "Goldsmith, *Obsessive Genius: The Inner World of Marie Curie* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Marie and Pierre Curie deliberately refused to patent their radium-isolation process, articulating the principle that scientific knowledge should be freely available to all. This stance influenced later norms around open science and public-interest research. She also wrote reflectively on the relationship between science and public good in her autobiographical notes, though these did not constitute a systematic ethical philosophy."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Quinn, *Marie Curie: A Life* (1995)",
+              "Reid, *Marie Curie* (1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "After Pierre's death in 1906, Curie directed the laboratory at the Sorbonne and later co-founded the Institut du Radium (1914, with Claudius Regaud), designing its research program and recruiting staff. The institute (now Institut Curie) remains a leading cancer and physics research center over a century later. She also organized and administered the WWI radiological service across the French front. These institutions endured beyond her direct oversight, but administration was not her primary defining activity."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Eve Curie, *Madame Curie* (1937)",
+              "Goldsmith, *Obsessive Genius* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Documented relational modes include: devoted spouse (Pierre), engaged parent (Irène, Ève), dutiful daughter and sister (correspondence with family in Poland), mentor (laboratory students and WWI X-ray trainees), institutional leader (Radium Institute director), colleague (Becquerel, Langevin, other physicists), and caregiver (father-in-law Eugène Curie). However, Curie was notably reserved and socially guarded, and the evidence suggests she applied a somewhat consistent relational style (intense, private, focused) across many of these modes rather than showing dramatic adaptability."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Marie Curie, *Pierre Curie* (1923)",
+              "Eve Curie, *Madame Curie* (1937)",
+              "Quinn, *Marie Curie: A Life* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Marie and Pierre Curie's marriage (1895–1906) was a remarkable intellectual and emotional partnership, with deep mutual respect, shared scientific work, and documented tenderness (Pierre's letters, Marie's autobiographical notes). They supported each other through the difficult radium research. Marie's devastating grief after Pierre's death attests to genuine attachment. However, the marriage was cut short by Pierre's death after 11 years, and the subsequent Langevin affair (a relationship with a married man) adds complexity to the overall picture of her intimate partnerships."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Eve Curie, *Madame Curie* (1937)",
+              "Quinn, *Marie Curie: A Life* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Curie raised two daughters who developed genuine autonomy and distinction: Irène Joliot-Curie won her own Nobel Prize in Chemistry (1935) for work on artificial radioactivity — a related but distinct research direction, demonstrating independence rather than mere replication. Ève Curie became a successful journalist, author, and humanitarian. Marie organized a cooperative school for her daughters and colleagues' children, designed to foster independent thinking. She also mentored numerous researchers at the Radium Institute."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Nobel Prize Committee records, 1903 and 1911",
+              "Quinn, *Marie Curie: A Life* (1995)",
+              "Pais, *Inward Bound: Of Matter and Forces in the Physical World* (1986)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Curie's discoveries fundamentally transformed physics, chemistry, and medicine. Her demonstration that radioactivity is an atomic property opened the entire field of nuclear physics, leading to nuclear energy, nuclear medicine, and atomic theory. Radiation therapy for cancer — directly descended from her radium research — saves millions of lives worldwide. The element curium is named for her. Though she died only ~90 years ago, the trajectory and magnitude of her impact across multiple civilizations and domains (science, medicine, gender equity) places it firmly at the civilization-altering level."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Des Jardins, *The Madame Curie Complex: The Hidden History of Women in Science* (2010)",
+              "Redniss, *Radioactive* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Marie Curie is the globally recognized archetype of the woman scientist, the dedicated researcher who sacrifices personal comfort for knowledge, and the immigrant who overcomes systemic barriers through sheer excellence. Her image appears on currency, stamps, and in educational materials across dozens of countries. She is recognized in cultures far beyond her own Polish-French context — in East Asia, Latin America, Africa — as a universal symbol of scientific dedication and women's achievement."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Quinn, *Marie Curie: A Life* (1995)",
+              "Institut Curie institutional history"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Curie co-founded the Institut du Radium in Paris (1914), which evolved into the Institut Curie — still one of the world's leading cancer research centers over a century later. She also helped establish the Maria Skłodowska-Curie Institute of Oncology in Warsaw (1932). Both institutions survived well beyond two generations with recognizable continuity. However, institution-building was secondary to her research career, and the Paris institute was co-designed with Claudius Regaud."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Quinn, *Marie Curie: A Life* (1995)",
+              "Eve Curie, *Madame Curie* (1937)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Curie successfully led in qualitatively different contexts: she directed the Radium Institute's peacetime research program and also organized and commanded the wartime mobile X-ray service across the French front. She was the first woman to hold a professorship at the Sorbonne and inspired generations of women in science. However, her leadership was primarily within scientific and medical-service domains rather than across fundamentally different spheres (e.g., political, military, cultural)."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Eve Curie, *Madame Curie* (1937)",
+              "Goldsmith, *Obsessive Genius* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Despite her fame, Curie was known for her modest, austere lifestyle. She cooked for her family, managed her household, was actively involved in her daughters' education (designing a cooperative school with other Sorbonne parents), mended clothes, and cycled for transportation and pleasure. She famously spent her Nobel Prize money frugally. However, she became increasingly reclusive and socially withdrawn in later life, and her intense focus on work limited broader social engagement."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Marie Curie, *Pierre Curie* (1923)",
+              "Quinn, *Marie Curie: A Life* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The refusal to patent radium-isolation techniques was a substantial act of ruling against personal financial interest in favor of the principle that scientific knowledge belongs to the public — forgoing what would have been enormous wealth. She advocated for women's access to higher education and scientific careers at a time when this was strongly resisted. She supported Polish independence and named polonium after her homeland as a political statement. These are principled acts, but the evidence base for justice-oriented decisions across many contexts is not as extensive as for other traits."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Eve Curie, *Madame Curie* (1937)",
+              "Redniss, *Radioactive: Marie & Pierre Curie: A Tale of Love and Fallout* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "During WWI, Curie personally drove mobile X-ray units to field hospitals near the front lines, helping surgeons locate shrapnel in wounded soldiers — strangers from all backgrounds, not her own community. She trained her 17-year-old daughter Irène and dozens of other women as radiological operators to expand this humanitarian service. She also cared for her father-in-law Eugène Curie after Pierre's death. However, there is limited documented evidence of compassion directed specifically toward adversaries."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Quinn, *Marie Curie: A Life* (1995)",
+              "Eve Curie, *Madame Curie* (1937)",
+              "Goldsmith, *Obsessive Genius* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Curie demonstrated sustained courage across multiple high-stakes situations: she left Poland for Paris alone as a poor immigrant and persisted through extreme poverty (sometimes fainting from hunger); she endured years of grueling physical labor processing pitchblende; after Pierre's death in a road accident (1906), she overcame devastating grief to take his position at the Sorbonne; during the 1911 Langevin scandal, she faced a vicious xenophobic and sexist press campaign yet traveled to Stockholm to accept her second Nobel Prize; she drove X-ray vehicles near WWI front lines under bombardment; and she worked through years of declining health from radiation exposure."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Eve Curie, *Madame Curie* (1937)",
+              "Goldsmith, *Obsessive Genius* (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "There is limited documented evidence of Curie publicly acknowledging errors or reversing positions with visible behavioral change. She maintained her stance on the safety of radium handling long after warning signs appeared, and her personal papers remain radioactive. The Langevin affair showed moral complexity but not clearly documented growth. Eve Curie's biography, while sympathetic, does not present episodes of self-correction. Curie was known for rigidity and intensity, and hagiographic tendencies in the biographical tradition may obscure genuine instances of growth."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Eve Curie, *Madame Curie* (1937)",
+              "Quinn, *Marie Curie: A Life* (1995)",
+              "Goldsmith, *Obsessive Genius* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Curie functioned effectively through qualitatively different forms of adversity: severe material deprivation as a student in Paris (near-starvation, unheated garret); the sudden death of her husband Pierre in 1906; a vicious public campaign of xenophobia and misogyny during the 1911 Langevin scandal; the physical hardships of working near WWI front lines; and chronic, worsening illness from radiation exposure. Through each of these, she continued producing world-class scientific work and leading major initiatives."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Quinn, *Marie Curie: A Life* (1995)",
+              "Goldsmith, *Obsessive Genius* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Curie inhabited several seemingly contradictory roles: she was simultaneously a devoted, hands-on mother and an all-consuming scientist; a modest, private, austere woman and a world celebrity; a Polish immigrant outsider and the most honored scientist in France; and a physically frail person (from radiation illness) who worked with tireless intensity. She integrated these roles without fragmenting, though her integration sometimes came at the cost of social withdrawal."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Eve Curie, *Madame Curie* (1937)",
+              "Quinn, *Marie Curie: A Life* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Curie continued working despite deteriorating health from radiation exposure, showing a willingness to accept physical risk in service of her mission. In her final days at the Sancellemoz sanatorium (July 1934), she reportedly maintained composure and continued reviewing proofs of a scientific paper. However, she also persistently denied that radiation was the cause of her illness, suggesting incomplete acceptance rather than full composure. Her death was met with equanimity rather than resistance, according to Eve Curie's account."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Eve Curie, *Madame Curie* (1937)",
+              "Quinn, *Marie Curie: A Life* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Curie manually processed tons of pitchblende ore in an unventilated shed over four years — physically grueling work involving stirring boiling liquids in large cauldrons, grinding, and precipitating. During WWI (aged 47–51), she drove X-ray vehicles across difficult terrain near the front. She continued working in the laboratory through years of declining health from radiation-induced anemia. This shows sustained physical effort across multiple life stages, though she was not known for exceptional athleticism."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Eve Curie, *Madame Curie* (1937)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Eve Curie's biography records Marie and Pierre's cycling holidays through the French countryside and seaside vacations. Marie reportedly enjoyed gardening and nature. However, these instances are episodic and subordinate to her all-consuming dedication to work. There is no evidence of sustained non-instrumental engagement with art, music, or play. Her aesthetic sensibility appears limited compared to her other traits."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 6.67,
+          "Core_5D_Avg": 7.1,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Marie Curie",
+      "overall": {
+        "Core_5D_Avg": 7.1,
+        "Overall_Normalized_Equal_Avg": 6.7,
+        "General_Competency_Avg_10scale": 4.67
+      },
+      "summary": "A transcendent scientific innovator whose discovery of radioactivity and isolation of radium constituted a genuine paradigm shift in physics and chemistry. Exceptional courage and hardship tolerance across poverty, bereavement, public scandal, and chronic radiation illness. Globally iconic as the archetype of the woman scientist. Strong but not universal relational and embodied depth; limited evidence of play, artistic expression, or moral self-correction. Heinlein-competency breadth is moderate — outstanding in analytical and technical domains but with little documented skill in agricultural, culinary, combat, or artistic spheres. Her legacy in medicine, nuclear science, and gender equity is civilization-altering.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.4,
+          "General_Competency_Avg_10scale": 4.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Eve Curie, *Madame Curie* (1937)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Eve Curie's biography mentions Marie cooking for her family, particularly during the early years of her marriage and as a single mother. However, this was ordinary domestic cooking born of necessity rather than notable culinary skill. Marie was known for spending minimal time on meals to maximize laboratory hours."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Eve Curie, *Madame Curie* (1937)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of combat training or skill in physical conflict. While Curie worked near WWI front lines, she served in a medical/technical capacity, not a combatant role."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Eve Curie, *Madame Curie* (1937)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Curie raised two daughters largely as a single mother after Pierre's death in 1906, remaining actively involved in their education and welfare. She personally drove X-ray units to field hospitals during WWI to help wounded soldiers, and cared for her father-in-law Eugène Curie in his final years."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Eve Curie, *Madame Curie* (1937)",
+            "Quinn, *Marie Curie: A Life* (1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Curie continued working productively through Pierre's death, the Langevin scandal, WWI dangers, and her own declining health from radiation exposure. In her final days at Sancellemoz sanatorium (July 1934), she reportedly reviewed scientific proofs and maintained composure. However, she denied that radiation caused her illness, suggesting some avoidance rather than fully integrated acceptance."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Quinn, *Marie Curie: A Life* (1995)",
+            "Eve Curie, *Madame Curie* (1937)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Curie built, calibrated, and maintained sensitive scientific instruments including electrometers and ionization chambers. She adapted Pierre's piezoelectric quartz electrometer for measuring radioactivity. During the radium isolation work, she operated and maintained large-scale chemical processing equipment. She also learned to operate and maintain X-ray equipment during WWI."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Eve Curie, *Madame Curie* (1937)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Curie drove mobile X-ray vehicles across the French front during WWI, navigating roads and locating field hospitals, which required practical wayfinding. She also traveled extensively between Poland and France as a young woman. However, navigation was not a notable skill or defining activity."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record of Curie engaging in animal husbandry, butchering, or food processing beyond ordinary domestic activity."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Quinn, *Marie Curie: A Life* (1995)",
+            "Goldsmith, *Obsessive Genius* (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Curie effectively led the Radium Institute and the WWI radiological service. Earlier in her career, she worked collaboratively under Pierre's informal lead and within the Sorbonne's institutional hierarchies. She could both direct large-scale operations and work within established structures, though she was known for stubbornness and difficulty accepting institutional constraints at times."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Quinn, *Marie Curie: A Life* (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Curie participated in designing the layout and specifications of the Radium Institute building and constructed experimental apparatus for her laboratory work. However, she was not a builder or architect; these were ancillary to her research."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Quinn, *Marie Curie: A Life* (1995)",
+            "Eve Curie, *Madame Curie* (1937)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "During WWI, Curie organized the Service de Radiologie, a fleet of 20 mobile X-ray vehicles ('petites Curies') and 200 fixed radiological installations across the French front, coordinating equipment procurement, personnel training, and deployment logistics. She also directed the Radium Institute's research program for two decades."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Eve Curie, *Madame Curie* (1937)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of Curie creating works of art, music, literature, or performance. Her written works were scientific papers and an autobiographical memoir about Pierre, none of which are remembered as artistic achievements."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Eve Curie, *Madame Curie* (1937)",
+            "Redniss, *Radioactive* (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "During WWI, Curie taught herself radiology and anatomy, then personally operated mobile X-ray units at field hospitals, helping surgeons locate bullets and shrapnel in wounded soldiers. She trained her daughter Irène (age 17) and dozens of other women as X-ray operators. She is estimated to have facilitated over a million X-ray examinations during the war."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Curie, M., 'Recherches sur les substances radioactives' (doctoral thesis, 1903)",
+            "Nobel Prize Committee records, 1903 and 1911"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "As a two-time Nobel laureate in physics and chemistry, Curie's analytical and mathematical reasoning was exceptional. She performed precise quantitative measurements of radioactive emissions, developed statistical methods for analyzing decay rates, calculated atomic weights of newly discovered elements, and applied rigorous mathematical analysis throughout her research career."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of Curie engaging in agriculture or natural resource management. She grew up in urban Warsaw and lived in Paris for most of her adult life. She reportedly enjoyed gardening, but this does not rise to the level of agricultural competence."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Curie, M., 'Recherches sur les substances radioactives' (1903)",
+            "Quinn, *Marie Curie: A Life* (1995)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Curie invented novel techniques for isolating radioactive isotopes, designed and built cutting-edge measurement apparatus (adapting the piezoelectric electrometer), solved the immense technical challenge of extracting milligrams of radium from tons of pitchblende through iterative chemical processing, and later mastered the entirely different technical domain of X-ray equipment operation and maintenance during WWI. She operated at the absolute frontier of her era's technology."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.1,
+    "general_competency_avg_0_10": 4.67,
+    "overall_normalized_equal_avg_0_10": 6.7,
+    "created_at": "2026-03-15T07:18:43.249Z",
+    "updated_at": "2026-03-15T07:18:43.252Z"
+  }
+}
+]

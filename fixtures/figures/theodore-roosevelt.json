@@ -1,0 +1,407 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 108,
+  "fields": {
+    "name": "Theodore Roosevelt",
+    "slug": "theodore-roosevelt",
+    "bio_short": "Roosevelt is among the most complete historical figures on this rubric: a rare fusion of intellectual depth, physical vitality, moral seriousness, and institutional creativity. He scores at or near the ceiling on Embodied-Existential and Cultural-Social dimensions, reflecting a life lived with extraordinary range and intensity. Moral-Affective and Relational scores are moderated by the Brownsville Affair and his neglect of daughter Alice. Heinlein competency is strong in outdoor, combat, leadership, and literary domains but thin in construction, culinary, and technical crafts. His chief weakne",
+    "bio_long": "Theodore Roosevelt Jr., also known as Teddy or T. R., was the 26th president of the United States, serving from 1901 to 1909. Roosevelt previously was involved in New York politics, including serving as the state's 33rd governor for two years. He served as the 25th vice president under President William McKinley for six months in 1901, assuming the presidency after McKinley's assassination. As president, Roosevelt emerged as a leader of the Republican Party and became a driving force for anti-trust and Progressive Era policies.",
+    "source_notes": "https://en.wikipedia.org/wiki/Theodore_Roosevelt",
+    "image": "figures/330px-Theodore_Roosevelt_by_the_Pach_Bros_284x5_cropped29_o01LWqU.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Morris, Edmund. *Theodore Rex* (2001)",
+              "Brands, H.W. *TR: The Last Romantic* (1997)",
+              "Millard, Candice. *The River of Doubt* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR adapted brilliantly when initial plans failed: during the 1902 Coal Strike, when mine owners refused arbitration, he threatened to seize the mines with federal troops, forcing J.P. Morgan to broker a settlement. He navigated the Panama Canal diplomacy by pivoting to support Panamanian independence when Colombia rejected the treaty. His orchestration of the Great White Fleet's world tour (1907-09) projected naval power diplomatically without firing a shot. His mediation of the Russo-Japanese War (1905, earning the Nobel Peace Prize) required managing multiple parties' interests under uncertainty."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Gould, Lewis. *The Presidency of Theodore Roosevelt* (1991)",
+              "Morris, Edmund. *Theodore Rex* (2001)",
+              "Brinkley, Douglas. *The Wilderness Warrior* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR created a demonstrable paradigm shift in American governance: the modern regulatory presidency. Before TR, the federal government largely did not regulate corporations or conserve public lands at scale; after him, both were established expectations. He innovated the 'bully pulpit' concept of presidential communication, used the Antiquities Act (1906) to create 18 national monuments by executive action, and established the Bureau of Corporations as a novel regulatory instrument. His progressive platform of 1912 (social insurance, women's suffrage, direct primaries) anticipated the welfare state by two decades."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Roosevelt, Theodore. *The Strenuous Life* (1899)",
+              "Dalton, Kathleen. *Theodore Roosevelt: A Strenuous Life* (2002)",
+              "Gould, Lewis. *The Presidency of Theodore Roosevelt* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "TR articulated a coherent civic philosophy in works like 'The Strenuous Life' (1899) and his 'New Nationalism' speech at Osawatomie (1910), which influenced progressive thought through the New Deal and beyond. His conservation ethic helped establish the philosophical foundation for the modern environmental movement. However, his ethical framework was practical and exhortatory rather than systematically philosophical, and his racial views, while sometimes progressive for his era (dining with Booker T. Washington at the White House, 1901), retained paternalistic assumptions about racial hierarchy."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Morris, Edmund. *Theodore Rex* (2001)",
+              "Gould, Lewis. *The Presidency of Theodore Roosevelt* (1991)",
+              "Brinkley, Douglas. *The Wilderness Warrior* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR's administrative achievements endured well beyond his direct oversight: as NYC Police Commissioner he implemented merit-based hiring and personal night patrols that reformed a notoriously corrupt department. As president, he signed the Hepburn Act (1906, railroad regulation), the Pure Food and Drug Act (1906), and the Meat Inspection Act (1906), all of which created lasting regulatory frameworks. He established 5 national parks, 18 national monuments, 150 national forests, the U.S. Forest Service, and the Newlands Reclamation Act (1902)—institutions that function over a century later."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Morris, Edmund. *Theodore Rex* (2001)",
+              "Brands, H.W. *TR: The Last Romantic* (1997)",
+              "Dalton, Kathleen. *Theodore Roosevelt: A Strenuous Life* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR operated across an extraordinary breadth of relational modes with qualitatively distinct behavior in each: (1) husband—devoted to Edith with affection and deference on domestic matters; (2) father—playful, tender, intellectually stimulating; (3) child—deeply devoted to his father's memory, which shaped his civic ideals; (4) friend—loyal and warm with Henry Cabot Lodge, John Hay, Cecil Spring Rice; (5) adversary—fierce but often respectful with political opponents; (6) subordinate—served as McKinley's VP and followed military chain of command in Cuba; (7) superior—commanded as president, governor, and colonel with authority but accessibility; (8) stranger—famously gregarious with ordinary citizens, guides, cowboys, and foreign dignitaries alike."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Morris, Edmund. *Edith Kermit Roosevelt: Portrait of a First Lady* (1980)",
+              "Dalton, Kathleen. *Theodore Roosevelt: A Strenuous Life* (2002)",
+              "Brands, H.W. *TR: The Last Romantic* (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "TR's first marriage to Alice Lee (1880-1884) was intensely devoted but cut tragically short by her death. His second marriage to Edith Kermit Carow (1886-1919) was a genuine partnership of over 30 years; their extensive correspondence reveals deep mutual affection, and Edith managed the household, finances, and family stability while supporting TR through political crises, the 1912 assassination attempt, and the death of their son Quentin. However, TR was frequently absent on campaigns, expeditions, and political tours, and could be domineering. The relationship shows durability and mutual support during crisis, but not the full mutuality and emotional availability required for a 3."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Roosevelt, Theodore. *Letters to His Children* (1919)",
+              "Cordery, Stacy. *Alice: Alice Roosevelt Longworth, from White House Princess to Washington Power Broker* (2007)",
+              "Dalton, Kathleen. *Theodore Roosevelt: A Strenuous Life* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "TR was a famously engaged father to his six children, writing illustrated letters filled with warmth, humor, and intellectual engagement (*Letters to His Children*, published 1919). His children developed genuine autonomy and competence: Ted Jr. won the Medal of Honor at D-Day, Kermit became an explorer, Alice became a prominent political figure, Ethel served with the Red Cross. However, a significant counterexample exists: after his first wife's death (1884), he essentially abandoned infant Alice, leaving her with his sister Bamie for years before integrating her into his second family. His relationship with Alice remained strained throughout life. Without the Alice neglect: 3; with it: 2. Final: 2, as the abandonment of an infant daughter is morally weighty."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Brands, H.W. *TR: The Last Romantic* (1997)",
+              "Dalton, Kathleen. *Theodore Roosevelt: A Strenuous Life* (2002)",
+              "Gould, Lewis. *The Presidency of Theodore Roosevelt* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "TR's legacy is enormous within American and Western civilization: the modern regulatory state, the conservation/environmental movement, the activist presidency model, and the Panama Canal. His face is carved on Mount Rushmore. However, the rubric requires effects 'still clearly operative at least 500 years later across multiple civilizations' for a score of 3. TR died in 1919—only ~105 years ago—and his impact, while massive, is concentrated primarily in American and Western governance traditions. His conservation legacy has growing global influence but has not yet achieved the cross-civilizational, multi-century penetration required for a 3."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Morris, Edmund. *Colonel Roosevelt* (2010)",
+              "Dalton, Kathleen. *Theodore Roosevelt: A Strenuous Life* (2002)",
+              "Roosevelt, Theodore. 'Citizenship in a Republic' speech, Sorbonne (1910)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR embodies multiple universally resonant archetypes: the Rough Rider (warrior-adventurer), the trust-buster (champion against corrupt power), the conservationist (guardian of nature), and the 'man in the arena' (from his 1910 Sorbonne speech, one of the most quoted passages in English). 'Speak softly and carry a big stick' is recognized globally. The 'teddy bear'—named after his 1902 Mississippi bear-hunting incident—became one of the world's most beloved toys, extending his symbolic reach into cultures worldwide, well beyond America."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Brinkley, Douglas. *The Wilderness Warrior* (2009)",
+              "Gould, Lewis. *The Presidency of Theodore Roosevelt* (1991)",
+              "McCullough, David. *The Path Between the Seas* (1977)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR created or fundamentally reshaped institutions that have endured well over a century: the U.S. Forest Service (1905), 5 national parks, 18 national monuments, 150 national forests, 51 federal bird reservations, the Newlands Reclamation Act infrastructure, the Bureau of Corporations (precursor to the FTC), and the regulatory framework established by the Hepburn Act and Pure Food and Drug Act. The Panama Canal (completed 1914) reshaped global trade. The National Park system he expanded is now a defining American institution recognized worldwide."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)",
+              "Morris, Edmund. *Theodore Rex* (2001)",
+              "Gould, Lewis. *The Presidency of Theodore Roosevelt* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR led successfully across qualitatively different contexts: as a Dakota rancher commanding cowboys during roundups, as colonel of the Rough Riders in combat in Cuba, as NYC Police Commissioner reforming a corrupt institution, as Governor of New York navigating Tammany Hall, as president managing a complex federal government during peacetime expansion, and as leader of the third-party Progressive ('Bull Moose') insurgency in 1912. He mobilized both elite political support and mass popular enthusiasm, transforming the presidency into a 'bully pulpit' that reached ordinary Americans directly."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Morris, Edmund. *Theodore Rex* (2001)",
+              "Roosevelt, Theodore. *Letters to His Children* (1919)",
+              "Brands, H.W. *TR: The Last Romantic* (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR was profoundly embedded in everyday life even at the height of presidential power. He personally chopped wood, rode horses daily, boxed and wrestled in the White House basement, and played boisterous games with his six children—pillow fights, sliding down banisters, bringing a pony up in the White House elevator. He skinned animals, made camp, and performed ranch work in the Badlands. His voracious reading (reportedly a book a day) and joyful letters to his children reveal a man deeply engaged with ordinary human pleasures. The teddy bear story (1902) cemented his connection to everyday family life."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Weaver, John D. *The Brownsville Raid* (1970)",
+              "Morris, Edmund. *Theodore Rex* (2001)",
+              "Gould, Lewis. *The Presidency of Theodore Roosevelt* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "TR's trust-busting went directly against the interests of his own class and Republican donor base: the Northern Securities case (1902) against J.P. Morgan was filed over intense pressure from the financial establishment. His mediation of the 1902 Coal Strike sided with workers against mine owners—unprecedented for a Republican president. He championed the Pure Food and Drug Act against powerful meatpacking interests. However, the Brownsville Affair (1906) represents a grave failure of due process, discharging 167 Black soldiers without trial. Without Brownsville: score 3; with Brownsville given full weight: score 2. Final: 2, because the Brownsville decision violated the very due process principles TR championed elsewhere."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Weaver, John D. *The Brownsville Raid* (1970)",
+              "Morris, Edmund. *Theodore Rex* (2001)",
+              "Dalton, Kathleen. *Theodore Roosevelt: A Strenuous Life* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "TR showed genuine compassion across social boundaries: he intervened in the 1902 Coal Strike out of concern for freezing workers and their families, invited Booker T. Washington to dine at the White House (1901) in a groundbreaking act of racial inclusion, and was deeply moved by the poverty he witnessed as a New York assemblyman, which drove his tenement reform work alongside Jacob Riis. However, the Brownsville Affair (1906)—discharging 167 Black soldiers without trial based on insufficient evidence—is a serious counterexample of empathic failure toward a vulnerable group. Without Brownsville: score 3; with Brownsville given full weight: score 2. Final: 2, because the Brownsville decision directly harmed innocent men in a context where TR had full power to act otherwise."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Millard, Candice. *The River of Doubt* (2005)",
+              "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)",
+              "Morris, Edmund. *Colonel Roosevelt* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Courage is one of TR's defining traits across sustained, high-stakes contexts. He led the charge up Kettle Hill under heavy fire in Cuba (1898). After being shot by John Schrank in Milwaukee (October 14, 1912), he delivered an 84-minute speech with a bullet lodged in his chest, opening: 'It takes more than that to kill a Bull Moose.' He led the perilous River of Doubt expedition (1913-14) at age 55, nearly dying from tropical infection. After the simultaneous deaths of his first wife and mother on February 14, 1884, he rebuilt his life through ranching in the Dakota Badlands rather than collapsing."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Dalton, Kathleen. *Theodore Roosevelt: A Strenuous Life* (2002)",
+              "Morris, Edmund. *Colonel Roosevelt* (2010)",
+              "Brinkley, Douglas. *The Wilderness Warrior* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "TR demonstrated meaningful moral growth in several domains: his early aristocratic disdain for immigrants evolved through his work with Jacob Riis in New York tenements into genuine progressive concern. His approach to conservation shifted from pure sport-hunting toward preservation, influenced by John Muir during their 1903 Yosemite camping trip. His 1912 Progressive Party platform (advocating women's suffrage, social insurance, direct primaries) represented significant evolution from his earlier Republican positions. However, he never acknowledged the Brownsville Affair as a mistake during his lifetime, and he was famously self-righteous and resistant to admitting error in real time. The pattern is growth over years rather than in-the-moment self-correction."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)",
+              "Millard, Candice. *The River of Doubt* (2005)",
+              "Morris, Edmund. *Colonel Roosevelt* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR endured qualitatively different forms of adversity while continuing to function at the highest levels. Material/physical: childhood asthma, the devastating blizzard winter of 1886-87 that wiped out his cattle investment. Bereavement: the simultaneous deaths of his first wife Alice and his mother on February 14, 1884 (he wrote 'The light has gone out of my life'), and the death of his youngest son Quentin in aerial combat in WWI (1918). Physical danger and illness: near-fatal tropical infection on the River of Doubt (1914), being shot (1912). Through all of these he rebuilt, adapted, and continued leading."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Dalton, Kathleen. *Theodore Roosevelt: A Strenuous Life* (2002)",
+              "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)",
+              "Brands, H.W. *TR: The Last Romantic* (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR inhabited at least five seemingly contradictory roles with remarkable coherence: (1) patrician aristocrat AND populist champion of workers; (2) intellectual scholar (author of 35+ books, lifelong reader) AND man of extreme physical action; (3) tender, playful father AND aggressive warrior who relished combat; (4) conservationist who created 150 national forests AND avid trophy hunter; (5) Nobel Peace Prize-winning diplomat AND militarist who preached 'the strenuous life.' He was a refined Harvard man who thrived among Dakota cowboys, a privileged elite who attacked elite interests. These paradoxes were integrated, not compartmentalized—his conservation ethic, for instance, grew directly from his hunting experience."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Millard, Candice. *The River of Doubt* (2005)",
+              "Morris, Edmund. *Colonel Roosevelt* (2010)",
+              "Brands, H.W. *TR: The Last Romantic* (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR demonstrated documented composure in the face of his own imminent death on multiple occasions. After being shot in Milwaukee (1912), he calmly self-diagnosed that the bullet had not penetrated his lung and insisted on speaking, telling the crowd he had been shot. On the River of Doubt (1914), when severely ill with fever and infection, he urged his son Kermit to leave him behind and save himself, accepting his probable death with equanimity. Near the end of his life, he wrote: 'No man has had a happier life than I have led; a happier life in every way.' He died in his sleep on January 6, 1919, having told his valet 'Please put out the light.'"
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Millard, Candice. *The River of Doubt* (2005)",
+              "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)",
+              "Morris, Edmund. *Colonel Roosevelt* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Despite life-threatening childhood asthma, TR built himself into one of the most physically vital leaders in history, maintaining extraordinary activity across multiple life-stages. He boxed regularly (losing sight in his left eye from a sparring match while president, c. 1905), wrestled, practiced judo with Yoshiaki Yamashita, rode horses daily, hiked, and swam. He charged up Kettle Hill under fire at age 39 (1898). He led the River of Doubt expedition through uncharted Amazonian jungle at age 55 (1913-14). He delivered a speech for 84 minutes with a bullet in his chest at age 53 (1912)."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Roosevelt, Theodore. *Letters to His Children* (1919)",
+              "Brinkley, Douglas. *The Wilderness Warrior* (2009)",
+              "Roosevelt, Theodore. *African Game Trails* (1910)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "TR's joy and playfulness were non-instrumental and pervasive. He played vigorous, spontaneous games with his children at the White House—pillow fights, obstacle courses, bringing pets (including a pony named Algonquin) into the elevator. He was a passionate amateur naturalist who delighted in birdwatching and identifying species purely for pleasure, not political purpose. His camping trip with John Muir in Yosemite (1903) was motivated by genuine aesthetic wonder. His personal letters overflow with exclamation points and delight ('Bully!'). His nature writing in works like *African Game Trails* reveals deep aesthetic appreciation for landscapes and wildlife."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 7.78,
+          "Core_5D_Avg": 8.76,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 10.0
+        }
+      },
+      "figure": "Theodore Roosevelt",
+      "overall": {
+        "Core_5D_Avg": 8.76,
+        "Overall_Normalized_Equal_Avg": 8.41,
+        "General_Competency_Avg_10scale": 6.67
+      },
+      "summary": "Roosevelt is among the most complete historical figures on this rubric: a rare fusion of intellectual depth, physical vitality, moral seriousness, and institutional creativity. He scores at or near the ceiling on Embodied-Existential and Cultural-Social dimensions, reflecting a life lived with extraordinary range and intensity. Moral-Affective and Relational scores are moderated by the Brownsville Affair and his neglect of daughter Alice. Heinlein competency is strong in outdoor, combat, leadership, and literary domains but thin in construction, culinary, and technical crafts. His chief weakness is a self-righteous streak that limited moral self-correction.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 2.0,
+          "General_Competency_Avg_10scale": 6.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence exists that TR personally prepared meals with notable skill. Throughout his life he was served by household staff, ranch cooks, military mess personnel, and expedition cooks. On camping and hunting trips, cooking duties were typically handled by guides or companions. His letters and biographies focus on his voracious appetite but not on any personal cooking ability."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)",
+            "Morris, Edmund. *Theodore Rex* (2001)",
+            "Roosevelt, Theodore. *The Rough Riders* (1899)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "TR led the charge up Kettle Hill under heavy Spanish fire in Cuba (1898), personally shooting at least one enemy soldier with a revolver. He boxed regularly throughout his life, including while president, until a sparring injury cost him sight in his left eye (c. 1905). He practiced judo under Yoshiaki Yamashita at the White House. He was an expert marksman and lifelong hunter. In the Dakota Badlands, he confronted armed men, including capturing a group of boat thieves at gunpoint and marching them to justice over several days."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Roosevelt, Theodore. *Letters to His Children* (1919)",
+            "Dalton, Kathleen. *Theodore Roosevelt: A Strenuous Life* (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "TR actively engaged in caring for his children—his illustrated letters during their illnesses show emotional attentiveness, and he personally comforted and played with them daily when home. He showed concern for soldiers' welfare in Cuba, lobbying the War Department about disease conditions. However, much domestic caregiving was delegated to Edith, nannies, and household staff, and his abandonment of infant Alice after her mother's death is a notable gap."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Millard, Candice. *The River of Doubt* (2005)",
+            "Morris, Edmund. *Colonel Roosevelt* (2010)",
+            "Brands, H.W. *TR: The Last Romantic* (1997)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "TR demonstrated extraordinary composure in the face of mortality on multiple occasions. After being shot in Milwaukee (1912), he calmly assessed his wound and insisted on speaking for 84 minutes. On the River of Doubt (1914), gravely ill with fever and a suppurating wound, he urged his son Kermit to leave him behind and save himself, accepting his probable death without panic. Near the end of his life, despite grief over Quentin's death and declining health, he expressed gratitude: 'No man has had a happier life than I have led.' His last words to his valet—'Please put out the light'—were characteristically composed."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Brinkley, Douglas. *The Wilderness Warrior* (2009)",
+            "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "TR was a skilled taxidermist from youth, requiring precise manual work with specialized tools. He performed practical ranch tasks in the Badlands and maintained outdoor equipment during expeditions. However, he was wealthy enough to employ help for most manual tasks and there is limited evidence of broader craft or repair skills (metalwork, carpentry, mechanical repair) beyond taxidermy and basic ranching maintenance."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Millard, Candice. *The River of Doubt* (2005)",
+            "Roosevelt, Theodore. *African Game Trails* (1910)",
+            "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "TR navigated diverse and challenging terrains throughout his life: the Dakota Badlands during cattle roundups, the Cuban jungle during the Santiago campaign (1898), the East African bush during his year-long safari (1909-10), and most remarkably, the uncharted Rio da Dúvida (River of Doubt) in the Brazilian Amazon (1913-14), an expedition that literally mapped previously unknown territory. He tracked game across varied landscapes and was an experienced horseman in rough country."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Brinkley, Douglas. *The Wilderness Warrior* (2009)",
+            "Roosevelt, Theodore. *African Game Trails* (1910)",
+            "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "TR was an expert taxidermist from childhood, having learned specimen preparation for his personal natural history collections. He ranched cattle in the Dakota Badlands (1884-87), which involved hands-on animal husbandry and butchering. His African safari (1909-10) and South American expeditions involved extensive field dressing and processing of game. He personally skinned and preserved hundreds of zoological specimens that were sent to the Smithsonian Institution."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Morris, Edmund. *Theodore Rex* (2001)",
+            "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)",
+            "Gould, Lewis. *The Presidency of Theodore Roosevelt* (1991)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "TR's leadership across multiple contexts is documented above. Equally notable is his capacity for followership: he accepted the vice presidency under McKinley (a subordinate role he found frustrating but fulfilled), followed military chain of command in Cuba under General Shafter despite disagreeing with orders, cooperated with party leadership when strategically necessary, and deferred to experts like Gifford Pinchot on forestry policy and George Goethals on Canal engineering. He could both command and follow as circumstances demanded."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)",
+            "DiSilvestro, Roger. *Theodore Roosevelt in the Badlands* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "TR oversaw the building of his Elkhorn Ranch in the Dakota Badlands (1884) and famously championed the Panama Canal's construction, but there is limited evidence he personally designed or built durable structures with his own hands. He participated in ranch maintenance and outdoor camp construction, but these were collaborative efforts with hired labor. His role was primarily supervisory rather than hands-on fabrication."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Morris, Edmund. *Theodore Rex* (2001)",
+            "McCullough, David. *The Path Between the Seas* (1977)",
+            "Morris, Edmund. *The Rise of Theodore Roosevelt* (1979)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "TR planned and led the Rough Riders' operations in Cuba (1898), including the successful assault on Kettle Hill. As president, he orchestrated the Great White Fleet's world circumnavigation (1907-09), managed the complex diplomacy and logistics of the Panama Canal project, and coordinated the multi-front trust-busting campaign against Northern Securities, Standard Oil, and others. His mediation of the Russo-Japanese War required managing multiple parties under time pressure."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Roosevelt, Theodore. *The Naval War of 1812* (1882)",
+            "Roosevelt, Theodore. *The Winning of the West* (1889-96)",
+            "Roosevelt, Theodore. *African Game Trails* (1910)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "TR was a prolific author of approximately 35 books and an estimated 150,000 letters. His *Naval War of 1812* (1882) was adopted as a textbook at the Naval War College. *The Winning of the West* (4 vols., 1889-96) was a major historical work. His nature writing in *African Game Trails* (1910) and *Through the Brazilian Wilderness* (1914) has genuine literary merit and narrative power. He also drew charming illustrations in his children's letters. He was not, however, a poet, musician, or visual artist."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Millard, Candice. *The River of Doubt* (2005)",
+            "Morris, Edmund. *Colonel Roosevelt* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "After being shot in Milwaukee (1912), TR correctly self-diagnosed that the bullet had not penetrated his lung by noting he was not coughing blood—showing practical triage knowledge. On the River of Doubt expedition, the party dealt with medical emergencies with limited supplies. He lobbied vigorously for improved medical conditions for soldiers in Cuba after witnessing disease devastation. However, he had no medical training and relied on expedition physicians and military surgeons for actual treatment."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Roosevelt, Theodore. *The Naval War of 1812* (1882)",
+            "Gould, Lewis. *The Presidency of Theodore Roosevelt* (1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "TR's *Naval War of 1812* demonstrated rigorous analytical reasoning with detailed statistical comparisons of naval armaments and battle outcomes, and his regulatory policies required understanding economic data. He was a serious amateur naturalist who contributed to ornithological taxonomy. However, there is no evidence of exceptional mathematical ability or quantitative innovation. His analytical strengths were qualitative and historical rather than numerical."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Brinkley, Douglas. *The Wilderness Warrior* (2009)",
+            "DiSilvestro, Roger. *Theodore Roosevelt in the Badlands* (2011)",
+            "Gould, Lewis. *The Presidency of Theodore Roosevelt* (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "TR ranched cattle in the Dakota Badlands (1884-87), gaining firsthand experience in livestock management, though the devastating winter of 1886-87 wiped out most of his herd—demonstrating the limits of his practical ranching skill. As president, his resource management achievements were transformative: the Newlands Reclamation Act (1902) opened arid lands to irrigation farming, and he created 150 national forests, 51 bird reservations, and the U.S. Forest Service under Gifford Pinchot, establishing sustainable resource management as federal policy."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Roosevelt, Theodore. *The Naval War of 1812* (1882)",
+            "McCullough, David. *The Path Between the Seas* (1977)",
+            "Morris, Edmund. *Theodore Rex* (2001)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "TR engaged with the cutting-edge systems of his era at a conceptual and managerial level. He understood naval technology well enough to write a definitive account of the War of 1812's naval dimensions while still at Harvard/Columbia. He oversaw the Panama Canal project, the greatest engineering undertaking of its time, making critical decisions about the lock-canal design over the sea-level alternative. He pushed for naval modernization, understanding dreadnought technology. However, he was a consumer and commissioner of technology rather than a hands-on technologist or inventor."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.76,
+    "general_competency_avg_0_10": 6.67,
+    "overall_normalized_equal_avg_0_10": 8.41,
+    "created_at": "2026-03-15T09:23:38.784Z",
+    "updated_at": "2026-03-15T09:23:38.790Z"
+  }
+}
+]

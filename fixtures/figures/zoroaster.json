@@ -1,0 +1,363 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 83,
+  "fields": {
+    "name": "Zoroaster",
+    "slug": "zoroaster",
+    "bio_short": "Zoroaster's defining strengths are ethical-philosophical innovation and cultural-social impact. His Gathas represent a paradigm-shifting cosmological framework — cosmic dualism, individual moral choice, eschatological judgment — that arguably influenced Judaism, Christianity, and Islam. As a poet-prophet, his artistic and institution-building achievements are exceptional. However, the extreme antiquity and thinness of sources (primarily the Gathas themselves) severely limit what can be assessed about his relational life, practical competencies, and personal character beyond his prophetic role.",
+    "bio_long": "Zarathushtra Spitama, more commonly known as Zoroaster or Zarathustra, was an Iranian religious reformer who challenged the tenets of the contemporary Ancient Iranian religion, becoming the spiritual founder of Zoroastrianism. In the oldest Zoroastrian scriptures, the Gathas, which he is traditionally believed to have authored, he is described as a preacher and a poet-prophet. Some have claimed, with much scholarly controversy, to find his influence in Heraclitus, Plato, Pythagoras, and, perhaps less controversially, in the Abrahamic religions, including Judaism, Christianity, and Islam, particularly through concepts of cosmic dualism and personal morality.",
+    "source_notes": "https://en.wikipedia.org/wiki/Zoroaster",
+    "image": "figures/330px-Yazd2C_Templo_del_Fuego_28200029_03.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)",
+              "Gnoli, Gherardo. Zoroaster in History (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Gathas record Zoroaster's eventual securing of King Vishtaspa's patronage after years of rejection by other rulers and priests (karapans, kavis), implying some strategic adaptation. However, we lack detailed evidence of multi-step planning, contingency management, or adaptation when plans failed — only the bare outcome that he eventually found a powerful patron."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)",
+              "Kellens, Jean. 'Zoroaster's Time and Homeland,' in The Wiley Blackwell Companion to Zoroastrianism (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Zoroaster effected a genuine paradigm shift from polytheistic Indo-Iranian sacrificial religion to an ethically centered dualistic theology. The Gathas replaced ritual propitiation of multiple deities with a system of moral choice under one supreme deity (Ahura Mazda), condemning haoma intoxication rites and cattle sacrifice. This before/after transformation — from morally neutral ritual religion to personal ethical accountability — constitutes one of the earliest documented religious revolutions."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Boyce, Mary. Zoroastrians: Their Religious Beliefs and Practices (1979)",
+              "Shaked, Shaul. 'The Notions mēnōg and gētīg in the Pahlavi Texts,' Acta Orientalia (1971)",
+              "Duchesne-Guillemin, Jacques. The Western Response to Zoroaster (1958)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Gathas articulate a revolutionary ethical-cosmological framework: the opposition of asha (truth/righteousness) and druj (lie/deceit), individual moral choice as cosmic participation, eschatological judgment, and ethical monotheism/dualism. These concepts — heaven/hell, cosmic dualism, angels/demons, final judgment — are argued by scholars (Boyce, Duchesne-Guillemin, Shaked) to have profoundly influenced post-exilic Judaism, Christianity, and Islam, satisfying the criterion of influence beyond the figure's own community or era."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Rose, Jenny. Zoroastrianism: An Introduction (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "While Zoroastrianism eventually developed elaborate ritual codes and priestly hierarchies (Vendidad, later Sasanian state religion), the Gathas themselves are theological and devotional, not legislative. We cannot attribute later institutional codes to Zoroaster directly. Some basic community organization is implied by his establishment of a priestly lineage and community of followers, but specific administrative evidence is absent."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Insler, Stanley. The Gāthās of Zarathustra (1975)",
+              "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "We can infer that Zoroaster functioned as spouse, parent, subordinate (to Ahura Mazda/spiritual authority), advisor to a king, adversary of established priests, and spiritual leader. However, we lack documented qualitatively distinct behavior across these modes. The Gathas present him primarily in the prophetic-devotional voice; we cannot confirm behavioral adaptability across relational contexts with the specificity required for a higher score."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Later tradition names Zoroaster's wife as Hvovi, and the Gathas imply a family life (references to his daughter and sons). Yasna 53, the wedding hymn for Pouruchista, suggests a father present and engaged in family milestones. However, we have virtually no evidence about the quality, mutuality, or emotional texture of his marital relationship — only the bare fact of its existence."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Insler, Stanley. The Gāthās of Zarathustra (1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The wedding hymn for Pouruchista (Yasna 53) shows parental involvement and offers counsel to the bride, suggesting active fatherhood. Tradition credits Zoroaster with three sons and three daughters and with mentoring Vishtaspa and the early community. However, we lack evidence about whether mentees or children developed genuine autonomy and competence rather than simple obedience; the evidence is too fragmentary for a higher score."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Boyce, Mary. Zoroastrians: Their Religious Beliefs and Practices (1979)",
+              "Shaked, Shaul. Dualism in Transformation (1994)",
+              "Stausberg, Michael. Zarathustra and Zoroastrianism (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Zoroastrian concepts of cosmic dualism, eschatological judgment, resurrection, heaven and hell, angels and demons, and individual moral accountability are argued by mainstream scholars to have profoundly influenced post-exilic Judaism and subsequently Christianity and Islam. Zoroastrianism was the dominant religion of the Persian Empire for over a millennium, shaping governance, art, and culture across Central and West Asia. These effects remain operative well beyond the 500-year threshold across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "de Jong, Albert. Traditions of the Magi (1997)",
+              "Nietzsche, Friedrich. Also sprach Zarathustra (1883–1885)",
+              "Stausberg, Michael. Zarathustra and Zoroastrianism (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zoroaster is recognized as a wise sage/prophet figure across multiple cultural traditions: as a magus-sage in Greek sources (Plato's Alcibiades, Pliny), as a prophet figure in Islamic tradition, and as a philosophical archetype in Western philosophy through Nietzsche's Thus Spoke Zarathustra (1883). However, his archetypal recognition is considerably less universal than figures like Moses, Jesus, or the Buddha; he is primarily known within educated/specialist contexts rather than as a folk archetype across cultures."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Boyce, Mary. Zoroastrians: Their Religious Beliefs and Practices (1979)",
+              "Rose, Jenny. Zoroastrianism: An Introduction (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Zoroastrianism survived as an organized religion for over two millennia, becoming the state religion of the Achaemenid, Parthian, and Sasanian empires and surviving to the present day in Parsi and Iranian Zoroastrian communities. The priestly lineage, fire-temple institution, and liturgical tradition he initiated (or catalyzed) clearly endured far beyond two generations. While later institutional forms evolved substantially, their recognizable continuity with the Gathic core is attested."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)",
+              "Gnoli, Gherardo. Zoroaster in History (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zoroaster successfully founded a religious movement against entrenched priestly opposition, converting the powerful King Vishtaspa and establishing a community of followers (the ashavan). The Gathas show him functioning as spiritual authority, community organizer, and royal advisor. However, evidence is limited primarily to the religious leadership context; we lack detailed documentation of leadership across qualitatively different domains (e.g., military, administrative) required for a score of 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Insler, Stanley. The Gāthās of Zarathustra (1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Gathas contain a few personal touches: references to his family, his daughter Pouruchista's wedding (Yasna 53), his lament of poverty and isolation (Yasna 46), and his pastoral context. These suggest a figure embedded in ordinary communal life. However, the evidence is extremely fragmentary — we have no detailed accounts of mundane daily activities, humor, manual labor, or domestic engagement."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Insler, Stanley. The Gāthās of Zarathustra (1975)",
+              "Boyce, Mary. Zoroastrians: Their Religious Beliefs and Practices (1979)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The entire Gathic theological system is constructed around asha (truth/cosmic righteousness) versus druj (lie/deceit). Zoroaster condemned the karapans and kavis for exploiting their communities through corrupt ritual and cattle-raiding. His reform explicitly frames moral choice as the fundamental human obligation. However, we lack specific documented cases of Zoroaster ruling against personal or group interest in favor of principle, preventing a score of 3."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Insler, Stanley. The Gāthās of Zarathustra (1975)",
+              "Skjærvø, Prods Oktor. 'The Gathas as Myth and Ritual,' in The Wiley Blackwell Companion to Zoroastrianism (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Yasna 29, the 'Lament of the Soul of the Cow' (Gəuš Urvan), expresses profound compassion for suffering cattle and, by extension, the oppressed pastoral community victimized by raiding warriors and corrupt priests. Yasna 34.3 and other passages voice concern for the poor and righteous who suffer under unjust rulers. However, there is no documented evidence of compassion extended specifically toward adversaries or outgroup members, capping this below 3."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Insler, Stanley. The Gāthās of Zarathustra (1975)",
+              "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Gathas describe sustained opposition: Zoroaster was rejected by his own kinsmen, opposed by established priests (karapans) and petty rulers (kavis), and driven from his homeland into exile (Yasna 46.1: 'To what land shall I turn?'). He persisted through years of isolation and poverty before finally converting Vishtaspa. This represents sustained courage across multiple adversities, though the evidence comes primarily from his own poetic voice rather than independent corroboration."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No documented instances exist of Zoroaster reversing a prior position or accepting correction. The Gathas present a consistent theological vision without evidence of evolution in his thought. Later Zoroastrian tradition thoroughly sanitizes him. Per the rubric, traditions that sanitize figures cap this at 1 unless independent evidence exists; here there is no independent evidence at all, and even the Gathas themselves show no sign of moral reversal or acknowledged error."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Insler, Stanley. The Gāthās of Zarathustra (1975)",
+              "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Gathas document multiple forms of adversity: exile from his homeland and kinship group (social rejection), material poverty ('I know... why I am powerless: few cattle and few men,' Yasna 46.2), and sustained opposition from powerful priests and rulers over years. He continued his prophetic mission effectively through these qualitatively different hardships, eventually securing Vishtaspa's patronage."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Gnoli, Gherardo. Zoroaster in History (2000)",
+              "Insler, Stanley. The Gāthās of Zarathustra (1975)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zoroaster inhabited multiple seemingly contradictory roles: radical religious reformer yet claimed restorer of ancient truth; persecuted outcast yet eventual royal advisor; pastoral family man (father, husband) yet cosmic prophet communicating with Ahura Mazda; poet expressing personal vulnerability yet authoritative lawgiver. These represent genuine paradoxical integrations, though the thinness of sources makes it difficult to confirm he inhabited three or more roles with the depth required for a score of 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)",
+              "Rose, Jenny. Zoroastrianism: An Introduction (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Gathas contain sophisticated eschatological teachings about death, the Chinvat Bridge (bridge of judgment), and the afterlife, demonstrating deep philosophical engagement with mortality. However, accounts of Zoroaster's own death come from much later Pahlavi texts (e.g., Denkard, Zātspram) that are hagiographic. We lack documented evidence of personal composure in the face of imminent death from contemporaneous or near-contemporaneous sources."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Living in pastoral-nomadic eastern Iranian society (likely Bronze Age or early Iron Age steppe), Zoroaster's survival through exile and extensive travel implies baseline physical hardiness. Later tradition claims he lived to age 77. However, no specific physical feats or endurance episodes are documented in the Gathas or corroborated by independent sources."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Insler, Stanley. The Gāthās of Zarathustra (1975)",
+              "Skjærvø, Prods Oktor. 'The Achaemenids and the Avesta,' in Birth of the Persian Empire (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Gathas are sophisticated poetry employing complex Old Avestan meters, vivid imagery, and rhetorical artistry, indicating genuine aesthetic engagement beyond mere didactic necessity. The wedding hymn for Pouruchista (Yasna 53) contains celebratory, joyful language. The Gathas also express wonder and devotion toward the beauty of creation (fire, dawn, the natural world). However, evidence of pure play or non-instrumental leisure is absent."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 3.33,
+          "Core_5D_Avg": 5.53,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Zoroaster (Zarathushtra Spitama)",
+      "overall": {
+        "Core_5D_Avg": 5.53,
+        "Overall_Normalized_Equal_Avg": 5.13,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "Zoroaster's defining strengths are ethical-philosophical innovation and cultural-social impact. His Gathas represent a paradigm-shifting cosmological framework — cosmic dualism, individual moral choice, eschatological judgment — that arguably influenced Judaism, Christianity, and Islam. As a poet-prophet, his artistic and institution-building achievements are exceptional. However, the extreme antiquity and thinness of sources (primarily the Gathas themselves) severely limit what can be assessed about his relational life, practical competencies, and personal character beyond his prophetic role. Core 5D Avg: 5.53/10; Heinlein Competency: 3.11/10; Overall: 5.13/10.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of culinary skill in the Gathas or reliable tradition. While Zoroaster presumably ate and likely prepared food in his pastoral context, no specific competence is documented."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "The Gathas present Zoroaster primarily as a priestly figure, not a warrior. While later tradition (e.g., Denkard) describes wars fought on his behalf, these are late and hagiographic. The Gathas themselves contain no documented personal combat. Zoroaster explicitly condemns the raiding violence of his adversaries, positioning himself as an opponent of warrior culture rather than a participant in it."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Insler, Stanley. The Gāthās of Zarathustra (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Gathas express deep concern for the vulnerable — the 'Soul of the Cow' (Yasna 29), the poor and righteous oppressed by corrupt rulers. The wedding hymn (Yasna 53) shows a father offering care and counsel to a daughter. However, no specific caregiving acts (nursing the sick, tending the dying) are documented."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Insler, Stanley. The Gāthās of Zarathustra (1975)",
+            "Boyce, Mary. Zoroastrians: Their Religious Beliefs and Practices (1979)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Gathas show a man who faced exile, poverty, rejection, and existential isolation (Yasna 46.1: 'To what land shall I turn? Where shall I go?') yet maintained purpose, faith, and poetic productivity. His entire theological system is structured around facing cosmic moral stakes with composure and right choice. He continued his mission through sustained adversity without documented despair or collapse."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of manual craft, tool-making, or repair skills in the Gathas or reliable tradition. His social role as a priest (zaotar) does not inherently entail these competencies."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Gnoli, Gherardo. Zoroaster in History (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Zoroaster's exile from his homeland and eventual arrival at Vishtaspa's court (possibly a considerable geographic distance in eastern Iran/Central Asia) implies travel and basic navigation across steppe terrain. However, no specific navigation feats or route-finding are documented."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Zoroaster's pastoral-nomadic context (eastern Iranian steppe society) and the Gathas' extensive engagement with cattle and pastoral life strongly imply familiarity with animal husbandry. Yasna 29's detailed concern for cattle welfare suggests lived experience with livestock. However, no specific animal processing skills are documented."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Insler, Stanley. The Gāthās of Zarathustra (1975)",
+            "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Zoroaster successfully led a religious reform movement against established opposition, mobilizing followers and securing royal patronage. The Gathas simultaneously show deep deference and submission to Ahura Mazda's will, demonstrating capacity for followership. He gave spiritual orders to his community while receiving divine direction — both modes are clearly present in the texts."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the Gathas or reliable tradition of construction or fabrication skills. While fire-temples later became central to Zoroastrianism, there is no documentation linking Zoroaster personally to building physical structures."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Zoroaster successfully transitioned from persecuted exile to royal-backed prophet, implying some strategic capacity in identifying and courting Vishtaspa's patronage. However, no specific multi-step plans, operational coordination, or adaptive command decisions are documented in the Gathas."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Insler, Stanley. The Gāthās of Zarathustra (1975)",
+            "Kellens, Jean, and Pirart, Éric. Les textes vieil-avestiques (1988–1991)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The Gathas are among the oldest surviving works of religious poetry, composed in highly complex Old Avestan meters with sophisticated rhetorical structures, vivid cosmic imagery, and profound theological content. Scholarly analysis (Insler, Kellens, Skjærvø) confirms their exceptional poetic artistry. These hymns formed the liturgical core of a religious tradition lasting millennia and represent a defining exemplar of ancient religious literature."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Rose, Jenny. Zoroastrianism: An Introduction (2011)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented medical or emergency response skills in the Gathas. While later Zoroastrian tradition (Vendidad) develops a medical tradition and Zoroaster is retrospectively associated with healing, these are late attributions without contemporaneous support."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Insler, Stanley. The Gāthās of Zarathustra (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Gathas display systematic logical structure in constructing theological arguments (e.g., the cosmological framework of the twin spirits in Yasna 30, the structured enumeration of the Amesha Spentas). This suggests analytical capacity. However, no mathematical or quantitative reasoning is documented."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Boyce, Mary. A History of Zoroastrianism, Vol. 1 (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Gathas show intimate familiarity with pastoral-agricultural life: cattle, pastureland, and the economic vulnerabilities of pastoral communities. Zoroastrianism's later emphasis on settled agriculture and land stewardship may trace to Zoroaster's own values. However, no specific resource management achievements are documented."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Insler, Stanley. The Gāthās of Zarathustra (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Zoroaster constructed a systematic theological framework — the cosmological dualism of Ahura Mazda and Angra Mainyu, the structured hierarchy of the Amesha Spentas, the eschatological timeline — which represents high-level systemic thinking applied to religious/philosophical problems. However, no evidence of engagement with physical technology or practical technical systems."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.53,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 5.13,
+    "created_at": "2026-03-15T07:18:25.337Z",
+    "updated_at": "2026-03-15T07:18:25.341Z"
+  }
+}
+]

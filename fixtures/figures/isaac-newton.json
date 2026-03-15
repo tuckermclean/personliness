@@ -1,0 +1,378 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 97,
+  "fields": {
+    "name": "Isaac Newton",
+    "slug": "isaac-newton",
+    "bio_short": "Newton represents towering but narrow greatness: a supreme cognitive genius whose Principia and calculus constitute paradigm shifts still operative today. His cultural-social impact is extraordinary, shaping the Enlightenment and modern science worldwide. However, his moral-affective and relational dimensions are strikingly weak — he was vindictive toward Hooke, Leibniz, and Flamsteed, never married, and maintained few close relationships. Heinlein competency is sharply lopsided: exceptional in analytical and technical domains but negligible in caregiving, culinary, combat, and artistic skills",
+    "bio_long": "Sir Isaac Newton was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, author and inventor. He was a key figure in the Scientific Revolution and the Enlightenment that followed. His book Philosophiæ Naturalis Principia Mathematica, first published in 1687, achieved the first great unification in physics and established classical mechanics. Newton also made seminal contributions to optics, and shares credit with the German mathematician Gottfried Wilhelm Leibniz for formulating infinitesimal calculus, although he developed calculus years before Leibniz. Newton contributed to and refined the scientific method, and his work is considered the most influential in bringing forth modern science.",
+    "source_notes": "https://en.wikipedia.org/wiki/Isaac_Newton",
+    "image": "figures/330px-Portrait_of_Sir_Isaac_Newton2C_1689_28brightened29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Westfall, *Never at Rest: A Biography of Isaac Newton* (1980)",
+              "Levenson, *Newton and the Counterfeiter* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Newton demonstrated strategic adaptation in managing the Great Recoinage of 1696, reorganizing Mint operations under severe time pressure and pursuing counterfeiters like William Chaloner through intelligence networks. He also strategically maneuvered the Royal Society committee investigating the calculus priority dispute with Leibniz. However, his political career (MP, 1689-90, 1701-02) was undistinguished, and his initial plan to suppress his optical findings after Hooke's criticism showed strategic withdrawal rather than adaptation."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Cohen, *The Newtonian Revolution* (1980)",
+              "Whiteside (ed.), *The Mathematical Papers of Isaac Newton*, 8 vols (1967-81)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Newton's annus mirabilis (1665-66) produced foundational breakthroughs in calculus, optics, and gravitation — three distinct paradigm shifts. The Principia (1687) unified terrestrial and celestial mechanics for the first time, replacing the Cartesian vortex theory. His invention of the reflecting telescope solved chromatic aberration. His method of fluxions (calculus) created an entirely new mathematical framework. The before/after difference in physics attributable to Newton is arguably the largest in the history of science."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Janiak, *Newton as Philosopher* (2008)",
+              "Iliffe, *Priest of Nature: The Religious Worlds of Isaac Newton* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Newton's 'Rules of Reasoning in Philosophy' (Principia, Book III) articulated methodological principles — parsimony, universality, induction from phenomena — that profoundly influenced Enlightenment epistemology. Kant's entire critical philosophy was a response to the Newtonian framework. His extensive theological writings (anti-Trinitarian Arianism, biblical chronology) showed serious metaphysical engagement, though these remained unpublished and did not constitute ethical philosophy per se. His moral reasoning in personal disputes was notably poor."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Levenson, *Newton and the Counterfeiter* (2009)",
+              "Craig, *Newton at the Mint* (1946)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "As Warden (1696) and Master (1699-1727) of the Royal Mint, Newton transformed a sinecure into an actively managed institution, overseeing the Great Recoinage and standardizing currency. His reforms to Mint operations endured well beyond his tenure. As President of the Royal Society (1703-1727), he professionalized its proceedings and publications. His Parliamentary service (1689-90, 1701-02) was negligible — reportedly his only recorded remark was asking for a window to be closed."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Manuel, *A Portrait of Isaac Newton* (1968)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Newton functioned as institutional superior (Royal Society president, Mint master), intellectual adversary (Hooke, Leibniz, Flamsteed), guardian (Catherine Barton), and professional correspondent (Halley, Locke). However, his relational mode was remarkably uniform across contexts — controlling, suspicious, and emotionally guarded. He lacked documented warmth as a friend, had no spousal role, and his subordinate/follower mode was limited. His relational repertoire was narrow, with most relationships mediated through intellectual or institutional hierarchy."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Manuel, *A Portrait of Isaac Newton* (1968)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Newton never married and had no documented romantic relationships. Voltaire reported that Newton died a virgin. There is scholarly speculation about an intense friendship with the Swiss mathematician Nicolas Fatio de Duillier in the early 1690s, but no evidence of a sustained intimate partnership of any kind. This domain is simply absent from his life record."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Hall, *Philosophers at War* (1980)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Newton had no children. His lectures as Lucasian Professor were notoriously poorly attended. He served as guardian to his niece Catherine Barton, providing her a home and social position in London. Roger Cotes, who edited the second edition of the Principia, functioned as a protégé of sorts, though Newton could be difficult and withholding with collaborators. His treatment of Flamsteed and his authoritarian control over the Royal Society suggest a poor mentoring disposition. Some Cambridge students benefited from his indirect influence, but active mentorship was not a strength."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Cohen, *The Newtonian Revolution* (1980)",
+              "Westfall, *Never at Rest* (1980)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Newton's laws of motion and universal gravitation formed the foundation of physics for over 200 years until Einstein's relativity (and remain the practical basis for engineering today). Calculus is indispensable to every branch of modern science and engineering. His influence spans every civilization that has adopted modern science and technology. Nearly 300 years after his death, his contributions remain operative in education, engineering, space exploration, and fundamental physics worldwide."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Fara, *Newton: The Making of Genius* (2002)",
+              "Feingold, *The Newtonian Moment* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Newton is the universal archetype of scientific genius across cultures worldwide. The apple story (documented by Stukeley and Conduitt, though embellished) is one of the most recognized origin myths in intellectual history. 'Newtonian' is an adjective in dozens of languages. Alexander Pope's epitaph ('Nature and Nature's laws lay hid in night: / God said, Let Newton be! and all was light') captures his near-divine cultural status. He is recognized as a symbol of rational achievement in cultures far beyond the English-speaking world."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Feingold, *The Newtonian Moment* (2004)",
+              "Craig, *Newton at the Mint* (1946)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Newton's presidency of the Royal Society (1703-1727) transformed it into the model for scientific academies worldwide, with more rigorous standards for publication and experimental demonstration. His reforms to the Royal Mint endured for generations. Most significantly, the Newtonian paradigm structured scientific education and research at Cambridge and across Europe for over two centuries, effectively creating the institutional framework of modern physics. These institutions and traditions survived far beyond two generations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Feingold, *The Newtonian Moment* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Newton led the Royal Society for 24 years (1703-1727), professionalizing its operations, and directed the Royal Mint through the Great Recoinage crisis. His intellectual influence shaped the direction of European science for centuries — Voltaire, the French Encyclopedists, and subsequent generations of physicists all worked within his framework. He led successfully across different contexts (scientific community and government administration), though his leadership style was often authoritarian and his interpersonal influence rested heavily on institutional power rather than personal charisma."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Manuel, *A Portrait of Isaac Newton* (1968)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Newton was famously reclusive, reportedly forgetting to eat meals and having virtually no social life during his Cambridge years. He never married, had few friends, and was consumed by solitary intellectual work. At the Mint he engaged more with practical affairs and London society (partly through his niece Catherine Barton's social connections), and he managed some family estate matters at Woolsthorpe. But documented engagement with mundane everyday activities at the height of his fame is minimal."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Hall, *Philosophers at War* (1980)",
+              "Westfall, *Never at Rest* (1980)",
+              "Levenson, *Newton and the Counterfeiter* (2009)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Newton vigorously enforced the law against counterfeiters at the Mint, including securing the conviction and execution of William Chaloner through persistent investigation. However, his handling of the Leibniz priority dispute was profoundly unjust: as Royal Society president, he appointed the investigating committee and secretly authored its report (the Commercium Epistolicum, 1712/13) ruling in his own favor. His confiscation of Flamsteed's catalog was similarly self-serving. No documented cases of ruling against personal interest in favor of principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Hall, *Philosophers at War: The Quarrel Between Newton and Leibniz* (1980)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Newton was famously difficult interpersonally. He conducted vindictive campaigns against Hooke (attempting to suppress his legacy after Hooke's death), Leibniz (manipulating the Royal Society committee investigating the calculus dispute), and Flamsteed (confiscating and publishing his star catalog without proper attribution). He did care for his niece Catherine Barton and left bequests to half-siblings and their families, but there is no documented compassion toward adversaries or outgroup members."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Levenson, *Newton and the Counterfeiter* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Newton endured a harsh childhood (father died before his birth, mother abandoned him at age 3 to remarry, raised by grandmother, bullied at school) yet thrived intellectually. He recovered from a severe mental breakdown in 1693 — possibly triggered by mercury poisoning from alchemical work — and subsequently undertook the demanding Mint role. His pursuit of counterfeiters required physical courage in London's criminal underworld. Publishing the Principia challenged the dominant Cartesian framework across Europe. However, he was notoriously reluctant to publish, withdrawing from optics debates after Hooke's criticism in the 1670s."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Manuel, *A Portrait of Isaac Newton* (1968)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "After his 1693 mental breakdown, Newton wrote apologetic letters to John Locke and Samuel Pepys for paranoid accusations he had made against them, which constitutes one documented instance of acknowledging error. However, he never reconciled with Hooke, never acknowledged Leibniz's independent discovery of calculus, and maintained his positions stubbornly across decades of disputes. No broader pattern of moral self-correction is evident in the record."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Manuel, *A Portrait of Isaac Newton* (1968)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Newton endured qualitatively different adversities and functioned effectively through them: (1) childhood abandonment (father's death, mother's remarriage and departure when he was 3), (2) sustained social isolation and bullying at school, (3) the plague years 1665-66 in rural isolation (during which he made his greatest discoveries), and (4) a severe mental breakdown in 1693 from which he recovered to assume demanding public roles at the Mint. This meets the criterion of effective functioning across multiple forms of adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Dobbs, *The Janus Faces of Genius* (1991)",
+              "Iliffe, *Priest of Nature* (2017)",
+              "Westfall, *Never at Rest* (1980)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Newton inhabited several seemingly contradictory roles: rigorous empirical scientist and devoted alchemist/mystic; reclusive Cambridge scholar and vigorous public administrator at the Mint; abstract mathematician and hands-on experimental craftsman; devout (though heterodox) Christian theologian and architect of the mechanistic worldview that would undermine traditional religion. However, he largely compartmentalized rather than publicly integrating these tensions — his alchemy and theology remained secret during his lifetime, suggesting juxtaposition rather than full synthesis."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Brewster, *Memoirs of the Life, Writings, and Discoveries of Sir Isaac Newton* (1855)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Newton reportedly refused last rites on his deathbed in March 1727, consistent with his long-held Arian theological convictions — demonstrating principled composure rather than deathbed panic. He continued intellectual work nearly until the end. His famous remark recorded by Brewster ('I seem to have been only like a boy playing on the sea-shore, and diverting myself in now and then finding a smoother pebble or a prettier shell than ordinary, whilst the great ocean of truth lay all undiscovered before me') suggests reflective equanimity about his life's work. He died at 84, apparently composed."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Dobbs, *The Janus Faces of Genius: The Role of Alchemy in Newton's Thought* (1991)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Newton was not known for physical prowess. He reportedly was of slight build and suffered health problems. However, he sustained decades of intensive alchemical laboratory work requiring considerable physical stamina (grinding chemicals, maintaining furnaces for extended periods), and he remained active into his 80s — he was still chairing Royal Society meetings and managing Mint affairs in his final years. Era-normalized, longevity to age 84 with continued productivity is notable, but documented physical feats are absent."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Westfall, *Never at Rest* (1980)",
+              "Manuel, *A Portrait of Isaac Newton* (1968)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Newton was famously austere with little documented interest in music, art, or recreation. The possibly apocryphal report that he laughed only once in his life (when someone asked him the use of Euclid) captures his reputation. His experimentum crucis with prisms revealed a fascination with light and color that had aesthetic dimensions, and his alchemical pursuits had mystical qualities. However, evidence of non-instrumental play or leisure is thin. He reportedly attended the opera once and disliked it."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 2.22,
+          "Core_5D_Avg": 5.44,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Isaac Newton",
+      "overall": {
+        "Core_5D_Avg": 5.44,
+        "Overall_Normalized_Equal_Avg": 5.24,
+        "General_Competency_Avg_10scale": 4.22
+      },
+      "summary": "Newton represents towering but narrow greatness: a supreme cognitive genius whose Principia and calculus constitute paradigm shifts still operative today. His cultural-social impact is extraordinary, shaping the Enlightenment and modern science worldwide. However, his moral-affective and relational dimensions are strikingly weak — he was vindictive toward Hooke, Leibniz, and Flamsteed, never married, and maintained few close relationships. Heinlein competency is sharply lopsided: exceptional in analytical and technical domains but negligible in caregiving, culinary, combat, and artistic skills. The profile reveals a figure whose intellectual legacy dwarfs his interpersonal and embodied life.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.27,
+          "General_Competency_Avg_10scale": 4.22
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)",
+            "Stukeley, *Memoirs of Sir Isaac Newton's Life* (1752)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Newton was notorious for forgetting to eat meals entirely, becoming so absorbed in work that his servant would find food untouched. No evidence whatsoever of culinary skill or interest in food preparation. His relationship with food was essentially negligent."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented combat skill or military experience. As a schoolboy he reportedly fought a bully (Arthur Storer) and won, but this is a single childhood incident with no evidence of developed fighting capability. He lived during the English Civil War aftermath and the Glorious Revolution but had no military involvement."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Newton took in his niece Catherine Barton and provided for her materially, and she served as his housekeeper and social intermediary in London. He left bequests to half-siblings and their families in his will. However, there is no evidence of emotional attentiveness or sustained caregiving beyond material provision. His interpersonal style was not nurturing."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)",
+            "Brewster, *Memoirs of the Life, Writings, and Discoveries of Sir Isaac Newton* (1855)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Newton refused last rites on his deathbed in 1727, consistent with his lifelong Arian theological convictions, showing principled composure rather than conventional deathbed anxiety. He continued working nearly until the end of his life at age 84. His reflective remark about being 'a boy playing on the seashore' suggests equanimity about the limits of human knowledge. However, his 1693 mental breakdown (paranoid accusations against friends) shows he was capable of losing composure under acute stress, though he recovered."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)",
+            "Dobbs, *The Janus Faces of Genius* (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Newton ground his own telescope mirrors and lenses to precise specifications. He maintained an extensive alchemical laboratory at Trinity College for over 25 years, requiring skilled handling of furnaces, crucibles, and chemical apparatus. As a boy, he was known for mechanical ingenuity — building clocks, sundials, and model machines. His experimental skill was essential to his optical discoveries (constructing prism apparatus, darkened rooms, measurement devices)."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)",
+            "Sobel, *Longitude* (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Newton's celestial mechanics had direct navigational applications, and he served on the Board of Longitude. He understood the theoretical basis of navigation better than virtually anyone alive. However, there is no evidence he personally navigated ships or undertook significant journeys requiring wayfinding skill. His life was largely confined to Woolsthorpe, Cambridge, and London. Era-normalized, theoretical knowledge without practical application warrants a limited score."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Despite growing up on a farm at Woolsthorpe Manor, Newton was famously incompetent at agricultural tasks — his mother sent him back to school because he was so poor at farming. No documented skill in animal husbandry or food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)",
+            "Feingold, *The Newtonian Moment* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Newton effectively led the Royal Society (1703-1727) and the Royal Mint (1696-1727), demonstrating real organizational leadership. He followed Isaac Barrow's mentorship early in his career (Barrow ceded the Lucasian chair to him in 1669) and accepted Edmond Halley's urging to publish the Principia. However, his leadership style was authoritarian and his followership capacity was limited — he was combative with peers and used institutional power to crush rivals."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)",
+            "Stukeley, *Memoirs of Sir Isaac Newton's Life* (1752)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Newton built the first practical reflecting telescope (1668) with his own hands, including grinding the mirror — a significant feat of precision fabrication. As a boy at Woolsthorpe, he reportedly built mechanical models including a working windmill, water clocks, and sundials. He constructed much of his own experimental apparatus for optical and alchemical experiments. These demonstrate sustained hands-on construction ability across his life."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Levenson, *Newton and the Counterfeiter* (2009)",
+            "Westfall, *Never at Rest* (1980)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Newton's management of the Great Recoinage (1696) was a major logistical operation requiring coordination of multiple mints, supply chains, and deadlines under severe political pressure. His systematic pursuit of counterfeiters at the Mint involved intelligence networks, disguises, and legal strategy. The Principia itself was a massive intellectual coordination project executed over roughly 18 months of intense work."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Newton produced no known works of art, music, literature, or performance. His writing was technical and precise but not literary in aspiration. His optical work on color theory later influenced artistic practice (the color wheel), but he did not himself engage in artistic creation. No evidence of aesthetic production."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented medical skill or emergency response capability. Newton did not practice medicine and there are no recorded instances of him providing medical aid to others. He experimented on his own eyes with needles and prolonged sun-gazing (self-experimentation in optics), which demonstrates recklessness rather than medical competence."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Whiteside (ed.), *The Mathematical Papers of Isaac Newton*, 8 vols (1967-81)",
+            "Westfall, *Never at Rest* (1980)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Newton is among the greatest mathematicians in history. He co-invented calculus (method of fluxions), developed the generalized binomial theorem, contributed to the theory of finite differences, and solved the brachistochrone problem overnight when it was posed as a challenge to European mathematicians (Johann Bernoulli recognized 'the lion by his claw'). His mathematical treatment of gravitation, orbital mechanics, and fluid dynamics in the Principia set the standard for mathematical physics."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Newton inherited and managed the Woolsthorpe estate, dealing with tenants and land management throughout his life. However, as a youth he was sent back to school specifically because he was poor at farming. His resource management at the Mint (managing bullion supplies, controlling silver and gold flows) was excellent but is better captured under Strategic Planning. Agricultural skill per se was minimal."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Westfall, *Never at Rest* (1980)",
+            "Cohen, *The Newtonian Revolution* (1980)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Newton was the preeminent technical problem-solver of his era. He solved the brachistochrone problem overnight, determined the shape of the Earth from gravitational theory, invented the reflecting telescope to solve chromatic aberration, and his Principia systematically solved the fundamental problems of mechanics (planetary orbits, tides, precession of equinoxes, cometary paths). He also applied technical problem-solving to Mint operations, designing improved assaying techniques and anti-counterfeiting measures."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.44,
+    "general_competency_avg_0_10": 4.22,
+    "overall_normalized_equal_avg_0_10": 5.24,
+    "created_at": "2026-03-15T08:16:11.873Z",
+    "updated_at": "2026-03-15T08:16:11.876Z"
+  }
+}
+]

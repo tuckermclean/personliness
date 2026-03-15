@@ -1,0 +1,370 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 76,
+  "fields": {
+    "name": "Diogenes",
+    "slug": "diogenes",
+    "bio_short": "Diogenes was a radical philosopher-provocateur whose strength lay in embodied philosophical practice rather than conventional competency breadth. Exceptional in existential composure, hardship tolerance, creative philosophical performance, and cultural legacy, he deliberately rejected most practical skills and institutional roles. His paradoxical integration of contradictory roles—slave/master, beggar/sage, fool/wisest—and his archetype as the truth-telling ascetic have resonated across civilizations for over two millennia. His narrow Heinlein competency range reflects not incapacity but delib",
+    "bio_long": "Diogenes the Cynic, also known as Diogenes of Sinope, was an ancient Greek philosopher during the period of Classical Greece, and one of the founders of Cynicism.",
+    "source_notes": "https://en.wikipedia.org/wiki/Diogenes",
+    "image": "figures/330px-Diogenes_Mosaic_RC3B6misch-Germanisches_Museum.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Diogenes Laërtius, Lives of the Eminent Philosophers, Book 6",
+              "Navia, Luis E., Diogenes of Sinope: The Man in the Tub (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Diogenes showed situational cleverness—his reported response to enslavement (telling the auctioneer to sell him to someone 'who needed a master') and his calibrated exchange with Alexander demonstrate social-strategic wit. However, there is no documented evidence of complex multi-step planning, operational adaptation, or management of uncertainty in the conventional strategic sense. His life strategy was one of radical simplification, not adaptive complexity."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Branham, R. Bracht, 'Defacing the Currency: Diogenes' Rhetoric and the Invention of Cynicism', in The Cynics (1996)",
+              "Navia, Diogenes of Sinope (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Diogenes pioneered philosophy-as-embodied-performance: living in a pithos, carrying a lantern in daylight 'searching for an honest man,' plucking a chicken to refute Plato's definition of man, publicly performing bodily functions as philosophical argument. This created a genuinely new paradigm—philosophy enacted through provocative public spectacle rather than solely through dialogue or writing. The before/after difference is clear: Cynicism as performative philosophy was his creation and had no real precedent in Greek thought."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Branham, R. Bracht & Goulet-Cazé, Marie-Odile (eds.), The Cynics: The Cynic Movement in Antiquity and Its Legacy (1996)",
+              "Desmond, William, Cynics (2008)",
+              "Diogenes Laërtius, Lives, Book 6"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Diogenes is a founding figure of Cynicism, articulating core principles—virtue as the sole good, conventional values as arbitrary ('defacing the currency'), nature as the standard for living, cosmopolitanism ('citizen of the world')—that profoundly influenced Stoicism (Zeno of Citium reportedly studied under the Cynic Crates). Through Stoicism, his ethical insights shaped Roman philosophy, early Christian asceticism, and Western moral thought for millennia, clearly influencing thinkers far beyond his own community."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Desmond, Cynics (2008)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Diogenes explicitly rejected all forms of institutional governance, administrative systems, and conventional political structures. He founded no organizations, designed no policies, and created no enduring administrative systems. His lost work Republic reportedly advocated abolishing currency and conventional government."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Desmond, Cynics (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diogenes demonstrably operated across multiple relational modes: subordinate (slave to Xeniades), superior/teacher (mentor to Crates, tutor to children), adversary (confrontations with Plato, Alexander), peer philosopher (interactions with Antisthenes), and stranger/public figure (daily encounters with Athenian citizens). However, the absence of intimate/spousal relationships and the largely anecdotal nature of the evidence limits documentation of qualitative distinctiveness across these modes. At least four modes are documented but spousal/filial roles are absent."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "No documented spouse, partner, or intimate relationship exists in the historical record. Diogenes explicitly rejected conventional marriage and domestic life. Some anecdotes mention his views on sexual relations as purely natural acts, but no specific partnership is recorded. This is absence of evidence in a domain the figure deliberately opted out of."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Navia, Diogenes of Sinope (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diogenes mentored Crates of Thebes, who developed into an independent and distinctive Cynic philosopher—marrying Hipparchia and creating his own philosophical household, demonstrating genuine autonomy rather than mere replication. Diogenes Laërtius reports that as slave-tutor to Xeniades' sons, he taught them riding, javelin, history, and literature, and that Xeniades declared 'a good spirit has entered my house.' These mentees developed competence and independence."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Branham & Goulet-Cazé, The Cynics (1996)",
+              "Desmond, Cynics (2008)",
+              "Schofield, Malcolm, The Stoic Idea of the City (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cynicism directly shaped Stoicism (via Crates→Zeno), which became the dominant philosophy of the Roman elite and influenced Christianity, medieval asceticism, and Enlightenment ethics. Diogenes' concept of cosmopolitanism remains central to modern political philosophy. His figure has remained iconic for over 2,300 years across Greek, Roman, Islamic (referenced in Arabic philosophical traditions), and modern Western cultures. His influence is clearly still operative in counter-cultural philosophy, ascetic traditions, and popular culture."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Krueger, Derek, 'The Bawdy and Society: The Shamelessness of Diogenes in Roman Imperial Culture', in The Cynics (1996)",
+              "Navia, Diogenes of Sinope (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Diogenes is the defining archetype of the 'holy fool' and radical truth-teller in Western culture. The image of the philosopher with a lantern searching for an honest man is universally recognized. He serves as archetype for the wise beggar, the ascetic sage, and the counter-cultural provocateur across traditions—referenced in Islamic philosophy (connections to Sufi mendicant traditions), Renaissance humanism (Raphael's School of Athens), and modern counter-culture. His cross-cultural recognition as a symbol extends far beyond Greek philosophy."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Desmond, Cynics (2008)",
+              "Goulet-Cazé, Marie-Odile, 'Religion and the Early Cynics', in The Cynics (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cynicism survived as a recognizable philosophical movement for centuries after Diogenes, through Crates, Menippus, and later Roman Cynics like Demetrius and Peregrinus. However, Diogenes deliberately built no institutional structures—no school building, no formal curriculum, no organizational hierarchy. The movement persisted through personal transmission and imitation rather than institutional continuity. The 'school' was anti-institutional by design."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Branham & Goulet-Cazé, The Cynics (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diogenes attracted notable followers, most importantly Crates of Thebes, who became a major Cynic philosopher and teacher of Zeno of Citium. He influenced Athenian and Corinthian public life through his provocative presence. However, he led no armies, governed no communities, and deliberately rejected organized leadership. His influence was through personal charisma and example rather than directing groups toward coordinated goals across different contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Navia, Diogenes of Sinope (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Diogenes lived entirely in public spaces—the Athenian agora, the streets of Corinth—sleeping in a pithos, begging for food, conversing with passersby of all social classes. He ate, slept, and performed all bodily functions in public. He reportedly played with children, joked with market vendors, and engaged with dogs (from which 'Cynic'/kynikos derives). Even at the height of his philosophical fame, his daily life was composed entirely of mundane, shared human activities."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Moles, John, 'Cynic Cosmopolitanism', in The Cynics (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diogenes consistently challenged hypocrisy, social pretension, and unjust conventions. His entire philosophical practice was a sustained critique of arbitrary privilege and false values. He spoke truth to power regardless of personal risk (confronting Alexander, mocking Plato). His concept of cosmopolitanism implicitly asserted universal human equality. However, he did not implement systems of justice or make documented rulings against self-interest in any formal adjudicative sense."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Navia, Diogenes of Sinope (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Diogenes' primary mode was confrontational truth-telling, not tender compassion. Some anecdotes suggest concern for others' moral welfare—his teaching of Crates, his reported gentleness with earnest seekers—but his characteristic method was public humiliation and provocation. There is no documented evidence of compassion specifically toward adversaries or outgroup members; his interactions with the powerful (Alexander, Plato) were combative rather than empathetic."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Plutarch, Life of Alexander",
+              "Diogenes Laërtius, Lives, Book 6",
+              "Desmond, Cynics (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Diogenes demonstrated sustained courage across multiple high-stakes situations over decades: exile from Sinope, voluntary homelessness and poverty in Athens, public defiance of social norms inviting violence and ridicule, the famous confrontation with Alexander the Great ('Stand out of my sunlight'), and reportedly maintaining his philosophical composure when captured by pirates and sold into slavery. This pattern spans his entire adult life across qualitatively different threats—political, physical, social."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Navia, Diogenes of Sinope (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The tradition preserves no clear instances of Diogenes reversing a prior position or accepting correction. Some scholars interpret his exile from Sinope (for defacing currency) as a transformative crisis that generated his philosophy—turning disgrace into philosophical principle—which suggests significant personal growth. However, the sources are anecdotal and centuries removed, and the Cynic hagiographic tradition tends to present him as consistently right from the start rather than evolving."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Desmond, Cynics (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Diogenes endured at least three qualitatively different forms of severe adversity while maintaining effective philosophical functioning: (1) exile and political disgrace from Sinope, (2) decades of voluntary material deprivation—homelessness, near-starvation, exposure to elements, (3) enslavement after capture by pirates. In each case he not only survived but reportedly thrived, transforming each hardship into philosophical teaching material. His equanimity under adversity is the central feature of his biographical tradition."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Desmond, Cynics (2008)",
+              "Branham & Goulet-Cazé, The Cynics (1996)",
+              "Diogenes Laërtius, Lives, Book 6"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Diogenes seamlessly inhabited at least four contradictory roles: (1) slave who mastered his owner (reportedly telling Xeniades' household what to do), (2) homeless beggar who claimed to be richer and freer than kings, (3) social outcast who was one of the most sought-after conversationalists in Athens, (4) extreme ascetic who embraced natural bodily pleasure, (5) 'madman' who was considered among the wisest. He coined 'cosmopolites'—citizen of the world—while being a stateless exile. These contradictions were not tensions but the coherent core of his philosophy."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Navia, Diogenes of Sinope (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Multiple traditions describe Diogenes facing his own death with complete composure. When asked about burial, he reportedly said to throw his body over the wall for wild animals, or if that seemed improper, to put a stick in his hand so he could drive them away—then laughed at the impossibility of caring after death. He reportedly chose the manner of his death (various accounts: holding his breath, eating raw octopus, or simply dying of old age) with equanimity. This represents documented composure facing imminent personal death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Navia, Diogenes of Sinope (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diogenes reportedly trained himself to endure extreme heat and cold—embracing statues covered in snow in winter, rolling in hot sand in summer. He lived without shelter through Athenian and Corinthian seasons for decades, surviving on minimal food. Multiple sources indicate he maintained this regime into advanced old age (dying c. 323 BCE at reportedly 80+ years). This represents sustained physical endurance across life-stages, though no specific athletic feats are documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Diogenes Laërtius, Lives, Book 6",
+              "Branham, 'Defacing the Currency', in The Cynics (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diogenes was renowned for sharp wit and playful provocations—plucking a chicken to mock Plato, carrying a lantern at noon, reportedly sunbathing with evident pleasure when Alexander visited. His humor pervades the anecdotal tradition and appears genuinely joyful, not merely instrumental. However, much of his play was simultaneously didactic (philosophical performance), making it difficult to fully separate non-instrumental joy from teaching. His evident delight in wordplay and provocative acts suggests genuine playfulness beyond pure pedagogy."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.55,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Diogenes of Sinope",
+      "overall": {
+        "Core_5D_Avg": 6.55,
+        "Overall_Normalized_Equal_Avg": 5.86,
+        "General_Competency_Avg_10scale": 2.44
+      },
+      "summary": "Diogenes was a radical philosopher-provocateur whose strength lay in embodied philosophical practice rather than conventional competency breadth. Exceptional in existential composure, hardship tolerance, creative philosophical performance, and cultural legacy, he deliberately rejected most practical skills and institutional roles. His paradoxical integration of contradictory roles—slave/master, beggar/sage, fool/wisest—and his archetype as the truth-telling ascetic have resonated across civilizations for over two millennia. His narrow Heinlein competency range reflects not incapacity but deliberate philosophical commitment to radical simplicity, yielding a lopsided profile: towering in embodied-existential and cultural-social dimensions, modest in relational and practical domains.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.73,
+          "General_Competency_Avg_10scale": 2.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Diogenes reportedly ate raw food, scraps, and whatever he could obtain by begging. His philosophical commitment to simplicity meant deliberate rejection of culinary preparation. No evidence of cooking skill exists; he is specifically remembered for eating uncooked food."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Diogenes reportedly taught Xeniades' sons horseback riding and javelin throwing, suggesting some martial competence, era-appropriate for a Greek male of his social class. However, when captured by pirates he did not resist through combat. No personal feats of arms are documented. The training of others in martial skills provides weak evidence of personal combat capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As slave-tutor in Xeniades' household, Diogenes reportedly provided competent care and education for children, suggesting basic caregiving capacity. However, no evidence of sustained emotional caregiving across the lifespan (caring for elderly, sick, or grieving individuals) exists in the record. The tutoring role is the only documented caregiving context."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6",
+            "Desmond, Cynics (2008)",
+            "Navia, Diogenes of Sinope (2005)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Existential composure was arguably Diogenes' single greatest competency. He faced exile, enslavement, poverty, public humiliation, and death with documented equanimity. His composure before Alexander, his humor about his own burial ('put a stick in my hand to chase away the animals—oh wait, I'll be dead'), and his reported calm death all demonstrate exceptional composure in the face of mortality and crisis. His entire philosophical system was essentially a technology for existential composure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of manual craft, tool-making, or repair skills. Diogenes' material culture was deliberately minimal—a cloak, a bowl (which he discarded upon seeing a child drink from cupped hands), and a pithos. He created and repaired nothing physical that is documented."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Diogenes traveled from Sinope on the Black Sea coast to Athens and later to Corinth, and was reportedly captured by pirates during a sea voyage to Aegina. In the 4th century BCE, such travel required basic navigation and wayfinding. However, no exceptional navigational skill is documented; he traveled common routes."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of butchering, animal husbandry, or food processing skill. Diogenes ate what he could beg or scavenge, reportedly including raw meat and unprocessed food, but this reflects indifference to food preparation rather than processing skill."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6",
+            "Navia, Diogenes of Sinope (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Diogenes demonstrated both giving and following direction. He effectively led a philosophical movement, directing the education of Crates and Xeniades' household. He reportedly followed Antisthenes persistently despite initial rejection (Antisthenes threatened him with a stick; Diogenes offered his head and stayed). As a slave, he navigated the subordinate role while maintaining authority—a remarkable demonstration of both capacities simultaneously."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of construction or fabrication ability. Diogenes famously lived in a found ceramic storage jar (pithos) rather than building shelter. He progressively shed possessions rather than creating physical structures."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Diogenes deliberately rejected all forms of organized command and complex operational planning. He coordinated no campaigns, managed no logistics, and directed no collective enterprises. His life philosophy was the antithesis of strategic command structures."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6",
+            "Branham, 'Defacing the Currency', in The Cynics (1996)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Diogenes created a distinctive form of philosophical street performance—embodied provocations that function as art (the lantern scene, the plucked chicken, public acts as symbolic commentary). Diogenes Laërtius attributes several written works to him including dialogues and tragedies, though none survive. His aphorisms and witticisms demonstrate considerable literary craft and have endured as cultural touchstones for over two millennia."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of medical knowledge, wound treatment, bone-setting, or emergency response capability in the historical record. No anecdotes describe Diogenes treating illness or injury."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As an educated Greek of the 4th century BCE who studied with Antisthenes and engaged with Platonic philosophy, Diogenes possessed basic analytical reasoning skills evidenced by his logical refutations of other philosophers' arguments. However, no mathematical, quantitative, or systematic analytical achievements are documented."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Diogenes Laërtius, Lives, Book 6"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural knowledge or resource management. Diogenes lived as a mendicant, dependent on others' food production. He managed no land, cultivated no crops, and sustained no resources."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of engagement with the technical systems or technologies of his era (engineering, metallurgy, mechanics, architecture). Diogenes' problem-solving was entirely philosophical and social rather than technical or material."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.55,
+    "general_competency_avg_0_10": 2.44,
+    "overall_normalized_equal_avg_0_10": 5.86,
+    "created_at": "2026-03-15T01:07:48.734Z",
+    "updated_at": "2026-03-15T07:11:47.854Z"
+  }
+}
+]

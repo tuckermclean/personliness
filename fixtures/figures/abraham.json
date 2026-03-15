@@ -1,0 +1,359 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 81,
+  "fields": {
+    "name": "Abraham",
+    "slug": "abraham",
+    "bio_short": "Abraham, as depicted in Genesis, is a figure of enormous cultural-social impact but limited verifiable historicity. His greatest measurable contribution is archetypal and legacy-based: he stands at the origin point of three world religions and functions as a universal symbol of faith, hospitality, and covenant. The narrative portrays moderate cognitive and moral-affective qualities—strategic adaptability, ethical questioning of divine justice, and sustained courage across diverse hardships. His practical competencies reflect a semi-nomadic pastoral life: animal husbandry, navigation, resource ",
+    "bio_long": "Abraham is the common Hebrew patriarch of the Abrahamic religions, including Judaism, Christianity, and Islam. In Judaism, he is the founding father who began the covenantal relationship between the Jewish people and God; in Christianity, he is the spiritual progenitor of all believers, whether Jewish or non-Jewish; and in Islam, he is a link in the chain of Islamic prophets that begins with Adam and culminates in Muhammad. Abraham is also revered in other Abrahamic religions such as the Baháʼí Faith and the Druze faith.",
+    "source_notes": "https://en.wikipedia.org/wiki/Abraham",
+    "image": "figures/330px-Guercino_Abramo_ripudia_Agar_28cropped_229.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Van Seters, John, *Abraham in History and Tradition* (1975)",
+              "Speiser, E.A., *Genesis* (Anchor Bible Commentary, 1964)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Abraham adapted to multiple crises: he divided forces for a successful night raid against a coalition of kings to rescue Lot (Gen 14:14-16), diplomatically avoided conflict with Lot by proposing land division (Gen 13:8-9), and negotiated treaties with Abimelech at Beersheba (Gen 21:22-34). The sister-wife ruse (Gen 12, 20) shows self-preservation calculation, though its repetition and moral cost suggest tactical thinking without full strategic foresight."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Hendel, Ronald, *Remembering Abraham: Culture, Memory, and History in the Hebrew Bible* (2005)",
+              "Finkelstein, Israel & Silberman, Neil Asher, *The Bible Unearthed* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Within the Genesis narrative, Abraham's departure from Ur/Haran represents a radical break from established cultural and religious patterns—answering a call to an unknown land and an unprecedented covenantal relationship with a single deity (Gen 12:1-4). The paradigm shift toward monotheism attributed to Abraham is historically momentous, though modern scholarship sees monotheism as a gradual Israelite development rather than a single founder's innovation. The midrashic tradition of idol-smashing (Genesis Rabbah 38:13) is not in the biblical text."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Levenson, Jon D., *Inheriting Abraham: The Legacy of the Patriarch in Judaism, Christianity, and Islam* (2012)",
+              "Sarna, Nahum, *Understanding Genesis* (1966)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Abraham's challenge to God over Sodom—'Shall not the Judge of all the earth do right?' (Gen 18:23-25)—articulates a principle of divine accountability to justice that has profoundly influenced Jewish, Christian, and Islamic ethical theology. This represents a sophisticated moral argument (the innocent should not perish with the guilty) that transcended its original context. However, the words are attributed to Abraham by later authors and cannot be independently verified as his own articulation."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Speiser, E.A., *Genesis* (Anchor Bible Commentary, 1964)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Abraham managed a substantial household including 318 trained men (Gen 14:14), negotiated the commercial purchase of the Cave of Machpelah with the Hittites (Gen 23), and coordinated pastoral resources across multiple territories. However, the narrative shows no evidence of systems that endured beyond his direct oversight; the organizational structure is clan-based and personal rather than institutional."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Wenham, Gordon J., *Genesis 16-50* (Word Biblical Commentary, 1994)",
+              "Speiser, E.A., *Genesis* (Anchor Bible Commentary, 1964)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Abraham is depicted in multiple relational modes: spouse (to Sarah, Hagar, Keturah), parent (Isaac, Ishmael), kinsman/superior (Lot), subordinate (to God), peer negotiator and adversary (Pharaoh, Abimelech, King of Sodom), host to strangers (Gen 18), and ally/friend (Mamre, Aner, Eshkol in Gen 14:13). This represents at least six distinct relational modes with qualitatively different behaviors. However, the brevity of the narrative limits evidence of nuanced adaptation within each mode."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Trible, Phyllis, *Texts of Terror* (1984)",
+              "Sarna, Nahum, *Understanding Genesis* (1966)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Abraham's relationship with Sarah endured across decades of migration, childlessness, and crisis. He mourned her death with deep grief and purchased an elaborate burial site (Gen 23:2-20). Their partnership was genuine—Sarah participated in decision-making (Gen 16, 21). However, the sister-wife deceptions (Gen 12:10-20, Gen 20) represent significant failures in protecting his partner, prioritizing self-preservation over her safety. The Hagar situation, while Sarah-initiated, introduced lasting marital conflict. The balance of evidence shows a durable but flawed partnership."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Levenson, Jon D., *The Death and Resurrection of the Beloved Son* (1993)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Abraham's parenting record is deeply ambiguous. The Akedah (Gen 22)—willingness to sacrifice Isaac—is morally complex regardless of the divine command context. He sent Ishmael away, though with distress (Gen 21:11-14). He arranged Isaac's marriage (Gen 24), showing investment in his son's future. Isaac did carry on the covenantal tradition, but the Genesis narrative provides almost no detail about Abraham's day-to-day parenting, mentoring, or the development of his children's autonomy."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Levenson, Jon D., *Inheriting Abraham* (2012)",
+              "Feiler, Bruce, *Abraham: A Journey to the Heart of Three Faiths* (2002)",
+              "Peters, F.E., *The Children of Abraham* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Abraham's legacy is operative across Judaism, Christianity, and Islam—traditions encompassing over half the world's population—more than 3,000 years after his purported lifetime. His influence extends to law, theology, ethics, art, and geopolitics across multiple civilizations (Middle Eastern, European, African, Asian). Whether or not Abraham was a historical individual, the figure of Abraham has shaped world history on a scale matched by very few figures. The effects are still clearly operative today."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Levenson, Jon D., *Inheriting Abraham* (2012)",
+              "Kuschel, Karl-Josef, *Abraham: Sign of Hope for Jews, Christians, and Muslims* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Abraham functions as the archetype of faith and obedience across Judaism (Avraham Avinu), Christianity (father of faith, Romans 4, Hebrews 11), Islam (Ibrahim, Khalil Allah—'friend of God'), Bahá'í, and Druze traditions. He embodies the wanderer-patriarch, the hospitable host, and the figure tested by ultimate sacrifice. This cross-cultural, cross-religious recognition as a symbol is unambiguous and among the strongest in human history."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Levenson, Jon D., *Inheriting Abraham* (2012)",
+              "Thompson, Thomas L., *The Historicity of the Patriarchal Narratives* (1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Abraham established the covenantal practice of circumcision (Gen 17), which has endured for millennia as a religious institution. He purchased the Cave of Machpelah (Gen 23), establishing a burial site that became a sacred institution. The covenant community he initiated continued through Isaac and Jacob. However, within the narrative itself, Abraham is more the recipient of divine covenant than the architect of organizational systems; the enduring institutions (Judaism, Christianity, Islam) are retrospective attributions rather than his direct organizational achievements."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Van Seters, John, *Abraham in History and Tradition* (1975)",
+              "Bright, John, *A History of Israel* (4th ed., 2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Abraham led his clan through migration from Mesopotamia to Canaan, managed alliances with local rulers (Mamre, Aner, Eshkol in Gen 14:13), commanded 318 men in a successful military campaign (Gen 14), and negotiated with kings as a peer (Pharaoh, Abimelech, King of Sodom). He led in both crisis (warfare, famine-driven migration) and stability (pastoral settlement), demonstrating adaptability across contexts. His influence was primarily at the clan/tribal level rather than over large populations."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Sarna, Nahum, *Understanding Genesis* (1966)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Genesis depicts Abraham engaged in everyday activities even at the height of his patriarchal status: preparing food for guests (selecting a calf, directing meal preparation, Gen 18:6-8), planting a tamarisk tree (Gen 21:33), mourning and weeping for Sarah (Gen 23:2), negotiating a land purchase, and arranging his son's marriage (Gen 24). These domestic and mundane details connect him to ordinary human experience. However, the narrative is relatively brief and the domestic details are limited compared to more extensively documented figures."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Sarna, Nahum, *Understanding Genesis* (1966)",
+              "Wenham, Gordon J., *Genesis 1-15* (Word Biblical Commentary, 1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Sodom negotiation (Gen 18:23-25) is explicitly about justice—insisting the innocent not perish with the guilty. Abraham refused the spoils of war offered by the King of Sodom, swearing he would take nothing 'lest you should say, I have made Abram rich' (Gen 14:22-24), demonstrating integrity over self-interest. However, the sister-wife deceptions prioritized self-preservation over Sarah's safety, and the Hagar expulsion raises equity concerns, preventing a score of 3."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Sarna, Nahum, *Understanding Genesis* (1966)",
+              "Levenson, Jon D., *Inheriting Abraham* (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Abraham interceded passionately for the people of Sodom—strangers and reputed sinners—bargaining God down from fifty to ten righteous (Gen 18:22-33), showing compassion toward outgroup members. His lavish hospitality to three unknown visitors at Mamre, running to greet them despite the heat and his advanced age (Gen 18:1-8), is a paradigmatic act. He was also grieved at the prospect of expelling Hagar and Ishmael (Gen 21:11). The sister-wife deceptions, which placed Sarah at risk, are a counterexample but do not override the preponderant pattern."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Levenson, Jon D., *The Death and Resurrection of the Beloved Son* (1993)",
+              "Speiser, E.A., *Genesis* (Anchor Bible Commentary, 1964)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Abraham demonstrated sustained courage across qualitatively different high-stakes situations: leaving Ur/Haran for an unknown land on divine command (Gen 12:1-4), leading a night military raid against a coalition of four kings (Gen 14), and the Akedah—the binding of Isaac (Gen 22)—which represents an extreme test of resolve. These span migration, warfare, and the most intimate personal sacrifice, meeting the criterion for multiple high-stakes contexts."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Hendel, Ronald, *Remembering Abraham* (2005)",
+              "Wenham, Gordon J., *Genesis 16-50* (Word Biblical Commentary, 1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "The Genesis text notably preserves Abraham's moral failures rather than sanitizing them: the sister-wife deceptions (Gen 12, 20), the Hagar situation (Gen 16, 21). There is a visible arc from the fearful deception in Egypt (Gen 12) to radical obedience at the Akedah (Gen 22). When God corrected Abraham regarding Ishmael—'listen to whatever Sarah tells you'—he complied despite personal distress (Gen 21:11-14), showing acceptance of correction. The repetition of the sister-wife ruse limits the growth evidence, but the overall trajectory shows development."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Levenson, Jon D., *The Death and Resurrection of the Beloved Son* (1993)",
+              "Sarna, Nahum, *Understanding Genesis* (1966)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Abraham endured qualitatively different forms of adversity: material deprivation from famine forcing migration to Egypt (Gen 12:10), prolonged childlessness with Sarah lasting decades (Gen 15-21), family conflict and the painful expulsion of Hagar and Ishmael (Gen 21:9-14), and the near-sacrifice of Isaac (Gen 22). He functioned effectively through each crisis—making decisions, leading his household, and maintaining his covenantal commitments. This meets the criterion of effective functioning across at least two qualitatively different hardships."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Hendel, Ronald, *Remembering Abraham* (2005)",
+              "Levenson, Jon D., *Inheriting Abraham* (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Abraham inhabited several seemingly contradictory roles: warrior who attacked kings (Gen 14) and peacemaker who avoided conflict with Lot and made treaties (Gen 13, 21); one who challenged God's justice over Sodom (Gen 18) and one who obeyed without question at the Akedah (Gen 22); wealthy, powerful patriarch and vulnerable wandering stranger dependent on local rulers' goodwill. These represent at least three paradoxical pairings. However, the narrative presents them sequentially rather than showing Abraham consciously integrating them, and the literary construction may impose coherence."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Wenham, Gordon J., *Genesis 16-50* (Word Biblical Commentary, 1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Abraham prepared deliberately for death: he purchased the Cave of Machpelah as a family burial site (Gen 23), arranged Isaac's marriage to ensure continuity (Gen 24), settled his estate by giving gifts to the sons of his concubines and sending them away while leaving everything to Isaac (Gen 25:1-6). Genesis 25:8 reports he 'breathed his last and died at a good old age, an old man and full of years, and was gathered to his people'—language suggesting composure and completion rather than resistance."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Van Seters, John, *Abraham in History and Tradition* (1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Abraham undertook major migrations across the Fertile Crescent—from Ur to Haran to Canaan to Egypt and back (Gen 11-13)—and led a military raid at what the narrative describes as advanced age (Gen 14). Tradition attributes him 175 years of life, remaining active into old age. However, specific physical feats are not described in detail, and the age claims are clearly legendary rather than historical."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Speiser, E.A., *Genesis* (Anchor Bible Commentary, 1964)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Abraham held a great feast at Isaac's weaning (Gen 21:8), and his elaborate hospitality at Mamre (Gen 18:1-8) shows enjoyment in generous hosting. He planted a tamarisk tree at Beersheba (Gen 21:33), which may indicate aesthetic sensibility. However, evidence of non-instrumental joy or play is thin in the Genesis narrative; most recorded activities serve theological or practical purposes."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.28,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Abraham (biblical patriarch)",
+      "overall": {
+        "Core_5D_Avg": 6.28,
+        "Overall_Normalized_Equal_Avg": 6.01,
+        "General_Competency_Avg_10scale": 4.67
+      },
+      "summary": "Abraham, as depicted in Genesis, is a figure of enormous cultural-social impact but limited verifiable historicity. His greatest measurable contribution is archetypal and legacy-based: he stands at the origin point of three world religions and functions as a universal symbol of faith, hospitality, and covenant. The narrative portrays moderate cognitive and moral-affective qualities—strategic adaptability, ethical questioning of divine justice, and sustained courage across diverse hardships. His practical competencies reflect a semi-nomadic pastoral life: animal husbandry, navigation, resource management, and military leadership. Severe source-critical limitations (no independent corroboration, literary composition centuries after purported events) cap confidence across most trait assessments. His relational portrait is complex but narratively thin.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.4,
+          "General_Competency_Avg_10scale": 4.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Speiser, E.A., *Genesis* (Anchor Bible Commentary, 1964)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Abraham coordinated the preparation of a meal for the three visitors at Mamre: he directed Sarah to make cakes from fine flour, selected a calf and had a servant prepare it, and served curds and milk alongside (Gen 18:6-8). This shows knowledge of hosting and food preparation but is primarily a coordination role rather than personal cooking skill."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Speiser, E.A., *Genesis* (Anchor Bible Commentary, 1964)",
+            "Sarna, Nahum, *Understanding Genesis* (1966)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Low",
+          "justification": "Abraham armed 318 trained men from his household and successfully defeated the coalition of Chedorlaomer and three allied kings in a night attack, pursuing them from Dan to Hobah north of Damascus and recovering all captives and goods (Gen 14:14-16). This represents effective personal combat leadership, though only one military engagement is recorded."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Sarna, Nahum, *Understanding Genesis* (1966)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Abraham showed concern for his household's welfare, was grieved at sending Hagar and Ishmael away (Gen 21:11-14), and provided lavish hospitality to strangers at Mamre (Gen 18:1-8). However, specific sustained caregiving acts are not detailed in the narrative beyond these episodes."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Levenson, Jon D., *The Death and Resurrection of the Beloved Son* (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Abraham faced the Akedah—the demand to sacrifice his only covenantal son—with composure, rising early and proceeding methodically (Gen 22:3). He prepared for death by arranging his estate, purchasing a burial site, and settling Isaac's marriage (Gen 23-25). His death at 'a good old age, full of years' (Gen 25:8) suggests existential completion. These demonstrate composure in the face of both crisis and mortality."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Speiser, E.A., *Genesis* (Anchor Bible Commentary, 1964)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Abraham built altars from gathered stones (Gen 12:7, 22:9), dug wells (Gen 21:30), and prepared wood for the Akedah sacrifice (Gen 22:3). These represent basic manual skills. No evidence of tool-making, repair, or advanced craft work."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Van Seters, John, *Abraham in History and Tradition* (1975)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Low",
+          "justification": "Abraham navigated the major route from Ur in Mesopotamia to Haran, then through Canaan (Shechem, Bethel, the Negev), down to Egypt, and back (Gen 11:31-13:1). He later traveled to and from various sites in Canaan. This represents significant wayfinding across diverse terrain—river valleys, highlands, desert—in an era without maps, era-normalized to a high competency."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Sarna, Nahum, *Understanding Genesis* (1966)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Abraham was a successful pastoralist with large herds of cattle, sheep, and goats (Gen 13:2, 5). He personally selected a 'tender and good' calf for the visitors at Mamre and had it prepared (Gen 18:7). Era-normalized, managing livestock and selecting animals for slaughter represents competent food processing skill for a semi-nomadic patriarch."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Levenson, Jon D., *Inheriting Abraham* (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Abraham effectively gave orders (commanding his household, leading military operations in Gen 14, directing servants in Gen 22 and 24) and followed divine commands even when costly (leaving Ur in Gen 12:1-4, the Akedah in Gen 22, expelling Ishmael in Gen 21:12-14). This demonstrates both poles of the leadership-followership spectrum in distinct contexts."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Speiser, E.A., *Genesis* (Anchor Bible Commentary, 1964)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Abraham built altars at multiple locations (Shechem, Bethel, Hebron, Moriah—Gen 12:7, 12:8, 13:18, 22:9) and dug wells (Gen 21:30). These represent basic construction skills appropriate to his era and context, but no evidence of building durable structures or complex fabrication."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Speiser, E.A., *Genesis* (Anchor Bible Commentary, 1964)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Low",
+          "justification": "Abraham divided his 318 trained men and executed a successful night attack against the coalition of Chedorlaomer and allied kings, pursuing them as far as Dan and beyond Damascus to recover Lot and the captives (Gen 14:14-16). This demonstrates coordinated military planning and command in a complex operation."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Van Seters, John, *Abraham in History and Tradition* (1975)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "The Genesis narrative contains no evidence of Abraham creating works of art, music, literature, or performance. While he came from Ur, a culturally rich Mesopotamian city, no artistic activity is attributed to him personally."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Wenham, Gordon J., *Genesis 16-50* (Word Biblical Commentary, 1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Abraham performed circumcision on his entire household, including himself at age 99 and Ishmael at age 13 (Gen 17:23-27). Era-normalized, this represents a minor surgical/medical procedure requiring some practical knowledge of wound care. No other medical evidence is recorded."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Sarna, Nahum, *Understanding Genesis* (1966)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Abraham's stepwise bargaining with God over Sodom (50→45→40→30→20→10, Gen 18:24-32) demonstrates logical sequential reasoning. Managing substantial wealth in livestock and silver (Gen 13:2, 23:15-16) implies accounting ability. However, no mathematical or analytical achievements are documented beyond basic commercial and rhetorical competence."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Sarna, Nahum, *Understanding Genesis* (1966)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Abraham managed extensive pastoral resources—flocks, herds, silver, gold, and servants (Gen 13:2)—across multiple territories. He negotiated water rights and well access at Beersheba (Gen 21:25-31). He planted a tamarisk tree (Gen 21:33). His wealth grew substantially during his lifetime, suggesting effective resource management in a semi-arid environment."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Van Seters, John, *Abraham in History and Tradition* (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Abraham dug wells in the Negev region (Gen 21:25-30), which represents era-appropriate technical skill in arid-land water management. The well at Beersheba was significant enough to occasion a treaty. However, no other technical or systemic innovations are attributed to him."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.28,
+    "general_competency_avg_0_10": 4.67,
+    "overall_normalized_equal_avg_0_10": 6.01,
+    "created_at": "2026-03-15T07:18:15.496Z",
+    "updated_at": "2026-03-15T07:18:15.500Z"
+  }
+}
+]

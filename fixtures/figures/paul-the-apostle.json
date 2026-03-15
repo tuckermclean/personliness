@@ -1,0 +1,372 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 79,
+  "fields": {
+    "name": "Paul the Apostle",
+    "slug": "paul-the-apostle",
+    "bio_short": "Paul the Apostle scores near-maximally on cognitive (strategic, philosophical, creative) and cultural-social (institution-building, legacy, archetype) dimensions—one of history's most impactful figures. His moral-affective profile shows exceptional courage but moderate compassion and justice orientation. Embodied-existential strength in hardship tolerance, mortality acceptance, and paradox integration is offset by limited aesthetic engagement. The relational dimension is constrained by absence of spousal partnership. Heinlein competency is narrow—exceptional in leadership/command and existenti",
+    "bio_long": "Paul, commonly known as Paul the Apostle or Saint Paul, was a Christian apostle who spread the teachings of Jesus in the first-century AD. For his contributions towards the New Testament, he is generally regarded as one of the most important figures of the Apostolic Age, and he also founded several Christian communities in Asia Minor and Europe from the mid-40s to the mid-50s AD.",
+    "source_notes": "https://en.wikipedia.org/wiki/Paul_the_Apostle",
+    "image": "figures/330px-Fresco_of_Saint_Paul_at_Ephesus.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Murphy-O'Connor, *Paul: A Critical Life* (1996)",
+              "Meeks, *The First Urban Christians* (1983, 2003)",
+              "Sanders, *Paul: The Apostle's Life, Letters, and Thought* (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul targeted major urban centers along Roman trade routes (Corinth, Ephesus, Thessalonica, Philippi) as hubs for regional diffusion. When expelled from synagogues, he pivoted to Gentile audiences (Acts 18:6). He adapted his self-presentation by context ('to the Jews I became as a Jew,' 1 Cor 9:20-22), negotiated the Jerusalem Council compromise (Gal 2:1-10), and strategically appealed to Caesar when facing trial in Judea (Acts 25:11). His letter to the Romans was a carefully crafted diplomatic-theological document preparing the ground for his planned western mission to Spain (Rom 15:24)."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Sanders, *Paul and Palestinian Judaism* (1977)",
+              "Dunn, *The Theology of Paul the Apostle* (1998)",
+              "Fredriksen, *Paul: The Pagans' Apostle* (2017)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul was the primary architect of the theological framework that transformed a Jewish messianic sect into a universal religion. His innovation of Gentile inclusion without full Torah observance (circumcision, dietary laws) represented a genuine paradigm shift—there is a clear before/after in the trajectory of the Jesus movement attributable to his intervention. His reinterpretation of Jewish covenantal categories (law, righteousness, election) in light of Christ created an entirely new theological vocabulary that restructured Western religious thought."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Dunn, *The Theology of Paul the Apostle* (1998)",
+              "Sanders, *Paul and Palestinian Judaism* (1977)",
+              "Wright, *Paul and the Faithfulness of God* (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul articulated justification by faith (Romans 3-5), the dialectic of law and grace (Galatians), the body-of-Christ ecclesiology (1 Cor 12), and radical universalism ('neither Jew nor Gentile, neither slave nor free,' Gal 3:28). These concepts influenced thinkers far beyond his own community and era, including Augustine, Luther, Kierkegaard, and Barth. His engagement with Stoic and Hellenistic philosophy at the Areopagus (Acts 17:22-31) demonstrates cross-cultural philosophical fluency."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Meeks, *The First Urban Christians* (1983, 2003)",
+              "Roetzel, *Paul: The Man and the Myth* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Paul founded churches across the Mediterranean and organized the inter-church collection for Jerusalem—a logistically complex cross-regional fundraising effort (2 Cor 8-9, Rom 15:25-27). He appointed co-workers (Timothy, Titus) to manage communities and maintained communication networks across vast distances. However, his communities experienced significant internal conflicts during his lifetime (Corinthian factions, Galatian Judaizing crisis), and formal institutional structures (bishops, deacons) developed mainly after his death, as reflected in the likely pseudepigraphal Pastoral Epistles."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Meeks, *The First Urban Christians* (1983, 2003)",
+              "Mitchell, *Paul and the Rhetoric of Reconciliation* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Paul operated across multiple relational modes with differentiated behavior: authority figure (firm correction to Corinthians), mentor (warm nurture to Timothy), friend (affectionate persuasion to Philemon), adversary (confrontation of Peter at Antioch, Gal 2:11), subordinate (submitted his gospel to Jerusalem pillars, Gal 2:2), and stranger (philosophical engagement at the Areopagus, Acts 17). His letters show distinct tones for different relationships. However, the absence of spousal and biological parental modes represents genuine gaps in relational breadth."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Murphy-O'Connor, *Paul: A Critical Life* (1996)",
+              "Deming, *Paul on Marriage and Celibacy* (2004)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Paul was apparently unmarried during his apostolic career ('I wish that all of you were as I am,' 1 Cor 7:7-8). Some scholars speculate prior marriage based on Pharisaic norms, but there is no documented evidence of any spousal relationship to evaluate. No partner is named or described in any source."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Bruce, *Paul: Apostle of the Heart Set Free* (1977)",
+              "Meeks, *The First Urban Christians* (1983, 2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Paul mentored Timothy ('my true child in the faith,' 1 Tim 1:2; 'my beloved child,' 2 Tim 1:2), Titus, and others. Timothy became an independent church leader at Ephesus; Titus managed the Corinthian crisis and led in Crete. Priscilla and Aquila, trained in his orbit, became significant leaders themselves (Rom 16:3-4). However, the sharp break with Barnabas and John Mark (Acts 15:39) suggests limitations in mentoring patience, and the depth of mentee autonomy versus dependence is hard to assess from the sources."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Wright, *Paul and the Faithfulness of God* (2013)",
+              "Dunn, *The Theology of Paul the Apostle* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul's impact remains operative nearly 2,000 years later across virtually every civilization. His letters constitute roughly a quarter of the New Testament. His theological concepts (justification by faith, grace, the body of Christ) shaped Western philosophy, law, and ethics through Augustine, Aquinas, Luther, Calvin, and beyond. Christianity, which he did more than any single person to shape as a universal rather than Jewish-sectarian movement, is the world's largest religion with ~2.4 billion adherents."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Badiou, *Saint Paul: The Foundation of Universalism* (2003)",
+              "Agamben, *The Time That Remains* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul serves as the archetypal convert (persecutor-turned-champion), the archetypal missionary, and the archetypal theologian-in-action. The phrase 'road to Damascus' has entered multiple languages as a universal metaphor for sudden transformation. He is recognized across all Christian denominations, referenced in Islamic tradition (as an ambiguous figure), and studied in secular philosophy and political theory. His conversion narrative is one of the most recognized stories in world culture."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Meeks, *The First Urban Christians* (1983, 2003)",
+              "Dunn, *Beginning from Jerusalem* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul founded churches in Corinth, Philippi, Thessalonica, Galatia, and Ephesus that survived well beyond two generations. His letters became canonical institutional documents read in churches for centuries. The Pauline church network became the backbone of early Christianity and evolved into the institutional church. The organizational DNA he established—house churches, leadership roles, inter-community financial solidarity—has endured recognizably for nearly two millennia."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Meeks, *The First Urban Christians* (1983, 2003)",
+              "Clarke, *A Pauline Theology of Church Leadership* (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul led successfully across qualitatively different contexts: founding small house churches, managing crisis in major urban congregations (Corinthian divisions), negotiating at the Jerusalem Council, directing co-workers across the Mediterranean (Timothy, Titus, Priscilla and Aquila), and maintaining leadership authority from prison through letters. He mobilized both Jewish and Gentile audiences across diverse cultural settings from Jerusalem to Rome."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Hock, *The Social Context of Paul's Ministry: Tentmaking and Apostleship* (1980)",
+              "Murphy-O'Connor, *Paul: A Critical Life* (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Paul references his tentmaking trade and manual labor ('we work with our own hands,' 1 Cor 4:12; Acts 18:3), maintaining artisan status even as an apostle. He describes everyday deprivations—hunger, thirst, poor clothing (2 Cor 11:27). His letters contain personal touches: named greetings to dozens of individuals (Romans 16), expressions of loneliness ('only Luke is with me,' 2 Tim 4:11), and requests for mundane items ('bring the cloak I left,' 2 Tim 4:13, though likely pseudepigraphal). However, his letters are primarily theological, not windows into mundane daily life."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Horrell, *Solidarity and Difference* (2005)",
+              "Barclay, *Paul and the Gift* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Paul's public confrontation of Peter at Antioch over discriminatory table fellowship (Gal 2:11-14) demonstrates willingness to challenge powerful allies on principle. His letter to Philemon subtly but firmly pressures a patron to receive the returning slave Onesimus 'no longer as a slave, but... as a beloved brother' (Phlm 16), arguably against his own relational interest. His Galatians 3:28 universalism articulates a justice vision. However, his statements on existing social structures (1 Cor 7:21 on slavery; 1 Cor 11:3-16 on gender hierarchy) show accommodation to prevailing norms rather than consistent prophetic challenge."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Furnish, *The Moral Teaching of Paul* (1985)",
+              "Wright, *Paul and the Faithfulness of God* (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Paul shows genuine emotional engagement with his communities: tears over the Corinthians (2 Cor 2:4), tender language toward Thessalonians ('like a nursing mother,' 1 Thess 2:7), and his personal plea for the slave Onesimus in Philemon. He organized the collection for the poor in Jerusalem (Rom 15:25-27). However, he could be harsh toward opponents—cursing those preaching a different gospel (Gal 1:8-9) and sarcastically attacking the 'super-apostles' (2 Cor 11:5). Documented compassion toward outgroup adversaries is limited compared to in-group care."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Murphy-O'Connor, *Paul: A Critical Life* (1996)",
+              "Bruce, *Paul: Apostle of the Heart Set Free* (1977)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul's catalogue of sufferings (2 Cor 11:23-28) documents sustained courage across numerous high-stakes situations: 'Five times I received forty lashes minus one, three times I was beaten with rods, once I was pelted with stones, three times I was shipwrecked.' He was stoned at Lystra and left for dead, yet continued (Acts 14:19-20). He voluntarily went to Jerusalem knowing arrest was likely (Acts 21:13). Imprisonment did not halt his literary and pastoral activity (the 'captivity epistles')."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Segal, *Paul the Convert* (1990)",
+              "Sanders, *Paul: The Apostle's Life, Letters, and Thought* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Paul's conversion from persecutor of Christians to their foremost advocate is the most dramatic documented moral reversal in antiquity, with sustained behavioral change (1 Cor 15:9: 'I persecuted the church of God'). He submitted his gospel to the Jerusalem pillars for review (Gal 2:2), showing openness to evaluation. He acknowledged ongoing moral struggle (Rom 7:19). However, post-conversion evidence of accepting correction from peers is thin—he was typically the one correcting others, and there are no clear documented instances of him reversing an apostolic-era position based on criticism."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Bruce, *Paul: Apostle of the Heart Set Free* (1977)",
+              "Hafemann, *Suffering and Ministry in the Spirit* (1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul endured multiple qualitatively different forms of adversity while remaining highly productive: material deprivation ('hungry and thirsty, poorly clothed, buffeted and homeless,' 1 Cor 4:11), severe physical violence (beatings, stoning, shipwreck per 2 Cor 11:23-28), imprisonment on multiple occasions, personal betrayal (abandoned by Demas, 2 Tim 4:10; split with Barnabas, Acts 15:39), and chronic illness ('thorn in the flesh,' 2 Cor 12:7). Through all of this he produced his most important theological writings and maintained active leadership."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Savage, *Power through Weakness* (1996)",
+              "Wright, *Paul and the Faithfulness of God* (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul inhabited at least four seemingly contradictory roles coherently: (1) persecutor turned champion of the persecuted; (2) Torah-trained Pharisee who argued against Torah observance for Gentiles; (3) authoritative leader who emphasized his own weakness ('when I am weak, then I am strong,' 2 Cor 12:10); (4) Jewish nationalist who became apostle to the Gentiles; (5) intellectual theologian and manual laborer (tentmaker); (6) Roman citizen who subverted imperial ideology. He held these paradoxes together theologically through his 'power in weakness' framework."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "1 Clement 5 (c. 96 AD)",
+              "Fee, *Paul's Letter to the Philippians* (1995)",
+              "Tajra, *The Martyrdom of St. Paul* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Paul explicitly discussed his own imminent death with composure during imprisonment: 'For to me, to live is Christ and to die is gain... I am hard pressed between the two' (Phil 1:21-23, undisputed). He willingly traveled to Jerusalem despite prophecies of arrest (Acts 21:13). Early tradition (1 Clement 5, c. 96 AD) attests to his martyrdom under Nero, and Philippians demonstrates he faced execution as a real possibility with equanimity and theological intentionality rather than fear."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Murphy-O'Connor, *Paul: A Critical Life* (1996)",
+              "Ware, *Paul and the Mission of the Church* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Paul's missionary journeys covered thousands of miles by land and sea across the Mediterranean over roughly two decades. His catalogue of sufferings (2 Cor 11:23-28) documents surviving multiple beatings, a stoning, three shipwrecks, and exposure to elements. He continued active ministry despite a chronic 'thorn in the flesh' (2 Cor 12:7), possibly illness or disability. Era-normalized, this represents remarkable physical endurance for an itinerant, though he was not noted for athletic prowess."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Witherington, *Paul's Letter to the Philippians* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Paul expresses joy frequently, especially in Philippians ('Rejoice in the Lord always,' Phil 4:4), and employs occasional irony and humor (the sarcastic 'super-apostles' passages in 2 Cor 11-12). His literary passages achieve genuine aesthetic power (1 Cor 13, Rom 8:31-39). However, these expressions appear primarily instrumental—deployed for theological and pastoral purposes rather than reflecting non-instrumental engagement with beauty, leisure, or play for its own sake. No evidence of engagement with visual arts, music, games, or recreation."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 4.44,
+          "Core_5D_Avg": 7.69,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Paul the Apostle",
+      "overall": {
+        "Core_5D_Avg": 7.69,
+        "Overall_Normalized_Equal_Avg": 7.11,
+        "General_Competency_Avg_10scale": 4.22
+      },
+      "summary": "Paul the Apostle scores near-maximally on cognitive (strategic, philosophical, creative) and cultural-social (institution-building, legacy, archetype) dimensions—one of history's most impactful figures. His moral-affective profile shows exceptional courage but moderate compassion and justice orientation. Embodied-existential strength in hardship tolerance, mortality acceptance, and paradox integration is offset by limited aesthetic engagement. The relational dimension is constrained by absence of spousal partnership. Heinlein competency is narrow—exceptional in leadership/command and existential composure but lacking in practical domains (agriculture, cooking, combat, medicine). Core 5D Avg: 7.69/10; Heinlein: 4.22/10; Overall: 7.11/10.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.27,
+          "General_Competency_Avg_10scale": 4.22
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No documented evidence of culinary skill. Paul's references to food are theological (the Lord's Supper, 1 Cor 11:17-34; meat offered to idols, 1 Cor 8-10) or autobiographical regarding deprivation ('in hunger and thirst,' 2 Cor 11:27), not culinary competence."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Paul endured violence but did not engage in combat. He was beaten, stoned, and shipwrecked (2 Cor 11:23-28) but his response was consistently to endure rather than fight. He used military metaphors ('the armor of God,' Eph 6:11-17, likely pseudepigraphal) but no evidence of actual combat skill or physical self-defense capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Gaventa, *Our Mother Saint Paul* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Paul provided extensive spiritual and emotional care to his communities—comforting the grieving Thessalonians (1 Thess 4:13-18), sending Timothy to check on communities' welfare (1 Thess 3:1-5), and interceding for the vulnerable Onesimus (Philemon). He described himself as 'like a nursing mother' (1 Thess 2:7). However, there is no evidence of physical caregiving—nursing the sick, tending children, or hands-on care of the elderly or dying."
+        },
+        "Existential Composure": {
+          "citations": [
+            "1 Clement 5 (c. 96 AD)",
+            "Fee, *Paul's Letter to the Philippians* (1995)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Paul faced mortality and crisis with extraordinary composure: 'For to me, to live is Christ and to die is gain' (Phil 1:21). He discussed his potential execution during imprisonment with theological equanimity (Phil 1:20-24). He willingly walked into danger at Jerusalem (Acts 21:13: 'I am ready not only to be imprisoned but even to die'). Early tradition (1 Clement 5, c. 96 AD) attests that he bore witness before rulers and died with dignity. His 'thorn in the flesh' passage (2 Cor 12:7-10) shows composed acceptance of chronic suffering."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Hock, *The Social Context of Paul's Ministry: Tentmaking and Apostleship* (1980)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Paul's tentmaking trade (Acts 18:3, cf. 1 Cor 4:12, 1 Thess 2:9) involved manual craft skills—working with leather, fabric, needles, and knives. He explicitly noted working with his hands to support himself. This represents competence in one specific craft domain, but no evidence of broader repair or tool-making ability."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Murphy-O'Connor, *Paul: A Critical Life* (1996)",
+            "Casson, *Travel in the Ancient World* (1974)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Paul traveled extensively across the Mediterranean by land and sea over two decades—from Jerusalem to Damascus, Antioch, across Asia Minor, through Macedonia and Achaia, and ultimately to Rome. He navigated multiple routes, adjusted travel plans based on conditions (prevented from entering Bithynia, Acts 16:7; changed course to avoid a plot, Acts 20:3). The shipwreck narrative (Acts 27) shows awareness of seasonal maritime risks. Era-normalized for a 1st-century itinerant without maps, this represents strong competence."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence in Paul's letters, Acts, or any early source that Paul engaged in butchering, animal husbandry, or food processing. His food references are theological (the Lord's Supper, meat offered to idols in 1 Cor 8-10) rather than practical."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Clarke, *A Pauline Theology of Church Leadership* (2008)",
+            "Meeks, *The First Urban Christians* (1983, 2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Paul demonstrated exceptional leadership—founding and directing churches across the Mediterranean, managing co-workers, and maintaining authority through crises. He also demonstrated followership: he worked under Barnabas's leadership on the first missionary journey (Acts 13:1-2, where Barnabas is named first), submitted his gospel to the Jerusalem pillars for evaluation (Gal 2:2), accepted the Jerusalem Council's decision on the collection, and deferred to local church leaders when appropriate. This dual capacity is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Hock, *The Social Context of Paul's Ministry: Tentmaking and Apostleship* (1980)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Paul was a σκηνοποιός (tentmaker/leatherworker) by trade (Acts 18:3), which involved cutting, stitching, and constructing tent structures or leather goods. This represents a specific fabrication skill, but there is no evidence of broader construction ability—building walls, designing structures, or working with wood or stone."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Murphy-O'Connor, *Paul: A Critical Life* (1996)",
+            "Meeks, *The First Urban Christians* (1983, 2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Paul planned and executed at least three major missionary journeys across the eastern Mediterranean, coordinated the inter-church collection for Jerusalem (2 Cor 8-9), managed multiple community crises simultaneously from a distance, and deployed co-workers strategically (sending Timothy to Thessalonica, Titus to Corinth). His appeal to Caesar (Acts 25:11) transformed an adverse legal situation into an opportunity to reach Rome. His letter to the Romans prepared logistics and theological ground for his Spanish mission."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Witherington, *New Testament Rhetoric* (2009)",
+            "Betz, *Galatians* (Hermeneia commentary, 1979)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Paul's letters contain passages of exceptional literary power: the love hymn (1 Cor 13), the Christ hymn (Phil 2:5-11, possibly pre-Pauline but deliberately chosen), and the rhetorical crescendo of Romans 8:31-39. He employed sophisticated Hellenistic rhetorical techniques and Jewish midrashic methods. His training included both Pharisaic hermeneutics and Greco-Roman rhetoric. While primarily functional, his literary output achieves genuine artistic quality that has been admired across centuries."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No documented evidence of Paul providing medical aid or emergency medical response. His companion Luke is identified as a physician (Col 4:14, if authentic), but Paul himself shows no medical competence in any source. His healing miracles in Acts (Acts 14:10, 19:12, 28:8) are presented as charismatic/divine rather than medical skill."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Dunn, *The Theology of Paul the Apostle* (1998)",
+            "Betz, *Galatians* (Hermeneia commentary, 1979)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Paul's theological arguments demonstrate rigorous analytical reasoning—Romans is a masterwork of sustained logical argumentation across 16 chapters. His Pharisaic training (under Gamaliel, per Acts 22:3) would have included structured analytical methods of scriptural interpretation. He managed financial logistics for the collection across multiple cities (2 Cor 8-9). However, there is no evidence of mathematical or quantitative reasoning beyond basic financial management."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Hock, *The Social Context of Paul's Ministry: Tentmaking and Apostleship* (1980)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Paul engaged in agriculture, farming, animal husbandry, or natural resource management. He used agricultural metaphors ('I planted, Apollos watered,' 1 Cor 3:6) but these are rhetorical. He was an urban artisan by background (Tarsus) and practice."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Meeks, *The First Urban Christians* (1983, 2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Paul's tentmaking involved technical craft knowledge relevant to his era. His organizational system for the inter-church collection (designating representatives from each church, establishing procedures for gathering funds per 1 Cor 16:1-4) represents systemic problem-solving. However, there is no evidence of engagement with the cutting-edge technologies of his era (Roman engineering, architecture, metallurgy)."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.69,
+    "general_competency_avg_0_10": 4.22,
+    "overall_normalized_equal_avg_0_10": 7.11,
+    "created_at": "2026-03-15T01:09:49.390Z",
+    "updated_at": "2026-03-15T07:11:47.857Z"
+  }
+}
+]

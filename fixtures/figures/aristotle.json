@@ -1,0 +1,375 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 93,
+  "fields": {
+    "name": "Aristotle",
+    "slug": "aristotle",
+    "bio_short": "Aristotle represents one of history's supreme intellects, scoring exceptionally in cognitive and cultural-social dimensions. He founded formal logic, pioneered systematic biology, and built institutions whose influence persists 2,400 years later. His moral-affective profile is moderate—his ethical writings are foundational, but personal compassion and moral growth evidence is limited. Embodied-existential and relational scores reflect a life primarily of the mind, with adequate but not exceptional documentation of physical, emotional, or interpersonal depth. Heinlein-style practical competency",
+    "bio_long": "Aristotle was an ancient Greek philosopher and polymath. His writings cover a broad range of subjects spanning the natural sciences, philosophy, linguistics, economics, politics, psychology, and the arts. As the founder of the Peripatetic school of philosophy in the Lyceum in Athens, he began the wider Aristotelian tradition that followed, which set the groundwork for the development of modern science.",
+    "source_notes": "https://en.wikipedia.org/wiki/Aristotle",
+    "image": "figures/330px-Aristotle_Altemps_Inv8575.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book V",
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Aristotle navigated dangerous political environments twice—leaving Athens after Plato's death amid anti-Macedonian sentiment (~347 BCE) and again in 322 BCE after Alexander's death, reportedly saying he would not let Athens 'sin twice against philosophy.' He strategically positioned himself as tutor to Alexander (~343 BCE), securing patronage that later funded the Lyceum. He adapted his institutional plans when political circumstances shifted, but he was not primarily a military or political strategist, and his adaptations were largely reactive."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Lennox, James G., Aristotle's Philosophy of Biology (Cambridge UP, 2001)",
+              "Smith, Robin, Aristotle's Prior Analytics (Hackett, 1989)",
+              "Halliwell, Stephen, Aristotle's Poetics (Duckworth, 1986)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Aristotle invented formal syllogistic logic (Prior Analytics), which remained the dominant logical framework until Frege in the 19th century—a clear paradigm shift. He essentially created systematic biology through empirical observation and classification in Historia Animalium and Parts of Animals, pioneering a method Darwin later praised. He founded comparative political science by collecting and analyzing 158 constitutions, and created literary criticism as a discipline with the Poetics. Multiple paradigm shifts are attributable to him."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Ackrill, J.L., Aristotle the Philosopher (Oxford UP, 1981)",
+              "Broadie, Sarah, Ethics with Aristotle (Oxford UP, 1991)",
+              "Adamson, Peter, Philosophy in the Islamic World (Oxford UP, 2016)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "His Nicomachean Ethics articulated virtue ethics, eudaimonia, and the doctrine of the mean—frameworks that influenced Al-Farabi, Avicenna, and Averroes in the Islamic world, Maimonides in Jewish philosophy, and Thomas Aquinas in Christian thought, who called him simply 'The Philosopher.' His Metaphysics and Categories shaped ontological thinking for two millennia. These contributions far transcend his own community and era, meeting the score-3 threshold decisively."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Lynch, John Patrick, Aristotle's School (University of California Press, 1972)",
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He founded and organized the Lyceum (~335 BCE) as a systematic research institution, directing collaborative projects including the collection of 158 Greek constitutions and coordinated biological surveys. The Lyceum survived under Theophrastus and subsequent scholarchs for several generations. However, his administrative achievement was institutional rather than state-level, and the Lyceum's long-term endurance was more modest than, say, Plato's Academy."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book V",
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Documented relational modes include: long-term student to Plato (~20 years), spouse/partner (Pythias, Herpyllis), parent (Nicomachus, daughter Pythias), mentor/teacher (Alexander, Theophrastus, many students), institutional leader (Lyceum), friend and political ally (Hermias of Atarneus—he reportedly composed a hymn to Hermias after his death), and foreign resident (metic) navigating Athenian society. This spans at least 6–7 relational modes. However, evidence of qualitatively distinct relational behavior across these modes is thin—we know far more about his intellectual output than his interpersonal adaptability."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book V",
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Aristotle married Pythias, niece of his patron Hermias of Atarneus, and after her death took Herpyllis as a companion, with whom he had his son Nicomachus. His will (Diogenes Laertius V.11–16) shows notable care for Herpyllis, providing her a choice of two residences and financial support, and requesting that Pythias's bones be reburied with his own per her wishes. These provisions suggest genuine affection and fidelity to both partners. However, detailed evidence of the emotional quality and mutuality of these relationships is limited by source constraints."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Lynch, John Patrick, Aristotle's School (University of California Press, 1972)",
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "As a mentor, Aristotle produced genuinely autonomous and competent successors: Theophrastus became a distinguished independent philosopher and botanist who led the Lyceum; Alexander the Great, whatever one's assessment, showed intellectual curiosity and independent vision; Aristoxenus made independent contributions to music theory. The naming of the Nicomachean Ethics (whether for his father or son) suggests intergenerational investment. However, direct evidence about the quality of the mentoring process itself (rather than outcomes alone) is limited."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Barnes, Jonathan (ed.), The Cambridge Companion to Aristotle (Cambridge UP, 1995)",
+              "Adamson, Peter, Philosophy in the Islamic World (Oxford UP, 2016)",
+              "Rubenstein, Richard E., Aristotle's Children (Harcourt, 2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Aristotle's impact remains clearly operative 2,400 years later across multiple civilizations. His logic dominated Western and Islamic thought until the 19th century. His ethics, political philosophy, and metaphysics remain core curriculum in philosophy worldwide. His biological classification influenced Linnaeus. Islamic civilization transmitted and elaborated his works (Averroes' commentaries), and Aquinas synthesized them with Christianity. Few figures in human history match the breadth and duration of his intellectual legacy."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Barnes, Jonathan (ed.), The Cambridge Companion to Aristotle (Cambridge UP, 1995)",
+              "Rubenstein, Richard E., Aristotle's Children (Harcourt, 2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Aristotle embodies the archetype of 'The Philosopher' and the encyclopedic polymath across multiple civilizations. Aquinas called him simply 'The Philosopher'; in the Islamic tradition he was 'The First Teacher' (al-Mu'allim al-Awwal). Raphael placed him centrally in The School of Athens. Dante placed him in Limbo as the 'master of those who know.' He is recognized as a universal symbol of systematic human knowledge far beyond Greek culture."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Lynch, John Patrick, Aristotle's School (University of California Press, 1972)",
+              "Wians, William (ed.), Aristotle's Philosophical Development (Rowman & Littlefield, 1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Lyceum survived under Theophrastus, Strato, and subsequent scholarchs for over two centuries—well beyond two generations. More profoundly, Aristotle's model of systematic, collaborative empirical inquiry became the template for later scholarly institutions, influencing the organization of medieval universities and modern academic disciplines. The Peripatetic tradition maintained recognizable continuity in method and subject matter long after his death."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)",
+              "Lynch, John Patrick, Aristotle's School (University of California Press, 1972)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Aristotle led in qualitatively different contexts: as an intimate tutor to Alexander the Great (small-group, high-stakes mentoring of a future king), as founder-director of the Lyceum (institutional leadership of a major research center), and as the intellectual authority whose works shaped the entire subsequent Western and Islamic philosophical traditions. He attracted and trained major independent thinkers (Theophrastus, Eudemus, Aristoxenus). His influence spans from personal mentoring to civilizational-scale intellectual leadership."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book V"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Unlike Socrates (portrayed in the agora engaging tradesmen) or Marcus Aurelius (whose private journal survives), Aristotle's biographical record offers limited evidence of engagement with mundane everyday activities. His will (Diogenes Laertius V.11–16) reveals domestic arrangements, and scattered anecdotes mention personal habits, but these are sparse and of uncertain reliability. He lived a privileged life as a wealthy intellectual, and the surviving record is overwhelmingly about his thought rather than his daily existence."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Broadie, Sarah, Ethics with Aristotle (Oxford UP, 1991)",
+              "Miller, Fred D., Nature, Justice, and Rights in Aristotle's Politics (Oxford UP, 1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nicomachean Ethics Book V provides one of antiquity's most sophisticated treatments of distributive and corrective justice, distinguishing types of fairness and equity (epieikeia). His comparative constitutional research (Athenaion Politeia and 157 others) systematically analyzed justice in governance. However, his defense of natural slavery and his view that women are rationally inferior (Politics I, Generation of Animals) represent significant limitations. No documented cases of ruling against personal interest in favor of principle are recorded."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book V",
+              "Garnsey, Peter, Ideas of Slavery from Aristotle to Augustine (Cambridge UP, 1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Aristotle's will (preserved by Diogenes Laertius) shows some personal generosity—he freed several slaves and provided for dependents including his companion Herpyllis. However, he theoretically defended natural slavery in Politics I.4–6, arguing some people are slaves by nature. While era normalization applies (slavery was normative), even some contemporaries (certain Sophists, Alcidamas) questioned it. No documented acts of compassion toward adversaries or outgroup members exist in the record."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)",
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book V"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Aristotle faced political danger and exile twice: after Plato's death (~347 BCE) and after Alexander's death (323 BCE), both times due to anti-Macedonian sentiment in Athens. He continued productive work during periods of political instability and personal displacement. His composed departure from Athens in 322, facing potential capital charges, and his continued intellectual output until death in Chalcis demonstrate sustained resilience, though not the extreme physical courage of a battlefield figure."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Jaeger, Werner, Aristotle: Fundamentals of the History of His Development (Oxford UP, 1948)",
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "There is limited evidence of Aristotle publicly reversing prior positions or accepting correction. His intellectual evolution from Plato's framework (e.g., rejecting the Theory of Forms in Metaphysics I.9) represents philosophical development but is more intellectual than moral growth. Some scholars detect shifts between earlier and later ethical works, but these are contested and not clearly moral reversals. The ancient biographical tradition does not record self-correction or acknowledged mistakes."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)",
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book V"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Aristotle was orphaned relatively young (both parents died during his youth). He was twice politically displaced from Athens—after Plato's death (~347 BCE) and after Alexander's death (323 BCE). He lost his first wife Pythias. Throughout these adversities—bereavement, political exile, personal loss—he maintained extraordinary intellectual productivity. These represent at least two qualitatively different forms of adversity (personal bereavement and political danger) through which he continued to function at the highest level."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Ackrill, J.L., Aristotle the Philosopher (Oxford UP, 1981)",
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Aristotle combined seemingly contradictory roles: (1) abstract metaphysician AND hands-on empirical naturalist (dissecting marine creatures on Lesbos), (2) champion of the polis and citizen virtue AND servant/tutor to the Macedonian monarchy that undermined polis independence, (3) a man who declared the contemplative life supreme (NE X.7) AND who engaged deeply in practical politics and institutional administration. These represent genuine tensions he navigated coherently, but the roles are more complementary than dramatically contradictory compared to figures like Marcus Aurelius (emperor/philosopher/soldier)."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book V",
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His composed departure from Athens in 322 BCE, reportedly with the philosophical quip about preventing Athens from 'sinning twice against philosophy,' shows composure under mortal threat. His carefully prepared will (Diogenes Laertius V.11–16) makes thorough provisions for family, slaves, and companions, suggesting orderly preparation for death. He died shortly after in Chalcis. However, detailed accounts of his actual final moments are lacking, preventing a definitive assessment of composure at the point of death itself."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book V",
+              "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Ancient sources (Diogenes Laertius, Aelian) describe Aristotle as thin-legged and somewhat fastidious in dress, not as physically impressive. He traveled extensively across the Eastern Mediterranean (Stagira, Athens, Assos, Lesbos, Pella, Athens, Chalcis), which required baseline physical resilience in the ancient world, and his field research on Lesbos involved hands-on biological collecting. But no documented physical feats or notable endurance beyond the ordinary for a well-resourced ancient traveler."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Halliwell, Stephen, Aristotle's Poetics (Duckworth, 1986)",
+              "Aristotle, Parts of Animals, I.5",
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book V"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His Poetics shows deep, nuanced appreciation for tragedy and poetry as art forms. His famous remark in Parts of Animals I.5 that 'in all natural things there is something wonderful' reveals genuine aesthetic delight in nature independent of utility. Diogenes Laertius reports he was known for wit. However, much of his aesthetic engagement is theoretical and analytical rather than purely non-instrumental; he theorized about beauty and art rather than creating it for pleasure alone."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 6.67,
+          "Core_5D_Avg": 6.93,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Aristotle",
+      "overall": {
+        "Core_5D_Avg": 6.93,
+        "Overall_Normalized_Equal_Avg": 6.41,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "Aristotle represents one of history's supreme intellects, scoring exceptionally in cognitive and cultural-social dimensions. He founded formal logic, pioneered systematic biology, and built institutions whose influence persists 2,400 years later. His moral-affective profile is moderate—his ethical writings are foundational, but personal compassion and moral growth evidence is limited. Embodied-existential and relational scores reflect a life primarily of the mind, with adequate but not exceptional documentation of physical, emotional, or interpersonal depth. Heinlein-style practical competency is narrow, concentrated in analytical reasoning and leadership, with minimal evidence of manual, agricultural, or combat skills.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists in the biographical record of Aristotle preparing food or possessing culinary skills. As a wealthy household head with servants, he likely did not cook."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No documented combat experience or military service exists for Aristotle. As a metic (resident alien) in Athens, he would not have served in the citizen militia. When facing political danger, he chose flight rather than armed resistance, which was strategically wise but provides no evidence of combat capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Diogenes Laertius, Lives of Eminent Philosophers, Book V"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Aristotle's will shows provisions for dependents, including detailed care arrangements for Herpyllis and his children. His discussions of friendship (philia) in NE VIII–IX show theoretical understanding of care. However, no direct evidence of hands-on caregiving practice (nursing the sick, tending children daily) exists in the biographical record."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Diogenes Laertius, Lives of Eminent Philosophers, Book V",
+            "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Aristotle's composed departure from Athens under threat of prosecution in 322 BCE, his carefully ordered will providing for all dependents, and his philosophical framework placing contemplation as the highest human activity all suggest a man who faced mortality and crisis with dignity. His remark about Athens 'sinning twice against philosophy' reveals self-aware composure under existential threat. However, detailed evidence of his final days in Chalcis is limited."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists of Aristotle engaging in manual craft, tool-making, or repair work. His social position as a wealthy intellectual and his biographical record provide no indication of such skills."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Aristotle traveled extensively across the Eastern Mediterranean throughout his life—from Stagira to Athens, to Assos and Lesbos, to Pella in Macedon, back to Athens, and finally to Chalcis. This required navigating varied terrain and sea travel. However, there is no evidence he personally navigated vessels or was skilled in wayfinding beyond what any well-resourced ancient traveler would possess."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Lennox, James G., Aristotle's Philosophy of Biology (Cambridge UP, 2001)",
+            "Aristotle, Historia Animalium"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "His extensive biological research (Historia Animalium, Parts of Animals, Generation of Animals) involved detailed dissection and observation of marine and land animals on Lesbos and elsewhere, demonstrating hands-on familiarity with animal anatomy. However, this was for scientific purposes rather than food processing, and the extent of his personal versus assistants' hands-on work is unclear."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Lynch, John Patrick, Aristotle's School (University of California Press, 1972)",
+            "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Aristotle demonstrated effective leadership as founder and director of the Lyceum, coordinating collaborative research across multiple domains. He also demonstrated followership: he studied under Plato for approximately 20 years at the Academy, and served as tutor to Alexander in a role that required deferring to royal authority while providing intellectual guidance. His ability to function in both leader and subordinate roles is documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists in the biographical or textual record that Aristotle designed or built physical structures. While he may have been involved in establishing the physical premises of the Lyceum, no documentation of personal construction or fabrication skill exists."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Lynch, John Patrick, Aristotle's School (University of California Press, 1972)",
+            "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "He organized the Lyceum's ambitious collaborative research programs, including the systematic collection of 158 Greek constitutions and coordinated biological surveys across the Eastern Mediterranean. He secured Macedonian patronage to fund these operations. However, he was not a military commander or operator of large-scale state logistics."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Cicero, Academica, II.38.119",
+            "Halliwell, Stephen, Aristotle's Poetics (Duckworth, 1986)",
+            "Diogenes Laertius, Lives of Eminent Philosophers, Book V"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Aristotle's lost dialogues were praised by Cicero for their literary quality ('a river of gold'). He composed a hymn or paean to his friend Hermias of Atarneus after Hermias's death, which was later used against him in the impiety charges. His Poetics and Rhetoric are foundational contributions to aesthetics and literary criticism. While his surviving works are lecture notes rather than literary art, his theoretical contributions to artistic understanding and his own limited creative output justify this score."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Natali, Carlo, Aristotle: His Life and School (Princeton UP, 2013)",
+            "Nutton, Vivian, Ancient Medicine (Routledge, 2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Aristotle's father Nicomachus was court physician to King Amyntas III of Macedon, and Aristotle likely received some early medical training in this tradition. His extensive anatomical knowledge (demonstrated in biological works) suggests familiarity with wound treatment and bodily systems. However, no documented instances of Aristotle personally practicing medicine or providing emergency care exist."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Smith, Robin, Aristotle's Prior Analytics (Hackett, 1989)",
+            "Lear, Jonathan, Aristotle and Logical Theory (Cambridge UP, 1980)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Aristotle invented formal syllogistic logic in the Prior Analytics, creating the first systematic framework for deductive reasoning—a paradigm that dominated for over two millennia until Frege. His Posterior Analytics formalized scientific demonstration. His Categories and De Interpretatione systematized conceptual analysis. He was not primarily a mathematician, but his contribution to analytical reasoning itself is arguably the most consequential in human history."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "While Aristotle discusses household management (oikonomia) in Politics I and owned property, there is no documented evidence of personal agricultural practice or resource management skill. His theoretical knowledge of agriculture does not constitute practical competence in this domain."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Lennox, James G., Aristotle's Philosophy of Biology (Cambridge UP, 2001)",
+            "Barnes, Jonathan (ed.), The Cambridge Companion to Aristotle (Cambridge UP, 1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Aristotle created sophisticated classification systems for biology (taxonomic groupings in Historia Animalium), developed formal logical frameworks as intellectual tools (the Organon), and designed systematic research methodologies (comparative constitutional analysis, empirical biological surveys). These represent cutting-edge intellectual technologies of his era. However, he did not work with physical tools or mechanical technologies."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.93,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 6.41,
+    "created_at": "2026-03-15T08:11:41.503Z",
+    "updated_at": "2026-03-15T08:11:41.506Z"
+  }
+}
+]

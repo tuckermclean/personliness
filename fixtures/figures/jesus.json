@@ -1,0 +1,397 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 78,
+  "fields": {
+    "name": "Jesus",
+    "slug": "jesus",
+    "bio_short": "Jesus scores exceptionally in cultural-social impact, ethical insight, and embodied-existential dimensions, reflecting his enduring legacy as Christianity's central figure and a moral archetype across civilizations. His creative use of parables, sustained courage through crucifixion, and hardship tolerance are defining traits. Cognitive and moral-affective scores are strong but moderated by limited administrative skill and hagiographic sanitization of moral growth. The relational dimension is lowered by the absence of spousal partnership, despite strong mentoring and relational range. Heinlein",
+    "bio_long": "Jesus, also referred to as Jesus Christ, Jesus of Nazareth, and by various other names and titles, was a 1st-century Jewish preacher and religious leader in the Roman province of Judaea. He is the central figure of Christianity, the world's largest religion and also a revered prophet in Islam, the world's second largest religion. Most Christians consider Jesus to be the incarnation of God the Son and the awaited messiah, or Christ, a descendant of the Davidic line prophesied in the Old Testament. Virtually all modern scholars of antiquity agree that Jesus existed historically. Accounts of Jesus's life are contained in the Gospels, especially the four canonical Gospels of the New Testament. Since the Enlightenment, academic research has produced various views on the historical reliability of the Gospels and the extent to which they reflect the historical Jesus.",
+    "source_notes": "https://en.wikipedia.org/wiki/Jesus",
+    "image": "figures/330px-Spas_vsederzhitel_sinay_28cropped129.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Sanders, The Historical Figure of Jesus (1993)",
+              "Meier, A Marginal Jew, Vol. 2 (1994)",
+              "Fredriksen, Jesus of Nazareth, King of the Jews (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Jesus demonstrated tactical adaptability: withdrawing from hostile areas (Mark 3:7), sending disciples in pairs with specific instructions (Mark 6:7-13), timing his provocative Temple entry to Passover when crowds provided both audience and cover, and using indirect parabolic speech to communicate subversive ideas while avoiding premature arrest. However, his movement nearly collapsed at his death and required post-mortem developments to survive, and his apparent expectation of imminent divine intervention complicates claims of long-range strategic success."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Meier, A Marginal Jew, Vol. 4 (2009)",
+              "Jeremias, The Parables of Jesus (1972)",
+              "Wright, Jesus and the Victory of God (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jesus's parables represent a genuinely novel literary-theological form used with unprecedented depth—the Good Samaritan inverts ethnic boundaries, the Prodigal Son subverts honor-shame logic. His radical reframing of Torah around interior disposition rather than external compliance, and his reimagining of messiahship as suffering service rather than military triumph, constituted a paradigm shift whose before/after difference is clearly attributable to him. These innovations are widely accepted as authentic by critical scholarship through the criterion of dissimilarity."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Sanders, The Historical Figure of Jesus (1993)",
+              "Vermes, Jesus the Jew (1973)",
+              "Allison, The Sermon on the Mount (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Sermon on the Mount/Plain, the love command ('love your enemies,' Matt 5:44), the Golden Rule, and parables such as the Good Samaritan and the Prodigal Son articulate ethical principles of unprecedented scope that have influenced thinkers far beyond his community—Tolstoy, Gandhi, Martin Luther King Jr., and secular humanist ethics. Critical scholars (Sanders, Vermes, Meier) broadly accept these core ethical teachings as authentically attributable to the historical Jesus via criteria of multiple attestation and coherence."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Sanders, Jesus and Judaism (1985)",
+              "Meier, A Marginal Jew, Vol. 3 (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Jesus selected an inner circle of twelve disciples (symbolically evoking the twelve tribes) and organized mission journeys (Luke 10:1-12), but he created no written code, no organizational constitution, and no bureaucratic structures. The institutional church was built by subsequent figures—the apostles, Paul, and later bishops. His movement was an eschatological community, not an administrative system."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Meier, A Marginal Jew, Vol. 3 (2001)",
+              "Vermes, Jesus the Jew (1973)",
+              "Brown, The Death of the Messiah (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jesus demonstrated qualitatively distinct behavior across at least six relational modes: (1) mentor/teacher to disciples with pedagogical patience; (2) intimate friend to Lazarus, Martha, and Mary (John 11); (3) dutiful son caring for his mother from the cross (John 19:26-27); (4) fierce adversary to Pharisees and Temple authorities; (5) subordinate to God ('not my will but yours'); (6) compassionate stranger to the Samaritan woman (John 4) and various suppliants. Each mode shows distinct relational behavior rather than a uniform style."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Meier, A Marginal Jew, Vol. 1 (1991)",
+              "Sanders, The Historical Figure of Jesus (1993)",
+              "Ehrman, Truth and Fiction in The Da Vinci Code (2004)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "There is no credible historical evidence that Jesus had a spouse or intimate partner. Speculative theories (e.g., marriage to Mary Magdalene) lack support in critical scholarship. The historical Jesus appears to have been celibate, making this trait absent from the record rather than poorly expressed."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Meier, A Marginal Jew, Vol. 3 (2001)",
+              "Hengel, The Charismatic Leader and His Followers (1981)",
+              "Dunn, Jesus Remembered (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Jesus mentored twelve disciples who, after his death, led the early church with genuine autonomy and competence—Peter led the Jerusalem community, others established churches across the Mediterranean. However, during Jesus's lifetime the Gospels portray disciples as frequently confused, failing, and ultimately abandoning him (Peter's denial, Judas's betrayal, flight at Gethsemane). The mentoring produced extraordinary long-term results but the process was marked by significant failures."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Pelikan, Jesus Through the Centuries (1985)",
+              "Hart, The 100: A Ranking of the Most Influential Persons in History (1978)",
+              "Taylor, A Secular Age (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jesus's impact is operative 2,000 years later across virtually every civilization on earth. Christianity (2.4 billion adherents) shapes law, ethics, art, architecture, education, and politics globally. Jesus is also revered as the prophet Isa in Islam (1.9 billion adherents). His ethical teachings influenced the development of human rights concepts, abolitionism, and modern charitable institutions. By any measure, he meets the threshold of effects across multiple civilizations over 500+ years."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Pelikan, Jesus Through the Centuries (1985)",
+              "Prothero, American Jesus (2003)",
+              "Khalidi, The Muslim Jesus (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jesus functions as a cross-cultural archetype of self-sacrifice, redemptive suffering, and moral authority far beyond Christianity. He is recognized as prophet Isa in Islam, as a moral exemplar by secular humanists (Jefferson's 'Jefferson Bible'), and as a literary archetype across world literature (Dostoevsky, Tolkien, Kazantzakis). The image of the innocent sufferer executed by imperial power resonates across cultures and traditions that have no Christian commitment."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Sanders, Jesus and Judaism (1985)",
+              "Dunn, Jesus Remembered (2003)",
+              "Meier, A Marginal Jew, Vol. 3 (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Jesus founded a community of followers with shared practices—communal meals, prayer, ethical teaching, and a symbolic inner circle of twelve—that provided the nucleus for what became the Christian church. However, the formal institutional structures (bishops, councils, creeds, liturgical orders) were developed by subsequent figures including Paul, James, and second-century leaders. Jesus's movement was primarily an eschatological community rather than a designed institution."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Sanders, The Historical Figure of Jesus (1993)",
+              "Hengel, The Charismatic Leader and His Followers (1981)",
+              "Meier, A Marginal Jew, Vol. 3 (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jesus led successfully across qualitatively different contexts: intimate teaching with disciples, mass public preaching to thousands, direct confrontation with Temple authorities at Passover, and crisis leadership during his final days in Jerusalem. He inspired followers who were willing to die for the movement after his death—Peter, James, and Paul all faced execution. The survival and explosive growth of his movement after his ignominious crucifixion is strong evidence of extraordinary personal influence."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Meier, A Marginal Jew, Vol. 1 (1991)",
+              "Vermes, Jesus the Jew (1973)",
+              "Crossan, The Historical Jesus (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jesus was a tekton (manual laborer/carpenter, Mark 6:3), remained propertyless during his ministry ('the Son of Man has nowhere to lay his head,' Matt 8:20), attended weddings (Cana, John 2), shared meals so frequently he was accused of being 'a glutton and a drunkard' (Matt 11:19, from Q source), used everyday imagery of farming, fishing, baking, and shepherding, and engaged with children (Mark 10:13-16). His humble origins were an embarrassment to the early church, arguing for historicity."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Sanders, Jesus and Judaism (1985)",
+              "Horsley, Jesus and the Spiral of Violence (1987)",
+              "Wright, Jesus and the Victory of God (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Jesus criticized the Temple establishment for exploiting worshippers (Mark 11:17), pronounced woes against religious leaders for hypocrisy and neglecting justice (Matt 23), and championed the marginalized against prevailing social hierarchies ('the last shall be first'). His association with tax collectors and sinners damaged his own reputation, representing action against personal interest. However, he held no formal judicial or legislative office, so 'ruling against personal interest' applies only analogically."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Sanders, The Historical Figure of Jesus (1993)",
+              "Meier, A Marginal Jew, Vol. 2 (1994)",
+              "Vermes, The Authentic Gospel of Jesus (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jesus consistently extended compassion to outgroup members and adversaries: healing the Roman centurion's servant (Matt 8:5-13), conversing with the Samaritan woman (John 4), touching lepers who were ritually excluded (Mark 1:41), and associating with tax collectors and sinners despite social stigma. The Good Samaritan parable specifically teaches compassion across ethnic enmity. The pattern is multiply attested across Mark, Q, L, M, and Johannine traditions, suggesting it reflects the historical figure."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Sanders, Jesus and Judaism (1985)",
+              "Brown, The Death of the Messiah (1994)",
+              "Ehrman, Jesus: Apocalyptic Prophet of the New Millennium (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jesus confronted the Temple establishment directly by overturning money-changers' tables during Passover (Mark 11:15-17, widely accepted as historical by Sanders), publicly challenged Pharisaic and Sadducean authorities, went to Jerusalem knowing the mortal danger, and endured crucifixion—a deliberately prolonged and agonizing Roman execution. The Gethsemane scene (Mark 14:32-42) portrays genuine fear overcome by resolve, strengthening the case for authentic courage rather than hagiographic fearlessness."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Meier, A Marginal Jew, Vol. 2 (1994)",
+              "Theissen, The Gospels in Context (1991)",
+              "Levine, The Misunderstood Jew (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Christianity's doctrine of Jesus's sinlessness represents a strong sanitizing tradition that removes evidence of moral error, triggering the rubric's cap at 1. The Syrophoenician/Canaanite woman episode (Mark 7:24-30) is the strongest candidate for moral growth—Jesus initially refuses help to a Gentile woman and appears to change his position after her response. Its survival despite the sanitizing tendency argues for authenticity via the criterion of embarrassment, but it remains a single contested episode insufficient for a higher score."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Brown, The Death of the Messiah (1994)",
+              "Sanders, The Historical Figure of Jesus (1993)",
+              "Meier, A Marginal Jew, Vol. 1 (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jesus functioned effectively across multiple qualitatively different forms of adversity: material deprivation (homelessness during ministry, Matt 8:20), social rejection (expelled from Nazareth, Mark 6:1-6), political persecution (Herod's threats, Luke 13:31), personal betrayal (Judas, Peter's denial), and extreme physical suffering (scourging and crucifixion). Throughout these, he continued teaching, leading, and caring for others—comforting the thief on the cross even while dying (Luke 23:43)."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Wright, Jesus and the Victory of God (1996)",
+              "Allison, Jesus of Nazareth: Millenarian Prophet (1998)",
+              "Meier, A Marginal Jew, Vol. 2 (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jesus simultaneously inhabited at least five seemingly contradictory roles without fragmenting: (1) authoritative teacher who commanded obedience yet washed disciples' feet as a servant; (2) fierce prophet denouncing Temple corruption yet gentle with children and sinners; (3) Jewish particularist who focused on 'the lost sheep of Israel' yet engaged Samaritans and Gentiles; (4) ascetic wanderer without possessions yet joyful feaster accused of excess; (5) messianic claimant who redefined kingship as crucifixion. Critical scholars note this complexity as a mark of historicity."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Brown, The Death of the Messiah (1994)",
+              "Sanders, The Historical Figure of Jesus (1993)",
+              "Allison, The End of the Ages Has Come (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jesus deliberately traveled to Jerusalem during Passover with apparent awareness of mortal danger (Mark 10:33-34). The Gethsemane scene (Mark 14:32-42) portrays genuine anguish ('remove this cup from me') resolved into acceptance ('not what I will, but what you will')—its unflattering depiction of Jesus's distress argues for historicity via the criterion of embarrassment. He then faced arrest, trial, and crucifixion with documented composure—speaking to others from the cross and entrusting his mother to a disciple (John 19:26-27)."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Meier, A Marginal Jew, Vol. 1 (1991)",
+              "Reed, Archaeology and the Galilean Jesus (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Jesus worked as a tekton (carpenter/builder) requiring sustained physical labor, then undertook an itinerant ministry involving extensive walking across Galilee, Samaria, and Judea—distances of 70+ miles between regions over hilly terrain. He endured the physical ordeal of scourging and crucifixion. However, documented evidence of exceptional physical feats across multiple life-stages is limited; what we have is consistent with a physically capable laborer and traveler."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Meier, A Marginal Jew, Vol. 2 (1994)",
+              "Vermes, The Authentic Gospel of Jesus (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Jesus was accused of being 'a glutton and a drunkard, a friend of tax collectors and sinners' (Matt 11:19/Luke 7:34, from Q—widely accepted as authentic because embarrassing), suggesting genuine enjoyment of feasting and socializing rather than asceticism. He attended the wedding at Cana (John 2). His parables display deep aesthetic appreciation for natural beauty ('Consider the lilies,' Matt 6:28). However, most evidence of aesthetic engagement is embedded within teaching contexts, making it difficult to confirm purely non-instrumental joy."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.71,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Jesus of Nazareth",
+      "overall": {
+        "Core_5D_Avg": 7.71,
+        "Overall_Normalized_Equal_Avg": 7.42,
+        "General_Competency_Avg_10scale": 6.0
+      },
+      "summary": "Jesus scores exceptionally in cultural-social impact, ethical insight, and embodied-existential dimensions, reflecting his enduring legacy as Christianity's central figure and a moral archetype across civilizations. His creative use of parables, sustained courage through crucifixion, and hardship tolerance are defining traits. Cognitive and moral-affective scores are strong but moderated by limited administrative skill and hagiographic sanitization of moral growth. The relational dimension is lowered by the absence of spousal partnership, despite strong mentoring and relational range. Heinlein competency is moderate, reflecting his tekton background and itinerant teaching but thin evidence in technical, agricultural, culinary, and combat domains. Source-critical caution applies throughout given Gospel hagiography.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.8,
+          "General_Competency_Avg_10scale": 6.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Meier, A Marginal Jew, Vol. 1 (1991)",
+            "Smith, From Symposium to Eucharist (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Jesus participated in numerous communal meals and the carefully planned Last Supper (Mark 14:12-25). John 21:9-13 describes him cooking fish over coals on the lakeshore, though this is from a late, theologically shaped source. His reputation as one who enjoyed eating and drinking (Matt 11:19) suggests engagement with food culture, but specific culinary skill is not documented beyond basic meal preparation."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Sanders, Jesus and Judaism (1985)",
+            "Brown, The Death of the Messiah (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Jesus explicitly taught non-retaliation ('turn the other cheek,' Matt 5:39) and rebuked Peter's sword use at Gethsemane (Matt 26:52). However, the Temple incident (Mark 11:15-17) involved physically overturning tables and driving out merchants with a whip of cords (John 2:15), demonstrating willingness and capacity for controlled physical force. This represents minimal but documented physical assertiveness rather than complete absence of the trait."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Meier, A Marginal Jew, Vol. 2 (1994)",
+            "Sanders, The Historical Figure of Jesus (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Jesus's ministry centered on caring for the sick, grieving, and marginalized. He touched lepers (Mark 1:41), wept with the bereaved at Lazarus's tomb (John 11:35), and comforted the afflicted throughout Galilee. His teaching in Matthew 25:31-46 ('whatever you did for the least of these') systematized caregiving as a moral imperative. This represents consistent, defining caregiving behavior, though in an itinerant rather than sustained daily context."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Brown, The Death of the Messiah (1994)",
+            "Sanders, The Historical Figure of Jesus (1993)",
+            "Allison, The End of the Ages Has Come (1985)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Jesus faced his own imminent execution with remarkable composure: he deliberately chose to enter Jerusalem during Passover, calmly presided over the Last Supper knowing betrayal was imminent (Mark 14:18-21), struggled authentically in Gethsemane but resolved toward acceptance, and maintained enough composure during crucifixion to speak to others—the thief (Luke 23:43), his mother (John 19:26-27). The Gethsemane struggle's unflattering portrayal supports historicity and makes the subsequent composure more credible."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Meier, A Marginal Jew, Vol. 1 (1991)",
+            "Batey, Jesus and the Forgotten City (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a tekton working from adolescence to approximately age 30, Jesus would have possessed substantial manual craft skills—working with wood and possibly stone, making and repairing tools, furniture, agricultural implements, and building components. Justin Martyr's tradition of yoke and plough making suggests specific repair and fabrication competence. Era-normalized, this represents solid manual craftsmanship."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Reed, Archaeology and the Galilean Jesus (2000)",
+            "Meier, A Marginal Jew, Vol. 1 (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Jesus traveled extensively as an itinerant preacher across Galilee, Samaria, Judea, and the regions of Tyre and Sidon—navigating the Jordan Valley, the Sea of Galilee by boat, the Judean hill country, and arid wilderness. These journeys covered varied terrain over distances of 70+ miles between regions. For his era, this represents competent wayfinding across diverse environments."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Meier, A Marginal Jew, Vol. 1 (1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a 1st-century Galilean Jew, Jesus participated in Passover celebrations requiring lamb preparation and would have been familiar with basic animal processing. His parables reference shepherding and fishing with evident familiarity. However, no specific documented instance of Jesus personally butchering or processing animals exists in the sources."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Hengel, The Charismatic Leader and His Followers (1981)",
+            "Sanders, The Historical Figure of Jesus (1993)",
+            "Meier, A Marginal Jew, Vol. 2 (1994)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Jesus demonstrated both dimensions: he gave authoritative commands to disciples, organized missions, and led confrontations with authorities. He also showed followership—submitting to John the Baptist's baptism (Mark 1:9, widely accepted as historical due to embarrassment criterion), deferring to God's will in Gethsemane, and cooperating with Roman arrest without resistance. This combination of commanding authority and genuine submission is rare and well-documented across multiple traditions."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Meier, A Marginal Jew, Vol. 1 (1991)",
+            "Batey, Jesus and the Forgotten City (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Mark 6:3 identifies Jesus as a tekton—a term encompassing carpentry, woodworking, and general construction work in 1st-century Palestine. Justin Martyr (2nd century) specified that Jesus made yokes and ploughs. Era-normalized, a working tekton would possess significant construction and fabrication skills including joinery, structural design, and materials knowledge. He practiced this trade likely from adolescence until approximately age 30."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Sanders, The Historical Figure of Jesus (1993)",
+            "Wright, Jesus and the Victory of God (1996)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Jesus organized the mission of the seventy-two with specific tactical instructions (Luke 10:1-12), planned the triumphal entry into Jerusalem with advance arrangements for the donkey (Mark 11:1-6), and orchestrated the Last Supper including securing a room (Mark 14:12-16). He coordinated a small but committed movement across multiple regions. The scale was modest but the planning was deliberate and effective."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Jeremias, The Parables of Jesus (1972)",
+            "Dodd, The Parables of the Kingdom (1935)",
+            "Crossan, In Parables (1973)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Jesus's parables are among the most influential works of oral literature in human history. The Good Samaritan, the Prodigal Son, the Sower, the Mustard Seed, and the Pearl of Great Price demonstrate mastery of narrative compression, metaphor, irony, and audience engagement. These works have shaped literature, visual art, and music across civilizations for two millennia. Critical scholars (Jeremias, Dodd, Crossan) widely attribute the core parables to the historical Jesus."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Meier, A Marginal Jew, Vol. 2 (1994)",
+            "Sanders, The Historical Figure of Jesus (1993)",
+            "Vermes, Jesus the Jew (1973)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Jesus was widely recognized as a healer in his own time—a point accepted by critical scholars including Sanders and Meier regardless of one's view on the mechanism. He treated conditions described as blindness, leprosy, paralysis, hemorrhage, and mental illness through touch, command, and prayer. Era-normalized, these healing modalities (laying on of hands, folk remedies, exorcism) were the standard medical practice of 1st-century Palestine, and Jesus was renowned for proficiency in them."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Meier, A Marginal Jew, Vol. 4 (2009)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Jesus's debates with Pharisees and Sadducees display logical argumentation—the 'render unto Caesar' response (Mark 12:17) and the Sadducees' marriage riddle (Mark 12:18-27) show analytical agility. However, there is no evidence of mathematical skill, accounting, or quantitative reasoning. His analytical ability was rhetorical and dialectical rather than numerical."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Reed, Archaeology and the Galilean Jesus (2000)",
+            "Oakman, Jesus and the Peasants (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Jesus's parables reveal detailed familiarity with agricultural practices—sowing techniques, harvest timing, vineyard management, fig tree cultivation, and grain processing. This knowledge is consistent with growing up in rural Galilee. However, no evidence indicates he personally managed farms or resources; his knowledge appears observational rather than managerial. His feeding of followers relied on communal sharing rather than resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Meier, A Marginal Jew, Vol. 1 (1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a tekton, Jesus would have possessed technical skills in construction—understanding materials, structural integrity, and tool use. His famous metaphor of building on rock vs. sand (Matt 7:24-27) reflects technical knowledge. However, there is no evidence of engagement with the cutting-edge technologies of his era (Roman engineering, aqueducts, sophisticated metallurgy) or systematic technical problem-solving beyond his trade."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.71,
+    "general_competency_avg_0_10": 6.0,
+    "overall_normalized_equal_avg_0_10": 7.42,
+    "created_at": "2026-03-15T01:09:14.342Z",
+    "updated_at": "2026-03-15T07:11:47.863Z"
+  }
+}
+]

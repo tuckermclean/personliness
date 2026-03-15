@@ -1,0 +1,396 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 115,
+  "fields": {
+    "name": "The Buddha",
+    "slug": "the-buddha",
+    "bio_short": "The Buddha scores exceptionally in cognitive (9.2/10), cultural-social (9.3/10), and moral-affective (8.3/10) dimensions, reflecting paradigm-shifting philosophical innovation, unmatched institution-building (the sangha enduring 2,500+ years), and sustained moral courage. Embodied-existential scores are strong (8.0/10) driven by hardship tolerance, mortality acceptance, and paradox integration, but limited by sparse evidence of non-instrumental aesthetic play. The relational dimension (5.6/10) is weakest, reflecting the renunciant's inherent tension with conventional family bonds—his abandonme",
+    "bio_long": "Siddhartha Gautama, most commonly referred to as the Buddha, was a wandering ascetic and religious teacher who lived in the eastern Indo-Gangetic Plains during the 6th or 5th century BCE and founded Buddhism. According to Buddhist legends, he was born in Lumbini, in what is now Nepal, to royal parents of the Shakya clan, but renounced his home life to live as a wandering ascetic. After leading a life of mendicancy, asceticism, and meditation, he attained nirvana at Bodh Gaya in what is now Bihar, India. The Buddha then wandered through the lower Indo-Gangetic Plain, teaching and building a monastic order (sangha). Buddhist tradition holds he died in Kushinagar and reached parinirvana.",
+    "source_notes": "https://en.wikipedia.org/wiki/The_Buddha",
+    "image": "figures/330px-Buddha_in_Sarnath_Museum_28Dhammajak_Mutra29_mNXlsPh.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Gethin, *The Foundations of Buddhism* (1998)",
+              "Schumann, *The Historical Buddha* (2003)",
+              "Walshe (trans.), *The Long Discourses of the Buddha* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Buddha demonstrated successful adaptation when his initial plan of extreme asceticism (six years of severe austerities) nearly killed him; he abandoned this approach and developed the Middle Way, which succeeded where the prior strategy failed. He strategically chose to first teach his former five ascetic companions at the Deer Park in Sarnath, and navigated complex political relationships with kings Bimbisara of Magadha and Pasenadi of Kosala to secure patronage and protection for the growing sangha across multiple kingdoms. He also managed the schism attempt by Devadatta through a combination of patience and direct confrontation. Falls short of 3 because his strategic domain was primarily organizational/spiritual rather than requiring management of acute military or political uncertainty with multiple contingency plans."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Bronkhorst, *The Two Traditions of Meditation in Ancient India* (1993)",
+              "Gombrich, *Theravada Buddhism: A Social History from Ancient Benares to Modern Colombo* (2006)",
+              "Wynne, *The Origin of Buddhist Meditation* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Buddha produced a demonstrable paradigm shift in Indian religious and philosophical thought. Before him, the dominant framework was Vedic-Brahmanical, centered on ritual sacrifice, caste hierarchy, and the eternal self (atman). He rejected Vedic authority, denied an eternal self (anatta), reimagined liberation as cessation of craving rather than union with Brahman, and created a novel middle path between extreme asceticism and sensual indulgence—two poles that defined the existing religious landscape. The before/after difference is stark: post-Buddha, Indian philosophy was permanently restructured around the Buddha's challenges, with every subsequent school (Nyaya, Vaisheshika, Samkhya, Vedanta) defining itself partly in response to Buddhist arguments."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Gombrich, *What the Buddha Thought* (2009)",
+              "Collins, *Selfless Persons: Imagery and Thought in Theravada Buddhism* (1982)",
+              "Siderits, *Buddhism as Philosophy* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Buddha articulated a coherent philosophical system—the Four Noble Truths, the Noble Eightfold Path, dependent origination (pratityasamutpada), and the doctrine of non-self (anatta)—that constitutes one of the most influential ethical and metaphysical frameworks in human history. These principles influenced not only Buddhist civilizations across Asia but also Hindu and Jain philosophy (provoking centuries of systematic response from Vedantic thinkers like Shankara), and later shaped Western philosophy from Schopenhauer to contemporary ethics and cognitive science. The depth and internal coherence of dependent origination as an account of causation and suffering has been recognized by modern philosophers as a sophisticated philosophical contribution independent of its religious context."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Gethin, *The Foundations of Buddhism* (1998)",
+              "Wijayaratna, *Buddhist Monastic Life* (1990)",
+              "Prebish, *Buddhist Monastic Discipline* (1975)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Buddha designed the Vinaya, one of the most detailed and sophisticated organizational codes in the ancient world, governing admission, expulsion, dispute resolution, communal property, daily routine, and governance of monastic communities. The sangha incorporated quasi-democratic decision-making procedures (the uposatha ceremony, community votes on disputed matters) and a detailed system of rules developed responsively—tradition records the Buddha issuing rules in response to specific problems as they arose, rather than imposing a top-down code. This system endured far beyond his direct oversight: Theravada monasteries still operate under recognizably the same Vinaya more than 2,500 years later, meeting the criterion for systems that functioned beyond the founder's lifetime."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Nakamura, *Gotama Buddha* (2000)",
+              "Strong, *The Buddha: A Short Biography* (2001)",
+              "Gethin, *The Foundations of Buddhism* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Pali Canon documents the Buddha operating in multiple relational modes: as teacher/superior (establishing Vinaya rules for monks), as friend (intimate, trusting relationship with Ananda, his attendant), as adversary (confronting Devadatta, debating Brahmin challengers), as parent (instructing Rahula), as child (reconciling with his father Suddhodana after years of estrangement), and as subordinate/mendicant (accepting food and shelter from laypeople, deferring to social norms of hospitality). However, the tradition tends to portray a relatively uniform relational style—serene, wise, and composed—across these modes, rather than the qualitatively distinct adaptive behavior the highest score requires. The emotional register in most interactions is similar, which limits the evidence for true relational adaptability."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Strong, *The Buddha: A Short Biography* (2001)",
+              "Schumann, *The Historical Buddha* (2003)",
+              "Nakamura, *Gotama Buddha* (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Buddha's most significant spousal act in the historical record is his abandonment of his wife Yasodhara and their newborn son Rahula during the Great Renunciation—leaving in the night without farewell. Tradition holds he named his son 'Rahula' (meaning 'fetter'), suggesting ambivalence about familial bonds. Later hagiographic traditions (particularly the Nidanakatha and Theravada commentaries) develop Yasodhara into a sympathetic figure who eventually joins the sangha and attains enlightenment, but there is no evidence of mutual partnership, emotional availability, or shared crisis-navigation during the relationship itself. The score reflects documented evidence of the relationship rather than later narrative rehabilitation."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Gethin, *The Foundations of Buddhism* (1998)",
+              "Nakamura, *Gotama Buddha* (2000)",
+              "Walshe (trans.), *The Long Discourses of the Buddha* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "As a biological parent, the Buddha abandoned his infant son Rahula, though later tradition records him teaching Rahula directly (the Ambalatthika-rahulovada Sutta and Maharahulovada Sutta), and Rahula is said to have attained enlightenment. As a mentor, the Buddha was exceptional: he adapted teaching methods to individual students' temperaments and capacities (upaya), and his mentees—Sariputta, Moggallana, Mahakassapa, Ananda—became accomplished independent teachers who led the sangha after his death and organized the First Council. The criterion that mentees develop 'genuine autonomy and competence, not merely obedience or replication' is met by the diversity of approaches among his chief disciples. Scored 2 rather than 3 because the abandonment of Rahula as an infant represents a significant limitation in parental quality."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Gethin, *The Foundations of Buddhism* (1998)",
+              "Gombrich, *Theravada Buddhism* (2006)",
+              "Lopez, *The Story of Buddhism* (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Buddhism has shaped the art, philosophy, politics, law, and daily life of civilizations across Asia for over 2,500 years—India, Sri Lanka, China, Japan, Korea, Tibet, Mongolia, Southeast Asia, and Central Asia. Buddhist concepts (karma, nirvana, mindfulness, non-attachment) have become part of global vocabulary. Buddhist art and architecture (Borobudur, Angkor, the Silk Road cave temples) represent major cultural achievements of human civilization. In the modern era, Buddhist ideas have influenced Western psychology (mindfulness-based cognitive therapy), philosophy, and environmental ethics. The impact is clearly operative across multiple civilizations well beyond 500 years."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Lopez, *From Stone to Flesh: A Short History of the Buddha* (2013)",
+              "Almond, *The British Discovery of Buddhism* (1988)",
+              "Lang (trans.), *Barlaam and Ioasaph* (Loeb Classical Library, 1914)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Buddha is recognized as an archetype—the Enlightened Sage, the Renunciant Prince—far beyond Buddhist cultures. In Christianity, the Buddha's story was adopted as the tale of Saints Barlaam and Josaphat (a corruption of 'Bodhisattva'), recognized in both Catholic and Orthodox hagiography. In Islamic tradition, the Bilawhar wa-Yudasaf narrative transmits his story. In modern Western culture, he serves as a universal symbol of inner peace, wisdom, and spiritual awakening. His image (the seated meditation posture) is one of the most globally recognized symbols in human history, transcending any single cultural tradition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Wijayaratna, *Buddhist Monastic Life* (1990)",
+              "Gethin, *The Foundations of Buddhism* (1998)",
+              "Prebish, *Buddhist Monastic Discipline* (1975)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The sangha is one of the oldest continuously operating institutions in human history, enduring more than 2,500 years with recognizable structural continuity. Theravada monasteries in Sri Lanka, Myanmar, and Thailand still follow the Vinaya rules attributed to the Buddha. The institution survived the Buddha's death, major schisms, the decline of Buddhism in India, and transplantation to entirely new civilizations (China, Japan, Tibet, Southeast Asia). The organizational framework—including ordination procedures, communal governance, and the relationship between monastics and laity—has shown extraordinary durability, far exceeding the two-generation threshold."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Gethin, *The Foundations of Buddhism* (1998)",
+              "Strong, *The Buddha: A Short Biography* (2001)",
+              "Schumann, *The Historical Buddha* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Buddha successfully led across qualitatively different contexts: small groups of ascetics (the first five companions at Sarnath), a large and growing pan-regional monastic order spanning multiple kingdoms, and lay communities of diverse social standing. He led in crisis (the Devadatta schism, the massacre of his Shakya kinsmen) and in stability (decades of routine teaching circuits across the Indo-Gangetic Plain). He mobilized kings (Bimbisara, Pasenadi), wealthy merchants (Anathapindika), and outcastes alike. His influence extended beyond his immediate followers to reshape the religious landscape of an entire subcontinent during his lifetime."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Walshe (trans.), *The Long Discourses of the Buddha* (1995)",
+              "Nakamura, *Gotama Buddha* (2000)",
+              "Strong, *The Buddha: A Short Biography* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Pali Canon preserves specific episodes of the Buddha engaging in mundane activities: he mended his own robes, ate whatever food was placed in his bowl during alms rounds (including the tainted pork or mushroom dish from Cunda that likely caused his fatal illness), personally bathed the sick monk Tissa, and walked barefoot across the plains alongside his monks. The Therigatha and Theragatha preserve accounts of ordinary human interactions. However, the overall tradition strongly elevates the Buddha above the mundane through supernatural attributes (the 32 marks of a great man, miraculous powers), which limits the sense of ordinary relatability compared to figures whose traditions preserve more everyday texture."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Gombrich, *Theravada Buddhism* (2006)",
+              "Analayo, *The Foundation History of the Nuns' Order* (2016)",
+              "Nakamura, *Gotama Buddha* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Buddha rejected the caste system, which was the dominant social hierarchy and was supported by his own Kshatriya class's religious legitimacy. He admitted members of all castes to the sangha, including outcastes like Sunita and Upali (a barber). He reportedly mediated the Shakya-Koliya water dispute by ruling on principle rather than kinship loyalty. Without counterexample: 3 (caste rejection is clearly ruling against group interest in favor of principle). With counterexample given full weight: the eight garudhammas imposed additional rules on women's ordination, and the narrative of initial reluctance to admit Mahapajapati Gotami suggests gendered limits to his justice orientation. Analayo's research suggests the garudhammas may be later additions, but the reluctance narrative is preserved in the earliest strata of multiple traditions. Final: 2, as the gender-related counterexample represents a significant limitation, even though era-normalized his inclusion of women at all was revolutionary."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Nakamura, *Gotama Buddha: A Biography Based on the Most Reliable Texts* (2000)",
+              "Gethin, *The Foundations of Buddhism* (1998)",
+              "Analayo, *The Genesis of the Bodhisattva Ideal* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Compassion (karuna) is a central pillar of the Buddha's teaching (one of the Four Brahmaviharas), and the tradition preserves specific acts toward adversaries and outgroup members. He personally taught and converted Angulimala, a notorious serial killer, rather than condemning him. He washed and cared for the monk Tissa, who was afflicted with a loathsome skin disease that caused other monks to abandon him. He taught across caste lines, welcoming the outcaste Sunita (a road-sweeper) into the sangha. He guided the bereaved Kisa Gotami through her grief at her child's death with the mustard-seed parable. Counterexample: his reported initial reluctance to ordain women (Mahapajapati Gotami narrative) suggests limits to empathetic inclusion, though he ultimately relented. Without counterexample: 3. With full weight: 2. Final: 3, because era-normalized the overall pattern of compassion toward outcasts, enemies, and the suffering is defining, and the ultimate decision to include women was itself an act of compassion."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Strong, *The Buddha: A Short Biography* (2001)",
+              "Schumann, *The Historical Buddha* (2003)",
+              "Walshe (trans.), *The Long Discourses of the Buddha* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Buddha demonstrated sustained courage across multiple high-stakes situations over decades. He abandoned a life of princely security to become a homeless ascetic—an irreversible social rupture in his context. He endured six years of extreme asceticism including near-starvation. He faced and overcame 'Mara' (whether understood as a psychological or narrative event, the tradition treats it as a supreme test of resolve). He survived assassination attempts by Devadatta, including a charging elephant (Nalagiri) and a boulder rolled down a hill. He continued teaching and traveling on foot into his 80s despite serious illness, and faced the massacre of his own Shakya clan by King Vidudabha without abandoning his mission."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Bronkhorst, *The Two Traditions of Meditation in Ancient India* (1993)",
+              "Gombrich, *What the Buddha Thought* (2009)",
+              "Analayo, *The Genesis of the Bodhisattva Ideal* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Buddhist tradition preserves two significant instances of the Buddha reversing a prior position with visible behavioral change: (1) his abandonment of extreme asceticism after six years of practice, accepting that this path was fruitless and developing the Middle Way—a genuine reversal documented in the earliest sources; (2) his initial refusal and subsequent acceptance of women into the sangha after Mahapajapati Gotami's persistent requests and Ananda's advocacy, showing willingness to accept correction from a disciple. The Vinaya also records the Buddha modifying rules in response to monks' feedback. The tradition does substantially sanitize the post-enlightenment Buddha as omniscient, which warrants caution, but critical scholars (Bronkhorst, Gombrich) accept the asceticism-to-middle-way shift as reflecting genuine historical development, providing the independent scholarly corroboration that allows scoring above 1."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Walshe (trans.), *The Long Discourses of the Buddha* (1995)",
+              "Schumann, *The Historical Buddha* (2003)",
+              "Strong, *The Buddha: A Short Biography* (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Buddha functioned effectively across at least three qualitatively different forms of adversity: (1) material deprivation—six years of extreme asceticism followed by 45 years of voluntary mendicancy without personal possessions; (2) personal bereavement—the massacre of the Shakya clan by King Vidudabha, the death of his chief disciples Sariputta and Moggallana shortly before his own death; (3) physical threats and crisis—assassination attempts by Devadatta, serious illness in old age. Through all of these, he continued teaching, traveling, and leading the sangha without documented collapse of function. The combination of voluntary poverty, loss of kin, and physical danger across decades of sustained activity meets the highest threshold."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Gombrich, *What the Buddha Thought* (2009)",
+              "Gethin, *The Foundations of Buddhism* (1998)",
+              "Collins, *Selfless Persons* (1982)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Buddha inhabited at least four seemingly contradictory roles without fragmenting into inconsistency: (1) a royal prince who became a homeless beggar; (2) a detached renunciant who built and administered a large, complex institution; (3) a teacher of non-self (anatta) and impermanence who became one of the most enduring personal presences in human cultural memory; (4) a practitioner of radical non-attachment who demonstrated deep compassion and emotional engagement with suffering individuals (Kisa Gotami, Angulimala, the sick monk Tissa); (5) an advocate of the Middle Way who had first lived both extremes (luxury and severe asceticism). The coherent integration of ascetic withdrawal and communal leadership, detachment and compassion, is a defining feature of his legacy."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Walshe (trans.), *The Long Discourses of the Buddha* (1995, DN 16)",
+              "Strong, *The Buddha: A Short Biography* (2001)",
+              "Gethin, *The Foundations of Buddhism* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Mahaparinibbana Sutta (DN 16) provides one of the most detailed death narratives in ancient literature. The Buddha announced his impending death three months in advance at Vesali, explicitly refusing Mara's invitation to die earlier and choosing to live out his remaining time teaching. After eating the meal from Cunda that caused his fatal illness, he continued walking and teaching. On his deathbed between the sala trees at Kushinagar, he gave final instructions, told Ananda 'do not weep,' reassured his followers that impermanence is the nature of all compounded things, and entered parinibbana in full composure. This meets the criterion of documented composure in the face of one's own imminent death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Schumann, *The Historical Buddha* (2003)",
+              "Nakamura, *Gotama Buddha* (2000)",
+              "Strong, *The Buddha: A Short Biography* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Buddha endured six years of extreme asceticism including severe fasting (the Gandhara sculptures depict his emaciated body, and textual sources describe near-starvation). After recovering, he walked extensively across the Indo-Gangetic Plain for approximately 45 years on his teaching circuits, covering the distance between Rajagaha, Savatthi, Varanasi, and numerous other sites—hundreds of miles per year on foot. He continued these journeys into his 80s despite reported back pain and digestive illness. This demonstrates endurance across multiple life-stages (youth through old age), but falls short of 3 as the evidence for exceptional physical feats beyond walking endurance is largely hagiographic (the princely martial training narratives are from later, less reliable sources)."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Gethin, *The Foundations of Buddhism* (1998)",
+              "Nakamura, *Gotama Buddha* (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Buddha's teaching emphasizes equanimity and non-attachment to sensory pleasures, and his renunciant lifestyle was deliberately austere. There are limited references to appreciation of natural beauty (descriptions of pleasant groves and parks in the suttas), and meditative states (jhanas) include piti (rapture/joy), but this is instrumental—part of the path to liberation rather than aesthetic appreciation for its own sake. Some suttas preserve moments of gentle humor (e.g., the exchange with the brahmin Dona, wordplay in dialogues), but these are sparse and may be literary embellishments. There is no documented non-instrumental engagement with art, music, play, or aesthetic creation, consistent with the overall ethos of renunciation."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 5.56,
+          "Core_5D_Avg": 8.08,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 8.33,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "The Buddha (Siddhartha Gautama)",
+      "overall": {
+        "Core_5D_Avg": 8.08,
+        "Overall_Normalized_Equal_Avg": 7.47,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "The Buddha scores exceptionally in cognitive (9.2/10), cultural-social (9.3/10), and moral-affective (8.3/10) dimensions, reflecting paradigm-shifting philosophical innovation, unmatched institution-building (the sangha enduring 2,500+ years), and sustained moral courage. Embodied-existential scores are strong (8.0/10) driven by hardship tolerance, mortality acceptance, and paradox integration, but limited by sparse evidence of non-instrumental aesthetic play. The relational dimension (5.6/10) is weakest, reflecting the renunciant's inherent tension with conventional family bonds—his abandonment of Yasodhara and infant Rahula is a genuine limitation. Heinlein competency breadth (4.4/10) is moderate: exceptional in leadership and existential composure but necessarily limited in practical crafts by mendicant life. Overall: 7.5/10. Nearly all evidence is hagiographic, capping most confidence at Medium.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Wijayaratna, *Buddhist Monastic Life* (1990)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that the Buddha prepared food. As a mendicant, he ate whatever was offered in his bowl during alms rounds. The Vinaya regulates what monks may eat and when, but does not include food preparation by monks. Neither the princely nor mendicant phases of his life involved cooking."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Strong, *The Buddha: A Short Biography* (2001)",
+            "Johnston (trans.), *Buddhacarita* (1936)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Later biographical texts (the Lalitavistara, Buddhacarita) describe Siddhartha's princely training in martial arts, including an archery contest and wrestling, as part of his Kshatriya education before renunciation. However, these accounts are from later, more hagiographic sources and serve narrative purposes (demonstrating he mastered worldly skills before renouncing them). After renunciation, he was committed to non-violence and never engaged in combat. The score reflects reported early training, but the low confidence reflects the hagiographic nature of these specific claims."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Gethin, *The Foundations of Buddhism* (1998)",
+            "Nakamura, *Gotama Buddha* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Buddha personally washed and tended the sick monk Tissa when other monks refused due to the severity of his skin disease, reportedly saying 'He who would tend me should tend the sick.' He guided the bereaved mother Kisa Gotami through her grief with the mustard-seed exercise rather than offering empty comfort. He adapted his teaching to individual psychological needs, showing attunement to emotional states. These are specific, documented acts of caregiving, but caregiving was not a sustained daily practice—it was episodic within a primarily teaching-focused life."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Walshe (trans.), *The Long Discourses of the Buddha* (1995, DN 16)",
+            "Strong, *The Buddha: A Short Biography* (2001)",
+            "Gethin, *The Foundations of Buddhism* (1998)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Existential composure is arguably the defining competency of the Buddha's life and teaching. The Mahaparinibbana Sutta documents his composed, deliberate approach to his own death over a three-month period—announcing his intention, continuing to teach, eating the final meal despite illness, walking to his chosen death-place, and passing with the words 'All conditioned things are impermanent; strive on with diligence.' He faced Devadatta's assassination attempts without panic, responded to the Shakya massacre with equanimity, and taught a framework (the Four Noble Truths) whose entire purpose is enabling others to face suffering and mortality with dignity. His final composure is among the most thoroughly documented death scenes in ancient literature."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Wijayaratna, *Buddhist Monastic Life* (1990)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Vinaya records that monks, including the Buddha, were expected to maintain their own robes (mending, dyeing with ochre) and bowls. The Buddha reportedly patched his own robes. This represents basic maintenance competence expected of a mendicant, but there is no evidence of skilled craftsmanship, tool-making, or complex repair work beyond these minimal self-maintenance tasks."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Schumann, *The Historical Buddha* (2003)",
+            "Nakamura, *Gotama Buddha* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Buddha spent approximately 45 years as a wandering mendicant, navigating regularly between major cities across the Indo-Gangetic Plain—Rajagaha, Savatthi, Varanasi, Vesali, Kosambi, Kapilavastu, and Kushinagar—a region spanning hundreds of miles. The suttas record specific routes and stops on his journeys. He navigated this without maps in the modern sense, relying on knowledge of roads, rivers (the Ganges, Rapti), and seasonal conditions. Era-normalized, this represents competent wayfinding across varied terrain over decades, though he likely traveled well-established trade routes rather than pioneering new paths."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Gethin, *The Foundations of Buddhism* (1998)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that the Buddha butchered, processed, or handled animals for food. As a mendicant, he received prepared alms. As a prince before renunciation, he would have had servants for such tasks. Buddhist precepts against killing make it unlikely he engaged in animal processing at any point in his documented life."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Gethin, *The Foundations of Buddhism* (1998)",
+            "Strong, *The Buddha: A Short Biography* (2001)",
+            "Nakamura, *Gotama Buddha* (2000)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "The Buddha excelled at both giving and taking direction. As a leader, he founded and governed a large, multi-regional institution, gave decisive orders (expelling disruptive monks, establishing rules), and inspired intense loyalty across social classes. As a follower, he studied under Alara Kalama and Uddaka Ramaputta, accepting their instruction before determining he needed to go further. He submitted to the social norms of mendicancy—accepting whatever food was offered, sleeping wherever shelter was available, deferring to householders' hospitality customs. He also reportedly changed the Vinaya rules in response to Ananda's advocacy for women's ordination, showing willingness to be influenced. The combination of supreme institutional leadership with genuine receptivity to others' input is distinctive."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Gethin, *The Foundations of Buddhism* (1998)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that the Buddha designed or built physical structures. Monasteries and meeting halls used by the sangha were donated by lay supporters (Jeta's Grove purchased by Anathapindika, Veluvana donated by Bimbisara). The mendicant lifestyle explicitly eschewed permanent construction, and no sources attribute building activity to the Buddha."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Schumann, *The Historical Buddha* (2003)",
+            "Strong, *The Buddha: A Short Biography* (2001)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Buddha coordinated the expansion of the sangha across multiple kingdoms (Magadha, Kosala, Vajji, etc.), secured patronage from kings and merchants (Bimbisara donated Veluvana, Anathapindika purchased Jeta's Grove), and managed the Devadatta schism by maintaining the loyalty of the majority of monks while neutralizing the splinter faction. He planned his teaching circuits and final journey deliberately. However, these operations, while complex, are organizational rather than involving the multi-variable contingency planning under acute uncertainty that defines the highest scores."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Walshe (trans.), *The Long Discourses of the Buddha* (1995)",
+            "Gethin, *The Foundations of Buddhism* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Buddha's discourses, as preserved in the Pali Canon, contain sophisticated literary and rhetorical artistry: the parable of the poisoned arrow (Cula-Malunkyovada Sutta), the raft simile (Alagaddupama Sutta), the Fire Sermon (Adittapariyaya Sutta), and numerous extended metaphors and structured dialogues. The gathas (verses) attributed to him show poetic skill. Even accounting for later redaction, the core rhetorical framework and teaching methodology represent a distinctive oral literary achievement. However, this expression was primarily didactic rather than artistic for its own sake, and we cannot fully distinguish the Buddha's own formulations from later editorial shaping."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Zysk, *Asceticism and Healing in Ancient India* (1991)",
+            "Gethin, *The Foundations of Buddhism* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "The Buddha personally nursed the sick monk Tissa and gave general health guidance to monks (dietary advice, recommendations about exercise and hygiene preserved in the Vinaya). He is credited with a practical, non-magical approach to illness. However, he was not a medical practitioner, and the tradition does not attribute specific medical knowledge (bone-setting, wound treatment, herbal medicine) to him beyond basic caregiving. Era-normalized, this is basic competence rather than notable skill."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Collins, *Selfless Persons* (1982)",
+            "Siderits, *Buddhism as Philosophy* (2007)",
+            "Gombrich, *What the Buddha Thought* (2009)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Buddha's philosophical system demonstrates rigorous analytical reasoning: the systematic analysis of consciousness into the five aggregates (skandhas), the twelve-link chain of dependent origination (pratityasamutpada), the four-fold logical structure of the catuskoti used in some dialogues, and the methodical classification of mental states in the Abhidhamma tradition (though the latter is likely post-Buddha). As a Kshatriya prince, he reportedly received education appropriate to his class, which in the 5th century BCE context would have included practical calculation. The analytical sophistication of his philosophical taxonomy is comparable to the best systematic thinking of his era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Wijayaratna, *Buddhist Monastic Life* (1990)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of agricultural activity. The Buddha explicitly adopted a non-productive mendicant lifestyle, relying on the agricultural surplus of others through the alms system. The Vinaya prohibits monks from digging the earth or damaging plants, further precluding agricultural engagement. Before renunciation, as a prince, he would not have engaged in agriculture personally."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Wynne, *The Origin of Buddhist Meditation* (2007)",
+            "Gethin, *The Foundations of Buddhism* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "The Buddha developed sophisticated systematic approaches to meditation and mental training (the jhana system, satipatthana/mindfulness practice, the graduated training) that can be understood as 'technologies of the mind'—systematic, reproducible procedures for achieving specific mental states. However, there is no evidence of engagement with the physical technologies of his era (metallurgy, irrigation, construction engineering, textile production). Era-normalized, his technical contribution is in the domain of psychological technique rather than material technology, which limits the score for this practical competency domain."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.08,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 7.47,
+    "created_at": "2026-03-15T10:02:13.847Z",
+    "updated_at": "2026-03-15T10:02:13.850Z"
+  }
+}
+]

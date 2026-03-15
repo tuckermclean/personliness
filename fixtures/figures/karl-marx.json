@@ -1,0 +1,379 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 77,
+  "fields": {
+    "name": "Karl Marx",
+    "slug": "karl-marx",
+    "bio_short": "A towering intellectual whose theories of historical materialism, alienation, and class analysis created a paradigm shift in social thought with multi-civilizational impact. Exceptional cognitive creativity and philosophical depth are matched by remarkable hardship tolerance through decades of poverty, exile, illness, and bereavement. Moral-affective profile is uneven: sustained personal courage but limited compassion in interpersonal dealings, and notable resistance to admitting error. Relational life marked by a deep but flawed marriage and engaged fatherhood undercut by the Demuth affair. H",
+    "bio_long": "Karl Marx was a German philosopher, social and political theorist, economist, journalist, and revolutionary socialist. He is best-known for the 1848 pamphlet The Communist Manifesto, and his three-volume Das Kapital (1867–1894), a critique of classical political economy which employs his theory of historical materialism in an analysis of capitalism, in the culmination of his life's work. Marx's ideas and their subsequent development, collectively known as Marxism, have had enormous influence.",
+    "source_notes": "https://en.wikipedia.org/wiki/Karl_Marx",
+    "image": "figures/330px-Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored_26_Adjusted_283x4_cro_6Ic84yi.png",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)",
+              "McLellan, *Karl Marx: His Life and Thought* (1973)",
+              "Shanin (ed.), *Late Marx and the Russian Road* (1983)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Marx showed strategic adaptability in maneuvering against Bakunin's faction within the First International (1869–72), successfully engineering the anarchists' expulsion at the Hague Congress. He adapted his revolutionary expectations over time, notably reconsidering whether Russia could bypass capitalism via the commune (1881 letter to Zasulich). However, several key strategic predictions failed—he expected revolution first in industrialized England or Germany, not agrarian Russia—and his organizational strategies yielded mixed results."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Hobsbawm, *How to Change the World: Reflections on Marx and Marxism* (2011)",
+              "Wheen, *Karl Marx: A Life* (1999)",
+              "Stedman Jones, *Karl Marx: Greatness and Illusion* (2016)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Marx created a demonstrable paradigm shift: before his work, political economy was analyzed largely without systematic class analysis or a materialist theory of history; after Das Kapital and the Manifesto, these frameworks became unavoidable in social thought. Historical materialism, the concept of ideology as structurally produced false consciousness, and the systematic analysis of capitalism's internal contradictions were genuinely novel contributions that reshaped economics, sociology, historiography, and philosophy."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Kolakowski, *Main Currents of Marxism* (1976)",
+              "Berlin, *Karl Marx: His Life and Environment* (1939, rev. ed.)",
+              "Stedman Jones, *Karl Marx: Greatness and Illusion* (2016)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Marx's theories of alienation (1844 Manuscripts), historical materialism (The German Ideology), commodity fetishism, and surplus value (Das Kapital) constitute some of the most influential philosophical frameworks in modern thought. His ideas profoundly shaped thinkers far beyond his own tradition—Max Weber, the Frankfurt School, Sartre's existential Marxism, liberation theology, postcolonial theory, and virtually all modern social science. This influence across multiple intellectual traditions and eras meets the Score-3 threshold."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)",
+              "McLellan, *Karl Marx: His Life and Thought* (1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Marx served as effective editor of the Rheinische Zeitung (1842–43) and Neue Rheinische Zeitung (1848–49), managing contributors and editorial direction. He organized the rules and structure of the First International (1864). However, both newspapers were suppressed, and the International collapsed after factional disputes by 1876. No administrative system he designed endured beyond his direct involvement, precluding a higher score."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)",
+              "Wheen, *Karl Marx: A Life* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Marx demonstrated qualitatively distinct behavior across multiple relational modes: as a devoted (if flawed) spouse to Jenny; as a playful, engaged parent; as a deeply loyal friend to Engels over 40 years; as a vitriolic adversary to Bakunin, Proudhon, and Lassalle; and as an authoritative leader in the International. However, evidence of graceful followership or subordination is thin—he was domineering in nearly every professional relationship and broke with most collaborators, suggesting a somewhat rigid relational style in public contexts."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)",
+              "Gabriel, *Love and Capital: Karl and Jenny Marx and the Birth of a Revolution* (2011)",
+              "Wheen, *Karl Marx: A Life* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Marx and Jenny von Westphalen's marriage (1843–1881) was a genuine love match enduring nearly 40 years through extreme hardship—poverty, exile, the deaths of children. Jenny served as his intellectual partner, copying manuscripts and offering editorial feedback. Their correspondence reveals deep mutual affection. However, Marx's affair with Helene Demuth, which produced a son (Freddy) whose paternity he denied while Engels assumed blame, represents a significant breach of the mutual respect the Score-3 threshold requires."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Liebknecht, *Karl Marx: Biographical Memoirs* (1901)",
+              "Kapp, *Eleanor Marx* (1972)",
+              "Hunt, *Marx's General* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Marx was reportedly a devoted and playful father: Liebknecht describes him telling elaborate stories to his daughters on Hampstead Heath walks. His daughters Eleanor, Laura, and Jenny grew up to be politically active, intellectually independent women—Eleanor became a significant labor organizer and translator in her own right. As a mentor, he profoundly shaped Engels, Liebknecht, and Kautsky. However, he completely abandoned his illegitimate son Freddy Demuth, never acknowledging paternity, which is a serious failing in parental duty."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Hobsbawm, *How to Change the World* (2011)",
+              "Kolakowski, *Main Currents of Marxism* (1976)",
+              "Stedman Jones, *Karl Marx: Greatness and Illusion* (2016)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Marx's ideas shaped revolutions in Russia (1917), China (1949), Cuba (1959), and Vietnam; influenced social democratic movements across Europe; became foundational to academic disciplines including sociology, historiography, economics, and literary criticism; and remain actively debated globally. His impact spans European, Asian, Latin American, and African civilizations. Though only 140 years have elapsed since his death, the breadth, depth, and continuing vitality of his influence across multiple civilizations is among the most extraordinary in intellectual history."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Wheen, *Karl Marx: A Life* (1999)",
+              "Hobsbawm, *How to Change the World* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Marx is recognized as the archetype of the revolutionary intellectual across cultures far beyond his German-European origin—in China, Russia, Latin America, Africa, and the Global South. His bearded image is one of the most recognized in world history. He serves as a symbol of systemic critique of economic injustice in traditions ranging from academic philosophy to popular protest movements, meeting the Score-3 threshold of cross-cultural archetypal recognition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)",
+              "Hobsbawm, *How to Change the World* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Marx co-founded the Communist League (1847) and led the International Workingmen's Association (First International, 1864–76). Neither survived two generations in recognizable form under his founding. The Communist League dissolved by 1852; the International collapsed by 1876. While his ideas became the foundation for durable institutions built by others (SPD, Second International, Communist parties), the rubric scores institutions the figure personally created and sustained."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "McLellan, *Karl Marx: His Life and Thought* (1973)",
+              "Stedman Jones, *Karl Marx: Greatness and Illusion* (2016)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Marx led effectively across several contexts: as newspaper editor (Rheinische Zeitung, Neue Rheinische Zeitung), as organizer of the Communist League, and as intellectual leader of the First International. His intellectual leadership inspired global movements. However, his organizational leadership was frequently marred by faction and rupture—the International collapsed, and he broke with most collaborators. He never led in stability contexts (governance, sustained institution management), limiting him to qualitatively similar crisis/oppositional settings."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Liebknecht, *Karl Marx: Biographical Memoirs* (1901)",
+              "Wheen, *Karl Marx: A Life* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Marx engaged in mundane activities even during his most productive periods: Sunday family walks on Hampstead Heath with picnics, playing with his children and telling them stories (documented by Wilhelm Liebknecht's memoirs), drinking and socializing at pubs, playing chess. He experienced ordinary hardships—debt, illness, landlord disputes, pawning the family silver. These documented mundane engagements ground him in everyday human experience despite his intellectual fame."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Stedman Jones, *Karl Marx: Greatness and Illusion* (2016)",
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Marx's entire intellectual project was driven by a commitment to exposing and rectifying systemic exploitation of workers by capital. His analysis in Das Kapital systematically documents injustice using factory inspectors' reports and Parliamentary Blue Books. However, evidence of ruling against personal or group interest is limited: he maneuvered to maintain control of the International, and his personal treatment of rivals and dependents (Freddy Demuth) shows justice applied selectively rather than impartially."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Wheen, *Karl Marx: A Life* (1999)",
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)",
+              "Hunt, *Marx's General* (2009)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Marx's writings in Das Kapital on child labor in English factories and the immiseration of workers display genuine empathetic engagement with suffering. However, in personal dealings he was frequently vicious toward political opponents—his attacks on Lassalle included antisemitic slurs, and his polemics against Proudhon (The Poverty of Philosophy) and Bakunin were merciless. He denied paternity of his son Freddy Demuth, born to the family's housekeeper Helene Demuth, showing limited compassion toward those closest to him when it threatened his reputation."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "McLellan, *Karl Marx: His Life and Thought* (1973)",
+              "Wheen, *Karl Marx: A Life* (1999)",
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Marx was expelled from Prussia (1843), France (1845), and Belgium (1848) for his political writings and activities, yet continued publishing and organizing. He returned to revolutionary Cologne during the 1848 upheavals despite risk of arrest. In London, he persisted with Das Kapital for over two decades despite grinding poverty—his family sometimes lacked money for food and medicine—chronic illness (severe carbuncles, liver disease), and the deaths of four children. This represents sustained courage across multiple high-stakes situations over decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Seigel, *Marx's Fate: The Shape of a Life* (1978)",
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Marx's theoretical framework evolved substantially—from Young Hegelian idealism to mature historical materialism, and from rigid stagism to acknowledging Russia's potential non-capitalist path (letter to Zasulich, 1881). However, he was notoriously unwilling to admit personal error or accept correction in disputes: he broke with nearly every collaborator except Engels (Ruge, Proudhon, Weitling, Bakunin, Lassalle). He never publicly acknowledged his son Freddy Demuth or his affair with Helene Demuth. Intellectual evolution is present but personal moral growth and admission of error are poorly documented."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "McLellan, *Karl Marx: His Life and Thought* (1973)",
+              "Wheen, *Karl Marx: A Life* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Marx endured at least four qualitatively different forms of severe adversity while maintaining effective intellectual output: (1) material deprivation—his family in London sometimes lacked money for food, medicine, and rent, and he frequently pawned possessions; (2) political exile from four countries; (3) chronic severe illness (carbuncles so painful he could not sit); (4) personal bereavement—the deaths of his sons Edgar (1855), Heinrich Guido (1850), and daughter Franziska (1852), and eventually his wife Jenny (1881). Through all this he produced Das Kapital."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Seigel, *Marx's Fate: The Shape of a Life* (1978)",
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Marx inhabited several seemingly contradictory roles: bourgeois intellectual and champion of the proletariat; fierce polemicist and tender family man; abstract philosopher and empirical economist relying on factory inspectors' data; prophet of revolutionary action and patient scholar spending decades in the British Museum. These constitute at least three paradoxical pairings. However, some tensions were never fully resolved—he lived off Engels's factory profits while denouncing industrial capitalism—suggesting integration was incomplete."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Wheen, *Karl Marx: A Life* (1999)",
+              "McLellan, *Karl Marx: His Life and Thought* (1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Marx was reportedly devastated by the deaths of his wife Jenny (December 1881) and eldest daughter Jenny Longuet (January 1883), and his own health declined rapidly thereafter. He died in his armchair on March 14, 1883. While he continued some work in his final years, accounts suggest he was broken by grief rather than composed in facing death. There is no documented evidence of exceptional composure or intentionality in confronting his own imminent mortality."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Wheen, *Karl Marx: A Life* (1999)",
+              "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Marx suffered from chronic carbuncles (boils), liver disease, and respiratory problems for much of his adult life, which severely limited his physical capacity. He was not noted for physical prowess or athletic ability. However, he managed long hours of study and writing at the British Museum despite physical afflictions, and participated in student dueling at Bonn in his youth. His endurance was intellectual rather than physical."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Prawer, *Karl Marx and World Literature* (1976)",
+              "Liebknecht, *Karl Marx: Biographical Memoirs* (1901)",
+              "Wheen, *Karl Marx: A Life* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Marx was a genuine and lifelong lover of literature—Shakespeare, Aeschylus, Balzac, Goethe, and Cervantes were favorites he returned to repeatedly for pleasure, not merely instrumentally. He wrote (mediocre) love poetry to Jenny in his youth. Liebknecht's memoirs describe him as animated and playful on family outings, telling fantastical stories to his children during Hampstead walks. His aesthetic engagement with literature was clearly non-instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 6.67,
+          "Core_5D_Avg": 6.67,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Karl Marx",
+      "overall": {
+        "Core_5D_Avg": 6.67,
+        "Overall_Normalized_Equal_Avg": 6.04,
+        "General_Competency_Avg_10scale": 2.89
+      },
+      "summary": "A towering intellectual whose theories of historical materialism, alienation, and class analysis created a paradigm shift in social thought with multi-civilizational impact. Exceptional cognitive creativity and philosophical depth are matched by remarkable hardship tolerance through decades of poverty, exile, illness, and bereavement. Moral-affective profile is uneven: sustained personal courage but limited compassion in interpersonal dealings, and notable resistance to admitting error. Relational life marked by a deep but flawed marriage and engaged fatherhood undercut by the Demuth affair. Heinlein competency is sharply narrow—brilliant in analytical and strategic domains but with virtually no evidence of manual, agricultural, medical, or culinary skills.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.87,
+          "General_Competency_Avg_10scale": 2.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Gabriel, *Love and Capital* (2011)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Marx cooked or prepared meals. Household food preparation was handled by Helene Demuth and Jenny Marx. Biographers do not record any culinary activity on his part."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Marx reportedly engaged in student dueling at the University of Bonn (receiving a minor scar), but this was a conventional student activity rather than combat skill. He did not participate in armed combat during the 1848 revolutions, serving instead as a journalist. No evidence of meaningful combat or defense capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Gabriel, *Love and Capital* (2011)",
+            "Wheen, *Karl Marx: A Life* (1999)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Marx was attentive to his children during illness and reportedly helped with childcare, as documented in family correspondence. He was present during Jenny's final illness in 1881. However, caregiving was not a defining competency—the family relied heavily on Helene Demuth as housekeeper and caregiver, and his abandonment of Freddy Demuth reflects a significant gap."
+        },
+        "Existential Composure": {
+          "citations": [
+            "McLellan, *Karl Marx: His Life and Thought* (1973)",
+            "Wheen, *Karl Marx: A Life* (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Marx maintained intellectual productivity through extraordinary personal crises: after the death of his son Edgar in 1855 he wrote to Engels of his grief but continued work on the Grundrisse; he persisted through decades of painful illness. His composure was imperfect—he was reportedly devastated by Jenny's death and his own final years were marked by decline—but his ability to function through repeated existential blows demonstrates above-average composure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Wheen, *Karl Marx: A Life* (1999)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Marx possessed skills in manual craft, tool-making, or physical repair. Biographers consistently depict him as entirely focused on intellectual work, and the family relied on Helene Demuth for household maintenance."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Marx traveled extensively across Europe as an exile—from Trier to Bonn, Berlin, Paris, Brussels, Cologne, and finally London—navigating unfamiliar cities and border crossings, sometimes under police surveillance. He also traveled to Algiers for health reasons in 1882. However, this represents ordinary 19th-century travel competence rather than exceptional navigational skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Wheen, *Karl Marx: A Life* (1999)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence in the historical record that Marx ever butchered, processed, or handled animals for food. He lived an urban intellectual life in Trier, Paris, Brussels, and London with no documented connection to animal husbandry or food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "McLellan, *Karl Marx: His Life and Thought* (1973)",
+            "Stedman Jones, *Karl Marx: Greatness and Illusion* (2016)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Marx was an effective leader as editor, Communist League organizer, and head of the First International. However, he was notably poor at followership—he was domineering in nearly every professional relationship, broke with most collaborators (Ruge, Weitling, Proudhon, Lassalle, Bakunin), and could not gracefully accept others' leadership. The trait requires both dimensions; his weakness in followership limits the score."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence in the historical record that Marx ever designed or built physical structures. His life was entirely oriented toward intellectual production."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "McLellan, *Karl Marx: His Life and Thought* (1973)",
+            "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Marx coordinated the Communist League's activities across multiple countries, directed the editorial strategy of two newspapers under political pressure, and managed the First International's factional politics—successfully orchestrating the expulsion of the Bakuninists at the 1872 Hague Congress. His strategic planning in political maneuvering was effective, though his broader revolutionary predictions proved inaccurate."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Prawer, *Karl Marx and World Literature* (1976)",
+            "Wheen, *Karl Marx: A Life* (1999)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Marx wrote love poetry to Jenny von Westphalen in his youth (acknowledged as mediocre by biographers) and produced prose of genuine literary power—The 18th Brumaire of Louis Bonaparte is widely praised for its vivid, epigrammatic style. S.S. Prawer documented his deep engagement with world literature. However, his output was primarily theoretical rather than artistic, and he did not create enduring works of art per se."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of medical skills or emergency response capability. Marx was frequently a patient rather than a provider of medical care, suffering chronic illness and relying on physicians throughout his life."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Marx, *Mathematical Manuscripts* (published posthumously)",
+            "Sperber, *Karl Marx: A Nineteenth-Century Life* (2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Marx's economic analysis in Das Kapital draws extensively on quantitative data from factory inspectors' reports, Parliamentary Blue Books, and trade statistics. His unpublished mathematical manuscripts show engagement with differential calculus and its foundations. His analytical reasoning in constructing the labor theory of value and the schemas of reproduction in Capital Vol. II demonstrates sophisticated quantitative and logical thinking for his era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Wheen, *Karl Marx: A Life* (1999)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of agricultural skill or resource management competence. Marx was notably poor at managing his own household finances, repeatedly falling into debt and depending on Engels's subsidies throughout his London years."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Stedman Jones, *Karl Marx: Greatness and Illusion* (2016)",
+            "Kolakowski, *Main Currents of Marxism* (1976)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Marx developed novel analytical tools—historical materialism, class analysis, the theory of surplus value—for diagnosing systemic problems in political economy. His methodology in Das Kapital, synthesizing empirical data with theoretical frameworks, represented a cutting-edge approach to social-scientific analysis in his era. This constitutes systemic problem-solving applied to the most complex system of his time: industrial capitalism."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.67,
+    "general_competency_avg_0_10": 2.89,
+    "overall_normalized_equal_avg_0_10": 6.04,
+    "created_at": "2026-03-15T01:08:55.774Z",
+    "updated_at": "2026-03-15T07:11:47.860Z"
+  }
+}
+]

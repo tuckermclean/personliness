@@ -1,0 +1,371 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 110,
+  "fields": {
+    "name": "Thomas Edison",
+    "slug": "thomas-edison",
+    "bio_short": "Edison was the preeminent American inventor-industrialist, whose creative and technical genius (phonograph, practical incandescent light, motion pictures) reshaped modern civilization. His founding of the industrial research laboratory at Menlo Park represented a paradigm shift in organized innovation. Cultural-social impact is exceptional: his institutions (General Electric, the R&D lab model) and inventions endure globally. Cognitive strengths center on creativity and strategic system-building, offset by limited philosophical depth. Moral-affective scores are moderate—resilient under adversi",
+    "bio_long": "Thomas Alva Edison was an American inventor and businessman. He developed many devices in fields such as electric power generation, sound recording, and motion pictures. These inventions, which include the phonograph, the motion picture camera, and early versions of the electric light bulb, have had a widespread impact on the modern industrialized world. He was one of the first inventors to apply the principles of organized science and teamwork to the process of invention, working with many researchers and employees. He established the first industrial research laboratory.",
+    "source_notes": "https://en.wikipedia.org/wiki/Thomas_Edison",
+    "image": "figures/330px-Thomas_Edison2.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Jonnes, Jill, *Empires of Light* (Random House, 2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Edison's design of the Pearl Street Station (1882) required coordinating dynamos, underground wiring, meters, and customer adoption across lower Manhattan—a complex systems-level plan executed successfully. However, his stubborn commitment to DC power during the War of Currents (1886–1893) against Westinghouse's superior AC system represents a significant strategic failure, preventing a score of 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Friedel, Robert and Israel, Paul, *Edison's Electric Light: The Art of Invention* (Johns Hopkins, 2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The phonograph (1877) was an entirely novel invention with no precedent—no one else was working on sound recording. The Menlo Park laboratory (1876) created the paradigm of organized industrial R&D, fundamentally changing how invention occurs. The practical incandescent light bulb (1879), while building on prior work, required solving the integrated system of filament, vacuum, and power distribution. These represent clear before/after paradigm shifts."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Edison Papers Project, Rutgers University"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Edison articulated a work-ethic philosophy ('Genius is one percent inspiration and ninety-nine percent perspiration') and held deist/agnostic views on religion expressed in interviews. However, he produced no systematic ethical or philosophical writings that influenced thinkers beyond his immediate circle; his insights were practical maxims, not philosophical frameworks."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Millard, Andre, *Edison and the Business of Innovation* (Johns Hopkins, 1990)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Edison managed laboratories employing 60+ researchers at Menlo Park and over 200 at West Orange, pioneering the division of labor in invention. His companies (Edison Electric Light Company, Edison General Electric) grew into major industrial concerns. However, he lost control of Edison General Electric when it merged into GE in 1892 under banker-driven reorganization, suggesting limits to his administrative grip over large-scale corporate structures."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Millard, Andre, *Edison and the Business of Innovation* (Johns Hopkins, 1990)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Edison operated across multiple relational modes: husband to two wives, father to six children, employer/mentor to hundreds of researchers, fierce rival to Westinghouse and Tesla, friend to Henry Ford and Harvey Firestone, subordinate to telegraph companies in his youth, and collaborator with financier J.P. Morgan. He showed some adaptation across these roles—warm and joking with lab colleagues, combative with competitors, deferential (briefly) with financiers. However, his dominant relational style (intense, work-focused, emotionally guarded) pervaded most contexts."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Edison Papers Project, Rutgers University"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Edison's first marriage to Mary Stilwell (1871–1884) was strained by his near-constant absence at the laboratory; he reportedly wrote 'My wife Dearly Beloved Cannot invent worth a Damn!!' in a notebook, suggesting limited emotional attunement. His second marriage to Mina Miller (1886–1931) was more stable—Mina managed the household, social calendar, and supported his public career—but Edison remained a workaholic who prioritized the lab over domestic life. There is evidence of affection but consistent evidence of emotional unavailability."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Stross, Randall, *The Wizard of Menlo Park* (Crown, 2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Edison's three children from his first marriage had troubled outcomes: Thomas Jr. and William Leslie were exploited by con artists trading on the Edison name, and Edison was harsh and distant with them. His second-marriage children fared better—Charles Edison became New Jersey governor and ran Edison Industries. As a lab mentor, several 'muckers' (e.g., Francis Jehl, Arthur Kennelly) developed successful independent careers. But the mixed parental record and controlling mentoring style limit the score."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Hughes, Thomas P., *American Genesis: A Century of Invention and Technological Enthusiasm* (Viking, 1989)",
+              "Friedel and Israel, *Edison's Electric Light* (Johns Hopkins, 2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Electric lighting, recorded sound (phonograph), and motion pictures each independently transformed global civilization, affecting every culture on earth. The industrial R&D laboratory model restructured how all modern technological innovation occurs. While Edison lived only ~140 years ago (making the 500-year test premature), the magnitude and civilizational breadth of impact clearly place him at the highest tier; these technologies are foundational to modern life worldwide with no sign of diminishing relevance."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Stross, Randall, *The Wizard of Menlo Park* (Crown, 2007)",
+              "Hughes, Thomas P., *American Genesis* (Viking, 1989)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Edison is the global archetype of 'The Inventor'—the lightbulb icon universally symbolizes ideas and innovation in cultures worldwide. He embodies the self-made American genius myth: a boy who sold newspapers on trains rising to transform civilization. He is recognized in this archetypal role across East Asian, European, Latin American, and other cultural traditions, well beyond his American origin."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Millard, Andre, *Edison and the Business of Innovation* (Johns Hopkins, 1990)",
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Edison established the world's first industrial research laboratory at Menlo Park (1876), a model subsequently adopted by Bell Labs, GE Research, DuPont, and virtually every major technology corporation. His companies merged into General Electric (1892), which remained one of the world's largest corporations for over a century. The R&D lab model and GE both survived far beyond two generations with recognizable continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Millard, Andre, *Edison and the Business of Innovation* (Johns Hopkins, 1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Edison successfully led small research teams through intensive creative sprints at Menlo Park (e.g., the 14-month incandescent light campaign of 1878–1879) and large industrial organizations (West Orange employed 5,000+ workers). He inspired intense loyalty among his 'muckers' and simultaneously functioned as a public figurehead who shaped national discourse on technology and progress. This spans both crisis-mode invention and sustained organizational management across qualitatively different contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Stross, Randall, *The Wizard of Menlo Park* (Crown, 2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Edison worked with his hands in the laboratory throughout his life, even as a wealthy industrialist. He was known for sleeping on lab benches, eating irregularly, and maintaining a folksy, unpretentious public persona rooted in his lack of formal education. His boyhood selling newspapers on the Grand Trunk Railway and his deafness made him relatable. However, at the height of his fame he was substantially insulated from ordinary life by wealth and celebrity."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Jonnes, Jill, *Empires of Light* (Random House, 2003)",
+              "Stross, Randall, *The Wizard of Menlo Park* (Crown, 2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Edison engaged in aggressive patent litigation, pursued monopolistic business practices, and waged the ethically questionable War of Currents campaign. His alleged broken promise of $50,000 to Tesla (disputed but widely reported) and his efforts to associate AC with execution (supporting development of the electric chair) suggest competitive self-interest frequently overrode fairness. No documented cases of ruling against personal interest in favor of principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Jonnes, Jill, *Empires of Light* (Random House, 2003)",
+              "Essig, Mark, *Edison and the Electric Chair* (Walker, 2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Edison showed some paternalistic concern for workers, providing meals and fostering camaraderie at Menlo Park. However, he orchestrated public electrocutions of dogs and other animals using AC current during the late 1880s War of Currents to discredit Westinghouse—a deliberate campaign inflicting animal suffering for competitive advantage. Without this counterexample, score would be 1; with it given full weight, score could be 0. Final: 1, as the animal cruelty was instrumentally motivated within a competitive context and does not negate all evidence of interpersonal caring, but it prevents any higher score."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Stross, Randall, *The Wizard of Menlo Park* (Crown, 2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Edison persisted through progressive deafness from adolescence, the catastrophic financial failure of his iron ore mining venture (losing millions in the 1890s), and the devastating fire that destroyed much of his West Orange laboratory complex in December 1914. He famously responded to the fire by reportedly telling his son Charles to fetch his mother because 'they'll never see a fire like this again,' and began rebuilding immediately. These demonstrate sustained resilience across multiple setbacks."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Edison Papers Project, Rutgers University"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Edison eventually abandoned his losing DC power position, and after the iron ore mining failure he reportedly said 'It's all gone, but we had a hell of a good time spending it' and pivoted to cement manufacturing. These show practical adaptability but not moral self-correction. He never publicly acknowledged wrongdoing in the War of Currents, and no documented instances of reversing a position based on ethical reconsideration exist in the record."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Stross, Randall, *The Wizard of Menlo Park* (Crown, 2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Edison functioned effectively through: (1) progressive deafness from age ~12, a lifelong physical disability; (2) the death of his first wife Mary Stilwell in 1884; (3) catastrophic financial losses from the failed iron ore mining venture in the 1890s; (4) the December 1914 fire that destroyed much of his West Orange complex. These represent at least three qualitatively different forms of adversity (disability, bereavement, financial ruin, destruction of life's work), through all of which he continued productive invention."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Stross, Randall, *The Wizard of Menlo Park* (Crown, 2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Edison inhabited several contradictory roles: self-educated practical tinkerer AND systematic organizer of scientific research; folksy humble persona AND ruthless Gilded Age businessman; solitary genius myth AND collaborative team leader who relied on dozens of researchers; deaf man AND pioneer of recorded sound. These represent at least three genuine paradoxes integrated into a coherent identity, though the integration was sometimes imperfect (his public persona as lone inventor obscured his collaborative methods)."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Edison Papers Project, Rutgers University"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Edison faced a prolonged decline in his final years (dying October 18, 1931, at age 84) with apparent equanimity. He reportedly said near death, 'It is very beautiful over there,' suggesting composure. He continued working on projects (rubber extraction from goldenrod for Firestone) into his eighties despite failing health. However, the primary evidence for his deathbed composure comes from family accounts, limiting corroboration."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Edison Papers Project, Rutgers University"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Edison was legendary for marathon work sessions of 18–20+ hours, often sleeping only 3–4 hours on a cot in his laboratory. He maintained this grueling pace from his twenties through his seventies, despite progressive deafness. His hands-on laboratory work required sustained physical effort—mixing chemicals, operating machinery, soldering equipment. While not athletic endurance, this represents exceptional stamina across multiple life-stages in his context."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+              "Watts, Steven, *The People's Tycoon* (Knopf, 2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Edison participated in the 'Vagabonds' camping trips (1914–1924) with Henry Ford, Harvey Firestone, and naturalist John Burroughs—recreational excursions that were genuinely playful, not merely instrumental. He was known for his irreverent sense of humor and practical jokes in the lab. He appeared to find genuine delight in the inventive process itself. However, his workaholism suggests play was secondary to his compulsive work drive."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.39,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Thomas Edison",
+      "overall": {
+        "Core_5D_Avg": 6.39,
+        "Overall_Normalized_Equal_Avg": 6.07,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Edison was the preeminent American inventor-industrialist, whose creative and technical genius (phonograph, practical incandescent light, motion pictures) reshaped modern civilization. His founding of the industrial research laboratory at Menlo Park represented a paradigm shift in organized innovation. Cultural-social impact is exceptional: his institutions (General Electric, the R&D lab model) and inventions endure globally. Cognitive strengths center on creativity and strategic system-building, offset by limited philosophical depth. Moral-affective scores are moderate—resilient under adversity but ethically compromised by ruthless competitive tactics. Relational life was strained by workaholism. Heinlein competency is narrow: extraordinary in technical and manual domains, negligible in combat, culinary, and medical skills.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Edison was notorious for eating irregularly and minimally—often subsisting on milk, pie, or whatever was at hand during laboratory marathons. No evidence of cooking skill or culinary interest. His second wife Mina and household staff managed all domestic food preparation."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Edison had no military service and no documented combat experience. During World War I, he chaired the Naval Consulting Board (1915–1918) in an advisory capacity, proposing defensive technologies, but never engaged in physical combat or personal defense situations."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Edison provided paternalistic care for his laboratory workers—meals were available at the lab during marathon sessions, and he fostered a familial atmosphere among his 'muckers.' However, he was frequently absent from his own family's caregiving needs, and no evidence suggests he personally nursed ill family members or employees."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+            "Stross, Randall, *The Wizard of Menlo Park* (Crown, 2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Edison's response to the 1914 West Orange fire ('Go get your mother and all her friends—they'll never see a fire like this again') and his cheerful pivot after losing his fortune in the iron ore venture demonstrate composure in crisis. His reported deathbed remark ('It is very beautiful over there') suggests composure facing death. However, deathbed evidence relies on family testimony."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+            "Edison Papers Project, Rutgers University"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Edison was an exceptionally skilled hands-on craftsman throughout his life. From his youth repairing telegraph equipment, through personally building phonograph prototypes, to hands-on chemical and electrical experimentation at West Orange into his seventies, he was a master of manual fabrication. His laboratory notebooks show detailed sketches and hands-on prototyping across dozens of technologies. His 'muckers' noted his extraordinary manual dexterity."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Edison traveled extensively as an itinerant telegraph operator in his youth (Indianapolis, Cincinnati, Memphis, Louisville, Boston) and participated in the Vagabonds camping trips through rural America. He navigated practical travel but showed no exceptional wayfinding skill; this was incidental to his work, not a demonstrated competency."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Edison butchered animals, processed food, or engaged in any form of animal husbandry or food processing. His contact with animals during the War of Currents electrocutions was destructive, not productive."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+            "Millard, Andre, *Edison and the Business of Innovation* (Johns Hopkins, 1990)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Edison excelled at leading—his 'muckers' at Menlo Park were intensely loyal, and he managed thousands of employees at West Orange. He could also follow when necessary: he worked under telegraph company bosses in his youth and deferred to J.P. Morgan and other financiers on business decisions (accepting the merger into GE, albeit reluctantly). However, his notorious stubbornness on technical matters (DC vs. AC) shows limits in accepting others' superior judgment."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Millard, Andre, *Edison and the Business of Innovation* (Johns Hopkins, 1990)",
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Edison designed and oversaw construction of his Menlo Park laboratory (1876), the much larger West Orange complex (1887), and the Pearl Street generating station (1882). He later entered the cement industry and designed poured-concrete houses intended for affordable mass production. He understood structural and electrical engineering principles well enough to direct construction teams effectively."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+            "Hughes, Thomas P., *Networks of Power* (Johns Hopkins, 1983)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The Pearl Street Station project (1880–1882) required Edison to coordinate dynamo design, underground conductor installation, customer metering, and investor relations across lower Manhattan—a multi-year, multi-domain strategic campaign executed successfully. He similarly planned and commanded the systematic invention campaigns at Menlo Park, allocating teams to parallel research tracks."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Millard, Andre, *America on Record* (Cambridge, 1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Edison's inventions (phonograph, kinetoscope) enabled artistic expression but he was not himself a creator of art, music, or literature. He curated phonograph recordings and had opinions on musical quality, and his poured-concrete houses had modest aesthetic ambitions. But no original artistic works are attributed to him."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Edison possessed medical skills, treated injuries, or responded to health emergencies. He was not known to have administered first aid or medical care in any documented context."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+            "Friedel and Israel, *Edison's Electric Light* (Johns Hopkins, 2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Edison lacked formal mathematical training and was famously empirical rather than theoretical—his filament search involved testing thousands of materials rather than calculating optimal properties. He hired mathematicians (notably Francis Upton, a Princeton-trained physicist) specifically to handle calculations he could not. He could perform basic engineering calculations for electrical circuits but was not analytically sophisticated."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+            "Stross, Randall, *The Wizard of Menlo Park* (Crown, 2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Edison's iron ore mining venture (1890s) demonstrated engagement with resource extraction, though it failed financially. Late in life, he systematically experimented with growing and processing goldenrod as a domestic rubber source for Harvey Firestone (1927–1931), testing thousands of plant varieties. These show resource-management engagement but not sustained success."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Israel, Paul, *Edison: A Life of Invention* (Wiley, 1998)",
+            "Hughes, Thomas P., *American Genesis* (Viking, 1989)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Edison operated at the absolute cutting edge of 19th-century technology across multiple domains simultaneously: telegraphy, electrical power generation and distribution, electrochemistry, sound recording, motion pictures, and materials science. He held 1,093 US patents. His systematic trial-and-error methodology, combined with intuitive grasp of electromechanical systems, made him arguably the foremost practical technologist of his era."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.39,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 6.07,
+    "created_at": "2026-03-15T09:40:49.862Z",
+    "updated_at": "2026-03-15T09:40:49.866Z"
+  }
+}
+]

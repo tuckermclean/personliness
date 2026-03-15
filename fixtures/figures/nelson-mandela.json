@@ -1,0 +1,379 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 112,
+  "fields": {
+    "name": "Nelson Mandela",
+    "slug": "nelson-mandela",
+    "bio_short": "Nelson Mandela stands as one of history's supreme moral-political exemplars, scoring exceptionally across moral-affective and cultural-social dimensions. His documented compassion toward adversaries, sustained courage through 27 years of imprisonment, and repeated moral self-correction define the upper register of these traits. His strategic intelligence in navigating the transition from apartheid to democracy and his paradox integration (warrior-peacemaker, prisoner-leader, nationalist-universalist) are remarkable. His principal weakness lies in relational intimacy: by his own admission, he w",
+    "bio_long": "Nelson Rolihlahla Mandela was a South African anti-apartheid activist and statesman who was the first president of South Africa from 1994 to 1999. He was the country's first Black head of state and the first elected in a fully representative democratic election. His administration focused on dismantling the legacy of apartheid by fostering racial reconciliation, a national peace accord and eventual multiracial democracy. Ideologically an African nationalist and socialist, he served as the president of the African National Congress (ANC) party from 1991 to 1997.",
+    "source_notes": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+    "image": "figures/330px-Nelson_Mandela_1994_S3UP3Ph.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Sampson, *Mandela: The Authorised Biography* (1999)",
+              "Lodge, *Mandela: A Critical Life* (2006)",
+              "Carlin, *Playing the Enemy* (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela repeatedly adapted when initial strategies failed. He shifted from the Defiance Campaign's civil disobedience to founding Umkhonto we Sizwe (1961) when peaceful methods proved insufficient, then pivoted again to secret negotiations with the apartheid government from prison (1985–1988) without ANC authorization—a bold gamble that proved decisive. When Chris Hani was assassinated in April 1993, threatening to derail negotiations, Mandela went on national television to calm the nation, effectively acting as de facto head of state. His use of symbolic gestures (the Springbok jersey at the 1995 Rugby World Cup) showed sophisticated understanding of emotional politics."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Lodge, *Mandela: A Critical Life* (2006)",
+              "TRC Final Report (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The M-Plan (1953), which restructured the ANC into cell-based units to survive government crackdowns, was an innovative organizational adaptation. The negotiated transition from apartheid to multiracial democracy without civil war—while not solely Mandela's achievement—was a creative political accomplishment with few historical parallels. The TRC represented an innovative approach to transitional justice. However, Mandela was part of a team (Ramaphosa, Slovo, Tutu) and these innovations built on existing models (Latin American truth commissions, negotiated transitions elsewhere), so a paradigm shift attributable primarily to him alone is difficult to isolate."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Boehmer, *Nelson Mandela: A Very Short Introduction* (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Mandela articulated a powerful vision of non-racial democracy and reconciliation, most memorably in his Rivonia Trial speech (1964): 'a democratic and free society in which all persons live together in harmony and with equal opportunities.' His philosophy of reconciliation, grounded partly in ubuntu, influenced transitional justice worldwide, with the TRC model adopted in over 20 countries. However, he was primarily a moral practitioner rather than a systematic philosopher; his ethical contributions drew on existing traditions (Gandhian nonviolence, liberal democracy, ubuntu) rather than creating wholly original frameworks."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Constitution of the Republic of South Africa (1996)",
+              "Sampson, *Mandela: The Authorised Biography* (1999)",
+              "Lodge, *Mandela: A Critical Life* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The M-Plan's cell structure enabled ANC survival under severe repression and functioned for decades. As president (1994–1999), Mandela oversaw the drafting of the 1996 Constitution—one of the world's most progressive—and the establishment of the Constitutional Court, both of which have endured beyond his oversight. However, his administration struggled with the slow response to the HIV/AIDS crisis, and some ANC governance institutions degraded after his departure. His voluntary one-term presidency limited administrative impact but demonstrated principled restraint."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Stengel, *Mandela's Way* (2009)",
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Sampson, *Mandela: The Authorised Biography* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela demonstrated qualitatively distinct behavior across at least six relational modes: (1) spouse—intimate vulnerability documented in prison letters to Winnie; (2) parent—acknowledged failures show self-awareness; (3) friend—deep lifelong bond with Walter Sisulu and Ahmed Kathrada; (4) adversary—magnanimous engagement with F.W. de Klerk, prison guards, and Yutar; (5) subordinate—deferred to ANC collective leadership and Thembu elders; (6) superior—exercised presidential authority with restraint; (7) stranger—documented warmth with ordinary citizens and children. His relational style adapted meaningfully to each context rather than applying a single mode."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Meredith, *Mandela: A Biography* (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Mandela's first marriage to Evelyn Mase (1944–1958) ended in divorce; Evelyn accused him of infidelity and chronic absence due to politics. His second marriage to Winnie Madikizela-Mandela (1958–1996) was dominated by 27 years of separation during imprisonment and ended in divorce amid Winnie's involvement in violence (the Stompie Seipei case). He himself wrote in *Long Walk to Freedom* that the struggle 'robbed' him of being a good husband. His third marriage to Graça Machel (1998–2013) was reportedly loving and mutually supportive, but the overall pattern across three marriages—two ending in divorce with his own acknowledged failures—limits this score."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Sampson, *Mandela: The Authorised Biography* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "As a biological father, Mandela was largely absent during his children's formative years due to political activism and imprisonment—he acknowledged this openly as a deep personal failure. His children struggled in various ways. However, as a mentor, he was exceptional: he nurtured a generation of ANC leaders including Cyril Ramaphosa and others who developed genuine autonomy and political competence. Walter Sisulu was both mentor and mentee in a reciprocal relationship. His mentoring produced leaders who governed independently rather than merely replicating his style. The strong mentoring record partially compensates for acknowledged parental failure."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Meredith, *Mandela: A Biography* (2010)",
+              "Boehmer, *Nelson Mandela: A Very Short Introduction* (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Mandela's impact is cross-civilizational and shows strong signs of permanence: the end of apartheid reshaped Southern African politics; the TRC model influenced transitional justice in Latin America, Africa, Asia, and Europe; his reconciliation philosophy became a global reference point; he is cited as an inspiration by movements worldwide. While he died only in 2013, the scale and civilizational breadth of his impact—spanning Africa, the Americas, Europe, and Asia—is comparable to figures who meet the 500-year criterion. The 500-year mark cannot yet be verified, warranting Medium confidence rather than a lower score."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Boehmer, *Nelson Mandela: A Very Short Introduction* (2008)",
+              "Meredith, *Mandela: A Biography* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela is recognized globally as the archetype of the political prisoner who forgives, the liberator, and the reconciler. His name functions as shorthand for moral authority and peaceful transition across cultures far beyond South Africa—invoked in the Americas, Europe, Asia, and throughout Africa. He is compared to Gandhi, Martin Luther King Jr., and Lincoln as archetypes of justice and reconciliation. His image and name carry symbolic weight in cultures with no direct connection to apartheid, demonstrating cross-cultural archetype resonance."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Constitution of the Republic of South Africa (1996)",
+              "TRC Final Report (1998)",
+              "Lodge, *Mandela: A Critical Life* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela's M-Plan cell structure helped the ANC survive decades of government repression and remain a viable organization. As president, he was central to establishing South Africa's constitutional democracy, including the 1996 Constitution (still operative) and the Constitutional Court. The TRC model he championed has been replicated in over 20 countries, becoming a global institution of transitional justice. The ANC as a governing party has endured beyond his tenure, though with degradation. The constitutional framework has survived multiple generations of leadership with recognizable continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Sampson, *Mandela: The Authorised Biography* (1999)",
+              "Lodge, *Mandela: A Critical Life* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela led successfully across qualitatively different contexts: ANC Youth League organizer (1940s–1950s), commander of MK's sabotage campaign (1961–1962), moral authority and symbol of resistance while imprisoned (1964–1990), chief negotiator with the apartheid government (1990–1994), and head of state managing a peaceful democratic transition (1994–1999). Each context demanded fundamentally different leadership skills—clandestine organizing, symbolic endurance, diplomatic negotiation, and executive governance. He inspired a global anti-apartheid movement that included governments, civil society, and ordinary citizens across continents."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Stengel, *Mandela's Way* (2009)",
+              "Mandela, *Long Walk to Freedom* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Even at the height of presidential power, Mandela maintained deep connection to ordinary life. He tended a garden at Robben Island for years and found genuine joy in it. He was an amateur boxer who loved sports. His humor with children, staff, and strangers was widely documented and non-performative. His distinctive 'Madiba shirts' reflected aesthetic personality rather than political costume. He maintained connections to Thembu/Xhosa traditions including rural customs. Richard Stengel, who spent extensive time with Mandela, documented his playfulness, storytelling, and engagement with mundane daily activities."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Lodge, *Mandela: A Critical Life* (2006)",
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Meredith, *Mandela: A Biography* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela repeatedly ruled against personal or group interest in favor of principle. He accepted constitutional constraints on presidential power rather than leveraging his immense moral authority for personal rule. He served only one term despite being virtually guaranteed re-election. He championed the TRC's restorative justice model over retributive justice, foregoing vengeance. He supported a multi-party constitutional framework that diluted ANC dominance. Counterexample: the negotiated economic settlement (later GEAR policy) preserved white economic privilege, arguably betraying economic justice. Without this counterexample: 3. With it given full weight: still 3, because this was a principled compromise to prevent civil war rather than an abandonment of justice—Mandela chose peace-with-inequality over war-for-redistribution, a genuine ethical trade-off."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Carlin, *Playing the Enemy* (2008)",
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Stengel, *Mandela's Way* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela's compassion toward adversaries is among the most documented in modern political history. He invited his former Robben Island prison warder Christo Brand to his presidential inauguration. He visited Percy Yutar, the prosecutor who sought the death penalty against him at the Rivonia Trial, for tea. He had tea with Betsie Verwoerd, widow of apartheid architect Hendrik Verwoerd, in Orania. He wore the Springbok jersey—symbol of white supremacy for many Black South Africans—to embrace Afrikaners. These are not acts toward allies but toward the architects and enforcers of his oppression."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Sampson, *Mandela: The Authorised Biography* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela's courage was sustained across decades and multiple high-stakes situations: going underground as 'the Black Pimpernel' (1961–1962) while evading security forces; facing the death penalty at the Rivonia Trial (1964) and declaring 'it is an ideal for which I am prepared to die'; enduring 27 years of imprisonment including 18 years of hard labor at Robben Island; refusing P.W. Botha's conditional offer of release in 1985 rather than renounce armed struggle; and initiating secret negotiations with the apartheid state from prison with no guarantee of success. This is sustained courage across qualitatively different situations."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Lodge, *Mandela: A Critical Life* (2006)",
+              "Sampson, *Mandela: The Authorised Biography* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela reversed major positions with visible behavioral change: from peaceful protest (1940s–1950s) to armed struggle (founding MK, 1961) to negotiation and reconciliation (1985 onward). He publicly acknowledged being a poor husband and absent father in *Long Walk to Freedom*, stating the struggle 'robbed' his family. He accepted correction from ANC colleagues on negotiation strategy. His evolution from militant African nationalist to inclusive non-racialist represents genuine moral growth, not mere tactical adjustment. Independent scholarship (Lodge, 2006) corroborates this trajectory rather than hagiographic sanitization—Mandela's own candor about his failures is a distinguishing feature."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Sampson, *Mandela: The Authorised Biography* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela functioned effectively across multiple qualitatively different forms of adversity: 27 years of imprisonment including hard labor (material deprivation and loss of freedom); the deaths of his mother (1968) and eldest son Thembi (1969) while imprisoned, unable to attend either funeral (personal bereavement); the dissolution of his marriage to Winnie amid scandal; political isolation from ANC colleagues who questioned his secret negotiations. Throughout all of these, he remained politically strategic, emotionally composed, and forward-looking—negotiating the end of apartheid from within prison itself."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Lodge, *Mandela: A Critical Life* (2006)",
+              "Boehmer, *Nelson Mandela: A Very Short Introduction* (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mandela coherently inhabited at least five seemingly contradictory roles: (1) warrior who founded MK AND peacemaker who championed reconciliation; (2) prisoner with no freedom AND leader who shaped national politics from his cell; (3) African nationalist AND non-racial universalist; (4) Thembu aristocrat (great-grandson of a king) AND man of the people; (5) revolutionary who endorsed armed struggle AND constitutionalist who submitted to rule of law. These were not sequential phases but coexisting identities—he never renounced MK even while negotiating peace. Lodge's *Critical Life* examines these tensions as integral rather than contradictory."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Mandela, Rivonia Trial speech (1964)",
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Sampson, *Mandela: The Authorised Biography* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At the Rivonia Trial (1964), facing a likely death sentence, Mandela delivered his famous speech from the dock concluding: 'It is an ideal which I hope to live for and to achieve. But if needs be, it is an ideal for which I am prepared to die.' This was not abstract philosophizing but a statement made under imminent threat of execution, delivered with documented composure. He refused conditional release in 1985 knowing this could mean dying in prison. In his final years, he spoke openly about aging and death with equanimity. His composure under mortal threat is among the most documented in modern history."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Mandela, *Long Walk to Freedom* (1994)",
+              "Sampson, *Mandela: The Authorised Biography* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Mandela was a trained amateur boxer in his youth, maintaining the practice for years. He endured 18 years of hard labor in the Robben Island limestone quarry, which damaged his eyesight but did not break his physical capacity. He maintained a rigorous exercise regimen throughout his 27 years of imprisonment, rising early for calisthenics. He received military training in Algeria and Ethiopia (1962) that demanded physical fitness. He remained active into his late 70s as president. However, his health declined significantly in his later decades, and the endurance evidence is concentrated in the prison period."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Stengel, *Mandela's Way* (2009)",
+              "Mandela, *Long Walk to Freedom* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Mandela's love of boxing was genuine and non-instrumental—he trained and sparred for personal enjoyment. His Robben Island garden was a source of real aesthetic pleasure, described lovingly in his autobiography. His humor was widely documented by associates like Richard Stengel as spontaneous and warm rather than politically calculated. His distinctive Madiba shirts reflected genuine aesthetic sensibility. He enjoyed dancing at public events. However, some of his public expressions of joy inevitably served political purposes, making it difficult to fully separate instrumental from non-instrumental enjoyment."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 6.67,
+          "Core_5D_Avg": 8.57,
+          "Cultural-Social": 10.0,
+          "Moral-Affective": 10.0,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Nelson Mandela",
+      "overall": {
+        "Core_5D_Avg": 8.57,
+        "Overall_Normalized_Equal_Avg": 8.03,
+        "General_Competency_Avg_10scale": 5.33
+      },
+      "summary": "Nelson Mandela stands as one of history's supreme moral-political exemplars, scoring exceptionally across moral-affective and cultural-social dimensions. His documented compassion toward adversaries, sustained courage through 27 years of imprisonment, and repeated moral self-correction define the upper register of these traits. His strategic intelligence in navigating the transition from apartheid to democracy and his paradox integration (warrior-peacemaker, prisoner-leader, nationalist-universalist) are remarkable. His principal weakness lies in relational intimacy: by his own admission, he was a poor husband and absent father in his first two marriages. Heinlein competency breadth is moderate—strong in leadership, strategy, and existential composure but limited in technical, manual, and domestic skills. Core 5D Avg: 8.57/10; Heinlein Avg: 5.33/10; Overall: 8.03/10.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.6,
+          "General_Competency_Avg_10scale": 5.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Mandela participated in communal cooking duties during imprisonment, as described in accounts of Robben Island life. His rural Transkei childhood would have included basic food preparation. However, specific evidence of culinary skill or notable cooking ability is very thin in the historical record."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)",
+            "Sampson, *Mandela: The Authorised Biography* (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Mandela trained seriously as an amateur boxer for years in Johannesburg, demonstrating genuine physical combat skill. He received formal military training in guerrilla warfare, firearms, and demolitions in Algeria and Ethiopia (1962). He founded MK and planned its initial sabotage campaign. However, he was arrested before seeing active combat, so his training was never tested in actual conflict beyond the boxing ring."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)",
+            "Sampson, *Mandela: The Authorised Biography* (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Mandela cared for fellow prisoners at Robben Island, providing emotional support and mediating disputes. He comforted families of fallen comrades and showed documented warmth with children throughout his public life. However, by his own admission in *Long Walk to Freedom*, he failed as a caregiver to his own family—his children grew up largely without him. The prison caregiving and public nurturing show genuine capacity, but the failure toward his own dependents is a significant counterexample."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Mandela, Rivonia Trial speech (1964)",
+            "Mandela, *Long Walk to Freedom* (1994)",
+            "Sampson, *Mandela: The Authorised Biography* (1999)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Mandela's composure under mortal threat at the Rivonia Trial—'it is an ideal for which I am prepared to die'—delivered while facing a likely death sentence, is among the most documented examples of existential composure in modern history. He endured 27 years of imprisonment with sustained dignity and purpose. He refused conditional release in 1985 knowing he might die in prison. In his final years, he faced declining health with equanimity and openness about mortality."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Mandela maintained a garden at Robben Island for years, demonstrating basic manual skills with tools. His rural childhood would have involved basic manual competencies. However, no specific evidence of craft or repair skills—making, fixing, or adapting tools or physical systems—appears in the historical record."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)",
+            "Sampson, *Mandela: The Authorised Biography* (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "During his period underground as 'the Black Pimpernel' (1961–1962), Mandela traveled clandestinely across South Africa evading security forces, using disguises and safe houses. He also traveled covertly through multiple African countries (Ethiopia, Algeria, Morocco, and others) for military training and diplomatic meetings in 1962. This required significant navigation and evasion skills across varied environments."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Mandela grew up in rural Transkei where he herded cattle as a boy, as described in the early chapters of *Long Walk to Freedom*. This represents basic competence in animal husbandry for his era and context but was limited to childhood and not a continuing activity."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Lodge, *Mandela: A Critical Life* (2006)",
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Mandela demonstrated exceptional leadership across contexts—youth organizer, underground commander, prison moral authority, negotiator, and president. Equally notable is his followership: he deferred to ANC collective decisions even when he disagreed, respected Oliver Tambo's leadership of the ANC in exile, accepted Thembu elder authority in cultural matters, and submitted to constitutional constraints on presidential power rather than leveraging his unmatched moral authority. This dual capacity is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of construction or fabrication skills in the historical record. His quarry labor at Robben Island was unskilled forced labor (breaking limestone) rather than skilled construction. While he may have participated in basic construction in rural Transkei as a child, no specific evidence documents this."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Lodge, *Mandela: A Critical Life* (2006)",
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Mandela founded and commanded Umkhonto we Sizwe (1961), designing its sabotage campaign strategy. He created the M-Plan (1953) cell structure that enabled ANC survival under repression. He led the multi-year secret negotiation strategy with the apartheid government from prison (1985–1990), and managed the complex multi-party CODESA negotiations and presidential transition (1990–1994). Each represented a distinct complex operation under severe constraints."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Mandela, Rivonia Trial speech (1964)",
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Mandela's Rivonia Trial speech (1964) is considered one of the great works of political oratory of the 20th century. *Long Walk to Freedom* (1994) is a significant literary autobiography that has been translated into dozens of languages. He supported cultural institutions as president and appreciated African art and music. While not a professional artist, his expressive achievements in oratory and autobiography are notable."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Mandela received military training in Algeria and Ethiopia in 1962 that likely included basic first aid, as was standard for guerrilla training programs of the era. He also provided basic care to fellow prisoners at Robben Island during health crises. However, specific evidence of medical skills is thin and not well-documented."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Mandela studied law at the University of the Witwatersrand and completed his LLB by correspondence from prison (University of London). Legal training requires analytical reasoning, and he co-founded the first Black law firm in South Africa (Mandela and Tambo). However, no specific evidence of exceptional numerical or mathematical ability exists beyond what his legal and organizational work required."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Mandela herded cattle in rural Transkei as a child and maintained a productive garden at Robben Island for years, growing vegetables that supplemented prisoner diets. This demonstrates basic agricultural competence but was limited in scope and not a significant domain of activity in his adult life."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Mandela, *Long Walk to Freedom* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Mandela's legal training and practice at Mandela & Tambo represent systemic problem-solving within the legal domain. His design of the M-Plan organizational structure shows systems thinking. However, no evidence exists of engagement with the cutting-edge technologies or technical tools of his era beyond what ordinary professional life required."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.57,
+    "general_competency_avg_0_10": 5.33,
+    "overall_normalized_equal_avg_0_10": 8.03,
+    "created_at": "2026-03-15T09:44:31.908Z",
+    "updated_at": "2026-03-15T09:44:31.911Z"
+  }
+}
+]

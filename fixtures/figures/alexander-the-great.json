@@ -1,0 +1,393 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 118,
+  "fields": {
+    "name": "Alexander the Great",
+    "slug": "alexander-the-great",
+    "bio_short": "A supreme military genius and cultural catalyst whose conquests created the Hellenistic world, with exceptional physical courage, strategic intelligence, and paradox integration. His moral-affective profile is uneven — extraordinary personal bravery coexists with episodes of cruelty (Thebes, Tyre, Cleitus). Relationally limited by early death and increasing autocracy. Heinlein competency is heavily skewed toward command and combat, with minimal evidence for domestic or craft skills befitting a king who campaigned from age 20 until death at 32. His legacy and archetypal resonance across civiliz",
+    "bio_long": "Alexander III of Macedon, most commonly known as Alexander the Great, was king of the ancient Greek kingdom of Macedon. He succeeded his father Philip II to the throne in 336 BC at the age of 20, and spent most of his reign conducting a lengthy military campaign throughout Asia and Egypt. By the age of 30, he had created one of the largest empires in history, stretching from Greece to northwestern India. He was undefeated in battle and is widely considered to be one of history's greatest and most successful military commanders.",
+    "source_notes": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+    "image": "figures/330px-Alexander_Mosaic_detail_of_Alexander_the_Great_283x4_cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Arrian, Anabasis of Alexander, Books 2–5",
+              "Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988)",
+              "Fuller, The Generalship of Alexander the Great (1958)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Alexander adapted plans repeatedly under pressure: at the Siege of Tyre (332 BC), when initial assaults failed, he improvised a causeway and assembled a multinational fleet; at the Hydaspes (326 BC), he deceived Porus with feints and crossed the river at night upstream; in Bactria-Sogdiana (329–327 BC), he shifted from pitched battle to counterinsurgency warfare against Spitamenes. These represent successful adaptation when initial plans failed across qualitatively different military contexts."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Bosworth, Conquest and Empire (1988)",
+              "Lane Fox, Alexander the Great (1973)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Alexander introduced novel military engineering (the Tyre causeway across open sea), pioneered combined-arms operations integrating cavalry, infantry, and siege warfare, and conceived the innovative policy of founding over 20 cities as Greco-Persian cultural fusion centers, most notably Alexandria in Egypt. However, his core military system built on Philip II's sarissa-armed phalanx reforms, and the broader Hellenistic paradigm shift was more a consequence of conquest than deliberate intellectual innovation."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Plutarch, Life of Alexander",
+              "Green, Alexander of Macedon, 356–323 BC (1991)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Tutored by Aristotle and reportedly engaged Indian gymnosophists in philosophical dialogue at Taxila (Plutarch, Life of Alexander 64–65). His vision of cultural fusion between Greek and Persian civilizations had philosophical dimensions, but he produced no philosophical works and his ethical reasoning was largely instrumental. His ideas influenced Hellenistic cosmopolitanism indirectly through conquest rather than articulation."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Bosworth, Conquest and Empire (1988)",
+              "Worthington, By the Spear: Philip II, Alexander the Great, and the Rise and Fall of the Macedonian Empire (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Alexander adopted and adapted the Persian satrapal system, retained many local administrators, and founded cities with Greek-style constitutions that served as lasting administrative centers — Alexandria in Egypt endured for nearly a millennium. However, he failed to establish a succession mechanism, and his empire fragmented within days of his death into the Wars of the Diadochi. The cities endured; the empire as an administrative unit did not."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Plutarch, Life of Alexander 7–8 (Aristotle), 9–10 (Philip), 47 (Roxana), 72 (Hephaestion)",
+              "Lane Fox, Alexander the Great (1973)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Alexander is documented in several relational modes: as son (complex, emotionally intense relationship with Olympias, maintained through correspondence; troubled relationship with Philip II culminating in exile and reconciliation); as student (under Aristotle at Mieza, 343–340 BC); as intimate friend (Hephaestion); as spouse (Roxana); as military commander/superior; and as adversary (treatment of Darius's family showed respect even toward enemies). However, his dominant relational style was as commander-king, and his interactions increasingly became autocratic across all relationships in later years."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Plutarch, Life of Alexander 47 (Roxana), 70 (Susa weddings)",
+              "Arrian, Anabasis 7.4 (Susa weddings)",
+              "Lane Fox, Alexander the Great (1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Alexander married Roxana of Bactria (327 BC), reportedly from genuine attraction (Plutarch 47 says he fell in love at a banquet). He later married Stateira II and Parysatis II (324 BC) in politically motivated mass weddings at Susa. His deepest emotional bond was with Hephaestion, not any spouse. There is no documented evidence of sustained mutual partnership, emotional availability, or support during crisis with any wife. Roxana's later murder of Stateira II suggests a troubled household. The marriages were brief given his death in 323 BC."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Bosworth, Conquest and Empire (1988)",
+              "Heckel, The Marshals of Alexander's Empire (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Alexander's son Alexander IV was born after his death (or as an infant), so he never parented. As a leader, he promoted talented young officers like Hephaestion, Craterus, and Perdiccas, but the evidence for deliberate mentoring toward autonomy is thin — these were established companions rather than protégés he developed. His closest 'mentee' relationship was arguably with Hephaestion, which was more of a peer friendship. The Diadochi fought among themselves and murdered his family after his death, suggesting he did not cultivate successors effectively."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Bosworth, Conquest and Empire (1988)",
+              "Green, Alexander to Actium: The Historical Evolution of the Hellenistic Age (1990)",
+              "Cartledge, Alexander the Great (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Alexander's conquests created the Hellenistic world, spreading Greek language and culture from Egypt to Central Asia, which enabled the writing of the New Testament in Greek, the preservation and transmission of classical philosophy, and the cultural synthesis that shaped Roman, Byzantine, and Islamic civilizations. His impact is clearly operative 2,300+ years later across multiple civilizations. The Hellenistic period he inaugurated is considered a foundational era of world history."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Stoneman, Alexander the Great: A Life in Legend (2008)",
+              "Doufikar-Aerts, Alexander Magnus Arabicus (2010)",
+              "Plutarch, Life of Alexander (comparative lives tradition)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Alexander is the archetypal young conqueror and military genius across multiple civilizations. In Islamic tradition, he is widely identified with Dhul-Qarnayn in the Quran (Surah 18:83–98). The Alexander Romance was translated into over 80 versions in 24 languages across Europe, the Middle East, and Asia. Napoleon, Caesar, and countless other leaders explicitly modeled themselves on him. He is recognized as a symbol of ambition, genius, and hubris in cultures far beyond the Greco-Macedonian world."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Fraser, Ptolemaic Alexandria (1972)",
+              "Bosworth, Conquest and Empire (1988)",
+              "Worthington, By the Spear (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Alexander founded over 20 cities, most notably Alexandria in Egypt, which became one of the ancient world's greatest intellectual and commercial centers for nearly a millennium, housing the famous Library. His adoption of Persian administrative structures provided the template for the Successor kingdoms (Ptolemaic, Seleucid, Antigonid) that endured for centuries. However, his empire as a unified political entity did not survive even one generation beyond his death — fragmenting immediately in 323 BC."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Arrian, Anabasis 7.8–11 (Opis mutiny)",
+              "Bosworth, Conquest and Empire (1988)",
+              "Cartledge, Alexander the Great: The Hunt for a New Past (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Alexander inspired extraordinary loyalty from his army across 13 years of continuous campaigning over 20,000+ miles. He led successfully in crisis (battles, the Opis mutiny of 324 BC which he resolved through emotional confrontation and reconciliation) and in stability (founding cities, governing conquered territories). He commanded diverse groups: Macedonian veterans, Greek allied contingents, and eventually Persian and Central Asian troops. His leadership adapted from small-unit cavalry tactics to governing a multi-continental empire."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Plutarch, Life of Alexander 8, 26 (Siwa visit)",
+              "Arrian, Anabasis 4.10–12 (proskynesis affair)",
+              "Lane Fox, Alexander the Great (1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Alexander showed some human touches: his love of Homer's Iliad (he reportedly slept with a dagger and a copy annotated by Aristotle under his pillow — Plutarch 8), his devotion to his horse Bucephalus, and his drinking sessions with companions. However, he actively cultivated divine status, claiming descent from Achilles and Heracles, visiting the Oracle at Siwa to confirm his divine sonship, and demanding proskynesis. His primary mode was as an extraordinary, larger-than-life figure distant from ordinary human experience."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Arrian, Anabasis 3.26–27 (Philotas affair)",
+              "Bosworth, Conquest and Empire (1988)",
+              "Curtius Rufus, Histories of Alexander 6.7–11"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Alexander punished corrupt satraps upon returning from India (324 BC), including executing Abulites and his son for maladministration in Susa. He attempted to integrate Persians into governance as equals. However, he had Philotas executed after a possibly coerced confession and Parmenion assassinated without trial (330 BC). He demanded proskynesis over objections and had the historian Callisthenes imprisoned (and likely killed) for resisting. These counterexamples of arbitrary, extrajudicial punishment prevent a score above 1."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Arrian, Anabasis 2.12",
+              "Plutarch, Life of Alexander 21",
+              "Diodorus Siculus 17.14 (on Thebes)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Alexander treated the captured family of Darius III — his mother Sisygambis, wife Stateira, and daughters — with notable dignity and respect, a documented act of compassion toward adversaries (Arrian 2.12; Plutarch 21). He also shared water with common soldiers during desert marches. However, severe counterexamples include the destruction of Thebes (335 BC, ~6,000 killed, 30,000 enslaved), the massacre following the siege of Tyre (~8,000 killed, 30,000 enslaved), and the destruction of Persepolis. Without counterexamples the score would be 2; with them given proportional weight, the scale and deliberateness of the massacres reduce the score to 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Arrian, Anabasis 6.9–11 (Malli siege)",
+              "Plutarch, Life of Alexander 63",
+              "Lane Fox, Alexander the Great (1973)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Alexander personally led cavalry charges at Granicus (334 BC), Issus (333 BC), and Gaugamela (331 BC). At the siege of the Malli city (326 BC), he was first over the wall and was struck by an arrow that punctured his lung, nearly dying. He sustained multiple wounds throughout 13 years of continuous campaigning. His courage was sustained across dozens of high-stakes situations from his first battle at Chaeronea (338 BC, age 18) through his final campaigns."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Arrian, Anabasis 4.8–9",
+              "Green, Alexander of Macedon (1991)",
+              "Bosworth, Alexander and the East (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "After murdering Cleitus in a drunken rage at Maracanda (328 BC), Alexander showed intense remorse — fasting for days and reportedly attempting suicide (Arrian 4.8–9; Plutarch 51). This shows capacity for moral acknowledgment. However, mainstream scholarship (Green, Bosworth) notes an overall trajectory of moral decline rather than growth: increasing autocracy, alcohol dependence, paranoia, and the demand for divine honors. The Cleitus remorse did not prevent subsequent authoritarian behavior."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Arrian, Anabasis 5.25–29 (Beas mutiny), 6.21–26 (Gedrosia), 7.14 (Hephaestion's death)",
+              "Bosworth, Conquest and Empire (1988)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Alexander endured qualitatively different forms of adversity: the assassination of his father Philip II (336 BC) and immediate political crisis requiring consolidation of power; severe battle wounds including the near-fatal arrow at Malli; the catastrophic Gedrosian Desert crossing (325 BC) with massive casualties from heat and dehydration; the death of his closest companion Hephaestion (324 BC) which caused extreme grief; and the mutiny at the Beas River (326 BC) when his own army refused to continue. He functioned effectively through all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Green, Alexander of Macedon (1991)",
+              "Lane Fox, Alexander the Great (1973)",
+              "Cartledge, Alexander the Great (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Alexander simultaneously inhabited multiple contradictory roles: destroyer of cities (Thebes, Tyre, Persepolis) and founder of cities (20+ Alexandrias); Greek/Macedonian king and Persian Great King who adopted Persian dress and customs; devoted friend who wept for Hephaestion and murderer of Cleitus at a banquet; Aristotle's rationalist student and self-proclaimed son of Zeus-Ammon; common soldier who shared hardships with his troops and autocratic divine king demanding prostration. He held at least five contradictory roles without fragmenting into inconsistency — rather, the contradictions became part of a coherent persona."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Diodorus Siculus 17.117",
+              "Arrian, Anabasis 7.24–26",
+              "Plutarch, Life of Alexander 75–77"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Alexander repeatedly chose the most dangerous position in battle — first over the wall at Malli, leading cavalry charges personally — suggesting genuine composure in the face of death. On his deathbed (June 323 BC), when asked to whom he left his empire, he reportedly said 'to the strongest' (Diodorus 17.117), and when soldiers filed past him he acknowledged each with his eyes. However, his pursuit of divine status and oracle consultations about his divinity suggest an attempted transcendence of mortality rather than acceptance. The deathbed accounts are from sources written decades later."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Arrian, Anabasis 6.9–11 (Malli)",
+              "Plutarch, Life of Alexander 6 (Bucephalus)",
+              "Bosworth, Conquest and Empire (1988)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Alexander tamed Bucephalus as a boy (~age 12), demonstrating early physical mastery. He fought personally in cavalry charges at Granicus (334), Issus (333), and Gaugamela (331), sustaining wounds at multiple battles. He survived an arrow through the lung at the Malli siege (326 BC) and led his army through the brutal Gedrosian Desert crossing (325 BC). His physical endurance was tested across 13 years of campaigning through mountains, deserts, and river crossings in multiple climate zones."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Plutarch, Life of Alexander 8, 15, 72",
+              "Arrian, Anabasis 1.12 (Troy visit)",
+              "Lane Fox, Alexander the Great (1973)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Alexander's love of Homer was deeply personal — he wept at the tomb of Achilles at Troy and kept the Iliad as a personal talisman (Plutarch 8, 15). He organized athletic and dramatic festivals throughout his campaigns, including elaborate games at Tyre and in Egypt. He enjoyed hunting and was a noted horseman. He commissioned the painter Apelles and sculptor Lysippus as personal artists. While some patronage was politically instrumental, his Homer devotion and athletic participation appear genuinely non-instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.56,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Alexander the Great",
+      "overall": {
+        "Core_5D_Avg": 6.56,
+        "Overall_Normalized_Equal_Avg": 6.21,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "A supreme military genius and cultural catalyst whose conquests created the Hellenistic world, with exceptional physical courage, strategic intelligence, and paradox integration. His moral-affective profile is uneven — extraordinary personal bravery coexists with episodes of cruelty (Thebes, Tyre, Cleitus). Relationally limited by early death and increasing autocracy. Heinlein competency is heavily skewed toward command and combat, with minimal evidence for domestic or craft skills befitting a king who campaigned from age 20 until death at 32. His legacy and archetypal resonance across civilizations remain unmatched among ancient military figures.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Plutarch, Life of Alexander 22"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of Alexander personally preparing food. As a king, his meals were prepared by servants. Plutarch (22) notes his relative moderation at table compared to other monarchs, but this describes consumption, not preparation."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Arrian, Anabasis 1.15 (Granicus wound), 6.9–11 (Malli)",
+            "Plutarch, Life of Alexander 16 (Granicus), 63 (Malli)",
+            "Lane Fox, Alexander the Great (1973)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Alexander was an elite personal combatant who fought hand-to-hand in numerous battles over 13 years. He led cavalry charges personally at Granicus (where he was struck on the helmet), Issus, and Gaugamela. At the Malli siege, he leapt over the wall alone into the enemy city and fought surrounded until reinforcements arrived, surviving an arrow through the lung. He was wounded at least seven documented times. His personal combat skill and willingness to fight in the front rank were defining characteristics of his military career."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Arrian, Anabasis 6.26",
+            "Plutarch, Life of Alexander 40"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Alexander showed episodic care for his soldiers: during the Gedrosian Desert march, he reportedly poured out water offered to him because his troops had none (Arrian 6.26). He visited wounded soldiers after battles and knew many by name (Plutarch 40). However, caregiving was not a sustained or primary activity — these were leadership gestures within a military context rather than sustained nurture."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Arrian, Anabasis 7.14 (Hephaestion's death), 7.24–26 (Alexander's death)",
+            "Plutarch, Life of Alexander 72, 75–77"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Alexander faced his own death repeatedly with apparent composure — choosing the most dangerous position in battle, and behaving with dignity on his deathbed when soldiers filed past him (Arrian 7.26). However, his reaction to Hephaestion's death (324 BC) showed profound emotional crisis: he ordered the physician crucified, fasted for days, demanded divine honors for Hephaestion, and reportedly cut his own hair in grief (Arrian 7.14). This shows uneven composure across different existential crises. His pursuit of divine status also suggests some resistance to mortality rather than full acceptance."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of Alexander personally engaging in manual craft, tool-making, or repair work. As Macedonian royalty and then king, such tasks would have been delegated to specialists. No source records him mending equipment, building tools, or performing craft work."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Arrian, Anabasis 3.3–4 (Siwa), 5.12–14 (Hydaspes crossing)",
+            "Engels, Alexander the Great and the Logistics of the Macedonian Army (1978)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Alexander led his army across extraordinarily diverse terrain: crossing the Hellespont (334 BC), navigating the Cilician Gates, traversing the Libyan desert to the Siwa Oasis, crossing the Hindu Kush passes (~11,000 ft elevation), and the night crossing of the Jhelum/Hydaspes River using storm cover. He commissioned Nearchus's exploratory voyage along the Arabian Sea coast and used local guides effectively. Route selection was a critical command function he exercised personally."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Alexander personally butchered, processed, or prepared animal products. As a Macedonian king from age 20, such tasks would have been performed by servants. His hunting activities (lion hunts, boar hunts) involved killing animals but not processing them."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Arrian, Anabasis 7.8–11 (Opis)",
+            "Bosworth, Conquest and Empire (1988)",
+            "Green, Alexander of Macedon (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Alexander's leadership is among the most documented and effective in history — inspiring loyalty across 13 years of campaigning and resolving the Opis mutiny through emotional confrontation. His followership was evident early: he served under Philip II at Chaeronea (338 BC), studied obediently under Aristotle, and initially took counsel from experienced generals like Parmenion. However, his followership deteriorated sharply in later years — he increasingly rejected advice, demanded proskynesis, and responded to dissent with execution (Philotas, Callisthenes). The rubric requires both dimensions."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Arrian, Anabasis 2.18–24 (Tyre siege)",
+            "Bosworth, Conquest and Empire (1988)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Alexander directed the construction of the 800-meter causeway at Tyre (332 BC) and numerous siege works, bridges, and fortifications throughout his campaigns. He oversaw the founding and physical layout of over 20 cities. However, he directed engineers (notably Diades and Charias) rather than personally designing or building. Credit is for command of construction operations, not personal fabrication skill."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Fuller, The Generalship of Alexander the Great (1958)",
+            "Bosworth, Conquest and Empire (1988)",
+            "Engels, Alexander the Great and the Logistics of the Macedonian Army (1978)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Alexander planned and executed one of history's most complex military campaigns, coordinating logistics for 40,000–90,000+ troops across 20,000+ miles over 13 years. He managed parallel operations (Nearchus's coastal fleet supporting the land march), adapted strategy to diverse enemies (set-piece battles against Persia, counterinsurgency in Bactria, river warfare against Porus), and coordinated combined arms of cavalry, phalanx, siege engines, and naval forces simultaneously."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Plutarch, Life of Alexander 8 (Homer), 4 (Apelles, Lysippus)",
+            "Lane Fox, Alexander the Great (1973)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Alexander was educated in literature and music by Aristotle, loved Homer's Iliad deeply, and patronized artists including the painter Apelles, sculptor Lysippus, and organized elaborate dramatic and athletic festivals. However, he was not himself a creator of artistic works. His cultural contribution was as patron and catalyst for the Hellenistic artistic synthesis, not as an artist."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Arrian, Anabasis 2.4 (Philip the physician)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence of Alexander providing medical treatment to others. He received medical care from his physician Philip of Acarnania (whom he famously trusted despite a warning letter — Arrian 2.4) but is not recorded as administering medical aid himself. Emergency response in the form of battlefield leadership is covered under other categories."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Engels, Alexander the Great and the Logistics of the Macedonian Army (1978)",
+            "Bosworth, Conquest and Empire (1988)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Alexander managed the logistics of supplying armies of 40,000–90,000 across vast distances, requiring calculations of march rates, water sources, supply depots, and forage availability. He was educated by Aristotle in mathematics and science. His tactical calculations in battle — estimating distances, timing cavalry charges to exploit gaps in enemy formations — required strong analytical reasoning. Donald Engels's study shows the logistical sophistication required for his campaigns."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Engels, Alexander the Great and the Logistics of the Macedonian Army (1978)",
+            "Arrian, Anabasis 7.21 (Babylon canals)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Alexander managed resources on a campaign scale, establishing supply lines and founding agricultural colonies throughout conquered territories. He directed the irrigation and development of Babylon's canals in his final months (Arrian 7.21). However, the catastrophic Gedrosian Desert crossing (325 BC) — where thousands died from heat and thirst — represents a major resource management failure. Overall, resource management was handled through subordinates with mixed results."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Marsden, Greek and Roman Artillery: Historical Development (1969)",
+            "Bosworth, Conquest and Empire (1988)",
+            "Arrian, Anabasis 2.18–24 (Tyre)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Alexander employed and pushed the cutting-edge military technology of his era: advanced torsion-powered siege engines at Tyre and Gaza, the unprecedented open-water causeway at Tyre, pontoon bridges across major rivers, and integrated combined-arms tactics that represented the most sophisticated military operations of the 4th century BC. He commissioned Nearchus's exploratory naval expedition along the coast from the Indus to the Euphrates. He worked with and directed specialist engineers to solve novel technical problems."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.56,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 6.21,
+    "created_at": "2026-03-15T21:09:43.375Z",
+    "updated_at": "2026-03-15T21:09:43.380Z"
+  }
+}
+]

@@ -1,0 +1,359 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 99,
+  "fields": {
+    "name": "Johannes Gutenberg",
+    "slug": "johannes-gutenberg",
+    "bio_short": "Gutenberg's genius was narrowly concentrated: an exceptional craftsman-inventor whose movable-type printing press created one of history's great paradigm shifts, but whose personal life is thinly documented. He scores very high on creative/innovative thinking, technical fabrication, and impact legacy, but the sparse surviving records—mostly legal and financial—leave most moral, relational, and existential dimensions essentially unrateable. His overall profile is that of a transformative specialist rather than a broadly realized person.",
+    "bio_long": "Johannes Gensfleisch zur Laden zum Gutenberg was a German inventor and craftsman who invented the movable-type printing press. Though movable type was already in use in East Asia, Gutenberg's invention of the printing press enabled a much faster rate of printing. The printing press later spread across the world, and led to an information revolution and the unprecedented mass-spread of literature throughout Europe. It had a profound impact on the development of the Renaissance, Reformation, and humanist movements.",
+    "source_notes": "https://en.wikipedia.org/wiki/Johannes_Gutenberg",
+    "image": "figures/330px-Mainz_Gutenbergdenkmal_2016_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)",
+              "Man, John. Gutenberg: How One Man Remade the World with Words (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Gutenberg's multi-year development program—secret experiments in Strasbourg (c. 1438–1444) followed by the full-scale Mainz Bible project requiring coordination of type-casting, ink formulation, press construction, and financing from Johann Fust—demonstrates foresight and complex planning. However, he lost the 1455 lawsuit to Fust and forfeited his workshop and printed Bibles, revealing a significant strategic failure in protecting his business interests."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Eisenstein, Elizabeth. The Printing Press as an Agent of Change (1979)",
+              "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)",
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Gutenberg's invention represents a clear paradigm shift: he combined a novel hand mold for rapid type-casting, a new lead-tin-antimony alloy, oil-based ink formulated for metal type, and an adapted screw press into an integrated printing system. Before Gutenberg, European book production was manuscript-based (~50 copies/year per scribe); within 50 years, an estimated 20 million volumes had been printed. This is among the most consequential innovations in human history."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No writings, speeches, or reported philosophical statements by Gutenberg survive. The historical record consists almost entirely of legal documents, financial agreements, and references in municipal records. There is no evidence of articulated ethical or philosophical principles."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)",
+              "Man, John. Gutenberg: How One Man Remade the World with Words (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Gutenberg managed a complex workshop with multiple employees for the Bible project, coordinating specialized tasks over several years. However, his enterprise did not survive his loss to Fust in 1455; it was Fust and Schöffer who built the enduring Mainz printing business. Gutenberg's administrative capacity was sufficient for project management but not for building lasting organizational structures."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Surviving records show Gutenberg operating as business partner (with Fust and earlier Strasbourg associates), workshop master (with employees), patrician family member, and dependent/beneficiary (of Archbishop Adolf of Nassau, who granted him a pension in 1465). However, evidence of qualitatively distinct relational behavior across these modes is absent—we see him only through legal and financial documents."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "Gutenberg appears never to have married, and no intimate partner is documented in the surviving record. One Strasbourg court case (1436–1437) involved a woman named Ennelin zu der Iserin Thüre in a breach-of-promise suit, but details are scant and the relationship did not result in marriage."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)",
+              "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Gutenberg had no known children. He trained workshop assistants, and Peter Schöffer—who became one of Europe's leading printers—likely learned key techniques from Gutenberg before partnering with Fust. However, direct evidence of mentoring relationships or their quality is very thin."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Eisenstein, Elizabeth. The Printing Press as an Agent of Change (1979)",
+              "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)",
+              "Man, John. Gutenberg: How One Man Remade the World with Words (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The movable-type printing press is routinely ranked among the most transformative inventions in human history. It directly enabled the Protestant Reformation (Luther's 95 Theses spread via print), the Scientific Revolution (standardized dissemination of findings), the spread of literacy, and the democratization of knowledge. Its effects are clearly operative across all civilizations more than 550 years later."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)",
+              "Man, John. Gutenberg: How One Man Remade the World with Words (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Gutenberg is widely recognized across cultures as the archetypal transformative inventor—the individual whose single innovation democratized knowledge. He symbolizes the power of technology to reshape civilization. However, his personal story lacks the mythic narrative depth of figures like Prometheus or Leonardo; he is more an emblem of his invention than a richly elaborated archetype."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Eisenstein, Elizabeth. The Printing Press as an Agent of Change (1979)",
+              "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Gutenberg created the technological system of movable-type printing, but his own business was lost to Fust and Schöffer. The printing industry that exploded across Europe was built by others using his innovations. He established a replicable technological method rather than a durable organizational institution."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Gutenberg led a workshop of skilled workers during the Bible printing project and managed collaborative relationships with investors and artisans. However, there is no evidence of leadership across qualitatively different contexts (e.g., political, military, communal leadership). His influence was technological rather than personal-charismatic."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Legal records reveal Gutenberg as a member of the Mainz patrician class engaged in ordinary commercial activities—borrowing money, entering partnerships, dealing with tradesmen. His goldsmithing background indicates manual craftsmanship. However, documentation of everyday personal life (humor, domestic activities, friendships) is essentially absent."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No specific evidence of justice-oriented decisions, policies, or acts of fairness survives. The lawsuit with Fust was a commercial dispute, and surviving records do not reveal Gutenberg's stance on broader questions of justice or equity."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No specific acts of compassion or empathy are recorded in the surviving documentation. The extant records are legal and financial in nature and do not speak to Gutenberg's interpersonal warmth or concern for others."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)",
+              "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Gutenberg persisted through years of secretive, financially precarious experimentation in Strasbourg, risked significant capital on an unproven technology, and continued printing work (likely the Catholicon and other texts) even after losing his workshop and Bible stock to Fust in 1455. This represents sustained resilience across financial and professional adversity."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "The surviving record contains no documented instances of moral self-correction or changed behavior. This is not because tradition sanitized Gutenberg but because the personal record is too thin to reveal any such growth. Absence of evidence in this case reflects genuine evidentiary scarcity."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)",
+              "Man, John. Gutenberg: How One Man Remade the World with Words (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Gutenberg endured financial precariousness throughout his inventive career, the devastating loss of his workshop and printed Bibles to Fust in 1455, and the earlier political exile of his patrician family from Mainz (c. 1411). He continued productive work after each setback, demonstrating effective functioning across both material deprivation and professional catastrophe."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Gutenberg combined the roles of fine craftsman (goldsmithing precision) and industrial innovator (mass-production system), and aristocratic patrician and manual laborer. However, the thin personal record does not allow us to document three or more contradictory roles held simultaneously with coherence."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No documentation of Gutenberg's attitude toward death or his own mortality survives. He died on February 3, 1468, and was buried in the Franciscan church in Mainz, but no accounts of his final days or deathbed composure exist."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Gutenberg was a trained goldsmith whose work demanded fine manual dexterity and sustained physical effort—metal-casting, press operation, and precision tool-making. He continued this physically demanding craft work from his Strasbourg experiments (c. 1438) through at least the late 1450s, spanning roughly two decades of active physical labor into his late 50s."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Gutenberg Bible is widely regarded as one of the most beautiful books ever produced, with meticulous typography and careful layout suggesting genuine aesthetic sensibility. However, this aesthetic care was embedded in professional production rather than clearly non-instrumental play or leisure. No evidence of humor, play, or artistic engagement outside his professional work survives."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.0,
+          "Relational": 2.22,
+          "Core_5D_Avg": 3.64,
+          "Cultural-Social": 5.33,
+          "Moral-Affective": 1.67,
+          "Embodied-Existential": 4.0
+        }
+      },
+      "figure": "Johannes Gutenberg",
+      "overall": {
+        "Core_5D_Avg": 3.64,
+        "Overall_Normalized_Equal_Avg": 3.66,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "Gutenberg's genius was narrowly concentrated: an exceptional craftsman-inventor whose movable-type printing press created one of history's great paradigm shifts, but whose personal life is thinly documented. He scores very high on creative/innovative thinking, technical fabrication, and impact legacy, but the sparse surviving records—mostly legal and financial—leave most moral, relational, and existential dimensions essentially unrateable. His overall profile is that of a transformative specialist rather than a broadly realized person.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of culinary activity survives in the historical record."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of military service or combat experience. While Mainz experienced political conflicts during Gutenberg's lifetime, there is no record of his personal involvement in armed conflict."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of caregiving activity survives in the historical record. Gutenberg had no known children or documented dependents for whom he provided care."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documentation of Gutenberg's comportment in the face of mortality or existential crisis survives. His death in 1468 is recorded but without any narrative of his final disposition."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)",
+            "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Gutenberg was trained as a goldsmith in one of Europe's premier metalworking traditions and applied this expertise to create precision tools—the adjustable hand mold, steel letter punches, copper matrices—that required the highest level of manual craft skill available in 15th-century Europe. His ability to work across metals, wood, and chemical compounds (ink formulation) represents exceptional manual versatility."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Gutenberg traveled between Mainz and Strasbourg (approximately 200 km) multiple times during his life, including during his family's exile from Mainz. This represents ordinary 15th-century overland travel competence, not exceptional wayfinding."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of animal husbandry or food processing. While Gutenberg's workshop used vellum (animal skin), no evidence suggests he processed hides himself."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gutenberg directed a workshop team during Bible production and accepted the authority of his guild and municipal structures. He took on Fust as a financial partner and eventually accepted a pension from Archbishop Adolf of Nassau, showing capacity to operate within hierarchies. However, evidence of inspiring followership or exceptional deference is thin."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)",
+            "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Gutenberg designed and built the wooden printing press (adapted from wine/olive screw presses), created the precision hand mold for casting individual type pieces, developed the lead-tin-antimony type-metal alloy, and formulated a new oil-based ink. Each component required novel fabrication; together they constituted an entirely new manufacturing system. This represents the cutting edge of 15th-century fabrication."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)",
+            "Man, John. Gutenberg: How One Man Remade the World with Words (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Gutenberg Bible project required years of coordinated planning: securing Fust's investment of 1,600 guilders, managing procurement of materials (vellum, paper, metals, ink ingredients), coordinating a team of compositors and pressmen, and orchestrating a production run of approximately 180 copies. The complexity of this multi-year operation demonstrates strong project-level strategic planning."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)",
+            "Hellinga, Lotte. Texts in Transit (2014)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The 42-line Bible is widely considered one of the most aesthetically accomplished books ever produced, with its carefully designed typeface (textura), consistent layout, and harmonious proportions. Gutenberg's type design drew on manuscript calligraphic traditions while creating a new medium of visual expression. However, his artistic output was confined to typography and book design."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of medical knowledge or emergency response skills in the surviving record."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Developing the type-metal alloy required systematic metallurgical experimentation (testing proportions of lead, tin, and antimony for casting quality and durability). Page layout demanded precise calculation of margins, line spacing, and justification. Managing the business finances—including Fust's loans and production costs—required commercial numeracy at an above-average level for a 15th-century craftsman."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of agricultural activity or resource management beyond procurement of workshop materials. Gutenberg was an urban patrician and artisan."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Eisenstein, Elizabeth. The Printing Press as an Agent of Change (1979)",
+            "Kapr, Albert. Johann Gutenberg: The Man and His Invention (1996)",
+            "Füssel, Stephan. Gutenberg and the Impact of Printing (2005)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Gutenberg's printing system required solving multiple interlocking technical problems simultaneously: creating durable, reusable type (metallurgical challenge), designing a hand mold that could produce identical letters rapidly (precision engineering), formulating ink that adhered to metal rather than vellum/paper alone (chemical challenge), and adapting the screw press mechanism for even impression (mechanical engineering). This represents among the most impressive technical-systemic problem-solving achievements of the 15th century."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 3.64,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 3.66,
+    "created_at": "2026-03-15T08:19:52.508Z",
+    "updated_at": "2026-03-15T08:19:52.511Z"
+  }
+}
+]

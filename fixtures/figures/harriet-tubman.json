@@ -1,0 +1,380 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 119,
+  "fields": {
+    "name": "Harriet Tubman",
+    "slug": "harriet-tubman",
+    "bio_short": "Harriet Tubman exemplifies extraordinary moral-affective and embodied-existential strength — her courage, compassion, and physical endurance under sustained adversity rank among the highest in the historical record. Her strategic intelligence in planning 13 rescue missions and the Combahee River Raid was exceptional. She integrated paradoxical roles — enslaved person and liberator, disabled and indomitable, woman and military commander — with remarkable coherence. Heinlein competency is notable for navigation, strategic command, leadership, caregiving, and existential composure, though depriva",
+    "bio_long": "Harriet Tubman was an American abolitionist and social activist. After escaping slavery, Tubman made some 13 missions to rescue approximately 70 enslaved people, including her family and friends, using the network of antislavery activists and safe houses known collectively as the Underground Railroad. During the American Civil War, she served as an armed scout and spy for the Union Army. In her later years, Tubman was an activist in the movement for women's suffrage.",
+    "source_notes": "https://en.wikipedia.org/wiki/Harriet_Tubman",
+    "image": "figures/330px-Carte-de-visite_portrait_of_Harriet_Tubman_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Larson, *Bound for the Promised Land: Harriet Tubman, Portrait of an American Hero* (2004)",
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)",
+              "Bradford, *Scenes in the Life of Harriet Tubman* (1869)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tubman planned and executed approximately 13 rescue missions into slave territory over a decade, adapting routes, timing (preferring winter Saturday nights when newspapers wouldn't print runaway notices until Monday), disguises, and evasion tactics in real time. When initial plans failed — patrols shifted, safe houses were compromised — she rerouted successfully; she never lost a single passenger. During the Civil War, she gathered intelligence from Black informants that directly enabled the Combahee River Raid (June 1863), demonstrating adaptation from clandestine small-group operations to large-scale military planning."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)",
+              "Larson, *Bound for the Promised Land* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tubman innovated within the Underground Railroad framework: she used coded spirituals ('Go Down, Moses,' 'Wade in the Water') as communication signals, adopted varied disguises (old woman, male laborer), and developed the tactic of initially heading south to throw off pursuers. Her intelligence network during the Civil War — recruiting Black informants behind Confederate lines — was a creative adaptation of her UGRR methods to military espionage. However, she did not create a paradigm shift; she was an exceptional innovator within existing abolitionist and military frameworks."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Sernett, *Harriet Tubman: Myth, Memory, and History* (2007)",
+              "Larson, *Bound for the Promised Land* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tubman articulated a clear and consistent moral framework rooted in the absolute evil of slavery and the divine mandate for human freedom, expressed through her reported sayings and her letters dictated to others. Her ethical vision influenced figures like Frederick Douglass and John Brown, and her example has been invoked by later civil rights and feminist movements. However, she was not primarily a systematic philosopher or writer; her moral insights were expressed through action and oral testimony rather than published treatises that reshaped ethical discourse beyond her community."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Sernett, *Harriet Tubman: Myth, Memory, and History* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Tubman established the Harriet Tubman Home for the Aged in Auburn, NY (opened ~1908), which she deeded to the AME Zion Church. This demonstrates some administrative capability, but the home struggled financially and required ongoing support. She managed her Auburn household and property for decades despite chronic poverty. She did not create large-scale systems, policies, or organizations that endured robustly beyond her oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)",
+              "Bradford, *Scenes in the Life of Harriet Tubman* (1869)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tubman documented relational modes include: spouse (two marriages), parent (adopted Gertie, cared for parents), child (rescued and nursed her aging parents), friend (close relationships with Frederick Douglass, William Seward, Susan B. Anthony), superior/leader (commanded rescue missions, led Combahee Raid), subordinate (served under military officers, earlier under enslavement). That spans at least six modes. Evidence suggests qualitatively different behavior — stern authority during rescues (threatening to shoot waverers) versus tender caregiving for the elderly — but detailed documentation of distinct relational styles across all modes is somewhat uneven."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Tubman's first marriage to John Tubman (a free Black man, c. 1844) ended when he refused to accompany her escape in 1849 and later married another woman — a painful rupture. Her second marriage to Nelson Davis (1869), a Civil War veteran 22 years her junior, lasted 19 years until his death in 1888; they adopted a daughter, Gertie, together. The Davis marriage appears to have been supportive, but detailed evidence of mutual respect, emotional availability, and support during crisis is thin in the historical record. Sources focus overwhelmingly on her public rather than intimate life."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tubman adopted Gertie Davis with her second husband and raised her. She rescued her elderly parents from slavery in 1857 and cared for them in Auburn until their deaths. She mentored dozens of freedom-seekers during rescue missions, maintaining their trust and morale under extreme conditions. Frederick Douglass praised her influence. She also mentored community members through decades of civic work. However, evidence that her specific mentees or adopted daughter developed notable autonomy and competence as a direct result of her mentoring is limited in the sources."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Sernett, *Harriet Tubman: Myth, Memory, and History* (2007)",
+              "Dunbar, *She Came to Slay: The Life and Times of Harriet Tubman* (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tubman's legacy is enormous and growing: she was selected for the U.S. $20 bill, has national historical parks named for her, and is invoked globally as a symbol of freedom and resistance. Her example has influenced civil rights, feminist, and anti-colonial movements across multiple nations. However, the strict criterion of 'effects still clearly operative at least 500 years later across multiple civilizations' cannot yet be met — she died only in 1913. Her impact is primarily centered in American and Anglophone/Western culture, with growing but still limited penetration into other civilizational contexts. Score 2 reflects enormous but not yet fully cross-civilizational and temporally verified impact."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Bradford, *Harriet Tubman: The Moses of Her People* (1886)",
+              "Sernett, *Harriet Tubman: Myth, Memory, and History* (2007)",
+              "Dunbar, *She Came to Slay* (2019)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tubman is recognized as 'the Moses of her people' — an archetype of the liberator/deliverer that resonates across Judeo-Christian, African American, and broader humanitarian traditions. She embodies the hero's journey narrative: escape from bondage, transformation, and return to save others. She is invoked as a symbol in feminist, anti-colonial, and human rights discourses far beyond African American or U.S. contexts. Her story maps onto universal liberation archetypes recognized across cultures."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Sernett, *Harriet Tubman: Myth, Memory, and History* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tubman's primary institutional legacy is the Harriet Tubman Home for the Aged in Auburn, NY, which she deeded to the AME Zion Church in 1903 and which opened in 1908. The home operated for some years but did not become a major self-sustaining institution surviving generations with recognizable continuity. She did not build large-scale organizations. Her legacy is primarily symbolic and inspirational rather than institutional."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)",
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Douglass, letter to Harriet Tubman (August 29, 1868)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tubman led small clandestine rescue teams through hostile territory (crisis leadership under extreme pressure); commanded the Combahee River Raid with Union forces including Black troops (large-scale military operation); influenced major abolitionist figures including Frederick Douglass and John Brown (intellectual leadership); and later served as a community leader and suffrage activist in Auburn, NY (civic leadership during stability). This spans at least four qualitatively different leadership contexts. Douglass himself wrote to her: 'I know of no one who has willingly encountered more perils and hardships.'"
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Bradford, *Scenes in the Life of Harriet Tubman* (1869)",
+              "Larson, *Bound for the Promised Land* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Even at the height of her fame, Tubman lived modestly in Auburn, NY, farming her property, cooking for herself and boarders, doing domestic labor, and caring for elderly and destitute community members. Bradford's accounts describe her in deeply domestic settings — mending, gardening, and engaging warmly with visitors. She struggled with poverty throughout her life and never lived apart from ordinary concerns. However, detailed documentation of mundane daily activities is somewhat limited by the biographical sources available."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)",
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Sernett, *Harriet Tubman: Myth, Memory, and History* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tubman dedicated her entire post-escape life to justice causes, working without pay or for minimal compensation. She fought for fair treatment of Black soldiers during the Civil War and petitioned Congress for decades for a pension she was owed for military service (finally granted in 1899, at $20/month). After abolition, she extended her justice orientation to women's suffrage, working alongside Susan B. Anthony and speaking at suffrage conventions — broadening her advocacy beyond racial justice to gender equity. Her willingness to serve without compensation and to advocate across justice causes, even when it brought no personal benefit, demonstrates ruling against self-interest for principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Bradford, *Scenes in the Life of Harriet Tubman* (1869)",
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tubman risked her life repeatedly to free not only family but strangers from slavery. During the Civil War, she served as a nurse at Port Royal, South Carolina, caring for both Black and white Union soldiers and freedpeople suffering from dysentery and other illnesses. In her later years, she took in elderly, destitute, and infirm people at her Auburn home, eventually formalizing this into the Harriet Tubman Home for the Aged. Her compassion extended across racial and group boundaries, meeting the criterion for score 3."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tubman's courage was sustained across decades and qualitatively different high-stakes situations: her 1849 solo escape from slavery; approximately 13 rescue missions with a bounty on her head (reportedly $40,000); service as an armed scout and spy in the Civil War zone; and leading the Combahee River Raid (1863), the first woman to command an armed military operation in U.S. history, liberating over 700 enslaved people. She did all this while suffering from traumatic brain injury causing narcoleptic seizures. This is among the strongest exemplars of sustained courage in the historical record."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Sernett, *Harriet Tubman: Myth, Memory, and History* (2007)",
+              "Larson, *Bound for the Promised Land* (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The hagiographic tradition around Tubman presents her as morally unerring. There is some evidence of evolution — she supported John Brown's violent insurrection at Harpers Ferry (1859) but later focused on community building and suffrage advocacy, suggesting a shift in tactical approach. She reportedly carried a pistol and threatened to shoot any passenger who wanted to turn back during rescues, a morally complex act she apparently never revisited publicly. However, no clear documented instance of her publicly reversing a prior position or accepting correction exists. Per the rubric, figures whose traditions sanitize them are capped at 1 without independent counter-evidence."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tubman endured qualitatively distinct forms of adversity: (1) enslavement from birth including severe physical abuse and the traumatic head injury; (2) chronic neurological disability (seizures, narcolepsy) throughout her life; (3) material poverty — she lived in near-destitution for decades despite her fame; (4) personal bereavement — her first husband John Tubman refused to join her escape and married another woman; she lost family members to slavery; (5) mortal danger during 13 rescue missions and Civil War service. She functioned at an exceptionally high level across all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)",
+              "Sernett, *Harriet Tubman: Myth, Memory, and History* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tubman inhabited at least four seemingly contradictory roles without fragmentation: (1) formerly enslaved person and military commander who directed Union soldiers; (2) woman in a deeply patriarchal era and armed warrior/spy who led the first woman-commanded military raid in U.S. history; (3) person with severe neurological disability (narcolepsy, seizures) and one of the most physically demanding operatives of the abolitionist movement; (4) deeply devout Christian mystic who reported divine visions AND pragmatic tactician willing to threaten lethal force against wavering escapees; (5) illiterate person and sophisticated strategic planner who outwitted professional slave-catchers for a decade."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Bradford, *Harriet Tubman: The Moses of Her People* (1886)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tubman faced her own imminent death repeatedly during rescue missions and Civil War service, maintaining operational composure throughout. On her deathbed in 1913, surrounded by friends and family, she reportedly said, 'I go to prepare a place for you,' echoing Christ's words — demonstrating deep spiritual composure in the face of her own death. Her lifetime of willingly entering mortal danger suggests profound acceptance of mortality. However, the deathbed account comes from the hagiographic tradition and the primary evidence is somewhat limited."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Larson, *Bound for the Promised Land* (2004)",
+              "Clinton, *Harriet Tubman: The Road to Freedom* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tubman performed heavy manual labor from childhood (logging, muskrat trapping, plowing). She made approximately 13 rescue missions on foot covering hundreds of miles through forests, swamps, and hostile territory, often in winter. She did this while suffering from narcoleptic seizures and chronic headaches caused by a traumatic brain injury sustained as an adolescent when an overseer threw a two-pound metal weight at her head. During the Civil War (age ~40), she continued physically demanding service as scout and nurse. She farmed her Auburn property into her 80s. This demonstrates extraordinary endurance across multiple life stages despite severe disability."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Bradford, *Scenes in the Life of Harriet Tubman* (1869)",
+              "Larson, *Bound for the Promised Land* (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Tubman was known for singing spirituals and folk songs, though much of this was instrumental (coded signals on the Underground Railroad). Bradford and later biographers note her humor, wit, and love of storytelling, and she reportedly enjoyed community gatherings. However, the evidence for non-instrumental aesthetic engagement — joy for its own sake rather than strategic or didactic purposes — is limited in the sources. Most documented singing and storytelling served communicative or inspirational functions."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.18,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 8.33,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Harriet Tubman",
+      "overall": {
+        "Core_5D_Avg": 7.18,
+        "Overall_Normalized_Equal_Avg": 7.06,
+        "General_Competency_Avg_10scale": 6.44
+      },
+      "summary": "Harriet Tubman exemplifies extraordinary moral-affective and embodied-existential strength — her courage, compassion, and physical endurance under sustained adversity rank among the highest in the historical record. Her strategic intelligence in planning 13 rescue missions and the Combahee River Raid was exceptional. She integrated paradoxical roles — enslaved person and liberator, disabled and indomitable, woman and military commander — with remarkable coherence. Heinlein competency is notable for navigation, strategic command, leadership, caregiving, and existential composure, though deprivation of formal education limits analytical and artistic scores. Relational evidence is thinner due to source limitations. Her archetype as 'Moses of her people' resonates across cultures, though institutional legacy is modest compared to symbolic impact.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.93,
+          "General_Competency_Avg_10scale": 6.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Larson, *Bound for the Promised Land* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Tubman cooked for Union soldiers during her Civil War service and would have cooked for her household and boarders in Auburn throughout her life. During slavery, she worked in domestic settings that likely included cooking. However, no source specifically documents notable culinary skill or creativity beyond basic competence appropriate to her era and context."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Larson, *Bound for the Promised Land* (2004)",
+            "Clinton, *Harriet Tubman: The Road to Freedom* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Tubman carried a pistol on her Underground Railroad missions and was prepared to use lethal force — she reportedly threatened to shoot any passenger who wavered. She served as an armed scout during the Civil War and led the Combahee River Raid, an armed military operation involving gunboats and infantry. She reportedly carried a sharpened hat pin for self-defense in later years. However, there are no documented instances of her engaging in actual personal combat. Score 2 reflects armed readiness, military leadership, and willingness to use force, without confirmed direct combat engagement."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Larson, *Bound for the Promised Land* (2004)",
+            "Bradford, *Scenes in the Life of Harriet Tubman* (1869)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Tubman served as a nurse at Port Royal, SC during the Civil War, treating soldiers and freedpeople suffering from dysentery and other illnesses using herbal remedies. She cared for her elderly parents in Auburn after rescuing them from slavery in 1857. She took in elderly, destitute, and infirm boarders throughout her later decades, eventually formalizing this into the Harriet Tubman Home for the Aged. She adopted and raised Gertie Davis. Caregiving was a consistent thread across her entire adult life."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Larson, *Bound for the Promised Land* (2004)",
+            "Bradford, *Harriet Tubman: The Moses of Her People* (1886)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Tubman faced her own imminent death repeatedly — during her escape, across 13 rescue missions with a bounty on her head, and during Civil War service — and maintained operational composure and spiritual equanimity throughout. On her deathbed in 1913, she reportedly gathered friends and family and said, 'I go to prepare a place for you,' demonstrating profound composure. Her deep religious faith grounded a consistent acceptance of mortality that was not merely abstract but tested repeatedly under extreme conditions across her entire adult life."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Larson, *Bound for the Promised Land* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Tubman performed various forms of manual labor during slavery — splitting rails, hauling logs, and general plantation work. Her father, Ben Ross, taught her woodcraft and forestry skills. She maintained her Auburn property. However, specific skills in making, fixing, or adapting tools, machines, or physical systems are not well-documented beyond general manual competence expected in her rural 19th-century context."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Larson, *Bound for the Promised Land* (2004)",
+            "Clinton, *Harriet Tubman: The Road to Freedom* (2004)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Tubman navigated hundreds of miles on foot through forests, swamps, rivers, and hostile territory, primarily at night, using the North Star, river routes, moss on trees, and her deep knowledge of the Chesapeake landscape. She successfully guided groups from Maryland to Philadelphia, New York, and eventually to St. Catharines, Canada. Her navigational skills were so reliable that she never lost a passenger across approximately 13 missions spanning a decade. This represents exceptional wayfinding ability in her era and context."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Larson, *Bound for the Promised Land* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As an enslaved child and young woman, Tubman trapped muskrats and likely processed animal products as part of plantation labor. She would have been familiar with basic animal husbandry and food processing in a rural agricultural context. However, specific skills in butchering or animal processing beyond this general background are not documented."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Clinton, *Harriet Tubman: The Road to Freedom* (2004)",
+            "Larson, *Bound for the Promised Land* (2004)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Tubman demonstrated exceptional leadership as conductor on the Underground Railroad and commander of the Combahee River Raid. She also demonstrated followership: she served under Union military command during the Civil War, cooperated within the broader abolitionist network (deferring to William Still's coordination in Philadelphia, collaborating with Thomas Garrett in Wilmington), and followed the guidance of Quaker and abolitionist allies who maintained safe houses. She could command absolute obedience during rescues and serve as a subordinate within military hierarchy."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Larson, *Bound for the Promised Land* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "During her enslaved years, Tubman performed heavy manual labor including logging and splitting rails, skills adjacent to construction. She maintained her property in Auburn, NY. However, no specific evidence documents her designing or building durable structures. Her physical strength was legendary — her father taught her forestry skills — but construction/fabrication per se is not well-attested."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Clinton, *Harriet Tubman: The Road to Freedom* (2004)",
+            "Larson, *Bound for the Promised Land* (2004)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Tubman planned approximately 13 rescue missions into slave territory, coordinating timing, routes, safe houses, disguises, and contingency plans. She commanded the Combahee River Raid (June 1863), coordinating with Colonel James Montgomery and Union gunboats to liberate over 700 enslaved people — the first woman-led armed military operation in U.S. history. She gathered and analyzed intelligence from networks of Black informants for Union Army operations in South Carolina."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Bradford, *Scenes in the Life of Harriet Tubman* (1869)",
+            "Sernett, *Harriet Tubman: Myth, Memory, and History* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Tubman sang spirituals and folk songs, some of which became famous through their association with the Underground Railroad ('Go Down, Moses'). She was a powerful oral storyteller whose narratives were transcribed by Sarah Bradford. However, she did not create lasting artistic works in a formal sense — her songs were traditional spirituals adapted rather than original compositions, and her stories were recorded by others due to her illiteracy."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Bradford, *Scenes in the Life of Harriet Tubman* (1869)",
+            "Larson, *Bound for the Promised Land* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Tubman served as a nurse at the Union hospital in Port Royal and Beaufort, South Carolina, where she treated soldiers and freedpeople suffering from dysentery, smallpox, and other diseases. She reportedly used herbal remedies learned during her enslaved years, including a root-based remedy for dysentery that was noted by military physicians. She provided emergency care during rescue missions. Era-normalized, this represents strong medical competence, though she lacked formal training."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Larson, *Bound for the Promised Land* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Tubman was illiterate throughout her life due to being denied education under slavery. She clearly possessed strong practical analytical reasoning — planning complex multi-day operations, assessing risks, calculating timing — but formal numerical skills are not documented. Era-normalized for an enslaved person denied all formal education, her practical logic was remarkable, but the domain specifically asks about mathematics and analytical reasoning applied to problems, where evidence is limited."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Larson, *Bound for the Promised Land* (2004)",
+            "Clinton, *Harriet Tubman: The Road to Freedom* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Tubman farmed her 7-acre property in Auburn, NY for decades, growing food and managing resources despite chronic poverty. During slavery, she worked in agricultural settings and learned forestry management from her father, Ben Ross, who was a timber supervisor. She managed scarce resources effectively throughout her life — stretching minimal income to support herself, her parents, boarders, and community members. Era-normalized for a formerly enslaved woman, this represents solid agricultural and resource management competence."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Clinton, *Harriet Tubman: The Road to Freedom* (2004)",
+            "Larson, *Bound for the Promised Land* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Tubman operated within and adapted the Underground Railroad — a complex, decentralized system of routes, safe houses, coded communications, and cooperating agents. She developed intelligence-gathering systems during the Civil War, recruiting and managing networks of Black informants behind Confederate lines. She used the cutting-edge covert communication technologies of her era (coded songs, signal systems, disguise techniques) effectively and creatively. Era-normalized, this represents strong systemic problem-solving."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.18,
+    "general_competency_avg_0_10": 6.44,
+    "overall_normalized_equal_avg_0_10": 7.06,
+    "created_at": "2026-03-15T21:11:50.890Z",
+    "updated_at": "2026-03-15T21:11:50.894Z"
+  }
+}
+]

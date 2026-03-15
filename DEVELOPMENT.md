@@ -31,7 +31,8 @@ cp .env.example .env
 # Edit .env: set POSTGRES_HOST=localhost, REDIS host, LLM key
 
 python manage.py migrate
-python manage.py loaddata questions historical_figures
+python manage.py loaddata questions
+for f in fixtures/figures/*.json; do python manage.py loaddata "$f"; done
 python manage.py createsuperuser
 python manage.py runserver          # :8000
 
@@ -195,6 +196,49 @@ See `personliness/traits.py` for the full list of dimensions and trait names.
 
 ---
 
+## Contributing Figures
+
+Each historical figure lives in its own fixture file under `fixtures/figures/<slug>.json`.
+To add a new figure and commit it for others:
+
+1. **Ingest via the Admin API** (requires a running stack with an LLM key and `ADMIN_API_KEY`):
+   ```bash
+   curl -X POST http://localhost:8000/api/figures/ingest/ \
+     -H "Content-Type: application/json" \
+     -H "X-Admin-API-Key: your-admin-api-key-here" \
+     -d '{"figure_name": "Your Figure Name", "biography_text": "..."}'
+   # Returns: {"id": <n>, "status": "pending", ...}
+   ```
+
+2. **Poll until complete:**
+   ```bash
+   curl http://localhost:8000/api/figures/ingest/<n>/ \
+     -H "X-Admin-API-Key: your-admin-api-key-here"
+   # status: pending → processing → complete
+   ```
+
+3. **Export the figure to its fixture file:**
+   ```bash
+   docker compose run --rm web python manage.py shell -c "
+   from figures.models import HistoricalFigure
+   from django.core import serializers
+
+   fig = HistoricalFigure.objects.get(slug='your-figure-slug')
+   data = serializers.serialize('json', [fig], indent=2)
+   with open(f'fixtures/figures/{fig.slug}.json', 'w') as f:
+       f.write(data)
+   print('Wrote', fig.slug)
+   "
+   ```
+
+4. **Commit and open a PR:**
+   ```bash
+   git add fixtures/figures/your-figure-slug.json
+   git commit -m "feat: add <Figure Name> fixture"
+   ```
+
+---
+
 ## Environment Variables (Development)
 
 Development defaults are hardcoded in `docker-compose.yml` and require no `.env` for basic use. Set these in `.env` to override:
@@ -246,8 +290,7 @@ personliness/
 │   └── Dockerfile            # dev target (Vite :3000) + prod target (Nginx :80)
 ├── fixtures/
 │   ├── questions.json        # 62 assessment questions
-│   ├── historical_figures.json
-│   └── sample_figures.json
+│   └── figures/              # one JSON file per figure (e.g. ada-lovelace.json)
 ├── docker-compose.yml        # Dev stack
 ├── docker-compose.prod.yml   # Prod stack (Nginx on :80, DB/Redis not exposed)
 ├── Dockerfile                # Django/Gunicorn image
@@ -275,7 +318,10 @@ docker compose logs db
 
 **Fixtures not loaded / missing questions**
 ```bash
-docker compose run --rm web python manage.py loaddata questions historical_figures
+docker compose run --rm web python manage.py loaddata questions
+for f in fixtures/figures/*.json; do
+  docker compose run --rm web python manage.py loaddata "$f"
+done
 ```
 
 **Celery not processing ingestion tasks**

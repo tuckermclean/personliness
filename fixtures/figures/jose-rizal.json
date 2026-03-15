@@ -1,0 +1,391 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 120,
+  "fields": {
+    "name": "José Rizal",
+    "slug": "jose-rizal",
+    "bio_short": "José Rizal was a Filipino polymath and national hero whose exceptional creativity (two paradigm-shifting novels), philosophical depth on colonialism, and remarkable existential composure — most famously at his 1896 execution — define his legacy. He combined medicine, art, natural science, and political activism with rare versatility. His embodied-existential scores are among his highest, reflecting hardship tolerance through exile, aesthetic joy across many domains, and profound mortality acceptance. His moral-affective profile is strong on courage but less clearly documented on fallibility du",
+    "bio_long": "José Protasio Rizal Mercado y Alonso Realonda was a Filipino nationalist, writer and polymath active at the end of the Spanish colonial period of the Philippines. He is popularly considered a national hero of the Philippines. An ophthalmologist by profession, Rizal became a writer and a key member of the Filipino Propaganda Movement in the 1880s, which advocated political reforms for the colony under Spain.",
+    "source_notes": "https://en.wikipedia.org/wiki/Jos%C3%A9_Rizal",
+    "image": "figures/330px-Jose_Rizal_full.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Anderson, Benedict. Under Three Flags: Anarchism and the Anti-Colonial Imagination (2005)",
+              "Guerrero, Leon Ma. The First Filipino: A Biography of José Rizal (1963)",
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Rizal strategically used the European novel form to awaken Filipino national consciousness when direct political action was impossible, publishing Noli Me Tangere (1887) in Berlin and El Filibusterismo (1891) in Ghent. He adapted when La Liga Filipina was shut down within days of founding (1892), pivoting to community development in Dapitan exile. However, his decision to return to the Philippines despite warnings and his inability to distance himself from the Katipunan uprising suggest strategic limitations."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Guerrero, Leon Ma. The First Filipino (1963)",
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)",
+              "Craig, Austin. Lineage, Life and Labors of José Rizal (1913)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Noli Me Tangere (1887) and El Filibusterismo (1891) created a clear before/after in Philippine culture — they essentially founded Filipino national literature in the European novel form and became direct catalysts for national awakening and the 1896 Revolution. Rizal's creative range extended to sculpture (his 'The Triumph of Death over Life'), painting, poetry in multiple languages, satirical writing, and natural science (he identified several species, including Draco rizali). This breadth of creative output across domains is rare in any era."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Anderson, Benedict. Under Three Flags (2005)",
+              "Schumacher, John N. The Propaganda Movement, 1880-1895 (1997)",
+              "Rafael, Vicente. The Promise of the Foreign: Nationalism and the Technics of Translation in the Spanish Philippines (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rizal's essay 'The Indolence of the Filipinos' (1890) was a proto-postcolonial analysis showing how colonial systems create the very traits used to justify colonial rule — an insight that anticipated Fanon by decades. His novels offered a sophisticated ethical critique of colonial power structures, religious hypocrisy, and social injustice that influenced anti-colonial thinkers across Southeast Asia, including Sun Yat-sen's associates and Indonesian nationalists. His vision of national identity through education and cultural self-worth rather than violence constituted a distinctive philosophical contribution."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)",
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "In Dapitan exile (1892-1896), Rizal organized a school with innovative pedagogy, designed and built a community water system using bamboo pipes, established a small hospital, and managed an agricultural estate — demonstrating real administrative competence. He founded La Liga Filipina (1892) with a sophisticated organizational structure. However, La Liga was suppressed within days and his administrative creations were local-scale and did not endure beyond his direct oversight, precluding a score of 3."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Rizal-Blumentritt Correspondence (compiled)",
+              "Guerrero, Leon Ma. The First Filipino (1963)",
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rizal demonstrated qualitatively distinct relational behavior across at least six modes: (1) devoted son — extensive loving correspondence with his parents and siblings, especially his mother Teodora; (2) romantic partner — tender letters to Leonor Rivera and devotion to Josephine Bracken; (3) peer friend — deep intellectual friendship with Ferdinand Blumentritt (documented in over 400 letters) and Marcelo del Pilar; (4) teacher/mentor — nurturing pedagogy with Dapitan students; (5) physician-patient — compassionate professional relationships; (6) adversary — dignified engagement with Spanish colonial authorities during his trial; (7) subordinate — working within the Propaganda Movement's collaborative structure."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Guerrero, Leon Ma. The First Filipino (1963)",
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)",
+              "Rizal, José. Letters to various correspondents"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Rizal's relationship with Josephine Bracken in Dapitan (1895-1896) showed genuine devotion — she traveled to Dapitan to be with him, they lived as partners, and he was reportedly devoted to her during their time together. His long correspondence with Leonor Rivera reveals deep emotional engagement and tenderness, though that relationship was ultimately ended by her family's intervention. His multiple romantic relationships (including Segunda Katigbak, Nelly Boustead, O-Sei-San) suggest genuine emotional capacity but also some pattern of serial attachment. Evidence of sustained mutual support through crisis is limited to the brief Josephine relationship."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)",
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Rizal's infant son with Josephine Bracken was stillborn, so direct parental evidence is tragically absent. As a mentor, he was highly effective: he established a school in Dapitan where he taught young boys using progressive methods emphasizing observation and independent thinking rather than rote learning. His students reportedly developed genuine competence. His extensive correspondence with young Filipinos and his nephew served mentoring functions. His novels themselves served as a form of national mentorship, educating an entire generation about their identity and rights."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Anderson, Benedict. Under Three Flags (2005)",
+              "Constantino, Renato. The Philippines: A Past Revisited (1975)",
+              "Rafael, Vicente. The Promise of the Foreign (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Rizal's impact on Philippine national identity is immense — he is the legislated national hero (Republic Act 1425 mandates study of his novels), his execution catalyzed the 1896 Revolution, and his image pervades Philippine culture. His influence extended to anti-colonial movements in Southeast Asia, with documented impact on Indonesian and Vietnamese nationalists. However, his impact has not yet crossed the 500-year threshold and, while significant in Asia, does not clearly operate across multiple civilizations in the way required for a score of 3."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Anderson, Benedict. Under Three Flags (2005)",
+              "Guerrero, Leon Ma. The First Filipino (1963)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Rizal embodies the archetype of the intellectual martyr — the writer-physician who sacrificed his life for his people's freedom. This archetype resonates strongly in Philippine culture and across Southeast Asia. He is recognized internationally as a symbol of anti-colonial resistance, and his story has parallels drawn to figures like Martí, Gandhi, and Mandela. However, his cross-cultural recognition outside the Philippines and Southeast Asian/Latin American anti-colonial traditions remains more limited than that of globally iconic archetypes."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)",
+              "Schumacher, John N. The Propaganda Movement (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Rizal founded La Liga Filipina (1892) with a detailed organizational constitution, but it was suppressed within days of founding. His Dapitan community projects (school, water system, cooperative) demonstrated institution-building skill but were local and did not survive his departure. His more enduring institutional legacy is indirect — his example and writings inspired the Katipunan, the First Philippine Republic, and the subsequent national education system, but he did not directly build institutions that survived two generations with recognizable continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Schumacher, John N. The Propaganda Movement (1997)",
+              "Guerrero, Leon Ma. The First Filipino (1963)",
+              "Constantino, Renato. Veneration Without Understanding (1969)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rizal led across qualitatively different contexts: as the intellectual leader of the Propaganda Movement in Europe (1880s-1890s), coordinating Filipino reformists across Spain, Germany, Belgium, and France; as a community leader in Dapitan exile, organizing schools, medical services, and agricultural projects; and as the symbolic inspiration for the Philippine Revolution of 1896, which Bonifacio's Katipunan explicitly invoked his name to justify. His influence extended from small-group intellectual leadership to mass national mobilization, fulfilling the criterion of leading across crisis and stability contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)",
+              "Rizal, José. Epistolario Rizalino (compiled letters)",
+              "Craig, Austin. Lineage, Life and Labors of José Rizal (1913)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rizal was remarkably engaged with ordinary life even at the height of his fame and during exile: he practiced medicine daily in Dapitan, farmed hemp and fruit, collected butterflies and shells as a naturalist, played chess avidly, sculpted small figurines, sketched and painted, wrote playful letters to his family (especially his nephew), swam and hiked, and raised animals. His extensive personal correspondence reveals humor, domestic concerns, and mundane daily routines. This engagement with everyday life was sustained throughout his career."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Schumacher, John N. The Propaganda Movement, 1880-1895 (1997)",
+              "Guerrero, Leon Ma. The First Filipino (1963)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Rizal's entire career was oriented toward justice — his novels documented colonial abuses, he advocated for Filipino representation in the Spanish Cortes, and he argued for equality before the law. He sacrificed personal comfort and safety repeatedly for these principles. His refusal to endorse the Katipunan's armed revolution, despite the political advantage it might have offered, reflected a principled commitment to his belief that Filipinos needed further preparation. However, the specific criterion of ruling against personal or group interest in an adjudicative sense is less precisely documented."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Guerrero, Leon Ma. The First Filipino (1963)",
+              "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Rizal provided free ophthalmological care to impoverished patients in Dapitan, including cataract surgeries for those who could not pay. His novels demonstrate deep empathy for the suffering of ordinary Filipinos — characters like Sisa in Noli Me Tangere represent the human cost of colonial oppression with genuine feeling. He showed kindness to his Dapitan neighbors regardless of social status. However, specific documented acts of compassion toward outright adversaries (Spanish authorities, friars) are limited, though he did not advocate hatred of Spaniards as a people."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Guerrero, Leon Ma. The First Filipino (1963)",
+              "Ocampo, Ambeth. Meaning and History: The Rizal Lectures (2011)",
+              "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rizal displayed sustained courage across multiple high-stakes situations: publishing novels directly attacking the Spanish colonial system and the Catholic friars while knowing this endangered his family; returning to the Philippines in 1892 despite warnings from friends; maintaining his intellectual and reform commitments throughout four years of exile in Dapitan; and facing his execution by firing squad on December 30, 1896, with documented composure, walking calmly to the field of Bagumbayan. His courage was not a single dramatic act but a sustained pattern over more than a decade."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Bonoan, Raul J. The Rizal-Pastells Correspondence (1994)",
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)",
+              "De la Costa, Horacio. The Trial of Rizal (1961)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The hagiographic tradition surrounding Rizal as Philippine national hero has substantially sanitized his record, making it difficult to identify clear instances of acknowledged error and behavioral change. His alleged retraction of Masonic ties and anti-Catholic writings before execution is one of the most contested documents in Philippine history, with scholars divided on its authenticity. There is some evidence of evolving views — his position shifted between Noli and Fili regarding the possibility of reform — but explicit self-correction is poorly documented. Per the rubric, figures whose traditions sanitize them are capped at 1 unless independent evidence exists."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Guerrero, Leon Ma. The First Filipino (1963)",
+              "Rizal, José. Epistolario Rizalino",
+              "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rizal functioned effectively across multiple qualitatively different forms of adversity: material deprivation as a student in Europe (documented financial struggles in his letters from Madrid and Berlin); political persecution and exile in Dapitan (1892-1896); personal bereavement including the loss of his infant son with Josephine Bracken; the forced separation from Leonor Rivera; the harassment and displacement of his entire family from Calamba by the Dominican friars (1891); and the constant threat of execution. Throughout all of these, he remained extraordinarily productive."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Anderson, Benedict. Under Three Flags (2005)",
+              "Constantino, Renato. Veneration Without Understanding (1969)",
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rizal inhabited at least four seemingly contradictory roles without fragmenting: (1) healer-physician who catalyzed a violent revolution; (2) devout Catholic who was the Church's fiercest critic in the Philippines; (3) European-educated cosmopolitan who was the supreme Filipino nationalist; (4) advocate of peaceful reform who became the primary inspiration for armed revolution; (5) rigorous scientist-naturalist and romantic poet-novelist. These paradoxes were not sequential phases but often simultaneous, and he maintained coherence across them."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Guerrero, Leon Ma. The First Filipino (1963)",
+              "Ocampo, Ambeth. Meaning and History: The Rizal Lectures (2011)",
+              "De la Costa, Horacio. The Trial of Rizal (1961)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rizal's composure in the face of his own imminent execution on December 30, 1896, is one of the most documented examples of mortality acceptance in modern history. He wrote 'Mi Último Adiós' (My Last Farewell) in his cell the night before — a poem of extraordinary dignity and serenity. Eyewitness accounts describe him walking calmly to Bagumbayan, requesting to face the firing squad (denied), checking his pulse, and turning at the last moment to fall face-up. He also wrote farewell letters to his family with composure and affection."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Guerrero, Leon Ma. The First Filipino (1963)",
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Rizal practiced fencing in Europe (training in Paris and Madrid), was knowledgeable in arnis (Filipino martial arts), hiked extensively in the European Alps and in the Philippines, and was an active swimmer during his Dapitan years. He maintained physical activity into his thirties during exile. His extensive international travel — Philippines to Spain, across Europe, to Japan, Hong Kong, and back — required significant physical stamina for the era. However, no extraordinary physical feats are documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Ocampo, Ambeth. Rizal Without the Overcoat (1990)",
+              "Craig, Austin. Lineage, Life and Labors of José Rizal (1913)",
+              "Rizal, José. Travel diaries and personal correspondence"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rizal's engagement with beauty and play was extensive and non-instrumental: he collected butterflies and shells purely for scientific and aesthetic pleasure during his Dapitan exile; sculpted small figurines including a statuette of Josephine Bracken; painted watercolors and sketches; wrote light verse and humorous letters; played chess regularly (documented correspondence about games); and expressed delight in natural landscapes in his travel diaries. These activities went well beyond political or didactic purposes — they reflected genuine aesthetic joy."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 7.78,
+          "Core_5D_Avg": 8.02,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 9.33
+        }
+      },
+      "figure": "José Rizal",
+      "overall": {
+        "Core_5D_Avg": 8.02,
+        "Overall_Normalized_Equal_Avg": 7.79,
+        "General_Competency_Avg_10scale": 6.67
+      },
+      "summary": "José Rizal was a Filipino polymath and national hero whose exceptional creativity (two paradigm-shifting novels), philosophical depth on colonialism, and remarkable existential composure — most famously at his 1896 execution — define his legacy. He combined medicine, art, natural science, and political activism with rare versatility. His embodied-existential scores are among his highest, reflecting hardship tolerance through exile, aesthetic joy across many domains, and profound mortality acceptance. His moral-affective profile is strong on courage but less clearly documented on fallibility due to hagiographic sources. Heinlein competency breadth is solid, with peaks in medicine, artistic expression, and existential composure.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 2.0,
+          "General_Competency_Avg_10scale": 6.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "While Rizal maintained a household in Dapitan and lived semi-independently during parts of his European sojourn, specific evidence of notable cooking skill is limited. His letters mention meals and food appreciation but do not describe personal culinary accomplishment in detail. Era-normalized, a man of his social class would have had some cooking capacity, but strong evidence is lacking."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Guerrero, Leon Ma. The First Filipino (1963)",
+            "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Rizal trained in both European fencing (documented practice in Madrid and Paris) and Filipino arnis, giving him some combat skill. However, he never engaged in actual armed combat and was philosophically opposed to violent revolution. His competence was at the training level rather than tested in real conflict."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)",
+            "Guerrero, Leon Ma. The First Filipino (1963)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Rizal provided free medical care in Dapitan for four years, including ophthalmological surgeries for impoverished patients. He cared for Josephine Bracken during her pregnancy and was reportedly attentive to his aging mother's eye condition (he operated on her cataracts). His school in Dapitan involved daily care for young students' intellectual and physical development."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Guerrero, Leon Ma. The First Filipino (1963)",
+            "De la Costa, Horacio. The Trial of Rizal (1961)",
+            "Ocampo, Ambeth. Meaning and History: The Rizal Lectures (2011)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Rizal's composure before his execution on December 30, 1896 is among the most documented examples of existential composure in modern history. He spent his final night writing 'Mi Último Adiós,' a serene farewell poem; wrote calm letters to his family; reportedly checked his own pulse before the execution; and walked to Bagumbayan with dignity. His composure during four years of exile, maintaining productivity and equanimity, further supports this score."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Ocampo, Ambeth. Rizal Without the Overcoat (1990)",
+            "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Rizal was a practiced sculptor who carved figurines in wood and clay, worked with his hands on construction projects in Dapitan, and fabricated components for his water system. His letters describe hands-on repair and fabrication work on his estate. He also crafted a small brick kiln in Dapitan."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Guerrero, Leon Ma. The First Filipino (1963)",
+            "Craig, Austin. Lineage, Life and Labors of José Rizal (1913)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Rizal navigated extensive international travel across multiple continents for his era: from the Philippines to Spain (1882), then across Europe (Germany, France, Belgium, Austria, UK), to Japan, Hong Kong, Singapore, and back to the Philippines. He traveled largely independently, managing routes, accommodations, and cultural navigation in at least eight countries, demonstrating high wayfinding competence for a 19th-century colonial subject."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "In Dapitan, Rizal raised chickens, pigs, and other livestock on his small estate, and managed fishing activities. Some evidence of hands-on animal husbandry exists in his letters, but specific evidence of butchering or processing is limited."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Schumacher, John N. The Propaganda Movement (1997)",
+            "Guerrero, Leon Ma. The First Filipino (1963)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Rizal led the Propaganda Movement and community projects in Dapitan with authority and vision. He also demonstrated followership: working within the collaborative structure of the Propaganda Movement alongside Marcelo del Pilar and Graciano López Jaena, deferring to established authority when he volunteered as a military doctor under Spanish command for Cuba, and accepting the collective decisions of the Filipino expatriate community in Europe even when he disagreed."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)",
+            "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "In Dapitan, Rizal designed and supervised construction of a gravity-fed water system using bamboo pipes to supply the town. He also built structures for his school and home improvements, and designed a relief map of Mindanao. These represent genuine design-and-build capability, though at a community rather than monumental scale."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Schumacher, John N. The Propaganda Movement (1997)",
+            "Guerrero, Leon Ma. The First Filipino (1963)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Rizal coordinated the Propaganda Movement's publication strategy across multiple European cities, managed the logistics of printing and distributing Noli Me Tangere and El Filibusterismo, and organized community projects in Dapitan requiring multi-step planning (water system, school, agricultural estate). He was not a military commander but demonstrated significant planning capability in civilian contexts."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Guerrero, Leon Ma. The First Filipino (1963)",
+            "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Rizal produced two landmark novels (Noli Me Tangere and El Filibusterismo) that founded Filipino national literature; poetry in Spanish, Tagalog, and other languages culminating in 'Mi Último Adiós'; accomplished sculptures including a composite figure of the Rizal family; watercolors and sketches throughout his life; and satirical essays. His artistic output was not merely competent but culturally transformative."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Guerrero, Leon Ma. The First Filipino (1963)",
+            "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Rizal was a licensed physician and trained ophthalmologist who studied under leading European specialists (Otto Becker at Heidelberg, Louis de Wecker in Paris). In Dapitan, he performed cataract surgeries and treated a wide range of conditions, maintaining a busy medical practice for four years. He operated on his own mother's eyes. He volunteered as a military surgeon for Cuba (1896), demonstrating willingness to serve in emergency medical contexts. His medical competence was at the cutting edge for his era and context."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Guerrero, Leon Ma. The First Filipino (1963)",
+            "Craig, Austin. Lineage, Life and Labors of José Rizal (1913)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Rizal completed rigorous medical training at the Universidad Central de Madrid and specialized in ophthalmology at the University of Heidelberg under Otto Becker, requiring substantial analytical and scientific reasoning. He conducted systematic natural history research, classifying specimens and corresponding with European scientists. He performed surveying work for his Dapitan water system project."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)",
+            "Ocampo, Ambeth. Rizal Without the Overcoat (1990)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "In Dapitan, Rizal managed a 16-hectare agricultural estate where he cultivated hemp (abaca), coconuts, cacao, coffee, and fruit trees. He experimented with farming techniques, introduced new crop varieties, and managed the estate productively enough to sustain himself financially. His letters discuss crop yields and agricultural management in practical detail."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Zaide, Gregorio F. José Rizal: Life, Works, and Writings (1984)",
+            "Guerrero, Leon Ma. The First Filipino (1963)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Rizal designed a gravity-fed water system in Dapitan using engineering principles and available materials, practiced state-of-the-art ophthalmological surgery, and engaged with the scientific technologies of his era (microscopy for natural history, modern printing for his publications). He applied systematic problem-solving to community infrastructure, medical practice, and agricultural management."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.02,
+    "general_competency_avg_0_10": 6.67,
+    "overall_normalized_equal_avg_0_10": 7.79,
+    "created_at": "2026-03-15T21:11:52.868Z",
+    "updated_at": "2026-03-15T21:11:52.871Z"
+  }
+}
+]

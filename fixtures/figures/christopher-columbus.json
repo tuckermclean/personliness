@@ -1,0 +1,392 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 101,
+  "fields": {
+    "name": "Christopher Columbus",
+    "slug": "christopher-columbus",
+    "bio_short": "Columbus was a supremely skilled navigator and tenacious explorer whose four Atlantic voyages (1492–1504) triggered the most consequential geographic paradigm shift in modern history. His courage, hardship tolerance, and wayfinding ability were exceptional. However, he was a catastrophically poor administrator and governor, showed negligible compassion or justice toward indigenous peoples, and demonstrated no meaningful moral growth. His relational life was thin — he abandoned a partner and was frequently absent from his sons. Core 5D Avg ≈ 4.79/10; Heinlein Competency ≈ 3.78/10; Overall ≈ 4.6",
+    "bio_long": "Christopher Columbus was an Italian explorer and navigator from the Republic of Genoa who completed four Spanish-based voyages across the Atlantic Ocean sponsored by the Catholic Monarchs, opening the way for the widespread European exploration and colonization of the Americas. His expeditions were the first known European contact with the Caribbean and Central and South America.",
+    "source_notes": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+    "image": "figures/330px-Portrait_of_a_Man2C_Said_to_be_Christopher_Columbus.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Morison, Admiral of the Ocean Sea (1942)",
+              "Fernández-Armesto, Columbus (1991)",
+              "Phillips & Phillips, The Worlds of Christopher Columbus (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Columbus adapted his Atlantic route across four voyages, exploiting trade winds westward and westerlies eastward — a practical navigational strategy that proved durable. During the first voyage, he managed a near-mutiny by negotiating a deadline with his crew and altering course based on bird-flight observations. However, his strategic failures as governor of Hispaniola — leading to revolts and his arrest by Bobadilla in 1500 — demonstrate significant limits when plans required political rather than nautical adaptation."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Morison, Admiral of the Ocean Sea (1942)",
+              "Fernández-Armesto, Columbus (1991)",
+              "Sale, The Conquest of Paradise (1990)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Columbus's 'Enterprise of the Indies' — sailing west to reach Asia — was not wholly original (Toscanelli had proposed it), but Columbus uniquely combined the concept with practical execution, identifying the specific Atlantic wind circuit that made regular transatlantic sailing viable. His voyages opened an entirely new geographic reality for European civilization. However, Columbus himself never recognized he had found new continents, insisting until death he had reached Asia; the conceptual paradigm shift of a 'New World' was articulated by others, notably Amerigo Vespucci."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Columbus, Libro de las Profecías (c. 1501–02; ed. Delno West & August Kling, 1991)",
+              "Las Casas, Historia de las Indias",
+              "Fernández-Armesto, Columbus (1991)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Columbus's Libro de las Profecías (Book of Prophecies, c. 1501–1502) compiled scriptural passages to argue his voyages fulfilled divine prophecy, but this was derivative millenarian theology, not original philosophical contribution. His ethical reasoning about indigenous peoples was poor even by contemporary standards — Bartolomé de las Casas, writing within the same generation, articulated far more sophisticated moral arguments about indigenous rights. Columbus's ideas did not influence thinkers beyond his immediate circle."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Bergreen, Columbus: The Four Voyages (2011)",
+              "Phillips & Phillips, The Worlds of Christopher Columbus (1992)",
+              "Varela (ed.), Cristóbal Colón: Textos y documentos completos"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Columbus successfully negotiated the Capitulations of Santa Fe (1492), securing remarkably favorable terms from the Spanish crown — titles, governance rights, and revenue shares. However, his actual governance of Hispaniola was disastrous: the settlement of La Isabela collapsed, colonists revolted, and his administration of forced tribute and labor was so mismanaged that Francisco de Bobadilla arrested him in 1500 and sent him back to Spain in chains. No enduring administrative system is attributable to his design."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Morison, Admiral of the Ocean Sea (1942)",
+              "Bergreen, Columbus: The Four Voyages (2011)",
+              "Phillips & Phillips, The Worlds of Christopher Columbus (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Columbus operated across several relational modes: subordinate to the Catholic Monarchs (effective courtier and petitioner for years), commander of crews (authoritative but sometimes tyrannical), father (to Diego and Fernando), partner (to Filipa and Beatriz), negotiator with indigenous leaders (though exploitatively), and peer/rival with the Pinzón brothers and other captains. However, many of these relationships followed a single pattern — self-interested assertion of his prerogatives — suggesting limited genuine adaptability across modes. His friendships tended to sour (e.g., the break with the Pinzóns)."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Phillips & Phillips, The Worlds of Christopher Columbus (1992)",
+              "Fernández-Armesto, Columbus (1991)",
+              "Varela (ed.), Cristóbal Colón: Textos y documentos completos"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Columbus married Filipa Moniz Perestrelo (c. 1479), who died around 1485 — too brief and poorly documented to evaluate deeply. He subsequently had a long relationship with Beatriz Enríquez de Arana, mother of his son Fernando (b. 1488), but never married her despite apparent promises. In his will (1506) he directed Diego to provide for her, suggesting some sense of obligation but also guilt. He was frequently absent from both partners due to voyages and court petitions. No evidence of mutual emotional support or partnership during crises."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Fernando Columbus, Historie (c. 1537–39)",
+              "Phillips & Phillips, The Worlds of Christopher Columbus (1992)",
+              "Fernández-Armesto, Columbus (1991)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Columbus's sons Diego and Fernando both achieved distinction — Diego became governor of the Indies, Fernando became a noted scholar and bibliophile who wrote a biography of his father. Columbus took Fernando on the fourth voyage (age 13), exposing him to seamanship. However, Columbus was frequently absent during their formative years, and his primary documented concern for his sons involved securing their inheritance of his titles and privileges. Fernando's biography (Historie) suggests affection but also a fraught legacy. Evidence of mentoring toward genuine autonomy is limited."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Crosby, The Columbian Exchange (1972)",
+              "Fernández-Armesto, Columbus (1991)",
+              "Mann, 1493: Uncovering the New World Columbus Created (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Columbus's voyages initiated the Columbian Exchange — the permanent transfer of crops, animals, diseases, peoples, and ideas between hemispheres — which reshaped global ecology, demographics, economics, and culture in ways still operative today. The colonization of the Americas, the Atlantic slave trade, and the emergence of a truly global economy all trace directly to the contact he initiated. His impact spans every civilization and is still debated more than 500 years later."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Bushman, America Discovers Columbus (1992)",
+              "Fernández-Armesto, Columbus (1991)",
+              "Sale, The Conquest of Paradise (1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Columbus is recognized globally as the archetype of the explorer-discoverer, celebrated in Columbus Day/Día de la Raza observances across the Americas and invoked in cultures far beyond his own. In recent decades he has simultaneously become a counter-archetype — the symbol of colonial violence and indigenous dispossession. This dual archetypal resonance (heroic explorer and colonial oppressor) extends across European, American, Latin American, and indigenous cultures, demonstrating cross-cultural symbolic power."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Phillips & Phillips, The Worlds of Christopher Columbus (1992)",
+              "Fernández-Armesto, Columbus (1991)",
+              "Deagan & Cruxent, Columbus's Outpost Among the Taínos (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Columbus established the first European settlements in the Americas — La Navidad (1492, destroyed within a year), La Isabela (1494, abandoned), and initiated Santo Domingo. However, his settlements were poorly managed and largely failed under his direct oversight. The enduring Spanish colonial institutions in the Americas (encomienda, colonial governance, the Casa de Contratación) were designed and built by successors, not Columbus. His settlements catalyzed but did not constitute institutional continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Morison, Admiral of the Ocean Sea (1942)",
+              "Bergreen, Columbus: The Four Voyages (2011)",
+              "Phillips & Phillips, The Worlds of Christopher Columbus (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Columbus successfully mobilized crews for four Atlantic crossings, managed the crisis of near-mutiny on the first voyage, and maintained sufficient loyalty among core followers (e.g., Diego Méndez, who made the desperate canoe trip from Jamaica to Hispaniola to summon rescue in 1503). However, his colonial governance was marked by revolts from both colonists and indigenous peoples, demonstrating failed leadership in stability contexts. He led effectively in crisis/exploration but not in administration — falling short of the 'qualitatively different contexts' threshold for a 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Morison, Admiral of the Ocean Sea (1942)",
+              "Phillips & Phillips, The Worlds of Christopher Columbus (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Columbus came from a modest Genoese background (his father Domenico was a wool weaver and small trader), and his early life as a working sailor and merchant provides some connection to ordinary experience. However, evidence of mundane, everyday engagement at the height of his career is thin — his journals and letters focus almost entirely on navigation, discovery, and political grievances. There is little documented humor, domestic activity, or informal human engagement after his rise to prominence."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Phillips & Phillips, The Worlds of Christopher Columbus (1992)",
+              "Bergreen, Columbus: The Four Voyages (2011)",
+              "Las Casas, Historia de las Indias"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Columbus's governance was characterized by systematic injustice. He imposed forced labor and gold tribute on indigenous Hispaniola under threat of mutilation. Spanish colonists themselves protested his arbitrary punishments and despotism, leading to the Bobadilla investigation (1500), which documented widespread abuses. There are no known instances of Columbus ruling against his own interest in favor of principle; his governance consistently prioritized personal enrichment and control."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Las Casas, Historia de las Indias",
+              "Columbus, Journal of the First Voyage (Dunn & Kelley ed., 1989)",
+              "Sale, The Conquest of Paradise (1990)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Columbus's journal initially described the Taíno as 'the best people in the world and above all the gentlest,' yet he immediately noted they could be easily subjugated and enslaved. He instituted the encomienda-like tribute system on Hispaniola, shipped hundreds of enslaved indigenous people to Spain, and oversaw punishments including mutilation for those who failed to meet gold quotas. Las Casas documented these abuses extensively. No credible evidence of compassion toward adversaries or outgroup members in action, despite occasional admiring rhetoric."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Morison, Admiral of the Ocean Sea (1942)",
+              "Bergreen, Columbus: The Four Voyages (2011)",
+              "Fernández-Armesto, Columbus (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Columbus demonstrated sustained courage across multiple high-stakes situations spanning decades: he survived a shipwreck off Portugal as a young man (c. 1476), endured roughly seven years of rejection at European courts before securing funding, sailed into entirely unknown Atlantic waters on the first voyage (1492), faced down crew mutiny threats, navigated hurricanes during the fourth voyage (1502), and survived being marooned on Jamaica for over a year (1503–04). This pattern of physical and psychological courage across qualitatively different contexts is exceptional."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Fernández-Armesto, Columbus (1991)",
+              "Columbus, Libro de las Profecías (ed. West & Kling, 1991)",
+              "Sale, The Conquest of Paradise (1990)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Columbus showed no documented moral growth across his career. He continued enslaving indigenous peoples on every voyage, never acknowledged wrongdoing despite mounting criticism, and increasingly retreated into messianic self-justification in his Libro de las Profecías. After his arrest and removal as governor in 1500, he responded not with reflection but with self-pity and demands for restoration of his titles. His treatment of indigenous peoples remained consistent from first contact through his death in 1506."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Fernández-Armesto, Columbus (1991)",
+              "Bergreen, Columbus: The Four Voyages (2011)",
+              "Morison, Admiral of the Ocean Sea (1942)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Columbus functioned effectively across at least three qualitatively different forms of adversity: (1) years of material deprivation and repeated social rejection while seeking patronage at European courts (c. 1484–1492); (2) physical dangers of unknown ocean voyaging including storms, disease, and shipwreck; (3) political humiliation — arrested by Bobadilla in 1500 and shipped to Spain in chains, yet he recovered sufficiently to mount a fourth voyage in 1502; (4) being stranded on Jamaica for over a year (1503–04), during which he organized survival and the canoe rescue mission."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Fernández-Armesto, Columbus (1991)",
+              "Sale, The Conquest of Paradise (1990)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Columbus embodied contradictions — devout Christian and enslaver, visionary explorer and delusional geographer, courageous sailor and tyrannical governor — but there is little evidence he integrated these tensions into a coherent whole. Rather, he compartmentalized: his religious devotion coexisted unreflectively with cruelty, and his geographic genius at sea coexisted with administrative incompetence on land. These read as unresolved contradictions rather than integrated paradoxes."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Fernández-Armesto, Columbus (1991)",
+              "Bergreen, Columbus: The Four Voyages (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Columbus died on May 20, 1506, in Valladolid, having received last rites. However, his final years were consumed by bitter petitions to the crown for restoration of his titles and privileges — his last letter to his son Diego (1505) focused on legal claims. There is no documented composure or philosophical acceptance of death; his last years reflect grievance rather than equanimity. He did display courage when facing death at sea (e.g., during storms), but this is captured under Courage/Resilience."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Morison, Admiral of the Ocean Sea (1942)",
+              "Bergreen, Columbus: The Four Voyages (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Columbus began sailing as a teenager and completed four Atlantic crossings between ages 41 and 51, enduring storms, shipwrecks, and tropical conditions. During the fourth voyage (1502–04), despite suffering from severe gout and eye inflammation that sometimes left him unable to stand, he continued commanding his expedition. He survived being marooned on Jamaica for over a year. However, his physical decline was notable in later voyages, and there is no evidence of exceptional athletic feats — his endurance was sustained but not extraordinary beyond the demands of seamanship."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Columbus, Journal of the First Voyage (Dunn & Kelley ed., 1989)",
+              "Morison, Admiral of the Ocean Sea (1942)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Columbus's journal entries occasionally express genuine wonder at Caribbean landscapes — describing the beauty of harbors, birdsong, and lush vegetation in terms suggesting real aesthetic delight. However, these passages are consistently interwoven with assessments of economic potential (gold, timber, enslaved labor), making it difficult to identify non-instrumental aesthetic engagement. No documented evidence of humor, play, or leisure pursuits."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.0,
+          "Relational": 4.44,
+          "Core_5D_Avg": 4.79,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 2.5,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Christopher Columbus",
+      "overall": {
+        "Core_5D_Avg": 4.79,
+        "Overall_Normalized_Equal_Avg": 4.62,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "Columbus was a supremely skilled navigator and tenacious explorer whose four Atlantic voyages (1492–1504) triggered the most consequential geographic paradigm shift in modern history. His courage, hardship tolerance, and wayfinding ability were exceptional. However, he was a catastrophically poor administrator and governor, showed negligible compassion or justice toward indigenous peoples, and demonstrated no meaningful moral growth. His relational life was thin — he abandoned a partner and was frequently absent from his sons. Core 5D Avg ≈ 4.79/10; Heinlein Competency ≈ 3.78/10; Overall ≈ 4.62/10. A figure of enormous historical impact but deeply lopsided personhood.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence that Columbus personally prepared meals or had notable culinary skills. As ship's captain and later governor, he would have had others prepare his food. His expeditions frequently suffered food shortages, suggesting poor provisioning management rather than culinary resourcefulness."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Morison, Admiral of the Ocean Sea (1942)",
+            "Bergreen, Columbus: The Four Voyages (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Columbus may have participated in naval combat as a young man — Morison argues he was involved in a Genoese naval engagement off Cape St. Vincent (1476), during which his ship sank and he swam to shore. He directed military operations against indigenous resistance on Hispaniola, including the Battle of La Vega Real (1495). However, he was not a trained soldier or military commander; these operations relied heavily on technological superiority (horses, armor, firearms) rather than tactical skill."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Phillips & Phillips, The Worlds of Christopher Columbus (1992)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of Columbus providing sustained emotional or physical care to others. He was frequently absent from his family, left Beatriz Enríquez de Arana unmarried and largely unsupported during his lifetime, and his governance showed no caregiving orientation toward those under his authority. His treatment of indigenous peoples and colonists alike was extractive rather than nurturing."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Fernández-Armesto, Columbus (1991)",
+            "Bergreen, Columbus: The Four Voyages (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Columbus displayed composure under physical danger at sea — weathering storms and the unknown with determination. However, his final years (1504–1506) were marked by bitter grievance over lost titles, self-pitying letters to the crown, and increasing messianic delusion rather than dignified acceptance. He died still pursuing legal claims rather than exhibiting equanimity. His composure under maritime crisis was real but his response to personal decline and mortality was not composed."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Morison, Admiral of the Ocean Sea (1942)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Columbus began sailing as a teenager and would have acquired standard seamanship skills — rope work, sail handling, basic ship repair. During the fourth voyage, his ships were heavily damaged by shipworm (teredo), and his crew had to beach the vessels on Jamaica, suggesting practical familiarity with ship conditions if not personal repair expertise. No specific evidence distinguishes his manual craft skills from those of an ordinary experienced mariner."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Morison, Admiral of the Ocean Sea (1942)",
+            "Fernández-Armesto, Columbus (1991)",
+            "Phillips & Phillips, The Worlds of Christopher Columbus (1992)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Navigation was Columbus's defining practical skill. He was a master of dead-reckoning navigation, successfully crossing the Atlantic eight times. He identified the optimal Atlantic wind circuit (trade winds west, westerlies east) that remained the standard sailing route for centuries. He navigated complex Caribbean archipelagos, charted previously unknown coastlines, and on Jamaica (1504) famously used his knowledge of a predicted lunar eclipse to negotiate with indigenous leaders. His navigational competence relative to his era was exceptional."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Morison, Admiral of the Ocean Sea (1942)",
+            "Crosby, The Columbian Exchange (1972)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a long-distance sailor from youth, Columbus would have had practical knowledge of preserving food stores (salted meat, hardtack) for ocean voyages, standard for era-normalized seamanship. He oversaw the transport of livestock to the Americas on the second voyage (1493), including horses, cattle, and pigs. However, no specific evidence of personal skill in butchering or food processing beyond what any ship captain would oversee."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Morison, Admiral of the Ocean Sea (1942)",
+            "Bergreen, Columbus: The Four Voyages (2011)",
+            "Phillips & Phillips, The Worlds of Christopher Columbus (1992)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Columbus demonstrated effective leadership at sea — managing crews through unknown waters, handling mutiny threats, and inspiring sufficient loyalty for four voyages. He also showed capacity for followership, spending years as a petitioner at the Spanish court, adapting his proposals to royal concerns, and accepting the authority of Isabella and Ferdinand. However, his colonial leadership was tyrannical and ineffective, and his relationships with subordinate captains (e.g., Martín Alonso Pinzón) frequently deteriorated into conflict."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Deagan & Cruxent, Columbus's Outpost Among the Taínos (2002)",
+            "Bergreen, Columbus: The Four Voyages (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Columbus directed the construction of Fort La Navidad from the timbers of the wrecked Santa María (December 1492) and oversaw the founding of La Isabela (1494). However, both settlements were poorly constructed and sited — La Isabela in particular was built in a malarial location with inadequate infrastructure. There is no evidence Columbus personally designed or built structures; he directed others with mediocre results."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Morison, Admiral of the Ocean Sea (1942)",
+            "Bergreen, Columbus: The Four Voyages (2011)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Columbus planned and provisioned four transatlantic expeditions, selecting crews, negotiating with the crown for resources, and managing complex logistics across multiple ships. He adapted routes based on wind patterns and managed crew morale during dangerous crossings. His command at sea was generally effective, including managing the near-mutiny of October 1492. However, his strategic planning for colonization was severely deficient — La Isabela was poorly sited and provisioned."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Columbus, Journal of the First Voyage (Dunn & Kelley ed., 1989)",
+            "Columbus, Libro de las Profecías (ed. West & Kling, 1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Columbus's journals and letters contain passages of vivid descriptive writing, and his Libro de las Profecías is a substantial compilation of religious and literary texts. His first-voyage journal includes evocative landscape descriptions that Las Casas found compelling enough to preserve. However, Columbus was not an artist, poet, or musician, and his writings were primarily instrumental (reports to patrons) rather than creative expression for its own sake."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Bergreen, Columbus: The Four Voyages (2011)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of Columbus providing medical aid or emergency treatment to others. His expeditions suffered from disease (malaria, syphilis, dysentery) with high mortality, and Columbus himself was frequently ill during the later voyages. Medical care on his ships was handled by ship's surgeons, not by Columbus personally."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Morison, Admiral of the Ocean Sea (1942)",
+            "Fernández-Armesto, Columbus (1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Columbus used dead-reckoning calculations for navigation and attempted celestial observations (with mixed success — his latitude readings were often significantly off). His famous miscalculation of Earth's circumference, relying on Marinus of Tyre's inflated Asian landmass, reflects selective rather than rigorous analytical reasoning. He kept dual ship's logs (one accurate, one falsified to reassure crew), showing practical numerical manipulation but not analytical excellence."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Deagan & Cruxent, Columbus's Outpost Among the Taínos (2002)",
+            "Crosby, The Columbian Exchange (1972)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Columbus attempted to establish agricultural colonies on Hispaniola, importing European crops and livestock on the second voyage (1493). However, these agricultural efforts largely failed — colonists at La Isabela preferred gold-seeking to farming, and Columbus did not effectively manage food production, leading to dependency on indigenous tribute and supplies from Spain. He recognized the resource potential of the Caribbean but could not manage it sustainably."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Morison, Admiral of the Ocean Sea (1942)",
+            "Fernández-Armesto, Columbus (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Columbus's identification and exploitation of the Atlantic wind circuit was a genuine technical innovation — using trade winds for the westward crossing and the Gulf Stream/westerlies for return. His use of the predicted February 1504 lunar eclipse to overawe Jamaican indigenous leaders and secure food supplies demonstrates applied technical thinking under pressure. He experimented with celestial navigation techniques (though with limited success). These represent cutting-edge problem-solving for his era."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.79,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 4.62,
+    "created_at": "2026-03-15T08:21:15.151Z",
+    "updated_at": "2026-03-15T08:21:15.154Z"
+  }
+}
+]

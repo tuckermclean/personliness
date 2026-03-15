@@ -1,0 +1,362 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 102,
+  "fields": {
+    "name": "Nikola Tesla",
+    "slug": "nikola-tesla",
+    "bio_short": "A transcendent creative intellect whose revolutionary AC power system and electromagnetic innovations reshaped civilization, paired with catastrophic deficits in business strategy, administration, and relational depth. Tesla's archetype as the misunderstood visionary genius resonates globally, but his inability to build institutions, maintain relationships, or manage resources left him impoverished and isolated. Exceptionally narrow in Heinlein competency—world-class in technical problem-solving and analytical reasoning, near-absent in most practical life skills. A figure of extreme peaks and ",
+    "bio_long": "Nikola Tesla was a Serbian-American engineer, futurist, and inventor. He is known for his contributions to the design of the modern alternating current (AC) electricity supply system.",
+    "source_notes": "https://en.wikipedia.org/wiki/Nikola_Tesla",
+    "image": "figures/330px-Tesla_circa_1890.jpeg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Seifer, Marc. *Wizard: The Life and Times of Nikola Tesla*. Citadel Press, 1996"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tesla showed poor strategic adaptation throughout his career. He tore up his potentially vast royalty contract with Westinghouse, failed to secure sustained funding for Wardenclyffe Tower (which collapsed in 1905–1906), and repeatedly lost control of his own patents and companies. While his choice to partner with Westinghouse over Edison showed some strategic sense, his inability to adapt when business plans failed is well-documented. The War of Currents was won largely by Westinghouse's business strategy, not Tesla's."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Jonnes, Jill. *Empires of Light: Edison, Tesla, Westinghouse, and the Race to Electrify the World*. Random House, 2003"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tesla's polyphase alternating current system constitutes a clear paradigm shift: before Tesla's induction motor patent (1888) and the Westinghouse adoption of AC, Edison's direct current was dominant. After the 1893 World's Columbian Exposition and the 1895 Niagara Falls hydroelectric project, AC became the global standard for electrical distribution. The Tesla coil, rotating magnetic field, and contributions to radio technology represent additional innovations that changed entire fields of engineering."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Tesla, Nikola. 'The Problem of Increasing Human Energy.' Century Magazine, June 1900",
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Tesla's 1900 essay 'The Problem of Increasing Human Energy' in Century Magazine articulated a vision of harnessing natural forces for human advancement, showing some philosophical ambition. However, his later writings included troubling eugenic proposals (1935 Liberty magazine interview advocating sterilization). His philosophical contributions did not meaningfully influence ethicists or philosophers beyond his immediate circle, remaining subordinate to his technical legacy."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Seifer, Marc. *Wizard: The Life and Times of Nikola Tesla*. Citadel Press, 1996",
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Tesla failed to sustain any organization or system beyond his direct personal involvement. His Tesla Electric Company was short-lived; he lost control of his patents repeatedly; Wardenclyffe Tower was abandoned uncompleted due to financial mismanagement and inability to maintain J.P. Morgan's backing. He died in poverty in the New Yorker Hotel, with no enduring business or organizational structure to his name."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tesla inhabited a narrow relational range: friend (Mark Twain, Robert Underwood Johnson), professional rival (Edison), business associate (Westinghouse, J.P. Morgan), employer (to lab assistants), and public figure. However, he lacked spousal, parental, and subordinate relational modes entirely, and his friendships tended toward a singular style of intellectual engagement. He did not demonstrate five qualitatively distinct relational modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Tesla never married and had no documented romantic partnerships. He explicitly stated that celibacy aided his scientific work and described romantic attachment as an impediment to invention. While this was a deliberate choice, it means there is no evidence on which to score spousal or partner quality."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Tesla had no children. He maintained a long working relationship with his secretary George Scherff and various laboratory assistants, but none developed into widely recognized independent innovators under his guidance. He did correspond with younger engineers and inspired many, but there is limited evidence of structured mentoring that produced autonomous competence in specific protégés."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Hughes, Thomas P. *Networks of Power: Electrification in Western Society, 1880-1930*. Johns Hopkins UP, 1983"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tesla's AC polyphase power system is the foundation of the global electrical grid, operational across every civilization on Earth over a century later. The SI unit of magnetic flux density bears his name. His patents on the induction motor, rotating magnetic fields, and high-frequency electrical systems remain foundational to electrical engineering. His influence extends across power generation, radio, robotics, and wireless technology—effects clearly operative well beyond the 500-year threshold in impact trajectory."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tesla has become a cross-cultural archetype of the misunderstood visionary genius—the brilliant inventor who sacrificed wealth for knowledge and was overshadowed by more commercially savvy rivals. This archetype resonates in Serbian national identity, American innovation mythology, global popular culture (films, video games, the Tesla automobile brand), and internet culture. He is recognized as a symbol far beyond the engineering community or Serbian diaspora."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Seifer, Marc. *Wizard: The Life and Times of Nikola Tesla*. Citadel Press, 1996"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Tesla built no enduring institution. His various laboratories were personal workspaces that did not survive him. The Tesla Electric Company was dissolved. Wardenclyffe was abandoned and later demolished. The Tesla Memorial Society and the Tesla Museum in Belgrade were posthumous creations by others, not Tesla's own institution-building."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tesla was a charismatic public figure who could captivate audiences at demonstrations (1893 World's Fair, public lectures) and attracted powerful backers like Westinghouse and J.P. Morgan. However, he worked largely alone, failed to build or sustain teams, and his influence was primarily through his inventions rather than through mobilizing people. He did not lead in qualitatively different contexts—his leadership was confined to the laboratory setting."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981",
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tesla was famously eccentric and disconnected from ordinary life. He never married, lived in hotels for decades (the Waldorf-Astoria, then the New Yorker), had severe obsessive-compulsive behaviors (aversion to pearls, requirement that hotel room numbers be divisible by three), and became increasingly reclusive. His pigeon-feeding is a mundane activity but reflects isolation more than cultural embeddedness. He lacked the everyday relatable qualities of domestic, familial, or communal life."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Tesla's release of the Westinghouse royalty contract could be interpreted as prioritizing fairness over personal gain, but the exact motivations are debated among biographers. There is no strong record of Tesla systematically adjudicating disputes, advocating for justice in public policy, or ruling against his own interest on principle. His primary orientation was toward invention, not justice."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tesla reportedly released George Westinghouse from a royalty contract worth potentially millions (c. 1897) when Westinghouse faced financial ruin—an extraordinary act of generosity toward a business partner. In his later years, he devoted significant time and resources to caring for injured pigeons in New York City parks, showing genuine tenderness toward animals. However, documented compassion toward human adversaries (e.g., Edison) is limited."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Seifer, Marc. *Wizard: The Life and Times of Nikola Tesla*. Citadel Press, 1996"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tesla endured sustained adversity across multiple high-stakes situations: the War of Currents against Edison's well-funded opposition in the early 1890s, the devastating 1895 fire that destroyed his South Fifth Avenue laboratory and years of research, the collapse of the Wardenclyffe project, and decades of financial difficulty. Through each crisis he continued innovating and filing patents, demonstrating consistent resilience rather than a single dramatic moment."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Seifer, Marc. *Wizard: The Life and Times of Nikola Tesla*. Citadel Press, 1996"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Tesla showed limited evidence of acknowledging mistakes or changing positions. He continued to promote Wardenclyffe-style wireless power transmission long after it had proven unfeasible, made increasingly grandiose claims about death rays and communication with Mars, and his eugenic views hardened rather than softened over time (1935 Liberty interview). There is some evidence he regretted the Westinghouse contract decision financially, but no documented moral reversal or growth."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Seifer, Marc. *Wizard: The Life and Times of Nikola Tesla*. Citadel Press, 1996"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tesla endured qualitatively different forms of adversity while maintaining productive function: childhood trauma (witnessing his brother Dane's death), near-fatal illness (cholera), professional betrayal (Edison), catastrophic loss (1895 laboratory fire destroying years of research), financial ruin (Wardenclyffe collapse, loss of patents), and decades of poverty and social isolation in old age. He continued filing patents and writing through most of these periods."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+              "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tesla inhabited several seemingly contradictory roles: theatrical showman yet deeply reclusive hermit; practical engineer who built working systems yet visionary dreamer who proposed unfeasible schemes; extraordinarily generous man (Westinghouse contract) yet someone incapable of sustaining personal relationships; celebrated public intellectual yet impoverished hotel resident. These contradictions were real and sustained, though they often produced dysfunction rather than full integration, suggesting the tensions were lived but not wholly resolved."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Tesla died alone in Room 3327 of the New Yorker Hotel on January 7, 1943, at age 86. While he reportedly maintained his dignity in his final years and continued working, there is limited documented evidence of his specific composure or intentionality in facing his own death. He did not leave philosophical reflections on his mortality comparable to, say, Stoic or religious figures. Evidence is too thin for a higher score."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981",
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Tesla was tall (6'2\") and reportedly worked 18–20 hour days during his productive years in the 1890s, showing significant stamina for sustained intellectual labor. However, he suffered a near-fatal bout of cholera in his youth, experienced a nervous breakdown after his 1895 lab fire, and became physically frail in his later decades. Physical endurance was episodic rather than sustained across life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981",
+              "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tesla's friendship with Mark Twain involved genuinely playful interactions—Twain visited Tesla's laboratory for entertaining demonstrations of electrical phenomena. Tesla was a devoted opera-goer, could recite Goethe's *Faust* from memory, was a meticulous dresser who took aesthetic pleasure in his appearance, and his public demonstrations (e.g., passing electrical current through his own body at lectures) had a theatrical, aesthetic quality that went beyond mere instruction."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 4.17,
+          "Relational": 2.22,
+          "Core_5D_Avg": 4.41,
+          "Cultural-Social": 5.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Nikola Tesla",
+      "overall": {
+        "Core_5D_Avg": 4.41,
+        "Overall_Normalized_Equal_Avg": 4.23,
+        "General_Competency_Avg_10scale": 3.33
+      },
+      "summary": "A transcendent creative intellect whose revolutionary AC power system and electromagnetic innovations reshaped civilization, paired with catastrophic deficits in business strategy, administration, and relational depth. Tesla's archetype as the misunderstood visionary genius resonates globally, but his inability to build institutions, maintain relationships, or manage resources left him impoverished and isolated. Exceptionally narrow in Heinlein competency—world-class in technical problem-solving and analytical reasoning, near-absent in most practical life skills. A figure of extreme peaks and valleys, not rounded personhood.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.0,
+          "General_Competency_Avg_10scale": 3.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Tesla was famous for his fastidious dining habits at Delmonico's restaurant and later at the Waldorf-Astoria, but he was a diner, not a cook. There is no evidence he prepared his own meals. He lived in hotels for the last several decades of his life, relying entirely on restaurant and hotel dining services."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Tesla had no military service, no documented involvement in physical combat, and no training in martial skills. He avoided conscription into the Austro-Hungarian army by fleeing to the mountains and later to Graz. His 'death ray' proposals were theoretical weapons concepts, not evidence of combat competency."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Tesla devoted considerable time to caring for injured pigeons in New York City parks in his later years, reportedly nursing them back to health in his hotel room. However, there is no documented evidence of him providing sustained caregiving to humans—no nursing of family members, no care of children or elderly dependents."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Cheney, Margaret. *Tesla: Man Out of Time*. Simon & Schuster, 1981"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Tesla maintained a degree of dignity in his impoverished final years, continuing to dress well and present himself with pride at the New Yorker Hotel. However, his increasing eccentricity (obsessive pigeon devotion, grandiose claims about death rays, withdrawal from society) suggests compromised composure rather than serene acceptance. He died alone, and there is limited evidence of deliberate existential reflection in his final period."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "In his early career, Tesla worked hands-on with electrical equipment at Edison's laboratory in New York (1884), personally repairing and improving DC generators. He built experimental apparatus in his own laboratories with his own hands, constructing early Tesla coils and AC motor prototypes. His ability to move from conceptual design to physical fabrication was essential to his inventive process."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Tesla traveled between Europe and America and navigated urban environments, but there is no evidence of notable navigation or wayfinding skill. He lived in hotels in Manhattan and traveled by conventional means. No documented journeys requiring special navigational ability."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Tesla ever butchered, processed, or handled animals for food purposes. His interaction with animals was limited to caring for pigeons. His upbringing in rural Smiljan, Croatia may have included some exposure, but this is speculative with no documented evidence."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Tesla demonstrated some capacity for followership when he worked under Edison in 1884, and some capacity for leadership in directing laboratory assistants. However, he famously quit Edison's employ after a dispute over promised compensation, and he struggled to maintain collaborative relationships throughout his career. He was fundamentally a solo operator who neither led teams effectively nor followed others well for sustained periods."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+            "Seifer, Marc. *Wizard: The Life and Times of Nikola Tesla*. Citadel Press, 1996"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Tesla designed and oversaw construction of complex physical structures including his laboratories, the Wardenclyffe Tower facility (a 187-foot transmission tower with 16-pipe underground system), and numerous experimental apparatus. He designed the AC generators for Niagara Falls. While he employed builders, he was deeply involved in design and fabrication specifications for his era's cutting-edge electrical infrastructure."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Tesla could plan complex experimental programs (the sequence of AC motor development, the Niagara Falls installation design), but consistently failed at commanding operations beyond the lab bench. His inability to maintain Wardenclyffe's funding timeline and his poor business planning demonstrate episodic but not consistent strategic command capability."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Tesla was an eloquent writer and public speaker whose lectures and articles (e.g., 'The Problem of Increasing Human Energy,' 1900) displayed literary quality. He could recite poetry from memory, including Goethe's *Faust*. His public demonstrations had theatrical artistry. However, he was not a creator of artistic works as a primary output—his expression was subordinate to his technical mission."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of Tesla providing medical aid or emergency response to humans. His care for injured pigeons represents animal first aid but does not constitute medical competency in the human domain."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Tesla, Nikola. *My Inventions: The Autobiography of Nikola Tesla*. 1919",
+            "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Tesla possessed extraordinary analytical and mathematical abilities. His legendary capacity for mental visualization allowed him to design, build, and test machines entirely in his mind before committing them to physical form—a process he described in detail in his autobiography. His patents for the polyphase AC system, induction motor, and Tesla coil required sophisticated mathematical reasoning about electromagnetic fields, frequency, and resonance at the cutting edge of late 19th-century physics."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of agricultural competency. Though Tesla grew up in the rural village of Smiljan (then Austrian Empire), his family were clergy, and there is no specific evidence he engaged in farming or resource management. His career was entirely urban and industrial."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Carlson, W. Bernard. *Tesla: Inventor of the Electrical Age*. Princeton UP, 2013",
+            "Hughes, Thomas P. *Networks of Power*. Johns Hopkins UP, 1983"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Tesla operated at the absolute cutting edge of electrical engineering in his era. He invented the polyphase AC motor system, the Tesla coil (high-voltage resonant transformer), pioneered wireless energy transmission, developed early radio-controlled devices (the 1898 radio-controlled boat demonstrated at Madison Square Garden), and held over 300 patents. His ability to solve complex electromagnetic problems through mental visualization and then realize them physically was unparalleled among his contemporaries."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.41,
+    "general_competency_avg_0_10": 3.33,
+    "overall_normalized_equal_avg_0_10": 4.23,
+    "created_at": "2026-03-15T08:31:35.506Z",
+    "updated_at": "2026-03-15T08:31:35.509Z"
+  }
+}
+]

@@ -1,0 +1,370 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 103,
+  "fields": {
+    "name": "Plotinus",
+    "slug": "plotinus",
+    "bio_short": "Plotinus scores exceptionally in philosophical insight and creative thinking (founding Neoplatonism), with a vast cross-civilizational impact legacy. His existential composure at death is legendary. However, his deliberate rejection of embodied life depresses scores in relatability, physical domains, and spousal quality. Heinlein competency breadth is narrow: he was a philosopher-teacher-guardian, not a generalist. Core 5D Avg ≈ 5.62/10; Heinlein Avg ≈ 3.11/10; Overall ≈ 5.20/10. His greatness is concentrated in cognitive and cultural-legacy domains, with genuine moral warmth in caregiving but",
+    "bio_long": "Plotinus was a Hellenised Platonist philosopher, born and raised in Roman Egypt. Plotinus is regarded by modern scholarship as the founder of Neoplatonism. His teacher was the self-taught philosopher Ammonius Saccas, who belonged to the Platonic tradition. Historians of the 19th century invented the term \"Neoplatonism\" and applied it to refer to Plotinus and his philosophy, which was vastly influential during late antiquity, the Middle Ages, and the Renaissance. Much of the biographical information about Plotinus comes from Porphyry's preface to his edition of Plotinus' most notable literary work, The Enneads. In his metaphysical writings, Plotinus described three fundamental principles: the One, the Intellect, and the Soul. His works have inspired centuries of pagan, Jewish, Christian, Gnostic, and early Islamic metaphysicians and mystics, including developing precepts that influence mainstream theological concepts within religions, such as his work on duality of the One in two metaphysical states.",
+    "source_notes": "https://en.wikipedia.org/wiki/Plotinus",
+    "image": "figures/330px-Plotinos.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §3 (on Persian expedition)",
+              "Porphyry, Life of Plotinus, §12 (on Platonopolis)",
+              "O'Meara, Platonopolis: Platonic Political Philosophy in Late Antiquity (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Plotinus joined Emperor Gordian III's Persian expedition (243 CE) specifically to encounter Eastern philosophy—a creative but ultimately failed strategy, as Gordian was killed and Plotinus barely escaped to Antioch. His proposal to Emperor Gallienus to build 'Platonopolis' in Campania showed ambition but never materialized due to court opposition. He managed a school for ~25 years, which required practical planning, but no documented cases of successful adaptation when initial plans failed."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Rist, Plotinus: The Road to Reality (1967)",
+              "Dodds, 'The Parmenides of Plato and the Origin of the Neoplatonic One,' Classical Quarterly (1928)",
+              "Gerson, Plotinus (2017)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Plotinus created Neoplatonism, transforming Platonic philosophy into a systematic emanationist metaphysics with a clear hierarchical structure (One → Intellect → Soul → Matter) that constituted a genuine paradigm shift. Before Plotinus, Middle Platonism was eclectic and unsystematic; after him, the emanation framework dominated late ancient philosophy for centuries. His novel integration of Platonic, Aristotelian, and Stoic elements into a unified mystical-philosophical system had no real precedent."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Plotinus, Enneads (esp. V.1, VI.9, I.6, I.8)",
+              "Gerson, ed., The Cambridge Companion to Plotinus (1996)",
+              "Wallis, Neoplatonism (1972)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Plotinus articulated the metaphysical system of the One, Intellect (Nous), and Soul in the Enneads, a framework that profoundly influenced Augustine's Christian theology, Islamic Neoplatonism (via the Theology of Aristotle pseudo-epigraph), Jewish philosophy (Solomon ibn Gabirol), and Renaissance thought (Marsilio Ficino). His treatment of evil as privation (Ennead I.8) and his account of mystical union with the One became paradigmatic across multiple traditions far beyond his own circle."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§7, 9, 12",
+              "Edwards, Neoplatonic Saints: The Lives of Plotinus and Proclus by their Students (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Plotinus maintained a functioning philosophical school in Rome for approximately 25 years (c. 244–270 CE), attracting senators like Castricius Firmus and Rogatianus. He managed the estates and education of orphaned children entrusted to his care. However, the school did not survive as an institution beyond his death in its Roman form, and the Platonopolis legislative project never launched."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§3, 7, 9, 12, 17"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plotinus inhabited multiple relational modes: devoted student (of Ammonius Saccas for 11 years), teacher/mentor (to Porphyry, Amelius, and others), guardian/parent-figure (to orphans), friend (deep bond with Amelius), adviser to the powerful (Gallienus and Salonina), and intellectual adversary (against Gnostics). This represents at least five distinct relational modes. However, the absence of any spousal/partner mode and the limited documentation of subordinate or peer-adversary relationships constrains the score."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §1"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "There is no evidence that Plotinus ever married or had an intimate partner. Porphyry reports he was 'ashamed of being in the body' and there is no mention of romantic relationships in any source. He lived as a celibate philosopher."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§7, 9, 11",
+              "Smith, Porphyry's Place in the Neoplatonic Tradition (1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plotinus served as guardian for orphaned children, overseeing their education and property until they came of age (Porphyry, Life of Plotinus §9). As a teacher, his students Porphyry and Amelius developed into major independent philosophers—Porphyry became one of the most important intellectuals of late antiquity. Plotinus encouraged questions and independent thinking. He also intervened to help Porphyry through a suicidal crisis. However, evidence that his mentoring specifically developed autonomy (rather than talented students naturally flourishing) is limited by the hagiographic source."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Armstrong, ed., Cambridge History of Later Greek and Early Medieval Philosophy (1967)",
+              "Adamson, The Arabic Plotinus (2002)",
+              "Gersh, From Iamblichus to Eriugena (1978)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Plotinus's Neoplatonic framework shaped Augustine's Christian theology (especially the concept of evil as privation and divine illumination), medieval Islamic philosophy (via the Arabic Theology of Aristotle, a paraphrase of Enneads IV–VI), Jewish philosophy (ibn Gabirol, later Kabbalah), Renaissance humanism (Ficino's translations and the Florentine Academy), and modern idealism (Hegel, Schelling). His influence spans over 1,700 years across at least four major civilizational traditions."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Hadot, Plotinus, or The Simplicity of Vision (1993)",
+              "Inge, The Philosophy of Plotinus (1918)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Plotinus embodies the archetype of the otherworldly mystic-philosopher who achieves union with the transcendent while disdaining the material. He is recognized across Christian, Islamic, and secular philosophical traditions as a paradigmatic contemplative. However, his recognition is largely confined to intellectual and religious specialist audiences; he does not have the broad popular archetypal resonance of figures like Socrates, the Buddha, or Confucius."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§2, 12, 20",
+              "Dillon, 'Plotinus at Work on Platonism,' Greece & Rome (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Plotinus's Roman school functioned during his lifetime but did not survive as a recognizable institution beyond his death. Porphyry went to Sicily and later Rome; Amelius went to Apamea. Neoplatonism continued through other schools (Iamblichus in Syria, Proclus in Athens), but these were intellectually descended rather than institutionally continuous with Plotinus's circle. The Platonopolis political project never materialized."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§7, 12",
+              "O'Meara, Platonopolis (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plotinus led a philosophical school in Rome for ~25 years, attracting not only students (Porphyry, Amelius) but Roman senators (Rogatianus reportedly abandoned his property and public duties to live philosophically under Plotinus's influence) and even the attention of Emperor Gallienus and Empress Salonina. He exercised influence across intellectual and political circles. However, his leadership was primarily within one context (philosophical teaching), rather than across qualitatively different contexts such as crisis and stability."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§1, 2, 9"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Plotinus was famously 'ashamed of being in the body' (Porphyry, Life of Plotinus §1), refused to have his portrait painted, declined to celebrate his birthday, and showed disdain for physical existence. While he did engage in mundane guardianship duties (managing orphans' estates, attending to their education), his fundamental orientation was explicitly away from ordinary life and embodied experience, which actively undermines relatability."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §9",
+              "Edwards, Neoplatonic Saints (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Porphyry reports that Plotinus served as arbitrator in disputes and managed orphans' estates with probity, never misappropriating funds (Life of Plotinus §9). However, there are no documented cases of Plotinus ruling against his own personal or group interest in favor of principle, which would be required for a higher score. His justice was administrative and custodial rather than dramatically principled."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§9, 11",
+              "Plotinus, Ennead II.9 ('Against the Gnostics')"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Porphyry reports that Plotinus served as guardian for orphaned children of deceased friends, carefully managing their property and overseeing their education (Life of Plotinus §9). He was reportedly gentle and patient with students, encouraging Porphyry through a period of suicidal despair by persuading him to travel to Sicily for his health. However, documented compassion toward adversaries or outgroup members (required for score 3) is absent; his anti-Gnostic polemics (Ennead II.9) are sharp and dismissive."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§2–3, 23",
+              "Rist, Plotinus: The Road to Reality (1967)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plotinus survived the military disaster of Gordian III's Persian campaign (244 CE), escaping with difficulty to Antioch. He endured a painful and disfiguring terminal illness (possibly tuberculosis or a gastrointestinal condition) in his final years while continuing to write and teach. These represent two qualitatively different high-stakes situations (military danger, terminal illness) faced with continued functioning, though he was not primarily a figure of physical or political courage."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§8, 13",
+              "Hadot, Plotinus, or The Simplicity of Vision (1993)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Porphyry's Life of Plotinus is hagiographic and presents Plotinus as consistently wise and virtuous. There are no documented instances of Plotinus reversing a prior position, accepting correction, or acknowledging a moral mistake. Porphyry does note that Plotinus sometimes revised his philosophical positions after debate (he allowed his writings to be corrected but refused to re-read them himself), but this is intellectual revision, not moral growth. The sanitized nature of the source caps this at 1."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§2–3, 23–24",
+              "Rist, Plotinus: The Road to Reality (1967)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plotinus endured the military disaster of Gordian III's failed Persian campaign (physical danger, displacement) and later a debilitating terminal illness while continuing to compose philosophical treatises. These represent two qualitatively different forms of adversity—military peril and chronic illness—through which he maintained effective intellectual functioning. Porphyry reports he continued writing until close to death."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§9, 12",
+              "Plotinus, Ennead II.9",
+              "Hadot, Plotinus, or The Simplicity of Vision (1993)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plotinus integrated several seemingly contradictory roles: (1) an ascetic mystic who disdained the body yet (2) a practical guardian who managed orphans' estates and attended to their daily welfare; (3) a gentle, patient teacher yet (4) a fierce polemicist against the Gnostics (Ennead II.9). He also combined contemplative withdrawal with political engagement (the Platonopolis proposal). However, the contradictions, while genuine, are somewhat less dramatically paradoxical than those of figures who combined, e.g., violent warfare with peacemaking."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§2, 23",
+              "Edwards, Neoplatonic Saints (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Plotinus's last words, reported by the physician Eustochius who was present, were: 'Try to bring back the god in you to the divine in the All' (Porphyry, Life of Plotinus §2). He faced a painful terminal illness with philosophical composure, withdrawing to Campania and declining to see visitors not out of despair but from a sense of preparation for death. His entire philosophical system prepared for the soul's release from the body, and he enacted this at his death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Porphyry, Life of Plotinus, §§2, 23"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Plotinus survived the physically demanding and dangerous retreat from the failed Persian campaign, making it from Mesopotamia to Antioch under duress. However, he was in poor health for much of his later life, suffering from a painful illness that affected his hands, feet, throat, and eyes. There is no evidence of physical skill or endurance across multiple life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Plotinus, Ennead I.6",
+              "Porphyry, Life of Plotinus, §1",
+              "Hadot, Plotinus, or The Simplicity of Vision (1993)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Plotinus's Ennead I.6 ('On Beauty') is a celebrated philosophical treatment of aesthetic experience, and he clearly valued beauty as a metaphysical principle pointing toward the One. However, this engagement with beauty is philosophically instrumental—it serves as a step in the soul's ascent. Evidence of non-instrumental play, humor, or sensory enjoyment is largely absent; his refusal to celebrate his birthday and his shame at embodiment suggest minimal engagement with joy for its own sake."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 4.44,
+          "Core_5D_Avg": 5.62,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Plotinus",
+      "overall": {
+        "Core_5D_Avg": 5.62,
+        "Overall_Normalized_Equal_Avg": 5.2,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "Plotinus scores exceptionally in philosophical insight and creative thinking (founding Neoplatonism), with a vast cross-civilizational impact legacy. His existential composure at death is legendary. However, his deliberate rejection of embodied life depresses scores in relatability, physical domains, and spousal quality. Heinlein competency breadth is narrow: he was a philosopher-teacher-guardian, not a generalist. Core 5D Avg ≈ 5.62/10; Heinlein Avg ≈ 3.11/10; Overall ≈ 5.20/10. His greatness is concentrated in cognitive and cultural-legacy domains, with genuine moral warmth in caregiving but limited practical versatility.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Porphyry, Life of Plotinus, §§1–2"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of culinary skill. Plotinus was a vegetarian who ate sparingly and showed minimal interest in food. Porphyry notes he sometimes went without eating and was indifferent to meals."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Porphyry, Life of Plotinus, §3"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Although Plotinus accompanied Gordian III's military expedition to Persia, there is no evidence he personally fought or had combat skills. He survived the campaign's disastrous collapse, but his role was as a philosophical observer, not a combatant."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Porphyry, Life of Plotinus, §§9, 11"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Plotinus served as guardian for orphaned children of deceased friends, managing their property and overseeing their education and daily welfare until they came of age (Porphyry, Life of Plotinus §9). He also supported Porphyry through a suicidal crisis, persuading him to travel to Sicily for recovery. This represents sustained, responsible caregiving across both child-rearing and emotional support for adults."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Porphyry, Life of Plotinus, §§2, 22–23",
+            "Edwards, Neoplatonic Saints (2000)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Plotinus's death is one of the most celebrated instances of philosophical composure in antiquity. Facing a painful terminal illness, he withdrew to Campania and died with his last words to Eustochius: 'Try to bring back the god in you to the divine in the All.' His entire philosophical system was oriented toward preparing the soul for separation from the body, and he exemplified this at death. Porphyry also reports that an oracle of Apollo praised Plotinus's soul after death."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Porphyry, Life of Plotinus"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Plotinus engaged in manual crafts, tool-making, or repair. Porphyry's account emphasizes his purely intellectual life and discomfort with the physical world."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Porphyry, Life of Plotinus, §§3"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Plotinus traveled from Egypt to Alexandria (for study), joined Gordian III's expedition eastward toward Persia, fled to Antioch after the campaign's collapse, and eventually traveled to Rome where he settled. These were significant 3rd-century journeys across the Mediterranean and Near East, but there is no evidence he personally navigated; he likely traveled as part of groups or with guides."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Porphyry, Life of Plotinus, §2",
+            "Porphyry, On Abstinence from Killing Animals"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Plotinus was a vegetarian who abstained from meat (Porphyry, Life of Plotinus §2; also Porphyry's own treatise On Abstinence from Animal Food was influenced by Plotinus). There is no evidence he ever processed animals or engaged in butchery."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Porphyry, Life of Plotinus, §§3, 7, 12, 24"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Plotinus led a school for 25 years attracting senators and imperial attention, demonstrating sustained leadership. He also demonstrated followership: he studied under Ammonius Saccas for 11 years as a devoted disciple, and he participated as a follower in Gordian III's military expedition. He cooperated with Porphyry and Amelius in organizing and editing his writings."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Porphyry, Life of Plotinus"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence in any source that Plotinus engaged in building, construction, or physical fabrication of any kind. His Platonopolis was a conceptual proposal, not a construction project he undertook."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Porphyry, Life of Plotinus, §§7, 12",
+            "O'Meara, Platonopolis (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Plotinus organized and maintained a philosophical school in Rome for ~25 years and proposed the ambitious Platonopolis project to Emperor Gallienus. However, the latter never materialized, and managing a philosophical salon, while requiring coordination, is modest compared to military or political command. No evidence of complex operational planning."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Plotinus, Enneads I.6, VI.9",
+            "Porphyry, Life of Plotinus, §§19–20 (Longinus's assessment)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "The Enneads represent a major work of philosophical literature. Ennead I.6 ('On Beauty') and Ennead VI.9 ('On the Good, or the One') are celebrated for their literary as well as philosophical quality. Longinus, the greatest literary critic of the era, praised Plotinus's originality. While primarily philosophical, the Enneads constitute significant cultural expression that shaped aesthetic theory for centuries."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Porphyry, Life of Plotinus, §§2, 11"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of medical knowledge or practice. When Plotinus fell ill, he relied on physicians (the physician Eustochius attended him at death). His philosophical counseling of Porphyry's suicidal crisis is caregiving rather than medical aid."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Plotinus, Ennead VI.6",
+            "Gerson, Plotinus (2017)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Plotinus's philosophical method involved rigorous dialectical and analytical reasoning. He engaged with mathematical concepts influenced by Pythagorean and Platonic traditions, notably in Ennead VI.6 ('On Numbers'). His capacity for sustained logical analysis in metaphysics—tracing chains of emanation, addressing counterarguments systematically—demonstrates high analytical reasoning within his era's context."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Porphyry, Life of Plotinus, §9"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Plotinus managed the estates of orphaned children entrusted to his care, which likely included agricultural properties given the Roman economic context. Porphyry notes he was careful and honest in this management. However, there is no evidence of hands-on agricultural work or resource management beyond financial stewardship."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Porphyry, Life of Plotinus"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of engagement with the technical systems or tools of his era (engineering, mechanics, applied technology). Plotinus's problem-solving was entirely in the philosophical-metaphysical domain, which is scored under Analytical Reasoning."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.62,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 5.2,
+    "created_at": "2026-03-15T08:31:51.366Z",
+    "updated_at": "2026-03-15T08:31:51.369Z"
+  }
+}
+]

@@ -1,0 +1,407 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 109,
+  "fields": {
+    "name": "Muhammad",
+    "slug": "muhammad",
+    "bio_short": "Muhammad scores exceptionally across cognitive and cultural-social dimensions, reflecting his unique synthesis of religious vision, strategic genius, and institution-building that reshaped world civilization. Moral-affective scores are moderated by counterexamples (Banu Qurayza, marital complexity), though sustained courage and Quranic self-correction are well-documented. Embodied-existential scores are strong, reflecting extraordinary hardship tolerance and mortality composure. Heinlein competency breadth is moderate: exceptional in command, leadership, and existential composure, but limited ",
+    "bio_long": "Muhammad was an Arab religious, military and political leader, as well as the founder of Islam. According to Islam, he was the final prophet of God who was divinely inspired to preach and confirm the monotheistic teachings of Adam, Noah, Abraham, Moses, Jesus, and other prophets in Islam. He is believed by Muslims to be the Seal of the Prophets, and along with the Quran, his teachings and normative examples form the basis for Islamic religious belief.",
+    "source_notes": "https://en.wikipedia.org/wiki/Muhammad",
+    "image": "figures/330px-Al-Masjid_AL-Nabawi_Door_jmyy4x8.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Watt, Muhammad at Medina (1956)",
+              "Donner, Muhammad and the Believers (2010)",
+              "Ibn Ishaq/Ibn Hisham, Sirat Rasul Allah"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Muhammad demonstrated repeated successful adaptation when initial plans failed. After failing to convert Meccan elites through preaching (610–622), he pivoted to building alliances in Medina. At the Battle of the Trench (627), he adopted the novel trench-digging strategy when conventional defense of Medina was untenable. Most strikingly, the Treaty of Hudaybiyyah (628) appeared to be a capitulation—his own companions objected—but proved strategically brilliant, leading to the largely bloodless conquest of Mecca two years later. Each case shows adaptation under uncertainty, not merely plans succeeding on first attempt."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Donner, Muhammad and the Believers (2010)",
+              "Watt, Muhammad at Medina (1956)",
+              "Denny, 'Ummah in the Constitution of Medina', JNES (1977)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Muhammad created a demonstrable paradigm shift: the concept of the umma—a community bound by shared faith rather than tribal kinship—was revolutionary in tribal Arabia and fundamentally restructured social organization across the Near East and beyond. The Constitution of Medina (c. 622) innovated a multi-religious political covenant with defined mutual obligations, unprecedented in Arabian practice. The synthesis of Abrahamic monotheism, Arabian cultural forms, and new legal-political structures into a coherent system constituted a clear before/after transformation of Arabian and eventually global civilization."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Watt, Muhammad at Mecca (1953)",
+              "Donner, Muhammad and the Believers (2010)",
+              "Fakhry, Ethical Theories in Islam (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Quran articulates a sophisticated ethical monotheism integrating social justice (zakat as obligatory charity), human equality before God regardless of tribe or race (Farewell Sermon: 'no Arab has superiority over a non-Arab'), and individual moral accountability. These principles influenced thinkers well beyond his own community: Islamic ethics shaped medieval Jewish philosophy (Maimonides engaged with Islamic kalām), Christian scholasticism (Aquinas via Averroes and Avicenna), and cross-civilizational legal traditions. The ethical framework constitutes a coherent system that influenced multiple traditions across centuries."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Watt, Muhammad at Medina (1956)",
+              "Serjeant, 'The Constitution of Medina', Islamic Quarterly (1964)",
+              "Donner, The Early Islamic Conquests (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Constitution of Medina established a multi-community polity with defined legal rights, taxation obligations, and mutual defense commitments. Muhammad instituted the zakat system with specific rates, appointed governors and tax collectors for outlying regions (e.g., Mu'adh ibn Jabal to Yemen), and created judicial procedures. These administrative frameworks survived and expanded through the Rashidun Caliphate and beyond, enduring in evolved form for over a millennium—well beyond his direct oversight, meeting the score-3 threshold."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Watt, Muhammad at Medina (1956)",
+              "Lings, Muhammad: His Life Based on the Earliest Sources (1983)",
+              "Sahih al-Bukhari"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Muhammad demonstrably inhabited at least six distinct relational modes with qualitatively different behavior: spouse (tender with Khadijah and Aisha), parent/grandparent (playful with Hasan and Husayn, protective of Fatimah), mentor/superior (pedagogical with Companions), subordinate (to God/revelation, accepting correction in Surah 80), adversary (strategic and sometimes merciful with Quraysh, sometimes severe with Banu Qurayza), friend (deep personal bond with Abu Bakr, who accompanied him on the Hijra), and host to strangers (receiving tribal delegations from across Arabia in the 'Year of Delegations,' 631). This breadth of relational adaptability across modes meets the score-3 threshold."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Sahih al-Bukhari",
+              "Lings, Muhammad: His Life Based on the Earliest Sources (1983)",
+              "Barlas, Believing Women in Islam (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Muhammad's 25-year monogamous marriage to Khadijah (c. 595–619) is one of history's most celebrated partnerships: she was his employer, proposed to him, became his first supporter at the onset of revelation, and he described her as irreplaceable. He honored her memory so devotedly that Aisha expressed jealousy years later (Bukhari). His relationship with Aisha shows intellectual partnership and emotional intimacy. However, counterexamples moderate the score: the traditional account of Aisha's young age at marriage (Bukhari records age 6/9, though some modern scholars like Barlas dispute this) raises concerns about mutuality; and the sheer number of later marriages (11+) limits depth of attention. Without these concerns: 3. With them: 1–2. Final: 2, weighing the exemplary Khadijah partnership against the complexities of later marriages."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Donner, The Early Islamic Conquests (1981)",
+              "Madelung, The Succession to Muhammad (1997)",
+              "Watt, Muhammad at Medina (1956)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Muhammad's mentees developed genuine autonomy and extraordinary competence: Abu Bakr, Umar, Uthman, and Ali each became independent leaders (the Rashidun Caliphs) who made their own decisions, sometimes diverging from Muhammad's specific practices—Umar notably innovated in governance and jurisprudence. Aisha became a major hadith transmitter and independent legal authority. His adopted son Zayd ibn Harithah became a trusted military commander. His daughter Fatimah is revered as a figure of independent moral authority. This pattern of mentees developing genuine autonomy and competence—not merely obedience—meets the score-3 threshold."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Hart, The 100: A Ranking of the Most Influential Persons in History (1978)",
+              "Hodgson, The Venture of Islam (1974)",
+              "Lapidus, A History of Islamic Societies (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Islam has approximately 1.9 billion adherents across virtually every civilization on earth. Islamic civilization's contributions to science, philosophy, architecture, law, and literature shaped the medieval and modern world across multiple continents. The Arabic language spread as a literary and scholarly lingua franca. Muhammad's impact has been clearly operative for over 1,400 years across African, European, Asian, and now global civilizations, unambiguously meeting the score-3 threshold."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Carlyle, On Heroes, Hero-Worship, and the Heroic in History (1841)",
+              "Khalidi, Images of Muhammad (2009)",
+              "Schimmel, And Muhammad Is His Messenger (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Muhammad is recognized as a symbol and archetype well beyond Islam: Carlyle devoted a lecture to him as 'The Hero as Prophet' in On Heroes (1841); Napoleon reportedly expressed admiration; Dante placed him (controversially) in the Inferno, reflecting his presence in the Western literary imagination. In Islamic mysticism (Sufism), he embodies al-insan al-kamil (the Perfect Human). He serves as a prophet-statesman-warrior archetype recognized cross-culturally, meeting the score-3 requirement of recognition beyond his own tradition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Hodgson, The Venture of Islam, Vol. 1 (1974)",
+              "Donner, The Early Islamic Conquests (1981)",
+              "Lapidus, A History of Islamic Societies (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Muhammad founded the Islamic umma, which not only survived but expanded dramatically after his death, growing from an Arabian polity into a civilization spanning from Iberia to Central Asia within a century. The mosque as religious-civic institution, the caliphate as governance structure, the systems of zakat, hajj, and sharia all trace directly to his founding acts. These institutions have survived over 1,400 years with recognizable continuity—far exceeding the two-generation threshold."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Watt, Muhammad at Medina (1956)",
+              "Donner, Muhammad and the Believers (2010)",
+              "Hodgson, The Venture of Islam, Vol. 1 (1974)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Muhammad led successfully across qualitatively different contexts: a small persecuted religious minority in Mecca (610–622), then a city-state governing diverse populations in Medina (622–630), then a rapidly expanding polity unifying most of Arabia (630–632). He led in crisis (battles of Badr, Uhud, the Trench) and in stability (governance, legislation, diplomacy with tribal delegations). He inspired such intense personal loyalty that the Companions sacrificed wealth, homes, and lives—Abu Bakr gave his entire fortune, Bilal endured torture rather than recant. This range across crisis/stability and small/large-group leadership meets the score-3 threshold."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Sahih al-Bukhari",
+              "Musnad Ahmad",
+              "Lings, Muhammad: His Life Based on the Earliest Sources (1983)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Hadith literature extensively documents Muhammad's engagement in mundane activities at the height of his power: Aisha reported he mended his own sandals, patched his garments, and milked his goats (Bukhari, Ahmad). He played with his grandchildren Hasan and Husayn, letting them climb on his back during prayer. He joked with companions—telling an old woman 'no old women will enter Paradise' (then clarifying God would make them young again). He worked as a shepherd in youth and a merchant before prophethood. This documented engagement with everyday life at the apex of power meets the score-3 threshold."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Watt, Muhammad at Medina (1956)",
+              "Sahih al-Bukhari",
+              "Lecker, The Constitution of Medina (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Muhammad articulated strong impartiality principles—the hadith 'If Fatimah, the daughter of Muhammad, were to steal, I would cut off her hand' (Bukhari) expresses willingness to rule against family. The Constitution of Medina established legal equality among community members. He reportedly adjudicated disputes impartially and established judicial procedures. However, the expulsion and treatment of Medinan Jewish tribes (Banu Qaynuqa, Banu Nadir, Banu Qurayza) raises questions about impartial application of justice across group boundaries. Without these counterexamples: 3. With them given full weight: 1–2, as collective punishment based on tribal affiliation conflicts with impartiality. Final: 2, because while the principles were clearly articulated and often applied, the counterexamples involve serious stakes."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Watt, Muhammad at Medina (1956)",
+              "Lings, Muhammad: His Life Based on the Earliest Sources (1983)",
+              "Ibn Ishaq/Ibn Hisham, Sirat Rasul Allah"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Muhammad showed documented compassion toward adversaries: the general amnesty at the conquest of Mecca (630) pardoned most former persecutors, including Hind bint Utba who had mutilated his uncle Hamza's body. He reportedly wept openly at the death of his infant son Ibrahim and showed tenderness to children and animals. However, the Banu Qurayza incident (627)—execution of male members of the tribe after their alleged betrayal during the Battle of the Trench—is a serious counterexample. Without it: score 3 (amnesty for adversaries clearly meets the threshold). With it given full weight: score 1–2 (collective lethal punishment against a group including non-combatants). Final: 2, because the counterexample involves lethal consequences at high moral stakes, even accounting for the wartime context and era norms of collective tribal punishment."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Watt, Muhammad at Medina (1956)",
+              "Lings, Muhammad: His Life Based on the Earliest Sources (1983)",
+              "Ibn Ishaq/Ibn Hisham, Sirat Rasul Allah"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Muhammad's courage was sustained across multiple high-stakes situations over decades. He endured years of persecution in Mecca including the Hashimite boycott (c. 616–619), physical threats, and social ostracism without abandoning his mission. At Uhud (625), he was wounded in the face (teeth broken, cheek cut) when the battle turned against him, yet rallied his retreating forces. At Hunayn (630), when the Muslim army initially broke and fled, he reportedly stood his ground with a handful of companions. He personally participated in military campaigns from age 54 through his final years."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Quran, Surah 80 ('Abasa')",
+              "Quran, Surah 66 (At-Tahrim)",
+              "Brown, Muhammad: A Very Short Introduction (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Quran preserves divine rebukes of Muhammad, indicating the tradition did not fully sanitize him. Surah 80 ('Abasa) records him being rebuked for frowning at a blind man (Ibn Umm Maktum) who interrupted his conversation with Quraysh leaders; Muhammad subsequently showed the man great respect and appointed him deputy governor of Medina on multiple occasions—demonstrating visible behavioral change. Surah 66 records correction regarding an oath he made to his wives. He also reversed positions on specific practices (e.g., initially forbade visiting graves, later permitted it; changed the qibla from Jerusalem to Mecca). These represent genuine instances of correction and change, preserved within the tradition itself, lifting above the cap-at-1 threshold."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Watt, Muhammad at Mecca (1953)",
+              "Lings, Muhammad: His Life Based on the Earliest Sources (1983)",
+              "Sahih al-Bukhari"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Muhammad functioned effectively across multiple qualitatively different forms of adversity. Material deprivation: Aisha reported months when his household subsisted on dates and water; even as Medina's leader, his home was austere (Bukhari). Personal bereavement: he lost his mother Amina (age 6), grandfather Abd al-Muttalib (age 8), beloved wife Khadijah and protector-uncle Abu Talib in the same year ('Year of Sorrow,' 619), and all his sons in infancy. Social persecution: he endured the Hashimite boycott (c. 616–619), assassination attempts, and exile from Mecca. Through all of these, he continued leading, strategizing, and building community."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Hodgson, The Venture of Islam, Vol. 1 (1974)",
+              "Watt, Muhammad at Medina (1956)",
+              "Schimmel, And Muhammad Is His Messenger (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Muhammad inhabited at least five seemingly contradictory roles without fragmenting: (1) warrior who fought at Badr and Uhud, yet (2) peacemaker who negotiated the Hudaybiyyah treaty and the largely bloodless conquest of Mecca; (3) austere ascetic whose household went hungry, yet (4) political ruler governing all Arabia; (5) mystical visionary receiving divine revelation, yet (6) practical administrator managing taxation, judicial disputes, and military logistics. He was simultaneously an orphan of humble origins and the most powerful figure in Arabia, a family man with domestic tenderness and a commander ordering military operations. This integration is a primary reason he is remembered."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Sahih al-Bukhari",
+              "Lings, Muhammad: His Life Based on the Earliest Sources (1983)",
+              "Watt, Muhammad at Medina (1956)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Muhammad's final illness and death (June 632) are extensively documented. During the Farewell Pilgrimage, he explicitly prepared his community for his death ('I do not know whether I will meet you again after this year'). During his final illness, he continued to give instructions, delegated prayer leadership to Abu Bakr, freed his slaves, and distributed his remaining possessions. He reportedly chose to 'join the highest companion' (i.e., God) when offered recovery, and died with documented composure in Aisha's arms. This represents direct, composed confrontation with imminent personal death, meeting the score-3 threshold."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Watt, Muhammad at Medina (1956)",
+              "Lings, Muhammad: His Life Based on the Earliest Sources (1983)",
+              "Ibn Ishaq/Ibn Hisham, Sirat Rasul Allah"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Muhammad worked as a shepherd and caravan merchant in the harsh Arabian environment through his youth and middle age, demonstrating sustained physical capacity. He personally participated in multiple military campaigns from age 54 onward (Badr, Uhud, Trench, Khaybar, Mecca conquest, Hunayn). At Uhud (625), he sustained facial wounds and continued fighting. However, his health declined significantly in his final years (d. age 62–63), and evidence of physical feats is limited compared to figures whose physicality was defining. The score reflects strong but not exceptional physical endurance across multiple life stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Sahih al-Bukhari",
+              "Sunan Abu Dawud",
+              "Khalidi, Images of Muhammad (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hadith records Muhammad racing with Aisha on multiple occasions (she won the first race; he won a later one), wrestling with companions, and joking freely—telling humorous stories that were not didactic in purpose. He reportedly loved perfume and had a strong aesthetic sensibility regarding cleanliness and appearance. He played with grandchildren Hasan and Husayn in clearly non-instrumental ways. However, Islamic tradition also attributes to him restrictions on certain artistic forms (figurative representation, some music), which complicates a score of 3. The evidence shows genuine play and aesthetic engagement, but within boundaries."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 10.0,
+          "Relational": 8.89,
+          "Core_5D_Avg": 9.01,
+          "Cultural-Social": 10.0,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Muhammad",
+      "overall": {
+        "Core_5D_Avg": 9.01,
+        "Overall_Normalized_Equal_Avg": 8.51,
+        "General_Competency_Avg_10scale": 6.0
+      },
+      "summary": "Muhammad scores exceptionally across cognitive and cultural-social dimensions, reflecting his unique synthesis of religious vision, strategic genius, and institution-building that reshaped world civilization. Moral-affective scores are moderated by counterexamples (Banu Qurayza, marital complexity), though sustained courage and Quranic self-correction are well-documented. Embodied-existential scores are strong, reflecting extraordinary hardship tolerance and mortality composure. Heinlein competency breadth is moderate: exceptional in command, leadership, and existential composure, but limited evidence for manual, culinary, or medical skills. Primary source limitations (hagiographic sira/hadith compiled 150+ years posthumously) cap most confidence at Medium despite robust modern scholarly corroboration of the broad arc of his career.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.8,
+          "General_Competency_Avg_10scale": 6.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Sahih al-Bukhari",
+            "Musnad Ahmad"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Aisha reported that Muhammad served his household and assisted with domestic tasks (Bukhari), which likely included some food preparation. He is reported to have enjoyed specific foods (tharid—a bread-and-meat dish, dates, milk, honey) and expressed preferences suggesting culinary awareness. However, no hadith specifically documents him cooking meals or possessing notable culinary skill. The score reflects minimal evidence of basic domestic food participation rather than demonstrated cooking ability."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Watt, Muhammad at Medina (1956)",
+            "Ibn Ishaq/Ibn Hisham, Sirat Rasul Allah",
+            "Lings, Muhammad: His Life Based on the Earliest Sources (1983)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Muhammad personally fought in multiple engagements: at Badr (624), he participated in the fighting; at Uhud (625), he fought and sustained wounds (broken teeth, facial cuts) while defending his position. At Hunayn (630), he stood his ground when his forces initially fled. He was reportedly skilled with sword and bow. However, his combat career began relatively late in life (age ~54), and his primary military role was as commander rather than individual warrior. Era-normalized for a merchant-turned-leader, this represents solid personal combat capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Sahih al-Bukhari",
+            "Sahih Muslim",
+            "Lings, Muhammad: His Life Based on the Earliest Sources (1983)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Muhammad visited the sick regularly as a communal duty, comforted the dying (documented deathbed visits in hadith), and showed physical tenderness with children—carrying his granddaughter Umama during prayer, and nursing his dying son Ibrahim in his arms. He reportedly attended to the needs of elderly and impoverished community members personally. This represents consistent caregiving behavior, though it was not his primary role."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Sahih al-Bukhari",
+            "Lings, Muhammad: His Life Based on the Earliest Sources (1983)",
+            "Watt, Muhammad at Medina (1956)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Muhammad faced his own imminent death with documented composure and intentionality during his final illness (June 632). He prepared his community through the Farewell Sermon, freed his slaves, distributed remaining possessions, delegated prayer leadership to Abu Bakr, and gave final instructions. He reportedly was offered a choice between recovery and 'joining the highest companion' and chose the latter. Throughout his career, he faced assassination attempts (the night of the Hijra), battlefield danger, and repeated personal losses with equanimity and continued effectiveness. This sustained existential composure meets the score-3 threshold."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Sahih al-Bukhari",
+            "Musnad Ahmad"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Aisha reported that Muhammad mended his own sandals and patched his own garments at home (Bukhari, Ahmad). This demonstrates basic manual repair competence consistent with self-sufficiency in 7th-century Arabia. However, there is no evidence of specialized craftsmanship, tool-making, or mechanical skill. The score reflects basic competence rather than notable skill."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Watt, Muhammad at Mecca (1953)",
+            "Lings, Muhammad: His Life Based on the Earliest Sources (1983)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a merchant, Muhammad traveled caravan routes between Mecca, Syria, and Yemen—requiring navigation across featureless desert terrain using stars, landmarks, and traditional wayfinding knowledge. The Hijra from Mecca to Medina (622) involved deliberately choosing an indirect southern route to evade Quraysh pursuit, demonstrating tactical wayfinding. His military campaigns required knowledge of Arabian geography for route selection and positioning. This represents solid competence for his era, though he employed professional guides (e.g., Abdullah ibn Urayqit for the Hijra)."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Sahih al-Bukhari",
+            "Watt, Muhammad at Mecca (1953)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Muhammad worked as a shepherd in his youth tending his uncle's flocks—an activity requiring animal husbandry skills including feeding, shearing, and basic veterinary care in the Arabian pastoral context. He is reported to have slaughtered sacrificial animals during the Hajj rituals. However, there is no evidence of specialized butchering, tanning, or food processing skill beyond what was routine for a 7th-century Arabian male."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Watt, Muhammad at Medina (1956)",
+            "Donner, Muhammad and the Believers (2010)",
+            "Quran, Surah 42:38 (shura)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Muhammad was an exceptional leader across military, political, and religious domains (see Leadership/Influence above). Crucially, he also demonstrated followership: he accepted divine correction through Quranic revelation (Surah 80), adopted the trench strategy proposed by Salman al-Farisi rather than insisting on his own plan, and took counsel (shura) from companions before major decisions—Abu Bakr's advice at Badr, the companions' preference for fighting outside Medina at Uhud. He thus demonstrated both giving direction effectively and deferring to others when appropriate."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Ibn Ishaq/Ibn Hisham, Sirat Rasul Allah",
+            "Sahih al-Bukhari"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Muhammad personally participated in the construction of the first mosque in Medina (Masjid Quba and Masjid al-Nabawi), reportedly carrying bricks and mud alongside his companions. He also dug alongside his men during the construction of the trench at Khandaq (627). However, there is no evidence of design expertise or specialized building skill; his participation was that of a laborer and leader, not an architect or craftsman."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Watt, Muhammad at Medina (1956)",
+            "Donner, The Early Islamic Conquests (1981)",
+            "Ibn Ishaq/Ibn Hisham, Sirat Rasul Allah"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Muhammad planned and commanded complex multi-front operations: the Battle of Badr (624) involved intelligence gathering, strategic positioning at water sources, and command of 313 men against a larger force. The defense of Medina at the Battle of the Trench (627) required coordinating a massive engineering project with diplomatic disruption of the enemy coalition. The conquest of Mecca (630) coordinated a 10,000-man force with multiple columns approaching simultaneously while maintaining secrecy. He managed political, military, and diplomatic operations simultaneously throughout the Medinan period."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Sells, Approaching the Quran (1999)",
+            "Khalidi, Images of Muhammad (2009)",
+            "Watt, Muhammad at Mecca (1953)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "From a secular scholarly perspective, the Quran emerged through Muhammad and is universally acknowledged as a revolutionary masterpiece of Arabic literary expression—its rhymed prose (saj') created a new literary genre. His sermons and recorded sayings (hadith) demonstrate remarkable rhetorical eloquence; the Farewell Sermon is a masterwork of oratory. He appreciated poetry and patronized poets like Hassan ibn Thabit. However, he did not claim authorship of the Quran (attributing it to God), and his other artistic output is limited. The attribution question prevents a clean 3, but his rhetorical and oratorical abilities were clearly exceptional."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Sahih al-Bukhari",
+            "Perho, The Prophet's Medicine (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Muhammad offered medical recommendations preserved as 'prophetic medicine' (tibb al-nabawi): honey for stomach ailments, cupping (hijama) for various conditions, and black seed as a general remedy. He encouraged seeking medical treatment ('Allah has not created a disease without creating a cure for it'—Bukhari). He reportedly applied basic wound care during battles. However, this represents standard folk medical knowledge for his era rather than specialized healing skill."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Watt, Muhammad at Mecca (1953)",
+            "Quran, Surah 4:11-12",
+            "Sahih al-Bukhari"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Muhammad managed complex commercial operations as a successful merchant for Khadijah, which required accounting, profit calculation, and trade negotiation—skills Khadijah specifically valued in him. He established the zakat system with specific numerical rates (2.5% on wealth, varying rates on livestock and agriculture), and managed the complex division of war spoils (khums system: one-fifth to the state). The Quranic inheritance laws (Surah 4:11–12) involve precise fractional calculations. This represents solid analytical competence, era-normalized."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Watt, Muhammad at Medina (1956)",
+            "Sahih al-Bukhari"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Muhammad managed pastoral resources as a young shepherd. After the conquest of Khaybar (628), he established a sharecropping arrangement with the Jewish inhabitants to continue cultivating the oasis's date palms—showing resource management judgment. He allocated land and water rights in Medina. However, he was not personally involved in cultivation or specialized agricultural practice; his role was administrative rather than hands-on agricultural."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Watt, Muhammad at Medina (1956)",
+            "Donner, Muhammad and the Believers (2010)",
+            "Lecker, The Constitution of Medina (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Muhammad adopted and implemented the trench-digging technology for Medina's defense—a technique unknown in Arabian warfare, imported from Persian practice via Salman al-Farisi. He developed novel social-political systems: the Constitution of Medina as a written multi-community covenant, the zakat collection system, the network of appointed governors and emissaries. He solved the problem of community cohesion across tribal lines through the mu'akhat (brotherhood) system pairing Meccan emigrants with Medinan hosts. These represent systemic problem-solving at the cutting edge of his era's social technology."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 9.01,
+    "general_competency_avg_0_10": 6.0,
+    "overall_normalized_equal_avg_0_10": 8.51,
+    "created_at": "2026-03-15T09:26:12.705Z",
+    "updated_at": "2026-03-15T09:26:12.708Z"
+  }
+}
+]

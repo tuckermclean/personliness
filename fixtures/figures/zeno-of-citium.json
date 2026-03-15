@@ -1,0 +1,363 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 92,
+  "fields": {
+    "name": "Zeno of Citium",
+    "slug": "zeno-of-citium",
+    "bio_short": "Zeno's extraordinary cognitive-philosophical contributions—founding Stoicism, synthesizing Cynic ethics, Megarian logic, and Heraclitean physics into a new paradigm—anchor his legacy. His Cultural-Social impact is immense: the Stoic school endured ~500 years and influenced Roman thought, Christianity, and modern psychology. Embodied-Existential scores reflect austere endurance and remarkable mortality composure (voluntary death), offset by thin evidence for joy or physicality. Relational and practical-competency scores are low, reflecting both his philosophically austere lifestyle and the seve",
+    "bio_long": "Zeno of Citium was a Hellenistic philosopher from Citium, Cyprus. \nHe was the founder of the Stoic school of philosophy, which he taught in Athens from about 300 BC.",
+    "source_notes": "https://en.wikipedia.org/wiki/Zeno_of_Citium",
+    "image": "figures/330px-Paolo_Monti_-_Servizio_fotografico_28Napoli2C_196929_-_BEIC_6353768.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Diogenes Laertius, Lives of Eminent Philosophers, Book VII",
+              "A.A. Long, Hellenistic Philosophy (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zeno pivoted from merchant to philosopher after reportedly losing his fortune in a shipwreck, successfully rebuilding his life in Athens. He strategically studied under Crates the Cynic, Stilpo of Megara, and Polemo of the Academy before synthesizing their approaches into his own school. His choice of the public Stoa Poikile as a teaching venue—rather than private property—was a shrewd move that made his philosophy accessible and symbolically distinct."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "A.A. Long, Hellenistic Philosophy (1986)",
+              "Susanne Bobzien, 'Stoic Logic' in Inwood (ed.), Cambridge Companion to the Stoics (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Zeno created a genuinely novel philosophical synthesis by uniting Cynic ethical radicalism, Megarian logic, and Heraclitean cosmology into a unified system. His tripartite division of philosophy into logic, physics, and ethics became standard for centuries. Before Zeno, these strands were separate traditions; after him, Stoicism was a recognizable paradigm that restructured Hellenistic intellectual life. His propositional logic (developed further by Chrysippus) was a distinct advance over Aristotelian term logic."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "A.A. Long & D.N. Sedley, The Hellenistic Philosophers (1987)",
+              "Brad Inwood (ed.), The Cambridge Companion to the Stoics (2003)",
+              "Diogenes Laertius, Lives VII"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Zeno articulated a comprehensive ethical framework—virtue as the sole good, living in accordance with nature, rational cosmopolitanism—that influenced not only his immediate successors but Cicero, Seneca, Epictetus, Marcus Aurelius, early Christian ethics (particularly the concept of natural law), and modern cognitive behavioral therapy. His Republic envisioned a world-state transcending ethnic and social divisions, anticipating cosmopolitan moral philosophy by millennia."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Diogenes Laertius, Lives VII",
+              "John Sellars, Stoicism (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zeno organized the Stoic school with a clear pedagogical structure and succession plan. The school passed smoothly to Cleanthes and then Chrysippus, maintaining recognizable identity for approximately 500 years. However, the Stoa's institutional structure was more informal than the Academy or Lyceum—Zeno owned no property for it—suggesting his administrative contribution was significant but not the primary reason for the school's longevity."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Diogenes Laertius, Lives VII"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zeno documented relational modes include: student (under Crates, Stilpo, Polemo), teacher/superior (to his students), political advisor (to Antigonus Gonatas via Persaeus), friend (Diogenes Laertius mentions personal friendships), and honored public figure among Athenian citizens. This spans at least four-five distinct modes, though the qualitative distinctiveness of his behavior in each is not richly documented."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Diogenes Laertius, Lives VII"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "There is no credible evidence of a sustained intimate partnership in Zeno's life. Diogenes Laertius mentions he occasionally consorted with courtesans and suggests he had no wife. His Republic discussed eros in philosophical terms, but no personal intimate relationship is documented with sufficient detail to assess quality, mutuality, or emotional depth."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Diogenes Laertius, Lives VII",
+              "A.A. Long & D.N. Sedley, The Hellenistic Philosophers (1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zeno mentored a notable cohort of students including Cleanthes (his successor), Ariston of Chios, Persaeus, and Herillus. Importantly, several of these students developed genuinely independent positions—Ariston rejected Zeno's views on preferred indifferents, demonstrating that Zeno fostered autonomy rather than mere replication. Cleanthes successfully led the school after Zeno's death, indicating competent successor development."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "A.A. Long, Epictetus: A Stoic and Socratic Guide to Life (2002)",
+              "Brad Inwood (ed.), The Cambridge Companion to the Stoics (2003)",
+              "John Sellars, Stoicism (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Stoicism shaped Roman political philosophy (Cicero, Seneca, Marcus Aurelius), natural law theory in Christianity (via the Stoic logos concept), Renaissance humanism (Justus Lipsius's neo-Stoicism), Enlightenment ethics, and modern cognitive behavioral therapy. The word 'stoic' itself has entered dozens of languages as a common adjective. These effects span well over 2,000 years and cross Greco-Roman, Christian, Islamic, and secular Western civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "John Sellars, Stoicism (2006)",
+              "A.A. Long, Hellenistic Philosophy (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zeno embodies the archetype of the philosopher who transforms personal misfortune (shipwreck) into wisdom, and the 'stoic sage' ideal originates with his school. The word 'stoic' is universally recognized across cultures. However, as an individual archetype, Zeno is less iconic than his successors—Marcus Aurelius (philosopher-king) and Epictetus (slave-philosopher) are more widely recognized personal symbols. Zeno's resonance is primarily mediated through the school rather than his personal story."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Brad Inwood (ed.), The Cambridge Companion to the Stoics (2003)",
+              "A.A. Long & D.N. Sedley, The Hellenistic Philosophers (1987)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Stoic school Zeno founded survived for roughly 500 years with recognizable continuity, passing through Cleanthes, Chrysippus, and numerous later heads. It expanded from Athens to Rome and across the Mediterranean, producing major figures in every generation. The school's tripartite curriculum (logic, physics, ethics) and core doctrines remained identifiable from Zeno through Marcus Aurelius, demonstrating institutional continuity far exceeding two generations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Diogenes Laertius, Lives VII",
+              "A.A. Long, Hellenistic Philosophy (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zeno led the Stoic school for approximately 30 years, attracting and retaining dedicated students including Cleanthes, Ariston of Chios, and Persaeus. King Antigonus II Gonatas of Macedon reportedly sought his counsel and sent Persaeus to study with him, demonstrating influence across intellectual and political domains. The Athenians honored him with a golden crown and a public tomb in the Kerameikos, indicating civic leadership recognition beyond his school."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Diogenes Laertius, Lives VII"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diogenes Laertius records that Zeno enjoyed green figs and sunbathing, wore a thin cloak, ate simply, and preferred bread and honey. He reportedly attended dinner parties and could be witty. These mundane, sensory details suggest engagement with ordinary life even as a famous philosopher. He was described as approachable by common Athenians, not cloistered in elite circles."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Diogenes Laertius, Lives VII",
+              "Malcolm Schofield, The Stoic Idea of the City (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zeno placed justice among the four cardinal Stoic virtues and his Republic articulated a vision of universal justice transcending conventional social hierarchies. Diogenes Laertius reports he lived consistently with his own teachings—a form of principled integrity unusual even among philosophers. He reportedly declined Athenian citizenship to avoid offending his native Citium, prioritizing loyalty over personal advantage. However, specific cases of ruling against his own interest are not documented."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Diogenes Laertius, Lives VII",
+              "A.A. Long, 'Zeno's Politics' in Phronesis (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Zeno's Republic envisioned radical cosmopolitan inclusion—abolishing distinctions of ethnicity, gender-based dress codes, and slavery—suggesting deep philosophical concern for human welfare. Diogenes Laertius describes him as modest and approachable. However, specific documented acts of tangible compassion toward adversaries or outgroup members are not recorded in surviving sources; the evidence remains at the level of philosophical principle rather than concrete action."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Diogenes Laertius, Lives VII",
+              "A.A. Long, Hellenistic Philosophy (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zeno endured the loss of his merchant livelihood (the shipwreck tradition) and rebuilt his life as a metic (foreign resident) in Athens—a status carrying social and legal disadvantages. He maintained his philosophical school for roughly 30 years in a competitive intellectual environment, facing criticism from rival schools (Academics, Peripatetics). His austere lifestyle—reportedly wearing thin cloaks year-round—demonstrates sustained physical and moral endurance."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Diogenes Laertius, Lives VII",
+              "John Sellars, Stoicism (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Zeno's intellectual trajectory—from Cynic student to founder of a more systematic and moderate school—shows evolution, and later Stoics were embarrassed by the radical positions in his early Republic, suggesting he may have moderated over time. However, no specific instances of Zeno publicly reversing a position or accepting correction from a student or rival are documented. The hagiographic tendency of Diogenes Laertius likely sanitizes any such episodes."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Diogenes Laertius, Lives VII",
+              "A.A. Long, Hellenistic Philosophy (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zeno endured at least two qualitatively different forms of adversity: material loss (shipwreck destroying his merchant livelihood) and social marginality (decades as a metic/foreign resident in Athens, lacking citizen rights). He maintained productive philosophical activity throughout, founding and leading a school for ~30 years despite these disadvantages. His deliberately austere lifestyle further demonstrates tolerance for deprivation."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Diogenes Laertius, Lives VII",
+              "Malcolm Schofield, The Stoic Idea of the City (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zeno integrated the roles of Phoenician merchant and Greek philosopher, foreign outsider and honored Athenian public figure, and radical Cynic ascetic and systematic school-builder. His philosophical system itself unified seemingly contradictory elements: determinism with ethical agency, cosmopolitanism with civic engagement, and emotional detachment with active virtue. However, evidence for three clearly contradictory life-roles simultaneously inhabited is somewhat thin given source limitations."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Diogenes Laertius, Lives VII",
+              "A.A. Long, Hellenistic Philosophy (1986)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Multiple ancient sources report that Zeno, at approximately age 72, voluntarily ended his life after stumbling and breaking a toe—interpreting the accident as a sign that nature was calling him. Diogenes Laertius records he held his breath or starved himself, dying with deliberate composure. This tradition, whether fully historical or partly legendary, consistently portrays documented composure in the face of one's own imminent death, not merely abstract philosophizing about mortality."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Diogenes Laertius, Lives VII"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Zeno reportedly survived a sea voyage/shipwreck and maintained an austere lifestyle that included wearing only a thin cloak through Athenian winters and eating minimal food. He lived to approximately age 72, notable longevity for the period. However, no specific physical feats or athletic accomplishments are documented; the evidence suggests toughness through deprivation rather than active physical skill."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Diogenes Laertius, Lives VII"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Diogenes Laertius records that Zeno enjoyed figs, sunbathing, and occasionally attended parties. When teased about attending a feast, he reportedly gave a witty reply. However, these are scattered anecdotes rather than sustained evidence of aesthetic engagement. His predominantly ascetic reputation and the paucity of evidence for non-instrumental enjoyment limit this score."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.35,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Zeno of Citium",
+      "overall": {
+        "Core_5D_Avg": 6.35,
+        "Overall_Normalized_Equal_Avg": 5.7,
+        "General_Competency_Avg_10scale": 2.44
+      },
+      "summary": "Zeno's extraordinary cognitive-philosophical contributions—founding Stoicism, synthesizing Cynic ethics, Megarian logic, and Heraclitean physics into a new paradigm—anchor his legacy. His Cultural-Social impact is immense: the Stoic school endured ~500 years and influenced Roman thought, Christianity, and modern psychology. Embodied-Existential scores reflect austere endurance and remarkable mortality composure (voluntary death), offset by thin evidence for joy or physicality. Relational and practical-competency scores are low, reflecting both his philosophically austere lifestyle and the severe limitations of surviving sources. Scores: Cognitive 8.33, Moral-Affective 5.00, Cultural-Social 8.00, Embodied-Existential 6.00, Relational 4.44, Core_5D_Avg 6.35, Heinlein 2.44, Overall 5.70.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.73,
+          "General_Competency_Avg_10scale": 2.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Diogenes Laertius, Lives VII"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "Zeno ate simply—raw food, bread, figs, honey, and occasionally wine—but no source credits him with culinary preparation or skill. His dietary habits suggest minimal interest in cooking rather than competence in it."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of martial training, combat experience, or physical defense skills. Zeno lived as a civilian philosopher in peacetime Athens and no military service or fighting ability is documented."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Diogenes Laertius, Lives VII"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of Zeno providing emotional or physical caregiving across the lifespan. His austere lifestyle and philosophical focus are well-documented, but no anecdotes describe him nursing the sick, comforting the grieving, or tending to dependents in a caregiving capacity."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Diogenes Laertius, Lives VII",
+            "A.A. Long, Hellenistic Philosophy (1986)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Zeno's voluntary death at ~72—reportedly holding his breath or fasting after breaking a toe, interpreting it as nature's summons—is one of antiquity's most iconic examples of facing mortality with deliberate composure. The tradition is consistent across multiple ancient sources. His entire philosophical system was designed to cultivate exactly this quality, and by all accounts he embodied it at the moment of death."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of manual craft, repair, or tool-making ability. Sources describe an intellectual lifestyle with no mention of hands-on fabrication or repair work."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Diogenes Laertius, Lives VII"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Zeno traveled by sea from Citium (Cyprus) to Athens, a significant Mediterranean voyage, and his family background was in merchant trading, which involved maritime navigation. The shipwreck tradition implies direct experience with sea travel. However, no evidence he personally navigated or piloted vessels."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence that Zeno butchered, processed, or managed animals or raw food resources. His diet was reportedly simple (bread, figs, honey), and sources describe consumption rather than preparation or processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Diogenes Laertius, Lives VII",
+            "A.A. Long, Hellenistic Philosophy (1986)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Zeno demonstrated both followership—studying diligently under Crates the Cynic, Stilpo, and Polemo for years before striking out independently—and leadership, directing the Stoic school for ~30 years and earning the deference of Athenian citizens and Macedonian royalty (Antigonus Gonatas). The combination of sustained student-followership and decades of school leadership demonstrates both poles of this competency."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence that Zeno designed or built physical structures. He notably did not even acquire property for his school, teaching instead in a public colonnade. No building or fabrication activities are documented."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Diogenes Laertius, Lives VII"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Zeno planned and sustained a philosophical school for ~30 years, coordinating curriculum and student succession. However, this was a small-scale intellectual operation, not a complex military or civic campaign. No evidence of commanding under acute operational constraints beyond the intellectual sphere."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Diogenes Laertius, Lives VII"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Zeno authored numerous philosophical works, including the Republic, treatises On Life According to Nature, On Passions, and On Duty, among others catalogued by Diogenes Laertius. While these are primarily philosophical rather than literary, they constitute significant cultural-intellectual production. However, he was not noted as a literary stylist, and none of his works survive intact to assess aesthetic quality."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence that Zeno treated injuries, illness, or provided emergency medical care. While Stoic philosophy later engaged with medical theory, no personal medical skill is attributed to Zeno."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Susanne Bobzien, 'Stoic Logic' in Cambridge Companion to the Stoics (2003)",
+            "A.A. Long & D.N. Sedley, The Hellenistic Philosophers (1987)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Zeno's development of Stoic logic—particularly propositional logic with its analysis of conditionals, conjunctions, and disjunctions—represents a significant contribution to formal analytical reasoning, distinct from Aristotelian syllogistic. His merchant background also implies practical numeracy. Chrysippus later elaborated the system, but Zeno laid its foundations."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of agricultural activity or natural resource management. Zeno's background was mercantile and his adult life was spent in urban Athens as a philosopher."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "A.A. Long & D.N. Sedley, The Hellenistic Philosophers (1987)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Zeno's tripartite systematization of philosophy (logic, physics, ethics) into an integrated whole represents sophisticated systemic thinking—the 'cutting-edge technology' of his intellectual era. However, this is entirely in the domain of abstract thought rather than practical technical systems, tools, or engineered solutions."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.35,
+    "general_competency_avg_0_10": 2.44,
+    "overall_normalized_equal_avg_0_10": 5.7,
+    "created_at": "2026-03-15T08:04:48.838Z",
+    "updated_at": "2026-03-15T08:04:48.841Z"
+  }
+}
+]

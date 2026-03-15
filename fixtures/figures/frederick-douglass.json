@@ -1,0 +1,384 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 113,
+  "fields": {
+    "name": "Frederick Douglass",
+    "slug": "frederick-douglass",
+    "bio_short": "Frederick Douglass scores exceptionally across cognitive, moral-affective, and cultural-social dimensions, reflecting his unparalleled role as the 19th century's foremost African-American leader. His strategic genius in navigating abolitionist politics, profound philosophical critiques of American democracy, sustained physical and moral courage from slavery through statesmanship, and extraordinary literary-oratorical creativity place him among history's most complete public figures. Relational scores are strong but tempered by documented marital strain. Heinlein competency breadth is moderate—",
+    "bio_long": "Frederick Douglass was an American social reformer, abolitionist, orator, writer, and statesman. He was the most important leader of the movement for African-American civil rights in the 19th century.",
+    "source_notes": "https://en.wikipedia.org/wiki/Frederick_Douglass",
+    "image": "figures/330px-Frederick_Douglass_28circa_187929_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Blight, David W. *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Oakes, James. *The Radical and the Republican: Frederick Douglass, Abraham Lincoln, and the Triumph of Antislavery Politics* (2007)",
+              "Douglass, Frederick. *Narrative of the Life of Frederick Douglass* (1845)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass repeatedly adapted strategy when initial plans failed: he broke with Garrison's moral-suasion-only approach (c. 1851) after concluding the Constitution could be read as anti-slavery, pivoting to political abolitionism. During the Civil War, he pressed Lincoln on emancipation and Black military service, recognizing that participation in combat would strengthen citizenship claims—leading to his recruitment of soldiers for the 54th and 55th Massachusetts. His own escape from slavery required careful multi-stage planning (borrowing a sailor's papers, navigating rail and ferry routes from Baltimore to New York)."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Stauffer, John, Zoe Trodd, and Celeste-Marie Bernier. *Picturing Frederick Douglass* (2015)",
+              "Douglass, *Narrative of the Life of Frederick Douglass* (1845)",
+              "Andrews, William L. *To Tell a Free Story: The First Century of Afro-American Autobiography* (1986)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass's *Narrative* (1845) helped establish the slave narrative as a major literary-political genre, creating a before/after shift in how American audiences encountered testimony about slavery. He founded and edited *The North Star* (1847), pioneering African-American journalism. He was the most photographed American of the 19th century and wrote lectures theorizing photography's democratic potential ('Pictures and Progress,' 1861), anticipating modern media theory."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Myers, Peter C. *Frederick Douglass: Race and the Rebirth of American Liberalism* (2008)",
+              "Douglass, Frederick. 'What to the Slave Is the Fourth of July?' (1852)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass's 'What to the Slave Is the Fourth of July?' (1852) articulated the contradiction between American democratic ideals and slavery with philosophical rigor that influenced thinkers far beyond his own community and era—it remains a foundational text in political philosophy, critical race theory, and democratic theory. His argument that slavery dehumanized slaveholders as well as the enslaved anticipated later critical thought. His evolving constitutional hermeneutics—arguing the Constitution was an anti-slavery document—shaped American jurisprudential debate."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Fought, Leigh. *Women in the World of Frederick Douglass* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Douglass ran *The North Star* / *Frederick Douglass' Paper* for over a decade (1847–1860), managing subscriptions, finances, and editorial production. He served as U.S. Marshal for D.C. (1877–1881), Recorder of Deeds (1881–1886), and Minister to Haiti (1889–1891). However, his newspapers required ongoing financial support from allies like Gerrit Smith, and his tenure as Minister to Haiti drew criticism over the Môle Saint-Nicolas affair. Systems he built did not endure far beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Oakes, *The Radical and the Republican* (2007)",
+              "Fought, *Women in the World of Frederick Douglass* (2017)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass operated across at least six distinct relational modes with documented behavioral adaptability: as subordinate/enslaved person, as spouse (to both Anna and Helen), as parent, as friend to diverse figures (Garrison, Gerrit Smith, Julia Griffiths, Amy Post), as adversary (breaking with Garrison, confronting slaveholders, debating opponents), as superior/leader (U.S. Marshal, newspaper editor, recruiter), and as advisor to presidents (Lincoln, Grant, Hayes). His behavior in each mode was qualitatively distinct—deferential as enslaved, commanding as editor, diplomatic as statesman."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Fought, Leigh. *Women in the World of Frederick Douglass* (2017)",
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Diedrich, Maria. *Love Across Color Lines: Ottilie Assing and Frederick Douglass* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Douglass's first marriage to Anna Murray Douglass (1838–1882) endured 44 years; Anna was crucial to his escape and managed the household throughout his career. However, his prolonged absences, the growing intellectual distance (Anna was illiterate), and his intense relationship with Ottilie Assing created documented strain. His second marriage to Helen Pitts (1884–1895) appears to have been a genuine intellectual and emotional partnership, despite the controversy it caused. Without the Assing situation and evidence of emotional distance from Anna, this might score higher; with it, the pattern shows commitment but limited emotional availability in the first marriage."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Fought, *Women in the World of Frederick Douglass* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Douglass had five children with Anna. His sons Rosetta, Lewis, Frederick Jr., Charles, and Annie received education and were involved in his work—Lewis and Charles served in the 54th Massachusetts, and sons worked on his newspaper. However, his frequent absences limited direct parental involvement, and some children struggled in adulthood. As a broader mentor, he influenced younger activists and intellectuals, though he could be domineering. His mentees developed genuine competence (e.g., his sons' military service), suggesting moderate rather than exceptional parental quality."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Levine, *The Lives of Frederick Douglass* (2016)",
+              "Davis, David Brion. *Inhuman Bondage: The Rise and Fall of Slavery in the New World* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass's impact on American democratic thought, civil rights, and the global human rights tradition is still clearly operative. His writings and speeches are foundational texts in political philosophy, American studies, and critical race theory. The civil rights movement of the 20th century drew directly on his legacy. His influence extends beyond the U.S. to global anti-colonial and human rights movements. Though only ~130 years have passed, the magnitude and trajectory of his influence are comparable to figures whose impact has endured centuries."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Stauffer, Trodd, and Bernier, *Picturing Frederick Douglass* (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass embodies the archetype of the self-liberated person who becomes the eloquent champion of universal freedom—recognized across cultures as a symbol of resistance to oppression, the power of literacy and self-education, and speaking truth to power. He is invoked as a symbol well beyond African-American or American contexts, in global discussions of human dignity and liberation. His image and words are iconic worldwide."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Fought, *Women in the World of Frederick Douglass* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Douglass founded *The North Star* (1847, later *Frederick Douglass' Paper*) and sustained it for over a decade, creating a major organ of African-American journalism. He helped build the infrastructure of political abolitionism and Black civic participation during Reconstruction. However, his newspapers did not survive his direct involvement, and no discrete institution he founded endured two generations with recognizable continuity. His influence on later institutions (NAACP, civil rights organizations) was ideological rather than organizational."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Oakes, *The Radical and the Republican* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass led effectively across qualitatively different contexts: as an orator mobilizing mass audiences against slavery, as a newspaper editor shaping public opinion, as a wartime advisor to Lincoln pressing for emancipation and Black enlistment, as a recruiter for the 54th Massachusetts regiment, and as a postwar political figure navigating Reconstruction. He exercised leadership in both crisis (Civil War) and institutional settings (government service, journalism)."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Douglass, *Narrative of the Life of Frederick Douglass* (1845)",
+              "Douglass, *My Bondage and My Freedom* (1855)",
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Douglass's autobiographies are rich with mundane, everyday detail—learning to read from neighborhood children, stealing food when hungry, working in shipyards. He played violin throughout his life for personal enjoyment, maintained gardens at Cedar Hill, and was known for warmth and humor with visitors. However, at the height of his fame he was increasingly a public figure operating in elite circles, and evidence of sustained engagement with ordinary domestic life is thinner for his later decades."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Oakes, *The Radical and the Republican* (2007)",
+              "Foner, Philip S. *Frederick Douglass on Women's Rights* (1976)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass's life was defined by justice orientation. He supported the 15th Amendment even when it excluded women—against the wishes of close allies like Elizabeth Cady Stanton and Susan B. Anthony—because he judged Black male suffrage the more urgent moral claim, while continuing to advocate for women's suffrage. He criticized the Republican Party he supported when it abandoned Reconstruction. He opposed colonization schemes that many abolitionists endorsed, insisting on full American citizenship for Black people against expedient compromise."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Douglass, *My Bondage and My Freedom* (1855)",
+              "McFeely, William S. *Frederick Douglass* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass demonstrated compassion toward adversaries and outgroup members: he visited his dying former master Thomas Auld in 1877, extending forgiveness. He was the sole African American to speak at the Seneca Falls Convention (1848), advocating for women's suffrage across racial lines. He championed rights of Chinese immigrants (opposing the Chinese Exclusion Act) and spoke for Native American rights. His autobiographies display deep empathy for fellow enslaved persons, including detailed accounts of others' suffering."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Douglass, *Narrative of the Life of Frederick Douglass* (1845)",
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "McFeely, *Frederick Douglass* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass's courage was sustained across decades and multiple high-stakes contexts: his physical fight against the slave-breaker Edward Covey (c. 1834), his escape from slavery (1838), publishing his *Narrative* (1845) at the risk of recapture, facing a violent mob in Pendleton, Indiana (1843) where his hand was broken, and decades of speaking against slavery in hostile environments. He sent his own sons to fight with the 54th Massachusetts. His courage was not a single moment but a lifelong pattern."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Douglass, *Life and Times of Frederick Douglass* (1881/1892)",
+              "Levine, Robert S. *The Lives of Frederick Douglass* (2016)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Douglass publicly reversed his position on the Constitution's relationship to slavery, breaking with Garrison (c. 1851) and acknowledging that his earlier Garrisonian position was mistaken. He initially opposed John Brown's raid on Harpers Ferry but later grew more sympathetic to armed resistance. He evolved on the question of emigration/colonization over time. His willingness to change is documented but the tradition around him also tends toward hagiography, limiting evidence of private moral struggle."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Douglass, *Life and Times of Frederick Douglass* (1881/1892)",
+              "McFeely, *Frederick Douglass* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass endured qualitatively different forms of severe adversity while maintaining exceptional effectiveness: material deprivation and physical abuse under slavery; family separation (from his mother, siblings); the constant threat of recapture after escape; the death of his daughter Annie while he was abroad in Britain (1860); the arson destruction of his Rochester home (1872) with irreplaceable papers; and pervasive racism throughout his free life. Through all of this, he remained productive and effective."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+              "Levine, *The Lives of Frederick Douglass* (2016)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Douglass inhabited at least three seemingly contradictory roles without fragmentation: formerly enslaved person and respected statesman; self-educated man and one of the era's premier intellectuals; fierce critic of American hypocrisy and devoted American patriot; man of physical action (escaped slavery, fought Covey, recruited soldiers) and man of letters (author, editor, orator); advocate for Black rights who married a white woman and defended interracial marriage; both radical reformer and pragmatic political operative working within the system."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Douglass, *Narrative of the Life of Frederick Douglass* (1845)",
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Douglass repeatedly placed himself in mortal danger with apparent composure—publishing his *Narrative* knowing it risked recapture, facing mobs, sending his sons to war. During the Covey fight he was prepared to die rather than submit. However, his death on February 20, 1895 was sudden (heart attack after attending a women's rights meeting), so there is no documented scene of composure facing imminent, known death. His lifelong willingness to risk death supports a score of 2 but not 3 per the rubric's specific requirement."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Douglass, *Narrative of the Life of Frederick Douglass* (1845)",
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Douglass performed grueling physical labor as an enslaved person in fields and Baltimore shipyards, where he was trained as a caulker. His fight with the slave-breaker Edward Covey (c. 1834) demonstrated physical prowess. He endured the physical demands of extensive lecture tours across the U.S. and Britain for decades. However, evidence of exceptional physical feats across multiple life-stages is limited beyond what his circumstances demanded."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Stauffer, Trodd, and Bernier, *Picturing Frederick Douglass* (2015)",
+              "Blight, *Frederick Douglass: Prophet of Freedom* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Douglass was a lifelong violinist who played for personal enjoyment, not primarily for public performance or political purposes. He wrote lectures on the aesthetics of photography ('Pictures and Progress,' 'Lecture on Pictures,' c. 1861–1865) that engaged with beauty and representation for their own sake. He was known for humor in both private and public settings and maintained gardens at Cedar Hill. The evidence supports genuine non-instrumental aesthetic engagement."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 7.78,
+          "Core_5D_Avg": 8.56,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 9.17,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Frederick Douglass",
+      "overall": {
+        "Core_5D_Avg": 8.56,
+        "Overall_Normalized_Equal_Avg": 8.06,
+        "General_Competency_Avg_10scale": 5.56
+      },
+      "summary": "Frederick Douglass scores exceptionally across cognitive, moral-affective, and cultural-social dimensions, reflecting his unparalleled role as the 19th century's foremost African-American leader. His strategic genius in navigating abolitionist politics, profound philosophical critiques of American democracy, sustained physical and moral courage from slavery through statesmanship, and extraordinary literary-oratorical creativity place him among history's most complete public figures. Relational scores are strong but tempered by documented marital strain. Heinlein competency breadth is moderate—his brilliance was concentrated in intellectual, political, and expressive domains rather than distributed across manual or technical skills. Overall: a towering exemplar of human depth and resilience.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.67,
+          "General_Competency_Avg_10scale": 5.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence documents Douglass's culinary abilities. While he certainly fed himself and may have cooked, no episode, account, or reputation for cooking skill appears in the historical record."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Douglass, *Narrative of the Life of Frederick Douglass* (1845)",
+            "Blight, *Frederick Douglass: Prophet of Freedom* (2018)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Douglass's fight with the slave-breaker Edward Covey (c. 1834) is one of the most famous scenes in American autobiography—he fought Covey to a standstill over roughly two hours and was never beaten again. He defended himself physically during the Pendleton, Indiana mob attack (1843), sustaining a broken hand. These are documented episodes of effective physical combat, though he was not a trained fighter or career combatant."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+            "Douglass, *My Bondage and My Freedom* (1855)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Douglass showed sustained concern for the welfare of fugitive slaves, assisting them through his Rochester home as part of the Underground Railroad. His autobiographies describe comforting fellow enslaved persons during suffering. He provided for his extended family and household throughout his life. However, specific hands-on caregiving evidence (nursing the ill, tending the dying) is limited."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+            "Douglass, *Narrative of the Life of Frederick Douglass* (1845)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Douglass faced mortal threat with sustained dignity and self-control: he published his *Narrative* knowing it could lead to his re-enslavement or death; he spoke before hostile mobs for decades; he endured the Covey fight prepared to die rather than submit; he sent his sons to war. His composure was not a single moment but a decades-long pattern of confronting existential threats with resolution and purpose. His continued activism into his 70s, speaking at a women's rights meeting on the day of his death, embodies existential composure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Douglass, *Narrative of the Life of Frederick Douglass* (1845)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Douglass was a trained and skilled ship caulker, a genuine manual craft requiring precision and physical skill. He describes his training and competence in the Baltimore shipyards in detail in his *Narrative*. This was a real artisan trade, not unskilled labor. However, no evidence of broader repair or craft skills (carpentry, metalwork, etc.) is documented."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Douglass, *Narrative of the Life of Frederick Douglass* (1845)",
+            "Blight, *Frederick Douglass: Prophet of Freedom* (2018)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Douglass successfully navigated his escape route from Baltimore to New York (1838), using trains, ferries, and disguise as a free Black sailor, which required knowledge of routes and transportation systems. He later traveled extensively across the U.S. and to Britain and Ireland. However, navigation was not a documented area of special expertise—he traveled as a passenger, not as a guide or navigator."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Douglass, *Narrative of the Life of Frederick Douglass* (1845)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As an enslaved person on Maryland plantations, Douglass would have had basic exposure to animal husbandry and food processing typical of that context. He describes plantation agricultural life in his autobiographies. However, no specific skill or expertise in butchering, processing, or animal management is documented as a notable competency."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Blight, *Frederick Douglass: Prophet of Freedom* (2018)",
+            "Oakes, *The Radical and the Republican* (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Douglass demonstrated exceptional leadership across multiple contexts: mass oratory, newspaper editorship, wartime recruitment, government service. He also showed capacity for followership—he deferred to Garrison's leadership for nearly a decade before striking out independently, worked within the Republican Party structure accepting its discipline, served under presidential appointment, and cooperated with allies like Gerrit Smith and Julia Griffiths. He could both give and take orders effectively."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Douglass, *Narrative of the Life of Frederick Douglass* (1845)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Douglass was trained as a ship caulker in the Baltimore shipyards of William Gardiner and Walter Price, which involved sealing the seams of wooden ships—a skilled construction trade. However, no evidence documents broader construction or fabrication abilities beyond this single trade, and he left manual labor behind after his escape."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Oakes, *The Radical and the Republican* (2007)",
+            "Blight, *Frederick Douglass: Prophet of Freedom* (2018)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Douglass coordinated complex operations across multiple domains: he planned his own escape from slavery (1838), managed the multi-year operation of newspapers, recruited Black soldiers for the Union Army during the Civil War (54th and 55th Massachusetts), and navigated the complex political landscape of abolitionism, advising Lincoln on strategy. He adapted plans repeatedly when circumstances changed—shifting from moral suasion to political abolitionism, adjusting to Reconstruction's challenges."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Stauffer, Trodd, and Bernier, *Picturing Frederick Douglass* (2015)",
+            "Andrews, *To Tell a Free Story* (1986)",
+            "Blight, *Frederick Douglass: Prophet of Freedom* (2018)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Douglass was one of the greatest orators in American history—his speeches are literary masterworks studied to this day. His three autobiographies (*Narrative*, 1845; *My Bondage and My Freedom*, 1855; *Life and Times*, 1881/1892) are major works of American literature. He was a skilled violinist who played throughout his life. He wrote sophisticated lectures on the aesthetics of photography that constitute early media criticism."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence documents Douglass providing medical aid or emergency medical response. While he likely had exposure to folk remedies common among enslaved communities, no particular competency or notable episode in this domain appears in the historical record."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Blight, *Frederick Douglass: Prophet of Freedom* (2018)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Douglass demonstrated strong analytical reasoning in his writings, speeches, and political arguments—he could dissect legal texts, marshal statistical evidence about slavery's economic effects, and construct rigorous logical arguments. However, no specific mathematical or quantitative expertise is documented beyond what managing a newspaper's accounts required. His analytical skill is better captured under other rubric categories."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Douglass, *Narrative of the Life of Frederick Douglass* (1845)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Douglass worked as a field hand on Maryland plantations during his enslavement, giving him direct experience with agricultural labor. He later maintained gardens at his Cedar Hill estate in Washington, D.C. However, no sophisticated resource management or agricultural innovation is documented as a notable skill."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Stauffer, Trodd, and Bernier, *Picturing Frederick Douglass* (2015)",
+            "Blight, *Frederick Douglass: Prophet of Freedom* (2018)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Douglass operated printing presses and managed newspaper production—the cutting-edge mass communication technology of his era. He understood and wrote about photography's technical and social potential, engaging with the most advanced visual technology available. He also navigated the legal and logistical complexities of the Underground Railroad. These represent competent engagement with contemporary technical systems."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.56,
+    "general_competency_avg_0_10": 5.56,
+    "overall_normalized_equal_avg_0_10": 8.06,
+    "created_at": "2026-03-15T09:49:11.209Z",
+    "updated_at": "2026-03-15T09:49:11.214Z"
+  }
+}
+]

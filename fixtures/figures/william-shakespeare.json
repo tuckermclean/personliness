@@ -1,0 +1,381 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 116,
+  "fields": {
+    "name": "William Shakespeare",
+    "slug": "william-shakespeare",
+    "bio_short": "The supreme literary genius of the English language, Shakespeare scores exceptionally in creative thinking, philosophical insight, impact legacy, and archetype resonance. His cognitive and cultural-social dimensions are strongest, reflecting paradigm-shifting contributions to drama, language, and human self-understanding. Moral-affective scores are moderate: literary empathy is extraordinary but personal evidence of compassion and justice is thin, with grain-hoarding and debt collection as counterpoints. Relational scores are low due to scarce biographical evidence about his marriage and paren",
+    "bio_long": "William Shakespeare was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the \"Bard of Avon\" or simply \"the Bard\". His extant works, including collaborations, consist of some 39 plays, 154 sonnets, 3 long narrative poems and a few other verses, some of uncertain authorship. His plays have been translated into every major living language and are performed more often than those of any other playwright. Shakespeare remains arguably the most influential writer in the English language, and his works continue to be studied and reinterpreted.",
+    "source_notes": "https://en.wikipedia.org/wiki/William_Shakespeare",
+    "image": "figures/330px-William_Shakespeare_by_John_Taylor2C_edited.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Greenblatt, Will in the World (2004)",
+              "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)",
+              "Shapiro, A Year in the Life of William Shakespeare: 1599 (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Shakespeare adapted strategically when plague closures shut theaters in 1592–93 by pivoting to narrative poetry (Venus and Adonis, The Rape of Lucrece), securing patronage from the Earl of Southampton. He became a shareholder in the Lord Chamberlain's Men (~1594), invested in the Globe Theatre (1599), and later helped the company transition to the indoor Blackfriars Theatre (~1608), anticipating shifting audience demographics. He accumulated substantial wealth including New Place in Stratford, demonstrating sustained business acumen across changing circumstances."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Shapiro, A Year in the Life of William Shakespeare: 1599 (2005)",
+              "Crystal, The Stories of English (2004)",
+              "Kermode, Shakespeare's Language (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Shakespeare effected a demonstrable paradigm shift in English literature: he transformed the soliloquy from rhetorical address into interior psychological exploration, invented or popularized over 1,700 English words and countless idioms, and created a model of dramatic characterization (psychologically complex, self-contradictory figures) that became the foundation for the Western literary tradition. English drama before Shakespeare (Kyd, Marlowe) and after him represents a categorical shift in sophistication and ambition."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Bloom, Shakespeare: The Invention of the Human (1998)",
+              "Nussbaum, Love's Knowledge (1990)",
+              "Cavell, Disowning Knowledge in Seven Plays of Shakespeare (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Shakespeare's works articulate profound philosophical insights that have influenced thinkers across centuries and cultures: Hamlet's exploration of consciousness and moral paralysis influenced Hegel, Freud, and Wittgenstein; King Lear's examination of justice and suffering informed Martha Nussbaum's moral philosophy; The Tempest's meditation on power and forgiveness shaped postcolonial thought. Harold Bloom argued Shakespeare 'invented the human' as a literary-philosophical category. His ethical pluralism—giving full voice to Shylock, Caliban, and Prospero alike—represents a paradigm in moral imagination."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Gurr, The Shakespeare Company, 1594–1642 (2004)",
+              "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Shakespeare was never a political administrator or legislator. His administrative role was limited to business management as a shareholder in the King's Men and co-owner of the Globe Theatre. The company was commercially successful and endured, but Shakespeare was one of several shareholders (including Burbage, Heminges, Condell), and there is no evidence he was the primary organizational force. This represents competent but not exceptional administrative skill in a limited domain."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)",
+              "Greenblatt, Will in the World (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shakespeare is documented in several relational modes: husband (to Anne Hathaway), father (to Susanna, Hamnet, Judith), patron-client (to the Earl of Southampton, as evidenced by the dedications of Venus and Adonis and The Rape of Lucrece), business partner (fellow shareholders Burbage, Heminges, Condell), colleague/friend (Ben Jonson, who praised him posthumously with evident warmth), and professional subordinate (to the Master of the Revels, court patrons). This represents at least five documented relational modes with qualitatively distinct behavior, though the personal documentary evidence for how he behaved differently in each role is sparse."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)",
+              "Duncan-Jones, Ungentle Shakespeare (2001)",
+              "Greenblatt, Will in the World (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Shakespeare married Anne Hathaway in 1582 and they remained married until his death in 1616, but he spent most of his career in London while she remained in Stratford. The notorious 'second-best bed' bequest in his will has been debated—it may have been standard legal practice or a slight. The Sonnets suggest intense emotional attachments outside the marriage (the 'Fair Youth' and 'Dark Lady' sequences). There is no documented evidence of mutual support during crisis, emotional availability, or the kind of partnership depth the rubric requires for a higher score."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)",
+              "Bevington, Shakespeare and Biography (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Shakespeare fathered three children—Susanna (1583) and twins Hamnet and Judith (1585)—but was largely absent in London during their formative years. Hamnet died at age 11 (1596). Susanna married the physician John Hall and was described as 'witty above her sex' on her epitaph, suggesting competence, but we cannot attribute this to Shakespeare's parenting. Judith's marriage to Thomas Quiney was troubled. As a mentor to younger playwrights, evidence is thin: he collaborated with John Fletcher late in his career, but there is no documented mentoring relationship showing successors developing genuine autonomy."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Bloom, Shakespeare: The Invention of the Human (1998)",
+              "Taylor, Reinventing Shakespeare (1989)",
+              "Dobson, The Making of the National Poet (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Shakespeare's impact is operative over 400 years later across virtually every civilization. His works have been translated into every major language and are performed more than any other playwright's worldwide. He shaped the English language itself (1,700+ coined words), established the template for Western dramatic characterization, and his works are foundational texts in education globally. His influence extends beyond literature into philosophy (Hegel, Nietzsche), psychology (Freud's use of Hamlet and Lear), political theory, and film. This unambiguously meets the 500-year, multi-civilizational criterion."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Huang, Chinese Shakespeares (2009)",
+              "Trivedi & Bartholomeusz, India's Shakespeare (2005)",
+              "Dobson, The Making of the National Poet (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Shakespeare is the archetype of literary genius across world cultures—the 'Bard' is recognized as a universal symbol of creative achievement. His characters have become archetypes themselves: Hamlet (the melancholy intellectual), Romeo and Juliet (star-crossed lovers), Lady Macbeth (ruthless ambition), Prospero (the magician-ruler), Shylock (the persecuted outsider). These figures are recognized in cultures far beyond England—in Japanese Noh adaptations, Bollywood films, African theatrical traditions, and Chinese translations. His symbolic resonance in non-Western cultures clearly meets the cross-cultural criterion."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Gurr, The Shakespeare Company, 1594–1642 (2004)",
+              "Kastan, Shakespeare and the Book (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Shakespeare co-founded the Globe Theatre (1599) and was a key shareholder in the King's Men. The company continued performing until Parliament closed all theaters in 1642—roughly 26 years after his death, exceeding the two-generation threshold for institutional survival. He also contributed to the institutional model of the shareholder-actor company that became the template for English theatrical organization. However, peers like Burbage and Heminges were equally central to these institutions, and the Folio publication (1623) was organized by Heminges and Condell."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Gurr, The Shakespeare Company, 1594–1642 (2004)",
+              "Shapiro, A Year in the Life of William Shakespeare: 1599 (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Shakespeare was a principal playwright and shareholder of the Lord Chamberlain's Men (later the King's Men), the most prestigious acting company in England, shaping its repertoire from roughly 1594 to 1613. He influenced contemporaries including Jonson, Fletcher, and Beaumont. He led in both the commercial popular theater context (Globe) and the more elite indoor setting (Blackfriars). However, his leadership was cultural and professional rather than political or military, limiting the range of contexts. He was not a public leader or mobilizer of mass movements."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Greenblatt, Will in the World (2004)",
+              "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)",
+              "Duncan-Jones, Ungentle Shakespeare (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shakespeare was the son of a Stratford glove-maker, worked as an actor (a low-status trade), returned to Stratford to live as a country gentleman, and invested in local property and agricultural tithes. His plays reveal intimate knowledge of ordinary life—tavern culture (the Eastcheap scenes in Henry IV), gardening, rural customs, and trades. Ben Jonson described his 'gentle' temperament. However, direct personal documentation of everyday activities is scarce—we have no letters, no diary, and most evidence of his mundane life comes from legal and property records rather than warm personal accounts."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Duncan-Jones, Ungentle Shakespeare (2001)",
+              "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)",
+              "Bearman, 'Shakespeare's Purchase of New Place' in Shakespeare Quarterly (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Shakespeare's plays grapple profoundly with justice (Measure for Measure, The Merchant of Venice, King Lear), but personal evidence of justice orientation is weak or negative. He was listed among Stratford grain hoarders during the 1598 shortage, pursued small debtors legally, was cited as a tax defaulter in London (Bishopsgate), and in the 1614 Welcombe enclosure dispute he secured a private indemnification for his own tithes rather than opposing enclosure alongside affected tenants. No documented cases of ruling against personal interest in favor of principle exist in the biographical record."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Duncan-Jones, Ungentle Shakespeare (2001)",
+              "Greenblatt, Will in the World (2004)",
+              "Shapiro, The Year of Lear (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shakespeare's literary empathy is extraordinary—Shylock's 'Hath not a Jew eyes?' speech, Caliban's complex humanity, and the sympathetic portrayal of the poor in King Lear demonstrate empathy across religious, racial, and class lines. However, personal evidence is mixed: he sued Philip Rogers and John Addenbrooke for small debts, and was listed as hoarding 80 bushels of malt during the 1598 Stratford grain shortage. Without the grain-hoarding counterexample, the literary evidence alone might support a higher score; with it, the personal record undercuts the literary generosity. Score remains 2 because the literary empathy reflects genuine imaginative capacity, while the counterexamples concern financial behavior rather than cruelty."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Shapiro, A Year in the Life of William Shakespeare: 1599 (2005)",
+              "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shakespeare endured the death of his 11-year-old son Hamnet in 1596 and continued producing masterworks including The Merchant of Venice and the major tragedies. His company survived the dangerous aftermath of the Essex rebellion (1601) when Richard II was performed the night before the uprising—the company was interrogated but Shakespeare navigated the political fallout. He weathered multiple plague closures (1592–93, 1603–04, 1608–09) that destroyed many contemporaries' livelihoods, adapting each time. This represents resilience across personal, political, and economic adversity."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Schoenbaum, Shakespeare's Lives (1991)",
+              "Greenblatt, Will in the World (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The biographical record offers almost no documented instances of Shakespeare acknowledging mistakes or reversing positions. His literary trajectory does show evolution—from the relatively morally simple early works to the profound explorations of forgiveness in the late romances (The Winter's Tale, The Tempest)—but this is artistic development, not documented personal moral growth. The extreme scarcity of personal documents (no surviving letters, no diary) makes it impossible to assess this trait with confidence. The cap at 1 reflects absence of evidence rather than evidence of absence."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Shapiro, The Year of Lear (2015)",
+              "Greenblatt, Will in the World (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shakespeare endured at least two qualitatively different forms of adversity: the death of his son Hamnet in 1596 (personal bereavement) and repeated, prolonged plague closures that threatened his livelihood (1592–93, 1603–04, 1608–09). Through both, he continued producing work at the highest level—indeed, some of his greatest plays (Hamlet, King Lear, The Tempest) were written in periods marked by personal loss or professional disruption. He also navigated the political danger surrounding the Essex rebellion without apparent collapse."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Greenblatt, Will in the World (2004)",
+              "Duncan-Jones, Ungentle Shakespeare (2001)",
+              "Shell, Shakespeare and Religion (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Shakespeare coherently inhabited at least five seemingly contradictory roles: (1) provincial Stratford gentleman and London theater professional; (2) shrewd, sometimes ruthless businessman (grain hoarding, debt collection) and creator of the most compassionate literature in English; (3) actor in a socially disreputable profession and holder of a gentleman's coat of arms; (4) author of the darkest tragedies (King Lear, Othello) and the lightest comedies (A Midsummer Night's Dream, Twelfth Night); (5) member of a likely Catholic recusant family and outwardly conforming Protestant. He sustained all these without apparent fragmentation across a decades-long career."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Greenblatt, Will in the World (2004)",
+              "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Shakespeare's late works, especially Prospero's 'Our revels now are ended' speech in The Tempest (c. 1611), display profound literary meditation on mortality and relinquishment. He retired to Stratford around 1613, prepared his will carefully, and died on April 23, 1616. However, we have no documented account of his actual deathbed composure or how he faced his final illness. The literary evidence suggests philosophical acceptance, but the rubric requires documented composure in the face of one's own imminent death, which we simply do not have."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Shakespeare was a working actor who performed regularly on stage, which required physical stamina in an era of demanding outdoor performance conditions. He traveled the roughly 100-mile route between Stratford and London repeatedly over two decades. There is no evidence of exceptional physical feats, athletic prowess, or military service. He appears to have been in adequate health until his death at 52, but nothing in the record marks him as physically remarkable among his peers."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Wells, Shakespeare: A Life in Drama (1995)",
+              "Greenblatt, Will in the World (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shakespeare's comedies overflow with non-instrumental delight: A Midsummer Night's Dream's fairy world, the wordplay and songs in Twelfth Night ('O mistress mine'), and the festive celebrations in The Winter's Tale. His Sonnets display intense, personal aesthetic sensibility for beauty. Ben Jonson recorded convivial gatherings with Shakespeare at the Mermaid Tavern. The sheer volume and quality of playful, joyous content in his works strongly suggests genuine aesthetic appreciation, though distinguishing personal disposition from professional output remains inherently difficult with a figure whose biography is so sparsely documented."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.19,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "William Shakespeare",
+      "overall": {
+        "Core_5D_Avg": 6.19,
+        "Overall_Normalized_Equal_Avg": 5.75,
+        "General_Competency_Avg_10scale": 3.56
+      },
+      "summary": "The supreme literary genius of the English language, Shakespeare scores exceptionally in creative thinking, philosophical insight, impact legacy, and archetype resonance. His cognitive and cultural-social dimensions are strongest, reflecting paradigm-shifting contributions to drama, language, and human self-understanding. Moral-affective scores are moderate: literary empathy is extraordinary but personal evidence of compassion and justice is thin, with grain-hoarding and debt collection as counterpoints. Relational scores are low due to scarce biographical evidence about his marriage and parenting. Heinlein competency is notably narrow—world-class in artistic expression but with little documented skill outside theater and business. The gap between cultural impact and documented personal breadth defines his profile.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.07,
+          "General_Competency_Avg_10scale": 3.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists of Shakespeare's personal cooking ability. While his plays contain numerous references to food and drink, and Elizabethan households of his status would have involved domestic food preparation, there is no specific documentation of his culinary skill. Anti-halo rule applies: literary food references do not constitute evidence of cooking ability."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists that Shakespeare participated in combat or possessed martial skills. Unlike contemporaries such as Ben Jonson (who killed a fellow actor in a duel) or Christopher Marlowe (who was involved in violent altercations), Shakespeare has no documented involvement in physical conflict. His plays contain detailed stage combat, but this reflects choreographic and dramatic knowledge, not personal fighting skill."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a father and householder in Elizabethan England, Shakespeare would have had basic caregiving responsibilities. His plays show detailed knowledge of child-rearing and nursing (the Nurse in Romeo and Juliet, the care of Perdita in The Winter's Tale). However, his frequent absence in London during his children's youth and the lack of any specific documented caregiving acts limit the score. His son Hamnet's death at 11 may have involved caregiving during illness, but no record survives."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Greenblatt, Will in the World (2004)",
+            "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Shakespeare's late works—particularly Prospero's farewell speech in The Tempest and the reconciliation themes of The Winter's Tale—suggest philosophical composure about mortality and endings. He retired to Stratford deliberately around 1613 and appears to have managed his final years with order (preparing his will in January 1616). However, no account of his actual death or final illness survives, so we cannot document composure in the face of imminent death. The literary evidence suggests the capacity but cannot confirm the lived reality."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Greenblatt, Will in the World (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Shakespeare grew up in his father's glove-making workshop, a craft requiring skilled handwork with leather. Working in an Elizabethan theater company involved practical engagement with props, costumes, and stage mechanics. His plays display detailed knowledge of numerous trades and crafts. While no specific acts of making or repairing are documented, his background and professional context make basic manual competence a reasonable inference for his era and position."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Shakespeare traveled regularly between Stratford and London (~100 miles) over roughly two decades, navigating English roads and changing seasonal conditions. His plays show knowledge of maritime travel (The Tempest, Pericles, The Comedy of Errors), though this may be literary rather than experiential. There is no evidence of exceptional navigational skill or maritime experience. For an Elizabethan of his social position, regular long-distance travel represents basic but real competence."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Greenblatt, Will in the World (2004)",
+            "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Shakespeare grew up in rural Stratford-upon-Avon where his father John Shakespeare was involved in the glove-making trade, which required processing animal hides. His plays contain detailed and technically accurate references to hunting, falconry, butchery, and animal husbandry, suggesting direct familiarity rather than purely bookish knowledge. The tradition of deer-poaching from Sir Thomas Lucy's estate, though likely apocryphal, reflects a cultural memory connecting him to rural animal-related activities."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Gurr, The Shakespeare Company, 1594–1642 (2004)",
+            "Dutton, Mastering the Revels (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Shakespeare demonstrated both leadership and followership: he shaped the King's Men's repertoire as their principal playwright and shareholder (leadership), while also submitting to the authority of the Master of the Revels for censorship approval, performing as an actor under the company's collective direction, and serving the tastes of both popular and court audiences (followership). He adapted his artistic vision to the constraints of patronage, as seen in his dedications to Southampton and his company's performances at court for Elizabeth I and James I."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Shapiro, A Year in the Life of William Shakespeare: 1599 (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Shakespeare was a shareholder during the famous dismantling of The Theatre in Shoreditch and its reconstruction as the Globe on Bankside in 1598–99. While he was a financial stakeholder rather than a builder, his involvement in theater work would have required understanding of stage construction, scenic design, and the physical infrastructure of performance spaces. No evidence of personal construction skill beyond this contextual involvement."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Gurr, The Shakespeare Company, 1594–1642 (2004)",
+            "Shapiro, A Year in the Life of William Shakespeare: 1599 (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Shakespeare helped manage the King's Men, the most commercially successful and prestigious acting company in England. He coordinated theatrical seasons, timing new plays for court performances and public demand. The company's successful transition from the Globe to Blackfriars, its survival of plague closures, and its navigation of politically sensitive content (e.g., surviving the Essex rebellion fallout) all required strategic coordination. He was one of several shareholders, so command was shared, but his role was central."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Bloom, Shakespeare: The Invention of the Human (1998)",
+            "Kermode, Shakespeare's Language (2000)",
+            "Wells & Taylor, William Shakespeare: A Textual Companion (1987)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Shakespeare is widely regarded as the greatest writer in the English language and arguably in any language. He produced approximately 39 plays spanning comedy, tragedy, history, and romance; 154 sonnets; and several narrative poems. Works like Hamlet, King Lear, Othello, A Midsummer Night's Dream, and The Tempest represent the pinnacle of dramatic art. He also performed as an actor. His artistic output is among the strongest exemplars of cultural expression in the entire historical record."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence exists of Shakespeare providing medical aid or emergency response. His son-in-law John Hall was a physician, and his plays contain medical references (the Doctor in Macbeth, the apothecary in Romeo and Juliet), but there is no documentation of Shakespeare himself treating injury or illness. Anti-halo rule applies: literary knowledge of medicine does not constitute medical skill."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)",
+            "Duncan-Jones, Ungentle Shakespeare (2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Shakespeare's business dealings—property investments (New Place purchase for £60 in 1597, tithes, Blackfriars gatehouse), shareholding in the Globe and King's Men, grain trading, and money-lending—required functional numerical and accounting skills typical of a prosperous Elizabethan businessman. His plays occasionally reference mathematics and logic. However, there is no evidence of exceptional analytical reasoning or mathematical sophistication beyond competent commercial practice."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Schoenbaum, William Shakespeare: A Compact Documentary Life (1977)",
+            "Duncan-Jones, Ungentle Shakespeare (2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Shakespeare invested in agricultural tithes in Old Stratford, Welcombe, and Bishopton (1605), and held substantial grain stores (80 bushels of malt documented in 1598). He purchased significant landholdings around Stratford, including 107 acres of arable land in Old Stratford (1602). These investments suggest functional understanding of agricultural economics, though he was an investor and landlord rather than a working farmer. His rural upbringing in Warwickshire would have provided basic agricultural knowledge."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Gurr, The Shakespearean Stage, 1574–1642 (2009)",
+            "Shapiro, A Year in the Life of William Shakespeare: 1599 (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Shakespeare worked with the theatrical technology of his era—trapdoors, flying machinery, pyrotechnics (a cannon effect famously burned the Globe in 1613), and the acoustic design of both open-air and enclosed theaters. His plays exploit these technical possibilities (the ghost's entrances in Hamlet, the storm in The Tempest, the statue scene in The Winter's Tale). He adapted his dramaturgy to the different technical capabilities of the Globe and Blackfriars. However, he was a user and commissioner of these technologies rather than a designer or builder."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.19,
+    "general_competency_avg_0_10": 3.56,
+    "overall_normalized_equal_avg_0_10": 5.75,
+    "created_at": "2026-03-15T10:29:35.640Z",
+    "updated_at": "2026-03-15T10:29:35.644Z"
+  }
+}
+]

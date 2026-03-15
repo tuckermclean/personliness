@@ -1,0 +1,389 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 98,
+  "fields": {
+    "name": "Leonardo da Vinci",
+    "slug": "leonardo-da-vinci",
+    "bio_short": "Leonardo da Vinci exemplifies creative genius and polymathic breadth more than any other figure in the Western canon. His exceptional scores in creative thinking, artistic expression, technical problem-solving, and archetype resonance reflect paradigm-shifting contributions to art and proto-science. His embodied-existential profile is notably strong, integrating paradoxical roles (artist-engineer, court entertainer-solitary researcher) with genuine joy and aesthetic engagement. However, his moral-affective and relational dimensions are moderate: he built no lasting institutions, avoided system",
+    "bio_long": "Leonardo di ser Piero da Vinci was an Italian polymath of the High Renaissance who was active as a painter, draughtsman, engineer, scientist, theorist, sculptor, and architect. While his fame initially rested on his achievements as a painter, he has also become known for his notebooks, in which he made drawings and notes on a variety of subjects, including anatomy, astronomy, botany, cartography, painting, and palaeontology. Leonardo is widely regarded as a genius who epitomised the Renaissance humanist ideal, and his collective works contributed to the development of European art to an extent rivalled only by that of his younger contemporary Michelangelo.",
+    "source_notes": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+    "image": "figures/330px-Francesco_Melzi_-_Portrait_of_Leonardo.png",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+              "Bambach, *Leonardo da Vinci Rediscovered* (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Leonardo navigated complex patronage relationships across Milan (Sforza), Florence (Medici/Soderini), Rome (Leo X), and France (Francis I), adapting his self-presentation to each patron's needs—his famous 1482 letter to Ludovico Sforza strategically emphasized military engineering over art. He adapted when Sforza fell in 1499, pivoting to new patrons. However, several major plans failed in execution (the Arno River diversion of 1504, the never-cast Sforza Horse), suggesting strong planning but imperfect adaptation when implementation difficulties arose."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Clark, *Leonardo da Vinci* (1939/1988)",
+              "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+              "Bambach, *Leonardo da Vinci Rediscovered* (2019)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Leonardo produced a demonstrable paradigm shift across multiple domains. In painting, his sfumato technique, atmospheric perspective, and psychological depth (Mona Lisa, Last Supper, Virgin of the Rocks) fundamentally altered European artistic practice—there is a clear before/after difference in Western art attributable to him. In anatomy, his over 240 detailed drawings from 30+ dissections were centuries ahead of contemporary practice. He conceptualized flying machines, armored vehicles, and hydraulic systems that anticipated later inventions. His integration of art and empirical science constituted a new way of knowing."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+              "Farago, *Leonardo da Vinci's Paragone* (1992)",
+              "Leonardo da Vinci, *Codex Atlanticus*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Leonardo articulated a proto-empiricist epistemology in his notebooks, insisting that 'experience is the mother of all knowledge' and championing direct observation of nature ('saper vedere') over received authority. His Trattato della Pittura contains sophisticated reflections on the relationship between perception, art, and reality. However, these insights were not systematically published in his lifetime and thus did not directly influence philosophical traditions until centuries later when the notebooks were discovered, falling short of the Score-3 criterion of influencing thinkers beyond his own era during his lifetime."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Vasari, *Lives of the Most Excellent Painters, Sculptors, and Architects* (1568 edition)",
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Leonardo managed workshops in Florence and Milan over several decades, coordinating assistants and materials for major commissions. However, he was notorious for failing to complete commissions—the Adoration of the Magi (abandoned 1482), the Sforza Horse (never cast), the Battle of Anghiari (deteriorated due to experimental technique). He did not design administrative systems, legislative frameworks, or organizations that functioned beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+              "Isaacson, *Leonardo da Vinci* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Leonardo functioned in multiple relational modes: parent/mentor (to Salai and Melzi), friend and intellectual collaborator (with mathematician Luca Pacioli), subordinate (to his patrons Sforza, Borgia, Francis I), superior (in his workshop), rival/adversary (the documented tension with Michelangelo), and child (his complex relationship with his father Ser Piero, who acknowledged him but whose legitimacy he lacked). This covers at least five modes with some evidence of distinct behavior in each, but detailed evidence for qualitatively different behavior across all modes is limited."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+              "Isaacson, *Leonardo da Vinci* (2017)",
+              "Leonardo da Vinci, *Codex Atlanticus* (notebook entries on Salai)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Leonardo never married and had no documented conventional romantic partnerships. His closest long-term relationships were with Gian Giacomo Caprotti (Salai), who lived with him from age 10 for approximately 25 years, and Francesco Melzi, his later companion and intellectual heir. The nature of these relationships is debated (many scholars infer a sexual/romantic dimension with Salai). Leonardo's notebooks record buying Salai clothes and tolerating his misbehavior ('thief, liar, obstinate, glutton'), suggesting emotional attachment. However, evidence of mutual respect, reciprocal emotional support, and depth as required for higher scores is fragmentary."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Bambach, *Leonardo da Vinci Rediscovered* (2019)",
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Leonardo raised Salai from age 10 and trained multiple pupils in his workshop, most notably Francesco Melzi, who became a competent artist and, crucially, the devoted preserver of Leonardo's notebooks—an act of intellectual stewardship that suggests genuine mentoring investment bore fruit. Giovanni Antonio Boltraffio also developed notable competence under Leonardo's tutelage. However, none of his pupils became major independent artistic figures (unlike Verrocchio's pupils, who included Leonardo himself and Perugino), suggesting the mentoring produced devotion more than full autonomous greatness."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Clark, *Leonardo da Vinci* (1939/1988)",
+              "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+              "Isaacson, *Leonardo da Vinci* (2017)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Leonardo's impact has been clearly operative for over 500 years across multiple civilizations. The Mona Lisa is the most visited painting in the world and a global cultural icon. The Last Supper remains one of the most reproduced religious images. His anatomical drawings influenced medical illustration for centuries. The Vitruvian Man is a universal symbol of humanist ideals. His notebooks, when published, influenced engineers, artists, and scientists across Europe and beyond. His legacy spans art, science, engineering, and popular culture worldwide."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+              "Isaacson, *Leonardo da Vinci* (2017)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Leonardo is THE archetype of the 'Renaissance Man' or polymath—the term itself essentially refers to him. He is recognized as a symbol of creative genius, interdisciplinary brilliance, and human potential across virtually all world cultures. He serves as the archetypal 'universal genius' in East Asian, Islamic, and Western traditions alike. His image and name are invoked globally as shorthand for the fusion of art and science."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+              "Bambach, *Leonardo da Vinci Rediscovered* (2019)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Leonardo maintained workshops over several decades and trained apprentices, but he did not found a formal school, academy, or enduring organization. The Leonardeschi (his followers) perpetuated his style for a generation but did not constitute an institution with recognizable continuity beyond two generations. Francesco Melzi preserved his notebooks but did not establish an institution around them. Leonardo's influence was transmitted through works and writings, not institutional structures."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Bambach, *Leonardo da Vinci Rediscovered* (2019)",
+              "Vasari, *Lives* (1568)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Leonardo led workshops in Florence and Milan, training pupils including Boltraffio, Salai, and Melzi. He profoundly influenced subsequent artists—Raphael studied his cartoon for the Battle of Anghiari, and the Leonardeschi school perpetuated his style. He directed complex projects involving multiple craftsmen. However, his leadership was primarily within the artistic-workshop context; he did not lead in political, military, or crisis contexts as required for Score 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Vasari, *Lives* (1568)",
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+              "Leonardo da Vinci, *Codex Atlanticus*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Leonardo's notebooks reveal engagement with everyday observation—he sketched faces in the street, recorded grocery lists and daily expenses, noted mundane details about water, light, and animal behavior. His notebooks record buying clothes for Salai and managing household accounts. Vasari describes his personal charm and sociability. He was an illegitimate child who rose through talent, maintaining artisan-class habits. However, at the height of his career he was embedded in elite court culture (Sforza, Francis I), somewhat distancing him from ordinary life."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+              "Isaacson, *Leonardo da Vinci* (2017)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Leonardo served whichever patron offered employment, including Cesare Borgia (1502–1503), a notoriously ruthless figure, without documented moral reservation. He did not take public stands on justice issues or make rulings against personal interest in favor of principle. His vegetarianism reflects a form of ethical commitment, and his notebooks contain scattered observations on human cruelty, but these do not constitute a sustained justice orientation in action or policy."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Vasari, *Lives of the Most Excellent Painters, Sculptors, and Architects* (1568)",
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+              "Corsali letter to Giuliano de' Medici, c. 1515"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Leonardo reportedly purchased caged birds at market solely to release them (Vasari), and Andrea Corsali's letter to Giuliano de' Medici (c. 1515) describes Leonardo's vegetarianism motivated by refusal to harm living creatures. His tender artistic depictions of human emotion—the expressions in the Last Supper, the Madonna and Child paintings—demonstrate deep empathic observation. However, documented acts of compassion toward human adversaries specifically are lacking; his vegetarian compassion extended to animals rather than human outgroups."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+              "Isaacson, *Leonardo da Vinci* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Leonardo survived the 1476 sodomy accusation in Florence—a charge potentially punishable by death—and continued working without apparent disruption. He endured the fall of his patron Ludovico Sforza in 1499, the loss of the Sforza Horse project (the bronze was repurposed for cannons), the failure of the Battle of Anghiari fresco, and rivalry with Michelangelo, maintaining productive work throughout. He relocated to France at age 64 in declining health, demonstrating sustained resilience across multiple setbacks over decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+              "Leonardo da Vinci, *Anatomical Manuscripts* (Royal Collection, Windsor)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Leonardo's notebooks show extensive intellectual self-correction—he revised his understanding of cardiac anatomy after further dissections, for example. However, evidence of specifically moral self-correction is limited. His departure from Borgia's service (1503) could reflect moral discomfort, but the reasons are undocumented. The tradition around Leonardo has not been heavily sanitized (he was not a religious figure), but the evidence for moral self-reflection and visible behavioral change in response to acknowledged error is thin."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+              "Isaacson, *Leonardo da Vinci* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Leonardo endured illegitimacy (barring him from university and certain guilds), the 1476 sodomy accusation, the loss of major commissions (Sforza Horse, Battle of Anghiari), repeated displacement by political upheaval (fall of Sforza 1499, departure from Rome c.1516), and declining health in his final years including a possible stroke affecting his right hand. He continued producing remarkable work throughout, including anatomical studies and paintings in his final decade. These represent at least two qualitatively different forms of adversity (social stigma and material/professional loss)."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+              "Isaacson, *Leonardo da Vinci* (2017)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Leonardo inhabited at least three seemingly contradictory roles without fragmentation: (1) artist devoted to beauty and engineer of weapons of war; (2) solitary, secretive researcher (mirror writing, unpublished notebooks) and celebrated, charming court entertainer; (3) empirical scientist insisting on direct observation and visionary fantasist designing flying machines and submarines; (4) illegitimate outsider barred from guilds and university, yet intimate of dukes and kings; (5) vegetarian animal-liberator who designed crossbows and siege engines. These paradoxes are not inconsistencies but integrated aspects of a coherent personality."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Vasari, *Lives* (1568)",
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+              "Leonardo's will (April 1519), archived at Amboise"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Leonardo wrote in his notebooks: 'As a well-spent day brings happy sleep, so a life well spent brings happy death.' In his final years at Amboise, he prepared his will carefully, made provisions for his servants and pupils, and appears to have faced death with composure (d. May 2, 1519). Vasari's account of him dying in the arms of Francis I is likely legendary, but independent evidence (the will, Melzi's letter reporting his death) confirms orderly preparation. This reflects genuine composure but the embellishment in primary sources limits full certainty about his final moments."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Vasari, *Lives* (1568)",
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Vasari reports Leonardo was exceptionally strong, able to bend a horseshoe with his bare hands, and physically imposing. He was ambidextrous and left-handed—a notable physical skill exploited in his mirror writing. He performed demanding physical work: over 30 cadaver dissections (requiring sustained manual effort in unpleasant conditions), extensive field observations including cave exploration and mountain climbing in the Alps. He traveled extensively across Italy and to France at age 64. However, evidence for physical feats across later life stages is limited."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Vasari, *Lives* (1568)",
+              "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+              "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Leonardo's engagement with beauty and play was pervasive and clearly non-instrumental. He constructed mechanical automata (a mechanical lion for Francis I, mechanical birds), designed elaborate court entertainments and costumes, created rebuses, riddles, and jokes in his notebooks, and drew fanciful grotesque heads purely for amusement. His notebooks overflow with aesthetic delight in natural phenomena—water vortices, cloud formations, plant growth—observed for their intrinsic beauty. Vasari describes his delight in music and his skill as an improvising lyre player. This play was not performed for political purposes but reflected genuine temperamental joy."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.51,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Leonardo da Vinci",
+      "overall": {
+        "Core_5D_Avg": 6.51,
+        "Overall_Normalized_Equal_Avg": 6.31,
+        "General_Competency_Avg_10scale": 5.33
+      },
+      "summary": "Leonardo da Vinci exemplifies creative genius and polymathic breadth more than any other figure in the Western canon. His exceptional scores in creative thinking, artistic expression, technical problem-solving, and archetype resonance reflect paradigm-shifting contributions to art and proto-science. His embodied-existential profile is notably strong, integrating paradoxical roles (artist-engineer, court entertainer-solitary researcher) with genuine joy and aesthetic engagement. However, his moral-affective and relational dimensions are moderate: he built no lasting institutions, avoided systematic ethical or political engagement, and left limited evidence of deep reciprocal partnerships. Heinlein competency breadth is above average but constrained by gaps in combat, food processing, and culinary domains, reflecting a life oriented toward intellectual and artistic rather than practical-domestic pursuits.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.6,
+          "General_Competency_Avg_10scale": 5.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of culinary skill exists. The popular book 'Leonardo's Kitchen Notebooks' (attributed to Shelagh and Jonathan Routh) is a known satirical fabrication. Leonardo was reportedly vegetarian, but his notebooks contain no recipes or descriptions of cooking. While he presumably prepared or oversaw food preparation in his household, no documentation of this survives."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+            "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Leonardo served as military engineer to Cesare Borgia (1502–03) and to Florence, designing fortifications, crossbows, siege engines, a primitive tank, and other military technologies. His military engineering designs were sophisticated and some were built. However, there is no evidence Leonardo personally engaged in combat or physical defense. His contribution to defense was entirely through engineering and design rather than personal martial skill."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+            "Leonardo da Vinci, *Codex Atlanticus* (household entries)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Leonardo took in Gian Giacomo Caprotti (Salai) at age 10 and raised him for approximately 25 years, providing clothing, food, and shelter despite Salai's documented misbehavior. His notebooks record specific expenditures on Salai's care. He also cared for his household in his later years at Amboise, making provisions for servants in his will. The bird-freeing behavior (Vasari) suggests a caregiving temperament extending to animals."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Leonardo da Vinci, notebooks (mortality reflections)",
+            "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+            "Leonardo's will (April 1519)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Leonardo's notebooks express philosophical composure about mortality ('As a well-spent day brings happy sleep, so a life well spent brings happy death'). In his final years at Amboise, he prepared his will carefully, made orderly provisions for his dependents and the disposition of his notebooks, and appears to have faced death with dignity (d. May 2, 1519, age 67). Melzi's letter reporting Leonardo's death describes it in composed terms. However, Vasari's more dramatic account (dying in Francis I's arms) is likely embellished, limiting certainty about his final moments."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Vasari, *Lives* (1568)",
+            "Bambach, *Leonardo da Vinci Rediscovered* (2019)",
+            "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Trained from age 14 in Andrea del Verrocchio's comprehensive workshop (bottega), Leonardo learned painting, sculpture, metalwork, woodwork, and mechanics. Verrocchio's shop was a practical workshop producing everything from altarpieces to armor. Leonardo built models and mechanical devices throughout his life, constructed his own painting apparatus, and designed and built automata. His notebooks show detailed mechanical drawings that reflect hands-on understanding of gears, pulleys, and linkages."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+            "Isaacson, *Leonardo da Vinci* (2017)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Leonardo was a skilled cartographer—his 1502 map of Imola for Cesare Borgia was revolutionary, employing a precise ichnographic (plan-view) technique far ahead of contemporary practice. He produced detailed topographic maps of the Arno Valley and Tuscan regions. He traveled extensively across Italy (Florence, Milan, Venice, Rome, Piombino) and to France, navigating varied terrains. His notebooks contain studies of geography and terrain that demonstrate sophisticated spatial reasoning."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Leonardo was reportedly vegetarian out of ethical conviction (Corsali's letter to Giuliano de' Medici), suggesting he specifically avoided butchering and animal processing. No evidence of skill in this domain exists. His anatomical dissections of animals (horses, bears) were for scientific study, not food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)",
+            "Isaacson, *Leonardo da Vinci* (2017)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Leonardo led workshops in Florence and Milan, directing assistants and managing complex multi-year commissions. He also demonstrated effective followership—adapting to the demands of diverse patrons including Ludovico Sforza, Cesare Borgia, Giuliano de' Medici, and Francis I, each with different expectations and temperaments. He cooperated with other specialists (Pacioli in mathematics, Marcantonio della Torre in anatomy). His ability to both give and take direction across different contexts demonstrates competence in both modes."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+            "Pedretti, *Leonardo Architect* (1985)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Leonardo designed buildings, bridges (including the single-span bridge for the Sultan of Constantinople, 1502), fortifications, canals, and domed structures. He built physical models and prototypes for his designs. Trained in Verrocchio's workshop, he had practical construction skills including working with bronze, wood, and stone for sculptural projects. However, most of his architectural designs were never realized—the Ottoman bridge was rejected, and few buildings were actually constructed to his plans."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Masters, *Fortune is a River* (1998)",
+            "Nicholl, *Leonardo da Vinci: The Flights of the Mind* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Leonardo planned the diversion of the Arno River (1504) as a military strategy against Pisa—a complex multi-stage engineering/military operation—but the project failed in execution. He designed fortifications for Piombino and mapped Imola for Cesare Borgia (1502–03). He coordinated workshop activities for major commissions. However, his chronic failure to complete projects (Sforza Horse, Adoration of the Magi, Battle of Anghiari) suggests planning exceeded his command of execution."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Clark, *Leonardo da Vinci* (1939/1988)",
+            "Vasari, *Lives* (1568)",
+            "Bambach, *Leonardo da Vinci Rediscovered* (2019)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Leonardo is among the greatest artists in human history. The Mona Lisa and The Last Supper are among the most celebrated works ever created. His invention of sfumato, his mastery of chiaroscuro, and his psychological depth in portraiture revolutionized Western art. He also designed costumes and stage sets for court festivals (the *Festa del Paradiso* in Milan, 1490), played the lira da braccio as an improviser (Vasari), and created literary compositions including fables and riddles. His artistic range encompassed painting, drawing, sculpture, music, and theatrical design."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Leonardo da Vinci, *Anatomical Manuscripts* (Royal Collection, Windsor)",
+            "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Leonardo conducted over 30 human cadaver dissections and produced anatomical drawings of extraordinary accuracy—his studies of the heart, musculature, and fetal development were centuries ahead of published medical knowledge. However, he was not a physician and there is no documented evidence of him treating patients, performing surgery, or responding to medical emergencies. His anatomical knowledge was observational and scientific rather than clinical. Era-normalized, his knowledge exceeded most physicians' but was never applied to patient care."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Pacioli, *De Divina Proportione* (1509, illustrated by Leonardo)",
+            "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Leonardo studied mathematics intensively with Luca Pacioli and illustrated Pacioli's *De Divina Proportione* (1509) with drawings of polyhedra. His notebooks contain geometric proofs, proportion calculations, and studies of areas and volumes. He applied mathematical principles rigorously to perspective, optics, and engineering design. However, he was not a mathematician per se—Pacioli was the theorist, and Leonardo's contributions were more applied than foundational. He reportedly struggled with Latin and formal education."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+            "Leonardo da Vinci, *Codex Leicester* (hydraulic studies)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Leonardo designed extensive canal and irrigation systems for the Milan region and the Arno Valley, demonstrating understanding of water resource management. His notebooks contain detailed studies of hydraulics and water flow. He received a vineyard from Ludovico Sforza as payment, suggesting some engagement with agricultural land. However, there is no evidence he personally cultivated crops or managed agricultural operations beyond theoretical engineering designs."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Kemp, *Leonardo da Vinci: The Marvellous Works of Nature and Man* (2006)",
+            "Galluzzi, *Renaissance Engineers from Brunelleschi to Leonardo da Vinci* (1996)",
+            "Bambach, *Leonardo da Vinci Rediscovered* (2019)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Leonardo was the preeminent technical problem-solver of his era. He designed flying machines (ornithopter, aerial screw), diving apparatus, hydraulic systems, mechanical automata, printing presses, and textile machinery—all representing cutting-edge or beyond-cutting-edge technology. His systematic approach to technical problems—observing nature, sketching designs, building models, testing, and iterating—anticipated modern engineering method. His solutions to the technical challenges of sfumato painting, bronze casting at monumental scale, and anatomical preservation were innovative within their respective fields."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.51,
+    "general_competency_avg_0_10": 5.33,
+    "overall_normalized_equal_avg_0_10": 6.31,
+    "created_at": "2026-03-15T08:17:01.237Z",
+    "updated_at": "2026-03-15T08:17:01.241Z"
+  }
+}
+]

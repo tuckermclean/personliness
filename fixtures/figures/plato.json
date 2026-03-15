@@ -1,0 +1,390 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 91,
+  "fields": {
+    "name": "Plato",
+    "slug": "plato",
+    "bio_short": "Plato's extraordinary cognitive and cultural-social contributions—founding Western philosophy, creating the Theory of Forms, establishing the Academy, and authoring dialogues central to intellectual life 2,400 years later—place him among history's most impactful thinkers. His moral-affective profile is moderate: principled but filtered through an aristocratic temperament that sometimes privileged abstract justice over individual compassion. The embodied-existential dimension benefits from paradox integration and a life of physical travel and adversity. His relational profile is uneven: an exce",
+    "bio_long": "Plato was an ancient Greek philosopher of Classical Athens who is most commonly considered the foundational thinker of the Western philosophical tradition. An innovator of the literary dialogue and dialectic forms, Plato influenced all the major areas of theoretical philosophy and practical philosophy, and was the founder of the Academy, a philosophical school in Athens where Plato taught the collection of philosophical theories that would later become known as Platonism.",
+    "source_notes": "https://en.wikipedia.org/wiki/Plato",
+    "image": "figures/330px-Plato_Silanion_Musei_Capitolini_MC1377.png",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Diogenes Laertius, Lives of the Eminent Philosophers, Book III",
+              "Plato, Seventh Letter (if authentic)",
+              "Guthrie, W.K.C., A History of Greek Philosophy, Vol. IV"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plato demonstrated strategic thinking in founding the Academy (c. 387 BCE) as a long-term vehicle for philosophical influence, and in crafting dialogues designed to lead readers through progressive argumentation. However, his three ventures to Syracuse to advise Dionysius I and II all ended in failure—on one occasion he was reportedly sold into slavery, on another his life was threatened—showing limited ability to adapt plans in real political contexts."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Cornford, F.M., Plato's Theory of Knowledge",
+              "Kahn, Charles, Plato and the Socratic Dialogue",
+              "Fine, Gail, Plato on Knowledge and Forms"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Plato invented the philosophical dialogue as a literary-intellectual form, creating a paradigm shift in how philosophical inquiry could be conducted and communicated. The allegory of the cave, the divided line, and the Theory of Forms introduced entirely novel conceptual frameworks. Before Plato, metaphysics as a systematic discipline did not exist; after him, it became central to Western thought. His literary innovations (dramatic setting, irony, myth within argument) were equally unprecedented."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Kraut, Richard (ed.), The Cambridge Companion to Plato",
+              "Vlastos, Gregory, Platonic Studies",
+              "Whitehead, A.N., Process and Reality"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Plato's articulation of the Theory of Forms, the tripartite soul, the Form of the Good, and the nature of justice in the Republic constitutes one of the most influential ethical and metaphysical systems in history. Whitehead's remark that Western philosophy is 'footnotes to Plato' captures his cross-cultural, cross-era influence. His ideas shaped Augustine's Christian theology, Islamic philosophy (Al-Farabi, Avicenna), Renaissance Neoplatonism, and modern political philosophy."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Dillon, John, The Heirs of Plato: A Study of the Old Academy",
+              "Plato, Laws",
+              "Diogenes Laertius, Lives of the Eminent Philosophers, Book III"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plato founded and directed the Academy for approximately 40 years, establishing a curriculum centered on mathematics, dialectic, and philosophy that endured for centuries after his death. His Laws represents the most detailed work of political legislation in ancient Greek philosophy. However, his practical legislative ambitions in Syracuse failed entirely, and the Laws was never implemented, keeping this below the threshold of 3."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Plato, Seventh Letter",
+              "Diogenes Laertius, Lives, Book III",
+              "Nails, Debra, The People of Plato"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Documented relational modes include: devoted student (to Socrates, as reflected in the dialogues and Seventh Letter), institutional leader/mentor (head of the Academy for ~40 years), political advisor/subordinate (to Dionysius I and II in Syracuse), close friend (to Dion of Syracuse, for whom he risked his life), and family member (nephew of Critias and Charmides, prominent in Athenian politics). This spans at least five modes, but evidence for qualitatively distinct behavior across them is largely inferential, drawn from late sources and the dialogues rather than direct documentation."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Diogenes Laertius, Lives, Book III",
+              "Nails, Debra, The People of Plato"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "There is no credible evidence that Plato married or maintained a documented intimate partnership. Ancient sources are silent or contradictory on this point. Diogenes Laertius does not record a spouse or partner. Without evidence, no score can be assigned."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Dillon, John, The Heirs of Plato",
+              "Jaeger, Werner, Aristotle: Fundamentals of the History of His Development",
+              "Cherniss, Harold, The Riddle of the Early Academy"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Plato mentored Aristotle, who studied at the Academy for approximately 20 years and went on to develop a profoundly independent philosophical system that departed from Platonism in fundamental ways—demonstrating genuine autonomy rather than replication. He also mentored Speusippus (who succeeded him as head of the Academy), Xenocrates, and the mathematician Eudoxus of Cnidus, all of whom became significant thinkers in their own right. The diversity and independence of his students' achievements is strong evidence of mentoring quality."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Gersh, Stephen, Middle Platonism and Neoplatonism: The Latin Tradition",
+              "Walzer, Richard, Greek into Arabic: Essays on Islamic Philosophy",
+              "Hankins, James, Plato in the Italian Renaissance"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Plato's influence remains operative across multiple civilizations over 2,400 years. His ideas shaped Christian theology (via Augustine and Neoplatonism), Islamic philosophy (Al-Farabi's 'The Philosophy of Plato,' Avicenna), Renaissance thought (Marsilio Ficino's Platonic Academy in Florence), and modern political philosophy, epistemology, and metaphysics. His concepts (Platonic ideals, the cave allegory, philosopher-kings) pervade Western intellectual culture to this day."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Hankins, James, Plato in the Italian Renaissance",
+              "Tigerstedt, E.N., The Decline and Fall of the Neoplatonic Interpretation of Plato"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Plato is the archetypal philosopher in Western and Islamic traditions. 'Platonic' has entered common language across cultures (Platonic love, Platonic ideal). Raphael's School of Athens places him at the center alongside Aristotle as the symbol of idealism itself. He is recognized as a foundational symbol in traditions far beyond ancient Greece—in Christian theology, Islamic falsafa, and modern secular philosophy alike."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Dillon, John, The Heirs of Plato",
+              "Lynch, John Patrick, Aristotle's School: A Study of a Greek Educational Institution",
+              "Watts, Edward J., City and School in Late Antique Athens and Alexandria"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Academy, founded c. 387 BCE, is one of the most enduring educational institutions in Western history. It survived in various forms for centuries—some scholars trace its continuity to 529 CE when Justinian closed the Neoplatonic schools. It trained Aristotle (who founded the Lyceum on its model), Speusippus, Xenocrates, and many others. It became the prototype for the Western university. It clearly survived far more than two generations with recognizable continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Dillon, John, The Heirs of Plato",
+              "Cherniss, Harold, The Riddle of the Early Academy"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Plato led the Academy for roughly four decades, attracting students from across the Greek world including Aristotle, Eudoxus, Speusippus, and Xenocrates. He exerted enormous intellectual influence. However, his political leadership attempts in Syracuse were unsuccessful, and his leadership was primarily in an academic rather than crisis or large-scale political context, keeping him from the 'qualitatively different contexts' threshold for score 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Diogenes Laertius, Lives, Book III",
+              "Nails, Debra, The People of Plato"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Evidence for Plato's engagement with mundane, everyday activities is thin. He came from an aristocratic Athenian family and lived primarily as an intellectual. Some dialogues feature everyday settings (the Symposium at a banquet, the Phaedrus by a stream), but these are literary constructions. Diogenes Laertius preserves a few anecdotes about daily life but these are late and often apocryphal. No robust evidence of engagement with manual labor, cooking, or similar mundane activities at the height of his career."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Plato, Republic",
+              "Schofield, Malcolm, Plato: Political Philosophy",
+              "Vlastos, Gregory, Platonic Studies"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The entire Republic is an extended inquiry into the nature of justice, and Plato's insistence on philosopher-kings reflects a commitment to principled governance over self-interested rule. He advocated for women's equality among guardians and argued that justice benefits the just person intrinsically. However, his willingness to endorse the noble lie, rigid class hierarchy, and censorship complicates the picture. His departure from Syracuse rather than compromising his principles shows some commitment to justice over expediency."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Plato, Republic, Books V and III",
+              "Annas, Julia, An Introduction to Plato's Republic"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Plato's dialogues occasionally express concern for the well-being of interlocutors and citizens, and his advocacy for women's equality in the guardian class (Republic Book V) was radical for his era. However, his proposals also include eugenics, the 'noble lie,' strict censorship, and rigid class stratification, suggesting concern was filtered through an abstract framework rather than expressed as personal compassion. No documented acts of compassion toward adversaries or outgroup members survive."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Diogenes Laertius, Lives, Book III",
+              "Plato, Seventh Letter",
+              "Riginos, A.S., Platonica: The Anecdotes Concerning the Life and Writings of Plato"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plato continued his philosophical mission despite the traumatic execution of Socrates in 399 BCE. He traveled to Syracuse three times despite serious physical danger—reportedly being sold into slavery on the first visit and nearly killed on the third. Ancient sources also report military service during the Peloponnesian War (Battle of Megara, possibly Corinth and Delium). This represents sustained courage across multiple high-stakes situations."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Plato, Parmenides",
+              "Plato, Laws",
+              "Sayre, Kenneth, Plato's Late Ontology"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plato's intellectual trajectory shows significant self-correction. In the Parmenides, he subjects his own Theory of Forms to devastating critique (the Third Man Argument). The Laws represents a marked retreat from the Republic's more radical proposals—abandoning philosopher-kings, communal property, and eugenics in favor of a more practical mixed constitution with detailed legal codes. This constitutes documented revision of prior positions with visible theoretical and practical changes."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Plato, Seventh Letter",
+              "Diogenes Laertius, Lives, Book III",
+              "Guthrie, W.K.C., A History of Greek Philosophy, Vol. IV"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plato endured qualitatively different forms of adversity: the traumatic execution of his teacher Socrates (personal bereavement/ideological persecution, 399 BCE), political upheaval in Athens under the Thirty Tyrants (several of whom were his relatives), and physical danger during his Sicilian ventures (reported enslavement, threat of death). Through all of these, he continued productive philosophical work and institutional leadership."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Griswold, Charles, Self-Knowledge in Plato's Phaedrus",
+              "Rowe, Christopher, Plato and the Art of Philosophical Writing",
+              "Gonzalez, Francisco, Dialectic and Dialogue: Plato's Practice of Philosophical Inquiry"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Plato inhabited multiple seemingly contradictory roles without fragmenting: (1) a literary artist of the highest order who criticized poetry and mimesis; (2) a prolific writer who argued (through Socrates in the Phaedrus) that writing is inferior to oral dialectic; (3) a political theorist who failed repeatedly at practical politics; (4) an aristocrat who critiqued Athenian democracy yet also critiqued tyranny; (5) a rationalist metaphysician who employed myth and mystical imagery. He reconciled roles as artist, metaphysician, educator, political theorist, and mystic into a coherent philosophical life."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Plato, Phaedo",
+              "Plato, Apology",
+              "Diogenes Laertius, Lives, Book III"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Phaedo, set at Socrates' death, presents extensive arguments for the philosopher's composure in facing death, clearly endorsed by Plato. The Apology portrays Socrates welcoming death with equanimity. Plato reportedly died peacefully at approximately age 80 (c. 348/347 BCE)—Diogenes Laertius records he died at a wedding feast or peacefully in sleep. While the philosophical arguments are well-documented, direct evidence of Plato's personal composure at death is limited to late anecdotal sources."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Diogenes Laertius, Lives, Book III",
+              "Riginos, A.S., Platonica: The Anecdotes Concerning the Life and Writings of Plato"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diogenes Laertius reports that Plato wrestled competitively, possibly at the Isthmian Games, and that his name derived from his broad (platos) physical build. Ancient sources report military service during the Peloponnesian War. He undertook three arduous sea voyages to Sicily across the Mediterranean in middle and later life, demonstrating physical resilience across multiple life-stages. However, these sources are late (Diogenes Laertius wrote c. 3rd century CE)."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Plato, Symposium",
+              "Plato, Phaedrus",
+              "Nussbaum, Martha, The Fragility of Goodness"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plato's dialogues are themselves works of great literary artistry, featuring humor (Socrates' irony in the Symposium and Euthydemus), dramatic craft, and mythological beauty (the Allegory of the Charioteer in the Phaedrus, the Allegory of the Cave). The Symposium celebrates eros and beauty as paths to the Form of the Good. However, much of this aesthetic engagement serves philosophical purposes, making it partly instrumental. The lyrical passage in the Phaedrus describing the plane tree and stream suggests genuine aesthetic appreciation."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.01,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Plato",
+      "overall": {
+        "Core_5D_Avg": 7.01,
+        "Overall_Normalized_Equal_Avg": 6.36,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "Plato's extraordinary cognitive and cultural-social contributions—founding Western philosophy, creating the Theory of Forms, establishing the Academy, and authoring dialogues central to intellectual life 2,400 years later—place him among history's most impactful thinkers. His moral-affective profile is moderate: principled but filtered through an aristocratic temperament that sometimes privileged abstract justice over individual compassion. The embodied-existential dimension benefits from paradox integration and a life of physical travel and adversity. His relational profile is uneven: an exceptional mentor (Aristotle being the clearest proof) but with no documented intimate partnership. Heinlein competency is narrow, concentrated in artistic expression and analytical reasoning, reflecting a life devoted to intellectual rather than practical pursuits. Core 5D Avg: 7.01; Heinlein Avg: 3.11; Overall: 6.36.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of culinary skill. As an Athenian aristocrat, food preparation would typically have been performed by household servants. No ancient source attributes cooking ability to Plato."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Diogenes Laertius, Lives, Book III",
+            "Riginos, A.S., Platonica"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Ancient sources report that Plato served in the Athenian military during the Peloponnesian War, possibly at the battles of Tanagra, Corinth, and Delium (though some of these attributions are chronologically problematic). Diogenes Laertius also reports competitive wrestling. However, no specific combat achievements are documented, and the sources are late and unreliable on details."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Plato, Theaetetus",
+            "Diogenes Laertius, Lives, Book III"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Plato's teaching at the Academy for four decades implies sustained care for students' intellectual development. The dialogues model a form of intellectual nurture (Socratic midwifery of ideas in the Theaetetus). However, no specific acts of emotional or physical caregiving are documented in the historical record."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Plato, Phaedo",
+            "Plato, Apology",
+            "Diogenes Laertius, Lives, Book III"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Plato's philosophical works (the Phaedo, Apology) present sophisticated arguments for composure in the face of death. He continued productive philosophical work through the execution of his mentor, political crises, and personal dangers in Syracuse. He reportedly died peacefully at approximately age 80. The philosophical framework he articulated for facing mortality was among the most influential in Western history."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of manual craft or repair skills. Plato's frequent use of craftsman analogies (the allegory of the craftsman in the Timaeus, references to cobblers and potters) suggests familiarity with craft as a concept, but no evidence of personal skill in this domain."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Diogenes Laertius, Lives, Book III",
+            "Riginos, A.S., Platonica"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Plato undertook at least three sea voyages to Sicily and reportedly traveled to Egypt, Cyrene, and southern Italy. Mediterranean sea travel in the 4th century BCE was dangerous and required awareness of geography. However, he was likely a passenger rather than a navigator, and no specific wayfinding skill is documented."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record that Plato engaged in animal husbandry, butchering, or food processing. As an Athenian aristocrat, such tasks would likely have been performed by servants or slaves."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Dillon, John, The Heirs of Plato",
+            "Plato, Seventh Letter"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Plato demonstrated both leadership (directing the Academy for ~40 years, attracting top students from across Greece) and followership (devoted student of Socrates, willing to serve as advisor to Dionysius II in Syracuse in a subordinate role). The combination of leading an institution and accepting an advisory position under a tyrant shows range in this domain."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Plato designed or built physical structures. While he presumably oversaw the physical establishment of the Academy's grounds, no documentation of personal construction or fabrication skill exists."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Plato, Seventh Letter",
+            "Plato, Republic"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Plato's Republic and Laws contain elaborate theoretical blueprints for ideal states, demonstrating conceptual capacity for strategic planning. However, his actual attempts at political command in Syracuse (advising Dionysius II) failed on all three occasions, and no evidence of successful military or organizational command exists."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Rutherford, R.B., The Art of Plato",
+            "Rowe, Christopher, Plato and the Art of Philosophical Writing",
+            "Diogenes Laertius, Lives, Book III"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Plato's dialogues are among the greatest works of literary prose in Western civilization. The Symposium, Republic, Phaedrus, and Phaedo combine philosophical argument with dramatic artistry, mythological invention (Allegory of the Cave, Allegory of the Charioteer, Allegory of Er), humor, and poetic beauty. He reportedly wrote poetry and dithyrambs in his youth (Diogenes Laertius). His literary form—the philosophical dialogue—was itself an artistic innovation of the highest order."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Plato practiced medicine or provided emergency medical care. While his dialogues reference medical practice (Gorgias, Timaeus) and he was familiar with contemporary medical theory, there is no documentation of personal medical skill."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Plato, Timaeus",
+            "Plato, Meno",
+            "Fowler, D.H., The Mathematics of Plato's Academy"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The inscription 'Let no one ignorant of geometry enter here' (attributed to the Academy's entrance) reflects Plato's deep valuation of mathematics. The Timaeus applies geometric reasoning to cosmology. He influenced the mathematician Eudoxus of Cnidus and engaged with the problem of incommensurables. The Meno demonstrates geometric reasoning in the slave-boy proof. However, Plato was primarily a philosopher of mathematics rather than a practicing mathematician of the first rank."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural skill or resource management. The Academy's grounds may have included gardens (the Academy was located in a grove), but no documentation of Plato personally managing agricultural resources exists."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Plato, Timaeus",
+            "Fowler, D.H., The Mathematics of Plato's Academy"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Plato engaged with the cutting-edge intellectual tools of his era—dialectic method, mathematical reasoning, and systematic philosophical inquiry. He posed problems that stimulated technical mathematical work (e.g., the Delian problem of doubling the cube, which he reportedly set for his students). However, he was not himself a technical innovator in the practical or mechanical sense."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.01,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 6.36,
+    "created_at": "2026-03-15T08:02:28.737Z",
+    "updated_at": "2026-03-15T08:02:28.741Z"
+  }
+}
+]

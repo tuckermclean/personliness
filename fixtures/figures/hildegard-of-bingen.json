@@ -1,0 +1,371 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 95,
+  "fields": {
+    "name": "Hildegard of Bingen",
+    "slug": "hildegard-of-bingen",
+    "bio_short": "A 12th-century Benedictine abbess and polymath of extraordinary cognitive and cultural-social reach. Hildegard excelled as composer, theologian, naturalist, medical writer, and institutional founder, inhabiting contradictory roles (cloistered nun/public preacher, mystic/empiricist, frail body/enormous output) with remarkable coherence. Her strongest domains are creative innovation, aesthetic depth, institution-building, and archetype resonance. Relational scores are tempered by the Richardis episode and monastic context. Heinlein breadth is moderate — she was a specialist-generalist within int",
+    "bio_long": "Hildegard of Bingen OSB, also known as the Sibyl of the Rhine, was a German Benedictine abbess and polymath active as a writer, composer, philosopher, mystic, visionary, and as a medical writer and practitioner of the Catholic Church during the High Middle Ages. She is one of the best-known composers of sacred monophony, as well as the most recorded in modern history. A number of scholars has considered her to be the founder of scientific natural history in Germany.",
+    "source_notes": "https://en.wikipedia.org/wiki/Hildegard_of_Bingen",
+    "image": "figures/330px-Hildegard_von_Bingen.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Maddocks, Fiona. *Hildegard of Bingen: The Woman of Her Age*. Doubleday, 2001.",
+              "Flanagan, Sabina. *Hildegard of Bingen, 1098-1179: A Visionary Life*. Routledge, 1998."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hildegard secured papal approval for her visions from Eugenius III at the Synod of Trier (1147-48), successfully moved her community from Disibodenberg to Rupertsberg (~1150) against Abbot Kuno's resistance by leveraging her visionary authority, and managed the interdict crisis of 1178-79 by appealing through ecclesiastical channels until it was lifted. She strategically used the 'prophetic voice' to bypass restrictions on women's public roles — a durable adaptive strategy, not a one-off success."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Holsinger, Bruce. *Music, Body, and Desire in Medieval Culture*. Stanford University Press, 2001.",
+              "Higley, Sarah. *Hildegard of Bingen's Unknown Language*. Palgrave Macmillan, 2007."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hildegard composed 77+ liturgical songs and the *Ordo Virtutum* — the earliest surviving morality play with music — creating a before/after in liturgical drama. She invented the *Lingua Ignota*, a constructed language of over 1,000 words with its own alphabet (*Litterae Ignotae*), unprecedented in medieval letters. Her *Physica* systematized German natural history in ways scholars consider foundational for the tradition."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Newman, Barbara. *Sister of Wisdom: St. Hildegard's Theology of the Feminine*. University of California Press, 1987.",
+              "Dronke, Peter. *Women Writers of the Middle Ages*. Cambridge University Press, 1984."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "In *Scivias*, *Liber Vitae Meritorum*, and *Liber Divinorum Operum*, Hildegard articulated an integrated cosmological-ethical vision centered on *viriditas* (greening power) that linked human morality to cosmic harmony. Her theology influenced later Rhineland mystics (Mechthild of Magdeburg, Meister Eckhart's tradition) and has been taken up by modern ecological theologians. Her declaration as Doctor of the Church (2012) confirms enduring cross-era philosophical influence."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Flanagan, Sabina. *Hildegard of Bingen, 1098-1179: A Visionary Life*. Routledge, 1998.",
+              "Silvas, Anna. *Jutta and Hildegard: The Biographical Sources*. Brepols, 1998."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hildegard founded and governed two monasteries: Rupertsberg (~1150) and Eibingen (~1165). Rupertsberg survived until its destruction in the Thirty Years' War (~1632), over 450 years after founding. The Abbey of St. Hildegard at Eibingen was revived and continues today. She managed finances, oversaw construction, organized preaching tours, and maintained a vast correspondence network — all hallmarks of sustained administrative capacity."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Baird and Ehrman, trans. *The Letters of Hildegard of Bingen*, Vols. I-III. Oxford University Press, 1994-2004.",
+              "Newman, Barbara. *Voice of the Living Light*. University of California Press, 1998."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hildegard operated across at least six distinct relational modes with documented qualitative differences: (1) superior/abbess to her nuns (firm governance); (2) subordinate to bishops and popes (respectful but assertive deference); (3) spiritual advisor to correspondents of all ranks; (4) intimate companion to Richardis and collaborator with Volmar; (5) adversary to Abbot Kuno, Mainz prelates, and Barbarossa (confrontational when principled); (6) child (oblated at 8 to Jutta von Sponheim, dependent relationship). Her letters show markedly different tones and strategies across these modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Baird and Ehrman, trans. *The Letters of Hildegard of Bingen*, Vol. I. Oxford University Press, 1994.",
+              "Flanagan, Sabina. *Hildegard of Bingen, 1098-1179*. Routledge, 1998."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "As a Benedictine nun oblated at age 8, Hildegard had no spousal relationship. Her most emotionally intense partnership was with Richardis von Stade, her close companion and secretary. When Richardis was appointed abbess of Bassum (~1151), Hildegard wrote anguished letters to the Archbishop of Mainz and even Pope Eugenius III attempting to prevent the transfer, revealing deep attachment but also controlling possessiveness. Richardis died shortly after, and Hildegard expressed grief but also interpreted the death as divine vindication."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Silvas, Anna. *Jutta and Hildegard: The Biographical Sources*. Brepols, 1998.",
+              "Baird and Ehrman, trans. *The Letters of Hildegard of Bingen*, Vols. I-III. Oxford University Press, 1994-2004."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hildegard educated and mentored the nuns in both her convents, producing a community of literate, musically trained women. Her long collaboration with the monk Volmar (her secretary for decades until his death in 1173) represents a durable mentoring relationship, as does her cultivation of Guibert of Gembloux as his successor. However, the Richardis episode reveals difficulty allowing mentees full autonomy when it conflicted with her own desires, complicating the picture."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Newman, Barbara. *Voice of the Living Light*. University of California Press, 1998.",
+              "Sweet, Victoria. *Rooted in the Earth, Rooted in the Sky: Hildegard of Bingen and Premodern Medicine*. Routledge, 2006."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hildegard's effects remain operative 800+ years later: she is the most-recorded composer of medieval sacred monophony; her declaration as Doctor of the Church (2012) cemented her theological legacy; her naturalist writings are considered foundational for German scientific natural history; her concept of *viriditas* has been adopted by modern ecological theology. Her influence spans Western Christian civilization, modern music performance globally, and contemporary holistic health movements."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Newman, Barbara. *Sister of Wisdom*. University of California Press, 1987.",
+              "Lachman, Gary. *The Quest for Hermes Trismegistus* (discusses Hildegard's cross-tradition resonance). Floris Books, 2011."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Known as the 'Sibyl of the Rhine,' Hildegard serves as the archetypal visionary woman intellectual across cultures — the figure who transcended gendered constraints through creative and spiritual authority. She is recognized in feminist, ecological, New Age, and traditional Catholic circles alike. Her image functions as a symbol of female genius and holistic wisdom well beyond her own Benedictine tradition, in cultures from Japan (where her music is widely performed) to Latin America."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Flanagan, Sabina. *Hildegard of Bingen, 1098-1179: A Visionary Life*. Routledge, 1998.",
+              "Maddocks, Fiona. *Hildegard of Bingen: The Woman of Her Age*. Doubleday, 2001."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hildegard founded two monasteries: Rupertsberg (~1150) survived approximately 450 years until the Thirty Years' War, and Eibingen (~1165) was refounded and continues to this day as the Abbey of St. Hildegard. Both institutions maintained recognizable continuity with her founding vision, well exceeding the two-generation threshold. Her liturgical corpus also became an institutional musical repertoire preserved across centuries."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Kienzle, Beverly Mayne. *Hildegard of Bingen and Her Gospel Homilies*. Brepols, 2009.",
+              "Newman, Barbara. *Voice of the Living Light: Hildegard of Bingen and Her World*. University of California Press, 1998."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hildegard led her monastic community through decades of stability and expansion (small-group leadership), conducted unprecedented preaching tours addressing large public audiences across Germany (mass influence), and corresponded as advisor to popes (Eugenius III, Anastasius IV, Alexander III), Emperor Frederick Barbarossa, and numerous bishops and abbots (elite political influence). She exercised leadership in qualitatively different contexts: domestic monastic governance, public preaching, and high-level political counsel."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Hildegard of Bingen. *Physica*, trans. Throop. Healing Arts Press, 1998.",
+              "Sweet, Victoria. *Rooted in the Earth, Rooted in the Sky*. Routledge, 2006."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hildegard's writings in *Physica* show intimate practical knowledge of plants, foods, and agricultural life — she writes about spelt, chestnuts, fennel, and brewing with detailed practical wisdom. Her medical writings address mundane bodily concerns (digestion, skin ailments, insomnia). Monastic life under the Benedictine Rule required engagement with manual labor and daily routine. However, as an abbess of noble birth, she occupied an elevated social position, and much of our evidence comes through her literary works rather than direct accounts of everyday behavior."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Baird and Ehrman, trans. *The Letters of Hildegard of Bingen*, Vol. I. Oxford University Press, 1994.",
+              "Flanagan, Sabina. *Hildegard of Bingen, 1098-1179: A Visionary Life*. Routledge, 1998."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hildegard maintained her position on the burial controversy (1178-79) on principle — she believed the man had received last rites and been reconciled to the Church — accepting an interdict rather than violate what she saw as justice. She wrote to Barbarossa criticizing imperial overreach into ecclesiastical matters. However, her defense of noble exclusivity in her convent against Tengswich of Andernach's egalitarian challenge represents a significant counterexample to universal justice orientation."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Hildegard of Bingen. *Causae et Curae*, ed. Moulinier. Berlin, 2003.",
+              "Baird, Joseph and Radd Ehrman, trans. *The Letters of Hildegard of Bingen*, Vols. I-III. Oxford University Press, 1994-2004."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hildegard's medical practice at her convent and detailed compassionate remedies in *Causae et Curae* show genuine concern for the suffering. Her extensive pastoral correspondence offered comfort to troubled individuals across social strata. However, she defended restricting her convent to women of noble birth against Tengswich of Andernach's criticism, and some of her letters to correspondents are quite stern, limiting evidence of compassion toward outgroup members."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Maddocks, Fiona. *Hildegard of Bingen: The Woman of Her Age*. Doubleday, 2001.",
+              "Kienzle, Beverly Mayne. *Hildegard of Bingen and Her Gospel Homilies*. Brepols, 2009."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hildegard defied Abbot Kuno to relocate her nuns to Rupertsberg despite institutional resistance and financial uncertainty (~1150). She conducted four preaching tours across Germany — unprecedented for a woman — addressing clergy and laity in Mainz, Trier, Cologne, and elsewhere. She wrote to Emperor Frederick Barbarossa criticizing his support for antipopes during the papal schism. At age ~80, she refused to exhume a reconciled man's body from her cemetery despite an interdict depriving her community of sacraments, enduring this for months until vindicated."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Silvas, Anna. *Jutta and Hildegard: The Biographical Sources*. Brepols, 1998.",
+              "Theoderic of Echternach. *Vita Sanctae Hildegardis*, in Silvas 1998."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Hildegard's primary biographical sources — Theoderic of Echternach's *Vita* and Guibert of Gembloux's accounts — are hagiographic and present her as divinely guided, removing most evidence of error or reversal. She did evolve from private reluctance to publish her visions toward full public engagement, but this is framed as divine command rather than acknowledged personal growth. No clear documented instance of reversing a prior position after accepting correction has survived in the record."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Maddocks, Fiona. *Hildegard of Bingen: The Woman of Her Age*. Doubleday, 2001.",
+              "Baird and Ehrman, trans. *The Letters of Hildegard of Bingen*, Vol. I (letters regarding Richardis). Oxford University Press, 1994."
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Hildegard functioned effectively across multiple qualitatively different forms of adversity: (1) chronic debilitating illness (likely severe migraines) throughout her life; (2) institutional resistance when establishing Rupertsberg against her male superiors' wishes; (3) bereavement and emotional loss when Richardis von Stade was transferred and subsequently died; (4) the interdict of 1178-79, which deprived her community of sacraments — an existential threat for a monastic community. Through each, she remained productive and effective."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Newman, Barbara. *Sister of Wisdom*. University of California Press, 1987.",
+              "Dronke, Peter. *Women Writers of the Middle Ages*. Cambridge University Press, 1984."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hildegard simultaneously inhabited at least five seemingly contradictory roles without incoherence: (1) cloistered Benedictine nun AND itinerant public preacher; (2) physically frail, chronically ill woman AND one of the most prolific authors of her century; (3) woman in a deeply patriarchal institution AND commanding voice who advised popes and confronted emperors; (4) mystical visionary AND empirical naturalist/medical practitioner; (5) strict monastic authority AND tender pastoral caregiver. These tensions are integrated through her concept of divinely-granted authority, creating a coherent selfhood."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Hildegard of Bingen. *Scivias*, trans. Hart and Bishop. Paulist Press, 1990.",
+              "Theoderic of Echternach. *Vita Sanctae Hildegardis*, in Silvas 1998."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hildegard's theological writings in *Scivias* and *Liber Divinorum Operum* address death and cosmic judgment with equanimity and systematic confidence. Her behavior during the interdict at age ~80 — accepting deprivation of sacraments (the most feared spiritual consequence for a medieval Christian) rather than compromising principle — demonstrates composure in the face of existential threat. Hagiographic accounts of her peaceful death exist but cannot be independently verified, which prevents a score of 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Sacks, Oliver. *Migraine*. Vintage, 1992 (revised edition, discusses Hildegard's visions).",
+              "Flanagan, Sabina. *Hildegard of Bingen, 1098-1179: A Visionary Life*. Routledge, 1998."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hildegard suffered chronic illness throughout her life — Oliver Sacks identified her visionary experiences as consistent with severe migraine aura. Despite this debilitating condition, she lived to approximately 81 (exceptional longevity for the 12th century), conducted four preaching tours requiring extensive overland travel across medieval Germany, and remained intellectually productive into her final years, managing the interdict crisis at age ~80."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Holsinger, Bruce. *Music, Body, and Desire in Medieval Culture*. Stanford University Press, 2001.",
+              "Higley, Sarah. *Hildegard of Bingen's Unknown Language*. Palgrave Macmillan, 2007."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hildegard's 77+ musical compositions reveal ecstatic aesthetic engagement that exceeds liturgical necessity — her melodies are notably wide-ranging and lyrical, among the most expressive of any medieval composer. The *Lingua Ignota*, a constructed language of 1,000+ words with a unique alphabet, demonstrates genuinely playful creative invention with no clear instrumental purpose. Her nature descriptions in *Physica* reveal sensory delight in the beauty of creation — she describes the scent, color, and qualities of plants with evident pleasure beyond utilitarian cataloguing."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 6.67,
+          "Core_5D_Avg": 8.1,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Hildegard of Bingen",
+      "overall": {
+        "Core_5D_Avg": 8.1,
+        "Overall_Normalized_Equal_Avg": 7.64,
+        "General_Competency_Avg_10scale": 5.33
+      },
+      "summary": "A 12th-century Benedictine abbess and polymath of extraordinary cognitive and cultural-social reach. Hildegard excelled as composer, theologian, naturalist, medical writer, and institutional founder, inhabiting contradictory roles (cloistered nun/public preacher, mystic/empiricist, frail body/enormous output) with remarkable coherence. Her strongest domains are creative innovation, aesthetic depth, institution-building, and archetype resonance. Relational scores are tempered by the Richardis episode and monastic context. Heinlein breadth is moderate — she was a specialist-generalist within intellectual and pastoral domains rather than a broadly physical polymath. Overall: one of the most complete exemplars of medieval personhood.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.6,
+          "General_Competency_Avg_10scale": 5.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Hildegard of Bingen. *Physica*, trans. Throop. Healing Arts Press, 1998."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hildegard wrote extensively about food properties, dietary recommendations, and the health effects of various preparations (spelt porridge, fennel, chestnuts, beer brewed with specific herbs). Her *Physica* contains what amount to recipes and dietary prescriptions. However, as a noble-born abbess, she likely directed rather than personally prepared meals. Knowledge of food is documented; personal culinary practice is not."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Flanagan, Sabina. *Hildegard of Bingen, 1098-1179*. Routledge, 1998."
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence exists that Hildegard engaged in physical combat or martial training. As a cloistered Benedictine nun from age 8, combat was entirely outside her life experience. She defended her community through diplomatic and legal means rather than physical force."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Hildegard of Bingen. *Causae et Curae*, ed. Moulinier. Berlin, 2003.",
+            "Sweet, Victoria. *Rooted in the Earth, Rooted in the Sky*. Routledge, 2006."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hildegard practiced medicine at her convent and wrote *Causae et Curae*, a comprehensive guide to physical and emotional care. Her pastoral correspondence provided spiritual caregiving to troubled individuals. Monastic abbesses routinely oversaw infirmary care. Her detailed knowledge of remedies for conditions from insomnia to melancholy demonstrates sustained caregiving engagement."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Maddocks, Fiona. *Hildegard of Bingen: The Woman of Her Age*. Doubleday, 2001.",
+            "Hildegard of Bingen. *Scivias*, trans. Hart and Bishop. Paulist Press, 1990."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hildegard accepted the interdict of 1178-79 — deprivation of sacraments, the gravest spiritual threat for a medieval monastic community — with composure, choosing principle over capitulation. She endured chronic illness throughout her life without apparent despair, framing suffering within a theological framework of meaning. Her theological writings engage death and judgment with systematic equanimity. Hagiographic death accounts describe peaceful composure but cannot be independently verified."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Hildegard of Bingen. *Causae et Curae*, ed. Moulinier. Berlin, 2003."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Benedictine Rule requires manual labor (*ora et labora*), and Hildegard's detailed knowledge of herb preparation, tinctures, and poultices in *Causae et Curae* implies hands-on craft in pharmaceutical preparation. However, as an abbess of noble birth, her engagement with manual craft would have been limited compared to lay sisters. Direct evidence of tool-making or repair is absent."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Kienzle, Beverly Mayne. *Hildegard of Bingen and Her Gospel Homilies*. Brepols, 2009."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hildegard traveled extensively across Germany on four preaching tours (to Mainz, Trier, Cologne, Würzburg, Bamberg, and other cities), demonstrating familiarity with regional geography. However, as an abbess traveling with an entourage, she likely relied on guides rather than personally navigating. The evidence confirms travel but not personal wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Hildegard of Bingen. *Physica*, trans. Throop. Healing Arts Press, 1998."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hildegard's *Physica* contains detailed knowledge of animals, their properties, and uses (fish, birds, mammals), and she discusses food preparation and preservation. However, direct evidence of her personally butchering or processing animals is absent — as an abbess, these tasks would have been delegated. Her knowledge is primarily literary rather than demonstrably hands-on."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Newman, Barbara. *Voice of the Living Light*. University of California Press, 1998.",
+            "Flanagan, Sabina. *Hildegard of Bingen, 1098-1179*. Routledge, 1998."
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Hildegard excelled at both giving and following direction. As abbess, she governed two communities for decades with evident effectiveness. As a member of the Church, she submitted her visions to papal authority for approval before publishing (Synod of Trier, 1147-48), demonstrating effective followership within institutional hierarchy. She deferred to episcopal authority on procedural matters while asserting principled independence on substantive ones — a sophisticated integration of leading and following."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Maddocks, Fiona. *Hildegard of Bingen: The Woman of Her Age*. Doubleday, 2001."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hildegard oversaw the construction of the Rupertsberg monastery, which required coordination of building projects. She may have had input on design (the convent included running water, an unusual feature). However, no evidence exists that she personally designed structures or engaged in construction work — her role was that of patron and director, not builder."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Flanagan, Sabina. *Hildegard of Bingen, 1098-1179*. Routledge, 1998.",
+            "Maddocks, Fiona. *Hildegard of Bingen: The Woman of Her Age*. Doubleday, 2001."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hildegard planned and executed the founding of two monasteries, including securing land, funding, and ecclesiastical permissions. She organized four major preaching tours across Germany requiring complex logistics. She coordinated the legal and diplomatic campaign to lift the interdict of 1178-79. These represent successful command of complex multi-step operations."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Holsinger, Bruce. *Music, Body, and Desire in Medieval Culture*. Stanford University Press, 2001.",
+            "Higley, Sarah. *Hildegard of Bingen's Unknown Language*. Palgrave Macmillan, 2007."
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Hildegard composed 77+ liturgical songs (*Symphonia armonie celestium revelationum*) and the *Ordo Virtutum*, the earliest known morality play with music. She invented the *Lingua Ignota* with its own alphabet. She wrote three major visionary-theological works with vivid imagery and likely supervised their illuminations. She is the most-recorded medieval composer. This represents an exceptional breadth and depth of artistic output unmatched by nearly any medieval figure."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Sweet, Victoria. *Rooted in the Earth, Rooted in the Sky*. Routledge, 2006.",
+            "Hildegard of Bingen. *Causae et Curae*, ed. Moulinier. Berlin, 2003."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hildegard's *Causae et Curae* and the medical sections of *Physica* represent one of the most comprehensive medieval medical compilations, covering treatments for conditions from migraines to skin disease to mental illness, including surgical interventions and pharmacological remedies. Era-normalized, this constitutes high medical competence. She practiced healing at her convent, though the extent of hands-on emergency practice versus theoretical compilation is uncertain."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Hildegard of Bingen. *Physica*, trans. Throop. Healing Arts Press, 1998."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Hildegard's cosmological works show systematic categorization (organizing virtues, vices, elements, humors into structured schemas), and her natural history writing in *Physica* demonstrates analytical classification of hundreds of plants, animals, and minerals. However, no mathematical work or quantitative reasoning is documented — her analytical mode was qualitative and taxonomic rather than numerical."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Hildegard of Bingen. *Physica*, trans. Throop. Healing Arts Press, 1998.",
+            "Sweet, Victoria. *Rooted in the Earth, Rooted in the Sky*. Routledge, 2006."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hildegard's *Physica* demonstrates extensive knowledge of cultivated plants, their growing conditions, and agricultural uses — she discusses hundreds of species with practical detail about soil, season, and cultivation. As abbess, she managed the economic resources of two monastic communities that required agricultural self-sufficiency. Her writings on spelt cultivation and use are particularly detailed and suggest direct familiarity with resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Higley, Sarah. *Hildegard of Bingen's Unknown Language*. Palgrave Macmillan, 2007.",
+            "Sweet, Victoria. *Rooted in the Earth, Rooted in the Sky*. Routledge, 2006."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hildegard developed systematic frameworks for understanding natural phenomena (her humoral-elemental medical system in *Causae et Curae*), created innovative musical notation and compositional techniques, and designed a constructed language with systematic grammatical structure (*Lingua Ignota*). Her Rupertsberg convent featured running water — suggesting engagement with practical engineering solutions. These represent cutting-edge intellectual-technical work for her era."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.1,
+    "general_competency_avg_0_10": 5.33,
+    "overall_normalized_equal_avg_0_10": 7.64,
+    "created_at": "2026-03-15T08:11:58.365Z",
+    "updated_at": "2026-03-15T08:11:58.368Z"
+  }
+}
+]

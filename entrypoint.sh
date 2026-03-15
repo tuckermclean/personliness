@@ -21,7 +21,14 @@ python manage.py migrate --noinput
 python manage.py collectstatic --noinput
 
 # Load fixtures
-python manage.py loaddata questions historical_figures || true
+python manage.py loaddata questions || true
+
+# Load per-figure fixtures
+if ls fixtures/figures/*.json 1>/dev/null 2>&1; then
+  for fixture in fixtures/figures/*.json; do
+    python manage.py loaddata "$fixture" || true
+  done
+fi
 
 # Create superuser if needed
 if [ "$CREATE_SUPERUSER" = "true" ]; then

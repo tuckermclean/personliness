@@ -1,0 +1,379 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 105,
+  "fields": {
+    "name": "Albert Einstein",
+    "slug": "albert-einstein",
+    "bio_short": "A supreme creative intellect whose paradigm-shifting contributions to physics define the archetype of scientific genius. Exceptional in aesthetic appreciation, existential composure, and paradox integration, but notably weak in relational intimacy and practical/manual competencies. His Heinlein breadth is narrow — concentrated in analytical reasoning, technical problem-solving, and existential composure — leaving most hands-on domains untouched. A life of extraordinary cognitive depth and cultural impact paired with significant personal relational shortcomings.",
+    "bio_long": "Albert Einstein was a German-born theoretical physicist best known for developing the theory of relativity. Einstein also made important contributions to quantum theory. His mass–energy equivalence formula E = mc2, which arises from special relativity, has been called \"the world's most famous equation\". He received the 1921 Nobel Prize in Physics for \"his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect\".",
+    "source_notes": "https://en.wikipedia.org/wiki/Albert_Einstein",
+    "image": "figures/330px-Albert_Einstein_Head_cleaned.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Pais, 'Subtle is the Lord' (1982)",
+              "Isaacson, 'Einstein: His Life and Universe' (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Einstein showed strategic adaptability in his scientific work: when his 1913 Entwurf theory of gravity failed, he systematically revised his approach, collaborated with Marcel Grossmann on Riemannian geometry, and by November 1915 arrived at the correct general relativistic field equations. He also showed practical strategic judgment in leaving Germany in 1932 before the Nazi seizure of power, and strategically timed his 1939 letter to FDR warning about atomic weapons. However, these are not cases of managing complex multi-actor campaigns under uncertainty."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Pais, 'Subtle is the Lord' (1982)",
+              "Stachel (ed.), 'Einstein's Miraculous Year' (1998)",
+              "Isaacson, 'Einstein: His Life and Universe' (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Einstein's 1905 annus mirabilis produced four revolutionary papers: special relativity redefined space and time, the photoelectric effect paper helped launch quantum theory, Brownian motion confirmed atomic theory, and E=mc² established mass-energy equivalence. His 1915 general theory of relativity replaced Newtonian gravity with spacetime curvature — a paradigm shift still operative today. Each of these represents a clear before/after difference in physics attributable to Einstein."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Einstein, 'Why Socialism?' Monthly Review (1949)",
+              "Fine, 'The Shaky Game: Einstein, Realism, and the Quantum Theory' (1986)",
+              "Jammer, 'Einstein and Religion' (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Einstein articulated thoughtful ethical positions on pacifism, socialism ('Why Socialism?', Monthly Review, 1949), and civil rights. His philosophy of science — especially his realist critique of the Copenhagen interpretation and the EPR thought experiment (1935) — influenced philosophers of science including Popper and later realists. His ethical reasoning influenced peace movements and his Spinoza-inspired naturalistic theology was widely discussed. However, his ethical philosophy was not systematically developed at the level of professional philosophers and drew on existing traditions rather than creating new ethical frameworks."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Rowe & Schulmann (eds.), 'Einstein on Politics' (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Einstein served on the board of the Hebrew University of Jerusalem but his involvement was contentious and he resigned in frustration over governance issues. He helped attract talent to the Institute for Advanced Study in Princeton but was not its administrative architect (that was Abraham Flexner). He showed little aptitude for or interest in organizational management, preferring solitary intellectual work."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Born, 'The Born-Einstein Letters' (1971)",
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Speziali (ed.), 'Albert Einstein–Michele Besso Correspondence' (1972)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Einstein inhabited multiple relational modes: spouse (twice), parent, lifelong friend (Michele Besso, Max Born — their correspondence spanning decades), subordinate (Swiss patent office clerk under Friedrich Haller), colleague/adversary (the Bohr-Einstein debates combined genuine friendship with deep intellectual opposition), public figure to millions, and mentor (Leopold Infeld, Nathan Rosen). He showed qualitatively different behavior across these modes — warm and playful with Besso, rigorously combative with Bohr, charming with the public. However, his intimate relational modes (spouse, parent) were notably weaker than his intellectual and public ones."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Collected Papers of Albert Einstein, Vol. 8",
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Overbye, 'Einstein in Love' (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Einstein's first marriage to Mileva Marić deteriorated badly; he imposed humiliating conditions in 1914 (demanding she serve meals in his room, cease all personal relations, and expect no intimacy), conducted an affair with his cousin Elsa, and the marriage ended in divorce in 1919. His second marriage to Elsa was more stable but Einstein continued extramarital relationships. There is little evidence of deep mutual emotional support during crises. The fate of his first daughter Lieserl (born before marriage to Mileva) remains unknown."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Overbye, 'Einstein in Love' (2000)",
+              "Neffe, 'Einstein: A Biography' (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Einstein was largely absent as a father. After divorcing Mileva, he saw his sons infrequently. His relationship with Eduard was particularly painful — Eduard developed schizophrenia and was institutionalized, and Einstein rarely visited after emigrating to the US in 1933. His relationship with Hans Albert was strained for years (Einstein opposed Hans Albert's first marriage). As a scientific mentor, he was not known for close supervision of students, preferring solitary work. His assistants and collaborators (e.g., Infeld, Podolsky) produced work but largely under Einstein's direction rather than developing independent research programs."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Pais, 'Subtle is the Lord' (1982)",
+              "Galison, 'Einstein's Clocks, Poincaré's Maps' (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Einstein's theories underpin GPS technology (general relativistic corrections), nuclear energy and weapons (E=mc²), semiconductor electronics and solar cells (photoelectric effect), and modern cosmology (general relativity). His work has transformed physics, technology, philosophy of science, and popular culture across every civilization on Earth. His impact is clearly operative today and will remain so for centuries. He is routinely ranked among the most influential people in human history."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Missner, 'Why Einstein Became Famous in America', Social Studies of Science (1985)",
+              "Isaacson, 'Einstein: His Life and Universe' (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Einstein is the universal archetype of the genius scientist. His name is a synonym for intelligence in dozens of languages ('You're no Einstein'). His wild-haired image is one of the most recognizable in human history, recognized across cultures from East Asia to Latin America to Africa. He embodies the archetype of the absent-minded professor, the rebellious thinker, and the moral scientist across virtually all cultural traditions."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Batterson, 'Pursuit of Genius: Flexner, Einstein, and the Early Faculty at the IAS' (2006)",
+              "Isaacson, 'Einstein: His Life and Universe' (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Einstein's primary institutional contributions were helping to make the Institute for Advanced Study at Princeton a premier research center and his involvement with the Hebrew University of Jerusalem, though his relationship with the latter was contentious and he resigned. The IAS survived and thrived, but Einstein was a prestigious faculty member rather than the institutional architect. He did not create organizational structures or governance systems that endured independently."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Rowe & Schulmann, 'Einstein on Politics' (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Einstein's intellectual influence was enormous — he reshaped 20th-century physics and served as the world's most prominent public intellectual for decades. He influenced the Zionist movement, the atomic scientists' peace movement, and civil rights advocacy. However, his leadership was exercised primarily through moral authority and public statements rather than through direct organizational management. He did not lead in qualitatively different contexts (e.g., both crisis management and institution-building) in the way a score of 3 requires."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Dukas & Hoffmann, 'Albert Einstein: The Human Side' (1979)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Einstein was famously informal and unpretentious: he refused to wear socks, sailed his small boat on Lake Carnegie in Princeton, played violin with amateur chamber groups, told jokes to neighborhood children, and walked to work in disheveled clothes even at the height of global fame. His humor was well-documented — his quips are among the most quoted in modern culture. These mundane engagements were genuine and continued throughout his years of greatest fame."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Rowe & Schulmann, 'Einstein on Politics' (2007)",
+              "Isaacson, 'Einstein: His Life and Universe' (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Einstein consistently advocated for justice across multiple causes: anti-racism, anti-fascism, civil liberties, and international law. He supported Zionism but also advocated for Arab-Jewish cooperation, writing to Chaim Weizmann about the need to respect Arab rights — a position that went against the mainstream of the movement he supported. He declined the presidency of Israel in 1952, partly because he felt he lacked the political skills but also expressing concern about the treatment of Palestinians. However, most of his justice work was advocacy rather than cases where he personally ruled against his own interests."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Jerome & Taylor, 'Einstein on Race and Racism' (2005)",
+              "Collected Papers of Albert Einstein, Vol. 8"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Einstein personally helped dozens of Jewish refugees escape Nazi Germany through letters of recommendation and financial support. He showed compassion toward outgroup members: he spoke at the historically Black Lincoln University in 1946 calling racism 'a disease of white people,' befriended Paul Robeson, and advocated for the Scottsboro Boys. However, his treatment of his first wife Mileva Marić — including the infamous 1914 list of conditions for their marriage — and his emotional distance from his sons, especially the schizophrenic Eduard, reveal significant limitations in personal empathy."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Rowe & Schulmann, 'Einstein on Politics' (2007)",
+              "Jerome, 'The Einstein File' (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Einstein publicly opposed German militarism during WWI (signing the counter-manifesto 'Manifesto to the Europeans' in 1914 when almost all German intellectuals supported the war), faced anti-Semitic death threats in the 1920s (including after Rathenau's assassination), and maintained his public advocacy for civil rights during the McCarthy era despite FBI surveillance. He endured professional isolation in his later decades as the physics community rejected his unified field theory approach. This represents sustained courage across political, personal, and professional domains."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Clark, 'Einstein: The Life and Times' (1971)",
+              "Rowe & Schulmann, 'Einstein on Politics' (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Einstein reversed his absolute pacifism when faced with the rise of Nazism, acknowledging that unconditional pacifism was untenable against Hitler — a genuine and documented shift from his earlier position (e.g., his 1933 letter to the Belgian king). He later expressed deep regret over the 1939 letter to FDR that contributed to the Manhattan Project, calling it 'the one great mistake in my life.' He also acknowledged scientific errors publicly, such as his introduction of the cosmological constant, which he reportedly called his 'biggest blunder.'"
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Pais, 'Subtle is the Lord' (1982)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Einstein endured multiple forms of adversity: exile from his homeland in 1933, anti-Semitic persecution and death threats in the 1920s, the institutionalization of his son Eduard for schizophrenia, the moral anguish over the atomic bomb, and decades of professional isolation as the physics community diverged from his unified field theory program. He maintained productive scientific work and public engagement throughout all of these. This spans material/political adversity and personal bereavement/grief."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Fine, 'The Shaky Game' (1986)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Einstein inhabited at least four seemingly contradictory roles coherently: (1) revolutionary who overturned Newtonian physics yet conservative who resisted quantum indeterminacy; (2) pacifist who catalyzed the atomic bomb project; (3) intensely private, solitary thinker who became the world's most public intellectual; (4) Zionist who advocated for Arab rights; (5) a figure of supreme rationality who spoke of cosmic religious feeling and mystery. He integrated these without fragmentation, articulating how each position followed from deeper principles."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Pais, 'Subtle is the Lord' (1982)",
+              "Isaacson, 'Einstein: His Life and Universe' (2007)",
+              "Dukas & Hoffmann, 'Albert Einstein: The Human Side' (1979)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "When Einstein's abdominal aortic aneurysm ruptured in April 1955, he refused surgery, stating: 'I want to go when I want to go. It is tasteless to prolong life artificially. I have done my share; it is time to go. I will do it elegantly.' He spent his final days calmly working on calculations and died peacefully on April 18, 1955. This is a paradigmatic case of documented composure in the face of one's own imminent death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Isaacson, 'Einstein: His Life and Universe' (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Einstein was an avid sailor throughout his life and enjoyed long walks, but he was not known for exceptional physical feats or endurance. He developed an aortic aneurysm and experienced significant health problems in his later decades. His physical activities were recreational rather than demanding. No evidence of notable physical skill across multiple life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Dukas & Hoffmann, 'Albert Einstein: The Human Side' (1979)",
+              "Isaacson, 'Einstein: His Life and Universe' (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Einstein played violin (Mozart, Bach, Beethoven sonatas) passionately throughout his life, calling music a central joy — not for performance or political purposes but for pure aesthetic pleasure, often in informal chamber settings with friends. He sailed regularly for the sheer delight of it, frequently capsizing and cheerfully continuing. He expressed profound aesthetic wonder at the structure of the universe: 'The most beautiful thing we can experience is the mysterious.' His playful humor was legendary and non-instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.62,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Albert Einstein",
+      "overall": {
+        "Core_5D_Avg": 6.62,
+        "Overall_Normalized_Equal_Avg": 6.07,
+        "General_Competency_Avg_10scale": 3.33
+      },
+      "summary": "A supreme creative intellect whose paradigm-shifting contributions to physics define the archetype of scientific genius. Exceptional in aesthetic appreciation, existential composure, and paradox integration, but notably weak in relational intimacy and practical/manual competencies. His Heinlein breadth is narrow — concentrated in analytical reasoning, technical problem-solving, and existential composure — leaving most hands-on domains untouched. A life of extraordinary cognitive depth and cultural impact paired with significant personal relational shortcomings.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.0,
+          "General_Competency_Avg_10scale": 3.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of culinary skills or interest in cooking. Einstein relied on others (wives, housekeepers, institutional dining) for meals throughout his life."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Rowe & Schulmann, 'Einstein on Politics' (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Einstein never served in any military capacity, never engaged in physical combat, and was a committed pacifist for most of his life. No evidence of combat training or defensive physical skills."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)",
+            "Overbye, 'Einstein in Love' (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Einstein helped numerous Jewish refugees escape Nazi Germany through personal letters of recommendation and financial assistance, showing care at a societal level. However, his caregiving in personal contexts was weak — he was emotionally distant from his wives and sons, particularly failing to support Eduard during his institutionalization for schizophrenia."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Pais, 'Subtle is the Lord' (1982)",
+            "Isaacson, 'Einstein: His Life and Universe' (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Einstein's refusal of life-saving surgery in April 1955, his calm statement ('I have done my share; it is time to go. I will do it elegantly'), and his spending his final hours working on calculations demonstrate paradigmatic existential composure. This was consistent with a lifelong pattern of philosophical equanimity in the face of exile, persecution, and professional isolation."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of significant manual craft or repair skills. Einstein's work at the Swiss Patent Office (1902–1909) involved evaluating others' inventions on paper, not building or repairing devices. He was not known for hands-on mechanical ability."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)",
+            "Dukas & Hoffmann, 'Albert Einstein: The Human Side' (1979)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Einstein was a lifelong recreational sailor on Swiss and New Jersey lakes, which required basic navigation and weather-reading skills. However, his sailing was notably casual — he frequently capsized, got lost, and had to be rescued. His navigation was limited to small-boat lake sailing rather than demanding wayfinding."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Einstein engaged in butchering, animal husbandry, or food processing of any kind. He lived an urban academic life from early adulthood onward."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)",
+            "Rowe & Schulmann, 'Einstein on Politics' (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Einstein demonstrated followership as a dutiful patent office clerk under Friedrich Haller (1902–1909) and showed intellectual leadership as the world's preeminent physicist and public intellectual. However, he was not an effective organizational leader — his tenure on the Hebrew University board was contentious — and his leadership was exercised through moral authority rather than direct command or coordination of groups."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Einstein designed or built physical structures. His work was entirely theoretical. He did not engage in fabrication, carpentry, or construction in any documented context."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)",
+            "Rhodes, 'The Making of the Atomic Bomb' (1986)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Einstein's 1939 letter to FDR about atomic weapons showed strategic awareness of geopolitical threats, and he advised the U.S. Navy on explosives during WWII. However, he coordinated no complex operations and was not involved in planning the Manhattan Project itself. His scientific work was largely solitary rather than involving coordination of teams."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)",
+            "Dukas & Hoffmann, 'Albert Einstein: The Human Side' (1979)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Einstein was a devoted amateur violinist who played chamber music regularly throughout his life, performing Mozart and Beethoven sonatas with notable competence though not at a professional level. He occasionally performed at charity concerts. Music was central to his identity and he credited it with influencing his scientific thinking. This represents consistent, above-average artistic engagement for a non-professional."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Einstein possessed medical knowledge or provided emergency medical care at any point in his life."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Pais, 'Subtle is the Lord' (1982)",
+            "Stachel (ed.), 'Einstein's Miraculous Year' (1998)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Einstein is among the greatest analytical minds in recorded history. His derivation of special relativity from two simple postulates, his application of Riemannian geometry to gravity in general relativity, his statistical mechanics work on Brownian motion, and his analysis of the photoelectric effect all demonstrate supreme analytical reasoning. He mastered tensor calculus for GR and his thought experiments (elevators, trains, twins) represent unparalleled analytical clarity."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Isaacson, 'Einstein: His Life and Universe' (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of agricultural work or resource management. Einstein lived in urban academic settings throughout his adult life."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Pais, 'Subtle is the Lord' (1982)",
+            "Janssen & Renn, 'How Einstein Found His Field Equations', Physics Today (2015)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Einstein's work at the patent office gave him intimate familiarity with the technical systems of his era. More importantly, his scientific work represents the pinnacle of systemic problem-solving: general relativity required synthesizing non-Euclidean geometry, the equivalence principle, and Mach's principle into a single coherent framework over eight years of sustained effort (1907–1915). His approach to the photoelectric effect and Brownian motion similarly applied cutting-edge theoretical tools to resolve long-standing problems."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.62,
+    "general_competency_avg_0_10": 3.33,
+    "overall_normalized_equal_avg_0_10": 6.07,
+    "created_at": "2026-03-15T08:34:53.790Z",
+    "updated_at": "2026-03-15T08:34:53.794Z"
+  }
+}
+]

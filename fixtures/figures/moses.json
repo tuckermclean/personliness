@@ -1,0 +1,377 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 80,
+  "fields": {
+    "name": "Moses",
+    "slug": "moses",
+    "bio_short": "Moses is a towering figure of uncertain historicity whose cultural-social impact is among the highest in human history. The Mosaic legal-ethical tradition shaped Judaism, Christianity, Islam, and Western law for millennia. Biblical narratives portray exceptional leadership across crisis and stability, profound hardship tolerance, and notable paradox integration (prince/shepherd, warrior/lawgiver, powerful/humble). Relational evidence is thin, and Heinlein-style practical competency outside leadership and existential composure is poorly documented. Nearly all evidence derives from composite bib",
+    "bio_long": "In Abrahamic religions, Moses was the Hebrew prophet who led the Israelites out of slavery in the Exodus from Egypt. He is considered the most important prophet in Judaism and Samaritanism, and one of the most important prophets in Christianity, Islam, the Baháʼí Faith, and other Abrahamic religions. According to the Abrahamic scriptures, God dictated the Mosaic Law to Moses, which he wrote down and which formed part of the Torah.",
+    "source_notes": "https://en.wikipedia.org/wiki/Moses",
+    "image": "figures/330px-Rembrandt_Harmensz._van_Rijn_079.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Propp, *Exodus 1-18* (Anchor Bible, 1999)",
+              "Coats, *Moses: Heroic Man, Man of God* (1988)",
+              "Childs, *The Book of Exodus* (1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The biblical narrative shows adaptive planning: after the failed spy mission at Kadesh-barnea (Numbers 13-14), Moses reorganized for a 40-year wilderness sojourn. He accepted Jethro's advice to delegate judicial authority (Exodus 18), demonstrating willingness to adapt organizational plans. The battle against the Amalekites (Exodus 17) required tactical coordination. However, many successes are attributed to divine intervention rather than personal strategic adaptation."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Assmann, *Moses the Egyptian* (1997)",
+              "Friedman, *Who Wrote the Bible?* (1987)",
+              "Smith, *The Origins of Biblical Monotheism* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The covenantal monotheism attributed to Moses — a contractual relationship between a single deity and an entire people, with ethical rather than purely cultic obligations — represents a paradigm shift in religious thought. Assmann's 'Mosaic distinction' between true and false religion marks a before/after in intellectual history. However, critical scholarship (Wellhausen, Friedman) argues that the legal and theological innovations attributed to Moses evolved over centuries and were retrojected onto him, making individual attribution uncertain and preventing a confident score of 3."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Levinson, *Deuteronomy and the Hermeneutics of Legal Innovation* (1997)",
+              "Assmann, *Moses the Egyptian* (1997)",
+              "Walzer, *Exodus and Revolution* (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Decalogue and the broader Mosaic legal corpus (Covenant Code, Exodus 20-23; Holiness Code, Leviticus 19; Deuteronomic Code) articulate ethical principles — monotheistic obligation, social justice for strangers, widows, and orphans (Deut 10:18-19), sabbatical rest for all — that influenced not only Israelite religion but Jewish, Christian, Islamic, and secular Western legal-ethical traditions across millennia. The principle 'love the stranger, for you were strangers in Egypt' represents sophisticated ethical reasoning rooted in experiential empathy. Score 3 is met because these principles influenced thinkers far beyond Moses' own community."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Levinson, *Deuteronomy and the Hermeneutics of Legal Innovation* (1997)",
+              "Westbrook, *A History of Ancient Near Eastern Law* (2003)",
+              "Milgrom, *Leviticus* (Anchor Bible, 1991-2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Mosaic legal code — encompassing civil, criminal, ritual, and ethical law — structured Israelite and later Jewish communal life for over two millennia, functioning well beyond Moses' direct oversight. The hierarchical judicial system (rulers of thousands, hundreds, fifties, tens; Exodus 18:21-26), tribal organization with census (Numbers 1-2), and Levitical institutional framework all represent sophisticated administrative architecture. These systems survived not merely two generations but thousands of years with recognizable continuity in rabbinic Judaism."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Alter, *The Five Books of Moses* (2004)",
+              "Coats, *Moses: Heroic Man, Man of God* (1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Moses occupied multiple relational modes: spouse (Zipporah), parent (Gershom, Eliezer), child (adopted by Pharaoh's daughter), subordinate (to God; to Jethro as son-in-law), superior (to Joshua, Aaron, the Israelites), adversary (Pharaoh, Korah), friend/peer (Aaron, Hur), and in-law (Jethro). While at least five modes are present, most are thinly documented — the text provides little qualitative detail about how his behavior differed across these modes. His subordinate behavior with Jethro (Exodus 18) does contrast with his commanding role, but further differentiation is sparse."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Propp, *Exodus 1-18* (Anchor Bible, 1999)",
+              "Alter, *The Five Books of Moses* (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Moses married Zipporah, daughter of Jethro (Exodus 2:21), and possibly a Cushite woman (Numbers 12:1). The circumcision incident (Exodus 4:24-26) suggests marital tension. Zipporah and the children were sent back to Jethro and later reunited with Moses (Exodus 18:2-6), suggesting a period of separation during the Exodus. Beyond these scattered references, the text provides almost no evidence about the quality of Moses' intimate partnerships — no documented mutuality, emotional availability, or support during crisis from the spousal perspective."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Coats, *Moses: Heroic Man, Man of God* (1988)",
+              "Hawk, *Joshua* (Berit Olam, 2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Moses' mentorship of Joshua is well-documented and represents genuine success: Joshua developed autonomous competence, leading Israel into Canaan after Moses' death. Moses formally commissioned him (Numbers 27:18-23, Deut 31:7-8) and shared leadership responsibilities gradually. However, Moses' biological sons Gershom and Eliezer are virtually absent from the narrative — they neither succeeded him nor appear as significant figures. Aaron, another mentee, failed dramatically with the golden calf (Exodus 32). The Joshua case prevents a score lower than 2, but the mixed record prevents 3."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Walzer, *Exodus and Revolution* (1985)",
+              "Assmann, *Moses the Egyptian* (1997)",
+              "Sarna, *Exploring Exodus* (1986)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Mosaic tradition's effects are operative 3,000+ years later across multiple civilizations: the Decalogue remains foundational to Western moral and legal discourse; Mosaic law influenced Jewish halakha, Christian canon law, Islamic sharia (via Quranic Moses narratives), and Enlightenment natural law theory. The Exodus narrative shaped liberation movements from American abolition to civil rights to anti-colonial struggles. Score 3 is met regardless of Moses' historicity, since the impact is attributable to the figure as cultural construct."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Walzer, *Exodus and Revolution* (1985)",
+              "Assmann, *Moses the Egyptian* (1997)",
+              "Langston, *Exodus Through the Centuries* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Moses functions as the archetypal liberator-lawgiver across Judaism, Christianity, Islam, and secular Western culture. Martin Luther King Jr. invoked Moses in his 'I've Been to the Mountaintop' speech; abolitionists cast their struggle in Exodus terms; liberation theology worldwide draws on the Moses narrative. The figure is recognized in cultures far beyond ancient Israel — in Islamic tradition as Musa (one of the most frequently mentioned Quranic prophets), in Western art (Michelangelo's Moses), and in African American spiritual tradition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Levinson, *Deuteronomy and the Hermeneutics of Legal Innovation* (1997)",
+              "Schiffman, *From Text to Tradition* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The institutions attributed to Moses — the Levitical priesthood, the Tabernacle/Temple worship system, the covenantal legal framework, the tribal organizational structure, the judicial hierarchy — survived not merely two generations but millennia with recognizable continuity. Rabbinic Judaism, the synagogue, and Jewish communal governance all trace their institutional DNA to Mosaic foundations. Even after the Temple's destruction in 70 CE, the legal-institutional framework persisted through the Mishnah and Talmud."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Coats, *Moses: Heroic Man, Man of God* (1988)",
+              "Walzer, *Exodus and Revolution* (1985)",
+              "Weber, *Ancient Judaism* (1917/1952)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Moses led across qualitatively distinct contexts: crisis leadership during the Exodus and Red Sea crossing; military command against the Amalekites and Transjordan kings; legislative authority at Sinai; pastoral governance during 40 years of wilderness wandering; and priestly/spiritual guidance. He managed both small-group dynamics (family, inner circle of Aaron and Joshua) and a large national population under extreme conditions. The transition from crisis to institutional leadership clearly meets the score-3 threshold."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Alter, *The Five Books of Moses* (2004)",
+              "Coats, *Moses: Heroic Man, Man of God* (1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Moses is portrayed as a shepherd in Midian for decades (Exodus 3:1) — humble pastoral labor. He is described as a stammerer or poor speaker (Exodus 4:10), lending human vulnerability. Numbers 12:3 calls him 'the most humble man on the face of the earth.' He lived as a refugee, worked as a manual laborer, and had family conflicts (Numbers 12). However, at the height of his power, mundane everyday details (cooking, humor, manual work) are sparse; the narrative focuses on extraordinary events."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Levinson, *Deuteronomy and the Hermeneutics of Legal Innovation* (1997)",
+              "Walzer, *Exodus and Revolution* (1985)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The legal codes attributed to Moses emphasize impartial justice ('You shall not pervert justice; you shall not show partiality,' Deut 16:19-20) and protection for the vulnerable (stranger, widow, orphan). Moses established an independent judiciary (Exodus 18) and accepted God's judgment against himself at Meribah — ruling against his own interest by accepting exclusion from the Promised Land (Numbers 20:12; Deut 3:23-28). However, instances of collective punishment (golden calf, Midianites) complicate an unqualified score of 3."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Coats, *Moses: Heroic Man, Man of God* (1988)",
+              "Childs, *The Book of Exodus* (1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Moses repeatedly interceded with God on behalf of the sinful Israelites, notably after the golden calf incident where he offered his own erasure from God's book (Exodus 32:11-14, 32). He assisted Midianite women at the well (Exodus 2:16-17) — an outgroup act. However, he also ordered mass killings (3,000 after the golden calf, Exodus 32:27-28; the Midianite massacre, Numbers 31:17), which represent significant counterexamples that prevent a score of 3. The preponderant pattern shows intercession and concern, but the counterexamples are substantial and representative."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Propp, *Exodus 1-18* (Anchor Bible, 1999)",
+              "Milgrom, *Numbers* (JPS Torah Commentary, 1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Moses confronted Pharaoh repeatedly despite escalating threats (Exodus 5-12), led the people through the Red Sea crisis (Exodus 14), faced down Korah's armed rebellion (Numbers 16), endured constant popular murmuring and death threats across 40 years of wilderness leadership, and stood his ground when even his siblings challenged him (Numbers 12). This represents sustained courage across multiple high-stakes situations spanning decades, not a single dramatic moment."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Childs, *The Book of Exodus* (1974)",
+              "Alter, *The Five Books of Moses* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Notably, the Hebrew Bible does not sanitize Moses. He killed the Egyptian taskmaster impulsively (Exodus 2:12), resisted his calling at the burning bush (Exodus 3-4), struck the rock in anger at Meribah rather than speaking to it (Numbers 20:10-12), and accepted divine punishment for this sin. His initial reluctance gave way to decisive leadership, representing genuine behavioral change. The tradition's willingness to record his flaws distinguishes it from pure hagiography. Score 3 would require more dramatic reversals of position."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Coats, *Moses: Heroic Man, Man of God* (1988)",
+              "Milgrom, *Numbers* (JPS Torah Commentary, 1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Moses endured qualitatively distinct forms of adversity: exile from Egypt after killing the taskmaster (political flight); 40 years of material deprivation in the wilderness; constant rebellions and death threats from his own people (Korah's revolt, murmuring narratives); personal bereavement and loss (separation from adoptive Egyptian family, sister Miriam's death in Numbers 20:1, brother Aaron's death in Numbers 20:28); and the crushing knowledge that he would be denied entry to the Promised Land. He functioned effectively throughout all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Coats, *Moses: Heroic Man, Man of God* (1988)",
+              "Buber, *Moses: The Revelation and the Covenant* (1946)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Moses inhabited at least five seemingly contradictory roles without fragmentation: (1) prince of Egypt raised in Pharaoh's palace and humble shepherd in Midian; (2) warrior who directed battles and lawgiver who established a justice system; (3) the most powerful human leader of his people yet described as 'the most humble man on earth' (Numbers 12:3); (4) fierce defender of God's honor (golden calf punishment) and compassionate intercessor for sinners (Exodus 32:11-14); (5) stammering reluctant prophet and thundering orator of Deuteronomy."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Alter, *The Five Books of Moses* (2004)",
+              "Tigay, *Deuteronomy* (JPS Torah Commentary, 1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Moses accepted God's decree that he would not enter the Promised Land with composure after an initial appeal was denied (Deut 3:23-28). He then methodically prepared for death: commissioning Joshua as successor (Deut 31:7-8; Numbers 27:18-23), delivering farewell addresses (Deuteronomy 31-33), blessing each tribe (Deuteronomy 33), and ascending Mount Nebo to view the land before dying (Deut 34:1-5). This represents documented composure and intentionality in the face of one's own imminent death — the score-3 threshold."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Propp, *Exodus 1-18* (Anchor Bible, 1999)",
+              "Alter, *The Five Books of Moses* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Moses survived 40 years of shepherding in the Sinai/Midian wilderness, then 40 years of wilderness wandering leading the Israelites — representing sustained physical endurance across multiple life stages. He climbed Mount Sinai multiple times (Exodus 19, 24, 34). Deuteronomy 34:7 states that at age 120 'his eye was not dim nor his vigor abated,' though this is clearly hagiographic. The shepherding and wilderness leadership represent genuine physical demands even discounting miraculous elements."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Propp, *Exodus 19-40* (Anchor Bible, 2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Song of the Sea (Exodus 15) shows poetic-celebratory expression, but it serves a liturgical/communal function. The detailed aesthetic specifications for the Tabernacle (Exodus 25-31) — gold, blue, purple, scarlet fabrics, intricate craftsmanship — show appreciation for beauty, but these are presented as divinely dictated rather than personal aesthetic choices. There is no clear evidence of non-instrumental play, humor, or aesthetic engagement for its own sake."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.74,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Moses",
+      "overall": {
+        "Core_5D_Avg": 7.74,
+        "Overall_Normalized_Equal_Avg": 7.3,
+        "General_Competency_Avg_10scale": 5.11
+      },
+      "summary": "Moses is a towering figure of uncertain historicity whose cultural-social impact is among the highest in human history. The Mosaic legal-ethical tradition shaped Judaism, Christianity, Islam, and Western law for millennia. Biblical narratives portray exceptional leadership across crisis and stability, profound hardship tolerance, and notable paradox integration (prince/shepherd, warrior/lawgiver, powerful/humble). Relational evidence is thin, and Heinlein-style practical competency outside leadership and existential composure is poorly documented. Nearly all evidence derives from composite biblical texts written centuries after purported events, capping most confidence at Medium.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.53,
+          "General_Competency_Avg_10scale": 5.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "There is no evidence in the biblical record of Moses personally preparing meals or demonstrating culinary skill. The Passover instructions (Exodus 12) detail food preparation protocols, but these are communal directives, not evidence of personal cooking. Manna and quail provision (Exodus 16) is divine, not culinary. Anti-halo rule applies: leadership fame does not imply cooking competence."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Propp, *Exodus 1-18* (Anchor Bible, 1999)",
+            "Milgrom, *Numbers* (JPS Torah Commentary, 1990)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Moses killed an Egyptian taskmaster in direct physical confrontation (Exodus 2:12). He directed the battle against the Amalekites, raising his staff while Joshua fought below (Exodus 17:8-13). He led military campaigns against Sihon and Og in Transjordan (Numbers 21:21-35) and the Midianites (Numbers 31). While primarily a commander rather than front-line fighter, his Egyptian royal upbringing would have included military training. He demonstrated competence in both personal violence and military direction."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Childs, *The Book of Exodus* (1974)",
+            "Milgrom, *Numbers* (JPS Torah Commentary, 1990)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Moses repeatedly interceded with God for the people's survival and welfare — providing water (Exodus 17:1-7, Numbers 20), mediating for food (manna and quail, Exodus 16), and pleading against divine wrath (Exodus 32:11-14, Numbers 14:13-19). He comforted a despairing people and bore their emotional burdens. However, the caregiving is largely mediated through petition to God rather than direct physical provision, and his own children receive little recorded care."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Tigay, *Deuteronomy* (JPS Torah Commentary, 1996)",
+            "Alter, *The Five Books of Moses* (2004)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Moses faced his own death with exceptional composure: after God denied his plea to enter Canaan (Deut 3:23-26), he accepted the verdict, systematically prepared the nation for his absence, delivered extended farewell addresses (Deuteronomy 31-33), formally commissioned Joshua, blessed each tribe individually, and climbed Mount Nebo to view the Promised Land before dying (Deut 34:1-5). He also maintained composure during repeated existential crises (Red Sea, golden calf, Korah's rebellion) where the people panicked."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Milgrom, *Numbers* (JPS Torah Commentary, 1990)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Forty years of shepherding in the Midian wilderness would have required basic tool maintenance, rope-making, and equipment repair — standard for the pastoral context. Moses personally fashioned the bronze serpent (Numbers 21:8-9), demonstrating at least basic metalworking or crafting skill. However, specific manual craft competence is not a prominent feature of the narrative, and major construction projects were delegated to artisans."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Propp, *Exodus 1-18* (Anchor Bible, 1999)",
+            "Sarna, *Exploring Exodus* (1986)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Moses guided the Israelites through the Sinai wilderness for 40 years, a terrain he knew from his decades of shepherding in Midian. He knew the location of Horeb/Sinai (Exodus 3:1, 19:1) and navigated to specific oases and landmarks. He sought Hobab's help as a local guide (Numbers 10:29-32), showing awareness of navigational needs. Though divine guidance (pillar of cloud/fire) is credited, era-normalized, leading a large group through desert terrain requires substantial wayfinding knowledge."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Propp, *Exodus 1-18* (Anchor Bible, 1999)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Moses worked as a shepherd for Jethro's flocks for approximately 40 years in Midian (Exodus 3:1), which would have required animal husbandry skills including birthing, shearing, and basic slaughter. The Passover instructions (Exodus 12:3-11) describe detailed lamb preparation. However, no specific personal skill in butchering or food processing is documented beyond what is inferred from his pastoral occupation."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Weber, *Ancient Judaism* (1917/1952)",
+            "Coats, *Moses: Heroic Man, Man of God* (1988)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Moses excelled at both giving direction and following others. As leader: he commanded a nation through exodus, wilderness, and conquest preparation. As follower: he obeyed divine commands even when reluctant (Exodus 3-4), accepted Jethro's organizational advice and implemented it immediately (Exodus 18:24), and submitted to God's judgment at Meribah without revolt (Deut 3:26). He also cooperated with Aaron, Hur, and Joshua in shared leadership. This dual capacity — authoritative command and genuine deference — is exceptionally well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Propp, *Exodus 19-40* (Anchor Bible, 2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Moses received and transmitted detailed specifications for the Tabernacle (Exodus 25-31), demonstrating understanding of architectural design, but actual construction was delegated to Bezalel and Oholiab (Exodus 31:1-6, 35:30-36:1). No evidence indicates Moses personally built structures. His shepherding background would have required constructing basic shelters and pens, but this is inference rather than documented skill."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Propp, *Exodus 1-18* (Anchor Bible, 1999)",
+            "Coats, *Moses: Heroic Man, Man of God* (1988)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Moses planned and executed the Exodus (timing around Passover, organizing departure logistics for a large population, Exodus 12-14), directed the military campaign against the Amalekites with tactical delegation to Joshua (Exodus 17:8-13), and coordinated Transjordan military operations (Numbers 21, 31). He adapted organizational structure on Jethro's advice (Exodus 18). However, many strategic successes are attributed to divine instruction rather than independent planning."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Cross and Freedman, *Studies in Ancient Yahwistic Poetry* (1975)",
+            "Alter, *The Art of Biblical Poetry* (1985)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Song of the Sea (Exodus 15:1-18) is one of the oldest and most powerful poems in the Hebrew Bible, attributed to Moses. Psalm 90 is traditionally ascribed to him. The farewell addresses in Deuteronomy display masterful rhetorical and literary artistry. Moses also transmitted elaborate aesthetic specifications for the Tabernacle (gold, jewels, embroidered fabrics). While authorship of these texts is debated by critical scholars, the tradition consistently attributes significant literary-cultural production to Moses."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Milgrom, *Leviticus 1-16* (Anchor Bible, 1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Levitical purity laws (Leviticus 13-14) describe sophisticated disease identification and quarantine procedures for skin diseases, and the bronze serpent (Numbers 21:8-9) functioned as a remedy for snake bites. These demonstrate health-management knowledge, era-normalized. However, these are presented as divinely instructed rather than personal medical skill, and no specific instances of Moses personally treating injuries or illness are documented."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Milgrom, *Numbers* (JPS Torah Commentary, 1990)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Moses oversaw census-taking of the Israelite tribes (Numbers 1-2, 26), and the legal codes include precise numerical specifications (dimensions, weights, measures, proportional offerings). His Egyptian royal education (Acts 7:22 claims he was 'educated in all the wisdom of the Egyptians') would plausibly have included mathematics. However, no specific mathematical reasoning or analytical problem-solving is documented beyond administrative use of numbers."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Borowski, *Agriculture in Iron Age Israel* (1987)",
+            "Milgrom, *Leviticus* (Anchor Bible, 1991-2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Mosaic laws include sophisticated agricultural legislation: sabbatical year land rest (Exodus 23:10-11, Leviticus 25), gleaning rights for the poor (Leviticus 19:9-10), and prohibitions on mixed planting (Leviticus 19:19). Moses also managed water resources in the desert (Exodus 17, Numbers 20). However, Moses himself was a shepherd and leader rather than a farmer, and the agricultural laws may reflect later Israelite settlement experience attributed to him."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Propp, *Exodus 19-40* (Anchor Bible, 2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Tabernacle specifications (Exodus 25-31) represent cutting-edge technical design for portable sacred architecture, including detailed metalwork, textile, and woodworking specifications. Moses also constructed the bronze serpent (Numbers 21:9). His Egyptian education would have exposed him to advanced engineering and technical knowledge. However, actual technical execution was delegated to specialists (Bezalel, Oholiab), and no independent technical problem-solving by Moses is clearly documented."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.74,
+    "general_competency_avg_0_10": 5.11,
+    "overall_normalized_equal_avg_0_10": 7.3,
+    "created_at": "2026-03-15T07:17:55.659Z",
+    "updated_at": "2026-03-15T07:17:55.662Z"
+  }
+}
+]

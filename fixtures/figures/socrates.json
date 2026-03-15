@@ -1,0 +1,398 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 94,
+  "fields": {
+    "name": "Socrates",
+    "slug": "socrates",
+    "bio_short": "Socrates scores exceptionally on ethical/philosophical insight, creative thinking, courage, justice, mortality acceptance, paradox integration, and cultural legacy—traits defining his historical significance. Cognitive is moderated by limited strategic and administrative engagement. Moral-Affective scores are strong, with slight uncertainty on moral growth due to hagiographic sourcing. Cultural-Social impact is near-maximal. Embodied-Existential scores reflect documented military endurance and his iconic death. Relational scores are mixed: strong mentoring and relational range but limited spou",
+    "bio_long": "Socrates was an ancient Greek philosopher from Classical Athens, perhaps the first Western moral philosopher, and a major inspiration on his student Plato, who largely founded the tradition of Western philosophy. An enigmatic figure, Socrates authored no texts and is known mainly through the posthumous accounts of classical writers, particularly his students Plato and Xenophon. These accounts are written as dialogues, in which Socrates and his interlocutors examine a subject in the style of question and answer; they gave rise to the Socratic dialogue literary genre. Contradictory accounts of Socrates make a reconstruction of his philosophy nearly impossible, a situation known as the Socratic problem. Socrates was a polarizing figure in Athenian society. In 399 BC, he was accused of impiety and corrupting the youth. After a trial that lasted a day, he was sentenced to death. As related by Plato, he was put to death by administration of poison after refusing offers from allies to help him escape.",
+    "source_notes": "https://en.wikipedia.org/wiki/Socrates",
+    "image": "figures/330px-Socrate_du_Louvre.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Plato, Apology 32c-d",
+              "Plato, Laches 181b",
+              "Brickhouse & Smith, Socrates on Trial (1989)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Socrates showed situational awareness—maintaining composure during the Athenian retreat at Delium (424 BC) and navigating political danger under the Thirty Tyrants by refusing to arrest Leon of Salamis—but he was not primarily a strategic planner. He deliberately avoided political career and his trial defense in the Apology makes no attempt at strategic self-preservation, suggesting strategic thinking was not a defining trait."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Aristotle, Metaphysics 987b",
+              "Cicero, Tusculan Disputations V.4.10",
+              "Vlastos, Socratic Studies (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Socrates created a paradigm shift in philosophy by turning it from pre-Socratic cosmology toward ethics and epistemology. The elenctic method—systematic cross-examination to expose contradictions in interlocutors' beliefs—was genuinely novel and became the foundation for dialectical reasoning in Western education, law (the Socratic method in legal pedagogy), and philosophy. The before/after difference is well documented by Aristotle and Cicero."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Aristotle, Metaphysics 1078b",
+              "Vlastos, Socrates: Ironist and Moral Philosopher (1991)",
+              "Plato, Apology 38a"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Socrates is arguably the foundational figure of Western moral philosophy. His insights—that the unexamined life is not worth living, that virtue is knowledge, that it is better to suffer injustice than commit it—influenced Plato, Aristotle, the Stoics, and through them virtually all subsequent Western and Islamic philosophical traditions. Aristotle credits him with inductive arguments and universal definitions (Metaphysics 1078b). His influence extended well beyond his own community and era."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Plato, Apology 32a-b",
+              "Xenophon, Memorabilia 1.1.18",
+              "Hansen, The Athenian Democracy in the Age of Demosthenes (1991)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Socrates served on the Boule (Council of 500) and briefly as epistates (presiding officer) of the Assembly during the trial of the Arginusae generals (406 BC), where he upheld procedural legality by refusing an illegal collective vote. However, he held no sustained administrative role and deliberately avoided political office. No systems or policies endured from his brief civic service."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Plato, Republic 336b-354c (Thrasymachus encounter)",
+              "Plato, Crito (friendship with Crito)",
+              "Xenophon, Memorabilia 3.1 (varied interlocutors)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Socrates demonstrably operated across at least six distinct relational modes: (1) spouse to Xanthippe; (2) parent to three sons; (3) devoted friend to Crito, Chaerephon, and others; (4) mentor/teacher to Plato, Xenophon, and others; (5) subordinate as a hoplite following military orders; (6) adversary in dialectical encounters with sophists like Thrasymachus and Callicles; (7) citizen engaging strangers in the agora. Plato's dialogues show qualitatively different relational styles across these contexts—gentle with students, sharp with sophists, deferential as a soldier, playful with friends."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Plato, Phaedo 60a",
+              "Xenophon, Symposium 2.10",
+              "Nails, The People of Plato (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Evidence about Socrates' marriage to Xanthippe is thin and largely filtered through hostile later traditions (Diogenes Laertius, Aelian) portraying her as a shrew. In Plato's Phaedo (60a), Xanthippe weeps at his deathbed, suggesting genuine attachment. In Xenophon's Symposium (2.10), Socrates jokes about enduring her temperament. But there is no documented evidence of mutual respect, emotional availability, or support during crisis from both partners. His spending all day in the agora rather than at home suggests limited spousal investment."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Plato, Apology 34d, 41e",
+              "Plato, Symposium 215d-216c (Alcibiades' testimony)",
+              "Nails, The People of Plato (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "As a father of three sons (Lamprocles, Sophroniscus, Menexenus), Socrates left scant documented evidence of parenting quality; in the Apology (41e) he asks the jury to look after his sons, suggesting concern but also acknowledging he has not provided for them materially. As a mentor, his record is stronger: Plato developed extraordinary philosophical autonomy, and multiple other students founded independent schools. However, Alcibiades—his most famous associate—became a notorious traitor, suggesting uneven mentoring outcomes."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Vlastos, Socrates: Ironist and Moral Philosopher (1991)",
+              "Taylor, Socrates: A Very Short Introduction (1998)",
+              "Gutas, Greek Thought, Arabic Culture (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Socrates' impact is still clearly operative 2,400+ years later across multiple civilizations. The Socratic method is taught in law schools and philosophy departments worldwide. His ethical framework shaped Platonism, Stoicism, early Christianity, Islamic philosophy (through the Arabic reception of Greek thought), and Enlightenment rationalism. He consistently appears on lists of the most influential figures in world history. His legacy spans European, Middle Eastern, and global intellectual traditions."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Jaspers, The Great Philosophers (1957)",
+              "Wilson, The Death of Socrates (2007)",
+              "David, The Death of Socrates (1787, Metropolitan Museum of Art)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Socrates is the archetype of the philosopher-martyr: the wise person who dies for truth. His image—the gadfly of Athens, the barefoot sage drinking hemlock—is recognized across virtually all cultures that have engaged with Western thought. He is routinely compared to Jesus, Confucius, and the Buddha as one of the great exemplary teachers. The 'Socratic' label is applied cross-culturally to describe inquiry-based teaching. Jacques-Louis David's 'Death of Socrates' (1787) crystallized an already universal archetype."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Diogenes Laertius, Lives of the Eminent Philosophers II-VI",
+              "Long, From Epicurus to Epictetus (2006)",
+              "Kahn, Plato and the Socratic Dialogue (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Socrates founded no formal institution, but his informal philosophical circle directly spawned multiple enduring schools: Plato's Academy (lasting ~300 years), Antisthenes' Cynic tradition, Aristippus' Cyrenaic school, and Euclid's Megarian school. These survived well beyond two generations and shaped the institutional landscape of ancient philosophy. The attribution is indirect—Socrates created the intellectual and relational conditions, but others built the formal structures."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Plato, Symposium 215d-216a",
+              "Diogenes Laertius, Lives of the Eminent Philosophers II",
+              "Kahn, Plato and the Socratic Dialogue (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Socrates exercised extraordinary intellectual leadership over his circle—inspiring Plato, Xenophon, Antisthenes, Aristippus, and Euclid of Megara—and influenced Athenian civic discourse. However, his leadership was primarily informal and intellectual, operating within small-group philosophical settings. He did not lead large populations or manage institutional-scale operations. His influence was transformative but exercised through personal charisma and dialectic rather than formal command across qualitatively different contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Xenophon, Symposium",
+              "Plato, Symposium 220a-b",
+              "Nails, The People of Plato (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Socrates was famously embedded in everyday Athenian life. He spent his days in the agora conversing with craftsmen, politicians, and youth. He was the son of a stonemason (Sophroniscus) and a midwife (Phaenarete). He went barefoot, wore a simple cloak, and lived in poverty. Xenophon's Symposium shows him joking about his own snub-nosed ugliness. Alcibiades describes him drinking at symposia without becoming drunk. He maintained these ordinary habits even at the height of his philosophical fame."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Plato, Apology 32a-d",
+              "Plato, Crito 50a-54d",
+              "Brickhouse & Smith, Plato's Socrates (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Socrates ruled against personal and group interest in favor of principle in at least two well-documented cases: (1) as epistates, he alone refused to put the illegal motion for collective trial of the Arginusae generals to a vote, despite popular pressure and threats; (2) he refused the Thirty Tyrants' order to arrest Leon of Salamis, knowing it could cost him his life. In the Crito, he refuses escape because it would violate Athens' laws, prioritizing principle over self-preservation."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Plato, Symposium 215d-216c",
+              "Plato, Apology 41d-e",
+              "Aristophanes, Clouds"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Socrates showed genuine concern for the moral and intellectual well-being of his interlocutors, including adversaries. In Plato's Apology (41d-e), he expresses concern even for his condemners. Alcibiades in the Symposium (216a-c) describes Socrates as uniquely caring about souls. However, his elenctic method could be publicly humiliating, and Aristophanes' Clouds suggests contemporaries perceived arrogance. Evidence of compassion toward outgroup members exists but is filtered through sympathetic sources."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Plato, Symposium 219e-221c",
+              "Plato, Apology 28d-e, 32c-d",
+              "Xenophon, Memorabilia 4.4.1"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Socrates demonstrated sustained courage across multiple high-stakes domains: military service at Potidaea (432 BC), Delium (424 BC), and Amphipolis (422 BC), where Alcibiades testified to his extraordinary bravery and physical endurance; political defiance of the Thirty Tyrants by refusing to arrest Leon of Salamis at personal risk; and facing his death sentence with composure rather than fleeing. This spans military, political, and judicial contexts over decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Plato, Apology 21d",
+              "Xenophon, Memorabilia 4.4.9",
+              "Vlastos, Socrates: Ironist and Moral Philosopher (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Socrates' foundational philosophical stance—claiming to know nothing (Apology 21d)—represents a systematic commitment to intellectual humility and openness to correction, corroborated across Plato, Xenophon, and Aristotle. However, specific documented instances of reversing a prior position with visible behavioral change are absent from the record. The hagiographic tendency of Platonic sources may sanitize errors, but the profession of ignorance is independently attested and represents genuine moral-epistemological humility rather than mere rhetoric."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Plato, Symposium 219e-220b",
+              "Xenophon, Symposium 2.10",
+              "Plato, Phaedo 116c-118a"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Socrates endured qualitatively different forms of adversity with documented effectiveness: prolonged voluntary poverty despite opportunities for wealth (attested by both Plato and Xenophon); military hardships at Potidaea, Delium, and Amphipolis; a reportedly difficult domestic life with Xanthippe (Xenophon, Symposium 2.10); and facing his own death sentence with composure. He functioned at high intellectual capacity throughout all of these adversities."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Vlastos, Socrates: Ironist and Moral Philosopher (1991), ch. 1",
+              "Plato, Theaetetus 149a-151d",
+              "Plato, Apology 21d, 32a-d"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Socrates inhabited at least four seemingly contradictory roles coherently: (1) the wisest man who professes ignorance; (2) the devoted Athenian citizen who defies the state's orders; (3) the battle-hardened hoplite who is also a gentle philosophical midwife; (4) the poor man who rejects wealth yet attracts Athens' wealthiest youth; (5) the teacher who claims not to teach. These contradictions are not fragmented but integrated through a consistent philosophical identity. Vlastos calls this 'complex irony.'"
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Plato, Phaedo 116c-118a",
+              "Plato, Apology 40c-41c",
+              "Wilson, The Death of Socrates (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Socrates' death is the gold standard of existential composure in Western tradition. In Plato's Phaedo, he spends his final hours in calm philosophical discussion about the soul's immortality, takes the hemlock without trembling, and gently rebukes his weeping friends: 'I sent the women away mainly for this reason, to prevent their making such a scene' (117d-e). In the Apology, he argues death is either dreamless sleep or migration to a better place—either way, no evil. This is documented composure in the face of imminent, self-accepted death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Plato, Symposium 219e-221b",
+              "Plato, Laches 181b",
+              "Xenophon, Memorabilia 1.6.2"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Alcibiades' account in Plato's Symposium (220a-d) describes Socrates' remarkable endurance at Potidaea: walking barefoot on ice, enduring hunger and cold better than any other soldier, standing in one spot meditating for an entire day and night. He served as a hoplite in three major campaigns (Potidaea, Delium, Amphipolis), requiring sustained physical capacity. However, evidence is concentrated in middle age and filtered through admiring sources."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Xenophon, Symposium 2.17-19",
+              "Plato, Symposium 223c-d",
+              "Plato, Phaedo 60d"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Socrates attended and enjoyed symposia (drinking parties), engaging in playful banter and humor. In Xenophon's Symposium, he jokes about his ugliness, dances, and engages lightheartedly with companions. In Plato's Symposium, he is the last man standing after a night of drinking and philosophical conversation. He reportedly composed a hymn to Apollo while in prison (Phaedo 60d). This play appears genuine rather than instrumental, though evidence is limited to sympathetic sources."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 6.67,
+          "Core_5D_Avg": 7.8,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 8.33,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Socrates",
+      "overall": {
+        "Core_5D_Avg": 7.8,
+        "Overall_Normalized_Equal_Avg": 7.13,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "Socrates scores exceptionally on ethical/philosophical insight, creative thinking, courage, justice, mortality acceptance, paradox integration, and cultural legacy—traits defining his historical significance. Cognitive is moderated by limited strategic and administrative engagement. Moral-Affective scores are strong, with slight uncertainty on moral growth due to hagiographic sourcing. Cultural-Social impact is near-maximal. Embodied-Existential scores reflect documented military endurance and his iconic death. Relational scores are mixed: strong mentoring and relational range but limited spousal evidence. Heinlein competency is narrow, reflecting a philosopher's life rather than a generalist's. Core 5D Avg: 7.80/10. Heinlein Avg: 3.78/10. Overall: 7.13/10.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Plato, Symposium 219e-220a"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of cooking or culinary skill in any source. Socrates is noted for his indifference to food and ability to endure hunger (Symposium 219e-220a), which suggests minimal engagement with culinary arts."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Plato, Symposium 220d-221c",
+            "Plato, Laches 181b",
+            "Plutarch, Lives: Alcibiades 7"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Socrates served as a hoplite in three major engagements: Potidaea (432 BC), Delium (424 BC), and Amphipolis (422 BC). Alcibiades testified that at Potidaea, Socrates fought bravely and protected him when wounded. At Delium, Laches and Alcibiades report that Socrates conducted an orderly retreat, maintaining composure when others panicked. For a citizen-soldier, this represents consistent, above-average combat competence across multiple engagements."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Plato, Phaedo 117c-e",
+            "Plato, Apology 29d-e"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Socrates comforted his weeping friends in his final hours (Phaedo 117c-e) and expressed concern for his sons' upbringing (Apology 41e). His philosophical practice was framed as caring for souls (Apology 29d-e). However, there is no documented evidence of sustained physical caregiving—nursing, tending the sick, or hands-on childcare."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Plato, Phaedo 116c-118a",
+            "Plato, Apology 40c-41c",
+            "Xenophon, Apology of Socrates"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Socrates' composure in the face of his own death is among the most documented and iconic instances in world history. In the Phaedo, he calmly discusses philosophy on his final day, drinks the hemlock without distress, comforts his weeping friends, and dies with his last words being a reminder to Crito about a debt to Asclepius. In the Apology, he tells the jury that death holds no terror. This is corroborated across Plato and Xenophon and is not disputed in scholarship."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Diogenes Laertius, Lives 2.19",
+            "Hanson, The Western Way of War (1989)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "If the stonemason tradition is accurate, Socrates would have possessed manual craft skills learned from his father Sophroniscus. As a hoplite, he would have maintained his own arms and armor, a baseline manual competency for citizen-soldiers in Classical Athens. Evidence remains indirect and uncertain."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Plato, Symposium 219e-220a",
+            "Plato, Crito 52b (rarely left Athens)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Socrates marched on three military campaigns to locations across Greece (Potidaea in Thrace, Delium in Boeotia, Amphipolis in Macedonia), requiring overland navigation in the context of hoplite warfare. However, he was famously reluctant to leave Athens and is not noted for travel or navigational skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record that Socrates engaged in butchering, animal husbandry, or food processing. His lifestyle was urban and philosophically oriented."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Plato, Crito 50a-54d",
+            "Plato, Apology 28d-e",
+            "Plato, Symposium 219e-221c"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Socrates demonstrated both poles: as a hoplite, he followed orders and served in formation across three campaigns (followership); as philosophical leader, he directed discussions and inspired a circle of devoted followers (leadership); as epistates, he presided over the Assembly. He accepted the jury's verdict and obeyed Athens' laws even unto death (Crito), demonstrating principled followership of legitimate authority."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Diogenes Laertius, Lives of the Eminent Philosophers 2.19",
+            "Nails, The People of Plato (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Ancient tradition holds that Socrates was the son of Sophroniscus, a stonemason, and may have practiced the craft himself. A late tradition (Diogenes Laertius 2.19) claims he sculpted the Graces on the Acropolis, though this is disputed by scholars. Era-normalized, even basic stonemasonry training would represent construction competence."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Plato, Apology 32a-b",
+            "Xenophon, Memorabilia 1.1.18"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Socrates served as a hoplite in three campaigns but held no command role. His one day as epistates of the Assembly (Arginusae trial, 406 BC) showed procedural leadership but not strategic planning. He coordinated no complex operations and deliberately avoided political-military command."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Plato, Phaedo 60d-61b",
+            "Diogenes Laertius, Lives 2.19"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Socrates reportedly composed a hymn to Apollo and versified Aesop's fables while awaiting execution (Phaedo 60d-61b). The late tradition that he sculpted the Graces is uncertain. His philosophical dialogues, as recorded by Plato, show literary artistry, but the artistic form belongs to Plato rather than Socrates himself. Direct artistic output is episodic at best."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Plato, Symposium 220d-e"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "At the Battle of Potidaea, Alcibiades reports that Socrates protected him when he was wounded and saved his armor (Symposium 220d-e). This demonstrates battlefield emergency response—protecting a wounded comrade under fire. However, no evidence of medical knowledge or wound treatment is documented."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Aristotle, Metaphysics 1078b",
+            "Vlastos, Socratic Studies (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Socrates' elenctic method demonstrates exceptional analytical reasoning: identifying logical contradictions, constructing reductio ad absurdum arguments, and systematically testing definitions. Aristotle credits him with inductive reasoning and the pursuit of universal definitions (Metaphysics 1078b). While there is no specific evidence of mathematical computation, his logical-analytical capacity was extraordinary for any era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of agricultural activity or resource management. Socrates lived in urban Athens and was not associated with farming, land management, or resource cultivation in any source."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Vlastos, Socratic Studies (1994)",
+            "Diogenes Laertius, Lives 2.19"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Socrates developed the elenctic method as a systematic intellectual tool, which represents a form of problem-solving technology. If the stonemasonry tradition holds, he would have had era-appropriate technical skills. However, there is no documented engagement with the cutting-edge technologies of his time (e.g., engineering, shipbuilding, metallurgy)."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.8,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 7.13,
+    "created_at": "2026-03-15T08:11:46.257Z",
+    "updated_at": "2026-03-15T08:11:46.260Z"
+  }
+}
+]

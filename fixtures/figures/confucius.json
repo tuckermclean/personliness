@@ -1,0 +1,400 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 106,
+  "fields": {
+    "name": "Confucius",
+    "slug": "confucius",
+    "bio_short": "Confucius achieves near-perfect scores in the Cultural-Social dimension—his legacy, institution-building, archetypal resonance, and leadership are among the strongest in recorded history. His ethical and creative contributions to philosophy constitute a paradigm shift across East Asian civilization. Embodied-existential scores are high, reflecting documented hardship tolerance, aesthetic devotion, and paradox integration. Relational scores are limited by the near-total absence of evidence about his spousal life. Heinlein competency breadth is moderate: strong in artistic expression, leadership",
+    "bio_long": "Confucius, born Kong Qiu (孔丘), was a Chinese philosopher of the Spring and Autumn period who is traditionally considered the paragon of Chinese sages. Much of the shared cultural heritage of the Sinosphere originates in the philosophy and teachings of Confucius. His philosophical teachings, called Confucianism, emphasized personal and governmental morality, harmonious social relationships, righteousness, kindness, sincerity, and a ruler's responsibilities to lead by virtue.",
+    "source_notes": "https://en.wikipedia.org/wiki/Confucius",
+    "image": "figures/330px-Confucius_Tang_Dynasty.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Sima Qian, Shiji (Records of the Grand Historian), 'Kongzi Shijia'",
+              "Analects 9.5, 15.2",
+              "Chin, Annping, The Authentic Confucius (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Confucius adapted when his political career in Lu collapsed (~497 BCE), pivoting to a 13-year itinerant teaching mission across Wei, Chen, Cai, Song, and other states, successfully maintaining a cohesive band of disciples through danger (the siege at Kuang, near-starvation between Chen and Cai). His long-term strategy of educating future officials ultimately succeeded spectacularly, though his immediate political objectives consistently failed. He showed adaptability under threat but not repeated strategic triumph."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Eno, Robert, The Confucian Creation of Heaven (1990)",
+              "Nylan, Michael & Wilson, Thomas, Lives of Confucius (2010)",
+              "Analects 7.1, 7.7"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Despite claiming 'I transmit but do not innovate' (Analects 7.1), Confucius effected a demonstrable paradigm shift: he transformed aristocratic ritual codes into universal ethical principles accessible through education, and founded the tradition of private teaching open to all social strata ('I have never denied instruction to anyone who came with even a bundle of dried meat,' Analects 7.7). Before Confucius, learning was an aristocratic prerogative; after him, moral self-cultivation through study became the defining ideal of Chinese civilization."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Schwartz, Benjamin, The World of Thought in Ancient China (1985)",
+              "Fingarette, Herbert, Confucius: The Secular as Sacred (1972)",
+              "Analects (Lunyu), trans. D.C. Lau (1979)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Confucius articulated a coherent ethical framework centered on ren (humaneness), li (ritual propriety), yi (righteousness), and the junzi (exemplary person) ideal that influenced not only Chinese civilization but Korean, Japanese, and Vietnamese thought for over 2,500 years. His idea that moral self-cultivation is the foundation of political order influenced thinkers from Mencius and Xunzi through to Zhu Xi, Wang Yangming, and modern comparative philosophers. The ethical paradigm he articulated is recognized across civilizational boundaries."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Sima Qian, Shiji, 'Kongzi Shijia'",
+              "Creel, H.G., Confucius and the Chinese Way (1949)",
+              "Nylan & Wilson, Lives of Confucius (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Sima Qian reports Confucius served briefly as Minister of Crime (司寇) in Lu and brought improvements, but modern scholars (e.g., Creel, Nylan) dispute the extent and duration of this appointment. He reportedly managed granaries and livestock in youth. His administrative philosophy (rectification of names, government by virtue) was profound but his personal administrative track record is thin and largely unverifiable, with no documented systems that endured beyond his direct involvement."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Analects 9.5, 10.1-4, 11.9, 18.4",
+              "Lau, D.C., The Analects (1979)",
+              "Schwartz, Benjamin, The World of Thought in Ancient China (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Analects document qualitatively distinct relational behavior across multiple modes: as teacher/mentor (individualized instruction to diverse disciples), as political subordinate (deferential service to Duke Ding of Lu), as political advisor (frank counsel to various rulers), as friend (singing and joking with peers), as bereaved parent (grief at Kong Li's death), as adversary (calm defiance at Kuang and against Huan Tui), and as a mourner/companion (weeping for Yan Hui). He adapted his communication style to each context, demonstrating relational flexibility rather than a single mode."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Sima Qian, Shiji, 'Kongzi Shijia'",
+              "Nylan & Wilson, Lives of Confucius (2010)",
+              "Chin, Annping, The Authentic Confucius (2007)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "Almost nothing is known about Confucius's wife. Sima Qian mentions his marriage briefly; some later sources suggest a divorce. The Analects contain no substantive information about his marital relationship. Without credible evidence of the quality of this relationship—mutual respect, support during crisis, emotional availability—this trait cannot be scored above 0."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Analects 11.3, 11.22, 16.13",
+              "Sima Qian, Shiji, 'Kongzi Shijia'",
+              "Chin, Annping, The Authentic Confucius (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Confucius is one of history's greatest mentors. He trained disciples who developed genuine autonomy and competence: Zigong became a renowned diplomat and merchant; Zilu became a courageous administrator; Zixia became a major transmitter of learning; Yan Hui was acknowledged as surpassing the master in certain virtues. His pedagogical method was individualized—he tailored instruction to each student's character (Analects 11.22). As a father, he treated his son Kong Li similarly to other students, advising study of the Odes and Rites (16.13), suggesting equitable rather than preferential treatment."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Tu Wei-ming, Centrality and Commonality: An Essay on Confucian Religiousness (1989)",
+              "de Bary, Wm. Theodore, The Trouble with Confucianism (1991)",
+              "Schwartz, Benjamin, The World of Thought in Ancient China (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Confucianism shaped governance, education, family structure, and ethics across China, Korea, Japan, and Vietnam for over 2,500 years. It remains a living influence in East Asian societies today. Michael Hart's ranking placed Confucius among the most influential figures in history. His impact on multiple civilizations over millennia is among the most extensive of any individual in the historical record."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Nylan & Wilson, Lives of Confucius (2010)",
+              "Jensen, Lionel, Manufacturing Confucianism (1997)",
+              "Tu Wei-ming, Confucian Traditions in East Asian Modernity (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Confucius is the archetypal Sage-Teacher across East Asian civilization and is recognized globally as one of the foundational figures of world philosophy. He embodies the wise elder and moral teacher archetype across Chinese, Korean, Japanese, and Vietnamese cultures. In the West he is one of the most widely recognized non-Western philosophers. His image appears on currency, in temples, and in educational institutions worldwide."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Nylan & Wilson, Lives of Confucius (2010)",
+              "Elman, Benjamin, A Cultural History of Civil Examinations in Late Imperial China (2000)",
+              "Chin, Annping, The Authentic Confucius (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Confucius founded the tradition of private education in China, which persisted through the Confucian academy (shuyuan) system for over two millennia. His school survived through direct disciples (Zengzi, Zixia, Zigong) into the next generations (Zisi, then Mencius). The imperial examination system, formally established under the Sui and Tang dynasties but conceptually rooted in Confucian meritocratic ideals, endured until 1905. The Kong family estate at Qufu has been continuously maintained for ~2,500 years."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Analects 11.3 (listing of disciples by category)",
+              "Sima Qian, Shiji, 'Kongzi Shijia'",
+              "Schwartz, Benjamin, The World of Thought in Ancient China (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Confucius successfully led a diverse band of disciples through 13 years of wandering, maintaining cohesion under extreme adversity (starvation, military threats). He also led briefly in government in Lu and exercised enormous intellectual influence, reshaping the cultural trajectory of the entire Sinosphere. He led effectively in crisis (wandering years), stability (teaching in Lu), small groups (intimate instruction), and influenced large populations (through his disciples' subsequent political careers)."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Analects 7.27, 7.32, 10.8, 10.24-26, 9.6",
+              "Fingarette, Herbert, Confucius: The Secular as Sacred (1972)",
+              "Lau, D.C., Introduction to The Analects (1979)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Analects portray Confucius engaging in remarkably everyday activities at the height of his fame: he discusses food preferences in detail (10.8), fishes with a line but not a net (7.27), sings with companions and asks them to repeat songs he enjoys (7.32), adjusts his sleeping posture and clothing with care (10.24-26), and expresses frustration, humor, and sorrow openly with disciples. He explicitly mentioned learning menial skills in youth (9.6). This groundedness is a defining feature of the Analects' portrait."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Analects 18.4, 4.16, 13.18",
+              "Sima Qian, Shiji, 'Kongzi Shijia'",
+              "Schwartz, Benjamin, The World of Thought in Ancient China (1985)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Confucius left his position of influence in Lu when Duke Ding accepted eighty dancing girls from Qi and neglected state rituals—prioritizing principle over personal power (Analects 18.4). He refused to serve rulers he considered unjust, even when employment was desperately needed during his wandering years. He emphasized yi (righteousness) as foundational. However, documented cases of ruling against his own group's interest in judicial-style decisions are limited."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Analects 11.9-11, 10.17",
+              "Lau, D.C., Introduction to The Analects (1979)",
+              "Chin, Annping, The Authentic Confucius (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Analects document tangible acts of concern: Confucius wept excessively at Yan Hui's death ('Heaven is destroying me!' Analects 11.9), inquired after the health of injured stable-hands before asking about horses (10.17), and showed concern for the poor and hungry. However, documented compassion toward adversaries specifically is limited—he expressed disapproval of those he deemed morally deficient rather than outreach. His compassion was genuine but largely directed toward his in-group."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Analects 9.5, 15.2, 7.23",
+              "Sima Qian, Shiji, 'Kongzi Shijia'",
+              "Chin, Annping, The Authentic Confucius (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Confucius demonstrated sustained courage across multiple high-stakes situations: at the siege of Kuang, surrounded by armed men, he calmly declared 'If Heaven does not intend to destroy this culture, what can the people of Kuang do to me?' (Analects 9.5). Between Chen and Cai, when followers were starving and demoralized, he continued playing the qin and teaching (Analects 15.2). He repeatedly refused to compromise his principles despite years of political rejection, and endured the deaths of his son and favorite disciple while continuing his mission."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Analects 2.4, 7.33, 6.28, 9.6",
+              "Nylan & Wilson, Lives of Confucius (2010)",
+              "Lau, D.C., Introduction to The Analects (1979)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Analects 2.4 describes an explicit developmental trajectory: 'At fifteen I set my heart on learning… at seventy I could follow my heart's desire without overstepping the mark.' He acknowledged not having achieved ren himself (Analects 7.33). When criticized by Zilu for visiting the disreputable Nanzi, he swore an oath defending himself, suggesting he took the criticism seriously (6.28). He admitted 'When I was young, I was of humble station; therefore I learned many base skills' (9.6), showing willingness to acknowledge imperfect origins rather than construct a sanitized past."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Analects 15.2, 9.5, 11.9",
+              "Sima Qian, Shiji, 'Kongzi Shijia'",
+              "Chin, Annping, The Authentic Confucius (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Confucius endured qualitatively different forms of adversity while remaining effective: material deprivation (poverty in youth, near-starvation between Chen and Cai), political rejection (13 years of fruitless search for a receptive ruler), personal bereavement (death of his son Kong Li and beloved disciple Yan Hui), and physical danger (siege at Kuang, threats in Song from Huan Tui). Through all this he continued teaching, composing music, and maintaining his ethical commitments without collapse or abandonment of mission."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Analects 7.1, 7.20, 9.5, 9.6",
+              "Fingarette, Herbert, Confucius: The Secular as Sacred (1972)",
+              "Hall, David & Ames, Roger, Thinking Through Confucius (1987)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Confucius inhabited at least four seemingly contradictory roles without fragmentation: (1) revolutionary innovator who claimed to be merely a traditionalist transmitter; (2) descendant of Shang dynasty nobility who lived in poverty and performed menial labor; (3) supremely confident cultural custodian ('If Heaven does not destroy this culture, what can Kuang do to me?') who professed deep humility ('I am not born knowing; I love antiquity and seek it diligently,' 7.20); (4) political aspirant who repeatedly failed politically yet became the most influential figure in Chinese civilization through non-political means."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Analects 9.9, 7.35",
+              "Sima Qian, Shiji, 'Kongzi Shijia'",
+              "Zuo Zhuan, Duke Ai Year 16"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Confucius expressed composed awareness of mortality: 'The phoenix does not come; the river gives forth no chart. It is all over with me!' (Analects 9.9)—a lament that was nonetheless measured and symbolic rather than despairing. When seriously ill, he declined Zigong's offer to pray on his behalf, saying 'My praying has been for a long time' (7.35). However, his final days as recorded in the Zuo Zhuan and Shiji include expressions of sorrow rather than pure serenity, and sources are hagiographic, limiting certainty about his actual composure at the moment of death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Sima Qian, Shiji, 'Kongzi Shijia'",
+              "Analects 9.2 ('the Six Arts')",
+              "Chin, Annping, The Authentic Confucius (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Confucius endured 13 years of itinerant travel on foot across multiple states in his fifties and sixties, surviving near-starvation between Chen and Cai. Sima Qian describes him as tall (reportedly over 9 chi, ~6 feet) and physically imposing. He was trained in and taught archery and charioteering as part of the Six Arts. He survived to approximately age 72-73, exceptional longevity for the Spring and Autumn period, suggesting sustained physical robustness."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Analects 7.14, 7.32, 6.23, 3.25",
+              "Lau, D.C., The Analects (1979)",
+              "DeWoskin, Kenneth, A Song for One or Two: Music and the Concept of Art in Early China (1982)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Confucius's devotion to music was profound and non-instrumental: upon hearing the Shao music in Qi, he 'did not notice the taste of meat for three months' (Analects 7.14). He played the qin (lute) regularly, including during the crisis between Chen and Cai. He sang with companions and asked them to repeat melodies he enjoyed (7.32). He edited the Book of Songs (Shijing) and found genuine delight in nature, declaring 'The wise find joy in water; the benevolent find joy in mountains' (6.23). This aesthetic engagement appears genuinely intrinsic."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 6.67,
+          "Core_5D_Avg": 8.07,
+          "Cultural-Social": 10.0,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Confucius (Kong Qiu, 孔丘, c. 551–479 BCE)",
+      "overall": {
+        "Core_5D_Avg": 8.07,
+        "Overall_Normalized_Equal_Avg": 7.46,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Confucius achieves near-perfect scores in the Cultural-Social dimension—his legacy, institution-building, archetypal resonance, and leadership are among the strongest in recorded history. His ethical and creative contributions to philosophy constitute a paradigm shift across East Asian civilization. Embodied-existential scores are high, reflecting documented hardship tolerance, aesthetic devotion, and paradox integration. Relational scores are limited by the near-total absence of evidence about his spousal life. Heinlein competency breadth is moderate: strong in artistic expression, leadership, and existential composure, but thin evidence in construction, medicine, and culinary domains. Overall: a supreme sage-teacher with extraordinary depth in moral-cultural domains and moderate practical versatility.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Analects 10.8"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "The Analects (10.8) document elaborate food preferences—Confucius would not eat food improperly cut, without proper sauce, or past its prime—but this indicates discerning consumption rather than cooking ability. No evidence of personal culinary preparation is recorded."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Analects 9.2, 3.16",
+            "Sima Qian, Shiji, 'Kongzi Shijia'"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Confucius was trained in archery and charioteering as part of the Six Arts (六艺) and reportedly taught these skills. Archery was a central aristocratic accomplishment in Spring and Autumn China. However, he was not known as a warrior and no specific combat engagements are documented. He appears to have relied on moral authority and composure rather than martial skill when threatened at Kuang and Song."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Analects 11.9-10, 10.17, 15.2",
+            "Chin, Annping, The Authentic Confucius (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Confucius provided sustained emotional and intellectual care to his disciples over decades. He mourned Yan Hui's death with extraordinary grief (Analects 11.9-10), comforted disciples during crises (15.2), and adapted his teaching to individual emotional needs. He inquired after injured servants before asking about property (10.17). However, caregiving of physical dependents (children, elderly, sick) is poorly documented."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Analects 9.5, 15.2, 7.35",
+            "Sima Qian, Shiji, 'Kongzi Shijia'",
+            "Chin, Annping, The Authentic Confucius (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Confucius demonstrated remarkable composure in the face of mortal threat and crisis: at the siege of Kuang, surrounded by armed men, he played the qin and declared his confidence in Heaven's protection of culture (Analects 9.5). Between Chen and Cai, while starving, he continued teaching and making music while followers wept and raged (15.2). When ill, he responded with measured reflection rather than panic (7.35). His composure under existential threat was a defining characteristic."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Analects 9.6",
+            "Sima Qian, Shiji, 'Kongzi Shijia'"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Confucius himself stated, 'When I was young I was of humble station; therefore I became skilled in many menial things' (Analects 9.6). This suggests practical manual competence acquired in youth, though specific crafts or repairs are not documented. Era-normalized, a man of humble origins in Spring and Autumn China would have basic tool-use and repair skills."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Sima Qian, Shiji, 'Kongzi Shijia'",
+            "Chin, Annping, The Authentic Confucius (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Confucius traveled across at least seven states (Lu, Wei, Chen, Cai, Song, Cao, Zheng) over 13 years, navigating varied terrain in the Yellow River and Huai River regions without modern aids. He successfully led his group through politically hostile territories, avoiding or escaping dangers. This represents sustained practical wayfinding in the Spring and Autumn period context."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Sima Qian, Shiji, 'Kongzi Shijia'",
+            "Analects 9.6"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Sima Qian reports Confucius worked as a livestock manager (委吏/乘田) in his youth, suggesting practical experience with animal husbandry. He reportedly said he learned 'many base skills' due to his humble origins (Analects 9.6). However, detailed evidence of butchering or food processing skill is absent."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Analects 10.1-4, 15.2",
+            "Sima Qian, Shiji, 'Kongzi Shijia'",
+            "Schwartz, Benjamin, The World of Thought in Ancient China (1985)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Confucius demonstrated both effective leadership (maintaining a loyal cohort of disciples through 13 years of hardship, guiding students to successful careers) and appropriate followership (deferring to rulers according to ritual propriety, serving subordinate roles in Lu's government, and respecting elder authority). The Analects (10.1-4) describe his precise behavioral adaptation between contexts of authority and submission."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence exists of Confucius designing or building physical structures. While he may have had some exposure to manual work in youth, no specific construction or fabrication activities are documented."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Sima Qian, Shiji, 'Kongzi Shijia'",
+            "Creel, H.G., Confucius and the Chinese Way (1949)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Confucius's brief political career as Minister of Crime in Lu involved some administrative coordination, and Sima Qian credits him with a successful diplomatic mission at the Jiagu meeting. However, his 13-year search for political employment was strategically unsuccessful, and no major campaigns or complex operations are documented under his direct command."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Analects 3.25, 7.14, 7.32",
+            "Sima Qian, Shiji, 'Kongzi Shijia'",
+            "DeWoskin, Kenneth, A Song for One or Two (1982)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Confucius was a skilled musician who played the qin (lute) and stone chimes, sang regularly, and had deep musicological knowledge—he analyzed the Shao and Wu music in aesthetic and moral terms (Analects 3.25). He edited the Shijing (Book of Songs), reportedly selecting and arranging 305 poems from a larger corpus. He is traditionally credited with compiling the Spring and Autumn Annals. His cultural production shaped Chinese literary and aesthetic traditions for millennia."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Analects 10.16"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of medical knowledge or emergency medical response is documented for Confucius. When offered medicine from a visitor, he declined it cautiously, saying he did not understand it (Analects 10.16), which suggests limited medical knowledge rather than competence."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Sima Qian, Shiji, 'Kongzi Shijia'",
+            "Analects 7.17 (studying the Yi)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Confucius studied the Yijing (Book of Changes) intensively—tradition holds the leather binding of his copy broke three times from use (Sima Qian). The Yijing involves systematic pattern recognition. He reportedly managed granary accounts in youth. However, his primary intellectual mode was moral-humanistic reasoning rather than mathematical or quantitative analysis."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Sima Qian, Shiji, 'Kongzi Shijia'",
+            "Analects 13.4",
+            "Mencius 5B.5"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Confucius managed granaries (委吏) in his youth according to Sima Qian, and reportedly did the job well ('My calculations are all that have to be correct,' Mencius 5B.5). He also managed pastures. However, he later explicitly distanced himself from agricultural expertise: when Fan Chi asked about farming, he said 'I am not as good as an old farmer' (Analects 13.4)."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Analects 9.6",
+            "Sima Qian, Shiji, 'Kongzi Shijia'"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Confucius's intellectual orientation was humanistic and moral rather than technical. His management of granaries and livestock in youth suggests basic systemic competence within his era's technical context. He engaged with the Yijing's systematic framework. However, no specific technical innovations or complex problem-solving with tools or technologies is documented."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.07,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 7.46,
+    "created_at": "2026-03-15T08:35:31.906Z",
+    "updated_at": "2026-03-15T08:35:31.909Z"
+  }
+}
+]

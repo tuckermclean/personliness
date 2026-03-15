@@ -1,0 +1,354 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 100,
+  "fields": {
+    "name": "Cai Lun",
+    "slug": "cai-lun",
+    "bio_short": "Cai Lun's historical significance rests almost entirely on his improvement of papermaking (c. 105 CE), one of the most consequential technical innovations in human history. He scores exceptionally on Creative/Innovative Thinking and Impact Legacy, but evidence for most other dimensions is thin. As a eunuch court official whose biographical record derives primarily from the Hou Hanshu (compiled centuries later), documentation of his personal life, moral character, and relational world is sparse. He was implicated in a lethal court conspiracy, and his career ended in composed but tragic suicide.",
+    "bio_long": "Cai Lun, formerly romanized as Ts'ai Lun, was a Chinese eunuch court official of the Eastern Han dynasty. He occupies a pivotal place in the history of paper due to his addition of pulp via tree bark and hemp ends which resulted in the large-scale manufacture and worldwide spread of paper. Although traditionally regarded as the inventor of paper, earlier forms of paper have existed since the 3rd century BCE, so Cai's contributions are limited to innovation, rather than invention.",
+    "source_notes": "https://en.wikipedia.org/wiki/Cai_Lun",
+    "image": "figures/330px-Cai-lun.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Fan Ye, Hou Hanshu (Book of the Later Han), ch. 78",
+              "Tsien Tsuen-Hsuin, Written on Bamboo and Silk (2nd ed., 2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cai Lun navigated Eastern Han court politics for roughly 45 years, serving under Emperors Ming, Zhang, He, and An. He participated in the factional conspiracy that replaced Empress Song with Empress Dou, which succeeded politically. However, his career ended in failure when Empress Dou's faction lost power and he was ordered to report to prison—suggesting limited adaptive capacity when circumstances turned against him. No documented cases of successful adaptation after plan failure."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78",
+              "Tsien Tsuen-Hsuin, Written on Bamboo and Silk (2nd ed., 2004)",
+              "Needham, Science and Civilisation in China, Vol. 5, Part 1 (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "In 105 CE Cai Lun presented Emperor He with paper made from tree bark, hemp ends, old rags, and fishnets—a decisive improvement over earlier proto-papers and the expensive silk or cumbersome bamboo strips previously used for writing. This created a clear before/after paradigm shift: his method made paper cheap and scalable, eventually transforming writing, governance, education, and printing across Eurasia. While earlier forms of paper existed (archaeological finds at Fangmatan date to c. 2nd century BCE), Cai Lun's innovation in pulping diverse plant fibers was the breakthrough that enabled mass production."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No philosophical writings, ethical treatises, or moral teachings are attributed to Cai Lun. His recorded involvement in the conspiracy against Empress Song—who was forced to commit suicide—suggests political expediency rather than moral reflection. No evidence of influence on ethical thought."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78",
+              "Tsien Tsuen-Hsuin, Written on Bamboo and Silk (2nd ed., 2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cai Lun served as Shangshu Ling (Director of the Imperial Secretariat) and was placed in charge of the Shanfang (imperial workshops), overseeing manufacture of swords, weapons, and instruments. The Hou Hanshu notes that products made under his supervision were praised for quality and became standards. His papermaking process was adopted as the standard method across Han China and persisted for centuries, but as a manufacturing system rather than a legislative or organizational framework per se."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Cai Lun interacted with emperors as a subordinate, with workshop craftsmen as a superior, and with court factions as a political ally and rival. However, specific evidence of qualitatively distinct relational behavior across these modes is absent—the Hou Hanshu provides only a sparse sketch of his interactions. Fewer than five relational modes are documented with any specificity."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "As a eunuch, Cai Lun was excluded from conventional spousal or intimate partnerships by the nature of his court position. No evidence of any intimate relationship survives in the historical record."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No evidence of children (consistent with his status as a eunuch) or documented mentoring relationships. No named students, protégés, or successors are attributed to him in the Hou Hanshu or later sources."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Needham, Science and Civilisation in China, Vol. 5, Part 1 (1985)",
+              "Tsien Tsuen-Hsuin, Written on Bamboo and Silk (2nd ed., 2004)",
+              "Michael Hart, The 100: A Ranking of the Most Influential Persons in History (1978)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cai Lun's improved papermaking process is one of the most consequential technical innovations in human history. Paper spread from China to the Islamic world (after the Battle of Talas, 751 CE) and then to Europe, transforming writing, governance, education, commerce, and eventually enabling the printing revolution. The effects are clearly operative over 1900 years later across every civilization on earth. Michael Hart ranked Cai Lun 7th among the most influential people in history."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Tsien Tsuen-Hsuin, Written on Bamboo and Silk (2nd ed., 2004)",
+              "Needham, Science and Civilisation in China, Vol. 5, Part 1 (1985)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cai Lun is venerated in Chinese tradition as the patron saint of papermaking, and temples were historically dedicated to him. He is recognized outside China as the improver of paper. However, he does not function as a cross-cultural archetype in the way that figures like Prometheus, Confucius, or Leonardo do. His symbolic resonance is largely confined to Chinese cultural memory and the history of technology."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Tsien Tsuen-Hsuin, Written on Bamboo and Silk (2nd ed., 2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cai Lun's papermaking method became a standardized manufacturing process that spread throughout China and eventually worldwide, which has institutional characteristics. However, he did not found an enduring organization, school, or governance structure. The imperial workshops he directed predated him and their continuation was not primarily his legacy."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cai Lun held the senior position of Shangshu Ling and directed imperial workshops, indicating significant bureaucratic authority. He successfully presented his papermaking innovation to Emperor He. However, his influence was confined to the imperial court context; there is no evidence of leadership in qualitatively different settings (e.g., crisis command, community mobilization, or intellectual circles)."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No documented evidence of engagement with mundane, everyday activities such as cooking, humor, manual labor outside his official role, or interactions with ordinary people. His life as recorded in the Hou Hanshu is entirely framed by his court position and political activities."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No documented acts of fairness, impartiality, or principled justice are recorded. His participation in the Empress Song conspiracy—a political maneuver that led to an innocent woman's death—suggests the opposite of justice orientation."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No documented acts of compassion or empathy survive in the historical record. Cai Lun was implicated in the conspiracy that led to the forced suicide of Empress Song, acting on behalf of Empress Dou. This suggests political calculation rather than empathic concern for others."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cai Lun's decision to take poison rather than report to prison in 121 CE demonstrates a single moment of resolve in the face of ruin. Within Han dynasty cultural norms, choosing death over dishonor required courage. However, this is a single episode, not sustained courage across multiple high-stakes situations."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No evidence of moral self-correction, acknowledgment of error, or behavioral change in response to wrongdoing. The conspiracy against Empress Song is documented but there is no record of Cai Lun expressing remorse or altering his conduct afterward. The tradition does not sanitize this failing but also records no growth from it."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cai Lun endured castration to enter court service as a eunuch—a severe physical and psychological ordeal. He navigated the dangerous factional politics of the Eastern Han court for decades. However, when finally ordered to prison, he chose suicide rather than endure further adversity, suggesting limits to his hardship tolerance."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Cai Lun inhabited some paradoxical roles: a eunuch (socially marginalized) who became powerful; a political conspirator who was also a brilliant innovator; a court bureaucrat who engaged in hands-on technical work. However, the evidence of conscious integration of these tensions is thin, and only two clear paradoxes are documented, falling short of the three required for score 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "When ordered to report to prison in 121 CE, Cai Lun bathed, dressed in his finest court robes, and drank poison—a deliberate, composed, and ritualized act of facing death on his own terms. Within Han dynasty cultural norms, this was an honorable and dignified death. This meets the criterion of documented composure in the face of imminent death, though it is a single episode and could also be interpreted as avoidance of dishonor rather than philosophical acceptance."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Cai Lun's supervision of imperial weapon and instrument workshops suggests some familiarity with physical manufacturing processes. His longevity in court service (c. 75–121 CE, roughly 46 years) indicates sustained physical functioning. However, no specific physical feats or endurance episodes are documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Fan Ye, Hou Hanshu, ch. 78"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Hou Hanshu notes that weapons and instruments produced under Cai Lun's supervision at the imperial workshops were praised for their quality and craftsmanship, suggesting aesthetic standards in manufacturing. Before his suicide, he bathed and dressed in his finest court robes, indicating attention to aesthetic form. However, no evidence of play, humor, or non-instrumental aesthetic engagement survives."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.0,
+          "Relational": 1.11,
+          "Core_5D_Avg": 2.99,
+          "Cultural-Social": 4.0,
+          "Moral-Affective": 0.83,
+          "Embodied-Existential": 4.0
+        }
+      },
+      "figure": "Cai Lun",
+      "overall": {
+        "Core_5D_Avg": 2.99,
+        "Overall_Normalized_Equal_Avg": 3.05,
+        "General_Competency_Avg_10scale": 3.33
+      },
+      "summary": "Cai Lun's historical significance rests almost entirely on his improvement of papermaking (c. 105 CE), one of the most consequential technical innovations in human history. He scores exceptionally on Creative/Innovative Thinking and Impact Legacy, but evidence for most other dimensions is thin. As a eunuch court official whose biographical record derives primarily from the Hou Hanshu (compiled centuries later), documentation of his personal life, moral character, and relational world is sparse. He was implicated in a lethal court conspiracy, and his career ended in composed but tragic suicide. His profile is that of a brilliant technical innovator embedded in a narrow institutional role, not a broadly developed human being. Core 5D Avg: ~2.99/10; Heinlein Avg: ~3.33/10; Overall: ~3.05/10.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.0,
+          "General_Competency_Avg_10scale": 3.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of culinary abilities in any surviving source."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Fan Ye, Hou Hanshu, ch. 78"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "While Cai Lun supervised the manufacture of weapons at the imperial workshops, there is no evidence he personally engaged in combat or possessed martial skills."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Fan Ye, Hou Hanshu, ch. 78"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of caregiving or nurturing behavior in the historical record. As a eunuch court official, his documented roles were administrative and technical rather than caregiving."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Fan Ye, Hou Hanshu, ch. 78"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "When ordered to report to prison in 121 CE, Cai Lun bathed, dressed in his finest court robes, and deliberately drank poison—a composed, ritualized death consistent with Han dynasty norms of honorable self-termination. This shows significant composure in the face of personal ruin and imminent death."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Fan Ye, Hou Hanshu, ch. 78",
+            "Tsien Tsuen-Hsuin, Written on Bamboo and Silk (2nd ed., 2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cai Lun's papermaking innovation required extensive hands-on experimentation with soaking, pounding, and processing tree bark, hemp, rags, and fishnets into usable pulp. The Hou Hanshu also notes he supervised and improved the quality of weapons and implements at the Shanfang, suggesting direct craft knowledge. Era-normalized for Han dynasty standards."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of navigation or wayfinding abilities. Cai Lun's career was centered at the imperial court in Luoyang; no journeys or expeditions are documented."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of animal husbandry or food processing skills. While his papermaking process used plant fibers, this falls under technical problem-solving rather than animal/food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Fan Ye, Hou Hanshu, ch. 78"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cai Lun demonstrated effective followership as a loyal court official serving multiple emperors over decades, and effective leadership as director of the imperial workshops where he commanded craftsmen and managed production. He navigated the hierarchy of the Eastern Han court in both subordinate and directive roles."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Fan Ye, Hou Hanshu, ch. 78",
+            "Needham, Science and Civilisation in China, Vol. 5, Part 1 (1985)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cai Lun oversaw the imperial workshops where weapons, instruments, and paper were fabricated. His papermaking process required designing and building specialized equipment (screens, vats, drying frames). The Hou Hanshu credits him with improving the quality of manufactured goods, suggesting hands-on fabrication knowledge. Era-normalized for Han dynasty manufacturing context."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Fan Ye, Hou Hanshu, ch. 78",
+            "Tsien Tsuen-Hsuin, Written on Bamboo and Silk (2nd ed., 2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As Shangshu Ling and director of the imperial Shanfang workshops, Cai Lun coordinated complex manufacturing operations involving multiple crafts (weapons, instruments, paper). He successfully planned and executed the presentation of his papermaking innovation to Emperor He, securing imperial adoption."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal artistic creation—no poems, paintings, calligraphy, music, or literary works are attributed to Cai Lun. While he enabled artistic expression through paper, he was not himself documented as an artist."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of medical knowledge or emergency response skills in any surviving source."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Fan Ye, Hou Hanshu, ch. 78"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Managing imperial workshops and scaling a manufacturing process would have required some quantitative reasoning (material ratios, production quantities, resource allocation). However, no specific mathematical or analytical achievements are documented."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Fan Ye, Hou Hanshu, ch. 78"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Cai Lun's key innovation involved identifying and sourcing cheap, abundant raw materials (tree bark, hemp ends, old rags, fishnets) for paper production—a form of resource management. However, no evidence of agricultural skill per se is documented."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Needham, Science and Civilisation in China, Vol. 5, Part 1 (1985)",
+            "Tsien Tsuen-Hsuin, Written on Bamboo and Silk (2nd ed., 2004)",
+            "Fan Ye, Hou Hanshu, ch. 78"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Cai Lun's papermaking innovation represents an exceptional example of technical problem-solving with the cutting-edge materials science of his era. He systematically experimented with diverse fiber sources (tree bark, hemp, rags, fishnets), developed effective pulping and screening processes, and created a scalable manufacturing method that became the global standard for nearly two millennia. This was the most consequential materials-engineering achievement of the Han dynasty."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 2.99,
+    "general_competency_avg_0_10": 3.33,
+    "overall_normalized_equal_avg_0_10": 3.05,
+    "created_at": "2026-03-15T08:20:14.301Z",
+    "updated_at": "2026-03-15T08:20:14.304Z"
+  }
+}
+]

@@ -1,0 +1,369 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 114,
+  "fields": {
+    "name": "Ada Lovelace",
+    "slug": "ada-lovelace",
+    "bio_short": "A singular mathematical visionary whose conceptual leap—that computing machines could manipulate symbols beyond number—anticipated the digital age by over a century. Exceptional creative insight but narrow in practical competency breadth, constrained by aristocratic life, chronic illness, and an early death at 36. Strong embodied-existential presence through hardship tolerance and paradox integration (Byron's daughter turned mathematician; visionary who saw machines' limits). Cultural-Social impact is weighted toward posthumous symbolic resonance rather than institutional or leadership achieve",
+    "bio_long": "Augusta Ada King, Countess of Lovelace, also known as Ada Lovelace, was an English mathematician and writer chiefly known for work on Charles Babbage's proposed mechanical general-purpose computer, the analytical engine. She was the first to recognise the machine had applications beyond pure calculation. Lovelace is often considered the first computer programmer.",
+    "source_notes": "https://en.wikipedia.org/wiki/Ada_Lovelace",
+    "image": "figures/330px-Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped_UWasxKX.png",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Toole, Ada, the Enchantress of Numbers (1992)",
+              "Stein, Ada: A Life and a Legacy (1985)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lovelace managed her collaboration with Babbage on the Menabrea translation strategically, negotiating publication terms and insisting her Notes be published alongside the translation. She attempted mathematical gambling systems at Epsom but these failed financially, showing limited adaptive capacity when initial plans went wrong."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Lovelace, Notes on Menabrea (1843), esp. Notes A and G",
+              "Stein, Ada: A Life and a Legacy (1985)",
+              "Toole, Ada, the Enchantress of Numbers (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Lovelace's Note A envisioned the Analytical Engine composing music and manipulating any symbolic content—not just numbers—constituting a conceptual paradigm shift from 'calculating machine' to 'general-purpose symbol manipulator.' Note G's algorithm for Bernoulli numbers is widely regarded as the first computer program. While Stein (1985) argues Babbage contributed more to the algorithms than usually credited, even skeptical scholars acknowledge the conceptual vision of general-purpose computation as distinctively Lovelace's; Babbage himself noted she grasped implications he had not fully articulated."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Lovelace, Notes on Menabrea's 'Sketch of the Analytical Engine' (1843)",
+              "Turing, 'Computing Machinery and Intelligence,' Mind (1950)",
+              "Toole, Ada, the Enchantress of Numbers (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "In Note A of her 1843 annotations, Lovelace articulated the principle that 'The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform'—a philosophical claim about machine intelligence that Turing directly engaged with in his 1950 paper ('Computing Machinery and Intelligence'), calling it 'Lady Lovelace's Objection.' She also reasoned that the engine could manipulate symbols of any kind, not just quantities, a conceptual advance with philosophical depth about the nature of computation."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Woolley, The Bride of Science (1999)",
+              "Stein, Ada: A Life and a Legacy (1985)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lovelace managed the complex publication project of the Menabrea translation and Notes, coordinating with Babbage and the publisher. She managed a large aristocratic household as Countess. However, no enduring administrative system or policy is attributable to her, and her personal financial management was poor (gambling debts)."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Toole, Ada, the Enchantress of Numbers (1992)",
+              "Stein, Ada: A Life and a Legacy (1985)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lovelace functioned as daughter (to the controlling Lady Byron), wife, mother of three, intellectual collaborator and friend (with Babbage), pupil (under De Morgan and Somerville), and society figure. Her letters show qualitatively distinct relational modes with different people—deferential with her mother, collegial with Babbage, warm with Somerville. This covers approximately five modes (child, spouse, parent, friend/collaborator, student), though evidence of adversarial or subordinate relational behavior is limited."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Woolley, The Bride of Science (1999)",
+              "Stein, Ada: A Life and a Legacy (1985)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lovelace married William King (later Earl of Lovelace) in 1835, and he supported her intellectual pursuits to some degree—he helped copy her mathematical work. However, the marriage deteriorated later, particularly around her gambling debts and possible emotional involvement with John Crosse. Her deathbed was controlled by her mother rather than her husband, suggesting relational distance. Evidence of mutual emotional depth is thin."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Woolley, The Bride of Science (1999)",
+              "Moore, Ada, Countess of Lovelace: Byron's Legitimate Daughter (1977)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Lovelace had three children (Byron, Annabella, and Ralph) but was frequently ill and relied heavily on her mother and servants for childcare, consistent with aristocratic norms. There is limited evidence of the quality of her parenting or of her children developing autonomy through her direct influence. She did not serve as a documented mentor to other mathematicians or scientists."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Toole, Ada, the Enchantress of Numbers (1992)",
+              "Fuegi and Francis, 'Lovelace & Babbage and the Creation of the 1843 Notes,' IEEE Annals of the History of Computing (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lovelace's legacy has grown enormously since the mid-20th century: the US Department of Defense named the Ada programming language after her (1980), Ada Lovelace Day is celebrated internationally, and she is widely recognized as a computing pioneer. However, her direct causal impact on the development of computing is debatable—her Notes were rediscovered rather than being a continuous chain of influence—and the 500-year, multi-civilizational threshold has not yet been crossed (she died in 1852)."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Padua, The Thrilling Adventures of Lovelace and Babbage (2015)",
+              "Woolley, The Bride of Science (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lovelace has become a global symbol of women in STEM and the visionary technologist. Ada Lovelace Day is celebrated in dozens of countries, and she appears in novels, graphic novels (Padua's 'The Thrilling Adventures of Lovelace and Babbage'), and films. This recognition extends beyond Britain, though it is concentrated in tech-adjacent cultures rather than being universally cross-cultural in the way figures like Einstein or Marie Curie are."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Stein, Ada: A Life and a Legacy (1985)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Lovelace did not found or build any institution, organization, or enduring social structure. Her work was individual and intellectual rather than organizational."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Toole, Ada, the Enchantress of Numbers (1992)",
+              "Stein, Ada: A Life and a Legacy (1985)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Lovelace influenced Babbage and participated in London's intellectual salons, but she did not lead organizations, movements, or groups. Her influence was primarily through a single published work and personal correspondence, not through mobilizing others toward shared goals."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Toole, Ada, the Enchantress of Numbers (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lovelace was an aristocrat whose daily life was remote from ordinary experience. Her letters reveal warmth, humor, and domestic concerns (she mentions her children, horse riding, and music), but these glimpses are incidental rather than defining. She did not maintain strong connections to mundane life at the height of her intellectual work."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Toole, Ada, the Enchantress of Numbers (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Lovelace was aware of the barriers women faced in intellectual life and insisted on credit for her work (publishing under her initials A.A.L. rather than anonymously, though still not her full name). However, there is no documented advocacy for broader social justice or cases of ruling against personal interest in favor of principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Toole, Ada, the Enchantress of Numbers (1992)",
+              "Woolley, The Bride of Science (1999)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lovelace maintained warm friendships with Mary Somerville, Charles Babbage, and others in her intellectual circle, and her letters reveal genuine emotional investment in these relationships. However, no documented acts of compassion toward adversaries or outgroup members are attested, and evidence is limited to personal correspondence rather than public acts."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Stein, Ada: A Life and a Legacy (1985)",
+              "Toole, Ada, the Enchantress of Numbers (1992)",
+              "Woolley, The Bride of Science (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lovelace pursued rigorous mathematical work under chronic illness (including months of paralysis after measles in childhood and later uterine cancer), defying the social expectation that women—especially aristocratic women—should not engage in advanced mathematics. She persisted with the demanding Notes project through bouts of ill health. Augustus De Morgan privately noted her mathematical ability was exceptional but worried the strain might harm her health; she continued regardless."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Stein, Ada: A Life and a Legacy (1985)",
+              "Woolley, The Bride of Science (1999)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lovelace developed a gambling habit in the late 1840s that caused significant financial distress; she reportedly pawned family jewels. Her letters show some self-awareness of her impulsive tendencies, but there is limited evidence of meaningful behavioral change before her death. The hagiographic tradition around her tends to minimize these episodes, and independent evidence of genuine moral growth is thin."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Stein, Ada: A Life and a Legacy (1985)",
+              "Woolley, The Bride of Science (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lovelace functioned effectively under multiple qualitatively different adversities: chronic physical illness throughout her life, a controlling and emotionally manipulative mother (Lady Byron), the social stigma and psychological burden of being Lord Byron's daughter, and financial difficulties from gambling. She continued intellectual work through prolonged illness, completing the Notes while frequently unwell."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Toole, Ada, the Enchantress of Numbers (1992)",
+              "Woolley, The Bride of Science (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lovelace integrated several seemingly contradictory roles: daughter of the Romantic poet Byron yet devotee of mathematics; aristocratic society lady yet cutting-edge technical thinker; visionary who saw machines' creative potential yet articulated their fundamental limitations. She described herself as combining her father's poetic imagination with her mother's mathematical discipline. However, she did not fully inhabit three or more contradictory roles without tension—her gambling and health crises suggest some fragmentation rather than seamless integration."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Woolley, The Bride of Science (1999)",
+              "Moore, Ada, Countess of Lovelace: Byron's Legitimate Daughter (1977)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Lovelace died of uterine cancer at 36 after months of painful illness. During her final months, her mother Lady Byron gained control of access to her and reportedly pressured her into religious confession and repentance. Evidence of Lovelace's own composure is unclear and mediated through her mother's account. She was reportedly distressed and in great pain, and the autonomy of her deathbed behavior is questionable given her mother's domination."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Woolley, The Bride of Science (1999)",
+              "Stein, Ada: A Life and a Legacy (1985)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lovelace was an avid horsewoman and enjoyed riding as recreation, but she suffered chronic illness from childhood (prolonged paralysis after measles, digestive ailments, and eventually uterine cancer). Physical endurance was not a strength; she was frequently bedridden during key periods of her intellectual work."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Toole, Ada, the Enchantress of Numbers (1992)",
+              "Woolley, The Bride of Science (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lovelace enjoyed music (she played piano and harp), horse riding, and dancing. Her vision of the Analytical Engine composing music reflects genuine aesthetic sensibility. Her letters reveal playfulness and imagination—she called herself 'the bride of science' and expressed delight in mathematical beauty. These appear non-instrumental, not performed for political purposes."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 4.44,
+          "Core_5D_Avg": 4.75,
+          "Cultural-Social": 4.0,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Ada Lovelace",
+      "overall": {
+        "Core_5D_Avg": 4.75,
+        "Overall_Normalized_Equal_Avg": 4.33,
+        "General_Competency_Avg_10scale": 2.22
+      },
+      "summary": "A singular mathematical visionary whose conceptual leap—that computing machines could manipulate symbols beyond number—anticipated the digital age by over a century. Exceptional creative insight but narrow in practical competency breadth, constrained by aristocratic life, chronic illness, and an early death at 36. Strong embodied-existential presence through hardship tolerance and paradox integration (Byron's daughter turned mathematician; visionary who saw machines' limits). Cultural-Social impact is weighted toward posthumous symbolic resonance rather than institutional or leadership achievement. Relational record is thin. Heinlein competency is sharply peaked around analytical reasoning and technical problem-solving, with most practical domains unattested.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.67,
+          "General_Competency_Avg_10scale": 2.22
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of cooking or food preparation. As an aristocrat, meals were prepared by household cooks."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of any combat training, self-defense capability, or physical conflict."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Woolley, The Bride of Science (1999)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Mother of three children and maintained affectionate correspondence about them, but relied heavily on servants and her mother for day-to-day childcare, consistent with her class. No evidence of extended caregiving beyond normative aristocratic parenting."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Woolley, The Bride of Science (1999)",
+            "Moore, Ada, Countess of Lovelace: Byron's Legitimate Daughter (1977)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Lovelace faced terminal cancer at 36 and endured months of painful decline. Her composure during this period is poorly documented and complicated by her mother's domination of her deathbed. There is some evidence she accepted religious consolation, but whether this reflects genuine composure or external pressure is unclear."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of manual craft, tool-making, or repair work. Her class position and chronic illness both make this unlikely."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Lovelace traveled within England and occasionally abroad, but always with servants, carriages, and established routes. No evidence of independent navigation or wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of any involvement in butchering, animal processing, or food preparation. As an aristocrat, these tasks were performed by household staff."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Toole, Ada, the Enchantress of Numbers (1992)",
+            "Stein, Ada: A Life and a Legacy (1985)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Lovelace followed the intellectual lead of tutors De Morgan and Somerville as a student, and collaborated as a near-equal with Babbage. She directed the Notes project assertively—at one point threatening to withdraw if Babbage inserted political material. This shows both followership and some directive capacity, but in a narrow interpersonal context, not organizational leadership."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Stein, Ada: A Life and a Legacy (1985)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of building or fabricating physical structures. Her engagement with the Analytical Engine was conceptual and mathematical, not mechanical."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Toole, Ada, the Enchantress of Numbers (1992)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Managed the Menabrea translation and Notes project, coordinating between Babbage, herself, and the publisher over several months. Attempted to devise mathematical betting systems at horse races. Neither qualifies as complex operational command."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Lovelace, Notes on Menabrea (1843)",
+            "Toole, Ada, the Enchantress of Numbers (1992)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Lovelace played piano and harp, and her writing in the Notes displays literary quality and imaginative vision (e.g., the famous passage about the engine weaving algebraic patterns 'just as the Jacquard loom weaves flowers and leaves'). However, she did not produce stand-alone works of art, music, or literature."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of medical knowledge or emergency response capability. She was more often a patient than a caregiver, receiving extensive medical treatment for her own chronic illnesses."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Toole, Ada, the Enchantress of Numbers (1992)",
+            "Stein, Ada: A Life and a Legacy (1985)",
+            "Fuegi and Francis, IEEE Annals of the History of Computing (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Lovelace studied advanced mathematics under Augustus De Morgan (who privately noted her exceptional aptitude) and Mary Somerville. Her Note G algorithm for Bernoulli numbers demonstrates sophisticated analytical reasoning, requiring understanding of recursive operations and iterative loops on a machine that did not yet exist. De Morgan wrote that her mathematical ability, if developed, could have made her 'an original mathematical investigator, perhaps of first-rate eminence.'"
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural work or resource management. The Lovelace estates were managed by stewards."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Lovelace, Notes on Menabrea (1843)",
+            "Fuegi and Francis, IEEE Annals of the History of Computing (2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Lovelace engaged deeply with the most advanced computing technology of her era—Babbage's Analytical Engine—understanding its mechanical operations well enough to write algorithms for it. Her Notes demonstrate ability to reason about a complex technical system (conditional branching, looping, memory storage) that existed only in design. She did not build or operate machinery herself, but her conceptual technical mastery was exceptional for the era."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.75,
+    "general_competency_avg_0_10": 2.22,
+    "overall_normalized_equal_avg_0_10": 4.33,
+    "created_at": "2026-03-15T09:55:26.185Z",
+    "updated_at": "2026-03-15T09:55:26.188Z"
+  }
+}
+]

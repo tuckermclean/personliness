@@ -1,0 +1,385 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 111,
+  "fields": {
+    "name": "Abraham Lincoln",
+    "slug": "abraham-lincoln",
+    "bio_short": "Abraham Lincoln exemplifies extraordinary moral-affective and cultural-social greatness: his documented evolution on slavery, strategic wartime leadership, and institution-building (13th Amendment, land-grant colleges, Union preservation) define his legacy. Exceptional cognitive and existential depth—integrating humor with melancholy, mercy with wartime ruthlessness—mark him as a rare paradox-integrator. His relational dimension is weaker, particularly in spousal partnership. Heinlein competency shows strong strategic command, literary artistry, and existential composure, offset by limited evi",
+    "bio_long": "Abraham Lincoln was the 16th president of the United States, serving from 1861 until his assassination in 1865. He led the United States through the American Civil War, defeating the Confederate States and playing a major role in the abolition of slavery.",
+    "source_notes": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+    "image": "figures/330px-Abraham_Lincoln_1863_Portrait_283x4_cropped29_gAZSnHz.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Goodwin, Team of Rivals (2005)",
+              "McPherson, Battle Cry of Freedom (1988)",
+              "Foner, The Fiery Trial (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln repeatedly adapted when initial plans failed: he cycled through generals (McDowell, McClellan, Burnside, Hooker, Meade) before finding Grant, each time adjusting strategy. He timed the Emancipation Proclamation after Antietam to maximize political and military leverage. His careful management of Border States (Kentucky, Missouri, Maryland) through calibrated policies prevented their secession, and his political maneuvering to pass the 13th Amendment through a reluctant Congress demonstrated multi-dimensional strategic thinking under extreme uncertainty."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Guelzo, Lincoln's Emancipation Proclamation (2004)",
+              "Wheeler, Mr. Lincoln's T-Mails (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lincoln's framing of the Emancipation Proclamation as a military necessity under commander-in-chief war powers was a genuinely creative legal innovation without clear precedent. His use of the telegraph for real-time command-and-control of military operations was novel. However, he was primarily a brilliant synthesizer and adapter rather than a paradigm-shifting originator—his ideas drew on existing abolitionist, natural-rights, and constitutional traditions rather than creating entirely new frameworks."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "White, Lincoln's Greatest Speech: The Second Inaugural (2002)",
+              "Guelzo, Abraham Lincoln: Redeemer President (1999)",
+              "Donald, Lincoln (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Lincoln-Douglas debates (1858) articulated a profound moral argument against slavery's expansion grounded in natural-rights philosophy. The Second Inaugural Address ('with malice toward none, with charity for all') is recognized as one of the deepest ethical meditations on collective guilt and reconciliation in political history. His reasoning about the relationship between democracy, liberty, and equality influenced thinkers far beyond his community—Tolstoy praised him as the greatest moral figure, and his ideas shaped democratic movements globally."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Goodwin, Team of Rivals (2005)",
+              "Vorenberg, Final Freedom: The Civil War, the Abolition of Slavery, and the Thirteenth Amendment (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln managed a fractious 'Team of Rivals' cabinet (Seward, Chase, Stanton, Bates) with extraordinary skill, keeping competing factions aligned. He successfully maneuvered the 13th Amendment through Congress using a combination of persuasion, patronage, and political pressure. He signed into law transformative legislation—the Homestead Act (1862), Morrill Land-Grant Act (1862), Pacific Railroad Act (1862), and National Banking Acts (1863-64)—all of which created systems that endured and functioned well beyond his oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Goodwin, Team of Rivals (2005)",
+              "Donald, Lincoln (1995)",
+              "Strozier, Lincoln's Quest for Union (1982)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln demonstrated qualitatively distinct relational behavior across at least six modes: (1) intimate friend—his relationship with Joshua Speed involved deep emotional vulnerability and mutual confession, documented in their extensive correspondence; (2) spouse—a complex dynamic with Mary Todd distinct from all other relationships; (3) parent—indulgent, playful, emotionally expressive; (4) adversary—respectful but fierce with Douglas, magnanimous toward defeated Confederates; (5) superior—delegated to Grant with trust, micromanaged McClellan with impatience; (6) subordinate—deferred to constitutional constraints and democratic norms; (7) stranger—famous for accessibility and warmth with ordinary petitioners. Each mode shows genuinely different relational behavior."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Baker, Mary Todd Lincoln: A Biography (1987)",
+              "Epstein, The Lincolns: Portrait of a Marriage (2008)",
+              "Burlingame, The Inner World of Abraham Lincoln (1994)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lincoln's marriage to Mary Todd Lincoln (1842–1865) was enduring but deeply strained. There is evidence of genuine affection—courtship letters, shared grief over sons' deaths, and Mary's devastating bereavement after his assassination. However, contemporaries (particularly Herndon, though he was biased) documented chronic domestic conflict. Mary's erratic behavior and mental health issues created additional strain, and Lincoln was frequently emotionally unavailable, absorbed in work. More balanced modern scholarship (Baker, Epstein) suggests real love alongside real dysfunction. The relationship shows the trait episodically but not consistently as defined by the rubric's standard of mutual respect and emotional availability across the arc."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Donald, Lincoln (1995)",
+              "Burlingame, Abraham Lincoln: A Life (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lincoln was a notably attentive and indulgent father by 19th-century standards—his sons Tad and Willie were allowed to run freely through the White House, and he was devastated by Willie's death in 1862, showing deep emotional investment. His law partner Herndon noted that Lincoln let his boys wreak havoc in the office without correction. Robert Todd Lincoln became a successful lawyer, Secretary of War, and Minister to the UK, suggesting competence development, though their relationship was reportedly strained. As a political mentor, Lincoln developed figures like John Hay, who became a distinguished diplomat and Secretary of State."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "McPherson, Abraham Lincoln and the Second American Revolution (1991)",
+              "Schwartz, Abraham Lincoln and the Forge of National Memory (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Though only 160 years have passed (short of the 500-year benchmark), the trajectory of Lincoln's impact is among the most significant in modern history. The abolition of chattel slavery in the world's most powerful democracy had cascading effects across multiple civilizations. His redefinition of American democracy as a project of equality ('new birth of freedom') shaped democratic movements globally. Land-grant universities transformed education worldwide as a model. Lincoln consistently ranks as the greatest or second-greatest president in every major historical survey, and his influence extends across cultures."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Schwartz, Abraham Lincoln and the Forge of National Memory (2000)",
+              "Peterson, Lincoln in American Memory (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln is the defining archetype of the self-made leader—the log-cabin-to-White-House narrative that has shaped global democratic imagination. He is recognized as a symbol of emancipation, national unity, and democratic governance across cultures far beyond America. Tolstoy reported that even a remote Caucasus tribal chief knew of Lincoln as the world's greatest leader. The Lincoln Memorial functions as a global pilgrimage site for justice movements (Martin Luther King Jr.'s 'I Have a Dream' speech). His image appears on currency, stamps, and monuments across nations."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Foner, The Fiery Trial (2010)",
+              "Richardson, The Greatest Nation of the Earth: Republican Economic Policies during the Civil War (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The 13th Amendment permanently restructured American constitutional law and has endured for over 150 years. The Morrill Land-Grant Act created a system of public universities (including institutions like Cornell, MIT affiliate programs, and state universities) that remains the backbone of American higher education. The Pacific Railroad Act initiated the transcontinental railroad. The National Banking Acts established a national currency system. The preservation of the Union itself was an act of institutional maintenance on the largest possible scale. All survived well beyond two generations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Goodwin, Team of Rivals (2005)",
+              "Holzer, Lincoln at Cooper Union (2004)",
+              "McPherson, Tried by War (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln led successfully across qualitatively different contexts: grassroots political campaigning in Illinois, wartime crisis management as commander-in-chief, legislative maneuvering to pass the 13th Amendment, and public persuasion through oratory (Gettysburg Address, Cooper Union speech). He managed a cabinet of ambitious rivals (Seward, Chase, Stanton) while holding together a fractious coalition of War Democrats, Radical Republicans, and moderates. His leadership ranged from intimate small-group management to mobilizing millions for sustained total war."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Burlingame, Abraham Lincoln: A Life (2008)",
+              "Donald, Lincoln (1995)",
+              "Zall, Abe Lincoln Laughing (1982)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln maintained deep connection to ordinary life throughout his presidency. His rail-splitting, manual-labor background was not mere biography but an active identity. At the height of the war, he told folksy stories and jokes to visitors, soldiers, and cabinet members. He visited wounded soldiers in hospitals and camps. He was famously accessible to ordinary citizens at the White House, holding open receptions. His humor—often earthy and self-deprecating—was documented by virtually every associate. He attended the theater regularly for genuine entertainment, not political display."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Foner, The Fiery Trial (2010)",
+              "Vorenberg, Final Freedom (2001)",
+              "Donald, Lincoln (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln championed the 13th Amendment at enormous political cost, expending precious political capital when a negotiated peace leaving slavery intact was the easier path. He ruled against group interest in his lenient Reconstruction plan (10% Plan), opposing Radical Republicans in his own party who demanded harsher terms. His evolving commitment to Black suffrage—publicly advocated in his April 11, 1865 speech—went beyond what political calculation required. Counterexample: his early statements disclaiming social equality for Black Americans and his interest in colonization. Without counterexample: 3; with it: still 3, as his trajectory demonstrates a justice orientation that ultimately overrode personal political safety (the suffrage speech directly provoked Booth)."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Foner, The Fiery Trial (2010)",
+              "Burlingame, Abraham Lincoln: A Life (2008)",
+              "Nichols, Lincoln and the Indians (1978)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln personally reviewed the cases of 303 Dakota warriors sentenced to death in 1862, commuting 264 sentences—an extraordinary act of compassion toward an outgroup in wartime. He routinely pardoned Union soldiers sentenced to death for desertion, famously saying he wanted to 'give the boy a chance.' His Second Inaugural called for treating defeated Confederates 'with malice toward none,' and his lenient Reconstruction plans extended mercy to former enemies. Counterexample: 38 Dakota men were still executed, the largest mass execution in U.S. history. Without this counterexample: 3; with it: still 3, as the act of individually reviewing 303 cases and commuting 87% demonstrates exceptional compassion toward adversaries, even if the remainder is a genuine moral stain."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Donald, Lincoln (1995)",
+              "McPherson, Tried by War: Abraham Lincoln as Commander in Chief (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln sustained leadership through years of devastating Union defeats (First Bull Run, Fredericksburg, Chancellorsville) when political pressure to negotiate peace was immense. He stood firm on emancipation despite warnings it would cost the 1864 election, writing his famous 'blind memorandum' in August 1864 preparing for likely defeat. He faced continuous assassination threats and still appeared at public events, including visiting front-line troops at Fort Stevens in 1864 while under enemy fire. His political career showed sustained resilience through repeated electoral defeats (1854, 1858 Senate races) before his presidential nomination."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Foner, The Fiery Trial (2010)",
+              "Guelzo, Abraham Lincoln: Redeemer President (1999)",
+              "White, A. Lincoln: A Biography (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln's evolution on slavery and race is among the most well-documented cases of moral growth in the historical record. He moved from opposing slavery's expansion but not abolition (1850s), to supporting colonization (early 1862), to issuing the Emancipation Proclamation (1863), to championing the 13th Amendment (1865), to publicly advocating Black suffrage (April 1865). He explicitly acknowledged the moral complexity of the war in the Second Inaugural, accepting that both sides 'read the same Bible and pray to the same God.' This is not hagiographic smoothing—the earlier, morally limited positions are well-documented in his own writings and speeches."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Shenk, Lincoln's Melancholy: How Depression Challenged a President and Fueled His Greatness (2005)",
+              "Donald, Lincoln (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln endured qualitatively distinct forms of adversity while maintaining high functioning: frontier poverty and material deprivation in childhood; the death of his mother Nancy at age 9 and later his sons Eddie (1850) and Willie (1862); chronic severe depression documented throughout his adult life (what contemporaries called 'melancholy'); repeated political defeats; and the crushing pressures of wartime leadership. Through all of these, he continued to function at the highest level of public service. His ability to sustain effectiveness across material, emotional, and psychological hardship is among the most remarkable in the presidential record."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Shenk, Lincoln's Melancholy (2005)",
+              "Goodwin, Team of Rivals (2005)",
+              "Donald, Lincoln (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lincoln inhabited at least four seemingly contradictory roles without fragmenting: (1) wartime commander who ordered the deaths of hundreds of thousands AND advocate of mercy and reconciliation ('malice toward none'); (2) profoundly melancholic depressive AND the most famous humorist in American political life; (3) uneducated frontier rail-splitter AND sophisticated constitutional lawyer and literary stylist; (4) ruthless political operator (patronage deals for the 13th Amendment) AND deeply principled moral leader. These paradoxes were not sequential phases but simultaneous, integrated aspects of his character throughout the presidency."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Lamon, Recollections of Abraham Lincoln (1895)",
+              "White, Lincoln's Greatest Speech (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lincoln discussed premonitory dreams about his death with Ward Hill Lamon and Mary Todd Lincoln, describing a dream of seeing his own corpse lying in state in the White House. Despite continuous assassination threats, he continued attending public events and resisted bodyguards, saying 'if they kill me, the next man will be just as bad for them.' The Second Inaugural shows profound acceptance of providential outcomes beyond human control. However, his death was sudden (assassination at Ford's Theatre), so he did not face a prolonged, conscious confrontation with imminent death—his composure was in accepting ongoing mortal risk rather than facing a known terminal moment."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Donald, Lincoln (1995)",
+              "Burlingame, Abraham Lincoln: A Life (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "As a young man, Lincoln was renowned for physical strength: he was a champion wrestler in New Salem (with only one documented loss, to Lorenzo Dow Thompson, though the Jack Armstrong match is more famous), an accomplished rail-splitter, and performed grueling frontier labor. At 6'4\", he was imposingly strong. However, his health visibly declined during the presidency—photographs document dramatic physical deterioration. The documented physical feats are concentrated in youth rather than spanning multiple life-stages, precluding a score of 3."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Holzer, Lincoln and the Power of the Press (2014)",
+              "Emerson, Lincoln the Inventor (2009)",
+              "Zall, Abe Lincoln Laughing (1982)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lincoln genuinely loved the theater, attending plays over 100 times during his presidency—this was personal recreation, not political performance. He read Shakespeare for pleasure and could recite long passages from memory, particularly favoring Macbeth and Hamlet. His humor was legendary and often non-instrumental—he told jokes and stories for their own sake, delighting in wordplay and narrative craft. However, some of his humor also served strategic political purposes (defusing tension, persuasion), making the boundary between instrumental and pure play somewhat ambiguous."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 6.67,
+          "Core_5D_Avg": 8.77,
+          "Cultural-Social": 10.0,
+          "Moral-Affective": 10.0,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Abraham Lincoln",
+      "overall": {
+        "Core_5D_Avg": 8.77,
+        "Overall_Normalized_Equal_Avg": 8.31,
+        "General_Competency_Avg_10scale": 6.0
+      },
+      "summary": "Abraham Lincoln exemplifies extraordinary moral-affective and cultural-social greatness: his documented evolution on slavery, strategic wartime leadership, and institution-building (13th Amendment, land-grant colleges, Union preservation) define his legacy. Exceptional cognitive and existential depth—integrating humor with melancholy, mercy with wartime ruthlessness—mark him as a rare paradox-integrator. His relational dimension is weaker, particularly in spousal partnership. Heinlein competency shows strong strategic command, literary artistry, and existential composure, offset by limited evidence in culinary, agricultural, and combat domains. Among the highest-scoring figures in moral growth and cultural impact.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.8,
+          "General_Competency_Avg_10scale": 6.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Burlingame, Abraham Lincoln: A Life (2008)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Lincoln was famously indifferent to food. Multiple contemporaries noted that he ate sparingly and without apparent interest in cuisine. Mary Todd Lincoln and White House staff handled meal preparation. No evidence exists of Lincoln cooking or demonstrating culinary skill at any point in his life. His frontier background may have required minimal food preparation, but no specific competence is documented."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Donald, Lincoln (1995)",
+            "McPherson, Tried by War (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Lincoln served as a captain in the Illinois militia during the Black Hawk War (1832) but saw no combat, later joking that his only battles were with mosquitoes. He was a formidable wrestler in his youth, famously challenging Jack Armstrong. He came under Confederate fire at Fort Stevens in July 1864 (reportedly the only sitting president to come under direct enemy fire during a battle). However, he had no meaningful combat training or demonstrated martial skill."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Donald, Lincoln (1995)",
+            "Burlingame, Abraham Lincoln: A Life (2008)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Lincoln personally visited wounded soldiers in Washington hospitals throughout the war, offering comfort and presence. His tenderness with his children—especially during Willie's fatal illness in 1862, when he sat by the boy's bedside for days—demonstrates genuine caregiving capacity. His pardoning of young soldiers condemned to death reflects an ethic of care extended beyond his immediate circle."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Shenk, Lincoln's Melancholy (2005)",
+            "White, Lincoln's Greatest Speech (2002)",
+            "Donald, Lincoln (1995)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Lincoln faced mortal crisis with remarkable dignity: he continued public appearances despite continuous assassination threats, discussed dreams of his own death with composure, and bore the weight of a war that killed over 600,000 Americans without psychological collapse. His Second Inaugural Address—delivered amid the carnage—shows a man who had integrated the reality of mass death into a coherent moral framework. His chronic depression did not prevent him from functioning with steadiness; rather, as Shenk argues, his familiarity with suffering gave him existential depth that enhanced his composure under pressure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Emerson, Lincoln the Inventor (2009)",
+            "Donald, Lincoln (1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Lincoln patented a device for lifting boats over shoals (U.S. Patent No. 6469, 1849)—the only sitting or future president to hold a patent—demonstrating hands-on mechanical aptitude and inventiveness. His rail-splitting and flatboat-building required skilled manual work. He personally tested new rifles and weapons on the White House grounds during the war, showing continued engagement with mechanical devices."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Donald, Lincoln (1995)",
+            "Burlingame, Abraham Lincoln: A Life (2008)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Lincoln piloted a flatboat down the Mississippi River to New Orleans twice as a young man (1828 and 1831), navigating the river's channels, snags, and sandbars over approximately 1,200 miles. As a circuit-riding lawyer for over a decade, he traveled hundreds of miles across central Illinois on horseback and by buggy, navigating the largely unmarked prairie. These demonstrate solid navigational competence for his era."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Donald, Lincoln (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Lincoln grew up on frontier farms in Kentucky and Indiana where butchering animals was routine, and he would have had basic competence. However, he was notably averse to hunting—he reportedly disliked killing animals even as a boy. No specific documented skill in this domain beyond the baseline expected of frontier upbringing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Goodwin, Team of Rivals (2005)",
+            "McPherson, Tried by War (2008)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Lincoln demonstrated exceptional leadership across contexts: managing a cabinet of rivals, commanding the war effort, and inspiring a divided nation. Equally important, he demonstrated genuine followership: once he found Grant, he deferred to the general's military judgment ('You don't know how much I want to see you. I don't want to know your plans; it is better I should not'). He accepted constitutional constraints on executive power, deferred to electoral outcomes (preparing for potential defeat in 1864), and followed democratic norms even when autocratic action would have been easier."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Donald, Lincoln (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Lincoln built a flatboat for the 1831 New Orleans trip and split rails for fences as a young man—skills that became central to his political mythology. He helped build the family cabin as a youth in Indiana. However, he did not pursue construction as a vocation or demonstrate advanced fabrication skills beyond basic frontier competence."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "McPherson, Tried by War: Abraham Lincoln as Commander in Chief (2008)",
+            "Goodwin, Team of Rivals (2005)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Lincoln functioned as de facto strategic commander of the Union war effort, studying military texts (Halleck's Elements of Military Art and Science), developing the concept of simultaneous multi-front offensives, and coordinating military operations with political objectives. He directly managed the selection and replacement of army commanders and personally shaped the strategy that led to Grant's appointment and the coordinated 1864 campaigns (Overland, Atlanta, Shenandoah)."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "White, The Eloquent President (2005)",
+            "Wilson, Lincoln's Sword: The Presidency and the Power of Words (2006)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Lincoln's speeches and writings rank among the greatest works of American literature. The Gettysburg Address (272 words) redefined American national identity. The Second Inaugural Address is considered the finest presidential speech ever delivered. His private letters show extraordinary prose craft—the letter to Lydia Bixby, his letter to Fanny McCullough on grief, and his political correspondence demonstrate range, economy, and emotional depth that place him among the finest prose stylists in the English language."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Frontier life in early 19th-century Indiana and Illinois would have required basic knowledge of wound care, herbal remedies, and home treatment. Lincoln's mother Nancy died of milk sickness when he was 9, and his family dealt with illness without professional medical care. However, no specific documented instances of Lincoln providing medical treatment or emergency response exist beyond what is assumed from his frontier background."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Dirck, Lincoln the Lawyer (2007)",
+            "Donald, Lincoln (1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Lincoln taught himself Euclidean geometry from Euclid's Elements and could work through all six books of proofs—a notable achievement for a self-educated man. As a successful attorney, he handled complex commercial litigation involving railroad law, patent disputes, and property claims requiring analytical precision. His strategic reasoning during the war involved calculating troop ratios, supply logistics, and electoral arithmetic. He was not a mathematician but demonstrated strong applied analytical reasoning."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Donald, Lincoln (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Lincoln worked on farms throughout his youth in Kentucky, Indiana, and Illinois, performing plowing, planting, and harvesting. He left agricultural labor at the earliest opportunity, pursuing law and politics instead. His signing of the Homestead Act and Morrill Act shows policy-level understanding of agricultural development, but he was not personally an accomplished farmer or resource manager."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Emerson, Lincoln the Inventor (2009)",
+            "Wheeler, Mr. Lincoln's T-Mails (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Lincoln's patent for a boat-lifting device demonstrates engagement with technical problem-solving. During the war, he took keen interest in military technology—personally testing new repeating rifles, evaluating ironclad designs, and promoting the use of the telegraph for military communication. He grasped the strategic implications of railroads and telegraphs earlier than many military professionals. He operated with cutting-edge tools of his era (telegraph office as de facto command center) but was not himself a technical innovator beyond the single patent."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.77,
+    "general_competency_avg_0_10": 6.0,
+    "overall_normalized_equal_avg_0_10": 8.31,
+    "created_at": "2026-03-15T09:41:12.861Z",
+    "updated_at": "2026-03-15T09:41:12.865Z"
+  }
+}
+]

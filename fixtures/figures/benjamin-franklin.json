@@ -1,0 +1,387 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 117,
+  "fields": {
+    "name": "Benjamin Franklin",
+    "slug": "benjamin-franklin",
+    "bio_short": "A supreme polymath whose cognitive and cultural-social scores approach the ceiling: paradigm-shifting science, enduring institutions, and unmatched archetype resonance as the self-made citizen-philosopher. Strong embodied-existential marks reflect hardship tolerance, humor, and composure before death. Moral-affective scores are high but tempered by early slaveholding, redeemed by documented moral growth. Relational depth is his weakest dimension—long absences from Deborah and estrangement from son William lower spousal and parental marks despite extraordinary relational range. Heinlein compete",
+    "bio_long": "Benjamin Franklin was an American polymath: a writer, scientist, inventor, statesman, diplomat, printer, publisher and political philosopher. Among the most influential intellectuals of his time, Franklin was one of the Founding Fathers of the United States; a drafter and signer of the Declaration of Independence; and the first postmaster general.",
+    "source_notes": "https://en.wikipedia.org/wiki/Benjamin_Franklin",
+    "image": "figures/330px-Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Isaacson, *Benjamin Franklin: An American Life* (2003)",
+              "Stourzh, *Benjamin Franklin and American Foreign Policy* (1969)",
+              "Van Doren, *Benjamin Franklin* (1938)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin secured the Franco-American alliance (1778) through years of adaptive diplomacy in Paris, recalibrating his approach after early rebuffs and leveraging the Saratoga victory. His Albany Plan of Union (1754) showed strategic vision decades before independence. At the Constitutional Convention (1787), he brokered the Great Compromise between large and small states when deadlock threatened dissolution."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Cohen, *Benjamin Franklin's Science* (1990)",
+              "Chaplin, *The First Scientific American: Benjamin Franklin and the Pursuit of Genius* (2006)",
+              "Dray, *Stealing God's Thunder* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin's experiments with electricity (Leyden jar, kite experiment c.1752, single-fluid theory) created a paradigm shift in understanding electrical phenomena, replacing earlier two-fluid theories. He invented the lightning rod, bifocal spectacles, the Franklin stove, and the glass armonica. His civic innovations—the subscription library (1731), volunteer fire company (1736), matching-grant model for Pennsylvania Hospital (1751)—established new organizational forms widely imitated."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Franklin, *Autobiography* (1791)",
+              "Aldridge, *Benjamin Franklin and Nature's God* (1967)",
+              "Wood, *The Americanization of Benjamin Franklin* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Franklin's pragmatic moral philosophy—expressed through his 13-virtues system, Poor Richard's maxims, and essays on religious tolerance—shaped American civic ethics. His 'Observations Concerning the Increase of Mankind' (1751) influenced Malthus. However, his ethical thought was practical rather than systematically philosophical; he did not produce a treatise on the order of Locke or Hume."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Brands, *The First American: The Life and Times of Benjamin Franklin* (2000)",
+              "Morgan, *Benjamin Franklin* (2002)",
+              "Isaacson, *Benjamin Franklin: An American Life* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin reformed the colonial postal system (Postmaster General 1753–1774), making it profitable and reliable—it became the foundation of the U.S. Postal Service. He co-founded the University of Pennsylvania (1740s), Pennsylvania Hospital (1751), and the American Philosophical Society (1743), all of which endured for centuries. He helped draft the Declaration of Independence and the U.S. Constitution."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Isaacson, *Benjamin Franklin* (2003)",
+              "Morgan, *Benjamin Franklin* (2002)",
+              "Wood, *The Americanization of Benjamin Franklin* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin inhabited an extraordinary breadth of relational modes with documented qualitative differences: spouse (Deborah), parent (William, Sally, grandchildren), dutiful son (correspondence with parents), friend (Junto members, French salon companions), adversary (the Penn family, Lord Hillsborough), charm with strangers (legendary social facility), subordinate (colonial agent answerable to Pennsylvania Assembly), and superior (postmaster general, diplomatic mission chief, employer of printers). His relational style clearly adapted across these modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Lopez & Herbert, *The Private Franklin* (1975)",
+              "Isaacson, *Benjamin Franklin* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Franklin's common-law marriage to Deborah Read (1730–1774) functioned as a business and domestic partnership; she capably managed his affairs during absences. However, Franklin spent 15 of the last 18 years of her life in London and Paris, did not return during her declining health, and was absent when she died (1774). He maintained flirtatious intellectual relationships with Madame Brillon and Madame Helvétius in France. Without the prolonged absences: 2 (functional early partnership). With them given full weight: 0–1 (effective abandonment). Final: 1, reflecting a partnership that began with mutuality but deteriorated through neglect."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Skemp, *William Franklin: Son of a Patriot, Servant of a King* (1990)",
+              "Lopez & Herbert, *The Private Franklin* (1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Franklin raised his illegitimate son William but their relationship ended in bitter estrangement over the Revolution; Franklin essentially disowned him and they never fully reconciled. He was largely absent from daughter Sally's life during her formative years. He invested in grandsons Temple and Benny's education in France. As a broader mentor, he founded educational institutions and supported younger scientists. However, the William estrangement and Sally's neglect represent significant parental failures; his mentees did not clearly develop autonomous competence traceable to his guidance."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Cohen, *Benjamin Franklin's Science* (1990)",
+              "Wood, *The Americanization of Benjamin Franklin* (2004)",
+              "Tocqueville, *Democracy in America* (1835)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin's contributions to electrical science transformed global understanding of a fundamental natural force. His diplomatic achievement—the Franco-American alliance—was decisive for American independence, reshaping the geopolitical order. His civic-association model influenced Tocqueville's analysis of American democracy and was exported worldwide. His image remains on U.S. currency and he is recognized globally as a symbol of the Enlightenment. While only ~235 years have passed, the scale and multi-civilizational reach of these effects are of the magnitude associated with 500+ year legacies."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Wood, *The Americanization of Benjamin Franklin* (2004)",
+              "Schiff, *A Great Improvisation* (2005)",
+              "Isaacson, *Benjamin Franklin* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin is the archetypal 'self-made man' and 'citizen-scientist'—recognized as such across Western and non-Western cultures. His rags-to-riches narrative influenced the global self-improvement genre. In France he became the archetype of natural republican virtue (the fur cap). His image is recognized worldwide, appearing on currencies, stamps, and as a symbol of practical wisdom, invention, and democratic self-governance in cultures far beyond America."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Brands, *The First American* (2000)",
+              "Isaacson, *Benjamin Franklin: An American Life* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin founded or co-founded institutions that survive nearly 300 years later: the Library Company of Philadelphia (1731), the American Philosophical Society (1743), the University of Pennsylvania (1749), Pennsylvania Hospital (1751), and the reorganized colonial postal system. Each maintained recognizable continuity well beyond two generations and several remain active today."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Isaacson, *Benjamin Franklin: An American Life* (2003)",
+              "Schiff, *A Great Improvisation: Franklin, France, and the Birth of America* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin led successfully across qualitatively different contexts: as a small-group organizer (Junto club, 1727), civic leader in Philadelphia, colonial representative in London (1757–62, 1764–75), wartime diplomat in Paris (1776–85), and elder statesman at the Constitutional Convention (1787). He mobilized public opinion through the Pennsylvania Gazette and Poor Richard's Almanack, reaching audiences from tradesmen to kings."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Franklin, *Autobiography* (1791)",
+              "Isaacson, *Benjamin Franklin* (2003)",
+              "Lopez & Herbert, *The Private Franklin* (1975)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin's Autobiography documents his humble origins as a runaway apprentice eating bread rolls on Philadelphia streets. Even as ambassador to France, he cultivated a deliberately plain persona (fur cap, simple dress). He played chess recreationally throughout his life, swam for pleasure, wrote bawdy humor ('Fart Proudly'), socialized at taverns, and personally operated printing presses. Poor Richard's Almanack was itself a vehicle of everyday folk wisdom."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Wood, *The Americanization of Benjamin Franklin* (2004)",
+              "Waldstreicher, *Runaway America* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Franklin petitioned Congress to abolish slavery in February 1790—weeks before his death—acting against the economic interests of his social class. He advocated for fair treatment of Native Americans in several writings and opposed the Paxton Boys' massacres (1764). At the Constitutional Convention he argued for unicameral legislature and against property qualifications. However, his earlier accommodation of slavery and pragmatic compromises prevent a score of 3."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Waldstreicher, *Runaway America: Benjamin Franklin, Slavery, and the American Revolution* (2004)",
+              "Isaacson, *Benjamin Franklin: An American Life* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Franklin founded Pennsylvania Hospital (1751) specifically for the poor and mentally ill. He became president of the Pennsylvania Abolition Society (1787), advocating for freed slaves' education and welfare. He maintained warm correspondence with British friends even during the Revolution. However, he owned household slaves in the 1740s–1750s before freeing them—a serious counterexample. Without the slaveholding: 3; with it given full weight: 1. Final score reflects that his compassion was genuine and extended to outgroups, but the slaveholding period significantly qualifies the record."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Brands, *The First American* (2000)",
+              "Van Doren, *Benjamin Franklin* (1938)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Franklin endured the 'Cockpit' humiliation before the Privy Council (1774) with composure and emerged more committed to independence. He undertook the dangerous wartime Atlantic crossing to France at age 70. He personally led a militia expedition to the Lehigh Valley frontier to build forts (1755–56). These span political, physical, and diplomatic courage, though he was not primarily a battlefield figure."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Franklin, *Autobiography* (1791)",
+              "Waldstreicher, *Runaway America* (2004)",
+              "Morgan, *Benjamin Franklin* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin's Autobiography explicitly catalogs his 'errata'—moral mistakes—including his treatment of Deborah Read and financial irresponsibility in youth. His 13-virtues program was a documented, systematic attempt at self-improvement. Most significantly, he evolved from slaveholder (1740s–1750s) to president of the Pennsylvania Abolition Society (1787), representing a dramatic, documented behavioral reversal. He also reversed his earlier views on Native Americans."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Van Doren, *Benjamin Franklin* (1938)",
+              "Brands, *The First American* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin arrived in Philadelphia as a penniless runaway at 17 and built a fortune from nothing (material deprivation). He endured the death of his four-year-old son Francis from smallpox in 1736 (bereavement). He suffered the permanent estrangement from his son William over the Revolution (relational loss). He worked productively through decades of gout and kidney stones (chronic illness). He endured the Cockpit humiliation of 1774 (political adversity). Effective functioning persisted across all these qualitatively different adversities."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Wood, *The Americanization of Benjamin Franklin* (2004)",
+              "Isaacson, *Benjamin Franklin* (2003)",
+              "Morgan, *Benjamin Franklin* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin coherently inhabited at least five seemingly contradictory roles: humble printer and international celebrity; earthy humorist and serious natural philosopher; frugal Puritan moralist and Parisian bon vivant; revolutionary agitator and consummate diplomatic compromiser; slaveholder-turned-abolitionist. He was simultaneously the most 'American' of the founders and the most cosmopolitan. These roles did not fragment into inconsistency but were integrated through his characteristic pragmatism."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Van Doren, *Benjamin Franklin* (1938)",
+              "Isaacson, *Benjamin Franklin* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin composed his own humorous epitaph decades before death, comparing himself to 'the cover of an old book, its contents worn out...yet the work itself shall not be lost.' In his final weeks (April 1790), bedridden with pleurisy, he continued correspondence and submitted his abolitionist petition to Congress. His reported last words—'A dying man can do nothing easy'—reflect characteristic composure and wit facing imminent death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Isaacson, *Benjamin Franklin* (2003)",
+              "Franklin, *Autobiography* (1791)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Franklin was a noted swimmer in youth (demonstrated long-distance swims in the Thames, considered teaching swimming professionally). He completed eight transatlantic voyages—physically grueling multi-week ordeals—including one at age 79. He led a frontier militia expedition at age 49. However, he suffered debilitating gout and kidney stones in later decades, limiting physical capacity though not halting activity."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Lopez & Herbert, *The Private Franklin* (1975)",
+              "Franklin, 'The Morals of Chess' (1786)",
+              "Isaacson, *Benjamin Franklin* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Franklin was a lifelong chess enthusiast and wrote 'The Morals of Chess' (1786). He played violin, harp, guitar, and his own glass armonica for personal pleasure. He composed humorous bagatelles in France for his salon friends. He wrote 'Fart Proudly' as pure comic play. He enjoyed swimming recreationally from youth into old age. His enjoyment of Parisian social life, wine, and conversation was non-instrumental personal pleasure."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 5.56,
+          "Core_5D_Avg": 8.31,
+          "Cultural-Social": 10.0,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 9.33
+        }
+      },
+      "figure": "Benjamin Franklin",
+      "overall": {
+        "Core_5D_Avg": 8.31,
+        "Overall_Normalized_Equal_Avg": 7.89,
+        "General_Competency_Avg_10scale": 5.78
+      },
+      "summary": "A supreme polymath whose cognitive and cultural-social scores approach the ceiling: paradigm-shifting science, enduring institutions, and unmatched archetype resonance as the self-made citizen-philosopher. Strong embodied-existential marks reflect hardship tolerance, humor, and composure before death. Moral-affective scores are high but tempered by early slaveholding, redeemed by documented moral growth. Relational depth is his weakest dimension—long absences from Deborah and estrangement from son William lower spousal and parental marks despite extraordinary relational range. Heinlein competency is broad (science, diplomacy, writing, craft) but thin in agriculture, animal processing, and combat. Overall: one of history's most complete human beings, with relational blind spots.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.73,
+          "General_Competency_Avg_10scale": 5.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Franklin, *Autobiography* (1791)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Franklin's Autobiography describes preparing his own simple meals during periods of poverty in Philadelphia and London, including his vegetarian experiments. He was a noted gourmand in France who appreciated fine food and wrote about dietary choices. However, evidence of actual cooking skill beyond basic sustenance preparation is absent."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Brands, *The First American* (2000)",
+            "Van Doren, *Benjamin Franklin* (1938)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Franklin organized the Pennsylvania Association militia (1747) and personally led a frontier expedition to build and garrison forts in the Lehigh Valley (1755–56), demonstrating defensive organizational competence. However, there is no evidence of personal combat skill, weapons proficiency, or direct engagement in fighting."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Isaacson, *Benjamin Franklin* (2003)",
+            "Lopez & Herbert, *The Private Franklin* (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Franklin founded Pennsylvania Hospital (1751) for the poor and mentally ill, demonstrating institutional caregiving commitment. He took in and raised his illegitimate son William and later cared for grandchildren. However, there is limited evidence of sustained personal hands-on caregiving as a defining activity."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Van Doren, *Benjamin Franklin* (1938)",
+            "Isaacson, *Benjamin Franklin* (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Franklin composed his humorous self-epitaph decades before death, comparing his body to a worn book cover whose contents would appear 'in a new and more beautiful edition.' In his final weeks (April 1790), bedridden and in pain, he continued correspondence, submitted his abolitionist petition, and reportedly died with characteristic wit ('A dying man can do nothing easy'). He faced mortality with composure, humor, and continued purposeful action."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Franklin, *Autobiography* (1791)",
+            "Green, *Benjamin Franklin: Printer* (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Franklin trained and worked as a printer from age 12—a demanding manual craft requiring typesetting, press operation, ink mixing, and paper handling. He built scientific apparatus for his electrical experiments with his own hands. He constructed the glass armonica and Franklin stove prototypes. Printing in the 18th century was a highly skilled trade requiring precision and physical dexterity."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Chaplin, *The First Scientific American* (2006)",
+            "Franklin, 'Chart of the Gulf Stream' (1769)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Franklin completed eight transatlantic crossings and produced the first systematic chart of the Gulf Stream (c.1768–1786), measuring water temperatures during voyages to map ocean currents for navigational advantage. He traveled extensively throughout the colonies and Europe. While not a professional navigator, his Gulf Stream work demonstrates genuine navigational knowledge that improved maritime travel for others."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of animal husbandry, butchering, or food processing skill. Franklin was raised in urban environments (Boston, Philadelphia, London) and his writings do not reference these activities as personal competencies."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Isaacson, *Benjamin Franklin* (2003)",
+            "Van Doren, *Benjamin Franklin* (1938)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Franklin demonstrated exceptional leadership across civic (Junto, fire company), military (militia organization), diplomatic (French mission), and constitutional (Convention elder) contexts. He equally demonstrated followership: serving as colonial agent under Assembly instructions he sometimes disagreed with, deferring to Washington's military authority, and accepting the Constitution despite personal reservations ('I consent, Sir, to this Constitution because I expect no better')—his Convention speech explicitly modeled productive followership."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Cohen, *Benjamin Franklin's Science* (1990)",
+            "Isaacson, *Benjamin Franklin* (2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Franklin designed and built the Franklin stove (c.1741), an improved heating system with practical fabrication. He designed lightning rods and supervised their installation on buildings. He constructed the glass armonica (1761), a novel musical instrument requiring precision glasswork. He oversaw construction of frontier forts (1756). These demonstrate solid design-to-fabrication competence, though he was not a professional builder."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Schiff, *A Great Improvisation* (2005)",
+            "Stourzh, *Benjamin Franklin and American Foreign Policy* (1969)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Franklin coordinated the multi-year diplomatic mission to France (1776–85), managing intelligence, finances, naval operations (commissioning privateers), and treaty negotiations simultaneously. He organized colonial militia defense and frontier fort construction (1755–56). He managed the colonial postal system across thousands of miles. Each required sustained coordination under severe constraints."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Franklin, *Autobiography* (1791)",
+            "Lemay, *The Life of Benjamin Franklin* (2006–2009)",
+            "Isaacson, *Benjamin Franklin* (2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Franklin authored the Autobiography (a foundational American literary text), Poor Richard's Almanack (25 years of culturally iconic aphorisms), satirical essays, and the humorous bagatelles. He played violin, harp, and guitar, and invented the glass armonica—for which Mozart and Beethoven later composed. His writing was excellent and influential, though often instrumental (persuasion, instruction) rather than purely artistic."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Isaacson, *Benjamin Franklin* (2003)",
+            "Brands, *The First American* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Franklin co-founded Pennsylvania Hospital (1751) and vigorously advocated for smallpox inoculation after losing his son Francis (1736). He dispensed health advice in Poor Richard's Almanack and corresponded with physicians about treatments. However, there is no documented evidence of personal medical treatment skill or emergency medical intervention."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Cohen, *Benjamin Franklin's Science* (1990)",
+            "Franklin, 'Observations Concerning the Increase of Mankind' (1751)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Franklin's electrical experiments required careful quantitative reasoning (measuring charges, designing controlled experiments). His 'Observations Concerning the Increase of Mankind' (1751) employed demographic analysis that influenced Malthus. He balanced accounts as a successful printer-publisher for decades. He constructed elaborate magic squares as mathematical recreation. Competent but not a professional mathematician."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal agricultural skill. Franklin lived in urban settings throughout his life (Boston, Philadelphia, London, Paris). While he wrote about population growth and land use in abstract terms, he did not farm or manage agricultural resources personally."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Cohen, *Benjamin Franklin's Science* (1990)",
+            "Chaplin, *The First Scientific American* (2006)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Franklin operated at the absolute cutting edge of 18th-century technology across multiple domains: his electrical experiments (Leyden jar, single-fluid theory, lightning rod) were the most advanced in the world. He invented bifocals, the Franklin stove, the glass armonica, and the flexible urinary catheter. He improved printing technology, designed efficient street lamps, and systematically mapped ocean currents. He was elected to the Royal Society and the French Academy of Sciences."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.31,
+    "general_competency_avg_0_10": 5.78,
+    "overall_normalized_equal_avg_0_10": 7.89,
+    "created_at": "2026-03-15T21:06:19.033Z",
+    "updated_at": "2026-03-15T21:06:19.038Z"
+  }
+}
+]
