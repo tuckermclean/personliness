@@ -89,12 +89,12 @@ export default function FigureDetail() {
   const dimensionAverages = core.dimension_averages_0_10 || {}
 
   // Extract core dimensions (Cognitive, Moral-Affective, etc.)
-  const coreDimensions = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential']
+  const coreDimensions = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential', 'Relational']
     .filter(dim => core[dim])
 
   // Extract heinlein competencies (excluding 'averages')
   const heinleinCompetencies = Object.entries(heinlein)
-    .filter(([key]) => key !== 'averages')
+    .filter(([, data]) => data && typeof data === 'object' && 'score_0_3' in data)
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -205,6 +205,7 @@ export default function FigureDetail() {
                   dimName === 'Cognitive' ? 'bg-blue-500' :
                   dimName === 'Moral-Affective' ? 'bg-pink-500' :
                   dimName === 'Cultural-Social' ? 'bg-purple-500' :
+                  dimName === 'Relational' ? 'bg-teal-500' :
                   'bg-orange-500'
                 }`}></span>
                 {dimName}

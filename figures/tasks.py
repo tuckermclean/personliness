@@ -4,9 +4,10 @@ from django.core.files.base import ContentFile
 import openai
 import json
 import logging
+import os as _os
 import urllib.request
 from .models import FigureIngestionRequest, HistoricalFigure
-from .llm_utils import extract_json_from_response, build_llm_request_params, call_llm_for_json, get_active_llm_config, call_anthropic_extended_thinking
+from .llm_utils import extract_json_from_response, build_llm_request_params, call_llm_for_json, get_active_llm_config, call_anthropic_extended_thinking, call_anthropic_with_tool, FIGURE_ASSESSMENT_TOOL
 from .wikipedia_utils import resolve_figure_name
 from personliness.traits import get_all_trait_paths, CORE_DIMENSIONS, HEINLEIN_TRAIT_NAMES, calculate_averages
 from django.utils.text import slugify
@@ -192,6 +193,26 @@ def _merge_refined_scores(score_json, refined_data, low_confidence_traits):
     return merged_count
 
 
+def _validate_score_json_schema(score_json, figure_name):
+    """
+    Raises ValueError if score_json deviates from the canonical schema.
+    Checks that all 15 Heinlein trait names are present with correct keys.
+    """
+    heinlein = score_json.get('heinlein_competency', {})
+    missing = [t for t in HEINLEIN_TRAIT_NAMES if t not in heinlein]
+    invented = [k for k in heinlein if k not in HEINLEIN_TRAIT_NAMES and k != 'averages']
+    errors = []
+    if missing:
+        errors.append(f"Missing Heinlein traits: {missing}")
+    if invented:
+        errors.append(f"Non-canonical Heinlein keys (LLM invented names): {invented}")
+    if errors:
+        raise ValueError(
+            f"LLM schema deviation for '{figure_name}': {'; '.join(errors)}. "
+            "Re-run ingestion to get a compliant response."
+        )
+
+
 def _recalculate_averages(score_json):
     """
     Recalculates all dimension and overall averages after refinement.
@@ -327,254 +348,10 @@ def _perform_confidence_refinement(score_json, figure_name, biography_text, clie
     score_json['_refinement_metadata'] = refinement_metadata
     return score_json
 
-# LLM Rubric Prompt
-RUBRIC_PROMPT = """You are a careful historical rater.
-
-Your job is to assign evidence-backed scores for a single historical figure using the rubric below. Follow every instruction exactly.
-
----
-
-## Scales
-
-Core sub-traits: score 0–3
-
-| Score | Meaning | Anchor |
-|-------|---------|--------|
-| 0 | Absent / negligible | No credible evidence of this trait in the historical record. |
-| 1 | Weak / occasional | Trait appears episodically or in limited contexts; not a defining feature. |
-| 2 | Moderate / consistent | Trait is clearly present across multiple life-domains or periods; would be notable among peers. |
-| 3 | Exceptional / defining | Among the strongest known exemplars of this trait in the historical record; a primary reason the figure is remembered. |
-
-Heinlein Competency domains: same 0–3 scale and anchors.
-
-Convert to 0–10 only at the aggregation step.
-
----
-
-## Evidence & Uncertainty Rules
-
-1. Each sub-trait/domain must include a justification of 1–3 sentences referencing specific evidence (events, works, policies, campaigns, writings, named relationships).
-2. Vague justifications (e.g., "was known to be brave") score no higher than 1 regardless of reputation. The evidence must name a specific event, decision, or documented behavior.
-3. Add 1–3 citations (book/article/primary source) when possible; if none are handy, write "(no citation)" and cap confidence at Medium.
-4. Include a confidence value for each score: High / Medium / Low.
-5. Era normalization: Score relative to the practical ceiling available in the figure's time, geography, and social position. Do not penalize ancient figures for lacking modern capabilities.
-6. Anti-halo rule: A figure's fame in one domain must not inflate scores in unrelated domains. Each sub-trait is scored independently.
-7. Source-critical rule: When the primary sources are hagiographic, partisan, or written long after events, note this in the justification and cap confidence at Medium unless corroborated by independent sources.
-
----
-
-## RUBRIC: Section A — Core Dimensions & Sub-Traits (21 total)
-
-### 1. Cognitive (4 sub-traits)
-
-1. Strategic Intelligence — Ability to foresee multiple outcomes, adapt plans, and manage uncertainty. Score 3 requires documented cases of successful adaptation when initial plans failed.
-
-2. Ethical / Philosophical Insight — Depth and coherence in moral or metaphysical reasoning. Score 3 requires articulation of principles that influenced thinkers beyond the figure's own community or era.
-
-3. Creative / Innovative Thinking — Generation of novel ideas, solutions, or perspectives that changed thinking or practice. Score 3 requires demonstrable paradigm shift attributable to this figure.
-
-4. Administrative / Legislative Skill — Designing, organizing, and sustaining systems, policies, or laws. Score 3 requires systems that functioned and endured beyond the figure's direct oversight.
-
-### 2. Moral-Affective (4 sub-traits)
-
-5. Compassion / Empathy — Genuine concern for the well-being of others, expressed in tangible acts. Score 3 requires documented acts of compassion toward adversaries or outgroup members.
-
-6. Courage / Resilience — Willingness to face danger or hardship in service of a cause. Score 3 requires sustained courage across multiple high-stakes situations.
-
-7. Justice Orientation — Commitment to fairness, equity, and impartiality in action or policy. Score 3 requires documented cases of ruling against personal or group interest in favor of principle.
-
-8. Moral Fallibility & Growth — Willingness to acknowledge mistakes and change behavior meaningfully. Score 3 requires documented instances where the figure reversed a prior position with visible behavioral change afterward.
-
-### 3. Cultural-Social (5 sub-traits)
-
-9. Leadership / Influence — Mobilizing, inspiring, and directing groups toward shared goals. Score 3 requires successful leadership across qualitatively different contexts.
-
-10. Institution-Building — Creating or sustaining enduring organizations or social structures. Score 3 requires institutions that survived at least two generations beyond the founder.
-
-11. Impact Legacy — Long-term measurable effects on culture, politics, science, or society. Score 3 requires effects still clearly operative at least 500 years later across multiple civilizations.
-
-12. Archetype Resonance — Symbolic or mythic role with enduring cross-cultural recognition. Score 3 requires recognition as a symbol or archetype in cultures beyond the figure's own.
-
-13. Relatability / Cultural Embeddedness — Maintaining connection to ordinary life and shared human experience despite prominence. Score 3 requires documented engagement with mundane everyday activities even at the height of power or fame.
-
-### 4. Embodied-Existential (5 sub-traits)
-
-14. Physical Endurance / Skill — Sustained physical capacity relevant to life's demands or challenges. Score 3 requires documented physical feats or endurance across multiple life-stages.
-
-15. Hardship Tolerance — Functioning effectively under prolonged adversity (poverty, exile, illness, grief). Score 3 requires effective functioning across at least two qualitatively different forms of adversity.
-
-16. Joy / Play / Aesthetic Appreciation — Engagement with beauty, leisure, humor, or art for its own sake. Score 3 requires evidence of play or aesthetic engagement that is not instrumental.
-
-17. Mortality Acceptance — Composure and intentionality in the face of aging, risk, or death. Score 3 requires documented composure in the face of one's own imminent death.
-
-18. Paradox Integration — Reconciling opposing traits or roles into a coherent whole. Score 3 requires the figure to have inhabited at least three seemingly contradictory roles without fragmenting.
-
-### 5. Relational (3 sub-traits) — NEW DIMENSION
-
-19. Spousal / Partner Quality — Depth, mutuality, and durability of intimate partnerships. Score 3 requires documented evidence of mutual respect, support during crisis, and emotional availability across the arc of the relationship(s), not merely political alliance.
-
-20. Parental / Mentoring Quality — Investment in the development of dependents, students, or successors. Score 3 requires evidence that mentees/children developed genuine autonomy and competence, not merely obedience or replication.
-
-21. Relational Range — The breadth of relational modes the figure inhabited: spouse, parent, child, friend, adversary, stranger, subordinate, superior. Score 3 requires documented, qualitatively distinct behavior across at least five of these modes.
-
----
-
-## RUBRIC: Section B — Heinlein-Generalized Competency Domains (15 total)
-
-1. Caregiving & Nurture — Providing emotional and physical care across the human lifespan.
-2. Strategic Planning & Command — Coordinating complex operations and leading under constraints.
-3. Animal & Food Processing — Handling and preparing animals and raw food resources.
-4. Navigation & Wayfinding — Guiding travel across varied terrains or environments.
-5. Construction & Fabrication — Designing and building durable physical structures.
-6. Artistic & Cultural Expression — Creating works of art, music, literature, or performance.
-7. Numerical & Analytical Reasoning — Applying mathematics and logic to practical problems.
-8. Manual Craft & Repair — Making, fixing, or adapting tools, machines, or physical systems.
-9. Medical Aid & Emergency Response — Treating injury, illness, or urgent health threats.
-10. Leadership & Followership — Giving direction effectively and following others when appropriate.
-11. Agricultural & Resource Management — Cultivating food or managing natural resources sustainably.
-12. Culinary Skill — Preparing nutritious, appealing meals from available resources.
-13. Combat & Defense — Protecting self and others through skill in physical conflict.
-14. Technical & Systemic Problem-Solving — Operating or creating with the cutting-edge tools and technologies of the era.
-15. Existential Composure — Facing mortality or crisis with dignity and self-control.
-
----
-
-## Aggregation Formulas
-
-For each of the 5 Core dimensions, average its sub-traits (0–3), then scale to 0–10:
-  Dimension_Score_0_10 = (sum of sub-trait scores / number of sub-traits) × (10/3)
-
-Core_5D_Avg (0–10) = average of the five dimension scores.
-
-General_Competency_Avg (0–3) = average of all 15 domain scores.
-General_Competency_Avg_10scale (0–10) = General_Competency_Avg × (10/3).
-
-Overall_Normalized_Equal_Avg (0–10) = (Core_5D_Avg × 5 + General_Competency_Avg_10scale) / 6.
-
----
-
-## Output Requirements
-
-1. Score every sub-trait/domain 0–3 with justification + confidence.
-2. Compute aggregates as specified above.
-3. Provide a brief Summary (<=120 words) explaining the figure's overall profile.
-4. Return valid JSON matching the schema below. Do not include extra text outside JSON.
-
----
-
-## JSON Schema
-
-{
-  "figure": "string",
-  "core": {
-    "Cognitive": {
-      "Strategic Intelligence": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Ethical / Philosophical Insight": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Creative / Innovative Thinking": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Administrative / Legislative Skill": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]}
-    },
-    "Moral-Affective": {
-      "Compassion / Empathy": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Courage / Resilience": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Justice Orientation": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Moral Fallibility & Growth": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]}
-    },
-    "Cultural-Social": {
-      "Leadership / Influence": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Institution-Building": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Impact Legacy": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Archetype Resonance": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Relatability / Cultural Embeddedness": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]}
-    },
-    "Embodied-Existential": {
-      "Physical Endurance / Skill": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Hardship Tolerance": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Joy / Play / Aesthetic Appreciation": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Mortality Acceptance": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Paradox Integration": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]}
-    },
-    "Relational": {
-      "Spousal / Partner Quality": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Parental / Mentoring Quality": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-      "Relational Range": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]}
-    },
-    "dimension_averages_0_10": {
-      "Cognitive": 0,
-      "Moral-Affective": 0,
-      "Cultural-Social": 0,
-      "Embodied-Existential": 0,
-      "Relational": 0,
-      "Core_5D_Avg": 0
-    }
-  },
-  "heinlein_competency": {
-    "Caregiving & Nurture": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Strategic Planning & Command": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Animal & Food Processing": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Navigation & Wayfinding": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Construction & Fabrication": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Artistic & Cultural Expression": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Numerical & Analytical Reasoning": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Manual Craft & Repair": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Medical Aid & Emergency Response": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Leadership & Followership": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Agricultural & Resource Management": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Culinary Skill": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Combat & Defense": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Technical & Systemic Problem-Solving": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "Existential Composure": {"score_0_3": 0, "justification": "string", "confidence": "High|Medium|Low", "citations": ["..."]},
-    "averages": {
-      "General_Competency_Avg_0_3": 0,
-      "General_Competency_Avg_10scale": 0
-    }
-  },
-  "overall": {
-    "Core_5D_Avg": 0,
-    "General_Competency_Avg_10scale": 0,
-    "Overall_Normalized_Equal_Avg": 0
-  },
-  "summary": "string (<=120 words)"
-}
-
----
-
-## Mini-Example (abbreviated; values are illustrative)
-
-{
-  "figure": "Hypothetical Person",
-  "core": {
-    "Cognitive": {
-      "Strategic Intelligence": {"score_0_3": 2, "justification": "Planned multi-city relief operations; adapted logistics after the 1911 flood disrupted rail lines.", "confidence": "Medium", "citations": ["Smith 2018"]},
-      "Ethical / Philosophical Insight": {"score_0_3": 2, "justification": "Published moral essays on civic duty that influenced municipal reform movements in three states.", "confidence": "High", "citations": ["Journal of Ethics 2015"]},
-      "Creative / Innovative Thinking": {"score_0_3": 3, "justification": "Introduced a novel urban sanitation model adopted by 40+ cities within a decade.", "confidence": "High", "citations": ["Doe 2020"]},
-      "Administrative / Legislative Skill": {"score_0_3": 2, "justification": "Implemented city-wide waste policy that survived three subsequent administrations.", "confidence": "Medium", "citations": ["City Records 1912"]}
-    },
-    "Moral-Affective": { "...": "..." },
-    "Cultural-Social": { "...": "..." },
-    "Embodied-Existential": { "...": "..." },
-    "Relational": { "...": "..." },
-    "dimension_averages_0_10": {
-      "Cognitive": 7.5,
-      "Moral-Affective": 6.7,
-      "Cultural-Social": 8.0,
-      "Embodied-Existential": 5.8,
-      "Relational": 6.7,
-      "Core_5D_Avg": 6.9
-    }
-  },
-  "heinlein_competency": {
-    "Caregiving & Nurture": {"score_0_3": 2, "justification": "Volunteered at hospital for 12 years; personally nursed typhoid patients during 1918 outbreak.", "confidence": "High", "citations": ["Hospital Annual Report 1919"]},
-    "...": "...",
-    "averages": {"General_Competency_Avg_0_3": 1.9, "General_Competency_Avg_10scale": 6.3}
-  },
-  "overall": {
-    "Core_5D_Avg": 6.9,
-    "General_Competency_Avg_10scale": 6.3,
-    "Overall_Normalized_Equal_Avg": 6.8
-  },
-  "summary": "A versatile civic reformer with exceptional innovation in public health systems. Strong cognitive and social-cultural presence, moderate embodiment and relational depth."
-}
-"""
+# LLM Rubric Prompt — loaded at runtime from RUBRIC.md
+_RUBRIC_PATH = _os.path.join(_os.path.dirname(__file__), '..', 'RUBRIC.md')
+with open(_RUBRIC_PATH) as _f:
+    RUBRIC_PROMPT = _f.read()
 
 
 @shared_task
@@ -633,9 +410,12 @@ def process_single_figure(request_id):
         old_figure.delete()
         logger.info(f"Deleted stale result figure for re-run of request {request_id}")
 
-    # Update status to running
+    # Update status to running, clearing any previous thinking log
     ingestion_request.status = 'running'
-    ingestion_request.save()
+    ingestion_request.thinking_log = None
+    ingestion_request.save(update_fields=['status', 'thinking_log'])
+
+    thinking_log = []
 
     try:
         # Resolve canonical name, bio, image URL from Wikipedia
@@ -680,34 +460,23 @@ def process_single_figure(request_id):
         is_reasoning_model  = llm_cfg['is_reasoning']
         extended_thinking   = llm_cfg['extended_thinking']
         thinking_budget     = llm_cfg['thinking_budget_tokens']
-        thinking_log        = []
 
         SYSTEM = "You are a careful historical rater."
 
         if extended_thinking:
-            # --- Anthropic extended-thinking path ---
-            text, thinking = call_anthropic_extended_thinking(
-                llm_api_key, llm_model, prompt, SYSTEM)
+            # --- Anthropic extended-thinking path (tool use enforces schema) ---
+            score_json, thinking = call_anthropic_with_tool(
+                llm_api_key, llm_model, prompt, SYSTEM, FIGURE_ASSESSMENT_TOOL)
             thinking_log.append({"pass": "initial", "thinking": thinking})
 
-            try:
-                score_json = extract_json_from_response(text)
-            except json.JSONDecodeError:
-                repair_prompt = (
-                    "The following response was not valid JSON. "
-                    "Please return ONLY valid JSON matching the schema:\n\n" + text
-                )
-                text, thinking = call_anthropic_extended_thinking(
-                    llm_api_key, llm_model, repair_prompt,
-                    "You are a careful historical rater. Return ONLY valid JSON matching the schema.")
-                thinking_log.append({"pass": "repair", "thinking": thinking})
-                score_json = extract_json_from_response(text)
-                if score_json is None:
-                    raise ValueError(f"Could not parse JSON from LLM response after repair: {text[:200]}...")
-
-            # Validate the JSON structure
+            # Sanity-check the structure (tool use makes this very unlikely to fail)
             if 'figure' not in score_json or 'core' not in score_json or 'heinlein_competency' not in score_json:
-                raise ValueError("Invalid JSON structure from LLM")
+                keys_found = list(score_json.keys()) if isinstance(score_json, dict) else type(score_json).__name__
+                logger.error("Invalid JSON structure from LLM tool response. Keys found: %s", keys_found)
+                raise ValueError(f"Invalid JSON structure from LLM tool response (keys found: {keys_found})")
+
+            # Validate canonical trait names
+            _validate_score_json_schema(score_json, ingestion_request.figure_name)
 
             # Perform confidence refinement if enabled
             try:
@@ -762,6 +531,9 @@ def process_single_figure(request_id):
                 if 'figure' not in score_json or 'core' not in score_json or 'heinlein_competency' not in score_json:
                     raise ValueError("Invalid JSON structure from LLM")
 
+                # Validate canonical trait names
+                _validate_score_json_schema(score_json, ingestion_request.figure_name)
+
                 # Perform confidence refinement if enabled
                 try:
                     score_json = _perform_confidence_refinement(
@@ -779,6 +551,9 @@ def process_single_figure(request_id):
                         'error': str(refinement_exc)[:200],
                         'passes_executed': 0
                     }
+
+        # Ensure averages are always present regardless of refinement path
+        score_json = _recalculate_averages(score_json)
 
         # Proceed with database operations
 
@@ -826,6 +601,7 @@ def process_single_figure(request_id):
     except Exception as exc:
         ingestion_request.status = 'failed'
         ingestion_request.error = str(exc)[:500]
-        ingestion_request.save(update_fields=['status', 'error'])
+        ingestion_request.thinking_log = thinking_log if thinking_log else None
+        ingestion_request.save(update_fields=['status', 'error', 'thinking_log'])
 
         logger.error(f"Failed to process figure {ingestion_request.figure_name}: {exc}")

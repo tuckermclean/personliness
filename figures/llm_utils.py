@@ -5,6 +5,7 @@ Shared LLM utilities for JSON extraction and request building.
 import json
 import logging
 import os
+from personliness.traits import CORE_DIMENSIONS, HEINLEIN_TRAIT_NAMES
 
 logger = logging.getLogger(__name__)
 
@@ -89,6 +90,60 @@ def get_active_llm_config():
     }
 
 
+def _build_figure_assessment_tool():
+    """
+    Build the Anthropic tool definition for figure assessment.
+    Generated from canonical trait definitions so it stays in sync with traits.py.
+    """
+    trait_score_schema = {
+        "type": "object",
+        "properties": {
+            "score_0_3": {"type": "number"},
+            "justification": {"type": "string"},
+            "confidence": {"type": "string", "enum": ["High", "Medium", "Low"]},
+            "citations": {"type": "array", "items": {"type": "string"}},
+        },
+        "required": ["score_0_3", "justification", "confidence"],
+    }
+
+    core_dim_properties = {}
+    for dimension, traits in CORE_DIMENSIONS.items():
+        core_dim_properties[dimension] = {
+            "type": "object",
+            "properties": {t: trait_score_schema for t in traits},
+            "required": traits,
+        }
+
+    heinlein_properties = {t: trait_score_schema for t in HEINLEIN_TRAIT_NAMES}
+
+    return {
+        "name": "submit_figure_assessment",
+        "description": "Submit the completed trait assessment for a historical figure.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "figure": {"type": "string"},
+                "summary": {"type": "string"},
+                "core": {
+                    "type": "object",
+                    "properties": core_dim_properties,
+                    "required": list(CORE_DIMENSIONS.keys()),
+                },
+                "heinlein_competency": {
+                    "type": "object",
+                    "properties": heinlein_properties,
+                    "required": HEINLEIN_TRAIT_NAMES,
+                    "additionalProperties": False,
+                },
+            },
+            "required": ["figure", "summary", "core", "heinlein_competency"],
+        },
+    }
+
+
+FIGURE_ASSESSMENT_TOOL = _build_figure_assessment_tool()
+
+
 def call_anthropic_extended_thinking(api_key, model, prompt, system_message):
     """
     Call Anthropic SDK with extended thinking enabled.
@@ -107,6 +162,38 @@ def call_anthropic_extended_thinking(api_key, model, prompt, system_message):
     text = "\n".join(b.text for b in response.content if b.type == "text")
     thinking = "\n".join(b.thinking for b in response.content if b.type == "thinking")
     return text, thinking
+
+
+def call_anthropic_with_tool(api_key, model, prompt, system_message, tool):
+    """
+    Call Anthropic SDK with extended thinking and tool use.
+    Uses tool_choice="auto" (required — forced tool use is incompatible with thinking).
+    Returns (result_dict, thinking_content).
+    """
+    import anthropic
+    client = anthropic.Anthropic(api_key=api_key)
+    system = f"{system_message}\n\nAlways use the `{tool['name']}` tool to submit your response."
+    with client.messages.stream(
+        model=model,
+        max_tokens=32000,
+        thinking={"type": "adaptive"},
+        system=system,
+        tools=[tool],
+        tool_choice={"type": "auto"},
+        messages=[{"role": "user", "content": prompt}],
+    ) as stream:
+        response = stream.get_final_message()
+    if response.stop_reason == "max_tokens":
+        logger.error("Response truncated (stop_reason=max_tokens) — tool input will be incomplete")
+    thinking = "\n".join(b.thinking for b in response.content if b.type == "thinking")
+    tool_use_block = next((b for b in response.content if b.type == "tool_use"), None)
+    if tool_use_block is None:
+        text = "\n".join(b.text for b in response.content if b.type == "text")
+        logger.warning("Model did not call tool — falling back to text parsing. Raw text: %s", text[:500])
+        result = extract_json_from_response(text)
+    else:
+        result = tool_use_block.input
+    return result, thinking
 
 
 def call_llm_for_json(client, model, is_reasoning, prompt, **kwargs):
