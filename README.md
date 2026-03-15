@@ -29,11 +29,11 @@ Users answer 62 Likert-scale questions, receive scores across 36 traits in 5 cor
                 ▼
         ┌──────────────┐
         │  Django /    │◄──── Celery Worker
-        │  Gunicorn    │          │
-        │  :8000       │          │
-        └──────┬───────┘          │
-               │                  │
-       ┌───────┴──────┐    ┌──────┴──────┐
+        │  Gunicorn    │           │
+        │  :8000       │           │
+        └──────┬───────┘           │
+               │                   │
+       ┌───────┴───────┐    ┌──────┴──────┐
        │ PostgreSQL 15 │    │  Redis 7    │
        └───────────────┘    └─────────────┘
                                           │
