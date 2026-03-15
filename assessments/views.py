@@ -101,12 +101,37 @@ class LatestMatchesView(APIView):
             else:
                 top_matches = rank_matches(assessment.trait_scores_0_3, top_n=top_n)
 
+            # Always attach current image URLs and Wikipedia bio from the figures table
+            slugs = [m['figure_slug'] for m in top_matches]
+            figure_data = {
+                f.slug: {
+                    'image': f.image.url if f.image else None,
+                    'bio_intro': f.bio_long.split('\n\n')[0] if f.bio_long else None,
+                }
+                for f in HistoricalFigure.objects.filter(slug__in=slugs).only('slug', 'image', 'bio_long')
+            }
+            top_matches = [{**m, **figure_data.get(m['figure_slug'], {})} for m in top_matches]
+
             return Response({
                 'top_matches': top_matches,
                 'user_assessment_id': assessment.id
             })
         except AssessmentSubmission.DoesNotExist:
             return Response({'detail': 'No assessments found'}, status=status.HTTP_404_NOT_FOUND)
+
+
+class AssessmentHistoryView(APIView):
+    def get(self, request):
+        assessments = AssessmentSubmission.objects.filter(user=request.user).order_by('-created_at')[:10]
+        data = [{
+            'id': a.id,
+            'created_at': a.created_at,
+            'overall': a.overall,
+            'best_match_figure': a.best_match_figure.name if a.best_match_figure else None,
+            'best_match_figure_slug': a.best_match_figure.slug if a.best_match_figure else None,
+            'best_match_similarity': a.best_match_similarity,
+        } for a in assessments]
+        return Response(data)
 
 
 class CompareView(APIView):

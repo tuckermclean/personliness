@@ -187,6 +187,30 @@
   }
 }
 
+/* ─── Additional Keyframes ─────────────────────────────────────────────────── */
+@keyframes radial-pulse {
+  0%, 100% { transform: scale(0.9); opacity: 0.15; }
+  50%       { transform: scale(1.2); opacity: 0.45; }
+}
+
+@keyframes radar-fill-figure {
+  from { fill-opacity: 0; }
+  to   { fill-opacity: 0.12; }
+}
+@keyframes radar-fill-user {
+  from { fill-opacity: 0; }
+  to   { fill-opacity: 0.10; }
+}
+
+/* ─── Mobile / Touch ───────────────────────────────────────────────────────── */
+@media (pointer: coarse) {
+  .btn-primary, .btn-secondary { min-height: 44px; }
+}
+
+@media (hover: none) {
+  .dim-card:hover { border-left-width: 3px; }
+}
+
 /* ─── Reduced Motion ───────────────────────────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

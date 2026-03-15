@@ -25,5 +25,9 @@ class AssessmentSubmission(models.Model):
     best_match_similarity = models.FloatField(null=True, blank=True)
     match_results = models.JSONField(null=True, blank=True)
 
+    class Meta:
+        ordering = ['-created_at']
+        indexes = [models.Index(fields=['user', '-created_at'])]
+
     def __str__(self):
         return f"{self.user.username} - {self.created_at}"

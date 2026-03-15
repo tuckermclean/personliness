@@ -196,6 +196,7 @@ def rank_matches(user_scores, top_n=10):
             'figure_name': figure.name,
             'figure_slug': figure.slug,
             'bio_short': figure.bio_short,
+            'image': figure.image.url if figure.image else None,
             **match,
         })
 

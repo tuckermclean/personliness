@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { getFigures } from '../api'
 
@@ -17,71 +17,81 @@ function dimColorForSlug(slug) {
   return DIM_COLORS[slugHash(slug) % DIM_COLORS.length]
 }
 
-function eraWarmCool(slug) {
-  return slugHash(slug) % 2 === 0
-    ? 'rgba(154, 123, 79, 0.06)'
-    : 'rgba(91, 155, 213, 0.06)'
-}
-
 function FigureCard({ figure, sortKey }) {
   const [hovered, setHovered] = useState(false)
   const dimColor = dimColorForSlug(figure.slug)
-  const tint = eraWarmCool(figure.slug)
 
   return (
     <Link
       to={`/figures/${figure.slug}`}
-      className="block relative dim-card"
+      className="block relative dim-card overflow-hidden"
       style={{
-        borderLeftColor: dimColor,
-        background: hovered ? `var(--surface-2)` : 'var(--surface-1)',
+        background: hovered ? 'var(--surface-2)' : 'var(--surface-1)',
         border: '1px solid var(--surface-3)',
         borderLeft: `3px solid ${dimColor}`,
+        borderTop: `4px solid ${dimColor}`,
         borderRadius: '2px',
-        padding: '1.5rem',
         transition: 'background 0.2s ease, border-left-width 0.15s ease, box-shadow 0.2s ease',
         ...(hovered && {
           borderLeftWidth: '5px',
           boxShadow: '0 4px 16px rgba(0,0,0,0.08)',
-          background: `color-mix(in srgb, var(--surface-2) 92%, ${tint})`,
         }),
         textDecoration: 'none',
       }}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <h3
-        className="figure-name text-xl font-medium mb-1 transition-transform duration-150"
-        style={{
-          color: 'var(--text-primary)',
-          transform: hovered ? 'translateY(-1px)' : 'translateY(0)',
-        }}
-      >
-        {figure.name}
-      </h3>
-      <p
-        className="text-sm mb-4 line-clamp-2"
-        style={{ color: 'var(--text-secondary)' }}
-      >
-        {figure.bio_short}
-      </p>
+      <div style={{ display: 'flex', alignItems: 'stretch' }}>
+        {/* Portrait thumbnail — flush to card edges, tall crop works for any painted portrait */}
+        {figure.image && (
+          <div style={{
+            flexShrink: 0,
+            width: '90px',
+            overflow: 'hidden',
+          }}>
+            <img
+              src={figure.image}
+              alt={figure.name}
+              style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 15%' }}
+            />
+          </div>
+        )}
 
-      <div className="grid grid-cols-3 gap-2 text-center">
-        <ScorePill
-          label="Overall"
-          value={figure.overall_normalized_equal_avg_0_10}
-          active={sortKey === 'overall'}
-        />
-        <ScorePill
-          label="Core"
-          value={figure.core_4d_avg_0_10}
-          active={sortKey === 'core'}
-        />
-        <ScorePill
-          label="Competency"
-          value={figure.general_competency_avg_0_10}
-          active={sortKey === 'heinlein'}
-        />
+        <div style={{ flex: 1, minWidth: 0, padding: '1.25rem' }}>
+          <h3
+            className="figure-name text-xl font-medium mb-1 transition-transform duration-150"
+            style={{
+              color: 'var(--text-primary)',
+              transform: hovered ? 'translateY(-1px)' : 'translateY(0)',
+            }}
+          >
+            {figure.name}
+          </h3>
+          <p
+            className="text-sm mb-4 line-clamp-2"
+            style={{ color: 'var(--text-secondary)' }}
+          >
+            {figure.bio_intro || figure.bio_short}
+          </p>
+
+          <div className="grid grid-cols-3 gap-2 text-center">
+            <ScorePill
+              label="Overall"
+              value={figure.overall_normalized_equal_avg_0_10}
+              active={sortKey === 'overall'}
+            />
+            <ScorePill
+              label="Core"
+              value={figure.core_4d_avg_0_10}
+              active={sortKey === 'core'}
+            />
+            <ScorePill
+              label="Competency"
+              value={figure.general_competency_avg_0_10}
+              active={sortKey === 'heinlein'}
+            />
+          </div>
+        </div>
       </div>
     </Link>
   )

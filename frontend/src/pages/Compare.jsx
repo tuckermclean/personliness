@@ -131,7 +131,7 @@ function RadarChart({ userDimensions, figureDimensions }) {
   const userPoints = polygonPoints(userDimensions)
 
   return (
-    <svg viewBox={`0 0 ${size} ${size}`} className="w-full max-w-xs mx-auto">
+    <svg viewBox={`0 0 ${size} ${size}`} className="w-full max-w-sm mx-auto" overflow="visible">
       {/* Grid circles */}
       {gridLevels.map(level => (
         <circle
@@ -164,24 +164,26 @@ function RadarChart({ userDimensions, figureDimensions }) {
         stroke="none"
       />
 
-      {/* Figure polygon (draws first) */}
+      {/* Figure polygon (draws first) — orange, warm */}
       <polygon
         ref={figurePolyRef}
         points={figurePoints}
-        fill="var(--accent-figure)"
-        fillOpacity="0.12"
-        stroke="var(--accent-figure)"
+        fill="var(--dim-embodied)"
+        fillOpacity="0"
+        stroke="var(--dim-embodied)"
         strokeWidth="2"
+        style={{ animation: 'radar-fill-figure 0.4s ease-out 1.1s both' }}
       />
 
-      {/* User polygon (draws second) */}
+      {/* User polygon (draws second) — blue, cool */}
       <polygon
         ref={userPolyRef}
         points={userPoints}
-        fill="var(--accent)"
-        fillOpacity="0.10"
-        stroke="var(--accent)"
+        fill="var(--dim-cognitive)"
+        fillOpacity="0"
+        stroke="var(--dim-cognitive)"
         strokeWidth="2"
+        style={{ animation: 'radar-fill-user 0.4s ease-out 1.35s both' }}
       />
 
       {/* Data points */}
@@ -190,8 +192,8 @@ function RadarChart({ userDimensions, figureDimensions }) {
         const up = polarToXY(i, userDimensions[dim] || 0)
         return (
           <g key={dim}>
-            <circle cx={fp.x} cy={fp.y} r="3" fill="var(--accent-figure)" />
-            <circle cx={up.x} cy={up.y} r="3" fill="var(--accent)" />
+            <circle cx={fp.x} cy={fp.y} r="3" fill="var(--dim-embodied)" />
+            <circle cx={up.x} cy={up.y} r="3" fill="var(--dim-cognitive)" />
           </g>
         )
       })}
@@ -220,27 +222,41 @@ function RadarChart({ userDimensions, figureDimensions }) {
 function TraitCompareBar({ trait, userScore, figureScore, maxValue = 3 }) {
   const uPct = (userScore / maxValue) * 100
   const fPct = (figureScore / maxValue) * 100
+  const delta = userScore - figureScore
+  const showDelta = Math.abs(delta) >= 0.5
   return (
     <div className="mb-3">
       <div className="flex justify-between text-sm mb-1">
         <span className="truncate mr-2" style={{ color: 'var(--text-secondary)' }}>{trait}</span>
-        <span className="text-xs whitespace-nowrap font-mono">
-          <span style={{ color: 'var(--accent)' }}>{userScore.toFixed(1)}</span>
+        <span className="text-xs whitespace-nowrap font-mono flex items-center gap-1.5">
+          <span style={{ color: 'var(--dim-cognitive)' }}>{userScore.toFixed(1)}</span>
           {' / '}
-          <span style={{ color: 'var(--accent-figure)' }}>{figureScore.toFixed(1)}</span>
+          <span style={{ color: 'var(--dim-embodied)' }}>{figureScore.toFixed(1)}</span>
+          {showDelta && (
+            <span
+              className="px-1 py-0.5 text-[10px] font-medium"
+              style={{
+                background: delta > 0 ? 'rgba(91,155,213,0.15)' : 'rgba(212,130,74,0.15)',
+                color: delta > 0 ? 'var(--dim-cognitive)' : 'var(--dim-embodied)',
+                borderRadius: '2px',
+              }}
+            >
+              {delta > 0 ? '+' : ''}{delta.toFixed(1)}
+            </span>
+          )}
         </span>
       </div>
       <div className="flex gap-1">
         <div className="flex-1 score-track">
           <div
             className="score-fill"
-            style={{ '--bar-target': `${uPct}%`, animationDelay: '0.15s', background: 'var(--accent)' }}
+            style={{ '--bar-target': `${uPct}%`, animationDelay: '0.15s', background: 'var(--dim-cognitive)' }}
           />
         </div>
         <div className="flex-1 score-track">
           <div
             className="score-fill"
-            style={{ '--bar-target': `${fPct}%`, animationDelay: '0.15s', background: 'var(--accent-figure)' }}
+            style={{ '--bar-target': `${fPct}%`, animationDelay: '0.15s', background: 'var(--dim-embodied)' }}
           />
         </div>
       </div>
@@ -347,11 +363,11 @@ export default function Compare() {
       {/* Legend */}
       <div className="flex gap-5 mb-6 text-sm">
         <span className="flex items-center gap-2">
-          <span className="w-3 h-2 rounded-sm inline-block" style={{ background: 'var(--accent)' }} />
+          <span className="w-3 h-2 rounded-sm inline-block" style={{ background: 'var(--dim-cognitive)' }} />
           <span style={{ color: 'var(--text-secondary)' }}>You</span>
         </span>
         <span className="flex items-center gap-2">
-          <span className="w-3 h-2 rounded-sm inline-block" style={{ background: 'var(--accent-figure)' }} />
+          <span className="w-3 h-2 rounded-sm inline-block" style={{ background: 'var(--dim-embodied)' }} />
           <span className="figure-name font-light" style={{ color: 'var(--text-secondary)' }}>{figure.name}</span>
         </span>
       </div>
@@ -475,9 +491,20 @@ export default function Compare() {
             >
               Key Differences
             </h3>
-            <p className="text-xs mb-3" style={{ color: 'var(--text-tertiary)' }}>
-              Traits with 1.0+ point gap (positive = you score higher)
+            <p className="text-xs mb-2" style={{ color: 'var(--text-tertiary)' }}>
+              Traits with 1.0+ point gap
             </p>
+            {/* Legend */}
+            <div className="flex items-center gap-4 mb-3 text-[10px] uppercase tracking-[0.06em]" style={{ color: 'var(--text-tertiary)' }}>
+              <span className="flex items-center gap-1.5">
+                <span className="w-2.5 h-2.5 rounded-sm inline-block" style={{ background: 'var(--dim-cognitive)' }} />
+                You score higher
+              </span>
+              <span className="flex items-center gap-1.5">
+                <span className="w-2.5 h-2.5 rounded-sm inline-block" style={{ background: 'var(--dim-embodied)' }} />
+                They score higher
+              </span>
+            </div>
             <div className="flex flex-wrap gap-2">
               {match.key_differences.map(d => (
                 <span

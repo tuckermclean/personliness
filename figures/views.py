@@ -4,13 +4,13 @@ from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.exceptions import PermissionDenied
 from .models import HistoricalFigure, FigureIngestionRequest
-from .serializers import HistoricalFigureSerializer, FigureIngestionRequestSerializer
+from .serializers import HistoricalFigureListSerializer, HistoricalFigureDetailSerializer, FigureIngestionRequestSerializer
 from django.db.models import Q
 import os
 
 
 class FigureListView(generics.ListAPIView):
-    serializer_class = HistoricalFigureSerializer
+    serializer_class = HistoricalFigureListSerializer
     permission_classes = [AllowAny]
 
     def get_queryset(self):
@@ -46,7 +46,7 @@ class FigureListView(generics.ListAPIView):
 
 class FigureDetailView(generics.RetrieveAPIView):
     queryset = HistoricalFigure.objects.all()
-    serializer_class = HistoricalFigureSerializer
+    serializer_class = HistoricalFigureDetailSerializer
     permission_classes = [AllowAny]
     lookup_field = 'slug'
 

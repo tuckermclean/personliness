@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { getLatestAssessment, getLatestMatches } from '../api'
 
@@ -23,15 +23,80 @@ const DIM_COLORS = {
   'Relational':           'var(--dim-relational)',
 }
 
-function AnimatedBar({ value, maxValue = 10, color, delay = 0 }) {
-  const pct = (value / maxValue) * 100
+// ── SVG arc score tile ────────────────────────────────────────────────────────
+function ArcTile({ label, value, color }) {
+  const radius = 28
+  const circumference = 2 * Math.PI * radius
+  const [displayedArc, setDisplayedArc] = useState(0)
+
+  useEffect(() => {
+    const arc = value ? (value / 10) * circumference : 0
+    const t = setTimeout(() => setDisplayedArc(arc), 200)
+    return () => clearTimeout(t)
+  }, [value, circumference])
+
   return (
-    <div className="score-track">
+    <div
+      className="flex flex-col items-center p-4"
+      style={{ background: 'var(--surface-1)', borderRadius: '2px' }}
+    >
+      <div className="relative mb-2" style={{ width: '72px', height: '72px' }}>
+        <svg viewBox="0 0 72 72" className="w-full h-full" style={{ transform: 'rotate(-90deg)' }}>
+          <circle
+            cx="36" cy="36" r={radius}
+            fill="none"
+            stroke="var(--surface-2)"
+            strokeWidth="5"
+          />
+          <circle
+            cx="36" cy="36" r={radius}
+            fill="none"
+            stroke={color}
+            strokeWidth="5"
+            strokeLinecap="round"
+            strokeDasharray={`${displayedArc} ${circumference}`}
+            style={{ transition: 'stroke-dasharray 1.2s cubic-bezier(0.4, 0, 0.2, 1)' }}
+          />
+        </svg>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <span
+            className="font-mono font-medium"
+            style={{ fontSize: 'clamp(0.875rem, 2.5vw, 1rem)', color }}
+          >
+            {value?.toFixed(1) ?? '—'}
+          </span>
+        </div>
+      </div>
+      <p className="text-xs uppercase tracking-[0.06em]" style={{ color: 'var(--text-tertiary)' }}>{label}</p>
+    </div>
+  )
+}
+
+// ── Animated bar ──────────────────────────────────────────────────────────────
+function AnimatedBar({ value, maxValue = 10, color, delay = 0 }) {
+  const ref = useRef()
+  const [inView, setInView] = useState(false)
+  const pct = (value / maxValue) * 100
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) { setInView(true); observer.disconnect() } },
+      { threshold: 0.1 }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
+
+  return (
+    <div ref={ref} className="score-track">
       <div
         className="score-fill"
         style={{
           '--bar-target': `${pct}%`,
           animationDelay: `${(100 + delay) / 1000}s`,
+          animationPlayState: inView ? 'running' : 'paused',
           background: `linear-gradient(to right, ${color}, color-mix(in srgb, ${color} 60%, transparent))`,
         }}
       />
@@ -76,6 +141,7 @@ function DimensionBar({ name, similarity, delay }) {
   )
 }
 
+// ── CountUp ───────────────────────────────────────────────────────────────────
 function CountUp({ target, duration = 1200 }) {
   const [value, setValue] = useState(0)
   useEffect(() => {
@@ -84,7 +150,6 @@ function CountUp({ target, duration = 1200 }) {
     function step(now) {
       const elapsed = now - start
       const progress = Math.min(elapsed / duration, 1)
-      // ease-out cubic
       const eased = 1 - Math.pow(1 - progress, 3)
       setValue(Math.round(eased * target))
       if (progress < 1) raf = requestAnimationFrame(step)
@@ -95,6 +160,34 @@ function CountUp({ target, duration = 1200 }) {
   return <>{value}</>
 }
 
+function SimilarityPill({ label, value, color }) {
+  return (
+    <span
+      className="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium font-mono"
+      style={{ background: `${color}18`, color, borderRadius: '2px' }}
+    >
+      {label} {(value * 100).toFixed(0)}%
+    </span>
+  )
+}
+
+// ── DifferenceLegend ──────────────────────────────────────────────────────────
+function DifferenceLegend() {
+  return (
+    <div className="flex items-center gap-4 mb-2 text-[10px] uppercase tracking-[0.06em]" style={{ color: 'var(--text-tertiary)' }}>
+      <span className="flex items-center gap-1.5">
+        <span className="w-2.5 h-2.5 rounded-sm inline-block" style={{ background: 'var(--dim-cognitive)' }} />
+        You score higher
+      </span>
+      <span className="flex items-center gap-1.5">
+        <span className="w-2.5 h-2.5 rounded-sm inline-block" style={{ background: 'var(--dim-embodied)' }} />
+        They score higher
+      </span>
+    </div>
+  )
+}
+
+// ── MatchCard ─────────────────────────────────────────────────────────────────
 function MatchCard({ match, rank, isTop }) {
   const dimensions = match.dimensions || {}
   const strengths = (match.shared_strengths || []).slice(0, 4)
@@ -104,27 +197,31 @@ function MatchCard({ match, rank, isTop }) {
   if (isTop) {
     return (
       <div
-        className="card col-span-full animate-fade-up"
+        className="card col-span-full mb-8"
         style={{
           borderLeft: '3px solid var(--accent)',
+          background: 'color-mix(in srgb, var(--accent-figure) 5%, var(--surface-1))',
           position: 'relative',
           overflow: 'hidden',
         }}
       >
-        {/* Rank badge */}
         <div className="flex items-start justify-between flex-wrap gap-4 mb-4">
-          <div className="flex items-center gap-3">
-            <span
-              className="w-10 h-10 flex items-center justify-center font-mono font-medium text-sm animate-ring-pulse"
+          <div className="flex items-center gap-4 min-w-0 flex-1">
+            {/* Portrait avatar */}
+            <div
+              className="shrink-0 flex items-center justify-center figure-name font-light"
               style={{
-                background: 'var(--accent)',
-                color: 'var(--surface-0)',
+                width: '64px',
+                height: '64px',
                 borderRadius: '50%',
+                background: 'var(--accent-figure)',
+                color: 'var(--surface-0)',
+                fontSize: '1.75rem',
               }}
             >
-              1
-            </span>
-            <div>
+              {match.figure_name?.[0]}
+            </div>
+            <div className="min-w-0">
               <h3
                 className="figure-name text-2xl font-light"
                 style={{ color: 'var(--text-primary)' }}
@@ -136,10 +233,10 @@ function MatchCard({ match, rank, isTop }) {
               </p>
             </div>
           </div>
-          <div className="text-right">
+          <div className="text-right shrink-0">
             <p
               className="font-mono font-medium"
-              style={{ fontSize: '2.5rem', color: 'var(--accent)', lineHeight: 1 }}
+              style={{ fontSize: '4rem', color: 'var(--accent)', lineHeight: 1 }}
             >
               <CountUp target={overallPct} />%
             </p>
@@ -148,6 +245,9 @@ function MatchCard({ match, rank, isTop }) {
             </p>
           </div>
         </div>
+
+        {/* Decorative rule */}
+        <div style={{ height: '1px', background: 'var(--surface-3)', margin: '0 0 1rem' }} />
 
         <div className="flex flex-wrap gap-2 mb-4">
           <SimilarityPill label="Core" value={match.core_similarity} color="var(--dim-cognitive)" />
@@ -174,9 +274,9 @@ function MatchCard({ match, rank, isTop }) {
       style={{ borderLeft: '3px solid var(--surface-3)' }}
     >
       <div className="flex items-start justify-between mb-3">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 min-w-0 flex-1">
           <span
-            className="w-8 h-8 flex items-center justify-center font-mono text-sm font-medium"
+            className="w-8 h-8 flex items-center justify-center font-mono text-sm font-medium shrink-0"
             style={{
               background: 'var(--surface-2)',
               color: 'var(--text-tertiary)',
@@ -185,7 +285,7 @@ function MatchCard({ match, rank, isTop }) {
           >
             {rank + 1}
           </span>
-          <div>
+          <div className="min-w-0">
             <h3 className="figure-name text-lg font-light" style={{ color: 'var(--text-primary)' }}>
               {match.figure_name}
             </h3>
@@ -222,13 +322,24 @@ function MatchCard({ match, rank, isTop }) {
       )}
 
       {differences.length > 0 && (
-        <div className="flex flex-wrap gap-1 mb-3">
-          {differences.map(d => (
-            <span key={d.trait} className="text-xs px-2 py-0.5 font-medium" style={{ background: '#D4824A18', color: '#D4824A', borderRadius: '2px' }}>
-              {d.trait} ({d.delta > 0 ? '+' : ''}{d.delta.toFixed(1)})
-            </span>
-          ))}
-        </div>
+        <>
+          <DifferenceLegend />
+          <div className="flex flex-wrap gap-1 mb-3">
+            {differences.map(d => (
+              <span
+                key={d.trait}
+                className="text-xs px-2 py-0.5 font-medium"
+                style={{
+                  background: d.delta > 0 ? 'rgba(91,155,213,0.12)' : 'rgba(212,130,74,0.12)',
+                  color: d.delta > 0 ? 'var(--dim-cognitive)' : 'var(--dim-embodied)',
+                  borderRadius: '2px',
+                }}
+              >
+                {d.trait} ({d.delta > 0 ? '+' : ''}{d.delta.toFixed(1)})
+              </span>
+            ))}
+          </div>
+        </>
       )}
 
       <div className="flex gap-2">
@@ -243,17 +354,7 @@ function MatchCard({ match, rank, isTop }) {
   )
 }
 
-function SimilarityPill({ label, value, color }) {
-  return (
-    <span
-      className="inline-flex items-center gap-1 px-2 py-0.5 text-xs font-medium font-mono"
-      style={{ background: `${color}18`, color, borderRadius: '2px' }}
-    >
-      {label} {(value * 100).toFixed(0)}%
-    </span>
-  )
-}
-
+// ── Main component ─────────────────────────────────────────────────────────────
 export default function Results() {
   const [assessment, setAssessment] = useState(null)
   const [matches, setMatches] = useState(null)
@@ -306,6 +407,8 @@ export default function Results() {
   }
 
   const { trait_scores_0_3, dimension_averages_0_10, overall } = assessment
+  const topMatch = matches?.top_matches?.[0]
+  const remainingMatches = matches?.top_matches?.slice(1) || []
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-10">
@@ -315,31 +418,27 @@ export default function Results() {
       >
         Your Results
       </h1>
-      <p className="text-sm mb-10" style={{ color: 'var(--text-tertiary)' }}>
+      <p className="text-sm mb-8" style={{ color: 'var(--text-tertiary)' }}>
         Assessment completed on {new Date(assessment.created_at).toLocaleDateString()}
+        {' · '}
+        <Link to="/assessment" className="transition-colors" style={{ color: 'var(--text-tertiary)' }}>
+          Retake
+        </Link>
       </p>
 
-      {/* Overall score tiles */}
-      <div className="grid md:grid-cols-3 gap-4 mb-10">
-        {[
-          { label: 'Overall', value: overall?.Overall_Normalized_Equal_Avg, color: 'var(--accent)' },
-          { label: 'Core 5D', value: overall?.Core_5D_Avg, color: 'var(--dim-cognitive)' },
-          { label: 'Competency', value: overall?.General_Competency_Avg_10scale, color: 'var(--dim-competency)' },
-        ].map(({ label, value, color }) => (
-          <div
-            key={label}
-            className="p-6"
-            style={{ background: 'var(--surface-1)', borderRadius: '2px', borderLeft: `3px solid ${color}` }}
-          >
-            <p className="text-xs uppercase tracking-[0.06em] mb-1" style={{ color: 'var(--text-tertiary)' }}>{label}</p>
-            <p className="font-mono font-medium" style={{ fontSize: '2.5rem', color, lineHeight: 1 }}>
-              {value?.toFixed(2) ?? '—'}
-            </p>
-            <p className="text-xs mt-1" style={{ color: 'var(--text-tertiary)' }}>out of 10</p>
-          </div>
-        ))}
+      {/* 1. Featured top match hero */}
+      {topMatch && (
+        <MatchCard match={topMatch} rank={0} isTop={true} />
+      )}
+
+      {/* 2. Score tiles with arc indicators */}
+      <div className="grid grid-cols-3 gap-2 sm:gap-4 mb-10">
+        <ArcTile label="Overall" value={overall?.Overall_Normalized_Equal_Avg} color="var(--accent)" />
+        <ArcTile label="Core 5D" value={overall?.Core_5D_Avg} color="var(--dim-cognitive)" />
+        <ArcTile label="Competency" value={overall?.General_Competency_Avg_10scale} color="var(--dim-competency)" />
       </div>
 
+      {/* 3. Dimension breakdown */}
       <div className="grid md:grid-cols-2 gap-6 mb-10">
         {/* Core Dimensions */}
         <div className="card">
@@ -379,26 +478,22 @@ export default function Results() {
         </div>
       </div>
 
-      {/* Historical Matches */}
-      {matches?.top_matches && matches.top_matches.length > 0 && (
+      {/* 4. Remaining matches grid */}
+      {remainingMatches.length > 0 && (
         <div>
           <h2
             className="figure-name font-medium mb-6"
             style={{ fontSize: '1.875rem', color: 'var(--text-primary)' }}
           >
-            Your Historical Matches
+            More Matches
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
-            {matches.top_matches.map((match, idx) => (
-              <MatchCard key={match.figure_slug} match={match} rank={idx} isTop={idx === 0} />
+            {remainingMatches.map((match, idx) => (
+              <MatchCard key={match.figure_slug} match={match} rank={idx + 1} isTop={false} />
             ))}
           </div>
         </div>
       )}
-
-      <div className="mt-10 text-center">
-        <Link to="/assessment" className="btn-secondary">Retake Assessment</Link>
-      </div>
     </div>
   )
 }
