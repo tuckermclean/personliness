@@ -46,7 +46,7 @@ Users answer 62 Likert-scale questions, receive scores across 36 traits in 5 cor
 ## Quick Start (Development)
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/tuckermclean/personliness.git
 cd personliness
 cp .env.example .env
 # Edit .env: set LLM_OPENAI_API_KEY (or another provider — see LLM section)
