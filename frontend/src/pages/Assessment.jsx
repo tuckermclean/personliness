@@ -614,8 +614,8 @@ export default function Assessment() {
                 </div>
 
                 <h3
-                  className="figure-name font-medium mb-5 relative"
-                  style={{ fontSize: 'clamp(1rem, 3.5vw, 1.25rem)', color: 'var(--text-primary)', lineHeight: 1.4 }}
+                  className="figure-name font-semibold mb-5 relative"
+                  style={{ fontSize: 'clamp(1.125rem, 3.5vw, 1.25rem)', color: 'var(--text-primary)', lineHeight: 1.4 }}
                 >
                   {question.text}
                 </h3>
