@@ -196,6 +196,48 @@ See `personliness/traits.py` for the full list of dimensions and trait names.
 
 ---
 
+## Exporting Figures
+
+The `export_figures` management command writes each figure in the database to its own fixture file under `fixtures/figures/<slug>.json`.
+
+```bash
+# Export only figures that don't have a fixture file yet (safe default)
+python manage.py export_figures
+
+# Export specific figures by slug
+python manage.py export_figures ada-lovelace isaac-newton
+
+# Export / overwrite all figures
+python manage.py export_figures --all
+```
+
+### Docker Compose
+
+The dev and prod stacks both bind-mount the repo root into the container, so exported files appear on the host immediately — no copy step needed.
+
+```bash
+# Dev stack
+docker compose run --rm web python manage.py export_figures
+
+# Prod stack
+docker compose -f docker-compose.prod.yml exec web python manage.py export_figures
+```
+
+### Kubernetes
+
+```bash
+# Find the web pod
+kubectl get pods -l app=web
+
+# Run the export inside the pod
+kubectl exec <pod-name> -- python manage.py export_figures
+
+# Copy the results to your local repo
+kubectl cp <pod-name>:/app/fixtures/figures ./fixtures/figures
+```
+
+---
+
 ## Contributing Figures
 
 Each historical figure lives in its own fixture file under `fixtures/figures/<slug>.json`.
@@ -217,13 +259,7 @@ To add a new figure and commit it for others:
    # status: pending → processing → complete
    ```
 
-3. **Export the figure to its fixture file:**
-   ```bash
-   docker compose -f docker-compose.prod.yml exec web python manage.py export_figures
-   # Exports any figures not yet on disk. Or target one specifically:
-   docker compose -f docker-compose.prod.yml exec web python manage.py export_figures your-figure-slug
-   ```
-   Files appear directly in `fixtures/figures/` on the host (bind-mounted).
+3. **Export the figure to its fixture file** (see [Exporting Figures](#exporting-figures) above).
 
 4. **Commit and open a PR:**
    ```bash
