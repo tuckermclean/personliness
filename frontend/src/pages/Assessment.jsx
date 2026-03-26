@@ -4,9 +4,9 @@ import { getQuestions, submitAssessment, getLatestAssessment, getLatestMatches }
 
 const LIKERT_OPTIONS = [
   { value: 0, label: 'Never' },
-  { value: 1, label: 'Rarely' },
-  { value: 2, label: 'Sometimes' },
-  { value: 3, label: 'Often' },
+  { value: 1, label: 'Sometimes' },
+  { value: 2, label: 'Often' },
+  { value: 3, label: 'Always' },
 ]
 
 const QUESTIONS_PER_PAGE = 5
