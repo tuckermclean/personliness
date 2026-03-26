@@ -2,7 +2,15 @@ import { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { getLatestAssessment, getLatestMatches } from '../api'
 
-const DIMENSION_NAMES = ['Cognitive', 'Moral-Affective', 'Cultural-Social', 'Embodied-Existential', 'Relational']
+const CORE_DIMENSIONS = {
+  'Cognitive':            ['Strategic Intelligence', 'Ethical / Philosophical Insight', 'Creative / Innovative Thinking', 'Administrative / Legislative Skill'],
+  'Moral-Affective':      ['Compassion / Empathy', 'Courage / Resilience', 'Justice Orientation', 'Moral Fallibility & Growth'],
+  'Cultural-Social':      ['Leadership / Influence', 'Institution-Building', 'Impact Legacy', 'Archetype Resonance', 'Relatability / Cultural Embeddedness'],
+  'Embodied-Existential': ['Physical Endurance / Skill', 'Hardship Tolerance', 'Joy / Play / Aesthetic Appreciation', 'Mortality Acceptance', 'Paradox Integration'],
+  'Relational':           ['Spousal / Partner Quality', 'Parental / Mentoring Quality', 'Relational Range'],
+}
+
+const DIMENSION_NAMES = Object.keys(CORE_DIMENSIONS)
 
 const HEINLEIN_TRAIT_NAMES = [
   'Caregiving & Nurture', 'Strategic Planning & Command',
@@ -114,6 +122,61 @@ function ScoreRow({ label, value, maxValue = 10, color, delay }) {
         </span>
       </div>
       <AnimatedBar value={value} maxValue={maxValue} color={color} delay={delay} />
+    </div>
+  )
+}
+
+function ExpandableDimensionRow({ name, value, color, traitScores, delay }) {
+  const [open, setOpen] = useState(false)
+  const traits = CORE_DIMENSIONS[name] || []
+
+  return (
+    <div className="mb-3">
+      <button
+        onClick={() => setOpen(o => !o)}
+        className="w-full text-left"
+        style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}
+      >
+        <div className="flex justify-between text-sm mb-1 items-center">
+          <span className="flex items-center gap-1.5" style={{ color: 'var(--text-secondary)' }}>
+            <svg
+              viewBox="0 0 10 10"
+              width="10" height="10"
+              style={{
+                transition: 'transform 0.2s',
+                transform: open ? 'rotate(90deg)' : 'rotate(0deg)',
+                color: 'var(--text-tertiary)',
+                flexShrink: 0,
+              }}
+            >
+              <path d="M3 2 L7 5 L3 8" stroke="currentColor" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            {name}
+          </span>
+          <span className="font-mono text-xs font-medium" style={{ color: 'var(--accent-figure)' }}>
+            {value.toFixed(2)}
+          </span>
+        </div>
+        <AnimatedBar value={value} maxValue={10} color={color} delay={delay} />
+      </button>
+
+      {open && (
+        <div className="mt-2 ml-4 space-y-2 pb-1" style={{ borderLeft: `2px solid ${color}30`, paddingLeft: '0.75rem' }}>
+          {traits.map((trait, i) => {
+            const raw = traitScores?.[trait]
+            if (raw == null) return null
+            return (
+              <div key={trait}>
+                <div className="flex justify-between text-xs mb-0.5">
+                  <span style={{ color: 'var(--text-tertiary)' }}>{trait}</span>
+                  <span className="font-mono" style={{ color }}>{raw.toFixed(2)}</span>
+                </div>
+                <AnimatedBar value={raw} maxValue={3} color={color} delay={i * 40} />
+              </div>
+            )
+          })}
+        </div>
+      )}
     </div>
   )
 }
@@ -446,11 +509,12 @@ export default function Results() {
             Core Dimensions
           </h2>
           {dimension_averages_0_10 && DIMENSION_NAMES.map((name, i) => (
-            <ScoreRow
+            <ExpandableDimensionRow
               key={name}
-              label={name}
+              name={name}
               value={dimension_averages_0_10[name] ?? 0}
               color={DIM_COLORS[name] || 'var(--accent)'}
+              traitScores={trait_scores_0_3}
               delay={i * 60}
             />
           ))}
@@ -461,20 +525,18 @@ export default function Results() {
           <h2 className="figure-name font-medium mb-4" style={{ fontSize: '1.375rem', color: 'var(--text-primary)' }}>
             Heinlein Competencies
           </h2>
-          <div className="max-h-72 overflow-y-auto pr-2">
-            {trait_scores_0_3 && HEINLEIN_TRAIT_NAMES
-              .filter(name => trait_scores_0_3[name] != null)
-              .map((name, i) => (
-                <ScoreRow
-                  key={name}
-                  label={name}
-                  value={trait_scores_0_3[name]}
-                  maxValue={3}
-                  color="var(--dim-competency)"
-                  delay={i * 40}
-                />
-              ))}
-          </div>
+          {trait_scores_0_3 && HEINLEIN_TRAIT_NAMES
+            .filter(name => trait_scores_0_3[name] != null)
+            .map((name, i) => (
+              <ScoreRow
+                key={name}
+                label={name}
+                value={trait_scores_0_3[name]}
+                maxValue={3}
+                color="var(--dim-competency)"
+                delay={i * 40}
+              />
+            ))}
         </div>
       </div>
 

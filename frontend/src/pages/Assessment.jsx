@@ -32,6 +32,14 @@ const DIM_COLORS = {
   'Relational':           'var(--dim-relational)',
 }
 
+const CORE_DIMENSIONS = {
+  'Cognitive':            ['Strategic Intelligence', 'Ethical / Philosophical Insight', 'Creative / Innovative Thinking', 'Administrative / Legislative Skill'],
+  'Moral-Affective':      ['Compassion / Empathy', 'Courage / Resilience', 'Justice Orientation', 'Moral Fallibility & Growth'],
+  'Cultural-Social':      ['Leadership / Influence', 'Institution-Building', 'Impact Legacy', 'Archetype Resonance', 'Relatability / Cultural Embeddedness'],
+  'Embodied-Existential': ['Physical Endurance / Skill', 'Hardship Tolerance', 'Joy / Play / Aesthetic Appreciation', 'Mortality Acceptance', 'Paradox Integration'],
+  'Relational':           ['Spousal / Partner Quality', 'Parental / Mentoring Quality', 'Relational Range'],
+}
+
 const FAMOUS_NAMES = [
   'Aristotle', 'Marie Curie', 'Leonardo da Vinci',
   'Harriet Tubman', 'Marcus Aurelius', 'Ada Lovelace',
@@ -141,6 +149,53 @@ function ScoreRow({ label, value, maxValue = 10, color, delay }) {
         </span>
       </div>
       <AnimatedBar value={value} maxValue={maxValue} color={color} delay={delay} />
+    </div>
+  )
+}
+
+function ExpandableDimensionRow({ name, value, color, traitScores, delay }) {
+  const [open, setOpen] = useState(false)
+  const traits = CORE_DIMENSIONS[name] || []
+  return (
+    <div className="mb-3">
+      <button
+        className="w-full flex justify-between items-center text-sm mb-1"
+        style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', textAlign: 'left' }}
+        onClick={() => setOpen(o => !o)}
+        aria-expanded={open}
+      >
+        <span className="flex items-center gap-1" style={{ color: 'var(--text-secondary)' }}>
+          <svg
+            width="10" height="10" viewBox="0 0 10 10"
+            style={{ flexShrink: 0, transition: 'transform 0.15s', transform: open ? 'rotate(90deg)' : 'rotate(0deg)' }}
+            fill="currentColor"
+          >
+            <path d="M3 2l4 3-4 3V2z" />
+          </svg>
+          {name}
+        </span>
+        <span className="font-mono text-xs font-medium" style={{ color: 'var(--accent-figure)' }}>
+          {value.toFixed(2)}
+        </span>
+      </button>
+      <AnimatedBar value={value} maxValue={10} color={color} delay={delay} />
+      {open && traitScores && (
+        <div className="mt-2 pl-3" style={{ borderLeft: `2px solid ${color}` }}>
+          {traits.map((trait, i) => {
+            const rawScore = traitScores[trait]
+            if (rawScore == null) return null
+            return (
+              <div key={trait} className="mb-2">
+                <div className="flex justify-between text-xs mb-1">
+                  <span style={{ color: 'var(--text-tertiary)' }}>{trait}</span>
+                  <span className="font-mono" style={{ color: 'var(--accent-figure)' }}>{rawScore.toFixed(2)}</span>
+                </div>
+                <AnimatedBar value={rawScore} maxValue={3} color={color} delay={delay + (i + 1) * 40} />
+              </div>
+            )
+          })}
+        </div>
+      )}
     </div>
   )
 }
@@ -750,20 +805,25 @@ export default function Assessment() {
             Core Dimensions
           </h2>
           {dimension_averages_0_10 && DIMENSION_NAMES.map((name, i) => (
-            <ScoreRow key={name} label={name} value={dimension_averages_0_10[name] ?? 0} color={DIM_COLORS[name] || 'var(--accent)'} delay={i * 60} />
+            <ExpandableDimensionRow
+              key={name}
+              name={name}
+              value={dimension_averages_0_10[name] ?? 0}
+              color={DIM_COLORS[name] || 'var(--accent)'}
+              traitScores={trait_scores_0_3}
+              delay={i * 60}
+            />
           ))}
         </div>
         <div className="card">
           <h2 className="figure-name font-medium mb-4" style={{ fontSize: '1.375rem', color: 'var(--text-primary)' }}>
             Heinlein Competencies
           </h2>
-          <div className="max-h-72 overflow-y-auto pr-2">
-            {trait_scores_0_3 && HEINLEIN_TRAIT_NAMES
-              .filter(name => trait_scores_0_3[name] != null)
-              .map((name, i) => (
-                <ScoreRow key={name} label={name} value={trait_scores_0_3[name]} maxValue={3} color="var(--dim-competency)" delay={i * 40} />
-              ))}
-          </div>
+          {trait_scores_0_3 && HEINLEIN_TRAIT_NAMES
+            .filter(name => trait_scores_0_3[name] != null)
+            .map((name, i) => (
+              <ScoreRow key={name} label={name} value={trait_scores_0_3[name]} maxValue={3} color="var(--dim-competency)" delay={i * 40} />
+            ))}
         </div>
       </div>
 
