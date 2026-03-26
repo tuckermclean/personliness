@@ -1,0 +1,395 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 160,
+  "fields": {
+    "name": "Martin Luther King Jr.",
+    "slug": "martin-luther-king-jr",
+    "bio_short": "An exceptional moral-cognitive leader whose rhetorical genius, philosophical synthesis of nonviolence, and sustained courage under mortal threat made him one of history's most impactful figures. Strongest in ethical insight, strategic intelligence, courage, justice orientation, and existential composure. Relational scores are tempered by well-documented spousal failures and parental absence. Heinlein-style breadth is narrow—his competencies cluster tightly around leadership, oratory, and existential fortitude, with negligible evidence in manual, agricultural, medical, or combat domains. A spec",
+    "bio_long": "Martin Luther King Jr. was an American civil rights activist and Baptist minister who was a prominent leader of the civil rights movement from 1955 until his assassination in 1968. He advanced civil rights for people of color in the United States through the use of nonviolent resistance and civil disobedience against Jim Crow laws and other forms of legalized discrimination, which most commonly affected African Americans.",
+    "source_notes": "https://en.wikipedia.org/wiki/Martin_Luther_King_Jr.",
+    "image": "figures/330px-Martin_Luther_King2C_Jr..jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Branch, Taylor. *Parting the Waters: America in the King Years 1954–63* (1988)",
+              "Garrow, David. *Bearing the Cross: Martin Luther King Jr. and the Southern Christian Leadership Conference* (1986)",
+              "Fairclough, Adam. *To Redeem the Soul of America: The Southern Christian Leadership Conference and Martin Luther King Jr.* (1987)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King adapted masterfully after the Albany Movement's failure (1961-62), redesigning his approach for Birmingham (1963) by deliberately targeting Bull Connor's jurisdiction, anticipating that televised police brutality would force federal intervention. The Montgomery Bus Boycott required 381 days of sustained logistical adaptation. His pivot from Southern legal segregation to Northern de facto segregation (Chicago 1966), anti-poverty (Poor People's Campaign), and anti-Vietnam War activism showed repeated strategic recalibration when initial conditions changed."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Sundquist, Eric J. *King's Dream* (2009)",
+              "Rieder, Jonathan. *The Word of the Lord Is Upon Me: The Righteous Performance of Martin Luther King Jr.* (2008)",
+              "Branch, *Parting the Waters* (1988)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King's creative contribution was a paradigm shift: before Montgomery, nonviolent mass resistance was not a primary strategy in American civil rights. He transplanted Gandhian methods into an African American Christian framework, creating a new political vocabulary. The Birmingham campaign's deliberate staging for television was an innovation in media-driven activism. His rhetorical fusion of African American sermonic tradition, biblical prophecy, and Enlightenment democratic ideals (as in the 'I Have a Dream' speech) constituted a before/after moment in American political oratory."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "King, Martin Luther Jr. *Letter from Birmingham Jail* (1963)",
+              "Nojeim, Michael J. *Gandhi and King: The Power of Nonviolent Resistance* (2004)",
+              "Carson, Clayborne. *The Papers of Martin Luther King Jr.*, vols. 1–7 (1992–2014)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King synthesized Gandhian nonviolence, Boston University personalism (Brightman, DeWolf), Reinhold Niebuhr's Christian realism, and Thomistic natural law into a coherent philosophy of just resistance. 'Letter from Birmingham Jail' (1963) articulated the distinction between just and unjust laws drawing on Augustine, Aquinas, Buber, and Tillich, becoming one of the most widely taught texts in moral philosophy. His principles influenced global movements far beyond his community—anti-apartheid in South Africa, Solidarity in Poland, Dalit rights in India."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Fairclough, *To Redeem the Soul of America* (1987)",
+              "Garrow, *Bearing the Cross* (1986)",
+              "Baker, Ella. Oral history interviews, Civil Rights Movement Archive"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "King co-founded and led the SCLC (1957), which functioned effectively during his lifetime but experienced significant organizational decline after his death, suggesting dependence on his charisma. He relied heavily on administrators like Ella Baker, Andrew Young, and Bayard Rustin for operational management. However, his advocacy was instrumental to the passage of the Civil Rights Act (1964) and Voting Rights Act (1965)—enduring legislative achievements—though he was the moral catalyst rather than the legislative architect (that role fell to figures like LBJ and Emanuel Celler)."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Abernathy, *And the Walls Came Tumbling Down* (1989)",
+              "Branch, *Parting the Waters* (1988)",
+              "Young, *An Easy Burden* (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "King operated in multiple relational modes: spouse (to Coretta), parent (to four children), pastor (to congregants at Dexter Avenue and Ebenezer), organizational leader (SCLC), friend (to Abernathy, described as his closest companion), subordinate (to senior ministers like Daddy King early in career; deferring to local leaders like Shuttlesworth), adversary (to segregationists; later to LBJ on Vietnam), and public figure engaging strangers. However, his prophetic-pastoral tone pervaded many contexts, suggesting somewhat less qualitative differentiation across modes than the evidence of multiple modes might imply."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Garrow, *Bearing the Cross* (1986)",
+              "Branch, *At Canaan's Edge* (2006)",
+              "King, Coretta Scott. *My Life, My Love, My Legacy* (2017)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "King's marriage to Coretta Scott King (1953-1968) had genuine dimensions of partnership—she was deeply involved in the movement, endured bombings and threats with him, and they weathered enormous public pressure together. However, King's extramarital affairs are well-documented by FBI surveillance recordings and confirmed by biographers including David Garrow and Taylor Branch. Without the affairs, the partnership would score 2 (mutual support during crisis, shared mission). With the affairs given full weight as a failure of emotional fidelity and mutual respect, the score drops to 1. The infidelity represents a serious, sustained relational failure."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "King, Dexter Scott. *Growing Up King* (2003)",
+              "Young, *An Easy Burden* (1996)",
+              "Lewis, John. *Walking with the Wind* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "As a parent, King was loving but frequently absent from his four children (Yolanda, Martin III, Dexter, Bernice) due to constant travel and activism. Dexter Scott King's memoir describes the pain of his father's absences. As a mentor, King was more successful: he developed leaders of genuine autonomy and competence, including Andrew Young (UN Ambassador, Atlanta Mayor), John Lewis (40-year Congressman), Jesse Jackson, and Diane Nash. These mentees pursued independent paths rather than merely replicating King, meeting the criterion for score 2."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Chabot, Sean. *Transnational Roots of the Civil Rights Movement* (2012)",
+              "Scalmer, Sean. *Gandhi in the West: The Mahatma and the Rise of Radical Protest* (2011)",
+              "Ling, Peter J. *Martin Luther King Jr.* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "King's impact is already cross-civilizational and shows every sign of permanence. The Civil Rights Act and Voting Rights Act transformed American law. His philosophy of nonviolent resistance directly influenced anti-apartheid movements in South Africa (Mandela explicitly cited King), Solidarity in Poland, democracy movements in South Korea and the Philippines, Dalit rights activism in India, and the Arab Spring. His speeches are studied globally. While the 500-year criterion cannot yet be verified for a 20th-century figure, the trajectory and cross-civilizational breadth are among the strongest in the modern historical record."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Dyson, Michael Eric. *I May Not Get There with You: The True Martin Luther King Jr.* (2000)",
+              "Sundquist, *King's Dream* (2009)",
+              "Kirk, John A. *Martin Luther King Jr. and the Civil Rights Movement* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King functions as the defining modern archetype of the nonviolent prophet-leader who speaks truth to power and dies for the cause. He is recognized as a symbol in cultures far beyond African American Christianity—invoked in South African, European, Asian, and Latin American justice movements. He embodies the Moses/prophetic archetype (leading his people toward a promised land he himself would not enter), the martyr archetype, and the democratic hero archetype simultaneously. Streets, statues, and holidays honor him across dozens of countries."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Fairclough, *To Redeem the Soul of America* (1987)",
+              "Ransby, Barbara. *Ella Baker and the Black Freedom Movement* (2003)",
+              "Garrow, *Bearing the Cross* (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "King co-founded the SCLC (1957), which survives today but declined significantly after his death, suggesting institutional dependence on his charisma. Ella Baker criticized the SCLC's centralization around King. His greater institutional achievement was catalyzing durable legislation—the Civil Rights Act (1964) and Voting Rights Act (1965)—but he was the moral catalyst, not the legislative architect. The Martin Luther King Jr. Center for Nonviolent Social Change (founded by Coretta Scott King) and the federal MLK holiday (1986) are posthumous institutional legacies."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Branch, *Parting the Waters* (1988)",
+              "Fairclough, *To Redeem the Soul of America* (1987)",
+              "Carson, Clayborne, ed. *The Autobiography of Martin Luther King Jr.* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King led across qualitatively different contexts: intimate community organizing in Montgomery (1955-56), mass crisis leadership in Birmingham (1963), coalition management at the March on Washington (250,000+ attendees, 1963), international moral authority as Nobel laureate (1964), and the radical anti-war/anti-poverty pivot (1967-68). He led in jail (Birmingham), under physical attack (Chicago), and in periods of strategic planning. He managed relationships with presidents (JFK, LBJ), grass-roots activists, and hostile adversaries simultaneously."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Abernathy, Ralph. *And the Walls Came Tumbling Down* (1989)",
+              "King, Dexter Scott. *Growing Up King* (2003)",
+              "Young, Andrew. *An Easy Burden* (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "King came from a middle-class Black Baptist family in Atlanta and maintained pastoral connections—visiting sick congregants, presiding over church suppers at Dexter Avenue and Ebenezer Baptist Churches. Ralph Abernathy's memoir describes shared meals, jokes, and ordinary fellowship. Andrew Young recalled King's playfulness with his four children. However, at the height of his fame, constant travel (estimated 780,000 miles/year), security threats, and movement demands significantly constrained his engagement with everyday domestic life. His children later spoke of his frequent absences."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "King, *Letter from Birmingham Jail* (1963)",
+              "King, 'Beyond Vietnam' speech, Riverside Church (April 4, 1967)",
+              "Jackson, *From Civil Rights to Human Rights* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King's entire public life was defined by justice. He ruled against personal and group interest on multiple occasions: his Riverside Church speech opposing Vietnam (April 1967) cost him the support of the Johnson administration and alienated mainstream civil rights allies like the NAACP and Urban League. His expansion to economic justice and the Poor People's Campaign antagonized moderate supporters. In 'Letter from Birmingham Jail,' he articulated a sophisticated theory of just and unjust law, arguing for the duty to disobey unjust laws even at personal cost—and he personally bore those costs repeatedly."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "King, *Stride Toward Freedom* (1958)",
+              "Branch, *Parting the Waters* (1988)",
+              "Jackson, Thomas F. *From Civil Rights to Human Rights: Martin Luther King Jr. and the Struggle for Economic Justice* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King explicitly and repeatedly extended compassion to adversaries. After his home was bombed during the Montgomery Boycott (January 30, 1956), he calmed an armed crowd telling them to love their enemies. He articulated 'agape'—unconditional love for the oppressor—as a concrete political and spiritual strategy, not merely rhetoric. His expansion to the Poor People's Campaign (1968) extended compassion across racial lines to poor whites, Latinos, and Native Americans, demonstrating concern for outgroup members beyond his core constituency."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Garrow, *Bearing the Cross* (1986)",
+              "Branch, Taylor. *At Canaan's Edge: America in the King Years 1965–68* (2006)",
+              "Garrow, David. *The FBI and Martin Luther King Jr.* (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King was stabbed nearly fatally by Izola Ware Curry in 1958 (the blade touched his aorta), his home was bombed multiple times, he was arrested over 25 times, the FBI sent him an anonymous letter urging suicide (1964), and he received constant death threats. He continued leading high-stakes campaigns in Birmingham (1963), Selma (1965), Chicago (1966, where he was struck by a rock), and Memphis (1968). His decision to publicly oppose the Vietnam War (Riverside Church speech, April 1967) despite enormous political cost demonstrated moral courage distinct from physical courage."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Garrow, David. *Bearing the Cross* (1986)",
+              "Garrow, David. 'The Troubling Legacy of Martin Luther King,' *Standpoint* (2019)",
+              "Branch, *At Canaan's Edge* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "King showed clear intellectual and strategic growth: after the Albany Movement's failure (1961-62), he publicly acknowledged mistakes and redesigned his approach. His moral vision expanded significantly—from Southern desegregation to Northern poverty, militarism, and global justice. However, his well-documented extramarital affairs (confirmed by FBI surveillance tapes and multiple biographers) represent a significant personal moral failing where evidence of acknowledgment or behavioral change is thin. Without the affairs, this would score 3 for his remarkable public moral evolution; with them given proportional weight, the score is 2."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Garrow, *The FBI and Martin Luther King Jr.* (1981)",
+              "Branch, *Pillar of Fire: America in the King Years 1963–65* (1998)",
+              "Garrow, *Bearing the Cross* (1986)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King functioned effectively across qualitatively distinct forms of adversity: (1) material danger—home bombings, the 1958 stabbing, constant death threats; (2) psychological warfare—FBI harassment including the anonymous suicide letter, wiretapping, and smear campaigns; (3) communal grief—the 16th Street Baptist Church bombing (1963) killing four girls he knew; (4) political isolation—loss of allies after the Vietnam speech (1967); (5) physical deprivation—jail conditions across 25+ incarcerations. Through all of this, he continued to lead, write, and strategize effectively."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Garrow, *Bearing the Cross* (1986)",
+              "Dyson, *I May Not Get There with You* (2000)",
+              "Rieder, *The Word of the Lord Is Upon Me* (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King seamlessly inhabited multiple contradictory roles: (1) peaceful minister who deliberately provoked violent confrontations for strategic purposes; (2) African American leader who preached unconditional love for white oppressors; (3) establishment figure (Nobel laureate, friend of presidents) and radical critic of American capitalism and militarism; (4) Baptist preacher who engaged with secular existentialist and Marxist philosophy; (5) deeply emotional orator who operated with cold strategic calculation. These represent at least five seemingly contradictory modes held in coherent integration."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "King, 'I've Been to the Mountaintop' speech, Memphis (April 3, 1968)",
+              "King, *Stride Toward Freedom* (1958)",
+              "Branch, *At Canaan's Edge* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "King's 'I've Been to the Mountaintop' speech (April 3, 1968—the night before his assassination) is among history's most remarkable documents of mortality acceptance: 'I've seen the Promised Land. I may not get there with you.' He had lived with death threats for 13 years. After the 1958 stabbing, he reflected on mortality in *Stride Toward Freedom*. He went to Memphis in 1968 despite specific warnings. He told associates repeatedly in his final years that he expected to be killed. He did not retreat from danger but walked toward it with articulate composure."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Garrow, *Bearing the Cross* (1986)",
+              "Branch, *At Canaan's Edge* (2006)",
+              "King, *Stride Toward Freedom* (1958)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "King endured the 54-mile Selma-to-Montgomery march (1965), survived the 1958 stabbing (blade touching his aorta, requiring major surgery), endured harsh jail conditions across 25+ arrests, and maintained a grueling travel schedule throughout the 1960s. He was struck by a rock during the Chicago campaign (1966) and continued. However, he was not known for exceptional physical prowess and suffered from exhaustion and stress-related health problems in his final years. Physical endurance was clearly present but not defining."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Abernathy, *And the Walls Came Tumbling Down* (1989)",
+              "Young, *An Easy Burden* (1996)",
+              "Baldwin, Lewis V. *The Voice of Conscience: The Church in the Mind of Martin Luther King Jr.* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "King had a deep, genuine love of music—particularly gospel and classical. He requested Mahalia Jackson at key events and was moved by music beyond its instrumental value. Andrew Young and Ralph Abernathy describe his humor, love of soul food, and playfulness in private settings. His rhetorical style itself reflects aesthetic sensibility—the cadences of 'I Have a Dream' are crafted with an artist's ear. However, much of this evidence comes from hagiographic or close-associate memoirs, and his punishing schedule left limited time for leisure."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 5.56,
+          "Core_5D_Avg": 8.25,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 9.17,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Martin Luther King Jr.",
+      "overall": {
+        "Core_5D_Avg": 8.25,
+        "Overall_Normalized_Equal_Avg": 7.5,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "An exceptional moral-cognitive leader whose rhetorical genius, philosophical synthesis of nonviolence, and sustained courage under mortal threat made him one of history's most impactful figures. Strongest in ethical insight, strategic intelligence, courage, justice orientation, and existential composure. Relational scores are tempered by well-documented spousal failures and parental absence. Heinlein-style breadth is narrow—his competencies cluster tightly around leadership, oratory, and existential fortitude, with negligible evidence in manual, agricultural, medical, or combat domains. A specialist of extraordinary depth rather than a generalist.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Abernathy, *And the Walls Came Tumbling Down* (1989)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "While King was known to enjoy soul food (Abernathy describes shared meals), there is no evidence that he was a cook or possessed notable culinary skills. Meals were typically prepared by others."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "King, *Stride Toward Freedom* (1958)",
+            "Cobb, Charles E. Jr. *This Nonviolent Stuff'll Get You Killed* (2014)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "King was philosophically and practically committed to nonviolence. He explicitly rejected armed self-defense even when his life was under constant threat, declining to carry weapons. While this was a principled choice central to his mission, it means he possessed no documented combat or defense skills. He had armed guards at various points but did not engage in physical defense personally."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Baldwin, Lewis V. *There Is a Balm in Gilead: The Cultural Roots of Martin Luther King Jr.* (1991)",
+            "Branch, *Parting the Waters* (1988)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a Baptist pastor at Dexter Avenue Baptist Church (1954-60) and co-pastor at Ebenezer Baptist Church (1960-68), King provided spiritual counseling, visited the sick, and comforted the bereaved as regular pastoral duties. He comforted families after the 16th Street Baptist Church bombing (1963) and provided emotional support to movement workers facing violence. However, his frequent absences from his own family limited his caregiving in the domestic sphere."
+        },
+        "Existential Composure": {
+          "citations": [
+            "King, 'I've Been to the Mountaintop' speech (April 3, 1968)",
+            "Garrow, *Bearing the Cross* (1986)",
+            "Branch, *At Canaan's Edge* (2006)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "King faced mortality with extraordinary composure throughout his career. After the 1958 stabbing, he reflected on death with philosophical depth. He told associates repeatedly that he expected to be assassinated. The 'Mountaintop' speech (April 3, 1968) expressed serene acceptance of his own death the night before his murder. He walked into danger in Birmingham, Selma, Chicago, and Memphis with full knowledge of the risks, maintaining dignity and self-control."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists that King possessed notable manual craft or repair skills. His career trajectory—from Morehouse College to Crozer Seminary to Boston University PhD to ministry and activism—did not involve manual trades."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Garrow, *Bearing the Cross* (1986)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "King traveled extensively across the United States and internationally (India 1959, Norway 1964, Jamaica, etc.), navigating complex logistics of a movement leader's itinerary. He led the 54-mile Selma-to-Montgomery march. However, there is no evidence of exceptional personal navigation or wayfinding skills; his travel was supported by staff and standard transportation infrastructure."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Carson, *The Autobiography of Martin Luther King Jr.* (1998)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence exists that King engaged in animal husbandry, butchering, or food processing. He grew up in middle-class urban Atlanta as the son of a prominent pastor and pursued academic and ministerial careers throughout his life."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Fairclough, *To Redeem the Soul of America* (1987)",
+            "D'Emilio, *Lost Prophet* (2003)",
+            "Garrow, *Bearing the Cross* (1986)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "King was an exceptional leader across multiple contexts (see Leadership/Influence above). Critically for this domain, he also demonstrated followership: he deferred to local leaders like Fred Shuttlesworth in Birmingham, accepted strategic guidance from Bayard Rustin and Stanley Levison, worked within coalitions where he was not the sole authority (the 'Big Six' civil rights leaders), and early in his career served under his father at Ebenezer Baptist Church. This combination of giving and taking direction is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence exists that King engaged in construction, fabrication, or building of physical structures. His background was academic and ministerial."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Garrow, *Bearing the Cross* (1986)",
+            "Fairclough, *To Redeem the Soul of America* (1987)",
+            "D'Emilio, John. *Lost Prophet: The Life and Times of Bayard Rustin* (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "King coordinated complex multi-month campaigns requiring logistical planning, coalition management, and adaptive command: the Montgomery Bus Boycott (381 days of alternative transportation logistics for 40,000+ riders), the Birmingham campaign (carefully staged escalation over weeks), the March on Washington (250,000+ attendees, multi-organizational coordination with Bayard Rustin), and the Selma-to-Montgomery march. He managed relationships simultaneously with federal government, local activists, and hostile authorities."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Rieder, *The Word of the Lord Is Upon Me* (2008)",
+            "Miller, Keith D. *Voice of Deliverance: The Language of Martin Luther King Jr. and Its Sources* (1992)",
+            "Sundquist, *King's Dream* (2009)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "King was one of the greatest orators in American history. The 'I Have a Dream' speech (1963), 'Letter from Birmingham Jail' (1963), and 'I've Been to the Mountaintop' speech (1968) are masterworks of rhetoric studied as literature. His sermonic style fused African American preaching tradition, biblical imagery, and democratic ideals into a unique art form. He authored five books including *Stride Toward Freedom* and *Why We Can't Wait*. His rhetoric constitutes enduring cultural expression of the highest order."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence exists that King possessed medical or emergency response skills. He was the recipient of emergency medical care on several occasions (the 1958 stabbing, the 1968 assassination) rather than a provider."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Carson, ed. *The Papers of Martin Luther King Jr.*, vol. 2 (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "King earned a PhD in systematic theology from Boston University (1955), demonstrating strong analytical reasoning in philosophical and theological domains. His 'Letter from Birmingham Jail' displays rigorous logical argumentation. However, his expertise was not in numerical or quantitative domains, and there is no evidence of mathematical skill beyond what an educated professional would possess."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Carson, *The Autobiography of Martin Luther King Jr.* (1998)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence exists that King engaged in agriculture or natural resource management. His life was entirely urban and institutional—born in Atlanta, educated in Pennsylvania and Massachusetts, ministering and organizing in Alabama, Georgia, and across American cities."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Branch, *Parting the Waters* (1988)",
+            "Torres, Sasha. *Black, White, and in Color: Television and Black Civil Rights* (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "King strategically leveraged the technology of his era—particularly television—to amplify his movement. The Birmingham campaign was designed in part for the television cameras, and his understanding of media dynamics was sophisticated. However, he was not a technical innovator and did not operate cutting-edge tools or systems directly; his staff managed technical logistics."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.25,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 7.5,
+    "created_at": "2026-03-22T19:50:55.694Z",
+    "updated_at": "2026-03-22T19:50:55.715Z"
+  }
+}
+]

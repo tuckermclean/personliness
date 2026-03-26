@@ -1,0 +1,371 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 163,
+  "fields": {
+    "name": "Muammar Gaddafi",
+    "slug": "muammar-gaddafi",
+    "bio_short": "Gaddafi's 42-year hold on power reflects genuine strategic cunning and personal courage, but these strengths are overwhelmed by moral-affective failures: documented mass atrocities (Abu Salim massacre, Lockerbie bombing), systematic sexual predation, and deliberate institutional destruction. His archetype resonance as the quintessential flamboyant dictator is high, but his relational and ethical scores are among the lowest possible. Heinlein competency is narrow, concentrated in leadership and strategic command. The Green Book attempted philosophical novelty but achieved no lasting intellectua",
+    "bio_long": "Muammar Muhammad Abu Minyar al-Gaddafi was a Libyan military officer, revolutionary, politician, and political theorist who ruled Libya from 1969 until his overthrow by Libyan rebel forces in 2011 during the First Libyan Civil War. He came to power through a bloodless military coup, first becoming Revolutionary Chairman of the Libyan Arab Republic from 1969 to 1977, Secretary General of the General People's Congress from 1977 to 1979, and then the Brotherly Leader of the Great Socialist People's Libyan Arab Jamahiriya from 1979 to 2011. Initially ideologically committed to Arab nationalism and Arab socialism, Gaddafi later ruled according to his own Third International Theory.",
+    "source_notes": "https://en.wikipedia.org/wiki/Muammar_Gaddafi",
+    "image": "figures/330px-Moamer_el_Gadafi_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Vandewalle, Dirk, 'A History of Modern Libya' (2012)",
+              "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Gaddafi executed a bloodless coup in 1969 at age 27, carefully timing it while King Idris was abroad. He maintained power for 42 years through adaptive strategies: playing Cold War superpowers against each other, building tribal patronage networks, and pivoting from Arab nationalism to Pan-Africanism after Arab states abandoned him. He adapted strategically after the Iraq War by surrendering WMD programs in 2003. However, the disastrous Toyota War in Chad (1987), where Libyan forces suffered catastrophic losses, and his fatal misreading of the 2011 uprising demonstrate significant strategic blind spots that prevent a score of 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Vandewalle, Dirk, 'A History of Modern Libya' (2012)",
+              "Anderson, Lisa, 'The State and Social Transformation in Tunisia and Libya' (1986)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "The Jamahiriya system of governance through people's congresses and revolutionary committees was a conceptually novel political structure, and the Great Man-Made River Project was an ambitious engineering vision. However, the Jamahiriya was essentially a façade for personal dictatorship, and no country adopted his governance model. The concepts did not produce a demonstrable paradigm shift—no 'before and after' difference attributable to Gaddafi in political theory or practice is recognized in mainstream scholarship."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Gaddafi, Muammar, 'The Green Book' (1975–1979)",
+              "Davis, John, 'Libyan Politics: Tribe and Revolution' (1987)",
+              "Vandewalle, Dirk, 'A History of Modern Libya' (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Gaddafi authored 'The Green Book' (1975–1979), outlining his 'Third Universal Theory' as an alternative to capitalism and communism, combining elements of direct democracy, Islamic socialism, and anti-imperialism. He also published 'Escape to Hell,' a collection of essays and stories. While the ideas had some originality (the Jamahiriya concept of 'state of the masses'), they were largely derivative of Nasserism and existing socialist thought, internally inconsistent, and gained no serious traction among philosophers or political theorists outside Libya. No independent scholarly tradition treats The Green Book as a significant intellectual contribution."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Vandewalle, Dirk, 'A History of Modern Libya' (2012)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)",
+              "Anderson, Lisa, 'The State and Social Transformation in Tunisia and Libya' (1986)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Gaddafi nationalized Libya's oil industry in the 1970s and used revenues to fund education, healthcare, and housing, achieving one of Africa's highest HDI scores. He launched the Great Man-Made River, a massive infrastructure project. However, he deliberately kept state institutions weak and fragmented to prevent rivals from emerging, relying instead on personal networks and tribal loyalties. The Jamahiriya system created administrative chaos by design. When he fell in 2011, no functioning state institutions remained—the system collapsed immediately, confirming that nothing endured beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Vandewalle, Dirk, 'A History of Modern Libya' (2012)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Gaddafi occupied multiple relational roles: head of state, military commander, tribal patriarch, father, husband, international provocateur, patron to African leaders (e.g., Charles Taylor, Robert Mugabe). He interacted with diverse groups from Western heads of state to Bedouin tribesmen. However, his relational style was remarkably uniform across contexts—domineering, theatrical, and monologue-driven. His UN speeches, interactions with foreign leaders, and relationships with subordinates all displayed the same self-aggrandizing pattern. The range of roles was present but the relational adaptability was not."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Cojean, Annick, 'Gaddafi's Harem' (2013)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "Gaddafi married Safia Farkash in 1970, and the marriage lasted until his death in 2011—over 40 years. Safia remained loyal, fleeing to Algeria with their children during the civil war. However, Annick Cojean's investigative work 'Gaddafi's Harem' documents systematic sexual predation: Gaddafi's guards would identify young women at schools and events, who were then brought to him and subjected to sexual abuse. Multiple women have provided testimony of rape. Without the counterexample: 2 (long-lasting, loyal marriage). With it given full weight: 0 (systematic sexual predation fundamentally negates spousal quality as a measure of relational integrity). Final: 0, because the documented pattern of sexual abuse represents a profound failure of relational ethics that cannot be offset by marital longevity."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)",
+              "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Gaddafi fathered eight biological children and adopted one (Hana, killed 1986). He invested in some children's education—Saif al-Islam earned a PhD from LSE (later mired in plagiarism allegations) and was positioned as a reformist successor. However, the outcomes were largely negative: Hannibal was involved in violent incidents across Europe (assault of servants in Geneva, 2008), Saadi was embroiled in scandals and fled to Niger, and the children collectively became symbols of nepotistic excess. The pattern suggests enablement and entitlement rather than development of genuine autonomy and competence."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Pack, Jason, 'The 2011 Libyan Uprisings and the Struggle for the Post-Qadhafi Future' (2013)",
+              "Wehrey, Frederic, 'The Burning Shores: Inside the Battle for the New Libya' (2018)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Gaddafi's most significant lasting impact has been negative: the post-2011 Libyan state collapse created a failed state that fueled the European migration crisis, weapons proliferation across the Sahel (contributing to the Mali crisis and Boko Haram's armament), and regional destabilization. His support for various movements worldwide had some lasting effects. However, no positive ideological, institutional, or cultural legacy endures. His impact does not meet the 500-year, multi-civilization criterion required for score 3. Score of 1 reflects real but limited and largely destructive legacy."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Joffe, George, 'Qadhafi's Islam in Local Historical Perspective' in Vandewalle (ed.), 'Qadhafi's Libya' (1995)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Gaddafi is globally recognized as the archetypal flamboyant Third World dictator: his ornate military uniforms, designer sunglasses, all-female bodyguard ('Amazonian Guard'), Bedouin tent diplomacy, and rambling 96-minute UN General Assembly speech (2009) created an indelible image. He is referenced in global media, satire, and political discourse as a symbol of autocratic eccentricity. This recognition extends well beyond Libya or the Arab world. However, he does not embody a deep or enduring human archetype (sage, prophet, warrior-king) but rather a modern media-age caricature, limiting him to 2."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Vandewalle, Dirk, 'A History of Modern Libya' (2012)",
+              "Anderson, Lisa, 'The State and Social Transformation in Tunisia and Libya' (1986)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Gaddafi created the Jamahiriya system of people's congresses and revolutionary committees, which functioned (however dysfunctionally) for over three decades. He initiated the Great Man-Made River, which continues to operate. He contributed to the transformation of the OAU into the African Union. However, he deliberately hollowed out state institutions to prevent power consolidation by rivals, relying on informal tribal and personal networks. The political system collapsed immediately upon his removal in 2011, failing the survival criterion. Score of 1 reflects that some structures existed during his lifetime but none achieved meaningful durability."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Vandewalle, Dirk, 'A History of Modern Libya' (2012)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Gaddafi successfully led a military coup, ruled Libya for 42 years, served as African Union chairman (2009), and funded liberation and revolutionary movements across Africa and beyond (ANC, IRA, various groups). He navigated qualitatively different leadership contexts: revolutionary seizure of power, Cold War maneuvering, post-sanctions rapprochement with the West, and Pan-African leadership. He mobilized tribal loyalties, military forces, and international allies. However, his leadership was ultimately authoritarian and personality-dependent—he could not build a leadership culture that functioned without him, preventing a score of 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)",
+              "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Gaddafi cultivated a Bedouin-everyman image, famously receiving foreign dignitaries in his tent, referencing his humble tribal origins, and styling himself as a simple revolutionary. He came from a genuinely poor Bedouin family near Sirte. However, this image was largely performative: his sons Hannibal, Saadi, and Mutassim lived in extreme luxury across Europe, and the family controlled vast wealth. The gap between the cultivated simplicity and actual family lifestyle was enormous and well-documented, undermining authenticity."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Human Rights Watch, 'Libya: Words to Deeds' (2009)",
+              "Vandewalle, Dirk, 'A History of Modern Libya' (2012)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Gaddafi's governance was characterized by revolutionary courts operating outside legal norms, persecution and public execution of political dissidents, arbitrary detention, and systematic corruption benefiting his family and tribal allies. His sons lived in extraordinary luxury (Hannibal's violent incidents across Europe, Saadi's scandals) while ordinary Libyans lived under repression. There is no documented instance of Gaddafi ruling against his personal or family interest in favor of principle. His rhetorical commitment to justice for Africa and the Third World was contradicted by his domestic governance."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Cojean, Annick, 'Gaddafi's Harem' (2013)",
+              "Human Rights Watch, 'Libya: June 1996 Killings at Abu Salim Prison' (2006)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Gaddafi's record includes the Abu Salim prison massacre (1996, approximately 1,200 prisoners killed), state sponsorship of the Lockerbie bombing (Pan Am Flight 103, 1988, 270 killed) and UTA Flight 772 bombing (1989, 170 killed), systematic use of torture by security services, and brutal suppression of the 2011 uprising including shelling of civilian areas. Annick Cojean documented systematic sexual predation against young women and girls. While oil-funded social welfare programs (free education, healthcare) benefited Libyans, these were institutional and served power maintenance. Without counterexamples: 1 for social programs. With counterexamples given full weight: 0. Final: 0, because the systematic cruelty toward adversaries and civilians at massive scale represents an absence of this trait at the most fundamental level."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Gaddafi personally led the 1969 coup as a 27-year-old junior officer, a high-risk undertaking. He survived the 1986 US bombing of his Bab al-Azizia compound (Operation El Dorado Canyon), which killed his adopted daughter Hana. He endured decades of international sanctions and isolation (1988–2003) while maintaining power. He survived multiple assassination and coup attempts throughout his rule. In 2011, he chose to remain in Libya and fight rather than accept exile, ultimately dying in the process. This demonstrates sustained courage across multiple high-stakes situations spanning decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Jentleson, Bruce and Whytock, Christopher, 'Who Won Libya?' (International Security, 2006)",
+              "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Gaddafi made notable reversals: surrendering WMD programs in 2003, accepting responsibility for Lockerbie and paying $2.7 billion in compensation, and shifting from Arab nationalism to Pan-Africanism after the Arab League failed to support him during sanctions. These represent real behavioral changes. However, each reversal appears strategically motivated (WMD surrender followed the Iraq invasion; Lockerbie compensation was transactional to lift sanctions; Pan-African pivot followed Arab rejection) rather than reflecting genuine moral self-examination. He never publicly acknowledged wrongdoing in a way that suggested moral growth, and his domestic repression continued unchanged through every pivot."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)",
+              "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Gaddafi grew up in material deprivation as a Bedouin child near Sirte—his family was poor and he was the first to attend school. He endured the death of his adopted daughter Hana in the 1986 US bombing. He functioned under comprehensive international sanctions and diplomatic isolation from 1988 to 2003. During the 2011 civil war, he endured months of NATO bombing and civil conflict while his regime collapsed around him. This represents effective functioning across qualitatively different adversities: material deprivation, personal bereavement, international isolation, and warfare."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Vandewalle, Dirk, 'A History of Modern Libya' (2012)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Gaddafi inhabited multiple contradictory roles: revolutionary and autocrat, champion of the poor while his family amassed billions, advocate of direct democracy who was an absolute ruler, anti-Western provocateur who later cooperated with the West on counter-terrorism, sponsor of terrorism who surrendered WMDs, Bedouin ascetic whose sons epitomized global luxury. However, these contradictions were not integrated into a coherent whole—they represent hypocrisy and inconsistency rather than creative tension. He did not reconcile these roles; he simply occupied them without acknowledging the contradictions, which distinguishes this from genuine paradox integration."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Wehrey, Frederic, 'The Burning Shores: Inside the Battle for the New Libya' (2018)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Gaddafi chose to remain in Libya during the 2011 civil war rather than accept reported offers of exile, declaring 'I will die as a martyr at the end.' This suggests some willingness to face death. However, his actual death on October 20, 2011, undermines this: he was found hiding in a drainage culvert outside Sirte, and video evidence shows him pleading with captors before being killed. Without the counterexample of his actual death: 2 (chose to stay and face potential death). With it: 1 (rhetoric of martyrdom was not matched by composure at the moment of death). Final: 1, because the rubric specifically requires documented composure in the face of imminent death for higher scores."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Gaddafi received military training at the Royal Military Academy of Libya and briefly at the Royal Military Academy Sandhurst. He grew up in harsh desert Bedouin conditions, implying physical toughness. He survived the 1986 US bombing of his compound and remained active during the 2011 civil war into his late 60s, moving between locations under NATO bombardment. However, there are no documented exceptional physical feats or evidence of sustained physical capacity across multiple life stages beyond baseline military fitness and survival."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Gaddafi, Muammar, 'Escape to Hell and Other Stories' (1998)",
+              "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Gaddafi displayed a distinctive and flamboyant aesthetic sensibility in his personal presentation—elaborate military uniforms, colorful robes and capes, designer sunglasses, and ornately decorated tents. He reportedly enjoyed horseback riding and was known for a theatrical personal style. His short story collection 'Escape to Hell' shows some literary ambition. However, it is difficult to separate genuine aesthetic engagement from political theater and self-aggrandizement—much of his flamboyance appeared instrumental to his cultivated image."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 4.17,
+          "Relational": 2.22,
+          "Core_5D_Avg": 3.51,
+          "Cultural-Social": 4.67,
+          "Moral-Affective": 2.5,
+          "Embodied-Existential": 4.0
+        }
+      },
+      "figure": "Muammar Gaddafi",
+      "overall": {
+        "Core_5D_Avg": 3.51,
+        "Overall_Normalized_Equal_Avg": 3.37,
+        "General_Competency_Avg_10scale": 2.67
+      },
+      "summary": "Gaddafi's 42-year hold on power reflects genuine strategic cunning and personal courage, but these strengths are overwhelmed by moral-affective failures: documented mass atrocities (Abu Salim massacre, Lockerbie bombing), systematic sexual predation, and deliberate institutional destruction. His archetype resonance as the quintessential flamboyant dictator is high, but his relational and ethical scores are among the lowest possible. Heinlein competency is narrow, concentrated in leadership and strategic command. The Green Book attempted philosophical novelty but achieved no lasting intellectual influence. Overall, a figure whose political longevity far exceeded his breadth of human development.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.8,
+          "General_Competency_Avg_10scale": 2.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of personal culinary skills. No sources describe Gaddafi cooking or preparing food. His Bedouin background would imply some basic food preparation knowledge in childhood, but this is speculative and undocumented."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gaddafi was a trained military officer (Royal Military Academy of Libya, brief training at Sandhurst) and personally participated in the 1969 coup, though it was bloodless. He survived multiple assassination attempts and the 1986 US air strike on his compound. During the 2011 civil war, he remained in a combat zone for months. However, the 1969 coup required no personal combat, the Chad wars were disasters, and no sources document personal combat skill or efficiency in fighting."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Cojean, Annick, 'Gaddafi's Harem' (2013)",
+            "Human Rights Watch, 'Libya: June 1996 Killings at Abu Salim Prison' (2006)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal caregiving. Oil-funded social welfare programs (free education, healthcare) were institutional and administered by the state, not reflecting personal caregiving capacity. The documented sexual predation against young women (Cojean 2013) and brutality toward political prisoners represent the antithesis of nurture at the personal level."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Wehrey, Frederic, 'The Burning Shores: Inside the Battle for the New Libya' (2018)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Gaddafi declared he would 'die as a martyr' and chose to remain in Libya during the 2011 civil war rather than flee, showing some willingness to face death with stated composure. He endured the loss of his adopted daughter in 1986 and continued functioning. However, his actual death—found hiding in a drainage culvert, video showing him disoriented and pleading with captors—suggests that his composure failed at the ultimate moment. The gap between rhetorical composure and actual behavior at death limits this score."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of personal manual craft or repair skills. Gaddafi moved from a Bedouin childhood directly into military academy and then political leadership. No sources describe him engaging in manual repair or craftsmanship."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Bedouin upbringing in the Libyan desert implies familiarity with desert terrain and navigation. Military training at the Royal Military Academy of Libya and briefly at Sandhurst would have included basic navigation. During the 2011 civil war, he reportedly moved between multiple locations to evade NATO strikes. However, no specific documented navigation feats exist."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Gaddafi grew up in a Bedouin pastoral family near Sirte, where animal husbandry (goats, camels) was a basic part of life. Era-normalized for a mid-20th-century Bedouin upbringing, he would have had childhood exposure to animal management and basic food processing. However, no specific documented evidence of personal skill in this domain exists beyond biographical context."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Vandewalle, Dirk, 'A History of Modern Libya' (2012)",
+            "Pargeter, Alison, 'Libya: The Rise and Fall of Qaddafi' (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Gaddafi was an exceptionally effective leader in terms of maintaining power: 42 years of rule, managing tribal coalitions, commanding military and security forces, and exercising influence across Africa. In his early career, he modeled himself on Nasser and cooperated with fellow Free Unionist Officers in the 1969 coup, showing some capacity for followership and cooperation. However, he was fundamentally incapable of subordination throughout his rule, tolerating no dissent or challenge, which limits the followership dimension."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of personal construction or fabrication skills. While Gaddafi commissioned major projects like the Great Man-Made River and various infrastructure, these were designed and built by foreign engineering firms (primarily South Korean companies). No evidence of personal hands-on construction ability."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Vandewalle, Dirk, 'A History of Modern Libya' (2012)",
+            "St John, Ronald Bruce, 'Libya: From Colony to Revolution' (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Successfully planned and executed the September 1, 1969 bloodless coup against King Idris, coordinating Free Unionist Officers across multiple military units. Maintained strategic control of Libya for 42 years through complex tribal balancing, patronage networks, and playing external powers against each other. However, the catastrophic defeat in the Toyota War in Chad (1987, losing the Aouzou Strip and massive military equipment) and the fatal miscalculation of 2011 demonstrate serious strategic limitations."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Gaddafi, Muammar, 'Escape to Hell and Other Stories' (1998)",
+            "Gaddafi, Muammar, 'The Green Book' (1975–1979)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gaddafi authored 'The Green Book' (1975–1979) and 'Escape to Hell and Other Stories' (1998), a collection of allegorical short stories and essays. His personal fashion—ornate uniforms, flowing robes, designer accessories—reflected a distinctive if idiosyncratic aesthetic sensibility. However, his literary works are not regarded as having artistic merit by literary critics, and his aesthetic expression was deeply intertwined with political self-presentation."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of personal medical knowledge or emergency medical intervention. Basic military first aid training would have been part of his academy education, but no specific instances of medical aid are recorded in the biographical literature."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Vandewalle, Dirk, 'A History of Modern Libya' (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Gaddafi received military academy education in Libya and briefly at Sandhurst, which would have included basic analytical and logistical reasoning. He managed Libya's oil economy at a high level, making decisions about nationalization and OPEC pricing. However, no evidence of personal mathematical or analytical distinction exists; economic management was delegated to technocrats and advisors."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Vandewalle, Dirk, 'A History of Modern Libya' (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gaddafi nationalized Libya's oil industry in the 1970s and managed it as the country's primary resource, using revenues for social programs and international influence. He initiated the Great Man-Made River Project to bring fossil water from the Sahara to coastal agricultural regions. These represent significant resource management decisions at the state level. However, these were macro-level political decisions, not personal agricultural competence, and Libya remained heavily dependent on food imports throughout his rule."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Vandewalle, Dirk, 'A History of Modern Libya' (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gaddafi initiated the Great Man-Made River Project, one of the largest engineering projects in the world, demonstrating engagement with complex technical systems at the decision-making level. He managed Libya's oil extraction and export infrastructure as a primary state function. However, technical implementation was entirely delegated to foreign firms and engineers. No personal technical competence is documented."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 3.51,
+    "general_competency_avg_0_10": 2.67,
+    "overall_normalized_equal_avg_0_10": 3.37,
+    "created_at": "2026-03-22T20:00:29.336Z",
+    "updated_at": "2026-03-22T20:00:29.356Z"
+  }
+}
+]

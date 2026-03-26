@@ -1,0 +1,375 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 126,
+  "fields": {
+    "name": "Ibn Khaldun",
+    "slug": "ibn-khaldun",
+    "bio_short": "A towering intellect whose *Muqaddimah* essentially founded scientific historiography, sociology, and proto-economics, earning a deserved score of 3 in both philosophical insight and creative innovation. His cognitive dimension is his strongest. He endured extraordinary personal loss — plague, imprisonment, the drowning of his family — while maintaining scholarly productivity. His practical political career was checkered, and relational/embodied evidence is thin outside his intellectual life. Heinlein competency is narrow: exceptional analytical reasoning but negligible evidence across manual,",
+    "bio_long": "Ibn Khaldun was an Arab scholar, historian, philosopher, and sociologist. He is widely acknowledged to be one of the greatest social scientists of the Middle Ages, and is considered by a number of scholars to be a major forerunner of historiography, sociology, economics, and demography studies.",
+    "source_notes": "https://en.wikipedia.org/wiki/Ibn_Khaldun",
+    "image": "figures/330px-Bust_of_Ibn_Khaldun_28Casbah_of_Bejaia2C_Algeria29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Fischel, *Ibn Khaldun and Tamerlane* (1952)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)",
+              "al-Ta'rif bi-Ibn Khaldun (autobiography)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Ibn Khaldun navigated shifting allegiances among Marinid, Hafsid, Nasrid, and Abdalwadid dynasties across decades, surviving imprisonment in Fez (1357) and repeated political reversals. His 1401 negotiation with Timur at besieged Damascus — being lowered by ropes over the city walls at age 69 to parley — shows adaptive diplomacy under extreme uncertainty. However, his political career also featured repeated failures and expulsions, indicating strategic skill that was real but inconsistently successful."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Rosenthal, introduction to *Muqaddimah* translation (1958)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)",
+              "Lacoste, *Ibn Khaldun: The Birth of History and the Past of the Third World* (1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ibn Khaldun created a paradigm shift in historiography: before him, Islamic historical writing was primarily annalistic and narrative (e.g., al-Tabari). He introduced a method demanding causal explanation, sociological analysis, and empirical verification of historical claims. He independently developed concepts later attributed to modern disciplines — labor theory of value, supply-and-demand dynamics, a proto-Laffer curve on taxation. The before/after difference is demonstrable in Ottoman and later Arab historiography."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Ibn Khaldun, *Muqaddimah*, trans. Rosenthal (1958)",
+              "Toynbee, *A Study of History* vol. III",
+              "Mahdi, *Ibn Khaldun's Philosophy of History* (1957)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The *Muqaddimah* (1377) articulated a comprehensive theory of social cohesion (*asabiyyah*), cyclical civilizational rise and decline, and the relationship between political authority and economic prosperity. These principles influenced Ottoman historiography (Kâtip Çelebi, Naima), European Enlightenment thinkers after translation, and modern sociologists including Durkheim and Gumplowicz. Toynbee called it 'the greatest work of its kind that has ever yet been created by any mind in any time or place.'"
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)",
+              "Fischel, *Ibn Khaldun in Egypt* (1967)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Served as Maliki chief judge (*qadi al-qudat*) in Cairo six times under the Mamluks, attempting judicial reform including stricter procedural standards. He also held the chancellery (diwan al-alama) in Tunis. His repeated appointments show recognized administrative competence, but his repeated removals — often for conflicts with the Mamluk establishment — indicate his reforms did not endure beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "al-Ta'rif bi-Ibn Khaldun (autobiography)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ibn Khaldun documented interactions across multiple relational modes: as subordinate to rulers (Marinid sultan Abu Inan, Mamluk sultans), as superior (chief judge, teacher), as diplomatic adversary/negotiator (with Timur), as friend and colleague to scholars (Ibn al-Khatib in Granada), and as bereaved spouse/parent. His autobiography demonstrates adaptable relational behavior across at least five distinct modes, though the emotional depth of some of these relationships is poorly documented."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "al-Ta'rif bi-Ibn Khaldun (autobiography)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "He married into the family of the Hafsid general Muhammad ibn al-Hakim, and his grief at the drowning of his wife and daughters circa 1384 is recorded in his autobiography. However, the surviving record provides very little detail about the quality, mutuality, or emotional depth of his marital relationship. The marriage appears to have been partly a political alliance, and evidence of mutual support during crisis is indirect at best."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)",
+              "Fischel, *Ibn Khaldun in Egypt* (1967)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "He taught at al-Azhar and other Cairo institutions, and his lectures attracted students. His student al-Maqrizi became a notable historian, suggesting some mentoring success. However, specific evidence of individualized mentoring relationships or the development of student autonomy is thin. His own children's development is barely documented, and several died in the shipwreck before reaching adulthood."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Rosenthal, introduction to *Muqaddimah* translation (1958)",
+              "Lacoste, *Ibn Khaldun: The Birth of History and the Past of the Third World* (1984)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The *Muqaddimah* has been studied continuously for over 600 years across Arab, Ottoman, European, and global academic traditions. It is foundational to modern historiography, sociology, economics, and political science. Ottoman historians directly adopted his methods; European scholars from the 18th century onward recognized his contributions; today he is taught in universities worldwide. His concept of *asabiyyah* remains actively applied in political analysis. His impact spans multiple civilizations and exceeds 500 years."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)",
+              "Lacoste, *Ibn Khaldun: The Birth of History and the Past of the Third World* (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Ibn Khaldun is widely recognized as the 'father of sociology' and 'father of historiography' across Islamic and Western intellectual traditions. He embodies the archetype of the detached, analytical observer of civilizations — the scholar who steps back from the world to understand it. However, his symbolic resonance is primarily within academic and intellectual circles rather than popular cross-cultural mythology, limiting him below the threshold of Score 3."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)",
+              "Fischel, *Ibn Khaldun in Egypt* (1967)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Ibn Khaldun taught at established institutions (al-Azhar, the Qamhiyya madrasa in Cairo) and served within existing judicial structures, but he did not found new institutions. His intellectual framework became a 'school' of thought influencing Ottoman and later historiography, but this is a diffuse intellectual legacy rather than a concrete institutional creation that survived with recognizable organizational continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)",
+              "Fischel, *Ibn Khaldun in Egypt* (1967)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "He served as political adviser to multiple rulers across North Africa (Marinids in Fez, Hafsids in Tunis, Nasrids in Granada), held the chief judgeship in Cairo, and taught at al-Azhar. He led in both political crisis (negotiating with Timur) and institutional stability (judicial administration). However, his political influence was often short-lived, and his intellectual influence, while enormous, operated primarily through his written works rather than charismatic personal leadership of large groups."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "al-Ta'rif bi-Ibn Khaldun (autobiography)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Ibn Khaldun's autobiography reveals some personal details — grief at family loss, enjoyment of scholarly debate, social interactions at court — but he was consistently an elite figure (aristocratic Andalusian lineage, court adviser, chief judge). There is no substantial documentation of engagement with mundane everyday activities such as cooking, manual labor, or ordinary humor at the height of his career. His relatability is limited by the elevated social circles he inhabited."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Fischel, *Ibn Khaldun in Egypt* (1967)",
+              "Ibn Khaldun, *Muqaddimah*, trans. Rosenthal (1958)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "As Maliki chief judge in Cairo, he pursued strict legal standards and attempted to root out corruption, which brought him into conflict with established Mamluk interests and contributed to his repeated dismissals. His willingness to be removed from office rather than bend judicial procedure suggests principled commitment to justice. The *Muqaddimah* contains sustained analysis of just governance and the corrupting effects of unchecked power."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "al-Ta'rif bi-Ibn Khaldun (autobiography)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "His autobiography records grief at the loss of his family in a shipwreck (c. 1384) and sorrow at the devastation of Damascus by Timur's forces. His *Muqaddimah* shows analytical understanding of human suffering in civilizational decline. However, there is no documented evidence of compassionate action toward adversaries or outgroup members; his analytical detachment is more characteristic than personal empathy."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Fischel, *Ibn Khaldun and Tamerlane* (1952)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "He endured imprisonment in Fez (1357-1358), survived the Black Death that killed his parents and teachers (1348-1349), persisted through multiple political exiles, and at age 69 was lowered over Damascus's walls by rope to negotiate with Timur — one of history's most feared conquerors. This demonstrates sustained courage across different high-stakes situations spanning decades, though he also made pragmatic retreats when politically expedient."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "al-Ta'rif bi-Ibn Khaldun (autobiography)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His autobiography (*al-Ta'rif*) reveals a pattern of political alliance-switching that he reappraised over time, culminating in his deliberate retreat from politics to the castle of Qal'at Ibn Salama (1375-1379) to write the *Muqaddimah*. This represents a genuine life reorientation from political actor to scholarly observer. His willingness to record his own political failures and reassessments in the autobiography, though self-serving in parts, shows meaningful self-reflection uncommon in medieval autobiography."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "al-Ta'rif bi-Ibn Khaldun (autobiography)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)",
+              "Fischel, *Ibn Khaldun in Egypt* (1967)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "He lost both parents and several teachers to the Black Death at age 17 (1348-1349) — a devastating personal and material loss. He was imprisoned in Fez (1357-1358). His wife and several daughters drowned in a shipwreck circa 1384 while traveling to join him in Egypt. Through all of these qualitatively different forms of adversity — epidemic bereavement, political imprisonment, and catastrophic family loss — he continued productive intellectual work, producing his greatest scholarly achievements."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Mahdi, *Ibn Khaldun's Philosophy of History* (1957)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ibn Khaldun simultaneously inhabited the roles of political actor and detached analytical observer, court insider and social critic, and religious judge and empirical social scientist. His theory of *asabiyyah* drew on his direct experience of Bedouin and urban life, integrating these contrasting worlds. He served rulers while theorizing about the inevitable corruption of rulership. These represent at least three seemingly contradictory roles, though the transition from politician to scholar was sequential rather than fully simultaneous."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Fischel, *Ibn Khaldun and Tamerlane* (1952)",
+              "al-Ta'rif bi-Ibn Khaldun (autobiography)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His willingness to be lowered over the walls of besieged Damascus to meet Timur in 1401, at age 69, knowing Timur's reputation for mass slaughter, demonstrates remarkable composure in the face of likely death. His autobiography's reflective tone about the passage of civilizations and the transience of power suggests philosophical acceptance. However, detailed accounts of his own final illness and death in 1406 are not well-documented."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Fischel, *Ibn Khaldun and Tamerlane* (1952)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He undertook extensive overland and sea travel across North Africa, the Iberian Peninsula, the Levant, and Egypt over decades — journeys involving significant physical hardship in the 14th century. At age 69, he was lowered by ropes over the walls of besieged Damascus. He lived to approximately 74, well above average life expectancy for his era, suggesting sustained physical constitution across multiple life stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "al-Ta'rif bi-Ibn Khaldun (autobiography)",
+              "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "His autobiography mentions participation in scholarly gatherings and literary circles, and the prose of the *Muqaddimah* shows genuine literary artistry. He composed some poetry. However, evidence of non-instrumental play, humor, or aesthetic engagement for its own sake is sparse in the surviving record. His literary production is deeply intertwined with didactic and analytical purposes."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.25,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Ibn Khaldun",
+      "overall": {
+        "Core_5D_Avg": 6.25,
+        "Overall_Normalized_Equal_Avg": 5.8,
+        "General_Competency_Avg_10scale": 3.56
+      },
+      "summary": "A towering intellect whose *Muqaddimah* essentially founded scientific historiography, sociology, and proto-economics, earning a deserved score of 3 in both philosophical insight and creative innovation. His cognitive dimension is his strongest. He endured extraordinary personal loss — plague, imprisonment, the drowning of his family — while maintaining scholarly productivity. His practical political career was checkered, and relational/embodied evidence is thin outside his intellectual life. Heinlein competency is narrow: exceptional analytical reasoning but negligible evidence across manual, agricultural, culinary, combat, or medical domains. A specialist of the highest order whose intellectual legacy dwarfs his practical versatility.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.07,
+          "General_Competency_Avg_10scale": 3.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in any source of personal culinary skill or interest in food preparation. His aristocratic and scholarly lifestyle suggests household staff handled such tasks."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal combat experience or martial skill. While he lived through periods of intense military conflict and interacted with military leaders, his roles were consistently scholarly, judicial, and diplomatic rather than martial."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "al-Ta'rif bi-Ibn Khaldun (autobiography)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "His role as teacher at al-Azhar and other institutions involved intellectual nurture of students, and his autobiography records grief and concern for his family. However, there is no specific documented evidence of hands-on caregiving — nursing the sick, tending children, or providing sustained emotional care beyond what is incidentally mentioned."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Fischel, *Ibn Khaldun and Tamerlane* (1952)",
+            "al-Ta'rif bi-Ibn Khaldun (autobiography)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "His composure during the negotiation with Timur at besieged Damascus in 1401, facing a conqueror known for massacres, demonstrates exceptional self-control under mortal threat. His continued scholarly productivity after the drowning of his wife and daughters shows dignity maintained through devastating personal crisis. His philosophical framework in the *Muqaddimah* reflects deep acceptance of civilizational impermanence."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record of manual craft or repair skills. His career was entirely within scholarly, judicial, and political domains. The *Muqaddimah* discusses crafts and trades analytically but from an observer's perspective."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "al-Ta'rif bi-Ibn Khaldun (autobiography)",
+            "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "He traveled extensively across North Africa (Tunis, Fez, Tlemcen, Biskra), to the Iberian Peninsula (Granada), across the Mediterranean to Egypt, and overland to Damascus — all in the 14th century with limited navigational infrastructure. His autobiography records these journeys in detail, and managing such travel required practical wayfinding knowledge of routes, caravan logistics, and sea crossings."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record of personal skill in butchering, animal husbandry, or food processing. His aristocratic background and career as a court scholar and judge make it unlikely this was a practiced skill, though era normalization means some baseline familiarity with animal markets is possible."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)",
+            "Fischel, *Ibn Khaldun in Egypt* (1967)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "He demonstrated both leadership (as Maliki chief judge, diplomatic envoy, and teacher) and followership (serving under multiple rulers across North Africa and Egypt, adapting to new political masters after each transition). His ability to subordinate himself to rulers like Abu Inan, Pedro of Castile (briefly), and the Mamluk sultans, while also exercising independent authority as judge, shows both modes in operation."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal involvement in construction or fabrication of physical structures. While the *Muqaddimah* discusses architecture and urban planning theoretically, there is no record of Ibn Khaldun engaging in building activity."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Fischel, *Ibn Khaldun and Tamerlane* (1952)",
+            "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "He coordinated diplomatic missions for multiple North African rulers, planned his own political maneuvers across rival courts, and orchestrated the complex negotiation with Timur at Damascus (1401), which involved securing terms for the city's scholars. His theoretical understanding of strategic planning in the *Muqaddimah* is exceptionally sophisticated, and his practical diplomatic career shows real, if imperfect, execution."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Ibn Khaldun, *Muqaddimah*, trans. Rosenthal (1958)",
+            "Irwin, *Ibn Khaldun: An Intellectual Biography* (2018)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The *Muqaddimah* is recognized not only as a scholarly masterwork but as a literary achievement of Arabic prose. His autobiography records that he composed poetry and participated in literary circles in Fez and Granada alongside figures like Ibn al-Khatib, one of the great literary figures of Nasrid Granada. His writing demonstrates sophisticated rhetorical skill and narrative craft."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of medical knowledge or emergency medical practice. While he lived through the Black Death and discusses plague in the *Muqaddimah*, this is analytical rather than practical medical engagement."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Ibn Khaldun, *Muqaddimah*, trans. Rosenthal (1958)",
+            "Mahdi, *Ibn Khaldun's Philosophy of History* (1957)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The *Muqaddimah* contains pioneering quantitative reasoning: analysis of supply and demand, the relationship between tax rates and revenue (proto-Laffer curve), population dynamics, and systematic debunking of exaggerated numerical claims in historical sources through demographic analysis. He applied mathematical logic to evaluate the plausibility of army sizes, city populations, and treasury figures reported by earlier historians — an unprecedented methodological innovation."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Ibn Khaldun, *Muqaddimah*, trans. Rosenthal (1958)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "While the *Muqaddimah* contains extensive theoretical discussion of agriculture, land use, and resource management as factors in civilizational development, there is no evidence of personal agricultural practice or resource management beyond theoretical analysis."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Ibn Khaldun, *Muqaddimah*, trans. Rosenthal (1958)",
+            "Mahdi, *Ibn Khaldun's Philosophy of History* (1957)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "His development of a new historiographical methodology — requiring causal analysis, sociological verification, and empirical testing of historical claims — represents cutting-edge intellectual technology for his era. He applied systematic analytical frameworks to problems previously addressed only through narrative authority. His judicial reforms in Cairo also involved systemic procedural innovations."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.25,
+    "general_competency_avg_0_10": 3.56,
+    "overall_normalized_equal_avg_0_10": 5.8,
+    "created_at": "2026-03-22T08:28:43.149Z",
+    "updated_at": "2026-03-22T08:28:43.196Z"
+  }
+}
+]

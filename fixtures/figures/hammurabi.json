@@ -1,0 +1,366 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 222,
+  "fields": {
+    "name": "Hammurabi",
+    "slug": "hammurabi",
+    "bio_short": "Hammurabi excels in cognitive and cultural-social dimensions, embodying the archetype of the lawgiver-king. His Code, strategic conquests, and administrative correspondence reveal exceptional legislative skill, strategic intelligence, and justice orientation. However, the ancient Mesopotamian record leaves embodied-existential and relational dimensions poorly documented, and his practical competency breadth—while including notable resource management and analytical reasoning—is limited by evidentiary gaps in personal skills. His legacy as history's quintessential lawgiver endures across civili",
+    "bio_long": "Hammurabi, also spelled Hammurapi, was the sixth Amorite king of the Old Babylonian Empire, reigning from c. 1792 to c. 1750 BC. He was preceded by his father, Sin-Muballit, who abdicated due to failing health. During his reign, he conquered the city-states of Larsa, Eshnunna, and Mari. He ousted Ishme-Dagan I, the king of Assyria, and forced his son Mut-Ashkur to pay tribute, bringing almost all of Mesopotamia under Babylonian rule.",
+    "source_notes": "https://en.wikipedia.org/wiki/Hammurabi",
+    "image": "figures/330px-F0182_Louvre_Code_Hammourabi_Bas-relief_Sb8_rwk.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)",
+              "Charpin, 'Hammurabi of Babylon' (2012)",
+              "Mari Letters (ARM corpus)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Hammurabi spent roughly 29 years building alliances (notably with Zimri-Lim of Mari) and consolidating power before launching systematic conquests against Rim-Sin of Larsa, Eshnunna, and Mari. When faced with a hostile coalition including Elam, he adapted by exploiting Elamite overextension, defeating them and then turning on former allies. His use of water-diversion as a weapon against Eshnunna and his patient decades-long strategy of delayed conquest demonstrate exceptional adaptation under uncertainty."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Charpin, 'Hammurabi of Babylon' (2012)",
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Code of Hammurabi, while not the first law collection, was unprecedented in scope (282 laws) and systematic organization, covering commercial, family, criminal, and labor law. His innovative use of hydraulic engineering as a military weapon (diverting watercourses against Eshnunna) and his integration of diplomacy with delayed military conquest were creative for his era. However, he built substantially on existing Mesopotamian legal and administrative traditions rather than creating a paradigm shift."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Roth, 'Law Collections from Mesopotamia and Asia Minor' (1997)",
+              "Charpin, 'Hammurabi of Babylon' (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The prologue and epilogue of the Code articulate a coherent ethic: the king as shepherd protecting the weak from the strong, ensuring widows and orphans receive justice. These principles built on earlier codes (Ur-Nammu, Lipit-Ishtar) but were expressed with unprecedented comprehensiveness. The code was copied as a scribal-philosophical text for over a millennium, demonstrating influence beyond his era, though direct philosophical influence on later non-Mesopotamian traditions remains debated."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Roth, 'Law Collections from Mesopotamia and Asia Minor' (1997)",
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)",
+              "Letters of Hammurabi (cuneiform corpus)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Code of Hammurabi is one of history's most comprehensive early legal codes, with 282 laws governing property, commerce, family, labor, and criminal matters. His administrative letters to officials like Shamash-hazir show micro-level governance of irrigation, land disputes, and taxation across a multi-ethnic empire. The Code was copied and studied by Mesopotamian scribes for over a thousand years after his death, demonstrating systems that endured far beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Mari Letters (ARM corpus)",
+              "Charpin, 'Hammurabi of Babylon' (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The record documents Hammurabi operating across multiple relational modes: superior to subordinate officials (letters to Shamash-hazir), peer ally to Zimri-Lim of Mari, adversary to Rim-Sin of Larsa, religious supplicant to Shamash and Marduk, and father to Samsu-iluna. These five modes show adaptability, though the depth of evidence varies significantly and most documentation is from his role as superior/king."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "(no citation)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No credible evidence exists regarding the quality of Hammurabi's intimate partnerships. While he had a wife (or wives) and produced at least one heir (Samsu-iluna), no documentation of mutual respect, emotional availability, or relationship dynamics survives in the record."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hammurabi's son Samsu-iluna succeeded him and initially held much of the empire together, suggesting some preparation for succession. His detailed letters to officials like Shamash-hazir show instructional qualities in governance. However, Samsu-iluna eventually lost significant territory, and there is no evidence of mentees developing genuine autonomy rather than dependency on the system Hammurabi built."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Roth, 'Law Collections from Mesopotamia and Asia Minor' (1997)",
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)",
+              "Westbrook, 'A History of Ancient Near Eastern Law' (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Code of Hammurabi remains one of the most iconic legal documents in human history, studied in law and history curricula worldwide nearly 4,000 years later. The concept of systematic, written legal codification became foundational across civilizations. Babylon itself became a lasting cultural symbol referenced in Jewish, Christian, and Islamic traditions. The code's influence on later Near Eastern legal traditions (including debated connections to Biblical law) spans multiple civilizations and millennia."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)",
+              "Code of Hammurabi stele (Louvre, Sb 8)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hammurabi is the quintessential 'lawgiver-king' archetype, recognized far beyond Mesopotamian culture. His image receiving the law from the god Shamash on the famous stele is one of the most reproduced images from antiquity. He appears in the U.S. Supreme Court frieze alongside Moses and Solon as a foundational lawgiver. His cross-cultural recognition as a symbol of law and justice is unmatched among ancient Mesopotamian figures."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)",
+              "Charpin, 'Hammurabi of Babylon' (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Code of Hammurabi was copied and studied by scribes for over a millennium, becoming a foundational text in Mesopotamian scribal education. His canal systems and administrative bureaucratic patterns influenced later governance. However, the Old Babylonian Empire itself contracted sharply under his son Samsu-iluna and successors, eventually falling to the Hittites and Kassites. The legal-administrative institutions endured in scribal tradition, but the political entity did not maintain recognizable continuity beyond two generations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Charpin, 'Hammurabi of Babylon' (2012)",
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Hammurabi transformed Babylon from a relatively minor city-state into the dominant power of Mesopotamia. He led effectively across qualitatively different contexts: decades of careful diplomatic alliance-building (alliance with Zimri-Lim of Mari), acute military crisis (defeating the Elamite coalition c. 1764 BC), and sustained administrative governance of conquered multi-ethnic territories. This range—from patient diplomat to conqueror to administrator—fulfills the criterion of leadership across different contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Letters of Hammurabi (cuneiform corpus)",
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hammurabi's administrative letters show detailed engagement with mundane governance matters—canal maintenance, property disputes, allocation of fields—which demonstrates some connection to everyday life. However, there is no documented evidence of personal engagement with truly mundane activities (cooking, humor, manual labor, play with children). The record presents him almost exclusively in his royal-administrative capacity."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Code of Hammurabi stele (Louvre, Sb 8)",
+              "Roth, 'Law Collections from Mesopotamia and Asia Minor' (1997)",
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Justice is Hammurabi's defining legacy. The Code's prologue states its purpose as ensuring 'the strong should not harm the weak.' His letters to Shamash-hazir document specific cases where he ordered officials to restore land to dispossessed petitioners, ruling against the interests of local administrators. The code is class-stratified (different penalties for harming free citizens vs. slaves), which is a counterexample; without it the score would be 3, but era-normalized this stratification was universal and the code's protections for lower classes were progressive. Score remains 3."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Charpin, 'Hammurabi of Babylon' (2012)",
+              "Roth, 'Law Collections from Mesopotamia and Asia Minor' (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Code systematically protects vulnerable populations: debt-slaves are freed after three years, divorced women retain property rights, and widows and orphans receive explicit legal protection. His administrative letters show personal attention to individual petitioners' grievances. However, the destruction of Mari—the city of his former ally Zimri-Lim—and the use of water-diversion warfare (causing mass civilian suffering at Eshnunna) count as serious counterexamples against compassion toward adversaries. Without the counterexamples the score would be 3; with them given proportional weight, 2 is appropriate."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)",
+              "Charpin, 'Hammurabi of Babylon' (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hammurabi led military campaigns personally over multiple decades, facing coalition threats from Elam, Eshnunna, and others. He sustained a 42-year reign through periods of acute military danger, particularly the Elamite crisis around year 30. However, specific accounts of personal bravery in battle are absent from the record; year-names record victories but not personal risk-taking."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Ancient Mesopotamian royal records are inherently self-aggrandizing and sanitized; year-names celebrate victories and pious acts, never admitting error. No independent evidence documents Hammurabi reversing a prior position or accepting correction. Per the rubric's cap on figures whose traditions remove evidence of error, this trait is capped at 1."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hammurabi inherited a kingdom under external threat and navigated decades of military and diplomatic challenges, suggesting some hardship tolerance. However, specific evidence of personal adversity—poverty, exile, illness, or bereavement—is absent from the record. We cannot document two qualitatively different forms of adversity as required for higher scores."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Charpin, 'Hammurabi of Babylon' (2012)",
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hammurabi inhabited seemingly contradictory roles: ruthless conqueror who destroyed Mari yet compassionate lawgiver protecting widows and orphans; patient diplomat who cultivated alliances yet decisive warrior who struck when the moment came; micro-managing administrator of canal maintenance yet grand empire-builder. These roles are well-documented across different phases of his reign, though the depth of integration at a personal level is not fully accessible through the sources."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hammurabi appears to have died of natural causes after a long reign, and the Code's epilogue contains reflections on the king's legacy enduring beyond his life, showing some engagement with mortality. However, no specific documentation exists of his composure in facing his own imminent death or age-related decline."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hammurabi reigned for approximately 42 years and led military campaigns across Mesopotamia, implying physical endurance sufficient for an ancient Near Eastern king. However, no specific physical feats or endurance episodes are documented in the record. Year-names record victories but do not describe personal physical actions."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Code of Hammurabi stele (Louvre, Sb 8)",
+              "Charpin, 'Hammurabi of Babylon' (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hammurabi commissioned temples, public works, and the artistically significant stele bearing his Code, suggesting appreciation for aesthetic expression. Year-names celebrate temple dedications to gods like Marduk and Shamash. However, there is no evidence of personal, non-instrumental aesthetic engagement—no documented humor, play, or art appreciation for its own sake."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 3.33,
+          "Core_5D_Avg": 6.07,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 4.0
+        }
+      },
+      "figure": "Hammurabi",
+      "overall": {
+        "Core_5D_Avg": 6.07,
+        "Overall_Normalized_Equal_Avg": 5.73,
+        "General_Competency_Avg_10scale": 4.0
+      },
+      "summary": "Hammurabi excels in cognitive and cultural-social dimensions, embodying the archetype of the lawgiver-king. His Code, strategic conquests, and administrative correspondence reveal exceptional legislative skill, strategic intelligence, and justice orientation. However, the ancient Mesopotamian record leaves embodied-existential and relational dimensions poorly documented, and his practical competency breadth—while including notable resource management and analytical reasoning—is limited by evidentiary gaps in personal skills. His legacy as history's quintessential lawgiver endures across civilizations over nearly four millennia.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.2,
+          "General_Competency_Avg_10scale": 4.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record documents Hammurabi personally preparing food or demonstrating culinary skill."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hammurabi led military campaigns that conquered Larsa, Eshnunna, Mari, and subdued Assyria, demonstrating command in combat contexts. However, specific evidence of personal fighting skill or battlefield prowess is absent; the record documents his role as commander rather than combatant."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Roth, 'Law Collections from Mesopotamia and Asia Minor' (1997)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Code of Hammurabi includes provisions for care of dependents (widow protection, orphan rights, wet-nurse regulation), and his administrative letters show concern for citizens' welfare in property and livelihood disputes. However, no evidence documents personal caregiving activity."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Code of Hammurabi stele (Louvre, Sb 8)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Code's epilogue reflects on legacy enduring beyond the king's life, showing philosophical engagement with mortality. Hammurabi sustained composure across a 42-year reign through multiple crises. However, no specific documentation of composure in facing his own death or acute mortal danger survives."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record documents Hammurabi personally engaging in manual craft or repair work. As a king from birth, such activities would be unusual but cannot be entirely excluded; however, the record is silent."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hammurabi led military campaigns across Mesopotamia's river systems and terrain, which required operational knowledge of routes and geography. His canal-building projects imply understanding of hydraulic geography. However, no specific navigation feats are documented at a personal level."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record documents Hammurabi personally handling or processing animals or raw food resources."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Van De Mieroop, 'King Hammurabi of Babylon' (2005)",
+            "Charpin, 'Hammurabi of Babylon' (2012)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Hammurabi demonstrated exceptional leadership in transforming Babylon into Mesopotamia's dominant power. He also demonstrated followership: early in his reign he maintained his father Sin-Muballit's alliances and deferred to established diplomatic conventions, accepting a subordinate position relative to larger powers before his conquests. His letters show both decisive command and responsiveness to subordinates' reports."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Charpin, 'Hammurabi of Babylon' (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hammurabi's year-names celebrate the construction of temples (to Marduk, Shamash), city walls, and canal systems. He commissioned major public works throughout his reign. However, he operated as patron and commissioner rather than builder; no personal construction skill is documented."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Charpin, 'Hammurabi of Babylon' (2012)",
+            "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Hammurabi's decades-long strategy of alliance-building followed by precisely timed conquests—defeating the Elamite coalition (c. 1764 BC), conquering Larsa, Eshnunna, and Mari in rapid succession—demonstrates exceptional strategic planning. He adapted plans when the Elamite threat materialized, turning crisis into opportunity by defeating Elam and then pivoting to conquest of former allies."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Code of Hammurabi stele (Louvre, Sb 8)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hammurabi commissioned the artistically significant Code stele and multiple temple constructions with artistic programs. The prologue and epilogue of the Code show literary skill in their rhetorical structure. However, no evidence of personal artistic creation exists; he was a patron rather than creator."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Roth, 'Law Collections from Mesopotamia and Asia Minor' (1997)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "While the Code of Hammurabi regulates medical practice (laws 215–223 set fees and penalties for surgeons), this reflects legislative oversight rather than personal medical knowledge. No evidence of Hammurabi personally treating illness or injury exists."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Roth, 'Law Collections from Mesopotamia and Asia Minor' (1997)",
+            "Letters of Hammurabi (cuneiform corpus)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Code addresses commercial interest rates, wage scales, rental fees, and proportional penalties, demonstrating sophisticated engagement with quantitative reasoning. His administrative letters show analytical assessment of resource allocation, irrigation logistics, and taxation across provinces. Era-normalized for an 18th-century BC ruler, this represents strong competence."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Charpin, 'Hammurabi of Babylon' (2012)",
+            "Letters of Hammurabi (cuneiform corpus)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hammurabi's canal-building programs were central to Mesopotamian agricultural productivity; year-names celebrate major irrigation projects. His letters to officials detail management of field allocation, irrigation schedules, and agricultural disputes. Water-resource management was integral to his administration throughout his reign."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Charpin, 'Hammurabi of Babylon' (2012)",
+            "Van De Mieroop, 'King Hammurabi of Babylon' (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hammurabi's canal engineering projects, administrative bureaucracy, and legal codification all represent sophisticated systemic problem-solving using the cutting-edge organizational technologies of his era. His use of hydraulic engineering as a military weapon (water diversion against Eshnunna) demonstrates creative technical application."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.07,
+    "general_competency_avg_0_10": 4.0,
+    "overall_normalized_equal_avg_0_10": 5.73,
+    "created_at": "2026-03-22T23:28:08.238Z",
+    "updated_at": "2026-03-22T23:28:08.256Z"
+  }
+}
+]

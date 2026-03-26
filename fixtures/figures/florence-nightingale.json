@@ -1,0 +1,390 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 136,
+  "fields": {
+    "name": "Florence Nightingale",
+    "slug": "florence-nightingale",
+    "bio_short": "An extraordinary polymath of reform: pioneering statistician, institutional architect of modern nursing, and relentless policy influencer who operated from her sickbed for five decades. Exceptional cognitive, moral-affective, and cultural-social scores reflect paradigm-shifting innovation in data-driven public health, sustained courage across personal and professional adversity, and institutions that endure globally. Relational scores are depressed by her deliberate choice of celibacy and a somewhat controlling mentoring style. Heinlein breadth is moderate — towering in caregiving, strategy, a",
+    "bio_long": "Florence Nightingale was an English social reformer, statistician and the founder of modern nursing. Nightingale came to prominence while serving as a manager and trainer of nurses during the Crimean War, in which she organised care for wounded soldiers at Constantinople. She significantly reduced death rates by improving hygiene and living standards. Nightingale gave nursing a favourable reputation and became an icon of Victorian culture, especially in the persona of \"The Lady with the Lamp\" making rounds of wounded soldiers at night.",
+    "source_notes": "https://en.wikipedia.org/wiki/Florence_Nightingale",
+    "image": "figures/330px-Florence_Nightingale_28H_Hering_NPG_x8236829.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Bostridge, *Florence Nightingale: The Making of an Icon* (2008)",
+              "Small, *Florence Nightingale: Avenging Angel* (1998)",
+              "McDonald (ed.), *Collected Works of Florence Nightingale*, vol. 14 (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At Scutari, Nightingale strategically withheld her nurses from service until the overwhelmed military surgeons formally requested help, avoiding political backlash. When her initial focus on supplies failed to reduce mortality, she pivoted entirely to sanitary reform after the Sanitary Commission's 1855 findings. Post-war, she orchestrated the Royal Commission on the Health of the Army (1857) through Sidney Herbert, leveraging her fame and data to drive policy while remaining behind the scenes—a masterclass in adaptive strategy across crisis and peacetime contexts."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Cohen, 'Florence Nightingale,' *Scientific American* (1984)",
+              "Nightingale, *Notes on Hospitals* (1859)",
+              "Diamond and Stone, 'Nightingale on Quetelet,' *Journal of the Royal Statistical Society* (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nightingale invented the polar area diagram ('coxcomb') to visualize Crimean War mortality data, creating a paradigm shift in how statistical evidence was used to influence government policy. Her *Notes on Hospitals* (1859) introduced evidence-based hospital design principles (the 'Nightingale ward') that replaced prior intuitive arrangements. Before Nightingale, nursing was an untrained, low-status occupation; after her, it was a profession with standardized education. These represent clear before/after shifts attributable to her."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Nightingale, *Suggestions for Thought* (1860; McDonald ed., 2008)",
+              "Calabria, *Florence Nightingale in Egypt and Greece* (1997)",
+              "Gill, *Nightingales* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nightingale wrote three volumes of *Suggestions for Thought* (1860), articulating a theology of divine law operating through natural law, and arguing that empirical observation was a form of worship. Her ethical framework—that preventable death is a moral crime, not an act of God—profoundly influenced Victorian public health philosophy and still underpins modern healthcare ethics. However, her philosophical writings remained largely unpublished and did not directly influence philosophical traditions beyond her own reform circles."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Bostridge, *Florence Nightingale: The Making of an Icon* (2008)",
+              "McDonald (ed.), *Collected Works of Florence Nightingale*, vol. 9 (2006)",
+              "Nightingale, *Notes on Nursing* (1859)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Nightingale Training School at St Thomas' Hospital (est. 1860) became the global model for nursing education and continues to operate as part of King's College London. She designed the administrative framework for the Royal Commission on the Health of the Army, whose recommendations restructured British military medical services. Her influence on the Indian Sanitary Commission shaped public health infrastructure across British India for decades. All these systems functioned and endured well beyond her direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Gill, *Nightingales* (2004)",
+              "Vicinus and Nergaard, *Ever Yours, Florence Nightingale* (1989)",
+              "Bostridge, *Florence Nightingale* (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nightingale functioned as daughter (conflicted but enduring relationship with Fanny and Parthenope), friend (deep bonds with Sidney Herbert, Mary Clarke Mohl), superior (commanding nurses and influencing cabinet ministers), subordinate (operating within military hierarchy at Scutari), and mentor. However, she lacked spousal and parental roles, and her relational style across these modes tended toward the same intense, demanding, work-focused approach. She showed adaptability but not across the full range of five distinct modes required for a score of 3."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Gill, *Nightingales* (2004)",
+              "Bostridge, *Florence Nightingale* (2008)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Nightingale never married and deliberately rejected at least one serious proposal from Richard Monckton Milnes (later Lord Houghton) in 1849, viewing marriage as incompatible with her calling. While she had intense emotional friendships (Mary Clarke Mohl, Selina Bracebridge), there is no documented intimate partnership to evaluate under this criterion. The score reflects absence of the relevant relationship type, not a character deficiency."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Bostridge, *Florence Nightingale* (2008)",
+              "Helmstadter and Godden, *Nursing Before Nightingale* (2011)",
+              "McDonald (ed.), *Collected Works*, vol. 12"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nightingale mentored generations of nurses through the Training School, maintaining extensive correspondence with protégées. Agnes Jones, whom she mentored, became a pioneering workhouse nurse before her early death. Many Nightingale-trained nurses went on to lead nursing schools independently across the world. However, Nightingale could be controlling and demanding—she expected obedience and was sometimes harsh with those who deviated from her standards. Mentees developed competence but her style was not uniformly nurturing of autonomy."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Cohen, 'Florence Nightingale,' *Scientific American* (1984)",
+              "Bostridge, *Florence Nightingale* (2008)",
+              "WHO, 'Year of the Nurse and the Midwife' (2020)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Modern nursing as a profession, evidence-based public health policy, the use of statistical graphics in policy advocacy, and hospital design principles all trace directly to Nightingale's work. International Nurses Day is celebrated on her birthday (May 12) worldwide. The WHO designated 2020 the 'Year of the Nurse' in her honor. Her effects are operative across multiple civilizations more than 160 years later."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Bostridge, *Florence Nightingale* (2008)",
+              "Nelson and Rafferty (eds.), *Notes on Nightingale* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "'The Lady with the Lamp' became one of the most enduring cultural archetypes of the compassionate healer—recognized across cultures far beyond Victorian England. She is referenced as the symbolic founder of nursing in medical traditions across Asia, Africa, and the Americas. The Nightingale Pledge, modeled on the Hippocratic Oath, is administered to nurses globally. Her archetype transcends her specific cultural origin."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Bostridge, *Florence Nightingale* (2008)",
+              "McDonald (ed.), *Collected Works*, vol. 12 (2009)",
+              "Helmstadter and Godden, *Nursing Before Nightingale* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Nightingale Training School (1860) became the template for nursing education worldwide; its graduates founded nursing schools across the British Empire, North America, and beyond. The nursing profession as a structured, trained discipline traces its institutional lineage directly to her. The Army Medical School and reformed military medical services she helped create endured for generations. These institutions have survived far more than two generations with clear continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Bostridge, *Florence Nightingale* (2008)",
+              "Gill, *Nightingales* (2004)",
+              "McDonald (ed.), *Collected Works*, vols. 5-6"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nightingale led effectively across qualitatively different contexts: hands-on crisis leadership of nurses at Scutari under wartime conditions; behind-the-scenes political influence over the Royal Commission and successive Secretaries of State for War; and long-term institutional leadership of the nursing profession through the Training School. She directed major policy outcomes (army medical reform, Indian sanitary commissions, workhouse infirmary reform) for decades, largely through correspondence from her sickbed, demonstrating influence over both small teams and vast populations."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Gill, *Nightingales* (2004)",
+              "Bostridge, *Florence Nightingale* (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nightingale was born into the upper gentry, never married, and spent over 50 years as a reclusive invalid working through correspondence. She did not engage in ordinary domestic activities such as cooking, manual labor, or child-rearing. While she showed personal warmth with soldiers at Scutari and kept a pet owl (Athena), her life was overwhelmingly defined by elite social position and driven purposefulness. Evidence of engagement with mundane, everyday activities at the height of her influence is thin."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Bostridge, *Florence Nightingale* (2008)",
+              "McDonald (ed.), *Collected Works*, vol. 8 (2007)",
+              "Nightingale, correspondence on Indian sanitation in *Collected Works*, vol. 9"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nightingale consistently advocated for those with the least power: common soldiers against military bureaucracy, workhouse inmates against parish cost-cutting, and Indian villagers against colonial indifference. She pushed for the 1867 Metropolitan Poor Act improving workhouse infirmaries. However, she did not always rule against her own group's interest—she maintained paternalistic and imperialist assumptions typical of her era, and her advocacy, while extensive, operated within rather than against the imperial framework."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Bostridge, *Florence Nightingale: The Making of an Icon* (2008)",
+              "Vicinus and Nergaard (eds.), *Ever Yours, Florence Nightingale: Selected Letters* (1989)",
+              "McDonald (ed.), *Collected Works*, vol. 9"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At Scutari, Nightingale personally sat with dying soldiers through the night, writing letters home to their families—documented in soldiers' own letters and memorialized as 'The Lady with the Lamp.' Critically, her compassion extended well beyond allies: she campaigned extensively for sanitary reform in India, writing to viceroys about the suffering of Indian villagers who were entirely 'outgroup' in Victorian class and racial terms. She also fought for reform of workhouse infirmaries, advocating for the destitute poor."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Gill, *Nightingales* (2004)",
+              "Bostridge, *Florence Nightingale* (2008)",
+              "Small, *Florence Nightingale: Avenging Angel* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nightingale defied her upper-class family's strenuous objections to pursue nursing—a socially stigmatized profession for women of her class—enduring years of family conflict. She then led 38 nurses into the Crimean War zone at Scutari, facing disease, hostility from military surgeons, and appalling conditions. After contracting near-fatal 'Crimean fever' (likely brucellosis) in 1855, she continued reform work for over 50 years while chronically ill and largely bedridden, sustaining courage across personal, physical, and institutional adversity."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Small, *Florence Nightingale: Avenging Angel* (1998)",
+              "Bostridge, *Florence Nightingale* (2008)",
+              "McDonald (ed.), *Collected Works*, vol. 14"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The most dramatic documented instance: Nightingale initially believed Scutari's high mortality was due to overwork and under-supply. When the 1855 Sanitary Commission revealed that defective sewers and poor ventilation were the primary killers, she was devastated—writing privately that she had effectively presided over a death camp. She completely reoriented her life's work from hands-on nursing to sanitary science and epidemiology, a genuine reversal of position with visible behavioral change. This is well-documented but represents primarily one major pivot rather than a pattern of repeated self-correction."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Bostridge, *Florence Nightingale* (2008)",
+              "Gill, *Nightingales* (2004)",
+              "Vicinus and Nergaard, *Ever Yours, Florence Nightingale* (1989)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nightingale endured qualitatively distinct forms of adversity while maintaining effective functioning: (1) material and physical hardship at Scutari—filth, disease, inadequate supplies, hostility from surgeons; (2) chronic debilitating illness (probable brucellosis) for 50+ years; (3) deep personal grief, including the death of Sidney Herbert, her closest political ally, in 1861; (4) sustained family conflict over her vocation. Through all of these, she continued producing influential policy work, books, and correspondence."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Bostridge, *Florence Nightingale* (2008)",
+              "Gill, *Nightingales* (2004)",
+              "McDonald (ed.), *Collected Works*, vol. 11"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nightingale inhabited at least four seemingly contradictory roles without incoherence: (1) upper-class Victorian lady who worked among the filth and suffering of common soldiers; (2) bedridden invalid who was simultaneously one of the most powerful policy influencers in the British Empire; (3) deeply religious mystic and rigorously empirical statistician; (4) compassionate caregiver and ruthlessly effective political operator who manipulated ministers and bureaucrats. These paradoxes defined rather than fragmented her identity."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Bostridge, *Florence Nightingale* (2008)",
+              "Small, *Florence Nightingale: Avenging Angel* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nightingale personally comforted countless dying soldiers at Scutari with documented composure and tenderness. She survived her own near-fatal bout of Crimean fever and spent decades expecting death from her chronic illness, yet continued productive work without apparent existential panic. She prepared for death multiple times. However, there is no single dramatic documented scene of composure facing her own clearly imminent death—she ultimately died peacefully in her sleep at age 90."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Bostridge, *Florence Nightingale* (2008)",
+              "Small, *Florence Nightingale: Avenging Angel* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "During the Crimean War, Nightingale worked 20-hour days, walked miles through hospital wards, and managed enormous logistical operations under extreme physical conditions for nearly two years. She also traveled extensively before the war (Egypt, Germany, France). However, after contracting Crimean fever in 1855, she was chronically ill and largely bedridden for the remaining 55 years of her life. Physical endurance was extraordinary but confined primarily to one life-stage."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Gill, *Nightingales* (2004)",
+              "Vicinus and Nergaard, *Ever Yours, Florence Nightingale* (1989)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Nightingale enjoyed music and mathematics in her youth, kept a beloved pet owl named Athena, and displayed a dry wit in private letters. Her statistical diagrams show aesthetic sensibility. However, her adult life was overwhelmingly characterized by duty, work, and ascetic self-denial. Evidence of non-instrumental play, humor, or aesthetic engagement is episodic and limited, especially during her decades as an invalid focused on reform work."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 4.44,
+          "Core_5D_Avg": 7.59,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 8.33,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Florence Nightingale",
+      "overall": {
+        "Core_5D_Avg": 7.59,
+        "Overall_Normalized_Equal_Avg": 7.21,
+        "General_Competency_Avg_10scale": 5.33
+      },
+      "summary": "An extraordinary polymath of reform: pioneering statistician, institutional architect of modern nursing, and relentless policy influencer who operated from her sickbed for five decades. Exceptional cognitive, moral-affective, and cultural-social scores reflect paradigm-shifting innovation in data-driven public health, sustained courage across personal and professional adversity, and institutions that endure globally. Relational scores are depressed by her deliberate choice of celibacy and a somewhat controlling mentoring style. Heinlein breadth is moderate — towering in caregiving, strategy, analytics, and medical domains, but with no evidence of combat, agriculture, culinary, or manual craft skills. A specialist of the highest order who nonetheless reshaped entire systems.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.6,
+          "General_Competency_Avg_10scale": 5.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Bostridge, *Florence Nightingale* (2008)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Nightingale personally cooked. She organized hospital kitchens at Scutari and recruited Alexis Soyer to improve hospital food, but this was administrative direction, not personal culinary skill. Her upper-class household had servants."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Bostridge, *Florence Nightingale* (2008)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Nightingale was a non-combatant. While she served in a war zone at Scutari, she did not engage in combat or physical defense. No evidence of martial training or skill."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Nightingale, *Notes on Nursing* (1859)",
+            "Bostridge, *Florence Nightingale* (2008)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Nightingale personally nursed wounded and dying soldiers at Scutari, wrote *Notes on Nursing* (1859)—the foundational text of modern nursing care—and designed training systems to professionalize caregiving. Her nighttime rounds comforting the dying ('The Lady with the Lamp') are documented by soldiers' own testimony."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Bostridge, *Florence Nightingale* (2008)",
+            "Gill, *Nightingales* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Nightingale comforted dying soldiers with documented composure at Scutari and lived for decades with chronic illness she expected to be terminal, maintaining productive work throughout. She faced the psychological crisis of realizing her own hospital's sanitary failings caused deaths and channeled it into reform rather than collapse. However, she was also known for periods of depression and emotional volatility in private, and her death at 90 was peaceful rather than a test of composure under imminent mortal threat."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Bostridge, *Florence Nightingale* (2008)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence in the historical record that Nightingale engaged in manual craft, tool-making, or repair of physical systems. Her upper-class background and later invalid status make this unlikely, and no biographer documents such activities."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Calabria, *Florence Nightingale in Egypt and Greece* (1997)",
+            "Bostridge, *Florence Nightingale* (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nightingale traveled extensively before and during the Crimean War—through Egypt, Germany, France, Italy, and Turkey—navigating complex itineraries across Europe and the Near East. However, she traveled as a passenger with guides and companions, not as an independent navigator. Her wayfinding within the vast Scutari Barracks complex was practical but not exceptional."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Bostridge, *Florence Nightingale* (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "At Scutari, Nightingale was involved in reorganizing the hospital diet and food supply, including establishing a supplementary kitchen. She recruited chef Alexis Soyer to improve food preparation. However, this was organizational rather than hands-on food processing, and there is no evidence of animal husbandry or butchering."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Bostridge, *Florence Nightingale* (2008)",
+            "Small, *Florence Nightingale: Avenging Angel* (1998)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "She effectively led teams of nurses at Scutari and directed national reform campaigns for decades, giving orders to subordinates and political direction to cabinet ministers. She also demonstrated followership: at Scutari she carefully deferred to military medical authority when required, working within the chain of command rather than defying it, and she accepted Sidney Herbert's political guidance on strategy and timing for the Royal Commission."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Nightingale, *Notes on Hospitals* (1859)",
+            "Thompson and Goldin, *The Hospital: A Social and Architectural History* (1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Nightingale's *Notes on Hospitals* (1859) included detailed architectural recommendations for hospital ward design—the 'Nightingale ward' (open plan, tall windows, beds perpendicular to walls) became the global standard. However, she designed and specified rather than physically constructed; her contribution was intellectual and advisory, not hands-on fabrication."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Small, *Florence Nightingale: Avenging Angel* (1998)",
+            "Bostridge, *Florence Nightingale* (2008)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "She organized the nursing operation at Scutari under extreme logistical constraints, then orchestrated multi-year political campaigns for army medical reform, Indian sanitary reform, and workhouse reform—all coordinated through strategic correspondence and careful manipulation of political allies from her sickbed."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Vicinus and Nergaard, *Ever Yours, Florence Nightingale* (1989)",
+            "McDonald (ed.), *Collected Works*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nightingale was a prolific writer—*Notes on Nursing*, *Suggestions for Thought*, and thousands of letters display clear, forceful prose. Her polar area diagrams combined analytical and aesthetic qualities. She appreciated music in her youth. However, her writing was primarily utilitarian and she did not produce works of art, literature, or performance intended as creative expression."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Bostridge, *Florence Nightingale* (2008)",
+            "Nightingale, *Notes on Nursing* (1859)",
+            "Helmstadter and Godden, *Nursing Before Nightingale* (2011)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Nightingale organized and personally delivered medical care under crisis conditions at the Scutari Barracks Hospital during the Crimean War, managing triage, wound care, and disease control for thousands of patients. She had trained at the Deaconesses' Institute at Kaiserswerth and at hospitals in Paris before the war. Her systematic approach to emergency medical response—sanitation, nutrition, triage—became the foundation of modern military and civilian nursing."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Cohen, 'Florence Nightingale,' *Scientific American* (1984)",
+            "Diamond and Stone, 'Nightingale on Quetelet,' *JRSS* (1981)",
+            "McDonald (ed.), *Collected Works*, vol. 5"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Nightingale was the first woman elected Fellow of the Royal Statistical Society (1858). She pioneered the polar area diagram to visualize mortality data, conducted rigorous statistical analysis of Crimean War casualties demonstrating that sanitary failures—not combat—caused most deaths, and applied quantitative methods to Indian mortality data. She studied mathematics privately under Sylvester and corresponded with Quetelet."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Bostridge, *Florence Nightingale* (2008)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of personal involvement in agriculture, farming, or natural resource management. While she advocated for sanitary improvements in rural India, this was policy advocacy, not hands-on resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Small, *Florence Nightingale: Avenging Angel* (1998)",
+            "Cohen, 'Florence Nightingale,' *Scientific American* (1984)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Nightingale's identification of sanitary infrastructure (sewers, ventilation) as the primary cause of Scutari mortality—overturning the prevailing miasma and supply-shortage explanations—was a breakthrough in systemic problem-solving. She then applied the same systematic, data-driven approach to redesign military medical systems, civilian hospitals, and Indian public health infrastructure, using the most advanced statistical tools of her era."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.59,
+    "general_competency_avg_0_10": 5.33,
+    "overall_normalized_equal_avg_0_10": 7.21,
+    "created_at": "2026-03-22T18:38:14.893Z",
+    "updated_at": "2026-03-22T18:38:14.909Z"
+  }
+}
+]

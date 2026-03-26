@@ -1,0 +1,378 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 180,
+  "fields": {
+    "name": "Saladin",
+    "slug": "saladin",
+    "bio_short": "Saladin excels in cultural-social and embodied-existential dimensions, driven by exceptional archetype resonance, impact legacy, leadership, and paradox integration. His moral-affective and cognitive profiles are strong, marked by documented compassion toward adversaries and masterful strategic adaptation at Hattin and during the Third Crusade. Relational depth is his weakest core dimension, with politically-motivated marriages and limited documentation of intimate bonds. Heinlein competency breadth is moderate—outstanding in command and existential composure but with no evidence of manual, cu",
+    "bio_long": "Salah ad-Din Yusuf ibn Ayyub, commonly known as Saladin, was a Kurdish commander and political leader. He was the founder of the Ayyubid dynasty and the first sultan of both Egypt and Syria. An important figure of the Third Crusade, he spearheaded the Muslim military effort against the Crusader states in the Levant. At the height of his power, the Ayyubid realm spanned Egypt, Syria, Upper Mesopotamia, the Hejaz, Yemen, and Nubia.",
+    "source_notes": "https://en.wikipedia.org/wiki/Saladin",
+    "image": "figures/330px-thumbnail_wIb8ypg.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Lyons & Jackson, *Saladin: The Politics of the Holy War* (Cambridge, 1982)",
+              "Hillenbrand, *The Crusades: Islamic Perspectives* (Edinburgh, 1999)",
+              "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At Hattin (1187), Saladin lured the Crusader army onto a waterless plateau in July heat, producing a decisive victory—a masterpiece of terrain exploitation. When his initial strategy of pitched battle failed against Richard I at Arsuf (1191), he adapted to harassment and scorched-earth tactics, ultimately defending Jerusalem and negotiating the Treaty of Ramla (1192). His decades-long unification campaign across Egypt, Syria, and Mesopotamia required sustained strategic adaptation across shifting alliances."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Lyons & Jackson, *Saladin: The Politics of the Holy War* (1982)",
+              "Eddé, *Saladin* (Harvard, 2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Saladin's central innovation was unifying the fragmented Muslim Levant through a novel combination of military force, dynastic marriage, diplomatic accommodation, and sustained jihad propaganda—creating the first unified Muslim front against the Crusaders since Nur ad-Din. His use of religious legitimacy to bind disparate Kurdish, Turkish, and Arab factions was creative but not paradigm-shifting in the broader history of statecraft."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Hillenbrand, *The Crusades: Islamic Perspectives* (1999)",
+              "Möhring, *Saladin: The Sultan and His Times* (Johns Hopkins, 2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Saladin's conduct at the reconquest of Jerusalem (1187)—sparing the population in deliberate contrast to the Crusader massacre of 1099—became a cross-cultural model of magnanimity in war that influenced European chivalric literature and later Islamic political discourse. However, he articulated no novel ethical system; he applied existing Islamic legal and ethical principles (jihad doctrine, treatment of dhimmis) rather than generating original philosophical contributions."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Eddé, *Saladin* (2011)",
+              "Humphreys, *From Saladin to the Mongols* (SUNY, 1977)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Saladin reorganized Egyptian administration after abolishing the Fatimid caliphate (1171), established an iqta (land-grant) system to secure military loyalty, and founded the Ayyubid dynasty which endured until 1260 (~67 years after his death). He commissioned major infrastructure including the Cairo Citadel. However, his realm fragmented into competing Ayyubid principalities almost immediately after his death, and his famous inability to retain treasury reserves revealed administrative weaknesses."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*",
+              "Eddé, *Saladin* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Documented relational modes include: subordinate (loyal service under Shirkuh and Nur ad-Din), superior/commander (leading vast armies), adversary (chivalric exchanges with Richard I including gifts and negotiations), parent (appointing and guiding his sons), and confidant/friend (intimate relationship with his biographer Baha al-Din). This spans five modes with qualitatively distinct behavior—deference under Nur ad-Din contrasts sharply with his sovereign command and his courteous exchanges with Richard. However, documentation of some modes (e.g., as spouse, as peer among equals) is too thin for a 3."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Eddé, *Saladin* (2011)",
+              "Lyons & Jackson, *Saladin: The Politics of the Holy War* (1982)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Saladin had multiple wives, most notably Ismat al-Din Khatun, the widow of Nur ad-Din, whom he married as a political alliance. Sources provide virtually no evidence of mutual emotional support, shared decision-making, or personal intimacy within these marriages. The historical record treats his marriages as political instruments. Without evidence of relational depth beyond political alliance, the score cannot exceed 1."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Humphreys, *From Saladin to the Mongols* (1977)",
+              "Eddé, *Saladin* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Saladin appointed his sons al-Afdal, al-Aziz, and al-Zahir as governors of Damascus, Egypt, and Aleppo respectively, investing them with real authority during his lifetime. He also mentored loyal commanders like his brother al-Adil. However, the rapid fratricidal conflict among his sons after his death—al-Afdal was deposed by al-Aziz within two years—suggests his mentoring did not produce the cooperative autonomy that a score of 3 requires."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Hillenbrand, *The Crusades: Islamic Perspectives* (1999)",
+              "Dante, *Inferno* IV.129",
+              "Jubb, *The Legend of Saladin in Western Literature and Historiography* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Saladin's legacy has been operative for over 800 years across multiple civilizations. In the Islamic world, he remains the preeminent symbol of Muslim unity and just leadership against Crusader aggression—invoked by figures from Ottoman sultans to modern Arab nationalists (Nasser, Saddam Hussein). In European culture, he entered medieval romance literature as the noble adversary; Dante placed him in Limbo among the virtuous non-Christians (Inferno IV). His recapture of Jerusalem in 1187 permanently altered the political landscape of the Levant."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Jubb, *The Legend of Saladin in Western Literature and Historiography* (2000)",
+              "Dante, *Inferno* IV",
+              "Boccaccio, *Decameron* X.9"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Saladin is recognized across both Islamic and Western traditions as the archetype of the noble, merciful warrior-king. In Islamic culture he embodies the mujahid ideal; in Western culture he became the chivalric adversary par excellence—appearing in works from Boccaccio's Decameron to Walter Scott's *The Talisman* to Ridley Scott's *Kingdom of Heaven*. Dante's placement of Saladin in Limbo (not Hell) reflects his cross-cultural archetype status. He transcends his historical context as a universal symbol of magnanimity in power."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Humphreys, *From Saladin to the Mongols* (1977)",
+              "Eddé, *Saladin* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The Ayyubid dynasty he founded lasted until 1260, surviving roughly three generations beyond Saladin. He established numerous madrasas to promote Sunni Islam in formerly Fatimid Egypt, and commissioned the Cairo Citadel which served as Egypt's seat of government for centuries. However, his political system fragmented into competing principalities almost immediately upon his death, and the Ayyubids were ultimately overthrown by their own Mamluk soldiers, suggesting structural fragility."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Lyons & Jackson, *Saladin: The Politics of the Holy War* (1982)",
+              "Eddé, *Saladin* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Saladin led effectively across qualitatively different contexts: military crisis (Hattin, the Third Crusade), political consolidation (unifying Egypt and Syria under Ayyubid rule), and governance of a multi-ethnic empire encompassing Kurds, Turks, Arabs, and Mamluks. He inspired loyalty in subordinates ranging from his brother al-Adil to his emirs, and mobilized disparate factions under a common jihad banner. His leadership spanned both small-unit command (Egypt campaigns of the 1160s) and empire-wide governance."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*",
+              "Eddé, *Saladin* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Saladin died with almost no personal wealth—reportedly 47 dirhams and one gold piece—despite ruling an empire, embodying an accessible simplicity. Baha al-Din records his grief at the death of his young son, his accessibility to petitioners, and his practice of personally hearing grievances. However, highly specific mundane activities (cooking, mending, humor with children, manual labor) at the height of power are not well-documented in the sources, which focus on his public and military persona."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*",
+              "Eddé, *Saladin* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Saladin was renowned for scrupulous adherence to truces—punishing violations by his own side while castigating Raynald of Châtillon for breaking them. He died with reportedly only 47 Nasiri dirhams and a single gold piece, having distributed his wealth. Baha al-Din records him adjudicating disputes personally. However, clear documented cases of ruling against his own dynastic or group interest in favor of abstract principle are limited; his wars against fellow Muslim rulers (Zengids, Assassins) were justified by jihad rhetoric but served dynastic consolidation."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*",
+              "Hillenbrand, *The Crusades: Islamic Perspectives* (1999)",
+              "Ambroise, *The History of the Holy War* (Latin chronicle corroborating mercy at Jerusalem)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "At the fall of Jerusalem (1187), Saladin allowed Christians to ransom themselves and his brother al-Adil freed thousands who could not pay—this toward the very population that had massacred Muslims in 1099. He sent his personal physician and ice to the ailing Richard I during the Third Crusade, and released King Guy of Lusignan after Hattin. Counterexample: he ordered the execution of ~200 captured Templars and Hospitallers after Hattin, and personally killed Raynald of Châtillon. Without this counterexample the score would be an unambiguous 3; with it, the overall pattern still preponderantly demonstrates exceptional compassion toward adversaries, as the executions targeted sworn, irreconcilable military orders rather than civilians, and were proportional within medieval norms."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Lyons & Jackson, *Saladin: The Politics of the Holy War* (1982)",
+              "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Saladin personally led armies for over 25 years across multiple theaters. After the near-catastrophic defeat at Montgisard (1177), where he barely escaped Baldwin IV's charge, he rebuilt his forces and persisted. During the Third Crusade, he continued commanding despite severe recurring illness (likely typhoid or malaria), facing Richard I's army through the sieges of Acre, Arsuf, and Jaffa. He campaigned until his final illness in 1193."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Möhring, *Saladin: The Sultan and His Times* (2008)",
+              "Eddé, *Saladin* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Both Islamic and Western hagiographic traditions idealize Saladin, making it difficult to identify clear instances of acknowledged error and behavioral change. His political evolution from subordinate of Nur ad-Din to independent sultan involved pragmatic shifts, and some scholars note tension between his early reluctance to campaign against fellow Muslims and his later willingness to do so. However, no specific documented instance of Saladin publicly reversing a position or accepting correction survives in the sources. Per the rubric, hagiographic sanitization caps this at 1."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*",
+              "Eddé, *Saladin* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Saladin functioned effectively across multiple qualitatively different forms of adversity: the near-catastrophic military defeat at Montgisard (1177) where he barely escaped; personal bereavement including the death of his young son during the Crusade campaigns; severe recurring illness (likely malaria or typhoid) during the Third Crusade while simultaneously commanding armies against Richard I; and voluntary financial deprivation through extreme generosity that left him perpetually without reserves. He maintained effective command throughout."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Eddé, *Saladin* (2011)",
+              "Möhring, *Saladin: The Sultan and His Times* (2008)",
+              "Hillenbrand, *The Crusades: Islamic Perspectives* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Saladin inhabited at least four seemingly contradictory roles without fragmenting: (1) ruthless conqueror who executed Templars after Hattin yet merciful liberator who spared Jerusalem's population; (2) pragmatic empire-builder who warred against fellow Muslims yet sincere religious idealist who wept during prayer; (3) Kurdish outsider who became the legitimate sultan of the Arab-Turkish Islamic world; (4) loyal subordinate to Nur ad-Din who ultimately supplanted the Zengid dynasty. His ability to hold these tensions is a primary reason he is remembered."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*",
+              "Eddé, *Saladin* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Baha al-Din's detailed account of Saladin's final days in Damascus (March 1193) describes him listening calmly to Quran recitations as his condition worsened, and reportedly showing a peaceful expression (some accounts say a smile) when the reader reached a passage affirming God's trustworthiness at the moment of death. He made no frantic effort to cling to power or arrange desperate treatments. This represents documented composure in the face of one's own imminent death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*",
+              "Lyons & Jackson, *Saladin: The Politics of the Holy War* (1982)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Saladin campaigned actively from the 1160s Egyptian expeditions through 1193—over 25 years of military activity including long marches across Egypt, Syria, and Mesopotamia. He personally participated in battles and survived the rout at Montgisard (1177). However, his health deteriorated significantly during the Third Crusade; Baha al-Din records recurring fevers and exhaustion. He died at 55/56, worn down by campaigning. His endurance was notable but his physical decline in later years prevents a score of 3."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*",
+              "Eddé, *Saladin* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Baha al-Din describes Saladin's enjoyment of scholarly and poetic company, and he patronized architecture and religious learning. However, most documented aesthetic engagement appears instrumental—madrasas served religious policy, the Citadel served defense. Evidence of non-instrumental play, humor, or aesthetic appreciation purely for its own sake is thin in the sources, which focus overwhelmingly on his military and political activities."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.45,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Saladin (Salah ad-Din Yusuf ibn Ayyub, c. 1137–1193)",
+      "overall": {
+        "Core_5D_Avg": 7.45,
+        "Overall_Normalized_Equal_Avg": 6.95,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Saladin excels in cultural-social and embodied-existential dimensions, driven by exceptional archetype resonance, impact legacy, leadership, and paradox integration. His moral-affective and cognitive profiles are strong, marked by documented compassion toward adversaries and masterful strategic adaptation at Hattin and during the Third Crusade. Relational depth is his weakest core dimension, with politically-motivated marriages and limited documentation of intimate bonds. Heinlein competency breadth is moderate—outstanding in command and existential composure but with no evidence of manual, culinary, or medical skills. Sources are partially hagiographic but substantially corroborated by Latin chronicles and modern critical scholarship.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of Saladin personally preparing meals. As sultan, food preparation was handled by court kitchens."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Lyons & Jackson, *Saladin: The Politics of the Holy War* (1982)",
+            "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Saladin personally participated in numerous battles over decades, including direct exposure to combat at Montgisard (1177) where he narrowly escaped capture or death. He was trained in the martial traditions of the Kurdish-Turkish military elite. Sources emphasize his generalship more than personal combat prowess, but his sustained personal presence on battlefields across 25+ years of campaigning demonstrates genuine combat capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*",
+            "Hillenbrand, *The Crusades: Islamic Perspectives* (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Saladin demonstrated genuine caregiving beyond political obligation: he sent his personal physician to tend the ailing Richard I during the Third Crusade, allowed the sick and elderly safe passage from Jerusalem in 1187, and Baha al-Din records his personal attention to wounded soldiers and distressed petitioners. His brother al-Adil's mass freeing of ransomless prisoners at Jerusalem likely reflected Saladin's own values."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Baha al-Din ibn Shaddad, *The Rare and Excellent History of Saladin*",
+            "Eddé, *Saladin* (2011)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Saladin maintained composure through severe military reversals (near-destruction at Montgisard 1177, loss of Acre 1191, defeat at Arsuf 1191) without abandoning his cause. Most notably, Baha al-Din's account of his death in March 1193 describes him listening calmly to Quran recitations during his final illness, showing peaceful acceptance at the moment of death. He faced both crisis and mortality with documented dignity."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of Saladin personally making, fixing, or adapting tools, equipment, or physical systems. As a military and political leader from an elite background, such tasks were delegated."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Lyons & Jackson, *Saladin: The Politics of the Holy War* (1982)",
+            "Nicolle, *Hattin 1187* (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Saladin led armies across vast and varied terrain spanning Egypt, the Sinai, Palestine, Syria, and Upper Mesopotamia over 25+ years. His choice of the waterless Horns of Hattin as the battle site demonstrates intimate knowledge of Palestinian terrain. His campaigns required repeated navigation of desert, mountain, and coastal routes in an era without modern cartography."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record of Saladin personally butchering animals or processing food. As a sultan, these tasks were performed by servants and camp followers."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Lyons & Jackson, *Saladin: The Politics of the Holy War* (1982)",
+            "Eddé, *Saladin* (2011)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Saladin demonstrated exceptional leadership in commanding the largest Muslim coalition of the Crusader era, managing Kurdish, Turkish, Arab, and Mamluk factions. Equally importantly, he demonstrated effective followership: he served loyally under his uncle Shirkuh during the Egyptian campaigns (1164–1169) and under Nur ad-Din as nominal overlord, deferring to Nur ad-Din's authority even when it conflicted with his own ambitions, until Nur ad-Din's death in 1174."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Eddé, *Saladin* (2011)",
+            "Behrens-Abouseif, *Cairo of the Mamluks* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Saladin commissioned major construction projects—most notably the Cairo Citadel (begun 1176) and extensive fortification of Cairo's walls—demonstrating understanding of defensive architecture. However, there is no evidence of personal construction skill; his role was as patron and commissioner rather than builder."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Lyons & Jackson, *Saladin: The Politics of the Holy War* (1982)",
+            "Nicolle, *Hattin 1187: Saladin's Greatest Victory* (Osprey, 1993)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The Battle of Hattin (1187) is a textbook example of strategic planning—manipulating terrain, water access, and timing to destroy the Crusader field army. During the Third Crusade, he coordinated defensive operations across a front stretching from Acre to Jaffa to Jerusalem, adapting from pitched battle to guerrilla harassment after the defeat at Arsuf. His decade-long campaign to unify Muslim territories before engaging the Crusaders demonstrated long-range strategic vision."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Eddé, *Saladin* (2011)",
+            "Hillenbrand, *The Crusades: Islamic Perspectives* (1999)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Saladin was a patron of poets, scholars, and religious learning—his court attracted figures like Baha al-Din and Imad al-Din al-Isfahani. He funded madrasas and mosques. However, no personal artistic or literary works are attributed to him; his cultural contribution was as patron rather than creator."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of Saladin personally administering medical treatment. He employed skilled physicians (notably his Jewish physician) and valued medical care, but personal medical knowledge or practice is not recorded."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Eddé, *Saladin* (2011)",
+            "Lyons & Jackson, *Saladin: The Politics of the Holy War* (1982)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Saladin managed the logistics of multi-theater military campaigns requiring supply calculations and troop coordination, suggesting functional analytical capacity. However, he relied heavily on his vizier al-Fadil for administrative and financial matters, and his famous inability to retain personal or state treasury reserves suggests limited personal engagement with financial analysis."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Humphreys, *From Saladin to the Mongols* (1977)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "As ruler of Egypt, Saladin oversaw the Nile-based agricultural economy and managed the iqta system that distributed land revenues to military supporters. This demonstrates understanding of resource management at a policy level, but no evidence suggests personal engagement with agricultural techniques or hands-on resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Eddé, *Saladin* (2011)",
+            "Nicolle, *Hattin 1187* (1993)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Saladin utilized siege engines, fortification technology, and Greek fire in his campaigns, and commissioned technically sophisticated construction projects like the Cairo Citadel. However, evidence of personal technical innovation or hands-on engagement with the engineering of his era is absent; he employed specialists for these tasks."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.45,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 6.95,
+    "created_at": "2026-03-22T21:46:41.642Z",
+    "updated_at": "2026-03-22T21:46:41.660Z"
+  }
+}
+]

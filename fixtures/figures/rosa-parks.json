@@ -1,0 +1,361 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 128,
+  "fields": {
+    "name": "Rosa Parks",
+    "slug": "rosa-parks",
+    "bio_short": "Rosa Parks exemplifies moral courage and archetypal resonance — an ordinary working woman whose principled refusal to yield her bus seat catalyzed the American civil rights movement. Her strengths lie in sustained courage under prolonged adversity, deep justice commitment, and powerful symbolic resonance across cultures. As an NAACP-trained activist and professional seamstress, she combined practical skills with decades of quiet organizational work. Cognitive and Heinlein breadth scores are modest, reflecting her focused role as a moral exemplar and grassroots organizer rather than a strategic",
+    "bio_long": "Rosa Louise McCauley Parks was an American civil rights activist. She is best known for her 1955 refusal to move from her seat on a bus in Montgomery, Alabama, in defiance of Jim Crow racial segregation laws, which sparked the Montgomery bus boycott. She is sometimes known as the \"mother of the civil rights movement\".",
+    "source_notes": "https://en.wikipedia.org/wiki/Rosa_Parks",
+    "image": "figures/330px-Rosa_Parks2C_November_1956_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Theoharis, Jeanne. *The Rebellious Life of Mrs. Rosa Parks*. Beacon Press, 2013.",
+              "Brinkley, Douglas. *Rosa Parks: A Life*. Penguin, 2000."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Parks was a trained activist who attended the Highlander Folk School in 1955 and served as NAACP secretary under E.D. Nixon, showing awareness of strategic organizing. However, the strategic architecture of the Montgomery Bus Boycott was primarily designed by E.D. Nixon, Jo Ann Robinson, and the MIA leadership. Parks' role was more catalytic than strategic; she did not primarily plan multi-step campaigns or adapt failing plans."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Hoose, Phillip. *Claudette Colvin: Twice Toward Justice*. Farrar, Straus and Giroux, 2009."
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Parks' act of bus refusal was not novel — Claudette Colvin, Irene Morgan, and others had previously refused to give up their seats. Parks' contribution was in being the right person at the right moment to catalyze a movement, not in generating a new paradigm of resistance. She co-founded the Rosa and Raymond Parks Institute with its Pathways to Freedom program for youth, a meaningful but not paradigm-shifting innovation."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Parks, Rosa, with Jim Haskins. *Rosa Parks: My Story*. Dial Books, 1992.",
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Parks articulated a clear moral framework rooted in human dignity and equality, expressed in her autobiography and public statements. Her conviction that 'I had been pushed as far as I could stand to be pushed' reflected deep moral reasoning about the limits of unjust compliance. Her ethical vision influenced the broader civil rights movement, but she was not a systematic philosopher whose writings influenced thinkers across traditions in the way score 3 requires."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Brinkley, *Rosa Parks: A Life*, 2000."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Parks served as secretary of the Montgomery NAACP chapter from 1943, handling correspondence, membership, and case documentation. She worked as a staffer for Congressman John Conyers in Detroit from 1965 to 1988, handling constituent services. She co-founded the Rosa and Raymond Parks Institute (1987). These demonstrate competent administrative work, but none of these systems endured as major institutions beyond her direct involvement at the scale required for score 3."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Parks, *Rosa Parks: My Story*, 1992."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Parks inhabited multiple relational roles: devoted spouse (to Raymond), organizational subordinate (NAACP secretary, Conyers staffer), colleague and friend (to E.D. Nixon, Virginia Durr, Johnnie Carr), public symbol (to millions), mentor (to youth through her institute), and grandchild (raised by grandparents in Pine Level). She navigated relationships with white allies like Virginia Durr and the Highlander Folk School community. This represents at least five relational modes, though deep documentation of qualitatively distinct behavior across all of them is limited."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Brinkley, *Rosa Parks: A Life*, 2000."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Rosa and Raymond Parks were married for 45 years (1932–1977). Raymond was an active NAACP member who encouraged Rosa's civil rights involvement. They supported each other through the boycott's aftermath, death threats, job loss, and relocation to Detroit. Raymond reportedly suffered emotional strain from the threats and pressure. The partnership appears genuinely mutual and enduring, though detailed intimate documentation is limited."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Parks had no biological children but devoted significant energy to mentoring. She co-founded the Rosa and Raymond Parks Institute (1987) specifically to develop youth through the Pathways to Freedom program. Elaine Eason Steele, her close collaborator, served as a long-term mentee-partner in this work. Parks also informally mentored young activists. Evidence of mentees developing genuine autonomy is present but not extensively documented."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Klarman, Michael. *From Jim Crow to Civil Rights*. Oxford University Press, 2004."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Parks' refusal and the resulting boycott were pivotal in American civil rights history, leading directly to the Supreme Court's Browder v. Gayle decision (1956) desegregating Montgomery buses and catalyzing the broader movement. Her legacy is taught worldwide and invoked in global human rights discourse. However, score 3 requires effects 'still clearly operative at least 500 years later across multiple civilizations,' and only ~70 years have elapsed. Her impact is transformative but the 500-year criterion cannot be verified."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Romano, Renee and Raiford, Leigh, eds. *The Civil Rights Movement in American Memory*. University of Georgia Press, 2006."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Parks is universally recognized as the archetype of the ordinary person standing against injustice — 'the mother of the civil rights movement.' Her name and act are invoked across cultures worldwide: in European human rights discourse, South African anti-apartheid memory, and global protest movements. She is taught in schools across dozens of countries. Her symbolic resonance clearly extends well beyond her own community and American culture, meeting the score 3 criterion of cross-cultural archetypal recognition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Brinkley, *Rosa Parks: A Life*, 2000."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Parks co-founded the Rosa and Raymond Parks Institute for Self Development in 1987 with Elaine Eason Steele, which ran the Pathways to Freedom program for youth. The institute continues to operate. She also contributed to the NAACP as chapter secretary. However, these institutions, while meaningful, did not achieve the scale or multi-generational independent endurance across contexts required for score 3 or even a strong score 2."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Burns, Stewart. *Daybreak of Freedom: The Montgomery Bus Boycott*. UNC Press, 1997."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Parks' influence was enormous — her act catalyzed the Montgomery Bus Boycott, which launched the modern civil rights movement and propelled Martin Luther King Jr. to national prominence. She later influenced anti-apartheid and other justice movements globally. However, her leadership was primarily symbolic and inspirational rather than organizational or directive. The boycott was organized by E.D. Nixon, Jo Ann Robinson, and the MIA. Parks led through moral example in one primary context (civil rights activism) rather than across qualitatively different leadership contexts as required for score 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Parks, *Rosa Parks: My Story*, 1992."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Parks' power as a symbol derived precisely from her ordinariness — she was a seamstress riding the bus home from work, not a prominent leader. She continued to live modestly throughout her life, even facing financial difficulties in her later years. She mended clothes, rode public transit, and worked as a congressional staffer. However, detailed documentation of specific mundane activities (cooking, humor, daily routines) at the height of her fame is limited compared to what score 3 requires."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "McGuire, *At the Dark End of the Street*, 2010."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Parks' entire adult life was oriented toward racial justice: NAACP voter registration drives in the 1940s, investigating the Recy Taylor case, the bus refusal, and later supporting anti-apartheid activism and opposing the Vietnam War. She sacrificed personal economic security and safety for these principles. However, score 3 requires 'documented cases of ruling against personal or group interest in favor of principle,' and Parks consistently fought for her own community's rights — noble and just, but the specific cross-interest criterion is not clearly documented."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "McGuire, Danielle. *At the Dark End of the Street: Black Women, Rape, and Resistance*. Knopf, 2010.",
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Parks investigated the 1944 gang rape of Recy Taylor in Abbeville, Alabama, showing deep empathy for a vulnerable stranger. She devoted her later years to mentoring disadvantaged youth through her institute. She cared for her ailing mother Leona McCauley and her husband Raymond during his illness. However, documented acts of compassion specifically toward adversaries or outgroup members — the criterion for score 3 — are not prominent in the historical record."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Brinkley, *Rosa Parks: A Life*, 2000.",
+              "Parks, Rosa. *Rosa Parks: My Story*, 1992."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Parks demonstrated sustained courage across multiple high-stakes situations: her December 1, 1955 bus refusal and arrest under Jim Crow; enduring death threats during the 381-day Montgomery Bus Boycott; losing her job at Montgomery Fair department store and facing economic ruin; relocating to Detroit in 1957 under duress; and continuing public activism for decades despite ongoing threats. At age 81 in 1994, she was assaulted and robbed in her own home yet continued her public life. This pattern of courage across qualitatively different dangers is exceptional."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The historical record on Parks is substantially hagiographic — she has been simplified into an icon of quiet dignity. Per the rubric, 'figures whose traditions sanitize them and remove evidence of error should be capped at 1 unless independent evidence exists.' Theoharis' revisionist biography reveals Parks as more complex and radical than the sanitized narrative, but documented instances of Parks reversing a prior position or accepting correction with visible behavioral change are not prominent in any source."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+              "Brinkley, *Rosa Parks: A Life*, 2000."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Parks endured multiple qualitatively distinct forms of prolonged adversity: material deprivation (losing her job after the boycott, financial difficulties into old age), personal bereavement (death of husband Raymond in 1977 and mother Leona in 1979), physical threat (death threats during and after the boycott, the 1994 home invasion and assault at age 81), forced relocation (Montgomery to Detroit in 1957), and lifelong exposure to Jim Crow violence and degradation. She functioned effectively and continued activism through all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Parks integrated the paradox of being simultaneously ordinary and revolutionary — a quiet, reserved seamstress who became one of the most famous activists in history. She was both humble and powerful, both private and an international public symbol. She also combined the roles of obedient organizational member (NAACP secretary, congressional staffer) with radical defiance (bus refusal, support for more militant activism than commonly acknowledged). This represents at least two strong paradoxes, warranting score 2, though documentation of a third clearly contradictory role is less robust."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Brinkley, *Rosa Parks: A Life*, 2000."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Parks spent her final years dealing with progressive dementia, which limits evidence of conscious composure in facing death. She had previously faced mortal danger with calm resolve (death threats, the 1994 assault), which suggests composure under threat. However, score 3 requires documented composure facing one's own imminent death, and the available record does not provide this for Parks specifically."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Brinkley, *Rosa Parks: A Life*, 2000."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Parks lived to age 92, remaining publicly active into her 80s. She endured the physical toll of a seamstress's labor for years. However, there is no documented evidence of remarkable physical feats or endurance of the kind score 2 or 3 would require. Her strengths were moral and psychological rather than physical."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Parks, *Rosa Parks: My Story*, 1992."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Parks was a skilled seamstress, suggesting aesthetic sensibility in fabric and design. Some accounts describe her as warm in private settings. However, documented evidence of non-instrumental play, humor, or aesthetic engagement — the criterion for higher scores — is limited in the scholarly record. The hagiographic tradition emphasizes her dignity and seriousness rather than her playfulness."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 4.17,
+          "Relational": 6.67,
+          "Core_5D_Avg": 5.9,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Rosa Parks",
+      "overall": {
+        "Core_5D_Avg": 5.9,
+        "Overall_Normalized_Equal_Avg": 5.51,
+        "General_Competency_Avg_10scale": 3.56
+      },
+      "summary": "Rosa Parks exemplifies moral courage and archetypal resonance — an ordinary working woman whose principled refusal to yield her bus seat catalyzed the American civil rights movement. Her strengths lie in sustained courage under prolonged adversity, deep justice commitment, and powerful symbolic resonance across cultures. As an NAACP-trained activist and professional seamstress, she combined practical skills with decades of quiet organizational work. Cognitive and Heinlein breadth scores are modest, reflecting her focused role as a moral exemplar and grassroots organizer rather than a strategic commander or polymath. Her legacy's endurance remains her most extraordinary feature.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.07,
+          "General_Competency_Avg_10scale": 3.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Parks, *Rosa Parks: My Story*, 1992."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Growing up in rural Alabama and managing a household, Parks would have possessed basic cooking skills standard for women of her era and context. However, no specific documentation of notable culinary skill exists in biographical sources."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Parks was a committed practitioner of nonviolent resistance. No evidence exists of combat training or physical fighting skill. Her grandfather reportedly kept a shotgun for home defense, but Parks herself is not documented as having combat or defense skills."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Parks cared for her ailing mother Leona McCauley and her husband Raymond during his declining health. She devoted her later career to nurturing disadvantaged youth through the Rosa and Raymond Parks Institute's Pathways to Freedom program. These represent sustained caregiving across both family and community contexts."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+            "Brinkley, *Rosa Parks: A Life*, 2000."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Parks maintained remarkable composure during her arrest on December 1, 1955, during the boycott, during years of death threats, and during the 1994 home invasion at age 81. Her calm dignity in the face of systemic violence and personal danger was noted by contemporaries and is a central element of her legacy. She did not panic, flee, or recant under sustained pressure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013.",
+            "Brinkley, *Rosa Parks: A Life*, 2000."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Parks worked as a professional seamstress at Montgomery Fair department store and privately, requiring skilled manual dexterity, pattern-making, and fabric manipulation. Sewing and garment alteration are genuine manual crafts requiring sustained practice and fine motor skill. She practiced this trade for years as her primary livelihood."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Brinkley, *Rosa Parks: A Life*, 2000."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Parks navigated daily life in Montgomery as a working-class Black woman dependent on public transit, and later successfully relocated to and navigated Detroit. She traveled for speaking engagements across the country. These represent basic competence but no evidence of exceptional navigation or wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Parks, *Rosa Parks: My Story*, 1992."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Parks grew up on her grandparents' small farm in Pine Level, Alabama, where rural families typically raised and processed their own animals and food. This background suggests basic competence in animal and food processing appropriate to her era and context, though specific documentation is thin."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Parks demonstrated effective followership as NAACP secretary under E.D. Nixon, as a congressional staffer under John Conyers for 23 years, and as a disciplined participant in organized resistance. She also demonstrated leadership as co-founder of her institute and as a moral exemplar who inspired millions. The combination of competent followership within organizations and symbolic leadership qualifies for score 2."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of Parks engaging in construction or fabrication of physical structures. This domain is not represented in any biographical source consulted."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Burns, *Daybreak of Freedom*, 1997.",
+            "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Parks participated in strategically planned NAACP actions and understood organizational strategy from her decade-plus of activist work. However, the strategic planning of the Montgomery Bus Boycott was led by E.D. Nixon, Jo Ann Robinson, and the MIA. Parks was not primarily a strategic commander but a disciplined participant in planned resistance."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Parks, *Rosa Parks: My Story*, 1992."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Parks was a skilled seamstress, involving aesthetic judgment in fabric selection and garment construction. She co-authored her autobiography *Rosa Parks: My Story* (1992). However, she was not primarily an artist or cultural creator; her expression was through action and moral witness rather than artistic production."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of Parks providing medical aid or emergency medical response in any source. This domain is unrepresented in her biography."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As NAACP chapter secretary (handling membership records and finances) and as a congressional staffer for 23 years (handling constituent cases, administrative work), Parks would have employed basic numerical and organizational reasoning. However, no evidence exists of advanced analytical or mathematical work."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Parks, *Rosa Parks: My Story*, 1992."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Parks grew up on her grandparents' farm in Pine Level, Alabama, gaining childhood exposure to subsistence agriculture typical of rural Black Southern families in the early 20th century. No evidence of sustained adult agricultural practice."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Theoharis, *The Rebellious Life of Mrs. Rosa Parks*, 2013."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Parks operated sewing machines professionally and managed office systems as NAACP secretary and congressional staffer. These represent competent engagement with the practical technologies and organizational systems of her era, but not cutting-edge technical innovation."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.9,
+    "general_competency_avg_0_10": 3.56,
+    "overall_normalized_equal_avg_0_10": 5.51,
+    "created_at": "2026-03-22T16:52:34.398Z",
+    "updated_at": "2026-03-22T16:52:34.414Z"
+  }
+}
+]

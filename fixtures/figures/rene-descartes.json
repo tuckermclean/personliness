@@ -1,0 +1,371 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 169,
+  "fields": {
+    "name": "René Descartes",
+    "slug": "rene-descartes",
+    "bio_short": "Descartes is an exceptional cognitive figure whose contributions to epistemology (cogito, method of doubt) and mathematics (analytic geometry) constitute genuine paradigm shifts still operative centuries later. His moral-affective and relational dimensions are modest, reflecting a largely solitary scholarly life marked by brief military service, a hidden relationship with Helena Jans, and deep grief over daughter Francine's death. Cultural-social impact is extraordinary in legacy and archetype but weak in direct leadership and institution-building. Heinlein competency breadth is narrow—concent",
+    "bio_long": "René Descartes was a French philosopher, scientist, logician, and mathematician, widely considered a seminal figure in the emergence of modern philosophy and science during Renaissance era. Mathematics was paramount to his method of inquiry, and he connected the previously separate fields of geometry and algebra into analytic geometry.",
+    "source_notes": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes",
+    "image": "figures/330px-Frans_Hals_-_Portret_van_RenC3A9_Descartes.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Gaukroger, *Descartes: An Intellectual Biography* (1995)",
+              "Clarke, *Descartes: A Biography* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Descartes strategically suppressed The World (1633) after Galileo's condemnation, then adapted his presentation by embedding his physics within the more defensible Principles of Philosophy (1644) and publishing the Discourse in French to reach a wider audience. He managed the Utrecht controversy with Voetius by appealing to legal and academic authorities. However, his fatal decision to accept Queen Christina's invitation to Stockholm despite frail health suggests limited personal strategic judgment."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Boyer, *A History of Mathematics* (1968)",
+              "Gaukroger, *Descartes: An Intellectual Biography* (1995)",
+              "Shea, *The Magic of Numbers and Motion: The Scientific Career of René Descartes* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Descartes created analytic geometry by unifying the previously separate fields of algebra and geometry, introducing the Cartesian coordinate system—a clear paradigm shift with a demonstrable before/after. He independently derived the law of refraction (Snell's law) and provided the first correct explanation of the rainbow. His method of systematic doubt was a genuinely novel epistemological procedure with no direct precedent."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Cottingham, *Descartes* (1986)",
+              "Hatfield, *Routledge Philosophy Guidebook to Descartes and the Meditations* (2003)",
+              "Gaukroger, *Descartes: An Intellectual Biography* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The cogito ergo sum established the foundational principle of modern Western epistemology. His mind-body dualism shaped centuries of philosophical discourse and influenced Spinoza, Leibniz, Locke, Hume, and Kant. His method of systematic doubt transcended his own community and era, becoming a cornerstone of philosophical inquiry across multiple civilizations and intellectual traditions, meeting the criterion of influence beyond his own community."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Clarke, *Descartes: A Biography* (2006)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Descartes lived as a private gentleman-scholar throughout his life. He held no administrative office, designed no governance systems, and managed no organizations. There is no credible evidence of administrative or legislative activity."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Clarke, *Descartes: A Biography* (2006)",
+              "Gaukroger, *Descartes: An Intellectual Biography* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Descartes inhabited roles as: subordinate soldier (under Maurice of Nassau), intellectual authority/mentor (correspondence with Elisabeth), close friend (Mersenne, Beeckman), father (to Francine), lover (Helena Jans), and subject/tutor (to Queen Christina). This demonstrates at least five relational modes with qualitatively different behaviors—deference to military superiors, philosophical guidance to Elisabeth, grief-stricken parenthood, collegial exchange with Mersenne."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Clarke, *Descartes: A Biography* (2006)",
+              "Gaukroger, *Descartes: An Intellectual Biography* (1995)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Descartes never married. His relationship with Helena Jans van der Strom, a servant in his household, produced daughter Francine (born 1635). He acknowledged the child but kept the relationship hidden, and Helena was eventually married off to another man. There is no documented evidence of mutual respect, support during crisis, or emotional availability characteristic of a deep partnership."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Shapiro (ed.), *The Correspondence between Princess Elisabeth of Bohemia and René Descartes* (2007)",
+              "Clarke, *Descartes: A Biography* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Descartes reportedly loved his daughter Francine deeply, arranging for her education and planning to bring her to France before her death at age 5 (1640). As a philosophical mentor, his sustained correspondence with Princess Elisabeth of Bohemia (1643–1649) helped her develop her own critical philosophical positions—notably her incisive objections to mind-body dualism—demonstrating genuine intellectual development rather than mere replication. He also mentored through the Mersenne circle."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Boyer, *A History of Mathematics* (1968)",
+              "Cottingham (ed.), *The Cambridge Companion to Descartes* (1992)",
+              "Hatfield, *Routledge Philosophy Guidebook to Descartes and the Meditations* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Analytic geometry remains foundational to all modern mathematics, science, and engineering worldwide. The Cartesian coordinate system is a universal tool. His epistemological framework (cogito, method of doubt, mind-body dualism) shaped the entire trajectory of modern Western philosophy and continues to be debated. His mechanistic natural philosophy was a key driver of the Scientific Revolution. Effects are clearly operative nearly 400 years later across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Cottingham, *Descartes* (1986)",
+              "Gaukroger, *Descartes: An Intellectual Biography* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Descartes embodies the archetype of the solitary rational thinker who questions all received wisdom. 'I think, therefore I am' is recognized across virtually all literate cultures as a symbol of rationalism and self-reflective inquiry. He is invoked as an archetype in traditions far beyond European philosophy—in East Asian philosophy courses, Latin American intellectual history, and global scientific education—meeting the criterion of cross-cultural recognition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Verbeek, *Descartes and the Dutch* (1992)",
+              "Clarke, *Descartes: A Biography* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Descartes did not found any formal institution, school, or organization. Cartesianism became dominant at Dutch universities (Utrecht, Leiden) and later at French academies, but these institutional formations were the work of followers like Henricus Regius and later Jacques Rohault, not Descartes himself. He created the intellectual content that others institutionalized."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Gaukroger, *Descartes: An Intellectual Biography* (1995)",
+              "Clarke, *Descartes: A Biography* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Descartes influenced enormously through his writings, but he did not directly mobilize, organize, or lead groups. He operated through correspondence networks (centered on Marin Mersenne) and published works rather than through direct group leadership. He had no followers he personally directed in the manner of a movement leader, and Cartesianism spread organically through existing academic institutions after his death."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Baillet, *La Vie de Monsieur Descartes* (1691)",
+              "Clarke, *Descartes: A Biography* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Descartes was known for his habit of staying in bed until late morning for thinking, and he reportedly enjoyed gardening in the Netherlands and practiced fencing. Baillet's biography mentions his affection for a cross-eyed girl in childhood shaping his later aesthetic preferences. However, evidence of sustained engagement with mundane, everyday activities at the height of his fame is limited; he lived as a reclusive scholar."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Descartes, *Discourse on the Method* (1637), Part III",
+              "Verbeek, *Descartes and the Dutch* (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Descartes' philosophical system addressed truth and method rather than justice or equity. In the Utrecht controversy, he sought legal redress against Voetius' attacks, showing some concern for procedural fairness. His provisional morality in the Discourse (Part III) included deference to existing customs and laws rather than reforming them. No documented cases of ruling against personal interest in favor of principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Shapiro (ed.), *The Correspondence between Princess Elisabeth of Bohemia and René Descartes* (2007)",
+              "Clarke, *Descartes: A Biography* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Descartes showed genuine emotional concern in his extensive correspondence with Princess Elisabeth of Bohemia, offering sustained philosophical counsel for her depression and personal difficulties (1643–1649). He was reportedly devastated by the death of his daughter Francine in 1640. However, there is no documented evidence of compassion toward adversaries or outgroup members, and his relationship with Helena Jans (Francine's mother) appears to have been kept hidden rather than publicly supported."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Gaukroger, *Descartes: An Intellectual Biography* (1995)",
+              "Verbeek, *Descartes and the Dutch* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Descartes continued publishing philosophically controversial works (Meditations, 1641; Principles, 1644) despite the condemnation of Galileo and active opposition from Gisbertus Voetius at Utrecht. He persisted in his philosophical project for decades under threat of theological censure from both Catholic and Protestant authorities. Counterexample: he suppressed The World in 1633 after Galileo's condemnation. Without this counterexample, the score would be 2; with it given full weight, one might consider 1. Final score: 2, because the overall pattern across decades is sustained intellectual courage, and the suppression was a single strategic decision followed by continued publication of the same ideas in adapted form."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Shapiro (ed.), *The Correspondence between Princess Elisabeth of Bohemia and René Descartes* (2007)",
+              "Cottingham et al. (eds.), *The Philosophical Writings of Descartes*, Vol. II (1984)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Descartes engaged seriously with objections to the Meditations, publishing seven sets of Objections and Replies (1641), and modified his account of mind-body interaction in response to Elisabeth's probing critiques. However, these adjustments are primarily intellectual rather than moral reversals, and he rarely conceded fundamental error. The tradition surrounding Descartes has tended to portray him as the confident architect of a system rather than a figure who acknowledged mistakes."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Clarke, *Descartes: A Biography* (2006)",
+              "Gaukroger, *Descartes: An Intellectual Biography* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Descartes lost his mother in infancy and was raised by his grandmother. He endured the death of his five-year-old daughter Francine in 1640—reportedly calling it the greatest sorrow of his life—yet continued productive philosophical work, publishing the Meditations the following year. He faced sustained theological persecution from Voetius and others, and the constant threat of censorship from Catholic authorities. He functioned effectively across both personal bereavement and intellectual persecution."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Gaukroger, *Descartes: An Intellectual Biography* (1995)",
+              "Cottingham, *Descartes* (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Descartes inhabited seemingly contradictory roles: soldier and philosopher, devout Catholic and radical skeptic, rationalist and dreamer (his famous three dreams of November 10, 1619 were the catalyst for his philosophical method). He combined austere metaphysical reasoning with practical interests in optics and mechanics. These represent at least three tensions (military/intellectual, pious/skeptical, rationalist/visionary) held together coherently, though the soldier role was brief."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Baillet, *La Vie de Monsieur Descartes* (1691)",
+              "Clarke, *Descartes: A Biography* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "On his deathbed in Stockholm (February 1650), Descartes reportedly said 'Ça, mon âme, il faut partir' ('So, my soul, it is time to depart'), suggesting composure in the face of imminent death. He also refused a physician's proposed bloodletting, maintaining agency in his final hours. However, these accounts come primarily from Baillet's hagiographic biography (1691), written decades later, capping confidence."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Clarke, *Descartes: A Biography* (2006)",
+              "Baillet, *La Vie de Monsieur Descartes* (1691)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Descartes served as a volunteer soldier under Maurice of Nassau (1618) and the Duke of Bavaria (1619–1620), and reportedly practiced fencing. However, he was reputedly frail from childhood (his mother died of tuberculosis shortly after his birth, and he was given special permission to rise late at La Flèche due to his delicate health). He died at 53 in Stockholm, likely from pneumonia. Physical endurance was not a strength across his lifespan."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Clarke, *Descartes: A Biography* (2006)",
+              "Descartes, *Meteorology* (1637)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Descartes enjoyed fencing and reportedly maintained gardens in the Netherlands. His investigation of the rainbow in Meteorology shows aesthetic curiosity about natural phenomena. His correspondence occasionally reveals warmth and humor. However, evidence of sustained, non-instrumental play or aesthetic engagement is thin; most of his documented activities were oriented toward philosophical or scientific inquiry."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 5.55,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "René Descartes",
+      "overall": {
+        "Core_5D_Avg": 5.55,
+        "Overall_Normalized_Equal_Avg": 5.25,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "Descartes is an exceptional cognitive figure whose contributions to epistemology (cogito, method of doubt) and mathematics (analytic geometry) constitute genuine paradigm shifts still operative centuries later. His moral-affective and relational dimensions are modest, reflecting a largely solitary scholarly life marked by brief military service, a hidden relationship with Helena Jans, and deep grief over daughter Francine's death. Cultural-social impact is extraordinary in legacy and archetype but weak in direct leadership and institution-building. Heinlein competency breadth is narrow—concentrated overwhelmingly in analytical reasoning and prose—with little documented evidence of practical skills outside intellectual pursuits.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Descartes cooked or prepared meals. As a gentleman of independent means, he employed servants for domestic tasks throughout his adult life."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Gaukroger, *Descartes: An Intellectual Biography* (1995)",
+            "Clarke, *Descartes: A Biography* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Descartes served as a volunteer soldier with Maurice of Nassau's army (1618) and then with the Duke of Bavaria's forces (1619–1620) during the early Thirty Years' War, and he was reportedly a skilled fencer. However, there is no documented evidence of personal combat engagement; his military service appears to have been largely observational and educational."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Clarke, *Descartes: A Biography* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Descartes cared for his daughter Francine during her brief life and showed sustained emotional concern for Princess Elisabeth's wellbeing in correspondence. However, evidence of hands-on caregiving is limited to these episodic instances; he relied on servants and lived largely alone."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Baillet, *La Vie de Monsieur Descartes* (1691)",
+            "Descartes, *Passions of the Soul* (1649)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Descartes reportedly faced his own death with composure in Stockholm, uttering 'Ça, mon âme, il faut partir' and refusing unnecessary medical interventions. His philosophical work on the passions (Passions of the Soul, 1649) articulated a theory of emotional regulation through rational mastery. These sources, while partly hagiographic, suggest genuine existential composure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Shea, *The Magic of Numbers and Motion* (1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Descartes designed lens-grinding tools and reportedly constructed optical instruments. Anecdotal accounts suggest he built mechanical automata, though the famous story of a doll named 'Francine' is almost certainly apocryphal. Evidence of hands-on craftsmanship exists but is limited and poorly documented."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Clarke, *Descartes: A Biography* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Descartes traveled extensively across Europe—France, the Netherlands, Germany, Italy, and Sweden—over three decades, demonstrating practical wayfinding ability. His military service also involved movement across varied terrain. However, there is no evidence of exceptional navigational skill or leadership in travel."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Descartes butchered, processed, or prepared animal products. He performed anatomical dissections of animals (cattle hearts, dogs) for scientific purposes, but this was investigative rather than food-processing competence."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Clarke, *Descartes: A Biography* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Descartes demonstrated followership as a volunteer soldier under Maurice of Nassau and the Duke of Bavaria (1618–1620), and later deferred to Queen Christina's demands in Stockholm. He showed intellectual leadership through his correspondence network. However, he predominantly operated as an autonomous scholar rather than in structured leadership-followership hierarchies."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Shea, *The Magic of Numbers and Motion* (1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Descartes designed lens-grinding machines for optical experiments, described in his Dioptrics (1637). There are anecdotal reports of his constructing mechanical devices. However, evidence of his actually building durable physical structures is thin and mostly secondhand."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Gaukroger, *Descartes: An Intellectual Biography* (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Descartes served as a volunteer soldier in two armies (1618–1620) but held no command positions. His philosophical method represents systematic planning of intellectual inquiry, but there is no evidence of coordinating complex operations or commanding others in practical contexts."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Descartes, *Discourse on the Method* (1637)",
+            "Descartes, *Compendium Musicae* (1618, published 1650)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "The Discourse on the Method (1637) is considered a masterpiece of French prose and a landmark in the history of the French language—Descartes deliberately chose French over Latin to reach a broader audience. His Compendium Musicae (1618) was an early theoretical treatise on music. His writing combined philosophical rigor with literary clarity."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Descartes, *Description of the Human Body* (1648, posthumous)",
+            "Bitbol-Hespériès, *Le Principe de Vie chez Descartes* (1990)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Descartes studied human and animal anatomy extensively, performing dissections of animal organs (described in his correspondence and in Description of the Human Body, 1648). He had theoretical knowledge of physiology informed by his mechanistic philosophy. However, there is no evidence of his providing practical medical treatment or emergency aid to others."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Boyer, *A History of Mathematics* (1968)",
+            "Descartes, *La Géométrie* (1637)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Descartes created analytic geometry, introducing the Cartesian coordinate system and algebraic notation (superscript exponents, the convention of x, y, z for unknowns and a, b, c for constants). He solved classical geometric problems through algebraic methods and applied mathematics to optics and mechanics. He is among the strongest exemplars of mathematical reasoning in the historical record."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of Descartes engaging in agriculture or resource management. He reportedly maintained gardens in the Netherlands, but this was a leisurely pursuit rather than systematic cultivation or resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Shea, *The Magic of Numbers and Motion* (1991)",
+            "Descartes, *Dioptrics* (1637)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Descartes designed lens-grinding machines, applied mathematical analysis to optical problems (deriving the law of refraction, explaining the rainbow), and developed analytic geometry as a systematic tool for solving geometric problems. His method was fundamentally about systematic problem-solving applied across domains. He engaged with the cutting-edge tools of his era—optics, mathematics, mechanics—at the highest level."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.55,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 5.25,
+    "created_at": "2026-03-22T21:28:37.217Z",
+    "updated_at": "2026-03-22T21:28:37.233Z"
+  }
+}
+]

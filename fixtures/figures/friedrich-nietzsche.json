@@ -1,0 +1,372 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 215,
+  "fields": {
+    "name": "Friedrich Nietzsche",
+    "slug": "friedrich-nietzsche",
+    "bio_short": "Nietzsche is a towering intellectual figure whose extraordinary philosophical insight and creative innovation are counterbalanced by severe limitations in practical competency, institutional engagement, and intimate relationships. His hardship tolerance and capacity for paradox integration are exceptional—he produced his greatest works while enduring chronic illness and profound isolation. His cultural impact and archetypal resonance rank among the highest of any modern thinker. However, his relational world was narrow, he built no institutions, and his practical life skills were minimal. A su",
+    "bio_long": "Friedrich Wilhelm Nietzsche was a German philosopher and writer who started his career as a classical philologist and turned to philosophy early in his academic career. In 1869, aged 24, he was appointed Professor of Classical Philology at the University of Basel. Plagued by health problems for most of his life, he resigned from the university in 1879. He afterward lived as an independent writer, spending much of his life in relative solitude and financial insecurity while moving between Switzerland, Italy, and southern France in search of climates that might alleviate his condition, and in the following decade, he completed much of his core writing. In 1889, aged 44, he suffered a mental breakdown and thereafter a complete loss of his mental faculties, with paralysis and vascular dementia, living his remaining 11 years under the care of his family until his death. His works and his philosophy have fostered not only extensive scholarship but also much popular interest.",
+    "source_notes": "https://en.wikipedia.org/wiki/Friedrich_Nietzsche",
+    "image": "figures/330px-Nietzsche187a.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Safranski, *Nietzsche: A Philosophical Biography* (2002)",
+              "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nietzsche showed little strategic or practical foresight. He resigned his Basel professorship at 34 without secure income, published works that consistently failed commercially, and made poor interpersonal calculations (the Lou Salomé affair, the Paul Rée triangle). His intellectual project was brilliant but his life management was impractical, and he did not adapt plans when they failed—he simply persisted in isolation."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Kaufmann, *Nietzsche: Philosopher, Psychologist, Antichrist* (1950)",
+              "Nehamas, *Nietzsche: Life as Literature* (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nietzsche created genuinely novel philosophical methods (genealogy as a mode of critique), new literary-philosophical forms (*Thus Spoke Zarathustra* as prose-poetry philosophy), and paradigm-shifting concepts (death of God, eternal recurrence, Übermensch, nihilism as a historical diagnosis). Before Nietzsche, moral philosophy largely operated within a framework of objective values; after him, the question of value-creation itself became central. This constitutes a demonstrable paradigm shift."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Kaufmann, *Nietzsche: Philosopher, Psychologist, Antichrist* (1950)",
+              "Leiter, *Nietzsche on Morality* (2002)",
+              "Magnus & Higgins, *The Cambridge Companion to Nietzsche* (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nietzsche's moral and metaphysical reasoning—including the genealogy of morals, the critique of slave morality, perspectivism, the will to power, and amor fati—constitutes one of the most profound revaluations of Western ethics ever undertaken. His ideas directly shaped existentialism (Heidegger, Sartre), psychoanalysis (Freud acknowledged his anticipations), poststructuralism (Foucault, Derrida, Deleuze), and theology, influencing thinkers far beyond his own era and community."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)",
+              "Janz, *Friedrich Nietzsche: Biographie* (1978–79)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nietzsche served competently as Professor of Classical Philology at Basel (1869–1879), managing courses and supervising students at a remarkably young age. However, his tenure was brief and he created no lasting administrative structures. He showed no interest in institutional governance and left academia entirely at age 34."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Middleton (ed.), *Selected Letters of Friedrich Nietzsche* (1969)",
+              "Safranski, *Nietzsche: A Philosophical Biography* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nietzsche inhabited multiple relational modes with documented behavioral variation: devoted son to his mother Franziska (filial dependence), complex brother to Elisabeth (alternating closeness and frustration), admiring protégé then fierce adversary to Wagner, tender friend to Overbeck and Rohde, superior to students at Basel, rejected suitor to Lou Salomé. He demonstrated at least five distinct relational modes, though his relational world was narrow in scope and his later years were increasingly isolated."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Safranski, *Nietzsche: A Philosophical Biography* (2002)",
+              "Prideaux, *I Am Dynamite! A Life of Nietzsche* (2018)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Nietzsche never married and had no sustained intimate partnership. His most significant romantic attachment was to Lou Salomé in 1882, which lasted only months, involved a complicated triangle with Paul Rée, and ended in rejection and bitterness. He proposed marriage to Salomé (and possibly earlier to Mathilde Trampedach in 1876) and was rebuffed. No evidence of a mutual, durable intimate partnership exists."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)",
+              "Janz, *Friedrich Nietzsche: Biographie* (1978–79)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Nietzsche had no children. As a Basel professor (1869–1879), he taught students but his pedagogical career was brief. His relationship with Peter Gast (Heinrich Köselitz) was the closest to mentorship, but Gast functioned more as a devoted amanuensis than an independently flourishing protégé. Nietzsche's posthumous influence on countless thinkers is immense, but that is textual influence, not personal mentoring."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Aschheim, *The Nietzsche Legacy in Germany, 1890–1990* (1992)",
+              "Kaufmann, *Nietzsche: Philosopher, Psychologist, Antichrist* (1950)",
+              "Parkes, *Nietzsche and Asian Thought* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nietzsche's influence on 20th- and 21st-century thought is among the most far-reaching of any philosopher. He directly shaped existentialism (Heidegger, Sartre, Camus), psychoanalysis (Freud's debt to Nietzsche's psychology), poststructuralism (Foucault, Derrida, Deleuze), theology (death-of-God theology), and literature (Thomas Mann, Rilke, Yeats). His impact spans Western, East Asian, and global intellectual culture and shows no sign of diminishing. Though he has not yet been dead 500 years (d. 1900), the cross-civilizational breadth and structural depth of his influence clearly place him on that trajectory."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Aschheim, *The Nietzsche Legacy in Germany, 1890–1990* (1992)",
+              "Parkes, *Nietzsche and Asian Thought* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nietzsche has become a cross-cultural archetype: the solitary prophet, the mad genius, the thinker who stared into the abyss. His concepts—Übermensch, will to power, 'God is dead,' the abyss gazing back—have entered global popular culture far beyond philosophy. He is recognized as a symbol in traditions and cultures well beyond 19th-century Germany, from Japanese literature to American popular culture to existentialist movements worldwide."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Diethe, *Nietzsche's Sister and the Will to Power* (2003)",
+              "Aschheim, *The Nietzsche Legacy in Germany, 1890–1990* (1992)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Nietzsche built no institutions. The Nietzsche Archive was created by his sister Elisabeth Förster-Nietzsche after his mental collapse, without his involvement or consent. He left no organizational structures, schools, or formal communities. His philosophical legacy was transmitted through published texts, not through institutions he created."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Safranski, *Nietzsche: A Philosophical Biography* (2002)",
+              "Aschheim, *The Nietzsche Legacy in Germany, 1890–1990* (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "During his conscious lifetime, Nietzsche led no movements, directed no organizations, and had minimal readership—his works sold in the hundreds. His influence became enormous posthumously, but he did not successfully mobilize or direct groups toward shared goals while alive. His small circle of devoted followers (Peter Gast, Franz Overbeck) does not constitute leadership across qualitatively different contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Middleton (ed.), *Selected Letters of Friedrich Nietzsche* (1969)",
+              "Safranski, *Nietzsche: A Philosophical Biography* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nietzsche's letters reveal a man engaged with mundane concerns: his digestive health, the quality of his boarding house meals, the weather in Turin and Nice, his walks in the Engadin. He played piano throughout his life, took long solitary walks as his primary creative method, and expressed humor and tenderness in correspondence. Even at the height of his philosophical ambition, he was a man in modest pensions worrying about his eyesight and his next meal."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Nietzsche, *On the Genealogy of Morals* (1887)",
+              "Leiter, *Nietzsche on Morality* (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nietzsche explicitly critiqued egalitarian conceptions of justice, advocating a 'rank order' among human beings and dismissing democratic fairness as a manifestation of slave morality. He valued intellectual honesty and rigor, and his break with Wagner can be read as choosing intellectual integrity over personal loyalty. However, there are no documented cases of ruling against personal or group interest in favor of impartial principle in a social or political sense."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Middleton (ed.), *Selected Letters of Friedrich Nietzsche* (1969)",
+              "Safranski, *Nietzsche: A Philosophical Biography* (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Nietzsche's personal letters to friends like Franz Overbeck, Erwin Rohde, and Peter Gast reveal genuine warmth and concern for their well-being. However, his philosophical project explicitly critiques Mitleid (pity/compassion), and his treatment of former intimates after breaks (Wagner, Lou Salomé) was often harsh and unforgiving. No documented acts of compassion toward adversaries or outgroup members are attested. The trait appears episodically in his private circle only."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Safranski, *Nietzsche: A Philosophical Biography* (2002)",
+              "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nietzsche displayed sustained courage across multiple high-stakes situations: he volunteered as a medical orderly in the Franco-Prussian War (1870), he published works challenging the entire moral foundation of Western civilization knowing they would be rejected, he persisted in philosophical creation despite chronic debilitating illness (migraines, near-blindness, nausea), social isolation, financial insecurity, and near-total lack of public recognition during his sane life. His entire productive decade (1879–1889) was an act of sustained intellectual and existential courage."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Nietzsche, *Ecce Homo* (1888/1908)",
+              "Nietzsche, *The Case of Wagner* (1888)",
+              "Kaufmann, *Nietzsche: Philosopher, Psychologist, Antichrist* (1950)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nietzsche reversed his earlier Schopenhauerian pessimism and Wagnerian aestheticism, publicly documenting these shifts in *Human, All Too Human* (1878), *The Case of Wagner* (1888), and *Nietzsche contra Wagner* (1888). The break with Wagner represented a genuine philosophical and personal transformation, not merely a falling-out—he revised his core aesthetic and metaphysical commitments. He also acknowledged in *Ecce Homo* how his earlier works reflected positions he had since outgrown."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Safranski, *Nietzsche: A Philosophical Biography* (2002)",
+              "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nietzsche functioned at an extraordinary creative level across multiple qualitatively different forms of adversity simultaneously: chronic debilitating physical illness (migraines, near-blindness, nausea), material deprivation (financial insecurity after leaving Basel), personal bereavement and heartbreak (the Lou Salomé rejection, the Wagner break), professional marginalization (near-total lack of recognition), and prolonged social isolation. His most important works—*Zarathustra*, *Beyond Good and Evil*, *Genealogy of Morals*—were all produced under these compounded hardships."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Nehamas, *Nietzsche: Life as Literature* (1985)",
+              "Kaufmann, *Nietzsche: Philosopher, Psychologist, Antichrist* (1950)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nietzsche inhabited at least five seemingly contradictory roles without fragmenting into inconsistency: (1) rigorous classical scholar and iconoclastic destroyer of tradition, (2) celebrant of strength, vitality, and the Übermensch while being a chronic invalid, (3) fierce advocate of solitude and independence while desperately craving companionship and recognition, (4) critic of pity and sentimentality who was personally tender and emotionally vulnerable, (5) destroyer of existing values and creator of new ones. His philosophy explicitly theorizes this integration through concepts like the Dionysian-Apollonian duality."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Nietzsche, *Ecce Homo* (1888/1908)",
+              "Safranski, *Nietzsche: A Philosophical Biography* (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nietzsche's philosophical concepts of amor fati and eternal recurrence represent profound theoretical engagement with mortality and fate. However, the rubric explicitly requires documented composure in the face of one's own imminent death. Nietzsche suffered a catastrophic mental collapse in January 1889 and lived eleven years in a state of complete mental incapacity, never regaining the ability to consciously confront his death. Before his collapse, his late writings (*Ecce Homo*) display increasing grandiosity rather than serene acceptance. The philosophical articulation is profound, but lived mortality acceptance cannot be documented."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)",
+              "Janz, *Friedrich Nietzsche: Biographie* (1978–79)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nietzsche suffered chronic severe health problems throughout his adult life: debilitating migraines lasting days, progressive near-blindness, nausea, and digestive disorders. He was invalided out of Franco-Prussian War service with dysentery and diphtheria after only weeks. However, he maintained a rigorous walking regimen in the Swiss Alps (particularly around Sils-Maria) that was central to his creative process, showing some physical capacity despite illness. His physical endurance was episodic and limited by disease."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Liébert, *Nietzsche and Music* (2004)",
+              "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)",
+              "Nietzsche, *The Gay Science* (1882/1887)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nietzsche's engagement with music was lifelong, non-instrumental, and deeply personal—he composed works for piano and voice, played regularly, and his aesthetic rapture over Wagner's music preceded any philosophical use of it. His love of Alpine landscapes in Sils-Maria was genuine aesthetic appreciation, not performance. *The Gay Science* (Die fröhliche Wissenschaft) celebrates the union of knowledge and joy. His concept of the Dionysian is rooted in personal aesthetic experience. His letters overflow with delight at natural beauty, music, and moments of creative ecstasy."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 3.33,
+          "Core_5D_Avg": 5.83,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Friedrich Nietzsche",
+      "overall": {
+        "Core_5D_Avg": 5.83,
+        "Overall_Normalized_Equal_Avg": 5.26,
+        "General_Competency_Avg_10scale": 2.44
+      },
+      "summary": "Nietzsche is a towering intellectual figure whose extraordinary philosophical insight and creative innovation are counterbalanced by severe limitations in practical competency, institutional engagement, and intimate relationships. His hardship tolerance and capacity for paradox integration are exceptional—he produced his greatest works while enduring chronic illness and profound isolation. His cultural impact and archetypal resonance rank among the highest of any modern thinker. However, his relational world was narrow, he built no institutions, and his practical life skills were minimal. A supreme thinker and writer who lived almost entirely in the realm of ideas, embodying the tension between visionary intellect and human vulnerability.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.73,
+          "General_Competency_Avg_10scale": 2.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Middleton (ed.), *Selected Letters of Friedrich Nietzsche* (1969)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Nietzsche cooked. He ate in boarding houses, pensions, and restaurants throughout his independent years. His letters mention food quality and dietary concerns frequently but always as a consumer, never as a preparer."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Safranski, *Nietzsche: A Philosophical Biography* (2002)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Nietzsche served in the Franco-Prussian War as a medical orderly, not a combatant. He had mandatory military training as a young man and injured himself falling from a horse during artillery training in 1868. No evidence of combat skill or defensive capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)",
+            "Safranski, *Nietzsche: A Philosophical Biography* (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Nietzsche volunteered as a medical orderly during the Franco-Prussian War (1870), tending to wounded and ill soldiers at Erlangen until he himself contracted dysentery and diphtheria. This is specific documented caregiving but was brief (weeks) and not repeated. Beyond this, no evidence of sustained caregiving activity."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Nietzsche, *The Gay Science* (1882/1887)",
+            "Safranski, *Nietzsche: A Philosophical Biography* (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Nietzsche's philosophy of amor fati and eternal recurrence represents a supreme theoretical articulation of existential composure—willing the eternal return of one's entire life, including all suffering. Throughout his productive decade, he maintained creative dignity and philosophical affirmation despite compounded crises of health, isolation, and rejection. However, his late writings show increasing grandiosity (*Ecce Homo*), and his catastrophic mental collapse in January 1889 meant he did not face his own death with conscious composure. Score reflects sustained composure under adversity but not at the point of death."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Nietzsche engaged in manual craft, repair, or tool-making. His life was entirely intellectual and sedentary outside of his walking regimen. He relied on others for practical material needs."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Safranski, *Nietzsche: A Philosophical Biography* (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nietzsche traveled extensively and independently across Europe—Switzerland (Sils-Maria, Basel), Italy (Turin, Genoa, Venice, Rome), and southern France (Nice)—navigating Alpine paths and foreign cities, often alone and with severely impaired eyesight. This demonstrates functional wayfinding ability but not exceptional navigational skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the biographical record that Nietzsche butchered animals, processed food, or engaged in animal husbandry. He grew up in a pastor's household in Röcken and Naumburg and spent his adult life in academic and boarding-house settings."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Nietzsche followed academic institutional norms as a young professor at Basel and followed Wagner as a devoted younger acolyte before breaking away. He directed Peter Gast in editorial tasks. However, he was fundamentally an independent thinker who could not subordinate himself to others for long (breaking with Wagner, leaving the university) and never successfully led groups. The trait is episodic and limited."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Nietzsche designed or built any physical structures. His life was entirely intellectual, and he lived in rented rooms and boarding houses throughout his independent years."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Nietzsche ever planned or commanded complex operations. He held no military command, managed no organizations, and his personal life planning (resigning his professorship without alternative income) suggests weakness rather than strength in this domain."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Nehamas, *Nietzsche: Life as Literature* (1985)",
+            "Kaufmann, *Nietzsche: Philosopher, Psychologist, Antichrist* (1950)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Nietzsche is one of the greatest prose stylists in the German language. *Thus Spoke Zarathustra* is a literary-philosophical masterpiece that blends poetry, narrative, and philosophical argument in an unprecedented form. His aphoristic style in *Human, All Too Human*, *The Gay Science*, and *Beyond Good and Evil* influenced literary modernism. He also composed music throughout his life (piano pieces, choral works, lieder), though of modest quality. His prose alone constitutes exceptional artistic achievement."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Safranski, *Nietzsche: A Philosophical Biography* (2002)",
+            "Janz, *Friedrich Nietzsche: Biographie* (1978–79)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Nietzsche served as a volunteer medical orderly in the Franco-Prussian War (August–September 1870), transporting and tending to wounded soldiers. He acquired enough practical medical skill to provide care under field conditions. However, this was brief and he fell seriously ill himself. No subsequent medical activity is documented."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nietzsche's training was in classical philology, not mathematics or natural science. His philosophical reasoning is extraordinarily rigorous in its own mode, but he showed no particular aptitude for quantitative analysis. His education at Schulpforta and Leipzig focused on languages, literature, and philosophy. He occasionally referenced scientific ideas (thermodynamics in connection with eternal recurrence) but without mathematical sophistication."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural activity or resource management. Nietzsche grew up in a town setting (Röcken, Naumburg), attended elite boarding school (Schulpforta), and lived in urban or resort environments as an adult."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Kittler, *Gramophone, Film, Typewriter* (1999)",
+            "Young, *Friedrich Nietzsche: A Philosophical Biography* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nietzsche adopted the Malling-Hansen Writing Ball typewriter in 1882 when his eyesight deteriorated, becoming one of the early philosophical writers to use mechanical writing technology. He adapted his writing process to this tool, though he struggled with it. His philological training involved systematic textual analysis, a form of era-appropriate technical skill. However, these are limited instances."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.83,
+    "general_competency_avg_0_10": 2.44,
+    "overall_normalized_equal_avg_0_10": 5.26,
+    "created_at": "2026-03-22T23:20:54.636Z",
+    "updated_at": "2026-03-22T23:20:54.658Z"
+  }
+}
+]

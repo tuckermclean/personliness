@@ -1,0 +1,367 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 191,
+  "fields": {
+    "name": "Ludwig van Beethoven",
+    "slug": "ludwig-van-beethoven",
+    "bio_short": "Beethoven is among history's supreme creative geniuses, scoring maximally on innovation and artistic expression. His extraordinary hardship tolerance—composing masterworks while completely deaf—and his integration of profound paradoxes (deaf musician, misanthropic humanist) mark exceptional embodied-existential depth. However, his relational life was deeply impoverished: no sustained partnership, a damaging custody battle over nephew Karl, and limited relational range. Practical competency breadth is narrow, concentrated almost entirely in artistic and analytical domains. A figure of towering ",
+    "bio_long": "Ludwig van Beethoven was a German composer and pianist. He is widely regarded as one of the greatest composers in the history of classical music, and his symphonies redefined the medium for later musicians.",
+    "source_notes": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven",
+    "image": "figures/330px-Joseph_Karl_Stieler27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Beethoven secured a notable annuity in 1809 from Archduke Rudolph, Prince Lobkowitz, and Prince Kinsky by leveraging a competing offer from Jérôme Bonaparte's Kassel court—showing episodic strategic thinking. However, he was notoriously disorganized in practical affairs, moved residences over 60 times in Vienna, and frequently mismanaged publisher negotiations. No documented cases of successful large-scale adaptation when plans failed outside the musical domain."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Kinderman, William. *Beethoven*. Oxford UP, 2009",
+              "Lockwood, Lewis. *Beethoven: The Music and the Life*. Norton, 2003",
+              "Rosen, Charles. *The Classical Style*. Norton, 1971"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Beethoven represents a paradigm shift in Western music. The Eroica Symphony (1803) dramatically expanded the symphony's scope, length, and emotional range, creating a clear before/after in the genre's history. His late string quartets (Op. 127–135, 1825–1826) pushed formal and harmonic boundaries that would not be fully explored for decades. He bridged and redefined the transition from Classical to Romantic eras, and virtually every subsequent symphonist—Brahms, Mahler, Bruckner—worked in dialogue with his legacy."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Lockwood, Lewis. *Beethoven: The Music and the Life*. Norton, 2003"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Beethoven was deeply influenced by Enlightenment ideals of liberty and universal brotherhood. He famously withdrew the dedication of the Eroica Symphony (No. 3) from Napoleon upon learning he had crowned himself Emperor in 1804, expressing genuine ethical conviction. His opera Fidelio (1805/1814) centers on justice against political tyranny, and the Ninth Symphony's choral finale sets Schiller's 'Ode to Joy' as a vision of universal human solidarity—a text subsequently adopted by the European Union as its anthem. However, he did not produce systematic philosophical writing; his insights were expressed through music rather than argued discursively."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Thayer, Alexander Wheelock. *Thayer's Life of Beethoven*, rev. Elliot Forbes. Princeton UP, 1967",
+              "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Beethoven held no administrative or legislative positions. He was notoriously chaotic in personal and household management, frequently changing servants and residences. His attempts to organize concert premieres were often logistically troubled—the famous December 1808 marathon concert at the Theater an der Wien was reportedly freezing, under-rehearsed, and disorganized. No systems he designed endured beyond his oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Beethoven inhabited multiple relational modes—subordinate (to Haydn as student), friend (Wegeler, Zmeskall, the Breuning family), guardian/parent (Karl), would-be lover (various women), adversary (Johanna, publishers), superior (to servants, musicians). However, his behavior across these modes was not qualitatively distinct: he was generally intense, demanding, and volatile regardless of context. His letters to close friends show warmth, but his fundamental relational style—passionate, controlling, easily offended—persisted across nearly all relationships."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Beethoven never married and maintained no sustained intimate partnership. His romantic life consisted of a series of unfulfilled attachments—Giulietta Guicciardi, Josephine Brunsvik, and the unidentified 'Immortal Beloved' (possibly Antonie Brentano, per Solomon's influential argument). The famous Immortal Beloved letter (1812) reveals deep romantic feeling but no realized relationship. No evidence of mutual, sustained partnership exists."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Thayer, Alexander Wheelock. *Thayer's Life of Beethoven*, rev. Elliot Forbes. Princeton UP, 1967"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "As guardian of nephew Karl (from 1815), Beethoven was possessive, controlling, and anxious, contributing to a toxic environment that culminated in Karl's suicide attempt in 1826. As a music teacher, he instructed Carl Czerny, Ferdinand Ries, and Archduke Rudolph—all of whom became accomplished musicians, with Czerny becoming one of the era's foremost pedagogues. However, Beethoven was reportedly impatient and erratic as a teacher. The mentoring outcomes are genuine but modest relative to the damaging parental record."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Kinderman, William. *Beethoven*. Oxford UP, 2009",
+              "Bonds, Mark Evan. *Beethoven's Symphony No. 9*. Oxford UP, 2020"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Beethoven's impact is immense and still operative nearly 200 years after his death across multiple civilizations. His symphonies, sonatas, and quartets remain central to the global concert repertoire. The Ninth Symphony's 'Ode to Joy' was adopted as the anthem of the European Union and was performed at the fall of the Berlin Wall (1989). His influence extends beyond music into broader cultural ideas about artistic genius, individual expression, and human triumph over adversity. His works are performed worldwide, from Tokyo to São Paulo to New York."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Burnham, Scott. *Beethoven Hero*. Princeton UP, 1995",
+              "DeNora, Tia. *Beethoven and the Construction of Genius*. UC Press, 1995"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Beethoven is the archetype of the tortured genius who triumphs over adversity—the deaf composer creating sublime music. This image resonates across cultures far beyond the Western classical tradition. He appears as a cultural symbol in East Asian musical education, African concert traditions, and global popular culture (from Chuck Berry to *A Clockwork Orange*). The 'Beethoven myth' of solitary genius overcoming suffering has shaped how multiple civilizations understand artistic creativity itself."
+          },
+          "Institution-Building": {
+            "citations": [
+              "DeNora, Tia. *Beethoven and the Construction of Genius*. UC Press, 1995"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Beethoven did not found schools, academies, or organizations. However, he helped crystallize the cultural model of the independent composer freed from court service, which shaped the institutional structure of 19th-century musical life. His works became foundational to the concert repertoire system that emerged after his death. This represents cultural-institutional influence rather than direct institution-building, meriting a 1 but not higher."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "DeNora, Tia. *Beethoven and the Construction of Genius*. UC Press, 1995",
+              "Lockwood, Lewis. *Beethoven: The Music and the Life*. Norton, 2003"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Beethoven was a towering figure in Viennese musical life, influencing generations of composers and performers. He successfully led musical ensembles and directed premieres of major works. He also shaped the emerging role of the independent artist-composer, influencing how musicians related to patrons and audiences. However, his leadership was primarily within the artistic domain and he was notoriously difficult to work with—he did not lead across qualitatively different contexts (e.g., crisis vs. stability in governance or military command)."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Some humanizing details survive: Beethoven's love of long countryside walks, his reportedly exact counting of 60 coffee beans per cup, his humor in letters to friends (e.g., playful canons written for companions). His conversation books after deafness record mundane daily interactions. However, he was famously eccentric, socially awkward, increasingly isolated, never married, and lived in domestic chaos. At the height of his fame he was largely cut off from ordinary social life by his deafness and temperament."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Beethoven held strong ideals of justice: the Eroica dedication withdrawal was a principled act against personal interest, and Fidelio's narrative centers on liberation from unjust political imprisonment. He insisted on his dignity as an artist in dealings with aristocrats. However, the custody battle over nephew Karl (1815–1820) represents a sustained, serious counterexample: Beethoven used class-based legal arguments against Johanna, misrepresented facts to the court, and leveraged social privilege in ways that were manipulative and unjust. Without the counterexample: 2. With it given full weight: 1. Because the custody battle was sustained over years and involved deliberate misuse of legal process, the counterexample carries heavy moral weight. Final score: 1."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Beethoven performed benefit concerts for charitable causes, including for war victims after the 1813 Battle of Hanau, and could be generous with friends in need. However, he was also volatile, harsh with servants, and his treatment of his sister-in-law Johanna during the custody battle over nephew Karl (1815–1820) was cruel—he called her a 'Queen of the Night' and used class-based slander in court. No documented acts of compassion toward adversaries or outgroup members meet the threshold for a higher score."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Lockwood, Lewis. *Beethoven: The Music and the Life*. Norton, 2003"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Beethoven's courage was sustained across decades of adversity. The Heiligenstadt Testament (1802) reveals he contemplated suicide over his progressive deafness but resolved to continue for his art. He then composed his most celebrated works—the Eroica, the Fifth Symphony, the late quartets, and the Ninth Symphony—while his hearing deteriorated to total deafness by approximately 1814. He conducted the premiere of the Ninth Symphony (1824) while completely deaf, reportedly unaware the audience was applauding until a soloist turned him around. This represents sustained courage across multiple high-stakes situations over more than two decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Thayer, Alexander Wheelock. *Thayer's Life of Beethoven*, rev. Elliot Forbes. Princeton UP, 1967"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Heiligenstadt Testament (1802) shows profound self-awareness about his emotional state and social failings. However, there is little documented evidence of Beethoven reversing a prior position or accepting correction with visible behavioral change. His treatment of nephew Karl did not notably improve even after Karl's suicide attempt in 1826. He remained stubborn and difficult in interpersonal relations throughout his life. Some growth is visible in his late letters' greater warmth, but this is thin evidence."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)",
+              "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Beethoven endured qualitatively different forms of severe adversity while remaining creative: (1) an abusive childhood under his alcoholic father Johann, (2) progressive deafness from his late 20s to total deafness by ~1814, (3) chronic and debilitating health problems (gastrointestinal illness, liver disease), (4) repeated romantic rejection and social isolation, (5) the anguish of nephew Karl's suicide attempt in 1826. Through all of this, he composed his greatest works—the Eroica, the Ninth Symphony, the Missa Solemnis, the late quartets—demonstrating extraordinary functional capacity under prolonged, multifaceted adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Burnham, Scott. *Beethoven Hero*. Princeton UP, 1995",
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Beethoven coherently inhabited at least four seemingly contradictory roles: (1) a deaf musician who created the most celebrated music of his era; (2) a revolutionary democrat and champion of universal brotherhood who depended on and socialized with aristocratic patrons; (3) a solitary misanthrope with volcanic temper who composed music celebrating human solidarity (the Ninth Symphony); (4) a physically suffering, increasingly debilitated man who produced works of extraordinary vitality and joy (the late quartets, the Seventh Symphony). These contradictions were not sequential phases but coexisted throughout his mature life, and he integrated them into a coherent artistic and personal identity."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Thayer, Alexander Wheelock. *Thayer's Life of Beethoven*, rev. Elliot Forbes. Princeton UP, 1967",
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Heiligenstadt Testament (1802) documents Beethoven confronting potential self-destruction and choosing continued life and art—a profound, if anguished, engagement with mortality. His late works, especially the Op. 132 String Quartet's 'Holy Song of Thanksgiving of a Convalescent' and Op. 135's inscription 'Muss es sein? Es muss sein!' ('Must it be? It must be!'), show deep spiritual engagement with finitude. Deathbed accounts report composure: the phrase 'Plaudite, amici, comedia finita est' ('Applaud, friends, the comedy is over') is attributed to him, though its precise authenticity is uncertain (Thayer records it). He does not quite reach 3, as the deathbed reports are not fully corroborated."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Thayer, Alexander Wheelock. *Thayer's Life of Beethoven*, rev. Elliot Forbes. Princeton UP, 1967",
+              "Lockwood, Lewis. *Beethoven: The Music and the Life*. Norton, 2003"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Beethoven was a virtuoso pianist whose powerful, sometimes violent playing style was legendary in Vienna during his 20s and 30s, requiring extraordinary physical skill and stamina. He maintained a lifelong habit of vigorous, hours-long walks through the countryside in all weather—documented from his Bonn years through to his final years in Vienna and Baden. His health declined significantly in later life (liver disease, digestive problems, probable lead poisoning), but the combination of virtuoso physicality in youth and sustained walking endurance across decades justifies a 2."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Lockwood, Lewis. *Beethoven: The Music and the Life*. Norton, 2003",
+              "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Beethoven's deep love of nature is well documented—his pastoral walks around Vienna, Heiligenstadt, and Baden were a genuine source of joy, not merely instrumental to composition, as attested in letters to Therese Malfatti and others. He composed playful canons for friends as jokes, and his scherzos contain genuine wit. The Pastoral Symphony (No. 6, Op. 68) expresses delight in the natural world. However, much of his life was marked by suffering, isolation, and social difficulty, and his aesthetic engagement was heavily intertwined with his creative work rather than purely non-instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.0,
+          "Relational": 2.22,
+          "Core_5D_Avg": 5.38,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Ludwig van Beethoven",
+      "overall": {
+        "Core_5D_Avg": 5.38,
+        "Overall_Normalized_Equal_Avg": 4.96,
+        "General_Competency_Avg_10scale": 2.89
+      },
+      "summary": "Beethoven is among history's supreme creative geniuses, scoring maximally on innovation and artistic expression. His extraordinary hardship tolerance—composing masterworks while completely deaf—and his integration of profound paradoxes (deaf musician, misanthropic humanist) mark exceptional embodied-existential depth. However, his relational life was deeply impoverished: no sustained partnership, a damaging custody battle over nephew Karl, and limited relational range. Practical competency breadth is narrow, concentrated almost entirely in artistic and analytical domains. A figure of towering but highly specialized greatness, whose cultural-social legacy is immense but whose personal life reveals significant moral and relational limitations.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.87,
+          "General_Competency_Avg_10scale": 2.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Beethoven reportedly counted exactly 60 coffee beans per cup, showing some engagement with beverage preparation, but no evidence exists of meaningful culinary skill. He relied on servants and eating houses for meals and was not known for cooking ability."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of Beethoven engaging in combat or physical defense. He lived as a civilian through the Napoleonic Wars, remaining in Vienna during the 1809 bombardment (reportedly hiding in a cellar with pillows over his ears to protect his remaining hearing)."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Beethoven assumed guardianship of nephew Karl after his brother Caspar Carl's death in 1815, providing material care and educational investment. He also helped support his brothers at various points. However, his caregiving was undermined by possessiveness and emotional volatility, and Karl's suicide attempt suggests the care was more harmful than nurturing."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Thayer, Alexander Wheelock. *Thayer's Life of Beethoven*, rev. Elliot Forbes. Princeton UP, 1967",
+            "Solomon, Maynard. *Beethoven*. Schirmer, 1977 (rev. 1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Heiligenstadt Testament (1802) documents Beethoven confronting despair and choosing to continue living for his art—a crisis resolved with dignity. His reported deathbed composure, including the attributed phrase 'Plaudite, amici, comedia finita est,' and his continued creative work while deaf and gravely ill, demonstrate sustained existential composure. The late quartets' engagement with death and transcendence (Op. 132, Op. 135) reflect a man who had made peace with finitude, though the deathbed accounts have uncertain reliability."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of Beethoven making, fixing, or adapting tools, machines, or physical systems. He relied on servants for household maintenance and was known for chaotic living conditions."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Lockwood, Lewis. *Beethoven: The Music and the Life*. Norton, 2003"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Beethoven was a prolific walker who roamed the countryside around Vienna, Heiligenstadt, Baden, and other locations for hours, demonstrating familiarity with rural paths and terrain. He also traveled between Bonn and Vienna and to various spa towns. However, this represents navigation of familiar territory rather than exceptional wayfinding skill across unfamiliar or hazardous environments."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Beethoven butchered, processed, or handled animals or raw food resources in any notable capacity."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Thayer, Alexander Wheelock. *Thayer's Life of Beethoven*, rev. Elliot Forbes. Princeton UP, 1967"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Beethoven led musical ensembles as conductor and pianist, though his conducting became increasingly ineffective as his deafness progressed—at the 1824 Ninth premiere, the actual direction was handled by Michael Umlauf. As a follower, he was notably poor: he clashed with Haydn during their teacher-student relationship and was generally resistant to authority. He could give orders but struggled to take them."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Beethoven designed or built physical structures of any kind."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Beethoven organized complex concert premieres, including the 1808 Theater an der Wien marathon (featuring premieres of Symphonies 5 and 6, Piano Concerto No. 4, and the Choral Fantasy) and the 1824 Ninth Symphony premiere. However, these events were often logistically troubled—the 1808 concert was under-rehearsed and the hall unheated. His strategic planning was episodic and frequently chaotic."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Kinderman, William. *Beethoven*. Oxford UP, 2009",
+            "Rosen, Charles. *The Classical Style*. Norton, 1971"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "One of the greatest composers in Western history. His output—9 symphonies, 32 piano sonatas, 16 string quartets, 5 piano concertos, the opera Fidelio, the Missa Solemnis, and numerous other works—transformed the possibilities of Western music. The Eroica and Ninth Symphonies are paradigm-defining works. He was also a celebrated piano virtuoso in his earlier career. Among the strongest known exemplars of artistic expression in the historical record."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Beethoven provided medical care or emergency response to others. He was frequently a patient himself, consulting numerous physicians for his various ailments."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Lockwood, Lewis. *Beethoven: The Music and the Life*. Norton, 2003",
+            "Kinderman, William. *Beethoven's Compositional Process*. U of Nebraska P, 1991"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Musical composition at Beethoven's level requires extraordinary analytical reasoning—counterpoint, harmonic architecture, formal structure. His sketchbooks (preserved in Berlin and elsewhere) show meticulous, systematic working-out of compositional problems over years. However, he was reportedly poor at basic arithmetic and notoriously mismanaged his finances, suggesting his analytical powers were domain-specific rather than general."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of Beethoven engaging in agriculture or natural resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Lockwood, Lewis. *Beethoven: The Music and the Life*. Norton, 2003",
+            "Swafford, Jan. *Beethoven: Anguish and Triumph*. Houghton Mifflin, 2014"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Beethoven engaged deeply with the cutting-edge musical technology of his era: he corresponded with piano makers Nannette Streicher, Andreas Streicher, and the Broadwood firm about instrument modifications to accommodate his playing style and hearing loss. He used ear trumpets designed by Johann Nepomuk Mälzel (who also built the metronome). His engagement with evolving piano technology and acoustic aids represents meaningful interaction with the technical frontier of his time."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.38,
+    "general_competency_avg_0_10": 2.89,
+    "overall_normalized_equal_avg_0_10": 4.96,
+    "created_at": "2026-03-22T22:00:18.897Z",
+    "updated_at": "2026-03-22T22:00:18.915Z"
+  }
+}
+]

@@ -1,0 +1,374 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 127,
+  "fields": {
+    "name": "Jane Goodall",
+    "slug": "jane-goodall",
+    "bio_short": "A paradigm-shifting primatologist whose immersive fieldwork at Gombe redefined human-animal boundaries. Exceptional in creative/innovative thinking, institution-building, and archetype resonance. Strong moral-affective profile with sustained courage and compassion across decades. Remarkably versatile relationally and existentially, integrating scientist, activist, nurturer, and global icon roles. Heinlein competency breadth is moderate—deep in caregiving, leadership, and navigation but limited in manual, culinary, and combat domains. Her legacy is still unfolding, but already spans multiple di",
+    "bio_long": "Dame Valerie Jane Morris Goodall was an English primatologist and anthropologist. Regarded as a pioneer in primate ethology, and described by many publications as \"the world's preeminent chimpanzee expert\", she was best known for more than six decades of field research on the social and family life of wild chimpanzees in the Kasakela chimpanzee community at Gombe Stream National Park in Tanzania. Beginning in 1960, under the mentorship of the palaeontologist Louis Leakey, Goodall's research demonstrated that chimpanzees share many key traits with humans, such as using tools, having complex emotions, forming lasting social bonds, engaging in organised warfare, and passing on knowledge across generations, which redefined the traditional view that humans are uniquely different from other animals.",
+    "source_notes": "https://en.wikipedia.org/wiki/Jane_Goodall",
+    "image": "figures/330px-thumbnail.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Goodall, *Reason for Hope* (1999)",
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Goodall successfully adapted when her initial approach to habituating chimps at Gombe failed, spending months patiently observing from a distance until accepted. She navigated the transition from uncredentialed field observer to Cambridge PhD, and later strategically pivoted from pure research to global conservation advocacy when she recognized habitat destruction at the 1986 Chicago conference. These adaptations show consistent strategic thinking across different life phases."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Goodall, *The Chimpanzees of Gombe* (1986)",
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)",
+              "Leakey correspondence, National Geographic Society archives"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Goodall's 1960 observation that chimps fashion and use tools (termite fishing at Gombe) forced a paradigm shift—Louis Leakey famously responded, 'Now we must redefine tool, redefine man, or accept chimpanzees as humans.' Her methodology of long-term immersive observation with individual identification by name and personality, rejected by the scientific establishment at the time, became the gold standard for primatological fieldwork. There is a clear before/after in the discipline attributable to her."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Goodall, *In the Shadow of Man* (1971)",
+              "Bekoff & Goodall, *The Emotional Lives of Animals* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Goodall's insistence on naming chimps, attributing emotions and personalities to them, and her argument for continuity between human and animal moral experience challenged prevailing behaviorist orthodoxy and influenced environmental ethics, animal rights philosophy (e.g., Peter Singer, Marc Bekoff), and bioethics discourse. Her ethical vision bridges science and spirituality but is more empirically grounded than systematically philosophical."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Jane Goodall Institute annual reports",
+              "Goodall, *Reason for Hope* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Goodall founded the Jane Goodall Institute (1977), which now operates in over 30 countries, and the Roots & Shoots youth program (1991), active in 65+ countries. The Gombe Stream Research Centre has run continuously for over 60 years—one of the longest-running field studies in history. These institutions function well beyond her direct oversight, though her personal brand remains central to fundraising."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)",
+              "Goodall, *Reason for Hope* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Goodall has functioned across a remarkable breadth of relational modes: devoted daughter (her mother Vanne accompanied her to Gombe initially and supported her throughout life), spouse (two marriages), parent, subordinate (to Leakey as mentor), superior (directing research staff), friend (deep bonds with individual chimps and human colleagues), adversary (engaging constructively with poachers and industry representatives), and stranger/public figure (connecting with millions worldwide). She demonstrates qualitatively distinct behavior across at least six of these modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)",
+              "Goodall, *Reason for Hope* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Goodall's marriage to Hugo van Lawick (1964–1974) was a deep professional and personal partnership—they collaborated on groundbreaking wildlife photography and research—but ended in divorce partly due to diverging careers. Her marriage to Derek Bryceson (1975–1980) was by all accounts a deeply loving union; Bryceson, a Tanzanian government official, used his position to protect Gombe, and Goodall nursed him through terminal cancer. The mixed record—one divorce, one profound partnership cut short by death—warrants a moderate score."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Goodall, *My Life with the Chimpanzees* (1988)",
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Goodall raised her son Hugo 'Grub' Eric Louis van Lawick in the unusual environment of Gombe, eventually sending him to boarding school in England—she has spoken candidly about the tension between her work and motherhood. As a mentor, she has trained generations of primatologists and conservationists through the Gombe research program, many of whom developed independent careers (e.g., researchers who went on to lead their own primate studies). Roots & Shoots represents mass mentoring of youth globally."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Goodall, *The Chimpanzees of Gombe* (1986)",
+              "de Waal, *Are We Smart Enough to Know How Smart Animals Are?* (2016)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Goodall's discoveries reshaped primatology, anthropology, and the animal rights movement. Her tool-use findings altered the definition of humanity in science. Her conservation model (community-centered via TACARE) has influenced global conservation practice. However, as a 20th/21st-century figure, the 500-year cross-civilizational criterion for a score of 3 cannot yet be assessed. Her impact is enormous but temporally limited in its testability."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "National Geographic archival imagery and cultural reception",
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Goodall is recognized globally as the archetypal 'woman communing with nature'—a figure of cross-cultural symbolic power transcending her specific field. She is an icon in environmental, feminist, and scientific movements across cultures from East Africa to East Asia. Her image—alone among the chimps—is instantly recognizable worldwide and has been invoked by movements she did not originate."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Jane Goodall Institute organizational records",
+              "Goodall, *Reason for Hope* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Jane Goodall Institute (est. 1977) operates in 30+ countries with ongoing conservation and community development programs. Roots & Shoots (est. 1991) engages youth in 65+ countries. The Gombe research program, now in its seventh decade, has produced hundreds of scientific publications and trained generations of primatologists. All three institutions have survived well beyond two generations with recognizable continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)",
+              "United Nations Messenger of Peace appointment (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Goodall led a small, remote research station in crisis (Gombe kidnappings, 1975), built the JGI into a global conservation organization, became a UN Messenger of Peace (2002), and inspired millions through public speaking (300+ days per year traveling). She successfully led in qualitatively different contexts: intimate field research, institutional management, global advocacy, and youth mobilization through Roots & Shoots."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Goodall, *My Life with the Chimpanzees* (1988)",
+              "Goodall, *Reason for Hope* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Goodall is documented carrying her stuffed monkey 'Mr. H' to every engagement, telling stories about her childhood dog Rusty, and engaging warmly and playfully with children through Roots & Shoots visits. She has lived simply throughout her life and maintained an accessible, humble public persona. However, her extraordinary lifestyle (decades in the African bush, constant global travel) somewhat distances her from the mundane everyday."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Goodall, *Hope for Animals and Their World* (2009)",
+              "NIH announcement on retiring research chimps (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Goodall has consistently advocated for animal rights, campaigning against animal testing, factory farming, and deforestation, often at professional and personal cost. She spoke against the use of chimps in biomedical research, contributing to the 2013 U.S. NIH decision to retire most research chimps. However, her justice orientation is primarily advocacy-based rather than involving adjudicatory decisions against personal interest in the strict sense the rubric envisions."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Goodall, *In the Shadow of Man* (1971)",
+              "Goodall, *Harvest for Hope* (2005)",
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Goodall documented individual chimps' grief (notably Flint's death following his mother Flo's) with profound empathy. Crucially, she extended compassion to adversaries and outgroup members: she engaged constructively with bushmeat hunters, loggers, and poachers in the TACARE community-centered conservation program around Gombe, seeking to address their poverty rather than simply condemning them. She has publicly advocated for the welfare of lab chimps held by pharmaceutical companies."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)",
+              "Goodall, *Reason for Hope* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At age 26, Goodall ventured alone into the forests of Gombe—a young woman in colonial East Africa with no degree, facing dangerous wildlife and skepticism. In 1975, four of her students were kidnapped from Gombe by Zairean rebels, forcing a security crisis she navigated under extreme duress. She persisted through the death of her second husband Derek Bryceson (1980), sustained academic sexism, and chronic health challenges from decades in the tropics—all while continuing her work."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Goodall, *The Chimpanzees of Gombe* (1986)",
+              "Washington Post reporting on *Seeds of Hope* (2013)",
+              "Goodall, *Reason for Hope* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Goodall acknowledged that her early practice of banana-feeding chimps at Gombe to facilitate habituation was a mistake that altered their social dynamics and increased aggression—she later stopped the practice and discussed the error openly. Her 2013 book *Seeds of Hope* was found to contain improperly attributed passages; she publicly acknowledged and corrected these. She also evolved from a pure research stance to active conservation advocacy, explicitly stating she could no longer just observe."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Goodall, *Reason for Hope* (1999)",
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Goodall endured qualitatively different forms of adversity: material deprivation during early Gombe years (primitive camp, limited supplies, repeated malaria), personal bereavement (death of beloved husband Derek Bryceson from cancer in 1980), a security crisis (1975 Gombe kidnappings), sustained professional hostility from established scientists who dismissed her methodology, and decades of physical strain from tropical fieldwork. She functioned effectively throughout all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Goodall, *Reason for Hope* (1999)",
+              "Goodall, *The Chimpanzees of Gombe* (1986)",
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Goodall has inhabited at least three seemingly contradictory roles without fragmentation: (1) rigorous empirical scientist and spiritual/mystical thinker who speaks of a 'great spiritual power'; (2) deeply empathetic nurturer of individual chimps and unflinching documenter of chimp warfare and infanticide; (3) solitary field researcher who spent years in isolation and global public figure speaking to millions; (4) gentle, soft-spoken persona and fierce, uncompromising activist. She integrates these without apparent inconsistency."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Goodall, *Reason for Hope* (1999)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Goodall has spoken philosophically about death in interviews, expressing composure about aging and the legacy she hopes to leave. She has discussed the deaths of individual chimps (Flo, David Greybeard) with reflective equanimity. However, as she is still living, there is no documented composure in the face of her own imminent death, which the rubric requires for a score of 3. Her philosophical statements are genuine but remain abstract."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Goodall, *In the Shadow of Man* (1971)",
+              "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Goodall spent years trekking through Gombe's steep, forested terrain daily in tropical heat, enduring malaria and other tropical illnesses, beginning at age 26. Into her late 80s and 90s, she maintained an exhausting travel schedule of 300+ days per year on the road. This represents sustained physical capacity across multiple life stages, though her endurance is more about stamina than athletic feats."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Goodall, *In the Shadow of Man* (1971)",
+              "Goodall, *Reason for Hope* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Goodall's writings overflow with non-instrumental aesthetic appreciation for nature—describing sunsets over Lake Tanganyika, the beauty of forest canopies, and the joy of watching chimps play. She carries Mr. H (a stuffed monkey gifted by a child) purely for comfort and play. Her childhood fascination with Tarzan and Doctor Dolittle reveals lifelong imaginative joy. These are not performed for political purposes but reflect genuine delight."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 7.78,
+          "Core_5D_Avg": 7.92,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 8.33,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Jane Goodall",
+      "overall": {
+        "Core_5D_Avg": 7.92,
+        "Overall_Normalized_Equal_Avg": 7.3,
+        "General_Competency_Avg_10scale": 4.22
+      },
+      "summary": "A paradigm-shifting primatologist whose immersive fieldwork at Gombe redefined human-animal boundaries. Exceptional in creative/innovative thinking, institution-building, and archetype resonance. Strong moral-affective profile with sustained courage and compassion across decades. Remarkably versatile relationally and existentially, integrating scientist, activist, nurturer, and global icon roles. Heinlein competency breadth is moderate—deep in caregiving, leadership, and navigation but limited in manual, culinary, and combat domains. Her legacy is still unfolding, but already spans multiple disciplines and continents.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.27,
+          "General_Competency_Avg_10scale": 4.22
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of notable culinary skill. Goodall lived simply and would have prepared basic meals at Gombe, but no sources describe cooking as a skill or interest. Anti-halo rule applies."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of combat skill or physical defense training. Goodall dealt with dangerous encounters (wild animals, the 1975 kidnapping crisis) through avoidance, patience, and negotiation rather than combat. This is not a domain where she demonstrated competence."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Goodall, *In the Shadow of Man* (1971)",
+            "Goodall, *Reason for Hope* (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Goodall provided sustained emotional and physical care for chimps at Gombe (nursing sick individuals, documenting and supporting orphaned juveniles). She raised her son Grub in the field, cared for her mother Vanne in old age, and nursed her husband Derek Bryceson through terminal cancer. This represents competent caregiving across the lifespan, though not her defining expertise."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Goodall, *Reason for Hope* (1999)",
+            "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Goodall maintained composure through the death of her husband, the kidnapping crisis at Gombe, witnessing chimp deaths and violence, and decades of confronting environmental destruction. She speaks about mortality and suffering with equanimity in *Reason for Hope*. She continues working with purpose into her 90s, demonstrating sustained existential composure in the face of aging and the magnitude of environmental crisis."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Living in a remote bush camp for years would have required basic repair and improvisation skills—maintaining equipment, camp structures, and field gear in tropical conditions. However, no specific documented instances of notable manual craft or repair skill exist in the record. Score reflects reasonable inference from context, capped by absence of direct evidence."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Goodall, *In the Shadow of Man* (1971)",
+            "Goodall, *The Chimpanzees of Gombe* (1986)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Goodall navigated the dense forests and steep terrain of Gombe daily for years, tracking chimpanzee groups through unmarked territory. She developed intimate knowledge of the landscape and could locate specific chimps across the research area. This represents strong wayfinding competence in a challenging environment, era-normalized for a field primatologist."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Goodall, *In the Shadow of Man* (1971)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Goodall lived in close proximity to animals and had intimate knowledge of animal behavior, but her engagement was observational rather than involving butchering, processing, or animal husbandry. Her early camp life at Gombe would have required basic food handling in a bush context, but no specific skill in this domain is documented."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)",
+            "Goodall, *Reason for Hope* (1999)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Goodall demonstrates exceptional capacity in both directions: she followed Louis Leakey's guidance faithfully in her early career, submitted to Cambridge's doctoral requirements despite lacking an undergraduate degree, and deferred to Tanzanian authorities on park management. Simultaneously, she led the Gombe research program, built the JGI into a global organization, and directed conservation campaigns worldwide. This dual capacity across qualitatively different contexts is exceptional."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Goodall designed or built physical structures. Her early camp at Gombe was rudimentary, but construction was not part of her documented skill set. Anti-halo rule applies: her fame in primatology does not imply construction ability."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)",
+            "Goodall, *Reason for Hope* (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Goodall managed the complex logistics of running a remote research station at Gombe for decades—coordinating researchers, supplies, funding, and relations with Tanzanian authorities. She built the JGI into a multi-country organization with coordinated conservation campaigns. During the 1975 kidnapping crisis, she managed negotiations and operational responses under extreme pressure."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Goodall, *In the Shadow of Man* (1971)",
+            "Goodall, *Reason for Hope* (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Goodall authored numerous books with considerable literary quality, including *In the Shadow of Man* (1971), widely regarded as a classic of nature writing. *Reason for Hope* (1999) blends memoir and philosophy effectively. She is a compelling public speaker whose storytelling engages diverse audiences. Her work is expressive and culturally significant, though she is not primarily an artist."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Goodall, *In the Shadow of Man* (1971)",
+            "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Goodall treated sick chimps at Gombe (including during a polio epidemic among the chimp community in the 1960s) and managed health emergencies at the remote station where professional medical help was hours or days away. She also nursed her husband through cancer. These represent basic medical competence in a remote context, but she was not a trained medical practitioner."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Goodall, *The Chimpanzees of Gombe* (1986)",
+            "Peterson, *Jane Goodall: The Woman Who Redefined Man* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Goodall's early methodology was criticized by Cambridge scientists for insufficient quantification—she initially relied on narrative observation rather than statistical analysis. She later incorporated more systematic data collection in *The Chimpanzees of Gombe* (1986), and the Gombe dataset has been analyzed quantitatively by subsequent researchers. Her analytical reasoning is competent but not a strength compared to peers."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Jane Goodall Institute TACARE program documentation"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Goodall's TACARE community conservation program around Gombe involves sustainable agriculture and resource management, and she has advocated for these practices globally. However, her role is primarily as an organizer and advocate rather than a practitioner of agriculture. No evidence of personal farming or resource cultivation skills."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Goodall, *The Chimpanzees of Gombe* (1986)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Goodall developed innovative observational methodologies for field primatology that became standard practice. The JGI has adopted modern tools like satellite imagery and GIS for conservation mapping. However, Goodall herself is not primarily a technologist; her innovations were methodological and conceptual rather than technical in the engineering sense."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.92,
+    "general_competency_avg_0_10": 4.22,
+    "overall_normalized_equal_avg_0_10": 7.3,
+    "created_at": "2026-03-22T16:52:08.820Z",
+    "updated_at": "2026-03-22T16:52:08.840Z"
+  }
+}
+]

@@ -1,0 +1,374 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 147,
+  "fields": {
+    "name": "Catherine the Great",
+    "slug": "catherine-the-great",
+    "bio_short": "A brilliant strategist and administrator whose 34-year reign transformed Russia into a European great power. Exceptional in cognitive and cultural-social domains, with enduring institutions (Provincial Reform of 1775, the Hermitage) and a powerful archetype as female sovereign. Moral-affective scores are tempered by the expansion of serfdom and strained parental relationships. Heinlein competency is moderate—strong in leadership and command but limited in manual, agricultural, and subsistence skills befitting a lifetime in royal courts. A paradox-integrating figure: German-born Russian patriot",
+    "bio_long": "Catherine II, commonly known as Catherine the Great, was the reigning Empress of Russia from 1762 to 1796. She came to power after a coup d'etat against her husband, Peter III. Her long reign helped Russia thrive under a golden age during the Enlightenment. This renaissance led to the founding of many new cities, universities, and theatres, along with large-scale immigration from the rest of Europe and the recognition of Russia as one of the great powers of Europe.",
+    "source_notes": "https://en.wikipedia.org/wiki/Catherine_the_Great",
+    "image": "figures/330px-Catherine_II_after_Roslin2C_Rokotov_281780s2C_Kunsthistorisches_Museum29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Dixon, *Catherine the Great* (2009)",
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)",
+              "Alexander, *Catherine the Great: Life and Legend* (1989)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Catherine masterfully planned the 1762 coup by securing the Orlov brothers and the Izmailovsky and Semenovsky guards regiments, then adapted when Peter III fled to Oranienbaum. She navigated the Russo-Turkish Wars (1768-74, 1787-92), pivoted to the three Partitions of Poland when direct confrontation proved costly, and reorganized provincial governance after the Pugachev Rebellion exposed administrative weaknesses—each a case of successful adaptation when initial plans or conditions failed."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Dixon, *Catherine the Great* (2009)",
+              "Bartlett, *Human Capital: The Settlement of Foreigners in Russia 1762–1804* (1979)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Catherine innovated by transplanting Enlightenment models to Russian soil—the Legislative Commission of 1767 was unprecedented in Russia, and the invitation of foreign colonists (Manifesto of 1763) creatively addressed depopulation of the steppe. Her cultural patronage (the Hermitage, the Russian Academy) represented creative institution-building. However, most innovations were adaptations of Western models rather than paradigm-shifting inventions attributable primarily to her."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)",
+              "Catherine II, *Nakaz* (1767)",
+              "Reddaway (ed.), *Documents of Catherine the Great* (1931)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Catherine's Nakaz (1767) synthesized Montesquieu's *Spirit of the Laws* and Beccaria's *On Crimes and Punishments* into a comprehensive governance document advocating abolition of torture, proportional punishment, and religious toleration. Her correspondence with Voltaire, Diderot, and d'Alembert demonstrated genuine philosophical engagement. However, her ideas were largely synthesized rather than original, and the gap between her stated principles and the expansion of serfdom limits the score below 3."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)",
+              "LeDonne, *Ruling Russia: Politics and Administration in the Age of Absolutism 1762–1796* (1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Statute for the Administration of the Provinces (1775) reorganized Russian local government into a system that endured until 1917—over 140 years. The Charter to the Nobility and Charter to the Towns (1785) created durable legal frameworks for Russian social estates. She reformed the Senate, established the Free Economic Society, and reorganized the educational system. These systems functioned and endured well beyond her direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Massie, *Catherine the Great: Portrait of a Woman* (2011)",
+              "Dixon, *Catherine the Great* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Catherine demonstrated qualitatively distinct relational behavior across at least six modes: (1) subordinate—deferential navigation of Empress Elizabeth's court for years; (2) sovereign—commanding nobles, generals, and administrators; (3) intimate partner—passionate and vulnerable correspondence with Potemkin; (4) friend—witty, warm exchanges with Voltaire, Grimm, and Diderot; (5) grandmother—playful engagement with Alexander and Constantine, writing fairy tales; (6) adversary—shrewd diplomatic dealing with Frederick the Great, the Ottoman sultans, and Polish nobles. Each mode shows distinct relational adaptation."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Montefiore, *Prince of Princes: The Life of Potemkin* (2000)",
+              "Smith (ed.), *Love and Conquest: Personal Correspondence of Catherine the Great and Prince Grigory Potemkin* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Catherine's marriage to Peter III was unhappy and ended with her coup and his suspicious death—a severe negative. However, her partnership with Grigory Potemkin (from 1774) is one of history's great political-romantic partnerships: their correspondence reveals deep mutual love, respect, and emotional vulnerability, and their political collaboration (including the annexation of Crimea and the development of southern Russia) continued long after their romantic relationship ended, until his death in 1791. Without the Peter III counterexample: 3. With it: 2. The Potemkin relationship is extraordinary, but the circumstances of Peter III's death cannot be ignored."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "McGrew, *Paul I of Russia* (1992)",
+              "Dixon, *Catherine the Great* (2009)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Catherine's relationship with her son Paul was deeply strained: he was taken from her at birth by Empress Elizabeth, and Catherine later considered bypassing him for the succession in favor of her grandson Alexander. She was a more engaged grandmother, personally supervising Alexander's education and selecting his tutor (La Harpe). However, Paul grew into an unstable ruler, and Catherine's attempt to disinherit him suggests failure in the parental relationship. Her mentoring of political subordinates (e.g., the Orlovs, Potemkin) was effective but instrumental."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)",
+              "Montefiore, *Prince of Princes: The Life of Potemkin* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Catherine's territorial acquisitions (Crimea 1783, partitions of Poland, expansion to the Black Sea) reshaped the geopolitical map of Eastern Europe in ways still operative today. Russia's emergence as a recognized European great power during her reign shaped centuries of subsequent diplomacy. The Hermitage remains a world-class institution. Her reign defined Russian imperial identity and continues to be a reference point in Russian political culture."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Dixon, *Catherine the Great* (2009)",
+              "Massie, *Catherine the Great: Portrait of a Woman* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Catherine is globally recognized as an archetype of the powerful female ruler and the 'enlightened despot.' She appears as a symbol of female political power across Western, Russian, and global cultures—in literature, film, and political discourse. Her name is invoked in contexts far removed from 18th-century Russia, and she remains one of the most widely recognized female sovereigns in world history, alongside Cleopatra and Elizabeth I."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)",
+              "Dixon, *Catherine the Great* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Catherine founded the Hermitage (1764, now one of the world's great museums), the Free Economic Society (1765), the Russian Academy (1783), the Smolny Institute (1764), and reorganized provincial governance through the 1775 Statute that lasted until 1917. The Moscow Foundling Home, new cities in the south (Odessa's precursors, Sevastopol, Kherson), and educational institutions all survived well beyond two generations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Dixon, *Catherine the Great* (2009)",
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Catherine led successfully in crisis (the 1762 coup, the Pugachev Rebellion) and in stability (34 years of governance and cultural flourishing). She mobilized support from the guards regiments, managed a fractious court nobility, directed foreign policy across multiple theaters, and inspired an era of cultural transformation. She led both intimate court politics and a vast multi-ethnic empire, demonstrating leadership across qualitatively different contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Catherine II, correspondence with Grimm (various)",
+              "Massie, *Catherine the Great: Portrait of a Woman* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Catherine's correspondence with Grimm reveals a witty, warm personality who discussed her beloved greyhounds, gardening at Tsarskoye Selo, and everyday amusements. She played with her grandchildren Alexander and Constantine and wrote fairy tales for them. She was known to rise early and make her own coffee. However, she lived in extraordinary royal splendor from age 14, limiting truly mundane engagement compared to figures who labored manually."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)",
+              "Radishchev, *Journey from St. Petersburg to Moscow* (1790)",
+              "Catherine II, *Nakaz* (1767)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Catherine articulated justice principles in the Nakaz, drawing on Beccaria to oppose torture and advocate proportional punishment, and she reformed the court system in the 1775 Provincial Reform. However, she dramatically expanded serfdom, granting state peasants as serfs to noble favorites, and suppressed Radishchev's *Journey from St. Petersburg to Moscow* (1790), which criticized serfdom. Without the serfdom counterexample: 2-3 (the Nakaz and judicial reforms are substantial). With it: 1. The systemic injustice of serfdom's expansion under her reign is of such moral stakes that it substantially overrides the formal legal reforms."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)",
+              "Alexander, *Catherine the Great: Life and Legend* (1989)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Catherine founded orphanages, the Moscow Foundling Home (1764), and the Smolny Institute for girls, showing institutional concern for vulnerable populations. She championed smallpox inoculation (1768), personally undergoing the procedure to model it for her subjects. However, she massively expanded serfdom—granting over 800,000 state peasants to favorites—and suppressed the Pugachev rebels with brutal executions. Without the serfdom counterexample: 2. With it given full weight: 1. The scale and systematicity of serfdom's expansion outweighs episodic acts of benevolence."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Dixon, *Catherine the Great* (2009)",
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Catherine personally donned a guards uniform and rode at the head of troops during the 1762 coup—risking execution for treason had it failed. She maintained effective governance through the Moscow plague (1771), the Pugachev Rebellion (1773-75), two major Russo-Turkish Wars, and the upheaval of the French Revolution's impact on European politics. She endured the personal loss of her favorite Lanskoy (1784) and her great political partner Potemkin (1791) while continuing to rule effectively. This represents sustained courage across multiple high-stakes situations spanning decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Catherine II, *Memoirs* (various editions; Cruse trans., 2005)",
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Catherine adjusted her governance approach pragmatically after the Pugachev Rebellion, producing the Provincial Reform of 1775. She also retreated from her early Enlightenment liberalism after the French Revolution, suppressing Novikov and Radishchev. These are pragmatic adaptations rather than moral reckonings. Her memoirs present a highly self-justifying narrative. There is no documented instance where she publicly acknowledged a moral error or reversed a position based on ethical reflection rather than political necessity."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Catherine II, *Memoirs* (Cruse trans., 2005)",
+              "Dixon, *Catherine the Great* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Catherine endured nearly 18 years of an unhappy, politically dangerous marriage to Peter III under the watchful eye of Empress Elizabeth, who separated her from her newborn son Paul. She faced the existential risk of the 1762 coup and the sustained political pressures of ruling for 34 years. She bore the deaths of her favorite Lanskoy (1784) and her great partner Potemkin (1791) while continuing to govern effectively. This represents functioning across both personal bereavement and sustained political adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Dixon, *Catherine the Great* (2009)",
+              "Madariaga, *Russia in the Age of Catherine the Great* (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Catherine inhabited at least four seemingly contradictory roles without fragmenting: (1) German-born princess who became the embodiment of Russian imperial identity; (2) Enlightenment philosopher who ruled as an autocrat; (3) a woman exercising supreme authority in a deeply patriarchal society; (4) personally warm and generous individual who could be politically ruthless (the coup, suppression of Pugachev, expansion of serfdom). She held these tensions together coherently for over three decades."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Dixon, *Catherine the Great* (2009)",
+              "Massie, *Catherine the Great: Portrait of a Woman* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Catherine suffered a massive stroke on November 5, 1796, and died the following day without regaining consciousness, leaving little evidence of composure in the face of imminent death. She did face mortal danger with apparent composure during the 1762 coup. Her philosophical writings touch on mortality abstractly, and she was known to jest about aging in her letters. However, the rubric requires documented composure in facing one's own imminent death, and the sudden nature of her death precludes strong evidence."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Massie, *Catherine the Great: Portrait of a Woman* (2011)",
+              "Dixon, *Catherine the Great* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Catherine was a skilled and daring horsewoman who rode astride (unusual for women of her era) during the 1762 coup and throughout her life. She maintained a rigorous daily schedule—rising at 5-6 AM, walking regularly—well into her sixties. She undertook the arduous journey to Crimea in 1787 at age 58. However, she became increasingly sedentary in her final years and suffered from leg ulcers."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Massie, *Catherine the Great: Portrait of a Woman* (2011)",
+              "Catherine II, correspondence with Grimm"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Catherine was a passionate and discerning art collector who personally selected works for the Hermitage, amassing one of Europe's great collections. She wrote over a dozen comedies and operas for her own Hermitage Theatre—not for political purposes but for personal enjoyment. Her letters to Grimm overflow with delight in gardens, gem-carving (she carved cameos as a hobby, calling it her 'cameo fever'), card games, and her greyhounds. This aesthetic engagement was clearly non-instrumental and sustained throughout her life."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 6.67,
+          "Core_5D_Avg": 7.33,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Catherine the Great",
+      "overall": {
+        "Core_5D_Avg": 7.33,
+        "Overall_Normalized_Equal_Avg": 6.85,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "A brilliant strategist and administrator whose 34-year reign transformed Russia into a European great power. Exceptional in cognitive and cultural-social domains, with enduring institutions (Provincial Reform of 1775, the Hermitage) and a powerful archetype as female sovereign. Moral-affective scores are tempered by the expansion of serfdom and strained parental relationships. Heinlein competency is moderate—strong in leadership and command but limited in manual, agricultural, and subsistence skills befitting a lifetime in royal courts. A paradox-integrating figure: German-born Russian patriot, Enlightenment philosopher and autocrat, personally warm yet politically ruthless.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Catherine personally cooked. She was raised as a princess and lived as an empress with extensive kitchen staff. Her letters reference food preferences but not personal cooking."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Dixon, *Catherine the Great* (2009)",
+            "Massie, *Catherine the Great: Portrait of a Woman* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Catherine donned a guards officer's uniform and rode at the head of 14,000 troops during the 1762 coup, demonstrating personal physical courage in a military context. She directed military strategy from St. Petersburg during the Russo-Turkish Wars. However, she never personally fought in combat. Era-normalized for a female sovereign, her willingness to lead troops personally was unusual."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Madariaga, *Russia in the Age of Catherine the Great* (1981)",
+            "Massie, *Catherine the Great: Portrait of a Woman* (2011)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Catherine founded the Moscow Foundling Home (1764) and the Smolny Institute (1764) for girls' education. She personally championed and underwent smallpox inoculation (1768) to model protective care for her subjects. She was an engaged grandmother who wrote fairy tales for Alexander and Constantine and supervised their early education. These represent genuine caregiving across institutional and personal scales."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Massie, *Catherine the Great: Portrait of a Woman* (2011)",
+            "Dixon, *Catherine the Great* (2009)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Catherine faced the mortal danger of the 1762 coup with composure, risking execution for treason. She endured the deaths of Lanskoy (1784) and Potemkin (1791)—her closest companions—while maintaining effective governance. Her letters reveal grief processed with dignity rather than collapse. However, her sudden death by stroke (1796) provides no evidence of composure in her own final moments."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Catherine II, correspondence with Grimm",
+            "Massie, *Catherine the Great: Portrait of a Woman* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Catherine carved cameos and gems as a personal hobby, describing her 'cameo fever' in letters to Grimm. This represents genuine manual craft skill, though limited to a single decorative domain. No evidence of broader repair or fabrication abilities."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Montefiore, *Prince of Princes: The Life of Potemkin* (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "While Catherine undertook the famous Crimean journey (1787) and traveled extensively within Russia, she was always transported by others. No evidence of personal navigation or wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Catherine personally engaged in butchering, animal husbandry, or food processing. She lived in royal courts from age 14 and had extensive household staff for all such activities."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Dixon, *Catherine the Great* (2009)",
+            "Madariaga, *Russia in the Age of Catherine the Great* (1981)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Catherine demonstrated exceptional leadership across her 34-year reign, commanding loyalty from diverse constituencies—military, nobility, intellectuals, and foreign allies. She equally demonstrated the capacity for followership: she navigated Empress Elizabeth's court for nearly 20 years as a subordinate, learning to defer, observe, and bide her time before seizing power. This dual capacity is well documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Shvidkovsky, *The Empress and the Architect* (1996)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Catherine was personally involved in planning gardens and commissioning architectural projects at Tsarskoye Selo, the Winter Palace, and the Cameron Gallery, demonstrating understanding of design and construction principles. However, she did not personally build or fabricate structures. Era-normalized for a sovereign, her active involvement in architectural planning represents basic competence."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Madariaga, *Russia in the Age of Catherine the Great* (1981)",
+            "Dixon, *Catherine the Great* (2009)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Catherine planned and executed the 1762 coup, coordinating multiple guards regiments and key supporters. She directed grand strategy in two Russo-Turkish Wars, the annexation of Crimea (1783), and the three Partitions of Poland (1772, 1793, 1795), adapting plans as circumstances shifted. She managed the suppression of the Pugachev Rebellion while simultaneously prosecuting the First Turkish War."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Catherine II, *Memoirs* (Cruse trans., 2005)",
+            "Massie, *Catherine the Great: Portrait of a Woman* (2011)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Catherine wrote over a dozen plays (comedies, comic operas, historical dramas) performed at the Hermitage Theatre, composed her own memoirs (a significant literary work), maintained a brilliant epistolary style in her correspondence with Voltaire and Grimm, and carved cameos as a personal hobby. Her artistic output was prolific and genuinely creative, though not considered masterwork-level by literary historians."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Alexander, *Catherine the Great: Life and Legend* (1989)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Catherine championed smallpox inoculation in 1768, personally undergoing the risky procedure and promoting it throughout Russia. She organized the public health response to the Moscow plague of 1771, dispatching Grigory Orlov with authority to implement quarantine measures. These represent emergency public health responses at an administrative level, though not personal medical skill."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Madariaga, *Russia in the Age of Catherine the Great* (1981)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Catherine engaged with economic questions through the Free Economic Society and managed state budgets, understanding revenue and expenditure at a policy level. She grasped demographic and economic statistics in governance. However, she was not known for mathematical sophistication and relied on advisors for detailed financial analysis."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Bartlett, *Human Capital: The Settlement of Foreigners in Russia 1762–1804* (1979)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Catherine promoted agricultural improvement through the Free Economic Society (1765), invited German colonists to cultivate the Volga region and southern steppe via the 1763 Manifesto, and managed the economic development of newly acquired territories. However, these were administrative rather than hands-on agricultural skills."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "LeDonne, *Ruling Russia: Politics and Administration in the Age of Absolutism 1762–1796* (1984)",
+            "Madariaga, *Russia in the Age of Catherine the Great* (1981)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Catherine engaged with cutting-edge ideas of her era: she reorganized provincial government using principles derived from Enlightenment political theory, modernized the Russian navy for Black Sea operations, promoted scientific exploration (including expeditions to Siberia and Alaska), and systematically addressed institutional deficiencies through legal codification. Her ability to diagnose systemic problems and implement structural solutions was a defining competence."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.33,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 6.85,
+    "created_at": "2026-03-22T18:59:31.861Z",
+    "updated_at": "2026-03-22T18:59:31.874Z"
+  }
+}
+]

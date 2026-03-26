@@ -1,0 +1,382 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 203,
+  "fields": {
+    "name": "Hernán Cortés",
+    "slug": "hernan-cortes",
+    "bio_short": "A brilliantly strategic conquistador whose cognitive and leadership gifts enabled one of history's most consequential military-political feats — the fall of the Aztec Empire. Exceptional in strategic intelligence, hardship tolerance, and cultural-social impact, but morally constrained by the violence and exploitation integral to his enterprise. Weak relational depth (suspicious death of first wife, limited parental evidence) and narrow Heinlein breadth (no documented manual, culinary, or medical skills) prevent a higher overall score. His legacy is immense but deeply polarizing — architect of ",
+    "bio_long": "Hernán Cortés, 1st Marquis of the Valley of Oaxaca was a Spanish conquistador, military commander, explorer, captain general, and writer who led an expedition that caused the fall of the Aztec Empire and brought large portions of what is now mainland Mexico under the rule of the King of Castile in the early 16th century. Cortés was part of the generation of Spanish explorers and conquistadors who began the first phase of the Spanish colonization of the Americas.",
+    "source_notes": "https://en.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s",
+    "image": "figures/330px-Retrato_de_HernC3A1n_CortC3A9s.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Hassig, *Mexico and the Spanish Conquest* (2006)",
+              "Thomas, *Conquest: Montezuma, Cortés, and the Fall of Old Mexico* (1993)",
+              "Cortés, *Cartas de Relación* (1519-1526)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cortés repeatedly adapted when plans failed: after the catastrophic Noche Triste retreat (June 30, 1520), he regrouped his shattered force, forged deeper Tlaxcalan alliances, and devised the innovative strategy of building 13 brigantines at Tlaxcala to besiege lake-bound Tenochtitlan. Earlier, he neutralized Pánfilo de Narváez's larger force sent to arrest him through a surprise night attack (May 1520), then incorporated Narváez's men into his own army. His decision to scuttle/beach his ships foreclosed retreat and demonstrated calculated risk management under extreme uncertainty."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Hassig, *Mexico and the Spanish Conquest* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Cortés displayed significant tactical and political creativity: founding Villa Rica de la Vera Cruz as a legal municipality to bypass Governor Velázquez's authority was a brilliant legal innovation; building brigantines inland at Tlaxcala and transporting them to Lake Texcoco for the siege was a remarkable logistical-military invention. His systematic exploitation of inter-ethnic rivalries to build an anti-Aztec coalition was innovative for European conquest strategies. However, these were adaptive innovations within existing paradigms rather than a paradigm shift attributable to him."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Pagden, *Hernán Cortés: Letters from Mexico* (1986, introduction)",
+              "Elliott, 'The Mental World of Hernán Cortés', *Transactions of the Royal Historical Society* (1967)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cortés articulated justifications for conquest in his five Cartas de Relación to Charles V, framing Spanish rule as a civilizing Christian mission and constructing legal arguments about indigenous sovereignty. These were rhetorically sophisticated but primarily instrumental — designed to legitimize his unauthorized expedition. His reasoning did not produce novel ethical principles that influenced thinkers beyond his immediate political context, though his letters contributed to broader debates about just conquest (e.g., the Valladolid debate came later)."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Chipman, *Moctezuma's Children: Aztec Royalty under Spanish Rule* (2005)",
+              "Cortés, *Cartas de Relación*"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Cortés established the initial governance of New Spain: founding municipalities, organizing encomiendas, initiating the reconstruction of Mexico City atop Tenochtitlan, and managing tribute systems. The Vera Cruz founding was a masterful legal-administrative maneuver. However, his personal governance was short-lived — he was replaced by a royal audiencia (1528) and the viceregal system (1535). His administrative structures were substantially modified by successors, preventing a score of 3."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Díaz del Castillo, *Historia verdadera*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cortés operated across multiple relational modes with documented variation: subordinate (to Velázquez, then Charles V), commander of soldiers, diplomatic equal (with Moctezuma), intimate partner (multiple relationships), father (to legitimate and illegitimate children), adversary (Narváez, Cuauhtémoc), ally (Tlaxcalans), and courtier at Charles V's court. His behavior adapted across these contexts — deferential at court, commanding in the field, diplomatic with Moctezuma. This covers at least five modes with qualitative adaptation, though deep documentation of all is limited."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Lanyon, *Malinche's Conquest* (1999)",
+              "Díaz del Castillo, *Historia verdadera*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cortés's first marriage to Catalina Suárez was reportedly unhappy; she died shortly after arriving in Mexico (1522) under circumstances that prompted a murder investigation, though Cortés was not formally convicted. His relationship with Malinche (Doña Marina) was deeply unequal — she was an enslaved interpreter who bore him a son Martín. His second marriage to Juana de Zúñiga (1529) was a political alliance with a noble family. He had numerous extramarital affairs. Evidence of mutual respect, emotional availability, and support during crisis is thin across all partnerships."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Chipman, *Moctezuma's Children* (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cortés acknowledged his illegitimate son Martín (by Malinche) and had him legitimized by papal bull, and brought him to Spain — unusual for the era and showing some paternal investment. He had several children by Juana de Zúñiga. However, his legitimate son Martín Cortés later led an unsuccessful conspiracy in Mexico (1566) that suggests poor mentoring in judgment. There is limited evidence of deep formative mentoring leading to genuine autonomy and competence. He reportedly mentored some conquistador subordinates but specifics are sparse."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Restall, *When Montezuma Met Cortés* (2018)",
+              "Thomas, *Conquest* (1993)",
+              "Crosby, *The Columbian Exchange* (1972)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The conquest of the Aztec Empire fundamentally reshaped world history. Its effects remain clearly operative 500+ years later across multiple civilizations: Spanish is spoken by 500+ million people, Catholicism dominates Latin America, mestizo cultures define Mexico and Central America, and the geopolitical boundaries Cortés helped create persist. The Columbian Exchange accelerated dramatically through the conquest of Mexico. Cortés's actions are a defining inflection point in the history of the Americas, Europe, and global colonialism."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Restall, *When Montezuma Met Cortés* (2018)",
+              "Paz, *The Labyrinth of Solitude* (1950)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cortés resonates as the archetype of the bold conquistador — the cunning outsider who topples an empire. In Mexico, he is a deeply ambivalent symbol: associated with La Malinche and mestizaje, destruction and creation. He is recognized cross-culturally as a symbol of European colonialism and its consequences. However, his archetypal status is less universal than figures like Alexander the Great or Caesar; he functions primarily within Western and Latin American cultural consciousness rather than globally."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Gibson, *The Aztecs Under Spanish Rule* (1964)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Cortés founded the colony of New Spain, established municipalities (Vera Cruz, rebuilt Mexico City), introduced the encomienda system, initiated Franciscan missionary activities, and created the basic colonial infrastructure. New Spain endured as a colonial entity for three centuries (1521-1821), well beyond two generations. However, Cortés's personal institutional designs were substantially modified: he was replaced by royal appointees, the viceregal system superseded his governance model, and the specific institutions he built were transformed. The colony endured, but its mature institutional form was shaped more by the Crown than by Cortés."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Hassig, *Mexico and the Spanish Conquest* (2006)",
+              "Díaz del Castillo, *Historia verdadera*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cortés led successfully across qualitatively different contexts: commanding a small band of 500+ Spaniards, managing a multi-ethnic coalition of tens of thousands of indigenous allies, conducting diplomacy with Moctezuma inside Tenochtitlan, leading during the military crisis of the Noche Triste, prosecuting a complex siege operation, governing New Spain as Captain General, and navigating courtly politics in Spain. He maintained remarkable loyalty from his men through extreme hardship and persuaded Tlaxcalans and other groups to join his cause despite the risks."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Díaz del Castillo, *Historia verdadera*",
+              "Thomas, *Conquest* (1993)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Evidence of mundane everyday activities is limited. Díaz del Castillo mentions Cortés gambling at cards and dice, engaging in casual conversation, and dressing plainly on campaign. His letters are political-military documents, not personal reflections. There is little documented engagement with cooking, manual labor, humor with children, or other everyday activities at the height of his power. His origins in minor Extremaduran nobility are relatable, but documented mundane engagement during his years of power is sparse."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Cortés's last will and testament (1547)",
+              "Elliott, 'The Mental World of Hernán Cortés' (1967)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cortés used legal frameworks instrumentally — the founding of Vera Cruz was a legal maneuver for self-authorization, not principled jurisprudence. He maintained military discipline through occasional harsh justice against his own men. His will (1547) included a remarkable clause asking his heir to investigate whether his encomienda holdings were justly acquired, suggesting late-life moral doubt. However, he ordered the torture of Cuauhtémoc, implemented exploitative encomiendas, and showed little evidence of ruling against personal interest on principle during his active career."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Díaz del Castillo, *Historia verdadera de la conquista de la Nueva España* (c. 1568)",
+              "Thomas, *Conquest* (1993)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cortés showed limited compassion, primarily toward his own men — reportedly weeping at the Noche Triste and mourning fallen soldiers. He acknowledged illegitimate children including his son Martín by Malinche and brought him to Spain. However, these are weighed against the Cholula massacre (October 1519), the systematic destruction of Tenochtitlan, and the torture of Cuauhtémoc to extract gold information. Even with era normalization, documented compassion toward adversaries or outgroup members is sparse. Without the counterexamples this might reach 2; with them, 1 is appropriate given the scale of harm."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Díaz del Castillo, *Historia verdadera*",
+              "Thomas, *Conquest* (1993)",
+              "Hassig, *Mexico and the Spanish Conquest* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cortés demonstrated sustained physical and moral courage across numerous high-stakes situations: launching an unauthorized expedition against a vastly larger empire (1519), scuttling his ships, personally fighting through the Noche Triste retreat while wounded, regrouping after devastating defeat to prosecute a successful siege, confronting Narváez's force, and enduring the grueling Honduras overland expedition (1524-1526) through jungle wilderness. He continued campaigning into his fifties at Algiers (1541). This is courage sustained across qualitatively different contexts over decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Cortés's testament (1547)",
+              "Díaz del Castillo, *Historia verdadera*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The encomienda clause in Cortés's 1547 will — directing his son to investigate whether indigenous tribute was justly exacted — suggests genuine moral reflection near death. His later advocacy for some protections of indigenous peoples (contrasted with earlier violence) hints at growth. However, there is no documented instance of Cortés explicitly acknowledging a specific error and visibly changing behavior during his active career. The will provision is suggestive but came only at the end of life. Sources are primarily from his own letters and Díaz del Castillo's sympathetic account, capping confidence."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Díaz del Castillo, *Historia verdadera*",
+              "Hassig, *Mexico and the Spanish Conquest* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cortés functioned effectively under multiple qualitatively different forms of adversity: military catastrophe (Noche Triste, losing most of his force and treasure), material deprivation (near-starvation during the Honduras expedition), tropical illness, political persecution (stripped of governorship, subjected to residencia investigations, marginalized at court), personal grief (death of his first wife Catalina Suárez under suspicious but painful circumstances, loss of companions), and prolonged legal battles. After each crisis he regrouped and pursued new objectives."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Elliott, 'The Mental World of Hernán Cortés' (1967)",
+              "Thomas, *Conquest* (1993)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cortés inhabited multiple contradictory roles: rebel against Velázquez yet loyal servant of Charles V; destroyer of Tenochtitlan yet builder of Mexico City; ruthless military commander yet diplomatic negotiator who preferred alliance to battle; pious Christian who endowed convents yet tortured prisoners; unauthorized adventurer yet meticulous legalist. These are genuine paradoxes navigated pragmatically rather than philosophically. He held at least three contradictory roles, but whether this reflects deep integration or mere situational pragmatism is debatable, preventing a score of 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Cortés's testament (1547)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cortés faced death repeatedly in battle and expedition with apparent composure. In his final years (1540s), increasingly marginalized and in declining health, he prepared a detailed will addressing spiritual and material concerns, including the remarkable encomienda justice clause suggesting moral reckoning. He arranged for his bones to be eventually transferred to Mexico. He died at Castilleja de la Cuesta in 1547 after receiving last rites. While there is no dramatic deathbed composure narrative, his sustained equanimity in the face of mortal danger throughout his career and his thoughtful end-of-life preparations merit a 2."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Thomas, *Conquest* (1993)",
+              "Díaz del Castillo, *Historia verdadera*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cortés endured extraordinary physical hardship across multiple life stages: the march from Vera Cruz to Tenochtitlan through mountainous terrain (1519), fighting while wounded during the Noche Triste, the brutal Honduras overland expedition through tropical jungle (1524-1526) that nearly killed him, and campaigning at Algiers at age 56 (1541). He was a competent horseman and swordsman. However, he also suffered recurring illnesses (malaria, injuries) and is not primarily remembered for individual physical feats."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Díaz del Castillo, *Historia verdadera*",
+              "Cortés, *Second Letter of Relation* (1520)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Díaz del Castillo reports Cortés enjoyed gambling at cards and dice and was sociable in camp settings. Cortés expressed genuine aesthetic wonder at Tenochtitlan in his Second Letter, describing the city's beauty in vivid detail. He later invested in building palatial estates in Cuernavaca and Oaxaca. However, most evidence of aesthetic engagement is intertwined with political display or literary-diplomatic purpose (the letters were addressed to Charles V). Non-instrumental play or aesthetic engagement is only episodically documented."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.02,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Hernán Cortés",
+      "overall": {
+        "Core_5D_Avg": 6.02,
+        "Overall_Normalized_Equal_Avg": 5.76,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "A brilliantly strategic conquistador whose cognitive and leadership gifts enabled one of history's most consequential military-political feats — the fall of the Aztec Empire. Exceptional in strategic intelligence, hardship tolerance, and cultural-social impact, but morally constrained by the violence and exploitation integral to his enterprise. Weak relational depth (suspicious death of first wife, limited parental evidence) and narrow Heinlein breadth (no documented manual, culinary, or medical skills) prevent a higher overall score. His legacy is immense but deeply polarizing — architect of mestizo Latin America and symbol of colonial destruction alike.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists of Cortés personally preparing meals. As a commander and later a marquis, food preparation was handled by servants and camp cooks. The historical record is silent on any personal culinary engagement."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Díaz del Castillo, *Historia verdadera*",
+            "Thomas, *Conquest* (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cortés personally fought in numerous engagements: the night attack on Narváez's camp, hand-to-hand combat during the Noche Triste retreat (reportedly fighting his way across the Tacuba causeway while wounded), and various skirmishes during the conquest. Díaz del Castillo describes him as a competent swordsman and courageous horseman. He continued to offer personal combat capability at Algiers in 1541 at age 56. He was not primarily an individual warrior, but demonstrated real personal combat skill across multiple situations."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Thomas, *Conquest* (1993)",
+            "Díaz del Castillo, *Historia verdadera*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Cortés reportedly cared for wounded soldiers during campaigns and acknowledged illegitimate children including Martín. He endowed hospitals and convents in New Spain. However, no specific evidence of personal hands-on caregiving — his caregiving was institutional (patronage) rather than direct. Episodic and limited."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Díaz del Castillo, *Historia verdadera*",
+            "Thomas, *Conquest* (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cortés faced mortal danger repeatedly with documented composure: scuttling ships with no retreat, the Noche Triste, multiple battles, and the Honduras expedition's privations. In his final years, politically marginalized and in declining health, he prepared a thoughtful will, sought religious absolution, and arranged his affairs with deliberation rather than despair. Díaz del Castillo portrays him as composed under fire. He does not reach 3 because accounts of his actual death lack the dramatic composure narrative the rubric requires for the top score."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Thomas, *Conquest* (1993)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence exists of Cortés personally making, fixing, or adapting tools or physical systems. As a man of minor noble background who served as a military commander, manual craft was not part of his documented skill set. Tasks of this nature were delegated to specialists."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Thomas, *Conquest* (1993)",
+            "Díaz del Castillo, *Historia verdadera*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cortés navigated his expedition from Cuba along the Mexican coast (choosing landing sites), then inland through unknown mountainous terrain to Tenochtitlan. The Honduras overland expedition (1524-1526) required navigating through dense tropical jungle with minimal maps. He relied heavily on indigenous guides but made key directional and route decisions. He also organized Pacific coast exploration expeditions in the 1530s, demonstrating navigational planning across sea and land environments."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Thomas, *Conquest* (1993)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Cortés managed livestock estates as Marquis of the Valley of Oaxaca and introduced European cattle and horses to his holdings. On campaign, his forces necessarily processed food from local sources. However, there is no specific documented evidence of personal skill in butchering, animal husbandry, or food processing — these tasks were delegated."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Thomas, *Conquest* (1993)",
+            "Díaz del Castillo, *Historia verdadera*"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Cortés was an exceptional leader who inspired loyalty through extreme hardship — his men followed him through the Noche Triste, the siege, and the Honduras expedition. He also demonstrated followership: he submitted to Charles V's authority, accepted the residencia investigations (however reluctantly), deferred to the Crown when stripped of the governorship rather than rebelling, and cooperated with indigenous allies as a coalition partner rather than unilateral commander. He both gave orders and took them across his career."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Thomas, *Conquest* (1993)",
+            "Hassig, *Mexico and the Spanish Conquest* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Cortés oversaw the construction of 13 brigantines at Tlaxcala for the siege of Tenochtitlan and directed the rebuilding of Mexico City, including his palace in Cuernavaca. However, he functioned as a patron and commander of these projects rather than as a hands-on builder. His shipwright Martín López did the technical work on the brigantines. Era-normalized for a commander, this is supervisory competence, not personal fabrication skill."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Hassig, *Mexico and the Spanish Conquest* (2006)",
+            "Thomas, *Conquest* (1993)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The conquest of Mexico stands as one of history's most remarkable strategic achievements: coordinating a coalition of thousands of indigenous allies, managing logistics across unknown terrain, adapting after the Noche Triste to devise the brigantine-based siege of Tenochtitlan, and simultaneously managing the political threat from Narváez's expedition and Velázquez's legal challenges. Each phase required complex multi-variable planning under extreme uncertainty."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Pagden, *Hernán Cortés: Letters from Mexico* (1986)",
+            "Cortés, *Cartas de Relación*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Cortés's five Cartas de Relación are vivid, detailed accounts with genuine literary merit — his description of Tenochtitlan's market and city layout in the Second Letter is justly famous. They represent significant achievement in the genre of exploration literature. However, they were primarily political-military documents, not works of art per se. He had some education from Salamanca but produced no other creative works."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Thomas, *Conquest* (1993)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence of Cortés personally treating injury or illness. His expeditions relied on barber-surgeons and improvised field medicine provided by others. He experienced medical emergencies (wounds, illness) as a patient rather than a provider."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Thomas, *Conquest* (1993)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Cortés studied briefly at the University of Salamanca (reportedly in law, not mathematics). He managed complex logistics — supplies, tribute systems, expedition finances — requiring quantitative competence. He organized the colonial treasury of New Spain. However, no specific mathematical or analytical achievements are documented; his reasoning was strategic and political rather than quantitative in character."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Thomas, *Conquest* (1993)",
+            "Gibson, *The Aztecs Under Spanish Rule* (1964)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "As Marquis of the Valley of Oaxaca, Cortés managed extensive estates involving sugar cultivation, livestock, and silk production. He introduced new agricultural techniques and crops to his holdings. However, this was estate management through overseers rather than personal agricultural skill. The estates were profitable, indicating competent resource management, but at a managerial rather than hands-on level."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Hassig, *Mexico and the Spanish Conquest* (2006)",
+            "Thomas, *Conquest* (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cortés conceived and directed the construction of brigantines at an inland location and their transport to Lake Texcoco — a major technical-logistical innovation for the era. He organized the rebuilding of Mexico City on an island, managing water supply, infrastructure, and urban planning. He later sponsored Pacific coast shipbuilding and exploration. While he relied on specialists (Martín López for the brigantines), he identified the technical problems and commissioned creative solutions, representing strong era-normalized technical problem-solving."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.02,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 5.76,
+    "created_at": "2026-03-22T22:16:08.696Z",
+    "updated_at": "2026-03-22T22:16:08.714Z"
+  }
+}
+]

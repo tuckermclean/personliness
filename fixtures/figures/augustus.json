@@ -1,0 +1,373 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 171,
+  "fields": {
+    "name": "Augustus",
+    "slug": "augustus",
+    "bio_short": "Augustus scores exceptionally on cognitive, cultural-social, and embodied-existential dimensions, reflecting his role as Rome's transformative first emperor. His invention of the Principate, institution-building, and strategic genius are historically unparalleled. Moral-affective scores are dampened by the proscriptions and harsh treatment of family. Relational scores suffer from instrumental parenting and dynastic calculus. Heinlein competency is moderate: supreme in leadership and strategic planning but, as a lifelong aristocrat and frequently ill emperor, lacking in manual, culinary, and me",
+    "bio_long": "Augustus, also known as Octavian, was the founder of the Roman Empire and the first Roman emperor from 27 BC until his death in AD 14. The reign of Augustus initiated an imperial cult and an era of imperial peace in which the Roman world was largely free of armed conflict. The principate, a style of government where the emperor showed nominal deference to the Senate, was established during his reign and lasted until the Crisis of the Third Century.",
+    "source_notes": "https://en.wikipedia.org/wiki/Augustus",
+    "image": "figures/330px-Augustus_of_Prima_Porta_28inv._229029.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Syme, *The Roman Revolution* (1939)",
+              "Eck, *The Age of Augustus* (2003)",
+              "Suetonius, *Divus Augustus*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Augustus repeatedly adapted when initial plans failed: after naval defeats against Sextus Pompey (38–36 BC), he brought in Agrippa to rebuild the fleet and win at Naulochus. When the constitutional settlement of 27 BC proved politically awkward, he renegotiated in 23 BC, surrendering the consulship for tribunicia potestas and maius imperium. His transformation from triumviral warlord to 'restorer of the Republic' required decades of strategic recalibration."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Syme, *The Roman Revolution* (1939)",
+              "Millar, *The Emperor in the Roman World* (1977)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Principate itself was a genuinely novel political invention—monarchy disguised as restored republic—without precedent in the ancient world. Augustus created a before/after paradigm shift: before him, Rome was a republic; after him, it was a disguised monarchy for centuries. He also innovated structurally: the cursus publicus (imperial postal system), the aerarium militare (military treasury), the praefectus annonae (grain supply), and the division of provinces into senatorial and imperial were all new."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Galinsky, *Augustan Culture* (1996)",
+              "Augustus, *Res Gestae Divi Augusti*"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Augustus promoted traditional Roman moral values through legislation (Lex Julia de maritandis ordinibus, Lex Julia de adulteriis coercendis) and the moral program of the Ara Pacis and Augustan literature. However, he articulated no original ethical framework; his moral vision was conservative restoration rather than philosophical innovation. The Res Gestae is political propaganda, not philosophical reflection."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Eck, *The Age of Augustus* (2003)",
+              "Brunt and Moore, *Res Gestae Divi Augusti* (1967)",
+              "Talbert, *The Senate of Imperial Rome* (1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Augustus reorganized Roman governance from top to bottom: a professional standing army with fixed enlistment and retirement benefits, provincial administration with equestrian procurators, urban services (vigiles, cohortes urbanae), reformed taxation, and extensive social legislation. These systems functioned for centuries beyond his lifetime—the provincial structure and military organization persisted in recognizable form through the 3rd century and beyond."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Syme, *The Roman Revolution* (1939)",
+              "Suetonius, *Divus Augustus*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Augustus occupied multiple relational modes: spouse (devoted partnership with Livia), parent (strict, dynastic), friend (lifelong loyalty with Agrippa and Maecenas, marked by genuine generosity and collaborative decision-making), adversary (ruthless toward Antony and Sextus Pompey), superior (carefully calibrated deference-in-dominance toward the Senate), subordinate (nominal deference to republican traditions). That covers at least six modes. However, a political/calculating quality pervades most relationships, limiting the qualitative distinctness between modes. The evidence suggests adaptability but not full transformation of relational style."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Suetonius, *Divus Augustus* 62–63, 69, 99",
+              "Barrett, *Livia: First Lady of Imperial Rome* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Augustus's marriage to Livia Drusilla lasted ~52 years (38 BC–AD 14), one of the longest imperial partnerships on record. Suetonius reports genuine affection and that Augustus sought Livia's counsel on important matters. His deathbed farewell to Livia ('Live mindful of our marriage') suggests deep emotional connection. However, he divorced Scribonia on the day she bore Julia, reportedly had affairs (Suetonius records several), and his initial marriage to Livia was politically motivated (he took her from her first husband while she was pregnant). Mutual respect and endurance are documented, but full mutuality is complicated."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Suetonius, *Divus Augustus* 64–65",
+              "Levick, *Tiberius the Politician* (1976)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Augustus's parenting was heavily instrumental. He banished his only biological child Julia for adultery (2 BC), never allowing her return. He forced his stepson Tiberius to divorce his beloved wife Vipsania Agrippina to marry Julia—a decision that reportedly left Tiberius emotionally damaged. His preferred heirs (Marcellus, Gaius, Lucius) were groomed as political successors rather than nurtured as individuals, all dying before him. Suetonius records he supervised their education strictly. As a mentor to administrators, his record is stronger, but the rubric's test—whether dependents developed genuine autonomy—is poorly met."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Galinsky, *Augustan Culture* (1996)",
+              "Ando, *Imperial Ideology and Provincial Loyalty in the Roman Empire* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Augustus's impact remains operative over 2,000 years later: Roman law (foundational to Western legal systems), the concept and title of 'emperor' (Kaiser, Tsar derive from Caesar/Augustus), the calendar month of August, the political model of autocracy masked as limited government. His Pax Romana became the archetype of imperial peace. His legacy shaped Byzantine, Holy Roman, and subsequent European empires."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Zanker, *The Power of Images in the Age of Augustus* (1988)",
+              "Galinsky, *Augustan Culture* (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Augustus is the archetypal 'founder-emperor' across Western civilization. He appears in the Gospel of Luke (2:1) as the ruler who ordered the census at Christ's birth, embedding him in Christian consciousness. Dante placed him in Limbo (Inferno 4). He was consciously emulated by Charlemagne, the Holy Roman Emperors, Napoleon, and Mussolini. The 'Augustan Age' became a template applied to other cultures (e.g., Augustan literature in 18th-century England)."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Millar, *The Emperor in the Roman World* (1977)",
+              "Talbert, *The Senate of Imperial Rome* (1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Principate survived in recognizable form for roughly 300 years; the Praetorian Guard lasted until 312; the provincial system and professional legionary army endured for centuries. The imperial cult became embedded across the Mediterranean. Augustus's administrative innovations (procurators, prefects, aerarium militare) formed the backbone of Roman governance long beyond his lifetime—far exceeding the two-generation threshold."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Syme, *The Roman Revolution* (1939)",
+              "Eck, *The Age of Augustus* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Augustus led successfully across qualitatively distinct contexts: civil war commander (Philippi, Actium), political negotiator (Second Triumvirate, constitutional settlements), peacetime administrator of a vast empire (27 BC–AD 14), and cultural patron (directing the Augustan literary golden age through Maecenas). He inspired lifelong loyalty from Agrippa, Maecenas, and Livia, and maintained control of both Senate and legions for over 40 years."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Suetonius, *Divus Augustus* 72–77, 83"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Suetonius records that Augustus ate simply (bread, small fish, cheese, green figs), wore homespun clothes made by Livia and female relatives, lived in a relatively modest house on the Palatine, enjoyed dice games, fishing, and playing with children. These details suggest genuine connection to everyday life even at the summit of power. However, Suetonius wrote ~100 years after Augustus and these details may serve an idealized portrait."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Suetonius, *Divus Augustus* 33–34",
+              "Crook, *Law and Life of Rome* (1967)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Augustus reformed the Roman legal system, established permanent courts (quaestiones perpetuae), personally heard cases, and created the office of praefectus urbi to maintain order. Suetonius records instances of fair adjudication. However, the proscriptions of 43 BC represent a profound abandonment of justice, and his exile of Ovid and Julia involved extrajudicial punishment. Without the proscriptions, score would be 3; with them at full weight, 1–2. I score 2 because his later decades showed consistent commitment to legal order and institutional justice."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Suetonius, *Divus Augustus* 65–67",
+              "Seneca, *De Clementia* 1.9",
+              "Appian, *Civil Wars* 4.1–6"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The proscriptions of 43 BC, to which Augustus consented, resulted in the deaths of hundreds including Cicero—a devastating counterexample. He later banished his own daughter Julia in 2 BC and granddaughter Julia the Younger, showing rigidity over compassion in family matters. Seneca's account of his clemency toward Cinna (De Clementia 1.9) and Suetonius's reports of generosity to freedmen and the populace suggest some compassion in later life. Without the proscriptions and Julia's exile, score would be 2; with them at full weight, 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Suetonius, *Divus Augustus* 10, 13, 23",
+              "Goldsworthy, *Augustus: First Emperor of Rome* (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Augustus's physical courage was limited—he was reportedly ill at Philippi (42 BC) and absent from direct command at Actium (31 BC, where Agrippa led). However, his political and existential courage was extraordinary: entering Roman politics at age 18 against Antony and the conspirators, surviving the dangerous triumviral period, and enduring the Varus disaster of AD 9 (loss of three legions) without political collapse. His resilience across decades of crisis qualifies as sustained, though not physically heroic."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Syme, *The Roman Revolution* (1939)",
+              "Suetonius, *Divus Augustus* 27, 51"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The contrast between the ruthless young triumvir of the proscriptions (43 BC) and the mature princeps known for clementia is one of the most dramatic behavioral transformations in the historical record. His shift from violence to measured governance was visible and sustained. He revised the constitutional settlement in 23 BC after recognizing problems. However, he never explicitly acknowledged past errors—the Res Gestae omits the proscriptions entirely—so the growth is behavioral rather than articulated."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Suetonius, *Divus Augustus* 23, 65",
+              "Velleius Paterculus, *Roman History* 2.117"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Augustus endured qualitatively different forms of adversity: life-threatening political danger from age 18, chronic serious illness (nearly died in 23 BC), devastating personal bereavements (deaths of Marcellus in 23 BC, Gaius Caesar in AD 4, Lucius Caesar in AD 2), the family scandal of Julia's exile (2 BC), and the military catastrophe of the Teutoburg Forest (AD 9, loss of three legions). He continued to govern effectively through all of these, though Suetonius reports he was shattered by the Varus disaster."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Syme, *The Roman Revolution* (1939)",
+              "Galinsky, *Augustan Culture* (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Augustus inhabited at least five seemingly contradictory roles coherently: (1) revolutionary who restored tradition, (2) autocrat who preserved republican forms, (3) ruthless civil war leader who became peacemaker, (4) physically frail man who held supreme military command (imperator), (5) man of simple personal habits who commanded the wealthiest state in the world. The Principate itself was a paradox—monarchy disguised as republic—and he sustained it for 40+ years without the facade collapsing."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Suetonius, *Divus Augustus* 99",
+              "Cassius Dio, *Roman History* 56.30"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Augustus's death in AD 14 at Nola is one of antiquity's best-documented deathbed scenes. He asked assembled friends whether he had 'played the mime of life creditably' and requested their applause as if at the end of a performance. He kissed Livia farewell, saying 'Live mindful of our marriage, Livia, and farewell.' He had meticulously prepared: the succession arranged, the Res Gestae composed, the breviarium imperii completed. This represents extraordinary composure in the face of one's own imminent death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Suetonius, *Divus Augustus* 80–82",
+              "Goldsworthy, *Augustus* (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Augustus was famously sickly. Suetonius catalogs numerous illnesses: near-fatal sickness in 23 BC, liver complaints, bladder stones, seasonal ailments, and skin conditions. He was reportedly ill at Philippi and generally avoided direct combat. However, he survived to age 75 and traveled extensively across the empire (Spain, Gaul, the East), which required some physical stamina. His fragility is a defining trait that limits this score."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Suetonius, *Divus Augustus* 71, 83"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Suetonius records Augustus enjoyed dice games (sometimes gambling with friends), fishing, playing ball, and joking with children. He patronized the Augustan literary golden age (Virgil, Horace, Ovid) and rebuilt Rome with magnificent architecture. Some of this patronage was instrumental (propaganda), but the dice-playing, fishing, and play with children appear to be genuinely non-instrumental personal pleasures."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.28,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Augustus (Gaius Octavius / Imperator Caesar Divi Filius Augustus, 63 BC – AD 14)",
+      "overall": {
+        "Core_5D_Avg": 7.28,
+        "Overall_Normalized_Equal_Avg": 6.81,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Augustus scores exceptionally on cognitive, cultural-social, and embodied-existential dimensions, reflecting his role as Rome's transformative first emperor. His invention of the Principate, institution-building, and strategic genius are historically unparalleled. Moral-affective scores are dampened by the proscriptions and harsh treatment of family. Relational scores suffer from instrumental parenting and dynastic calculus. Heinlein competency is moderate: supreme in leadership and strategic planning but, as a lifelong aristocrat and frequently ill emperor, lacking in manual, culinary, and medical domains. Core 5D Avg: 7.28/10; Heinlein Avg: 4.44/10; Overall: 6.81/10.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Suetonius, *Divus Augustus* 76–77"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Suetonius records Augustus's preference for simple foods—coarse bread, small fishes, hand-pressed cheese, and green figs—but no evidence he prepared meals himself. Cooking was performed by household slaves."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Suetonius, *Divus Augustus* 10, 16",
+            "Appian, *Civil Wars* 4.110"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Augustus participated in the battles of Mutina (43 BC) and Philippi (42 BC), though he was reportedly ill at Philippi and Agrippa led at Actium. Suetonius mentions his courage in a few skirmishes but also notes he avoided personal combat when possible. He was not a distinguished warrior, and his military reputation rested on subordinates. Score reflects minimal personal combat participation, era-normalized for a commander-in-chief."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Suetonius, *Divus Augustus* 98"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Suetonius records Augustus was attentive to sick members of his household and distributed gifts to the Roman populace. He reportedly comforted friends in bereavement. However, specific evidence of sustained hands-on caregiving is thin; his care was primarily exercised through delegation and patronage rather than personal nursing or nurture."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Suetonius, *Divus Augustus* 99",
+            "Cassius Dio, *Roman History* 56.30"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Augustus's deathbed scene at Nola (AD 14) is a model of existential composure: he asked friends if he had 'played the mime of life creditably,' requested applause, kissed Livia farewell with tenderness, and died calmly. He had spent years preparing for death—arranging succession, composing the Res Gestae, completing the breviarium imperii. Throughout his life, he faced multiple near-death illnesses with recovery and continued functioning."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal manual craft or repair skills. Augustus was raised as an aristocrat and lived as emperor; manual labor and repair were performed by slaves, freedmen, and specialists."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Suetonius, *Divus Augustus* 47, 82"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Augustus traveled extensively—to Spain (27–25 BC), Gaul, the eastern provinces, and throughout Italy—demonstrating familiarity with Mediterranean geography. He commissioned Agrippa's world map. However, he traveled with military escorts and professional guides; no evidence of personal navigational skill beyond general geographic knowledge required of a commander."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Augustus personally butchered animals or processed food. As a Roman aristocrat and emperor, these tasks were performed by slaves and freedmen. Anti-halo rule applies: his administrative mastery does not imply practical food-processing skills."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Syme, *The Roman Revolution* (1939)",
+            "Eck, *The Age of Augustus* (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Augustus exercised supreme leadership over the Roman Empire for 40+ years and is remembered as one of history's most effective leaders. Critically, he also demonstrated followership: he deferred to Agrippa's military expertise at Actium and in the Sextus Pompey campaigns, accepted counsel from Livia and Maecenas, and maintained the political fiction of senatorial authority—effectively 'following' republican norms even as princeps."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Suetonius, *Divus Augustus* 28–29",
+            "Zanker, *The Power of Images in the Age of Augustus* (1988)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Augustus directed one of history's greatest building programs ('I found Rome a city of bricks and left it a city of marble'—Suetonius). He oversaw construction of the Forum of Augustus, Temple of Mars Ultor, and extensive infrastructure. However, he worked through architects and engineers; no evidence of personal construction skills. Score reflects his sophisticated understanding of design and building as a patron-director."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Syme, *The Roman Revolution* (1939)",
+            "Goldsworthy, *Augustus* (2014)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Augustus orchestrated the defeat of Sextus Pompey (adapting after initial naval failures by commissioning Agrippa's fleet-building program), the campaign against Antony culminating at Actium (31 BC), and the administrative reorganization of the entire Roman Empire. He planned and managed complex multi-theater military operations and the 40-year transformation of Roman governance."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Suetonius, *Divus Augustus* 85",
+            "Galinsky, *Augustan Culture* (1996)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Augustus reportedly composed a tragedy ('Ajax') but destroyed it, wrote an autobiography (now lost), and composed epigrams. The Res Gestae Divi Augusti is a masterful piece of political prose. He was the great patron of Virgil, Horace, and the Augustan literary age, but primarily through Maecenas. His personal artistic output was limited and largely destroyed or lost."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Suetonius, *Divus Augustus* 81"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Augustus possessed medical skills. He was frequently a patient himself, treated by physicians like Antonius Musa (who cured his near-fatal illness in 23 BC with cold-water therapy). Anti-halo rule: his administrative competence does not imply medical knowledge."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Suetonius, *Divus Augustus* 101",
+            "Cassius Dio, *Roman History* 56.33"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Augustus maintained detailed accounts of the empire's resources, producing the breviarium imperii—a comprehensive accounting of military forces, provincial revenues, and treasury balances—left at his death. He established the aerarium militare with precise funding mechanisms and reformed imperial taxation. This required sophisticated numerical and analytical capacity, even if assisted by staff."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Eck, *The Age of Augustus* (2003)",
+            "Garnsey, *Famine and Food Supply in the Graeco-Roman World* (1988)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Augustus managed the resource economy of the largest Mediterranean state: he reformed the grain dole, created the praefectus annonae to ensure Rome's food supply, managed provincial resource extraction, and directed infrastructure investment (roads, aqueducts, harbors). Era-normalized, overseeing the sustainable provisioning of an empire of ~60 million people represents high competence, though exercised through administrators."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Eck, *The Age of Augustus* (2003)",
+            "Millar, *The Emperor in the Roman World* (1977)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Augustus directed the deployment of cutting-edge Roman engineering: the cursus publicus (postal/communication system), Agrippa's road network and aqueducts, harbor construction at Misenum and Ravenna for permanent naval bases, and the systematic reorganization of coinage and measurement standards. He integrated these systems across a vast empire, demonstrating sophisticated technical-systemic thinking even if personally delegating execution."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.28,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 6.81,
+    "created_at": "2026-03-22T21:32:44.117Z",
+    "updated_at": "2026-03-22T21:32:44.131Z"
+  }
+}
+]

@@ -1,0 +1,378 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 144,
+  "fields": {
+    "name": "Boudica",
+    "slug": "boudica",
+    "bio_short": "Boudica scores highest on courage, embodied resilience, and leadership — the traits that define her historical memory. She coordinated a multi-tribal revolt against Rome in 60-61 CE, endured flogging and the violation of her daughters, and led from the front. However, the extreme thinness of the source record (only Tacitus and Cassius Dio, both Roman) leaves most domains unscored or low-confidence. Her Heinlein competency is severely limited by lack of evidence for everyday skills. She is primarily a figure of one extraordinary crisis, not a documented polymath or institution-builder, and her ",
+    "bio_long": "Boudica or Boudicca was a queen of the ancient British Iceni tribe, who led a failed uprising against the conquering forces of the Roman Empire in AD 60 or 61. She is considered a British national heroine and a symbol of the struggle for justice and independence.",
+    "source_notes": "https://en.wikipedia.org/wiki/Boudica",
+    "image": "figures/330px-Queen_Boudica_by_John_Opie.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Tacitus, Annals 14.31-37",
+              "Cassius Dio, Roman History 62.1-12",
+              "Webster, Boudica: The British Revolt Against Rome AD 60 (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Boudica timed her revolt while governor Suetonius Paulinus was campaigning in distant Mona (Anglesey), coordinated the Iceni, Trinovantes, and allied tribes into a single force, and destroyed Camulodunum, Londinium, and Verulamium in sequence, annihilating the IX Hispana legion's relief column en route. However, at the decisive Battle of Watling Street she failed to adapt to Paulinus's chosen defensive terrain, and her massed assault was routed — her forces trapped by their own baggage train behind them. Strong initial planning, but inability to adapt at the critical juncture prevents a score of 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Hingley & Unwin, Boudica: Iron Age Warrior Queen (2005)",
+              "Collingridge, Boudica (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Organizing a multi-tribal coalition against Rome was not unprecedented in the ancient world (cf. Vercingetorix, Arminius), but Boudica's ability to unite traditionally rival tribes into a coordinated campaign shows some creative coalition-building. No paradigm shift in tactics, governance, or thought is attributable to her; the military approach followed conventional Celtic massed-assault warfare."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Tacitus, Annals 14.35",
+              "Cassius Dio, Roman History 62.3-6",
+              "Hingley & Unwin, Boudica: Iron Age Warrior Queen (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Tacitus and Dio both attribute speeches to Boudica invoking freedom, justice, and the contrast between Roman tyranny and British liberty. However, these are almost certainly Roman literary compositions following established rhetorical conventions for barbarian leaders, not her actual words. No independently attested philosophical framework or principles that influenced thinkers beyond her community can be identified."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Tacitus, Annals 14.31",
+              "Webster, Boudica: The British Revolt Against Rome AD 60 (1978)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "As queen of the Iceni she presumably managed tribal affairs after Prasutagus's death, and her ability to provision and direct a large army implies some logistical-administrative capability. However, no specific laws, policies, or administrative systems are documented, and the coalition dissolved immediately after defeat at Watling Street, leaving no enduring administrative legacy."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Tacitus, Annals 14.31-35",
+              "Cassius Dio, Roman History 62.2-6"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Boudica is documented operating as: spouse (to Prasutagus), parent (to her daughters), military commander/superior (to tribal warriors), diplomatic coalition-builder (to allied tribes like the Trinovantes), and adversary (to Rome). That constitutes at least five relational modes. However, the evidence for most of these roles is extremely thin — a sentence or two per mode — and we cannot assess whether she demonstrated genuinely distinct relational styles in each, so the evidence supports the breadth claim weakly."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Tacitus, Annals 14.31",
+              "Cassius Dio, Roman History 62.2"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Boudica was married to Prasutagus, king of the Iceni, who apparently trusted her sufficiently to leave the kingdom to their daughters (with Rome as co-heir), suggesting a functional partnership. However, no details of emotional intimacy, mutual support during crisis, or relational quality are documented. The evidence is limited to the political fact of their marriage and his will."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Tacitus, Annals 14.31",
+              "Cassius Dio, Roman History 62.2"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Boudica's fierce response to the rape of her daughters — risking everything to avenge them — suggests deep parental attachment and protective instinct. However, there is no evidence about whether her daughters developed autonomy or competence, and the very act of leading a doomed revolt arguably endangered them further. The sources provide no information about her parenting beyond this single crisis."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Hingley & Unwin, Boudica: Iron Age Warrior Queen (2005)",
+              "Collingridge, Boudica (2005)",
+              "Mikalachki, The Legacy of Boudica (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Boudica's revolt caused enormous destruction — the archaeological burn layer in Colchester, London, and St Albans is still detectable — and temporarily destabilized Roman control of Britain. Her long-term legacy is primarily symbolic: she was revived as a national icon during the Elizabethan era, celebrated by the Victorians (Thomas Thornycroft's statue at Westminster Bridge, 1902), and remains a fixture of British national identity. However, this legacy is largely confined to British/Western culture and does not operate across multiple civilizations in the way required for a score of 3."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Hingley & Unwin, Boudica: Iron Age Warrior Queen (2005)",
+              "Collingridge, Boudica (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Boudica embodies the warrior queen and avenging mother archetypes — the wronged woman who rises to lead armies against empire. She is often compared to Zenobia, Joan of Arc, and other female resistance leaders. She resonates as a feminist icon and anti-imperial symbol. However, her recognition outside the Anglophone world is moderate; she lacks the truly universal cross-cultural recognition (in East Asia, South Asia, Africa) that a score of 3 requires."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Tacitus, Annals 14.37-38",
+              "Webster, Boudica: The British Revolt Against Rome AD 60 (1978)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "The tribal coalition Boudica assembled dissolved immediately upon her defeat and death. No institutions, governance structures, or organizations survived her. The revolt produced no lasting political or social structures."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Tacitus, Annals 14.31-35",
+              "Cassius Dio, Roman History 62.2",
+              "Hingley & Unwin, Boudica: Iron Age Warrior Queen (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Boudica united the Iceni, Trinovantes, and other tribes into a force Dio estimates at 230,000 (likely exaggerated, but clearly very large), inspiring them to assault three major Roman settlements and engage Roman legions in pitched battle. As a woman leading in a patriarchal warrior society, this implies extraordinary personal authority. However, this leadership operated in a single crisis context; there is no evidence of leadership across qualitatively different contexts (e.g., peacetime governance and war), as required for a score of 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Cassius Dio, Roman History 62.2",
+              "Tacitus, Annals 14.35"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Dio describes Boudica's physical appearance (tall, harsh voice, tawny hair) and mentions her as a woman raising her daughters, which grounds her in domestic life. Tacitus notes that British women commonly held leadership roles, suggesting she was culturally embedded. However, no specific mundane activities (cooking, humor, manual labor) are documented — the sources focus entirely on the revolt. The relatable details are limited to her role as a wronged mother."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Tacitus, Annals 14.31",
+              "Cassius Dio, Roman History 62.2",
+              "Collingridge, Boudica (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The revolt responded to genuine injustice: Prasutagus had willed his kingdom jointly to his daughters and Emperor Nero, yet Roman procurator Catus Decianus seized Iceni lands, had Boudica flogged, and her daughters raped. The Roman annexation violated even their own client-kingdom arrangements. Boudica's framing of the revolt (per Tacitus and Dio) centered on justice and freedom. However, the indiscriminate destruction of settlements — including killing of allied Britons and civilians — shows justice was not precisely targeted. No evidence of ruling against her own group interest for principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Tacitus, Annals 14.33",
+              "Cassius Dio, Roman History 62.7",
+              "Hingley & Unwin, Boudica: Iron Age Warrior Queen (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Boudica's revolt was motivated in part by empathy for her people's suffering under Roman exploitation and her daughters' violation. However, both Tacitus and Dio describe indiscriminate slaughter of civilians in the three destroyed settlements — Tacitus estimates 70,000-80,000 killed. Even allowing for Roman exaggeration, the destruction was extensive and not discriminating. Without the counterexample of mass civilian killing, her motivation earns a 2; with it given full weight, the score is 1, as compassion toward adversaries or outgroup members is absent from the record."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Tacitus, Annals 14.31-37",
+              "Cassius Dio, Roman History 62.2-12",
+              "Webster, Boudica: The British Revolt Against Rome AD 60 (1978)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Boudica endured public flogging by Roman soldiers and the rape of her daughters, then rather than submit, raised the largest revolt Roman Britain ever faced. She personally led her forces across multiple engagements — the destruction of Camulodunum, the defeat of the IX Hispana, the burning of Londinium and Verulamium, and the final battle at Watling Street — all against the premier military power of the ancient world. This is sustained courage across multiple high-stakes situations spanning her campaign."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Tacitus, Annals 14.31-37",
+              "Cassius Dio, Roman History 62.1-12"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "The historical record contains no documented instances of Boudica reversing a prior position, accepting correction, or changing behavior based on moral reflection. This is primarily a function of the extreme thinness of the source base — two Roman accounts focused on military narrative — rather than evidence of rigidity. However, absence of evidence cannot be scored positively."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Tacitus, Annals 14.31",
+              "Cassius Dio, Roman History 62.2",
+              "Hingley & Unwin, Boudica: Iron Age Warrior Queen (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Boudica faced at least two qualitatively different forms of severe adversity: (1) personal physical violence (flogging), and (2) the trauma of her daughters' rape and the seizure of her kingdom (grief, loss of status). She functioned effectively through both, organizing and leading a massive revolt rather than submitting. However, the campaign was relatively brief (weeks to months) and ended in defeat and her death, limiting evidence of truly prolonged endurance."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Tacitus, Annals 14.31-37",
+              "Cassius Dio, Roman History 62.2-6",
+              "Hingley & Unwin, Boudica: Iron Age Warrior Queen (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Boudica inhabited seemingly contradictory roles: (1) mother and protector of daughters, (2) military commander of a massive army, (3) victim of Roman violence and avenger who inflicted devastating violence in return, (4) queen in a male-dominated warrior society. She integrated the roles of nurturer and destroyer, victim and aggressor. However, the evidence base is thin enough that we cannot fully assess whether she inhabited these roles without internal fragmentation — the Roman sources present a single dramatic narrative rather than a nuanced portrait."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Cassius Dio, Roman History 62.12",
+              "Tacitus, Annals 14.37"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Cassius Dio reports that after the defeat at Watling Street, Boudica took poison rather than be captured and paraded in a Roman triumph — a deliberate, composed choice of death over humiliation. Tacitus says she fell ill and died. Even under Tacitus's account, there is no report of panic or desperation. If Dio's account is accurate, she faced her own death with clear intentionality. The conflicting accounts reduce confidence."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Cassius Dio, Roman History 62.2",
+              "Tacitus, Annals 14.35",
+              "Webster, Boudica: The British Revolt Against Rome AD 60 (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Boudica survived a severe public flogging and then led a military campaign across southeastern Britain covering at least 100 miles, reportedly riding a war chariot into battle. Dio describes her as exceptionally tall and physically imposing. Chariot warfare required significant physical skill. However, evidence is limited to one life-stage (the revolt period) and specific physical feats are not individually documented beyond the general rigors of campaign leadership."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "(no citation)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No evidence in the historical record of Boudica engaging with beauty, humor, leisure, or art. The sources (Tacitus and Dio) focus exclusively on the revolt and its military-political dimensions. This likely reflects the nature of the sources rather than the absence of joy in her life, but no positive evidence can be cited."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 4.17,
+          "Relational": 4.44,
+          "Core_5D_Avg": 4.72,
+          "Cultural-Social": 4.67,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Boudica",
+      "overall": {
+        "Core_5D_Avg": 4.72,
+        "Overall_Normalized_Equal_Avg": 4.34,
+        "General_Competency_Avg_10scale": 2.44
+      },
+      "summary": "Boudica scores highest on courage, embodied resilience, and leadership — the traits that define her historical memory. She coordinated a multi-tribal revolt against Rome in 60-61 CE, endured flogging and the violation of her daughters, and led from the front. However, the extreme thinness of the source record (only Tacitus and Cassius Dio, both Roman) leaves most domains unscored or low-confidence. Her Heinlein competency is severely limited by lack of evidence for everyday skills. She is primarily a figure of one extraordinary crisis, not a documented polymath or institution-builder, and her legacy is powerful but largely confined to British national symbolism.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.73,
+          "General_Competency_Avg_10scale": 2.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of culinary skill in the historical record."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Cassius Dio, Roman History 62.2, 62.12",
+            "Tacitus, Annals 14.35"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cassius Dio describes Boudica as personally leading her forces from a war chariot and wielding a spear. Chariot warfare in the Celtic tradition required significant martial skill. She led her forces through multiple successful engagements before the final defeat. Era-normalized for Iron Age Britain, personal combat leadership from a chariot represents strong martial competence."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Tacitus, Annals 14.31",
+            "Cassius Dio, Roman History 62.2"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Boudica's fierce maternal response to her daughters' assault indicates a protective caregiving instinct, but no specific caregiving acts (nursing, tending the sick, comforting) are documented in the sources. The trait appears only in the context of the revolt's motivation."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Cassius Dio, Roman History 62.12",
+            "Tacitus, Annals 14.37"
+          ],
+          "score_0_3": 2,
+          "confidence": "Low",
+          "justification": "According to Cassius Dio, Boudica took poison after the defeat at Watling Street rather than face Roman capture and humiliation — a deliberate, composed choice. Tacitus reports she fell ill and died, which is less dramatic but still shows no report of desperation or collapse. Either account suggests composure in facing death after catastrophic military defeat."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of manual craft or repair skills. As a queen in Iron Age Britain she was likely not engaged in such activities personally, and no sources mention it."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Tacitus, Annals 14.31-33",
+            "Webster, Boudica: The British Revolt Against Rome AD 60 (1978)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Led her army from Iceni territory (modern Norfolk) south to Camulodunum, then to Londinium, then to Verulamium — a campaign requiring knowledge of southeastern Britain's geography and road networks. However, this may reflect collective tribal knowledge rather than her personal skill, and no specific navigational feats are documented."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record of Boudica butchering, processing, or handling animals or food resources. As an Iron Age queen she likely oversaw such activities, but no specific evidence can be cited."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Tacitus, Annals 14.31-35",
+            "Cassius Dio, Roman History 62.2-6"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Exceptional leadership in rallying multiple tribes to a common cause and personally leading them in battle, including as a woman in a warrior culture. As wife of Prasutagus, she presumably operated in a subordinate or collaborative role during his reign, suggesting some capacity for followership. However, the followership dimension is speculative."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Boudica designing or building structures. She is documented only as a destroyer of Roman settlements, not a builder."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Tacitus, Annals 14.31-37",
+            "Webster, Boudica: The British Revolt Against Rome AD 60 (1978)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Coordinated a multi-tribal rising timed to Paulinus's absence in Anglesey, directed the sequential destruction of three major Roman settlements, and defeated a Roman legion in the field. Lost the decisive engagement at Watling Street when Paulinus chose favorable terrain. Strong planning, partial execution."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of artistic creation. The powerful speeches attributed to her by Tacitus and Dio are Roman literary compositions, not documented examples of her own rhetoric or artistry. Celtic oral culture likely included expressive traditions she participated in, but nothing specific can be cited."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of medical knowledge or emergency treatment skills in the historical record."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of mathematical or analytical reasoning. Managing the logistics of a large army implies some capacity for resource calculation, but this is speculative and no specific evidence exists."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Hingley & Unwin, Boudica: Iron Age Warrior Queen (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As queen of the Iceni, an agricultural tribe in East Anglia, Boudica likely oversaw agricultural resources and managed the provisioning of her revolt's large army. However, no specific evidence of personal agricultural knowledge or resource management skill is documented."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of engagement with technical systems or cutting-edge tools of her era beyond standard Iron Age military equipment. The archaeological record of the Iceni shows sophisticated metalwork and coinage, but none is attributed to Boudica personally."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.72,
+    "general_competency_avg_0_10": 2.44,
+    "overall_normalized_equal_avg_0_10": 4.34,
+    "created_at": "2026-03-22T18:49:58.769Z",
+    "updated_at": "2026-03-22T18:49:58.784Z"
+  }
+}
+]

@@ -1,0 +1,392 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 182,
+  "fields": {
+    "name": "Franklin D. Roosevelt",
+    "slug": "franklin-d-roosevelt",
+    "bio_short": "FDR stands as one of history's most formidable political leaders, scoring exceptionally in cognitive, cultural-social, and embodied-existential dimensions. His New Deal institutions and WWII leadership represent paradigm-shifting achievements. His paradoxical nature — aristocrat championing the common man, disabled leader projecting strength — is central to his persona. Moral scores are moderated by Japanese internment and spousal failings. Heinlein competency breadth is limited: FDR was the consummate specialist-leader, not a generalist craftsman. His aristocratic upbringing and physical disa",
+    "bio_long": "Franklin Delano Roosevelt, also known as FDR, was the 32nd president of the United States, serving from 1933 until his death in 1945. He is the longest-serving U.S. president and the only one to have served more than two terms. His first two terms were centered on combating the Great Depression, while his third and fourth focused on U.S. involvement in World War II. A member of the Democratic Party, Roosevelt served in the New York State Senate from 1911 to 1913 and as the 44th governor of New York from 1929 to 1932.",
+    "source_notes": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+    "image": "figures/330px-FDR-1944-Campaign-Portrait_283x4_retouched2C_cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Kennedy, *Freedom from Fear: The American People in Depression and War* (1999)",
+              "Dallek, *Franklin D. Roosevelt and American Foreign Policy, 1932–1945* (1979)",
+              "Burns, *Roosevelt: The Lion and the Fox* (1956)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "FDR exemplified adaptive strategy: his New Deal was explicitly experimental ('bold, persistent experimentation'), discarding failed programs like the NRA after the Schechter ruling and pivoting to the Second New Deal. In WWII, he navigated the shift from neutrality to Lend-Lease to full mobilization after Pearl Harbor, managed the competing Europe First vs. Pacific demands, and coordinated Allied strategy across theaters with Churchill and Stalin at Tehran and Yalta. His court-packing scheme failed, but he adapted and ultimately reshaped the Court through appointments."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Leuchtenburg, *Franklin D. Roosevelt and the New Deal, 1932–1940* (1963)",
+              "Goodwin, *No Ordinary Time* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "FDR's New Deal constituted a paradigm shift in the American state's relationship to its citizens — before FDR, no federal safety net existed; after, Social Security, deposit insurance, securities regulation, and public works were permanent features. Lend-Lease was a brilliantly creative workaround for neutrality legislation. His fireside chats pioneered presidential use of radio, creating an entirely new mode of democratic communication. The WPA arts programs (Federal Art Project, Federal Theatre Project) were unprecedented fusions of relief policy and cultural production."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Sunstein, *The Second Bill of Rights: FDR's Unfinished Revolution* (2004)",
+              "Glendon, *A World Made New: Eleanor Roosevelt and the Universal Declaration of Human Rights* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "FDR's 'Four Freedoms' address (January 1941) — freedom of speech, worship, from want, and from fear — profoundly influenced the Universal Declaration of Human Rights (1948). His 1944 'Second Bill of Rights' speech articulated an economic rights framework that influenced social-democratic thought globally. However, he was a pragmatic politician rather than a systematic moral thinker, and Japanese internment (Executive Order 9066) represents a severe ethical failure that undermines a higher score."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Leuchtenburg, *Franklin D. Roosevelt and the New Deal* (1963)",
+              "Kennedy, *Freedom from Fear* (1999)",
+              "Brinkley, *The End of Reform: New Deal Liberalism in Recession and War* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The First Hundred Days remain the benchmark for legislative productivity: 15 major bills including the Emergency Banking Act, AAA, TVA, NIRA, and the Glass-Steagall Act. FDR created enduring institutions — Social Security Administration (1935), SEC (1934), FDIC (1933), NLRB (1935), FHA (1934) — all still functioning 90 years later. He organized the wartime conversion of the American economy through the War Production Board and established the Joint Chiefs of Staff structure that persists today."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Burns, *Roosevelt: The Lion and the Fox* (1956)",
+              "Goodwin, *No Ordinary Time* (1994)",
+              "Suckley, *Closest Companion: The Unknown Story of the Intimate Friendship Between Franklin Roosevelt and Margaret Suckley* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "FDR demonstrated qualitatively distinct relational behavior across at least six modes: (1) spouse — maintained a complex political partnership with Eleanor; (2) parent — engaged but emotionally distant father to five children; (3) subordinate — served loyally under Josephus Daniels as Assistant Secretary of the Navy despite finding him provincial; (4) superior — managed a vast executive apparatus with a distinctive competitive management style; (5) friend — deep bonds with Louis Howe, Harry Hopkins, and Daisy Suckley, each quite different in character; (6) adversary — ruthlessly outmaneuvered political opponents (Huey Long, Wendell Willkie, isolationist senators) while maintaining surface charm; (7) peer/ally — built genuine camaraderie with Churchill while managing the power dynamics of the Anglo-American alliance."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Persico, *Franklin and Lucy* (2008)",
+              "Goodwin, *No Ordinary Time* (1994)",
+              "Cook, *Eleanor Roosevelt, Volume 2* (1999)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "FDR's marriage to Eleanor was fundamentally damaged by the Lucy Mercer affair (discovered 1918). While they maintained an effective political partnership — Eleanor served as his eyes and ears among the disadvantaged and became an independent political force — the marriage lacked emotional intimacy and mutual romantic availability. FDR maintained relationships with Missy LeHand (his personal secretary) and later resumed contact with Lucy Mercer Rutherfurd, who was present at his death while Eleanor was not. Eleanor later described the marriage as a partnership rather than a love match. This falls short of mutual respect, support, and emotional availability across the relationship's arc."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Goodwin, *No Ordinary Time* (1994)",
+              "Ward, *Before the Trumpet: Young Franklin Roosevelt* (1985)",
+              "Smith, *FDR* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "FDR mentored key political figures: Harry Hopkins became an extraordinarily effective wartime aide, Frances Perkins thrived as Labor Secretary, and his 'Brain Trust' (Moley, Tugwell, Berle) developed significant careers. However, his parenting record is mixed — his five surviving children collectively had 19 marriages, and several struggled personally, suggesting limited emotional investment. His domineering mother Sara complicated family dynamics. His mentees in government showed genuine competence and some autonomy (Perkins, Hopkins), meriting a moderate score."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Borgwardt, *A New Deal for the World* (2005)",
+              "Leuchtenburg, *In the Shadow of FDR* (1983)",
+              "Kennedy, *Freedom from Fear* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "FDR's impact remains clearly operative across multiple civilizations: Social Security models he pioneered spread globally; the UN system he championed structures international relations worldwide; Bretton Woods institutions (IMF, World Bank) he helped establish govern global finance; the concept of government responsibility for economic welfare he cemented influences policy debates in virtually every democracy. While only 80 years have passed (not yet 500), the depth and global breadth of institutional embedding is extraordinary and shows no sign of fading."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Leuchtenburg, *In the Shadow of FDR* (1983)",
+              "Gallagher, *FDR's Splendid Deception* (1985)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "FDR embodies the archetype of the democratic leader who triumphs over personal adversity to guide a nation through crisis. He is recognized internationally as a symbol of democratic resilience — referenced in political discourse from Europe to Asia. However, his archetypal resonance is somewhat culturally bounded compared to figures like Lincoln, Gandhi, or Churchill; he is primarily an American symbol rather than a universal one. His wheelchair image has become iconic for disability rights movements globally, adding cross-cultural resonance."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Leuchtenburg, *Franklin D. Roosevelt and the New Deal* (1963)",
+              "Kennedy, *Freedom from Fear* (1999)",
+              "Borgwardt, *A New Deal for the World* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "FDR created institutions that have survived for nearly a century: Social Security Administration (1935), FDIC (1933), SEC (1934), NLRB (1935), FHA (1934), and the TVA (1933) — all still operating with recognizable continuity. The United Nations, conceived at Dumbarton Oaks (1944) under his leadership, remains the primary international organization. The Joint Chiefs of Staff structure he formalized persists in the U.S. military. The New Deal Democratic coalition he built dominated American politics for a generation."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Burns, *Roosevelt: The Lion and the Fox* (1956)",
+              "Dallek, *Franklin D. Roosevelt and American Foreign Policy* (1979)",
+              "Leuchtenburg, *In the Shadow of FDR* (1983)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "FDR led successfully across qualitatively different contexts: domestic economic crisis (Depression), wartime international coalition (Allied leadership with Churchill and Stalin), party politics (rebuilt the Democratic coalition into a dominant force), and institutional governance (reorganized the executive branch). He led both intimate groups (his 'Brain Trust' of Moley, Tugwell, Berle) and mass publics (fireside chats reached tens of millions). He won four presidential elections, an achievement unmatched before or since."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Ward, *A First-Class Temperament* (1989)",
+              "Goodwin, *No Ordinary Time* (1994)",
+              "Smith, *FDR* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "FDR maintained documented engagement with everyday activities even at the height of power: his stamp collection was a lifelong passion (he personally curated over 25,000 stamps), he mixed cocktails for guests at the White House cocktail hour, he fished and sailed recreationally, and he was known for humor and warmth with staff and visitors. His fireside chats created an intimacy with ordinary Americans unprecedented for a president. However, his patrician Hyde Park upbringing and Groton-Harvard background limited his cultural embeddedness with ordinary life."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Kennedy, *Freedom from Fear* (1999)",
+              "Robinson, *By Order of the President* (2001)",
+              "Katznelson, *Fear Itself: The New Deal and the Origins of Our Time* (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "FDR signed Executive Order 8802 (1941) creating the Fair Employment Practices Committee, the first federal action against employment discrimination — this went against political expediency with Southern Democrats. He appointed Frances Perkins as the first female Cabinet member and placed reformers in key positions. New Deal labor legislation (Wagner Act) advanced workers' rights. However, Japanese internment is a devastating counterexample — a profound injustice against a vulnerable group driven by political calculation. He also failed to support anti-lynching legislation to preserve his Southern coalition. Without internment: 3; with it: 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Robinson, *By Order of the President: FDR and the Internment of Japanese Americans* (2001)",
+              "Wyman, *The Abandonment of the Jews* (1984)",
+              "Ward, *A First-Class Temperament* (1989)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "FDR demonstrated genuine empathy for the 'forgotten man' — Depression-era unemployed, farmers, and workers — expressed through tangible programs (CCC, WPA, Social Security). His personal experience with polio deepened his empathy, particularly at Warm Springs where he engaged directly with fellow patients. However, Japanese internment (Executive Order 9066, affecting ~120,000 Japanese Americans) represents a catastrophic failure of compassion toward an outgroup. His administration also turned away the MS St. Louis (937 Jewish refugees) and declined to bomb rail lines to Auschwitz. Without these counterexamples the score would be 3; with them given proportional weight, 2 is appropriate given the severity of the harm."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Ward, *A First-Class Temperament* (1989)",
+              "Goodwin, *No Ordinary Time* (1994)",
+              "Smith, *FDR* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "FDR's courage was sustained across multiple high-stakes domains over decades: he fought back from devastating polio paralysis at age 39 to resume a political career, carefully managing his disability's public perception. He made the politically risky decision to run for an unprecedented third and fourth term. He sustained leadership through the Depression and WWII simultaneously — over 12 years of continuous crisis governance. He made bold decisions like Lend-Lease despite fierce isolationist opposition, and personally visited troops in war zones despite his disability."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Ward, *A First-Class Temperament* (1989)",
+              "Burns, *Roosevelt: The Lion and the Fox* (1956)",
+              "Goodwin, *No Ordinary Time* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "FDR demonstrated meaningful growth: his polio experience (1921) transformed him from a patrician dilettante into a leader with genuine empathy for suffering — multiple contemporaries (Frances Perkins, Louis Howe) attested to this transformation. After the court-packing debacle (1937), he shifted to a more patient judicial appointment strategy. He evolved from initial reluctance on civil rights to Executive Order 8802 under pressure from A. Philip Randolph. However, he never acknowledged or reversed the injustice of Japanese internment, which limits the score."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Ward, *A First-Class Temperament* (1989)",
+              "Smith, *FDR* (2007)",
+              "Goodwin, *No Ordinary Time* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "FDR endured qualitatively distinct forms of adversity while maintaining high function: (1) severe physical adversity — permanent paralysis from polio at the peak of his career; (2) sustained political/governance adversity — managing the Depression and WWII simultaneously for 12 years; (3) personal/relational adversity — discovery of the Lucy Mercer affair (1918) which nearly destroyed his marriage, the deaths of close advisors (Louis Howe, 1936), and relentless political attacks. Through all of these, he not only functioned but performed at an exceptional level."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Burns, *Roosevelt: The Lion and the Fox* (1956)",
+              "Ward, *A First-Class Temperament* (1989)",
+              "Goodwin, *No Ordinary Time* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "FDR coherently inhabited at least four seemingly contradictory roles: (1) Hudson Valley aristocrat who became champion of the 'forgotten man'; (2) severely disabled person who projected vitality, strength, and optimism to a nation; (3) cautious, pragmatic politician who made extraordinarily bold decisions (Lend-Lease, third term, Manhattan Project); (4) commander-in-chief who directed history's largest military effort while being a man of fundamentally diplomatic and conciliatory temperament. His ability to hold these tensions without fragmentation was noted by contemporaries like Frances Perkins and Oliver Wendell Holmes ('a second-class intellect but a first-class temperament')."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Lelyveld, *His Final Battle: The Last Months of Franklin Roosevelt* (2016)",
+              "Bruenn, 'Clinical Notes on the Illness and Death of President Franklin D. Roosevelt,' Annals of Internal Medicine (1970)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "FDR was aware of his declining health during 1944–1945 — his physician, Dr. Howard Bruenn, diagnosed severe hypertension and congestive heart failure in March 1944. Despite this, he chose to run for a fourth term and pressed on with the demanding Yalta Conference (February 1945). He reportedly told confidants he might not survive the term. He continued governing until the moment of his fatal cerebral hemorrhage on April 12, 1945. This shows composure in the face of anticipated death, but detailed documentation of his inner reflections on mortality is limited."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Gallagher, *FDR's Splendid Deception* (1985)",
+              "Ward, *A First-Class Temperament* (1989)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Before polio, FDR was an active sailor, swimmer, and outdoorsman. After contracting polio at age 39 (1921), he developed remarkable upper-body strength and learned to 'walk' short distances with heavy leg braces and a cane — a physically demanding feat requiring extraordinary core and arm strength. He maintained a grueling presidential schedule (12+ years of crisis governance) despite severe disability, including wartime travel to Casablanca, Tehran, and Yalta. His physical endurance was genuinely remarkable given his paralysis, though his capabilities were objectively limited compared to able-bodied peers."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Ward, *A First-Class Temperament* (1989)",
+              "Goodwin, *No Ordinary Time* (1994)",
+              "Smith, *FDR* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "FDR's stamp collecting was a genuine, non-instrumental lifelong passion — he personally spent hours sorting and mounting stamps, amassing over 25,000. He mixed cocktails with evident pleasure and ritual at the White House cocktail hour, which was a social highlight he personally orchestrated. He enjoyed movies (often screening them at the White House), fishing, and sailing. His humor was well-documented — he delighted in jokes and teasing. These activities appear genuinely recreational rather than politically motivated."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 6.67,
+          "Core_5D_Avg": 8.0,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Franklin D. Roosevelt",
+      "overall": {
+        "Core_5D_Avg": 8.0,
+        "Overall_Normalized_Equal_Avg": 7.33,
+        "General_Competency_Avg_10scale": 4.0
+      },
+      "summary": "FDR stands as one of history's most formidable political leaders, scoring exceptionally in cognitive, cultural-social, and embodied-existential dimensions. His New Deal institutions and WWII leadership represent paradigm-shifting achievements. His paradoxical nature — aristocrat championing the common man, disabled leader projecting strength — is central to his persona. Moral scores are moderated by Japanese internment and spousal failings. Heinlein competency breadth is limited: FDR was the consummate specialist-leader, not a generalist craftsman. His aristocratic upbringing and physical disability restricted hands-on skills, though he showed genuine range in sailing, cocktail-mixing, and forestry. Overall, extraordinary depth of personhood with narrow practical competency breadth.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.2,
+          "General_Competency_Avg_10scale": 4.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Goodwin, *No Ordinary Time* (1994)",
+            "Smith, *FDR* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "FDR was genuinely skilled at mixing cocktails — his martini ritual at the White House cocktail hour was well-documented, and he took personal pride in his recipes and technique. He also reportedly enjoyed making scrambled eggs. However, no evidence of broader culinary capability beyond these limited domains."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Smith, *FDR* (2007)",
+            "Ward, *A First-Class Temperament* (1989)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "FDR never served in combat. His military-adjacent experience was entirely administrative — as Assistant Secretary of the Navy he visited the Western Front in 1918 in an inspection capacity but did not engage in fighting. His physical disability from 1921 onward precluded any personal combat capability. He directed military operations as Commander-in-Chief but this falls under strategic command, not personal combat skill."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Gallagher, *FDR's Splendid Deception* (1985)",
+            "Ward, *A First-Class Temperament* (1989)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "FDR founded the National Foundation for Infantile Paralysis (later March of Dimes) and personally engaged with fellow polio patients at Warm Springs, Georgia, showing genuine caregiving instincts. However, his disability meant he was himself extensively cared for by others, and evidence of hands-on caregiving across the lifespan is limited."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Lelyveld, *His Final Battle* (2016)",
+            "Gallagher, *FDR's Splendid Deception* (1985)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "FDR faced his polio diagnosis with remarkable composure, transforming a devastating blow into a source of personal strength and political identity. He governed with unshakeable public optimism through the Depression and WWII. In his final year, aware of his declining health (diagnosed with severe hypertension and heart failure in March 1944), he chose to continue governing rather than retire, pressing forward through the demanding Yalta Conference. His overall bearing throughout life showed consistent dignity under pressure, though detailed documentation of his private reflections on mortality is limited."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Ward, *A First-Class Temperament* (1989)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "FDR's stamp collecting required fine manual dexterity and organizational skill — he personally sorted, mounted, and catalogued over 25,000 stamps. He also built model ships as a hobby, particularly during his convalescence from polio. These demonstrate some manual craft ability, though limited in scope and not extending to tool or machine repair."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Ward, *Before the Trumpet* (1985)",
+            "Smith, *FDR* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "FDR was an accomplished sailor from youth, learning to navigate the treacherous waters around Campobello Island, New Brunswick, and sailing along the Atlantic coast. He maintained a genuine passion for the sea throughout his life and served as Assistant Secretary of the Navy (1913–1920), gaining practical knowledge of naval operations and maritime navigation. His yacht trips continued even during the presidency."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Ward, *Before the Trumpet: Young Franklin Roosevelt* (1985)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that FDR engaged in butchering, animal processing, or similar activities. Raised in an aristocratic household with extensive domestic staff at Hyde Park, these tasks were handled by servants throughout his life."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Burns, *Roosevelt: The Lion and the Fox* (1956)",
+            "Goodwin, *No Ordinary Time* (1994)",
+            "Dallek, *Franklin D. Roosevelt and American Foreign Policy* (1979)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "FDR's leadership was exceptional across contexts — Depression, wartime, coalition management, and party politics. He also demonstrated effective followership: he served loyally under Josephus Daniels as Assistant Secretary of the Navy (1913–1920) despite privately finding Daniels unsophisticated, later crediting Daniels with teaching him valuable lessons. He deferred to George Marshall's military expertise on strategic matters and accepted Congressional constraints when his court-packing scheme was rejected, adapting rather than pressing the fight."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of personal construction or fabrication skills. While FDR oversaw improvements to his Hyde Park estate and designed elements of Warm Springs' rehabilitation facilities, he directed others rather than building himself. His physical disability further limited hands-on construction capability during most of his adult life."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Kennedy, *Freedom from Fear* (1999)",
+            "Dallek, *Franklin D. Roosevelt and American Foreign Policy* (1979)",
+            "Goodwin, *No Ordinary Time* (1994)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "FDR coordinated the largest military mobilization in American history, converting civilian industry to wartime production through the War Production Board. He managed Allied grand strategy — the Europe First decision, the North Africa campaign (Operation Torch), D-Day timing, and Pacific strategy — while selecting key commanders (elevating Eisenhower over more senior officers, retaining Marshall in Washington). He also strategically orchestrated the New Deal's 15 major bills in the First Hundred Days."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Sherwood, *Roosevelt and Hopkins* (1948)",
+            "Leuchtenburg, *Franklin D. Roosevelt and the New Deal* (1963)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "FDR was not a personal creator of art, music, or literature. His speeches, while rhetorically powerful ('the only thing we have to fear is fear itself,' 'a date which will live in infamy'), were largely crafted by speechwriters including Samuel Rosenman and Robert Sherwood. He did champion the arts through WPA programs (Federal Art Project, Federal Writers' Project, Federal Theatre Project), demonstrating appreciation if not personal creation."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Bruenn, 'Clinical Notes on the Illness and Death of President Franklin D. Roosevelt,' Annals of Internal Medicine (1970)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that FDR possessed personal medical skills or emergency medical response capability. He was a patient (polio, hypertension, heart failure) rather than a provider. While he became knowledgeable about polio through his experience, this was patient knowledge rather than clinical skill."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Burns, *Roosevelt: The Lion and the Fox* (1956)",
+            "Smith, *FDR* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "FDR was educated at Harvard and Columbia Law School but was not noted for mathematical or analytical reasoning. He relied on advisors for quantitative analysis — Henry Morgenthau for Treasury matters, the Budget Bureau for fiscal policy, and his Brain Trust for economic analysis. He could engage with budgetary and economic arguments but was not independently analytical in the manner of, e.g., Herbert Hoover."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Maher, *Nature's New Deal: The Civilian Conservation Corps and the Roots of the American Environmental Movement* (2008)",
+            "Ward, *Before the Trumpet* (1985)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "FDR took a genuine personal interest in forestry and conservation at Hyde Park, planting hundreds of thousands of trees on his estate and managing the property's woodland resources. He championed the Civilian Conservation Corps, which planted over 3 billion trees nationwide. He understood soil conservation principles. However, this was gentleman-farmer engagement and policy advocacy rather than hands-on agricultural labor."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Kennedy, *Freedom from Fear* (1999)",
+            "Goodwin, *No Ordinary Time* (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "FDR demonstrated systems-level problem-solving in designing the New Deal's interlocking agencies and in organizing wartime production conversion. He grasped the significance of the Manhattan Project (approving it based on Einstein's letter and Vannevar Bush's briefings), supported radar and sonar development, and pioneered the use of radio as a cutting-edge communications technology through his fireside chats. While he operated through expert intermediaries rather than personally engineering solutions, his capacity to understand and direct complex technical systems was notable for a political leader."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.0,
+    "general_competency_avg_0_10": 4.0,
+    "overall_normalized_equal_avg_0_10": 7.33,
+    "created_at": "2026-03-22T21:48:30.133Z",
+    "updated_at": "2026-03-22T21:48:30.151Z"
+  }
+}
+]

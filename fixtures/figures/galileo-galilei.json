@@ -1,0 +1,378 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 164,
+  "fields": {
+    "name": "Galileo Galilei",
+    "slug": "galileo-galilei",
+    "bio_short": "A towering scientific innovator whose telescopic observations and mathematical physics created paradigm shifts still operative today. Exceptional creative thinking and cultural-archetypal resonance (the persecuted truth-teller), with strong hardship tolerance—completing his masterwork while blind and under house arrest. Relational and moral-affective dimensions are more modest: he never married, placed daughters in a convent, and showed limited institutional or administrative legacy. Heinlein competency is concentrated in technical, analytical, and craft domains; practical life-skills evidence",
+    "bio_long": "Galileo di Vincenzo Bonaiuti de' Galilei, commonly referred to as Galileo Galilei, was an Italian astronomer, physicist, and engineer, sometimes described as a polymath. He was born in the city of Pisa, then part of the Duchy of Florence. Galileo has been called the father of observational astronomy, modern-era classical physics, the scientific method, and modern science.",
+    "source_notes": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+    "image": "figures/lossy-page1-330px-Galileo_Galilei_281564-164229_RMG_BHC2700.tiff.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Biagioli, Galileo, Courtier (1993)",
+              "Heilbron, Galileo (2010)",
+              "Fantoli, Galileo: For Copernicanism and for the Church (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Galileo strategically dedicated the Sidereus Nuncius (1610) to Cosimo II de' Medici, naming Jupiter's moons the 'Medicean Stars' to secure patronage and his appointment as court philosopher in Florence—a successful adaptation from underpaid Padua professorship to elite patronage. He adopted the dialogic format for his Dialogue (1632) to navigate the 1616 admonition. However, he fatally misjudged Urban VIII's tolerance, leading to the 1633 trial—a significant strategic failure that prevents a score of 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Drake, Galileo at Work (1978)",
+              "Koyré, Galileo Studies (1939/1978)",
+              "Heilbron, Galileo (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Galileo created clear paradigm shifts in multiple domains. His telescopic observations (Jupiter's moons, phases of Venus, lunar craters, sunspots) in Sidereus Nuncius (1610) demolished the Aristotelian distinction between celestial perfection and terrestrial corruption. His work on kinematics in Two New Sciences (1638)—the law of falling bodies, parabolic trajectories, the concept of inertia—replaced Aristotelian physics and laid the foundation for Newton. There is a clear before/after attributable to him in both astronomy and physics."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Finocchiaro, The Galileo Affair: A Documentary History (1989)",
+              "Feldhay, Galileo and the Church (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "In his Letter to the Grand Duchess Christina (1615), Galileo articulated a principled framework for the autonomy of natural philosophy from biblical literalism, arguing Scripture teaches 'how to go to heaven, not how the heavens go.' This influenced Enlightenment thinkers including Locke and Descartes on the proper demarcation of science and theology. His epistemological commitment to empiricism over authority was philosophically significant but remained primarily methodological rather than a fully developed philosophical system."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Biagioli, Galileo, Courtier (1993)",
+              "Drake, Galileo: Pioneer Scientist (1990)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Galileo held the chair of mathematics at Padua (1592–1610) and served as court mathematician and philosopher in Florence, managing students, assistants, and instrument-making workshops. He organized the production and sale of his military compass. However, he built no enduring administrative systems; his institutional footprint was that of an individual scholar-entrepreneur, not a system-builder."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Sobel, Galileo's Daughter (2000)",
+              "Biagioli, Galileo, Courtier (1993)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Galileo documented qualitatively distinct behavior as: father (tender with Maria Celeste), mentor (nurturing Viviani and Torricelli's independence), friend (warm correspondence with Sagredo), subordinate (deferential to Medici patrons), adversary (savage polemics against Grassi and Scheiner), and superior (directing assistants and instrument-makers). This covers at least five relational modes with distinct behavioral styles. However, his adversarial mode was often disproportionately harsh, suggesting limited flexibility in conflict situations."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Sobel, Galileo's Daughter (2000)",
+              "Drake, Galileo at Work (1978)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Galileo never married. His relationship with Marina Gamba (~1600–1610) produced three children, but they never cohabited formally, and the relationship dissolved—Marina married another man in 1613. There is scant documentation of mutual emotional support or depth in the partnership. The arrangement appears to have been pragmatic rather than deeply intimate, though the evidentiary base is thin."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Sobel, Galileo's Daughter (2000)",
+              "Drake, Galileo at Work (1978)",
+              "Heilbron, Galileo (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Galileo's correspondence with Maria Celeste (Virginia) reveals a deeply affectionate, intellectually engaged father-daughter relationship—she managed his household affairs, and he confided in her. He legitimized his son Vincenzo and supported his career. As a mentor, his students Torricelli, Viviani, and Castelli became significant scientists, showing genuine autonomous development. However, placing his two illegitimate daughters in a convent at ages 12–13 (Livia/Arcangela was reportedly miserable there) is a counterexample; era-normalized, this was common for illegitimate daughters, but it still limited their life trajectories."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Koyré, Galileo Studies (1939/1978)",
+              "Drake, Galileo: Pioneer Scientist (1990)",
+              "Heilbron, Galileo (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Galileo's contributions to observational astronomy, kinematics, and the scientific method have had effects operative for over 400 years across all civilizations. Newton explicitly built on Galileo's mechanics. The 'Galileo affair' remains a defining reference point in science-religion discourse worldwide. Einstein called him 'the father of modern physics—indeed, of modern science altogether.' His impact spans physics, astronomy, philosophy of science, and the cultural politics of knowledge."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Finocchiaro, The Galileo Affair (1989)",
+              "Brecht, Life of Galileo (1943)",
+              "Heilbron, Galileo (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Galileo is the universal archetype of the truth-teller persecuted by dogmatic authority. The (likely apocryphal) phrase 'Eppur si muove' ('And yet it moves') is recognized across cultures as a symbol of intellectual defiance. He appears as a symbol in Brecht's Life of Galileo, in countless political and scientific contexts worldwide, and is invoked by dissidents across cultures. His archetype transcends Western Christianity into global recognition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Biagioli, Galileo, Courtier (1993)",
+              "Heilbron, Galileo (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Galileo was a prominent member of the Accademia dei Lincei (founded by Federico Cesi, not Galileo) and contributed to its prestige. He did not found lasting institutions himself. His informal network of students (the 'Galilean school') influenced Italian science but was a personal network, not a formal institution that survived with structural continuity beyond one generation."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Biagioli, Galileo, Courtier (1993)",
+              "Drake, Galileo at Work (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Galileo inspired and directed a generation of followers—Castelli, Torricelli, Viviani, Cavalieri—and mobilized broader intellectual support for Copernicanism across Italy and Europe. He was effective in both the academic context of Padua and the courtly patronage environment of Florence. However, his leadership was primarily intellectual influence over individuals and small circles, not mobilization of large populations or leadership through qualitatively different crisis vs. stability contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Sobel, Galileo's Daughter (2000)",
+              "Drake, Galileo at Work (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Galileo's letters reveal mundane concerns: wine-making from his villa's vineyard, financial worries about dowries for his sisters, health complaints, and affectionate exchanges with Maria Celeste about food and household matters. His correspondence includes requests for preserved fruits and discussions of gardening. Even at the height of his fame, he engaged with everyday domestic life. However, this evidence comes primarily from private correspondence rather than public documentation of routine activities."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Biagioli, Galileo, Courtier (1993)",
+              "Redondi, Galileo: Heretic (1987)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Galileo's commitment to empirical truth over Aristotelian authority reflects an epistemic justice orientation. However, there is no documented case of him ruling against personal or group interest in favor of principle in a social or political sense. His priority disputes (e.g., over sunspot observations with Scheiner) suggest he prioritized personal credit. His justice orientation was genuine but narrow—limited to the domain of scientific truth."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Sobel, Galileo's Daughter (2000)",
+              "Drake, Galileo at Work (1978)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Galileo's correspondence with his daughter Sister Maria Celeste shows genuine warmth, concern, and emotional reciprocity. He financially supported his brother Michelagnolo and extended family despite chronic money troubles. However, evidence of compassion toward adversaries is absent—he was famously polemical toward opponents like Grassi (The Assayer, 1623) and Scheiner. His placing of his two daughters in a convent at ages 12 and 13 (partly due to their illegitimacy) was era-normative but not evidence of exceptional compassion."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Fantoli, Galileo: For Copernicanism and for the Church (2003)",
+              "Finocchiaro, The Galileo Affair (1989)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Galileo published the Sidereus Nuncius (1610) knowing it would provoke Aristotelians, engaged in the sunspot controversy (1613), wrote the provocative Letter to Christina (1615), and published the Dialogue (1632) despite the 1616 admonition—sustained intellectual courage across two decades. He continued scientific work under house arrest, completing Two New Sciences while going blind. The recantation at his 1633 trial is a counterexample; without it, a score of 3 would be defensible. With it given weight, the score is 2: the recantation was under extreme institutional coercion (threat of torture), and virtually everyone recanted under such conditions, but it remains a public capitulation that prevents the 'exceptional' designation."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Drake, Galileo at Work (1978)",
+              "Heilbron, Galileo (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Galileo was known for combative polemics and rarely acknowledged error. His treatment of Grassi in The Assayer was personally harsh beyond what evidence warranted (he was wrong about comets being sublunary phenomena but never conceded). After the 1616 admonition he moderated his approach temporarily (shifting to dialogue format), showing some adaptive behavior, but this was strategic rather than moral growth. No documented instance of genuine reversal of position upon accepting correction from another."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Sobel, Galileo's Daughter (2000)",
+              "Drake, Galileo at Work (1978)",
+              "Heilbron, Galileo (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Galileo endured qualitatively distinct forms of adversity while remaining highly productive: (1) material/financial struggle—chronic debt supporting extended family, paying sisters' dowries; (2) institutional persecution—the 1633 Inquisition trial and subsequent house arrest for the final nine years of his life; (3) personal bereavement—the death of his beloved daughter Maria Celeste in 1634; (4) physical disability—progressive blindness culminating in total blindness by 1638. Despite all of these, he completed Two New Sciences (1638), his greatest scientific work, while blind and under house arrest, dictating to Viviani."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Biagioli, Galileo, Courtier (1993)",
+              "Feldhay, Galileo and the Church (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Galileo simultaneously inhabited seemingly contradictory roles: devout Catholic and challenger of Church cosmology; courtly political operator and uncompromising truth-seeker; practical engineer/instrument-maker and abstract mathematical theorist; polemical combatant and charming correspondent. These represent at least four contradictory pairings. He sustained the Catholic-scientist integration for decades. However, the 1633 trial forced a public rupture of the faith-science synthesis, and his polemical tendencies sometimes undermined his courtier role, suggesting the integration was strained rather than fully achieved."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Sobel, Galileo's Daughter (2000)",
+              "Drake, Galileo at Work (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "In his final years (1638–1642), Galileo continued working despite total blindness, house arrest, and declining health, dictating scientific ideas to Viviani and Torricelli. His letters from this period show resignation combined with continued purposefulness rather than despair. He received Torricelli as a companion in his final months. However, specific documentation of composure at the moment of death (January 8, 1642) is limited, relying on Viviani's later hagiographic account."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Drake, Galileo at Work (1978)",
+              "Heilbron, Galileo (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Galileo suffered from chronic health problems throughout his adult life, including recurring illnesses that confined him to bed for extended periods at Padua and Florence. He went blind by 1638 (age 74). There is no evidence of notable physical feats or endurance. Era-normalized, he was a sedentary scholar whose physical profile was unremarkable."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Drake, Galileo at Work (1978)",
+              "Heilbron, Galileo (2010)",
+              "Panofsky, Galileo as a Critic of the Arts (1954)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Galileo was an accomplished lute player, trained by his father Vincenzo Galilei, a noted music theorist and composer. He studied drawing and seriously considered becoming a painter. He delivered public lectures on the architecture of Dante's Inferno (1588) that displayed literary-aesthetic engagement. His prose style in the Dialogue is considered a masterpiece of Italian literature. These aesthetic pursuits appear genuinely non-instrumental—particularly the music and art, which were personal avocations rather than career tools."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.08,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Galileo Galilei",
+      "overall": {
+        "Core_5D_Avg": 6.08,
+        "Overall_Normalized_Equal_Avg": 5.77,
+        "General_Competency_Avg_10scale": 4.22
+      },
+      "summary": "A towering scientific innovator whose telescopic observations and mathematical physics created paradigm shifts still operative today. Exceptional creative thinking and cultural-archetypal resonance (the persecuted truth-teller), with strong hardship tolerance—completing his masterwork while blind and under house arrest. Relational and moral-affective dimensions are more modest: he never married, placed daughters in a convent, and showed limited institutional or administrative legacy. Heinlein competency is concentrated in technical, analytical, and craft domains; practical life-skills evidence outside science is thin. His profile is that of a brilliant specialist with notable resilience and cultural impact, not a generalist polymath.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.27,
+          "General_Competency_Avg_10scale": 4.22
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Sobel, Galileo's Daughter (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of personal culinary skill. Galileo's letters mention receiving prepared food and preserved fruits from Maria Celeste and appreciation of wine, but no documentation of him cooking or preparing meals himself."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Drake, Galileo at Work (1978)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of personal combat experience or martial skill. Galileo designed the military compass for artillery calculations, but this was a technical/mathematical contribution, not personal combat proficiency. He lived as a civilian scholar throughout his life."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Sobel, Galileo's Daughter (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Galileo's letters to Maria Celeste show emotional care and concern, and he financially supported his extended family for decades. However, caregiving was not a primary activity—Maria Celeste actually cared for him more than the reverse (managing his household, sending food and medicines). No evidence of hands-on physical caregiving beyond normal familial concern."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Drake, Galileo at Work (1978)",
+            "Sobel, Galileo's Daughter (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Galileo maintained composure and productivity through house arrest, blindness, the death of his daughter, and the condemnation of his life's work. He dictated scientific ideas to Viviani in his final years with evident purposefulness. His letters from the last years show sadness but not despair. Specific evidence of composure at the moment of death is limited to Viviani's account."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Drake, Galileo at Work (1978)",
+            "Heilbron, Galileo (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Galileo personally ground telescope lenses—a demanding manual skill requiring precision and patience. He maintained and repaired his own instruments. He employed artisans but was documented as working alongside them, understanding the craft processes intimately. His sector compass required precise manual fabrication."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Heilbron, Galileo (2010)",
+            "Drake, Galileo at Work (1978)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Galileo devoted significant effort to solving the longitude problem, proposing the use of Jupiter's moons as a celestial clock for maritime navigation. He negotiated with the Spanish and Dutch governments for adoption. However, the method was never practically implemented at sea, and there is no evidence he personally navigated vessels or terrain. His contribution was theoretical."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record of Galileo engaging in butchering, animal husbandry, or food processing beyond what any early modern Italian household might involve. His letters discuss wine from his vineyard but not animal processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Biagioli, Galileo, Courtier (1993)",
+            "Drake, Galileo at Work (1978)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Galileo effectively led his circle of students and followers (Castelli, Torricelli, Viviani) and directed collaborative research efforts. He also demonstrated followership—deferring to Medici patronage expectations, initially complying with the 1616 admonition, and accepting his role as court philosopher within the hierarchy. He could both give direction and operate within institutional constraints, though his compliance sometimes broke down."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Drake, Galileo: Pioneer Scientist (1990)",
+            "Heilbron, Galileo (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Galileo personally ground lenses and constructed telescopes that were among the best in Europe—his instruments achieved ~20x magnification when others managed only 3–4x. He designed and produced the geometric and military compass (sector) commercially, overseeing its fabrication and selling copies with an instruction manual. He also built thermoscopes. This represents genuine hands-on fabrication skill."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Biagioli, Galileo, Courtier (1993)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Galileo planned his publication campaigns strategically (timing of Sidereus Nuncius, the Dialogue's dedication strategy) and managed small teams of instrument-makers. However, he never commanded military or large organizational operations. His strategic miscalculation regarding the Dialogue and Urban VIII limits this score."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Panofsky, Galileo as a Critic of the Arts (1954)",
+            "Drake, Galileo at Work (1978)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Galileo was a trained lute player (taught by his father Vincenzo Galilei), seriously considered a career in painting, and delivered acclaimed public lectures on Dante's Inferno (1588). His Dialogue is considered a literary masterpiece of Italian prose. Panofsky documented his sophisticated art criticism. These represent genuine artistic competence across multiple expressive domains."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Sobel, Galileo's Daughter (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of Galileo providing medical treatment or emergency response. He was frequently a recipient of medical care rather than a provider. His daughter Maria Celeste sent him herbal remedies, suggesting she had more medical knowledge than he did."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Koyré, Galileo Studies (1939/1978)",
+            "Drake, Galileo: Pioneer Scientist (1990)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Galileo held the chair of mathematics at Pisa (1589) and Padua (1592–1610). His mathematical treatment of kinematics—the times-squared law for falling bodies, parabolic trajectory analysis, and the mathematical description of uniformly accelerated motion in Two New Sciences—established the mathematical language of physics. He applied geometric and proportional reasoning to novel physical problems at the highest level of his era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Sobel, Galileo's Daughter (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "Galileo owned a villa at Arcetri with a vineyard and produced wine, as documented in his correspondence. However, this was small-scale gentleman farming managed largely by others; there is no evidence of sophisticated agricultural knowledge or resource management beyond what a landowner of his class would minimally oversee."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Drake, Galileo: Pioneer Scientist (1990)",
+            "Heilbron, Galileo (2010)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Galileo operated at the cutting edge of the technical capabilities of his era. He improved the telescope from ~3x to ~20x magnification through innovative lens-grinding techniques and optical design. He invented the geometric and military compass (sector), the thermoscope (proto-thermometer), designed a pendulum clock mechanism, and created celatone (a helmet-mounted telescope for navigation). Each required solving novel technical problems with the tools and materials available."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.08,
+    "general_competency_avg_0_10": 4.22,
+    "overall_normalized_equal_avg_0_10": 5.77,
+    "created_at": "2026-03-22T21:23:49.821Z",
+    "updated_at": "2026-03-22T21:23:49.840Z"
+  }
+}
+]

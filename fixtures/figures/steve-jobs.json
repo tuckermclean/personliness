@@ -1,0 +1,377 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 162,
+  "fields": {
+    "name": "Steve Jobs",
+    "slug": "steve-jobs",
+    "bio_short": "Steve Jobs was a transformative figure in technology and business, combining exceptional strategic intelligence and creative vision with powerful institution-building at Apple and Pixar. His cultural-social impact is near-maximal: he reshaped personal computing, music distribution, smartphones, and animated filmmaking. Moral-affective and relational scores are significantly lower, reflecting documented cruelty toward employees, initial abandonment of his daughter Lisa, and poor followership capacity. His paradox integration—Zen Buddhist and corporate titan, artist and businessman, dropout and ",
+    "bio_long": "Steven Paul Jobs was an American businessman, inventor, and investor. A pioneer of the personal computer revolution of the 1970s and 1980s, Jobs co-founded Apple Inc. with Steve Wozniak and Ronald Wayne in 1976. After the company's board of directors fired him in 1985, he founded NeXT the same year and purchased Pixar in 1986, becoming its chairman and majority shareholder until 2007. Jobs returned to Apple in 1997 as CEO, where he was closely involved with the creation and promotion of many of the company's most influential products until his resignation in 2011.",
+    "source_notes": "https://en.wikipedia.org/wiki/Steve_Jobs",
+    "image": "figures/330px-Steve_Jobs_Headshot_2010-CROP_28cropped_229.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Isaacson, Walter. *Steve Jobs* (Simon & Schuster, 2011)",
+              "Schlender & Tetzeli, *Becoming Steve Jobs* (Crown, 2015)",
+              "Hertzfeld, Andy. *Revolution in the Valley* (O'Reilly, 2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jobs demonstrated exceptional adaptive strategy across decades. After being fired from Apple in 1985, he pivoted to NeXT (whose OS became macOS's foundation) and acquired Pixar. Returning to a near-bankrupt Apple in 1997, he slashed the product line from dozens to four quadrants, then sequentially launched iMac, iPod/iTunes, iPhone, and iPad—each requiring adaptation to emerging markets. The iPhone itself pivoted from a tablet project when Jobs recognized the phone market opportunity, and he renegotiated carrier exclusivity with Cingular/AT&T when initial plans stalled."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Lashinsky, Adam. *Inside Apple* (Business Plus, 2012)",
+              "Price, David A. *The Pixar Touch* (Vintage, 2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jobs drove multiple paradigm shifts with clear before/after differences: the Macintosh brought the GUI to consumers (1984), iPod+iTunes restructured the music industry around legal digital downloads (2001–2003), the iPhone (2007) created the modern smartphone paradigm and app economy, and Pixar's *Toy Story* (1995) launched the computer-animated feature film era. In each case, the industry landscape was fundamentally different afterward, and Jobs' insistence on integration of hardware, software, and services was the catalytic vision."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Jobs, Steve. Stanford Commencement Address, June 12, 2005"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Jobs drew on Zen Buddhism (studying under Kobun Chino Otogawa) and counterculture values to develop a personal philosophy synthesizing aesthetics, simplicity, and purpose. His 2005 Stanford commencement speech articulated resonant ideas about mortality and intuition. However, these were personal reflections rather than systematic ethical or philosophical contributions; they did not influence philosophical thinkers beyond his own tech/business milieu."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Lashinsky, *Inside Apple* (2012)",
+              "Schlender & Tetzeli, *Becoming Steve Jobs* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jobs' second Apple tenure created enduring systems: a functional organizational structure (rather than divisional) that persists to this day, the Apple Retail Store model (over 500 stores globally, surviving well beyond his oversight), and the App Store ecosystem. He hired Tim Cook to build a world-class supply chain. However, his first Apple tenure ended in administrative failure—he was fired in 1985 partly due to inability to manage board relationships and divisional conflict. NeXT was commercially unsuccessful as a hardware company. The pattern is strong late-career administrative skill but not consistent across his full career."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Schlender & Tetzeli, *Becoming Steve Jobs* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jobs operated across multiple relational modes: superior/boss (demanding, inspiring), friend (close bonds with Jony Ive, Larry Ellison, with distinct warmth), spouse (devoted to Laurene), parent (complicated, as noted), competitor/adversary (ruthless against Microsoft, Google, Samsung), and collaborator (Wozniak, Ive, Cook). He showed some behavioral adaptation across these modes. However, he was notably poor as a subordinate (his conflict with John Sculley led to his 1985 firing, and he struggled under any authority), and his dominant relational style—intense, demanding, charismatic—pervaded most contexts, limiting true range. Five modes documented but not all with qualitative distinction."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Brennan-Jobs, *Small Fry* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Jobs' marriage to Laurene Powell Jobs (1991–2011) showed genuine partnership: she was an accomplished, independent person (Stanford MBA, founder of Emerson Collective), and they supported each other through his cancer battle and raised three children together. Isaacson describes their relationship as loving, though complicated by Jobs' obsessive work focus. However, his earlier relationship with Chrisann Brennan was deeply problematic—he denied paternity of Lisa despite DNA evidence and left them in poverty. The Laurene relationship alone would merit a higher score, but the Chrisann/Lisa pattern represents a serious failure in intimate partnership. Without the Brennan counterexample, score would be 2–3; with it, 2."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Brennan-Jobs, *Small Fry* (2018)",
+              "Isaacson, *Steve Jobs* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Jobs denied paternity of his daughter Lisa Brennan-Jobs for years despite DNA confirmation, leaving her and her mother Chrisann Brennan on welfare. Even after acknowledging Lisa, the relationship was emotionally volatile—documented extensively in Lisa's memoir *Small Fry*, which describes episodes of cruelty and withdrawal. He was reportedly more present with his three children with Laurene but still intensely work-focused. As a mentor, Tim Cook and Jony Ive thrived under him, but his mentoring style relied on intimidation and the 'reality distortion field' rather than nurturing autonomy. Without the Lisa abandonment (a high-moral-stakes counterexample), score would be 2; with it given full weight, 1."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "West, Joel & Mace, Michael. 'Browsing as the killer app: Explaining the rapid success of Apple's iPhone,' *Telecommunications Policy* 34 (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jobs was central to the personal computer revolution (Apple II, Macintosh), the digital music transformation (iPod/iTunes), the smartphone revolution (iPhone), tablet computing (iPad), and computer-animated filmmaking (Pixar). The iPhone alone has been adopted by billions globally and restructured communication, commerce, media, and social life across every civilization. While only ~13 years have passed since his death, the structural transformation of human information technology is comparable in scale to the printing press, and mainstream scholarship treats these as irreversible civilizational shifts. The 500-year criterion requires projection, which reduces confidence."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Elkind, Peter. 'The Trouble with Steve Jobs,' *Fortune*, March 2008"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jobs is globally recognized as the archetype of the visionary tech entrepreneur—the creative genius who bends reality to his will. His black turtleneck, jeans, and New Balance sneakers became iconic. 'What would Steve Jobs do?' became a cross-cultural business heuristic. He is referenced as an aspirational figure in Silicon Valley, Shenzhen, Bangalore, Berlin, and Lagos alike. He embodies the 'dropout-to-mogul' and 'artist-as-businessman' archetypes far beyond American culture, recognized in traditions (East Asian tech entrepreneurship, European startup culture) well beyond his own."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Price, *The Pixar Touch* (2009)",
+              "Lashinsky, *Inside Apple* (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Apple, co-founded 1976, became the world's most valuable company and continues with recognizable continuity under Tim Cook—Jobs' handpicked successor. Pixar, acquired 1986, produced a string of landmark films and was acquired by Disney in 2006, where it continues as a distinct creative unit. The App Store (2008) created an ecosystem sustaining millions of developers globally. Apple's functional organizational structure, designed by Jobs, persists. All three institutions survived well beyond two generations of leadership after Jobs and maintain their core identity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Hertzfeld, *Revolution in the Valley* (2004)",
+              "Lashinsky, *Inside Apple* (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jobs led successfully across qualitatively different contexts: the garage startup of Apple (1976–1985), the turnaround of a near-bankrupt Apple (1997–2001), sustained large-scale innovation at Apple during its most productive era (2001–2011, growing from ~10,000 to ~60,000 employees), and the creative industry at Pixar. He inspired fanatical loyalty from teams (the original Macintosh '90 hours a week and loving it' team) and from customers. His product keynotes became cultural events that moved global markets. He mobilized people in both crisis and stability."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Brennan-Jobs, *Small Fry* (2018)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Jobs lived an intensely work-focused, elite existence for most of his adult life. His minimalist home, strict dietary regimens (fruitarian and vegan phases), and obsessive focus on Apple products are well-documented but eccentric rather than ordinary. He reportedly enjoyed walking meetings and simple meals, but no specific documented engagement with mundane, everyday activities (cooking, humor with children, manual labor) at the height of his power meets the threshold for higher scores. His lifestyle was deliberately austere and aestheticized rather than relatable."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "United States v. Apple Inc., et al. (antitrust, e-books, 2013)",
+              "In re High-Tech Employee Antitrust Litigation, No. 11-CV-02509 (N.D. Cal.)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Jobs orchestrated illegal anti-poaching agreements with Google, Adobe, Intel, and others to suppress employee wages, resulting in a class-action settlement of $415 million. He engaged in stock-option backdating at Apple. He was known for arbitrary treatment of employees—praising and then publicly humiliating the same people. No documented cases exist of Jobs ruling against his own or Apple's interest in favor of abstract principle. His philanthropy was notably limited compared to peers, and he shut down Apple's corporate philanthropy programs upon his 1997 return (they were not restored until after his death)."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Brennan-Jobs, Lisa. *Small Fry* (Grove Press, 2018)",
+              "Isaacson, *Steve Jobs* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Jobs was documented as routinely berating employees to tears, parking in handicapped spots, and manipulating colleagues via his 'reality distortion field.' He denied paternity of his daughter Lisa Brennan-Jobs for years despite a positive DNA test, leaving her and her mother on welfare—documented in Lisa's memoir *Small Fry*. He did later reconcile with Lisa and showed emotional depth in personal relationships (weeping at music, devotion to Laurene Powell Jobs). However, compassion toward adversaries or outgroup members is largely absent from the record; his empathy was selective and inconsistent."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Schlender & Tetzeli, *Becoming Steve Jobs* (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jobs demonstrated sustained courage across multiple high-stakes situations: being ousted from Apple in 1985 and rebuilding his career through NeXT and Pixar rather than retreating; returning to a near-bankrupt Apple and making bold bets (killing the Newton, cutting most product lines, launching Apple Retail against analyst skepticism); battling pancreatic cancer from 2003 while continuing to lead Apple through its most productive era, personally unveiling the iPhone (2007), iPad (2010), and iCloud (2011) while seriously ill. He continued working almost until his death in October 2011."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Schlender & Tetzeli, *Becoming Steve Jobs* (2015)",
+              "Brennan-Jobs, *Small Fry* (2018)",
+              "Isaacson, *Steve Jobs* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Jobs showed meaningful growth over his life. After being fired from Apple, he acknowledged this was humbling and transformative ('the best thing that could have ever happened to me'—Stanford 2005). He evolved from denying his daughter Lisa to eventually reconciling and naming the Lisa computer after her (which he had previously denied). Schlender & Tetzeli specifically argue his 'wilderness years' at NeXT and Pixar matured him into a more effective leader. However, he never fully abandoned his cruel management style, and there is no documented public admission of wrongdoing regarding the anti-poaching agreements or stock backdating."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Schlender & Tetzeli, *Becoming Steve Jobs* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jobs functioned effectively through multiple qualitatively different adversities: being given up for adoption at birth, dropping out of Reed College and sleeping on floors (material deprivation, 1972–74), being ousted from Apple in 1985 (professional devastation and public humiliation), the commercial failure of NeXT hardware, and battling pancreatic cancer for 8 years (2003–2011) while continuing to lead Apple through its most productive period. He launched the iPad in January 2010 while seriously ill. These span material, professional, and physical adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Schlender & Tetzeli, *Becoming Steve Jobs* (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jobs seamlessly inhabited at least five seemingly contradictory roles: (1) Zen Buddhist practitioner and ruthless corporate competitor, (2) counterculture hippie (LSD use, India pilgrimage, bare feet) and corporate CEO of the world's most valuable company, (3) college dropout and intellectual tastemaker, (4) minimalist ascetic (near-empty home, simple diet) and purveyor of premium luxury consumer goods, (5) obsessive micromanager of details (icon pixel alignment) and grand visionary of civilizational-scale change. He held these together coherently—his Zen practice *informed* his design minimalism which *drove* his business success, creating an integrated identity rather than fragmented personas."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Jobs, Stanford Commencement Address, 2005"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Jobs articulated profound mortality awareness in his 2005 Stanford speech: 'Remembering that I'll be dead soon is the most important tool I've ever encountered.' However, when diagnosed with a rare treatable form of pancreatic cancer in 2003, he delayed surgery for 9 months in favor of alternative treatments (juice fasts, acupuncture, herbal remedies)—suggesting denial or avoidance. In his final days, Isaacson reports he was alternately accepting and resistant. His reported last words—'Oh wow. Oh wow. Oh wow.'—suggest a moment of transcendent acceptance. The pattern is philosophically sophisticated but imperfectly lived, with the treatment delay being a serious counterexample to full composure. Without the delay, score would be 3; with it, 2."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Jobs was not known for physical prowess. He practiced long walking meetings as his primary form of exercise and traveled to India on foot at age 19 (1974), showing some youthful physical capacity. He endured pancreatic cancer and a liver transplant (2009) while continuing to work, which demonstrates physical persistence. However, there are no documented physical feats or athletic skills across multiple life-stages; his body was notably frail in his final years."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Isaacson, *Steve Jobs* (2011)",
+              "Hertzfeld, *Revolution in the Valley* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jobs had a deep, genuine appreciation for aesthetics that went beyond instrumental use. He studied calligraphy under Robert Palladino at Reed College purely for its beauty, which later influenced Macintosh typography. He was passionate about Bob Dylan and the Beatles, collecting bootlegs and attending concerts. His homes featured carefully curated furniture (he agonized for months over a sofa). He loved Zen gardens and practiced meditation. His tearful reactions to beautiful design were well-documented by colleagues. This aesthetic engagement was genuinely non-instrumental in many contexts, though it also served his work."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.85,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Steve Jobs",
+      "overall": {
+        "Core_5D_Avg": 6.85,
+        "Overall_Normalized_Equal_Avg": 6.3,
+        "General_Competency_Avg_10scale": 3.56
+      },
+      "summary": "Steve Jobs was a transformative figure in technology and business, combining exceptional strategic intelligence and creative vision with powerful institution-building at Apple and Pixar. His cultural-social impact is near-maximal: he reshaped personal computing, music distribution, smartphones, and animated filmmaking. Moral-affective and relational scores are significantly lower, reflecting documented cruelty toward employees, initial abandonment of his daughter Lisa, and poor followership capacity. His paradox integration—Zen Buddhist and corporate titan, artist and businessman, dropout and visionary—was extraordinary. Heinlein competency is narrow, concentrated in strategic command and aesthetic domains, with negligible evidence in manual, agricultural, medical, or combat skills.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.07,
+          "General_Competency_Avg_10scale": 3.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Jobs could cook or prepare meals with skill. He was known for extreme and eccentric dietary choices (fruitarian phases, carrot juice obsessions, prolonged fasts) but these reflect consumption habits, not culinary competence. Isaacson's biography does not describe any cooking ability."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of combat training, martial arts practice, or physical defense skills. Jobs was not military, did not practice fighting arts, and was physically slight for most of his life."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)",
+            "Brennan-Jobs, *Small Fry* (2018)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Jobs provided for his family materially and was present in his later children's lives, but no specific documented acts of hands-on caregiving (nursing the sick, comforting the dying) beyond normal family life are in the record. His abandonment of Lisa Brennan-Jobs and her mother significantly undercuts this domain. His emotional support of Laurene during their marriage and his later reconciliation with Lisa represent episodic caregiving."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)",
+            "Jobs, Stanford Commencement Address, 2005"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Jobs' 2005 Stanford speech demonstrated philosophical composure about death: 'Death is very likely the single best invention of Life.' He continued leading Apple with dignity through years of visible physical decline from cancer. His reported last words—'Oh wow. Oh wow. Oh wow.'—suggest transcendent acceptance at the moment of death. However, his 9-month delay of potentially curative surgery in favor of alternative medicine (2003–2004) suggests initial denial when facing his own mortality, preventing a score of 3."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)",
+            "Wozniak, Steve. *iWoz* (W.W. Norton, 2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "In his youth, Jobs and Wozniak hand-assembled 'blue boxes' (illegal phone phreaking devices) and early Apple I boards in the Jobs family garage. Jobs was more the assembler and tester than the electronics designer (that was Wozniak), but he had hands-on capacity with circuit boards and soldering in Apple's earliest days. No evidence of manual craft skills in later life."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Jobs traveled to India at age 19 (1974), spending seven months navigating rural areas on foot and by bus, which required basic wayfinding in unfamiliar terrain. He later traveled extensively for business. However, no evidence of skilled navigation (seafaring, wilderness orienteering, cartographic competence) beyond basic travel."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Jobs ever butchered, processed, or prepared animals or raw food resources. He was a lifelong vegetarian/pescatarian and his dietary practices were about consumption choices, not food processing skill."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)",
+            "Catmull, Ed. *Creativity, Inc.* (Random House, 2014)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Jobs was an exceptional leader—inspiring teams, commanding organizations, and directing product vision. However, the 'followership' component is weak: he was unable to work under John Sculley at Apple (leading to his 1985 firing), clashed with the Apple board repeatedly, and was constitutionally resistant to taking direction from others. He did learn to work more effectively with his board during Apple 2.0 and deferred to Ed Catmull and John Lasseter on creative decisions at Pixar, showing some followership growth. The average of exceptional leadership and limited followership yields a moderate score."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence Jobs personally designed or built physical structures. He commissioned architecture (working with I.M. Pei on NeXT headquarters, overseeing Norman Foster's design of Apple Park) but as a client with strong aesthetic opinions, not as a builder or fabricator."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)",
+            "Lashinsky, *Inside Apple* (2012)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Jobs coordinated the rescue of Apple from near-bankruptcy (1997), managed complex multi-year product development cycles (iPhone development 2004–2007 involved negotiating with Cingular, managing secret internal teams, coordinating hardware/software/services), orchestrated the Pixar IPO and Disney acquisition, and built a supply chain through Tim Cook that became a competitive moat. He commanded operations spanning hardware design, software development, retail, and content across global markets simultaneously."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)",
+            "Price, *The Pixar Touch* (2009)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Jobs studied calligraphy under Robert Palladino at Reed College, and his aesthetic vision profoundly shaped product design that is widely regarded as art (the original iMac, iPhone, Apple stores). He invested in and championed Pixar's artistic mission, enabling landmark animated films. His product keynotes were polished performances. He did not produce traditional art (no paintings, novels, music), but his design curation and patronage of Pixar represent significant artistic and cultural expression for his era."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of medical skills, first aid competence, or emergency response capability. Jobs was a patient of the medical system during his cancer treatment, not a provider."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)",
+            "Schlender & Tetzeli, *Becoming Steve Jobs* (2015)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Jobs demonstrated strong analytical reasoning in business contexts: pricing strategy for Apple products, financial structuring of the Pixar IPO and Disney acquisition (negotiating a deal that made him Disney's largest individual shareholder), and evaluating complex technical tradeoffs in product development. He was not a mathematician or programmer, but he applied quantitative logic effectively to business problems at massive scale."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of agricultural skill or natural resource management. Jobs grew up in suburban Cupertino and spent his career in technology. His interest in organic food was as a consumer, not a cultivator."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Isaacson, *Steve Jobs* (2011)",
+            "Lashinsky, *Inside Apple* (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Jobs was not an engineer but had deep technical intuition for the cutting-edge technologies of his era. He personally drove the adoption of Gorilla Glass for the iPhone (contacting Corning CEO Wendell Weeks directly when told it was impossible at scale), insisted on specific chipset and display technologies, and understood systems integration (hardware-software-services) at a level that enabled Apple's competitive advantage. He relied on engineers for implementation but set technically ambitious targets that shaped solutions."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.85,
+    "general_competency_avg_0_10": 3.56,
+    "overall_normalized_equal_avg_0_10": 6.3,
+    "created_at": "2026-03-22T19:55:42.991Z",
+    "updated_at": "2026-03-22T19:55:43.004Z"
+  }
+}
+]

@@ -1,0 +1,370 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 146,
+  "fields": {
+    "name": "Mary Shelley",
+    "slug": "mary-shelley",
+    "bio_short": "Mary Shelley's defining achievement was creative: Frankenstein (1818) constituted a paradigm shift, founding science fiction and embedding a permanent archetype in global culture. She demonstrated remarkable hardship tolerance, enduring the deaths of three children, her husband's drowning, social ostracism, and financial struggle while maintaining literary productivity. Her ethical and philosophical insight, expressed through fiction rather than treatise, addressed creation, responsibility, and scientific hubris. Relationally warm and devoted, she was a caring mother and complex partner. Her H",
+    "bio_long": "Mary Wollstonecraft Shelley was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus (1818), which is considered an early example of science fiction. She also edited and promoted the works of her husband, the Romantic poet and philosopher Percy Bysshe Shelley. Her father was the political philosopher William Godwin and her mother was the philosopher and women's rights advocate Mary Wollstonecraft.",
+    "source_notes": "https://en.wikipedia.org/wiki/Mary_Shelley",
+    "image": "figures/lossy-page1-330px-Mary_Wollstonecraft_Shelley_Rothwell.tif.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Sunstein, Emily, *Mary Shelley: Romance and Reality* (1989)",
+              "Seymour, Miranda, *Mary Shelley* (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Mary Shelley navigated the complex politics of Percy's estate with Sir Timothy Shelley, who threatened to cut off her allowance if she published a biography—she strategically circumvented this by embedding biographical material in her annotations to Percy's collected poems (1839). She also managed her literary career as a single woman in a hostile market. However, these are survival strategies rather than the multi-outcome foresight and adaptive planning the rubric demands at higher levels."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Aldiss, Brian, *Billion Year Spree: The True History of Science Fiction* (1973)",
+              "Mellor, Anne K., *Mary Shelley: Her Life, Her Fiction, Her Monsters* (1988)",
+              "Shelley, Mary, *Frankenstein; or, The Modern Prometheus* (1818)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Frankenstein (1818) is widely recognized as founding the science fiction genre—Brian Aldiss's influential argument in *Billion Year Spree* (1973) identifies it as the first true science fiction novel because its central premise rests on scientific experimentation (galvanism) rather than supernatural causation. The Last Man (1826) is among the earliest post-apocalyptic novels. The 'Frankenstein' concept created a clear before/after paradigm shift in how Western culture conceptualizes scientific creation and its unintended consequences."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Mellor, Anne K., *Mary Shelley: Her Life, Her Fiction, Her Monsters* (1988)",
+              "Schor, Esther, ed., *The Cambridge Companion to Mary Shelley* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Frankenstein explores the ethics of creation, parental responsibility, scientific hubris, and the moral status of artificial beings—themes that have become central to modern bioethics and AI ethics discourse. The Last Man (1826) anticipates existential risk philosophy. Her thinking drew on and synthesized her parents' philosophical traditions (Godwin's political justice, Wollstonecraft's rights discourse). These ideas influenced thinkers well beyond her community, but she did not articulate a formal philosophical system."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Reiman, Donald H., ed., *Shelley and His Circle* (1961–2002)",
+              "Shelley, Mary, ed., *The Poetical Works of Percy Bysshe Shelley* (1839)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "She undertook the significant editorial task of compiling, deciphering, and annotating Percy Bysshe Shelley's disordered manuscripts for the Posthumous Poems (1824) and the four-volume Poetical Works (1839), which established the canonical Shelley text for over a century. She also produced biographical entries for Lardner's Cabinet Cyclopaedia. These were organizational achievements but not systems or policies that endured beyond her oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Bennett, Betty T., ed., *The Letters of Mary Wollstonecraft Shelley* (1980–1988)",
+              "Seymour, Miranda, *Mary Shelley* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She functioned as: daughter (complex, strained relationship with Godwin, marked by devotion despite exploitation), spouse (intellectual partnership with Percy), mother (devoted to Percy Florence), friend (deep bonds with Jane Williams, Leigh Hunt, Edward Trelawny, Isabella Booth), subordinate/supplicant (negotiations with Sir Timothy Shelley for financial support), professional peer (interactions with publishers like Henry Colburn and editors). This covers at least five relational modes with documented qualitative differences in her behavior across them, though evidence for some modes is thinner than others."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Hay, Daisy, *Young Romantics: The Shelleys, Byron, and Other Tangled Lives* (2010)",
+              "Seymour, Miranda, *Mary Shelley* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Her relationship with Percy Bysshe Shelley was intensely intellectually generative—they read together constantly, discussed philosophy, and directly influenced each other's work (Percy edited Frankenstein; Mary shaped his poetry through discussion). She supported Percy's literary ambitions unreservedly. However, the relationship was strained by Percy's emotional volatility, his possible romantic entanglements with Claire Clairmont and others, and the crushing grief of losing children. After Percy's death, her decades-long devotion to his literary legacy demonstrates extraordinary commitment. The relationship showed depth and mutual intellectual respect but also significant dysfunction."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Sunstein, Emily, *Mary Shelley: Romance and Reality* (1989)",
+              "Seymour, Miranda, *Mary Shelley* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She was deeply devoted to her surviving son Percy Florence Shelley, sacrificing her own comfort and social standing to secure his education and inheritance. She navigated Sir Timothy's hostility to ensure Percy Florence's future as heir to the Shelley baronetcy. Percy Florence grew into a stable, if unremarkable, adult who married well and lived comfortably—suggesting competent rather than exceptional parenting. She was perhaps overprotective given her trauma from losing three other children. She did not have notable mentees outside the family."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Hitchcock, Susan Tyler, *Frankenstein: A Cultural History* (2007)",
+              "Aldiss, Brian, *Billion Year Spree* (1973)",
+              "Mellor, Anne K., *Mary Shelley: Her Life, Her Fiction, Her Monsters* (1988)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Frankenstein has had extraordinary and enduring impact across literature, film, bioethics, technology discourse, and popular culture for over 200 years. The 'Frankenstein' metaphor is used globally in debates about genetic engineering, AI, and scientific responsibility. The novel has generated hundreds of adaptations across film, theater, television, and other media. The Last Man influenced the post-apocalyptic genre. While less than 500 years have elapsed since publication, the impact is already operative across multiple civilizations and shows no sign of diminishing—the concept is permanently embedded in global cultural vocabulary."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Hoobler, Dorothy and Thomas, *The Monsters: Mary Shelley and the Curse of Frankenstein* (2006)",
+              "Seymour, Miranda, *Mary Shelley* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Mary Shelley herself has become a recognizable cultural archetype: the young female genius creating amid tragedy, the Romantic widow devoted to literary legacy, the teenage girl who outshone the famous men around her at Villa Diodati. Her story has been adapted in numerous films and novels. However, the archetype that resonates most powerfully cross-culturally is her creation (Frankenstein/the Creature), not her own persona. Her personal archetypal resonance is strong within Western literary culture but not universally cross-cultural at the level of a 3."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Reiman, Donald H., ed., *Shelley and His Circle* (1961–2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "She did not found formal institutions. Her most significant organizational legacy was establishing the canonical text and reputation of Percy Bysshe Shelley through her editorial work, which shaped Shelley studies for over a century. This functions as a kind of cultural institution—the Shelley canon—but stretches the definition. She contributed to the emerging institution of professional women's authorship but did not build organizations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Schor, Esther, ed., *The Cambridge Companion to Mary Shelley* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Mary Shelley was not a leader of movements or organizations. She participated in the Shelley-Byron circle but was not its leader. Her cultural influence was exercised primarily through her writing rather than through mobilizing or directing groups. She shaped Percy's posthumous reputation through editorial decisions but this was a solitary intellectual effort, not group leadership."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Feldman, Paula R. and Scott-Kilvert, Diana, eds., *The Journals of Mary Shelley* (1987)",
+              "Bennett, Betty T., ed., *The Letters of Mary Wollstonecraft Shelley* (1980–1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Her journals and letters document a deeply human figure engaged with everyday life: grief over children's deaths, financial anxiety, household management, domestic quarrels, travel frustrations, reading for pleasure. She dealt with servants, managed household budgets on limited income, and coped with mundane parenting challenges while raising Percy Florence. Her travel writing (Rambles in Germany and Italy, 1844) reveals engagement with ordinary experience—markets, inns, local customs."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Mellor, Anne K., *Mary Shelley: Her Life, Her Fiction, Her Monsters* (1988)",
+              "Clemit, Pamela, *The Godwinian Novel* (1993)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Her novels contain critiques of social injustice—the Creature's plea for fairness, the class commentary in Lodore and Falkner—and she inherited progressive views from Godwin and Wollstonecraft. However, she was notably cautious in her public political stance in later years, avoiding radical advocacy. There is limited specific evidence of her ruling against personal or group interest in favor of principle in her own life decisions."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Seymour, Miranda, *Mary Shelley* (2000)",
+              "Sunstein, Emily, *Mary Shelley: Romance and Reality* (1989)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Frankenstein's Creature is one of literature's most profoundly empathetic portrayals of an outcast—evidence of deep imaginative empathy. In life, she supported her stepsister Claire Clairmont financially and emotionally for decades despite Claire's difficult personality. She continued supporting her father Godwin financially despite his exploitative demands on her. She showed generosity toward Jane Williams even after Jane betrayed her confidence by sharing private letters. Evidence of compassion toward true adversaries is limited."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Mellor, Anne K., *Mary Shelley: Her Life, Her Fiction, Her Monsters* (1988)",
+              "Seymour, Miranda, *Mary Shelley* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "She eloped with Percy at 16, defying her father and all social convention. She endured the deaths of three children (1815, 1818, 1819) and Percy's drowning (1822), yet continued writing and publishing—completing Valperga and The Last Man during or shortly after these losses. She persisted as a professional woman writer and single mother in Regency England despite social ostracism and financial precarity, publishing six novels, numerous short stories, and travel narratives. This represents sustained resilience across multiple adversities, though more endurance under grief than active confrontation of danger."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Shelley, Mary, *Frankenstein* 1831 Introduction",
+              "Feldman, Paula R. and Scott-Kilvert, Diana, eds., *The Journals of Mary Shelley* (1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Her journals reveal extensive self-reflection and acknowledgment of personal failings. The 1831 introduction to Frankenstein shows her reflecting critically on her younger self and the circumstances of the novel's creation. Her literary evolution from the Romantic radicalism of Frankenstein to the more tempered, socially embedded later novels (Lodore, Falkner) reflects genuine intellectual and moral maturation. She moved from idealizing Percy after his death to a more nuanced assessment visible in her later editorial notes."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Seymour, Miranda, *Mary Shelley* (2000)",
+              "Sunstein, Emily, *Mary Shelley: Romance and Reality* (1989)",
+              "Feldman, Paula R. and Scott-Kilvert, Diana, eds., *The Journals of Mary Shelley* (1987)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "She endured qualitatively distinct forms of severe adversity while remaining productive: material deprivation (chronic debt, dependence on Sir Timothy's grudging allowance, Godwin's financial parasitism), devastating personal bereavement (deaths of three children in four years, Percy's drowning, Fanny Imlay's and Harriet Shelley's suicides), and social ostracism as an unwed and then widowed woman in Regency society. Through all of this she continued writing and publishing prolifically—completing The Last Man, Valperga, Lodore, and Falkner, plus editorial work and short fiction."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Mellor, Anne K., *Mary Shelley: Her Life, Her Fiction, Her Monsters* (1988)",
+              "Schor, Esther, ed., *The Cambridge Companion to Mary Shelley* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She inhabited several seemingly contradictory roles: daughter of radical philosophers yet socially cautious in her own public persona; creator of the most famous horror/science fiction novel yet a gentle, domestic, emotionally open person; preserver of Percy's radical literary legacy yet personally moving toward conservatism in later years; financially dependent woman yet intellectually independent professional writer. These represent at least two or three clear paradoxes coherently integrated, though the third is arguable."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Seymour, Miranda, *Mary Shelley* (2000)",
+              "Sunstein, Emily, *Mary Shelley: Romance and Reality* (1989)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "She engaged with death and mortality throughout her life and in her fiction—The Last Man is fundamentally about the extinction of humanity. Her journals show her processing grief with philosophical depth. However, the specific criterion for score 3 (documented composure in the face of one's own imminent death) lacks strong evidence: she died on February 1, 1851, likely of a brain tumor, and the record of her final days is sparse. Her chronic illness in later years suggests she lived with awareness of mortality, but detailed documentation is limited."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Shelley, Mary, *History of a Six Weeks' Tour* (1817)",
+              "Sunstein, Emily, *Mary Shelley: Romance and Reality* (1989)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "She traveled extensively across Europe in physically demanding conditions—crossing the Alps on foot and by mule in 1814 and again in later journeys, traveling through France and Italy repeatedly. She endured four pregnancies including a near-fatal miscarriage in June 1822. However, she was frequently ill, and there is no evidence of exceptional physical feats or sustained physical capacity across multiple life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Feldman, Paula R. and Scott-Kilvert, Diana, eds., *The Journals of Mary Shelley* (1987)",
+              "Shelley, Mary, *Rambles in Germany and Italy* (1844)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Her journals record genuine delight in reading (she maintained extensive reading lists), in Italian landscape and art, in theatre-going in London and Paris, and in social gatherings with friends. Her travel narratives (Rambles in Germany and Italy, 1844) reveal non-instrumental aesthetic engagement with scenery, architecture, and local culture. The ghost-story contest at Villa Diodati in June 1816 that generated Frankenstein began as a playful social game proposed by Byron."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 6.67,
+          "Core_5D_Avg": 6.07,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Mary Shelley",
+      "overall": {
+        "Core_5D_Avg": 6.07,
+        "Overall_Normalized_Equal_Avg": 5.54,
+        "General_Competency_Avg_10scale": 2.89
+      },
+      "summary": "Mary Shelley's defining achievement was creative: Frankenstein (1818) constituted a paradigm shift, founding science fiction and embedding a permanent archetype in global culture. She demonstrated remarkable hardship tolerance, enduring the deaths of three children, her husband's drowning, social ostracism, and financial struggle while maintaining literary productivity. Her ethical and philosophical insight, expressed through fiction rather than treatise, addressed creation, responsibility, and scientific hubris. Relationally warm and devoted, she was a caring mother and complex partner. Her Heinlein competency is narrow—brilliant in artistic expression but with limited practical skills typical of her class and gender constraints in Regency-era England.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.87,
+          "General_Competency_Avg_10scale": 2.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of culinary skill in the record. While she managed households, her social position typically involved servants handling cooking, and no personal culinary ability is documented in her letters or journals."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of combat or defense skills. Her gender, class, and era would not have provided opportunities or expectations in this domain."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Feldman, Paula R. and Scott-Kilvert, Diana, eds., *The Journals of Mary Shelley* (1987)",
+            "Bennett, Betty T., ed., *The Letters of Mary Wollstonecraft Shelley* (1980–1988)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "She nursed her children through illnesses (documented in journals regarding William's fatal illness in Rome, 1819), cared for Percy during their turbulent years together, and supported her aging father Godwin despite his financial exploitation. She was primary caregiver to Percy Florence as a single mother for nearly 30 years. Her letters document hands-on domestic caregiving."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Feldman, Paula R. and Scott-Kilvert, Diana, eds., *The Journals of Mary Shelley* (1987)",
+            "Seymour, Miranda, *Mary Shelley* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "She faced extraordinary accumulated loss—three children, her husband, suicides in her circle (Fanny Imlay, Harriet Shelley)—with documented composure sufficient to continue functioning as a writer, mother, and editor. Her journals from the grief-stricken period after Percy's death (1822–1824) show someone processing devastating loss while maintaining purpose and productivity. She did not retreat from life but continued engaging with it meaningfully."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of manual craft or repair skills. Her social position and gender norms of the era would have limited expectations in this domain, but even accounting for era normalization, no documented evidence exists."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Shelley, Mary, *History of a Six Weeks' Tour* (1817)",
+            "Shelley, Mary, *Rambles in Germany and Italy* (1844)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She undertook extensive European travel: the 1814 elopement journey through France to Switzerland, years of residence in Italy moving between Pisa, Livorno, Genoa, Florence, and Rome, and later travels documented in Rambles in Germany and Italy (1844). These required practical knowledge of routes, transport, and lodging, though she typically traveled with companions who shared logistics."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record of Mary Shelley engaging in animal husbandry or food processing. Her social class and urban/literary milieu would not typically require these skills."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Seymour, Miranda, *Mary Shelley* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She followed Percy's lead in their shared life (relocations, social circle decisions) and later took independent direction of her household and career as a widow. She deferred to Sir Timothy's demands when necessary while maintaining her own agenda. This shows functional capacity in both modes but neither at an exceptional level—she led no organizations and her followership was largely situational/domestic."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of construction or fabrication skills in the historical record."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Sunstein, Emily, *Mary Shelley: Romance and Reality* (1989)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She managed the complex, decades-long project of securing Percy Florence's inheritance from Sir Timothy Shelley while simultaneously promoting Percy's literary reputation through strategic editorial decisions—annotating poems rather than publishing the forbidden biography. This required long-term planning and navigation of constraints, but on a personal/domestic scale rather than commanding complex operations."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Shelley, Mary, *Frankenstein; or, The Modern Prometheus* (1818)",
+            "Mellor, Anne K., *Mary Shelley: Her Life, Her Fiction, Her Monsters* (1988)",
+            "Schor, Esther, ed., *The Cambridge Companion to Mary Shelley* (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "She authored Frankenstein (1818), one of the most influential novels in literary history and a founding text of science fiction. She also wrote The Last Man (1826), Valperga (1823), Mathilda (composed 1819), Lodore (1835), Falkner (1837), numerous short stories, travel narratives, and biographical essays for Lardner's Cabinet Cyclopaedia. Her editorial work on Percy's poems was itself a creative-scholarly achievement of the first order. This represents exceptional artistic achievement by any standard."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Feldman, Paula R. and Scott-Kilvert, Diana, eds., *The Journals of Mary Shelley* (1987)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Her journals document nursing her children during their illnesses, including William's fatal illness in Rome (1819) and attending to Percy Florence through childhood ailments. She would have possessed the basic nursing knowledge expected of an early 19th-century mother. Era-normalized, this represents basic competence. The famous 1822 miscarriage episode shows Percy treating her (placing her in ice water), not her own medical skill."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Bennett, Betty T., ed., *The Letters of Mary Wollstonecraft Shelley* (1980–1988)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "She managed household finances under strained circumstances for decades, negotiating allowances, budgeting against debt, and handling publishing contracts. Her fiction demonstrates familiarity with contemporary science (galvanism, polar exploration). However, there is no evidence of particular mathematical sophistication or formal analytical training."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural or resource management activity. She lived in urban and semi-urban settings throughout her life."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Reiman, Donald H., ed., *Shelley and His Circle* (1961–2002)",
+            "Shelley, Mary, ed., *The Poetical Works of Percy Bysshe Shelley* (1839)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Her editorial work on Percy's manuscripts required deciphering his notoriously difficult handwriting, reconstructing fragmentary texts, and establishing a coherent editorial apparatus—a technically demanding scholarly undertaking that established the Shelley canon for over a century. Her fiction also shows engagement with contemporary scientific and technical ideas (galvanism, Arctic exploration, plague epidemiology in The Last Man)."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.07,
+    "general_competency_avg_0_10": 2.89,
+    "overall_normalized_equal_avg_0_10": 5.54,
+    "created_at": "2026-03-22T18:56:34.863Z",
+    "updated_at": "2026-03-22T18:56:34.889Z"
+  }
+}
+]

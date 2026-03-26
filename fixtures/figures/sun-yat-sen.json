@@ -1,0 +1,391 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 211,
+  "fields": {
+    "name": "Sun Yat-sen",
+    "slug": "sun-yat-sen",
+    "bio_short": "Sun Yat-sen's defining strength is his extraordinary cultural-social impact: founding the Republic of China, creating the KMT, and becoming a uniquely bipartisan symbol revered by both the PRC and ROC. His Three Principles shaped Asian political thought for a century. His moral-affective profile is strong, marked by exceptional resilience across decades of exile and failure. Cognitively, he was a capable synthesizer but a weak administrator. His relational life was complicated by abandonment of his first family. Heinlein competency breadth is narrow—trained as a physician but otherwise a speci",
+    "bio_long": "Sun Yat-sen, a.k.a. Sun Zhongshan, Sun Wen, was a Chinese physician, revolutionary, statesman, and political philosopher who founded the Republic of China (ROC) and its first political party, the Kuomintang (KMT). As the paramount leader of the 1911 Revolution, Sun is credited with overthrowing the Qing dynasty and served as the first president of the Provisional Government of the Republic of China (1912) and as the inaugural premier of the Kuomintang.",
+    "source_notes": "https://en.wikipedia.org/wiki/Sun_Yat-sen",
+    "image": "figures/330px-E5AD99E4B8ADE5B1B1E88296E5838F.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Bergère, Marie-Claire. *Sun Yat-sen*. Stanford UP, 1998.",
+              "Schiffrin, Harold. *Sun Yat-sen and the Origins of the Chinese Revolution*. UC Press, 1968.",
+              "Wilbur, C. Martin. *Sun Yat-sen: Frustrated Patriot*. Columbia UP, 1976."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Sun organized revolutionary networks across multiple continents and adapted strategy after each of at least ten failed uprisings (1895–1911), pivoting from secret-society alliances to military revolts to broad united-front approaches. His final strategic pivot—allying with the Soviet Union in 1923 after Western powers refused support, and reorganizing the KMT along Leninist lines—demonstrated significant adaptive capacity. However, he was repeatedly outmaneuvered by Yuan Shikai and regional warlords, and the 1911 Revolution succeeded largely without his direct command."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Sun Yat-sen. *The International Development of China*. 1921.",
+              "Bergère, *Sun Yat-sen*, ch. 13.",
+              "Schiffrin, *Sun Yat-sen and the Origins of the Chinese Revolution*."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Sun's *The International Development of China* (1921) envisioned massive infrastructure modernization—railways, ports, industrialization—decades before such plans became standard in developing nations. His synthesis of republican constitutionalism with Chinese political concepts (the examination yuan, control yuan) was a novel institutional innovation. However, most of his ideas were creative adaptations of existing Western and socialist concepts rather than paradigm-shifting originations."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Sun Yat-sen. *San Min Chu I: The Three Principles of the People*. 1924.",
+              "Bergère, *Sun Yat-sen*, ch. 11–12.",
+              "Wei, Julie Lee. *Prescriptions for Saving China: Selected Writings of Sun Yat-sen*. Hoover Press, 1994."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Sun's Three Principles of the People (San Min Zhu Yi)—nationalism, democracy, and people's livelihood—synthesized Western democratic theory, socialist economics, and Chinese political tradition into a coherent political program. His Five-Power Constitution concept (adding examination and control branches to Montesquieu's three) was genuinely original. These ideas influenced anti-colonial thinkers across Asia, including Ho Chi Minh. However, scholars note the principles are more a political program than deep philosophical system, often criticized for vagueness."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Wilbur, *Sun Yat-sen: Frustrated Patriot*.",
+              "Bergère, *Sun Yat-sen*, chs. 8–10.",
+              "Jacobs, Dan N. *Borodin: Stalin's Man in China*. Harvard UP, 1981."
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Sun's provisional presidency (Jan–Apr 1912) was brief and largely ceremonial; he quickly ceded power to Yuan Shikai, unable to consolidate administrative authority. His successive Guangzhou-based governments (1917–18, 1920–22, 1923–25) depended on unreliable warlord allies and were chronically unstable. While his 1923–24 KMT reorganization with Soviet advisors created durable party structures, this was accomplished primarily through Borodin's organizational expertise rather than Sun's own administrative capacity."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*.",
+              "Jansen, Marius. *The Japanese and Sun Yat-sen*. Harvard UP, 1954.",
+              "Wilbur, *Sun Yat-sen: Frustrated Patriot*."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sun functioned across multiple relational modes: spouse/partner (to Lu Muzhen, Kaoru Otsuki, Soong Ching-ling), parent (largely absent but maintained some connection with Sun Fo), political superior (as president and party leader), subordinate (deferring to warlord allies when necessary), cross-cultural ally (Japanese pan-Asianists like Miyazaki Tōten, Soviet advisors like Borodin, overseas Chinese merchants), and adversary (Yuan Shikai, various warlords). This spans at least five relational modes with documented variation in approach, though his dominant mode remained that of charismatic leader."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*, chs. 1, 9.",
+              "Schiffrin, *Sun Yat-sen: Reluctant Revolutionary*.",
+              "Seagrave, Sterling. *The Soong Dynasty*. Harper & Row, 1985."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Sun's relational record with partners is mixed. He effectively abandoned his first wife Lu Muzhen (married 1884, arranged marriage) and their three children when he devoted himself to revolution. He had a Japanese common-law partner, Kaoru Otsuki, with whom he had a daughter, Fumiko. His marriage to Soong Ching-ling (1915), 26 years his junior and against her family's wishes, was reportedly a close political and personal partnership, and she remained devoted to his legacy. However, the pattern of abandoning earlier partners and the power asymmetry with Soong Ching-ling complicates the picture significantly."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*.",
+              "Wilbur, *Sun Yat-sen: Frustrated Patriot*.",
+              "Taylor, *The Generalissimo*."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Sun was largely absent from his children's upbringing due to decades of exile and revolutionary activity. His son Sun Fo became a politician but their relationship was reportedly strained. As a political mentor, Sun influenced Chiang Kai-shek, Wang Jingwei, Liao Zhongkai, and others, but his mentees ended up in bitter factional warfare after his death, suggesting he failed to develop collaborative autonomy among successors. The chaotic KMT succession struggle indicates limited mentoring effectiveness."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*, epilogue.",
+              "Fitzgerald, *Awakening China*.",
+              "Harrison, Henrietta. *The Making of the Republican Citizen*. Oxford UP, 2000."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Sun is uniquely honored as 'Father of the Nation' (国父) by both the Republic of China (Taiwan) and as a 'forerunner of the revolution' (革命先行者) by the People's Republic of China—an unparalleled bipartisan legacy. His Three Principles influenced political development across East and Southeast Asia. The Republic of China continues as a functioning state. His ideas on modernization and anti-imperialism shaped Chinese political discourse for over a century and influenced anti-colonial movements globally. These effects remain clearly operative well beyond the 500-year threshold is not yet met, but the breadth across civilizations is exceptional."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*, epilogue.",
+              "Harrison, *The Making of the Republican Citizen*.",
+              "Fitzgerald, *Awakening China*."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Sun embodies the archetype of the physician-turned-revolutionary and the persistent visionary who endures repeated failure to achieve transformation. He is recognized as a founding-father figure across Chinese-speaking cultures worldwide and as a symbol of Asian republican revolution and anti-imperial modernization beyond China. His image appears in both PRC and ROC official settings—an extraordinary cross-ideological symbolic resonance. He is invoked by democratic reformers and communist revolutionaries alike."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*.",
+              "Wilbur, *Sun Yat-sen: Frustrated Patriot*.",
+              "Taylor, Jay. *The Generalissimo: Chiang Kai-shek and the Struggle for Modern China*. Harvard UP, 2009."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Sun founded the Xingzhonghui (1894), Tongmenghui (1905), and Kuomintang (1912/reorganized 1919 and 1924)—the KMT governed mainland China 1928–1949 and remains a major political party in Taiwan today, well exceeding the two-generation threshold. He co-established the Whampoa Military Academy (1924), which produced military leaders for decades. The Republic of China itself, which he founded as a political entity, persists as a state. These institutions survived with recognizable continuity far beyond his death."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*.",
+              "Wilbur, *Sun Yat-sen: Frustrated Patriot*.",
+              "Schiffrin, *Sun Yat-sen: Reluctant Revolutionary*."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Sun led successfully across qualitatively different contexts: as underground revolutionary organizer (Tongmenghui, 1905), international fundraiser mobilizing overseas Chinese communities across Southeast Asia, Japan, and the Americas, head of state (provisional president, 1912), and party-builder (KMT reorganization, 1923–24). He inspired loyalty despite repeated failures, maintained moral authority among competing factions, and unified diverse revolutionary groups under a common ideology. His influence extended to figures as varied as Chiang Kai-shek, Wang Jingwei, and Mao Zedong, all of whom claimed his mantle."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*, ch. 1.",
+              "Schiffrin, *Sun Yat-sen and the Origins of the Chinese Revolution*, ch. 1."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Sun came from a peasant family in Cuiheng village, Guangdong, and reportedly lived simply during much of his exile. However, specific documented evidence of engagement with mundane everyday activities—cooking, manual labor, humor with children—at the height of his power is thin in non-hagiographic sources. His life was consumed by revolutionary politics, international travel, and ideological work. Accounts of his personal daily habits are largely filtered through PRC/ROC hagiographic traditions."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Sun Yat-sen. *San Min Chu I*. 1924.",
+              "Bergère, *Sun Yat-sen*, chs. 7, 14.",
+              "Fitzgerald, John. *Awakening China*. Stanford UP, 1996."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sun's 'Equalization of Land Rights' policy and 'people's livelihood' principle demonstrated a serious commitment to economic justice and redistribution. He consistently advocated constitutional governance and the rule of law as alternatives to monarchical or warlord rule. His decision to step down from the provisional presidency in favor of Yuan Shikai (1912) prioritized republican principles over personal power. However, his later acceptance of Soviet-style 'tutelage' government and one-party rule tension with his democratic commitments complicates the picture, and he never governed long enough to demonstrate ruling against personal interest in adjudicative settings."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*, ch. 7.",
+              "Schiffrin, Harold. *Sun Yat-sen: Reluctant Revolutionary*. Little, Brown, 1980."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sun advocated lenient treatment of Manchus and Qing loyalists after the 1911 Revolution, explicitly arguing against ethnic revenge despite decades of anti-Manchu revolutionary rhetoric—a notable act of compassion toward adversaries. He trained as a physician at the Hong Kong College of Medicine for Chinese (graduated 1892), choosing a healing profession. He stepped down from the provisional presidency partly to avoid civil war and further bloodshed. However, specific personal acts of compassion toward named individuals are not well-documented outside hagiographic accounts."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Wong, J. Y. *The Origins of an Heroic Image: Sun Yat-sen in London, 1896–1897*. Oxford UP, 1986.",
+              "Bergère, *Sun Yat-sen*.",
+              "Wilbur, *Sun Yat-sen: Frustrated Patriot*."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Sun's courage was sustained across decades and multiple high-stakes situations: the failed Guangzhou uprising (1895), the London kidnapping by the Qing legation (1896) where he faced deportation and probable execution, years of exile as a wanted revolutionary, the failure of the Second Revolution against Yuan Shikai (1913), expulsion from Guangzhou by warlord Chen Jiongming's bombardment of the presidential residence (1922), and continued political organizing while suffering from terminal cancer (1924–25). This pattern of resilience across qualitatively different dangers over 30 years is exceptional."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*, chs. 3, 14.",
+              "Schiffrin, *Sun Yat-sen and the Origins of the Chinese Revolution*.",
+              "Wilbur, *Sun Yat-sen: Frustrated Patriot*."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sun evolved significantly: from reformist petitioner (1894 letter to Li Hongzhang) to revolutionary republican, from reliance on secret societies to modern party organization, and from seeking Western patronage to Soviet alliance. After the failure of early republican government, he explicitly acknowledged that China needed a period of political tutelage—a genuine revision of his earlier democratic optimism. His shift from anti-Manchu ethnic nationalism to civic nationalism ('Five Races Under One Union') shows real ideological growth. However, both PRC and ROC hagiographic traditions sanitize his record, making independent assessment of private moral self-correction difficult."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Wong, *The Origins of an Heroic Image*.",
+              "Bergère, *Sun Yat-sen*.",
+              "Wilbur, *Sun Yat-sen: Frustrated Patriot*."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Sun endured qualitatively distinct forms of adversity while remaining effective: material deprivation during years of exile (often dependent on donations from overseas Chinese), personal mortal danger (the 1896 London kidnapping, the 1922 bombardment of his Guangzhou residence by Chen Jiongming), political betrayal (Yuan Shikai's destruction of the republic, repeated warlord treachery), and terminal illness (continuing political work while dying of liver cancer in 1924–25). He functioned effectively across all these adversities for over 30 years."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*.",
+              "Fitzgerald, *Awakening China*.",
+              "Wilbur, *Sun Yat-sen: Frustrated Patriot*."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sun inhabited multiple seemingly contradictory roles: trained physician and violent revolutionary, Chinese nationalist and Western-educated cosmopolitan, democratic theorist and ally of Leninist Soviet Union, peaceful constitutionalist and organizer of armed uprisings. These represent at least three contradictory pairs integrated into a coherent life narrative. However, scholars note genuine unresolved tensions—particularly between his democratic ideals and acceptance of one-party tutelage—suggesting incomplete rather than fully achieved integration."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*, ch. 15.",
+              "Wilbur, *Sun Yat-sen: Frustrated Patriot*, ch. 11."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sun faced his terminal liver cancer diagnosis (late 1924) with documented composure, continuing political negotiations and work in Beijing until near the end. He dictated his political testament and a message to the Soviet Union in his final days. His reported last words—'Peace... struggle... save China'—suggest focus on mission rather than personal fear. However, these deathbed accounts are primarily from partisan KMT sources and may be idealized, warranting caution."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*.",
+              "Wong, *The Origins of an Heroic Image*."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Sun traveled extensively across the globe for decades—Hawaii, Japan, Southeast Asia, the United States, and Europe—often under dangerous conditions as a wanted revolutionary, which required considerable physical stamina in the late 19th and early 20th centuries. However, he was not known for particular physical feats or athletic ability, and he died of liver cancer at age 58. No documented physical endurance feats beyond the demands of constant international travel."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Bergère, *Sun Yat-sen*.",
+              "Schiffrin, *Sun Yat-sen: Reluctant Revolutionary*."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Sun was famously single-minded about his revolutionary mission. There is limited evidence of non-instrumental aesthetic engagement or playfulness. He reportedly enjoyed reading broadly and had some interest in Chinese calligraphy, but these are not well-documented as significant leisure pursuits. His life was overwhelmingly consumed by political work. No strong evidence of joy or play independent of his revolutionary purpose."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.49,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Sun Yat-sen",
+      "overall": {
+        "Core_5D_Avg": 6.49,
+        "Overall_Normalized_Equal_Avg": 5.89,
+        "General_Competency_Avg_10scale": 2.89
+      },
+      "summary": "Sun Yat-sen's defining strength is his extraordinary cultural-social impact: founding the Republic of China, creating the KMT, and becoming a uniquely bipartisan symbol revered by both the PRC and ROC. His Three Principles shaped Asian political thought for a century. His moral-affective profile is strong, marked by exceptional resilience across decades of exile and failure. Cognitively, he was a capable synthesizer but a weak administrator. His relational life was complicated by abandonment of his first family. Heinlein competency breadth is narrow—trained as a physician but otherwise a specialist revolutionary. A visionary nation-builder whose symbolic legacy far exceeds his practical governance achievements. Core 5D Avg: 6.49/10; Heinlein: 2.89/10; Overall: 5.89/10.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.87,
+          "General_Competency_Avg_10scale": 2.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record of Sun Yat-sen's personal culinary skills. During his years of exile he lived modestly and was dependent on supporters, but no documentation of cooking ability exists."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Bergère, *Sun Yat-sen*, ch. 10.",
+            "Wilbur, *Sun Yat-sen: Frustrated Patriot*."
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Sun was not a personal combatant. He organized and directed armed uprisings from a distance but did not personally participate in combat. During the 1922 Chen Jiongming bombardment of his Guangzhou residence, he fled to a gunboat rather than fighting. He was a political and ideological leader, not a military figure."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Bergère, *Sun Yat-sen*, ch. 2.",
+            "Schiffrin, *Sun Yat-sen and the Origins of the Chinese Revolution*, ch. 2."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Sun trained as a physician at the Hong Kong College of Medicine for Chinese (graduated 1892) and practiced briefly in Macau and Guangzhou before turning fully to revolutionary activity. His medical training implies basic caregiving capacity, but there is no documented record of sustained personal caregiving beyond his brief medical practice."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Wong, *The Origins of an Heroic Image*.",
+            "Bergère, *Sun Yat-sen*, ch. 15."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Sun maintained composure during the 1896 London kidnapping when facing likely deportation and execution, managing to smuggle a note to his former teacher James Cantlie. He continued political work during his terminal illness from liver cancer (1924–25), dictating his political testament and Soviet letter shortly before death. These documented instances across different life stages show consistent existential composure under mortal threat."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of Sun Yat-sen engaging in manual craft, repair of tools, or mechanical work. His career trajectory moved from medical training directly to full-time revolutionary politics."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Bergère, *Sun Yat-sen*.",
+            "Wong, *The Origins of an Heroic Image*."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Sun traveled extensively across the Pacific, to Japan, Southeast Asia, the United States, and Europe over three decades, often as a fugitive navigating unfamiliar environments. His ability to orient himself across multiple continents and cultures in the late 19th and early 20th centuries, including arranging clandestine travel, demonstrates basic wayfinding competence, though he traveled as a passenger rather than as a navigator."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record of Sun Yat-sen engaging in animal husbandry or food processing. Though he grew up in a rural farming village, no specific documentation of these skills exists."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Bergère, *Sun Yat-sen*.",
+            "Wilbur, *Sun Yat-sen: Frustrated Patriot*.",
+            "Jacobs, *Borodin: Stalin's Man in China*."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Sun demonstrated strong leadership in mobilizing overseas Chinese communities, unifying revolutionary factions, and maintaining moral authority despite repeated failures. He also showed capacity for followership: deferring to Yuan Shikai by stepping down from the presidency (1912), accepting Soviet organizational guidance through Borodin (1923–24), and working within coalitions with warlord allies when necessary. This combination of giving and taking direction is documented across multiple contexts."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Sun Yat-sen, *The International Development of China*, 1921."
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of Sun Yat-sen designing or building physical structures. His *International Development of China* contained grand infrastructure plans but these were conceptual proposals, not personal construction work."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Wilbur, *Sun Yat-sen: Frustrated Patriot*.",
+            "Bergère, *Sun Yat-sen*."
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Sun planned multiple armed uprisings (at least ten between 1895 and 1911), but most failed due to poor operational planning, inadequate resources, or betrayal. The 1911 Wuchang Uprising that succeeded occurred while Sun was abroad and was not under his direct command. His later Northern Expedition planning (1924) laid groundwork but was executed by others after his death. His strategic vision exceeded his operational planning capacity."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Sun Yat-sen, *San Min Chu I*, 1924.",
+            "Wei, *Prescriptions for Saving China*."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Sun was a prolific political writer whose works—*The Three Principles of the People*, *The International Development of China*, numerous speeches and manifestos—constitute significant cultural expression, though primarily political rather than artistic. He was literate in Chinese, English, and some Japanese. His political rhetoric had lasting cultural impact but was instrumental rather than aesthetic in purpose."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Bergère, *Sun Yat-sen*, ch. 2.",
+            "Schiffrin, *Sun Yat-sen and the Origins of the Chinese Revolution*, ch. 2."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Sun graduated from the Hong Kong College of Medicine for Chinese in 1892, the first class to complete the program, and practiced medicine in Macau and Guangzhou. He was trained in Western surgical and medical techniques, making him one of the few Western-trained Chinese physicians of his era. This represents genuine medical competence relative to his context, though he abandoned practice early for politics."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Sun Yat-sen, *The International Development of China*.",
+            "Bergère, *Sun Yat-sen*, ch. 13."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Sun's medical training at the Hong Kong College of Medicine for Chinese required analytical reasoning within the scientific curriculum of the era. His economic development plans in *The International Development of China* involved large-scale quantitative projections for railway mileage, port development, and industrial output, though scholars have noted these were often unrealistic in their specifics."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Bergère, *Sun Yat-sen*, ch. 1.",
+            "Schiffrin, *Sun Yat-sen and the Origins of the Chinese Revolution*, ch. 1."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Sun grew up in a farming family in Cuiheng village, Guangdong, and would have had childhood exposure to agricultural work. His political program included detailed land reform proposals ('Equalization of Land Rights') that demonstrated theoretical understanding of agricultural economics. However, no evidence exists of personal agricultural management as an adult."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Sun Yat-sen, *The International Development of China*.",
+            "Bergère, *Sun Yat-sen*, ch. 2."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Sun's medical education represented engagement with cutting-edge Western scientific methods in late 19th-century China. His development plans demonstrated understanding of modern industrial technology, railway systems, and telecommunications. However, these remained theoretical—he never personally operated or created technical systems beyond his brief medical practice."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.49,
+    "general_competency_avg_0_10": 2.89,
+    "overall_normalized_equal_avg_0_10": 5.89,
+    "created_at": "2026-03-22T23:12:40.714Z",
+    "updated_at": "2026-03-22T23:12:40.738Z"
+  }
+}
+]

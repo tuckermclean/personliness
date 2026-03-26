@@ -1,0 +1,378 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 181,
+  "fields": {
+    "name": "Simón Bolívar",
+    "slug": "simon-bolivar",
+    "bio_short": "Bolívar was a remarkable military-political leader whose liberation of six South American nations makes him one of history's most consequential figures. His cognitive abilities were strongest in strategic thinking, while his administrative designs proved less durable than the nations they birthed. Morally complex—capable of both compassionate acts (freeing slaves, advocating abolition) and ruthless wartime measures (Decree of War to the Death)—he showed significant growth through self-critique and adaptation. His cultural-social impact is enormous, with a legacy still shaping Latin American id",
+    "bio_long": "Simón José Antonio de la Santísima Trinidad Bolívar Palacios Ponte y Blanco was a Venezuelan military officer and statesman who led what are currently the countries of Bolivia, Colombia, Ecuador, Panama, Peru, and Venezuela to independence from the Spanish Empire. He is known colloquially as El Libertador, or the Liberator of America.",
+    "source_notes": "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar",
+    "image": "figures/330px-SimC3B3n_BolC3ADvar._Toro_Moreno2C_Luis._19222C_Legislative_Palace2C_La_Paz.png",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (Yale UP, 2006)",
+              "Arana, Marie. Bolívar: American Liberator (Simon & Schuster, 2013)",
+              "Bushnell, David. The Santander Regime in Gran Colombia (U of Delaware Press, 1954)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bolívar demonstrated exceptional strategic adaptability. After the catastrophic fall of both the First (1812) and Second (1814) Venezuelan Republics, he completely revised his approach each time—writing the Cartagena Manifesto analyzing failures, then executing the Admirable Campaign (1813). His masterpiece was the 1819 Andes crossing through the Páramo de Pisba, catching Royalist forces completely off guard and winning the decisive Battle of Boyacá. He coordinated multiple theaters of war across a continent simultaneously, adapting to llanero warfare, highland campaigns, and diplomatic maneuvering with foreign powers."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (Yale UP, 2006)",
+              "Arana, Marie. Bolívar: American Liberator (2013)",
+              "Langley, Lester D. The Americas in the Age of Revolution 1750–1850 (Yale UP, 1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bolívar's Congress of Panama (1826) was a genuinely pioneering attempt at hemispheric multilateral cooperation, anticipating later international organizations. His military innovations—integrating llanero cavalry under Páez with conventional infantry, recruiting British Legion veterans, and executing the audacious Andes crossing as a strategic surprise—showed creative tactical thinking. His vision of Gran Colombia as a continental republic was novel but ultimately not a sustained paradigm shift, as the union dissolved."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Bolívar, Simón. 'Carta de Jamaica' (1815)",
+              "Bolívar, Simón. 'Discurso de Angostura' (1819)",
+              "Bushnell, David and Neill Macaulay. The Emergence of Latin America in the Nineteenth Century (Oxford UP, 1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The Jamaica Letter (1815) and the Angostura Address (1819) demonstrate sophisticated political philosophy, blending Enlightenment republicanism with a realistic analysis of Latin American social conditions and the unsuitability of purely North American or European models. His arguments about the unique challenges of post-colonial governance influenced Latin American political thought for generations. However, his philosophical influence remained largely regional rather than reshaping global political theory."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Bushnell, David. The Santander Regime in Gran Colombia (1954)",
+              "Lynch, John. The Spanish American Revolutions 1808–1826 (Norton, 1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bolívar drafted constitutions for Bolivia, Gran Colombia, and Peru, and organized nascent state administrations during wartime. Gran Colombia (1819–1831) functioned as a state for over a decade, and the individual nations he founded endured as sovereign republics. However, his specific institutional designs—particularly the Bolivian Constitution's lifetime presidency—were widely rejected, and Gran Colombia dissolved within a year of his death. His administrative strengths were real but overshadowed by his military-strategic focus."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Arana, Marie. Bolívar: American Liberator (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Bolívar operated with documented, qualitatively distinct behavior across at least six relational modes: (1) lover/partner (María Teresa, Manuela Sáenz—intimate, emotionally vulnerable); (2) mentee (to Simón Rodríguez—deferential, intellectually receptive); (3) mentor (to Sucre—supportive yet allowing autonomy); (4) military superior (commanding diverse armies—authoritative, charismatic); (5) diplomatic peer (with Haitian President Pétion, Peruvian leaders—negotiating as equals); (6) adversary (magnanimous to Morillo at the 1820 meeting, ruthless in the Decree of War to the Death). His relational style adapted markedly to context."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Arana, Marie. Bolívar: American Liberator (2013)",
+              "Murray, Pamela S. For Glory and Bolívar: The Remarkable Life of Manuela Sáenz (U of Texas Press, 2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Bolívar's marriage to María Teresa Rodríguez del Toro (1802–1803) was by all accounts a genuine love match, and her death from yellow fever devastated him profoundly—he reportedly vowed never to remarry and kept this vow. His relationship with Manuela Sáenz (1822–1830) showed deep mutual devotion: she saved his life during the September 1828 assassination attempt, and their correspondence reveals emotional intimacy and mutual respect. However, Bolívar maintained numerous other affairs throughout, and Sáenz was socially marginalized due to their irregular relationship, dying in poverty after his death."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Chasteen, John Charles. Americanos: Latin America's Struggle for Independence (Oxford UP, 2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Bolívar had no surviving children but mentored several important figures. Antonio José de Sucre, whom Bolívar called 'the Abel of Colombia,' developed into an exceptional independent military commander (Battle of Ayacucho, 1824) and statesman (first president of Bolivia), demonstrating genuine autonomy rather than mere replication. Bolívar also mentored Daniel Florencio O'Leary and other officers. His own formative relationship with his tutor Simón Rodríguez gave him a model for intellectual mentorship he sometimes replicated."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Langley, Lester D. Simón Bolívar: Venezuelan Rebel, American Revolutionary (Rowman & Littlefield, 2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Six nations trace their independence directly to Bolívar's campaigns. Bolivia is named after him. The Bolivarian ideal continues to shape Latin American politics nearly 200 years later (e.g., Venezuela's 'Bolivarian Republic'). His vision of pan-American cooperation influenced the Organization of American States. His image and ideas are operative across multiple civilizations and have inspired anti-colonial movements globally, from Latin America to the decolonization movements of the 20th century."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Arana, Marie. Bolívar: American Liberator (2013)",
+              "Marx, Karl. 'Bolívar y Ponte' in New American Cyclopaedia (1858)",
+              "Neruda, Pablo. Canto General (1950)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "'El Libertador' is recognized as a universal archetype of the liberator-revolutionary far beyond Latin America. Bolívar is invoked by independence and anti-colonial movements globally. His statues stand in cities across the world—Washington D.C., London, Paris, Cairo, Tehran. Marx wrote about him (critically); Neruda celebrated him in poetry. He functions as a cross-cultural symbol of liberation from colonial rule comparable to few other figures."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Bushnell, David. The Making of Modern Colombia (U of California Press, 1993)",
+              "Lynch, John. The Spanish American Revolutions 1808–1826 (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bolívar founded Gran Colombia (1819), organized the Congress of Panama (1826), and drafted constitutions for Bolivia, Peru, and Gran Colombia. Gran Colombia dissolved in 1831, and his specific constitutional designs (e.g., the lifetime presidency) were largely rejected. However, the individual nations he liberated—Venezuela, Colombia, Ecuador, Bolivia, Peru, Panama—endured as sovereign states with constitutional republican frameworks whose roots trace to his era. His institutions survived in modified form but not with the recognizable continuity his designs envisioned."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Arana, Marie. Bolívar: American Liberator (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bolívar led in qualitatively different contexts: small guerrilla bands in exile (1816), massive conventional armies (Carabobo, 1821), constitutional conventions (Angostura, 1819), multinational diplomacy (Congress of Panama, 1826), and governance of multiple nations simultaneously. He inspired loyalty across radically diverse populations—Creole elites, llanero cowboys, freed slaves, indigenous soldiers, and British mercenaries. He led effectively in both existential crisis and institutional state-building."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Arana, Marie. Bolívar: American Liberator (2013)",
+              "O'Leary, Daniel Florencio. Memorias del General O'Leary (1879–1888)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Despite his aristocratic origins, Bolívar shared the hardships of his soldiers during campaigns—sleeping on the ground, eating field rations during the Andes crossing, enduring rain and cold alongside his troops. He was famous for his love of dancing, social charm, and personal warmth in informal settings. His letters reveal humor and emotional vulnerability. However, he remained fundamentally an elite figure, educated in Europe, and his lifestyle at the height of power was distant from ordinary people's experience."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Bushnell, David. The Santander Regime in Gran Colombia (1954)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bolívar repeatedly offered to resign power (at the Congress of Angostura, after liberating Peru), demonstrating willingness to subordinate personal interest to republican principle. He freed his slaves against his economic interest and advocated abolition. However, his assumption of dictatorial powers in 1828 and the Decree of War to the Death represent significant compromises of impartial justice. Without counterexamples: 3. With them: his dictatorship, even if motivated by crisis, contradicted his stated republican principles. Final score: 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Arana, Marie. Bolívar: American Liberator (2013)",
+              "Earle, Rebecca. Spain and the Independence of Colombia 1810–1825 (U of Exeter Press, 2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bolívar freed his own inherited slaves—a costly personal sacrifice—and made abolition a condition of Haitian support in 1816. He showed magnanimity after Boyacá (1819), sparing many Royalist prisoners. However, the Decree of War to the Death (1813), which mandated the killing of Spaniards who did not actively support independence, is a grave counterexample that led to real atrocities. Without the decree: score would be 3 for outgroup compassion. With it given full weight: the decree's implementation caused significant suffering, though it was later abandoned (Treaty of Regularization, 1820). Final score: 2, reflecting genuine compassion tempered by a significant moral lapse."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Arana, Marie. Bolívar: American Liberator (2013)",
+              "Masur, Gerhard. Simón Bolívar (U of New Mexico Press, 1948)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bolívar personally led troops in battle at Carabobo (1821), Junín (1824), and numerous smaller engagements. He survived the September 1828 assassination attempt in Bogotá, escaping through a window (saved by Manuela Sáenz). He endured two complete destructions of his political project (First and Second Republics), exile to Jamaica (1815) and Haiti (1816), and rebuilt each time. His courage was sustained across more than fifteen years of high-stakes campaigning, not limited to a single dramatic moment."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Bolívar, Simón. 'Manifiesto de Cartagena' (1812)",
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Arana, Marie. Bolívar: American Liberator (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bolívar showed clear capacity for self-critique: the Cartagena Manifesto (1812) is a detailed analysis of his own side's failures in the First Republic. The Jamaica Letter (1815) shows further evolved thinking after the Second Republic's fall. He abandoned the Decree of War to the Death, agreeing to the Treaty of Regularization of the War (1820) with Spanish General Morillo, showing genuine behavioral change. His deathbed reflection—'I have plowed the sea'—reveals painful self-awareness. However, his later turn toward dictatorship (1828) suggests incomplete growth in reconciling means with principles."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Arana, Marie. Bolívar: American Liberator (2013)",
+              "Masur, Gerhard. Simón Bolívar (1948)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bolívar endured qualitatively different forms of adversity: the death of his young wife María Teresa from yellow fever (1803), personal bereavement that he said shaped his life; two complete political-military collapses requiring exile (Jamaica 1815, Haiti 1816); material deprivation during exile and campaigning; betrayal by subordinates (Páez's rebellion, Santander's opposition); assassination attempts; and finally terminal tuberculosis while watching Gran Colombia dissolve. He continued to function effectively and lead through all of these until his final months."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Arana, Marie. Bolívar: American Liberator (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bolívar simultaneously inhabited at least four seemingly contradictory roles: (1) wealthy aristocrat and revolutionary liberator of the oppressed; (2) military dictator and passionate republican who repeatedly offered to resign; (3) Enlightenment rationalist and charismatic caudillo operating through personal loyalty; (4) Venezuelan patriot and architect of continental supranational unity. He maintained coherence across these contradictions—his identity as 'El Libertador' integrated them into a recognizable whole rather than fragmenting into inconsistency."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Arana, Marie. Bolívar: American Liberator (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Bolívar's final days at Quinta de San Pedro Alejandrino near Santa Marta (December 1830) show composure in the face of imminent death from tuberculosis. He dictated his final proclamation urging Colombian unity, made his will, and received last rites with dignity. His famous reflection—'I have plowed the sea'—reveals painful but clear-eyed existential reckoning. However, his final period also included deep bitterness and despair about his political failures, suggesting incomplete acceptance rather than serene composure."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Lynch, John. Simón Bolívar: A Life (2006)",
+              "Arana, Marie. Bolívar: American Liberator (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The 1819 crossing of the Andes through the Páramo de Pisba—at altitudes above 13,000 feet, through freezing rain and snow, losing a significant portion of his army—is one of history's great feats of physical endurance, and Bolívar made the crossing personally. He was an accomplished horseman who spent years campaigning in the Venezuelan llanos, tropical jungles, and Andean highlands. He maintained physical activity through campaigns spanning from his late twenties into his forties despite recurrent bouts of malaria and other tropical diseases."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "O'Leary, Daniel Florencio. Memorias del General O'Leary (1879–1888)",
+              "Arana, Marie. Bolívar: American Liberator (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Bolívar was renowned as an enthusiastic and skilled dancer who organized and attended balls even during campaign periods. O'Leary and other contemporaries describe his love of conversation, laughter, and social gatherings. He was deeply read in literature—Voltaire, Rousseau, Montesquieu—for genuine intellectual pleasure. His letters to Manuela Sáenz show playfulness and emotional warmth. These pleasures appear genuinely felt rather than purely instrumental, though his life was so consumed by war and politics that sustained leisure was rare."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 7.78,
+          "Core_5D_Avg": 8.02,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Simón Bolívar",
+      "overall": {
+        "Core_5D_Avg": 8.02,
+        "Overall_Normalized_Equal_Avg": 7.42,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Bolívar was a remarkable military-political leader whose liberation of six South American nations makes him one of history's most consequential figures. His cognitive abilities were strongest in strategic thinking, while his administrative designs proved less durable than the nations they birthed. Morally complex—capable of both compassionate acts (freeing slaves, advocating abolition) and ruthless wartime measures (Decree of War to the Death)—he showed significant growth through self-critique and adaptation. His cultural-social impact is enormous, with a legacy still shaping Latin American identity across centuries. Heinlein competency breadth is moderate, concentrated in military-political domains rather than manual or domestic skills, reflecting his aristocratic background and life consumed by continental warfare.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence documents Bolívar's personal cooking abilities. As an aristocrat and military commander, meals were prepared by servants, cooks, or camp followers. During the harshest campaign conditions, he shared basic field rations, but no culinary skill per se is recorded."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Lynch, John. Simón Bolívar: A Life (2006)",
+            "Arana, Marie. Bolívar: American Liberator (2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Bolívar personally participated in numerous battles, leading cavalry charges at Junín (1824) and fighting at Carabobo (1821), among many other engagements. He was an accomplished horseman and swordsman. He escaped the September 1828 assassination attempt through quick physical action (leaping from a window). His personal combat experience spanned over a decade of warfare across multiple terrains and tactical situations."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Arana, Marie. Bolívar: American Liberator (2013)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Bolívar showed concern for his soldiers' welfare during campaigns, distributing his own resources to sick and wounded troops during the Andes crossing. His devotion to his dying wife María Teresa (1803) shows personal caregiving capacity. However, no sustained pattern of hands-on caregiving is well-documented beyond these episodes."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Lynch, John. Simón Bolívar: A Life (2006)",
+            "Arana, Marie. Bolívar: American Liberator (2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Bolívar faced his own death from tuberculosis at Santa Marta (December 1830) with practical intentionality—dictating his final proclamation, composing his will, and receiving last rites. His reflection 'I have plowed the sea' shows clear-eyed existential reckoning. Throughout his career, he repeatedly faced mortal danger with composure. However, his final period also included bitterness and despair about his political failures, preventing a full score of 3."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence documents Bolívar engaging in manual craft, tool-making, or repair work. As a wealthy aristocrat and military commander, such tasks were delegated to others."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Lynch, John. Simón Bolívar: A Life (2006)",
+            "Arana, Marie. Bolívar: American Liberator (2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Bolívar personally navigated across extraordinarily varied terrain: the Venezuelan llanos, the Orinoco jungle basin, Caribbean sea voyages (to Jamaica, Haiti, and back), and the Andean highlands. The 1819 Andes crossing required navigating uncharted mountain passes. He also traveled extensively in Europe as a young man (Spain, France, Italy). His ability to move armies across these environments demonstrates strong wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Arana, Marie. Bolívar: American Liberator (2013)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a hacendado (plantation owner) and a leader who campaigned extensively in the Venezuelan and Colombian llanos alongside llanero cowboys, Bolívar had basic familiarity with cattle and horses in a working context. However, no specific evidence documents personal animal slaughter or food processing skills. Era-normalized for an aristocrat who spent years on campaign, basic competence is plausible."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Lynch, John. Simón Bolívar: A Life (2006)",
+            "Masur, Gerhard. Simón Bolívar (1948)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Bolívar was an extraordinary leader who inspired diverse followers across a continent. He also showed capacity for followership—serving under Miranda in 1812, deferring to the Congress of Angostura, and accepting Haitian President Pétion's conditions for support. However, his arrest and handover of Miranda to the Spanish (1812) and his frequent overriding of civilian authority complicate the followership dimension. His leadership: 3; his followership: 1; combined: 2."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence documents Bolívar personally designing or building physical structures. His focus was military and political rather than architectural or constructive. As an aristocrat, such work would have been delegated."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Lynch, John. Simón Bolívar: A Life (2006)",
+            "Arana, Marie. Bolívar: American Liberator (2013)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The Admirable Campaign (1813), the strategic surprise of the Andes crossing (1819), and the coordination of simultaneous military operations across Venezuela, Colombia, Ecuador, and Peru represent continental-scale strategic planning of the highest order. He successfully adapted plans after multiple failures, adjusting from conventional to guerrilla and back to conventional warfare as conditions demanded."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Bolívar, Simón. Doctrina del Libertador (Biblioteca Ayacucho, 1976)",
+            "Arana, Marie. Bolívar: American Liberator (2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Bolívar was a gifted prose stylist whose Jamaica Letter (1815), Angostura Address (1819), and voluminous personal correspondence are recognized for their literary quality. His writing combined rhetorical power with analytical clarity and has been studied as literature as well as political philosophy. He was not primarily an artist, but his written expression reached a high standard for a non-literary figure."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence documents Bolívar possessing medical skills or providing medical treatment. During campaigns, medical care was handled by surgeons and aides. His era and social position would not have required personal medical competence."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Lynch, John. Simón Bolívar: A Life (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Bolívar managed the logistics of continental-scale military campaigns, including finances, arms procurement (negotiating foreign loans and purchasing weapons from Britain), supply chains across the Andes, and troop deployment calculations. His political writings show strong analytical reasoning about governance, demographics, and social structure. His tutor Simón Rodríguez exposed him to mathematics, though no advanced mathematical work is attributed to him."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Lynch, John. Simón Bolívar: A Life (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Bolívar inherited and managed haciendas with cacao, sugar, and cattle production, including the Bolívar family estates in the Aragua valleys and copper mines at Aroa. However, he spent most of his adult life on campaign and delegated estate management. His resource management during wartime focused on military logistics rather than sustainable agriculture."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Lynch, John. Simón Bolívar: A Life (2006)",
+            "Hasbrouck, Alfred. Foreign Legionaries in the Liberation of Spanish South America (Columbia UP, 1928)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Bolívar solved complex logistical and systemic problems: procuring arms and financing through British loans and merchants, recruiting and integrating the British Legion into his army, establishing mail and communication systems across vast distances, and managing the transition from military to civilian governance in newly liberated territories. These represent sophisticated engagement with the cutting-edge organizational challenges of his era."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.02,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 7.42,
+    "created_at": "2026-03-22T21:46:44.899Z",
+    "updated_at": "2026-03-22T21:46:44.914Z"
+  }
+}
+]

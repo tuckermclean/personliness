@@ -1,0 +1,376 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 178,
+  "fields": {
+    "name": "Qin Shi Huang",
+    "slug": "qin-shi-huang",
+    "bio_short": "Qin Shi Huang scores exceptionally in cognitive and cultural-social domains—his unification of China, institutional innovations, and administrative systems represent world-historical achievements enduring over two millennia. However, he scores very poorly in moral-affective and relational dimensions, with no documented compassion, no moral growth, and impoverished personal relationships. His obsessive fear of death and paranoia undermine embodied-existential scores. Heinlein competency is narrow: brilliant at strategic command and systemic problem-solving, but with no evidence of hands-on skil",
+    "bio_long": "Qin Shi Huang was the founder of the Qin dynasty and the first emperor of China. Rather than maintain the title of \"king\" borne by the previous Shang and Zhou rulers, he assumed the invented title of \"emperor\", which would see continuous use by monarchs in China for the next two millennia.",
+    "source_notes": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+    "image": "figures/330px-Assassination_attempt_on_Qin_Shi_Huang_28Cropped29.png",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Sima Qian, Shiji (Records of the Grand Historian), ch. 6, 73",
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)",
+              "Bodde, Derk, China's First Unifier (1938)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Successfully conquered six rival states (230–221 BCE) using differentiated strategies of military force, diplomacy, and espionage. When his general Li Xin's initial invasion of Chu failed, he adapted by recalling the veteran Wang Jian with 600,000 troops, securing victory. He also managed the unprecedented transition from warring states to unified imperial administration, demonstrating adaptation across qualitatively different strategic challenges."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)",
+              "Kern, Martin, The Stele Inscriptions of Ch'in Shih-huang (2000)",
+              "Sima Qian, Shiji, ch. 6"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Created the title 'Huangdi' (Emperor) itself, merging mythic titles to signify a new form of sovereignty. Replaced the feudal enfeoffment system with the commandery-county (junxian) administrative structure—a genuine paradigm shift from hereditary feudalism to centralized bureaucracy. Standardized writing, weights, measures, currency, and axle widths across a vast territory, creating a unified civilizational infrastructure where none had existed. The before/after difference is a defining watershed in Chinese and world history."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6, 87",
+              "Kern, Martin, The Stele Inscriptions of Ch'in Shih-huang (2000)",
+              "Bodde, Derk, China's First Unifier (1938)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Qin Shi Huang adopted Legalism as state ideology, heavily relying on the ideas of Han Feizi and the counsel of Chancellor Li Si, but he was an implementer rather than an originator of philosophical thought. The Burning of Books decree (213 BCE) and alleged burial of scholars (212 BCE) represent suppression of ethical discourse rather than contribution to it. His moral framework was instrumentalist and did not generate principles that influenced thinkers beyond Legalist circles."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Hulsewé, A.F.P., Remnants of Ch'in Law (1985)",
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)",
+              "Shuihudi Qin bamboo texts (archaeological evidence, 1975)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Implemented the junxian system of 36 (later 40+) commanderies with appointed governors, replacing hereditary feudal lords. Standardized laws empire-wide; the Shuihudi Qin bamboo slips (excavated 1975) reveal a remarkably detailed and sophisticated legal-administrative code. Built a road network (chi dao) and the Lingqu Canal. These systems endured well beyond his oversight: the Han dynasty adopted and refined them, and the county system and standardized script persisted for over two millennia."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6, 85, 87"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Evidence suggests a narrow relational repertoire dominated by authority and suspicion. He functioned as supreme ruler and military commander but showed limited capacity for other relational modes. His relationship with Lü Buwei went from dependence to forced suicide. Li Si was a capable but purely instrumental relationship. He exiled his mother, banished his eldest son, and increasingly isolated himself. No documented friendships, peer relationships, or warm subordinate interactions survive in the record."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6, 85",
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "Almost nothing is known about his relationships with consorts. His mother Queen Dowager Zhao's affair with Lao Ai and her subsequent exile suggest deeply strained family dynamics. His principal queen is not even named in Sima Qian's account—an extraordinary omission suggesting either deliberately suppressed relationships or genuine relational poverty. No evidence of mutual respect, emotional availability, or partnership in any intimate relationship."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6, 87",
+              "Bodde, Derk, China's First Unifier (1938)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "His eldest son Fusu developed independent moral views (advocating Confucian clemency), suggesting some capacity for autonomous thought, but Qin Shi Huang banished him to the northern frontier for offering criticism. His second son Huhai, who succeeded him through Zhao Gao's manipulation, proved catastrophically incompetent. His failure to secure a clear succession—allowing his testament to be forged—represents a fundamental parental and mentoring failure with dynasty-ending consequences."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)",
+              "Hart, Michael, The 100: A Ranking of the Most Influential Persons in History (1978)",
+              "Kern, Martin, The Stele Inscriptions of Ch'in Shih-huang (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The concept of a unified China, standardized Chinese writing, the imperial governance model, and the Great Wall (later expanded) are effects still operative over 2,200 years later. The very name 'China' likely derives from 'Qin.' His administrative model influenced neighboring civilizations (Korea, Japan, Vietnam). He is consistently ranked among the most impactful individuals in world history."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Portal, Jane, The First Emperor: China's Terracotta Army (2007)",
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Recognized globally as the archetypal empire-founding unifier-tyrant. He embodies the archetype of the transformative but ruthless state-builder across Chinese, East Asian, and world historical consciousness. The Terracotta Army discovery (1974) made him iconic worldwide. He serves as a reference point in political discourse far beyond China, invoked in discussions of centralization, authoritarianism, and civilizational creation."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)",
+              "Bodde, Derk, China's First Unifier (1938)",
+              "Loewe, Michael and Shaughnessy, Edward, The Cambridge History of Ancient China (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Created the imperial system of governance, the commandery-county bureaucratic structure, standardized legal and measurement systems, and a professional civil-military administration. These institutions survived not merely two generations but over two millennia. The Han dynasty explicitly adopted and refined Qin institutions, and the basic framework of centralized Chinese imperial governance persisted until 1912."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6, 73, 88",
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Led Qin from one kingdom among seven to mastery of all China, commanding massive armies and inspiring loyalty from exceptionally capable subordinates (generals Wang Jian, Meng Tian; chancellor Li Si). Successfully transitioned from wartime conquest leadership (230–221 BCE) to peacetime imperial administration—qualitatively different leadership contexts. Personally directed policy across military, administrative, cultural, and infrastructural domains simultaneously."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No documented evidence of engagement with mundane, everyday activities. Sima Qian records that he reviewed 120 jin of documents daily and traveled in elaborate secrecy, suggesting isolation rather than connection to ordinary life. His increasing seclusion, elaborate ritual, and obsessive immortality-seeking all suggest detachment from common human experience. No humor, manual labor, or domestic moments survive in the record."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Hulsewé, A.F.P., Remnants of Ch'in Law (1985)",
+              "Sima Qian, Shiji, ch. 6"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Legalist system he implemented was theoretically impartial, applying law regardless of status, and the Shuihudi legal texts show procedural sophistication. However, collective punishment, the burning of books to suppress dissent, and the massive forced labor conscriptions suggest justice was routinely subordinated to control and personal power. There is no documented case of him ruling against his own interest in favor of principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6",
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No credible evidence of compassion toward adversaries or outgroup members. Sima Qian records harsh collective punishments, forced labor conscription causing mass death (Great Wall, tomb complex), exile and forced suicide of his mother's lover Lü Buwei, and the suppression of dissent through book burning and execution of scholars. Even accounting for anti-Qin bias in Han-era sources, there is no independent evidence suggesting empathic behavior."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6, 86",
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Survived Jing Ke's assassination attempt (227 BCE) by personally drawing his sword and fighting back in the throne room. Survived multiple other documented assassination attempts, including the Gao Jianli incident and the Bolangsha ambush by Zhang Liang (218 BCE). Endured political dangers during youth, including the Lao Ai rebellion (238 BCE), which he suppressed decisively at age 21. These represent multiple high-stakes situations. However, his later increasing paranoia and obsessive pursuit of immortality suggest declining psychological resilience, preventing a score of 3."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6, 87",
+              "Bodde, Derk, China's First Unifier (1938)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No documented instances of Qin Shi Huang reversing a prior position, accepting correction, or acknowledging error. When Confucian scholars criticized his policies at the 213 BCE banquet, he responded with the book-burning decree. His pursuit of immortality intensified despite repeated failures by court alchemists. His banishment of his eldest son Fusu for offering critical counsel reinforces a pattern of rigidity rather than growth."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6, 85",
+              "Bodde, Derk, China's First Unifier (1938)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Born while his father was a hostage in Zhao state, he endured political insecurity throughout youth. At 21 he suppressed the Lao Ai rebellion and navigated the removal of the powerful regent Lü Buwei—both life-threatening political crises. He survived multiple assassination attempts (Jing Ke, Zhang Liang, Gao Jianli) and sustained effective governance throughout. These represent two qualitatively different adversities: political insecurity/danger and ongoing personal threat. His later paranoia somewhat undermines but does not negate this record."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)",
+              "Bodde, Derk, China's First Unifier (1938)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Inhabited seemingly contradictory roles: rationalist Legalist administrator yet credulous seeker of magical immortality; unifier who created civilizational coherence yet destroyer who burned books and executed scholars; visionary builder of enduring systems yet paranoid recluse who undermined his own succession. These represent at least three contradictory roles. However, whether he 'integrated' them into coherence is debatable—his later years suggest fragmentation rather than reconciliation, preventing a score of 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6, 118",
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Qin Shi Huang is one of history's most famous examples of mortality rejection. He dispatched Xu Fu with hundreds of youths to seek the mythical islands of immortality. He consumed mercury-based elixirs. He forbade mention of death in his presence. His massive tomb was designed to replicate his earthly empire. He failed to prepare for succession, and his death was concealed by Li Si and Zhao Gao—a direct consequence of his refusal to confront mortality."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6",
+              "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Conducted multiple extensive imperial tours covering thousands of miles across eastern and southern China by chariot, including five major progresses between 220–210 BCE over difficult terrain. Physically fought off Jing Ke's assassination attempt with his own sword (227 BCE). However, he died at 49 during his fifth tour, likely from mercury poisoning from ingesting alchemical elixirs, suggesting declining physical condition in later years."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 6",
+              "Portal, Jane, The First Emperor: China's Terracotta Army (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Commissioned enormous aesthetic-architectural projects: the Epang Palace, elaborate gardens, and the Terracotta Army tomb complex of extraordinary artistic sophistication. He collected rare objects and curiosities. However, these appear primarily instrumental—displays of imperial power and preparations for the afterlife—rather than evidence of non-instrumental aesthetic engagement. No documented humor, leisure, or play survives."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 2.22,
+          "Core_5D_Avg": 5.14,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 2.5,
+          "Embodied-Existential": 4.67
+        }
+      },
+      "figure": "Qin Shi Huang",
+      "overall": {
+        "Core_5D_Avg": 5.14,
+        "Overall_Normalized_Equal_Avg": 4.76,
+        "General_Competency_Avg_10scale": 2.89
+      },
+      "summary": "Qin Shi Huang scores exceptionally in cognitive and cultural-social domains—his unification of China, institutional innovations, and administrative systems represent world-historical achievements enduring over two millennia. However, he scores very poorly in moral-affective and relational dimensions, with no documented compassion, no moral growth, and impoverished personal relationships. His obsessive fear of death and paranoia undermine embodied-existential scores. Heinlein competency is narrow: brilliant at strategic command and systemic problem-solving, but with no evidence of hands-on skills, caregiving, or artistic creation. A transformative but deeply lopsided figure—among history's greatest state-builders and worst exemplars of personal wholeness.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.87,
+          "General_Competency_Avg_10scale": 2.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence whatsoever of personal culinary skill or food preparation. As emperor, all meals were prepared by palace kitchens."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 86"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Personally fought off Jing Ke's assassination attempt (227 BCE), drawing his long sword and striking the assassin. This is a single documented combat incident. He was not a battlefield commander—his wars were fought by generals Wang Jian, Wang Ben, and Meng Tian. The episodic nature of the evidence caps this at 1."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 6"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of personal caregiving. His treatment of family members—exiling his mother, banishing his son Fusu, and failing to prepare a succession—suggests the absence of nurturing behavior rather than its presence."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 6, 118",
+            "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Among history's most conspicuous examples of existential discomposure. He obsessively sought immortality elixirs, dispatched Xu Fu on a sea voyage to find immortal islands, consumed mercury compounds, forbade discussion of death, and failed to plan for succession. His death on his fifth eastern tour was concealed by advisors precisely because he had made no provisions for it."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of personal manual craft or repair skills. As a monarch from age 13, he would have had no need or occasion for such work, and no sources document it."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 6",
+            "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Conducted five major imperial tours (220–210 BCE) covering thousands of miles across eastern and southern China, demonstrating knowledge of his empire's geography. He directed the building of an extensive road network (chi dao). However, he traveled with large entourages and was not personally navigating; the competency was organizational rather than hands-on."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record of personal involvement in animal husbandry, butchering, or food processing. As a king from age 13, such activities were beneath his documented life."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 6, 73",
+            "Bodde, Derk, China's First Unifier (1938)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Exceptional at giving orders and commanding—mobilized millions for construction and warfare. Showed some capacity for followership: he accepted Wang Jian's insistence on a 600,000-man army for the Chu campaign after the smaller force failed, and followed Li Si's policy counsel on administrative standardization. However, he increasingly rejected advice in later years (banishing Fusu, ignoring warnings about alchemists), showing deteriorating followership."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 6",
+            "Portal, Jane, The First Emperor: China's Terracotta Army (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Directed massive construction projects: the Great Wall consolidation, the Lingqu Canal, the Epang Palace, the road network (chi dao), and his tomb complex. He clearly understood construction at a commissioning and administrative level, but there is no evidence of personal design or building skill."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 6, 73",
+            "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Planned and executed the unification of China through coordinated multi-year campaigns against six states (230–221 BCE). Adapted when the initial Chu invasion under Li Xin failed by deploying Wang Jian with 600,000 troops. Post-unification, managed simultaneous logistics of Great Wall construction, road-building, canal-building, and frontier defense against the Xiongnu under Meng Tian."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Kern, Martin, The Stele Inscriptions of Ch'in Shih-huang (2000)",
+            "Sima Qian, Shiji, ch. 6"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal artistic creation. The stone stele inscriptions erected during his tours were composed by Li Si. He is more associated with cultural destruction (book burning, 213 BCE) than creation. While he patronized monumental art (Terracotta Army), patronage is not personal artistic expression."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of medical knowledge or emergency response capability. His engagement with health was limited to consuming alchemical immortality elixirs, which likely hastened his death rather than demonstrating medical competence."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 6",
+            "Hulsewé, A.F.P., Remnants of Ch'in Law (1985)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The standardization of weights, measures, and currency across a vast empire required significant analytical capacity. The Qin administrative system was heavily quantified—detailed population censuses, land surveys, and resource inventories enabled conscription and taxation. He personally reviewed enormous volumes of administrative documents daily (120 jin of bamboo slips per Sima Qian)."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)",
+            "Sima Qian, Shiji, ch. 6"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Directed the construction of the Lingqu Canal, linking the Yangtze and Pearl River systems, which had agricultural and logistical value. The Qin state was organized around agricultural productivity under Legalist principles. However, his massive conscription of labor for the Great Wall, roads, palaces, and tomb drained the agricultural workforce, contributing to the dynasty's rapid collapse—suggesting unsustainable resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Lewis, Mark Edward, The Early Chinese Empires: Qin and Han (2007)",
+            "Portal, Jane, The First Emperor: China's Terracotta Army (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Directed cutting-edge systemic projects for his era: standardization of weights, measures, writing, and currency across a vast empire required solving unprecedented technical coordination problems. The Lingqu Canal and road network represented advanced engineering. The Terracotta Army tomb complex deployed sophisticated bronze-casting and construction techniques. He directed rather than personally engineered these, but era-normalized for a ruler, this represents strong systemic problem-solving."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.14,
+    "general_competency_avg_0_10": 2.89,
+    "overall_normalized_equal_avg_0_10": 4.76,
+    "created_at": "2026-03-22T21:42:45.795Z",
+    "updated_at": "2026-03-22T21:42:45.808Z"
+  }
+}
+]

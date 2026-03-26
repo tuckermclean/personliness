@@ -1,0 +1,360 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 201,
+  "fields": {
+    "name": "Marco Polo",
+    "slug": "marco-polo",
+    "bio_short": "Marco Polo's defining strengths are his extraordinary physical endurance, cross-cultural archetype resonance, and lasting impact legacy through The Travels. His 24-year journey across Asia made him the Western archetype of the explorer. Cognitive and moral-affective scores are moderate—he was observant and adaptable rather than philosophically deep or morally pioneering. Relational evidence is thin owing to sparse documentation of his domestic life. Heinlein competency is moderate, anchored by exceptional navigation, solid merchant-analytical skills, and leadership in varied contexts, but with",
+    "bio_long": "Marco Polo was a Venetian merchant, explorer, and writer who travelled through Asia along the Silk Road between 1271 and 1295. His travels are recorded in The Travels of Marco Polo, a book that described the then-mysterious culture and inner workings of the Eastern world, including the wealth and great size of the Mongol Empire and China under the Yuan dynasty, giving Europeans their first comprehensive look into China, Persia, India, Japan, and other Asian societies.",
+    "source_notes": "https://en.wikipedia.org/wiki/Marco_Polo",
+    "image": "figures/330px-Marco_Polo_-_costume_tartare.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)",
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Polo navigated complex political landscapes across multiple kingdoms for 24 years, adapting to Mongol court politics and securing Kublai Khan's trust as an envoy. The return voyage (c. 1292–1295) escorting Princess Kököchin by sea to Persia required multi-stage logistical adaptation after overland routes were blocked by war. However, much evidence comes from his own account."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)",
+              "Jackson, The Mongols and the West (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Travels was the most comprehensive European account of Asia produced in the medieval period and fundamentally reshaped European geographic and cultural knowledge. While travel writing existed before Polo, the scope and ethnographic detail of his account were unprecedented, influencing cartography (the Catalan Atlas, Fra Mauro map) and inspiring exploration for centuries. It did not quite constitute a paradigm shift in methodology, however—Rustichello shaped it within existing romance conventions."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Polo described diverse religions (Buddhism, Islam, Nestorian Christianity, Hinduism) with notable tolerance and curiosity for his era, but he did not articulate systematic ethical or philosophical principles. The Travels is observational and mercantile rather than philosophical in character."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Wood, Did Marco Polo Go to China? (1995)",
+              "Vogel, Marco Polo Was in China (2013)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Polo claimed to have governed Yangzhou for three years and served as a tax inspector for Kublai Khan. No Chinese records confirm his governorship, and the claim is contested by scholars. Even if partly true, these were delegated roles within an existing Mongol administrative framework, not systems he designed or that endured beyond his tenure."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)",
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Polo operated as son and junior partner to his father Niccolò and uncle Maffeo; as subordinate envoy to Kublai Khan; as collaborative narrator with Rustichello da Pisa; as husband to Donata and father to three daughters; as prisoner of war in Genoa; and as a merchant dealing with peers and competitors in Venice. This demonstrates at least five distinct relational modes (child, subordinate, collaborator, spouse/parent, prisoner), though evidence of qualitative distinctiveness in each mode is limited."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Polo married Donata Badoer around 1300 and remained married until his death in 1324. His will provides for her and their three daughters. However, there is virtually no evidence about the quality, mutuality, or emotional depth of the relationship—only its existence and duration in Venetian records."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Polo had three daughters (Fantina, Bellela, Moreta), and his will provided for their dowries and inheritance. All three married into Venetian merchant families, suggesting some continuity of social standing. But there is no documentary evidence about the character of his parenting or any mentoring relationships."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)",
+              "Jackson, The Mongols and the West (2005)",
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Travels shaped European cartography for centuries (influencing the Catalan Atlas of 1375 and the Fra Mauro map of 1450), directly inspired Columbus (who carried an annotated copy on his 1492 voyage), and contributed to the Age of Exploration. Polo's account introduced Europeans to paper money, coal, and the postal system of the Mongol Empire. His impact is still operative today in shaping East-West cultural imagination and the concept of intercultural encounter, across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)",
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Marco Polo is the universal archetype of the explorer and cross-cultural traveler. His name is recognized globally—invoked in children's games, used as a byword for exotic travel, and referenced across Western and Asian cultures. He is recognized as a symbol in traditions far beyond Venice or medieval Christendom, including in Chinese and Mongol cultural memory."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Polo did not found or sustain any enduring institution. He was a merchant and traveler; his family trading business did not outlast the generation. His legacy operates through a text, not an institution."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Polo's influence was enormous but operated primarily through his book rather than through direct leadership of people or movements. He claimed to lead diplomatic missions for Kublai Khan and reportedly commanded the fleet escorting Princess Kököchin, but these claims rest on his own account. He did not lead in qualitatively different contexts (e.g., both crisis and stability)."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)",
+              "Larner, Marco Polo and the Discovery of the World (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "After returning to Venice, Polo resumed life as a prosperous merchant, married Donata Badoer, raised three daughters, and engaged in ordinary commercial disputes (documented in Venetian legal records). His will (1324) shows practical concerns about family inheritance, debts, and household goods. These mundane details ground him as a relatable figure despite his extraordinary travels."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Polo admired Kublai Khan's legal and postal systems and described aspects of Mongol justice favorably. However, there is no documented instance of Polo himself ruling against personal or group interest in favor of principle. His orientation was mercantile and pragmatic rather than justice-centered."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Polo describes the suffering of peoples he encountered (e.g., poverty in parts of India, hardships of desert crossings) with some evident sympathy, but The Travels lacks documented acts of personal compassion toward adversaries or outgroup members. His perspective is primarily that of an observing merchant-diplomat."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)",
+              "Larner, Marco Polo and the Discovery of the World (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Polo endured crossing the Pamir Mountains and the Gobi Desert, faced bandits (the Karaunas ambush in Persia), survived illness during the journey, endured imprisonment in Genoa after the Battle of Curzola (1298), and persisted through a 24-year journey in extremely dangerous conditions spanning his youth through middle age. These represent sustained courage across multiple high-stakes situations."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "There is no documented instance of Polo acknowledging a personal mistake, reversing a prior position, or undergoing visible moral growth. The Travels is not an introspective or confessional work, and the surviving documentary record (his will, legal documents) is silent on this dimension."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Polo endured material deprivation during desert and mountain crossings, serious illness in Badakhshan, the dangers of bandit attacks (the Karaunas ambush), and imprisonment in Genoa after a naval defeat. These represent at least two qualitatively different forms of adversity (physical privation during travel and loss of freedom as a prisoner of war), and he functioned effectively under both—producing The Travels during imprisonment."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Polo inhabited seemingly contradictory roles: devout Christian who served a non-Christian emperor, Venetian patriot who spent his formative decades abroad, merchant who became a literary figure, prisoner who turned captivity into his greatest achievement, and foreign outsider who claimed insider status at the Mongol court. These represent at least three distinct paradoxes integrated into a coherent life, though the integration may be partly a product of Rustichello's literary shaping."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Larner, Marco Polo and the Discovery of the World (1999)",
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "According to Jacopo d'Acqui's chronicle, when urged on his deathbed to retract the supposed exaggerations in his book, Polo replied: 'I have not told half of what I saw.' This anecdote, while its historicity is debated, suggests composure and conviction in the face of death. His will (January 1324) shows careful, orderly preparation for death, including manumission of his Tatar servant Peter."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)",
+              "Larner, Marco Polo and the Discovery of the World (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Polo crossed the Pamir Mountains ('the Roof of the World'), traversed the Gobi Desert (a month-long crossing), sailed through the South China Sea and Indian Ocean, and endured these hardships from age 17 to his 40s—spanning multiple life stages. He reportedly fell seriously ill in the mountains of Badakhshan and recovered over the course of a year before continuing. Few medieval Europeans undertook journeys of comparable physical demands and duration."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Marco Polo, The Travels (Latham translation, Penguin 1958)",
+              "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Travels reveals genuine aesthetic delight in landscapes, cities, and cultural spectacles. Polo's rapturous descriptions of Hangzhou ('the finest and most splendid city in the world'), Kublai Khan's summer palace at Shangdu (Xanadu), and the festivals and gardens he witnessed convey non-instrumental appreciation of beauty. His detailed attention to jewels, textiles, and architecture goes beyond mercantile interest."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.0,
+          "Relational": 4.44,
+          "Core_5D_Avg": 5.22,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 3.33,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Marco Polo",
+      "overall": {
+        "Core_5D_Avg": 5.22,
+        "Overall_Normalized_Equal_Avg": 5.02,
+        "General_Competency_Avg_10scale": 4.0
+      },
+      "summary": "Marco Polo's defining strengths are his extraordinary physical endurance, cross-cultural archetype resonance, and lasting impact legacy through The Travels. His 24-year journey across Asia made him the Western archetype of the explorer. Cognitive and moral-affective scores are moderate—he was observant and adaptable rather than philosophically deep or morally pioneering. Relational evidence is thin owing to sparse documentation of his domestic life. Heinlein competency is moderate, anchored by exceptional navigation, solid merchant-analytical skills, and leadership in varied contexts, but with large gaps in crafts, agriculture, medicine, and culinary domains. Source limitations (The Travels' co-authorship with a romance writer) constrain confidence throughout.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.2,
+          "General_Competency_Avg_10scale": 4.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Despite describing numerous cuisines across Asia with evident interest, there is no evidence that Polo himself cooked or had notable culinary skill. The popular attribution of bringing pasta from China to Italy is a modern myth with no historical basis."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Polo was captured at the Battle of Curzola (1298) between Venice and Genoa, indicating participation in naval conflict. However, his exact role is unclear—he may have financed and commanded a galley rather than fought personally. The Karaunas bandit ambush during his travels also suggests some experience with violent encounters, though he reportedly was captured in that episode as well."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Polo raised three daughters and his will manumitted his Tatar servant Peter, suggesting some personal concern for dependents. However, no specific caregiving episodes are documented in the historical record beyond these minimal indicators."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Larner, Marco Polo and the Discovery of the World (1999)",
+            "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Polo's reported deathbed statement ('I have not told half of what I saw') suggests composure and conviction in the face of death. His productive use of imprisonment in Genoa—dictating The Travels rather than despairing—demonstrates crisis composure. His orderly will (1324) reflects calm preparation for mortality."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Twenty-four years of overland and maritime travel in the 13th century would have required basic practical skills in maintaining equipment, but no specific episodes of craft or repair are documented in the surviving record."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Larner, Marco Polo and the Discovery of the World (1999)",
+            "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Polo navigated from Venice to Beijing and back via both overland (Silk Road, Pamir Mountains, Gobi Desert) and maritime (South China Sea, Indian Ocean, Persian Gulf) routes across 24 years. His detailed descriptions of distances, landmarks, and route alternatives in The Travels demonstrate exceptional wayfinding knowledge. This is among the most impressive feats of navigation in the medieval period, era-normalized."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Marco Polo, The Travels (Latham translation, Penguin 1958)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a long-distance overland traveler for 24 years in pre-modern conditions, Polo would have been practically familiar with pack animals (horses, camels, yaks) and basic food preparation. The Travels describes animal husbandry practices in various regions, suggesting observational knowledge, but no specific personal skill is documented."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Larner, Marco Polo and the Discovery of the World (1999)",
+            "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Polo demonstrated followership by serving under Kublai Khan for approximately 17 years and initially traveling under the guidance of his father and uncle. He demonstrated leadership in reportedly commanding the Kököchin escort expedition and conducting independent diplomatic missions. This dual capacity—effective subordinate and effective commander—represents solid competence in both dimensions."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Haw, 'Marco Polo's Account of the Siege of Xiangyang' (2006)",
+            "Vogel, Marco Polo Was in China (2013)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Polo claimed involvement in designing siege engines (trebuchets) at the siege of Xiangyang, but this claim is chronologically impossible—the siege ended in 1273, before Polo likely arrived in China. Modern scholarship attributes the siege engines to the Muslim engineers Ismail and Ala al-Din. No other construction evidence exists."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Bergreen, Marco Polo: From Venice to Xanadu (2007)",
+            "Larner, Marco Polo and the Discovery of the World (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Polo reportedly commanded or co-commanded the fleet of 14 ships escorting Princess Kököchin from China to Persia (c. 1292–1295), a complex multi-year maritime expedition. He also claimed to have conducted diplomatic missions across the Mongol Empire for Kublai Khan, requiring planning across diverse environments. Evidence rests primarily on The Travels."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Larner, Marco Polo and the Discovery of the World (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Travels of Marco Polo is one of the most influential works of travel literature in world history. While Rustichello da Pisa shaped the literary style, Polo supplied the content, observations, and narrative structure. The work's vivid descriptions of cities, customs, and landscapes demonstrate real expressive skill, and the book has been continuously read for over 700 years."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Bergreen, Marco Polo: From Venice to Xanadu (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists of Polo providing medical care or emergency response. When he fell ill in Badakhshan, he was the patient rather than the healer. The Travels describes local medical practices as an observer, not a practitioner."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Vogel, Marco Polo Was in China (2013)",
+            "Larner, Marco Polo and the Discovery of the World (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a Venetian merchant, Polo possessed practical arithmetic and accounting skills essential to international trade. The Travels includes detailed quantitative observations: distances between cities, trade volumes, tax revenues, population estimates, and a remarkably accurate description of Chinese paper money and salt currency systems. Hans Ulrich Vogel argues these financial details confirm Polo's firsthand knowledge."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Marco Polo, The Travels (Latham translation, Penguin 1958)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists that Polo engaged in agriculture or resource management. His observations of farming practices in The Travels are those of a traveler, not a practitioner."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Vogel, Marco Polo Was in China (2013)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Polo's detailed descriptions of Chinese technologies (paper money, coal, postal relay systems, canal locks) in The Travels demonstrate understanding of complex technical systems. However, there is no evidence he operated, created, or improved any such systems himself. His competence here is observational and analytical rather than applied."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.22,
+    "general_competency_avg_0_10": 4.0,
+    "overall_normalized_equal_avg_0_10": 5.02,
+    "created_at": "2026-03-22T22:13:30.064Z",
+    "updated_at": "2026-03-22T22:13:30.081Z"
+  }
+}
+]

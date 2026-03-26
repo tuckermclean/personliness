@@ -1,0 +1,373 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 145,
+  "fields": {
+    "name": "Diana, Princess of Wales",
+    "slug": "diana-princess-of-wales",
+    "bio_short": "Diana excelled in compassion, cultural resonance, and relatability—her defining traits. She pioneered emotionally engaged celebrity humanitarianism, broke royal taboos around AIDS and landmines, and became a global archetype of the compassionate, tragic princess. Cognitive and administrative capacities were moderate; she was strategically intuitive rather than systematic. Her Heinlein competency breadth is narrow, concentrated in caregiving and leadership, with little evidence of technical, manual, or analytical skills. Her relational record is mixed: exceptional as a mother, troubled as a spo",
+    "bio_long": "Diana, Princess of Wales was a member of the British royal family. She was the first wife of Charles III and mother of Princes William and Harry. Her activism and glamour made her an international icon and earned her enduring popularity.",
+    "source_notes": "https://en.wikipedia.org/wiki/Diana%2C_Princess_of_Wales",
+    "image": "figures/330px-Diana2C_Princess_of_Wales_1997_28229.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Morton, Andrew. *Diana: Her True Story — In Her Own Words* (1992/1997)",
+              "Tina Brown, *The Diana Chronicles* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diana demonstrated intuitive strategic media skill: her 1995 Panorama interview was a calculated move to control her narrative during the divorce from Charles, and her January 1997 walk through Angolan minefields was a masterful act of issue-framing that pressured governments. When the royal family sought to marginalize her post-separation, she pivoted effectively to independent humanitarian work, maintaining her global profile. However, her strategies were more instinctive than systematic, and some (e.g., Panorama) had mixed long-term consequences for her royal standing."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Bedell Smith, Sally. *Diana in Search of Herself* (1999)",
+              "Brown, *The Diana Chronicles* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Diana innovated a new model of emotionally engaged, hands-on celebrity humanitarianism that broke sharply with royal precedent. Her 1987 ungloved handshake with an AIDS patient at Middlesex Hospital was a genuinely novel act that shifted public perception of HIV/AIDS. She used fashion as deliberate communication (the 'revenge dress' of 1994). These innovations influenced subsequent celebrity advocates (Angelina Jolie, Elton John's AIDS Foundation), though the broader cultural shift had multiple contributors, making a sole-attribution paradigm shift claim difficult."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Morton, *Diana: Her True Story* (1997)",
+              "Brown, *The Diana Chronicles* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Diana's moral commitments—championing AIDS patients, landmine victims, the homeless—were powerful but expressed through action and empathy rather than articulated ethical frameworks. She did not produce writings or speeches that constituted deep philosophical reasoning, and her influence on thinkers beyond her community was indirect, mediated through example rather than argument."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Brown, *The Diana Chronicles* (2007)",
+              "Simmons, Simone. *Diana: The Last Word* (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Diana was a patron of numerous charities and her landmine advocacy contributed to the political momentum behind the 1997 Ottawa Treaty banning anti-personnel mines. However, she was an advocate and symbolic figurehead rather than an administrator or policy architect. She did not design organizational systems, manage budgets, or create legislative frameworks; her charitable work was facilitated by staff and existing institutional structures."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Brown, *The Diana Chronicles* (2007)",
+              "Jephson, *Shadows of a Princess* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diana operated across multiple relational modes: devoted mother (William and Harry), troubled spouse (Charles), estranged daughter (Frances Shand Kydd), loyal friend (Elton John, Lucia Flecha de Lima), institutional subordinate (within the royal hierarchy), compassionate stranger (hospital and shelter visits), and adversary (Camilla, at times the palace establishment). She showed emotional adaptability across these contexts, though her relational style—warm, emotionally intense, sometimes volatile—was somewhat consistent across modes rather than highly differentiated."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Morton, *Diana: Her True Story* (1997)",
+              "Dimbleby, Jonathan. *The Prince of Wales* (1994)",
+              "Brown, *The Diana Chronicles* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Diana's marriage to Charles (1981–1996) was deeply troubled, characterized by mutual unhappiness, Charles's ongoing relationship with Camilla Parker Bowles, and Diana's own extramarital relationships (James Hewitt, others). The Panorama interview and Morton's book aired grievances publicly. Her subsequent relationships with Hasnat Khan and Dodi Fayed were relatively brief. While Diana showed capacity for deep emotional attachment, the evidence does not support mutual respect and support across the arc of any long-term partnership."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Morton, *Diana: Her True Story* (1997)",
+              "Jephson, *Shadows of a Princess* (2000)",
+              "Brown, *The Diana Chronicles* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diana was a devoted, hands-on mother who broke royal precedent: she insisted on breastfeeding, arranged her schedule around her sons' routines, took them to homeless shelters and hospitals to teach empathy, and fought to give them experiences outside palace walls (McDonald's, amusement parks, public schools). Both William and Harry have spoken extensively about her positive influence, and both developed humanitarian commitments and personal autonomy. However, attributing their adult outcomes solely to her parenting is complicated by their unique circumstances and other influences."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Brown, *The Diana Chronicles* (2007)",
+              "Husain, Ed. 'The Diana Effect,' *Foreign Affairs* commentary"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Diana's legacy includes measurable effects on public attitudes toward HIV/AIDS, the passage of the 1997 Ottawa Mine Ban Treaty (to which her advocacy contributed significantly), the modernization of the British monarchy's public engagement style, and the establishment of celebrity humanitarianism as a cultural norm. Her sons William and Harry have continued her philanthropic approach. However, it has been less than 500 years and her impact is primarily within Western culture, so a score of 3 is not yet warranted."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Brown, *The Diana Chronicles* (2007)",
+              "Thomas, James. *Diana's Mourning: A People's History* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Diana is recognized globally as a symbol of the compassionate princess, the tragic heroine, and the rebel against cold institutional power. She resonates across cultures far beyond Britain—from Japanese popular culture to African humanitarian discourse. The 'People's Princess' archetype combines fairy-tale glamour with genuine suffering and charity, producing an enduring cross-cultural icon. Her funeral drew an estimated 2.5 billion television viewers worldwide."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Brown, *The Diana Chronicles* (2007)",
+              "The Diana Award charity website records"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Diana served as patron of over 100 charities, including the National AIDS Trust, Centrepoint, and the Halo Trust. However, she did not found or design enduring institutions. The Diana, Princess of Wales Memorial Fund was created after her death by others. Her organizational role was primarily symbolic and ambassadorial rather than structural or administrative."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Brown, *The Diana Chronicles* (2007)",
+              "Bedell Smith, *Diana in Search of Herself* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Diana exercised enormous influence over public attitudes toward AIDS, homelessness, and landmines, mobilizing sympathy and political pressure through her personal example. She led not through organizational command but through charismatic moral authority. Her influence operated across contexts—from intimate hospital visits to global media campaigns—but she did not lead complex organizations or manage institutional crises in the traditional leadership sense."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Morton, *Diana: Her True Story* (1997)",
+              "Brown, *The Diana Chronicles* (2007)",
+              "Jephson, Patrick. *Shadows of a Princess* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Diana was famously connected to ordinary life despite her status. She took William and Harry to McDonald's, rode the Tube, visited amusement parks (Thorpe Park, Disney World), and engaged in playground humor with her sons. She publicly discussed her struggles with bulimia, loneliness, and marital unhappiness—experiences shared by millions. She was photographed sitting on the floor with children in hospitals and shelters. This groundedness was a primary reason for her popularity."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Morton, *Diana: Her True Story* (1997)",
+              "Brown, *The Diana Chronicles* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diana consistently championed marginalized groups—AIDS patients, the homeless, landmine victims—using her platform to advocate for those without political power. She challenged the stigmatization of HIV/AIDS at a time when this was politically uncomfortable for the royal family. However, there is limited documented evidence of her ruling against personal or in-group interest in favor of abstract principle; her justice orientation was more empathic than procedural."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Morton, *Diana: Her True Story* (1997)",
+              "Bedell Smith, *Diana in Search of Herself* (1999)",
+              "Brown, *The Diana Chronicles* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Compassion was Diana's defining trait. She shook hands ungloved with AIDS patients at Middlesex Hospital in 1987 when stigma was extreme, held dying leprosy patients in Indonesia, comforted landmine amputees in Angola and Bosnia, and regularly visited homeless shelters and children's hospitals. Crucially, her compassion extended to outgroup members and strangers with no political advantage—she visited Mother Teresa's hospice in Calcutta and embraced the dying. Multiple independent witnesses and photographic records corroborate these acts."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Morton, *Diana: Her True Story* (1997)",
+              "Brown, *The Diana Chronicles* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Diana walked through active minefields in Angola (January 1997) and Tuzla, Bosnia, at personal risk. She publicly disclosed her bulimia and self-harm in the 1995 Panorama interview—an act of significant personal vulnerability before a global audience. She endured relentless tabloid harassment and a bitter royal divorce while maintaining her public humanitarian role. However, she also experienced extended periods of significant psychological distress (bulimia, depression, self-harm), which, while not disqualifying, suggest resilience was hard-won rather than effortless."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Morton, *Diana: Her True Story* (1997)",
+              "BBC Panorama interview transcript (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diana openly acknowledged her bulimia, emotional struggles, and her own contribution to marital difficulties in both Morton's biography and the 1995 Panorama interview ('there were three of us in this marriage'). She evolved from a shy, naive 19-year-old bride into a confident, independent humanitarian advocate—a visible arc of personal growth. She acknowledged mistakes in her romantic relationships. This willingness to publicly own imperfection was unusual for a figure of her status."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Morton, *Diana: Her True Story* (1997)",
+              "Bedell Smith, *Diana in Search of Herself* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Diana endured qualitatively different forms of adversity: her parents' acrimonious divorce in childhood; an unhappy marriage marked by Charles's relationship with Camilla Parker Bowles; severe bulimia nervosa and episodes of self-harm; relentless tabloid pursuit; and the public humiliation of the 'Squidgygate' and 'Camillagate' tape scandals. Through these, she continued functioning as a public figure and humanitarian advocate, though at significant personal cost. Her ability to maintain her public role despite private suffering meets the two-domain adversity criterion."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Bedell Smith, *Diana in Search of Herself* (1999)",
+              "Brown, *The Diana Chronicles* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diana inhabited multiple contradictory roles: aristocrat and champion of the marginalized; glamorous fashion icon and hands-on caregiver to the dying; royal insider and institutional rebel; emotionally vulnerable person and globally powerful public figure. She managed at least four contradictory role-pairs with reasonable coherence—her vulnerability enhanced rather than undermined her advocacy. However, she sometimes appeared torn rather than fully integrated, particularly regarding her desire for both royal belonging and independence."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Brown, *The Diana Chronicles* (2007)",
+              "Burrell, Paul. *A Royal Duty* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Diana died suddenly at age 36 in a Paris car crash (August 31, 1997), with no opportunity for documented composure in the face of imminent death. She did express a prescient awareness of mortality risk—her famous note to Paul Burrell stated 'my husband is planning an accident in my car'—but this reflects anxiety and suspicion rather than philosophical acceptance. There is no evidence of composed engagement with her own mortality."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Morton, *Diana: Her True Story* (1997)",
+              "Brown, *The Diana Chronicles* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Diana was physically active—she was a regular swimmer, enjoyed skiing holidays, and played tennis. She walked through minefields in Angola and Bosnia. As a young woman she was an avid dancer and worked as a nursery assistant, which requires physical stamina. However, there is no evidence of exceptional physical feats or endurance across multiple life stages; her physical activity was typical of an active person of her class."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Jephson, *Shadows of a Princess* (2000)",
+              "Morton, *Diana: Her True Story* (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Diana showed genuine non-instrumental joy: she loved pop music (Wham!, Duran Duran), delighted in playful outings with her sons (water-park visits, go-karting), and had a sharp, self-deprecating sense of humor documented by multiple staff members. She surprised Charles with a dance performance at the Royal Opera House (1985). Her love of fashion, while partly functional, also reflected genuine aesthetic pleasure. These activities went well beyond political or didactic purposes."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.0,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.14,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Diana, Princess of Wales",
+      "overall": {
+        "Core_5D_Avg": 6.14,
+        "Overall_Normalized_Equal_Avg": 5.45,
+        "General_Competency_Avg_10scale": 2.0
+      },
+      "summary": "Diana excelled in compassion, cultural resonance, and relatability—her defining traits. She pioneered emotionally engaged celebrity humanitarianism, broke royal taboos around AIDS and landmines, and became a global archetype of the compassionate, tragic princess. Cognitive and administrative capacities were moderate; she was strategically intuitive rather than systematic. Her Heinlein competency breadth is narrow, concentrated in caregiving and leadership, with little evidence of technical, manual, or analytical skills. Her relational record is mixed: exceptional as a mother, troubled as a spouse. Her legacy endures primarily through cultural symbolism, humanitarian norms, and her sons' public commitments.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.6,
+          "General_Competency_Avg_10scale": 2.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence of culinary skill. Diana lived in settings with professional kitchen staff throughout her life (Althorp, Kensington Palace). While she may have prepared simple meals informally, there is no documented evidence of cooking competency."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Brown, *The Diana Chronicles* (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of combat or physical defense skills. Diana's physical courage in walking through minefields reflects moral bravery, not combat competence. She was always accompanied by security personnel for personal protection."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Morton, *Diana: Her True Story* (1997)",
+            "Brown, *The Diana Chronicles* (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Diana's caregiving was exceptional and well-documented across multiple populations: she personally comforted AIDS patients at Middlesex Hospital and elsewhere, held dying leprosy patients in Indonesia, regularly visited children's hospitals (Great Ormond Street), and spent time at Centrepoint homeless shelter. She was a hands-on mother who insisted on direct involvement in her sons' daily care. Her caregiving extended across the lifespan—from infants to the terminally ill—and was sustained over many years."
+        },
+        "Existential Composure": {
+          "citations": [
+            "BBC Panorama interview (1995)",
+            "Brown, *The Diana Chronicles* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Diana showed some existential composure in publicly acknowledging her struggles with bulimia, depression, and self-harm during the 1995 Panorama interview—facing vulnerability before a global audience with notable calm. She expressed awareness of mortality risks ('my husband is planning an accident'). However, her death was sudden and unforeseeable, providing no opportunity to face mortality with composure, and her psychological struggles indicate significant periods of existential distress."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of manual craft, tool-making, or repair skills. Diana's upbringing and adult life provided no context for developing or exercising such competencies."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of navigation or wayfinding skills. Diana traveled extensively but always with drivers, security details, and logistical support staff. There is no record of independent navigation across unfamiliar terrain."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Diana ever butchered, processed, or prepared animals or raw food resources. She grew up in aristocratic settings (Althorp, Park House) where such tasks were performed by staff."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Jephson, *Shadows of a Princess* (2000)",
+            "Brown, *The Diana Chronicles* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Diana effectively led humanitarian campaigns through personal charisma and media skill, directing public attention to causes like AIDS and landmines. She could also follow when required—she initially submitted to royal protocols, deferred to senior royals, and worked within charitable organizational structures. Her ability to both inspire followership and accept institutional constraints (at least partially) demonstrates competence in both modes, though her relationship with followership within the monarchy was ultimately strained."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of construction, fabrication, or structural design skills. Diana was involved in interior decoration of Kensington Palace apartments, but this was aesthetic direction of professional decorators, not hands-on construction."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Brown, *The Diana Chronicles* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Diana showed some capacity for strategic media management—timing the Morton book, planning the Panorama interview, choreographing humanitarian photo opportunities. However, she did not plan or command complex operations, manage logistics, or coordinate large teams under constraints. Her strategic capacity was intuitive and media-focused rather than systematic."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Brown, *The Diana Chronicles* (2007)",
+            "Morton, *Diana: Her True Story* (1997)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Diana studied ballet as a child and young woman, performed a surprise dance at the Royal Opera House (1985) with Wayne Sleep, and was widely recognized as using fashion as a deliberate form of cultural expression and communication (the 'revenge dress,' the landmine casual wear). However, she did not produce enduring works of art, literature, or music. Her cultural expression was primarily sartorial and performative."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Morton, *Diana: Her True Story* (1997)",
+            "Jephson, *Shadows of a Princess* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Diana had no formal medical training, but she spent extensive time in medical settings—visiting AIDS wards, children's hospitals (Great Ormond Street), and hospices. She learned to provide emotional comfort and basic bedside support to the sick and dying. Her hands-on engagement went beyond ceremonial visits; staff reported she would stay hours beyond scheduled appearances. This constitutes basic medical aid competency (emotional care, comfort of the dying) era-normalized for a non-professional."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Morton, *Diana: Her True Story* (1997)",
+            "Brown, *The Diana Chronicles* (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Diana left school at 16 without passing her O-levels (she failed twice). There is no evidence of mathematical, statistical, or analytical reasoning applied to practical problems. She relied on advisers for financial and organizational matters."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural skill or resource management. Despite growing up on the Althorp estate, Diana's role was that of an aristocratic resident, not a land manager or farmer."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of engagement with the technical tools or technologies of her era beyond ordinary consumer use. Diana did not work with computers, engineering systems, or technical problem-solving in any documented capacity."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.14,
+    "general_competency_avg_0_10": 2.0,
+    "overall_normalized_equal_avg_0_10": 5.45,
+    "created_at": "2026-03-22T18:55:34.177Z",
+    "updated_at": "2026-03-22T18:55:34.197Z"
+  }
+}
+]

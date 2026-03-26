@@ -1,0 +1,379 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 183,
+  "fields": {
+    "name": "Voltaire",
+    "slug": "voltaire",
+    "bio_short": "A towering Enlightenment intellect combining exceptional strategic intelligence, literary genius, and philosophical impact with genuine moral courage and sustained advocacy for tolerance and justice. His anti-Semitic writings and involvement in slave-trade investments represent serious moral blind spots that temper his justice and compassion scores. Remarkable paradox integration — courtier and rebel, capitalist and champion of the oppressed, comedian and philosopher. Heinlein competency is narrow: brilliant in literary, strategic, and leadership domains but with minimal evidence of manual, me",
+    "bio_long": "François-Marie Arouet, known by his pen name Voltaire, was a French Enlightenment writer, philosopher (philosophe), satirist, and historian. Famous for his wit and his criticism of Christianity and of slavery, Voltaire was an advocate of freedom of speech, freedom of religion, and separation of church and state.",
+    "source_notes": "https://en.wikipedia.org/wiki/Voltaire",
+    "image": "figures/330px-Atelier_de_Nicolas_de_LargilliC3A8re2C_portrait_de_Voltaire2C_dC3A9tail_28_dTUEuXO.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Davidson, *Voltaire: A Life* (2010)",
+              "Pearson, *Voltaire Almighty* (2005)",
+              "Besterman, *Voltaire* (1969)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire repeatedly adapted when initial plans failed: after his beating by the Chevalier de Rohan's lackeys and second Bastille imprisonment (1726), he turned English exile into the triumphant Lettres philosophiques. When his position at Frederick the Great's court collapsed (1753), he strategically relocated to the Swiss border at Ferney, beyond easy reach of French or Prussian authority. His Calas campaign (1762–65) was a masterclass in adaptive strategy — gathering evidence, publishing sequenced pamphlets, mobilizing European opinion, and ultimately securing posthumous exoneration. His lottery scheme with La Condamine (1729) showed financial-strategic brilliance."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Cronk, ed., *The Cambridge Companion to Voltaire* (2009)",
+              "Brumfitt, *Voltaire Historian* (1958)",
+              "Mason, *Candide: Optimism Demolished* (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire essentially created the conte philosophique (philosophical tale) as a genre — Candide, Zadig, Micromégas — fusing narrative fiction with philosophical argument in a way that had no real precedent and created a clear before/after in European literature. His Lettres philosophiques (1733) pioneered comparative cultural criticism. He popularized Newtonian science for French audiences in Éléments de la philosophie de Newton (1738). His historiographical innovations in Le Siècle de Louis XIV and Essai sur les mœurs introduced cultural and social history as opposed to purely dynastic chronicles."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Gay, *Voltaire's Politics* (1959)",
+              "Pomeau, *La Religion de Voltaire* (1969)",
+              "Israel, *Enlightenment Contested* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire's Traité sur la tolérance (1763) articulated principles of religious tolerance that influenced the French Declaration of the Rights of Man, the American First Amendment tradition, and global human-rights discourse. His critique of Leibnizian optimism in Candide (1759) remains a touchstone of philosophical literature. His Dictionnaire philosophique (1764) systematically challenged dogmatism. These principles influenced thinkers well beyond his own era and community, from Jefferson to Mill to modern secular humanists."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Pearson, *Voltaire Almighty* (2005)",
+              "Davidson, *Voltaire: A Life* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "At Ferney (1758–78), Voltaire administered a community of roughly 1,200 people, establishing a watchmaking industry that employed hundreds, a silk stocking factory, and improved agricultural practices. He built housing for workers and a church. These enterprises functioned during his lifetime and the watchmaking continued after his death, though they did not endure as lasting institutional systems far beyond his oversight. He never held formal governmental office."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Besterman, ed., *Voltaire's Correspondence* (107 vols)",
+              "Davidson, *Voltaire: A Life* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire demonstrated qualitatively distinct relational behavior across at least six modes: (1) intimate partner (tenderness and intellectual collaboration with du Châtelet); (2) adversary (vicious satirical attacks on Fréron, Maupertuis, and Rousseau); (3) subordinate (courtly deference at Versailles and Potsdam); (4) superior/patron (benevolent management of Ferney workers and protégés); (5) friend/equal (playful correspondence with Frederick the Great and Cideville); (6) advocate for strangers (selfless championing of the Calas family). His 20,000+ surviving letters document this extraordinary range."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Hamel, *Émilie du Châtelet* (2010)",
+              "Zinsser, *Émilie du Châtelet: Daring Genius of the Enlightenment* (2006)",
+              "Davidson, *Voltaire: A Life* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Voltaire's relationship with Émilie du Châtelet (c. 1733–1749) was one of the great intellectual partnerships of the 18th century: they collaborated on Newtonian physics, shared a household at Cirey, and supported each other's work. Voltaire was devastated by her death. However, both maintained other lovers (Émilie with Saint-Lambert, whose child she died bearing), suggesting limits to mutual exclusivity. His later relationship with his niece Marie Louise Mignot (Mme Denis) was his primary partnership for decades, marked by genuine mutual dependence but also documented turbulence and manipulation on both sides."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Besterman, *Voltaire* (1969)",
+              "Davidson, *Voltaire: A Life* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Voltaire had no biological children but served as mentor to younger philosophes including d'Alembert, Marmontel, and La Harpe, and effectively adopted Marie-Louise Mignot de Varicourt ('Belle et Bonne') late in life, arranging her marriage. He contributed articles to and championed the Encyclopédie, supporting Diderot and d'Alembert's project. His mentees generally developed independent intellectual identities rather than merely imitating him. However, evidence of sustained, nurturing mentoring relationships (as opposed to patronage and encouragement) is limited compared to figures like Socrates or Johnson."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Gay, *The Enlightenment: An Interpretation* (1966–69)",
+              "Israel, *Revolutionary Ideas* (2014)",
+              "McMahon, *Enemies of the Enlightenment* (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire's ideas on religious tolerance, freedom of expression, separation of church and state, and rational criticism of authority are foundational to modern liberal democracies worldwide. His influence on the French Revolution (the revolutionaries venerated him, transferring his remains to the Panthéon in 1791), American constitutional thought, and global human-rights discourse is well-documented. His literary works remain in print globally. Though less than 500 years have passed since his death, his effects are clearly operative across multiple civilizations and show no sign of diminishing."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Hall, *The Friends of Voltaire* (1906, source of the misattributed quote)",
+              "Cronk, ed., *The Cambridge Companion to Voltaire* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire is the defining archetype of the critical public intellectual — the wit who speaks truth to power through reason and satire. The (misattributed) quote 'I disapprove of what you say, but I will defend to the death your right to say it' has become a universal principle invoked across cultures. He is recognized as a symbol far beyond France: in Latin America, East Asia, and the Muslim world, 'Voltaire' serves as shorthand for free thought and anti-clerical reason. His satirical persona influenced figures from Mark Twain to Salman Rushdie."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Pearson, *Voltaire Almighty* (2005)",
+              "Davidson, *Voltaire: A Life* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Voltaire established the Ferney watchmaking industry (which continued after his death), contributed to the Encyclopédie, and helped establish the Comédie-Française's repertoire through his plays. More broadly, he helped institutionalize the role of the public intellectual and the tradition of engaged philosophical writing. However, he did not create formal organizations that survived with recognizable continuity for two generations — his Ferney community dissipated after his death, and his institutional legacy is more diffuse and cultural than organizational."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Gay, *Voltaire's Politics* (1959)",
+              "Israel, *Enlightenment Contested* (2006)",
+              "Besterman, ed., *Voltaire's Correspondence* (107 vols)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire led in qualitatively different contexts: he was the undisputed intellectual leader of the French Enlightenment, mobilizing the philosophes and the Encyclopédie project; he directed a successful public-opinion campaign in the Calas affair that essentially invented the modern model of intellectual activism; he administered the Ferney community as a quasi-feudal patron-leader; and he maintained influence at European courts through correspondence with Frederick the Great, Catherine the Great, and others. His leadership spanned small groups (the Cirey intellectual circle with du Châtelet) to continent-wide influence."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Besterman, ed., *Voltaire's Correspondence*",
+              "Pearson, *Voltaire Almighty* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "At Ferney, Voltaire engaged in gardening (his famous 'il faut cultiver notre jardin' reflected actual practice), supervised his farms, interacted with local villagers and workers, and hosted visitors from all social strata. His vast correspondence reveals everyday concerns: health complaints, digestive troubles, squabbles with neighbors, and domestic arrangements. He was known for humor with guests and playful theatricals. However, he lived as a wealthy aristocrat throughout his adult life, with servants managing most mundane tasks, limiting the depth of his immersion in ordinary labor."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Gay, *Voltaire's Politics* (1959)",
+              "Duchet, *Anthropologie et histoire au siècle des lumières* (1971)",
+              "Bien, *The Calas Affair* (1960)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The Calas, Sirven, and La Barre cases represent paradigmatic examples of principled justice advocacy with no personal stake. Voltaire spent years and significant resources pursuing the Calas rehabilitation. His Traité sur la tolérance argued for universal principles transcending group interest. However, his anti-Semitic writings and his financial involvement in the slave trade (investments through the Nantes trading house of Montaudoin, as documented by Duchet) represent failures to apply his own justice principles consistently. Without these counterexamples: 3. With them given proportional weight: 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Hertzberg, *The French Enlightenment and the Jews* (1968)",
+              "Schwarzbach, *Voltaire's Old Testament Criticism* (1971)",
+              "Davidson, *Voltaire: A Life* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Voltaire's campaigns for the Calas family (Protestant strangers), the Sirven family, and the Chevalier de La Barre demonstrate genuine compassion toward outgroup members at personal risk and financial cost. He housed Huguenot refugees at Ferney. However, a serious counterexample exists: his anti-Semitic writings in the Dictionnaire philosophique and elsewhere expressed systematic prejudice against Jews as a group. Without this counterexample, the score would be 3 given the sustained, costly advocacy for persecuted strangers. With it given proportional weight — representing systematic failure of empathy toward an entire outgroup — the score is 2."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Davidson, *Voltaire: A Life* (2010)",
+              "Besterman, *Voltaire* (1969)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire was imprisoned in the Bastille twice (1717–18, 1726), exiled to England (1726–29), had his books publicly burned multiple times, fled France to avoid arrest repeatedly, and lived under constant threat of lettres de cachet for decades. Despite this, he continued publishing provocative works under his own name and thinly veiled pseudonyms throughout his life. The Calas campaign (1762–65) put him at renewed risk. His return to Paris in 1778, knowing it might kill him at 83, demonstrated courage sustained across an entire lifetime."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Pomeau, *Voltaire en son temps* (1985–94, 5 vols)",
+              "Davidson, *Voltaire: A Life* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Voltaire demonstrated meaningful philosophical growth: the 1755 Lisbon earthquake catalyzed his shift from moderate optimism to the skeptical position of Candide (1759), a genuine reversal visible in his correspondence and works. His transformation from courtly fame-seeker in his younger years to crusading advocate for justice at Ferney represents documented behavioral change. His tradition does not sanitize his faults — his quarrelsomeness, vanity, and anti-Semitism are well-recorded. However, he never reversed his anti-Jewish prejudices and resisted accepting correction from contemporaries who challenged him (e.g., his feuds with Maupertuis and Rousseau showed persistent vindictiveness)."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Davidson, *Voltaire: A Life* (2010)",
+              "Pomeau, *Voltaire en son temps* (1985–94)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire endured qualitatively different forms of adversity while remaining productive: material/legal hardship (two Bastille imprisonments, multiple exiles, book burnings, constant threat of arrest); personal bereavement (the devastating death of Émilie du Châtelet in 1749 during childbirth); social humiliation (the Rohan beating of 1726); and the psychological burden of decades of persecution by Church and state authorities. Through all of these, he continued writing prolifically and even escalated his public advocacy in his final decades."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Gay, *Voltaire's Politics* (1959)",
+              "Cronk, ed., *The Cambridge Companion to Voltaire* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire seamlessly inhabited at least five seemingly contradictory roles: (1) wealthy capitalist-investor and champion of the poor and persecuted; (2) courtier who sought royal favor and fierce critic of monarchical and ecclesiastical power; (3) devout deist who built a church at Ferney and relentless enemy of organized religion; (4) comic satirist and deadly serious moral philosopher; (5) vain, quarrelsome egotist and selfless advocate who spent years and fortunes defending strangers. These contradictions were not sequential phases but coexisted throughout his mature life, integrated through the coherent identity of the philosophe."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Davidson, *Voltaire: A Life* (2010)",
+              "Besterman, *Voltaire* (1969)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Voltaire's return to Paris in February 1778, knowing at 83 that the journey might kill him, showed intentional acceptance of risk. His famous deathbed quip — when urged to renounce Satan, reportedly replying 'Now is not the time for making new enemies' — suggests composure and wit in extremis. He refused clerical pressure to recant his views. However, accounts of his final weeks are mixed: some sources report periods of anxiety and distress alongside the famous composure, and he did sign a partial confession to the Abbé Gaultier, suggesting some ambivalence rather than fully serene acceptance."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Davidson, *Voltaire: A Life* (2010)",
+              "Besterman, *Voltaire* (1969)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Voltaire was famously frail and hypochondriacal throughout his life, constantly complaining of illness in his letters. Yet he lived to 83 — remarkable for the 18th century — and maintained a prodigious work schedule into old age. He traveled extensively across Europe (England, Prussia, Switzerland) under often difficult conditions. However, there is no evidence of physical feats or athletic skill; his endurance was fundamentally intellectual rather than physical."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Pearson, *Voltaire Almighty* (2005)",
+              "Besterman, ed., *Voltaire's Correspondence*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Voltaire built a private theater at Ferney and staged plays for pure entertainment, often acting in them himself. His correspondence sparkles with non-instrumental wit and wordplay. He threw elaborate parties and dinners for guests. His love of gardening at Ferney, his delight in coffee and chocolate, and his playful correspondence with friends (particularly his banter with Frederick the Great) demonstrate aesthetic engagement for its own sake. His literary works — particularly the contes — radiate sheer delight in language and comic invention beyond any didactic purpose."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 7.78,
+          "Core_5D_Avg": 8.22,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Voltaire (François-Marie Arouet, 1694–1778)",
+      "overall": {
+        "Core_5D_Avg": 8.22,
+        "Overall_Normalized_Equal_Avg": 7.63,
+        "General_Competency_Avg_10scale": 4.67
+      },
+      "summary": "A towering Enlightenment intellect combining exceptional strategic intelligence, literary genius, and philosophical impact with genuine moral courage and sustained advocacy for tolerance and justice. His anti-Semitic writings and involvement in slave-trade investments represent serious moral blind spots that temper his justice and compassion scores. Remarkable paradox integration — courtier and rebel, capitalist and champion of the oppressed, comedian and philosopher. Heinlein competency is narrow: brilliant in literary, strategic, and leadership domains but with minimal evidence of manual, medical, culinary, or combat skills. His legacy on free speech, tolerance, and the public-intellectual archetype remains globally operative.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.4,
+          "General_Competency_Avg_10scale": 4.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Voltaire personally cooked. He was known as an enthusiastic host who served fine meals and was passionate about coffee and chocolate, but meal preparation was handled by his household staff. His culinary engagement was that of a consumer and patron, not a practitioner."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Davidson, *Voltaire: A Life* (2010)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Voltaire had no combat skills or military experience. When attacked by the Chevalier de Rohan's lackeys in 1726, he was beaten and unable to defend himself. His subsequent attempt to challenge Rohan to a duel led to his imprisonment rather than any combat. He never served in any military capacity."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Davidson, *Voltaire: A Life* (2010)",
+            "Pearson, *Voltaire Almighty* (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Voltaire housed and employed Huguenot refugees at Ferney, effectively adopted Mlle de Varicourt in his final years, and attended to Émilie du Châtelet during her fatal pregnancy in 1749. He personally oversaw the welfare of workers in his Ferney community. His correspondence shows solicitude for friends' health and wellbeing. However, caregiving was not a defining life activity."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Davidson, *Voltaire: A Life* (2010)",
+            "Besterman, *Voltaire* (1969)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Voltaire maintained composure through repeated crises: imprisonment, exile, bereavement, and the sustained threat of persecution. His deathbed wit — the famous quip about not making new enemies — and his refusal to recant his views under clerical pressure demonstrate dignity in extremis. His philosophical engagement with mortality throughout his works (Candide's resolution, the Poème sur le désastre de Lisbonne) reflects sustained existential reflection. Some reports of anxiety in his final days prevent a score of 3."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal manual craft or repair skills. Voltaire was a man of letters and wealth who employed craftsmen rather than working with his hands. His Ferney watchmaking enterprise was managerial, not artisanal."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Davidson, *Voltaire: A Life* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Voltaire traveled extensively across Europe — to England (1726), Prussia (1750), Geneva (1755), and settled at Ferney (1758) — often under conditions requiring hasty departure to avoid arrest. Planning these relocations required some navigational competence. However, he traveled by carriage with servants and there is no evidence of independent wayfinding skill beyond what any well-resourced 18th-century traveler would possess."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Voltaire personally butchered animals or processed food. As a wealthy man with servants throughout his adult life, these tasks were delegated. His agricultural interests at Ferney were managerial rather than hands-on."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Gay, *Voltaire's Politics* (1959)",
+            "Zinsser, *Émilie du Châtelet* (2006)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Voltaire demonstrated exceptional leadership of the Enlightenment movement, the Ferney community, and public-opinion campaigns. He also demonstrated followership: he served at the courts of Louis XV and Frederick the Great, following courtly protocols and subordinating himself (however uncomfortably) to royal authority. He collaborated as a junior partner with Émilie du Châtelet on scientific work, deferring to her superior mathematical abilities. His capacity to both command and submit is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Pearson, *Voltaire Almighty* (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "At Ferney, Voltaire directed the construction of his château, a church (inscribed 'Deo erexit Voltaire'), workers' houses, and workshops for watchmaking and silk production. He was involved in design decisions and site planning. However, he functioned as a patron and director rather than a builder; no evidence of personal construction skills."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Bien, *The Calas Affair* (1960)",
+            "Davidson, *Voltaire: A Life* (2010)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The Calas campaign (1762–65) involved coordinated multi-year planning: evidence gathering, sequenced publication of pamphlets across Europe, mobilization of correspondents at multiple courts, and legal strategy that achieved posthumous exoneration. His financial operations — the lottery scheme with La Condamine (1729), grain speculation, and money-lending to European nobles — required sophisticated strategic planning. His management of Ferney's multiple industries demonstrated sustained command capability."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Cronk, ed., *The Cambridge Companion to Voltaire* (2009)",
+            "Mason, *Candide: Optimism Demolished* (1992)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Voltaire was among the most prolific and acclaimed literary figures of his century: author of Candide (a masterpiece of world literature), dozens of plays performed at the Comédie-Française, epic poetry (La Henriade), philosophical tales, histories, and over 20,000 letters that are themselves literary achievements. He also directed and acted in theatrical productions at Ferney and Cirey. His literary output spans virtually every genre available in his era."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Voltaire possessed medical skills or provided emergency medical aid. He was himself a frequent patient, consulting physicians regularly. His extensive health complaints suggest preoccupation with his own medical needs rather than provision of care to others."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Zinsser, *Émilie du Châtelet* (2006)",
+            "Davidson, *Voltaire: A Life* (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Voltaire collaborated with Émilie du Châtelet on Newtonian physics and wrote Éléments de la philosophie de Newton (1738), demonstrating genuine mathematical comprehension. His lottery scheme with La Condamine (1729) exploited a mathematical error in the government lottery's design, requiring probabilistic reasoning. His financial management of complex investments, money-lending operations, and industrial accounts at Ferney required sustained analytical skill. He was not a mathematician per se but was analytically competent at a high level for a non-specialist."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Pearson, *Voltaire Almighty* (2005)",
+            "Davidson, *Voltaire: A Life* (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "At Ferney, Voltaire actively managed agricultural lands, introduced improved farming techniques, planted trees and vines, and diversified the local economy by establishing watchmaking and silk industries. He managed these resources for roughly 20 years, transforming a small village into a prosperous community. His correspondence discusses crop yields, livestock, and land management in detail."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Davidson, *Voltaire: A Life* (2010)",
+            "Pearson, *Voltaire Almighty* (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Voltaire's establishment of the Ferney watchmaking industry required understanding production systems, supply chains, and market dynamics — he successfully competed with Geneva's established watchmakers by undercutting prices. His exploitation of the government lottery flaw (1729) demonstrated technical problem-solving. His popularization of Newtonian science in Éléments (1738) required grasping and communicating cutting-edge scientific systems of his era."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.22,
+    "general_competency_avg_0_10": 4.67,
+    "overall_normalized_equal_avg_0_10": 7.63,
+    "created_at": "2026-03-22T21:50:42.799Z",
+    "updated_at": "2026-03-22T21:50:42.817Z"
+  }
+}
+]

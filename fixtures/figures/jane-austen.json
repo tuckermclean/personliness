@@ -1,0 +1,368 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 138,
+  "fields": {
+    "name": "Jane Austen",
+    "slug": "jane-austen",
+    "bio_short": "Jane Austen combined exceptional creative and philosophical genius with a deeply embedded domestic life, producing six novels that transformed English literature and continue to influence global culture. Her cognitive strengths were concentrated in ethical insight and literary innovation rather than strategic or administrative domains. Morally consistent with moderate scores across compassion, courage, justice, and self-awareness, she showed particular strength in joyful aesthetic engagement and cultural relatability. Her relational profile is limited by the absence of a spousal partnership, t",
+    "bio_long": "Jane Austen was an English writer known primarily for her six novels, which implicitly interpret, critique, and comment on the English landed gentry at the end of the 18th century.",
+    "source_notes": "https://en.wikipedia.org/wiki/Jane_Austen",
+    "image": "figures/330px-CassandraAusten-JaneAusten28c.181029_hires.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Tomalin, Jane Austen: A Life (1997)",
+              "Le Faye, Jane Austen: A Family Record (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Austen showed modest strategic sense in managing her publishing career—self-financing Sense and Sensibility, buying back the manuscript of Susan from Crosby when he failed to publish it, and switching from Egerton to John Murray for Emma. However, these are limited, low-stakes adaptations rather than multi-outcome planning under genuine uncertainty."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Watt, The Rise of the Novel (1957)",
+              "Harding, 'Regulated Hatred: An Aspect of the Work of Jane Austen' (1940)",
+              "Sutherland, Jane Austen's Textual Lives (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Austen pioneered free indirect discourse as a sustained narrative technique, developed the psychological realist novel focused on domestic life, and created an ironic narrative voice that became paradigmatic. Ian Watt and others identify a clear before/after in the English novel attributable to her work. The novel as a form of moral-psychological exploration of ordinary life is fundamentally shaped by her innovations."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "MacIntyre, After Virtue (1981)",
+              "Johnson, Jane Austen: Women, Politics, and the Novel (1988)",
+              "Butler, Jane Austen and the War of Ideas (1975)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Austen's novels articulate a sophisticated virtue ethics centered on self-knowledge, moral perception, and the ethical weight of everyday conduct. Alasdair MacIntyre in After Virtue (1981) treats her as the last great representative of the classical virtue tradition. Her moral insights influenced thinkers and writers far beyond her community, from Henry James to modern moral philosophers, meeting the criterion of cross-era, cross-community influence."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)",
+              "Tomalin, Jane Austen: A Life (1997)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Austen managed household affairs at Chawton Cottage—documented responsibilities included breakfast preparation, tea and sugar stores, and some household accounts. She also handled aspects of her publishing business. These represent competent but limited administrative engagement, with no systems that endured beyond her oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)",
+              "Tomalin, Jane Austen: A Life (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Austen documented qualitatively distinct relational behavior as daughter (respectful care for her mother), sister (intimate playfulness with Cassandra), aunt/mentor (advisory with nieces), friend (warm correspondence with Martha Lloyd and others), and professional (businesslike dealings with Murray and Egerton). This yields approximately four to five distinct relational modes, but she lacked documented experience as spouse, formal leader, or adversary, limiting her range below the five-mode minimum for a 3."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Le Faye, Jane Austen: A Family Record (2004)",
+              "Tomalin, Jane Austen: A Life (1997)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Austen never married and had no documented long-term romantic partnership. Her brief attachment to Tom Lefroy (1795-96) and overnight acceptance/rejection of Harris Bigg-Wither's proposal (1802) do not constitute partnerships that can be evaluated for mutual respect, support, or emotional availability across time."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)",
+              "Austen-Leigh, A Memoir of Jane Austen (1870)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Austen was a devoted aunt and active mentor. She provided detailed, constructive criticism of her niece Anna Austen Lefroy's novel manuscript (documented in surviving letters from 1814), encouraging genuine craft development rather than mere imitation. Her nephew James Edward Austen-Leigh developed sufficient literary autonomy to compose the influential Memoir of Jane Austen (1870). Her niece Fanny Knight also received substantive guidance. These mentees developed genuine competence, though within a limited circle."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Lynch, Janeites: Austen's Disciples and Devotees (2000)",
+              "Watt, The Rise of the Novel (1957)",
+              "Johnson, Jane Austen: Women, Politics, and the Novel (1988)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Austen's six novels have been continuously in print since publication, translated into virtually every major language, and adapted into hundreds of films, TV series, and derivative works. Her influence on the novel form is traced by scholars from Henry James through modernism to contemporary fiction. The global 'Janeite' phenomenon spans multiple civilizations including strong presences in Japan, South Asia, and across Europe. Though only 207 years have passed, the trajectory and cross-civilizational scope are of the highest order."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Lynch, Janeites: Austen's Disciples and Devotees (2000)",
+              "Looser, The Making of Jane Austen (2017)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Austen functions as a global archetype of the female literary genius, the witty social observer, and the quiet domestic revolutionary. She appears on the Bank of England £10 note, is the subject of biopics and fictional treatments worldwide, and is invoked as a cultural symbol far beyond English literary circles. Her recognition in Japan, India, Latin America, and across Europe meets the cross-cultural criterion."
+          },
+          "Institution-Building": {
+            "citations": [
+              "(no citation)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Austen built no formal institutions, organizations, or enduring social structures. While she contributed to establishing the realist novel as a literary tradition, this is better captured under Impact Legacy and Creative/Innovative Thinking. The rubric's focus on organizations or social structures that survived beyond the founder yields no evidence."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Tomalin, Jane Austen: A Life (1997)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Austen exerted influence within her family circle—advising nieces, shaping household life—but she did not lead organizations, movements, or groups. Her influence was primarily literary rather than through personal leadership. She navigated relationships with publishers (Murray, Egerton) but from a position of relative dependence rather than command."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)",
+              "Tomalin, Jane Austen: A Life (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Austen's letters extensively document engagement with mundane activities even at the height of her literary career: making breakfast and managing household stores at Chawton Cottage, sewing and mending clothes, walking daily, playing piano, shopping for fabric, joking with nieces and nephews, attending village social events. She remained fully embedded in domestic life throughout her publishing career, never adopting the role of detached literary celebrity."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Said, Culture and Imperialism (1993)",
+              "Johnson, Jane Austen: Women, Politics, and the Novel (1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Austen's novels centrally interrogate justice: Mansfield Park critiques wealth's moral corruption and obliquely references the slave trade; Emma dramatizes class snobbery (the Box Hill scene as moral reckoning); Persuasion argues for merit over birth. Her brother Francis was vocally anti-slavery, and scholarly debate (e.g., Said's Culture and Imperialism vs. Fraiman's response) suggests her awareness of colonial justice. However, documented personal acts of ruling against self-interest for principle are absent from the surviving record."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)",
+              "Tomalin, Jane Austen: A Life (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Austen's letters document genuine concern for family members during illness, attentiveness to servants' welfare, and care for her aging mother. Her novels show empathetic imagination toward characters across social strata (e.g., the poor in Emma, naval families in Persuasion). However, her letters also contain sharp, sometimes dismissive remarks about acquaintances, and documented acts of compassion toward adversaries or outgroup members—required for a 3—are lacking."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Tomalin, Jane Austen: A Life (1997)",
+              "Le Faye, Jane Austen: A Family Record (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Austen persisted in a literary career despite social norms discouraging female authorship, publishing anonymously as 'A Lady.' She endured financial precariousness after her father's death in 1805, and continued writing Sanditon until March 1817, just four months before her death from a debilitating illness. This represents sustained resilience across multiple domains (professional, financial, physical), though not in contexts of acute physical danger."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Le Faye, Jane Austen: A Family Record (2004)",
+              "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Austen's overnight acceptance and next-morning retraction of Harris Bigg-Wither's proposal (December 1802) demonstrates willingness to reverse a decision upon moral reflection. Her surviving letters show self-awareness about her sharp tongue ('I must learn to be more guarded'). Her novels are centrally about moral growth through self-recognition. Cassandra's destruction of many letters partially sanitizes the record, but the surviving evidence still shows genuine self-critical capacity and behavioral change."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Tomalin, Jane Austen: A Life (1997)",
+              "Le Faye, Jane Austen: A Family Record (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Austen functioned effectively through at least two qualitatively different forms of adversity: financial precariousness and dependence on brothers' generosity after her father's death in 1805 (material deprivation), and a debilitating terminal illness from approximately 1816 until her death in July 1817 (physical suffering), during which she continued writing Sanditon. The move from Steventon to Bath (which she reportedly did not welcome) and years of publishing uncertainty add further texture."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Butler, Jane Austen and the War of Ideas (1975)",
+              "Johnson, Jane Austen: Women, Politics, and the Novel (1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Austen integrated several seemingly contradictory roles: sharp satirist of social mores and warm, devoted family member; anonymous 'lady' author and ambitious literary professional navigating the publishing market; morally conservative churchgoer and subtly radical social critic. These represent at least two clear paradoxes held in coherent tension, but the three-role minimum for a 3 is borderline, and the contradictions are tensions of emphasis rather than stark oppositions like warrior/peacemaker."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)",
+              "Henry Austen, 'Biographical Notice of the Author' (1818)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cassandra Austen's letter to Fanny Knight (July 20, 1817) describes Jane's composure and tranquility in her final hours. Henry Austen's Biographical Notice (1818) records her serenity and Christian resignation. She composed the comic poem 'When Winchester Races' just days before death, suggesting humor even facing mortality. However, these are family sources with hagiographic potential. The evidence supports composure but does not reach the level of the strongest known exemplars."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)",
+              "Tomalin, Jane Austen: A Life (1997)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Austen was an avid walker throughout her life—her letters document regular long walks in Hampshire and Bath. She danced at balls through her twenties and early thirties. However, she had no documented exceptional physical feats, and her health declined markedly in her early forties, leading to death at 41, likely from Addison's disease."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)",
+              "Byrne, Jane Austen and the Theatre (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Austen's juvenilia (Love and Freindship, The History of England) are works of pure comic play written for family entertainment with no instrumental purpose. Her letters overflow with humor, wordplay, and delight in balls, music (daily piano practice documented), nature walks, and reading. Her satirical sketches and playful correspondence with Cassandra demonstrate sustained non-instrumental aesthetic engagement throughout her life."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.22,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Jane Austen",
+      "overall": {
+        "Core_5D_Avg": 6.22,
+        "Overall_Normalized_Equal_Avg": 5.78,
+        "General_Competency_Avg_10scale": 3.56
+      },
+      "summary": "Jane Austen combined exceptional creative and philosophical genius with a deeply embedded domestic life, producing six novels that transformed English literature and continue to influence global culture. Her cognitive strengths were concentrated in ethical insight and literary innovation rather than strategic or administrative domains. Morally consistent with moderate scores across compassion, courage, justice, and self-awareness, she showed particular strength in joyful aesthetic engagement and cultural relatability. Her relational profile is limited by the absence of a spousal partnership, though her mentoring of nieces was genuine and effective. Her Heinlein competency profile is narrow—dominated by artistic expression—reflecting a life focused on literary genius rather than practical breadth.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.07,
+          "General_Competency_Avg_10scale": 3.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Austen was responsible for making breakfast at Chawton Cottage and managing food stores, as documented in her letters and family records. She mentions specific foods and preparations. This represents basic culinary competence for a gentlewoman of her era, but no evidence of exceptional cooking skill."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence exists of Austen possessing combat or self-defense skills. She lived in civilian, peacetime England (though during the Napoleonic Wars, two of her brothers served in the Royal Navy). The domain is absent from her documented life."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)",
+            "Tomalin, Jane Austen: A Life (1997)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Austen helped care for her aging mother over many years, nursed family members during illness (documented in letters), and was deeply involved in the physical and emotional care of numerous nieces and nephews at Chawton Cottage. This represents consistent, sustained caregiving across the lifespan, though within a family context rather than a professional or broader community one."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)",
+            "Henry Austen, 'Biographical Notice of the Author' (1818)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cassandra Austen's letter to Fanny Knight (July 20, 1817) describes Jane's tranquility and composure in her final hours. She composed the humorous poem 'When Winchester Races' days before death, and continued writing Sanditon through advancing illness. Henry Austen's Biographical Notice records her serenity. Sources are family-based but near-contemporary and specific."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Tomalin, Jane Austen: A Life (1997)",
+            "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Austen was accomplished at needlework and sewing—she made and mended clothes regularly, and a quilt attributed to her survives at Chawton House. This represents genuine manual craft skill appropriate to her era and social position, though limited to textile work."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Austen traveled regularly between Steventon, Bath, London, Southampton, and Chawton, and was an avid walker who knew the Hampshire countryside intimately. Her letters reference specific routes and landmarks. This represents competent practical navigation for her era but nothing exceptional."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a member of a rural Hampshire rectory household, Austen would have had basic familiarity with food stores and processing. Her letters mention managing household food supplies (meat, poultry). Era-normalized for a gentlewoman of her period, this represents baseline competence without evidence of hands-on butchering or extensive processing skill."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Tomalin, Jane Austen: A Life (1997)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Austen demonstrated good followership within her family structure and modest leadership in household management at Chawton. She navigated professional relationships with publishers Murray and Egerton with appropriate deference and assertion. However, she never led or followed in high-stakes organizational contexts."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence exists of Austen designing or building physical structures of any kind. This domain is simply absent from her documented life."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence exists of Austen coordinating complex operations, leading under logistical constraints, or commanding groups. Her life did not involve military, political, or organizational planning of any significant scale."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Watt, The Rise of the Novel (1957)",
+            "Johnson, Jane Austen: Women, Politics, and the Novel (1988)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Austen produced six novels widely regarded as among the greatest in the English language (Pride and Prejudice, Emma, Persuasion, etc.), along with significant juvenilia, poetry, and letters of high literary quality. She is one of the strongest known exemplars of literary art in the historical record, having transformed the novel as a form."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Austen participated in home nursing of family members during illness, as was expected of women in her era and social class. Her letters reference remedies and care for the sick. This represents baseline competence in an era before professionalized medicine, but no evidence of exceptional medical skill or emergency response."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Copeland, Women Writing about Money: Women's Fiction in England, 1790-1820 (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Austen's novels demonstrate sophisticated understanding of financial matters—incomes, entails, investments, and economic calculations feature prominently (e.g., the precise income figures in Sense and Sensibility). Her letters show household account management. However, there is no evidence of mathematical reasoning, formal logic, or analytical problem-solving beyond practical domestic finance."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Le Faye (ed.), Jane Austen's Letters (4th ed., 2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Austen lived in rural settings throughout her life and her letters mention gardens, orchting, and food stores. At Chawton Cottage she managed household provisions including tea, sugar, and wine. This represents modest engagement with resource management appropriate to her social position, without evidence of agricultural cultivation or land management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Fergus, Jane Austen: A Literary Life (1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Austen navigated the early 19th-century publishing system with some sophistication—understanding commission vs. copyright sale, evaluating offers from Crosby, Egerton, and Murray, and managing financial risk on self-published works. This represents engagement with the technical systems of her professional domain, though limited in scope."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.22,
+    "general_competency_avg_0_10": 3.56,
+    "overall_normalized_equal_avg_0_10": 5.78,
+    "created_at": "2026-03-22T18:40:39.455Z",
+    "updated_at": "2026-03-22T18:40:39.478Z"
+  }
+}
+]

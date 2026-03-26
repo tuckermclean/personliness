@@ -1,0 +1,388 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 189,
+  "fields": {
+    "name": "Michelangelo",
+    "slug": "michelangelo",
+    "bio_short": "Supreme artistic genius across sculpture, painting, architecture, and poetry — arguably the most versatile visual artist in Western history. Exceptional physical endurance (carving stone at 88), hardship tolerance, and paradox integration (ascetic sensualist, republican papal servant, solitary yet passionate). Cultural-social impact is maximal: works still define Western civilization 500+ years later. Relational scores are the weakest dimension — never married, reluctant mentor, though capable of deep devotion (Cavalieri, Colonna, Urbino). Heinlein competency is strong in craft, construction, ",
+    "bio_long": "Michelangelo di Lodovico Buonarroti Simoni, known mononymously as Michelangelo, was an Italian sculptor, painter, architect, and poet of the High Renaissance. He was born in the Republic of Florence but was mostly active in Rome from his 30s onwards. His work was inspired by models from classical antiquity and had a lasting influence on Western art. Michelangelo's creative abilities and mastery in a range of artistic arenas define him as an archetypal Renaissance man, along with his rival and elder contemporary, Leonardo da Vinci. Given the sheer volume of surviving correspondence, sketches, and reminiscences, Michelangelo is one of the best-documented artists of the 16th century. He was lauded by contemporary biographers as the most accomplished artist of his era.",
+    "source_notes": "https://en.wikipedia.org/wiki/Michelangelo",
+    "image": "figures/330px-Michelangelo_Daniele_da_Volterra_28dettaglio29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Wallace, *Michelangelo: The Artist, the Man, and His Times* (2010)",
+              "Condivi, *Life of Michelangelo* (1553)",
+              "Vasari, *Lives of the Artists* (1568 ed.)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Navigated the politics of five popes (Julius II through Pius IV) across decades, playing patrons against each other to maintain artistic autonomy. Served as governor of Florentine fortifications during the 1529–30 siege, designing innovative angular bastions that anticipated later military engineering. However, his chronic inability to complete the Julius II tomb project (the 'tragedy of the tomb,' dragging from 1505 to 1545) and his brief panicked flight from Florence during the siege show strategic limitations."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Hartt, *Michelangelo: The Complete Sculpture, Painting, Architecture* (2003)",
+              "Ackerman, *The Architecture of Michelangelo* (1961)",
+              "Hibbard, *Michelangelo* (1974)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Created paradigm shifts in three distinct art forms: sculpture (the contrapposto dynamism of David, the emotional intensity of the late Pietàs), painting (the Sistine ceiling revolutionized figural composition and spatial illusionism), and architecture (the Laurentian Library vestibule's Mannerist inversions — blind windows, recessed columns — and St. Peter's dome design). Western art has a clear before/after attributable directly to his innovations. His terribilità figure style dominated European art for over a century."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Saslow, *The Poetry of Michelangelo: An Annotated Translation* (1991)",
+              "Nagel, *Michelangelo and the Reform of Art* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His poetry engages deeply with Neoplatonic philosophy (beauty as pathway to the divine, form imprisoned in matter), influenced by Marsilio Ficino and the Medici circle. His late spiritual sonnets grapple with sin, grace, and salvation in ways that parallel the theology of the spirituali movement around Vittoria Colonna and Cardinal Pole. These insights influenced subsequent aesthetic philosophy but did not constitute a systematic philosophical contribution beyond artistic circles."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Wallace, *Michelangelo at San Lorenzo* (1994)",
+              "Millon & Smyth, *Michelangelo Architect* (1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Served as chief architect (capomaestro) of St. Peter's Basilica from 1547 until his death in 1564, managing budgets, resisting corruption by contractors, and maintaining design integrity against political interference — the resulting structure has endured for centuries. Also administered the Medici Chapel and Laurentian Library construction in Florence. However, multiple projects remained unfinished (Julius tomb, San Lorenzo façade), suggesting administrative reach sometimes exceeded grasp."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Ramsden (1963)",
+              "Bull (1995)",
+              "Wallace (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Documented qualitatively distinct relational behavior across multiple modes: dutiful son (respectful letters to his father Lodovico), bossy elder brother (anxious, controlling letters to brothers Buonarroto and Giovan Simone), passionate lover/friend (poems and drawings for Cavalieri), intellectual companion (exchanges with Colonna), defiant yet ultimately deferential subordinate (to popes Julius II, Paul III), quasi-parental benefactor (to nephew Lionardo, servant Urbino), and professional adversary (feuds with Bramante, the Sangallo faction). His relational style, however, was consistently marked by anxiety, suspicion, and intensity across contexts, limiting the score."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Saslow, *The Poetry of Michelangelo* (1991)",
+              "Ramsden (1963)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Never married. His most significant intimate relationships were with Tommaso de' Cavalieri (from 1532 until Michelangelo's death — over 30 years; Cavalieri was present at his deathbed) and Vittoria Colonna (deep intellectual/spiritual friendship from c.1536 until her death in 1547). His poems to Cavalieri are among the most passionate love lyrics in Italian. However, evidence for full mutuality is limited — we know far more about Michelangelo's feelings than his partners' reciprocal emotional availability or support during crisis. Neither relationship constituted a conventional cohabiting partnership."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Ramsden (1963)",
+              "Wallace (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Had no children. Provided extensive paternalistic guidance to his nephew Lionardo through decades of correspondence (arranging his marriage, managing family property, financial advice), but this was often controlling and anxiety-laden. Gave his assistant Antonio Mini a generous set of drawings to help establish himself in France. However, he was famously reluctant to take pupils, jealous of his techniques, and did not develop a school of direct followers. There is limited evidence that his mentees developed genuine autonomy rather than dependence."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Hartt (2003)",
+              "Ackerman (1961)",
+              "Hibbard (1974)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Sistine Chapel ceiling, the David, the Pietà, and St. Peter's dome remain among the most recognized and influential works of art in human history, still operative across global civilizations over 500 years later. His figure style shaped Mannerism, the Baroque, and Neoclassicism. His architectural innovations influenced building design into the 20th century. The David remains a universal symbol of human beauty and courage. His impact extends far beyond Europe into worldwide cultural consciousness."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Vasari, *Lives* (1568)",
+              "Wittkower & Wittkower, *Born Under Saturn* (1963)",
+              "Gayford, *Michelangelo: His Epic Life* (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Michelangelo is the archetypal 'tortured genius' — the model for the modern conception of the artist as divinely inspired, solitary, suffering creator. Vasari's biography established him as the culmination of artistic progress, a framing that persists in popular culture. His name is a global synonym for artistic mastery, recognized across cultures far beyond Italy or Europe (e.g., the 'Michelangelo' of any given field). He helped define the 'Renaissance man' archetype alongside Leonardo."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Pevsner, *Academies of Art, Past and Present* (1940)",
+              "Ackerman (1961)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "His architectural legacy at St. Peter's Basilica (dome design completed after his death by Giacomo della Porta) constitutes a physical institution that has endured for over 450 years. The Accademia del Disegno, founded in Florence in 1563 partly in his honor with his encouragement, became the model for subsequent European art academies. His approach to artistic training influenced institutional art education for centuries. However, he did not found governance structures or organizations directly."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Vasari, *Lives* (1568)",
+              "Ackerman, *The Architecture of Michelangelo* (1961)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Successfully directed the St. Peter's construction project for 17 years (1547–64), maintaining artistic vision against powerful opposition from the Sangallo faction. Led Florentine fortification works during the siege. Inspired generations of artists through sheer force of example — the entire Mannerist movement was largely a response to his work. However, he preferred to work alone, was notoriously difficult to work with, and his leadership was exercised primarily through artistic authority rather than interpersonal mobilization of groups."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Ramsden, *The Letters of Michelangelo* (1963)",
+              "Saslow (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "His letters are rich with mundane concerns: complaints about food, health ailments (kidney stones, gout), family finances, disputes over property, and anxious instructions to his brothers about their businesses. His famous sonnet about painting the Sistine ceiling describes his physical misery in vivid, relatable terms ('My beard turns up to heaven... my brush, dripping down, makes a rich pavement of my face'). He engaged in manual labor — carving stone with his own hands — throughout his life, even at the height of his fame. However, evidence of humor, play with children, or sociability is limited."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Spike, *Michelangelo* (2010)",
+              "Wallace (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Held genuine republican sympathies and served the Florentine Republic during its last stand (1527–30). His design for the New Sacristy has been read as encoding republican symbolism. As capomaestro of St. Peter's, he resisted financial corruption by contractors. However, after the siege he accommodated Medici tyranny and served successive popes without documented instances of ruling against personal or group interest in favor of abstract principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Ramsden, *The Letters of Michelangelo* (1963)",
+              "Bull, *Michelangelo: A Biography* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Personally nursed his servant Francesco d'Amadore (Urbino) during his final illness and wrote movingly of his grief: 'He has left me so stricken and troubled that it would have been easier to have died with him' (letter, 1556). Provided sustained financial support to his father Lodovico and brothers for decades, documented in hundreds of letters, despite their frequent ingratitude. However, he was famously irascible, suspicious, and combative with associates (quarrels with Bramante, Sangallo's followers, assistants), and evidence of compassion toward adversaries is absent."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Vasari, *Lives* (1568)",
+              "Wallace, *Michelangelo: The Artist, the Man, and His Times* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Remained in Florence during the 1529–30 siege as governor of fortifications, enduring bombardment and political danger, though he briefly fled in a moment of panic before returning. Endured four years of extreme physical hardship painting the Sistine ceiling (1508–12) under constant pressure from Julius II. Continued productive work through decades of political upheaval, papal power changes, and the ongoing legal harassment of the della Rovere heirs over Julius's tomb. The brief flight from Florence prevents a score of 3."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Saslow, *The Poetry of Michelangelo* (1991)",
+              "Nagel, *Michelangelo and the Reform of Art* (2000)",
+              "Condivi, *Life of Michelangelo* (1553)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "His late spiritual poetry (1540s–1550s) documents explicit self-correction: 'My amorous fantasy, which made art my idol and sovereign, I now know well was laden with error' (Rime 285). This represents a genuine reversal from his earlier Neoplatonic aesthetic idealism toward penitent Christian humility, influenced by Vittoria Colonna and the spirituali circle. The dramatic stylistic shift in his late Pietàs (Florentine Pietà, Rondanini Pietà) embodies this inner transformation. The change is documented in his own primary writings, not merely attributed by hagiographers."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Ramsden (1963)",
+              "Wallace (2010)",
+              "Bull (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Functioned effectively across multiple qualitatively distinct forms of adversity: (1) physical hardship (years of grueling work on the Sistine ceiling, stone carving), (2) political danger (siege of Florence 1529–30, navigating papal power shifts), (3) personal bereavement (death of Vittoria Colonna in 1547 and his beloved servant Urbino in 1556, both of which devastated him as documented in letters), and (4) decades of legal and professional harassment from the della Rovere heirs over the unfinished Julius tomb. Through all of this, he remained productive, creating masterworks into his ninth decade."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Bull (1995)",
+              "Gayford (2013)",
+              "Wittkower & Wittkower, *Born Under Saturn* (1963)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Inhabited at least five seemingly contradictory roles without fragmenting: (1) creator of the most sensuous nudes in Western art and devout, ascetic Christian; (2) fierce Florentine republican who served popes for decades; (3) sculptor who claimed painting was not his art yet created the Sistine ceiling; (4) wealthy man who lived in deliberate poverty; (5) solitary misanthrope capable of passionate devotion (Cavalieri, Colonna, Urbino); (6) military engineer and supreme artist. These contradictions were not sequential phases but simultaneous aspects of a coherent, if complex, identity."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Vasari (1568)",
+              "Saslow (1991)",
+              "Gayford (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His late poetry (1540s–1560s) is saturated with meditation on death and spiritual preparation, written in his own voice rather than through hagiographic filters. He continued working on the Rondanini Pietà — itself a meditation on death and transcendence — until days before his death. According to Vasari and Daniele da Volterra, he met his death with relative composure, expressing his wish to leave 'his soul to God, his body to the earth, and his possessions to his nearest relations.' However, his poetry also reveals considerable anxiety and torment about death and salvation, suggesting his composure was hard-won rather than serene."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Vasari (1568)",
+              "Condivi (1553)",
+              "Wallace (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Painted the Sistine Chapel ceiling over four years (1508–12) on scaffolding in physically punishing positions, describing the toll in his famous sonnet. Personally carved the 17-foot David from a compromised marble block that two previous sculptors had abandoned. Made arduous trips to the Carrara marble quarries repeatedly, spending months in mountainous terrain selecting and overseeing extraction of massive stone blocks. Most remarkably, he was still physically carving the Rondanini Pietà just days before his death at age 88, demonstrating extraordinary physical capacity across his entire lifespan."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Saslow (1991)",
+              "Ramsden (1963)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His love poems to Tommaso de' Cavalieri express genuine aesthetic rapture at human beauty beyond any instrumental purpose. His poems to Vittoria Colonna show deep intellectual and emotional pleasure in their friendship. His letters occasionally reveal dry humor (e.g., self-deprecating comments about his appearance). He clearly experienced profound aesthetic pleasure in the beauty of marble and the human form. However, he was famously ascetic — eating little, sleeping on his work clothes, rarely socializing for pleasure — and much of his aesthetic engagement was intertwined with spiritual and artistic purpose."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.89,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Michelangelo di Lodovico Buonarroti Simoni",
+      "overall": {
+        "Core_5D_Avg": 6.89,
+        "Overall_Normalized_Equal_Avg": 6.67,
+        "General_Competency_Avg_10scale": 5.56
+      },
+      "summary": "Supreme artistic genius across sculpture, painting, architecture, and poetry — arguably the most versatile visual artist in Western history. Exceptional physical endurance (carving stone at 88), hardship tolerance, and paradox integration (ascetic sensualist, republican papal servant, solitary yet passionate). Cultural-social impact is maximal: works still define Western civilization 500+ years later. Relational scores are the weakest dimension — never married, reluctant mentor, though capable of deep devotion (Cavalieri, Colonna, Urbino). Heinlein competency is strong in craft, construction, art, and technical problem-solving but near-absent in food processing, culinary, and medical domains. A towering but lopsided human being.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.67,
+          "General_Competency_Avg_10scale": 5.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Condivi (1553)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of culinary skill. Michelangelo was famously indifferent to food, eating frugally and simply. Condivi reports he often ate only bread and wine while working. His letters mention food mainly as a health concern. There is no record of him preparing meals for himself or others."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Wallace (2010)",
+            "Vasari (1568)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Served as governor of Florentine fortifications during the 1529–30 siege, designing innovative military defenses. However, his contribution was engineering and design, not personal combat. There is no evidence of personal fighting skill. He reportedly carried a sword, as was common for men of his era, but there is no record of its use in combat."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Ramsden, *The Letters of Michelangelo* (1963)",
+            "Bull (1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Personally nursed his servant Urbino during his fatal illness in 1555–56, writing of his devastation afterward. Provided sustained financial and emotional (if anxious) care to his father and brothers for decades. His letters show genuine concern for family members' health and welfare, though often expressed through worry and complaint."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Saslow (1991)",
+            "Vasari (1568)",
+            "Gayford (2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "His late poetry shows sustained meditation on death and spiritual preparation, written in his own voice. He continued working purposefully on the Rondanini Pietà until days before his death at 88, and reportedly expressed his final wishes with composure. However, his letters and poems also reveal considerable anxiety, torment, and self-doubt throughout life — he was not a serene figure, and his composure in the face of mortality was hard-won rather than effortless."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Vasari (1568)",
+            "Condivi (1553)",
+            "Hartt (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Perhaps the supreme exemplar of manual craft in Western history. His marble carving achieved a level of precision and expressiveness unmatched before or since — the translucent drapery of the Pietà, the veins on David's hand. He prepared his own pigments and plaster for fresco, mixed his own materials, and personally carved stone throughout his 88-year life. He was apprenticed to Ghirlandaio's workshop and trained in the Medici sculpture garden from youth."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Wallace (2010)",
+            "Condivi (1553)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Made numerous trips between Florence and Rome (approximately 300 miles) and repeatedly traveled to the Carrara and Pietrasanta marble quarries in the rugged Apuan Alps, navigating mountainous terrain to locate and select specific marble blocks. These journeys required practical wayfinding in his era, though he traveled established routes rather than exploring unknown territory."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in surviving correspondence, biographies, or other records that Michelangelo had any skill or experience in butchering, animal husbandry, or food processing. His upbringing in a minor Florentine noble family and lifelong urban artistic career provide no context for this competency."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Vasari (1568)",
+            "Wallace (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Directed the St. Peter's construction project for 17 years, commanding workers and resisting the Sangallo faction's opposition. Led fortification works during the Florence siege. Served under five popes, demonstrating capacity for followership though he was famously contentious — his confrontations with Julius II are legendary. He could both command and submit, though his submission was always grudging."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Ackerman, *The Architecture of Michelangelo* (1961)",
+            "Millon & Smyth (1988)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Designed and oversaw construction of St. Peter's dome — one of the greatest structural engineering achievements in architectural history (42-meter span). Designed the Laurentian Library, Medici Chapel, and Campidoglio in Rome. Designed the scaffolding system for the Sistine Chapel ceiling. His fortification designs for Florence showed innovative structural thinking. These are enduring physical structures of the highest quality."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Wallace (2010)",
+            "Ackerman (1961)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Designed innovative angular fortifications for Florence during the 1529–30 siege as governor of fortifications. Managed the St. Peter's Basilica project for 17 years, coordinating workers, budgets, and design against powerful opposition. Coordinated the complex logistics of marble quarrying at Carrara and Pietrasanta for multiple simultaneous commissions."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Hartt (2003)",
+            "Saslow (1991)",
+            "Hibbard (1974)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Created the Pietà, David, Sistine Chapel ceiling, Last Judgment, and approximately 300 surviving poems of genuine literary merit. Excelled at the highest level in four distinct art forms: sculpture, painting, architecture, and poetry. He is widely regarded as one of the greatest artists in human history and perhaps the most versatile visual artist ever."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Condivi (1553)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of medical knowledge or emergency response skills. His anatomical knowledge (from dissecting cadavers at Santo Spirito in the 1490s) was applied to art, not medicine. When Urbino fell ill, Michelangelo nursed him but there is no evidence of medical competence beyond basic caregiving."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Ackerman (1961)",
+            "Millon & Smyth (1988)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "His architectural work required substantial practical geometry and structural calculation — the St. Peter's dome is a sophisticated engineering achievement requiring understanding of load distribution and structural forces. His fortification designs required ballistic calculation. However, unlike Leonardo, he was not known for mathematical or scientific investigation beyond practical application, and his approach was more intuitive than systematic."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Ramsden (1963)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Purchased and managed farms for his family, making decisions about agricultural property documented in his letters to his nephew Lionardo and brothers. Managed marble quarrying operations at Carrara and Pietrasanta, which constituted resource extraction and management. However, these were investment and managerial activities, not hands-on agricultural work."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Ackerman (1961)",
+            "Wallace (2010)",
+            "Hibbard (1974)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Solved extraordinary technical challenges at the cutting edge of his era: devised the scaffolding system for the Sistine ceiling, developed fresco techniques to prevent mold problems that plagued the early ceiling sections, engineered the structural design of St. Peter's dome, carved the David from a shallow, previously damaged marble block that other sculptors had rejected, and designed the innovative Laurentian Library vestibule staircase. Each represents problem-solving with the most advanced techniques of his time."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.89,
+    "general_competency_avg_0_10": 5.56,
+    "overall_normalized_equal_avg_0_10": 6.67,
+    "created_at": "2026-03-22T21:59:01.060Z",
+    "updated_at": "2026-03-22T21:59:01.077Z"
+  }
+}
+]

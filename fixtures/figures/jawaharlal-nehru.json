@@ -1,0 +1,379 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 214,
+  "fields": {
+    "name": "Jawaharlal Nehru",
+    "slug": "jawaharlal-nehru",
+    "bio_short": "Nehru was a transformative nation-builder combining philosophical depth with political leadership. His greatest strengths were in institution-building, leadership across crisis and stability, ethical vision (secularism, non-alignment), and hardship tolerance forged through ~9 years of imprisonment. His relational life was uneven—deep parental investment via remarkable prison letters to Indira, but a complicated marriage to Kamala. The 1962 Sino-Indian War remains a major strategic blemish. His Heinlein profile reflects a primarily intellectual statesman—strong in leadership, writing, analysis,",
+    "bio_long": "Jawaharlal Nehru was an Indian anti-colonial nationalist, secular humanist, social democrat, and statesman who was a central figure in India during the middle of the 20th century. Nehru was a principal leader of the Indian nationalist movement in the 1930s and 1940s. Upon India's independence in 1947, he served as the country's first prime minister for 16 years. Nehru promoted parliamentary democracy, secularism, and science and technology during the 1950s, powerfully influencing India's arc as a modern nation. In international affairs, he steered India clear of the two blocs of the Cold War. A well-regarded author, he wrote books such as Letters from a Father to His Daughter (1929), An Autobiography (1936) and The Discovery of India (1946), that have been read around the world.",
+    "source_notes": "https://en.wikipedia.org/wiki/Jawaharlal_Nehru",
+    "image": "figures/330px-Jawaharlal_Nehru_1957_crop.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vols. 1-3 (1975-1984)",
+              "Neville Maxwell, India's China War (1970)",
+              "Judith Brown, Nehru: A Political Life (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nehru successfully navigated India's independence transition, co-founded the Non-Aligned Movement with Tito and Nasser to steer clear of Cold War blocs, and managed the integration of 500+ princely states. However, his 'Forward Policy' toward China culminated in the catastrophic 1962 Sino-Indian War defeat, where he ignored intelligence warnings for years—a major failure of adaptation. Without the 1962 counterexample, this would score 3; with it given full weight, the failure was so consequential that 2 is appropriate."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Judith Brown, Nehru: A Political Life (2003)",
+              "Srinath Raghavan, War and Peace in Modern India (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nehru co-created the Non-Aligned Movement, a genuinely novel category in international relations that offered a third path during the Cold War. His vision of building a secular democratic republic from a colonized, multi-religious, multi-lingual subcontinent was creatively ambitious. His economic planning drew on Soviet models and Fabian socialism rather than representing a wholly original paradigm, and many innovations were collaborative (NAM with Tito/Nasser, constitution with Ambedkar). Novel but not a sole-author paradigm shift."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Nehru, The Discovery of India (1946)",
+              "Benjamin Zachariah, Nehru (2004)",
+              "Shashi Tharoor, Nehru: The Invention of India (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nehru articulated a coherent philosophy of secular humanism, democratic socialism, and scientific temper that influenced post-colonial thinkers well beyond India. His Panchsheel (Five Principles of Peaceful Coexistence) was adopted as a framework by numerous nations. 'The Discovery of India' provided a philosophical narrative of Indian civilization that shaped post-colonial intellectual discourse globally. His vision of secularism in a deeply plural society remains a reference point in political theory across multiple traditions."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 3 (1984)",
+              "Francine Frankel, India's Political Economy 1947-2004 (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nehru established India's Planning Commission and Five-Year Plans, oversaw the creation of IITs, AIIMS, and atomic energy infrastructure, and consolidated parliamentary democracy. These systems endured well beyond his tenure. However, his License Raj created economic inefficiencies that persisted until 1991 liberalization, and the integration of princely states was primarily Sardar Patel's achievement. His administrative structures functioned but were bureaucratically cumbersome."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Judith Brown, Nehru: A Political Life (2003)",
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vols. 1-3 (1975-1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nehru occupied multiple relational modes with documented qualitative differences: as Gandhi's devoted follower (deferential even when disagreeing), as PM and party leader (authoritative), as tender father to Indira (nurturing through letters), as son to Motilal (mix of admiration and desire for independence), as adversary to Jinnah (principled opposition), as intimate friend to Edwina Mountbatten, and as international peer to Tito, Nasser, and Zhou Enlai. He demonstrated adaptability across at least six modes, though depth in some (especially spousal) was limited."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 1 (1975)",
+              "Alex von Tunzelmann, Indian Summer (2007)",
+              "Judith Brown, Nehru: A Political Life (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Nehru's marriage to Kamala Nehru (1916-1936) was strained. Kamala was marginalized by the Nehru family, and Jawaharlal was frequently absent due to political work and imprisonment. Their relationship deepened somewhat as Kamala became politically active and during her tuberculosis illness; Nehru was present at her death in Lausanne in 1936 and was deeply affected. However, multiple biographers document Kamala's loneliness and sense of neglect. His later close emotional relationship with Edwina Mountbatten shows capacity for intimacy but raises further questions about his earlier marital engagement."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Nehru, Letters from a Father to His Daughter (1929)",
+              "Nehru, Glimpses of World History (1934)",
+              "Katherine Frank, Indira: The Life of Indira Nehru Gandhi (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nehru's letters to his daughter Indira from prison are remarkable documents of parental mentoring—'Letters from a Father to His Daughter' (1929) and 'Glimpses of World History' (1934) were written specifically to educate and engage her intellectually. He fostered her political development and intellectual independence. Indira Gandhi became a formidable political leader, suggesting effective mentoring. He also mentored younger Congress leaders. However, his frequent absences due to imprisonment and political work limited direct parental presence during formative years."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Shashi Tharoor, Nehru: The Invention of India (2003)",
+              "Ramachandra Guha, India After Gandhi (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nehru's impact is clearly operative across multiple nations: India's secular democratic framework, the Non-Aligned Movement's influence on international relations (affecting 120+ member nations), post-colonial development models, and India's scientific infrastructure. His influence extends across the developing world. However, the 500-year criterion cannot be verified for a figure who died in 1964, though the trajectory of influence is substantial and growing as India's global importance increases."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Benjamin Zachariah, Nehru (2004)",
+              "Shashi Tharoor, Nehru: The Invention of India (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nehru embodies the archetype of the post-colonial nation-builder and the idealistic democratic statesman. He is recognized across the developing world as a symbol of anti-colonial self-determination and secular democratic governance. The 'Nehruvian' label remains a political shorthand internationally. However, his archetypal resonance is primarily within South Asia and the post-colonial world; he lacks the universal cross-cultural recognition of figures like Gandhi or the Buddha across very different civilizations."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 3 (1984)",
+              "Ramachandra Guha, India After Gandhi (2007)",
+              "Francine Frankel, India's Political Economy 1947-2004 (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nehru built or consolidated institutions that survived well beyond two generations: India's parliamentary democratic system (75+ years), the Indian Institutes of Technology (IITs, est. 1951+), the Planning Commission (1950-2014), the Atomic Energy Commission (1948-present), AIIMS (1956-present), and India's foreign policy framework of non-alignment. He was instrumental in establishing the institutional scaffolding of the Indian republic, including an independent judiciary and federal structure that endure today."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Judith Brown, Nehru: A Political Life (2003)",
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vols. 1-3 (1975-1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nehru led successfully across qualitatively different contexts: as a mass movement leader mobilizing millions during the independence struggle, as a political prisoner who maintained influence from jail, as parliamentary leader consolidating democracy in a newly independent nation of 350+ million, and as an international statesman co-founding the Non-Aligned Movement. He managed both crisis (partition, wars with Pakistan) and stability (16 years of democratic governance). His leadership spanned small Congress Working Committee deliberations and mass rallies of hundreds of thousands."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Nehru, Letters from a Father to His Daughter (1929)",
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 1 (1975)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nehru was famously aristocratic (Harrow, Cambridge, fine Achkan coats) and sometimes criticized as out of touch. However, he showed genuine engagement with ordinary life: his legendary affection for children (India celebrates Children's Day on his birthday), his gardening during prison years, his accessible writing style in letters to Indira about everyday natural phenomena, and his direct engagement with common people during mass political campaigns. His prison years involved mundane manual tasks including spinning on the charkha."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Reba Som, 'Jawaharlal Nehru and the Hindu Code,' Modern Asian Studies (1994)",
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 3 (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nehru pushed through the Hindu Code Bills reforming Hindu personal law—property rights for women, abolition of caste-based marriage restrictions—against fierce opposition from conservative Hindus within his own party and community, ruling against group interest. He supported Ambedkar's constitutional provisions for scheduled castes. However, his handling of Kashmir (detention of Sheikh Abdullah in 1953, manipulation of Article 370) and his reluctance to cede power within Congress present counterexamples to strict impartiality."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 2 (1979)",
+              "Yasmin Khan, The Great Partition (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "During the 1947 partition violence, Nehru personally entered riot-affected areas in Delhi to protect Muslim residents, directly confronting Hindu mobs at personal risk—a clear case of compassion toward an outgroup under immediate threat. He championed Hindu Code Bills to improve women's property and marriage rights against opposition from his own Hindu community. However, his compassion was sometimes more rhetorical than practical in addressing mass poverty."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Nehru, An Autobiography (1936)",
+              "Judith Brown, Nehru: A Political Life (2003)",
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 1 (1975)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nehru endured approximately 9 years of British imprisonment across multiple incarcerations (1921-1945), facing lathi charges and physical violence during protests. He continued productive intellectual and political work from prison, writing major books. During partition violence in 1947 he personally intervened in Delhi riots. He sustained his political commitment through decades of colonial repression, personal bereavement (wife's death in 1936), and the humiliation of the 1962 war. This constitutes sustained courage across multiple high-stakes situations."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vols. 2-3 (1979, 1984)",
+              "Ramachandra Guha, India After Gandhi (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nehru reversed his opposition to linguistic states after the Potti Sriramulu agitation and death (1952), accepting the States Reorganisation Commission's recommendations. He evolved from radical socialism in the 1930s to pragmatic mixed-economy governance. After the 1962 China war, he was visibly shaken and acknowledged the failure publicly, though his health rapidly declined. However, he was famously resistant to criticism on his China policy for years before the war, ignoring warnings from Sardar Patel and intelligence advisors. Indian historiography does not sanitize him, providing genuine evidence of both error and growth."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Nehru, An Autobiography (1936)",
+              "Judith Brown, Nehru: A Political Life (2003)",
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vols. 1-3 (1975-1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nehru functioned effectively across multiple qualitatively different forms of adversity: ~9 years of imprisonment with material deprivation and isolation; the death of his wife Kamala from tuberculosis in 1936 (personal bereavement); the trauma of partition in 1947 with its mass violence and displacement; and the national humiliation of the 1962 China war. Through each, he continued productive work—writing major books in prison, leading the nation through partition, and governing after 1962 despite visible anguish."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Judith Brown, Nehru: A Political Life (2003)",
+              "Benjamin Zachariah, Nehru (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nehru inhabited multiple seemingly contradictory roles: aristocrat and socialist, Western-educated intellectual and Indian nationalist, secularist leading a deeply religious nation, revolutionary agitator and constitutional democrat, internationalist and fierce nationalist. He maintained a broadly coherent public philosophy across these tensions. However, critics note genuine inconsistencies—his aristocratic lifestyle sat uneasily with socialist rhetoric, and his democratic ideals sometimes conflicted with centralizing tendencies within Congress. He held the contradictions but did not always fully resolve them."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 3 (1984)",
+              "Stanley Wolpert, Nehru: A Tryst with Destiny (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "After his stroke in January 1964, Nehru continued working despite declining health, refusing to step down and maintaining composure in his final months. His will and testament expressed philosophical reflection and equanimity about death, requesting that his ashes be scattered in the Ganga and across India's fields. He chose to remain in India rather than seek extensive treatment abroad. However, documentation of his composure in the very final moments is limited, and some accounts suggest he was distressed by his physical decline."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Nehru, An Autobiography (1936)",
+              "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 3 (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nehru endured approximately 9 years of imprisonment under harsh conditions across multiple decades (1920s-1940s), maintaining his health and productivity. He was known for physical fitness—practicing yoga, swimming regularly, and maintaining an active lifestyle. He conducted grueling political campaigns traversing India by train and road. He remained physically vigorous into his early 70s, continuing intense schedules until his stroke in January 1964. His endurance spanned multiple life stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Nehru, The Discovery of India (1946)",
+              "Shashi Tharoor, Nehru: The Invention of India (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nehru had a genuine, non-instrumental love of roses (his signature buttonhole rose was a personal aesthetic choice, not political symbolism), was an avid reader of literature and poetry, and appreciated architecture—commissioning Le Corbusier for Chandigarh reflected genuine aesthetic vision. His playful engagement with children was consistently noted by observers. His prose in 'The Discovery of India' reveals genuine delight in beauty, history, and ideas for their own sake, not merely didactic purposes."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.18,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Jawaharlal Nehru",
+      "overall": {
+        "Core_5D_Avg": 7.18,
+        "Overall_Normalized_Equal_Avg": 6.72,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Nehru was a transformative nation-builder combining philosophical depth with political leadership. His greatest strengths were in institution-building, leadership across crisis and stability, ethical vision (secularism, non-alignment), and hardship tolerance forged through ~9 years of imprisonment. His relational life was uneven—deep parental investment via remarkable prison letters to Indira, but a complicated marriage to Kamala. The 1962 Sino-Indian War remains a major strategic blemish. His Heinlein profile reflects a primarily intellectual statesman—strong in leadership, writing, analysis, and composure, but with limited practical/manual skills typical of his aristocratic background. Core 5D Avg: 7.18; Heinlein Avg: 4.44; Overall: 6.72.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal culinary skills. Nehru came from a wealthy family with household staff and continued to have domestic support throughout his life as a political leader and prime minister."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 2 (1979)",
+            "Yasmin Khan, The Great Partition (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nehru had no military training or combat experience. However, he displayed physical courage in dangerous situations—facing lathi charges during independence protests and personally confronting violent mobs during the 1947 partition riots in Delhi to protect Muslim residents. This represents raw physical courage under threat rather than combat skill per se."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Nehru, Letters from a Father to His Daughter (1929)",
+            "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 1 (1975)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Nehru's extensive letters to Indira from prison demonstrate sustained emotional caregiving across years of separation. He personally attended to his wife Kamala during her tuberculosis treatment in Europe. His well-documented warmth toward children was noted by many observers. He also provided emotional support to political colleagues during crises."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 3 (1984)",
+            "Stanley Wolpert, Nehru: A Tryst with Destiny (1996)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Nehru maintained dignity and continued functioning through multiple existential crises: his wife's death in 1936, the catastrophic partition violence of 1947, the national humiliation of the 1962 China war, and his own declining health after his 1964 stroke. His will expressed philosophical equanimity about death and requested his ashes be scattered across India. He continued governing with composure until days before his death, though the 1962 defeat visibly aged and shook him."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Nehru, An Autobiography (1936)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Nehru practiced spinning on the charkha (spinning wheel) following Gandhi's example, and engaged in gardening during his prison years. These represent basic manual skills acquired during the independence movement. No evidence of more advanced craft or repair abilities."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Nehru, An Autobiography (1936)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Nehru traveled extensively across India during political campaigns in challenging conditions—by train, car, and on foot through diverse terrain from Himalayan regions to southern India. He also traveled internationally. However, this was as a traveler and political leader, not as a navigator; he relied on organizers and infrastructure rather than personal wayfinding skills."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Judith Brown, Nehru: A Political Life (2003)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of personal skill in animal husbandry or food processing. Nehru's aristocratic Kashmiri Brahmin upbringing and Harrow/Cambridge education provide no context for such skills. He was vegetarian but this reflects dietary choice, not processing skill."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Judith Brown, Nehru: A Political Life (2003)",
+            "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vols. 1-3 (1975-1984)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Nehru demonstrated exceptional ability in both giving and taking orders. As PM for 16 years, he led the world's largest democracy through its formative period. Equally importantly, he demonstrated genuine followership under Gandhi—deferring to Gandhi's judgment on major decisions (e.g., the timing and framing of civil disobedience campaigns) even when he privately disagreed. He cooperated within Congress collective leadership structures and navigated international coalitions with Tito and Nasser as equals."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Nehru, An Autobiography (1936)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Nehru engaged in manual labor during his prison years, including basic construction-type tasks. He commissioned major construction projects (Chandigarh with Le Corbusier, Bhakra Nangal Dam) and had informed opinions on architecture and infrastructure design. However, personal hands-on construction skill is not documented beyond basic prison labor."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Neville Maxwell, India's China War (1970)",
+            "Sarvepalli Gopal, Jawaharlal Nehru: A Biography, vol. 3 (1984)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Nehru planned India's post-independence development through Five-Year Plans, coordinated the complex logistics of nation-building (refugee resettlement, princely state integration), and navigated Cold War diplomacy. His co-founding of the Non-Aligned Movement required sophisticated strategic coordination among diverse nations. However, the catastrophic failure of strategic planning in the 1962 China war—ignoring military advice and intelligence—prevents a score of 3."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Nehru, The Discovery of India (1946)",
+            "Nehru, An Autobiography (1936)",
+            "Shashi Tharoor, Nehru: The Invention of India (2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Nehru was a talented prose writer whose works achieved both literary quality and wide readership. 'The Discovery of India' is regarded as a significant work of literary non-fiction, combining history, philosophy, and personal reflection with elegant prose. 'An Autobiography' and 'Glimpses of World History' are substantial literary achievements. His speeches (notably the 'Tryst with Destiny' address) are considered masterpieces of political oratory."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal medical skills or emergency medical response capability. While Nehru dealt with health crises at the national level (establishing AIIMS, health policy), there is no documentation of personal medical competence."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Judith Brown, Nehru: A Political Life (2003)",
+            "Benjamin Zachariah, Nehru (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Nehru studied Natural Sciences at Trinity College, Cambridge (Second Class Honours), providing formal training in scientific and analytical reasoning. He applied analytical frameworks to economic planning through Five-Year Plans and championed scientific temper as a national value. His writings demonstrate systematic analytical thinking about historical and political problems, though he was not a mathematical specialist."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Francine Frankel, India's Political Economy 1947-2004 (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nehru promoted agricultural policy reform—land redistribution, community development programs, dam construction for irrigation (Bhakra Nangal, which he called 'temples of modern India')—but as a policymaker, not a practitioner. India faced serious food shortages during his tenure, requiring PL-480 grain imports from the U.S. He gardened during prison years but this represents hobby-level engagement."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Jahnavi Phalkey, Atomic State: Big Science in Twentieth-Century India (2013)",
+            "Benjamin Zachariah, Nehru (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Nehru championed India's engagement with cutting-edge technology of his era: the nuclear program under Homi Bhabha, the space research program (precursor to ISRO), and heavy industrialization (steel plants, hydroelectric dams). His Cambridge science education gave him genuine understanding of technological systems. He personally engaged with scientists and engineers, establishing institutions (IITs, national laboratories) that became centers of technical excellence."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.18,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 6.72,
+    "created_at": "2026-03-22T23:17:14.238Z",
+    "updated_at": "2026-03-22T23:17:14.261Z"
+  }
+}
+]

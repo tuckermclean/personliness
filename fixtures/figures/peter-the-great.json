@@ -1,0 +1,373 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 207,
+  "fields": {
+    "name": "Peter the Great",
+    "slug": "peter-the-great",
+    "bio_short": "A titanic modernizer and state-builder whose cognitive and cultural-social impact ranks among history's highest, offset by severe moral-affective and relational deficits. Peter's willingness to work with his hands as Tsar and his paradigm-shifting transformation of Russia into a European great power define his legacy. His brutality toward his own son, autocratic cruelty, and relational dysfunction represent deep failures of personhood. Heinlein-competency breadth is above average, anchored by exceptional manual craft, strategic command, technical problem-solving, and a rare willingness to both",
+    "bio_long": "Peter I was the Tsar of all Russia from 1682 and the first Emperor of Russia from 1721 until his death in 1725. He reigned jointly with his half-brother Ivan V until 1696. Peter, as an autocrat, organized a well-ordered police state.",
+    "source_notes": "https://en.wikipedia.org/wiki/Peter_the_Great",
+    "image": "figures/330px-Incon_9cSegiH.-M._Nattier2C_Portrait_de_Pierre_Ier_28musC3A9e_de_lE28099Ermitage29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Hughes, *Russia in the Age of Peter the Great* (1998)",
+              "Massie, *Peter the Great: His Life and World* (1980)",
+              "Bushkovitch, *Peter the Great: The Struggle for Power, 1671–1725* (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "After the catastrophic defeat at Narva (1700), Peter completely rebuilt his army, reformed military training and logistics, adopted scorched-earth tactics against Charles XII, and ultimately won the decisive Battle of Poltava (1709). He adapted again after the Pruth disaster (1711), negotiating retreat rather than destruction. The 21-year Great Northern War showcases repeated adaptation when initial plans failed."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Cracraft, *The Petrine Revolution in Russian Culture* (2004)",
+              "Hughes, *Russia in the Age of Peter the Great* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Peter produced a demonstrable paradigm shift in Russian civilization: creating a navy from nothing, building St. Petersburg as a planned European capital on swampland, introducing the civil alphabet reform, founding Russia's first newspaper (Vedomosti, 1703), and establishing the Academy of Sciences (chartered 1724). The before/after difference between Muscovite and Petrine Russia is one of history's most dramatic cultural transformations attributable to a single figure."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Cracraft, *The Church Reform of Peter the Great* (1971)",
+              "Hughes, *Russia in the Age of Peter the Great* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Peter's reforms were pragmatic rather than philosophically grounded. The Table of Ranks (1722) embodied meritocratic principles borrowed from Western European models, not original ethical reasoning. His Ecclesiastical Regulation (1721) subordinated the church to the state but reflected power consolidation rather than deep philosophical argument. No original ethical framework influenced thinkers beyond his context."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Hughes, *Russia in the Age of Peter the Great* (1998)",
+              "Anisimov, *The Reforms of Peter the Great: Progress Through Coercion in Russia* (1993)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Peter created durable administrative systems: the governing Senate (1711), the collegiate system of ministries modeled on Swedish practice, guberniya provincial administration, the Holy Synod (1721), and the Table of Ranks (1722). The Table of Ranks persisted until 1917, the Synod governed the Russian church for nearly two centuries, and the Senate endured as a governing institution. These systems functioned well beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Hughes, *Russia in the Age of Peter the Great* (1998)",
+              "Massie, *Peter the Great: His Life and World* (1980)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Peter operated across multiple relational modes: sovereign (autocratic rule), subordinate (working under Dutch master shipwrights incognito), intimate partner (Catherine), friend (close bond with Lefort, Menshikov), adversary (Charles XII, Ottoman Sultan), mentor (various protégés), and parent (though poorly). He showed different behavioral registers across these modes — jovial with friends, ruthless with enemies, tender in letters to Catherine. This demonstrates at least five distinct relational modes, though quality was uneven."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Hughes, *Russia in the Age of Peter the Great* (1998)",
+              "Massie, *Peter the Great: His Life and World* (1980)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Peter's first marriage to Eudoxia Lopukhina was unhappy; he forcibly confined her to a convent (1698). His second marriage to Catherine (later Catherine I) showed genuine affection — their surviving correspondence reveals warmth and mutual attachment, and he elevated her to co-ruler (crowned Empress 1724). However, there were infidelities on both sides, and Peter had Catherine's alleged lover Willem Mons executed (1724). The pattern is episodic warmth mixed with domination and violence."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Bushkovitch, *Peter the Great: The Struggle for Power* (2001)",
+              "Massie, *Peter the Great: His Life and World* (1980)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Peter mentored capable subordinates (Menshikov, Apraksin, Bruce) who developed real competence and operated with some autonomy. However, the catastrophic counterexample of his son Alexei — tortured under Peter's authority, dying in custody (1718) — represents an extreme parental failure that dominates this assessment. Without the Alexei case, the score might reach 2 for developing capable subordinates; with it given full weight, the score cannot exceed 1 given the moral stakes of a parent causing a child's death."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Riasanovsky, *The Image of Peter the Great in Russian History and Thought* (1985)",
+              "Cracraft, *The Petrine Revolution in Russian Culture* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Peter's transformation of Russia into a European great power reshaped the European balance of power permanently, directly enabling Russia's roles in the Napoleonic Wars, World Wars, and Cold War. St. Petersburg remains a major global city. Russia's European orientation, military-industrial complex, and great-power identity trace directly to Petrine reforms. While only ~300 years have elapsed, the effects span multiple civilizations and show no signs of diminishing, meeting the spirit of the 500-year threshold."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Riasanovsky, *The Image of Peter the Great in Russian History and Thought* (1985)",
+              "Wortman, *Scenarios of Power: Myth and Ceremony in Russian Monarchy* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Peter is the archetypal 'modernizing autocrat' — the ruler who drags a reluctant nation into modernity by force of will. This archetype resonates across cultures: Atatürk, Meiji-era Japan, and other modernizers are frequently compared to Peter. However, his cross-cultural recognition as a symbol is less universal than figures like Alexander the Great, Caesar, or Napoleon. He is primarily iconic within Russian/European cultural frameworks."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Hughes, *Russia in the Age of Peter the Great* (1998)",
+              "Anisimov, *The Reforms of Peter the Great* (1993)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Peter built institutions with extraordinary longevity: the Russian Imperial Navy (founded 1696, continuous successor institutions to present), the governing Senate (1711–1917), the Holy Synod (1721–1917), the Table of Ranks (1722–1917), the Academy of Sciences (1724–present), and St. Petersburg as the imperial capital (1712–1918). Nearly all survived at least two centuries, well beyond two generations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Hughes, *Russia in the Age of Peter the Great* (1998)",
+              "Massie, *Peter the Great: His Life and World* (1980)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Peter successfully led in qualitatively different contexts: crisis leadership during the Streltsy revolts and the Great Northern War, stable governance during peacetime reforms, small-group leadership working incognito among Dutch shipwrights during the Grand Embassy (1697–98), and large-scale command of the Russian state and its military. He inspired extraordinary loyalty among his inner circle (Menshikov, Apraksin, Sheremetev) while commanding the largest territorial state in the world."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Massie, *Peter the Great: His Life and World* (1980)",
+              "Hughes, *Russia in the Age of Peter the Great* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Peter is among the strongest exemplars of a powerful figure maintaining connection to ordinary life. He personally worked as a shipwright in the Zaandam and Deptford shipyards (1697–98), practiced carpentry throughout his reign, famously extracted teeth from courtiers as a personal hobby, drank and socialized with common soldiers, preferred simple food, and engaged in manual labor even as Emperor. This engagement was lifelong and genuine — not occasional or merely symbolic."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Anisimov, *The Reforms of Peter the Great* (1993)",
+              "Bushkovitch, *Peter the Great: The Struggle for Power* (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "The Table of Ranks (1722) introduced meritocratic advancement regardless of birth, representing a principled structural reform. However, Peter's rule was fundamentally autocratic and often arbitrary. He tortured and killed his own son Alexei (1718) on charges of treason with dubious process. He imposed brutal punishments without consistent legal standards. There are few documented cases of Peter ruling against his own interest in favor of abstract principle; his reforms served state power rather than impartial justice."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Massie, *Peter the Great: His Life and World* (1980)",
+              "Bushkovitch, *Peter the Great: The Struggle for Power* (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Peter showed episodic personal warmth — genuine affection toward Catherine, camaraderie with common workers and soldiers, and occasional generosity to individuals of low station. However, severe counterexamples overwhelm these: he personally participated in the execution and torture of Streltsy rebels (1698), subjected his son Alexei to torture leading to his death (1718), and imposed forced labor that killed thousands building St. Petersburg. Without the counterexamples, the score would be 2; with them fully weighted, 1 is the maximum defensible score."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Massie, *Peter the Great: His Life and World* (1980)",
+              "Hughes, *Russia in the Age of Peter the Great* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Peter demonstrated sustained physical and moral courage across multiple high-stakes situations: surviving the Streltsy revolt as a child (1682), personally leading the Azov campaigns (1695–96), commanding at the Battle of Poltava (1709) where he was struck by musket fire (one ball hitting his hat, another his saddle), enduring the Pruth Campaign disaster (1711), and maintaining his reform program against fierce domestic opposition for decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Hughes, *Russia in the Age of Peter the Great* (1998)",
+              "Bushkovitch, *Peter the Great: The Struggle for Power* (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Peter showed strategic learning (rebuilding after Narva, adjusting war aims after the Pruth), but evidence of specifically moral self-correction — acknowledging ethical error and changing behavior — is thin. His brutality remained consistent from the Streltsy executions (1698) through Alexei's death (1718). The autocratic nature of his rule meant few dared to correct him. Some evolution in religious and cultural policy is visible, but this appears pragmatic rather than moral growth."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Bushkovitch, *Peter the Great: The Struggle for Power* (2001)",
+              "Massie, *Peter the Great: His Life and World* (1980)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Peter endured qualitatively different hardships: childhood trauma witnessing the murder of relatives during the 1682 Streltsy revolt, military adversity including the Narva defeat and Pruth disaster, and personal bereavement from the deaths of multiple children in infancy and the agonizing situation with Alexei. He continued governing effectively through all of these. His lifelong facial tic, likely from childhood trauma, suggests psychological cost but not functional impairment."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Riasanovsky, *The Image of Peter the Great in Russian History and Thought* (1985)",
+              "Hughes, *Russia in the Age of Peter the Great* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Peter coherently inhabited at least four contradictory roles: (1) absolute autocrat and manual laborer, (2) modernizing Westernizer and fierce Russian nationalist, (3) brutal enforcer (Streltsy executions, Alexei's death) and convivial drinking companion, (4) patron of arts/sciences and crude, physically domineering personality, (5) builder of a new civilization and destroyer of traditional Russian culture. He maintained these contradictions as a coherent identity throughout his life without fragmentation."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Massie, *Peter the Great: His Life and World* (1980)",
+              "Bushkovitch, *Peter the Great: The Struggle for Power* (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Peter continued governing through severe illness in his final months (1724–25), showing determination but not necessarily composure regarding death. The traditional story of him jumping into freezing water to save sailors shortly before his death is disputed by scholars. He famously failed to complete his succession decree, reportedly writing only 'Leave all to...' before losing consciousness — suggesting either denial or an inability to confront the finality of his situation rather than composed acceptance."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Massie, *Peter the Great: His Life and World* (1980)",
+              "Hughes, *Russia in the Age of Peter the Great* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Peter was exceptionally tall (~6'8\"/203cm) and physically powerful. He personally participated in military campaigns across decades (Azov 1695–96, Great Northern War 1700–21), worked in shipyards doing heavy manual labor, and maintained physical activity into his fifties. However, he suffered significant health problems in later life (urinary/kidney ailments, seizures), and his physical feats, while notable, do not constitute the exceptional defining level of a 3."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Hughes, *Russia in the Age of Peter the Great* (1998)",
+              "Massie, *Peter the Great: His Life and World* (1980)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Peter maintained the 'All-Joking, All-Drunken Synod' — a mock-religious drinking society — for decades, showing genuine enjoyment of revelry and satire. He founded the Kunstkamera (1714), reflecting genuine curiosity and aesthetic appreciation. He loved fireworks, sailing for pleasure, and elaborate celebrations. Some of this was instrumental (the mock-synod satirized the church), but much appears genuinely non-instrumental play, particularly his lifelong love of sailing and parties."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.75,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Peter the Great",
+      "overall": {
+        "Core_5D_Avg": 6.75,
+        "Overall_Normalized_Equal_Avg": 6.62,
+        "General_Competency_Avg_10scale": 6.0
+      },
+      "summary": "A titanic modernizer and state-builder whose cognitive and cultural-social impact ranks among history's highest, offset by severe moral-affective and relational deficits. Peter's willingness to work with his hands as Tsar and his paradigm-shifting transformation of Russia into a European great power define his legacy. His brutality toward his own son, autocratic cruelty, and relational dysfunction represent deep failures of personhood. Heinlein-competency breadth is above average, anchored by exceptional manual craft, strategic command, technical problem-solving, and a rare willingness to both lead and follow.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.8,
+          "General_Competency_Avg_10scale": 6.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Massie, *Peter the Great: His Life and World* (1980)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence documents Peter personally cooking meals. He was known to prefer simple Russian food and heavy drinking, but accounts describe his eating habits rather than cooking skill. Despite his engagement with many manual activities, cooking does not appear among his documented competencies."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Massie, *Peter the Great: His Life and World* (1980)",
+            "Hughes, *Russia in the Age of Peter the Great* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Peter participated personally in multiple military engagements: the Azov campaigns (1695–96), the Battle of Poltava (1709) where he led cavalry and was struck by enemy fire, and various naval engagements in the Baltic. He organized the bombardier company as a young man and understood military technology. He was competent in personal combat but was primarily a commander rather than a frontline warrior."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Massie, *Peter the Great: His Life and World* (1980)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Peter showed paternalistic concern for Russia's development and occasional personal warmth toward individuals, but personal caregiving was not a strength. His treatment of family members was often harsh (exile of first wife, death of son Alexei). Catherine reportedly provided more emotional care to Peter than he to her."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Massie, *Peter the Great: His Life and World* (1980)",
+            "Bushkovitch, *Peter the Great: The Struggle for Power* (2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Peter continued governing through severe illness in his final year, showing determination. However, the evidence for composed acceptance of mortality is limited. His failure to settle the succession — reportedly writing only 'Leave all to...' before losing consciousness — suggests avoidance or denial rather than composed preparation. His behavior during his final illness showed more stubborn activity than reflective composure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Massie, *Peter the Great: His Life and World* (1980)",
+            "Hughes, *Russia in the Age of Peter the Great* (1998)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Peter is among history's strongest exemplars of a ruler with genuine manual craft skills. He personally built ships, operated lathes, practiced carpentry, worked with ivory-turning, and created objects with his own hands throughout his life. His collection of personally crafted items survives in Russian museums. This was a defining and lifelong characteristic, not an occasional hobby."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Massie, *Peter the Great: His Life and World* (1980)",
+            "Hughes, *Russia in the Age of Peter the Great* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Peter was genuinely skilled in seamanship and navigation. He learned sailing on Lake Pleshcheyev in his youth, studied navigation formally in Holland and England during the Grand Embassy (1697–98), personally commanded ships in the Baltic fleet, and navigated the White Sea. He received a certificate of competence from Dutch shipwrights. For a head of state, his navigational skill was extraordinary."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Hughes, *Russia in the Age of Peter the Great* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Peter was an avid hunter, participating in hunts throughout his life, which in 18th-century Russia involved processing game. He also had an anatomical curiosity that led him to observe and perform dissections. However, no specific evidence documents skill in butchery or systematic food processing beyond aristocratic hunting norms."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Hughes, *Russia in the Age of Peter the Great* (1998)",
+            "Massie, *Peter the Great: His Life and World* (1980)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Peter demonstrated exceptional leadership as Tsar and commander-in-chief across decades. Crucially, he also demonstrated genuine followership: during the Grand Embassy he worked as an apprentice under Dutch master shipwrights at Zaandam and the East India Company yard, accepting instruction, correction, and direction from craftsmen while simultaneously being the most powerful man in Russia. This combination of supreme command and genuine deference to expertise is historically rare."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Massie, *Peter the Great: His Life and World* (1980)",
+            "Hughes, *Russia in the Age of Peter the Great* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Peter worked as a genuine shipwright in the Zaandam and Deptford shipyards, acquiring certified competence in ship construction. He participated in the design and planning of St. Petersburg, including fortifications and the Peter and Paul Fortress. His carpentry skills were documented by contemporaries as genuine rather than ceremonial."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Hughes, *Russia in the Age of Peter the Great* (1998)",
+            "Massie, *Peter the Great: His Life and World* (1980)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Peter planned and executed the 21-year Great Northern War, rebuilding after the Narva disaster, coordinating the construction of St. Petersburg while fighting a major war, managing logistics for campaigns across vast distances, and securing Baltic access. The simultaneous management of military campaigns and massive civil engineering projects demonstrates exceptional strategic planning."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Cracraft, *The Petrine Revolution in Russian Culture* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Peter was a patron of arts rather than a creator. He founded the Kunstkamera, imported European art and architecture, and sponsored the development of Russian secular culture. He did not personally produce notable works of art, music, or literature, though he contributed to the design vision for St. Petersburg's architecture and urban planning."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Massie, *Peter the Great: His Life and World* (1980)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Peter extracted teeth from courtiers (a well-documented personal hobby, though his victims were sometimes unwilling), observed anatomical dissections in Holland, and showed interest in surgery and medicine. He visited Frederick Ruysch's anatomical collection in Amsterdam. However, this reflects enthusiastic curiosity rather than systematic medical competence; his dental extractions were notorious for their lack of discrimination between healthy and diseased teeth."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Hughes, *Russia in the Age of Peter the Great* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Peter studied mathematics, geometry, and navigation formally during the Grand Embassy and applied mathematical reasoning to military engineering, shipbuilding, and administrative reform. He understood artillery calculations, navigation mathematics, and managed complex state finances for war. His analytical reasoning was applied and competent, though not at the level of a mathematician or scientist."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Anisimov, *The Reforms of Peter the Great* (1993)",
+            "Hughes, *Russia in the Age of Peter the Great* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Peter implemented mercantilist resource management policies, developed Russia's mining and manufacturing industries (Ural ironworks), reformed taxation to fund the war effort, and attempted agricultural improvements. He managed the enormous logistical challenge of supplying armies and building a new capital simultaneously. His resource management operated at state scale rather than personal farming, but was effective for his era."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Cracraft, *The Petrine Revolution in Russian Culture* (2004)",
+            "Hughes, *Russia in the Age of Peter the Great* (1998)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Peter engaged with the cutting-edge technology of his era at a hands-on level: shipbuilding (the most complex technology of the early 18th century), military engineering, canal construction (the Ladoga Canal, the Vyshniy Volochyok waterway), printing technology, and industrial manufacturing. He personally studied and understood these technical systems, visiting factories, shipyards, and workshops across Europe. His technological engagement was defining and exceptional for any head of state."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.75,
+    "general_competency_avg_0_10": 6.0,
+    "overall_normalized_equal_avg_0_10": 6.62,
+    "created_at": "2026-03-22T23:08:07.256Z",
+    "updated_at": "2026-03-22T23:08:07.285Z"
+  }
+}
+]

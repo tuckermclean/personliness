@@ -1,0 +1,373 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 193,
+  "fields": {
+    "name": "Dante Alighieri",
+    "slug": "dante-alighieri",
+    "bio_short": "Supreme literary genius whose Divine Comedy remains one of humanity's greatest artistic achievements. Exceptional in creative/philosophical insight and cultural legacy, but limited in practical competencies, political effectiveness, and documented relational depth. His 20-year exile forged extraordinary hardship tolerance and paradox integration—exile and prophet, sinner and judge, lover and theologian—yet his political career ended in failure and his spousal/parental life is barely documented. A towering but asymmetric figure: civilization-shaping in the artistic-intellectual domain, ordinary",
+    "bio_long": "Dante Alighieri, widely known mononymously as Dante, was an Italian poet, writer, and philosopher. His Divine Comedy, originally called Comedìa and later christened Divina by Giovanni Boccaccio, is widely considered one of the most important poems of the Middle Ages and the greatest literary work in the Italian language.",
+    "source_notes": "https://en.wikipedia.org/wiki/Dante_Alighieri",
+    "image": "figures/330px-Bargello_-_Kapelle_Fresko_2a.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)",
+              "Compagni, Dino. *Chronicle of Contemporary Events* (c. 1310–1312)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Dante's political career demonstrates limited strategic success. His embassy to Pope Boniface VIII in 1301 failed to prevent the Black Guelph coup, leading to his exile. He broke with fellow White Guelph exiles (described in Paradiso XVII) but never successfully organized his return. He did navigate patronage relationships in exile (Can Grande della Scala, Guido Novello da Polenta), showing adaptive survival skills, but no documented cases of successful strategic adaptation in high-stakes political or military contexts."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Ascoli, Albert Russell. *Dante and the Making of a Modern Author* (2008)",
+              "Hollander, Robert. *Dante: A Life in Works* (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Dante created a demonstrable paradigm shift in European literature. Before the *Commedia*, serious literary and philosophical work in Italy was written in Latin; afterward, the vernacular became a major literary vehicle. He invented the terza rima verse form, pioneered the prosimetrum in the vernacular (*Vita Nuova*), and *De Vulgari Eloquentia* was the first systematic defense of vernacular literary language. His work essentially established the Tuscan dialect as the foundation of standard Italian."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Barolini, Teodolinda. *The Undivine Comedy* (1992)",
+              "Auerbach, Erich. *Dante: Poet of the Secular World* (1929/1961)",
+              "Jacoff, Rachel, ed. *The Cambridge Companion to Dante* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The *Divine Comedy* presents a comprehensive moral cosmology integrating Aristotelian ethics, Thomistic theology, and Augustinian thought into a coherent vision of human destiny. *De Monarchia* articulated a sophisticated theory of the separation of temporal and spiritual authority that influenced later political philosophy (Marsilius of Padua, Renaissance humanism). His ethical framework influenced thinkers far beyond his own community or era—from Petrarch and Boccaccio through T.S. Eliot, Borges, and modern moral philosophy."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Compagni, Dino. *Chronicle of Contemporary Events* (c. 1310–1312)",
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Dante served as one of six priors of Florence for two months in June–August 1300, during which he supported the exile of leaders of both White and Black Guelph factions (including his friend Guido Cavalcanti) to restore civic peace. He also served on the Council of the Hundred and undertook diplomatic missions. However, his priorate was brief, his peace measures failed, and the political system he worked within collapsed into factional violence. No enduring administrative systems resulted."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)",
+              "Boccaccio, Giovanni. *Life of Dante* (c. 1360)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Dante demonstrably operated across multiple relational modes: political leader (prior), diplomatic envoy, dependent guest of patrons (subordinate to Can Grande), intimate friend (Guido Cavalcanti), student (of Brunetto Latini), spouse, parent, and fierce adversary (Boniface VIII, Black Guelphs). The *Commedia* further dramatizes distinct relational postures—the reverent student with Virgil, the humbled penitent with Beatrice, the compassionate peer with Casella. However, much of this evidence is literary rather than biographical, limiting confidence in behavioral distinctiveness across modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)",
+              "Barbi, Michele. *Life of Dante* (1933)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Dante married Gemma Donati circa 1285 and they had at least three children (Jacopo, Pietro, Antonia). However, Gemma is virtually absent from all of Dante's writings—he never mentions her by name in the *Commedia*, *Vita Nuova*, *Convivio*, or his letters. His great literary love was Beatrice Portinari. After his exile in 1302, he appears to have lived separately from Gemma for the remainder of his life. The near-total documentary silence on their relationship prevents any assessment of mutual respect or emotional availability."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Hollander, Robert. *Dante: A Life in Works* (2001)",
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Dante's sons Jacopo and Pietro both became important early commentators on the *Divine Comedy*, and his daughter Antonia became a nun (reportedly taking the name Beatrice). The sons' development into competent literary scholars suggests some intellectual influence. However, Dante was separated from his children during much of their upbringing by his exile. Specific documented evidence of his parenting practices, emotional engagement with his children, or mentoring behaviors is extremely thin."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Auerbach, Erich. *Dante: Poet of the Secular World* (1929/1961)",
+              "Havely, Nick. *Dante's British Public* (2014)",
+              "Cachey, Theodore J. et al., eds. *Dante Now* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The *Divine Comedy* has been continuously read, studied, translated, and imitated for 700 years across virtually all literate civilizations. It shaped the Italian language, influenced world literature from Chaucer and Milton to T.S. Eliot and Borges, and provided enduring frameworks for thinking about justice, sin, and redemption. Dante's political philosophy influenced the church-state debate for centuries. His impact clearly meets the threshold of effects operative 500+ years later across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Asín Palacios, Miguel. *Islam and the Divine Comedy* (1926)",
+              "Jacoff, Rachel, ed. *The Cambridge Companion to Dante* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Dante embodies the archetype of the exiled poet-prophet who speaks truth to power while wandering in poverty. His journey through Hell, Purgatory, and Paradise is one of the foundational narrative archetypes of Western civilization—the katabasis, the spiritual quest, and moral pilgrimage. He is recognized as a cultural symbol far beyond Italy: in Japan, Latin America, the English-speaking world, and the Islamic world (which has debated the *Commedia*'s relationship to the *Kitāb al-Miʿrāj*). Delacroix's *Barque of Dante*, Rodin's *Gates of Hell*, and countless adaptations testify to cross-cultural resonance."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Ascoli, Albert Russell. *Dante and the Making of a Modern Author* (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Dante did not found enduring organizations or formal institutions. His indirect institutional legacy is immense—*De Vulgari Eloquentia* and the *Commedia* effectively established the Italian literary language, influencing the later Accademia della Crusca (founded 1583) and Italian national identity. However, these are cultural legacies rather than institutions he designed or built. He did not create political, educational, or religious structures that survived him with recognizable continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)",
+              "Boccaccio, Giovanni. *Life of Dante* (c. 1360)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Dante exercised political leadership as prior of Florence and as a diplomatic envoy, and intellectual leadership within the *dolce stil novo* poetic circle alongside Guido Cavalcanti. In exile, he wielded enormous influence through his writings and his relationships with patrons like Can Grande della Scala, to whom he dedicated the Paradiso. He led in qualitatively different contexts (civic politics, literary circles, exile diplomacy), but his political leadership ended in failure, preventing a score of 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Boccaccio, Giovanni. *Life of Dante* (c. 1360)",
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Dante's personal writings reveal deeply human experiences—his trembling at the sight of Beatrice (*Vita Nuova*), his bitter description of eating others' bread and climbing others' stairs in exile (Paradiso XVII). However, specific documented engagement with mundane everyday activities (cooking, manual labor, humor with children) is largely absent from the record. His works are intensely intellectual and spiritual rather than domestic. Boccaccio's biography describes him as absorbed in study and solitary, further suggesting limited engagement with ordinary social life."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Pertile, Lino. 'Introduction to Inferno' in *The Cambridge Companion to Dante* (2007)",
+              "Compagni, Dino. *Chronicle of Contemporary Events*"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The entire architecture of the *Divine Comedy* is organized around divine justice—contrapasso, proportional punishment, and moral accountability. During his priorate in 1300, Dante voted to exile leaders of his own White Guelph faction alongside the Blacks, including his close friend Guido Cavalcanti, demonstrating willingness to rule against personal interest. *De Monarchia* argues for universal justice through a single temporal authority. However, his placement of personal enemies in Hell—sometimes for dubious theological reasons—undermines the impartiality claim. Without counterexample: 3. With it: 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Hawkins, Peter S. *Dante's Testaments* (1999)",
+              "Barolini, Teodolinda. *The Undivine Comedy* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The *Commedia* is filled with episodes of profound empathy—Dante the pilgrim weeps and faints at the suffering of Paolo and Francesca (Inferno V), shows compassion for Brunetto Latini in Hell (Inferno XV), and engages with deep emotional sensitivity with suffering souls throughout Purgatorio. However, a significant counterexample exists: he places personal and political enemies in Hell with evident satisfaction (Boniface VIII, Filippo Argenti, various Florentine rivals), using divine justice as a vehicle for personal vendetta. Without this counterexample: 3. With it: 2. The systematic intertwining of compassion and personal score-settling is too central to ignore."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Dante, Epistola XII (Letter rejecting Florentine amnesty, 1315)",
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Dante refused the humiliating amnesty offered in 1315 that would have required a public ceremony of guilt, writing a defiant letter rejecting it ('Can I not anywhere gaze upon the face of the sun and the stars?'). He continued writing politically dangerous works like *De Monarchia* while in exile under a death sentence. His sustained literary production throughout nearly 20 years of exile demonstrates remarkable moral and intellectual courage, though it is primarily moral rather than physical courage across multiple distinct high-stakes contexts."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Hollander, Robert. *Dante: A Life in Works* (2001)",
+              "Barbi, Michele. *Life of Dante* (1933)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The *Commedia* is explicitly structured as a narrative of moral growth—the pilgrim is corrected by Virgil, rebuked harshly by Beatrice in Purgatorio XXX–XXXI for his moral failings after her death, and confesses with tears. The trajectory from *Vita Nuova* (youthful love poetry) through *Convivio* (philosophical reorientation) to the *Commedia* (theological synthesis) shows genuine intellectual and moral evolution over decades. His break with the White Guelph exiles, whom he called 'wicked and foolish' (Paradiso XVII), reflects willingness to change alliances based on principle."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Dante, *Paradiso* XVII.58–60",
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)",
+              "Hollander, Robert. *Dante: A Life in Works* (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Dante endured exile from Florence from 1302 until his death in 1321—nearly 20 years of material deprivation and dependence on patrons ('how salt is the taste of another's bread, and how hard the path to descend and climb by another's stairs,' Paradiso XVII). He bore the death of Beatrice Portinari in 1290, which reshaped his entire intellectual and emotional life. He faced a death sentence if he returned to Florence, separation from his wife and children, and the loss of his property. Through all these qualitatively different adversities, he produced the greatest literary work of the Middle Ages."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Auerbach, Erich. *Dante: Poet of the Secular World* (1929/1961)",
+              "Barolini, Teodolinda. *The Undivine Comedy* (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Dante inhabited at least five seemingly contradictory roles without fragmenting into inconsistency: (1) passionate lover and austere theologian, (2) political activist and contemplative poet, (3) humble penitent sinner (Purgatorio XXX–XXXI) and harsh judge condemning enemies to Hell, (4) defender of papal spiritual authority and fierce critic of specific popes (Boniface VIII, Clement V), (5) rootless exile and foundational voice of Italian cultural identity, (6) champion of the vernacular and deeply learned Latinist. The *Commedia* itself integrates these contradictions into a unified vision."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Boccaccio, Giovanni. *Life of Dante* (c. 1360)",
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The *Divine Comedy* is a sustained and profound meditation on death, judgment, and the afterlife, written by a man under a death sentence who lived with mortal risk throughout his exile. Dante completed the *Paradiso* shortly before his death from malaria in September 1321, after returning from a diplomatic mission to Venice for his patron Guido Novello da Polenta—suggesting purposeful activity until the end. However, specific documentation of his composure in the face of his own imminent death is limited; Boccaccio's account is hagiographic and written decades later."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Santagata, Marco. *Dante: The Story of His Life* (2016)",
+              "Villani, Giovanni. *Nuova Cronica* (early 14th century)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Dante fought as a mounted soldier (feditori, the front-line cavalry) at the Battle of Campaldino against the Ghibellines in 1289, and likely participated in the siege of Caprona shortly after. These events required physical fitness and martial capability. His nearly 20 years of exile involved extensive travel across Italy on foot and horseback. However, documented physical feats across multiple life-stages are lacking; the military service was confined to his youth."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Dante, *Purgatorio* II (Casella episode)",
+              "Dante, *De Vulgari Eloquentia*",
+              "Barolini, Teodolinda. *Dante's Poets* (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Dante's works exhibit profound aesthetic sensibility—the encounter with the musician Casella in Purgatorio II, where the souls are so entranced by song that Cato must rebuke them; the elaborate descriptions of natural beauty in the Earthly Paradise (Purgatorio XXVIII); the luminous imagery of Paradiso; and the musicality of terza rima itself. His love of Provençal troubadour poetry is documented in *De Vulgari Eloquentia*. However, since nearly all evidence comes from literary works that simultaneously serve didactic and theological purposes, purely non-instrumental aesthetic engagement is difficult to isolate."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.36,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Dante Alighieri",
+      "overall": {
+        "Core_5D_Avg": 6.36,
+        "Overall_Normalized_Equal_Avg": 5.82,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "Supreme literary genius whose Divine Comedy remains one of humanity's greatest artistic achievements. Exceptional in creative/philosophical insight and cultural legacy, but limited in practical competencies, political effectiveness, and documented relational depth. His 20-year exile forged extraordinary hardship tolerance and paradox integration—exile and prophet, sinner and judge, lover and theologian—yet his political career ended in failure and his spousal/parental life is barely documented. A towering but asymmetric figure: civilization-shaping in the artistic-intellectual domain, ordinary or opaque in most others.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of culinary skill. Dante's famous description of eating others' bread in exile (Paradiso XVII) suggests dependence on hosts for meals rather than self-sufficiency in cooking."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Santagata, Marco. *Dante: The Story of His Life* (2016)",
+            "Villani, Giovanni. *Nuova Cronica*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Dante fought in the front-line cavalry (feditori) at the Battle of Campaldino in 1289, a major engagement against the Ghibelline forces of Arezzo, and likely participated in the siege of Caprona the same year. These demonstrate basic military competence and physical courage. However, military service was confined to his youth, with no evidence of combat after the 1280s."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Santagata, Marco. *Dante: The Story of His Life* (2016)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Dante was a father to at least three children and his literary works show deep emotional sensitivity to human suffering (the compassion scenes in Inferno and Purgatorio). However, specific documented acts of caregiving—nursing the sick, tending to dependents—are absent from the biographical record. His separation from his family during exile further limits evidence."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Dante, Epistola XII (1315)",
+            "Santagata, Marco. *Dante: The Story of His Life* (2016)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Dante lived under a death sentence for nearly 20 years and maintained extraordinary productivity and dignity throughout. He refused the humiliating amnesty of 1315 with composure, choosing continued exile over dishonor. He completed the *Paradiso*—a work of transcendent serenity—shortly before his death from malaria in 1321. His entire late literary career was conducted under existential threat, with remarkable self-control and purposefulness."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of skill in making, fixing, or adapting tools, machines, or physical systems. Dante's documented competencies were entirely in the intellectual and literary domain."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Santagata, Marco. *Dante: The Story of His Life* (2016)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "During his nearly 20 years of exile, Dante traveled extensively across Italy—to Verona, Ravenna, Lunigiana, Bologna, and possibly Paris. This required practical navigation across varied terrain in 13th–14th century conditions. The *Commedia* demonstrates extraordinary spatial and geographic awareness (detailed descriptions of Italian topography, celestial navigation references). However, no specific navigational feats are documented."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the biographical or literary record that Dante engaged in butchering, animal processing, or food resource handling. As a minor nobleman and later an exile dependent on aristocratic patrons, such activities would have been outside his documented experience."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Santagata, Marco. *Dante: The Story of His Life* (2016)",
+            "Dante, *Epistola XIII* (Letter to Can Grande)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Dante demonstrated leadership as prior of Florence and diplomatic envoy, giving orders and making consequential decisions (exiling faction leaders). He also showed capacity for followership as a dependent guest of patrons like Can Grande della Scala and Guido Novello da Polenta, maintaining intellectual independence while respecting hierarchical relationships. His ability to navigate both roles—commanding as prior and serving as a dependent exile—shows genuine versatility in this domain."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Dante engaged in building, construction, or physical fabrication of any kind. His documented activities were exclusively intellectual, political, and literary."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Compagni, Dino. *Chronicle of Contemporary Events* (c. 1310–1312)",
+            "Santagata, Marco. *Dante: The Story of His Life* (2016)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Dante served as prior of Florence (1300) and undertook diplomatic missions, including the fateful embassy to Boniface VIII in 1301. These required coordination and leadership under constraints. However, his political strategies consistently failed—the priorate's peace measures collapsed, the embassy failed, and his later attempts to organize White Guelph resistance came to nothing."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Auerbach, Erich. *Dante: Poet of the Secular World* (1929/1961)",
+            "Barolini, Teodolinda. *The Undivine Comedy* (1992)",
+            "Hollander, Robert. *Dante: A Life in Works* (2001)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Dante is among the greatest literary artists in human history. The *Divine Comedy* is universally regarded as one of the supreme achievements of world literature. He invented the terza rima verse form, pioneered the vernacular prosimetrum in *Vita Nuova*, wrote foundational literary criticism in *De Vulgari Eloquentia*, and composed lyric poetry of the highest order within the *dolce stil novo* tradition. His artistic output represents the absolute ceiling of cultural expression."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of medical knowledge or emergency response capability. While Dante shows awareness of medical concepts in the *Commedia* (references to contemporary medical theory), there is no indication he practiced any form of healing."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Cornish, Alison. *Reading Dante's Stars* (2000)",
+            "Jacoff, Rachel, ed. *The Cambridge Companion to Dante* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The *Commedia* is structured with extraordinary mathematical precision—100 cantos (1+33+33+33), pervasive numerological symbolism (3, 9, 10), and precisely calculated cosmological geography based on Ptolemaic astronomy. *Convivio* and the *Commedia* engage substantively with geometry and astronomy. *De Monarchia* displays rigorous Aristotelian-syllogistic reasoning. While not a mathematician per se, his analytical and logical capabilities were clearly above the norm for his era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural activity or resource management. Dante came from an urban Florentine family of minor nobility and spent his exile at aristocratic courts, not managing land or resources."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Cornish, Alison. *Reading Dante's Stars* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Dante engaged with the cutting-edge intellectual tools of his era—Aristotelian logic, Ptolemaic cosmology, Thomistic scholasticism—and applied them systematically to construct the elaborate cosmological architecture of the *Commedia*. However, this represents intellectual rather than practical-technical problem-solving. No evidence of engagement with the material technologies of his day (engineering, mechanics, construction)."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.36,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 5.82,
+    "created_at": "2026-03-22T22:03:16.661Z",
+    "updated_at": "2026-03-22T22:03:16.679Z"
+  }
+}
+]

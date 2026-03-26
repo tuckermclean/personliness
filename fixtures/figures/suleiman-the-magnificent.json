@@ -1,0 +1,374 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 179,
+  "fields": {
+    "name": "Suleiman the Magnificent",
+    "slug": "suleiman-the-magnificent",
+    "bio_short": "Suleiman I (r. 1520–1566) scores highest on Cultural-Social (9.33) and Embodied-Existential (8.67), reflecting his extraordinary institution-building, legacy, and physical endurance across 13 campaigns over 45 years. Cognitive scores are strong (8.33), anchored by exceptional strategic and legislative achievement (\"Kanuni\"). Moral-Affective (5.83) is dragged down by the executions of his sons Mustafa and Bayezid and friend Ibrahim Pasha, limiting compassion and moral growth scores. Relational (6.67) is mixed: unprecedented marital devotion to Hurrem alongside filicidal political calculus. Hein",
+    "bio_long": "Suleiman I, commonly known as Suleiman the Magnificent, was the Ottoman sultan from 1520 to 1566. The longest reign among the Ottoman sultans, his rule brought about a notable peak in the Ottoman Empire's economic, military and political power, and raised the number of the empire's subjects to at least 25 million people.",
+    "source_notes": "https://en.wikipedia.org/wiki/Suleiman_the_Magnificent",
+    "image": "figures/330px-EmperorSuleiman.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Imber, *The Ottoman Empire 1300–1650* (2002)",
+              "Finkel, *Osman's Dream: The Story of the Ottoman Empire* (2005)",
+              "Ágoston, *Guns for the Sultan: Military Power and the Weapons Industry in the Ottoman Empire* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Suleiman conducted 13 major campaigns across multiple theaters (Balkans, Hungary, Persia, Mediterranean) over 45 years, demonstrating sustained strategic adaptation. After the failed 1529 Vienna siege, he pivoted to consolidating Hungary and forging the unprecedented Franco-Ottoman alliance with Francis I (1536) against the Habsburgs. He transformed Ottoman naval power through his appointment of Hayreddin Barbarossa, winning the Battle of Preveza (1538) and securing Mediterranean dominance."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Necipoğlu, *The Age of Sinan: Architectural Culture in the Ottoman Empire* (2005)",
+              "Andrews, *The Age of Beloveds: Love and the Beloved in Early-Modern Ottoman and European Culture* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Suleiman's legal codification was innovative in systematically harmonizing kanun and sharia into a working legal framework, creating a 'before and after' in Ottoman governance. He was a prolific poet (pen name Muhibbi, diwan of 2,000+ poems) and trained goldsmith. He patronized Mimar Sinan, whose architectural innovations under Suleiman's patronage represent a paradigm shift in Islamic architecture. However, these creative achievements were more through patronage and systematization than wholly original paradigm-shifting invention by Suleiman personally."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "İnalcık, *The Ottoman Empire: The Classical Age 1300–1600* (1973)",
+              "Imber, *Ebu's-su'ud: The Islamic Legal Tradition* (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Known as 'Kanuni' (the Lawgiver), Suleiman oversaw a major harmonization of secular law (kanun) with sharia under Grand Mufti Ebussuud Efendi, articulating a principled framework for governing a multi-religious empire. His legal principles influenced Ottoman governance for centuries. However, he was not an original philosopher; his ethical contributions were enacted through legislation and patronage rather than systematic philosophical writing."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "İnalcık, *The Ottoman Empire: The Classical Age 1300–1600* (1973)",
+              "Imber, *The Ottoman Empire 1300–1650* (2002)",
+              "Barkey, *Empire of Difference: The Ottomans in Comparative Perspective* (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Suleiman's kanunname codified criminal law, land tenure (timar system), taxation, and the status of non-Muslim subjects, creating a legal architecture that endured for over three centuries until the Tanzimat reforms of the 1830s–1870s. He reformed provincial administration and the devshirme system. The Süleymaniye complex institutionalized education, charity, and healthcare in a single endowed structure. These systems functioned well beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Peirce, *The Imperial Harem* (1993)",
+              "İnalcık, *The Ottoman Empire: The Classical Age* (1973)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Suleiman demonstrated qualitatively distinct behavior across at least six relational modes: (1) spouse—tender love poetry and unprecedented legal marriage with Hurrem; (2) friend—intimate companionship with Ibrahim Pasha, including shared quarters in youth; (3) superior—formal but effective delegation to Grand Viziers; (4) adversary—diplomatic engagement with Charles V and Ferdinand I; (5) patron—personal aesthetic direction of Sinan's architectural projects; (6) parent—training sons in governance through provincial assignments; (7) military commander—leading soldiers on campaign for decades. His behavior was markedly different across these modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Peirce, *The Imperial Harem* (1993)",
+              "Clot, *Suleiman the Magnificent* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Suleiman's relationship with Hurrem Sultan (Roxelana) was unprecedented: he broke Ottoman tradition by legally marrying a concubine, freed her from slavery, and maintained a devoted partnership for over 30 years until her death in 1558. His love poetry expresses genuine emotional depth and availability. However, a serious counterexample exists: the relationship's political dimension—Hurrem's alleged role in the intrigue leading to Mustafa's execution (1553)—suggests the partnership enabled dynastic violence. Without this counterexample: score 3 (exceptional mutual devotion). With it: score 2 (deep partnership marred by political consequences)."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Peirce, *The Imperial Harem* (1993)",
+              "Finkel, *Osman's Dream* (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Suleiman trained his sons in governance through provincial appointments (standard Ottoman practice), and mentored Grand Viziers like Ibrahim Pasha and Sokollu Mehmed Pasha. However, he ordered the execution of his eldest son Mustafa (1553) and his son Bayezid and five grandchildren (1561). His surviving heir Selim II ('Selim the Sot') was not known for exceptional competence. While the Ottoman succession system institutionalized fratricide, Suleiman's choices resulted in the destruction of his most capable son and the elevation of his least capable one."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Finkel, *Osman's Dream* (2005)",
+              "Kafadar, *Between Two Worlds: The Construction of the Ottoman State* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Suleiman's legal codes shaped Ottoman governance until the 19th century. His reign defined the Ottoman 'classical age' referenced across Islamic, European, and Balkan civilizations. The Süleymaniye Mosque remains a defining landmark of Istanbul. His diplomatic innovations (Franco-Ottoman alliance, capitulations) shaped European-Ottoman relations for centuries. His impact is still clearly operative in Turkish national identity, Balkan historical memory, and Islamic legal/cultural history well over 500 years later."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Necdet Sakaoğlu, *Bu Mülkün Sultanları* (1999)",
+              "Finkel, *Osman's Dream* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Suleiman carries dual archetypal identities: 'the Magnificent' in European tradition (embodying splendor, power, and Oriental grandeur) and 'Kanuni' (the Lawgiver) in Islamic tradition (embodying just sovereignty). He functions as a cross-cultural archetype of the ideal Muslim ruler and the powerful Eastern sovereign. His image appears in European Renaissance art, Ottoman miniatures, and modern Turkish popular culture (e.g., the TV series 'Muhteşem Yüzyıl'), demonstrating recognition across multiple cultures and eras."
+          },
+          "Institution-Building": {
+            "citations": [
+              "İnalcık, *The Ottoman Empire: The Classical Age* (1973)",
+              "Necipoğlu, *The Age of Sinan* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Suleiman's kanunname legal system formed the backbone of Ottoman governance for over 300 years until the Tanzimat. The Süleymaniye complex (mosque, madrasas, hospital, imaret, hammam) functioned as an integrated educational-charitable institution for centuries. His administrative reforms to provincial governance and the devshirme system structured Ottoman imperial administration well beyond his lifetime, surviving many generations of successors."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Finkel, *Osman's Dream* (2005)",
+              "İnalcık, *The Ottoman Empire: The Classical Age* (1973)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Suleiman led successfully across qualitatively different contexts: military campaigns (13 major expeditions including Belgrade 1521, Rhodes 1522, Mohács 1526), administrative reform (comprehensive legal codification), cultural patronage (Golden Age of Ottoman arts under Sinan, poets, and scholars), and diplomacy (Franco-Ottoman alliance, capitulations). He managed both crisis situations (multi-front wars) and periods of stability (domestic reform), and led both small councils and an empire of 25+ million."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Andrews, *The Age of Beloveds* (2005)",
+              "Clot, *Suleiman the Magnificent* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Suleiman's prolific love poetry to Hurrem Sultan reveals genuine personal vulnerability and emotional engagement beyond his role as sovereign. He was trained in and practiced goldsmithing, a manual craft. His poetry (over 2,000 poems) engages with universal themes of love, loss, and mortality in accessible language. However, as an absolute monarch from youth, he lived in extraordinary isolation from ordinary daily life, and evidence of truly mundane engagement (cooking, manual labor, humor with common people) is sparse."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Imber, *Ebu's-su'ud: The Islamic Legal Tradition* (1997)",
+              "İnalcık, *The Ottoman Empire: The Classical Age* (1973)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His epithet 'Kanuni' (Lawgiver) reflects Ottoman recognition of his commitment to systematic justice. He extended legal protections to non-Muslim subjects through the millet system and reformed courts to reduce corruption. Ebussuud Efendi's legal opinions under Suleiman established precedents for fair treatment across confessional lines. However, the executions of Mustafa and Ibrahim suggest political expediency could override legal principle when dynastic survival was at stake, preventing a score of 3."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Finkel, *Osman's Dream* (2005)",
+              "Peirce, *The Imperial Harem: Women and Sovereignty in the Ottoman Empire* (1993)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Suleiman endowed numerous charitable institutions (imarets/soup kitchens, hospitals, schools) serving the poor including non-Muslims, demonstrating institutional compassion. However, serious counterexamples exist: he ordered the execution of his eldest son Mustafa (1553), his son Bayezid and Bayezid's five children (1561), and his intimate friend Grand Vizier Ibrahim Pasha (1536). Without these counterexamples the score would be 2; with them given full weight for their extreme moral stakes (filicide, betrayal of sworn friendship), the score is 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Finkel, *Osman's Dream* (2005)",
+              "Ágoston & Masters, *Encyclopedia of the Ottoman Empire* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Suleiman personally led 13 major military campaigns from the siege of Belgrade (1521, age 26) to the siege of Szigetvár (1566, age 71), where he died on campaign. He endured harsh conditions across Hungary, the Balkans, Persia, and North Africa over 45 years. In his final campaign, despite severe illness (likely gout and possibly dysentery), he insisted on accompanying the army rather than delegating command. This represents sustained courage across multiple high-stakes situations spanning nearly five decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Peirce, *The Imperial Harem* (1993)",
+              "Clot, *Suleiman the Magnificent* (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Suleiman's poetry after the execution of Prince Mustafa (1553) expresses deep grief and possible regret, suggesting awareness of moral cost. However, no documented behavioral reversal followed: he proceeded to allow the execution of Bayezid and his grandchildren in 1561. Ottoman court historiography tends to justify these acts rather than frame them as errors. No clear instance of Suleiman accepting correction or reversing a prior position in response to moral challenge is independently attested."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Peirce, *The Imperial Harem* (1993)",
+              "Clot, *Suleiman the Magnificent* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Suleiman endured multiple forms of adversity while maintaining effective governance: the personal grief of losing his beloved son Mustafa (whom he himself ordered executed), the death of Hurrem Sultan (1558), his own chronic illness (gout) in later decades, and the stress of Bayezid's rebellion (1559). He continued to govern and campaign through these afflictions. However, he never experienced material deprivation, being sultan from age 25, so the adversity types, while intense, are primarily bereavement and physical illness."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "İnalcık, *The Ottoman Empire: The Classical Age* (1973)",
+              "Andrews, *The Age of Beloveds* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Suleiman successfully inhabited at least five seemingly contradictory roles: (1) ruthless military conqueror (13 campaigns, siege warfare), (2) systematic lawgiver devoted to justice ('Kanuni'), (3) tender romantic poet expressing vulnerability to Hurrem, (4) patron of delicate arts and architecture, and (5) a father who executed his own sons for political necessity while grieving them in verse. He maintained these roles simultaneously without collapsing into incoherence, integrating warrior severity with artistic sensitivity and legal principalism."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Finkel, *Osman's Dream* (2005)",
+              "Clot, *Suleiman the Magnificent* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "At age 71, gravely ill, Suleiman insisted on leading the Szigetvár campaign (1566), apparently aware he might not return. He died during the siege, and Ottoman sources suggest he faced his decline with composure. His later poetry reflects on transience and mortality. However, the specific documentation of his composure at the moment of death is filtered through Ottoman court chronicles (his death was concealed from the army for weeks by Sokollu Mehmed Pasha), limiting certainty about his personal experience."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Finkel, *Osman's Dream* (2005)",
+              "Ágoston & Masters, *Encyclopedia of the Ottoman Empire* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Suleiman personally led military campaigns spanning 45 years, from Belgrade (1521, age 26) through Szigetvár (1566, age 71). These campaigns involved arduous marches across hundreds of miles through the Balkans, Hungary, and Persia in all seasons. He maintained physical participation across multiple life-stages; even in his final years, suffering from gout and illness, he insisted on accompanying the army on campaign to Szigetvár rather than remaining in Istanbul."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Andrews, *The Age of Beloveds* (2005)",
+              "Necipoğlu, *The Age of Sinan* (2005)",
+              "Clot, *Suleiman the Magnificent* (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Suleiman's diwan of over 2,000 poems under the pen name Muhibbi demonstrates sustained, deeply personal aesthetic engagement—his love poetry to Hurrem is not instrumental but expressive of genuine emotion. He practiced goldsmithing as a personal craft. He was an active patron of architecture (Sinan), calligraphy, illumination, and literature, with documented personal aesthetic preferences that shaped commissions. His engagement with beauty appears intrinsic rather than merely political."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 6.67,
+          "Core_5D_Avg": 7.77,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Suleiman the Magnificent",
+      "overall": {
+        "Core_5D_Avg": 7.77,
+        "Overall_Normalized_Equal_Avg": 7.25,
+        "General_Competency_Avg_10scale": 4.67
+      },
+      "summary": "Suleiman I (r. 1520–1566) scores highest on Cultural-Social (9.33) and Embodied-Existential (8.67), reflecting his extraordinary institution-building, legacy, and physical endurance across 13 campaigns over 45 years. Cognitive scores are strong (8.33), anchored by exceptional strategic and legislative achievement (\"Kanuni\"). Moral-Affective (5.83) is dragged down by the executions of his sons Mustafa and Bayezid and friend Ibrahim Pasha, limiting compassion and moral growth scores. Relational (6.67) is mixed: unprecedented marital devotion to Hurrem alongside filicidal political calculus. Heinlein competency (4.67) is moderate—exceptional in command and leadership but limited in practical manual/domestic skills typical of absolute monarchs. Core 5D Avg: 7.77. Overall: 7.25.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.4,
+          "General_Competency_Avg_10scale": 4.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Suleiman personally cooked or prepared food. Ottoman sultans were served by the elaborate imperial kitchen (matbah-ı amire) staffed by hundreds. Culinary practice was entirely outside his documented activities."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Ágoston, *Guns for the Sultan* (2005)",
+            "Finkel, *Osman's Dream* (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Suleiman personally accompanied 13 major military campaigns over 45 years, including sieges at Belgrade, Rhodes, and Szigetvár. While as sultan he would not typically engage in hand-to-hand combat, Ottoman princely education included weapons training (archery, swordsmanship, horsemanship). His physical presence at sieges and on campaign marches exposed him to genuine danger. Era-normalized for a sovereign who personally led from the field rather than delegating, this represents strong martial engagement."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Necipoğlu, *The Age of Sinan* (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Suleiman endowed extensive charitable infrastructure—imarets (soup kitchens), hospitals, and hostels for travelers—within the Süleymaniye complex and elsewhere, providing institutional caregiving for thousands. However, evidence of personal, hands-on caregiving (nursing the sick, comforting individuals) is minimal; his caregiving was expressed through policy and endowment rather than direct action."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Finkel, *Osman's Dream* (2005)",
+            "Clot, *Suleiman the Magnificent* (1992)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Suleiman marched to Szigetvár at age 71 while gravely ill, apparently aware this might be his final campaign. His later poetry reflects philosophical engagement with mortality and transience. He endured the deaths and executions of multiple children while continuing to govern. Ottoman sources describe dignified comportment in his final years. However, detailed accounts of his final moments are mediated by court chroniclers (his death was concealed by Sokollu Mehmed Pasha), limiting direct evidence."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Clot, *Suleiman the Magnificent* (1992)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Suleiman was trained in goldsmithing as part of the Ottoman princely education system, which required princes to learn a manual trade. He reportedly continued to practice this craft. This represents genuine manual skill, but evidence of broader repair or craft abilities beyond goldsmithing is absent."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Finkel, *Osman's Dream* (2005)",
+            "Ágoston, *Guns for the Sultan* (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Suleiman personally led armies across vast and varied terrain—from the Balkans through Hungary to the walls of Vienna, and eastward through Anatolia to Baghdad and Tabriz. These campaigns required understanding of geography, terrain, river crossings (notably the Danube and Drava), and seasonal timing. His logistical planning for moving armies of 100,000+ across hundreds of miles demonstrates high-level era-normalized wayfinding, even though detailed route planning was delegated to specialists."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Suleiman personally butchered, processed, or handled animals or food resources. As sultan from age 25, he was served by extensive palace staff. Ottoman court protocol placed such activities far outside the sultan's role."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "İnalcık, *The Ottoman Empire: The Classical Age* (1973)",
+            "Imber, *The Ottoman Empire 1300–1650* (2002)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Suleiman's leadership spanned military command, legal reform, diplomatic initiative, and cultural patronage across 46 years. He also demonstrated followership: he deferred to the juridical authority of Grand Mufti Ebussuud Efendi on sharia matters, relied on and empowered capable Grand Viziers (Ibrahim Pasha, Rüstem Pasha, Sokollu Mehmed Pasha), and worked within the established Ottoman consultative traditions (divan) rather than ruling by pure autocratic fiat."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Necipoğlu, *The Age of Sinan* (2005)",
+            "Clot, *Suleiman the Magnificent* (1992)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Suleiman was trained as a goldsmith in his youth (standard princely education in the Ottoman court) and reportedly practiced the craft. He commissioned monumental construction projects, most notably the Süleymaniye complex designed by Mimar Sinan, demonstrating understanding of construction goals, but the design and building were delegated to Sinan and his team. Personal fabrication skill is limited to goldsmithing."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Ágoston, *Guns for the Sultan* (2005)",
+            "Finkel, *Osman's Dream* (2005)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Suleiman planned and commanded 13 major military campaigns across multiple theaters over 45 years: the conquest of Belgrade (1521), Rhodes (1522), the decisive Battle of Mohács (1526), the siege of Vienna (1529), the Iraq campaign capturing Baghdad (1534–35), and the Mediterranean naval campaigns culminating in Preveza (1538). He coordinated simultaneous land and naval operations and adapted strategy across changing conditions, including pivoting after Vienna's failure to consolidate the Hungarian frontier."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Andrews, *The Age of Beloveds* (2005)",
+            "İnalcık, *The Ottoman Empire: The Classical Age* (1973)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Under the pen name Muhibbi, Suleiman composed over 2,000 poems in Ottoman Turkish, forming one of the larger divans of the era. His ghazals (love poems) to Hurrem Sultan are considered genuine literary achievements within the Ottoman lyric tradition. He also practiced goldsmithing. His artistic output was personal and sustained, not merely ceremonial, placing him well above dilettante level for a sovereign."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal medical skill or emergency medical intervention by Suleiman. He established hospitals as part of his charitable complexes, but medical practice was delegated to court physicians and institutional staff."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "İnalcık, *The Ottoman Empire: The Classical Age* (1973)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Suleiman oversaw the fiscal administration of a vast empire, including complex tax systems (the timar system, customs duties, poll taxes). His legal codification required analytical organization of diverse legal precedents into coherent categories. However, there is no specific evidence of personal mathematical or analytical achievement beyond what competent imperial oversight required. Ottoman princely education included arithmetic and geometry, but no exceptional aptitude is documented."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "İnalcık, *The Ottoman Empire: The Classical Age* (1973)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Suleiman's kanunname included detailed regulations on agricultural taxation, land tenure, and the timar system, which structured Ottoman agricultural production and resource distribution for centuries. However, this was administrative-legislative management rather than personal agricultural knowledge or practice."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Ágoston, *Guns for the Sultan* (2005)",
+            "Imber, *The Ottoman Empire 1300–1650* (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Suleiman oversaw the development of Ottoman military technology, including advanced siege techniques and the expansion of the imperial navy to Mediterranean dominance. His goldsmithing represents personal engagement with technical craft. His legal codification was a systemic problem-solving achievement of the first order—organizing diverse precedents and practices into a coherent, functional legal system. He employed cutting-edge military technology (cannon, firearms) in his campaigns."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.77,
+    "general_competency_avg_0_10": 4.67,
+    "overall_normalized_equal_avg_0_10": 7.25,
+    "created_at": "2026-03-22T21:44:27.240Z",
+    "updated_at": "2026-03-22T21:44:27.255Z"
+  }
+}
+]

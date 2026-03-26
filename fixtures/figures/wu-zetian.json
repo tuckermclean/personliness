@@ -1,0 +1,379 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 210,
+  "fields": {
+    "name": "Wu Zetian",
+    "slug": "wu-zetian",
+    "bio_short": "China's sole female emperor, Wu Zetian excelled in strategic intelligence, institution-building, and leadership across qualitatively different contexts over five decades. Her expansion of the civil service examination system endured for over a millennium. Exceptional paradox integration—simultaneously Buddhist devotee and ruthless operator, Confucian administrator and violator of Confucian gender norms. Moral-affective scores are mixed: extraordinary courage and resilience but limited compassion toward adversaries and a troubled parental record. Heinlein competency breadth is moderate, constra",
+    "bio_long": "Empress Wu, commonly known as Wu Zetian, personal name Wu Zhao, was the only female sovereign in the history of China. She had previously held power as the empress consort of Emperor Gaozong of the Tang dynasty from 660 to 683 and as empress dowager during the reigns of her sons, Emperors Zhongzong and Ruizong, between 683 and 690. She was the sole ruler of the self-styled Zhou dynasty from 690 to 705.",
+    "source_notes": "https://en.wikipedia.org/wiki/Wu_Zetian",
+    "image": "figures/330px-E59490E5908EE8A18CE5BE9EE59C96_28E5B180E983A829_-_E6ADA6E58987E5A4A9.png",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)",
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Sima Guang, Zizhi Tongjian"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Wu Zetian demonstrated sustained strategic adaptation over decades. She maneuvered from low-ranking concubine to empress consort by outflanking Empress Wang and the Guanlong aristocratic faction, adapted her legitimation strategy repeatedly (Confucian precedent, Buddhist prophecy via the Dayun Jing, invented auspicious omens), and successfully navigated crises including Xu Jingye's 684 rebellion and Li Chong's 688 revolt. Her ability to build shifting coalitions and adapt when initial plans failed—such as pivoting from ruling through sons to declaring her own dynasty—qualifies as exceptional."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Lewis, China's Cosmopolitan Empire: The Tang Dynasty (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Wu Zetian introduced the 'copper box' petition system allowing commoners to present grievances directly to the throne, significantly expanded the civil service examination to recruit non-aristocratic talent (including the palace examination format), and created new Chinese characters (Zetian characters). She innovated in political legitimation by combining Buddhist theology with imperial ideology to justify female sovereignty—an unprecedented synthesis. These were significant innovations, though the examination system built on existing Tang foundations rather than constituting a full paradigm shift."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Forte, Political Propaganda and Ideology in China at the End of the Seventh Century (1976)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Wu Zetian engaged substantively with Buddhist philosophy, patronizing the Dayun Jing commentary that reinterpreted the Maitreya prophecy to legitimate female rule, and commissioned Confucian-Buddhist synthesis texts. She articulated a vision of meritocratic governance that challenged aristocratic birth-right. However, her philosophical contributions were largely instrumental to political legitimation rather than original intellectual contributions that influenced thinkers beyond her era."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)",
+              "Twitchett, Cambridge History of China, Vol. 3 (1979)",
+              "Lewis, China's Cosmopolitan Empire: The Tang Dynasty (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Wu Zetian's expansion and reform of the civil service examination system became a cornerstone of Chinese governance lasting until 1905—over 1,200 years beyond her reign. She reorganized the bureaucracy, created new administrative positions (including the Feng'ge and Luan'tai reforms), reformed the tax system, and promoted agricultural development through systematic policy. Her governance maintained the prosperity and territorial integrity of a vast empire. These systems functioned and endured far beyond her direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Wu Zetian documented relational modes include: subordinate (concubine to Taizong), spouse/partner (to Gaozong), mother (to her children), sovereign/superior (to officials and subjects), religious devotee (Buddhist practice), patron (to artists and scholars), and adversary (to political opponents like the Guanlong faction). She adapted behavior across these roles—deferential as concubine, collaborative as co-ruler, commanding as sovereign, receptive as mentee of Di Renjie's advice. However, evidence of genuine friendship or peer-level intimacy is thin in the sources, and documentation of qualitatively distinct behavior in informal settings is limited."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)",
+              "Jiu Tangshu (Old Book of Tang)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Wu Zetian's relationship with Emperor Gaozong was genuinely close and enduring—spanning over 30 years from their reunion (~651) until his death (683). They co-governed as the 'Two Sages' (二圣), and Gaozong entrusted her with increasingly significant state responsibilities, especially after his debilitating strokes. She supported him through chronic illness. However, sources suggest significant power asymmetry, and the relationship's mutuality is debated—some scholars see genuine partnership, others see domination. The request for joint burial at Qianling suggests lasting emotional significance."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Twitchett, Cambridge History of China, Vol. 3 (1979)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Wu Zetian's parental record is deeply problematic: Crown Prince Li Hong died under suspicious circumstances (675), possibly poisoned; she deposed sons Zhongzong and Ruizong to seize power directly; and the hostile tradition accuses her of infanticide of her own daughter. Even discounting the most extreme accusations as Confucian propaganda, her sons did not develop genuine political autonomy under her influence. As a mentor to officials, she cultivated talented figures like Di Renjie and Shangguan Wan'er, who showed genuine competence and independence. The mentoring record partially mitigates the parental record, but overall evidence supports only a weak score."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Lewis, China's Cosmopolitan Empire: The Tang Dynasty (2009)",
+              "Twitchett, Cambridge History of China, Vol. 3 (1979)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Wu Zetian's impact remains clearly operative well beyond 500 years across multiple civilizations. Her examination system reforms shaped governance across East Asia (China, Korea, Vietnam) for over a millennium. Her reign demonstrated the possibility of female sovereign power in Confucian civilization, becoming a permanent reference point in Chinese political discourse. Her Buddhist patronage—especially the Longmen Grottoes—left enduring cultural monuments. She remains one of the most debated figures in Chinese historiography and is increasingly recognized globally."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Dien, 'Empress Wu and the Historians' in Voices of the Song Lyric in China (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Wu Zetian functions as a cross-cultural archetype of the powerful woman who breaks through patriarchal barriers, comparable to Cleopatra or Elizabeth I. She is recognized across East Asian cultures (Chinese, Japanese, Korean literary and dramatic traditions) and increasingly in global popular culture (film, television, video games). She embodies the archetype of the self-made sovereign, the femme fatale ruler, and the transgressive woman—symbols recognized well beyond her own civilization."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Twitchett, Cambridge History of China, Vol. 3 (1979)",
+              "Lewis, China's Cosmopolitan Empire: The Tang Dynasty (2009)",
+              "Miyazaki, China's Examination Hell (1976)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Wu Zetian's expansion of the civil service examination system—including the palace examination (dianshi) and martial examination (wuju)—became foundational to Chinese governance for over a millennium until its abolition in 1905, surviving far more than two generations. She established Buddhist institutional infrastructure (temples, translation bureaus) and created new bureaucratic structures. Her promotion of merit-based recruitment fundamentally reshaped the Chinese ruling class from aristocratic to examination-based."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)",
+              "Twitchett, Cambridge History of China, Vol. 3 (1979)",
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Wu Zetian led successfully across qualitatively different contexts: intimate court factional politics as a consort, regency management during her sons' nominal reigns, and direct sovereign rule of one of the world's largest empires. She maintained effective governance during both crisis (suppressing the 684 and 688 rebellions, managing Tibetan and Turkic frontier threats) and stability (economic prosperity, agricultural expansion). She inspired lasting loyalty in capable officials like Di Renjie and Shangguan Wan'er, and mobilized support across social classes."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Jiu Tangshu (Old Book of Tang)",
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Evidence of Wu Zetian engaging in mundane, everyday activities at the height of power is sparse. Sources mention her writing poetry and practicing Buddhist devotion, but documented engagement with cooking, manual labor, humor with children, or other ordinary activities is absent from the historical record. The sources are overwhelmingly focused on political and court narratives. Some accounts describe her personal charm and wit in conversation, but these are not equivalent to the sustained engagement with ordinary life the rubric requires for higher scores."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Twitchett, Cambridge History of China, Vol. 3 (1979)",
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Sima Guang, Zizhi Tongjian"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Wu Zetian promoted systemic justice through examination reform that opened governance to merit regardless of birth, established the petition box for commoner grievances, and sometimes ruled against her own allies—notably eventually executing her own secret police chiefs Zhou Xing and Lai Junchen when their excesses became undeniable. However, the secret police reign of terror (late 680s–early 690s), which produced thousands of false accusations and unjust executions, is a serious counterexample. Without it: score 3. With it given full weight: score 1. The combination of genuine structural justice reforms alongside politically motivated terror yields a score of 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Jiu Tangshu (Old Book of Tang)",
+              "Sima Guang, Zizhi Tongjian"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Wu Zetian enacted policies benefiting commoners: the petition box for grievance redress, agricultural relief during droughts, and extended mourning periods for mothers (raising the status of maternal filial piety). However, she showed little compassion toward political adversaries—using the secret police under Zhou Xing and Lai Junchen to terrorize and execute opponents, and allegedly ordering the brutal mutilation of Empress Wang and Consort Xiao. Even discounting hostile Confucian source exaggeration, the consistent pattern of ruthlessness toward rivals leaves limited evidence of compassion toward outgroup members."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Wu Zetian demonstrated sustained courage across multiple high-stakes situations over decades: surviving relegation to a Buddhist convent after Taizong's death (~649), fighting her way back to court against powerful aristocratic opposition, defying entrenched Confucian gender norms to claim the throne as a woman—an act of extraordinary social courage—suppressing armed rebellions (684, 688), withstanding assassination plots, and maintaining power into her 80s. Her willingness to declare herself Emperor in a civilization that viewed female sovereignty as an abomination required sustained, not momentary, bravery."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Wu Zetian demonstrated capacity for self-correction: she dismantled the secret police apparatus after recognizing its excesses, executing the notorious informers Zhou Xing (691) and Lai Junchen (697). She repeatedly accepted remonstrance from officials, most notably Di Renjie, who openly disagreed with her policies and survived. She ultimately agreed to restore the Tang dynasty and her son Zhongzong to the succession, reversing her own dynastic project. The Wordless Stele (无字碑) at her tomb—left deliberately blank—is traditionally interpreted as an invitation for posterity to judge her, suggesting self-awareness about her legacy."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Wu Zetian endured qualitatively different forms of adversity while maintaining effective functioning: social death and material deprivation in the Buddhist convent after Taizong's death (~649–651); constant political danger and threat of assassination during decades of court power struggles; the personal grief of losing children (her firstborn daughter and later Crown Prince Li Hong under disputed circumstances); and the isolation inherent in being a female sovereign in a civilization that condemned her very existence. She functioned effectively through all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Wu Zetian inhabited at least five seemingly contradictory roles without fragmenting: (1) woman in the most masculine role in Chinese civilization (emperor); (2) Buddhist devotee and ruthless wielder of secret police terror; (3) Confucian-style meritocratic administrator who systematically violated Confucian gender norms; (4) devoted wife to Gaozong and alleged murderer of her own children for political gain; (5) concubine of low status who became sovereign of the world's largest empire. She maintained these contradictions coherently for decades, integrating them into a functional identity that sustained effective governance."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Wu Zetian's final months showed partial composure: she agreed to restore the Tang dynasty and her son Zhongzong, effectively accepting the end of her political project. She requested burial with Emperor Gaozong and reduction of her title from Emperor to Empress—demonstrating intentionality about her posthumous legacy. The Wordless Stele at her Qianling tomb suggests deliberate reflection on mortality and judgment. However, she clung to power into extreme old age and had to be forced to abdicate in the Shenlong coup (705), which cuts against a full score of 3 for composure in facing one's own end."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+              "Xin Tangshu (New Book of Tang)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Wu Zetian maintained active governance into her early 80s—exceptional physical endurance for 7th-century China. She survived over 50 years of demanding court life. The famous anecdote of her youth—telling Emperor Taizong she could tame his wild horse with a whip, iron rod, and dagger—suggests physical confidence (whether or not the event occurred as described). She managed the physical demands of frequent travel between Chang'an and Luoyang. Her final years saw health decline, but era-normalized, her sustained vigor into extreme old age is notable."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "McNair, Donors of Longmen: Faith, Politics, and Patronage in Medieval Chinese Buddhist Sculpture (2007)",
+              "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Wu Zetian was a significant patron of Buddhist art, most notably commissioning the monumental Vairocana Buddha at the Longmen Grottoes—one of the greatest achievements of Tang sculpture. She wrote poetry, supported literary culture at court, and cultivated elaborate palace gardens. Her interest in creating new Chinese characters suggests playful intellectual engagement. Some of this patronage was clearly political, but the sustained scope and depth of her artistic and cultural engagement across decades—particularly in Buddhist aesthetics—suggests genuine appreciation beyond pure instrumentality."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.45,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Wu Zetian",
+      "overall": {
+        "Core_5D_Avg": 7.45,
+        "Overall_Normalized_Equal_Avg": 6.95,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "China's sole female emperor, Wu Zetian excelled in strategic intelligence, institution-building, and leadership across qualitatively different contexts over five decades. Her expansion of the civil service examination system endured for over a millennium. Exceptional paradox integration—simultaneously Buddhist devotee and ruthless operator, Confucian administrator and violator of Confucian gender norms. Moral-affective scores are mixed: extraordinary courage and resilience but limited compassion toward adversaries and a troubled parental record. Heinlein competency breadth is moderate, constrained by an imperial life that left little evidence of manual, medical, or culinary skills. Source bias (hostile Confucian historiography) complicates assessment throughout.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal culinary skill. As an imperial figure, her meals were prepared by palace kitchen staff. No sources document her cooking or food preparation."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Twitchett, Cambridge History of China, Vol. 3 (1979)",
+            "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Wu Zetian directed military campaigns against the Turks, Tibetans, and Khitan, and suppressed internal rebellions. She appointed military commanders and made strategic defense decisions. However, she never personally participated in combat. The horse-taming anecdote suggests willingness to engage with violence but is not evidence of combat skill. Era-normalized for a female sovereign in Tang China, her direction of military operations represents a weak but real engagement with defense."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Wu Zetian enacted policies reflecting concern for subjects' welfare—agricultural relief, the petition box, extended maternal mourning periods. She cared for the ailing Emperor Gaozong during his strokes. However, her personal caregiving record is thin and her treatment of her own children was at best neglectful and at worst harmful. Evidence of hands-on emotional or physical care is limited."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+            "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Wu Zetian faced the end of her reign and life with partial composure: she agreed to restore the Tang dynasty and the succession of her son Zhongzong, arranged her burial with Gaozong, and requested her title be reduced from Emperor to Empress. The Wordless Stele at Qianling suggests deliberate reflection on mortality and historical judgment. However, she had to be forced to abdicate in the Shenlong coup rather than relinquishing power voluntarily, which prevents a full score of 3."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal manual craft or repair skills in the historical record. As an imperial figure from her teenage years onward, she had no documented engagement with tool-making, repair, or physical fabrication."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Lewis, China's Cosmopolitan Empire: The Tang Dynasty (2009)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Wu Zetian oversaw multiple relocations of the court between Chang'an and Luoyang, demonstrating logistical awareness of routes and terrain. She directed military campaigns requiring geographic knowledge of frontier regions. However, personal navigation skill is undocumented—these activities were mediated through officials and commanders."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal skill in animal husbandry or food processing. The horse-taming anecdote with Emperor Taizong concerns attitude toward dominance, not demonstrated animal handling skill."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)",
+            "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Wu Zetian demonstrated exceptional leadership across contexts—court politics, imperial administration, crisis management, and cultural patronage. She also demonstrated followership: serving Emperor Taizong as a concubine, initially deferring to Gaozong in co-governance, and notably accepting the counsel and remonstrance of Di Renjie on multiple occasions, modifying her decisions based on his advice. This combination of commanding authority and receptiveness to trusted advisors represents the full range of this competency."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+            "Lewis, China's Cosmopolitan Empire: The Tang Dynasty (2009)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Wu Zetian commissioned major construction projects including the Mingtang (Hall of Illumination) in Luoyang—a massive structure symbolizing her cosmic authority—and extensive work at the Longmen Grottoes. She directed the rebuilding of the Mingtang after it burned in 695. However, she functioned as patron and commissioner rather than designer or builder; direct construction knowledge is not evidenced."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)",
+            "Twitchett, Cambridge History of China, Vol. 3 (1979)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Wu Zetian planned and executed complex political-military campaigns over decades: orchestrating the removal of Empress Wang and the Guanlong faction, directing the suppression of Xu Jingye's rebellion (684) and Li Chong's revolt (688), managing frontier military operations against Tibet and the Eastern Turks, and coordinating the unprecedented transition from Tang to Zhou dynasty. She adapted plans repeatedly when circumstances changed."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "McNair, Donors of Longmen (2007)",
+            "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Wu Zetian personally composed poetry, invented new Chinese characters (the 'Zetian characters'), and was a major patron of Buddhist sculpture (the Longmen Vairocana Buddha) and literary culture. She supported the translation of Buddhist texts and sponsored court literary activities. Her poetry survives in anthologies, and her character inventions—while ultimately unsuccessful—demonstrate creative engagement with language and aesthetics."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal medical knowledge or emergency medical response. While she may have attended to Emperor Gaozong during his illness, no sources document specific medical skill or intervention."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Twitchett, Cambridge History of China, Vol. 3 (1979)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Wu Zetian managed the fiscal administration of a vast empire, reformed the tax system, and demonstrated strong analytical capacity in evaluating bureaucratic performance through examination reform. She assessed complex political situations with clear cost-benefit reasoning over decades. No evidence of mathematical achievement per se, but era-normalized for a sovereign, her demonstrated analytical capacity in governance was clearly above average."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Twitchett, Cambridge History of China, Vol. 3 (1979)",
+            "Lewis, China's Cosmopolitan Empire: The Tang Dynasty (2009)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Wu Zetian actively promoted agricultural development, commissioning agricultural manuals and treatises for distribution. She implemented irrigation projects and land reclamation policies that significantly expanded cultivated acreage. Her reign saw systematic grain storage and disaster relief distribution during droughts. These were policy-level interventions rather than personal farming skill, but era-normalized for a sovereign, they represent strong competency in resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Rothschild, Wu Zhao: China's Only Woman Emperor (2008)",
+            "Guisso, Wu Tse-t'ien and the Politics of Legitimation in T'ang China (1978)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Wu Zetian solved complex systemic problems using the most sophisticated administrative technologies of her era: redesigning the examination system's structure and scoring, reorganizing bureaucratic hierarchies, managing the logistically complex dual-capital system between Chang'an and Luoyang, and solving the unprecedented legitimation problem of female sovereignty through innovative combination of Buddhist theology, Confucian precedent, and symbolic ritual innovation."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.45,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 6.95,
+    "created_at": "2026-03-22T23:12:08.019Z",
+    "updated_at": "2026-03-22T23:12:08.038Z"
+  }
+}
+]

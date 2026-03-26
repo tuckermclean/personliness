@@ -1,0 +1,377 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 156,
+  "fields": {
+    "name": "Rumi",
+    "slug": "rumi",
+    "bio_short": "Rumi is an extraordinary exemplar in the embodied-existential and cultural-social dimensions — a mystic poet whose integration of joy, grief, mortality, and paradox is among the most profound in recorded history. His ethical-philosophical insight and creative output are defining achievements, while his Heinlein competency breadth is narrow, concentrated almost entirely in artistic expression, leadership, and existential composure. Relational evidence is limited by hagiographic sources. His legacy across civilizations over 750 years is unmatched among poets.",
+    "bio_long": "Jalāl al-Dīn Muḥammad Rūmī, commonly known as Rumi, was a Sufi mystic, poet, and founder of the Islamic brotherhood known as the Mevlevi Order. His family hailed from Balkh. Rumi is an influential figure in Sufism, and his thought and works loom large both in Persian literature and mystic poetry in general. Today, his translated works are enjoyed all over the world.",
+    "source_notes": "https://en.wikipedia.org/wiki/Rumi",
+    "image": "figures/330px-D985D988D984D8A7D986D8A7_D8A7D8ABD8B1_D8ADD8B3DB8CD986_D8A8D987D8B2D8A7D8A_1T4z9Xa.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Aflaki, Manāqib al-ʿĀrifīn"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Rumi navigated the politically turbulent Seljuk-Mongol landscape of 13th-century Anatolia, maintaining his community's stability and his relationship with the Konya court. However, there is no documented case of strategic adaptation when initial plans failed; his leadership was spiritual rather than strategic. His management of the crisis after Shams's first disappearance (sending Sultan Walad to retrieve him) shows some adaptive capacity, but this is a single episode."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Schimmel, The Triumphal Sun (1978)",
+              "Nicholson, Commentary on the Mathnawi (1925–1940)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rumi transformed Persian mystical poetry, producing the Masnavi (~25,000 couplets) and the Divan-i Shams-i Tabrīzī (~40,000 verses), which together represent a paradigm shift in the integration of narrative, didactic, and ecstatic modes. He institutionalized the sama (whirling meditation with music) as a formal spiritual practice, creating a before/after difference in Sufi worship. Persian literary tradition recognizes a clear discontinuity: post-Rumi mystical poetry is fundamentally shaped by his innovations in imagery, form, and emotional register."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Chittick, The Sufi Path of Love: The Spiritual Teachings of Rumi (1983)",
+              "Schimmel, The Triumphal Sun (1978)",
+              "Lewis, Rumi: Past and Present, East and West (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rumi articulated a philosophy of universal love, divine unity, and the transcendence of religious boundaries that has influenced thinkers far beyond his own Sufi milieu. The Masnavi's six books develop a sophisticated metaphysics of love as the animating force of creation, integrating Quranic exegesis, Greek philosophical traditions, and experiential mysticism. His ideas influenced Hegel (through translation), Goethe, and modern Western spirituality, as well as centuries of Ottoman, Persian, and South Asian intellectual life."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Sipahsālār, Risāla"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Rumi inherited and managed his father's madrasa in Konya and oversaw a growing circle of disciples, but the formal organizational structure of the Mevlevi Order was primarily the work of his son Sultan Walad and grandson Ulu Arif Chelebi. Rumi's Maktubat (letters) show him intervening with officials on behalf of followers, indicating some administrative engagement, but no systems he designed endured independently of his personal charisma during his lifetime."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Schimmel, I Am Wind, You Are Fire (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Rumi demonstrated qualitatively distinct relational behavior across at least six modes: (1) devoted son to Bahā al-Dīn Walad; (2) ecstatic beloved/friend with Shams-i Tabrīzī — a relationship of radical equality; (3) authoritative teacher to disciples like Husam al-Din; (4) father with mixed results to Sultan Walad and Ala al-Din; (5) diplomatic correspondent with Seljuk political authorities (Mu'in al-Din Pervane); (6) spouse; (7) subordinate student to Burhan al-Din Muhaqqiq. Each relationship shows a distinct relational register, not a single style applied uniformly."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Aflaki, Manāqib al-ʿĀrifīn"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Rumi married twice: first to Gowhar Khatun (d. c. 1242), mother of Sultan Walad and Ala al-Din, and later to Kira Khatun, a woman of Christian background. Hagiographic sources mention both marriages positively but provide almost no specific evidence of mutual respect, emotional availability, or support during crisis. The overwhelming relational emphasis in all sources is on Rumi's relationships with Shams and his male disciples. The evidence for spousal quality is simply too thin for a higher score."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Aflaki, Manāqib al-ʿĀrifīn",
+              "Sultan Walad, Walad-nāma"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "As a mentor, Rumi had profound impact: Husam al-Din Chelebi became the direct inspiration for the Masnavi, and Sultan Walad developed into a capable poet, leader, and institution-builder who showed genuine autonomy. However, Rumi's relationship with his elder son Ala al-Din was reportedly strained — Ala al-Din may have been implicated in Shams's disappearance and reportedly did not attend Rumi's funeral. This mixed record — one son flourishing, one estranged — alongside superb mentorship of non-filial disciples, merits a 2."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Schimmel, The Triumphal Sun (1978)",
+              "Barks, The Essential Rumi (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rumi's impact is operative 750 years later across multiple civilizations: he is the best-selling poet in the United States (via Coleman Barks's translations), the Masnavi remains a foundational text in Persian, Turkish, and Urdu literary traditions, the Mevlevi whirling ceremony is a UNESCO Intangible Cultural Heritage item, and his ideas about universal love pervade global spiritual discourse. His influence spans Islamic civilization, Western literature (Goethe, Emerson), and contemporary popular culture."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Schimmel, I Am Wind, You Are Fire (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rumi embodies the archetype of the ecstatic mystic lover across multiple cultural traditions. In Islamic civilization he is 'Mawlana' (Our Master); in Western popular culture he represents universal spiritual wisdom and divine love. He is recognized as a symbol in cultures far beyond his own — from Japanese Sufi study circles to American self-help literature to Turkish national heritage. His cross-cultural archetypal status as the 'poet of love' is unmatched among medieval figures."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Zarcone, 'The Mevlevis' in Encyclopaedia of Islam"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Rumi provided the spiritual foundation for the Mevlevi Order, which survived for over 650 years (and continues today as a cultural institution even after Atatürk's 1925 ban on Sufi orders). However, the formal organizational structure — hierarchy, rituals, governance — was primarily codified by his son Sultan Walad and grandson Ulu Arif Chelebi. Rumi created the charismatic nucleus; others built the institution. This merits 2 rather than 3, as the systems that endured were not directly designed by him."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Aflaki, Manāqib al-ʿĀrifīn"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Rumi led successfully across qualitatively different contexts: as head of a madrasa (institutional stability), as spiritual leader during the crisis of Shams's disappearances and probable murder (acute crisis management), and as inspiration for a growing movement that drew followers from diverse religious and social backgrounds across Seljuk Anatolia. His influence extended to the Seljuk court (correspondence with Mu'in al-Din Pervane) and to common people alike, demonstrating leadership across scales."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Aflaki, Manāqib al-ʿĀrifīn",
+              "Nicholson, Commentary on the Mathnawi (1925–1940)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Masnavi is saturated with imagery from everyday life — chickpeas cooking in a pot, donkeys, shopkeepers, lovers quarreling, children playing — revealing deep familiarity with mundane human experience. Aflaki describes Rumi walking through the Konya bazaar, joking with students, and interacting with craftspeople at the height of his fame. However, the specific behavioral evidence is largely hagiographic, and his later life was increasingly devoted to spiritual practice rather than mundane engagement."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Chittick, The Sufi Path of Love (1983)",
+              "Lewis, Rumi: Past and Present, East and West (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Masnavi contains extensive teachings on justice, fairness, and accountability before God. Rumi's Maktubat document interventions with Seljuk officials on behalf of the oppressed, and his teaching circle was notably inclusive across social classes. However, specific documented cases of ruling against his own personal or group interest in favor of abstract principle are not clearly attested in independent sources."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Aflaki, Manāqib al-ʿĀrifīn",
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Schimmel, I Am Wind, You Are Fire (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Rumi's compassion extended explicitly to outgroup members: his funeral in 1273 was attended by Christians, Jews, and Muslims, who all claimed him as their own (reported by Aflaki). His Masnavi teaches compassion for all beings, including animals and sinners. His Maktubat include letters interceding with Seljuk officials on behalf of the poor and persecuted regardless of faith. The famous invitation 'Come, come, whoever you are' (attributed, though textual provenance debated) encapsulates a teaching of radical inclusion documented across multiple works."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Aflaki, Manāqib al-ʿĀrifīn"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Rumi showed sustained courage in maintaining his devotion to Shams-i Tabrīzī despite intense community hostility — his disciples threatened and likely murdered Shams. Rather than retreating, Rumi deepened his mystical commitment and produced his greatest works in the aftermath. He also endured the dangers of the Mongol-era Anatolian environment. However, his courage was primarily spiritual-social rather than physical, and the evidence, while consistent, comes largely from hagiographic sources."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Schimmel, The Triumphal Sun (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Rumi's transformation from conventional Islamic scholar-preacher to ecstatic mystic poet upon meeting Shams-i Tabrīzī (c. 1244) is one of the most dramatic documented personal transformations in literary history. He effectively repudiated his prior scholarly persona, reportedly throwing his books into a fountain. This represents a genuine reversal of prior position with visible behavioral change. However, the hagiographic tradition frames this as spiritual ascent rather than error-correction, and the cap for sanitized traditions applies. Independent scholarship (Lewis, Schimmel) confirms the radical nature of the transformation, justifying a score above 1."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Schimmel, The Triumphal Sun (1978)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Rumi endured qualitatively distinct forms of adversity and remained productive throughout: (1) material deprivation and mortal danger during the Mongol-driven displacement from Balkh in childhood; (2) the death of his father Bahā al-Dīn Walad (1231), his primary teacher and model; (3) the devastating loss of Shams-i Tabrīzī — his spiritual beloved — likely murdered by his own disciples (c. 1247-48). After each of these crises, Rumi not only continued functioning but produced his greatest works. The Divan-i Shams emerged directly from his grief."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Chittick, The Sufi Path of Love (1983)",
+              "Schimmel, The Triumphal Sun (1978)",
+              "Lewis, Rumi: Past and Present, East and West (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Rumi inhabited at least five seemingly contradictory roles without fragmenting: (1) orthodox Islamic scholar and jurist AND ecstatic mystic who transcended religious boundaries; (2) ascetic practitioner of fasting and prayer AND celebrant of music, dance, and sensory beauty; (3) devastated lover in grief AND joyous poet of cosmic celebration; (4) institutional authority (head of madrasa, correspondent with sultans) AND self-annihilating devotee who sought the obliteration of the ego; (5) systematic teacher of the Masnavi AND spontaneous composer of ecstatic ghazals. This integration is a primary reason he is remembered."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Schimmel, I Am Wind, You Are Fire (1992)",
+              "Aflaki, Manāqib al-ʿĀrifīn"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Rumi called the night of his death (December 17, 1273) his 'Shab-i Arus' (Wedding Night) — the night of union with the Divine Beloved. His final poems, composed during his terminal illness, express anticipation rather than fear. Multiple sources describe his composure and even joy in his final days. His poetry consistently reframes death as homecoming: 'When I die, you should not say he died, say he was dead and came alive.' This represents documented composure in the face of one's own imminent death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Lewis, Rumi: Past and Present, East and West (2000)",
+              "Aflaki, Manāqib al-ʿĀrifīn"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Rumi endured the multi-year, thousands-of-miles journey from Balkh to Konya as a child (c. 1215–1229), traversing mountains, deserts, and war zones. In adulthood, the sama (whirling meditation) requires significant physical stamina — Rumi reportedly engaged in extended sessions of whirling, fasting, and sleepless nights of prayer and poetry composition throughout his middle and later years. This demonstrates physical capacity across multiple life-stages, though the evidence is largely from hagiographic sources."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Schimmel, The Triumphal Sun (1978)",
+              "Aflaki, Manāqib al-ʿĀrifīn",
+              "Lewis, Rumi: Past and Present, East and West (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Joy and aesthetic delight are central to Rumi's being and practice. He institutionalized music and dance (sama) as spiritual practice at a time when many Islamic scholars forbade them. His poetry overflows with non-instrumental delight in beauty — wine imagery, birdsong, gardens, the beauty of the human face. Aflaki describes him breaking into spontaneous dance in the goldsmith's bazaar upon hearing the rhythmic hammering. This engagement with beauty was not merely didactic but ecstatic and personal."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 6.67,
+          "Core_5D_Avg": 7.77,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 9.33
+        }
+      },
+      "figure": "Rumi (Jalāl al-Dīn Muḥammad Rūmī, 1207–1273)",
+      "overall": {
+        "Core_5D_Avg": 7.77,
+        "Overall_Normalized_Equal_Avg": 6.99,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "Rumi is an extraordinary exemplar in the embodied-existential and cultural-social dimensions — a mystic poet whose integration of joy, grief, mortality, and paradox is among the most profound in recorded history. His ethical-philosophical insight and creative output are defining achievements, while his Heinlein competency breadth is narrow, concentrated almost entirely in artistic expression, leadership, and existential composure. Relational evidence is limited by hagiographic sources. His legacy across civilizations over 750 years is unmatched among poets.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of personal culinary skill. While the Masnavi uses detailed cooking metaphors (the famous chickpea poem, Masnavi III:4159–4168), this demonstrates observational knowledge of kitchen processes rather than documented personal cooking practice."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Lewis, Rumi: Past and Present, East and West (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Rumi engaged in combat or physical defense. He lived through the Mongol period but is not recorded as participating in any military or defensive action."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Aflaki, Manāqib al-ʿĀrifīn",
+            "Rumi, Fihi Ma Fihi (Discourses)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Rumi provided extensive spiritual and emotional care to his disciples and community members. Aflaki describes him comforting the bereaved, tending to the sick, and providing counsel to people in crisis. His Fihi Ma Fihi (discourses) show a teacher deeply attuned to the emotional and developmental needs of his students. This constitutes meaningful caregiving within his era-normalized context, though evidence is hagiographic."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Lewis, Rumi: Past and Present, East and West (2000)",
+            "Schimmel, I Am Wind, You Are Fire (1992)",
+            "Aflaki, Manāqib al-ʿĀrifīn"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Rumi's existential composure is among the most documented in history. He faced the devastating loss of Shams and transformed grief into the Divan. He called his death his 'Wedding Night' (Shab-i Arus) and composed poetry of anticipation during his final illness. His entire philosophical system reframes mortality as reunion with the Beloved. This is not merely abstract philosophy — multiple sources describe his personal composure and even joy during his final days in December 1273."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Rumi engaged in manual craftsmanship or repair work. While he famously observed goldsmith's hammering and used craft metaphors extensively, this reflects observation rather than practice."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Lewis, Rumi: Past and Present, East and West (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Rumi's family undertook an extended multi-year journey from Balkh through Nishapur, Baghdad, Mecca, Damascus, and eventually Konya — traversing thousands of miles of diverse terrain. However, Rumi was a child/adolescent during this journey and his father led. Later in life, he made pilgrimages to Damascus. This shows some experience but not demonstrated personal navigational skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record that Rumi personally engaged in animal husbandry or food processing. While his Masnavi uses vivid animal imagery (donkeys, chickpeas, sheep), this reflects observational familiarity rather than documented personal practice."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Lewis, Rumi: Past and Present, East and West (2000)",
+            "Schimmel, I Am Wind, You Are Fire (1992)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Rumi demonstrated both exemplary leadership and followership. As a follower, he submitted completely to Shams-i Tabrīzī — abandoning his scholarly prestige to sit at the feet of a wandering dervish, and later to Salah al-Din Zarkub, a goldsmith. As a leader, he directed a large and diverse community of disciples, corresponded with political authorities, and inspired a lasting movement. The capacity to alternate between radical submission and authoritative command is rare and well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Rumi engaged in designing or building physical structures. His domain was spiritual and literary, not architectural or constructive."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Lewis, Rumi: Past and Present, East and West (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Rumi managed his madrasa and growing community in Konya, and his letters show him coordinating with political authorities and managing logistics for his circle. However, there is no evidence of complex operational planning or command in military or civic contexts. His leadership was charismatic-spiritual rather than strategic-operational."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Schimmel, The Triumphal Sun (1978)",
+            "Lewis, Rumi: Past and Present, East and West (2000)",
+            "Nicholson, Commentary on the Mathnawi (1925–1940)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Rumi is one of the greatest poets in any language. The Masnavi (~25,000 couplets) and Divan-i Shams (~40,000 verses) represent an extraordinary body of literary art. He also developed the sama ceremony — integrating music, dance, and poetry into a unified artistic-spiritual practice. His works have been continuously performed, recited, and translated for 750 years. This is among the strongest exemplars of artistic expression in the historical record."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of Rumi providing medical treatment or emergency response. While hagiographic sources describe miraculous healings, these do not constitute evidence of medical skill. Spiritual counseling, which he clearly provided, is scored under Caregiving."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Lewis, Rumi: Past and Present, East and West (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Rumi received a thorough Islamic education including logic (mantiq) and some mathematical reasoning as part of the standard madrasa curriculum. The Masnavi demonstrates strong analogical and logical reasoning. However, mathematics and formal analysis were not his domain of distinction, and no specific mathematical achievements are recorded."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal engagement in agriculture or resource management. Rumi's life was centered on urban Konya as a scholar, teacher, and poet."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of engagement with the technical or technological systems of his era (irrigation, engineering, medicine, astronomy). His problem-solving was spiritual and literary rather than technical."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.77,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 6.99,
+    "created_at": "2026-03-22T19:41:43.712Z",
+    "updated_at": "2026-03-22T19:41:43.736Z"
+  }
+}
+]

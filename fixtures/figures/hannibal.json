@@ -1,0 +1,393 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 213,
+  "fields": {
+    "name": "Hannibal",
+    "slug": "hannibal",
+    "bio_short": "Hannibal stands as one of history's supreme military strategists, with Cannae still taught as a paradigm of tactical genius over two millennia later. His embodied-existential scores are exceptionally high—crossing the Alps, enduring 15 years in hostile Italy, losing an eye mid-campaign, and facing death with deliberate composure. Leadership of a polyglot mercenary army without mutiny is a remarkable relational-leadership feat. Weaknesses cluster in relational depth (thin evidence on family life), moral-affective nuance (limited evidence of compassion or moral growth), and practical non-militar",
+    "bio_long": "Hannibal was a Carthaginian general and statesman who commanded the forces of Carthage in their battle against the Roman Republic during the Second Punic War. Hannibal lived during a period of great tension in the Mediterranean Basin, triggered by the emergence of the Roman Republic as a great power with its defeat of Carthage in the First Punic War. Revanchism prevailed in Carthage, symbolized by the pledge that Hannibal made to his father to \"never be a friend of Rome\".",
+    "source_notes": "https://en.wikipedia.org/wiki/Hannibal",
+    "image": "figures/330px-Hannibal_Barca_bust_from_Capua_photo.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Polybius, *Histories* Books 3 and 11",
+              "Livy, *Ab Urbe Condita* Books 21-30",
+              "Goldsworthy, *The Fall of Carthage* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hannibal adapted brilliantly when circumstances changed: at Trebia (218 BC) he used a hidden force under Mago after drawing Romans across the icy river; at Trasimene (217 BC) he executed the largest ambush in Western military history; at Cannae (216 BC) he executed a double envelopment against a numerically superior force. When Rome adopted the Fabian strategy of attrition, he shifted to detaching Italian allies. His Alpine crossing itself was a strategic masterstroke of surprise that bypassed Roman naval superiority."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Polybius, *Histories* 3.78-84",
+              "Daly, *Cannae: The Experience of Battle in the Second Punic War* (2002)",
+              "Goldsworthy, *The Fall of Carthage* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cannae's double envelopment created a paradigm shift in military thinking—a before/after difference still operative in military doctrine (Schlieffen Plan, Gulf War envelopment). The Alpine crossing with war elephants was an unprecedented feat of military imagination. His tactical innovations included the use of burning oxen to escape Fabius's trap at Ager Falernus (217 BC) and his integration of ethnically diverse units (Numidian cavalry, Iberian infantry, Gallic warriors, Libyan heavy infantry) into coordinated combined-arms tactics."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Cornelius Nepos, *De Viris Illustribus: Hannibal*",
+              "Lancel, *Hannibal* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Hannibal was reportedly educated in Greek literature and culture by the tutor Sosylus of Lacedaemon, and Cornelius Nepos mentions he wrote books in Greek. However, no philosophical works survive, and there is no evidence his ideas influenced ethical or philosophical thinking beyond his own circle. His fame rests on military, not philosophical, achievement."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Livy, *Ab Urbe Condita* 33.46-47",
+              "Lancel, *Hannibal* (1998)",
+              "Hoyos, *Hannibal's Dynasty* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "As sufete of Carthage (c. 196 BC), Hannibal restructured the tax collection system to pay Rome's war indemnity without additional citizen levies, breaking the power of the corrupt oligarchic Council of One Hundred and Four by making its membership subject to annual election. He also managed a polyglot mercenary army's logistics for 15 years in hostile Italy—a remarkable administrative achievement. However, his political reforms did not long survive his exile (195 BC)."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Polybius, *Histories* 7.9 (Philip V alliance)",
+              "Cornelius Nepos, *Hannibal* 7-12",
+              "Livy, *Ab Urbe Condita* 33.46-49"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hannibal operated across multiple relational modes: devoted son (famous oath to Hamilcar), military commander/superior (leading diverse armies), political leader (sufete), subordinate (serving under Hasdrubal the Fair, later advising Antiochus III and Prusias I), adversary (Rome), and diplomatic ally (Philip V of Macedon alliance, 215 BC). This demonstrates at least five distinct relational modes with documented behavioral differences—commanding in battle vs. deferring to eastern kings vs. political maneuvering in Carthage."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Silius Italicus, *Punica* 3.61-157",
+              "Lancel, *Hannibal* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hannibal married Imilce, an Iberian noblewoman from Castulo, before departing for Italy. He reportedly left her and their young son in Iberia. Silius Italicus's *Punica* provides a moving farewell scene, but this is epic poetry composed centuries later, not reliable history. The historical record provides almost no evidence about the quality of their relationship—its depth, mutuality, or emotional character remain unknown."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Lancel, *Hannibal* (1998)",
+              "Hoyos, *Hannibal's Dynasty* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hannibal had a son (possibly named Haspar), but virtually nothing is known about their relationship since he left for Italy when the child was an infant. As a military leader, he inspired extraordinary loyalty in his officers and troops, suggesting mentoring ability, but specific evidence of fostering autonomy or competence in successors is limited. His relationship with his father Hamilcar as a mentee is better documented than his own mentoring."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Dodge, *Hannibal: A History of the Art of War Among the Carthaginians and Romans* (1891)",
+              "Daly, *Cannae: The Experience of Battle* (2002)",
+              "Goldsworthy, *The Fall of Carthage* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cannae has been studied as the paradigmatic tactical battle for over 2,200 years and directly influenced modern military doctrine (Schlieffen's plan for WWI, Schwarzkopf's Gulf War envelopment). 'Hannibal ante portas' became a Roman proverb still referenced today. His campaigns fundamentally shaped Roman military organization, strategic thinking, and ultimately Rome's trajectory toward empire. His legacy is clearly operative across multiple civilizations well beyond 500 years."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Machiavelli, *Discourses on Livy* Book 3",
+              "Lancel, *Hannibal* (1998)",
+              "Brizzi, *Il guerriero, l'oplita, il legionario* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Hannibal is the quintessential 'brilliant underdog commander' archetype in Western civilization, recognized in Roman culture ('Hannibal ante portas'), European Renaissance and Enlightenment thought (Machiavelli, Montesquieu), Napoleonic military tradition, and modern North African/Tunisian national identity. He appears in Dante's Inferno. However, his recognition outside Western, Mediterranean, and military-professional contexts is more limited than truly universal archetypes, keeping this at 2 rather than 3."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Livy, *Ab Urbe Condita* 33.46-47",
+              "Hoyos, *Mastering the West* (2015)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Hannibal's fiscal and political reforms as sufete of Carthage (c. 196 BC) were effective but did not survive two generations—he was exiled in 195 BC, and the reforms were partly reversed by his political opponents. Carthage itself was destroyed in 146 BC. He did not found lasting military institutions, schools, or organizational structures that persisted beyond his direct involvement."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Polybius, *Histories* 11.19",
+              "Goldsworthy, *The Fall of Carthage* (2000)",
+              "Hoyos, *Hannibal's Dynasty* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hannibal maintained a polyglot mercenary army of Libyans, Numidians, Iberians, Gauls, and others for over 15 years in hostile territory with virtually no recorded mutinies—an extraordinary feat unmatched in ancient warfare. He led effectively in crisis (Alpine crossing, major battles), in sustained grinding campaigns (southern Italy 215-203 BC), and in political contexts (sufete of Carthage). He also served as military advisor to Antiochus III and Prusias I, demonstrating leadership across qualitatively different contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Livy, *Ab Urbe Condita* 21.4",
+              "Polybius, *Histories* 3.78"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Livy and Polybius note Hannibal slept on the ground among his soldiers and wore no distinguishing dress, suggesting some connection to ordinary life. However, specific documented instances of mundane engagement (cooking, humor, domestic activity) are essentially absent from the record. Ancient sources focus overwhelmingly on his military persona. The evidence is too thin for a higher score."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Livy, *Ab Urbe Condita* 33.46",
+              "Lancel, *Hannibal* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Hannibal's financial reforms as sufete addressed oligarchic corruption in Carthage's tax system, suggesting some concern for fairness. However, this was intertwined with political rivalry. His differential treatment of prisoners (releasing Italian allies, holding Roman citizens for ransom) was strategic rather than principled. There is no clear documented case of ruling against personal or group interest purely on principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Livy, *Ab Urbe Condita* 22.52, 27.28",
+              "Polybius, *Histories* 9.22-26",
+              "Hoyos, *Mastering the West: Rome and Carthage at War* (2015)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Roman sources (hostile) depict 'Hannibalic cruelty' (Livy's 'inhumana crudelitas'), but there are counterexamples: Hannibal reportedly sought Flaminius's body after Trasimene for honorable burial and gave funeral honors to the fallen consul Aemilius Paullus after Cannae and to Marcellus after his death (212 BC). He released Italian (non-Roman) prisoners without ransom to court allies. Without the Roman propaganda, perhaps a 2; with it and acknowledging the mixed record, 1 is appropriate as evidence of compassion toward adversaries exists but is episodic and partly strategic."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Polybius, *Histories* 3.42-56",
+              "Livy, *Ab Urbe Condita* 22.2 (loss of eye)",
+              "Cornelius Nepos, *Hannibal*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hannibal personally led the Alpine crossing (218 BC), losing roughly half his army but pressing forward. He lost an eye to infection during the march through the Arno marshes (217 BC) and continued campaigning immediately. He fought in Italy for 15 years (218-203 BC) far from home with dwindling reinforcements. He endured the devastating defeat at Zama (202 BC), rebuilt a political career as sufete, faced exile (195 BC), and continued advising eastern kings while Rome hunted him for nearly two decades. This represents sustained courage across multiple high-stakes contexts."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Livy, *Ab Urbe Condita* 30.37",
+              "Lancel, *Hannibal* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "After Zama, Hannibal reportedly urged the Carthaginian senate to accept Rome's peace terms, acknowledging the reality of defeat—this represents a pragmatic acceptance rather than moral growth. Ancient sources do not document instances of Hannibal publicly reversing a prior moral position or accepting correction. The hostile Roman tradition and the admiring Carthaginian/Hellenistic tradition both tend to present a static character rather than one who evolved morally."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Livy, *Ab Urbe Condita* 27.51 (Hasdrubal's head)",
+              "Polybius, *Histories* 15.15-16 (Zama)",
+              "Cornelius Nepos, *Hannibal* 7-12"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hannibal endured qualitatively different forms of severe adversity: (1) material deprivation and physical extremity during the Alpine crossing and sustained Italian campaign with dwindling supply; (2) personal bereavement when his brother Hasdrubal's severed head was thrown into his camp (207 BC); (3) catastrophic military defeat at Zama (202 BC); (4) political exile from his homeland (195 BC); (5) years as a fugitive in the eastern Mediterranean while Rome hunted him. He remained functionally effective through all of these, rebuilding a political career and continuing to advise kings."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Lancel, *Hannibal* (1998)",
+              "Hoyos, *Hannibal's Dynasty* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hannibal inhabited several seemingly contradictory roles: fierce military commander and civic reformer (sufete); foreign invader living 15 years among Italians while maintaining Carthaginian identity; supreme commander in war and subordinate advisor to lesser kings in exile (Antiochus III, Prusias I); destroyer of Roman armies and admirer of Greek/Roman culture. This represents at least three contradictory roles maintained with coherence, though the evidence for full integration (vs. sequential phases) is somewhat limited."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Livy, *Ab Urbe Condita* 39.51",
+              "Cornelius Nepos, *Hannibal* 12-13",
+              "Plutarch, *Life of Flamininus* 20"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "When cornered by Roman agents sent by Flamininus at Libyssa in Bithynia (183/181 BC), Hannibal took poison he had long kept concealed in a ring, reportedly stating 'Let us relieve the Romans of their long anxiety, since they think it too long to wait for an old man's death.' Multiple ancient sources (Livy, Cornelius Nepos, Plutarch) attest to this composed, deliberate, dignified death—he had prepared for this eventuality and faced it without panic or supplication."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Polybius, *Histories* 3.42-56",
+              "Livy, *Ab Urbe Condita* 21.32-37, 22.2",
+              "Cornelius Nepos, *Hannibal*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hannibal crossed the Alps in autumn 218 BC, enduring rockfalls, hostile tribes, snow, and extreme cold with an army of ~50,000. He lost an eye to infection during the march through the Arno marshes (217 BC) and immediately continued campaigning. He personally fought in battles and endured 15 years of campaigning in Italy. He remained physically active into his sixties during exile, advising and participating in naval campaigns for Prusias I of Bithynia. Physical toughness across multiple life stages is well attested."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Cornelius Nepos, *Hannibal* 13",
+              "Livy, *Ab Urbe Condita* 35.14 (conversation with Scipio)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hannibal was educated in Greek culture by Sosylus of Lacedaemon and reportedly wrote historical works in Greek (Cornelius Nepos). He was multilingual (Punic, Greek, Latin, Iberian, Gallic). There is a tradition that he displayed wit—Livy records his repartee with Scipio at Ephesus about greatest generals. However, evidence of non-instrumental aesthetic engagement or genuine play is extremely thin in the surviving record."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.32,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Hannibal Barca",
+      "overall": {
+        "Core_5D_Avg": 6.32,
+        "Overall_Normalized_Equal_Avg": 6.16,
+        "General_Competency_Avg_10scale": 5.33
+      },
+      "summary": "Hannibal stands as one of history's supreme military strategists, with Cannae still taught as a paradigm of tactical genius over two millennia later. His embodied-existential scores are exceptionally high—crossing the Alps, enduring 15 years in hostile Italy, losing an eye mid-campaign, and facing death with deliberate composure. Leadership of a polyglot mercenary army without mutiny is a remarkable relational-leadership feat. Weaknesses cluster in relational depth (thin evidence on family life), moral-affective nuance (limited evidence of compassion or moral growth), and practical non-military competencies. His legacy as military archetype is secure, but hagiographic and hostile sources limit confidence on personal dimensions.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.6,
+          "General_Competency_Avg_10scale": 5.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists of Hannibal personally preparing food. As a Barcid nobleman and military commander, cooking would have been performed by camp servants and cooks. Anti-halo rule: no inference from other competencies."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Polybius, *Histories* 3.78",
+            "Livy, *Ab Urbe Condita* 21.4",
+            "Cornelius Nepos, *Hannibal* 3"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hannibal was raised in military camps from age nine, trained in Iberian campaigns from age eighteen, and personally led from the front in multiple major battles. He was wounded and lost an eye during active campaigning. Polybius notes his personal bravery. For a commander of his era, leading from the front entailed genuine personal combat. However, his fame rests more on generalship than individual fighting prowess, and detailed descriptions of personal combat feats are absent."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Livy, *Ab Urbe Condita* 21.4",
+            "Polybius, *Histories* 3.78"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Livy and Polybius note Hannibal shared his soldiers' hardships—sleeping on the ground, eating the same food, enduring the same conditions. This indicates care for troops' welfare. However, specific caregiving acts (nursing the wounded, comforting the dying) are not individually documented in the sources."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Livy, *Ab Urbe Condita* 39.51",
+            "Cornelius Nepos, *Hannibal* 12-13",
+            "Plutarch, *Life of Flamininus* 20"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Hannibal faced his own death with remarkable composure at Libyssa in Bithynia (183/181 BC), taking poison he had long kept prepared in a ring rather than submitting to Roman capture. Multiple sources record his composed final words. Throughout life, he maintained composure after catastrophic setbacks: the loss of his eye, his brother's death (head thrown into his camp), defeat at Zama, and years of exile. He never appears to have panicked or lost self-control in crisis."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "There is no evidence in the historical record of Hannibal personally making, fixing, or repairing tools, weapons, or equipment. As a commander from a noble Carthaginian family (the Barcids), such tasks would typically have been delegated. Anti-halo rule applies: military genius does not imply manual craft skill."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Polybius, *Histories* 3.50-56",
+            "Mahaney, *Hannibal's Odyssey* (2008)",
+            "Livy, *Ab Urbe Condita* 21.32-37"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Hannibal guided an army of ~50,000 with elephants across the Alps via a route still debated by scholars—navigating hostile mountain tribes, seasonal weather, and treacherous passes. He navigated through the Arno marshes (217 BC) and moved effectively across varied Italian terrain for 15 years, repeatedly outmaneuvering Roman forces through superior knowledge of ground. Era-normalized, this represents exceptional wayfinding."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Polybius, *Histories* 3.42-46 (elephant management)",
+            "Lancel, *Hannibal* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hannibal managed war elephants and cavalry horses across the Alps and in battle—requiring organizational knowledge of animal handling and provisioning. However, there is no evidence of personal skill in butchering or food processing. The logistical management of army provisions was primarily delegated to quartermasters."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Polybius, *Histories* 11.19",
+            "Cornelius Nepos, *Hannibal* 7-12",
+            "Hoyos, *Hannibal's Dynasty* (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Hannibal excelled at both commanding (leading his polyglot army without mutiny for 15+ years, inspiring extraordinary personal loyalty) and following (serving as subordinate officer under his brother-in-law Hasdrubal the Fair in Iberia before assuming command; later deferring to Antiochus III and Prusias I as an advisor/subordinate in exile). This demonstrates both giving and taking direction effectively."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Livy, *Ab Urbe Condita* 21.37 (rock-breaking)",
+            "Polybius, *Histories* 3.42 (Rhône crossing)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Hannibal's army undertook significant engineering works: bridging the Rhône for elephant crossing, road-building through the Alps (Livy's famous account of using fire and vinegar to crack rocks at a blocked pass), and constructing field fortifications. These were supervised rather than personally executed, but demonstrate organizational competence in construction within his era's norms."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Polybius, *Histories* Books 3 and 11",
+            "Goldsworthy, *The Fall of Carthage* (2000)",
+            "Daly, *Cannae* (2002)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Hannibal planned and executed the Alpine crossing (218 BC), the battles of Trebia, Trasimene, and Cannae—each requiring different strategic approaches. He sustained a 15-year campaign in hostile Italy, adapting from pitched battle to alliance-building when Rome adopted the Fabian strategy. This represents the highest level of strategic planning and command in ancient warfare."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Cornelius Nepos, *Hannibal* 13.3",
+            "Lancel, *Hannibal* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Cornelius Nepos records that Hannibal wrote several books in Greek, including at least one historical work. He was educated in Greek literature and culture by Sosylus of Lacedaemon, who also wrote a history of Hannibal's campaigns. However, none of Hannibal's writings survive, and there is no evidence of artistic creation in other media."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "There is no documented evidence of Hannibal providing medical treatment to himself or others. He endured the loss of an eye during the Arno marshes march, but the sources do not describe him treating it—only that he lost it. Ancient commanders had medical attendants; no personal medical skill is attested."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Livy, *Ab Urbe Condita* 33.46-47",
+            "Goldsworthy, *The Fall of Carthage* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Managing the logistics of a large polyglot army for 15 years—supply calculations, troop dispositions, march timing—required strong analytical skills. As sufete, Hannibal restructured Carthage's tax system, demonstrating he could analyze financial flows and identify revenue leakage without raising taxes. These are practical applications of numerical and analytical reasoning at a high level for his era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Livy, *Ab Urbe Condita* 22.9-13",
+            "Goldsworthy, *The Fall of Carthage* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hannibal systematically managed resource acquisition in hostile territory for 15 years—foraging, requisitioning, and controlling productive agricultural regions of southern Italy (Campania, Apulia, Bruttium). He deliberately devastated Roman-allied farmland while preserving allied territories. His financial reforms as sufete also demonstrate resource management skills. However, this is military/political resource management rather than agricultural cultivation per se."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Polybius, *Histories* 3.42-46",
+            "Livy, *Ab Urbe Condita* 21.37, 22.16-17",
+            "Lancel, *Hannibal* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hannibal demonstrated technical ingenuity in multiple domains: engineering the Rhône crossing for elephants using large rafts disguised with earth, the fire-and-vinegar rock-breaking on the Alpine pass (if historical), the use of oxen with burning torches to escape Fabius's blockade, and coordinating diverse troop types with different weapons systems into integrated tactical formations. His tax reform as sufete represents systemic institutional problem-solving."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.32,
+    "general_competency_avg_0_10": 5.33,
+    "overall_normalized_equal_avg_0_10": 6.16,
+    "created_at": "2026-03-22T23:16:52.649Z",
+    "updated_at": "2026-03-22T23:16:52.668Z"
+  }
+}
+]

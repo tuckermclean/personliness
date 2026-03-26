@@ -1,0 +1,371 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 212,
+  "fields": {
+    "name": "Hatshepsut",
+    "slug": "hatshepsut",
+    "bio_short": "Hatshepsut excelled cognitively—her strategic seizure and 20-year retention of pharaonic power, innovative architecture at Deir el-Bahri, and effective administration mark her among the strongest rulers of the New Kingdom. Moral-affective scores are tempered by hagiographic royal sources that obscure personal compassion and growth. Culturally, she was a transformative leader and institution-builder whose legacy was partially suppressed by damnatio memoriae. Embodied-existential strength centers on paradox integration—woman-king, builder-warrior, mother-sovereign. Relational evidence is thin du",
+    "bio_long": "Hatshepsut was the sixth pharaoh of the Eighteenth Dynasty of Egypt, ruling first as regent, then as queen regnant from c. 1479 BC until c. 1458 BC and the Great Royal Wife of Pharaoh Thutmose II. She was Egypt's second confirmed woman who ruled in her own right, the first being Sobekneferu/Neferusobek in the Twelfth Dynasty.",
+    "source_notes": "https://en.wikipedia.org/wiki/Hatshepsut",
+    "image": "figures/330px-Seated_Statue_of_Hatshepsut_MET_Hatshepsut2012.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Cooney, *The Woman Who Would Be King* (2014)",
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)",
+              "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hatshepsut executed a multi-year strategy to transition from regent to co-regent to full pharaoh, building coalitions with Senenmut, Hapuseneb (High Priest of Amun), and Nehesi. She adapted her legitimation strategy repeatedly—first invoking her royal bloodline, then crafting the divine birth narrative at Deir el-Bahri claiming Amun as her father, and adopting male pharaonic regalia when needed. She managed the explosive situation of a maturing Thutmose III without civil conflict for ~20 years, demonstrating sustained adaptive planning."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)",
+              "Laboury (2014)",
+              "Dorman, *The Monuments of Senenmut* (1988)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Deir el-Bahri (Djeser-Djeseru) represents a genuine architectural paradigm shift—its terraced colonnaded design was unprecedented in Egyptian mortuary architecture, departing radically from the adjacent temple of Mentuhotep II that partially inspired it. Her iconographic program created a new visual language for female pharaonic power, blending masculine and feminine representations. The divine birth narrative became a template adopted by later rulers, creating a clear before/after in Egyptian royal theology."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Breasted, *Ancient Records of Egypt*, vol. 2",
+              "Laboury, 'How and Why Did Hatshepsut Invent the Image of Her Royal Power?' in *Creativity and Innovation in the Reign of Hatshepsut* (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Her Speos Artemidos inscription articulates a theology of restoring ma'at (cosmic order) after the Hyksos disruption, and her temple inscriptions develop a sophisticated divine-birth theology that influenced later pharaohs (notably Amenhotep III's Luxor Temple birth colonnade). These represent meaningful contributions to Egyptian religious-political thought. However, her ideas did not demonstrably influence thinkers beyond the Egyptian tradition, limiting the score to 2."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)",
+              "Cooney, *The Woman Who Would Be King* (2014)",
+              "Breasted, *Ancient Records of Egypt*, vol. 2"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hatshepsut administered Egypt through 20 years of prosperity, coordinating the massive Punt trading expedition (involving fleet construction, diplomatic protocols, and resource logistics), multiple simultaneous building programs at Karnak, Deir el-Bahri, and across Egypt, and the quarrying and transport of the largest obelisks yet erected. Her temple at Deir el-Bahri functioned as a religious institution for centuries after her death. The administrative apparatus she maintained fed directly into Thutmose III's subsequent imperial expansion."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Cooney, *The Woman Who Would Be King* (2014)",
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Evidence exists for Hatshepsut functioning as: daughter (invoking Thutmose I's legacy), wife (to Thutmose II), mother (to Neferure), superior/ruler (to officials and subjects), and possibly intimate partner (to Senenmut). She also functioned as co-regent with a subordinate king (Thutmose III), a unique relational mode. However, we see her almost exclusively through official monumental sources that present only her pharaonic persona, limiting evidence of qualitatively distinct behavior across these modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)",
+              "Dorman, *The Monuments of Senenmut* (1988)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Her marriage to half-brother Thutmose II was a dynastic arrangement; he appears to have been in poor health and died relatively young. No evidence of the emotional quality of this relationship survives. A possible intimate relationship with Senenmut is suggested by satirical graffiti found near Deir el-Bahri and his unprecedented access to royal spaces, but this remains speculative and debated among scholars. We lack evidence for mutual respect, crisis support, or emotional availability in any partnership."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)",
+              "Dorman, *The Monuments of Senenmut* (1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hatshepsut elevated her daughter Neferure to prominent ceremonial roles and provided her with Senenmut as tutor—one of the most capable officials in Egypt. Neferure appeared performing rituals typically reserved for queens, suggesting Hatshepsut was grooming her for significant responsibility. She also cultivated capable officials (Senenmut, Hapuseneb, Nehesi) who exercised genuine autonomy in their domains. However, Neferure's ultimate fate is unknown, and detailed evidence of the quality of these mentoring relationships is lacking."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)",
+              "Cooney, *The Woman Who Would Be King* (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Her reign contributed significantly to 18th Dynasty prosperity that enabled Thutmose III's subsequent empire-building. Deir el-Bahri influenced later Egyptian architecture. Her divine birth narrative was adopted by Amenhotep III. However, the damnatio memoriae under Thutmose III erased her from king lists for millennia, and her impact was largely contained within the Egyptian tradition rather than operating across multiple civilizations for 500+ years. Her modern rediscovery has made her culturally significant, but this is a recovered rather than continuous legacy."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Cooney, *The Woman Who Would Be King* (2014)",
+              "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "In modern culture, Hatshepsut has become a powerful symbol of female leadership, gender transgression, and the erasure and recovery of women's history. She resonates as an archetype of the 'woman king' across contemporary cultures. However, unlike figures such as Cleopatra or Nefertiti, she was largely unknown outside Egyptological circles until the 20th century, and her cross-cultural mythic recognition is primarily a modern phenomenon rather than a deep historical one."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)",
+              "Dorman, *The Monuments of Senenmut* (1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Her mortuary temple at Deir el-Bahri functioned as a religious institution for centuries, and the cult of Amun she strengthened remained Egypt's dominant religious institution for generations. Her building programs at Karnak endured as central components of Egypt's most important temple complex. However, Thutmose III's later erasure campaign partially obscured her specific institutional contributions, making it difficult to attribute enduring administrative systems specifically to her rather than to the broader 18th Dynasty apparatus."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Cooney, *The Woman Who Would Be King* (2014)",
+              "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hatshepsut led Egypt successfully across the crisis of succession (transitioning from regent to pharaoh without civil war), the sustained challenge of maintaining legitimacy as a female king, and extended peacetime prosperity including massive building programs and the Punt expedition. She mobilized enormous labor forces, managed a court of powerful officials (Senenmut, Hapuseneb, Nehesi, Thuty), and maintained Egypt's international position. This spans qualitatively different leadership contexts—crisis management, coalition-building, and large-scale peacetime governance."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "As pharaoh, Hatshepsut was presented in divine, ritualized terms in virtually all surviving sources. Egyptian monumental art does not depict rulers in mundane activities. There are tantalizing hints—her interest in the exotic plants and animals brought from Punt, the myrrh trees transplanted to her temple gardens—but no documented engagement with cooking, humor, manual labor, or everyday human activities. The nature of pharaonic sources inherently limits this dimension."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Breasted, *Ancient Records of Egypt*, vol. 2",
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Her Speos Artemidos inscription explicitly frames her reign as restoring ma'at—justice and cosmic order—after the disruption of the Hyksos period. The stability and prosperity of her reign suggest effective and fair governance. However, no specific documented cases survive of her ruling against personal or group interest in favor of abstract principle. The 20-year co-regency with Thutmose III suggests she did not seize sole power by eliminating a rival, which could reflect a justice orientation."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)",
+              "Cooney, *The Woman Who Would Be King* (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Temple inscriptions contain conventional pharaonic claims of care for Egypt and its people, but no specific documented acts of compassion toward adversaries or outgroup members survive. Her treatment of the young Thutmose III—maintaining him in a position of nominal co-rulership rather than eliminating him—may reflect restraint, but could equally reflect political calculation. Egyptian monumental sources are not designed to record personal compassion, limiting evidence."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Cooney, *The Woman Who Would Be King* (2014)",
+              "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Claiming full pharaonic authority as a woman in New Kingdom Egypt was an extraordinary act of sustained courage, facing potential opposition from military, priestly, and royal factions. She maintained this position for approximately 20 years, repeatedly reinforcing her legitimacy through new constructions, inscriptions, and public rituals. This was not a single dramatic moment but a decades-long assertion of power in the face of structural and cultural resistance. Evidence of possible military campaigns in Nubia adds a further dimension of risk-taking."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Egyptian royal monumental inscriptions are inherently hagiographic and do not record mistakes, corrections, or reversals of position. No independent evidence survives of Hatshepsut acknowledging errors or changing course based on moral reflection. Per the rubric, figures whose traditions sanitize them should be capped at 1 unless independent evidence exists, and no such evidence is available for Hatshepsut."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Cooney, *The Woman Who Would Be King* (2014)",
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hatshepsut navigated the political precariousness of being a female claimant to pharaonic power (structural adversity) and the personal losses of her father Thutmose I and husband Thutmose II, which left her in a vulnerable political position as regent for a young stepson (bereavement compounded by political crisis). She functioned effectively through both forms of adversity, building rather than merely surviving. However, detailed personal testimony of her experience is absent."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Laboury (2014)",
+              "Cooney, *The Woman Who Would Be King* (2014)",
+              "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hatshepsut simultaneously inhabited the roles of: (1) woman and male pharaoh (depicted with false beard and male regalia while also maintaining feminine inscriptions and epithets); (2) pious servant of Amun and supreme political sovereign; (3) peaceful builder-patron and military commander (Nubian campaigns); (4) mother/nurturer of Neferure and authoritarian king; (5) widow/dependent and independent supreme ruler. She reconciled these seemingly contradictory identities into a coherent public persona without fragmenting into inconsistency, as evidenced by the sophisticated iconographic program that fluidly shifted between masculine and feminine representations."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)",
+              "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hatshepsut prepared extensively for death through her mortuary temple and multiple tomb preparations (she began a tomb in the Valley of the Queens before commissioning KV20 in the Valley of the Kings, incorporating her father's reburial). The elaborate theological program of Deir el-Bahri shows intentional, sustained engagement with mortality and afterlife. However, this was normative for Egyptian pharaohs, and we lack specific evidence of personal composure facing imminent death, which would be required for a 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Hawass et al., 'Ancestry and Pathology in King Tutankhamun's Family,' JAMA (2010)",
+              "Cooney, *The Woman Who Would Be King* (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hatshepsut functioned as pharaoh for ~20 years, which included physically demanding ritual duties (temple ceremonies, processions, sed-festival preparations). However, the mummy tentatively identified as hers (KV60, identified by Hawass et al. 2007) shows evidence of obesity, a severe dental abscess, and possibly bone cancer or metastatic disease. No specific physical feats are documented. The score reflects baseline physical functioning over a long reign without evidence of notable endurance."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)",
+              "Naville, *The Temple of Deir el-Bahari* (1894–1908)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Her patronage produced some of the finest art of the New Kingdom. The Punt expedition reliefs at Deir el-Bahri show detailed, loving attention to exotic flora and fauna, and she had myrrh trees transplanted to terraced gardens at her temple—a botanical interest that suggests genuine aesthetic delight. The sheer quality demanded in her monuments goes beyond political necessity. However, separating personal aesthetic joy from instrumental political display is difficult given the nature of pharaonic sources, preventing a score of 3."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.78,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Hatshepsut",
+      "overall": {
+        "Core_5D_Avg": 6.78,
+        "Overall_Normalized_Equal_Avg": 6.32,
+        "General_Competency_Avg_10scale": 4.0
+      },
+      "summary": "Hatshepsut excelled cognitively—her strategic seizure and 20-year retention of pharaonic power, innovative architecture at Deir el-Bahri, and effective administration mark her among the strongest rulers of the New Kingdom. Moral-affective scores are tempered by hagiographic royal sources that obscure personal compassion and growth. Culturally, she was a transformative leader and institution-builder whose legacy was partially suppressed by damnatio memoriae. Embodied-existential strength centers on paradox integration—woman-king, builder-warrior, mother-sovereign. Relational evidence is thin due to source limitations. Heinlein breadth is constrained by her elite social position and the monumental nature of surviving sources.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.2,
+          "General_Competency_Avg_10scale": 4.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal culinary skill. As pharaoh, she would have had cooks and food preparers. No sources describe her preparing food."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)",
+            "Redford, *Egypt, Canaan, and Israel in Ancient Times* (1992)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Some evidence of military campaigns in Nubia, and her inscriptions claim military accomplishments. Thutmose III's later military genius may have been partly nurtured during her co-regency. However, she was not primarily a warrior-pharaoh, and no personal combat skills are documented. She maintained Egypt's military capacity and border security effectively."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Cooney, *The Woman Who Would Be King* (2014)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hatshepsut raised or oversaw the upbringing of her daughter Neferure and served as regent for the child Thutmose III, implying caregiving responsibilities. However, specific caregiving behaviors are not documented beyond these structural roles, and royal children were primarily raised by nurses and tutors."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Her elaborate preparation for death—commissioning KV20, designing the theological program of Deir el-Bahri, arranging her father's reburial alongside her own planned interment—shows sustained, intentional engagement with mortality. The coherence and grandeur of her mortuary preparations suggest existential composure rather than anxiety. However, we lack evidence of composure in the face of imminent personal death."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal manual craft or repair skills. As a member of the royal family from birth, she would have had artisans and servants for all such tasks."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Hatshepsut dispatched the Punt expedition under Nehesi's command but did not personally navigate or lead the journey. No evidence of personal navigation or wayfinding skills survives."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Hatshepsut personally processed animals or food. As pharaoh, she would have had servants for all such tasks. The Punt reliefs depict exotic animals being transported but by expedition members, not by her personally."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Cooney, *The Woman Who Would Be King* (2014)",
+            "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Exceptional leadership for ~20 years across crisis and stability. She also demonstrated followership capacity during her earlier period as Great Royal Wife to Thutmose II and during her initial regency, working within existing institutional structures before gradually expanding her authority. Her management of officials like Senenmut shows ability to both delegate and direct effectively."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "While Hatshepsut directed some of the most ambitious construction projects of the New Kingdom—Deir el-Bahri, the Red Chapel at Karnak, and massive obelisks—she was patron and commissioner rather than builder. Her inscriptions suggest active involvement in design decisions (e.g., specifying electrum capping for obelisks), showing meaningful engagement with construction processes, but no personal building skill is documented."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)",
+            "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Planned and executed the Punt trading expedition (a complex logistical operation involving fleet construction, personnel coordination, and diplomatic protocols), directed simultaneous massive building programs across Egypt, and orchestrated her own gradual assumption of pharaonic power over several years. She adapted her legitimation strategy multiple times in response to changing circumstances."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)",
+            "Laboury (2014)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Hatshepsut's reign produced some of the finest art of the New Kingdom. She personally directed innovative iconographic programs—the divine birth narrative, the Punt reliefs, and the fluid masculine-feminine representations of her person. The myrrh gardens at Deir el-Bahri reflect botanical-aesthetic interests. While she was patron rather than executant, her aesthetic direction was decisive and era-normalized for a ruler, this represents exceptional artistic engagement."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal medical knowledge or emergency response capability. Egyptian pharaohs had court physicians for medical matters."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Managing Egypt's economy, directing massive building programs, and organizing the Punt expedition all required analytical reasoning. However, no specific evidence of personal mathematical or accounting skill survives. Egyptian pharaohs had scribes and administrators for quantitative work, and we cannot attribute analytical achievements specifically to her personal abilities."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Breasted, *Ancient Records of Egypt*, vol. 2",
+            "Tyldesley, *Hatchepsut: The Female Pharaoh* (1996)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Punt expedition brought back valuable resources including myrrh, ebony, gold, and exotic animals, demonstrating successful resource management. Her reign was marked by economic prosperity. She managed the transplantation of myrrh trees to Egyptian soil—a sophisticated resource management project. Egypt's agricultural systems functioned well under her administration."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Roehrig (ed.), *Hatshepsut: From Queen to Pharaoh* (2005)",
+            "Naville, *The Temple of Deir el-Bahari* (1894–1908)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The transport and erection of her massive obelisks at Karnak—among the largest ever created at that time—required cutting-edge engineering solutions. The construction of Deir el-Bahri on a challenging hillside site demanded sophisticated technical problem-solving. While she directed rather than personally engineered, her reign pushed the boundaries of contemporary technical capability, and her close involvement in these projects is attested by inscriptions."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.78,
+    "general_competency_avg_0_10": 4.0,
+    "overall_normalized_equal_avg_0_10": 6.32,
+    "created_at": "2026-03-22T23:16:22.664Z",
+    "updated_at": "2026-03-22T23:16:22.685Z"
+  }
+}
+]

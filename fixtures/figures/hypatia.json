@@ -1,0 +1,387 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 151,
+  "fields": {
+    "name": "Hypatia",
+    "slug": "hypatia",
+    "bio_short": "Hypatia was an exceptional intellectual leader and enduring cultural symbol whose mathematical and philosophical contributions, though largely lost, established her as the foremost female scholar of antiquity. Her strongest traits are archetype resonance and leadership—she remains a defining symbol of intellectual courage and gender transcendence. Her deliberate celibacy and the destruction of most of her works leave significant gaps in relational and practical competency assessment. Her murder by a Christian mob in 415 CE cemented her legacy as a martyr for reason. Limited and partly hagiogra",
+    "bio_long": "Hypatia was a Neoplatonist philosopher, astronomer, and mathematician who lived in Alexandria, at that time in the province of Egypt and a major city of the Roman Empire. In Alexandria, Hypatia was a prominent thinker who taught subjects including philosophy and astronomy, and in her lifetime was renowned as a great teacher and a wise counselor. Not the only fourth century Alexandrian female mathematician, Hypatia was preceded by Pandrosion. However, Hypatia is the first female mathematician whose life is reasonably well recorded. She wrote a commentary on Diophantus's thirteen-volume Arithmetica, which may survive in part, having been interpolated into Diophantus's original text, and another commentary on Apollonius of Perga's treatise on conic sections, which has not survived. Many modern scholars also believe that Hypatia may have edited the surviving text of Ptolemy's Almagest, based on the title of her father Theon's commentary on Book III of the Almagest.",
+    "source_notes": "https://en.wikipedia.org/wiki/Hypatia",
+    "image": "",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Watts, *Hypatia: The Life and Legend of an Ancient Philosopher* (Oxford, 2017)",
+              "Dzielska, *Hypatia of Alexandria* (Harvard, 1995)",
+              "Socrates Scholasticus, *Ecclesiastical History* VII.15"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hypatia navigated the complex religio-political landscape of late Roman Alexandria for decades, maintaining productive relationships with both pagan intellectuals and Christian leaders like Synesius of Cyrene and prefect Orestes. She adapted her public role as pagan religious tensions escalated after the destruction of the Serapeum (391 CE). However, her inability to foresee or evade the lethal threat from Cyril's partisans in 415 suggests limits, though Watts argues the attack was largely unforeseeable."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Deakin, *Hypatia of Alexandria: Mathematician and Martyr* (Prometheus, 2007)",
+              "Knorr, 'Hypatia's Commentary on the Arithmetica', in *Textual Studies in Ancient and Medieval Geometry* (Birkhäuser, 1989)",
+              "Watts, *Hypatia* (2017), ch. 2"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She authored commentaries on Diophantus's *Arithmetica* and Apollonius's *Conics*, and likely co-edited the surviving text of Ptolemy's *Almagest* with her father Theon. Deakin argues her commentary on Diophantus may have included original solutions and her work on conic sections showed genuine mathematical creativity. However, without surviving original texts, a paradigm shift (Score 3) cannot be demonstrated."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Synesius of Cyrene, *Letters* (esp. Letters 10, 15, 16, 81, 124, 154)",
+              "Watts, *Hypatia* (2017), ch. 3-4",
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 3"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She was a leading Neoplatonist teacher whose philosophical instruction attracted students from across the Mediterranean, including Synesius, who became Bishop of Ptolemais and wrote to her as a philosophical authority. Her philosophical teaching reportedly integrated Plotinian and Iamblichan Neoplatonism. However, none of her original philosophical writings survive independently, making it impossible to assess whether her ideas influenced thinkers beyond her immediate circle in the way Score 3 requires."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Watts, *Hypatia* (2017), ch. 4-5",
+              "Socrates Scholasticus, *Ecclesiastical History* VII.15"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "She successfully managed a prominent philosophical school in Alexandria that attracted elite students, and she was consulted by the prefect Orestes on civic matters. However, her school did not survive her death, and there is no evidence she designed lasting administrative systems or legislation. Her influence was primarily personal and advisory rather than institutional."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Synesius, *Letters*",
+              "Socrates Scholasticus, *Ecclesiastical History* VII.15",
+              "The Suda, entry on Hypatia"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Documented relational modes include: teacher/mentor (to Synesius and others), daughter/student (of Theon), political advisor to authority (Orestes), public figure to citizens (walking through Alexandria engaging strangers), and colleague among philosophers. This demonstrates five modes, though she lacked spousal and parental roles due to her celibacy, and evidence for the subordinate/follower mode is thin beyond her early relationship with Theon."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "The Suda, entry on Hypatia (Upsilon 166)",
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 2"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "The Suda and other sources report that Hypatia remained a virgin and never married, consistent with Neoplatonist ascetic ideals. This was a deliberate philosophical choice rather than a failure, but it means the trait is inapplicable—there are no intimate partnerships to evaluate."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Synesius of Cyrene, *Letters* (esp. 10, 15, 16, 81, 124, 154)",
+              "Watts, *Hypatia* (2017), ch. 3-4",
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 3"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Her most famous student, Synesius of Cyrene, became Bishop of Ptolemais and a notable independent thinker who wrote philosophical hymns and political works. His letters to Hypatia show deep intellectual respect alongside genuine autonomy—he became a Christian leader despite her paganism, demonstrating independent development rather than replication. Other known students (Heraclius, Olympius) also achieved civic prominence. However, detailed evidence of her specific pedagogical methods is limited."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 5 (on reception history)",
+              "Watts, *Hypatia* (2017), ch. 7-8",
+              "Gibbon, *Decline and Fall of the Roman Empire*, ch. 47"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Hypatia's legacy as a symbol of intellectual freedom has endured for over 1,600 years. Voltaire, Gibbon, and Charles Kingsley all invoked her story. She remains a feminist icon and symbol of secular rationalism. However, her specific scholarly contributions (mathematical commentaries) did not have the lasting direct intellectual impact of, say, Euclid or Ptolemy. Her legacy is primarily symbolic rather than substantive in its long-term cultural effects."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 5",
+              "Watts, *Hypatia* (2017), epilogue",
+              "Kingsley, *Hypatia, or New Foes with an Old Face* (1853)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hypatia is the defining archetype of the persecuted intellectual and the female scholar martyred by religious fanaticism. She is recognized across Western civilization and increasingly globally—referenced by Enlightenment philosophes, 19th-century novelists (Kingsley's *Hypatia*), and modern popular culture (the 2009 film *Agora*). Her symbolic resonance transcends her own Neoplatonist tradition, serving as an icon for rationalism, feminism, and academic freedom across cultural boundaries."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Watts, *Hypatia* (2017), ch. 6",
+              "Watts, *City and School in Late Antique Athens and Alexandria* (University of California Press, 2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "She maintained and likely expanded the Neoplatonist philosophical school in Alexandria that she inherited from her father Theon. However, the school did not survive her murder in 415 CE, failing the Score 3 criterion of surviving at least two generations. Alexandrian Neoplatonism continued through other channels (e.g., Hierocles), but not through an institution directly traceable to her."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Socrates Scholasticus, *Ecclesiastical History* VII.15",
+              "Watts, *Hypatia* (2017), ch. 4-5",
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 3"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "She led a major philosophical school that attracted students from across the eastern Mediterranean, including future bishops and civic leaders. Simultaneously, she served as a trusted political advisor to the Roman prefect Orestes during the dangerous Cyril-Orestes conflict. Socrates Scholasticus reports that political leaders regularly visited her for counsel. This demonstrates leadership across qualitatively different contexts: intellectual (school headship), political (civic advising during crisis), and public (engaging citizens across religious lines)."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "The Suda, entry on Hypatia (Upsilon 166)",
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 2"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Suda reports she walked publicly through Alexandria in her philosopher's cloak, engaging with ordinary citizens. However, specific evidence of mundane everyday activities—cooking, humor with children, manual labor—is absent from the record. Her public image, even in sympathetic sources, is elevated and philosophical rather than homely. The anti-halo rule prevents inflating this based on her fame in other domains."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Socrates Scholasticus, *Ecclesiastical History* VII.15",
+              "Watts, *Hypatia* (2017), ch. 4",
+              "Synesius, *Letters*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She taught students regardless of religious affiliation—her most famous student, Synesius, was a Christian who became a bishop, while she remained a pagan Neoplatonist. Socrates Scholasticus reports she was consulted by magistrates for her wisdom and fairness. She reportedly counseled Orestes toward moderation in his conflict with Cyril. However, specific documented cases of ruling against personal or group interest are not preserved."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "The Suda, entry on Hypatia (Upsilon 166)",
+              "Synesius, *Letters*",
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 2"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Suda records that she was publicly accessible, walking through the city and engaging with anyone who wished to discuss philosophy—suggesting openness. Synesius's letters reflect warm personal bonds. However, specific documented acts of compassion toward adversaries or outgroup members are not preserved in the record, precluding a higher score."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Socrates Scholasticus, *Ecclesiastical History* VII.15",
+              "Watts, *Hypatia* (2017), ch. 5-6",
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 4"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She continued to teach and appear publicly as a pagan female philosopher in Alexandria for over two decades as anti-pagan violence escalated, including through the destruction of the Serapeum (391 CE). She refused to flee or convert to Christianity despite the clear political danger posed by her alliance with Orestes against Bishop Cyril. Her sustained public presence over years in a hostile environment demonstrates courage, though the specific documentation of distinct high-stakes confrontations (beyond the final attack) is limited."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 1 (on source hagiography)",
+              "Watts, *Hypatia* (2017), ch. 7 (on legend formation)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The surviving sources present Hypatia in idealized terms—the Suda, Socrates Scholasticus, and Damascius all portray her as a paragon. Per the rubric, figures whose traditions sanitize them should be capped at 1 unless independent evidence of moral error and correction exists. No such evidence is available. This score reflects source limitation, not necessarily an absence of the trait."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Watts, *Hypatia* (2017), ch. 5-6",
+              "Socrates Scholasticus, *Ecclesiastical History* VII.15"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She functioned effectively through a prolonged period of escalating anti-pagan violence in Alexandria, including the traumatic destruction of the Serapeum (391 CE) and the loss of its scholarly resources, and the increasingly hostile political climate under Bishop Cyril. She maintained her public teaching role and political influence throughout, representing effective functioning under sustained political-religious adversity that threatened her livelihood and life."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Synesius, *Letters*",
+              "Socrates Scholasticus, *Ecclesiastical History* VII.15",
+              "Watts, *Hypatia* (2017), ch. 3-5"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She coherently inhabited several seemingly contradictory roles: (1) a female authority in a patriarchal academic world, (2) a pagan advisor trusted by Christian political leaders, (3) a contemplative Neoplatonist philosopher who was actively engaged in public civic life, and (4) a mathematician bridging empirical and transcendent modes of thought. Synesius's letters and Socrates's account confirm she moved fluidly across these roles. However, the depth of evidence for how she personally experienced and integrated these tensions is limited."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Watts, *Hypatia* (2017), ch. 6",
+              "Socrates Scholasticus, *Ecclesiastical History* VII.15"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "She did not flee Alexandria despite evident danger, which could indicate acceptance of risk and mortality. However, Watts argues she may not have fully appreciated the lethal threat until it was too late. No source documents her composure or intentionality in the face of her own imminent death during the attack itself. Score 3 requires documented composure before one's own death, which is absent."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Watts, *Hypatia* (2017)",
+              "Dzielska, *Hypatia of Alexandria* (1995)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No credible evidence documents notable physical feats, athletic ability, or endurance beyond ordinary daily life. She maintained an active public teaching life into her later years, but this is baseline rather than exceptional. The anti-halo rule requires that her intellectual distinction not inflate this unrelated domain."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Synesius of Cyrene, *Letters*",
+              "Dzielska, *Hypatia of Alexandria* (1995), ch. 2"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Synesius's letters suggest genuine intellectual joy and warmth in their philosophical exchanges, and Neoplatonism itself values beauty as a path to the divine. However, specific evidence of non-instrumental play, humor, or aesthetic enjoyment—as distinct from philosophical or pedagogical purposes—is not well documented in the surviving sources."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 4.44,
+          "Core_5D_Avg": 5.19,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 4.0
+        }
+      },
+      "figure": "Hypatia of Alexandria",
+      "overall": {
+        "Core_5D_Avg": 5.19,
+        "Overall_Normalized_Equal_Avg": 4.81,
+        "General_Competency_Avg_10scale": 2.89
+      },
+      "summary": "Hypatia was an exceptional intellectual leader and enduring cultural symbol whose mathematical and philosophical contributions, though largely lost, established her as the foremost female scholar of antiquity. Her strongest traits are archetype resonance and leadership—she remains a defining symbol of intellectual courage and gender transcendence. Her deliberate celibacy and the destruction of most of her works leave significant gaps in relational and practical competency assessment. Her murder by a Christian mob in 415 CE cemented her legacy as a martyr for reason. Limited and partly hagiographic sources constrain confidence across many domains, though modern critical scholarship by Watts, Dzielska, and Deakin provides substantial corroboration for key traits.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.87,
+          "General_Competency_Avg_10scale": 2.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of culinary skill exists in the historical record. As an elite philosopher, she may have had servants handle food preparation, but this is speculation without documentation."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of combat training, martial skill, or physical self-defense capability. Her murder by a mob underscores the absence of this capacity, though this is not a fair basis for negative scoring—there is simply no evidence either way."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Synesius, *Letters*",
+            "The Suda, entry on Hypatia"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Synesius's letters suggest emotional care within the teacher-student relationship, and the Suda notes her public accessibility. However, specific evidence of physical caregiving or nurture across the lifespan is absent; her care was intellectual and advisory rather than encompassing the full range of caregiving."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Watts, *Hypatia* (2017), ch. 6",
+            "Socrates Scholasticus, *Ecclesiastical History* VII.15"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Her refusal to flee Alexandria despite escalating danger suggests some degree of existential composure, consistent with Neoplatonist philosophical training. However, no source documents her specific demeanor during the final crisis, and Watts suggests she may not have fully appreciated the lethal threat, complicating the interpretation of her staying as composure rather than misjudgment."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Synesius, *Letter 15*",
+            "Deakin, *Hypatia of Alexandria* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The request from Synesius for her to construct a hydroscope implies some manual craft skill in instrument-making. However, whether she personally fabricated instruments or directed their construction by artisans is unclear, and no other manual craft evidence exists."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Watts, *Hypatia* (2017)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of travel beyond Alexandria or navigation skill. She is not documented as having undertaken significant journeys or guided others across terrain. Her astronomical knowledge was theoretical rather than applied to navigation."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of competence in animal husbandry, butchering, or food processing exists in the historical record for Hypatia."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Socrates Scholasticus, *Ecclesiastical History* VII.15",
+            "Watts, *Hypatia* (2017), ch. 3-5"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "She led a major philosophical school effectively for years and commanded the respect of political leaders. She also demonstrated followership in her early career under her father Theon's tutelage, and operated within the political framework of Roman Alexandria by advising rather than usurping the prefect's authority. This shows both giving and taking direction."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Synesius, *Letter 15*",
+            "The Suda, entry on Hypatia",
+            "Deakin, *Hypatia of Alexandria* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Synesius wrote to Hypatia requesting she construct a hydroscope (hydrometer) for him, suggesting she had practical skill in fabricating scientific instruments. The Suda also attributes to her work on astrolabes. However, the extent of her fabrication skills versus theoretical design knowledge is uncertain."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Socrates Scholasticus, *Ecclesiastical History* VII.15",
+            "Watts, *Hypatia* (2017), ch. 5"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She managed a philosophical school and advised the prefect Orestes on political strategy during his conflict with Bishop Cyril. However, she was an advisor rather than a commander, and her school's operations, while sustained, did not involve the complexity of military or large-scale logistical planning."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "The Suda, entry on Hypatia",
+            "Dzielska, *Hypatia of Alexandria* (1995), ch. 2"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Her public philosophical lectures were reportedly eloquent and drew large audiences, suggesting rhetorical artistry. However, she is not known to have produced works of art, poetry, music, or literature beyond scholarly commentaries. Her cultural expression was primarily intellectual and pedagogical."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists of medical knowledge or emergency response capability. While educated elites in late antiquity sometimes had basic medical knowledge, no specific documentation links Hypatia to medical practice."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Deakin, *Hypatia of Alexandria: Mathematician and Martyr* (2007)",
+            "Knorr, 'Hypatia's Commentary on the Arithmetica' in *Textual Studies in Ancient and Medieval Geometry* (1989)",
+            "Watts, *Hypatia* (2017), ch. 2"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "She authored commentaries on Diophantus's *Arithmetica* (covering algebraic equations) and Apollonius's *Conics* (advanced geometry), and likely co-edited Ptolemy's *Almagest* (astronomical computation). This represents mastery across the major branches of ancient mathematics—arithmetic, geometry, and mathematical astronomy—placing her at the pinnacle of mathematical competence in her era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of agricultural activity or natural resource management exists for Hypatia. She lived as an urban intellectual in Alexandria."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Deakin, *Hypatia of Alexandria* (2007)",
+            "Synesius, *Letter 15*",
+            "Watts, *Hypatia* (2017), ch. 2"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Her mathematical commentaries required engagement with the most advanced technical systems of her era—Ptolemaic astronomical models, Diophantine algebra, and Apollonian conic section theory. The possible construction of scientific instruments (hydroscope, astrolabe) demonstrates applied technical skill. She worked at the cutting edge of ancient mathematical technology."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.19,
+    "general_competency_avg_0_10": 2.89,
+    "overall_normalized_equal_avg_0_10": 4.81,
+    "created_at": "2026-03-22T19:32:26.520Z",
+    "updated_at": "2026-03-22T19:32:26.520Z"
+  }
+}
+]

@@ -1,0 +1,388 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 184,
+  "fields": {
+    "name": "John Locke",
+    "slug": "john-locke",
+    "bio_short": "A towering philosophical intellect whose empiricism and political liberalism produced paradigm shifts in epistemology and governance, with influence clearly operative centuries later. Strong cognitive scores reflect his defining contributions. Moral-affective scores are tempered by the gap between his universalist principles and his practical complicity in slavery/colonialism. Relational and embodied scores are moderate—he was a lifelong bachelor with chronic ill health but showed genuine mentoring capacity and existential composure. Heinlein competency is narrow: exceptional in intellectual d",
+    "bio_long": "John Locke was an English philosopher and physician, widely regarded as one of the most influential of the Enlightenment thinkers and commonly known as the \"father of liberalism\". His important works include A Letter Concerning Toleration (1689), Two Treatises of Government (1689/90), both published anonymously, and An Essay Concerning Human Understanding (1689/90). His writing on toleration contends that religion is a matter for the individual and that the churches are voluntary associations, ruling out religious coercion and uniformity; these lead to the idea of separation of church and state. His Two Treatises on Government argues for government based on the consent of the governed and the right to revolt against tyrannous government, which has lost consent. The Two Treatises had a direct influence on the language that Thomas Jefferson chose in his drafting the July 1776 Declaration of Independence during the American Revolution.",
+    "source_notes": "https://en.wikipedia.org/wiki/John_Locke",
+    "image": "figures/330px-Godfrey_Kneller_-_Portrait_of_John_Locke_28Hermitage29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Cranston, *John Locke: A Biography* (1957)",
+              "Milton & Milton, 'General Introduction' in *An Essay Concerning Toleration* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Locke navigated dangerous political terrain as advisor to the Earl of Shaftesbury during the Exclusion Crisis, fled to the Netherlands in 1683 to avoid arrest, and timed his return with the Glorious Revolution of 1688. He published his most controversial works anonymously, successfully concealing authorship of the Two Treatises for decades. These show consistent adaptation to political danger, though not the multi-domain strategic brilliance required for a 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Jolley, *Locke: His Philosophical Thought* (1999)",
+              "Laslett, 'Introduction' to *Two Treatises of Government* (1960)",
+              "Ayers, *Locke: Epistemology and Ontology* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Essay Concerning Human Understanding created a paradigm shift in epistemology, replacing rationalist/nativist frameworks with systematic empiricism that defined the trajectory of modern philosophy through Hume and Kant. The Two Treatises replaced divine-right justifications for political authority with consent-based theory. Before Locke, the dominant English political philosophy was Filmerian patriarchalism; after, it was contractarianism. These constitute demonstrable before/after differences attributable to Locke."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Dunn, *The Political Thought of John Locke* (1969)",
+              "Ayers, *Locke: Epistemology and Ontology* (1991)",
+              "Waldron, *God, Locke, and Equality* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Locke articulated the empiricist theory of knowledge (tabula rasa, rejection of innate ideas) in the Essay Concerning Human Understanding, and the theory of natural rights, government by consent, and the right of revolution in the Two Treatises. These principles directly influenced Voltaire, Montesquieu, Jefferson, and the framers of the U.S. Constitution and French Declaration of the Rights of Man—thinkers and movements far beyond his own community and era."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Armitage, 'John Locke, Carolina, and the Two Treatises of Government' (2004)",
+              "Cranston, *John Locke: A Biography* (1957)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Locke served as Secretary to the Lords Proprietors of Carolina (1668-1675), helping draft the Fundamental Constitutions of Carolina (1669). He later served as Commissioner on the Board of Trade (1696-1700), advising on colonial governance and monetary policy during the recoinage crisis. These constitutions were never fully implemented, preventing a score of 3, but his Board of Trade service involved sustained, consequential administrative work."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "de Beer (ed.), *The Correspondence of John Locke* (1976-1989)",
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Cranston, *John Locke: A Biography* (1957)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Locke functioned across multiple relational modes: physician to patients (including Shaftesbury), political subordinate/advisor to Shaftesbury, intellectual friend and correspondent (with Newton, Boyle, Molyneux, Limborch), quasi-domestic partner to Lady Masham, mentor to the young Shaftesbury and Clarke's children, government official on the Board of Trade, and exile navigating foreign social networks. This shows at least five distinct relational modes with qualitatively different behavior in each."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Hutton, 'Damaris Cudworth, Lady Masham: Between Platonism and Enlightenment' (2004)",
+              "Cranston, *John Locke: A Biography* (1957)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Locke never married. His closest intimate relationship was with Damaris Cudworth (Lady Masham), with whom he exchanged philosophical letters and in whose household he lived for the last 13 years of his life (1691-1704). Their relationship showed intellectual companionship and mutual care—she nursed him in his final illness—but it was not a formal partnership, and evidence of emotional depth beyond intellectual friendship is limited though suggestive."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Locke, *Some Thoughts Concerning Education* (1693)",
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Cranston, *John Locke: A Biography* (1957)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Though childless, Locke was deeply invested in the education of others' children: he wrote Some Thoughts Concerning Education (1693) as detailed letters to Edward Clarke about raising his son, and he mentored the young 3rd Earl of Shaftesbury (Anthony Ashley Cooper), who became an important philosopher in his own right—demonstrating that his mentee developed genuine intellectual autonomy. His educational philosophy emphasized developing independent reasoning rather than rote obedience."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Dunn, *The Political Thought of John Locke* (1969)",
+              "Laslett, 'Introduction' to *Two Treatises of Government* (1960)",
+              "Ayers, *Locke: Epistemology and Ontology* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Locke's ideas are clearly operative more than 300 years later across multiple civilizations. The Two Treatises directly influenced Jefferson's Declaration of Independence (1776) and the U.S. Constitution. His empiricism shaped the entire trajectory of Western philosophy through Hume, Kant, and into analytic philosophy. His toleration arguments shaped constitutional secularism globally. His influence extends across American, European, and post-colonial political and intellectual traditions."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Dunn, *The Political Thought of John Locke* (1969)",
+              "Woolhouse, *Locke: A Biography* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Locke is widely recognized as the 'father of liberalism' and a foundational Enlightenment thinker, serving as an archetype of the philosopher whose ideas change political reality. He is recognized across Western and post-colonial traditions. However, his archetypal resonance is primarily intellectual/political rather than mythic in the cross-cultural sense—he does not carry the symbolic weight of figures like Socrates, Confucius, or Jesus across diverse cultural traditions."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Armitage, 'John Locke, Carolina, and the Two Treatises' (2004)",
+              "Woolhouse, *Locke: A Biography* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Locke helped draft the Fundamental Constitutions of Carolina (1669), but these were never fully implemented and the colonial government diverged from them. He served on the Board of Trade but did not create it. His ideas were foundational to institutions built by others (American constitutional government, liberal democracies), but he did not personally construct enduring organizations. The indirect institutional impact is immense but the rubric requires direct institution-building."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Cranston, *John Locke: A Biography* (1957)",
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Ashcraft, *Revolutionary Politics and Locke's Two Treatises of Government* (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Locke served as intellectual advisor and physician to the 1st Earl of Shaftesbury, one of the most powerful Whig politicians, influencing policy during the Exclusion Crisis. He later shaped colonial and trade policy on the Board of Trade. However, he was primarily an intellectual influence rather than a direct mobilizer of mass movements—his leadership operated through ideas and advisory roles rather than commanding groups in crisis and stability alike."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "de Beer (ed.), *The Correspondence of John Locke* (1976-1989)",
+              "Woolhouse, *Locke: A Biography* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Locke's correspondence reveals engagement with gardening, health matters, and everyday concerns of friends. His Some Thoughts Concerning Education (1693) shows intimate knowledge of children's daily lives and play. However, documentation of mundane daily activities is limited compared to the philosophical record, and he lived as a relatively private intellectual in aristocratic households rather than in conspicuous engagement with ordinary communal life."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Waldron, *God, Locke, and Equality* (2002)",
+              "Farr, 'Locke, Natural Law, and New World Slavery' (2008)",
+              "Tully, *An Approach to Political Philosophy: Locke in Contexts* (1993)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The Two Treatises articulate a foundational framework of natural rights, consent-based government, and the right of revolution against tyranny. His toleration writings defend minority religious rights against state coercion. However, his involvement in drafting the Carolina constitutions (which included provisions for slavery and hereditary nobility) and his Royal African Company investments represent a significant gap between his philosophical universalism and his practical conduct. Without the slavery counterexample, score would be 3 for world-shaping justice principles; with it proportionally weighed, 2 reflects the real tension. Era normalization notes that anti-slavery sentiment barely existed in 1670s England, but Locke's own principles arguably entailed it."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Farr, 'Locke, Natural Law, and New World Slavery' (2008, Political Theory)",
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Waldron, *God, Locke, and Equality* (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Locke's Letter Concerning Toleration (1689) argues compassionately for the rights of religious dissenters, and as a physician he provided personal medical care to patients including Shaftesbury. However, serious counterexamples exist: he held investments in the Royal African Company (which traded in enslaved persons), helped draft the Carolina constitutions which codified slavery, and explicitly excluded Catholics and atheists from toleration. Without these counterexamples, the score would be 2 for tangible acts of care and philosophical concern for the persecuted; with them given full weight proportional to moral stakes, 1 is appropriate given the severity of complicity in slavery."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Cranston, *John Locke: A Biography* (1957)",
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Marshall, *John Locke: Resistance, Religion, and Responsibility* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Locke remained politically active as Shaftesbury's advisor during the Exclusion Crisis despite real danger of arrest, then endured six years of exile in the Netherlands (1683-1689) under surveillance by English agents. He continued writing his major works during this period. He showed sustained resilience across political persecution and exile, though his strategy was more prudential avoidance (anonymity, flight) than direct confrontation."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Marshall, *John Locke, Toleration, and Early Enlightenment Culture* (2006)",
+              "Milton & Milton (eds.), *An Essay Concerning Toleration and Other Writings on Law and Politics* (2006)",
+              "Woolhouse, *Locke: A Biography* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Locke demonstrably reversed his position on religious toleration: his early Two Tracts on Government (1660-1662) argued that the civil magistrate had authority to impose religious uniformity, but by the 1667 Essay Concerning Toleration and definitively in the 1689 Letter Concerning Toleration, he argued the opposite—that religious belief cannot be coerced. This represents a documented, major intellectual reversal with clear behavioral change (from defender of conformity to champion of toleration). His willingness to engage with critics of the Essay in published replies also shows openness to challenge."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Cranston, *John Locke: A Biography* (1957)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Locke endured qualitatively different forms of adversity: political exile in the Netherlands (1683-1689) under surveillance and threat of extradition, and chronic debilitating asthma throughout his later decades. During exile he completed the Essay Concerning Human Understanding and prepared the Two Treatises and Letter Concerning Toleration for publication—maintaining extraordinary intellectual productivity under sustained adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Dunn, *The Political Thought of John Locke* (1969)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Locke inhabited seemingly contradictory roles: empiricist philosopher and practicing physician; theorist of revolution and cautious, anonymous political operator; champion of toleration who served colonial interests; private intellectual who shaped public constitutions; a man of frail health who maintained decades of intense intellectual productivity. He held at least three contradictory roles (philosopher/physician/political actor) coherently, though the tension between his universalist philosophy and colonial involvement was never fully resolved."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Cranston, *John Locke: A Biography* (1957)",
+              "Lady Masham's account in her letter to Jean Le Clerc (1705)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Damaris Masham recorded that Locke faced his death on October 28, 1704 with notable composure and calm acceptance. He prepared his affairs methodically and expressed contentment with his life's work. This represents documented composure in the face of imminent death, though the account comes primarily from a single devoted source."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Woolhouse, *Locke: A Biography* (2007)",
+              "Cranston, *John Locke: A Biography* (1957)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Locke suffered from chronic asthma throughout much of his adult life, which significantly limited his physical capacity and influenced his decision to live at Oates (the Masham estate) for cleaner air. He nonetheless traveled extensively—to France (1675-1679) and the Netherlands (1683-1689)—which required physical endurance by 17th-century standards. His chronic illness prevents a higher score, but era-normalized travel endurance merits 1."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "de Beer (ed.), *The Correspondence of John Locke* (1976-1989)",
+              "Woolhouse, *Locke: A Biography* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Locke's correspondence shows warmth and occasional humor with friends like Damaris Masham and Edward Clarke. His Some Thoughts Concerning Education reveals appreciation for play in child development. He collected books and had interests in gardening. However, evidence of non-instrumental aesthetic engagement is limited—most of his documented interests were intellectual or functional rather than playful or aesthetic for their own sake."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.21,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "John Locke",
+      "overall": {
+        "Core_5D_Avg": 6.21,
+        "Overall_Normalized_Equal_Avg": 5.8,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "A towering philosophical intellect whose empiricism and political liberalism produced paradigm shifts in epistemology and governance, with influence clearly operative centuries later. Strong cognitive scores reflect his defining contributions. Moral-affective scores are tempered by the gap between his universalist principles and his practical complicity in slavery/colonialism. Relational and embodied scores are moderate—he was a lifelong bachelor with chronic ill health but showed genuine mentoring capacity and existential composure. Heinlein competency is narrow: exceptional in intellectual domains but with no evidence of manual, agricultural, culinary, or combat skills.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record of Locke's personal cooking or culinary skills. He lived in aristocratic households where food preparation was handled by servants."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Woolhouse, *Locke: A Biography* (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Locke engaged in combat or military activity. His response to political danger was prudential avoidance (flight, anonymity) rather than physical confrontation."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Woolhouse, *Locke: A Biography* (2007)",
+            "Dewhurst, *John Locke (1632-1704), Physician and Philosopher* (1963)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Locke was a trained physician who provided sustained medical care, most notably supervising the life-saving surgical drainage of Shaftesbury's liver abscess (1668). He lived in the Masham household for 13 years, integrated into family life and caring relationships. His Some Thoughts Concerning Education shows deep understanding of children's developmental needs."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Woolhouse, *Locke: A Biography* (2007)",
+            "Lady Masham, letter to Jean Le Clerc (1705)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Lady Masham's account records that Locke faced his death on October 28, 1704 with calm acceptance and dignity, having prepared his affairs. He lived with chronic asthma for decades without apparent despair, maintaining intellectual productivity. His philosophical work on personal identity (Essay, Book II, Ch. 27) reflects sustained engagement with existential questions."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Locke engaged in manual crafts, tool-making, or mechanical repair. His practical skills were intellectual and medical rather than manual."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Lough (ed.), *Locke's Travels in France 1675-1679* (1953)",
+            "Woolhouse, *Locke: A Biography* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Locke undertook extended international travel to France (1675-1679) and the Netherlands (1683-1689), navigating unfamiliar cities and social networks in foreign countries. His travel journals record observations of routes and places. However, this represents competent travel rather than exceptional navigational skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record that Locke engaged in butchering, animal husbandry, or food processing. His background was academic and professional rather than agricultural."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Woolhouse, *Locke: A Biography* (2007)",
+            "Cranston, *John Locke: A Biography* (1957)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Locke demonstrated both capacities: he served loyally as Shaftesbury's subordinate and secretary for years, deferring to his patron's political leadership, and later served in a leadership capacity as Commissioner on the Board of Trade where he directed colonial policy. He also led intellectual circles through correspondence networks with Limborch, Molyneux, Newton, and others."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Locke engaged in building, construction, or structural fabrication. His career was entirely intellectual and administrative."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Ashcraft, *Revolutionary Politics and Locke's Two Treatises of Government* (1986)",
+            "Woolhouse, *Locke: A Biography* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Locke coordinated complex political and intellectual activities as Shaftesbury's secretary and advisor during the Exclusion Crisis, managed the logistics of exile and clandestine publication from the Netherlands, and served as Commissioner on the Board of Trade overseeing colonial policy. These involved planning under significant constraints and uncertainty."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Ayers, *Locke: Epistemology and Ontology* (1991)",
+            "Woolhouse, *Locke: A Biography* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Locke was a masterful prose stylist; the Essay Concerning Human Understanding and Letter Concerning Toleration are recognized as significant works of English prose as well as philosophy. His writing combined clarity, rhetorical power, and literary elegance. He also engaged with music and visual arts in his correspondence, though his primary creative output was philosophical prose."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Dewhurst, *John Locke (1632-1704), Physician and Philosopher* (1963)",
+            "Woolhouse, *Locke: A Biography* (2007)",
+            "Anstey, *John Locke and Natural Philosophy* (2011)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Locke trained in medicine at Oxford and studied under the pioneering physician Thomas Sydenham, collaborating on clinical observation methods. He supervised the risky surgical drainage of Shaftesbury's liver abscess using a silver tube (1668), which saved Shaftesbury's life. He continued practicing medicine informally throughout his life, representing high medical competence for his era."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Kelly, *Locke on Money* (1991)",
+            "Woolhouse, *Locke: A Biography* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Locke studied mathematics and natural philosophy at Oxford, maintained a close intellectual friendship with Isaac Newton, and was consulted on monetary policy during the 1696 recoinage crisis, writing Some Considerations of the Consequences of the Lowering of Interest and the Raising the Value of Money (1692). His philosophical method in the Essay is rigorously analytical."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Locke personally engaged in farming or agricultural management. While he advised on colonial resource policy through the Board of Trade, this was administrative rather than hands-on agricultural work."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Anstey, *John Locke and Natural Philosophy* (2011)",
+            "Woolhouse, *Locke: A Biography* (2007)",
+            "Kelly, *Locke on Money* (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Locke engaged with cutting-edge natural philosophy of his era: he collaborated with Robert Boyle on experimental science, studied with Thomas Sydenham on clinical medical methods, corresponded with Newton on optics and natural philosophy, and developed empiricist epistemological methods that represented a new systematic approach to knowledge. His engagement with the recoinage problem also involved technical economic reasoning."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.21,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 5.8,
+    "created_at": "2026-03-22T21:51:32.547Z",
+    "updated_at": "2026-03-22T21:51:32.565Z"
+  }
+}
+]

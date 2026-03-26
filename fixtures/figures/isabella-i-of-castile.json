@@ -1,0 +1,373 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 149,
+  "fields": {
+    "name": "Isabella I of Castile",
+    "slug": "isabella-i-of-castile",
+    "bio_short": "Isabella I was an exceptional state-builder and strategic leader whose administrative reforms and military campaigns unified Spain and launched the Spanish Empire. Her cultural-social impact is among the highest in European history, with institutions and consequences that endured for centuries. She showed remarkable hardship tolerance and existential composure through devastating personal losses. However, her moral-affective scores are tempered by the Inquisition and Jewish expulsion, and her ethical-philosophical framework, while coherent, was conventional rather than innovative. Heinlein com",
+    "bio_long": "Isabella I was Queen of Castile and León from 1474 until her death in 1504. She was also Queen of Aragon from 1479 until her death as the wife of King Ferdinand II. Reigning together over a dynastically unified Spain, Isabella and Ferdinand are known as the Catholic Monarchs. Her reign marked the end of the Reconquista and also the start of the Spanish Empire, allowing Spain to dominate European politics for the next century.",
+    "source_notes": "https://en.wikipedia.org/wiki/Isabella_I_of_Castile",
+    "image": "figures/330px-IsabellaofCastile03.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "John Edwards, *The Spain of the Catholic Monarchs, 1474–1520* (2000)",
+              "Felipe Fernández-Armesto, *Ferdinand and Isabella* (1975)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Isabella demonstrated exceptional strategic adaptation across decades. During the War of Castilian Succession (1474–1479), she secured Castile by simultaneously fighting Portugal and neutralizing domestic noble opposition. The 10-year Granada War (1482–1492) required continuous adaptation—shifting from cavalry raids to systematic siege warfare and artillery bombardment when initial approaches stalled. She also strategically arranged dynastic marriages for all five children (to Portugal, Habsburg, and England), creating a diplomatic network that dominated Europe."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "William H. Prescott, *History of the Reign of Ferdinand and Isabella* (1837)",
+              "Peggy Liss, *Isabel the Queen* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Isabella's sponsorship of Columbus's 1492 voyage, after Portugal and Castilian committees rejected the proposal, demonstrated willingness to back unconventional ideas with transformative consequences. She innovated in military logistics—establishing the first major European military field hospitals (hospitales de campaña) during the Granada War—and repurposed the hermandades from local militias into a proto-national police force. These were creative adaptations of existing institutions rather than pure paradigm shifts."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Henry Kamen, *The Spanish Inquisition: A Historical Revision* (1997)",
+              "Peggy Liss, *Isabel the Queen* (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Isabella's moral framework was orthodox late-medieval Catholicism applied with unusual rigor to statecraft. She articulated concern for indigenous peoples' souls and rights in her 1504 testament, and her royal cédulas ordered the return of enslaved Taíno. However, these principles did not represent novel philosophical reasoning—they drew on existing Thomistic natural-law traditions. Her worldview was coherent but conventional for a devout Catholic monarch, and the Inquisition and Jewish expulsion reflect an ethical framework that prioritized religious uniformity over pluralism."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "John Edwards, *The Spain of the Catholic Monarchs, 1474–1520* (2000)",
+              "Tarsicio de Azcona, *Isabel la Católica* (1993)",
+              "Peggy Liss, *Isabel the Queen* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Isabella's administrative reforms transformed Castile from a near-anarchic kingdom into a centralized state. She professionalized the Royal Council (Consejo Real) by replacing nobles with letrados (university-trained lawyers), reformed the currency, codified law in the Laws of Toro (promulgated 1505 but prepared under her), and established the administrative framework for governing the Americas (including the Casa de Contratación, 1503). These systems endured for centuries beyond her death."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "Barbara Weissberger, *Isabel Rules* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Isabella demonstrated qualitatively distinct relational behavior across at least six modes: as sovereign (commanding nobles and administrators with authority), as military commander (directing generals like the Marquis of Cádiz), as wife (negotiating partnership and sovereignty with Ferdinand), as mother (personally educating and arranging children's futures), as supplicant (petitioning Pope Sixtus IV and Alexander VI), and as patron (fostering humanist scholars like Nebrija). She could be imperious with rebellious nobles, collaborative with Ferdinand, nurturing with her children, and diplomatically deferential with the papacy."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "Felipe Fernández-Armesto, *Ferdinand and Isabella* (1975)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Isabella and Ferdinand's marriage (1469–1504) was one of history's most effective political partnerships, characterized by genuine collaboration on governance, military campaigns, and dynastic strategy. Their joint motto 'Tanto monta, monta tanto' expressed a principle of equality. They maintained mutual political respect—Isabella insisted on her independent sovereignty in Castile. However, Ferdinand's documented infidelities (he fathered several illegitimate children) reportedly caused Isabella jealousy and distress. The relationship shows strong partnership during crisis but falls short of full mutuality and emotional availability on Ferdinand's side."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "John Edwards, *The Spain of the Catholic Monarchs* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Isabella invested substantially in her children's education, employing distinguished humanist tutors including Beatriz Galindo, Peter Martyr d'Anghiera, and the Geraldini brothers. Her daughter Catherine of Aragon was noted for exceptional learning and resilience. Isabella personally oversaw educational programs emphasizing classical languages, theology, and statecraft. However, her daughter Joanna's mental health deteriorated, and Isabella's response—restricting Joanna's autonomy rather than supporting it—raises questions. The children's lives were heavily directed by dynastic calculation, limiting genuine autonomy."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Felipe Fernández-Armesto, *Ferdinand and Isabella* (1975)",
+              "Henry Kamen, *Spain's Road to Empire* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Isabella's decisions reshaped the world on a civilizational scale. The sponsorship of Columbus's voyage initiated European colonization of the Americas, with linguistic, demographic, religious, and political consequences still operative across an entire hemisphere 500+ years later. The unification of Spain created the dominant European power of the 16th century. The Inquisition and expulsion reshaped Iberian and Sephardic Jewish history permanently. Over 500 million Spanish speakers today are a downstream consequence of her reign."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Barbara Weissberger, *Isabel Rules: Constructing Queenship, Wielding Power* (2004)",
+              "Peggy Liss, *Isabel the Queen* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Isabella serves as a powerful archetype of the warrior-queen and the female sovereign who exercises authority in her own right. She is a central symbol in Spanish and Latin American national identities and appears in most world history curricula. However, her cross-cultural archetypal recognition is somewhat narrower than figures like Cleopatra, Joan of Arc, or Elizabeth I—she is less frequently invoked as a universal symbol outside the Hispanic and Western European world."
+          },
+          "Institution-Building": {
+            "citations": [
+              "John Edwards, *The Spain of the Catholic Monarchs* (2000)",
+              "Henry Kamen, *Spain's Road to Empire* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Isabella's institutions survived for centuries: the Spanish Inquisition endured until 1834 (over 300 years); the Council of Castile functioned until 1834; the Casa de Contratación (1503) governed Atlantic trade for centuries; the administrative framework for the Americas shaped colonial governance into the 19th century. The hermandades she reformed became a lasting model for rural policing. These institutions maintained recognizable continuity far beyond two generations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "John Edwards, *The Spain of the Catholic Monarchs* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Isabella led successfully across qualitatively different contexts: military crisis (Granada War, War of Succession), institutional reform (peacetime governance restructuring), diplomatic negotiation (marriage alliances, papal relations), and cultural patronage (University of Salamanca, humanist education). She maintained authority as a female sovereign in a patriarchal society, inspiring loyalty from commanders like Gonzalo Fernández de Córdoba and administrators alike. Her ability to command both in war councils and in the detailed management of colonial policy demonstrates exceptional range."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Hernando del Pulgar, *Crónica de los Reyes Católicos*",
+              "Peggy Liss, *Isabel the Queen* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Isabella maintained personal habits throughout her reign: she was known for needlework and textile arts, personal piety including daily prayer routines, and direct involvement in her children's daily education. Pulgar's chronicle describes her attention to domestic details even during military campaigns. She traveled constantly across Castile rather than retreating to a distant court, maintaining contact with ordinary subjects. However, she was always unmistakably royal in bearing, and evidence of truly mundane engagement (cooking, manual labor, casual humor) is limited."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Henry Kamen, *The Spanish Inquisition: A Historical Revision* (1997)",
+              "John Edwards, *The Spain of the Catholic Monarchs* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Isabella's domestic justice reforms were significant: she dispatched corregidores to enforce royal law in cities previously dominated by noble jurisdictions, established the Santa Hermandad to combat rural lawlessness, and strengthened royal courts at the expense of seigneurial privilege—consistently ruling against noble class interests. However, the Inquisition operated with procedural injustices (secret denunciations, torture, confiscation of property) and the Jewish expulsion violated principles of fairness toward a vulnerable minority. Without the Inquisition/expulsion: score 3. With them: score 2. The genuine improvement in ordinary justice is substantially offset by these policies."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Henry Kamen, *The Spanish Inquisition: A Historical Revision* (1997)",
+              "John Edwards, *The Spain of the Catholic Monarchs* (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Isabella established field hospitals during the Granada campaign and showed personal charity toward the poor. She ordered the return of enslaved Taíno people Columbus had brought to Spain (1500 royal cédula), demonstrating concern for outgroup members. However, the establishment of the Inquisition (1478) and the Edict of Expulsion of the Jews (1492), which displaced an estimated 40,000–200,000 people, are massive counterexamples. Without the expulsion/Inquisition: score 2. With them given full weight: score 1. The scale of suffering caused by these deliberate policies—affecting hundreds of thousands—outweighs episodic charitable acts, yielding a final score of 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "Hernando del Pulgar, *Crónica de los Reyes Católicos* (contemporary chronicle)",
+              "John Edwards, *The Spain of the Catholic Monarchs* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Isabella demonstrated sustained courage across multiple high-stakes situations over decades. She defied her half-brother Enrique IV to claim the throne at age 23, survived the War of Castilian Succession, personally traveled to besieged cities during the Granada War (sometimes while pregnant), and faced down rebellious Castilian nobles. After devastating personal losses—the deaths of her son Juan (1497), daughter Isabella (1498), and grandson Miguel (1500)—she continued governing effectively for four more years while also managing the growing instability of her daughter Joanna."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "Barbara Weissberger, *Isabel Rules: Constructing Queenship, Wielding Power* (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Isabella reversed her position on indigenous enslavement, ordering the return of enslaved Taíno and including protections for native peoples in her 1504 testament—a documented behavioral change. However, this is the only clear instance of meaningful moral self-correction. On the Inquisition and expulsion, she showed no subsequent reconsideration. Spanish historiography has largely sanitized Isabella (she has been proposed for beatification since 1958), limiting evidence of acknowledged error. Per the rubric's cap for sanitized traditions, and with only one documented reversal, a score of 1 is appropriate."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "John Edwards, *The Spain of the Catholic Monarchs* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Isabella endured qualitatively distinct forms of adversity while maintaining effective leadership. In her youth, she faced political isolation and potential danger at Enrique IV's court. During the War of Succession (1474–1479), she governed under existential threat to her regime. Most devastatingly, she suffered the sequential deaths of her son Juan (1497), daughter Isabella (1498), and grandson Miguel (1500)—three bereavements in three years—while also confronting her daughter Joanna's apparent mental instability. Through all of this, she continued governing and issuing substantive policy until weeks before her own death in 1504."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Barbara Weissberger, *Isabel Rules: Constructing Queenship, Wielding Power* (2004)",
+              "Peggy Liss, *Isabel the Queen* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Isabella inhabited at least four seemingly contradictory roles without fragmenting: (1) devout, pious woman who spent hours in prayer and (2) ruthless military commander who prosecuted a decade-long war; (3) subordinate wife to Ferdinand in Aragon yet (4) sovereign queen exercising independent authority in Castile ('tanto monta, monta tanto'); (5) tender mother deeply invested in her children's education and (6) harsh enforcer of religious conformity through the Inquisition. She also combined the roles of cultural patron and political power-broker. Contemporary sources note these tensions without suggesting incoherence."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Tarsicio de Azcona, *Isabel la Católica* (1993)",
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "The Testament of Isabella I (1504, primary document)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Isabella faced her own death with documented composure and remarkable intentionality. Her testament of October 12, 1504—dictated while terminally ill—is one of the most detailed royal testaments in European history, addressing succession, colonial governance, indigenous rights, religious policy, personal debts, and charitable bequests. She added a codicil on November 23, just three days before her death on November 26, demonstrating continued clarity and purpose. Contemporary accounts describe her facing death with devotional composure, having received last rites and arranged her affairs with precision."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "Hernando del Pulgar, *Crónica de los Reyes Católicos*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Isabella traveled extensively across Castile on horseback throughout her reign, including to military encampments during the Granada War—sometimes while pregnant (she bore five children between 1470 and 1485 while maintaining active governance). She was present at the siege of Baza (1489) and other military operations. However, her health declined significantly after 1497 (she suffered from what may have been uterine cancer), and evidence of physical endurance is concentrated in her prime years rather than across multiple life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Peggy Liss, *Isabel the Queen* (2004)",
+              "Barbara Weissberger, *Isabel Rules* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Isabella was a genuine patron of arts and learning beyond purely instrumental motives. She amassed a significant collection of Flemish paintings (inventoried after her death with over 200 works), supported music at court, established a substantial personal library, and employed humanist tutors including Beatriz Galindo ('La Latina'). She reportedly enjoyed hunting and courtly entertainments. Some patronage was political, but the scale and personal engagement with her art collection suggests genuine aesthetic appreciation."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 7.78,
+          "Core_5D_Avg": 7.69,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Isabella I of Castile",
+      "overall": {
+        "Core_5D_Avg": 7.69,
+        "Overall_Normalized_Equal_Avg": 7.15,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Isabella I was an exceptional state-builder and strategic leader whose administrative reforms and military campaigns unified Spain and launched the Spanish Empire. Her cultural-social impact is among the highest in European history, with institutions and consequences that endured for centuries. She showed remarkable hardship tolerance and existential composure through devastating personal losses. However, her moral-affective scores are tempered by the Inquisition and Jewish expulsion, and her ethical-philosophical framework, while coherent, was conventional rather than innovative. Heinlein competency breadth is limited by her royal station, which restricted engagement with manual, agricultural, and culinary domains. A paradoxical figure—devout yet ruthless, feminine yet commanding—she remains one of history's most consequential monarchs.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Isabella engaged in food preparation. As queen from a young age, all meals were prepared by royal kitchen staff. No sources mention personal cooking."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Peggy Liss, *Isabel the Queen* (2004)",
+            "Hernando del Pulgar, *Crónica de los Reyes Católicos*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Isabella was present at siege operations during the Granada War and reportedly appeared in armor to inspire troops, but she did not personally engage in combat. She understood military tactics through her role directing the war effort. Era-normalized for a female monarch in the 15th century, her physical presence at military operations was notable but she was not a personal combatant like Joan of Arc."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Peggy Liss, *Isabel the Queen* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Isabella established military field hospitals during the Granada War (the 'Queen's Hospital') and showed concern for her children's welfare, personally overseeing their education and health. However, direct evidence of personal hands-on caregiving is limited—she operated through intermediaries (nurses, tutors, physicians) as was standard for a queen."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Peggy Liss, *Isabel the Queen* (2004)",
+            "The Testament of Isabella I (1504)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Isabella maintained composure through the sequential deaths of her son, daughter, and grandson (1497–1500) while continuing to govern effectively. Her meticulously composed testament and codicil, dictated in her final weeks, demonstrate dignity and self-control in the face of death. She received last rites with reported serenity. This represents strong existential composure across both grief and terminal illness."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Hernando del Pulgar, *Crónica de los Reyes Católicos*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Isabella was documented as skilled in needlework and textile arts, which were expected accomplishments for noblewomen of her era. She reportedly embroidered vestments and clothing. This represents genuine manual craft skill, though limited in scope relative to the full range of this domain."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Peggy Liss, *Isabel the Queen* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Isabella traveled extensively across Castile without a fixed capital, navigating diverse terrain from the meseta to Andalusia. She personally chose routes and encampment sites during the Granada campaign. However, this was overland travel with guides and retinues rather than independent wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Isabella engaged in butchering, animal processing, or food preparation. As a queen from childhood, such tasks would have been performed by household servants."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Peggy Liss, *Isabel the Queen* (2004)",
+            "John Edwards, *The Spain of the Catholic Monarchs* (2000)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Isabella was an exceptional leader across military, administrative, and cultural domains. She also demonstrated followership: she deferred to Ferdinand's authority in Aragon and accepted papal jurisdiction on religious matters, even when it constrained her. She took counsel from advisors like Cardinal Cisneros and Hernando de Talavera, sometimes modifying her positions based on their input. This combination of commanding authority and strategic deference represents the full range of this competency."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "John Edwards, *The Spain of the Catholic Monarchs* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Isabella oversaw the construction of the camp-city of Santa Fe outside Granada (1491), a planned military settlement built in a matter of weeks. She also commissioned fortifications and church construction across reconquered territories. This was supervisory oversight rather than personal construction skill, but era-normalized for a monarch, it demonstrates competence in directing building projects."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "John Edwards, *The Spain of the Catholic Monarchs* (2000)",
+            "Peggy Liss, *Isabel the Queen* (2004)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Isabella co-directed the 10-year Granada campaign (1482–1492), managing military logistics, coordinating multiple armies, and adapting siege strategies. She organized supply lines, recruited troops, and financed the war through innovative fiscal measures including the sale of indulgences. She also planned the political campaign securing her succession in 1474 and managed the complex diplomacy of the War of Succession."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Peggy Liss, *Isabel the Queen* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Isabella was a major patron of the arts—collecting over 200 Flemish paintings, supporting court musicians, and commissioning illuminated manuscripts. She was educated in poetry and music. However, evidence of personal artistic creation (writing poetry, composing, painting) is minimal; her role was primarily as patron and collector rather than creator."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Peggy Liss, *Isabel the Queen* (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Isabella established the 'Queen's Hospital' (hospital de la reina) during the Granada War, organizing medical care for wounded soldiers—an innovation in military medicine for the period. However, there is no evidence she personally treated patients or possessed medical knowledge; her contribution was organizational and financial."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "John Edwards, *The Spain of the Catholic Monarchs* (2000)",
+            "Peggy Liss, *Isabel the Queen* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Isabella managed Castile's royal finances, reformed the currency to stabilize the economy, oversaw complex military budgets for the Granada War, and negotiated the financial terms of Columbus's contract (the Capitulations of Santa Fe, 1492). She established the Casa de Contratación (1503) to systematize Atlantic trade accounting. These demonstrate consistent competence in financial and analytical reasoning."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "John Edwards, *The Spain of the Catholic Monarchs* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Isabella managed crown lands and royal resources, supported the Mesta (sheep-herders' guild) which was central to Castile's wool economy, and oversaw the redistribution of conquered agricultural lands in Granada. This was policy-level resource management rather than personal agricultural knowledge, but demonstrates competence at the level available to a monarch."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "John Edwards, *The Spain of the Catholic Monarchs* (2000)",
+            "Peggy Liss, *Isabel the Queen* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Isabella sponsored the development of heavy artillery for the Granada siege warfare—commissioning innovative bombards that proved decisive at sieges like Málaga (1487) and Baza (1489). She supported Columbus's use of cutting-edge navigation technology and financed the technical infrastructure for Atlantic exploration. She also implemented the printing press for royal propaganda and administrative purposes shortly after its introduction to Spain (1472)."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.69,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 7.15,
+    "created_at": "2026-03-22T19:05:54.582Z",
+    "updated_at": "2026-03-22T19:05:54.600Z"
+  }
+}
+]

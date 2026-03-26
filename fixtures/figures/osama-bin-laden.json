@@ -1,0 +1,388 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 154,
+  "fields": {
+    "name": "Osama bin Laden",
+    "slug": "osama-bin-laden",
+    "bio_short": "A strategically capable but morally catastrophic figure. High scores in leadership, institutional impact, and legacy reflect the undeniable scale of his historical influence—overwhelmingly destructive. Moral-affective scores are near zero due to deliberate mass civilian targeting with no remorse or self-correction. Heinlein competency is narrow: strong in command and existential composure but lacking in most practical domains. His life demonstrates that strategic intelligence and charismatic leadership, uncoupled from compassion and justice, produce world-historical harm rather than human flou",
+    "bio_long": "Osama bin Laden was the founder and first general emir of the al-Qaeda militant organization. A pan-Islamist and Islamic extremist, bin Laden organized and funded numerous jihadist or anti-Western militants and terrorist attacks worldwide. Al-Qaeda's September 11, 2001 attacks (9/11) against the United States directly killed 2,977 victims.",
+    "source_notes": "https://en.wikipedia.org/wiki/Osama_bin_Laden",
+    "image": "figures/330px-Osama_bin_Laden_portrait.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Wright, *The Looming Tower: Al-Qaeda and the Road to 9/11* (2006)",
+              "The 9/11 Commission Report (2004)",
+              "Coll, *Ghost Wars: The Secret History of the CIA, Afghanistan, and Bin Laden* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Planned and executed complex multi-year, multi-continent operations: the 1998 East Africa embassy bombings, the 2000 USS Cole attack, and 9/11, each requiring adaptation to security failures and logistical setbacks. After US cruise missile strikes in August 1998, he dispersed personnel and changed communication protocols. However, his grand strategy arguably backfired—9/11 destroyed his Afghan sanctuary and decimated al-Qaeda's senior leadership, undermining his stated goal of expelling the US from Muslim lands. This mix of tactical brilliance and strategic miscalculation warrants a 2 rather than 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Gerges, *The Far Enemy: Why Jihad Went Global* (2005)",
+              "Bergen, *The Osama bin Laden I Know* (2006)",
+              "Lahoud, *The Bin Laden Papers* (2022)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bin Laden's shift from targeting the 'near enemy' (local apostate governments) to the 'far enemy' (the United States) represented a genuine paradigm shift in jihadist strategy. The operational concept of 9/11—using commercial aircraft as guided missiles—was tactically novel. He also pioneered a decentralized franchise model for al-Qaeda and innovated in using satellite television (particularly al-Jazeera) for recruitment propaganda. These innovations created a clear before/after in asymmetric warfare, though they fell short of score 3 because the franchise model was inconsistently implemented during his lifetime."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Lawrence (ed.), *Messages to the World: The Statements of Osama bin Laden* (2005)",
+              "Hegghammer, *The Caravan: Abdallah Azzam and the Rise of Global Jihad* (2020)",
+              "Gerges, *The Far Enemy: Why Jihad Went Global* (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Bin Laden's 1996 Declaration of War and 1998 fatwa articulated a worldview drawing heavily on Sayyid Qutb and Abdullah Azzam, framing Western military presence in Muslim lands as justifying defensive jihad. His reasoning was largely derivative rather than original and was rejected by the vast majority of Islamic scholars, including conservative ones like the Saudi Grand Mufti. While his arguments influenced subsequent jihadist thinkers, they lacked philosophical depth or internal consistency (e.g., claiming defensive jihad while deliberately targeting uninvolved civilians)."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Lahoud, *The Bin Laden Papers* (2022)",
+              "The 9/11 Commission Report (2004)",
+              "Bergen, *The Osama bin Laden I Know* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Al-Qaeda under bin Laden maintained a surprisingly bureaucratic structure with documented salary records, expense reports, organizational charts, and a shura council, as revealed by captured documents from Afghanistan and Abbottabad. He managed a transnational network spanning dozens of countries with training camps, financial pipelines, and media operations. The franchise model (AQAP, AQIM) survived his death with recognizable continuity. However, the core organization was significantly degraded by US counterterrorism after 2001, and captured documents reveal persistent managerial frustrations and loss of control over affiliates."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Hegghammer, *The Caravan* (2020)",
+              "Wright, *The Looming Tower* (2006)",
+              "Lahoud, *The Bin Laden Papers* (2022)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Bin Laden demonstrably inhabited multiple relational modes: spouse (multiple marriages), parent (many children), subordinate (deferred to Abdullah Azzam in the 1980s, respected Mullah Omar's authority as Taliban leader), superior (commanded al-Qaeda), friend/peer (close relationship with al-Zawahiri), and adversary (the US, the Saudi government). His deference to Mullah Omar while simultaneously leading al-Qaeda shows genuine role flexibility. However, his relational style was heavily mediated by ideology across all modes, limiting true adaptability. Five documented modes with some variation warrants a 2."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Najwa bin Laden, Omar bin Laden, & Sasson, *Growing Up bin Laden* (2009)",
+              "Coll, *The Bin Ladens* (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Bin Laden married at least five women over his lifetime. Some accounts describe affection and concern for his wives. However, his first wife Najwa, in her memoir, describes increasing alienation and eventually left him before 9/11, taking some children—a significant counter-indicator. He subjected his remaining wives to extreme isolation and danger in the Abbottabad compound. His marriages were shaped by an ideology that imposed enormous unilateral burdens on his partners. Without Najwa's departure and the imposed hardship, the affection evidence might warrant a 2; with those counterexamples given full weight, score is 1."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Najwa bin Laden, Omar bin Laden, & Sasson, *Growing Up bin Laden* (2009)",
+              "Lahoud, *The Bin Laden Papers* (2022)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "His son Omar's memoir describes a father who was ideologically rigid, imposed harsh conditions (including forcing children to endure gas-attack training), and prioritized jihad over family welfare. Several of his sons were killed in the conflicts he provoked. Omar ultimately broke with his father and his ideology—an indicator that at least one child developed genuine autonomy, but through rejection rather than mentoring. As a mentor of jihadist leaders, bin Laden promoted ideological conformity rather than independent thinking. Some evidence of warmth with younger children, but the pattern is one of endangerment and indoctrination."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "The 9/11 Commission Report (2004)",
+              "Wright, *The Looming Tower* (2006)",
+              "Burke, *The 9/11 Wars* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The 9/11 attacks fundamentally reshaped global politics: they triggered the US invasions of Afghanistan (2001) and Iraq (2003), the global 'War on Terror,' massive expansion of domestic surveillance (USA PATRIOT Act, Five Eyes expansion), transformation of airport security worldwide, and reshaped immigration and civil liberties debates across Western democracies. These effects remain clearly operative 20+ years later across multiple civilizations. The attacks also catalyzed sectarian conflicts across the Middle East whose consequences continue to unfold. By any measurable standard, the impact is world-historical in scale, though overwhelmingly destructive."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Bergen, *The Osama bin Laden I Know* (2006)",
+              "Burke, *Al-Qaeda: The True Story of Radical Islam* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bin Laden became a globally recognized symbol—the archetypal 'terrorist mastermind' and face of Islamic extremism across virtually all world cultures. His image (the tall bearded figure in a turban with a Kalashnikov) is iconic. However, his archetype is relatively one-dimensional compared to figures with richer mythic resonance; he represents villainy and fanaticism rather than a complex, multivalent symbol that different cultures interpret in varied ways. He is more 'infamous' than 'archetypal' in the deeper sense. Score of 2 reflects global recognition without deep mythic complexity."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Lahoud, *The Bin Laden Papers* (2022)",
+              "The 9/11 Commission Report (2004)",
+              "Gerges, *The Rise and Fall of Al-Qaeda* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Al-Qaeda as an organization survived bin Laden's death in 2011, and its franchise model spawned recognizable offshoots (AQAP, AQIM, al-Shabaab affiliations) that persist today—well beyond two generations of operatives. The organizational template also influenced ISIS's formation. However, the core al-Qaeda organization was significantly degraded during his lifetime through US counterterrorism, and the Abbottabad documents reveal his increasing inability to control affiliates. The institution endured but in a weakened, fragmented form."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Wright, *The Looming Tower* (2006)",
+              "Bergen, *The Osama bin Laden I Know* (2006)",
+              "Hegghammer, *The Caravan* (2020)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bin Laden successfully led across qualitatively different contexts: combat leadership in the Soviet-Afghan War (1980s), organizational leadership building al-Qaeda as a transnational network (1990s), and charismatic-symbolic leadership from hiding as the world's most-wanted fugitive (2001–2011). He mobilized followers from dozens of countries, inspired suicide operatives willing to die, and his video addresses galvanized recruitment globally. His influence extended well beyond direct personal contact—self-radicalized individuals worldwide cited him as inspiration. Few historical figures have commanded such loyalty across such diverse contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Najwa bin Laden, Omar bin Laden, & Sasson, *Growing Up bin Laden* (2009)",
+              "Lahoud, *The Bin Laden Papers* (2022)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Despite his extreme wealth, bin Laden reportedly lived simply: sleeping on the ground, eating dates and bread, avoiding luxury. In the Abbottabad compound, he was described as tending a small garden and spending time with his children and grandchildren. His son Omar's memoir describes some ordinary family moments. However, his lifestyle was fundamentally abnormal—years of hiding in a walled compound, cut off from normal society. This minimal evidence of mundane engagement warrants a 1 but no higher."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Lawrence (ed.), *Messages to the World* (2005)",
+              "Lahoud, *The Bin Laden Papers* (2022)",
+              "Gerges, *The Far Enemy* (2005)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Bin Laden's concept of justice was fundamentally retributive and collective—punishing all American citizens for their government's foreign policy. He applied standards selectively: Muslim civilian casualties from al-Qaeda operations were dismissed as unavoidable, while any Western military action was framed as genocide. No documented case exists of him ruling against his own or his group's interest in favor of impartial principle. His version of justice was rejected as illegitimate by the overwhelming majority of Islamic legal scholars. The Abbottabad documents show concern about affiliate violence against Muslims, but framed in strategic/reputational terms rather than principled justice."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Wright, *The Looming Tower* (2006)",
+              "Lawrence (ed.), *Messages to the World* (2005)",
+              "The 9/11 Commission Report (2004)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Bin Laden orchestrated attacks that deliberately targeted civilians: 9/11 killed 2,977 people; the 1998 embassy bombings killed 224 (mostly Kenyan and Tanzanian civilians). He publicly celebrated these attacks and expressed no remorse, explicitly justifying the killing of American civilians—including women and children—as collective punishment. While some accounts describe personal warmth toward family and followers, the deliberate mass targeting of civilians with zero expressed regret represents a fundamental absence of compassion as scored by this rubric. Without the counterexample of mass civilian targeting, personal warmth might warrant a 1; with it given full weight, the score is 0."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Bergen, *The Osama bin Laden I Know* (2006)",
+              "Coll, *Ghost Wars* (2004)",
+              "Fury, *Kill Bin Laden: A Delta Force Commander's Account of the Hunt for the World's Most Wanted Man* (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Bin Laden left a life of extreme wealth (the bin Laden family fortune) for combat zones. He participated in the Battle of Jaji (1987) against Soviet forces, where he and a small group held positions under artillery bombardment. He survived the massive US bombardment of Tora Bora in December 2001 and escaped. He then spent nearly a decade as the world's most-wanted fugitive, maintaining organizational activity under constant threat. This represents sustained courage across multiple high-stakes situations, though his later years in the Abbottabad compound were characterized more by concealment than active risk-taking."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Lahoud, *The Bin Laden Papers* (2022)",
+              "Bergen, *The Osama bin Laden I Know* (2006)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "No credible evidence exists of bin Laden acknowledging a moral error or reversing a position based on ethical reflection. His positions hardened over time: from anti-Soviet resistance, to targeting the 'far enemy,' to endorsing increasingly indiscriminate violence. The Abbottabad documents reveal pragmatic concern that al-Qaeda affiliates' excessive violence against Muslims was damaging the brand, but these were strategic recalculations rather than moral growth—he never questioned the legitimacy of targeting American civilians. His tradition (jihadist salafism) actively discouraged self-doubt as weakness."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Coll, *The Bin Ladens: An American Saga* (2008)",
+              "Lahoud, *The Bin Laden Papers* (2022)",
+              "Bergen, *Manhunt: The Ten-Year Search for Bin Laden* (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bin Laden endured qualitatively different forms of adversity: material deprivation (voluntarily leaving extreme wealth for cave-dwelling in Afghanistan), personal bereavement (deaths of sons and close associates in combat and drone strikes), political exile (expelled from Saudi Arabia in 1994, then from Sudan in 1996), and years of enforced isolation in Abbottabad. Throughout these hardships, he maintained organizational function, continued issuing directives, and did not abandon his commitments. This meets the threshold of effective functioning across at least two qualitatively different forms of adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Coll, *The Bin Ladens* (2008)",
+              "Wright, *The Looming Tower* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Bin Laden inhabited seemingly contradictory roles: billionaire's son who chose ascetic poverty, devoted family man who orchestrated mass murder, religious devotee who violated core Islamic prohibitions on killing civilians. However, these represent compartmentalization or moral blindness rather than genuine paradox integration. His fundamentalist framework suppressed rather than reconciled these tensions—he did not demonstrate awareness of the contradictions or hold them in productive tension. His worldview was more rigid than integrative."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Bergen, *Manhunt* (2012)",
+              "Owen & Maurer, *No Easy Day* (2012)",
+              "Bergen, *The Osama bin Laden I Know* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Bin Laden's entire post-1996 life was lived under imminent threat of violent death, and he consistently articulated willingness to die as a martyr. At Jaji (1987) and Tora Bora (2001), he reportedly remained calm under bombardment. He chose a life path that made violent death virtually certain. Reports from the May 2011 Abbottabad raid (from SEAL Team Six accounts) indicate he was killed reaching toward weapons rather than surrendering or cowering, consistent with composed acceptance. However, much evidence about his composure comes from hagiographic jihadist sources, warranting some caution."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Bergen, *The Osama bin Laden I Know* (2006)",
+              "Fury, *Kill Bin Laden* (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Bin Laden participated in combat during the Soviet-Afghan War, including the Battle of Jaji (1987), and traveled through harsh Afghan mountain terrain. He reportedly survived the Tora Bora bombardment in December 2001 and escaped through mountainous terrain. However, he suffered from kidney problems and other health issues in later life, and was largely sedentary in the Abbottabad compound. Physical feats are documented only in his youth/middle age, not across multiple life stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Najwa bin Laden, Omar bin Laden, & Sasson, *Growing Up bin Laden* (2009)",
+              "Coll, *The Bin Ladens* (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Bin Laden reportedly appreciated classical Arabic poetry and composed some verse. He had a documented love of horses and horseback riding from his youth. His sons describe some playful moments in family settings. The Abbottabad raid recovered Western media (videos, games), though attribution to him personally is uncertain. The overall picture from multiple sources is of a fundamentally austere, purposive personality for whom recreation was minimal and largely subordinated to his mission."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 4.44,
+          "Core_5D_Avg": 4.79,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 1.67,
+          "Embodied-Existential": 4.67
+        }
+      },
+      "figure": "Osama bin Laden",
+      "overall": {
+        "Core_5D_Avg": 4.79,
+        "Overall_Normalized_Equal_Avg": 4.51,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "A strategically capable but morally catastrophic figure. High scores in leadership, institutional impact, and legacy reflect the undeniable scale of his historical influence—overwhelmingly destructive. Moral-affective scores are near zero due to deliberate mass civilian targeting with no remorse or self-correction. Heinlein competency is narrow: strong in command and existential composure but lacking in most practical domains. His life demonstrates that strategic intelligence and charismatic leadership, uncoupled from compassion and justice, produce world-historical harm rather than human flourishing.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Najwa bin Laden, Omar bin Laden, & Sasson, *Growing Up bin Laden* (2009)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence of bin Laden cooking or preparing meals. Sources consistently describe others preparing food for him, both in his camps and in the Abbottabad compound where wives handled domestic duties."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Bergen, *The Osama bin Laden I Know* (2006)",
+            "Hegghammer, *The Caravan* (2020)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Participated in combat during the Soviet-Afghan War, notably at the Battle of Jaji (1987) where he and a small group held defensive positions against Soviet forces. He reportedly handled weapons and participated in firefights. However, his primary role was as a financier and organizer rather than a skilled combatant, and he had no formal military training. His combat experience was concentrated in a brief period of the 1980s."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Najwa bin Laden, Omar bin Laden, & Sasson, *Growing Up bin Laden* (2009)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Some evidence of care for family members—his sons describe moments of fatherly attention, and he reportedly tended to wounded fighters during the Soviet-Afghan War. However, he simultaneously endangered his family by keeping them in conflict zones and hiding, and his caregiving was subordinated to ideology. Limited and episodic evidence."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Owen & Maurer, *No Easy Day* (2012)",
+            "Bergen, *Manhunt* (2012)",
+            "Bergen, *The Osama bin Laden I Know* (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Bin Laden lived under imminent threat of death for over a decade and maintained functional composure throughout. At Jaji (1987) and Tora Bora (2001), he reportedly remained calm under heavy bombardment. He consistently articulated willingness to die and backed this with life choices that made violent death near-certain. During the May 2011 Abbottabad raid, accounts from SEAL Team Six indicate he did not flee or surrender but was killed in his bedroom. His entire post-9/11 existence demonstrated sustained existential composure under extraordinary threat."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence of bin Laden personally making, fixing, or adapting tools or physical systems. He grew up in extreme wealth with servants and later relied on followers for practical needs. Anti-halo rule applied: leadership and organizational skills do not imply manual competence."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Fury, *Kill Bin Laden* (2008)",
+            "Bergen, *The Osama bin Laden I Know* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Traveled through harsh Afghan mountain terrain during the 1980s war and escaped through the Tora Bora mountain complex in December 2001. However, he relied heavily on local Afghan guides and established networks rather than demonstrating personal navigation expertise. He also traveled between Saudi Arabia, Sudan, and Afghanistan, but via established routes with support."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence in the historical record of bin Laden personally butchering animals or processing food. While he grew up in Saudi Arabia where animal slaughter is culturally common, no specific documented instance exists."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Hegghammer, *The Caravan* (2020)",
+            "Wright, *The Looming Tower* (2006)",
+            "Lahoud, *The Bin Laden Papers* (2022)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Demonstrated effective leadership of a transnational organization commanding loyalty from thousands. Also demonstrated followership: he deferred to Abdullah Azzam's authority in the 1980s Maktab al-Khidamat, and subsequently respected Mullah Omar's authority as Taliban leader, seeking permission for major operations. The Abbottabad documents show him both directing affiliates and deferring to the Taliban's political framework. This dual capacity for giving and taking direction is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Coll, *The Bin Ladens* (2008)",
+            "Bergen, *The Osama bin Laden I Know* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Bin Laden's family owned the Saudi Binladin Group, one of the largest construction companies in the Middle East. During the Soviet-Afghan War, he reportedly used family equipment and expertise to build roads, tunnels, and defensive positions in the Afghan mountains. He studied civil engineering at King Abdulaziz University (though may not have completed the degree). His role was more organizational than hands-on, but he had meaningful familiarity with construction processes."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "The 9/11 Commission Report (2004)",
+            "Lahoud, *The Bin Laden Papers* (2022)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Planned and coordinated complex transnational operations over multiple years: the 9/11 attacks required synchronized hijacking of four aircraft, with operatives embedded in US society for months. The 1998 embassy bombings were near-simultaneous attacks across two countries. He adapted operations after the 1998 cruise missile strikes and managed logistics across Afghanistan, Pakistan, and East Africa. However, the Abbottabad documents reveal significant frustration with loss of operational control after 2001."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Lawrence (ed.), *Messages to the World* (2005)",
+            "Flagg Miller, *The Audacious Ascetic: What the Bin Laden Tapes Reveal About Al-Qa'ida* (2015)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Bin Laden composed poetry in the classical Arabic qasida tradition, including verses about jihad and martyrdom. His video addresses showed attention to rhetorical presentation and symbolic staging. However, he was not primarily a creative figure, and his artistic output was instrumentally tied to his political-religious mission rather than reflecting independent creative achievement."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of bin Laden providing medical treatment or emergency medical response. While battlefield injuries were common in his environment, sources do not attribute medical skills to him personally."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Coll, *The Bin Ladens* (2008)",
+            "The 9/11 Commission Report (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Bin Laden studied civil engineering and economics at King Abdulaziz University, providing foundational analytical training. He managed significant financial operations, including channeling funds from Gulf donors through hawala networks to jihadist operations worldwide. However, no evidence exists of exceptional mathematical or analytical ability beyond basic financial management, and much of the detailed financial work was delegated to others."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Coll, *The Bin Ladens* (2008)",
+            "Bergen, *The Osama bin Laden I Know* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "During his years in Sudan (1991–1996), bin Laden operated agricultural businesses including a large sunflower farm near Damazin and other agricultural ventures. The degree of his personal involvement in agricultural management versus delegation is unclear, but he did oversee these operations. He reportedly tended a small garden in the Abbottabad compound. This warrants a 1 for episodic engagement."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "The 9/11 Commission Report (2004)",
+            "Bergen, *Manhunt* (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Bin Laden adopted satellite phones for communication, adapted to changing surveillance technology by eventually abandoning electronic communications in favor of couriers (a technically informed decision), and oversaw the use of encrypted communications within al-Qaeda networks. His civil engineering background provided some technical foundation. However, he was not personally a technical innovator—he relied on associates like Khalid Sheikh Mohammed and technical specialists for operational planning."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.79,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 4.51,
+    "created_at": "2026-03-22T19:38:01.312Z",
+    "updated_at": "2026-03-22T19:38:01.325Z"
+  }
+}
+]

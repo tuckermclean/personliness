@@ -1,0 +1,380 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 125,
+  "fields": {
+    "name": "Mahatma Gandhi",
+    "slug": "mahatma-gandhi",
+    "bio_short": "Gandhi scores exceptionally in cognitive, cultural-social, and embodied-existential dimensions, reflecting his paradigm-shifting philosophy of nonviolent resistance, extraordinary cross-cultural legacy, and composure facing repeated mortal danger. Moral-affective scores are strong but moderated by counterexamples in justice orientation (early racial views in South Africa) and compassion (damaging treatment of his family). His weakest dimension is relational, where his controlling behavior toward Kasturba and estrangement from son Harilal significantly lower scores despite excellent political m",
+    "bio_long": "Mohandas Karamchand Gandhi was an Indian lawyer, anti-colonial nationalist, and political thinker who employed nonviolent resistance to lead the successful campaign for India's independence from British rule. He inspired movements for civil rights and freedom across the world. The honorific Mahātmā, first applied to him in South Africa in 1914, is used worldwide.",
+    "source_notes": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+    "image": "figures/330px-Mahatma-Gandhi2C_studio2C_1931.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Brown, *Gandhi: Prisoner of Hope* (1989)",
+              "Dalton, *Mahatma Gandhi: Nonviolent Power in Action* (2012)",
+              "Weber, *On the Salt March* (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The 1930 Salt March exemplifies strategic genius: Gandhi chose a universally felt grievance (salt tax), a 240-mile route to build media momentum, and timed civil disobedience to maximize global attention. When the Non-Cooperation Movement turned violent at Chauri Chaura (1922), he called it off and pivoted to a constructive program—demonstrating adaptation when initial plans failed. He repeatedly recalibrated across decades: shifting from petition-based activism in South Africa to mass civil disobedience in India, and launching Quit India (1942) when British wartime weakness created an opening."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Dalton, *Mahatma Gandhi: Nonviolent Power in Action* (2012)",
+              "Hardiman, *Gandhi in His Time and Ours* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Satyagraha as a mass political method constituted a demonstrable paradigm shift: before Gandhi, nonviolent mass resistance was not a recognized strategic approach in anti-colonial politics. After Gandhi, it became a replicable template adopted globally. His innovations were also practical—the charkha (spinning wheel) as both economic resistance and national symbol, the ashram as a political laboratory, and the fast as a political instrument all represented novel fusions of the spiritual and political."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Iyer, *The Moral and Political Thought of Mahatma Gandhi* (1973)",
+              "Gandhi, *Hind Swaraj* (1909)",
+              "Parel (ed.), *Gandhi: Hind Swaraj and Other Writings* (Cambridge, 2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Gandhi synthesized elements from the Bhagavad Gita, Jain ahimsa, Tolstoy's Christian anarchism, Thoreau's civil disobedience, and Ruskin's economic ethics into a coherent philosophy of satyagraha (truth-force). His 'Hind Swaraj' (1909) articulated a systematic critique of Western modernity. These principles directly influenced Martin Luther King Jr., who adopted satyagraha for the American civil rights movement, and Nelson Mandela, Cesar Chavez, and Aung San Suu Kyi—clearly extending beyond his own community and era."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Brown, *Gandhi: Prisoner of Hope* (1989)",
+              "Guha, *Gandhi Before India* (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Gandhi reorganized the Indian National Congress in 1920 from an elite debating society into a mass political organization with village-level committees and a new constitution, enabling it to mobilize millions. He established functional ashram communities (Sabarmati, Sevagram) with detailed governance rules. However, the enduring administrative and legislative architecture of independent India was primarily the work of Nehru, Patel, and Ambedkar. His constructive program institutions (khadi boards, village industries) had mixed long-term survival."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Guha, *Gandhi Before India* (2013)",
+              "Lelyveld, *Great Soul* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Gandhi operated across multiple relational modes: spouse (Kasturba), parent (four sons), mentor (Nehru, Patel), intimate friend (Hermann Kallenbach, C.F. Andrews), adversary (Smuts, British officials, Ambedkar in debate), subordinate (to Gokhale as political guru), superior (as Congress leader), and stranger (accessible to ordinary petitioners). However, scholars note a consistent pattern of moral authority and expectation of adherence across many of these modes, suggesting limited relational adaptability. His friendship with Kallenbach was qualitatively different from his political leadership, but his tendency to moralize across relationships limits the score."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Gandhi, *The Story of My Experiments with Truth* (1927-29)",
+              "Guha, *Gandhi Before India* (2013)",
+              "Lelyveld, *Great Soul* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Gandhi's marriage to Kasturba was complex. In his autobiography he acknowledged being possessively jealous and controlling in early marriage. He unilaterally took a vow of brahmacharya (celibacy) in 1906 without Kasturba's full consent. He was frequently absent for campaigns. However, Kasturba participated in satyagraha, went to prison for the cause, and remained a devoted partner; Gandhi nursed her during her final illness in prison (1944). The relationship contained elements of mutual devotion but the unilateral control over sexuality and repeated absences represent significant deficits in mutuality."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Chhachhi, *Harilal Gandhi: A Life* (2007)",
+              "Guha, *Gandhi: The Years That Changed the World* (2018)",
+              "Gandhi, *The Story of My Experiments with Truth* (1927-29)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Gandhi's political mentoring produced leaders of extraordinary competence—Nehru, Patel, Rajaji, and Azad all developed genuine autonomy under his guidance. However, his parenting of his biological sons was notably damaging: he refused Harilal's education in England (while sponsoring others), imposed rigid expectations, and their estrangement contributed to Harilal's alcoholism and destitution. Sons Manilal and Ramdas served the cause loyally but were not encouraged toward independent development. Without the parenting counterexample (mentoring only): 3; with it given full weight: 1. Final: 1, because the severity and documentation of the Harilal case is overwhelming, and the rubric specifically includes 'dependents.'"
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Dalton, *Mahatma Gandhi: Nonviolent Power in Action* (2012)",
+              "Hardiman, *Gandhi in His Time and Ours* (2003)",
+              "King, *Stride Toward Freedom* (1958)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Gandhi's philosophy of nonviolent resistance directly shaped the American civil rights movement (King explicitly adopted satyagraha), the anti-apartheid struggle (Mandela cited Gandhi), and movements from Solidarity in Poland to Tiananmen Square to the Arab Spring. His influence spans multiple civilizations—South Asian, Western, African, East Asian. While he died only 77 years ago (precluding literal 500-year verification), the cross-civilizational breadth and depth of influence is among the largest of any modern figure, with no signs of diminishing."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Lelyveld, *Great Soul: Mahatma Gandhi and His Struggle with India* (2011)",
+              "Hardiman, *Gandhi in His Time and Ours* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Gandhi is the global archetype of nonviolent resistance—recognized as such across cultures far beyond India. His image (bald head, round spectacles, dhoti) is one of the most universally recognized in the world. He functions as a symbol of peaceful protest in Western, African, East Asian, and Latin American contexts. He appears on Indian currency, has statues on every continent, and is a reference point in political philosophy worldwide. UN International Day of Non-Violence is observed on his birthday."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Brown, *Gandhi: Prisoner of Hope* (1989)",
+              "Hardiman, *Gandhi in His Time and Ours* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Gandhi transformed the Indian National Congress from an elite petition body into a mass political organization (1920 reorganization) that governed India for decades after independence—surviving well beyond two generations with recognizable continuity. He established ashrams (Sabarmati, Sevagram) and institutions like the All India Spinners' Association. However, the Congress evolved far from his vision under Nehru and later leaders, and his constructive program institutions (khadi boards, basic education) had limited endurance. India's constitutional and administrative architecture was primarily Nehru and Ambedkar's work."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Brown, *Gandhi: Prisoner of Hope* (1989)",
+              "Guha, *Gandhi: The Years That Changed the World* (2018)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Gandhi led across qualitatively different contexts: small legal campaigns and the Natal Indian Congress in South Africa, intimate ashram communities of dozens, and mass movements involving tens of millions across India. He led in crisis (Quit India 1942, communal riots 1946-47) and in periods of constructive stability (village industries program, 1934-39). He inspired both illiterate peasants and elite intellectuals like Nehru and Tagore, commanding influence across class, caste, and educational divides."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Fischer, *The Life of Mahatma Gandhi* (1950)",
+              "Bourke-White, *Halfway to Freedom* (1949)",
+              "Gandhi, *The Story of My Experiments with Truth* (1927-29)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At the height of his power, Gandhi lived in ashrams, wore only a hand-spun dhoti, spun cotton daily on his charkha, cleaned latrines, walked barefoot, and cooked simple meals. He was accessible to ordinary villagers and insisted on third-class train travel. He played with children, joked with visitors (his humor was widely noted by journalists like Margaret Bourke-White and Louis Fischer), and maintained the nickname 'Bapu' (father). His engagement with mundane, everyday activities was deliberate and sustained even during negotiations with the Viceroy."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Ambedkar, *What Congress and Gandhi Have Done to the Untouchables* (1945)",
+              "Guha, *Gandhi Before India* (2013)",
+              "Desai, *The Diary of Mahadev Desai* (1953)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Gandhi championed Hindu-Muslim unity at great personal cost, fasting to stop Hindu-on-Muslim violence even when this alienated his Hindu base—a clear case of ruling against group interest for principle. He fought for untouchable rights, renaming them 'Harijans' and admitting them to ashrams over patron objections. However, serious counterexamples exist: his early South African writings contain derogatory remarks about Black Africans, and Ambedkar convincingly argued that Gandhi's caste reformism fell short of the structural abolition needed. Without these counterexamples: 3; with them: 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Gandhi, *The Story of My Experiments with Truth* (1927-29)",
+              "Guha, *Gandhi: The Years That Changed the World* (2018)",
+              "Chhachhi, *Harilal Gandhi: A Life* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Gandhi showed compassion toward adversaries: he maintained personal respect for General Smuts, praised the British character while opposing their rule, and risked his life walking alone through riot-torn Noakhali (1946-47) to protect Muslims from Hindu violence. He nursed plague victims in South Africa and personally cleaned latrines in ashrams. However, a serious counterexample exists: his treatment of his eldest son Harilal—refusing to fund his education, demanding rigid obedience, contributing to Harilal's descent into alcoholism and destitution. Without the family counterexample: 3; with it given full weight: 2. Final score: 2, because the family treatment is well-documented and morally significant."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Brown, *Gandhi: Prisoner of Hope* (1989)",
+              "Dalton, *Mahatma Gandhi: Nonviolent Power in Action* (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Gandhi faced sustained physical danger across decades: beaten by a mob in Durban (1897), imprisoned multiple times in South Africa and India (totaling over six years), led the Salt March knowing arrest was certain, launched Quit India knowing mass repression would follow, and walked into communal riot zones in Noakhali and Calcutta (1946-47) without protection. He undertook life-threatening fasts on multiple occasions. His courage spanned both South Africa (1893-1914) and India (1915-1948), across qualitatively different high-stakes situations."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Gandhi, *The Story of My Experiments with Truth* (1927-29)",
+              "Guha, *Gandhi: The Years That Changed the World* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Gandhi titled his autobiography 'The Story of My Experiments with Truth,' explicitly framing his life as a series of moral experiments with acknowledged failures—including struggles with lust, anger, and dietary obsession. He evolved significantly on caste: from accepting caste categories in South Africa to admitting untouchables into his ashrams and campaigning against untouchability. He acknowledged errors in the Non-Cooperation Movement. However, critics argue he remained rigid on brahmacharya and never fully reckoned with the damage to his sons, limiting the depth of visible behavioral change in some domains."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Brown, *Gandhi: Prisoner of Hope* (1989)",
+              "Guha, *Gandhi: The Years That Changed the World* (2018)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Gandhi endured qualitatively distinct forms of adversity: imprisonment (multiple terms totaling years, in both South Africa and India), material deprivation (chosen but genuine—living without possessions), physical assault (beaten in Durban 1897, attacked multiple times), personal bereavement (deaths of infant children, estrangement from Harilal, Kasturba's death in 1944 while both imprisoned), and the emotional devastation of partition and communal massacres. He functioned effectively through all of these, continuing to lead, write, and negotiate."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Brown, *Gandhi: Prisoner of Hope* (1989)",
+              "Dalton, *Mahatma Gandhi: Nonviolent Power in Action* (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Gandhi inhabited at least five seemingly contradictory roles without fragmenting: (1) ascetic renunciant and shrewd political strategist, (2) devout Hindu and champion of Muslim rights, (3) nationalist leader and universalist philosopher, (4) gentle peacemaker and steely negotiator who broke the British Empire, (5) man who owned nothing yet commanded the loyalty of millions. He wore a loincloth to negotiate with the Viceroy, simultaneously embodying radical simplicity and supreme political authority. Churchill's contempt ('half-naked fakir') unwittingly captured this paradox integration."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Guha, *Gandhi: The Years That Changed the World* (2018)",
+              "Wolpert, *Gandhi's Passion* (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Gandhi faced his own imminent death with documented composure on multiple occasions: he refused bodyguards despite assassination threats, walked unarmed into riot zones, and undertook fasts that brought him to the edge of death. When assassinated by Nathuram Godse on January 30, 1948, witnesses reported he raised his hands in a gesture of blessing and uttered 'Hé Rām' before dying. He had explicitly told associates he wished to die with God's name on his lips. This was not merely philosophical—it was enacted composure in the moment of death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Weber, *On the Salt March* (1997)",
+              "Guha, *Gandhi: The Years That Changed the World* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Gandhi walked 240 miles during the Salt March at age 60, maintained grueling walking tours through Noakhali at age 77, and survived multiple extended fasts (some lasting 21 days) throughout his life. He maintained a rigorous daily schedule of walking, spinning, and prayer into old age. However, he was physically slight and not noted for athletic prowess; his endurance was more ascetic-spiritual than physical-athletic. Documented physical capacity across multiple life stages meets the score-2 threshold."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Fischer, *The Life of Mahatma Gandhi* (1950)",
+              "Bourke-White, *Halfway to Freedom* (1949)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Gandhi had a well-documented sense of humor—visitors like Louis Fischer and Margaret Bourke-White noted his infectious laughter and playful teasing. He enjoyed walking in nature and playing with children. However, his overall orientation was fundamentally ascetic: he deliberately renounced sexual pleasure, most dietary enjoyment, art, music, and leisure activities. He showed little interest in visual arts or literature for their own sake. His humor was genuine but his systematic suppression of aesthetic and sensory pleasure limits this score."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 4.44,
+          "Core_5D_Avg": 7.69,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Mahatma Gandhi",
+      "overall": {
+        "Core_5D_Avg": 7.69,
+        "Overall_Normalized_Equal_Avg": 7.22,
+        "General_Competency_Avg_10scale": 4.89
+      },
+      "summary": "Gandhi scores exceptionally in cognitive, cultural-social, and embodied-existential dimensions, reflecting his paradigm-shifting philosophy of nonviolent resistance, extraordinary cross-cultural legacy, and composure facing repeated mortal danger. Moral-affective scores are strong but moderated by counterexamples in justice orientation (early racial views in South Africa) and compassion (damaging treatment of his family). His weakest dimension is relational, where his controlling behavior toward Kasturba and estrangement from son Harilal significantly lower scores despite excellent political mentoring. Heinlein competency is moderate—exceptional in leadership, strategy, and existential composure but limited in technical, culinary, combat, and construction domains, reflecting his deliberate ascetic orientation away from material versatility. Core 5D Avg: 7.69; Heinlein Avg: 4.89; Overall: 7.22.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.47,
+          "General_Competency_Avg_10scale": 4.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Gandhi, *The Story of My Experiments with Truth* (1927-29)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gandhi was deeply engaged with food—he experimented obsessively with diet throughout his life (raw food, fruitarian, goat milk, various fasting regimes) and prepared food at ashrams. He wrote extensively about diet in his autobiography and in 'The Moral Basis of Vegetarianism.' However, his culinary interest was health/moral-driven rather than oriented toward taste or appeal; he deliberately suppressed culinary pleasure, favoring the plainest possible preparations."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Dalton, *Mahatma Gandhi: Nonviolent Power in Action* (2012)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Gandhi explicitly and categorically rejected physical combat as a method. He had no training in martial arts, weapons, or self-defense. He advocated nonviolent resistance even when physically attacked, instructing followers to accept blows without retaliation. While he operated in combat zones as a stretcher-bearer during the Boer War and Zulu Rebellion, he did not engage in combat himself. His philosophy was the antithesis of combat skill."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Gandhi, *The Story of My Experiments with Truth* (1927-29)",
+            "Guha, *Gandhi Before India* (2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Gandhi nursed plague victims in Johannesburg (1904), personally cared for Kasturba during her final illness in Aga Khan Palace prison (1944), and ran ashram communities where communal caregiving—including cleaning latrines, bathing lepers, and tending the sick—was practiced daily. He comforted the dying and bereaved during communal riots in Noakhali. However, his caregiving could be morally demanding and conditional, particularly toward his family."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Guha, *Gandhi: The Years That Changed the World* (2018)",
+            "Wolpert, *Gandhi's Passion* (2001)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Gandhi faced his own death with extraordinary composure: he refused bodyguards despite credible assassination threats, telling associates he would welcome death if it came. During multiple life-threatening fasts, he remained calm and purposeful. When shot by Godse on January 30, 1948, witnesses reported he folded his hands and uttered 'Hé Rām' before dying—achieving the death he had explicitly said he wished for. His composure extended across decades of mortal risk, not merely the final moment."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Gandhi, *The Story of My Experiments with Truth* (1927-29)",
+            "Guha, *Gandhi Before India* (2013)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Gandhi spun cotton daily on his charkha (spinning wheel) for decades, achieving genuine proficiency—this was not merely symbolic but produced usable thread for cloth. At Tolstoy Farm he learned and practiced sandal-making. He repaired his own possessions and valued manual self-sufficiency. He promoted and practiced manual crafts as central to his constructive program, making this a consistent life practice rather than an occasional activity."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Weber, *On the Salt March* (1997)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gandhi traveled extensively—across oceans to England and South Africa, throughout India by train and on foot. He planned the 240-mile Salt March route through specific villages to maximize political impact. He navigated unfamiliar villages in riot-torn Noakhali on foot. However, there is no evidence of exceptional navigational skill per se; his travel was along known routes and he relied on local guides and infrastructure."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Gandhi, *The Story of My Experiments with Truth* (1927-29)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gandhi kept goats for milk at his ashrams and was deeply involved in food production and diet. He managed ashram food systems and experimented extensively with food preparation and preservation. However, as a committed vegetarian and advocate of ahimsa, he had no experience with animal slaughter or butchering. His knowledge was limited to dairy management and plant-based food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Brown, *Gandhi: Prisoner of Hope* (1989)",
+            "Guha, *Gandhi Before India* (2013)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Gandhi excelled at both poles: he led millions in mass movements and commanded the Indian National Congress, while also demonstrating genuine followership—he deferred to Gopal Krishna Gokhale as his political guru upon returning to India (spending a year listening before acting, as Gokhale advised), submitted to prison authorities, and cooperated with British legal procedures. He could give orders to a subcontinent and take orders from a mentor, demonstrating both capacities at the highest level."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Guha, *Gandhi Before India* (2013)",
+            "Gandhi, *Satyagraha in South Africa* (1928)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "At Tolstoy Farm in South Africa (1910-13), Gandhi participated in manual construction work alongside Hermann Kallenbach, an architect, including building structures and making improvements. He also helped construct facilities at Phoenix Settlement. However, construction was not a significant skill area; his participation was that of an enthusiastic laborer rather than a skilled builder."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Dalton, *Mahatma Gandhi: Nonviolent Power in Action* (2012)",
+            "Weber, *On the Salt March* (1997)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Gandhi planned and commanded complex, multi-stage operations involving millions: the Salt March (1930) required coordinating marchers, media, supply lines, and successor leadership for when leaders were arrested. The Non-Cooperation Movement (1920-22) and Quit India Movement (1942) were subcontinent-wide operations. He adapted plans under pressure—halting Non-Cooperation after Chauri Chaura and shifting to constructive program. He managed the Indian National Congress's organizational machinery while simultaneously leading mass campaigns."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Gandhi, *The Story of My Experiments with Truth* (1927-29)",
+            "Gandhi, *Hind Swaraj* (1909)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Gandhi was a prolific writer: his Collected Works span nearly 100 volumes, including the literary autobiography 'The Story of My Experiments with Truth,' the political treatise 'Hind Swaraj,' and decades of journalism (Indian Opinion, Young India, Harijan). His writing is clear and occasionally powerful. However, he showed little interest in visual arts, music, or performance, and his writing was primarily instrumental—aimed at political and moral persuasion rather than aesthetic creation."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Guha, *Gandhi Before India* (2013)",
+            "Gandhi, *Satyagraha in South Africa* (1928)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Gandhi organized and led the Indian Ambulance Corps during the Boer War (1899-1900) and the Zulu Rebellion (1906), providing stretcher-bearing and first aid under fire. He nursed plague victims in Johannesburg (1904). He practiced naturopathy and nature cures throughout his life. However, he had no formal medical training and his medical interventions were basic—competent first aid and nursing rather than skilled medical treatment."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Guha, *Gandhi Before India* (2013)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gandhi trained as a barrister at the Inner Temple, London, requiring analytical reasoning and logical argumentation. He practiced law in South Africa for over a decade, managing case evidence and legal logic. He managed ashram budgets and the finances of the Indian National Congress. However, there is no evidence of exceptional mathematical or quantitative skill; his analytical abilities were verbal-legal rather than numerical."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Hardiman, *Gandhi in His Time and Ours* (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gandhi established self-sufficient ashram communities that included farming at Sabarmati and Sevagram, and he personally participated in agricultural labor. His constructive program emphasized village self-reliance, crop improvement, and composting. However, he was an advocate and participant rather than a skilled farmer; his agricultural knowledge was practical but not expert, and he relied on others for agricultural management at his ashrams."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Gandhi, *Hind Swaraj* (1909)",
+            "Hardiman, *Gandhi in His Time and Ours* (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Gandhi used the printing press effectively to publish newspapers (Indian Opinion, Young India, Harijan) and promoted the spinning wheel as appropriate village technology. He understood the charkha's mechanical principles well enough to suggest improvements. However, he was famously skeptical of modern technology and industrialization—'Hind Swaraj' is a sustained critique of the machine age. His technical skills were limited to era-appropriate basic technology rather than cutting-edge tools."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.69,
+    "general_competency_avg_0_10": 4.89,
+    "overall_normalized_equal_avg_0_10": 7.22,
+    "created_at": "2026-03-22T08:22:44.858Z",
+    "updated_at": "2026-03-22T08:22:46.560Z"
+  }
+}
+]

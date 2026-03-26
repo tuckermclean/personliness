@@ -1,0 +1,386 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 173,
+  "fields": {
+    "name": "George Washington",
+    "slug": "george-washington",
+    "bio_short": "Washington excels as a leader, institution-builder, and cultural archetype — the indispensable man of American founding. His cognitive and cultural-social scores are near-ceiling, driven by strategic adaptability, administrative precedent-setting, and an impact legacy still operative across civilizations. Moral-affective scores are tempered by the profound counterexample of slaveholding, despite genuine courage and moral growth. Embodied-existential scores are high, reflecting physical endurance, hardship tolerance, and extraordinary composure at death. Heinlein competency is above-average, an",
+    "bio_long": "George Washington was a Founding Father and the first president of the United States, serving from 1789 to 1797. As commander of the Continental Army, Washington led Patriot forces to victory in the American Revolutionary War against the British Empire. He is commonly known as the Father of the Nation for his role in bringing about American independence.",
+    "source_notes": "https://en.wikipedia.org/wiki/George_Washington",
+    "image": "figures/330px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Lengel, *General George Washington: A Military Life* (2005)",
+              "Ellis, *His Excellency: George Washington* (2004)",
+              "Ferling, *The First of Men* (1988)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "After catastrophic defeats at Long Island and New York in 1776, Washington adapted to a Fabian strategy of attrition, then executed the surprise crossing of the Delaware to attack Trenton — saving the Revolution. The Yorktown campaign (1781) required coordinating his army with Rochambeau's French forces and de Grasse's fleet across hundreds of miles, demonstrating multi-domain strategic integration. His Neutrality Proclamation of 1793 navigated between Britain and France when either alignment could have destroyed the young republic."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Chernow, *Washington: A Life* (2010)",
+              "Ellis, *His Excellency: George Washington* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Washington's creation of the cabinet system, his establishment of presidential precedents (the title 'Mr. President,' the two-term norm, the inaugural address), and his voluntary relinquishment of power were genuinely innovative acts of political creativity that shaped democratic governance globally. However, many of these drew on existing Enlightenment thought and classical models (Cincinnatus) rather than representing wholly original paradigm shifts attributable solely to him."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Ellis, *His Excellency: George Washington* (2004)",
+              "Chernow, *Washington: A Life* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Washington was not a systematic philosopher, but his Farewell Address (1796) articulated enduring principles about national unity, the dangers of faction, and foreign entanglement that influenced American political thought for centuries. His Circular to the States (1783) laid out republican principles of governance. His voluntary relinquishment of power enacted Enlightenment ideals of republican virtue more powerfully than any treatise, though the intellectual framework came from others."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Chernow, *Washington: A Life* (2010)",
+              "Freeman, *George Washington: A Biography* (1948-1957)",
+              "Flexner, *Washington: The Indispensable Man* (1974)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Washington managed the Continental Army's logistics under severe resource constraints for eight years, holding together a force plagued by desertions, supply shortages, and congressional dysfunction. As president, he established the executive branch's structure — the cabinet, the federal judiciary via the Judiciary Act of 1789, Treasury operations under Hamilton — systems that have functioned continuously for over 230 years. He also managed Mount Vernon as a complex diversified enterprise with five farms and over 300 enslaved workers."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Chernow, *Washington: A Life* (2010)",
+              "Ellis, *His Excellency: George Washington* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Washington demonstrated qualitatively distinct relational behavior across at least six modes: as spouse (tender, partnership-oriented with Martha), parent/stepparent (attentive to Custis children), mentor (nurturing autonomy in Lafayette and Hamilton), military superior (commanding but delegating), subordinate to civilian authority (deferential to Congress despite its failures), adversary (handled the Conway Cabal and disputes with Charles Lee), and friend (warm correspondence with Henry Knox, deep bond with Lafayette). His relational style shifted demonstrably across these contexts."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Chernow, *Washington: A Life* (2010)",
+              "Brady, *Martha Washington: An American Life* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Washington's 40-year marriage to Martha Custis (1759-1799) showed durable partnership and mutual support. Martha joined him at winter quarters during the Revolution — at Valley Forge, Morristown, and elsewhere — sharing hardships. He raised her two children from her first marriage as his own. Their surviving correspondence shows warmth and affection, though he burned most of their letters. The relationship's possible origins as a strategic match (Martha was the wealthiest widow in Virginia) and his earlier attachment to Sally Fairfax introduce some ambiguity about emotional depth, preventing a score of 3."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Chernow, *Washington: A Life* (2010)",
+              "Unger, *Lafayette* (2002)",
+              "Chernow, *Alexander Hamilton* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Washington mentored the Marquis de Lafayette (who became a leader of the French Revolution), Alexander Hamilton (who became Treasury Secretary and architect of American finance), and other young officers, fostering genuine autonomy and competence. Lafayette called Washington his adoptive father. He raised stepchildren Jacky and Patsy Custis, and later stepgrandchildren Nelly and George Washington Parke Custis. Results were mixed — Jacky Custis was undisciplined, but Lafayette and Hamilton became exceptional leaders in their own right."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Ellis, *His Excellency: George Washington* (2004)",
+              "Chernow, *Washington: A Life* (2010)",
+              "Flexner, *Washington: The Indispensable Man* (1974)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Washington's legacy is inseparable from the existence and character of the United States as a democratic republic, whose political, economic, and cultural influence has shaped global civilization. The precedent of voluntary transfer of power influenced democratic movements worldwide, from Latin America to Europe. His name marks the U.S. capital, a state, and countless institutions. While the 500-year threshold has not yet elapsed, the trajectory of his influence across multiple civilizations is unambiguous and accelerating."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Ellis, *His Excellency: George Washington* (2004)",
+              "Schwartz, *George Washington: The Making of an American Symbol* (1987)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Washington embodies the Cincinnatus archetype — the leader who relinquishes power voluntarily — recognized across Western and global cultures. King George III reportedly said that if Washington resigned his commission, he would be 'the greatest man in the world.' He is recognized as 'Father of His Country' in a pattern shared across civilizations (Atatürk, Bolívar). His symbolic resonance extends well beyond America to any culture grappling with the relationship between military power and democratic governance."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Chernow, *Washington: A Life* (2010)",
+              "Ellis, *His Excellency: George Washington* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Washington's institution-building produced structures of extraordinary durability: the U.S. presidency and its cabinet system, the precedent of civilian control over the military, the two-term norm (later codified in the 22nd Amendment), and the framework of the executive branch. The Continental Army itself was an institutional creation that evolved into the U.S. military. These institutions have functioned continuously for over 230 years with recognizable continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Ellis, *His Excellency: George Washington* (2004)",
+              "Flexner, *Washington: The Indispensable Man* (1974)",
+              "Chernow, *Washington: A Life* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Washington led a poorly supplied volunteer army to victory against the world's greatest military power over eight years (1775-1783), presided over the Constitutional Convention (1787) where his presence was essential to legitimacy, and then established the functioning presidency during peacetime (1789-1797). These represent qualitatively different leadership contexts — military crisis, constitutional founding, and stable governance — and he succeeded in all three. His personal authority held the Continental Army together through near-mutiny and held the young republic together through partisan division."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Chernow, *Washington: A Life* (2010)",
+              "Washington's diaries, *The Diaries of George Washington* (ed. Jackson & Twohig, 1976-1979)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Washington was a hands-on farmer at Mount Vernon who personally directed crop experiments, managed fisheries on the Potomac, and oversaw daily plantation operations. His diaries document attention to mundane agricultural details — weather, crop yields, livestock health — even during his presidency. He enjoyed fox hunting, dancing, card games, and hosting neighbors. However, his famous reserve and dignified public persona, combined with his elite planter status, created genuine distance from ordinary people, preventing a score of 3."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Ellis, *His Excellency: George Washington* (2004)",
+              "Wiencek, *An Imperfect God* (2003)",
+              "Chernow, *Washington: A Life* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Washington's voluntary resignation of military command (1783) and his refusal of a third presidential term were profound acts of principled self-limitation against personal interest, setting precedents for democratic governance. He enforced the Whiskey Rebellion (1794) to uphold federal law impartially and attempted even-handedness in the Hamilton-Jefferson rivalry. Without the slavery counterexample, this would score 3. With it given full weight — he profited from and perpetuated a system of radical injustice to hundreds of people — the score must be reduced. Final: 2, recognizing the genuine structural justice of his political acts alongside the fundamental injustice of slaveholding."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Wiencek, *An Imperfect God: George Washington, His Slaves, and the Creation of America* (2003)",
+              "Chernow, *Washington: A Life* (2010)",
+              "Dunbar, *Never Caught: The Washingtons' Relentless Pursuit of Their Runaway Slave, Ona Judge* (2017)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Washington showed genuine concern for his soldiers' welfare at Valley Forge and ordered humane treatment of Hessian prisoners after Trenton (1776). He adopted Martha's children and later raised stepgrandchildren Nelly and Washy Custis. Without the slavery counterexample, this would score 2. However, he enslaved over 300 people, actively pursued the escaped Ona Judge through legal channels, and used legal maneuvers to rotate enslaved people out of Pennsylvania to circumvent its gradual emancipation law — acts of deliberate cruelty to an outgroup. His will's manumission provision shows late-life compassion but cannot offset a lifetime of exploitation. Final score: 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Lengel, *General George Washington: A Military Life* (2005)",
+              "Chernow, *Washington: A Life* (2010)",
+              "Ellis, *His Excellency: George Washington* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At Braddock's defeat (1755), Washington had two horses shot from under him and four bullet holes in his coat while rallying retreating troops. At Princeton (1777), he rode to the front lines within musket range to rally his men. He sustained moral and psychological courage through the darkest periods of 1776-1778 when the Revolution seemed doomed. He faced down the Newburgh conspiracy (1783) with a personal appeal to his officers, defusing a potential military coup."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Wiencek, *An Imperfect God* (2003)",
+              "Ellis, *His Excellency: George Washington* (2004)",
+              "Chernow, *Washington: A Life* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Washington's views on slavery evolved meaningfully: from unquestioning planter in the 1750s to expressing private doubts by the 1780s (letters to Robert Morris and Lafayette), to the unprecedented step of manumitting his slaves in his 1799 will. He acknowledged the disastrous loss of Fort Washington (1776) and adjusted his military strategy accordingly. He reversed his initial enthusiasm for the French Revolution as events warranted. The growth on slavery, while genuine, was incomplete — he freed slaves only upon death, not during his lifetime when it would have cost him materially."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Chernow, *Washington: A Life* (2010)",
+              "Ellis, *His Excellency: George Washington* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Washington endured prolonged material deprivation during the Revolution — Valley Forge (winter 1777-78), Morristown (winter 1779-80) — while maintaining effective command. He suffered personal bereavements including the death of stepdaughter Patsy Custis (1773), the loss of his father at age 11, and the death of stepson Jacky Custis during the Yorktown campaign (1781). He served as commander-in-chief without pay for eight years, accumulating personal debt. These represent at least two qualitatively different forms of adversity — material and emotional — through which he functioned at a high level."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Ellis, *His Excellency: George Washington* (2004)",
+              "Chernow, *Washington: A Life* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Washington seamlessly inhabited at least four seemingly contradictory roles: (1) warrior and peacemaker — commanding armies then voluntarily surrendering power; (2) ambitious man and self-denying republican — intensely concerned with reputation yet repeatedly stepping away from power; (3) slaveholder and emancipator — profiting from slavery while growing to condemn it and freeing his slaves in his will; (4) aristocratic Virginia planter and champion of democratic self-governance. He maintained coherence across these tensions rather than fragmenting."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Lear, Tobias, account of Washington's death (1799), reprinted in Chernow, *Washington: A Life* (2010)",
+              "Ellis, *His Excellency: George Washington* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Washington's death on December 14, 1799, is one of the best-documented examples of mortality acceptance in the historical record. Suffering from acute epiglottitis, he told his secretary Tobias Lear, 'I find I am going... let me go off quietly; I cannot last long.' He gave instructions for his burial, asked that his papers be organized, and his final recorded words were ''Tis well.' He instructed his physicians to cease treatment, accepting death with composure and intentionality."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Chernow, *Washington: A Life* (2010)",
+              "Lengel, *General George Washington* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Washington was physically imposing at approximately 6'2\" and was widely regarded as the finest horseman of his era. He worked as a frontier surveyor in the Shenandoah Valley (1748-1752), enduring wilderness conditions. He survived smallpox (1751), malaria, dysentery, and numerous camp fevers throughout the Revolution. He remained an active rider and farmer into his sixties. While his dental problems and recurring illnesses prevent a score of 3, his physical capabilities were consistently above average across his lifespan."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Chernow, *Washington: A Life* (2010)",
+              "Washington, *Diaries of George Washington* (ed. Jackson & Twohig, 1976-1979)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Washington took genuine, non-instrumental pleasure in fox hunting (he kept detailed hunting journals), dancing (he was an accomplished and enthusiastic dancer at social gatherings throughout his life), card games, and theater attendance. His extensive renovation of Mount Vernon's gardens and grounds reflected genuine aesthetic sensibility. His diaries record simple pleasures in fishing, riding, and entertaining guests. His famous reserve prevents a score of 3, but the evidence of genuine play is well-documented."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 7.78,
+          "Core_5D_Avg": 8.16,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "George Washington",
+      "overall": {
+        "Core_5D_Avg": 8.16,
+        "Overall_Normalized_Equal_Avg": 7.87,
+        "General_Competency_Avg_10scale": 6.44
+      },
+      "summary": "Washington excels as a leader, institution-builder, and cultural archetype — the indispensable man of American founding. His cognitive and cultural-social scores are near-ceiling, driven by strategic adaptability, administrative precedent-setting, and an impact legacy still operative across civilizations. Moral-affective scores are tempered by the profound counterexample of slaveholding, despite genuine courage and moral growth. Embodied-existential scores are high, reflecting physical endurance, hardship tolerance, and extraordinary composure at death. Heinlein competency is above-average, anchored in farming, command, and existential composure, but limited by thin evidence in manual craft, culinary, and medical domains. A figure of towering public virtue shadowed by private moral contradiction.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.93,
+          "General_Competency_Avg_10scale": 6.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Chernow, *Washington: A Life* (2010)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "There is no documented evidence that Washington personally cooked meals. Mount Vernon's kitchen was staffed by enslaved cooks, most notably Hercules, who was renowned for his culinary skill. Washington appreciated good food and wine and hosted elaborate dinners, but as a consumer and host rather than a preparer. Anti-halo rule applies: his agricultural prowess does not transfer to culinary skill."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Lengel, *General George Washington* (2005)",
+            "Chernow, *Washington: A Life* (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Washington demonstrated personal courage under fire at Braddock's defeat (1755), Princeton (1777), and other engagements. He was an expert horseman who could manage a mount in combat conditions. He was physically powerful and reportedly an imposing physical presence. However, he was not primarily a personal combatant — he was a commander. His tactical record was mixed (defeats at Brandywine, Germantown), though his personal bravery in battle is well-documented."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Chernow, *Washington: A Life* (2010)",
+            "Brady, *Martha Washington: An American Life* (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Washington raised four stepchildren and stepgrandchildren, with Nelly and Washy Custis living in his household at Mount Vernon and the President's House. Martha's account describes him as attentive with children. He personally comforted wounded and dying soldiers during the Revolution, and his general orders frequently addressed troop welfare. He cared for Martha during her illnesses in later years."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Lear, Tobias, account of Washington's death (1799)",
+            "Chernow, *Washington: A Life* (2010)",
+            "Ellis, *His Excellency: George Washington* (2004)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Washington's composure during his final illness (December 14, 1799) is exemplary: he told Lear 'I find I am going... let me go off quietly,' instructed physicians to stop treatment, arranged his affairs, and died with the words ''Tis well.' Beyond his death, he demonstrated existential composure throughout the Revolution's darkest hours — maintaining calm command when defeat seemed certain — and in voluntarily relinquishing power twice (1783 and 1797), acts requiring profound acceptance of mortality and ego-transcendence."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Chernow, *Washington: A Life* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Washington used surveying instruments professionally and was a skilled horseman who maintained his own tack. He was involved in the practical aspects of farming at Mount Vernon. However, he was primarily an overseer and manager rather than a hands-on craftsman; the manual labor on his properties was performed by enslaved workers and hired artisans. No strong evidence of personal repair or fabrication skill."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Chernow, *Washington: A Life* (2010)",
+            "Lengel, *General George Washington* (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Washington worked as a professional surveyor in the Virginia frontier (1748-1752), navigating unmarked wilderness in the Shenandoah Valley and beyond. He led the expedition to Fort Le Boeuf (1753) through hundreds of miles of wilderness in winter conditions. During the Revolution, he navigated the army across varied terrain including the famous nighttime crossing of the ice-choked Delaware River."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Washington, *Diaries of George Washington* (ed. Jackson & Twohig)",
+            "Chernow, *Washington: A Life* (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Washington managed extensive livestock operations at Mount Vernon — cattle, sheep, hogs, and horses — and oversaw a large commercial fishery on the Potomac that harvested and salted thousands of herring and shad annually. He operated a whiskey distillery that processed grain into spirits. His farm diaries detail direct involvement in animal husbandry decisions including breeding programs for mules."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Ellis, *His Excellency: George Washington* (2004)",
+            "Chernow, *Washington: A Life* (2010)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Washington is among history's great exemplars of both leadership and followership. He commanded the Continental Army with authority for eight years and led the nation as president. Equally remarkable, he consistently deferred to Congressional authority even when Congress failed him — accepting civilian supremacy over the military. He followed the Constitution's constraints on presidential power. He took orders effectively as a young Virginia militia officer under Braddock. This dual mastery of command and deference is exceptional."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Dalzell & Dalzell, *George Washington's Mount Vernon* (1998)",
+            "Chernow, *Washington: A Life* (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Washington personally directed the extensive renovation and expansion of Mount Vernon over several decades, including designing the piazza, the cupola, and the two-story addition. He supervised construction of outbuildings, the greenhouse, and the 16-sided treading barn — an innovative design of his own. While he employed craftsmen, his detailed instructions show genuine design competence for his era."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Lengel, *General George Washington: A Military Life* (2005)",
+            "Chernow, *Washington: A Life* (2010)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Washington planned and executed the Trenton-Princeton campaign (1776-1777) under desperate conditions, coordinated the multi-national Yorktown campaign (1781), and sustained an eight-year strategic effort against a superior military power. As president, he managed the Whiskey Rebellion response (1794) and navigated foreign policy crises with Britain and France. His strategic adaptability after repeated defeats marks him as exceptional."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Chernow, *Washington: A Life* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Washington was a patron and consumer of the arts — he attended theater regularly, collected prints, and designed the aesthetic layout of Mount Vernon's grounds and gardens. He wrote competent if not literary prose. However, he produced no significant works of art, music, or literature, and his cultural contributions were primarily as patron and audience rather than creator."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Fenn, *Pox Americana: The Great Smallpox Epidemic of 1775-82* (2001)",
+            "Chernow, *Washington: A Life* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Washington had personal experience with illness management (his own smallpox, malaria) and ordered inoculation of the Continental Army against smallpox in 1777 — a bold public health decision. He dealt with medical emergencies in military contexts. However, there is no evidence he personally practiced medicine or treated injuries; he relied on physicians and surgeons. Era-normalized for an 18th-century commander, basic health decision-making warrants a 1."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Chernow, *Washington: A Life* (2010)",
+            "Washington, *Diaries of George Washington* (ed. Jackson & Twohig)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "As a professional surveyor, Washington applied practical geometry and trigonometry in the field. He maintained detailed financial accounts for Mount Vernon's five-farm operation, tracking expenses, yields, and profits with precision. His military logistics required ongoing calculation of supplies, distances, and force ratios. He lacked formal advanced mathematical education but applied numerical reasoning competently across multiple domains."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Fusonie & Fusonie, *George Washington: Pioneer Farmer* (1998)",
+            "Chernow, *Washington: A Life* (2010)",
+            "Washington's correspondence with Arthur Young"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Washington was one of the most innovative farmers of his era. He shifted Mount Vernon from tobacco monoculture to diversified agriculture including wheat, corn, and flax. He experimented with crop rotation systems, corresponded with the leading British agriculturalist Arthur Young, and imported new seed varieties. He managed fisheries, a distillery, a gristmill, and extensive livestock operations. His agricultural enterprise was sustainable and diversified in ways unusual for Virginia planters of his time."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Chernow, *Washington: A Life* (2010)",
+            "Lengel, *General George Washington* (2005)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Washington's surveying required mastery of the technical instruments and methods of his day. He designed the innovative 16-sided treading barn at Mount Vernon and implemented advanced (for the era) agricultural techniques. He managed the logistical systems of the Continental Army, solving supply-chain problems with limited resources. His decision to inoculate the army against smallpox was a systemic solution to a systemic problem. He engaged with cutting-edge agricultural and engineering knowledge of his era."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.16,
+    "general_competency_avg_0_10": 6.44,
+    "overall_normalized_equal_avg_0_10": 7.87,
+    "created_at": "2026-03-22T21:36:18.698Z",
+    "updated_at": "2026-03-22T21:36:18.717Z"
+  }
+}
+]

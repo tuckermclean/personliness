@@ -1,0 +1,373 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 143,
+  "fields": {
+    "name": "Indira Gandhi",
+    "slug": "indira-gandhi",
+    "bio_short": "Indira Gandhi was a formidable strategic leader defined by extraordinary courage, political dominance, and composure facing her own death, offset by serious moral failings during the Emergency—suspension of civil liberties, forced sterilizations—and institutional damage to Indian democracy. Her 1971 Bangladesh war leadership represents exceptional strategic adaptation; her refusal to remove Sikh bodyguards exemplifies mortality acceptance. Relational life was strained (troubled marriage, problematic mentoring of Sanjay). Heinlein competency is narrow: brilliant at command and leadership but la",
+    "bio_long": "Indira Gandhi was an Indian stateswoman who served as the prime minister of India from 1966 to 1977 and again from 1980 until her assassination in 1984. She was India's first and only female prime minister, and a central figure in Indian politics as the leader of the Indian National Congress (INC). She was the daughter of Jawaharlal Nehru, the first prime minister of India. She was the mother of Rajiv Gandhi, who succeeded her as prime minister. Her cumulative tenure of 15 years and 350 days makes her the second-longest-serving Indian prime minister after her father.",
+    "source_notes": "https://en.wikipedia.org/wiki/Indira_Gandhi",
+    "image": "figures/330px-IndiraGandhi.png",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Raghavan, 1971: A Global History of the Creation of Bangladesh (2013)",
+              "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)",
+              "Guha, India After Gandhi (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The 1971 Bangladesh war is a premier example of strategic adaptation: when diplomatic tours failed to mobilize Western intervention for 10 million refugees, she pivoted to signing the Indo-Soviet Treaty of Friendship (August 1971), timed the military campaign for December when Himalayan passes would block Chinese intervention, and coordinated Mukti Bahini guerrillas with Indian forces for a 13-day victory. After the catastrophic 1977 Emergency defeat, she split Congress, rebuilt her base, and won a landslide in 1980—a textbook recovery. The Emergency itself and Operation Blue Star's consequences represent significant strategic miscalculations, but the rubric requires documented adaptation when plans fail, which she demonstrated repeatedly."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Frankel, India's Political Economy 1947-2004 (2005)",
+              "Perkovich, India's Nuclear Bomb (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The 1969 bank nationalization was a creative political-economic stroke that simultaneously outmaneuvered the Congress Old Guard (the Syndicate) and reshaped Indian banking to serve rural credit. The 'Garibi Hatao' campaign was an innovative populist strategy that redefined Indian electoral politics. India's first nuclear test (Pokhran, 1974) made India the first non-P5 nuclear state. These represent significant innovations but not a paradigm shift attributable primarily to her."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Frank, Indira: The Life of Indira Nehru Gandhi (2001)",
+              "Austin, Working a Democratic Constitution (1999)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Indira Gandhi was a pragmatic politician, not a philosophical thinker. She articulated positions on non-alignment, secularism, and socialism, but these were largely inherited from Nehru and the Congress tradition rather than original contributions. Her 1972 UN Stockholm speech on poverty and environment showed some insight, but her actions during the Emergency (1975-77) directly contradicted her stated democratic principles, undermining any claim to coherent ethical philosophy."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Austin, Working a Democratic Constitution (1999)",
+              "Guha, India After Gandhi (2007)",
+              "Rudolph & Rudolph, In Pursuit of Lakshmi (1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "She effectively centralized administrative control, nationalized banks and insurance (14 banks in 1969), and drove implementation of the Green Revolution and Five Year Plans. However, she systematically weakened institutional independence—undermining the judiciary (supersession of judges in 1973), the civil service, Congress's internal democracy, and state-level autonomy. Her administrative systems functioned under her oversight but the institutional degradation she caused persisted long after, disqualifying a score of 3."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Nehru & Gandhi, Two Alone, Two Together: Letters (2004)",
+              "Frank, Indira: The Life of Indira Nehru Gandhi (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She operated across multiple relational modes: devoted daughter to Nehru (their extensive correspondence is published), mother, political superior, international diplomat, party leader, adversary (to Pakistan, to domestic opposition). She served as subordinate under Lal Bahadur Shastri (1964-66) as Information Minister. Her published correspondence with her father shows a qualitatively different relational mode than her imperious political leadership. However, biographers note a tendency toward controlling behavior across many relationships, suggesting limited adaptability. Five modes are documented (daughter, mother, superior, subordinate, adversary) but her dominant style was often uniform."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Frank, Indira: The Life of Indira Nehru Gandhi (2001)",
+              "Jayakar, Indira Gandhi: An Intimate Biography (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Her marriage to Feroze Gandhi (1942) began as a love match that defied family and community opposition (he was Parsi, she Kashmiri Brahmin), showing initial commitment. However, the marriage deteriorated as she returned to her father Nehru's household and political orbit. Feroze was frustrated by being sidelined; they lived largely separately. He publicly embarrassed her father's government by exposing the Mundhra scandal (1958). They were substantially estranged when Feroze died in 1960. The relationship shows initial depth but lacked sustained mutuality or support during crisis."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Guha, India After Gandhi (2007)",
+              "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Her relationship with Sanjay Gandhi is widely seen as deeply problematic—she indulged his authoritarian tendencies and gave him enormous extralegal power during the Emergency, enabling the forced sterilization campaign and Delhi slum demolitions. He did not develop autonomous moral competence. After Sanjay's death (1980), she reluctantly pulled Rajiv into politics despite his preference for a private life, subordinating his autonomy to dynastic imperatives. As a political mentor, she preferred sycophants over capable subordinates, undermining the development of autonomous leadership around her."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Perkovich, India's Nuclear Bomb (1999)",
+              "Raghavan, 1971 (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The creation of Bangladesh in 1971 permanently altered South Asian geopolitics. India's nuclear program, which she authorized (Pokhran 1974), remains a defining feature of the global nuclear order. Her centralization of Congress and creation of dynastic politics shaped Indian democracy for decades. Bank nationalization transformed Indian financial infrastructure. However, her impact is primarily regional (South Asia) rather than across multiple civilizations, and her legacy remains deeply contested, falling short of the 500-year, multi-civilizational threshold for a 3."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Frank, Indira: The Life of Indira Nehru Gandhi (2001)",
+              "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "She became the 'Iron Lady of India,' a globally recognized archetype of female political power in the 20th century. She appeared on Time magazine covers repeatedly and was recognized worldwide as a symbol of a woman wielding supreme executive power in a patriarchal society. Her image resonates in global discussions of women in politics. However, her archetypal recognition does not reach the deep cross-cultural universality of figures who score 3—she is primarily iconic within Indian and postcolonial contexts."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Rudolph & Rudolph, In Pursuit of Lakshmi (1987)",
+              "Austin, Working a Democratic Constitution (1999)",
+              "Guha, India After Gandhi (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Most scholars assess her net institutional impact as negative. She transformed the Congress party from an internally democratic organization into a personalized, dynastic machine, destroying its organizational depth. She weakened judicial independence, the civil service, and federalism. While she did establish enduring positive institutions—nationalized banks persist, Project Tiger (1973) continues, and India's nuclear program she fostered endures—the overall pattern was institutional degradation rather than building. The dynasty she created is an 'institution' but a problematic one for democratic governance."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)",
+              "Raghavan, 1971 (2013)",
+              "Guha, India After Gandhi (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "She led India through the 1971 war (crisis leadership), managed peacetime governance for over 15 years (stability), dominated internal Congress party politics, and led the Non-Aligned Movement on the global stage. She mobilized massive popular support through direct appeal (Garibi Hatao), commanded the military, and managed Cold War diplomacy with both superpowers. This represents successful leadership across qualitatively different contexts: wartime and peacetime, domestic and international, small elite circles and mass democratic mobilization."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Jayakar, Indira Gandhi: An Intimate Biography (1992)",
+              "Frank, Indira: The Life of Indira Nehru Gandhi (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "She grew up in the privileged Nehru household (Anand Bhavan, Allahabad) and spent most of her life in the rarefied world of political power at the Prime Minister's residence. Biographers note she was perceived as aloof and imperious. While Pupul Jayakar describes private moments of warmth—interest in flowers, textiles, and nature—and she corresponded extensively with ordinary citizens, there is limited evidence of sustained engagement with mundane everyday activities at the height of her power. Her persona was that of a distant, commanding figure."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Austin, Working a Democratic Constitution (1999)",
+              "Guha, India After Gandhi (2007)",
+              "Thapar, The Emergency: A Personal History (2021)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "She championed social justice rhetoric through 'Garibi Hatao' and bank nationalization aimed at rural credit access. However, the Emergency (1975-77) represents a sustained 21-month assault on civil liberties: suspension of fundamental rights, mass arrests of opposition leaders (including Jayaprakash Narayan and Morarji Desai), censorship of the press, and manipulation of the judiciary. She superseded senior judges to appoint a pliant Chief Justice (A.N. Ray, 1973). Without the Emergency, this scores 2; with it given full weight, the score is 1. The Emergency was not a single moment but a prolonged, deliberate pattern."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Jayakar, Indira Gandhi: An Intimate Biography (1992)",
+              "Thapar, The Emergency: A Personal History (2021)",
+              "Guha, India After Gandhi (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "She showed genuine concern for the 10 million Bangladeshi refugees in 1971, personally visiting camps and mobilizing international attention. Pupul Jayakar describes private warmth and emotional depth. However, without the Emergency counterexample this might score 2. With it, the score drops: the Emergency included mass political imprisonment (over 100,000 detained), press censorship, and a forced sterilization campaign (associated with Sanjay Gandhi but under her authority as PM) that affected millions. This severe violation of human dignity against her own citizens, whom she was duty-bound to protect, substantially undermines the compassion evidence. Final score: 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Frank, Indira: The Life of Indira Nehru Gandhi (2001)",
+              "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "She faced down the United States during the 1971 war when the USS Enterprise carrier group was deployed to the Bay of Bengal as a threat. She returned to power after the devastating 1977 electoral defeat, arrest, and political isolation. She proceeded with Operation Blue Star (June 1984) despite knowing the mortal risk it created, and afterward explicitly refused to remove her Sikh bodyguards despite warnings, stating 'every drop of my blood will invigorate India.' Sustained courage across multiple high-stakes situations—military confrontation, political defeat, and personal mortal danger—spanning decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Guha, India After Gandhi (2007)",
+              "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "After her 1977 defeat, she offered some defensive acknowledgments that the Emergency had gone too far, particularly regarding Sanjay's excesses. However, upon returning to power in 1980, she continued centralizing authority, dismissed elected state governments (e.g., nine state assemblies dissolved in 1980), and showed no fundamental reversal of authoritarian tendencies. There is no documented instance of her publicly accepting correction or meaningfully changing behavior based on moral reflection. The growth was tactical, not moral."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Frank, Indira: The Life of Indira Nehru Gandhi (2001)",
+              "Jayakar, Indira Gandhi: An Intimate Biography (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "As a child, she experienced repeated imprisonment of her parents during the independence movement, organizing the 'Vanar Sena' (Monkey Brigade) of children at age 12. Her marriage to Feroze Gandhi was difficult, marked by separation and his frustration at being overshadowed. After the 1977 Emergency defeat, she lost power completely, was arrested, faced prosecution, and endured political isolation. In 1980, her son Sanjay died in a plane crash—she was devastated but returned to governing within days. These represent multiple forms of adversity (political, personal bereavement, childhood disruption), though whether she functioned at the exceptional level required for 3 during the Emergency itself is debatable."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Guha, India After Gandhi (2007)",
+              "Frank, Indira: The Life of Indira Nehru Gandhi (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She inhabited multiple contradictory roles: democratic leader who imposed authoritarian Emergency; secular statesperson who increasingly played communal politics; socialist from extreme privilege; woman wielding supreme power in a deeply patriarchal society; peace advocate who launched military operations. However, many of these contradictions appeared as genuine inconsistencies rather than integrated syntheses—the Emergency directly contradicted her democratic claims, and her communal maneuvering undermined her secularism. She held these tensions without fully resolving them, warranting 2 rather than 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)",
+              "Frank, Indira: The Life of Indira Nehru Gandhi (2001)",
+              "Guha, India After Gandhi (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "After Operation Blue Star (June 1984), she was repeatedly warned about the danger of retaining Sikh bodyguards but refused to remove them, reportedly saying it would show distrust of the Sikh community. The night before her assassination (October 30, 1984), she stated at a rally in Bhubaneswar: 'I am alive today, I may not be there tomorrow... every drop of my blood will invigorate India and strengthen it.' She walked out to meet her assassins the next morning in full knowledge of the threat. This is documented composure in the face of one's own imminent death, meeting the criterion for 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Frank, Indira: The Life of Indira Nehru Gandhi (2001)",
+              "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She maintained an extraordinarily demanding political schedule across decades, conducting grueling election campaigns with dozens of rallies daily across India's vast and often difficult terrain. During the 1971 war she maintained an intensive pace of diplomatic travel and crisis management. As a young woman during the Quit India movement (1942), she was active in the independence struggle. She sustained this physical tempo into her mid-60s until her assassination, though no specific athletic or physical feats are documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Jayakar, Indira Gandhi: An Intimate Biography (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Pupul Jayakar, her close friend and art historian, describes her genuine love of Indian textiles, flowers, and nature. She established the Wildlife Protection Act (1972) and Project Tiger (1973), partly from genuine love of nature. She appreciated Hindustani classical music and maintained friendships with artists. However, the evidence for non-instrumental aesthetic engagement is limited and comes primarily from sympathetic biographers, making it difficult to distinguish genuine play from political persona."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 4.44,
+          "Core_5D_Avg": 5.76,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Indira Gandhi",
+      "overall": {
+        "Core_5D_Avg": 5.76,
+        "Overall_Normalized_Equal_Avg": 5.35,
+        "General_Competency_Avg_10scale": 3.33
+      },
+      "summary": "Indira Gandhi was a formidable strategic leader defined by extraordinary courage, political dominance, and composure facing her own death, offset by serious moral failings during the Emergency—suspension of civil liberties, forced sterilizations—and institutional damage to Indian democracy. Her 1971 Bangladesh war leadership represents exceptional strategic adaptation; her refusal to remove Sikh bodyguards exemplifies mortality acceptance. Relational life was strained (troubled marriage, problematic mentoring of Sanjay). Heinlein competency is narrow: brilliant at command and leadership but lacking practical skills beyond politics. Core 5D Avg: 5.76/10; Heinlein Avg: 3.33/10; Overall: 5.35/10. A figure of towering political capability shadowed by authoritarian impulses and limited personal breadth.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.0,
+          "General_Competency_Avg_10scale": 3.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence of personal cooking skill. She lived in households with domestic staff from childhood through her years as Prime Minister."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Frank, Indira: The Life of Indira Nehru Gandhi (2001)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "She never personally engaged in physical combat. As a child she organized the 'Vanar Sena' (Monkey Brigade) during the independence movement, but this was organizational, not combative. Her military command was exercised through institutional channels, not personal combat capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Jayakar, Indira Gandhi: An Intimate Biography (1992)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She cared for her ailing father Jawaharlal Nehru in his final years (he died in 1964), serving as his hostess and confidante at Teen Murti House. She personally visited Bangladeshi refugee camps in 1971, showing concern beyond mere political calculation. However, caregiving was not a sustained or defining personal practice for her."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)",
+            "Frank, Indira: The Life of Indira Nehru Gandhi (2001)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Her behavior in the months before her assassination demonstrates exceptional existential composure. After Operation Blue Star (June 1984), she was fully aware of assassination threats from Sikh extremists. She refused to remove Sikh bodyguards, saying it would show distrust. The night before her death she declared at Bhubaneswar: 'I am alive today, I may not be there tomorrow... every drop of my blood will invigorate India.' She walked out to her garden the next morning and greeted her assassins. This is facing one's own imminent death with dignity and intentionality."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of manual craft or repair skills. She lived in elite settings with domestic and institutional support throughout her life."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "She traveled extensively across India and internationally throughout her career—campaign tours covering remote and varied terrain, diplomatic missions worldwide. She demonstrated familiarity with Indian geography in campaign planning. However, there is no evidence of personal navigation skill independent of staff and infrastructure support."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Frank, Indira: The Life of Indira Nehru Gandhi (2001)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence in the historical record of personal animal husbandry or food processing skills. She grew up in an elite political household with domestic staff."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Guha, India After Gandhi (2007)",
+            "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Exceptional leader who dominated Indian politics for nearly two decades, commanding loyalty from millions. She also demonstrated followership: she served effectively as Information and Broadcasting Minister under PM Lal Bahadur Shastri (1964-66), accepted her father's guidance during his lifetime, and served as Congress President (1959) in a supporting role. The ability to both command and defer, demonstrated across different career stages, meets the highest standard."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of personal construction or fabrication skills. Her contributions to building (dams, infrastructure) were entirely at the policy level."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Raghavan, 1971: A Global History of the Creation of Bangladesh (2013)",
+            "Malhotra, Indira Gandhi: A Personal and Political Biography (2014)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The 1971 Bangladesh Liberation War is a textbook case: she coordinated diplomatic preparation (Indo-Soviet Treaty), military timing (December offensive avoiding monsoon and Himalayan winter closure), intelligence support for Mukti Bahini guerrillas, and management of superpower opposition (US/China) into a swift 13-day victory creating a new nation. She directly oversaw war cabinet decisions and maintained unified command. Operation Blue Star (1984), whatever its moral dimensions, also demonstrated complex military command coordination."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Jayakar, Indira Gandhi: An Intimate Biography (1992)",
+            "Frank, Indira: The Life of Indira Nehru Gandhi (2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She was an appreciator rather than creator of art. She supported cultural institutions, maintained close friendships with artists and cultural figures (Pupul Jayakar, Kamaladevi Chattopadhyay), and showed knowledge of Indian textiles, classical music, and visual arts. She studied briefly at Rabindranath Tagore's Santiniketan (Visva-Bharati), which fostered artistic sensibility. However, she did not produce notable creative works herself."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of personal medical knowledge or emergency medical response capability."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Frank, Indira: The Life of Indira Nehru Gandhi (2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She managed complex economic decisions—bank nationalization (1969), Five Year Plan implementation, nuclear program authorization—requiring analytical engagement with economic data and technical briefings. However, she relied heavily on advisers for quantitative analysis and was known more for political intuition than analytical rigor. Her Oxford education (Somerville College, not completed) included some exposure to analytical training."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Frankel, India's Political Economy 1947-2004 (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She drove implementation of the Green Revolution in India, partnering with agricultural scientist M.S. Swaminathan to introduce high-yield crop varieties that transformed Indian food security. She established the Wildlife Protection Act (1972) and Project Tiger (1973) for natural resource conservation. These represent significant resource management at the policy level, though not personal agricultural skill."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Perkovich, India's Nuclear Bomb (1999)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She oversaw India's nuclear program leading to the 1974 Pokhran test ('Smiling Buddha'), engaging with technical advisers like Homi Sethna and Raja Ramanna on nuclear capability. She managed the complex governmental machinery of the world's largest democracy. However, this was direction and decision-making rather than personal technical problem-solving capability."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.76,
+    "general_competency_avg_0_10": 3.33,
+    "overall_normalized_equal_avg_0_10": 5.35,
+    "created_at": "2026-03-22T18:49:09.451Z",
+    "updated_at": "2026-03-22T18:49:09.469Z"
+  }
+}
+]

@@ -1,0 +1,370 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 129,
+  "fields": {
+    "name": "Amelia Earhart",
+    "slug": "amelia-earhart",
+    "bio_short": "A defining exemplar of physical courage and cultural-symbolic resonance, Earhart excels in embodied-existential and cultural-social dimensions. Her sustained risk-taking across a decade of pioneering flights, composed mortality acceptance, and archetypal status as the woman adventurer are her strongest traits. Cognitive and relational dimensions are more modest — she was a competent planner and advocate rather than a strategic or philosophical innovator, and her personal relationships, while notable, lack deep documentation. Heinlein competency breadth is limited by her specialized aviation fo",
+    "bio_long": "Amelia Mary Earhart was an American aviator and aviation pioneer who became one of the most celebrated figures of early flight.",
+    "source_notes": "https://en.wikipedia.org/wiki/Amelia_Earhart",
+    "image": "figures/330px-Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra2C_sm_DP3O2m9.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997.",
+              "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Earhart adapted her 1932 solo Atlantic crossing when ice, a fuel leak, and instrument failures forced her to abandon Paris and land in a pasture in Londonderry, Northern Ireland — a successful improvisation under extreme duress. After the March 1937 crash on takeoff from Luke Field, Hawaii, she completely reorganized her circumnavigation route (reversing from westward to eastward), securing new funding and logistical support. These show genuine adaptive capacity, though the final Howland Island failure reveals planning limits."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997.",
+              "Earhart, Amelia. *20 Hrs., 40 Min.* G.P. Putnam's Sons, 1928."
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Earhart demonstrated creativity through designing a line of women's active clothing (sold at Macy's and Marshall Field's, featuring functional details like loose sleeves inspired by aviation needs) and authoring three books. She innovated in demonstrating what was possible for women in aviation, but she did not produce a paradigm shift in technology, technique, or ideas — she was a courageous practitioner of existing aviation technology rather than its inventor."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Earhart, Amelia. *The Fun of It*. Harcourt, Brace and Company, 1932.",
+              "Ware, Susan. *Still Missing: Amelia Earhart and the Search for Modern Feminism*. W.W. Norton, 1993."
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Earhart articulated practical feminist principles — her 1931 wedding-day letter to George Putnam negotiated mutual freedom and rejected possessiveness as a model of egalitarian partnership. She publicly advocated for the Equal Rights Amendment and women's access to aviation careers. However, these were pragmatic advocacy positions rather than systematic philosophical frameworks that influenced thinkers beyond her immediate community."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989.",
+              "The Ninety-Nines, Inc. organizational records."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Earhart co-founded The Ninety-Nines in 1929 and served as its first president (1930–1933), establishing an organizational structure that has endured for nearly a century with thousands of members worldwide. She served as aviation editor at Cosmopolitan magazine and as a career counselor for women at Purdue University, where she helped develop aviation-related programs. These represent solid administrative contributions, though she was not the sole architect of enduring systems."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997.",
+              "Lovell, Mary S. *The Sound of Wings: The Life of Amelia Earhart*. St. Martin's Press, 1989."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Earhart functioned across documented relational modes: spouse (negotiated partnership with Putnam), friend (close friendship with Eleanor Roosevelt including the famous impromptu flight), organizational leader (Ninety-Nines president), subordinate (student pilot under Neta Snook; passenger under pilot Wilmer Stultz in 1928), daughter (complex relationship with alcoholic father and supportive mother), and celebrity-to-public. This spans at least five distinct relational modes with qualitatively different documented behaviors, though depth of evidence varies."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997.",
+              "Lovell, Mary S. *The Sound of Wings: The Life of Amelia Earhart*. St. Martin's Press, 1989."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Earhart's marriage to George Palmer Putnam (1931–1937) is documented through her famous wedding-day letter negotiating mutual freedom, fidelity expectations, and the right to dissolve the marriage if either was unhappy — a remarkable document of relational intentionality. Putnam supported her aviation ambitions with financing, logistical management, and publicity. She expressed affection in letters. However, the relationship had significant commercial dimensions (Putnam managed her brand), and there is scholarly speculation about emotional distance and possible relationships with others (e.g., Gene Vidal). Mutual respect and crisis support are documented, but deep emotional intimacy is less clear."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Ware, Susan. *Still Missing: Amelia Earhart and the Search for Modern Feminism*. W.W. Norton, 1993.",
+              "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Earhart had no children. She mentored women aviators broadly through her presidency of The Ninety-Nines and her role at Purdue University as a career counselor for women students. She inspired generations of women to pursue aviation and professional careers. However, documented specific mentoring relationships with named individuals who developed genuine autonomy and competence as a direct result of her guidance are sparse in the biographical literature."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Ware, Susan. *Still Missing: Amelia Earhart and the Search for Modern Feminism*. W.W. Norton, 1993.",
+              "Goldstein, Donald M. and Katherine V. Dillon. *Amelia: The Centennial Biography*. Brassey's, 1997."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Earhart's legacy remains powerfully operative nearly 90 years later: she is the most recognizable name in women's aviation history, her disappearance continues to generate investigation and cultural production, and she remains a symbol invoked in feminist discourse and aviation culture worldwide. Her impact extends across American culture, education, and the global women's rights movement. However, the 500-year, multi-civilizational threshold for a 3 cannot yet be assessed given the passage of time."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Ware, Susan. *Still Missing: Amelia Earhart and the Search for Modern Feminism*. W.W. Norton, 1993.",
+              "Lovell, Mary S. *The Sound of Wings: The Life of Amelia Earhart*. St. Martin's Press, 1989."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Earhart is the defining archetype of the woman pioneer-adventurer across cultures worldwide. Her name is instantly recognizable far beyond the aviation community and far beyond the United States. Her mysterious disappearance amplifies her mythic status, adding elements of the quest narrative and the vanished hero. She is invoked as a symbol of female courage and barrier-breaking in cultures and traditions well beyond her own American context — in European, Asian, and Latin American feminist and aviation discourse alike."
+          },
+          "Institution-Building": {
+            "citations": [
+              "The Ninety-Nines, Inc. organizational history.",
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The Ninety-Nines, co-founded by Earhart in 1929, has survived for nearly a century as an international organization of women pilots with thousands of members — clearly exceeding the two-generation threshold. She also contributed to building aviation programs at Purdue University. However, she was co-founder rather than sole architect, and her direct institutional management was limited to a few years as president."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Ware, Susan. *Still Missing: Amelia Earhart and the Search for Modern Feminism*. W.W. Norton, 1993.",
+              "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Earhart led across qualitatively different contexts: as first president of The Ninety-Nines (organizational leadership of a national association), as expedition commander of her solo and team flights (crisis leadership under mortal risk), as a bestselling author and Cosmopolitan editor (cultural influence on mass audiences), as a faculty member at Purdue University (academic mentorship), and as a close associate of Eleanor Roosevelt who influenced policy discussions. She mobilized public imagination about women's capabilities on a national and international scale."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997.",
+              "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Before and during her fame, Earhart engaged in decidedly ordinary occupations: nurse's aide, social worker at Denison House, truck driver, and telephone company clerk. She was noted for her unpretentious demeanor and casual dress. Her letters reveal humor and warmth in everyday interactions. However, at the height of her fame (1932–1937), she was primarily operating as a celebrity managed by Putnam's publicity apparatus, which somewhat distances her from the mundane engagement required for a 3."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Ware, Susan. *Still Missing: Amelia Earhart and the Search for Modern Feminism*. W.W. Norton, 1993.",
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Earhart was a member of the National Woman's Party, an early supporter of the Equal Rights Amendment, and consistently used her celebrity platform to advocate for women's equality in aviation and professional life. She challenged airline hiring practices that excluded women and pressed for equal access to air races. However, specific documented cases of ruling against her personal or group interest in favor of principle — the threshold for a 3 — are not prominent in the record."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997.",
+              "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Before her aviation career, Earhart worked as a nurse's aide (VAD) at Spadina Military Hospital in Toronto (1917–1918), caring for wounded soldiers and influenza patients during the pandemic. She subsequently worked as a social worker at Denison House, a settlement house in Boston, serving immigrant families (1927–1928). These are tangible acts of compassion across different vulnerable populations, though specific documented acts toward adversaries or outgroup members are lacking."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989.",
+              "Lovell, Mary S. *The Sound of Wings: The Life of Amelia Earhart*. St. Martin's Press, 1989."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Earhart demonstrated sustained courage across a decade of high-stakes aviation: the 1932 solo Atlantic crossing through ice and mechanical failure; the 1935 solo Hawaii-to-Oakland flight over 2,400 miles of open Pacific (first person to accomplish this); multiple speed and altitude records in primitive aircraft; and the 1937 circumnavigation attempt. After the devastating March 1937 crash in Hawaii destroyed her Electra, she rebuilt her expedition entirely and launched again within months. This is sustained, repeated courage across numerous life-threatening situations."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Earhart, Amelia. *The Fun of It*. Harcourt, Brace and Company, 1932.",
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "After the March 1937 Luke Field crash, Earhart analyzed the failure and adjusted her plans practically (reversing route direction, obtaining a new aircraft). She acknowledged in her writings that the 1928 Atlantic crossing as a passenger felt unearned, which motivated her 1932 solo attempt. However, these are more practical recalibrations than moral reversals or acceptance of correction on ethical matters. The historical record does not prominently feature instances of Earhart reversing moral positions or accepting external correction."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997.",
+              "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Earhart endured qualitatively different forms of adversity: her father Edwin Earhart's alcoholism led to family dissolution and financial ruin during her adolescence, forcing repeated relocations and material deprivation. She subsequently endured chronic sinus problems from nursing influenza patients during WWI. As an aviator, she faced repeated life-threatening physical hardship (extreme cold, exhaustion, mechanical failure). She functioned effectively through all of these, but the personal adversities, while significant, were not at the most extreme levels compared to historical figures who endured exile, imprisonment, or prolonged destitution."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Ware, Susan. *Still Missing: Amelia Earhart and the Search for Modern Feminism*. W.W. Norton, 1993.",
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Earhart inhabited several seemingly contradictory roles: celebrity/public figure and serious risk-taking pilot; devoted wife and fiercely independent woman (her wedding letter explicitly negotiated this tension); feminine fashion designer and masculine-coded adventurer competing in men's domains; cautious methodical planner and extreme risk-taker. Her wedding-day letter to Putnam is a remarkable document of paradox negotiation. However, these resolve into approximately two or three core tensions rather than the three-plus deeply contradictory roles the rubric requires for a 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Earhart's letter to George Putnam, 1937 (reproduced in multiple biographies).",
+              "Lovell, Mary S. *The Sound of Wings: The Life of Amelia Earhart*. St. Martin's Press, 1989."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Before her 1937 circumnavigation, Earhart wrote a 'popping off' letter to Putnam explicitly acknowledging she might not return: 'Please know I am quite aware of the hazards. I want to do it because I want to do it.' She wrote a similar letter before her 1932 solo Atlantic crossing. These documents show calm, intentional acceptance of imminent death risk — not abstract philosophizing but concrete preparation for her own possible end. She repeatedly chose to face mortal danger with documented composure across multiple flights over a decade."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989.",
+              "Earhart, Amelia. *Last Flight*. Harcourt, Brace and Company, 1937."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Earhart's solo Atlantic crossing (1932) required nearly 15 hours of continuous flying through icing, storms, and mechanical failure. Her solo Hawaii-to-Oakland flight (1935) lasted approximately 18 hours over open ocean. She set altitude records (14,000 feet in 1922 in an open cockpit) and speed records across her career. These physical feats — enduring extreme cold, fatigue, vibration, and hypoxia in primitive aircraft — spanned from her mid-20s through her late 30s, demonstrating sustained physical capacity across multiple life stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Earhart, Amelia. *The Fun of It*. Harcourt, Brace and Company, 1932.",
+              "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Earhart's writings express genuine aesthetic joy in the experience of flight — her book was literally titled 'The Fun of It.' She described sunrises over clouds and the beauty of landscapes from altitude with evident delight. She wrote poetry, designed clothing with aesthetic intentionality, and was known for her wit and humor in personal interactions. Her friendship with Eleanor Roosevelt included spontaneous adventures like an impromptu nighttime flight from a White House dinner. Much of this appears genuinely non-instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.0,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.65,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Amelia Earhart",
+      "overall": {
+        "Core_5D_Avg": 6.65,
+        "Overall_Normalized_Equal_Avg": 6.17,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "A defining exemplar of physical courage and cultural-symbolic resonance, Earhart excels in embodied-existential and cultural-social dimensions. Her sustained risk-taking across a decade of pioneering flights, composed mortality acceptance, and archetypal status as the woman adventurer are her strongest traits. Cognitive and relational dimensions are more modest — she was a competent planner and advocate rather than a strategic or philosophical innovator, and her personal relationships, while notable, lack deep documentation. Heinlein competency breadth is limited by her specialized aviation focus, with little evidence in manual, agricultural, culinary, or combat domains.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence of notable culinary skill in the biographical literature. Earhart's in-flight provisions were typically pre-prepared (canned tomato juice, chocolate, etc.), and no biographies highlight cooking as a skill or interest."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989."
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Earhart had no documented combat experience or training in physical defense. While she operated in dangerous environments, her aviation career did not involve combat or defensive fighting."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997.",
+            "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Earhart served as a Voluntary Aid Detachment (VAD) nurse's aide at Spadina Military Hospital in Toronto (1917–1918), caring for wounded soldiers and influenza patients. She subsequently worked as a social worker at Denison House settlement in Boston (1927–1928), providing care and support to immigrant families. Two distinct caregiving contexts with documented service."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Earhart's letter to George Putnam, 1937.",
+            "Lovell, Mary S. *The Sound of Wings: The Life of Amelia Earhart*. St. Martin's Press, 1989."
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Earhart wrote explicit 'popping off' letters before her most dangerous flights, calmly acknowledging the real possibility of her death. Her pre-1937 letter to Putnam stated: 'Please know I am quite aware of the hazards. I want to do it because I want to do it.' Her final radio transmissions from over the Pacific, while indicating concern about fuel, maintained operational composure. She repeatedly chose mortal risk with calm intentionality over a decade-long career, representing exceptional existential composure in the face of one's own imminent death."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Earhart performed some maintenance on her early aircraft, including her first plane, the Kinner Airster 'Canary.' Early pilots of her era were expected to understand and perform basic mechanical work on their aircraft. However, detailed documentation of significant repair or craft work is limited, and she increasingly relied on professional mechanics for her later aircraft."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Long, Elgen M. and Marie K. Long. *Amelia Earhart: The Mystery Solved*. Simon & Schuster, 1999.",
+            "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Earhart navigated solo across the Atlantic Ocean (1932) using dead reckoning and limited instruments, successfully making landfall in Ireland. She navigated solo over 2,400 miles of open Pacific from Hawaii to Oakland (1935). These represent exceptional wayfinding over featureless ocean using era-appropriate technology. The failure to locate Howland Island in 1937 was primarily navigator Fred Noonan's responsibility, though it introduces some complexity to the overall assessment."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record of Earhart processing animals or raw food resources. Her biographies do not reference this skill area."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989.",
+            "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Earhart demonstrated both leadership and followership: she led as president of The Ninety-Nines (1930–1933), as expedition commander of her flights, and as a public figure directing cultural discourse. She followed effectively as a student pilot under instructor Neta Snook, accepted the passenger role under pilot Wilmer Stultz during the 1928 Atlantic crossing, and deferred to her mechanic Bo McKneely's expertise on aircraft maintenance. This dual capacity is clearly documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of Earhart designing or building durable physical structures. While she consulted with Lockheed engineers on aircraft modifications, the design and fabrication work was performed by the manufacturer, not by Earhart herself."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989.",
+            "Earhart, Amelia. *Last Flight*. Harcourt, Brace and Company, 1937."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Earhart planned and commanded multiple complex flight operations: the 1932 solo Atlantic crossing required fuel calculations, weather assessment, route planning, and emergency contingencies. After the March 1937 Hawaii crash, she reorganized the entire circumnavigation — reversing direction, resecuring funding, and rebasing logistics — demonstrating command under setback. Her flight planning involved coordination with meteorologists, mechanics, and ground crews across multiple continents."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Earhart, Amelia. *The Fun of It*. Harcourt, Brace and Company, 1932.",
+            "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997."
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Earhart authored three books — '20 Hrs., 40 Min.' (1928), 'The Fun of It' (1932), and 'Last Flight' (1937) — which are competent aviation memoirs rather than distinguished literary works. She designed a commercially successful line of women's active clothing sold through Macy's and other department stores. She also wrote occasional poetry. These demonstrate real but not exceptional artistic capability."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Butler, Susan. *East to the Dawn: The Life of Amelia Earhart*. Da Capo Press, 1997."
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Earhart served as a VAD nurse's aide at Spadina Military Hospital in Toronto during WWI (1917–1918), providing basic medical care to wounded soldiers and treating influenza patients during the 1918 pandemic. VADs received limited formal training and worked under supervision, but her service was real and sustained over approximately one year. This represents competent basic medical aid for her era but not advanced practice."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Rich, Doris L. *Amelia Earhart: A Biography*. Smithsonian Institution Press, 1989."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Solo flight planning required practical calculations of fuel consumption rates, distance, wind correction angles, and weight-and-balance computations. Earhart also briefly pursued pre-medical studies at Columbia University (1919–1920), suggesting some analytical aptitude. However, there is no evidence of exceptional mathematical or analytical work beyond the practical requirements of aviation."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of Earhart engaging in agriculture or natural resource management. Her biographies do not reference this domain."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Long, Elgen M. and Marie K. Long. *Amelia Earhart: The Mystery Solved*. Simon & Schuster, 1999.",
+            "Earhart, Amelia. *Last Flight*. Harcourt, Brace and Company, 1937."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Earhart operated cutting-edge aviation technology of her era, including the Lockheed Vega and Lockheed Electra 10E. During the 1932 Atlantic crossing, she managed in-flight technical emergencies including instrument failure (altimeter), fuel system leaks, and exhaust manifold vibration. She consulted with Lockheed engineers on modifications to the Electra for the circumnavigation, demonstrating understanding of the technical systems. She also worked with advanced radio direction-finding equipment for the 1937 flight."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.65,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 6.17,
+    "created_at": "2026-03-22T16:53:17.066Z",
+    "updated_at": "2026-03-22T16:53:17.085Z"
+  }
+}
+]

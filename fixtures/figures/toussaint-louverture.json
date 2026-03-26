@@ -1,0 +1,372 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 198,
+  "fields": {
+    "name": "Toussaint Louverture",
+    "slug": "toussaint-louverture",
+    "bio_short": "A formerly enslaved man who became one of history's most extraordinary revolutionary leaders, Toussaint combined exceptional strategic intelligence, physical endurance, and paradox integration — simultaneously a French loyalist and Haitian liberator, a military commander and diplomat, a defender of Black freedom and enforcer of plantation labor. His cultural-social impact is immense: the revolution he architected remains the only successful large-scale slave revolt in history. Relational evidence is thin, and Heinlein-breadth is limited outside military-political domains. His forced-labor poli",
+    "bio_long": "François-Dominique Toussaint Louverture, also known as Toussaint L'Ouverture or Toussaint Bréda, was a Haitian general and the most prominent leader of the Haitian Revolution. During his life, Louverture first fought and allied with Spanish forces against Saint-Domingue Royalists, then joined with Republican France, becoming Governor-General-for-life of Saint-Domingue, and lastly fought against Bonaparte's republican troops. As a revolutionary leader, Louverture displayed military and political acumen that helped transform the fledgling slave rebellion into a revolutionary movement. Along with Jean-Jacques Dessalines, Louverture is now known as one of the \"Fathers of Haiti\".",
+    "source_notes": "https://en.wikipedia.org/wiki/Toussaint_Louverture",
+    "image": "figures/330px-Toussaint_Louverture_-_Girardin.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "C.L.R. James, *The Black Jacobins* (1938/1963)",
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)",
+              "Sudhir Hazareesingh, *Black Spartacus* (2020)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Toussaint repeatedly adapted to shifting circumstances: he joined Spain against France in 1793, then pivoted to France in 1794 when the Republic abolished slavery — a masterful realignment. He defeated the British expeditionary force (1793–98) through guerrilla attrition, outmaneuvered Rigaud in the War of the South (1799–1800), and conquered Spanish Santo Domingo in 1801. When initial plans failed, he improvised — retreating to mountain strongholds, using scorched-earth tactics, and exploiting yellow fever's toll on European troops."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "C.L.R. James, *The Black Jacobins*",
+              "David Geggus, *Haitian Revolutionary Studies* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Toussaint transformed an uncoordinated slave revolt into a structured revolutionary state — an achievement without precedent. He innovated militarily by fusing guerrilla tactics with European-style drill and fortification, diplomatically by simultaneously negotiating with Spain, Britain, France, and the United States as a formerly enslaved person, and constitutionally by drafting the 1801 Constitution establishing a novel post-slavery governance model. The before/after paradigm shift is clear: before Toussaint, large-scale slave revolt leading to self-governance was considered impossible by European powers."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Aimé Césaire, *Toussaint Louverture: La Révolution française et le problème colonial* (1961)",
+              "Laurent Dubois, *Avengers of the New World* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Toussaint articulated principles of universal liberty and racial equality in his proclamations and letters, and his 1801 Constitution permanently abolished slavery and declared racial equality under law. His thinking influenced later abolitionists and anti-colonial theorists (Aimé Césaire devoted a major work to him). However, his philosophical output was pragmatic and epistolary rather than systematically theoretical; he did not produce treatises that circulated independently as philosophical works."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)",
+              "Madison Smartt Bell, *Toussaint Louverture: A Biography* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Toussaint reorganized Saint-Domingue's plantation economy, maintained sugar and coffee exports at levels that impressed even hostile observers, built a functioning tax system, and promulgated the 1801 Constitution establishing governance structures. However, his systems did not survive beyond his capture in 1802 — the French invasion and Dessalines' subsequent independent state created new structures. The forced-labor (fermage) system he implemented was effective but generated internal opposition, notably Moïse's rebellion."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "C.L.R. James, *The Black Jacobins*",
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Toussaint operated across multiple relational modes: husband and father, military superior (commanding Dessalines, Christophe), nominal subordinate (to French Republic authorities), diplomatic peer (negotiating with Maitland, Roume, Hédouville), adversary (against Rigaud, Leclerc), and mentor. He related to enslaved laborers, free people of color, white planters, and European officials. However, detailed documentation showing qualitatively distinct relational behavior across five or more modes is limited by source constraints — many accounts focus on his public/military persona."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)",
+              "Madison Smartt Bell, *Toussaint Louverture: A Biography* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Toussaint married Suzanne Simone Baptiste Louverture, and they had sons Isaac and Saint-Jean. When captured, his family was deported to France with him. Beyond these facts, the historical record provides very little detail about the quality, mutuality, or emotional texture of their partnership. No letters between them survive in the scholarly record, and biographers have limited material to work with. The evidence is simply too thin for a higher score."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)",
+              "Sudhir Hazareesingh, *Black Spartacus* (2020)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Toussaint invested significantly in his sons' education, sending Isaac and Placide to study in France under the tutelage of the Abbé Coïsnon — a remarkable commitment for any parent of the era, let alone a formerly enslaved revolutionary leader. He mentored military subordinates including Dessalines and Christophe, who became effective independent leaders. However, a serious counterexample exists: his execution of his nephew/adopted son Moïse for rebellion in 1801, which represents a catastrophic failure of the mentoring relationship. Without the Moïse episode, score might be 3; with it weighted proportionally to its moral stakes, 2."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "C.L.R. James, *The Black Jacobins*",
+              "Laurent Dubois, *Avengers of the New World* (2004)",
+              "Ada Ferrer, *Freedom's Mirror: Cuba and Haiti in the Age of Revolution* (2014)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The revolution Toussaint architected was the first and only successful large-scale slave revolt in history, directly precipitating Haitian independence. It influenced the Louisiana Purchase (Napoleon sold Louisiana partly after losing Saint-Domingue), accelerated abolition movements across the Americas and Europe, inspired slave revolts (e.g., Denmark Vesey cited Haiti), and became a foundational symbol for Pan-African, anti-colonial, and civil rights movements globally. While only ~220 years have elapsed, the impact operates across multiple civilizations and shows no sign of diminishing."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "William Wordsworth, 'To Toussaint L'Ouverture' (1802)",
+              "Aimé Césaire, *Toussaint Louverture* (1961)",
+              "C.L.R. James, *The Black Jacobins*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Toussaint functions as a cross-cultural archetype of the liberator-from-bondage — a Moses/Spartacus figure. Wordsworth addressed him directly in the sonnet 'To Toussaint L'Ouverture' (1802); Aimé Césaire and C.L.R. James elevated him as a symbol of Black liberation; he is central to Pan-African thought, Caribbean identity, and global anti-colonial discourse. He is recognized as an archetype far beyond Haitian culture — in African, European, and American intellectual traditions."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Laurent Dubois, *Avengers of the New World* (2004)",
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Toussaint built a functioning military organization, a civil administration, and the 1801 Constitution — the first charter of a Black self-governing state. He reorganized the plantation economy and established diplomatic relations. However, these specific institutions were dismantled by the French invasion of 1802 and replaced by Dessalines' structures after independence. The principles endured in Haitian political culture, but the specific institutions did not survive two generations with recognizable continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "C.L.R. James, *The Black Jacobins*",
+              "Sudhir Hazareesingh, *Black Spartacus* (2020)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Toussaint led across qualitatively different contexts: guerrilla insurgency (1791–94), conventional military campaigns against European armies (1794–1801), diplomatic negotiations with Britain, Spain, France, and the United States, and civil governance of a complex multiracial society. He inspired formerly enslaved people to fight disciplined campaigns, persuaded white planters to cooperate, and commanded loyalty from diverse subordinates including Dessalines and Christophe. His leadership spanned both crisis and relative stability."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Madison Smartt Bell, *Toussaint Louverture: A Biography* (2007)",
+              "Sudhir Hazareesingh, *Black Spartacus* (2020)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Toussaint was known for personal simplicity: he reportedly ate frugally, slept little, dressed simply even as governor-general, and maintained his devout Catholic practice throughout his career. His origins as an enslaved person who worked as a coachman and with livestock on the Bréda plantation connect him to ordinary manual life. He reportedly joked with soldiers and personally tended to wounded. However, as his power grew he became increasingly autocratic and secretive, and detailed ethnographic evidence of everyday engagement at the height of power is limited."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Laurent Dubois, *Avengers of the New World* (2004)",
+              "David Geggus, *Haitian Revolutionary Studies* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Toussaint's 1801 Constitution enshrined racial equality and permanent abolition of slavery. He attempted impartial governance across racial lines, protecting white, mulatto, and Black populations. He punished corruption among his own officers. However, ruling against personal interest is complicated by the fermage system, which served his economic and political consolidation. His execution of his nephew/adopted son Moïse — who rebelled partly in defense of laborers' rights — represents a case where political interest arguably overrode justice. Without Moïse's execution, score might be 3; with it, 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "C.L.R. James, *The Black Jacobins*",
+              "Sudhir Hazareesingh, *Black Spartacus* (2020)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Toussaint showed remarkable clemency toward outgroup members: he actively protected white planters from retributive violence, encouraged them to remain on their plantations, and spared captured British soldiers. He reportedly intervened personally to prevent massacres. However, a serious counterexample exists: his forced-labor (fermage) system kept formerly enslaved people bound to plantations under state supervision, generating suffering among his own people. Without the fermage system, the score might be 3 given his consistent cross-racial clemency; with it fully weighted, the tension between liberation rhetoric and labor coercion brings the score to 2."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)",
+              "C.L.R. James, *The Black Jacobins*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Toussaint joined the revolt at nearly 50 years old, personally led cavalry charges in multiple campaigns against Spanish, British, and French forces over a decade, and reportedly sustained 17 battle wounds. He endured betrayal by France — the nation he had loyally served — his capture by treachery at a parley in June 1802, and imprisonment in the freezing Fort de Joux. His courage was sustained across qualitatively different situations: battlefield combat, political crises, diplomatic confrontations with European powers, and final imprisonment."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)",
+              "Madison Smartt Bell, *Toussaint Louverture: A Biography* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Toussaint's allegiance switch from Spain to France in 1794 — motivated by France's abolition of slavery — represents a major, principled reversal of position with visible behavioral change (he turned his army against his former allies). His evolution from enslaved coachman to revolutionary general to statesman shows continuous adaptation. He acknowledged the difficulty of his labor policies in letters to Napoleon. However, hagiographic traditions and limited surviving personal reflections make it difficult to identify specific 'I was wrong' moments beyond the strategic pivot."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Sudhir Hazareesingh, *Black Spartacus* (2020)",
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Toussaint endured decades of enslavement, the violence and chaos of revolution, multiple battlefield wounds, betrayal by France after years of loyal service, capture through treachery, and final imprisonment in the freezing Fort de Joux in the Jura Mountains (1802–03) where he was deliberately starved and denied adequate warmth. He functioned effectively across qualitatively different adversities: material deprivation under slavery, battlefield danger, political betrayal, and terminal imprisonment."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "C.L.R. James, *The Black Jacobins*",
+              "Laurent Dubois, *Avengers of the New World* (2004)",
+              "Sudhir Hazareesingh, *Black Spartacus* (2020)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Toussaint simultaneously inhabited multiple contradictory roles without fragmenting: formerly enslaved person and supreme commander; French loyalist and proto-nationalist; Catholic devotee and leader of a Vodou-influenced population; liberator of enslaved people and enforcer of plantation labor; military warrior and diplomatic peacemaker; man of humble origins and autocratic governor-general-for-life; revolutionary and conservative restorer of economic order. He navigated at least five contradictory pairs coherently throughout his career."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)",
+              "Sudhir Hazareesingh, *Black Spartacus* (2020)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "During his imprisonment at Fort de Joux, Toussaint reportedly maintained his dignity and composure despite deliberately cruel conditions. His famous statement — 'In overthrowing me, you have done no more than cut down the trunk of the tree of black liberty in Saint-Domingue. It will spring back from the roots, for they are numerous and deep' — shows prophetic composure facing his end. However, he also wrote petitions to Napoleon protesting his treatment, suggesting he did not simply accept his fate. He died on April 7, 1803, in conditions of deliberate deprivation."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)",
+              "C.L.R. James, *The Black Jacobins*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Toussaint's physical stamina was legendary even among contemporaries. He reportedly rode up to 125 miles in a single day across mountainous terrain, earning the nickname 'the Centaur of the Savanna.' He joined the revolution at nearly 50 and personally led cavalry charges into his late 50s. He reportedly sustained 17 wounds over his military career. His horsemanship was considered exceptional by European officers who observed him."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Madison Smartt Bell, *Toussaint Louverture: A Biography* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Toussaint was widely described as ascetic and serious. He was deeply devout in his Catholic faith, which provided spiritual sustenance but was not primarily aesthetic. He reportedly enjoyed horseback riding and there are scattered references to his appreciation of music. However, specific evidence of non-instrumental play, humor, or aesthetic engagement is thin in the historical record. His personality as recorded was focused on duty and discipline."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.61,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Toussaint Louverture",
+      "overall": {
+        "Core_5D_Avg": 7.61,
+        "Overall_Normalized_Equal_Avg": 7.27,
+        "General_Competency_Avg_10scale": 5.56
+      },
+      "summary": "A formerly enslaved man who became one of history's most extraordinary revolutionary leaders, Toussaint combined exceptional strategic intelligence, physical endurance, and paradox integration — simultaneously a French loyalist and Haitian liberator, a military commander and diplomat, a defender of Black freedom and enforcer of plantation labor. His cultural-social impact is immense: the revolution he architected remains the only successful large-scale slave revolt in history. Relational evidence is thin, and Heinlein-breadth is limited outside military-political domains. His forced-labor policies and execution of his nephew Moïse temper otherwise high moral scores.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.67,
+          "General_Competency_Avg_10scale": 5.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of culinary skill exists in the historical record. Toussaint was widely described as eating sparingly and ascetically, showing little interest in food beyond sustenance. No biographer documents cooking or meal preparation as part of his activities."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "C.L.R. James, *The Black Jacobins*",
+            "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Toussaint personally led troops in battle across numerous engagements over a decade, reportedly sustaining 17 wounds. He was renowned for his cavalry charges and personal bravery in combat. He developed effective defensive strategies against superior European forces, exploiting terrain, guerrilla tactics, and scorched-earth operations. Both allies and enemies attested to his fighting skill."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Madison Smartt Bell, *Toussaint Louverture: A Biography* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Toussaint reportedly showed concern for wounded soldiers and invested in his sons' welfare and education. He is described as personally intervening to protect vulnerable populations (white women and children during periods of violence). However, specific documented caregiving acts across the lifespan are limited in the record."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Sudhir Hazareesingh, *Black Spartacus* (2020)",
+            "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Toussaint maintained dignity during his final imprisonment at Fort de Joux despite deliberately cruel conditions — cold, starvation, isolation. His 'tree of liberty' statement demonstrates prophetic composure. He reportedly faced his captors with calm authority. However, his letters to Napoleon protesting his treatment show he struggled against his fate rather than accepting it serenely, which reflects both human realism and limits on full composure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As an enslaved person who worked as a coachman and handler, Toussaint would have had practical skills in maintaining equipment, tack, and vehicles — consistent with era-normalized manual competence. However, specific documented instances of craft or repair work are absent from the scholarly record."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "C.L.R. James, *The Black Jacobins*",
+            "Sudhir Hazareesingh, *Black Spartacus* (2020)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Toussaint's legendary cross-island rides (reportedly 125 miles in a day) across Saint-Domingue's mountainous, forested terrain required exceptional navigational knowledge. He used topographical knowledge for military advantage, selecting mountain strongholds and exploiting terrain against European armies unfamiliar with the landscape."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Toussaint worked as a coachman and livestock handler on the Bréda plantation before the revolution, giving him practical experience with horses and domestic animals. His legendary horsemanship implies deep familiarity with animal care. However, specific evidence of butchering or food processing is absent from the record."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "C.L.R. James, *The Black Jacobins*",
+            "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Toussaint excelled at both commanding and following. He maintained nominal allegiance to the French Republic while exercising de facto sovereignty — a delicate balance of authority and subordination. He gave effective orders to Dessalines, Christophe, and others, while cooperating with French commissioners when strategically necessary. He acted decisively alone (the 1801 Constitution) and cooperated within coalitions (the early alliance with Biassou and Jean-François)."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Toussaint ordered the construction and repair of fortifications during his governance, and oversaw infrastructure projects. However, there is no specific evidence of personal construction or fabrication skills. As an enslaved person on a plantation, he likely had some practical building knowledge, but this is inferential rather than documented."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "C.L.R. James, *The Black Jacobins*",
+            "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Toussaint planned and executed complex multi-front campaigns against Spanish, British, and French armies over a decade. He coordinated the War of the South against Rigaud (1799–1800), the conquest of Santo Domingo (1801), and defensive operations against Leclerc's 20,000-strong expedition (1802). His ability to adapt — switching from guerrilla to conventional tactics, pivoting between alliances — marks him as one of the era's great military commanders."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Sudhir Hazareesingh, *Black Spartacus* (2020)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Toussaint was literate — remarkable for a formerly enslaved person of his era — and his letters and proclamations display considerable rhetorical power. His famous 'tree of liberty' statement has enduring literary resonance. However, he was not known for artistic creation; his expression was political and instrumental rather than aesthetic."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Madison Smartt Bell, *Toussaint Louverture: A Biography* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Toussaint reportedly had knowledge of herbal medicine and medicinal plants, possibly learned from his father who was reputed to have been a healer in Africa. Some accounts describe him tending to wounded soldiers. However, specific documented medical interventions are sparse in the critical historical literature."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Toussaint managed the complex economics of Saint-Domingue's plantation system, overseeing trade, taxation, and military logistics for the wealthiest colony in the Caribbean. He negotiated trade agreements with Britain and the United States that required understanding of commercial terms. Girard notes his facility with financial accounts and logistical calculations."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Laurent Dubois, *Avengers of the New World* (2004)",
+            "Philippe Girard, *Toussaint Louverture: A Revolutionary Life* (2016)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Toussaint spent decades on plantations and understood sugar and coffee cultivation intimately. As governor, he reorganized the agricultural economy of Saint-Domingue, maintaining production levels that impressed European observers. His fermage labor system, whatever its moral problems, was an effective resource management strategy that kept the colony economically viable during wartime."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Laurent Dubois, *Avengers of the New World* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Toussaint tackled the unprecedented systemic problem of building a post-slavery society with a functioning economy. He designed governance systems, reorganized military logistics using available technology, built fortification networks, and managed international trade — all cutting-edge challenges for his context. His solutions were innovative but constrained by available resources and disrupted by the French invasion."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.61,
+    "general_competency_avg_0_10": 5.56,
+    "overall_normalized_equal_avg_0_10": 7.27,
+    "created_at": "2026-03-22T22:10:36.904Z",
+    "updated_at": "2026-03-22T22:10:36.925Z"
+  }
+}
+]

@@ -1,0 +1,378 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 206,
+  "fields": {
+    "name": "Tokugawa Ieyasu",
+    "slug": "tokugawa-ieyasu",
+    "bio_short": "Tokugawa Ieyasu exemplifies supreme strategic patience and institution-building. His cognitive and cultural-social scores are strongest, reflecting a political system that endured 265 years and masterful navigation of Sengoku-era politics. Exceptional hardship tolerance and paradox integration—hostage to hegemon, warrior to peacemaker—elevate his embodied-existential profile. Moral-affective and relational scores are weaker, reflecting the forced deaths of his wife and son, limited documented compassion beyond political calculation, and instrumental justice. Heinlein competency is moderate: ou",
+    "bio_long": "Tokugawa Ieyasu was a Japanese samurai, daimyo and the founder and first shogun of the Tokugawa shogunate of Japan, which ruled from 1603 until the Meiji Restoration in 1868. He was the third of the three \"Great Unifiers\" of Japan, along with his former lord Oda Nobunaga and fellow Oda subordinate Toyotomi Hideyoshi. The son of a minor daimyo, Ieyasu once lived as a hostage under daimyo Imagawa Yoshimoto on behalf of his father. He later succeeded as daimyo after his father's death, serving as ally, vassal, and general of the Oda clan, and building up his strength under Oda Nobunaga.",
+    "source_notes": "https://en.wikipedia.org/wiki/Tokugawa_Ieyasu",
+    "image": "figures/330px-Tokugawa_Ieyasu2.JPG",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Hall, *The Cambridge History of Japan*, vol. 4 (1991)",
+              "Sadler, *The Maker of Modern Japan: The Life of Tokugawa Ieyasu* (1937)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ieyasu is perhaps history's supreme exemplar of strategic patience. After his devastating defeat at Mikatagahara (1573) against Takeda Shingen, he adapted his entire approach to warfare and politics. He submitted strategically to Hideyoshi after Komaki-Nagakute (1584) rather than risk destruction, then spent 16 years building strength before exploiting the power vacuum after Hideyoshi's death. His manipulation of the daimyo coalition before Sekigahara (1600)—isolating Ishida Mitsunari diplomatically while securing defections mid-battle—demonstrates adaptation under extreme uncertainty."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Hall, *The Cambridge History of Japan*, vol. 4 (1991)",
+              "Totman, *Politics in the Tokugawa Bakufu* (1967)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Ieyasu's political engineering was highly innovative: the classification of daimyo into fudai, tozama, and shinpan categories with differential privileges and geographic placement; the bakuhan system balancing central authority with regional autonomy; and the strategic use of marriage alliances and hostage systems as institutional controls. His engagement with Will Adams and European knowledge (shipbuilding, navigation, trade) also shows intellectual openness. However, these innovations built incrementally on existing Japanese governance models rather than constituting a paradigm shift in the broader sense."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Boot, *The Adoption and Adaptation of Neo-Confucianism in Japan* in Nosco (ed.), *Confucianism and Tokugawa Culture* (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ieyasu was deeply read in Confucian classics and Buddhist texts, sponsoring the Suruga-ban printing of key Confucian works and the encyclopedic Azuma Kagami. He articulated a coherent political philosophy prioritizing social stability through hierarchy, codified in the Buke Shohatto and Kinchū narabini Kuge Shohatto. His engagement with Hayashi Razan helped establish Neo-Confucianism as the intellectual framework of the Tokugawa state. However, his philosophical contributions were primarily synthesized for governance rather than original ethical innovation that influenced thinkers beyond Japan."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Totman, *Politics in the Tokugawa Bakufu* (1967)",
+              "Hall, *The Cambridge History of Japan*, vol. 4 (1991)",
+              "Bolitho, *Treasures Among Men: The Fudai Daimyo in Tokugawa Japan* (1974)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Tokugawa bakufu endured for 265 years (1603–1868), one of the longest-lasting governmental systems in world history. Ieyasu personally designed the Buke Shohatto (1615), the Kinchū narabini Kuge Shohatto regulating court nobles, and the administrative framework of Edo. His land-survey system, tax structures, and the strategic geographic placement of allied daimyo around potential enemies all functioned long after his death. The metsuke inspection system and temple-registration system (terauke) he initiated became enduring instruments of governance."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Hall, *The Cambridge History of Japan*, vol. 4 (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ieyasu operated across multiple relational modes: child hostage under Imagawa Yoshimoto, loyal vassal to Nobunaga, cautious subordinate to Hideyoshi, supreme patron to his retainers, military adversary to Ishida Mitsunari, father, and sovereign. He demonstrated clearly different relational behavior in each role—deferential with Nobunaga, strategically compliant with Hideyoshi, commanding with retainers. However, the evidence for emotional depth and qualitative distinctiveness within these modes (as opposed to strategic role-shifting) is moderate rather than richly documented."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Sadler, *The Maker of Modern Japan* (1937)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Ieyasu's first wife, Lady Tsukiyama (Sena), was forced to die in 1579—either executed or compelled to suicide—under pressure from Nobunaga, with Ieyasu's complicity debated but generally acknowledged by historians. He subsequently maintained multiple concubines but no documented deep emotional partnership. There is no substantial evidence of mutual respect, emotional availability, or support during crisis in any intimate relationship. His marriages and liaisons appear primarily political or personal convenience."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Sadler, *The Maker of Modern Japan* (1937)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The forced seppuku of his eldest son Nobuyasu (1579) is a severe counterexample, even accounting for Nobunaga's pressure—Ieyasu had some choice in the matter. Without this incident, his mentoring record would score higher: his son Hidetada became a competent second shogun, and his 'Four Heavenly Kings' (Honda, Ii, Sakakibara, Sakai) and retainers like Tenkai demonstrated effective development. With the Nobuyasu incident given full weight (a father's complicity in his son's death is maximally serious), the score is 1; without it, 2."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Jansen, *The Making of Modern Japan* (2000)",
+              "Hall, *The Cambridge History of Japan*, vol. 4 (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The Tokugawa peace (1603–1868) profoundly shaped Japanese culture, economy, and society—effects still clearly operative today in Japanese social norms, urban geography (Tokyo/Edo), and cultural traditions. The era's impact on Japan's unique modernization path influenced global 20th-century history. However, the 500-year cross-civilizational requirement is not fully met: Ieyasu died in 1616 (408 years ago), and while effects remain powerful within Japan and East Asia, direct influence across multiple civilizations is limited compared to figures like Confucius or Muhammad."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Sadler, *The Maker of Modern Japan* (1937)",
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Within Japanese culture, Ieyasu is the archetypal 'patient strategist,' captured in the famous proverb comparing the three unifiers' approaches to a silent cuckoo. He is recognized as a founding father figure in Japan and well-known across East Asia. However, his cross-cultural archetypal resonance outside East Asia is limited compared to figures like Alexander, Caesar, or Genghis Khan. He embodies patience, cunning, and endurance but primarily within a Japanese cultural frame."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Totman, *Politics in the Tokugawa Bakufu* (1967)",
+              "Hall, *The Cambridge History of Japan*, vol. 4 (1991)",
+              "Bolitho, *Treasures Among Men* (1974)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Tokugawa shogunate (1603–1868) lasted 265 years—far exceeding two generations. The bakuhan system, the daimyo classification system, the sankin-kōtai (alternate attendance) structure (formalized under Iemitsu but conceptually rooted in Ieyasu's hostage practices), the metsuke inspection system, and the urban planning of Edo all demonstrate institution-building of the highest order. These systems maintained peace and governed a population of 30+ million with recognizable continuity for over a quarter millennium."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Hall, *The Cambridge History of Japan*, vol. 4 (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ieyasu led successfully across qualitatively different contexts: as a young hostage-turned-daimyo rallying Mikawa retainers, as a subordinate general under Nobunaga, as an independent warlord managing coalitions, as supreme commander at Sekigahara, and as shogun building a peacetime state. He led in both acute crisis (Mikatagahara, Sekigahara) and long-term stability (25+ years of Kantō governance, establishment of Edo). His ability to inspire lifelong loyalty from retainers like Honda Tadakatsu, Ii Naomasa, and Sakakibara Yasumasa is well-documented."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Sadler, *The Maker of Modern Japan* (1937)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ieyasu was famously frugal even as shogun, eating barley rice and simple meals. His passion for falconry was lifelong and personal rather than merely ceremonial. He personally prepared medicines (pharmaceutical hobby documented in the Honchō Tsugan and other sources). He enjoyed Noh theater and swimming. These mundane engagements at the height of power are documented, though sources are primarily Tokugawa-era texts with some hagiographic tendency."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Elison, *Deus Destroyed: The Image of Christianity in Early Modern Japan* (1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Ieyasu established legal codes and judicial structures that brought order after decades of civil war, and his governance was not gratuitously cruel by Sengoku standards. However, his justice was fundamentally instrumental—designed to consolidate Tokugawa power. His betrayal of his deathbed promise to Hideyoshi to protect Hideyori, and the suppression of Christianity (beginning with the 1612 ban) primarily for political rather than principled reasons, show justice subordinated to power. No documented cases exist of Ieyasu ruling against his own family's interest in favor of abstract principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Sadler, *The Maker of Modern Japan* (1937)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Ieyasu showed occasional mercy—he spared certain defeated enemies when politically advantageous, such as allowing some Toyotomi loyalists to retain reduced domains after Sekigahara. However, the siege of Osaka Castle (1614–15) culminating in the destruction of Hideyori's family, and the execution of his first wife Lady Tsukiyama and the forced seppuku of his son Nobuyasu (1579, under Nobunaga's pressure but with his complicity), represent serious counterexamples. Without the Nobuyasu/Tsukiyama incidents, a score of 1 remains appropriate given limited evidence of compassion toward outgroup members; with them, 1 is confirmed."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Turnbull, *Tokugawa Ieyasu* (2012)",
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Sadler, *The Maker of Modern Japan* (1937)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ieyasu demonstrated sustained courage across decades. At Mikatagahara (1573), he personally led a doomed charge against Takeda Shingen's superior forces and barely escaped with his life, yet regrouped and continued campaigning. He endured years as a child hostage (ages 6–15) under the Imagawa. He personally commanded at Sekigahara (1600, age 57) and directed the Osaka campaigns (1614–15, age 71–72). His willingness to risk his domain in the Komaki-Nagakute campaign against Hideyoshi demonstrates courage under existential threat."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Sadler, *The Maker of Modern Japan* (1937)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The famous 'Shikamigahara portrait' tradition—Ieyasu allegedly commissioning a painting of himself in his defeated state after Mikatagahara to remind himself never to be overconfident—shows awareness of error, though this story may be apocryphal. His strategic evolution from impetuous warrior to patient statesman demonstrates learning, but evidence of specifically moral self-correction (as opposed to strategic adaptation) is thin. Tokugawa-era hagiography sanitizes him considerably, and independent evidence of moral growth is limited."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Sadler, *The Maker of Modern Japan* (1937)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ieyasu endured qualitatively different forms of adversity while remaining effective: childhood hostage captivity under the Imagawa (ages 6–15, material deprivation and psychological duress), devastating military defeat at Mikatagahara (1573), the forced deaths of his wife and eldest son Nobuyasu (1579, personal bereavement), and decades of political subordination to more powerful lords (Imagawa, Nobunaga, Hideyoshi). Through all of these he maintained strategic effectiveness and eventually achieved supremacy."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Hall, *The Cambridge History of Japan*, vol. 4 (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ieyasu inhabited at least four seemingly contradictory roles without inconsistency: (1) hostage/powerless dependent who became supreme ruler; (2) warrior who fought in dozens of battles yet engineered Japan's longest peace; (3) patient subordinate who served three masters (Imagawa, Nobunaga, Hideyoshi) yet ultimately surpassed them all; (4) ruthless political operator who also patronized scholarship, Buddhism, and cultural production. His capacity to embody obedience and authority, violence and peace, patience and decisiveness simultaneously is a defining feature of his historical persona."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Ooms, *Tokugawa Ideology: Early Constructs, 1570–1680* (1985)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "In his final months (1616), Ieyasu systematically prepared for death: finalizing succession arrangements, issuing last instructions to key retainers, and planning his own deification at Nikkō Tōshō-gū shrine. He reportedly maintained composure during his final illness (likely stomach cancer) and continued governing until near the end. His elaborate posthumous plans suggest intentional engagement with mortality rather than avoidance, though the hagiographic nature of deathbed accounts warrants caution."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Turnbull, *Tokugawa Ieyasu* (2012)",
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ieyasu was an active warrior from his teens through his early seventies. He fought at Okehazama (1560, age 17), Mikatagahara (1573, age 30), Nagakute (1584, age 41), Sekigahara (1600, age 57), and directed the Osaka campaigns (1614–15, age 71–72). His passion for falconry and swimming extended into old age. However, compared to figures remembered primarily for physical prowess, his endurance was strong but not the defining feature of his career."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+              "Sadler, *The Maker of Modern Japan* (1937)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ieyasu's lifelong passion for falconry was genuine and personal—he maintained it from youth through old age and it was clearly not merely instrumental. He enjoyed Noh theater, collected and sponsored the printing of classical texts, and maintained an active interest in pharmaceutical preparation as a hobby. His enjoyment of swimming is also documented. These represent non-instrumental aesthetic and recreational engagements."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.75,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Tokugawa Ieyasu",
+      "overall": {
+        "Core_5D_Avg": 6.75,
+        "Overall_Normalized_Equal_Avg": 6.55,
+        "General_Competency_Avg_10scale": 5.56
+      },
+      "summary": "Tokugawa Ieyasu exemplifies supreme strategic patience and institution-building. His cognitive and cultural-social scores are strongest, reflecting a political system that endured 265 years and masterful navigation of Sengoku-era politics. Exceptional hardship tolerance and paradox integration—hostage to hegemon, warrior to peacemaker—elevate his embodied-existential profile. Moral-affective and relational scores are weaker, reflecting the forced deaths of his wife and son, limited documented compassion beyond political calculation, and instrumental justice. Heinlein competency is moderate: outstanding in strategic command and leadership but with limited evidence of artistic creation, manual crafts, or culinary skill. A consummate political architect more than a rounded humanist.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.67,
+          "General_Competency_Avg_10scale": 5.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence exists of Ieyasu personally preparing meals. While he was famously interested in food (his frugal diet of barley rice, his reputed fondness for tempura, and his interest in food preservation), there is no documentation of personal cooking skill. As a daimyo and shogun, meals were prepared by household staff."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Turnbull, *Tokugawa Ieyasu* (2012)",
+            "Sadler, *The Maker of Modern Japan* (1937)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Ieyasu was a trained samurai who personally fought in numerous battles from his youth. At Mikatagahara (1573), he led a personal charge against Takeda forces. He participated in the Battle of Anegawa (1570) alongside Nobunaga and fought at Nagakute (1584). His combat career spanned decades, and he was skilled with both sword and arquebus strategy. By his later campaigns (Osaka 1614–15), he directed rather than personally fought, but his cumulative combat experience was substantial."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Totman, *Tokugawa Ieyasu: Shogun* (1983)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Limited direct evidence of caregiving. Ieyasu's pharmaceutical hobby included treating his own ailments and reportedly preparing medicines for retainers, suggesting some caregiving orientation. However, his handling of family members (wife, son Nobuyasu) argues against strong nurturing capacity. His concern for retainers' welfare is documented but primarily within a lord-vassal framework."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+            "Ooms, *Tokugawa Ideology* (1985)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Ieyasu faced his final illness (spring 1616) with documented composure, continuing to issue governance directives and prepare succession arrangements. He planned his own posthumous deification at Nikkō Tōshō-gū, suggesting deliberate engagement with mortality. Earlier in life, his composure after the Mikatagahara defeat—regrouping and continuing rather than surrendering to despair—demonstrates crisis composure. Hagiographic embellishment of deathbed accounts requires some caution."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Totman, *Tokugawa Ieyasu: Shogun* (1983)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Ieyasu personally prepared pharmaceutical compounds, which involved grinding, mixing, and processing medicinal ingredients—a genuine manual craft skill. He also reportedly maintained his own equipment to some degree, as expected of samurai culture. However, evidence of broader manual craft or repair skill beyond pharmaceutical preparation is limited."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Turnbull, *Tokugawa Ieyasu* (2012)",
+            "Sadler, *The Maker of Modern Japan* (1937)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Ieyasu marched armies across Japan repeatedly and demonstrated personal navigation skill during the famous Iga-goe (1582)—his dangerous flight across Iga province after Akechi Mitsuhide's assassination of Nobunaga, navigating hostile terrain with minimal escort. He also managed complex multi-army logistics across varied Japanese terrain for campaigns at Sekigahara and Osaka."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Totman, *Tokugawa Ieyasu: Shogun* (1983)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Ieyasu's lifelong passion for falconry demonstrates engagement with animal handling and hunting. As a samurai lord, he would have had practical knowledge of game processing. His documented frugal diet and interest in food preservation suggest awareness of food processing, but no evidence of personal butchering or detailed food processing skill beyond what was typical for a daimyo."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+            "Hall, *The Cambridge History of Japan*, vol. 4 (1991)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Ieyasu is exceptional in both dimensions. As a follower: he served loyally under Nobunaga for nearly 20 years and submitted to Hideyoshi's authority when strategically necessary, demonstrating genuine capacity to subordinate ego. As a leader: he inspired lifelong loyalty from his 'Four Heavenly Kings,' commanded coalitions of independent daimyo, and governed Japan as shogun. The ability to excel in both roles across decades is rare and well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Coaldrake, *Architecture and Authority in Japan* (1996)",
+            "Hall, *The Cambridge History of Japan*, vol. 4 (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Ieyasu directed the construction of multiple castles (Hamamatsu, Sunpu, and especially Edo Castle) and the urban planning of Edo, which became the world's largest city by the 18th century. He oversaw major engineering works including river diversion projects in the Kantō plain. While he directed rather than personally built, his understanding of fortification design and urban infrastructure was clearly sophisticated for his era."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+            "Hall, *The Cambridge History of Japan*, vol. 4 (1991)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Ieyasu is among history's great strategic planners. His decades-long plan to achieve supremacy, the meticulous diplomatic preparation before Sekigahara (securing defections from Kobayakawa Hideaki and others), the two-phase Osaka campaign (Winter 1614 to force negotiation, Summer 1615 to destroy), and the comprehensive institutional design of the shogunate all demonstrate exceptional strategic command under complex constraints."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+            "Ooms, *Tokugawa Ideology* (1985)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Ieyasu was a patron of arts rather than a creator. He sponsored the printing of classical texts (Suruga-ban editions), patronized Noh theater, and supported Buddhist temple construction. He composed some poetry as expected of his class, but left no notable artistic works. His cultural engagement was significant for governance but does not demonstrate personal artistic skill."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Totman, *Tokugawa Ieyasu: Shogun* (1983)",
+            "Sadler, *The Maker of Modern Japan* (1937)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Ieyasu's well-documented interest in pharmacology and medicine-making is attested in multiple sources. He studied medicinal texts, prepared his own remedies, and reportedly treated his own ailments. This represents genuine era-appropriate medical knowledge. However, there is no documented evidence of him treating others in emergency situations or providing medical aid beyond self-care and hobby preparation."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Totman, *Politics in the Tokugawa Bakufu* (1967)",
+            "Hall, *The Cambridge History of Japan*, vol. 4 (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Ieyasu managed the complex logistics of military campaigns, the financial administration of the Kantō region (the wealthiest in Japan), and the economic framework of the early shogunate including rice-based taxation, gold/silver currency standardization, and trade regulation. His negotiations with European traders (Dutch, English) required understanding of complex commercial arrangements. His land surveys required systematic analytical capacity."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Hall, *The Cambridge History of Japan*, vol. 4 (1991)",
+            "Totman, *Tokugawa Ieyasu: Shogun* (1983)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Ieyasu's governance of the Kantō plain included significant agricultural development: river diversion projects (the Tone River redirection), irrigation systems, and land reclamation that transformed the region into Japan's most productive agricultural zone. His rice-based taxation system required sophisticated resource management. These were directed rather than personally executed, but demonstrate strong competence in agricultural resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Milton, *Samurai William: The Englishman Who Opened Japan* (2002)",
+            "Totman, *Tokugawa Ieyasu: Shogun* (1983)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Ieyasu engaged with cutting-edge technologies of his era: he adopted firearms strategy early, engaged with European shipbuilding technology through Will Adams (commissioning Japan's first Western-style ship), established printing operations using movable type, and pursued foreign trade negotiations requiring understanding of complex commercial systems. His interest in European technology (clocks, navigation instruments) is documented through his interactions with Adams and Dutch traders."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.75,
+    "general_competency_avg_0_10": 5.56,
+    "overall_normalized_equal_avg_0_10": 6.55,
+    "created_at": "2026-03-22T22:20:03.123Z",
+    "updated_at": "2026-03-22T22:20:03.141Z"
+  }
+}
+]

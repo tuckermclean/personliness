@@ -1,0 +1,368 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 165,
+  "fields": {
+    "name": "Nicolaus Copernicus",
+    "slug": "nicolaus-copernicus",
+    "bio_short": "Copernicus's defining contribution is a paradigm-shifting creative insight (heliocentrism) that yields maximal scores in Impact Legacy, Archetype Resonance, and Creative Thinking. His polymath breadth—canon law, medicine, economics, military defense, astronomical instrument-making—produces moderate Heinlein competency. Moral-affective and relational dimensions are constrained by his celibate, cautious, and relatively private life; evidence is thinner here. Core 5D Avg ≈ 5.84/10; Heinlein Avg ≈ 4.89/10; Overall ≈ 5.69/10. A singular intellect whose world-historical impact far outstrips his inte",
+    "bio_long": "Nicolaus Copernicus was a Renaissance polymath who formulated a model of the universe that placed the Sun rather than Earth at its center. The publication of Copernicus's model in his book De revolutionibus orbium coelestium, just before his death in 1543, was a major event in the history of science, triggering the Copernican Revolution and making a pioneering contribution to the Scientific Revolution. Though a similar heliocentric model had been developed eighteen centuries earlier by Aristarchus of Samos, an ancient Greek astronomer, Copernicus likely arrived at his model independently.",
+    "source_notes": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
+    "image": "figures/330px-Nikolaus_Kopernikus_MOT.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Biskup, Marian. Regesta Copernicana (1973)",
+              "Repcheck, Jack. Copernicus' Secret (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Copernicus organized the successful defense of Olsztyn (Allenstein) against the Teutonic Knights in 1520–21, adapting fortification and supply plans under siege conditions. He also strategically managed the dissemination of his heliocentric theory, first circulating the Commentariolus (~1510) to gauge reactions decades before the full De revolutionibus (1543). His economic writings on currency reform (Monetae cudendae ratio) show analytical foresight applied to a different domain."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Kuhn, Thomas. The Copernican Revolution (1957)",
+              "Swerdlow, N.M. and Neugebauer, O. Mathematical Astronomy in Copernicus's De Revolutionibus (1984)",
+              "Gingerich, Owen. The Book Nobody Read (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Copernicus's heliocentric model in De revolutionibus (1543) constitutes one of the clearest paradigm shifts in intellectual history, replacing the Ptolemaic geocentric system that had dominated Western astronomy for over 1,300 years. The before/after difference is unambiguous: his work directly enabled Kepler's laws, Galileo's observations, and Newton's gravitational mechanics. Though Aristarchus proposed heliocentrism in antiquity, Copernicus independently developed a complete mathematical model."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Kuhn, Thomas. The Copernican Revolution (1957)",
+              "Goddu, André. Copernicus and the Aristotelian Tradition (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Copernicus's heliocentric model carried profound philosophical implications—displacing humanity from the cosmic center—but he himself presented it primarily as a mathematical-astronomical framework rather than articulating explicit philosophical principles. Kant later adopted the term 'Copernican Revolution' as a philosophical metaphor, and Kuhn used it as the paradigmatic case of paradigm shift, but this influence was largely built upon Copernicus's work by others rather than articulated by him directly."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Biskup, Marian. Regesta Copernicana (1973)",
+              "Rosen, Edward. Copernicus and the Scientific Revolution (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Copernicus served as administrator (Kanzler) of the Warmia chapter's extensive lands for multiple terms, managing estates, finances, and judicial matters. His monetary treatise Monetae cudendae ratio (1526) proposed currency reform principles (anticipating Gresham's Law) that were debated at Prussian diets. However, his administrative systems did not notably endure beyond his personal oversight, capping him below 3."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Biskup, Marian. Regesta Copernicana (1973)",
+              "Repcheck, Jack. Copernicus' Secret (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Copernicus functioned as ward/nephew (under Bishop Watzenrode's guardianship), subordinate (within the Church hierarchy, obeying Bishop Dantiscus), superior (as administrator of chapter lands), caregiver/physician (to canons and the poor), mentor (to Rheticus), colleague (among fellow canons), and military commander (at Olsztyn). This spans at least six relational modes, though documentation of qualitatively distinct behavior across them is limited by sparse personal records."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Rosen, Edward. Copernicus and the Scientific Revolution (1984)",
+              "Biskup, Marian. Regesta Copernicana (1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "As a cathedral canon, Copernicus was expected to remain celibate and never married. The only documented intimate relationship is with his housekeeper Anna Schilling, whom Bishop Dantiscus ordered him to dismiss around 1539 on suspicion of concubinage. Copernicus initially resisted but eventually complied. No evidence of deep mutual partnership, emotional availability, or support during crisis exists for this or any relationship."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Danielson, Dennis. The First Copernican: Georg Joachim Rheticus (2006)",
+              "Gingerich, Owen. The Book Nobody Read (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Copernicus's most significant mentoring relationship was with Georg Joachim Rheticus, who lived with him in Frombork (1539–41) and became the catalyst for publishing De revolutionibus. Rheticus went on to become an independent mathematician and astronomer of note, publishing his own Narratio Prima and later trigonometric tables—demonstrating genuine autonomy and competence. No biological children are known."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Kuhn, Thomas. The Copernican Revolution (1957)",
+              "Gingerich, Owen. The Book Nobody Read (2004)",
+              "Swerdlow and Neugebauer, Mathematical Astronomy in Copernicus's De Revolutionibus (1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Copernican heliocentric model triggered a scientific revolution whose effects are still operative across all civilizations more than 500 years later. It directly enabled the work of Kepler, Galileo, and Newton. 'Copernican Revolution' became a universal metaphor for paradigm change (Kant, Kuhn). Modern astronomy, physics, and cosmology are built on the foundation he laid."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Kuhn, Thomas. The Structure of Scientific Revolutions (1962)",
+              "Gingerich, Owen. The Book Nobody Read (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Copernicus is universally recognized as the archetype of the scientific revolutionary who overturns entrenched dogma. His name is invoked across cultures—East Asian, South Asian, Islamic, Western—as a symbol of intellectual paradigm change. Kuhn's 'paradigm shift' concept was modeled on the Copernican Revolution. He is recognized well beyond his own Polish-Prussian cultural context."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Biskup, Marian. Regesta Copernicana (1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Copernicus served within existing institutions (the Catholic Church, the Warmia chapter) rather than founding new ones. He contributed to institutional functioning—managing chapter lands, proposing monetary reform—but did not create organizations or structures that survived with recognizable continuity beyond his tenure."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Biskup, Marian. Regesta Copernicana (1973)",
+              "Danielson, Dennis. The First Copernican (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Copernicus led in qualitatively different contexts: as military commander during the siege of Olsztyn (1520–21) and as a peacetime administrator of the Warmia chapter's lands over many years. His intellectual influence, while epochal, operated primarily through his written work rather than direct personal leadership of large groups. He inspired Rheticus and a small circle but did not lead a mass movement."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Rosen, Edward. Copernicus and the Scientific Revolution (1984)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Copernicus practiced medicine, managed agricultural estates, and built astronomical instruments with his own hands, suggesting engagement with practical life. However, specific documentation of mundane everyday activities—humor, play, domestic routines—at the height of his intellectual work is sparse. He lived a relatively austere life as a cathedral canon in provincial Frombork."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Rosen, Edward. Copernicus and the Scientific Revolution (1984)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Copernicus's monetary reform treatise Monetae cudendae ratio argued against currency debasement by the Teutonic Order, which harmed ordinary Prussians—showing concern for economic fairness. He also served in judicial-administrative roles within the Warmia chapter. However, no documented cases of ruling against personal or group interest in favor of principle are recorded."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Rosen, Edward. Copernicus and the Scientific Revolution (1984)",
+              "Repcheck, Jack. Copernicus' Secret (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Copernicus studied medicine at Padua and practiced it for decades as physician to the Bishop of Warmia and chapter members. He reportedly also treated the poor of Frombork without charge. He personally cared for his ailing uncle Bishop Lucas Watzenrode. However, no specific documented acts of compassion toward adversaries (e.g., the Teutonic Order) are recorded."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Repcheck, Jack. Copernicus' Secret (2007)",
+              "Danielson, Dennis. The First Copernican (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Copernicus showed physical courage in organizing Olsztyn's defense during the Teutonic siege of 1520–21. However, he delayed publishing De revolutionibus for over three decades, partly from fear of ridicule and ecclesiastical censure, agreeing to publish only after sustained persuasion by Rheticus. Without the publication delay counterexample, this would score 2; with it weighted proportionally, the overall pattern is episodic courage rather than sustained."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Gingerich, Owen. The Book Nobody Read (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Copernicus refined his astronomical model over several decades, showing intellectual growth (the Commentariolus differs from De revolutionibus in important ways). He eventually overcame his reluctance to publish. However, no documented instance of publicly acknowledging a moral or intellectual error, accepting correction, or reversing a prior position with visible behavioral change is recorded. The hagiographic tradition around him sanitizes rather than illuminates such moments."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Repcheck, Jack. Copernicus' Secret (2007)",
+              "Biskup, Marian. Regesta Copernicana (1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Copernicus lost his father around age 10 and was raised by his uncle Bishop Watzenrode. He endured the siege of Olsztyn and the political instability of Warmia under Teutonic threat. These represent different forms of adversity, but the early bereavement was substantially mitigated by his uncle's patronage, and his adult life was relatively secure as a cathedral canon. Evidence of prolonged, acute hardship is limited."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Repcheck, Jack. Copernicus' Secret (2007)",
+              "Kuhn, Thomas. The Copernican Revolution (1957)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Copernicus was simultaneously a loyal Catholic canon and a scientific revolutionary whose work would challenge Church cosmology; a cautious, conservative provincial administrator and the most radical thinker of his era; a practicing physician and a theoretical astronomer; a military defender of Olsztyn and a scholarly recluse. He inhabited at least four seemingly contradictory roles without fragmenting, though he managed this partly by compartmentalization (delaying publication) rather than open integration."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Gingerich, Owen. The Book Nobody Read (2004)",
+              "Rosen, Edward. Copernicus and the Scientific Revolution (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "According to tradition reported by Tiedemann Giese, Copernicus received the first printed copy of De revolutionibus on his deathbed on May 24, 1543, touched the book, and died peacefully that same day. While this account may be embellished, his decision to finally authorize publication in his last years, knowing death approached, shows intentional engagement with his own mortality. He made arrangements for his legacy."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Repcheck, Jack. Copernicus' Secret (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Copernicus made multiple long journeys between Poland and Italy (Kraków to Bologna, Padua, Ferrara, Rome) in the late 15th century—demanding travel for the era. He endured the physical rigors of the Olsztyn siege at age 47 and conducted astronomical observations in harsh Baltic winter conditions into his sixties. However, no documented exceptional physical feats are recorded."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Gingerich, Owen. The Book Nobody Read (2004)",
+              "Goddu, André. Copernicus and the Aristotelian Tradition (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Copernicus translated the Greek epistolary poetry of Theophylact Simocatta into Latin verse (published 1509), demonstrating literary-aesthetic engagement beyond astronomical work. His preference for the heliocentric model was partly aesthetic—he repeatedly emphasized the 'harmony' and 'symmetry' of the Sun-centered cosmos in De revolutionibus. This aesthetic sensibility appears genuinely felt rather than purely instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 5.56,
+          "Core_5D_Avg": 5.85,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Nicolaus Copernicus",
+      "overall": {
+        "Core_5D_Avg": 5.85,
+        "Overall_Normalized_Equal_Avg": 5.69,
+        "General_Competency_Avg_10scale": 4.89
+      },
+      "summary": "Copernicus's defining contribution is a paradigm-shifting creative insight (heliocentrism) that yields maximal scores in Impact Legacy, Archetype Resonance, and Creative Thinking. His polymath breadth—canon law, medicine, economics, military defense, astronomical instrument-making—produces moderate Heinlein competency. Moral-affective and relational dimensions are constrained by his celibate, cautious, and relatively private life; evidence is thinner here. Core 5D Avg ≈ 5.84/10; Heinlein Avg ≈ 4.89/10; Overall ≈ 5.69/10. A singular intellect whose world-historical impact far outstrips his interpersonal or embodied footprint.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.47,
+          "General_Competency_Avg_10scale": 4.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence exists of Copernicus's personal cooking abilities. As a cathedral canon, meals were provided communally or by household servants."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Biskup, Marian. Regesta Copernicana (1973)",
+            "Repcheck, Jack. Copernicus' Secret (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Copernicus organized the defense of Olsztyn during the 1520–21 Teutonic siege, including directing fortification efforts and troop positioning. However, no evidence of personal combat prowess or martial training exists. His role was primarily organizational rather than combative."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Rosen, Edward. Copernicus and the Scientific Revolution (1984)",
+            "Repcheck, Jack. Copernicus' Secret (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Copernicus studied medicine at the University of Padua (1501–03) and practiced as a physician for over three decades, serving as personal doctor to his uncle Bishop Watzenrode and to successive bishops and chapter members of Warmia. He reportedly also provided medical care to the poor of Frombork without fee. This represents sustained, skilled caregiving across his adult life."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Gingerich, Owen. The Book Nobody Read (2004)",
+            "Rosen, Edward. Copernicus and the Scientific Revolution (1984)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The tradition reported by Tiedemann Giese describes Copernicus receiving De revolutionibus on his deathbed and dying peacefully on May 24, 1543. His decision to authorize publication in his final years, aware of approaching death, suggests intentional composure about his mortality and legacy. While the deathbed scene may be embellished, his deliberate last-years engagement with his legacy is well-attested."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Gingerich, Owen. The Book Nobody Read (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Copernicus built and calibrated his own astronomical instruments (triquetrum, quadrant) at Frombork, requiring metalworking and woodworking skill. This represents competent manual craft relevant to his era but was limited to instrument-making rather than broad repair and fabrication skills."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Repcheck, Jack. Copernicus' Secret (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Copernicus made multiple extended journeys between Poland and Italy (Kraków to Bologna, Padua, Ferrara, Rome) over several years—navigating across the Alps and through multiple states. His astronomical work required precise understanding of celestial positioning. However, no evidence of specialized navigational skill (e.g., maritime piloting) is documented."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence exists of Copernicus engaging in butchering, animal husbandry, or food processing. As a cathedral canon, his provisions were supplied by the chapter's estates."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Biskup, Marian. Regesta Copernicana (1973)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Copernicus demonstrated effective leadership as military commander at Olsztyn and as chapter administrator, while also faithfully following Church hierarchy—obeying Bishop Dantiscus's order to dismiss Anna Schilling and operating within the canonical framework throughout his career. He showed capacity for both directing others and deferring to authority."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Gingerich, Owen. The Book Nobody Read (2004)",
+            "Rosen, Edward. Copernicus and the Scientific Revolution (1984)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Copernicus constructed his own astronomical instruments, including a triquetrum and parallactic rulers, for observations at Frombork. He may also have been involved in designing a hydraulic system (water supply) for the Frombork cathedral complex. These represent competent fabrication but not major construction projects."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Biskup, Marian. Regesta Copernicana (1973)",
+            "Repcheck, Jack. Copernicus' Secret (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Copernicus organized the defense of Olsztyn (Allenstein) during the Teutonic Knights' siege of 1520–21, coordinating military forces, supply lines, and fortifications as the chapter's appointed commander. He successfully held the town until a truce was negotiated. He also managed the complex logistics of the Warmia chapter's extensive landholdings across multiple administrative terms."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Goddu, André. Copernicus and the Aristotelian Tradition (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Copernicus translated the Greek verse epistles of Theophylact Simocatta into Latin (published 1509), demonstrating literary competence and aesthetic engagement. The prose of De revolutionibus also shows rhetorical craft, particularly the dedicatory preface to Pope Paul III. However, artistic expression was not a primary domain of his activity."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Rosen, Edward. Copernicus and the Scientific Revolution (1984)",
+            "Repcheck, Jack. Copernicus' Secret (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Copernicus studied medicine at the University of Padua (1501–03), one of Europe's premier medical schools, and practiced medicine for over 30 years in Warmia. He served as physician to multiple bishops and treated chapter members and the local population. Era-normalized, this represents substantial medical competence—he was the primary physician available in a provincial Baltic region."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Swerdlow, N.M. and Neugebauer, O. Mathematical Astronomy in Copernicus's De Revolutionibus (1984)",
+            "Gingerich, Owen. The Book Nobody Read (2004)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "De revolutionibus required advanced spherical trigonometry, geometric planetary modeling, and the development of novel mathematical techniques to compute planetary positions in a heliocentric framework. Copernicus independently derived a version of the prosthaphaeresis formula and produced extensive computational tables. His monetary treatise also applied quantitative analysis to coinage economics. This represents cutting-edge mathematical work for his era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Biskup, Marian. Regesta Copernicana (1973)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "As administrator of the Warmia chapter's lands, Copernicus oversaw agricultural estates, managed tenant farmers, and handled revenue collection. He also developed a bread-pricing formula based on grain costs. However, this was managerial oversight rather than direct agricultural practice."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Swerdlow, N.M. and Neugebauer, O. Mathematical Astronomy in Copernicus's De Revolutionibus (1984)",
+            "Gingerich, Owen. The Book Nobody Read (2004)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Copernicus's heliocentric model in De revolutionibus represents cutting-edge technical problem-solving: he identified systematic errors in the Ptolemaic system (e.g., the equant problem), devised novel geometric solutions using epicycles in a heliocentric frame, built precision instruments from scratch, and produced computational tables for planetary positions. He also applied systematic analysis to monetary economics. This represents the highest tier of technical-systemic work available in his era."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.85,
+    "general_competency_avg_0_10": 4.89,
+    "overall_normalized_equal_avg_0_10": 5.69,
+    "created_at": "2026-03-22T21:24:00.657Z",
+    "updated_at": "2026-03-22T21:24:00.670Z"
+  }
+}
+]

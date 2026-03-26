@@ -1,0 +1,402 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 153,
+  "fields": {
+    "name": "Winston Churchill",
+    "slug": "winston-churchill",
+    "bio_short": "Churchill excels in cultural-social impact and embodied-existential depth—his wartime leadership, rhetorical genius, and integration of paradoxical roles (warrior-artist, depressive-inspirer, imperialist-democrat) are historically defining. Cognitive scores are strong, anchored by exceptional strategic adaptation and prolific literary output. Moral-affective scores are tempered by imperial blind spots, selective compassion, and limited documented moral growth—the Bengal Famine and racial attitudes are serious counterexamples. Relational depth is moderate: a strong spousal partnership offset by",
+    "bio_long": "Sir Winston Leonard Spencer Churchill was a British statesman, military officer, and writer who was Prime Minister of the United Kingdom from 1940 to 1945, during the Second World War, and again from 1951 to 1955. For some 62 of the years between 1900 and 1964, he was a Member of Parliament (MP) and represented a total of five constituencies over that time. Ideologically an adherent to economic liberalism and imperialism, he was for most of his career a member of the Conservative Party, which he led from 1940 to 1955. He was a member of the Liberal Party from 1904 to 1924.",
+    "source_notes": "https://en.wikipedia.org/wiki/Winston_Churchill",
+    "image": "figures/330px-Sir_Winston_Churchill_-_19086236948_28restored29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Roberts, *Churchill: Walking with Destiny* (2018)",
+              "Keegan, *Churchill* (2002)",
+              "Reynolds, *In Command of History* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Churchill's warnings about Nazi Germany throughout the 1930s 'wilderness years' demonstrated exceptional foresight when nearly all peers disagreed. After the fall of France in 1940, he successfully adapted British strategy—pivoting to the Battle of Britain, cultivating the American alliance, and managing the Mediterranean theater. The Gallipoli disaster (1915) is a significant counterexample of strategic failure; without it the score would be an unambiguous 3, and with it one might argue 2. However, the rubric specifically rewards adaptation after failure, and Churchill's recovery from Gallipoli and his subsequent strategic career demonstrate exactly this capacity, justifying 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Liddell Hart, *The Tanks* (1959)",
+              "Churchill, *Painting as a Pastime* (1948)",
+              "Jenkins, *Churchill* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Churchill championed the development of the tank in WWI as First Lord of the Admiralty, funding the 'landship' project that produced a paradigm-shifting weapon. He promoted radar development, Mulberry harbours, and PLUTO (Pipeline Under The Ocean) in WWII. His rhetorical innovations in wartime communication were genre-defining. However, he was primarily a champion and patron of others' innovations rather than the originator, preventing a clear 3."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Toye, *Churchill's Empire* (2010)",
+              "Churchill, *The Gathering Storm* (1948)",
+              "Langworth, *Churchill by Himself* (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Churchill articulated a powerful moral vision of democratic civilization versus tyranny, influencing political thought far beyond Britain—his 'Iron Curtain' speech (1946) framed Cold War moral reasoning globally. His defense of parliamentary democracy and individual liberty in speeches and writings constitutes coherent ethical reasoning. However, his imperialism and racial views (dismissive comments about Indians, support for poison gas against 'uncivilised tribes') represent significant ethical blind spots that prevent a score of 3, as his principles did not consistently extend beyond his civilizational framework."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Addison, *Churchill on the Home Front* (1992)",
+              "Jenkins, *Churchill* (2001)",
+              "Toye, *Lloyd George and Churchill* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "As President of the Board of Trade (1908–1910), Churchill established labour exchanges and trade boards for sweated industries—reforms that endured well beyond his tenure. As Minister of Munitions (1917–1918), he reorganized Britain's war production. His wartime Cabinet system (1940–1945) effectively managed the entire British war effort. However, his return to the gold standard as Chancellor (1925) was an acknowledged disaster, and many wartime structures were dismantled post-war, preventing a clear 3."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Jenkins, *Churchill* (2001)",
+              "Roberts, *Churchill: Walking with Destiny* (2018)",
+              "Colville, *The Fringes of Power: Downing Street Diaries* (1985)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Churchill operated across multiple relational modes: devoted (if imperfect) spouse to Clementine, conflicted parent, loyal friend to F.E. Smith and Lord Beaverbrook, formidable adversary in Parliament, subordinate (accepted the King's authority, served under multiple PMs), commanding superior as PM, and warm presence with ordinary citizens during the Blitz. However, his dominant personality was remarkably consistent across contexts—he was famously difficult as a subordinate, domineering with staff, and his forceful character pervaded most relationships, suggesting less relational adaptability than true range requires for a 3."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Soames, *Clementine Churchill* (1979)",
+              "Purnell, *First Lady: The Life and Wars of Clementine Churchill* (2015)",
+              "Churchill & Churchill, *Speaking for Themselves: The Personal Letters* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Churchill and Clementine maintained a 57-year marriage (1908–1965) marked by genuine affection—their extensive correspondence (as 'Mr. Pug' and 'Mrs. Kat') reveals deep emotional intimacy and mutual respect. Clementine served as a trusted advisor who challenged him directly (her famous 1940 letter warning he was being overbearing). She supported him through the Gallipoli crisis, the wilderness years, and WWII. However, Churchill was frequently absorbed in politics to the exclusion of family life, and Clementine bore disproportionate domestic burdens, preventing a score of 3."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Soames, *Clementine Churchill* (1979)",
+              "Sandys, *From Winston with Love and Kisses* (1994)",
+              "Roberts, *Churchill: Walking with Destiny* (2018)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Churchill's record as a father was uneven. His son Randolph was notoriously difficult and their relationship was often combative; Sarah struggled with alcoholism. His youngest daughter Mary (Soames) had the most successful relationship with him and became a capable author and public figure. Churchill was often physically and emotionally absent due to political demands. As a mentor, he influenced younger politicians and military figures but without the sustained, development-focused investment the rubric requires for higher scores. His children's mixed outcomes—compared to the autonomy criterion—limit this score."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Roberts, *Churchill: Walking with Destiny* (2018)",
+              "Reynolds, *In Command of History* (2004)",
+              "Cannadine, ed., *Blood, Toil, Tears and Sweat: The Great Speeches* (1989)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Churchill's central role in the Allied victory in WWII shaped the entire postwar world order—the defeat of Nazism, the founding of the United Nations, the architecture of NATO, and the framing of the Cold War are all legacies still operative globally. His rhetoric established enduring templates for democratic leadership under crisis. His historical writings shaped popular understanding of British and world history for generations. While only ~60 years since his death, the magnitude of WWII's reshaping of global civilization makes it virtually certain his legacy will remain operative for centuries across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Cannadine, *In Churchill's Shadow* (2003)",
+              "Langworth, *Churchill by Himself* (2008)",
+              "Lukacs, *Churchill: Visionary. Statesman. Historian.* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Churchill embodies the archetype of the defiant leader standing alone against tyranny—'the British Bulldog.' He is recognized globally, not just in Britain, as a symbol of democratic resistance, determination, and eloquent moral courage. He is invoked across cultures and political traditions: American presidents, European leaders, and politicians worldwide cite him as an exemplar. His image (the 'roaring lion' Karsh portrait, the V-sign, the cigar) constitutes an instantly recognizable global symbol transcending his own civilization."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Jenkins, *Churchill* (2001)",
+              "Harbutt, *The Iron Curtain* (1986)",
+              "Addison, *Churchill on the Home Front* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Churchill was instrumental in creating the Royal Air Force as a separate service (1918), and his Fulton 'Iron Curtain' speech (1946) helped lay the intellectual groundwork for NATO (1949). He championed the 'special relationship' between the US and UK, which persists as a structural feature of international relations. His early welfare reforms (labour exchanges, 1909) contributed to the foundation of the British welfare state. However, he was a contributor among many to each of these institutions rather than their sole architect, and some (like NATO) were built by others after his groundwork."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Roberts, *Churchill: Walking with Destiny* (2018)",
+              "Lukacs, *Five Days in London, May 1940* (1999)",
+              "Reynolds, *In Command of History* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Churchill successfully led across qualitatively different contexts: wartime crisis (PM 1940–1945, rallying a nation facing invasion), peacetime governance (PM 1951–1955), parliamentary opposition (the 1930s wilderness years, where he maintained influence without office), military command (battalion commander in WWI trenches), and alliance diplomacy (managing relations with Roosevelt and Stalin at Tehran, Yalta). He mobilized entire populations through rhetoric—his speeches during the Battle of Britain are among the most consequential acts of leadership in modern history."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Soames, *Clementine Churchill* (1979)",
+              "Churchill, *Painting as a Pastime* (1948)",
+              "Roberts, *Churchill: Walking with Destiny* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Churchill maintained connections to ordinary experience through documented hobbies and human foibles: he painted prolifically at Chartwell (500+ paintings), laid bricks as a hobby (joining the bricklayers' union), kept pigs, fish, and butterflies, and was known for his love of whisky, cigars, and afternoon naps. His wit and humor with ordinary people during Blitz visits are well-documented. However, he lived an aristocratic life with large household staff, country estates, and champagne tastes—his ordinariness was always performed from a position of immense privilege."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Toye, *Churchill's Empire* (2010)",
+              "Addison, *Churchill on the Home Front* (1992)",
+              "Herman, *Gandhi & Churchill* (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Churchill championed prison reform as Home Secretary (1910–1911), introduced labor protections at the Board of Trade, and crossed the floor to the Liberals in 1904 partly on the principle of free trade. He accepted the democratic verdict of the 1945 election gracefully despite deep personal disappointment. However, his active resistance to Indian self-governance, his support for the brutal Black and Tans in Ireland, and his advocacy for chemical weapons against colonial subjects represent serious, sustained failures of justice. Without these counterexamples the score would be 2; with them given proportional weight, 1 is appropriate."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Mukerjee, *Churchill's Secret War* (2010)",
+              "Herman, *Gandhi & Churchill* (2008)",
+              "Roberts, *Churchill: Walking with Destiny* (2018)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Churchill wept openly at the devastation of London during the Blitz and showed genuine emotional concern for British servicemen and civilians, visiting bombed areas repeatedly. He supported postwar European reconstruction including magnanimity toward defeated Germany. However, his role in the Bengal Famine of 1943—where his government diverted food shipments while millions starved, and he made dismissive remarks about Indians ('breeding like rabbits')—is a devastating counterexample. Without the famine, the score would be 2; with it given proportional weight to its moral stakes (millions of deaths), the score is 1, as compassion that excludes entire populations from moral concern is fundamentally limited."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Manchester, *The Last Lion* trilogy (1983–2012)",
+              "Roberts, *Churchill: Walking with Destiny* (2018)",
+              "Churchill, *My Early Life* (1930)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Churchill demonstrated sustained personal courage across decades: he participated in the cavalry charge at Omdurman (1898), fought on the Northwest Frontier, was captured and escaped during the Boer War (1899), served in the trenches commanding a battalion in WWI after Gallipoli, refused to consider surrender in May 1940 when Britain stood alone, and remained in London throughout the Blitz. His political resilience during the 1930s 'wilderness years' and his lifelong battle with depression ('the black dog') add further dimensions of moral and psychological courage."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Jenkins, *Churchill* (2001)",
+              "Roberts, *Churchill: Walking with Destiny* (2018)",
+              "Reynolds, *In Command of History* (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Churchill showed some evolution—his early career radicalism at the Board of Trade represented growth beyond his Conservative aristocratic upbringing, and his pragmatic alliance with Stalin in WWII showed flexibility. However, he rarely acknowledged personal error publicly. He never fully accepted responsibility for Gallipoli, and his core views on empire, race, and hierarchy remained remarkably fixed throughout his life. There is no well-documented case of Churchill reversing a position after accepting correction, as the rubric requires for higher scores."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Manchester, *The Last Lion* trilogy (1983–2012)",
+              "Moran, *Churchill: The Struggle for Survival* (1966)",
+              "Storr, *Churchill's Black Dog* (1989)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Churchill functioned effectively across multiple qualitatively different adversities: political exile during the 1930s wilderness years (professional adversity), the death of his young daughter Marigold in 1921 (personal bereavement), lifelong recurrent depression—'the black dog' (psychological adversity), the existential crisis of leading Britain in 1940 when facing potential invasion and destruction (extreme situational stress), and repeated financial difficulties. Through all of these he maintained productivity, producing books, paintings, and political engagement without prolonged incapacitation."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Jenkins, *Churchill* (2001)",
+              "Storr, *Churchill's Black Dog* (1989)",
+              "Roberts, *Churchill: Walking with Destiny* (2018)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Churchill inhabited at least five seemingly contradictory roles without fragmenting: (1) warrior who fought in four wars yet worked for postwar reconciliation and European unity; (2) aristocrat who championed workers' rights and social insurance; (3) prolific artist-painter and literary Nobel laureate who was simultaneously a hard-nosed political operator; (4) sufferer of severe depression ('the black dog') who projected buoyant, indomitable confidence to an entire nation; (5) fierce imperialist who was also a foundational champion of liberal democracy. These contradictions coexisted productively throughout his life."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Moran, *Churchill: The Struggle for Survival* (1966)",
+              "Roberts, *Churchill: Walking with Destiny* (2018)",
+              "Manchester & Reid, *The Last Lion: Defender of the Realm* (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Churchill faced death with composure in combat (Omdurman, Boer War, WWI trenches) and during the Blitz, showing no outward fear when his life was at direct risk. He planned his own state funeral in meticulous detail (Operation Hope Not, prepared years in advance). His famous quip—'I am ready to meet my Maker. Whether my Maker is prepared for the great ordeal of meeting me is another matter'—reflects acceptance with characteristic humor. However, his final years involved significant depressive decline and diminishment, and his composure at the very end was more passive acceptance of deterioration than active, intentional composure."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Churchill, *My Early Life* (1930)",
+              "Manchester, *The Last Lion* trilogy (1983–2012)",
+              "Moran, *Churchill: The Struggle for Survival* (1966)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "In youth, Churchill showed remarkable physical daring: the cavalry charge at Omdurman, combat on the Northwest Frontier, escape from a Boer prison camp involving jumping a moving freight train and walking through hostile territory. He served physically in the trenches in WWI at age 40. In later life, he survived a heart attack in 1941 (kept secret), pneumonia in 1943, and a major stroke in 1953 while continuing to function as PM. He was overweight and drank heavily but lived to 90—impressive endurance, though his later years were marked by significant physical decline."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Churchill, *Painting as a Pastime* (1948)",
+              "Coombs, *Sir Winston Churchill: His Life and His Paintings* (2003)",
+              "Soames, *Clementine Churchill* (1979)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Churchill's painting was a lifelong passion pursued purely for pleasure and psychological restoration—he produced over 500 works, exhibited at the Royal Academy (under a pseudonym), and wrote 'Painting as a Pastime' (1948) celebrating art's restorative power. He delighted in his Chartwell menagerie (black swans, fish, butterflies, cats), took genuine pleasure in champagne, fine food, and cigars, and was famous for spontaneous wit and playful humor. This aesthetic engagement was clearly non-instrumental, maintained throughout his life including at the height of wartime power."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.08,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Winston Churchill",
+      "overall": {
+        "Core_5D_Avg": 7.08,
+        "Overall_Normalized_Equal_Avg": 6.71,
+        "General_Competency_Avg_10scale": 4.89
+      },
+      "summary": "Churchill excels in cultural-social impact and embodied-existential depth—his wartime leadership, rhetorical genius, and integration of paradoxical roles (warrior-artist, depressive-inspirer, imperialist-democrat) are historically defining. Cognitive scores are strong, anchored by exceptional strategic adaptation and prolific literary output. Moral-affective scores are tempered by imperial blind spots, selective compassion, and limited documented moral growth—the Bengal Famine and racial attitudes are serious counterexamples. Relational depth is moderate: a strong spousal partnership offset by uneven parenting. Heinlein competency peaks in command, artistic expression, and combat, but significant gaps in medical, culinary, and numerical domains reflect his aristocratic background.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.47,
+          "General_Competency_Avg_10scale": 4.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "There is no evidence that Churchill ever cooked meals. He was served by household staff throughout his life—at Chartwell, at Downing Street, and in private residences. He was a famous connoisseur of food and wine (particularly champagne and brandy) but exclusively as a consumer, not a preparer."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Churchill, *My Early Life* (1930)",
+            "Manchester, *The Last Lion: Visions of Glory* (1983)",
+            "Churchill, *The Story of the Malakand Field Force* (1898)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Churchill personally fought in four campaigns: the Northwest Frontier (1897), the Sudan—including the cavalry charge at Omdurman with the 21st Lancers (1898), the Boer War (1899–1900, where he fought despite being a correspondent), and WWI (1916, commanding the 6th Royal Scots Fusiliers in the trenches). He carried and used a Mauser pistol in combat. While brave and competent under fire, he was not a professional combat specialist, and his skills were those of a courageous officer-amateur rather than an elite fighter."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Soames, *Clementine Churchill* (1979)",
+            "Roberts, *Churchill: Walking with Destiny* (2018)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Churchill showed emotional care for Clementine during her illnesses and genuine concern for soldiers and Blitz victims, personally visiting bombed neighborhoods repeatedly. However, his aristocratic lifestyle meant hands-on caregiving was largely performed by servants and staff; there is no documented evidence of sustained physical caregiving across the lifespan."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Moran, *Churchill: The Struggle for Survival* (1966)",
+            "Roberts, *Churchill: Walking with Destiny* (2018)",
+            "Manchester & Reid, *The Last Lion: Defender of the Realm* (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Churchill faced death with composure in combat at Omdurman, during the Boer escape, in the WWI trenches, and throughout the Blitz. He planned his own state funeral years in advance (Operation Hope Not), demonstrating intentional preparation for death. His humor about mortality ('ready to meet my Maker') reflects genuine acceptance. His final years involved depressive decline, but his lifetime pattern of composure under mortal threat is well-documented across multiple decades."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Churchill, *Painting as a Pastime* (1948)",
+            "Jenkins, *Churchill* (2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Churchill's bricklaying at Chartwell and his painting (which requires considerable manual dexterity with brushes and palette) demonstrate some manual craft skill. However, there is no evidence of him repairing machinery, fixing equipment, or adapting tools—skills central to this domain. His manual abilities were limited to his specific hobbies."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Churchill, *My Early Life* (1930)",
+            "Manchester, *The Last Lion: Visions of Glory* (1983)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Churchill's escape from the Boer prison camp in Pretoria (1899) required significant navigational skill—he jumped a freight train at night, navigated through hostile territory, and found his way to a sympathetic coal mine manager, eventually reaching Portuguese East Africa. He also navigated the Northwest Frontier terrain during active military service. In later life, he traveled extensively but relied on staff and transport."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Soames, *Clementine Churchill* (1979)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Churchill kept livestock at Chartwell including pigs, cows, and chickens, and managed a working farm at a hobby level. He was familiar with animal husbandry in a gentleman-farmer capacity. However, there is no evidence he personally butchered animals or processed food. Era-normalized for an aristocratic politician, this represents minimal but non-zero engagement."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Alanbrooke, *War Diaries 1939–1945* (ed. Danchev & Todman, 2001)",
+            "Roberts, *Churchill: Walking with Destiny* (2018)",
+            "Colville, *The Fringes of Power* (1985)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Churchill's leadership is among the most celebrated in history: wartime PM, alliance manager, parliamentary leader for decades. He also demonstrated followership: he served as a junior officer in the trenches (1916), deferred to the King's constitutional authority, accepted the devastating 1945 election defeat gracefully, and served under multiple PMs in cabinet. However, he was famously difficult as a subordinate—domineering with military chiefs, imperious with staff—limiting his followership score and preventing a 3."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Jenkins, *Churchill* (2001)",
+            "Roberts, *Churchill: Walking with Destiny* (2018)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Churchill famously laid bricks at Chartwell, building garden walls and other structures as a sustained hobby—he even joined the Amalgamated Union of Building Trade Workers. This represents genuine manual construction skill, but at an amateur level; he did not design buildings or undertake structural engineering."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Roberts, *Churchill: Walking with Destiny* (2018)",
+            "Keegan, *Churchill* (2002)",
+            "Hastings, *Finest Years* (2009)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Churchill coordinated the entire British war effort 1940–1945, managing strategic priorities across multiple theaters (North Africa, the Atlantic, Burma, and Europe), alliance logistics with the US and USSR, and the buildup to D-Day. He personally chaired the Defence Committee and drove operational decisions. Earlier, as Minister of Munitions (1917–18), he organized wartime industrial production. Even his Gallipoli failure demonstrates strategic planning capacity, if flawed in execution."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Churchill, *The Second World War* (6 vols, 1948–1953)",
+            "Coombs, *Sir Winston Churchill: His Life and His Paintings* (2003)",
+            "Cannadine, ed., *Blood, Toil, Tears and Sweat* (1989)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Churchill was a Nobel Prize-winning author (Literature, 1953) for his historical works and memoirs—a six-volume history of WWII and a four-volume history of the English-speaking peoples. He produced over 500 paintings, exhibited at the Royal Academy under a pseudonym, and was praised by professional artists. His wartime speeches are among the most celebrated works of English oratory. This represents exceptional achievement across literature, visual art, and rhetoric."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "There is no credible evidence that Churchill provided medical aid or emergency medical response to others. Throughout his life, he was the recipient rather than the provider of medical care. His military service was as an officer, not a medic, and no accounts describe him treating wounds or injuries."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Jenkins, *Churchill* (2001)",
+            "Harrod, *The Prof: A Personal Memoir of Lord Cherwell* (1959)",
+            "Churchill, *My Early Life* (1930)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Churchill famously struggled with mathematics and barely passed the Sandhurst entrance exam on his third attempt. As Chancellor of the Exchequer (1924–1929), he relied heavily on Treasury officials; his return to the gold standard reflected poor economic analysis. As wartime PM, he depended on Professor Lindemann for statistical analysis, establishing the 'S-Branch' precisely because he needed an intermediary for quantitative reasoning."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Soames, *Clementine Churchill* (1979)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Churchill managed the Chartwell estate, which included gardens, orchting ponds, and livestock—but primarily through employed staff. He took personal interest in his animals and gardens but was not a working farmer. At a strategic level, as wartime PM he managed Britain's resource allocation (rationing, Lend-Lease supplies), but this is better captured under Strategic Planning & Command."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Liddell Hart, *The Tanks* (1959)",
+            "Jones, *Most Secret War* (1978)",
+            "Roberts, *Churchill: Walking with Destiny* (2018)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Churchill was an exceptional patron and promoter of cutting-edge technology: he championed tank development in WWI, promoted radar development (supporting Robert Watson-Watt), leveraged Ultra/Enigma intelligence, and supported innovations like Mulberry harbours and PLUTO. He established the scientific advisory system with Lindemann. He grasped the strategic implications of new technologies faster than most political leaders of his era, though he relied on technical experts for implementation."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.08,
+    "general_competency_avg_0_10": 4.89,
+    "overall_normalized_equal_avg_0_10": 6.71,
+    "created_at": "2026-03-22T19:36:40.963Z",
+    "updated_at": "2026-03-22T19:36:40.976Z"
+  }
+}
+]

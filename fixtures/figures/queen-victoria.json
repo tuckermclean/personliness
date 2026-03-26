@@ -1,0 +1,377 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 134,
+  "fields": {
+    "name": "Queen Victoria",
+    "slug": "queen-victoria",
+    "bio_short": "A constitutional monarch whose 63-year reign defined an era, Victoria excels in archetype resonance and cultural-social impact but scores modestly in cognitive originality and moral-affective depth. Her marriage to Albert was a genuine partnership, though her parenting was notably flawed. As a Heinlein generalist she scores low: a palace-bound sovereign with artistic and leadership competencies but negligible practical skills in construction, combat, cooking, or manual craft. Her greatest strengths are institutional continuity, symbolic power, and embodied endurance through decades of grief an",
+    "bio_long": "Victoria was Queen of the United Kingdom of Great Britain and Ireland from 20 June 1837 until her death in 1901. Her reign of 63 years and 216 days, which was longer than those of any of her predecessors, constituted the Victorian era, a period of industrial, political, scientific, and military change within the United Kingdom marked by a great expansion of the British Empire. In 1876, the British parliament voted to grant her the additional title of Empress of India.",
+    "source_notes": "https://en.wikipedia.org/wiki/Queen_Victoria",
+    "image": "figures/330px-Queen_Victoria_by_Bassano.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Longford, *Victoria R.I.* (1964)",
+              "Wilson, A.N., *Victoria: A Life* (2014)",
+              "Bagehot, *The English Constitution* (1867)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Victoria navigated the transition from active royal prerogative to modern constitutional monarchy across 63 years and 10 prime ministers. She strategically arranged marriages for her 9 children into European royal houses, creating a dynastic network that shaped Continental diplomacy. However, her prolonged withdrawal from public life after Albert's death (1861–1870s) nearly provoked a republican crisis, showing a significant strategic misjudgment she only slowly corrected under Disraeli's encouragement."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Munich, *Queen Victoria's Secrets* (1996)",
+              "Homans, *Royal Representations: Queen Victoria and British Culture* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Victoria was a competent watercolorist who studied under Edward Lear and produced hundreds of sketches, but she was not an innovator in any artistic or intellectual domain. She supported Albert's Great Exhibition of 1851 but the creative vision was his. Her greatest creative contribution — the model of the royal family as domestic exemplar — was more cultural evolution than deliberate paradigm shift."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Hibbert, *Queen Victoria: A Personal History* (2000)",
+              "Arnstein, *Queen Victoria* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Victoria's moral views were conventional Victorian Christianity emphasizing duty, propriety, and domesticity. She articulated no original ethical or philosophical principles that influenced thinkers beyond her own milieu. Her advocacy for chloroform in childbirth (using it herself in 1853) was a practical rather than philosophical contribution. Her private letters reveal strong moral convictions but not systematic ethical reasoning."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Arnstein, *Queen Victoria* (2003)",
+              "Longford, *Victoria R.I.* (1964)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Victoria read and annotated state papers diligently, maintaining extensive correspondence with her ministers — her surviving letters number in the tens of thousands. However, as a constitutional monarch her direct legislative and administrative power was limited. She did not design systems or policies; rather she influenced through persuasion and obstruction. The administrative machinery of the empire was run by Parliament and the civil service, not the Crown directly."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Hibbert, *Queen Victoria: A Personal History* (2000)",
+              "Wilson, *Victoria: A Life* (2014)",
+              "Basu, *Victoria & Abdul* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Victoria inhabited multiple relational modes with qualitatively distinct behavior: as devoted wife to Albert (collaborative, passionate, sometimes combative); as deferential protégée to Lord Melbourne; as imperious sovereign to ministers like Gladstone; as informal and affectionate friend to John Brown; as protective patron to Abdul Karim against racist courtiers; as difficult, controlling mother; and as estranged then reconciled daughter (with the Duchess of Kent). This spans at least six distinct relational modes. However, a pattern of intense emotional dependency recurred across several relationships (Melbourne → Albert → Brown → Karim), suggesting a somewhat limited relational repertoire beneath the surface variety."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Hibbert, *Queen Victoria: A Personal History* (2000)",
+              "Wilson, *Victoria: A Life* (2014)",
+              "Weintraub, Stanley, *Albert: Uncrowned King* (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Victoria's marriage to Albert (1840–1861) was a deeply loving and intellectually engaged partnership, extensively documented in their letters and her diaries. They collaborated on political matters, shared aesthetic interests, and showed mutual emotional investment. Albert supported Victoria through political crises; she relied on his judgment and political acumen. However, there were significant power struggles — Victoria could be domineering about her prerogatives as sovereign, and Albert was frustrated by his circumscribed constitutional role. Victoria's possessiveness and emotional intensity created recurring tension. The relationship was deep and mutual but not without significant friction, placing it at 2 rather than 3."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Hibbert, *Queen Victoria: A Personal History* (2000)",
+              "Pakula, Hannah, *An Uncommon Woman: The Empress Frederick* (1995)",
+              "Longford, *Victoria R.I.* (1964)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Victoria was a notably difficult parent. She disliked pregnancy ('the shadow-side of marriage') and found infants ugly and boring. She was emotionally distant from or controlling toward most of her nine children. She blamed her heir Bertie for Albert's death and maintained a harsh, critical relationship with him for decades. Her daughter Vicky received more intellectual engagement but also intense emotional pressure. Several of her children struggled with the weight of her expectations and emotional demands. While some (Edward VII, Kaiser Wilhelm's mother) developed competence, this was largely despite rather than because of Victoria's parenting."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Wilson, *Victoria: A Life* (2014)",
+              "Arnstein, *Queen Victoria* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "An entire era bears her name, and the 'Victorian' label remains a cultural reference point worldwide. The British Empire reached its zenith during her reign, shaping the political geography of Africa, Asia, and the Pacific. Her dynastic network influenced European politics through World War I. However, the 500-year cross-civilizational criterion for a score of 3 cannot yet be assessed (only 124 years since her death), and much of the era's impact was driven by industrial, scientific, and parliamentary forces rather than Victoria's personal agency as a constitutional monarch."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Homans, *Royal Representations: Queen Victoria and British Culture* (1998)",
+              "Munich, *Queen Victoria's Secrets* (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Victoria is recognized worldwide as an archetype of the imperial sovereign, the devoted widow, and the matriarch. The phrase 'Victorian' is understood across cultures as denoting a specific moral and social sensibility. Her image — small, stout, crowned, unsmiling — is one of the most recognizable in global history. She is a symbol invoked in cultures far beyond Britain: in India, Canada, Australia, and across Africa, her name attaches to cities, lakes, monuments, and institutions. She transcends her own tradition as an archetype of female sovereign power."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Bagehot, *The English Constitution* (1867)",
+              "Cannadine, David, *The Decline and Fall of the British Aristocracy* (1990)",
+              "Hibbert, *Queen Victoria: A Personal History* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Victoria and Albert together reshaped the British monarchy into a model of constitutional domesticity that has survived well beyond two generations — the current monarchy still operates substantially within the framework they established. She consolidated the monarchy's symbolic role during a period when other European monarchies were collapsing. However, much of the institutional design was Albert's contribution (the royal estates, the Great Exhibition, the model of royal patronage), and the constitutional evolution was driven more by Parliament than by Victoria."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Longford, *Victoria R.I.* (1964)",
+              "Arnstein, *Queen Victoria* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Victoria successfully led as a young queen navigating the Bedchamber Crisis (1839), as a political partner alongside Albert, as a grief-stricken but still-reigning widow, and as the imperial matriarch of her later years. She influenced policy through her relationships with Melbourne, Disraeli, and others. Her leadership faltered significantly during her prolonged withdrawal (1861–1870s), when republican sentiment grew. She led across different contexts but her effectiveness was uneven, preventing a score of 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Hibbert, *Queen Victoria: A Personal History* (2000)",
+              "Queen Victoria's Journals (Royal Archives, published selections)",
+              "Wilson, *Victoria: A Life* (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Victoria's extensive diaries and letters reveal genuine engagement with everyday pleasures: she wrote lovingly about her dogs, horseback riding at Balmoral, Highland dancing, picnics, sketching landscapes, and her enjoyment of food and whisky. She personally mended Albert's gloves and valued domestic routine. Her relationship with John Brown was characterized by an informality unusual for a sovereign. However, she lived an extraordinarily privileged life and was insulated from most ordinary hardships, preventing a score of 3."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Arnstein, *Queen Victoria* (2003)",
+              "Wilson, *Victoria: A Life* (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Victoria had strong views on right and wrong but these often aligned with personal preference and partisan loyalty. She openly favored Disraeli over Gladstone and attempted to obstruct Liberal policies she disliked. She did not notably rule against personal or group interest in favor of abstract principle. Her acceptance of colonial expansion and its attendant injustices was conventional for her era, and she showed limited critical engagement with the moral costs of empire."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Hibbert, *Queen Victoria: A Personal History* (2000)",
+              "Shrabani Basu, *Victoria & Abdul* (2010)",
+              "Wilson, *Victoria: A Life* (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Victoria showed compassion toward her Indian servant Abdul Karim, defending him against virulently racist opposition from her household and court — a notable act toward an outgroup member. She donated to Irish famine relief in 1847 and visited wounded soldiers during the Crimean War era. However, she was notoriously harsh toward several of her children: she blamed her eldest son Bertie for Albert's death, disliked infants, and could be emotionally cruel. Without the counterexamples, this might score 2; with them, the inconsistency caps it at 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Longford, *Victoria R.I.* (1964)",
+              "Hibbert, *Queen Victoria: A Personal History* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Victoria survived at least seven assassination attempts between 1840 and 1882, responding to most with notable composure — after Edward Oxford's attempt in 1840, she insisted on driving out the next day to show she was unafraid. She ascended the throne at 18 in a politically fraught environment. She endured Albert's death in 1861 and continued to reign for 40 more years. These represent sustained courage across multiple high-stakes situations, though her years-long withdrawal from public life somewhat qualifies the 'resilience' component."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Longford, *Victoria R.I.* (1964)",
+              "Hibbert, *Queen Victoria: A Personal History* (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Victoria showed some evolution over her reign — she gradually returned to public life after her withdrawal, she softened somewhat toward Gladstone's second ministry, and she evolved on issues like women's roles (though she famously opposed women's suffrage). However, there is limited evidence of her explicitly acknowledging error or reversing positions based on moral reasoning. Her return to public duties was gradual accommodation under pressure rather than acknowledged mistake. Her diaries were heavily edited by Princess Beatrice, which limits independent verification."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Longford, *Victoria R.I.* (1964)",
+              "Wilson, *Victoria: A Life* (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Victoria endured devastating personal bereavement (Albert's death in 1861, the deaths of several children and grandchildren) and political crises (the Bedchamber Crisis, assassination attempts, republican agitation in the 1870s). These represent two qualitatively different forms of adversity — personal grief and political threat. She continued to reign for 40 years after Albert's death, though her functioning was significantly impaired for the first decade. She ultimately adapted and became an effective sovereign again in her later years."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Munich, *Queen Victoria's Secrets* (1996)",
+              "Homans, *Royal Representations: Queen Victoria and British Culture* (1998)",
+              "Wilson, *Victoria: A Life* (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Victoria inhabited multiple seemingly contradictory roles: the most powerful woman in the world who insisted on female submission in marriage; the head of a global empire who preferred domestic seclusion at Balmoral; the symbol of moral propriety who maintained intense emotional relationships with male servants (Brown and Karim); the constitutional monarch who frequently attempted to exercise personal political power. She held these contradictions across decades without psychological fragmentation. However, her prolonged withdrawal suggests she sometimes struggled to integrate the widow and queen roles, preventing a 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Hibbert, *Queen Victoria: A Personal History* (2000)",
+              "Wilson, *Victoria: A Life* (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Victoria left detailed and specific instructions for her funeral and burial: she asked to be buried with Albert's dressing gown, a cast of his hand, photographs, John Brown's hair, and Brown's ring. She prepared a written memorandum in 1897 specifying these arrangements. When dying on January 22, 1901, she was described as composed, with her family gathered around her at Osborne House. She had clearly contemplated and planned for death over many years. This represents documented composure, though it falls short of the philosophical engagement with mortality that might warrant a 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Hibbert, *Queen Victoria: A Personal History* (2000)",
+              "Longford, *Victoria R.I.* (1964)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Victoria was an avid horsewoman in her youth and middle years, riding regularly at Balmoral and Windsor. She endured nine pregnancies and deliveries between 1840 and 1857, which represents significant physical endurance. However, she became increasingly sedentary in later decades and was famously stout. Her physical activity declined markedly after Albert's death. She does not demonstrate physical feats across multiple life-stages as required for a higher score."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Hibbert, *Queen Victoria: A Personal History* (2000)",
+              "Queen Victoria's Journals (Royal Archives)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Victoria genuinely enjoyed watercolor painting (studying under Edward Lear), music and opera, Highland dancing, horseback riding, and the natural beauty of Balmoral. Her diaries record delight in picnics, games, theatrical performances, and the company of her dogs. She and Albert shared a love of music, with Victoria singing and Albert playing organ. This aesthetic engagement appears genuine and non-instrumental — she painted and sketched for personal pleasure, not for political display. After Albert's death, much of this diminished but never disappeared entirely."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 4.17,
+          "Relational": 5.56,
+          "Core_5D_Avg": 5.45,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Queen Victoria",
+      "overall": {
+        "Core_5D_Avg": 5.45,
+        "Overall_Normalized_Equal_Avg": 4.99,
+        "General_Competency_Avg_10scale": 2.67
+      },
+      "summary": "A constitutional monarch whose 63-year reign defined an era, Victoria excels in archetype resonance and cultural-social impact but scores modestly in cognitive originality and moral-affective depth. Her marriage to Albert was a genuine partnership, though her parenting was notably flawed. As a Heinlein generalist she scores low: a palace-bound sovereign with artistic and leadership competencies but negligible practical skills in construction, combat, cooking, or manual craft. Her greatest strengths are institutional continuity, symbolic power, and embodied endurance through decades of grief and duty.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.8,
+          "General_Competency_Avg_10scale": 2.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Hibbert, *Queen Victoria: A Personal History* (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Victoria ever prepared food. She was served by palace kitchens and professional chefs throughout her life. While she was famously enthusiastic about eating — consuming multi-course meals at remarkable speed — she had no documented culinary skill of her own."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Longford, *Victoria R.I.* (1964)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Victoria had no personal combat training or experience. While she survived multiple assassination attempts, she did not defend herself physically — she relied on bystanders and guards. She directed military campaigns through her ministers and generals but had no personal martial skill."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Hibbert, *Queen Victoria: A Personal History* (2000)",
+            "Longford, *Victoria R.I.* (1964)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Victoria personally attended Albert during his final illness in December 1861 and sat with dying family members on other occasions. She showed care for John Brown during his illnesses. However, she famously disliked caring for infants and was emotionally unavailable to many of her children. Her caregiving was episodic and selective rather than a consistent competency."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Hibbert, *Queen Victoria: A Personal History* (2000)",
+            "Wilson, *Victoria: A Life* (2014)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Victoria displayed composure during multiple assassination attempts — notably insisting on appearing publicly the day after Edward Oxford's 1840 attempt. She prepared detailed written memoranda for her own funeral and burial, specifying the personal items to be placed in her coffin. Accounts of her death on January 22, 1901, describe her as composed, surrounded by family. She had contemplated and prepared for death systematically over her final years, demonstrating genuine existential composure rather than mere philosophical abstraction."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Hibbert, *Queen Victoria: A Personal History* (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Victoria possessed manual craft or repair skills. She did needlework and embroidery, which were standard accomplishments for upper-class women, but these were decorative rather than repair-oriented. There is a reference to her mending Albert's gloves, but this represents minimal skill."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Hibbert, *Queen Victoria: A Personal History* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Victoria traveled extensively by royal train and yacht — she made numerous crossings to the Continent and traveled throughout Scotland. She was the first reigning British monarch to travel by train (1842). She knew the terrain around Balmoral well from years of riding and walking. However, she was always transported by others and there is no evidence of independent navigation or wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Hibbert, *Queen Victoria: A Personal History* (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Victoria ever butchered, processed, or prepared animal products. She was served by palace kitchens and staff throughout her life. While she owned estates with livestock, she had no documented personal involvement in animal husbandry or food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Longford, *Victoria R.I.* (1964)",
+            "Arnstein, *Queen Victoria* (2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Victoria demonstrated both leadership and followership. As a young queen she deferred productively to Lord Melbourne's mentorship. She followed Albert's lead on many policy and cultural matters during their marriage. In her later years she exercised independent leadership, managing her household and influencing her ministers. She could take orders (constitutional constraints from Parliament) and give them (to her extensive household and through her ministers). The transition between these modes across her life demonstrates both capacities."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Wilson, *Victoria: A Life* (2014)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of personal construction or fabrication ability. Victoria commissioned major building projects (Osborne House, Balmoral renovations) but the design was Albert's and Thomas Cubitt's. She had no documented hands-on building experience."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Arnstein, *Queen Victoria* (2003)",
+            "Longford, *Victoria R.I.* (1964)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Victoria managed the political complexities of 63 years on the throne, navigating 10 prime ministers and significant constitutional change. She coordinated dynastic marriage strategies across Europe and was actively involved in foreign policy discussions during the Crimean War and Franco-Prussian War. She managed the Bedchamber Crisis of 1839 and the transition of royal prerogative over decades. However, actual military and administrative command was delegated to ministers and generals."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Munich, *Queen Victoria's Secrets* (1996)",
+            "Queen Victoria's Journals (Royal Archives)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Victoria was a trained and prolific watercolorist, producing hundreds of sketches and paintings throughout her life. She studied under professional artists including Edward Lear. She was a competent singer who performed duets with professional musicians. She maintained her diary (over 120 volumes) from age 13 until days before her death — one of the longest sustained works of personal writing by any historical figure. She was an active patron of opera, theater, and the visual arts."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Hibbert, *Queen Victoria: A Personal History* (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of medical training or emergency response competency. Victoria advocated for chloroform use in childbirth and attended Albert during his final illness, but she acted as a concerned spouse, not a medical practitioner. She relied entirely on royal physicians for all medical matters."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Arnstein, *Queen Victoria* (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Victoria received a standard royal education including arithmetic and was able to review state budgets and household accounts. She engaged with statistical information presented by ministers. However, there is no evidence of exceptional mathematical or analytical ability. Her education, while broad, did not emphasize quantitative reasoning."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Wilson, *Victoria: A Life* (2014)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "While Victoria owned extensive royal estates including Balmoral and Osborne, the agricultural management was handled by Albert and estate managers. There is no evidence of Victoria's personal competency in cultivation, animal husbandry, or resource management. Albert was the estate improver; Victoria was the owner."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Arnstein, *Queen Victoria* (2003)",
+            "Homans, *Royal Representations* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Victoria was an early adopter of contemporary technologies: she embraced rail travel (first trip 1842), the telegraph, photography (she and Albert were avid collectors and subjects), the telephone, and cinematography. She used chloroform for childbirth in 1853, promoting its acceptance. However, she was a consumer and patron of technology rather than a creator or technical problem-solver."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.45,
+    "general_competency_avg_0_10": 2.67,
+    "overall_normalized_equal_avg_0_10": 4.99,
+    "created_at": "2026-03-22T18:34:46.972Z",
+    "updated_at": "2026-03-22T18:34:46.989Z"
+  }
+}
+]

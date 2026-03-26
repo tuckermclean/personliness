@@ -1,0 +1,399 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 170,
+  "fields": {
+    "name": "Napoleon",
+    "slug": "napoleon",
+    "bio_short": "Napoleon scores exceptionally in cognitive, cultural-social, and embodied-existential dimensions, reflecting his status as one of history's greatest strategists, institution-builders, and archetypal figures. His moral-affective dimension is notably weaker: extraordinary personal courage is offset by limited compassion (Jaffa massacre, slavery reinstatement) and scant evidence of moral growth. Relational depth is moderate—genuine emotional investment in Joséphine and mentoring of Eugène, but undermined by affairs and political instrumentalism. Heinlein competency breadth is uneven: supreme in c",
+    "bio_long": "Napoleon I was Emperor of the French from 18 May 1804 until his first abdication in 1814, with a brief restoration during the Hundred Days in 1815. He rose to prominence as a general during the French Revolution and led a series of military campaigns across Europe and North Africa during the Napoleonic Wars. He was defeated at the Battle of Waterloo and exiled to Saint Helena, where he died in 1821. As a statesman, he enacted the Napoleonic Code, which continues to influence legal systems worldwide, and reformed education by establishing state lycées.",
+    "source_notes": "https://en.wikipedia.org/wiki/Napoleon",
+    "image": "figures/330px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_PseBFl0.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Chandler, *The Campaigns of Napoleon* (1966)",
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Clausewitz, *The Campaign of 1812 in Russia* (1843)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Napoleon is among history's most studied strategists. At Austerlitz (1805) he baited the Allied left by deliberately weakening his right, then shattered their center—a plan adapted in real-time to Allied movements. During the 1814 Campaign of France, outnumbered roughly 3:1, he won successive battles at Champaubert, Montmirail, and Montereau by exploiting interior lines and adapting to each coalition advance. At Marengo (1800), his initial plan failed and he successfully adapted to turn near-defeat into victory upon Desaix's arrival. Counterexample: the 1812 Russian campaign shows a catastrophic failure to adapt to scorched-earth strategy, but the breadth of successful adaptations across 20 years of campaigning firmly supports a 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Chandler, *The Campaigns of Napoleon* (1966)",
+              "Holtman, *The Napoleonic Revolution* (1967)",
+              "Rothenberg, *The Art of Warfare in the Age of Napoleon* (1977)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Napoleon created a paradigm shift in military organization with the corps system—self-contained combined-arms units that could march independently and concentrate for battle—transforming European warfare for a century. His legal codification (the Napoleonic Code, 1804) replaced a patchwork of feudal, Roman, and customary laws with a unified civil code, establishing a before/after difference in legal systems across dozens of countries. His use of massed artillery as a decisive offensive arm rather than a supporting weapon also represented doctrinal innovation."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Las Cases, *Mémorial de Sainte-Hélène* (1823)",
+              "Holtman, *The Napoleonic Revolution* (1967)",
+              "Grab, *Napoleon and the Transformation of Europe* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Napoleon was not an original ethical philosopher but effectively synthesized and applied Enlightenment principles. The Napoleonic Code embodied ideas of civil equality, property rights, and secular governance that influenced legal philosophy globally. His conversations at St. Helena (recorded by Las Cases in the Mémorial de Sainte-Hélène) show reflective engagement with questions of legitimacy, meritocracy, and the role of religion. His principles influenced thinkers across Europe and Latin America, but they were applications of existing Enlightenment thought rather than novel philosophical contributions."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Holtman, *The Napoleonic Revolution* (1967)",
+              "Woloch, *Napoleon and His Collaborators* (2001)",
+              "Grab, *Napoleon and the Transformation of Europe* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Napoleonic Code (1804) remains the foundation of civil law in France and over 70 jurisdictions worldwide, enduring over 200 years beyond his rule. He established the prefectoral administrative system (still operative in France), the Bank of France (1800), the lycée secondary education system, the Legion of Honor, and the Concordat with the Pope (1801). These systems functioned and survived well beyond his direct oversight—the prefectoral system and Code survived the Restoration, two more revolutions, and multiple republics."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Englund, *Napoleon: A Political Life* (2004)",
+              "Dwyer, *Citizen Emperor: Napoleon in Power* (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Napoleon operated across at least six distinct relational modes with documented qualitative differences: (1) subordinate—served effectively under Barras and the Directory in his early career; (2) superior—commanded marshals, ministers, and millions; (3) spouse—passionate intimacy with Joséphine, political partnership with Marie Louise; (4) parent/step-parent—nurtured Eugène, managed siblings; (5) friend—genuine personal bonds with Duroc and Lannes (deeply mourning Lannes's death at Aspern-Essling); (6) adversary—negotiated with and fought against Tsar Alexander, alternating between alliance (Tilsit 1807) and total war (1812). His relational style shifted markedly across these contexts."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Bruce, *Napoleon and Josephine: The Improbable Marriage* (1995)",
+              "Englund, *Napoleon: A Political Life* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Napoleon's letters to Joséphine from the Italian campaign (1796–97) reveal genuine passionate devotion and emotional vulnerability. He supported her through social difficulties and remained emotionally attached even after discovering her infidelity. Their divorce in 1809 was reportedly deeply painful for both—Napoleon wept during the ceremony. However, his numerous affairs (Pauline Fourès, Marie Walewska, and others) undermine the mutuality of the partnership, and the divorce itself was driven by dynastic calculation (need for an heir) rather than relational failure. His second marriage to Marie Louise was primarily political, though letters suggest some genuine affection developed."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Woloch, *Napoleon and His Collaborators* (2001)",
+              "Chandler, *The Campaigns of Napoleon* (1966)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Napoleon mentored his stepson Eugène de Beauharnais, who became a genuinely competent Viceroy of Italy and independent military commander—evidence of mentoring that produced autonomous competence rather than mere obedience. He invested significantly in developing his marshals, though results were mixed (Davout excelled independently; others struggled without Napoleon's direct oversight). His relationship with his biological son Napoleon II was truncated by exile. His paternalistic management of his siblings often prioritized control over their development, as seen in his frustration with Jérôme and Joseph's governance."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Grab, *Napoleon and the Transformation of Europe* (2003)",
+              "Schroeder, *The Transformation of European Politics 1763–1848* (1994)",
+              "Bell, *The First Total War* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Napoleon's impact remains operative 200+ years later across multiple civilizations: the Napoleonic Code underpins legal systems in Europe, Latin America, the Middle East, and Asia; the principle of meritocratic civil service spread globally; his wars catalyzed the rise of nationalism as a political force across Europe and beyond; the Congress of Vienna system he provoked shaped international relations for a century. His military innovations influenced doctrine through World War I. The metric system, which he promoted, became the global standard."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Hazareesingh, *The Legend of Napoleon* (2004)",
+              "Dwyer, *Napoleon: The Path to Power* (2007)",
+              "Tolstoy, *War and Peace* (1869)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Napoleon is the archetype of the self-made conqueror-genius, recognized as such across virtually all world cultures. He has inspired an enormous cross-cultural artistic legacy: Beethoven's Eroica Symphony (initially dedicated to him), Tolstoy's War and Peace, David's coronation painting, Hegel's 'world-soul on horseback,' and the 'Napoleonic complex' as a psychological concept. He functions as a universal symbol of ambition, genius, and hubris in cultures far beyond France, from Japan to Latin America."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Holtman, *The Napoleonic Revolution* (1967)",
+              "Woloch, *Napoleon and His Collaborators* (2001)",
+              "Bergeron, *France Under Napoleon* (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Napoleon's institutional creations have survived over 200 years: the Napoleonic Code (1804, still the basis of French civil law and influential in 70+ jurisdictions), the Bank of France (1800, still operating), the prefectoral system of local administration, the lycée educational system, the Legion of Honor, and the Concordat of 1801 (which governed French church-state relations until 1905). These institutions survived the Bourbon Restoration, the July Monarchy, the Second Republic, and multiple subsequent regime changes with recognizable continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Chandler, *The Campaigns of Napoleon* (1966)",
+              "Blaufarb, *The French Army 1750–1820* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Napoleon led successfully across qualitatively different contexts: as a young artillery officer at Toulon (small-unit crisis), as commander of the Army of Italy (operational command of ~40,000), as First Consul stabilizing post-revolutionary France (political governance), as Emperor commanding the Grande Armée of 600,000+ (largest European army to date), and during the Hundred Days when he reclaimed power through personal magnetism alone, soldiers sent to arrest him joining his cause. He inspired extraordinary loyalty across two decades of leadership in both crisis and stability."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Las Cases, *Mémorial de Sainte-Hélène* (1823)",
+              "Hazareesingh, *The Legend of Napoleon* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Napoleon retained some common-touch habits even at the height of power: he was known for his simple eating habits (eating quickly, preferring chicken Marengo), his informal manner with soldiers (calling them by name, pinching ears), and playing with children. At St. Helena he gardened personally. His humble Corsican origins and rapid ascent made him a figure of identification for ordinary people. However, as Emperor he increasingly adopted elaborate court ceremonial and distanced himself from common life, and his relatability is partly a product of deliberate propaganda."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Grab, *Napoleon and the Transformation of Europe* (2003)",
+              "Dubois, *A Colony of Citizens* (2004)",
+              "Woloch, *Napoleon and His Collaborators* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The Napoleonic Code abolished feudal privileges, established equality before the law, protected property rights, and secularized civil governance—genuine advances in justice that were applied across conquered territories. Napoleon promoted meritocracy in his administration and army ('careers open to talent'). However, the reinstatement of slavery in 1802 (reversing revolutionary abolition) is a devastating counterexample showing willingness to override justice for political/economic expedience. Additionally, nepotistic placement of family members on European thrones contradicted meritocratic principles. Without slavery reinstatement: 3. With it: 2. The slavery decision prevents a score of 3."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Schom, *Napoleon Bonaparte* (1997)",
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Dubois, *A Colony of Citizens: Revolution and Slave Emancipation in the French Caribbean* (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Napoleon showed episodic personal concern for his soldiers—visiting wounded after battles, calling men by name, and famously touching plague victims at Jaffa (though this is likely partly propagandistic). However, serious counterexamples dominate: the massacre of approximately 2,500–4,000 prisoners at Jaffa (1799), the reinstatement of slavery in French colonies (1802), and his willingness to expend hundreds of thousands of soldiers in campaigns of questionable necessity (e.g., Russia 1812, with roughly 400,000 French deaths). Without the Jaffa massacre and slavery reinstatement: 2. With them given full weight: 1. The moral stakes of slavery reinstatement and mass execution are too high to score above 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Chandler, *The Campaigns of Napoleon* (1966)",
+              "Englund, *Napoleon: A Political Life* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Napoleon demonstrated sustained physical courage across decades: personally leading the charge at the Bridge of Arcole (1796, wounded), commanding under fire at Toulon (1793, bayonet wound), surviving multiple assassination attempts (the Rue Saint-Nicaise bomb, 1800), returning from Elba to reclaim power through personal charisma alone during the Hundred Days (1815), and fighting the desperate 1814 Campaign of France against overwhelming odds with undiminished energy. This spans multiple high-stakes situations over 20+ years."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Las Cases, *Mémorial de Sainte-Hélène* (1823)",
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Dwyer, *Napoleon: The Path to Power* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Napoleon showed limited capacity for genuine moral self-correction. At St. Helena, his dictated memoirs (the Mémorial) are overwhelmingly self-justificatory rather than reflective, blaming others for failures. He did not acknowledge the reinstatement of slavery as a moral error. His progression from revolutionary general to self-crowned Emperor represents self-aggrandizement rather than moral growth. The closest example of correction is his increasingly moderate peace terms offered after setbacks, but these appear strategic rather than principled. Sources are largely self-generated, and independent evidence of genuine moral growth is absent."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Englund, *Napoleon: A Political Life* (2004)",
+              "Las Cases, *Mémorial de Sainte-Hélène* (1823)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Napoleon endured qualitatively different forms of adversity with effective functioning: early poverty and social marginalization as a Corsican scholarship student in France; the chaotic dangers of revolutionary Paris; the physical hardships of campaigning (Egypt's desert, Russia's winter, multiple wounds); political setbacks including the first abdication and exile to Elba (from which he mounted a comeback); and final exile to the deliberately harsh conditions of St. Helena, where he maintained intellectual activity and dignity for six years despite illness and hostile captors."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Dwyer, *Napoleon: The Path to Power* (2007)",
+              "Hazareesingh, *The Legend of Napoleon* (2004)",
+              "Roberts, *Napoleon: A Life* (2014)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Napoleon coherently inhabited at least five seemingly contradictory roles: (1) child of the Revolution who crowned himself Emperor; (2) military conqueror who was also history's most consequential peacetime legal reformer; (3) rationalist administrator who cultivated a quasi-mystical personal legend; (4) advocate of meritocracy who established a new hereditary dynasty; (5) Corsican outsider who became the embodiment of French national identity. These tensions did not fragment his identity but were integrated into a coherent self-presentation that contemporaries found compelling."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Las Cases, *Mémorial de Sainte-Hélène* (1823)",
+              "Englund, *Napoleon: A Political Life* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "During his final illness at St. Helena (stomach cancer, likely), Napoleon carefully dictated his will and memoirs with composure, arranged his affairs, and reportedly died with dignity in May 1821. He had faced death on battlefields repeatedly without flinching. However, a significant counterexample exists: in April 1814 at Fontainebleau, he attempted suicide by taking poison (which had degraded and failed). Without the suicide attempt: 3 (his St. Helena composure was exemplary). With it given full weight: 1–2. Final score: 2, as the Fontainebleau episode shows a genuine crisis of acceptance, but his later behavior at St. Helena suggests growth toward acceptance."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Chandler, *The Campaigns of Napoleon* (1966)",
+              "McLynn, *Napoleon: A Biography* (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Napoleon endured extraordinary physical demands during campaigns: sleeping 3–4 hours a night during active operations, riding for hours across multiple terrain types, surviving desert conditions in Egypt (1798–99), and maintaining operational tempo during the grueling 1814 Campaign of France despite illness and exhaustion. He was wounded multiple times (Toulon, Arcole, Ratisbon). However, his physical condition deteriorated significantly in later life—he grew obese and suffered from various ailments by the time of the Russian campaign (1812), and his physical decline at Waterloo is well-documented. The decline prevents a score of 3."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Roberts, *Napoleon: A Life* (2014)",
+              "Las Cases, *Mémorial de Sainte-Hélène* (1823)",
+              "McLynn, *Napoleon: A Biography* (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Napoleon showed genuine (non-instrumental) aesthetic engagement: he was a lifelong devotee of Plutarch and Ossian, reading them for personal pleasure; he enjoyed theater and opera, attending performances frequently; he played chess at St. Helena; and he developed a genuine passion for gardening during his exile. His love of classical literature appears personal rather than performative. However, much of his large-scale arts patronage (David's paintings, triumphal architecture) was instrumentally motivated as propaganda, preventing a score of 3."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 7.78,
+          "Core_5D_Avg": 8.02,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Napoleon Bonaparte",
+      "overall": {
+        "Core_5D_Avg": 8.02,
+        "Overall_Normalized_Equal_Avg": 7.42,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Napoleon scores exceptionally in cognitive, cultural-social, and embodied-existential dimensions, reflecting his status as one of history's greatest strategists, institution-builders, and archetypal figures. His moral-affective dimension is notably weaker: extraordinary personal courage is offset by limited compassion (Jaffa massacre, slavery reinstatement) and scant evidence of moral growth. Relational depth is moderate—genuine emotional investment in Joséphine and mentoring of Eugène, but undermined by affairs and political instrumentalism. Heinlein competency breadth is uneven: supreme in command and strategy, near-absent in domestic and manual skills, yielding a below-average generalist score that tempers an otherwise towering profile.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Roberts, *Napoleon: A Life* (2014)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Napoleon was famously indifferent to food, eating meals in under 15 minutes and caring little about cuisine. No evidence exists of personal cooking ability. He relied entirely on personal chefs and was known for his spartan eating habits rather than culinary appreciation or skill."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Chandler, *The Campaigns of Napoleon* (1966)",
+            "Roberts, *Napoleon: A Life* (2014)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Napoleon demonstrated personal combat competence: he was an expert artillerist who personally directed battery placement at Toulon (1793), where he was wounded by a British bayonet; he led a charge across the Bridge of Arcole under fire (1796); he was wounded again at Ratisbon (1809). He carried and was trained in the use of personal weapons. However, he was primarily a commander who directed battles rather than a personal combatant, and his physical combat was concentrated in his younger years."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Roberts, *Napoleon: A Life* (2014)",
+            "Dwyer, *Napoleon: The Path to Power* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Napoleon visited plague-stricken soldiers at Jaffa (1799), personally visited wounded after battles, and showed paternal concern for individual soldiers. His relationship with stepchildren Eugène and Hortense included genuine nurturing elements. However, caregiving was episodic rather than sustained and often had propagandistic dimensions (the Jaffa visit was immortalized by Gros's painting)."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Roberts, *Napoleon: A Life* (2014)",
+            "Las Cases, *Mémorial de Sainte-Hélène* (1823)",
+            "Englund, *Napoleon: A Political Life* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Napoleon faced death on battlefields repeatedly with documented composure and faced his final illness at St. Helena with dignity, carefully arranging his legacy and dictating his will. However, his attempted suicide at Fontainebleau in April 1814 (taking degraded poison after the first abdication) is a significant counterexample showing a crisis of composure. Without Fontainebleau: 3. With it given full weight: 1. Final score: 2, as the suicide attempt reveals a genuine moment of existential crisis, though his subsequent behavior at St. Helena suggests recovery and ultimate composure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence that Napoleon personally made, fixed, or adapted tools or physical systems. His education was intellectual and military-theoretical rather than hands-on craft. No documentation of personal repair or fabrication work exists in the biographical record."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Chandler, *The Campaigns of Napoleon* (1966)",
+            "Roberts, *Napoleon: A Life* (2014)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Napoleon was renowned for his obsessive study of maps and extraordinary topographic memory. He personally reconnoitered terrain before battles (e.g., Austerlitz). He navigated the Egyptian expedition across unfamiliar desert terrain (1798–99), and directed the crossing of the Alps via the Great St. Bernard Pass (1800). His ability to read terrain and exploit geographic features was central to his military art."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Napoleon personally butchered animals or processed food. His Corsican upbringing may have involved some exposure, but no specific documentation exists. He was notably indifferent to food and ate meals in minutes."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Woloch, *Napoleon and His Collaborators* (2001)",
+            "Roberts, *Napoleon: A Life* (2014)",
+            "Chandler, *The Campaigns of Napoleon* (1966)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Napoleon's leadership capacity is among the most documented in history—he inspired fanatical loyalty, managed complex hierarchies of marshals and ministers, and motivated men to extraordinary exertion. On followership: as a young officer he served effectively under Barras and the Directory, accepting orders and operating within institutional constraints before the coup of Brumaire. He also deferred to Talleyrand and Fouché's expertise in diplomacy and police matters during the Consulate. However, his inability to accept subordination ultimately led to his downfall."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Dwyer, *Napoleon: The Path to Power* (2007)",
+            "Roberts, *Napoleon: A Life* (2014)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Napoleon was trained at the École Militaire in military engineering, including fortification design, and demonstrated knowledge of siege works at Toulon (1793). He commissioned vast construction projects (roads, bridges, canals, the Arc de Triomphe) and understood engineering principles. However, he was a commissioner and designer-by-directive, not a personal builder. His military engineering education provides the basis for a 1."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Chandler, *The Campaigns of Napoleon* (1966)",
+            "Rothenberg, *The Art of Warfare in the Age of Napoleon* (1977)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Napoleon is among history's most accomplished strategic planners. The Ulm-Austerlitz campaign (1805) combined grand-strategic deception, operational maneuver of 200,000 men across hundreds of miles, and tactical brilliance in a single seamless operation. He coordinated logistics, intelligence, diplomacy, and multiple army corps simultaneously across decades of campaigning. Even his failures (Russia, Spain) involved enormously complex planning."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Las Cases, *Mémorial de Sainte-Hélène* (1823)",
+            "Roberts, *Napoleon: A Life* (2014)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Napoleon was not personally an artist, but his military proclamations and bulletins showed genuine literary quality and rhetorical power—his address to the Army of Italy ('Soldiers, you are naked, ill-fed...') is a classic of military rhetoric. He dictated extensive memoirs at St. Helena. He was a massive patron of the arts but as a commissioner, not a creator. Personal creative output was limited to prose."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Roberts, *Napoleon: A Life* (2014)",
+            "Dible, *Napoleon's Surgeon* (1970)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Napoleon promoted military medical innovation, notably supporting Dominique Jean Larrey's development of the flying ambulance system, and he visited sick and wounded soldiers. However, no evidence exists of personal medical competence—he was a patron and promoter of medical care, not a practitioner. The Jaffa plague visit was symbolic, not therapeutic."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Dwyer, *Napoleon: The Path to Power* (2007)",
+            "Chandler, *The Campaigns of Napoleon* (1966)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Napoleon was trained as an artillery officer at the École Militaire, where he excelled in mathematics—artillery was the most technically demanding branch, requiring ballistics calculations, trigonometry, and logistics computation. He was known for rapid mental calculations regarding supply requirements, march times, and force ratios. His examination records show strong mathematical aptitude. He applied analytical reasoning to administrative problems (census data, budget calculations)."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Roberts, *Napoleon: A Life* (2014)",
+            "Bergeron, *France Under Napoleon* (1981)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Napoleon implemented state-level agricultural policies (encouraging sugar beet cultivation to replace Caribbean cane sugar during the Continental System blockade) and managed large-scale resource allocation for military campaigns. At St. Helena, he personally gardened. However, these represent policy direction and hobby, not personal agricultural competence. His Corsican upbringing may have included some agricultural exposure."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Dwyer, *Napoleon: The Path to Power* (2007)",
+            "Chandler, *The Campaigns of Napoleon* (1966)",
+            "Burleigh, *Mirage: Napoleon's Scientists and the Unveiling of Egypt* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Napoleon mastered the cutting-edge military technology of his era—artillery science, which required understanding of metallurgy, ballistics, and engineering. He promoted the semaphore telegraph system for rapid communication, supported the metric system's adoption, and engaged with the savants he brought to Egypt on scientific matters. He founded the Institut d'Égypte and personally engaged with technical problems of supply, logistics, and infrastructure."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.02,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 7.42,
+    "created_at": "2026-03-22T21:32:12.750Z",
+    "updated_at": "2026-03-22T21:32:12.764Z"
+  }
+}
+]

@@ -1,0 +1,381 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 155,
+  "fields": {
+    "name": "Vladimir Lenin",
+    "slug": "vladimir-lenin",
+    "bio_short": "A towering cognitive-strategic and cultural-social figure whose paradigm-shifting revolutionary theory and institution-building reshaped the 20th century across multiple civilizations. Exceptional in strategic intelligence, creative political thought, leadership, and legacy, but significantly limited in moral-affective dimensions due to systematic political ruthlessness, dissolution of democratic norms, and authorization of mass terror. Relational and embodied-existential scores are moderate, reflecting a life consumed by political work. Heinlein-style practical competency is narrow — brillian",
+    "bio_long": "Vladimir Ilyich Ulyanov, better known as Vladimir Lenin, was a Russian revolutionary, politician and political theorist. He was the first head of government of Soviet Russia from 1917 until his death in 1924 and of the Soviet Union from 1922 until his death. As the Bolsheviks' founder, Lenin led the October Revolution, which established the world's first communist state and short-lived soviet democracy. His government won the Russian Civil War and created a one-party state under the Communist Party. Ideologically a Marxist, his developments to the ideology are called Leninism.",
+    "source_notes": "https://en.wikipedia.org/wiki/Vladimir_Lenin",
+    "image": "figures/330px-Lenin_in_1920_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Service, Robert. *Lenin: A Biography* (2000)",
+              "Pipes, Richard. *The Russian Revolution* (1990)",
+              "Figes, Orlando. *A People's Tragedy* (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lenin repeatedly adapted when initial plans failed. His April Theses (1917) reversed Bolshevik strategy upon return to Russia; the Treaty of Brest-Litovsk (1918) accepted catastrophic territorial losses against fierce internal opposition to save the revolution; and the pivot from War Communism to the NEP (1921) was a wholesale strategic reversal under threat of regime collapse (Kronstadt, Tambov). Each represented successful adaptation under extreme uncertainty, not merely plans that succeeded on first attempt."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Harding, Neil. *Leninism* (1996)",
+              "Kolakowski, Leszek. *Main Currents of Marxism* (1978)",
+              "Service, Robert. *Lenin: A Biography* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lenin produced a demonstrable paradigm shift: Marx predicted proletarian revolution in advanced capitalist states; Lenin theorized and executed it in semi-feudal Russia, fundamentally altering revolutionary theory. The vanguard party concept (*What Is to Be Done?*) and democratic centralism created entirely new organizational models adopted across dozens of countries. There is a clear before/after in global political thought directly attributable to Lenin."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Harding, Neil. *Lenin's Political Thought* (1977–1981)",
+              "Anderson, Kevin B. *Marx at the Margins* (2010)",
+              "Lenin, V.I. *State and Revolution* (1917)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lenin's theoretical works — *What Is to Be Done?* (1902), *Imperialism, the Highest Stage of Capitalism* (1916), *State and Revolution* (1917) — substantially developed Marxist theory and influenced anti-colonial thinkers (Ho Chi Minh, Mao, Fanon) well beyond his own community. However, his ethical reasoning was largely instrumental, explicitly subordinating morality to revolutionary utility, limiting the depth of his moral philosophy as such."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Rigby, T.H. *Lenin's Government: Sovnarkom 1917–1922* (1979)",
+              "Pipes, Richard. *Russia Under the Bolshevik Regime* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lenin established the Sovnarkom, the Cheka, the Red Army's political commissar system, and the Comintern (1919) — structures that endured decades beyond his direct oversight. The Soviet governmental framework survived until 1991. However, War Communism (1918–1921) was an administrative disaster producing economic collapse and famine, requiring the NEP retreat. The enduring system was substantially reshaped by Stalin, limiting Lenin's direct administrative credit."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Service, Robert. *Lenin: A Biography* (2000)",
+              "Gorky, Maxim. *Days with Lenin* (1932)",
+              "Volkogonov, Dmitri. *Lenin: A New Biography* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lenin operated as spouse (Krupskaya), lover (Armand), political leader (Bolsheviks), adversary (Mensheviks, SRs), subordinate (early relationship with Plekhanov), superior (head of state), sibling (close to his family, especially sister Maria), and friend (Gorky, Martov before their split). He inhabited at least five distinct relational modes. However, his relational style was remarkably consistent across contexts — intense, intellectually domineering, and politically instrumental — with notable intolerance of disagreement even among friends."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Krupskaya, N.K. *Reminiscences of Lenin* (1933)",
+              "Elwood, R.C. *Inessa Armand: Revolutionary and Feminist* (1992)",
+              "Service, Robert. *Lenin: A Biography* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lenin's marriage to Nadezhda Krupskaya (1898–1924) was a lifelong intellectual and political partnership. Krupskaya served as his secretary, collaborator, and companion through imprisonment, exile, and revolution. However, Lenin's prolonged and emotionally intense relationship with Inessa Armand (c. 1910–1920) complicated the picture, and Krupskaya reportedly suffered from this triangle. There is evidence of genuine mutual respect and support during crises, but the relationship appears to have been primarily a political partnership with limited romantic dimension in later years."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Lewin, Moshe. *Lenin's Last Struggle* (1968)",
+              "Kotkin, Stephen. *Stalin: Paradoxes of Power* (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Lenin had no children. As a political mentor, his record is mixed at best. His key protégés — Stalin, Trotsky, Zinoviev, Kamenev, Bukharin — fought bitterly after his death, and Stalin (whom Lenin belatedly tried to remove in his Testament) became the antithesis of several Leninist principles. The system Lenin created fostered ruthless power competition rather than autonomous development. His late Testament represents an acknowledgment of mentoring failure rather than success."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Hobsbawm, Eric. *The Age of Extremes* (1994)",
+              "Kotkin, Stephen. *Stalin: Paradoxes of Power* (2014)",
+              "Priestland, David. *The Red Flag: A History of Communism* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lenin's impact shaped the entire 20th century and remains operative: the Soviet system he founded structured the Cold War, influenced decolonization across Asia and Africa, and Marxism-Leninism became state ideology in China, Cuba, Vietnam, and elsewhere. His theoretical contributions continue to be studied and debated in political science and philosophy globally. The geopolitical order he set in motion affected billions of people across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Tumarkin, Nina. *Lenin Lives! The Lenin Cult in Soviet Russia* (1983)",
+              "Priestland, David. *The Red Flag* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lenin became the archetypal revolutionary leader of the modern era, recognized as a symbol across cultures far beyond Russia — from Tiananmen to Havana, from Hanoi to Addis Ababa. His image (the goatee, the pointed finger, the cap) is instantly recognizable worldwide. He functions as archetype of both 'liberator of the oppressed' and 'totalitarian revolutionary' depending on tradition, giving him cross-cultural symbolic resonance comparable to very few modern figures."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Rigby, T.H. *Lenin's Government: Sovnarkom 1917–1922* (1979)",
+              "McDermott, Kevin & Agnew, Jeremy. *The Comintern* (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Bolshevik Party (founded as a faction in 1903), the Soviet state structure, the Communist International (1919), and the Red Army's political commissar system all survived well beyond two generations. The Soviet system endured until 1991 — nearly 70 years after Lenin's death — with recognizable continuity. Communist parties modeled on Leninist organizational principles were established in over 100 countries."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Service, Robert. *Lenin: A Biography* (2000)",
+              "Figes, Orlando. *A People's Tragedy* (1996)",
+              "Rabinowitch, Alexander. *The Bolsheviks Come to Power* (1976)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lenin led successfully across qualitatively different contexts: clandestine revolutionary organizing (1890s–1917), factional intellectual leadership in exile, seizure of state power during the October Revolution, civil war crisis governance (1918–1921), and peacetime reconstruction under the NEP. He led small conspiratorial cells and a vast multi-ethnic empire. His influence extended globally through the Comintern, shaping revolutionary movements on every continent."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Krupskaya, N.K. *Reminiscences of Lenin* (1933)",
+              "Gorky, Maxim. *Days with Lenin* (1932)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Krupskaya's memoirs and Gorky's reminiscences describe Lenin enjoying chess, ice skating, mushroom gathering, cycling, and hiking in the Swiss Alps during exile. However, at the height of power (1917–1922) his life was almost entirely consumed by political work. He lived austerely in the Kremlin and then at Gorki. Evidence of mundane engagement during his period of leadership is thin, and much of what exists comes from hagiographic Soviet sources."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Pipes, Richard. *The Russian Revolution* (1990)",
+              "Rabinowitch, Alexander. *The Bolsheviks in Power* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Lenin's concept of justice was explicitly class-based and revolutionary rather than impartial. He dissolved the democratically elected Constituent Assembly in January 1918 when the Socialist Revolutionaries won the majority, overriding democratic principle for partisan advantage. The Cheka operated outside any legal framework. The Red Terror was explicitly extrajudicial. There is no documented case of Lenin ruling against Bolshevik interest in favor of abstract legal or moral principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Pipes, Richard. *The Unknown Lenin* (1996)",
+              "Figes, Orlando. *A People's Tragedy* (1996)",
+              "Leggett, George. *The Cheka* (1981)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Lenin expressed abstract solidarity with the working class but authorized systematic violence against adversaries: the Red Terror decree (September 1918), the Hanging Order to Penza soviets (August 1918) directing public execution of kulaks, suppression of the Kronstadt sailors (1921), and mass hostage-taking. Krupskaya's memoirs note personal kindness in private, and Gorky recalled his gentleness with children, but there is no documented compassion toward political adversaries or outgroup members in his political actions."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Service, Robert. *Lenin: A Biography* (2000)",
+              "Volkogonov, Dmitri. *Lenin: A New Biography* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lenin endured his brother Alexander's execution (1887), Siberian exile (1897–1900), seventeen years of émigré hardship (1900–1917), the enormous personal risk of returning to Russia via the sealed train (1917), Fanny Kaplan's assassination attempt in which he was shot twice (August 1918), and the pressures of governing during civil war. This represents sustained courage across multiple high-stakes situations, though primarily political-intellectual rather than physical-combat courage."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Lenin, V.I. 'Letter to the Congress' (Testament, 1922–23)",
+              "Service, Robert. *Lenin: A Biography* (2000)",
+              "Lewin, Moshe. *Lenin's Last Struggle* (1968)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lenin explicitly acknowledged the failure of War Communism and reversed course with the NEP (1921), telling the Tenth Party Congress it was necessary to retreat. His late 'Testament' (1922–1923) criticized Stalin, Trotsky, and others, and recommended structural changes, showing awareness of systemic failures he had enabled. His 'On Cooperation' (1923) acknowledged premature revolutionary ambitions. However, he never acknowledged the dissolution of the Constituent Assembly, the Red Terror, or political repression as errors."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Service, Robert. *Lenin: A Biography* (2000)",
+              "Volkogonov, Dmitri. *Lenin: A New Biography* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lenin endured qualitatively different forms of adversity while maintaining effective functioning: the traumatic execution of his brother Alexander (1887, personal bereavement), Siberian exile (1897–1900, material deprivation and isolation), years of impoverished émigré life across Europe (material hardship), the assassination attempt (1918, physical trauma), and governing through civil war and famine. He remained productive through each of these periods."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Harding, Neil. *Leninism* (1996)",
+              "Luxemburg, Rosa. *The Russian Revolution* (1918/1922)",
+              "Service, Robert. *Lenin: A Biography* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lenin inhabited multiple contradictory roles: utopian theorist of *State and Revolution* (envisioning the state's withering away) and architect of one-party dictatorship; champion of workers' democracy and suppressor of the Constituent Assembly; ascetic intellectual and wielder of enormous coercive power; internationalist and pragmatic Russian statesman (Brest-Litovsk). These represent at least three contradictory role-pairs, but the integration was imperfect — critics from Luxemburg to Kautsky noted the incoherence between his democratic theory and authoritarian practice."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Lewin, Moshe. *Lenin's Last Struggle* (1968)",
+              "Service, Robert. *Lenin: A Biography* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "During his final illness (1922–1924), Lenin dictated his Testament and other late works with deliberate intentionality about succession and the future of the revolution, showing composure about his legacy. He reportedly asked for cyanide, which suggests realistic acknowledgment of his terminal condition. However, he also expressed intense frustration at his incapacitation and fought against his decline. The picture is mixed — purposeful but not serene."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Service, Robert. *Lenin: A Biography* (2000)",
+              "Lerner, V. et al. 'The Last Illness and Death of Vladimir Lenin' (European Journal of Neurology, 2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Lenin enjoyed hiking, swimming, cycling, and skating during his exile years, and survived being shot twice by Fanny Kaplan (1918). However, he suffered severe health decline from 1921 onward, experiencing his first stroke in May 1922 at age 51, followed by further strokes that left him incapacitated. He was not noted for exceptional physical feats and was primarily an intellectual figure throughout his life."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Gorky, Maxim. *Days with Lenin* (1932)",
+              "Krupskaya, N.K. *Reminiscences of Lenin* (1933)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Gorky recorded Lenin's famous remark about Beethoven's Appassionata Sonata: that it made him want to 'stroke people's heads' when he needed to 'beat them over the head,' suggesting genuine aesthetic response that he deliberately suppressed for political reasons. He enjoyed chess and nature walks. However, his engagement with beauty and play was consistently subordinated to revolutionary purpose, making it instrumental rather than for its own sake."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.58,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Vladimir Lenin",
+      "overall": {
+        "Core_5D_Avg": 6.58,
+        "Overall_Normalized_Equal_Avg": 6.0,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "A towering cognitive-strategic and cultural-social figure whose paradigm-shifting revolutionary theory and institution-building reshaped the 20th century across multiple civilizations. Exceptional in strategic intelligence, creative political thought, leadership, and legacy, but significantly limited in moral-affective dimensions due to systematic political ruthlessness, dissolution of democratic norms, and authorization of mass terror. Relational and embodied-existential scores are moderate, reflecting a life consumed by political work. Heinlein-style practical competency is narrow — brilliance in strategic command and analytical reasoning but negligible evidence of manual, culinary, medical, or combat skills. A specialist of extraordinary impact rather than a generalist of broad human competence.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Krupskaya, N.K. *Reminiscences of Lenin* (1933)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Lenin cooked. Krupskaya and their mothers handled domestic tasks during exile; in power, he had Kremlin staff. He was notably indifferent to food quality."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Service, Robert. *Lenin: A Biography* (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Lenin never engaged in combat. He directed military operations politically but did not fight personally. He owned a Browning pistol but there is no record of him using it in conflict. He was a theorist and politician, not a fighter."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Krupskaya, N.K. *Reminiscences of Lenin* (1933)",
+            "Gorky, Maxim. *Days with Lenin* (1932)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Krupskaya's memoirs describe Lenin caring for her during illness and showing tenderness to children in his family circle (nieces and nephews). Gorky recalled his gentleness with children at Capri. However, caregiving was not a significant dimension of his adult life, and evidence is limited to episodic personal kindness."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Lewin, Moshe. *Lenin's Last Struggle* (1968)",
+            "Service, Robert. *Lenin: A Biography* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Lenin demonstrated composure after the Kaplan assassination attempt (1918), reportedly continuing to express concern about state security rather than personal welfare. During his terminal illness (1922–1924), he dictated his Testament and other works with purposeful intentionality about succession, showing dignity in facing death. His request for cyanide reflects realistic acceptance. However, deep frustration at incapacitation was also evident, making the picture mixed."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Service, Robert. *Lenin: A Biography* (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Lenin engaged in manual craft or repair work. He was a professional revolutionary and intellectual from a comfortable middle-class background."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Service, Robert. *Lenin: A Biography* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Lenin traveled extensively across Europe during exile (London, Geneva, Paris, Zurich, Krakow, Munich) and navigated the logistically complex sealed train journey through Germany to Petrograd in April 1917. He enjoyed hiking in the Swiss Alps and Finnish countryside. This represents basic travel competence rather than exceptional wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Service, Robert. *Lenin: A Biography* (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Lenin engaged in butchering, animal husbandry, or food processing at any point in his life. He was raised in a middle-class family with servants and spent his adult life as an intellectual and politician."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Service, Robert. *Lenin: A Biography* (2000)",
+            "Rabinowitch, Alexander. *The Bolsheviks Come to Power* (1976)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Lenin was an exceptional leader who commanded loyalty and directed vast political movements. However, his capacity for followership was limited: he broke with Plekhanov (his early mentor), split the RSDLP, and was famously intolerant of dissent. He could defer to circumstances (Brest-Litovsk, NEP) but rarely to persons. The combination of exceptional leadership with poor followership yields a moderate composite score."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Service, Robert. *Lenin: A Biography* (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Lenin ever designed or built physical structures. His background was entirely intellectual and political."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Rabinowitch, Alexander. *The Bolsheviks Come to Power* (1976)",
+            "Pipes, Richard. *The Russian Revolution* (1990)",
+            "Service, Robert. *Lenin: A Biography* (2000)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Lenin planned and executed the October Revolution, navigated Brest-Litovsk negotiations, directed the political dimension of the Civil War, established the Comintern's global strategy, and managed the NEP transition — each representing complex multi-variable strategic planning under extreme constraints. His strategic command across these qualitatively different operations places him among the most consequential strategic planners in modern history."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Harding, Neil. *Lenin's Political Thought* (1977–1981)",
+            "Gorky, Maxim. *Days with Lenin* (1932)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Lenin was a prolific and rhetorically powerful writer, but his works (*What Is to Be Done?*, *Imperialism*) are political theory rather than artistic expression. He appreciated Pushkin, Tolstoy, and Beethoven but did not create art. His polemical prose, while vigorous, was instrumental rather than aesthetic in purpose."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Service, Robert. *Lenin: A Biography* (2000)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of medical knowledge or emergency response skill. Lenin was a recipient of medical care (after Kaplan's assassination attempt and during his strokes) but not a provider."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Lenin, V.I. *The Development of Capitalism in Russia* (1899)",
+            "Service, Robert. *Lenin: A Biography* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Lenin's *The Development of Capitalism in Russia* (1899) demonstrated substantial statistical and economic analysis, marshaling empirical data on Russian industrial and agricultural development. His analysis of imperialism involved systematic reasoning about global capital flows. He studied law at St. Petersburg University (external degree, first in class, 1891). His analytical reasoning was a consistent strength across his career."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Figes, Orlando. *A People's Tragedy* (1996)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Lenin had no personal agricultural experience. His agricultural policies (grain requisitioning under War Communism) contributed to famine, and the NEP was a retreat to market mechanisms. Policy engagement was political, not based on practical agricultural competence."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Coopersmith, Jonathan. *The Electrification of Russia, 1880–1926* (1992)",
+            "Service, Robert. *Lenin: A Biography* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Lenin championed the GOELRO plan (1920) for nationwide electrification — a pioneering state-level technical-systemic initiative that anticipated Soviet industrialization. His organizational innovations (democratic centralism, the vanguard party model) represent systemic problem-solving in political organization. His famous dictum 'Communism is Soviet power plus the electrification of the whole country' reflected genuine engagement with technological modernization as a systemic challenge."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.58,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 6.0,
+    "created_at": "2026-03-22T19:38:04.872Z",
+    "updated_at": "2026-03-22T19:38:04.892Z"
+  }
+}
+]

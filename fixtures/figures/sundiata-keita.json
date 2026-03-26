@@ -1,0 +1,367 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 200,
+  "fields": {
+    "name": "Sundiata Keita",
+    "slug": "sundiata-keita",
+    "bio_short": "Sundiata Keita scores highest in strategic-military and institution-building domains: he forged a coalition from exile, defeated Sumanguru at Kirina, and founded the Mali Empire—one of Africa's most enduring polities. Strong marks in courage, hardship tolerance, and leadership reflect a life defined by overcoming childhood disability and political exile. Scores are constrained by heavy reliance on the oral Sunjata epic, a hagiographic source with limited independent corroboration beyond Ibn Khaldun and al-Umari. Relational and many Heinlein competency domains remain sparsely documented, yieldi",
+    "bio_long": "Sundiata Keita was a prince and founder of the Mali Empire. He was also the great-uncle of the Malian ruler Mansa Musa, who is regarded as the wealthiest person of all time, although there are no reliable ways to accurately calculate his wealth.",
+    "source_notes": "https://en.wikipedia.org/wiki/Sundiata_Keita",
+    "image": "",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)",
+              "Ibn Khaldun, 'Kitab al-Ibar', Vol. 6"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Sundiata built a multi-clan coalition during years of exile—securing support from the king of Mema and rallying Mandinka chieftains—then adapted his military strategy to defeat Sumanguru Kanté at the Battle of Kirina (c. 1235). This required shifting from diplomacy to war-making and adjusting plans as alliances formed unevenly. Ibn Khaldun independently confirms the founding conquest."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)",
+              "Conrad, David C., 'Sunjata: A West African Epic of the Mande Peoples' (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sundiata's political synthesis—unifying previously fragmented Mandinka clans and absorbing the Sosso kingdom into a new imperial structure with a codified charter—represented a genuinely novel political model in the Western Sudan. This created a before/after difference in regional governance, though it built substantially on existing Mande social structures rather than creating an entirely new paradigm."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Austen, Ralph (ed.), 'In Search of Sunjata' (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Kouroukan Fouga (Manden Charter), traditionally attributed to Sundiata, articulated principles of social organization, clan responsibilities, and protections for women and foreigners that shaped Mande society for centuries. However, the charter's exact dating and specific wording are debated among scholars, and its influence remained largely within the Mande cultural sphere rather than reaching thinkers beyond it."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)",
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Mali Empire Sundiata founded endured from c. 1235 into the late 1500s, with administrative structures—provincial governance, trade regulation, the Kouroukan Fouga's social framework—that functioned well beyond his direct oversight. The empire's capacity to sustain trans-Saharan commerce and project power across the Western Sudan under successors like Mansa Musa testifies to robust founding institutions."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Conrad, David C., 'Sunjata: A West African Epic of the Mande Peoples' (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The epic portrays Sundiata across multiple relational modes: as a devoted son to Sogolon, a rival sibling (to Dankaran Touman), a subordinate at the court of Mema, a peer ally to other chieftains, a supreme commander, and an adversary to Sumanguru. This spans at least five distinct modes with qualitatively different behavior, though the depth of evidence for each mode is constrained by the source material."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The epic mentions several wives but provides minimal detail about the quality, mutuality, or emotional depth of these relationships. Political marriage alliances are referenced, but no evidence of sustained mutual support or emotional availability survives. The thinness of evidence caps this score."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Sundiata's relationships with his generals (Tiramakhan Traore, Fakoli Koroma) show elements of mentoring and delegation, but the epic provides limited evidence about whether these figures developed genuine autonomy versus simple loyalty. His relationship with his own children is barely documented. The succession was contested after his death, which may suggest limited succession planning."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)",
+              "Austen, Ralph (ed.), 'In Search of Sunjata' (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Mali Empire profoundly shaped West African political structures, trade networks, and cultural identity for centuries. The Mande cultural sphere still references Sundiata's legacy today, and the trans-Saharan trade he fostered connected West Africa to North African and Middle Eastern civilizations. However, while effects are clearly operative 500+ years later, they are concentrated primarily within the West African and broader African sphere rather than clearly operative across multiple distinct civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Austen, Ralph (ed.), 'In Search of Sunjata' (1999)",
+              "Johnson, John William, 'The Epic of Son-Jara' (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sundiata embodies the powerful archetype of the disabled child who rises to found a great kingdom—a hero's journey with universal resonance. The Sunjata epic is one of the most studied oral literary works globally and has been compared to the Iliad and Arthurian legend. However, his recognition as a symbol in cultures and traditions beyond West Africa and the African diaspora remains limited to academic and literary circles rather than broad popular recognition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)",
+              "Ibn Khaldun, 'Kitab al-Ibar'",
+              "al-Umari, 'Masalik al-Absar'"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Mali Empire survived from c. 1235 well into the late 1500s—over a dozen generations—with recognizable continuity in governance, trade networks, and cultural institutions. This far exceeds the two-generation threshold. The empire's institutional resilience is confirmed by both oral tradition and external Arabic-language sources."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)",
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Sundiata led successfully across qualitatively different contexts: as a diplomatic exile building alliances at foreign courts (Mema), as a military commander coordinating multi-clan forces at Kirina, and as a peacetime state-builder establishing the Mali Empire's governance. His ability to inspire loyalty across diverse Mandinka clans and allied peoples is independently attested by the empire's rapid consolidation."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Conrad, David C., 'Sunjata: A West African Epic of the Mande Peoples' (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The epic tradition preserves vivid details of Sundiata's mundane life: his childhood struggles to walk, his mother Sogolon's grinding poverty during exile, and his reputation as a great hunter—an everyday subsistence activity. These details ground him in ordinary human experience despite his royal destiny. However, many of these details are stylized literary motifs within the epic genre."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Kouroukan Fouga established principles of inter-clan justice and conflict resolution, including protections for vulnerable groups. The epic portrays Sundiata distributing conquered territories according to merit and prior agreements rather than personal caprice. However, specific documented cases of ruling against personal interest in favor of principle are not available outside the oral tradition."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Conrad, David C., 'Sunjata: A West African Epic of the Mande Peoples' (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Kouroukan Fouga includes provisions protecting foreigners, women, and prisoners, suggesting concern beyond in-group welfare. The epic also portrays Sundiata as sparing certain defeated enemies and redistributing conquered lands generously among allies. However, these accounts are from the hagiographic epic tradition, and specific acts of compassion toward adversaries are not independently corroborated."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Austen, Ralph (ed.), 'In Search of Sunjata' (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Sundiata overcame a childhood disability that left him unable to walk, survived years of political exile while his homeland was conquered by Sumanguru, and then led military campaigns culminating in the decisive Battle of Kirina. This represents sustained courage across qualitatively different high-stakes situations: overcoming physical disability, enduring exile under threat, and personal battlefield command."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Austen, Ralph (ed.), 'In Search of Sunjata' (1999)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Sunjata epic tradition heavily idealizes its protagonist, presenting him as destined for greatness from birth. No documented instances of Sundiata reversing a prior position or accepting correction survive in the record. Per the rubric's instruction that figures whose traditions sanitize them should be capped at 1 unless independent evidence exists, this score is capped accordingly."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Sundiata endured at least two qualitatively different forms of severe adversity: childhood physical disability (inability to walk) and prolonged political exile with his family, living in foreign courts while his homeland was conquered and his kin persecuted. He functioned effectively through both, ultimately transforming exile into a coalition-building opportunity. The existence of the empire itself corroborates effective functioning under adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Austen, Ralph (ed.), 'In Search of Sunjata' (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sundiata inhabited seemingly contradictory roles: a disabled child who became a supreme warrior, an exile who became an emperor, and a conqueror who established a charter of governance and social order. These pairings (vulnerability/power, outsider/ruler, destroyer/builder) show meaningful paradox integration, though the transition from disability to warrior is somewhat sequential rather than simultaneous."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)",
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The circumstances of Sundiata's death (c. 1255) are unclear and contested—oral traditions variously report drowning in the Sankarani River or death by an arrow at a ceremony. No account documents composure in the face of imminent death. The absence of evidence prevents a higher score."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+              "Conrad, David C., 'Sunjata: A West African Epic of the Mande Peoples' (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The epic describes Sundiata overcoming an inability to walk in childhood, then becoming renowned as a hunter and warrior who led military campaigns on foot and horseback. This physical transformation and sustained martial activity across life-stages is notable, though the accounts are from oral tradition and may contain legendary embellishment."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The epic mentions Sundiata's love of hunting and celebration feasts after victories, suggesting some engagement with leisure and joy. However, these references are brief, largely instrumental (hunting as skill-building, feasts as political events), and embedded in a hagiographic narrative. No clear evidence of non-instrumental aesthetic engagement survives."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.69,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Sundiata Keita",
+      "overall": {
+        "Core_5D_Avg": 6.69,
+        "Overall_Normalized_Equal_Avg": 6.28,
+        "General_Competency_Avg_10scale": 4.22
+      },
+      "summary": "Sundiata Keita scores highest in strategic-military and institution-building domains: he forged a coalition from exile, defeated Sumanguru at Kirina, and founded the Mali Empire—one of Africa's most enduring polities. Strong marks in courage, hardship tolerance, and leadership reflect a life defined by overcoming childhood disability and political exile. Scores are constrained by heavy reliance on the oral Sunjata epic, a hagiographic source with limited independent corroboration beyond Ibn Khaldun and al-Umari. Relational and many Heinlein competency domains remain sparsely documented, yielding lower scores not from evidence of absence but from absence of evidence.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.27,
+          "General_Competency_Avg_10scale": 4.22
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of Sundiata personally preparing meals. The epic does not address culinary skills, and no other sources attribute cooking ability to him."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+            "Ibn Khaldun, 'Kitab al-Ibar'"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Sundiata personally led forces at the Battle of Kirina, defeating Sumanguru Kanté and conquering the Sosso kingdom. The epic celebrates his prowess as both a hunter (simbon) and a warrior. Ibn Khaldun independently confirms the military conquest that established the Mali Empire, corroborating his effectiveness in combat and defense."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The epic portrays Sundiata as protective of his mother Sogolon and his people, but specific acts of sustained emotional or physical caregiving are not documented beyond general protective leadership. The Kouroukan Fouga's welfare provisions suggest institutional concern but not personal caregiving skill."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Sundiata's endurance through childhood disability and years of exile suggests baseline composure under adversity. However, the circumstances of his death are unclear and contested, and no account documents composure in the face of his own mortality specifically. The score reflects limited but not absent evidence."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of Sundiata personally making, fixing, or adapting tools or physical systems. As a prince and then emperor, manual craft would not have been a primary activity, and no sources attribute such skills to him."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+            "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "During his years of exile, Sundiata traveled extensively across the Western Sudan—from Niani to various host courts and ultimately to Mema—navigating the savanna environment. His return journey to reconquer his homeland required knowledge of terrain and routes across a vast region. Era-normalized, this represents significant wayfinding competence."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Sundiata is celebrated in the epic as a great hunter (simbon), which in the Mande context implies skill in tracking, killing, and processing game. However, the evidence is entirely from the oral tradition and may be partly symbolic (hunting as a metaphor for leadership)."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)",
+            "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Sundiata demonstrated both followership—deferring to the king of Mema during exile and earning trust as a subordinate—and supreme leadership in building and commanding the Mandinka coalition and founding the Mali Empire. The ability to follow effectively before leading is explicitly documented in the epic tradition and corroborated by the political realities of exile."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Sundiata established Niani as his capital, implying oversight of construction, but no evidence of personal building skill or design involvement survives. The score reflects the reasonable inference that a 13th-century West African ruler would have basic knowledge of construction without specific documentation."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)",
+            "Ibn Khaldun, 'Kitab al-Ibar'"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Sundiata coordinated a multi-clan coalition from exile, planned the military campaign against the Sosso kingdom, and directed forces at the Battle of Kirina (c. 1235)—a campaign requiring logistical coordination across the Western Sudan. The empire's rapid consolidation afterward demonstrates exceptional command capability. Ibn Khaldun independently confirms the conquest."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Niane, D.T., 'Sundiata: An Epic of Old Mali' (1965)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Sundiata patronized the griot tradition and the Kouroukan Fouga has literary qualities, but there is no evidence of personal artistic creation—no poetry, music, or visual art attributed to him. His era valued oral expression, and his speeches in the epic are eloquent, but these are the griots' compositions about him rather than by him."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of Sundiata providing medical treatment or emergency aid. The epic does not attribute healing skills to him, and no other sources address this domain."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Managing an empire's logistics, tribute systems, and trade networks implies functional numerical reasoning. However, no specific evidence of mathematical or analytical skill beyond what is required of any ruler survives in the record."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Some oral traditions credit Sundiata with promoting agriculture and introducing new crops to the Mali Empire. The empire's wealth was partly agricultural. However, specific evidence of personal agricultural knowledge or resource management practice is limited to these general attributions."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Levtzion, Nehemia, 'Ancient Ghana and Mali' (1973)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Building the Mali Empire required solving complex systemic problems—integrating diverse clans, establishing trade networks, and creating governance structures. However, specific technical innovations or cutting-edge tool use are not documented in the sources, so the score reflects general inference rather than specific evidence."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.69,
+    "general_competency_avg_0_10": 4.22,
+    "overall_normalized_equal_avg_0_10": 6.28,
+    "created_at": "2026-03-22T22:12:20.442Z",
+    "updated_at": "2026-03-22T22:12:20.442Z"
+  }
+}
+]

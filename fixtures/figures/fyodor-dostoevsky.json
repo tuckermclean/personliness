@@ -1,0 +1,369 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 195,
+  "fields": {
+    "name": "Fyodor Dostoevsky",
+    "slug": "fyodor-dostoevsky",
+    "bio_short": "A supreme literary genius and one of history's deepest explorers of the human condition, Dostoevsky's exceptional philosophical insight, creative innovation, and capacity for paradox integration define his legacy. His endurance through mock execution, Siberian hard labor, epilepsy, grief, and poverty produced unmatched existential depth. Relational and practical competency breadth are modest — he was a specialist of extraordinary range within his art but limited outside it. His moral profile is powerful but complicated by anti-Semitic prejudice and gambling addiction, both of which he partly a",
+    "bio_long": "Fyodor Mikhailovich Dostoevsky was a Russian philosopher, novelist, short story writer, essayist and journalist. He is regarded as one of the greatest novelists in both Russian and world literature, and many of his works are considered highly influential masterpieces. Dostoevsky's literary works explore the human condition in the troubled political, social and spiritual atmospheres of 19th-century Russia, and engage with a variety of philosophical and religious themes. His most acclaimed novels include Crime and Punishment (1866), The Idiot (1869), Demons (1872), The Adolescent (1875) and The Brothers Karamazov (1880). His Notes from Underground, a novella published in 1864, is considered one of the first works of existentialist literature.",
+    "source_notes": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky",
+    "image": "figures/330px_IgRmFVS.D09C.D094D0BED181D182D0BED0B5D0B2D181D0BAD0BED0B3D0BE_-_Google_Art_Project.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)",
+              "Snitkina (Dostoevskaya), Anna. *Reminiscences* (1925)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Dostoevsky showed limited strategic capacity: he signed a notoriously exploitative contract with publisher Stellovsky (1865) that nearly cost him rights to all future works, and his gambling addiction reflected chronic inability to manage risk. He did adapt by hiring Anna Snitkina as stenographer (1866) and later delegating business management to her, which saved his career, but this was reactive rather than anticipatory."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Bakhtin, Mikhail. *Problems of Dostoevsky's Poetics* (1929/1963)",
+              "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)",
+              "Morson, Gary Saul. 'Dostoevsky's Great Experiment,' in *The Boundaries of Genre* (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Dostoevsky created the polyphonic novel, as demonstrated by Bakhtin's landmark analysis: multiple autonomous consciousness-voices coexist without authorial subordination, representing a paradigm shift in narrative art. His psychological realism — interior monologue, dream sequences, split consciousness (e.g., Raskolnikov, Ivan and his devil) — fundamentally changed how fiction depicts the human mind. There is a clear before/after in world literature attributable to his innovations."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Berdyaev, Nikolai. *Dostoevsky: An Interpretation* (1934)",
+              "Kaufmann, Walter. *Existentialism from Dostoevsky to Sartre* (1956)",
+              "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Dostoevsky's philosophical depth influenced existentialism (Nietzsche, Heidegger, Sartre, Camus), psychoanalysis (Freud's essay on 'Dostoevsky and Parricide'), and theology (Barth, Berdyaev). The Grand Inquisitor chapter of *The Brothers Karamazov* remains one of the most discussed philosophical texts on freedom, theodicy, and authority. *Notes from Underground* (1864) is widely credited as a founding text of existentialist thought, articulating the crisis of rational self-interest decades before it became a mainstream philosophical concern."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)",
+              "Lantz, Kenneth. *The Dostoevsky Encyclopedia* (Greenwood, 2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Dostoevsky co-edited the journal *Time* (Vremya, 1861–63, shut down by censors) and *Epoch* (1864–65, which failed financially). He later published *A Writer's Diary* (1873–81) as a successful one-man periodical. These enterprises showed editorial competence but none survived beyond his direct involvement, and his chronic financial mismanagement undermined organizational stability."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)",
+              "Dostoevsky-Turgenev correspondence and accounts in Frank"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Dostoevsky operated across multiple relational modes: devoted spouse (Anna), bereaved parent, son (complicated relationship with his murdered father), friend (close bonds with Apollon Maikov, Vladimir Solovyov), fierce adversary (famous feud with Turgenev, documented in letters and satirized in *Demons*), subordinate (prisoner and soldier in Siberia), and editorial superior. His behavior was qualitatively distinct across these modes — tender with Anna, combative with Turgenev, humble in prison. This covers at least six relational modes with documented differences in conduct."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Dostoevskaya, Anna. *Reminiscences* (1925)",
+              "Frank, Joseph. *Dostoevsky: The Miraculous Years, 1865–1871* (Princeton UP, 1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Dostoevsky's first marriage to Maria Isaeva (1857–64) was troubled — she was ill with tuberculosis, and the relationship was strained. His second marriage to Anna Snitkina (1867–81) was genuinely deep: their correspondence reveals mutual affection, intellectual partnership, and emotional support during crises. Anna served as his stenographer, business manager, and emotional anchor. However, his gambling addiction (particularly during their early European travels, 1867–71) caused Anna immense suffering and financial distress, qualifying as a significant failure of spousal care. Their relationship deepened over time into a strong partnership."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Dostoevskaya, Lyubov. *Dostoevsky as Portrayed by His Daughter* (1921)",
+              "Dostoevskaya, Anna. *Reminiscences* (1925)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Dostoevsky was a loving but inconsistent father. Anna's memoirs describe his tenderness with their children, and his grief at the deaths of baby Sonya (1868) and three-year-old Alexei (1878) was devastating and genuine. However, his daughter Lyubov later wrote a somewhat critical memoir. His chronic financial instability created an insecure environment. As a mentor, he influenced younger writers through his journals and public role, but no documented mentee developed remarkable autonomy directly attributable to his guidance."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Bakhtin, Mikhail. *Problems of Dostoevsky's Poetics* (1929/1963)",
+              "Kaufmann, Walter. *Existentialism from Dostoevsky to Sartre* (1956)",
+              "Leatherbarrow, William, ed. *The Cambridge Companion to Dostoevskii* (Cambridge UP, 2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Dostoevsky's influence pervades world literature, philosophy, psychology, and theology across multiple civilizations. He shaped existentialism, psychoanalysis, and the modern novel. His works are translated into virtually every major language, studied in universities worldwide, and continue to generate scholarship and artistic adaptation. His influence extends across Russian, European, American, Japanese, and Latin American literary traditions, with no sign of diminishing more than 140 years after his death."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Berdyaev, Nikolai. *Dostoevsky: An Interpretation* (1934)",
+              "Leatherbarrow, William, ed. *The Cambridge Companion to Dostoevskii* (Cambridge UP, 2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Dostoevsky is widely recognized across cultures as the archetypal 'tortured genius' and prophetic novelist — Berdyaev treated him explicitly as a prophet. His characters (Raskolnikov, the Underground Man, the Grand Inquisitor, Prince Myshkin) function as archetypes in global literary culture. His name is virtually synonymous with psychological depth. However, his archetypal resonance is primarily literary-intellectual rather than mythic in the universal sense required for a 3 (he is not a cross-civilizational symbol like religious founders or ancient heroes)."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Dostoevsky's journals *Time* (1861–63) and *Epoch* (1864–65) did not survive beyond his involvement, and *A Writer's Diary* was a one-person operation that ended with his death. He did not create organizations or institutions that persisted beyond his direct oversight. His literary legacy is immense, but legacy is scored separately from institution-building."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: The Mantle of the Prophet, 1871–1881* (Princeton UP, 2002)",
+              "Lantz, Kenneth. *The Dostoevsky Encyclopedia* (Greenwood, 2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Dostoevsky exercised enormous intellectual influence through his novels, journals, and public appearances. His Pushkin Speech of June 8, 1880 galvanized the audience into a frenzy of emotional unity — one of the most famous public addresses in Russian cultural history. He led literary circles and editorial teams. However, his leadership was primarily intellectual and cultural rather than across qualitatively different contexts (e.g., both organizational and crisis leadership)."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Dostoevsky, Fyodor and Anna. *Complete Letters, 1832–1881* (various editions)",
+              "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Dostoevsky's life was deeply embedded in ordinary experience: he suffered poverty, gambling debts, family illness, and the everyday anxieties of raising children while meeting serialization deadlines. His correspondence with Anna reveals domestic concerns — worrying about children's health, managing household expenses, expressing homesickness during travels in Europe. His novels are saturated with the textures of everyday Russian life (taverns, cramped apartments, market streets). He was never an elite figure removed from common struggle."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: The Seeds of Revolt, 1821–1849* (Princeton UP, 1976)",
+              "Scanlan, James P. *Dostoevsky the Thinker* (Cornell UP, 2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Dostoevsky's early involvement with the Petrashevsky Circle (1847–49) was motivated by opposition to serfdom and concern for social justice, for which he paid with his liberty. His novels are deeply preoccupied with justice — *Crime and Punishment* explores the limits of individual moral reasoning, and *The Brothers Karamazov* interrogates divine justice itself. However, his later nationalism and persistent anti-Semitism represent failures of impartiality, and there is no strong evidence of him ruling against personal or group interest in the manner required for a 3."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)",
+              "Goldstein, David. *Dostoyevsky and the Jews* (U of Texas Press, 1981)",
+              "Dostoevsky, F. *A Writer's Diary* (various entries, 1873–1881)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Dostoevsky showed extraordinary literary empathy — inhabiting the consciousness of murderers (Raskolnikov), prostitutes (Sonya), nihilists (Stavrogin), and the suffering poor. In *The House of the Dead* he portrayed fellow convicts, including murderers, with deep human sympathy drawn from personal experience. He gave the strongest possible voice to ideological adversaries (Ivan Karamazov's arguments against God are more powerful than most atheists could write). However, his documented anti-Semitism in *A Writer's Diary* and correspondence represents a significant failure of empathy toward an outgroup. Without this counterexample, the score would be 3; with it given proportional weight to its moral stakes, 2 is appropriate."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: The Years of Ordeal, 1850–1859* (Princeton UP, 1983)",
+              "Dostoevskaya, Anna. *Reminiscences* (1925)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Dostoevsky survived the mock execution of December 22, 1849, four years of hard labor in the Omsk prison camp (1850–54), six years of compulsory military service in Semipalatinsk, lifelong epilepsy, deaths of his first wife and brother in quick succession (1864), the death of two children (Sonya 1868, Alexei 1878), and crushing debt from gambling. Through all of this he produced his greatest works. This represents sustained courage across multiple qualitatively different high-stakes situations spanning decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: The Miraculous Years, 1865–1871* (Princeton UP, 1995)",
+              "Dostoevskaya, Anna. *Reminiscences* (1925)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Dostoevsky underwent a profound ideological transformation during Siberian imprisonment, shifting from utopian socialism to Orthodox Christian nationalism — a genuine reversal documented in his letters and later writings. He explicitly acknowledged his gambling addiction as a moral failing and overcame it by approximately 1871, with visible behavioral change. His novels themselves are extended exercises in moral self-examination. However, his anti-Semitism persisted and arguably worsened, representing a domain where growth did not occur."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: The Miraculous Years, 1865–1871* (Princeton UP, 1995)",
+              "Dostoevskaya, Anna. *Reminiscences* (1925)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Dostoevsky functioned effectively through imprisonment and hard labor (material/physical adversity), chronic epilepsy (illness), the deaths of his first wife Maria and brother Mikhail in 1864 (bereavement), the deaths of children Sonya (1868) and Alexei (1878) (parental grief), crushing debt and gambling addiction (financial/psychological adversity), and political persecution. He wrote *Crime and Punishment* during some of his worst personal crises. This spans at least four qualitatively different forms of adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Bakhtin, Mikhail. *Problems of Dostoevsky's Poetics* (1929/1963)",
+              "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Dostoevsky inhabited at least five seemingly contradictory roles without fragmenting: (1) convict/outcast and literary genius, (2) compulsive gambler and moral philosopher, (3) devout Orthodox Christian and the writer who gave atheism its most powerful voice (Ivan Karamazov, the Underground Man), (4) former revolutionary socialist and later arch-conservative nationalist, (5) man of violent passions and creator of the gentlest character in Russian literature (Prince Myshkin). Bakhtin's analysis of his polyphonic method demonstrates how he structurally held contradictions in dynamic tension rather than resolving them."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: The Seeds of Revolt, 1821–1849* (Princeton UP, 1976)",
+              "Dostoevskaya, Anna. *Reminiscences* (1925)",
+              "Dostoevsky, F. *The Idiot* (1869), Prince Myshkin's account of a condemned man"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Dostoevsky's mock execution (December 22, 1849) was one of history's most dramatic confrontations with death; he later wrote that he experienced compressed awareness of final moments, transforming the experience into profound literary-philosophical meditation (the Myshkin passage in *The Idiot*). On his deathbed (January 28, 1881), he reportedly asked Anna to read the parable of the prodigal son and blessed his children with composure. However, his own accounts of the mock execution emphasize terror as much as composure, and the deathbed reports come primarily from Anna (a partial source)."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: The Years of Ordeal, 1850–1859* (Princeton UP, 1983)",
+              "Dostoevsky, F. *The House of the Dead* (1861–62, semi-autobiographical)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Dostoevsky survived four years of hard labor in the Omsk prison camp (1850–54) involving chain-gang work in extreme Siberian cold, while suffering from the onset of epilepsy. He then served six years as a soldier in Semipalatinsk. Despite chronic epileptic seizures and emphysema in later years, he maintained grueling writing schedules well into his late fifties. This represents physical endurance across multiple life stages under severe conditions."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)",
+              "Dostoevsky-Dostoevskaya correspondence, various letters"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Dostoevsky had a deep aesthetic sensibility: he was profoundly moved by Raphael's Sistine Madonna (which inspired key passages in *The Idiot* and *Demons*), loved theater and reading, and took genuine pleasure in nature during his European travels. His letters to Anna show warmth, humor, and playful affection. He enjoyed reading aloud to audiences, taking evident pleasure in performance. However, much of his aesthetic engagement was channeled into his literary work rather than being purely non-instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.88,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Fyodor Dostoevsky",
+      "overall": {
+        "Core_5D_Avg": 6.88,
+        "Overall_Normalized_Equal_Avg": 6.33,
+        "General_Competency_Avg_10scale": 3.56
+      },
+      "summary": "A supreme literary genius and one of history's deepest explorers of the human condition, Dostoevsky's exceptional philosophical insight, creative innovation, and capacity for paradox integration define his legacy. His endurance through mock execution, Siberian hard labor, epilepsy, grief, and poverty produced unmatched existential depth. Relational and practical competency breadth are modest — he was a specialist of extraordinary range within his art but limited outside it. His moral profile is powerful but complicated by anti-Semitic prejudice and gambling addiction, both of which he partly addressed through growth. The polyphonic novelist who gave voice to every human contradiction remains among the most complete artistic intelligences ever documented.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.07,
+          "General_Competency_Avg_10scale": 3.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented culinary skills. Household management and cooking were handled by Anna and household staff. No sources describe Dostoevsky preparing food."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Frank, Joseph. *Dostoevsky: The Years of Ordeal, 1850–1859* (Princeton UP, 1983)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Dostoevsky received basic military training at the Main Engineering Academy and served as a military officer in Semipalatinsk (1854–59). He survived four years among hardened criminals in the Omsk prison camp, which required some capacity for self-protection. However, he was not known as a fighter and saw no combat."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Dostoevskaya, Anna. *Reminiscences* (1925)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Dostoevsky cared for his first wife Maria during her terminal tuberculosis, and Anna's memoirs describe his active tenderness with their children — reading to them, playing with them, grieving deeply at their deaths. His literary work demonstrates extraordinary understanding of human vulnerability and the psychology of care. However, his gambling addiction periodically undermined his capacity to provide stable care."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Frank, Joseph. *Dostoevsky: The Seeds of Revolt, 1821–1849* (Princeton UP, 1976)",
+            "Dostoevskaya, Anna. *Reminiscences* (1925)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Dostoevsky's mock execution (December 22, 1849) is one of the most dramatic confrontations with death in recorded history; he transformed the experience into enduring philosophical reflection rather than being broken by it. He lived with epilepsy for decades, facing the possibility of death during each seizure, and maintained productive composure. On his deathbed (January 28, 1881), he asked Anna to read the parable of the prodigal son, blessed his children, and died with documented calm."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Dostoevsky, F. *The House of the Dead* (1861–62)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "During four years of hard labor in Siberia (1850–54), Dostoevsky performed various manual tasks including hauling materials and turning a lathe. His engineering education would have involved some practical components. However, no particular skill or proficiency in craft or repair is documented beyond basic labor competence."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Frank, Joseph. *Dostoevsky: The Miraculous Years, 1865–1871* (Princeton UP, 1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Dostoevsky traveled extensively across Europe (Germany, Switzerland, Italy, France) and Russia, including the long journey to Siberian exile and back. He navigated foreign cities with limited resources during his European travels (1867–71). This represents ordinary competence in travel rather than exceptional wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of skill in animal husbandry or food processing. Dostoevsky lived as an urban intellectual throughout his adult life. While he would have encountered basic animal processing in Siberian prison, no specific competency is documented."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Frank, Joseph. *Dostoevsky: The Mantle of the Prophet, 1871–1881* (Princeton UP, 2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Dostoevsky demonstrated both capacities: he endured years of compulsory obedience as a prisoner and soldier in Siberia (effective followership under extreme duress), and he led editorial teams at *Time*, *Epoch*, and *A Writer's Diary*, and commanded enormous public followings (the 1880 Pushkin Speech galvanized a crowd into ovation). He cooperated with publishers on strict serialization schedules while maintaining artistic integrity."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Frank, Joseph. *Dostoevsky: The Seeds of Revolt, 1821–1849* (Princeton UP, 1976)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Although Dostoevsky trained at the Main Engineering Academy in St. Petersburg (1838–43), he never practiced engineering. During Siberian hard labor he performed unskilled physical tasks including hauling bricks and alabaster, but no skilled construction or design work is documented."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Dostoevsky coordinated journal publications and managed serialization schedules for complex novels, but his chronic inability to manage finances, his exploitative Stellovsky contract (1865), and his gambling-driven crises show poor strategic planning. He eventually delegated command of business affairs to Anna, an effective but reactive adaptation."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Bakhtin, Mikhail. *Problems of Dostoevsky's Poetics* (1929/1963)",
+            "Leatherbarrow, William, ed. *The Cambridge Companion to Dostoevskii* (Cambridge UP, 2002)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Dostoevsky is among the greatest novelists in world literary history. *Crime and Punishment*, *The Brothers Karamazov*, *The Idiot*, *Demons*, and *Notes from Underground* are masterpieces that transformed the art of fiction. He invented the polyphonic novel, pioneered psychological realism, and created characters (Raskolnikov, Ivan Karamazov, the Underground Man) that have become permanent fixtures of world culture."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No documented medical skills. His father was a physician at a Moscow hospital, but Dostoevsky did not pursue medical training. He was far more often a patient — managing chronic epilepsy — than a provider of medical care."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Frank, Joseph. *Dostoevsky: The Seeds of Revolt, 1821–1849* (Princeton UP, 1976)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Dostoevsky completed a degree at the Main Engineering Academy (1843), which included mathematical and technical coursework. He passed examinations sufficient to graduate. However, he immediately abandoned engineering for literature and showed no subsequent mathematical aptitude. His gambling behavior suggests poor probabilistic reasoning."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Frank, Joseph. *Dostoevsky: A Writer in His Time* (Princeton UP, 2010)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of agricultural competence. Dostoevsky was raised in Moscow, educated in St. Petersburg, and lived in cities throughout his life. Unlike Tolstoy, he had no estate to manage and showed no engagement with farming or land management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Frank, Joseph. *Dostoevsky: The Seeds of Revolt, 1821–1849* (Princeton UP, 1976)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "His engineering education at the Main Engineering Academy (1838–43) provided technical training in fortification, mathematics, and drafting. He never applied this professionally. His adaptation of stenographic dictation (using Anna as stenographer to meet the Stellovsky deadline for *The Gambler* in 26 days) showed systemic problem-solving within his craft, but technical competence in the engineering sense was never demonstrated."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.88,
+    "general_competency_avg_0_10": 3.56,
+    "overall_normalized_equal_avg_0_10": 6.33,
+    "created_at": "2026-03-22T22:06:38.516Z",
+    "updated_at": "2026-03-22T22:06:38.532Z"
+  }
+}
+]

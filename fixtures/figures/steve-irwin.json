@@ -1,0 +1,392 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 161,
+  "fields": {
+    "name": "Steve Irwin",
+    "slug": "steve-irwin",
+    "bio_short": "A charismatic wildlife educator and conservationist whose defining strengths were embodied-existential: extraordinary physical courage, genuine joy in nature, and deep cultural relatability. Cognitively moderate — innovative in wildlife television but not a strategic or philosophical thinker. Strong moral courage but limited evidence of moral growth or complex justice reasoning. His institutional legacy (Australia Zoo, Wildlife Warriors) endures, and his archetype as the exuberant nature-hero resonates globally. Heinlein competency is uneven: exceptional in animal handling and fieldwork, weak ",
+    "bio_long": "Stephen Robert Irwin was an Australian conservationist, environmentalist, zookeeper, television personality, and wildlife educator. Nicknamed the \"Crocodile Hunter\", he is regarded as an influential figure in Australian popular culture, and as one of the greatest conservationists of all time.",
+    "source_notes": "https://en.wikipedia.org/wiki/Steve_Irwin",
+    "image": "figures/330px-Steve_Irwin.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Irwin & Irwin, *The Crocodile Hunter: The Incredible Life and Adventures of Steve and Terri Irwin* (2001)",
+              "Ewbank, *Steve Irwin: The Incredible Life of the Crocodile Hunter* (2019)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Irwin was action-oriented rather than strategically calculating. He adapted crocodile relocation tactics in the field when conditions changed (e.g., Queensland Parks and Wildlife Service operations), but there is limited evidence of multi-step strategic planning with documented pivots after failure. Business growth of Australia Zoo was largely managed with Terri handling strategy."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Chris, *Steve and Me* by Terri Irwin (2007)",
+              "Animal Planet programming archives; Ewbank, *Steve Irwin: The Incredible Life of the Crocodile Hunter* (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Irwin genuinely transformed wildlife television by replacing the reserved, narrated documentary format (exemplified by Attenborough) with a physically immersive, high-energy, first-person approach. 'The Crocodile Hunter' (1996–2004) created a demonstrable before/after difference in wildlife programming globally, spawning imitators across networks. This was a paradigm shift in wildlife media, though not in science or conservation methodology itself."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Irwin & Irwin, *The Crocodile Hunter* (2001)",
+              "Brian Courtis, various obituary analyses, *The Age* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Irwin articulated a simple but effective conservation ethic: 'If we can teach people about wildlife, they will be touched... and want to help protect it.' This philosophy was sincere and motivating but not original or complex enough to influence ethical thinkers beyond his own movement. He did not produce written philosophical works or engage with moral reasoning at a theoretical level."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Australia Zoo official history; Terri Irwin, *Steve and Me* (2007)",
+              "Wildlife Warriors Worldwide annual reports"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Irwin transformed the small Queensland Reptile and Fauna Park (est. 1970 by his parents) into Australia Zoo, a major zoological institution with hundreds of employees and global recognition. He also founded Wildlife Warriors Worldwide in 2002, which continues active conservation operations. Both institutions function well beyond his direct oversight, now approaching two decades after his death."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Ewbank, *Steve Irwin* (2019)",
+              "John Stainton interviews"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Irwin operated across multiple relational modes: devoted spouse (Terri), engaged parent (Bindi, Robert), grieving son (mother Lyn's death 2000, complex relationship with father Bob), employer/leader (Australia Zoo staff of hundreds), warm public figure (fan interactions), professional collaborator (producer John Stainton, Animal Planet executives), and subordinate within Queensland Parks regulatory framework. This spans at least six distinct modes with documented behavioral adaptation across them."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Multiple joint interviews and documentary appearances"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Steve and Terri Irwin's partnership (1992–2006) was a genuine collaboration: they met at Queensland Reptile Park in 1991, married in 1992, and built Australia Zoo and The Crocodile Hunter together as co-equal partners. Terri has extensively documented mutual respect, emotional support during crises (particularly Lyn Irwin's death in 2000), and shared purpose. Terri has not remarried and continues running Australia Zoo nearly 20 years later. Evidence of emotional availability and mutual support is strong, though primarily sourced from within the family."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Terri Irwin, *Steve and Me* (2007)",
+              "ABC News baby Bob incident coverage (2004)",
+              "Bindi and Robert Irwin's subsequent careers"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Irwin was a documented hands-on father to Bindi (b. 1998) and Robert (b. 2003), involving them in wildlife work from infancy. Both children have developed into autonomous, competent public figures and conservationists — Bindi won Dancing with the Stars at 17 and manages conservation programs; Robert is an accomplished wildlife photographer and TV presenter. The 'baby Bob' incident (2004) is a counterexample of parental judgment, though the underlying intention was to share his passion. Without the counterexample the score would be 3; with it weighted proportionally, 2 is appropriate."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Ewbank, *Steve Irwin* (2019)",
+              "Discovery Communications/Animal Planet viewership data",
+              "UNESCO recognition of conservation education contributions"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Irwin's impact on wildlife conservation awareness is global and significant: The Crocodile Hunter reached 500+ million viewers across 130+ countries, and he is credited with popularizing conservation among demographics previously disengaged. His death in 2006 triggered worldwide mourning. However, as he died less than 20 years ago, the 500-year cross-civilizational impact required for a score of 3 cannot yet be assessed. His legacy is large but temporally limited."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Google Doodle, February 22, 2019",
+              "South Park, Season 10, Episode 2 (2006)",
+              "Ewbank, *Steve Irwin* (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Irwin became a globally recognized archetype of the fearless nature-lover: khaki shorts, exuberant catchphrases ('Crikey!'), physical immersion with dangerous animals. He is recognized as the quintessential Australian abroad and as a nature-hero figure across multiple cultures (Americas, Europe, Asia through television distribution). He was featured in South Park, referenced in countless cultural productions, and a Google Doodle honored his birthday. He falls short of 3 as his recognition, while broad, is primarily within popular culture rather than deep mythic or philosophical traditions."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Australia Zoo annual reports and institutional history",
+              "Wildlife Warriors Worldwide organizational records",
+              "Terri Irwin, *Steve and Me* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Australia Zoo expanded from a small family park to one of Australia's most visited zoos under Irwin's leadership, and continues to thrive nearly two decades after his death, managed by Terri, Bindi, and Robert Irwin. Wildlife Warriors Worldwide (founded 2002) continues active conservation programs across multiple countries. Both institutions have survived well beyond two generations of leadership transition."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Animal Planet viewership records",
+              "Ewbank, *Steve Irwin* (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Irwin led in qualitatively different contexts: directing dangerous crocodile capture operations in the field (small-team crisis leadership), managing Australia Zoo with hundreds of staff (organizational leadership), and mobilizing global television audiences of 500+ million toward conservation awareness (cultural influence). He inspired a generation of wildlife workers and conservationists. He falls short of 3 because his leadership was primarily within a single domain (wildlife/conservation) rather than spanning fundamentally different fields."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Numerous staff and visitor testimonials compiled in Ewbank, *Steve Irwin* (2019)",
+              "John Stainton (producer) interviews"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Irwin is one of the most relatable public figures of his era. At the height of global fame, he continued wearing work khakis, personally cleaned animal enclosures, mucked out crocodile pens, played physically with his children on and off camera, and maintained his broad working-class Queensland accent and manner. Multiple independent accounts confirm his off-camera persona was indistinguishable from his on-camera one. He was documented cooking barbecues for zoo staff, engaging in rough-and-tumble play with Bindi and Robert, and chatting warmly with ordinary zoo visitors."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Ewbank, *Steve Irwin* (2019)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Irwin advocated vocally for wildlife protection laws and environmental justice, opposing illegal poaching and land clearing. He lobbied for expanded marine protected areas. However, there is limited documented evidence of him ruling against personal or group interest in favor of abstract principle. His justice commitments, while sincere, were aligned with his personal and professional interests in conservation."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Ewbank, *Steve Irwin* (2019)",
+              "Various *Crocodile Hunter* episodes documenting crocodile relocations"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Irwin showed extraordinary compassion toward animals others regarded as dangerous adversaries — relocating rather than killing 'problem' crocodiles, advocating for venomous snakes, and weeping on camera over injured wildlife. After his death by stingray, his family asked the public not to retaliate against stingrays, reflecting his values. Evidence of compassion toward human adversaries or critics is less documented, preventing a score of 3 under the strict rubric requirement."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Queensland Parks and Wildlife Service records of crocodile management program",
+              "Ewbank, *Steve Irwin* (2019)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Irwin's sustained physical courage across decades is among the most documented of any modern public figure. He wrestled saltwater crocodiles from age 9, handled the world's most venomous snakes (inland taipan, eastern brown), dove with sharks, and repeatedly placed himself in mortal danger across thousands of documented encounters from childhood through his death at 44. This courage was sustained across multiple high-stakes contexts: live field captures, television filming, crocodile relocation for Queensland Parks, and wildlife rescue during natural disasters."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "ABC News coverage of baby Bob incident, January 2004",
+              "Terri Irwin, *Steve and Me* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The most notable instance is the January 2004 'baby Bob' incident, where Irwin held his infant son while feeding a crocodile at Australia Zoo. He faced widespread public criticism, acknowledged the perception of danger, but notably defended his actions rather than fully reversing his position, stating he was in control. Some behavioral change followed (he did not repeat the act publicly). The post-mortem Irwin narrative is heavily hagiographic, which limits evidence of other moral growth. Without this counterexample, the score would be 0; with it, it reaches 1 for partial acknowledgment."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Ewbank, *Steve Irwin* (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Irwin endured multiple qualitatively different hardships: physically grueling fieldwork in extreme Australian conditions (heat, monsoons, remote bush) throughout his life, multiple animal-inflicted injuries including snakebites and crocodile injuries, and the devastating loss of his mother Lyn in a car accident in 2000, after which he was documented as deeply grief-stricken but continued his conservation work and zoo operations. He also weathered significant public criticism during the 'baby Bob' controversy of 2004."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Ewbank, *Steve Irwin* (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Irwin coherently inhabited several contradictory roles: physically aggressive animal handler yet gentle conservationist who wept over injured creatures; working-class Queensland bloke yet global celebrity and media mogul; extreme risk-taker yet devoted family man; entertainer whose 'stunts' were also genuine scientific field operations. He held these tensions without apparent fragmentation. This reaches at least three contradictory pairings, though some scholars might argue these are less contradictory than they appear (conservation and physicality are natural partners in wildlife work)."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Justin Lyons (cameraman) interview, *Studio 10* (2014)",
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Ewbank, *Steve Irwin* (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Irwin knowingly chose a profession with daily mortal risk and accepted this as part of his calling. He stated in interviews that he wanted to die doing what he loved and had made provisions for his family and zoo in case of his death. His calm demeanor during dangerous encounters — documented across thousands of hours of footage — suggests genuine acceptance of risk rather than denial. However, his actual death (stingray barb, September 4, 2006) was sudden, and cameraman Justin Lyons reported Irwin's final words were 'I'm dying,' with composure reportedly present but the moment too brief to fully assess."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "The Crocodile Hunter series (1996–2004), documented animal encounters",
+              "Terri Irwin, *Steve and Me* (2007)",
+              "Queensland Parks and Wildlife Service crocodile management records"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Irwin's physical skill with dangerous animals is among the most documented of any modern figure. He wrestled saltwater crocodiles (the largest living reptile, up to 6m/1000kg) from age 9 through his 40s. He handled venomous snakes, dove with sharks, and worked in extreme heat and tropical conditions across decades. His hand-eye coordination, reflexes, and physical stamina in animal encounters were exceptional across multiple life-stages, from his youth through his final years of active fieldwork."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "John Stainton (producer) interviews in multiple documentaries",
+              "Terri Irwin, *Steve and Me* (2007)",
+              "The Crocodile Hunter series footage"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Irwin's infectious, genuine joy in encountering wildlife is his single most defining characteristic. His exclamations of delight ('Crikey, isn't she a beauty!') upon encountering crocodiles, snakes, and spiders were confirmed by producer John Stainton and wife Terri as entirely authentic and non-performative. He was documented playing physical games with his children, expressing child-like wonder at animals even after decades of handling them, and deriving visible aesthetic pleasure from natural environments. This joy was clearly non-instrumental — it preceded and exceeded any television requirements."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.0,
+          "Relational": 6.67,
+          "Core_5D_Avg": 6.57,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Steve Irwin",
+      "overall": {
+        "Core_5D_Avg": 6.57,
+        "Overall_Normalized_Equal_Avg": 6.36,
+        "General_Competency_Avg_10scale": 5.33
+      },
+      "summary": "A charismatic wildlife educator and conservationist whose defining strengths were embodied-existential: extraordinary physical courage, genuine joy in nature, and deep cultural relatability. Cognitively moderate — innovative in wildlife television but not a strategic or philosophical thinker. Strong moral courage but limited evidence of moral growth or complex justice reasoning. His institutional legacy (Australia Zoo, Wildlife Warriors) endures, and his archetype as the exuberant nature-hero resonates globally. Heinlein competency is uneven: exceptional in animal handling and fieldwork, weak in analytical, technical, and craft domains. A specialist whose specialization was so vivid it became universal.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.6,
+          "General_Competency_Avg_10scale": 5.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Terri Irwin, *Steve and Me* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Irwin spent extensive time in the Australian bush on field trips where camp cooking was necessary, and was documented cooking barbecues for zoo staff and family. However, there is no evidence of notable culinary skill beyond basic Australian bush and barbecue cooking."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "The Crocodile Hunter series (1996–2004)",
+            "Terri Irwin, *Steve and Me* (2007)",
+            "Queensland Parks crocodile capture operations"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "While Irwin had no formal martial training, his physical combat with dangerous animals — wrestling saltwater crocodiles up to 5 meters long, restraining large reptiles, and physically subduing aggressive animals — represents genuine combat and defense skill. His reflexes, strength, and technique in these encounters were repeatedly documented across thousands of hours of footage and field operations. He protected film crews and staff from animal attacks on multiple occasions."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Terri Irwin, *Steve and Me* (2007)",
+            "Australia Zoo Wildlife Hospital records"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Irwin provided hands-on care for injured and orphaned wildlife throughout his life at Australia Zoo, including round-the-clock feeding of infant animals and rehabilitation of injured creatures. He was also documented as a physically affectionate, engaged father who comforted his children and zoo visitors' distressed children."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Justin Lyons interview, *Studio 10* (2014)",
+            "Terri Irwin, *Steve and Me* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Irwin maintained remarkable composure during daily encounters with animals capable of killing him. He discussed his own mortality openly, stating he expected to die doing what he loved and had arranged for his family's security. Cameraman Justin Lyons reported that in his final moments after being struck by the stingray barb, Irwin's last words — 'I'm dying' — were delivered with awareness rather than panic, though the moment was tragically brief."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Terri Irwin, *Steve and Me* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Growing up on a wildlife park in rural Queensland, Irwin developed practical repair skills — maintaining fences, fixing feeding equipment, and adapting animal handling tools. These were basic competencies of his rural Australian upbringing rather than exceptional craft skills."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "The Crocodile Hunter series footage",
+            "Terri Irwin, *Steve and Me* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Irwin navigated remote Australian outback, tropical Queensland rainforests, and marine environments (including the Great Barrier Reef where he died) for decades. He tracked crocodiles through mangrove swamps and waterways, located wildlife in dense bush, and operated boats in coastal waters. His navigation was field-practical rather than cartographic."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "The Crocodile Hunter series (1996–2004)",
+            "Queensland Reptile and Fauna Park / Australia Zoo operational records",
+            "Terri Irwin, *Steve and Me* (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Irwin was among the world's foremost experts in live animal handling. He captured, relocated, and managed saltwater crocodiles, venomous snakes, and diverse wildlife from age 9. He prepared food for hundreds of zoo animals daily, understanding species-specific dietary requirements. He butchered food for carnivore feeding at Australia Zoo. This is the most clearly exceptional Heinlein domain for Irwin."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "John Stainton interviews",
+            "Terri Irwin, *Steve and Me* (2007)",
+            "Queensland Parks and Wildlife Service collaboration records"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Irwin effectively directed zoo staff, television crews, and field teams during dangerous operations, demonstrating clear command ability. He also operated within the Queensland Parks and Wildlife Service regulatory framework, following their protocols for crocodile management. Producer John Stainton noted Irwin could both lead decisively in animal encounters and defer to directorial and regulatory authority when appropriate."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Australia Zoo expansion documentation",
+            "Terri Irwin, *Steve and Me* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Irwin participated in building and modifying animal enclosures at Australia Zoo, including constructing the 'Crocoseum' amphitheater concept. However, professional builders executed major construction. His hands-on work was documented for basic fencing, enclosure repairs, and habitat modifications rather than complex fabrication."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Terri Irwin, *Steve and Me* (2007)",
+            "Ewbank, *Steve Irwin* (2019)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Irwin coordinated crocodile capture operations for Queensland Parks and Wildlife Service, which required planning trap placement, team coordination, and contingency responses. However, broader business and organizational strategy was primarily managed by Terri Irwin and producer John Stainton. His command was more instinctive than systematic."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "The Crocodile Hunter series (1996–2004)",
+            "Irwin & Irwin, *The Crocodile Hunter* (2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Irwin was a compelling television performer whose on-screen presence was distinctive and influential, but he did not create works of art, literature, or music in the traditional sense. His cultural expression was through wildlife education and entertainment rather than artistic creation. He did not write books himself (ghost-written accounts exist)."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Australia Zoo Wildlife Hospital operations",
+            "The Crocodile Hunter series footage of field rescues",
+            "Terri Irwin, *Steve and Me* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Irwin treated injured wildlife regularly, including setting broken bones in reptiles, treating snake-bitten animals, and performing emergency interventions for sick zoo animals. He participated in wildlife rescue operations during Queensland floods. He administered first aid in remote field conditions where professional veterinary care was unavailable. Era-normalized for his context, this represents high practical competence."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Irwin managed basic business accounts for Australia Zoo in its early years and understood population dynamics for crocodile management programs. However, there is no evidence of advanced mathematical or analytical reasoning. He did not pursue higher education and his reasoning was practical rather than quantitative."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Wildlife Warriors land acquisition records",
+            "Terri Irwin, *Steve and Me* (2007)",
+            "Ewbank, *Steve Irwin* (2019)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Irwin purchased and managed large conservation properties in Australia, Vanuatu, Fiji, and the United States totaling thousands of acres. He understood habitat management, invasive species control, and ecosystem sustainability at a practical level. He managed Australia Zoo's land and water resources for hundreds of animal species."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "John Stainton interviews on production logistics",
+            "Ewbank, *Steve Irwin* (2019)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Irwin operated boats, vehicles, camera equipment, and animal capture technology competently but was not a technical innovator. He relied on others for advanced technical systems (television production, zoo engineering). His problem-solving was intuitive and experiential rather than systematic or technical."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.57,
+    "general_competency_avg_0_10": 5.33,
+    "overall_normalized_equal_avg_0_10": 6.36,
+    "created_at": "2026-03-22T19:55:09.981Z",
+    "updated_at": "2026-03-22T19:55:10.007Z"
+  }
+}
+]

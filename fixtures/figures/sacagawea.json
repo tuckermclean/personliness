@@ -1,0 +1,363 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 142,
+  "fields": {
+    "name": "Sacagawea",
+    "slug": "sacagawea",
+    "bio_short": "Sacagawea's profile is dominated by extraordinary embodied-existential traits—physical endurance and hardship tolerance ranking among the highest documented for any historical figure. As a teenage Shoshone captive-turned-guide carrying an infant across thousands of miles of wilderness on the Lewis and Clark Expedition (1804–1806), she demonstrated remarkable resilience, practical botanical and geographic knowledge, and effective cross-cultural mediation. Cognitive and administrative scores are low due to absent documentation rather than absent ability—the record was kept entirely by others. He",
+    "bio_long": "Sacagawea was a Lemhi Shoshone or Hidatsa woman who, in her teens, helped the Lewis and Clark Expedition in achieving their chartered mission objectives by exploring the Louisiana Territory. Sacagawea traveled with the expedition thousands of miles from North Dakota to the Pacific Ocean, helping to establish cultural contacts with Native American people and contributing to the expedition's knowledge of natural history in different regions.",
+    "source_notes": "https://en.wikipedia.org/wiki/Sacagawea",
+    "image": "figures/330px-Detail_Lewis_26_Clark_at_Three_Forks.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 8",
+              "Ronda, Lewis and Clark among the Indians (1984)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Sacagawea suggested the route through what is now Bozeman Pass (July 1806), which Clark adopted, and she recognized the Three Forks area, aiding expedition navigation. These demonstrate practical situational intelligence and adaptive geographic reasoning, but she was not in a strategic planning role and evidence of multi-outcome foresight is limited."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 5",
+              "Ronda, Lewis and Clark among the Indians (1984)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Her practical knowledge of edible roots (camas, wild artichokes) and her ability to identify resources in unfamiliar terrain were repeatedly noted by Lewis and Clark as valuable contributions. Clark observed that a woman with a baby was 'a token of peace,' an innovative signal she embodied. However, no paradigm shift is attributable to her."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No recorded philosophical statements or ethical reasoning survive from Sacagawea. She left no writings and the expedition journalists did not record her moral or metaphysical views. This reflects source limitations rather than absence of inner life."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Ronda, Lewis and Clark among the Indians (1984)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "No evidence of administrative, organizational, or legislative activity. She operated within the expedition's command structure as a participant, not an organizer of systems or policies."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 5 (Cameahwait reunion)",
+              "Ronda, Lewis and Clark among the Indians (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Documented relational modes include: mother to Jean Baptiste (constant care); wife to Charbonneau (functioning within a coerced marriage); sister to Chief Cameahwait (emotional reunion documented in August 1805); subordinate within the expedition's military hierarchy; cultural mediator between the expedition and multiple Native peoples; and something approaching respected colleague with Clark, who clearly valued her contributions and later took responsibility for her son's education. This represents at least five distinct relational modes, though depth of evidence varies."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 4 (May 14, 1805 entry)",
+              "Ronda, Lewis and Clark among the Indians (1984)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Sacagawea's relationship with Toussaint Charbonneau was not one of mutual choice—she was likely purchased or won in a gambling game. The journals suggest Charbonneau was an unreliable partner; Clark criticized him repeatedly for cowardice and incompetence (e.g., nearly capsizing the pirogue, May 14, 1805). Sacagawea functioned within this relationship effectively but evidence of mutual respect, support, or emotional availability is absent. The structural power imbalance constrains fair assessment."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition",
+              "Howard, Sacajawea (1971)",
+              "Ronda, Lewis and Clark among the Indians (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Sacagawea kept Jean Baptiste ('Pomp') alive and healthy through approximately 5,000 miles of wilderness travel—an extraordinary feat of parenting under extreme conditions. Clark's journal entries document her attentive care, and Clark himself was so impressed that he later offered to educate Jean Baptiste, who grew to become a multilingual, well-traveled mountain man and guide. While Jean Baptiste's later development was shaped by Clark's patronage, his survival and thriving during the expedition reflect Sacagawea's exceptional maternal competence."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Kessler, 'The Making of Sacagawea: A Euro-American Legend' (1996)",
+              "Howard, Sacajawea (1971)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Sacagawea's legacy is significant within American cultural memory: she appears on the U.S. dollar coin (2000), has numerous statues (more than any other American woman at one point), and landmarks named after her. She symbolizes Native American contributions to American exploration and the resilience of indigenous women. However, her impact is primarily within American national culture rather than across multiple civilizations, and the expedition occurred ~220 years ago, not yet 500."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Kessler, 'The Making of Sacagawea: A Euro-American Legend' (1996)",
+              "Slaughter, Exploring Lewis and Clark (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Sacagawea has become an archetype of the indigenous guide, the resilient woman navigating between cultures, and the mother-in-extremis. She is widely recognized in American culture and has some international recognition as a symbol of cross-cultural mediation. However, her archetypal resonance is primarily within Western/American contexts rather than universally cross-cultural."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Ronda, Lewis and Clark among the Indians (1984)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Sacagawea did not create or sustain enduring organizations or social structures. Her role was as a participant and facilitator within an existing expedition, not as a founder of institutions."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Ronda, Lewis and Clark among the Indians (1984)",
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 5"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Sacagawea exercised significant informal influence at critical junctures—her reunion with her brother Chief Cameahwait (August 1805) was essential to negotiating the horses the expedition needed to cross the Rockies. Her presence with an infant signaled peaceful intentions to Native groups encountered along the route. However, she did not formally mobilize or direct groups and her influence was facilitative rather than directive."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 6 (January 6, 1806 entry)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The journals document Sacagawea engaged in mundane activities even during the extraordinary expedition: gathering roots and berries for food, caring for her infant, and famously insisting on going to see the beached whale near the Pacific coast (January 1806)—an act of pure curiosity. Clark recorded her plea that she had 'traveled a long way to see the great waters' and wished to see 'the monstrous fish also.' These show her maintaining ordinary human engagement amid extraordinary circumstances."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 6 (November 24, 1805 entry)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "At Fort Clatsop (November 1805), Clark recorded that Sacagawea was included in the vote on where to winter—a rare act of democratic participation for a Native woman in an American military expedition—and she expressed her preference for a location with access to edible roots. This demonstrates willingness to assert her view, but extensive evidence of justice-oriented action is absent."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vols. 4–8"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Her sustained care for infant Jean Baptiste under extreme wilderness conditions demonstrates deep maternal compassion. Clark's journals note her attentiveness to the child. However, documented acts of compassion toward adversaries or outgroup members beyond her immediate circle are not recorded."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 4 (Great Falls entries)",
+              "Ronda, Lewis and Clark among the Indians (1984)",
+              "Howard, Sacajawea (1971)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Sacagawea demonstrated sustained courage across multiple high-stakes situations: kidnapped by Hidatsa raiders at age ~12, she endured captivity and forced marriage; she gave birth to Jean Baptiste in February 1805 and began the arduous westward journey weeks later; she nearly drowned in a flash flood at Great Falls (June 29, 1805) yet saved critical expedition supplies while holding her infant; she traveled ~5,000 miles round-trip through the Rocky Mountains carrying a baby. This represents sustained resilience across qualitatively different life-threatening contexts."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "The historical record contains no documented instances of Sacagawea reversing a prior position or accepting correction with visible behavioral change. This is a function of source limitations—her perspective was recorded only through others' journals—rather than evidence of moral rigidity. No tradition sanitizes her; the evidence is simply absent."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vols. 4–5",
+              "Howard, Sacajawea (1971)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Sacagawea endured qualitatively distinct forms of adversity while maintaining effective functioning: childhood kidnapping and captivity by the Hidatsa (~1800); forced marriage to Charbonneau; childbirth in the wilderness (February 1805); near-fatal illness at Great Falls (June 1805); near-drowning in a flash flood while holding her infant (June 29, 1805); the emotional upheaval of reuniting with her brother Cameahwait only to continue the journey westward; and sustained material deprivation throughout the expedition. She functioned effectively through all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Ronda, Lewis and Clark among the Indians (1984)",
+              "Slaughter, Exploring Lewis and Clark (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sacagawea simultaneously inhabited multiple seemingly contradictory roles: captive yet valued guide; subordinate wife of Charbonneau yet consequential advisor to expedition leaders; Shoshone woman raised Hidatsa yet mediating between both peoples and Americans; teenager yet mother navigating a military expedition; someone with no formal authority yet wielding decisive informal influence (as in the Shoshone horse negotiations). She navigated these roles without apparent fragmentation, though evidence of conscious integration is limited by source perspective."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 4 (June 29, 1805 entry)",
+              "Howard, Sacajawea (1971)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "During the flash flood at Great Falls (June 29, 1805), Sacagawea showed composure under mortal threat, saving important expedition supplies and instruments while holding her infant as floodwaters rose around her. However, we lack documentation of her facing her own imminent death with composure—her actual death (likely 1812 at Fort Manuel, or possibly 1884) is poorly documented. The flash flood incident demonstrates crisis composure but not the full criterion for score 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vols. 4–8",
+              "Ronda, Lewis and Clark among the Indians (1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Sacagawea traveled approximately 5,000 miles round-trip from Fort Mandan to the Pacific Ocean and back, on foot and by canoe, while carrying infant Jean Baptiste on a cradleboard. She crossed the Rocky Mountains, navigated rivers, and endured extreme weather conditions—all at approximately ages 16–18. She also survived severe illness during the expedition (June 1805, near Great Falls). This level of physical endurance while nursing and carrying an infant is among the most remarkable documented in the exploration record."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 6 (January 6, 1806)",
+              "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 5 (Three Forks entries)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Her insistence on seeing the beached whale near the Pacific coast (January 1806) is a documented expression of genuine wonder and curiosity unrelated to instrumental purposes. Clark recorded her emotional response to recognizing her homeland at the Three Forks of the Missouri. These moments suggest a capacity for aesthetic and emotional engagement beyond mere survival, though evidence is limited to a few documented episodes."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 1.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 4.68,
+          "Cultural-Social": 4.67,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Sacagawea",
+      "overall": {
+        "Core_5D_Avg": 4.68,
+        "Overall_Normalized_Equal_Avg": 4.57,
+        "General_Competency_Avg_10scale": 4.0
+      },
+      "summary": "Sacagawea's profile is dominated by extraordinary embodied-existential traits—physical endurance and hardship tolerance ranking among the highest documented for any historical figure. As a teenage Shoshone captive-turned-guide carrying an infant across thousands of miles of wilderness on the Lewis and Clark Expedition (1804–1806), she demonstrated remarkable resilience, practical botanical and geographic knowledge, and effective cross-cultural mediation. Cognitive and administrative scores are low due to absent documentation rather than absent ability—the record was kept entirely by others. Her cultural legacy is significant within American memory, and she resonates as an archetype of the resilient indigenous woman navigating between worlds. Relational evidence is constrained by source limitations.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.2,
+          "General_Competency_Avg_10scale": 4.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vols. 5–6"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "The journals document Sacagawea preparing roots and other gathered foods for the expedition, including camas roots and wild artichokes. Her knowledge of preparation methods for these foods was valuable. However, specific evidence of culinary skill beyond basic food preparation is limited in the record."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented participation in combat or defensive fighting. While she showed composure during dangerous situations (flash flood, encounters with potentially hostile groups), the journals record no instances of her engaging in physical combat or organized defense."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vols. 4–8",
+            "Howard, Sacajawea (1971)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Carried, nursed, and raised infant Jean Baptiste through approximately 5,000 miles of wilderness travel across the Rocky Mountains and to the Pacific Ocean. The child survived the entire expedition in good health—an extraordinary feat of caregiving under conditions of extreme deprivation, weather exposure, and physical danger. Clark's journal repeatedly notes her attentiveness to the child."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vols. 4–5",
+            "Ronda, Lewis and Clark among the Indians (1984)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Sacagawea showed remarkable composure throughout the expedition's crises: the pirogue capsizing (May 1805), the flash flood at Great Falls (June 1805), encounters with potentially hostile peoples, and the emotionally charged reunion with her brother Cameahwait followed by the difficult decision to continue westward rather than remain with her people. No documented instance of panic or breakdown despite extraordinary sustained adversity. Full score of 3 is withheld because her composure in facing her own death is undocumented."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Ronda, Lewis and Clark among the Indians (1984)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a Shoshone/Hidatsa woman, Sacagawea would have possessed era-appropriate skills in hide preparation, moccasin-making, and similar crafts essential to her cultural context. The journals mention her preparing hides and food. However, specific documented episodes of craft or repair work are sparse."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vols. 5, 8",
+            "Ronda, Lewis and Clark among the Indians (1984)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Sacagawea recognized landmarks in Shoshone territory, identified the Three Forks of the Missouri, and suggested the route through Bozeman Pass. Clark relied on her geographic knowledge in areas she had known as a child. Her wayfinding was regionally specific rather than universal, but within that range it was highly competent and consequential for the expedition's success."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vols. 5–7",
+            "Ronda, Lewis and Clark among the Indians (1984)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a Shoshone woman raised in Hidatsa villages, she possessed era-appropriate skills in processing animal hides and preparing food from wild sources. The journals document her gathering and preparing roots (camas, wild artichokes, white apples) and identifying edible plants that supplemented the expedition's diet. Lewis noted on multiple occasions that her root-gathering was valuable to the party's sustenance."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vols. 6, 8",
+            "Ronda, Lewis and Clark among the Indians (1984)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Sacagawea effectively followed the expedition's military command structure throughout the journey while appropriately asserting herself at critical moments: insisting on seeing the beached whale (January 1806), expressing her preference in the Fort Clatsop winter-camp vote (November 1805), and providing geographical guidance when she possessed relevant knowledge. This balance of disciplined followership with timely, appropriate assertion is notable."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence in the journals of Sacagawea engaging in construction or fabrication of structures. While she likely possessed some era-appropriate skills in shelter construction from her Shoshone/Hidatsa upbringing, no documented episodes exist."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 8"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Sacagawea suggested the route through Bozeman Pass (July 1806), which Clark adopted, demonstrating geographic strategic thinking. She also recognized when the expedition was in Shoshone territory and anticipated the possibility of meeting her people, facilitating the critical horse acquisition. However, she was not in a command role and did not plan complex operations."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of Sacagawea creating works of art, music, literature, or performance. While she was embedded in rich Shoshone and Hidatsa cultural traditions that included artistic expression, the expedition journals do not record specific artistic activity by her."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 4"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Sacagawea demonstrated knowledge of medicinal and edible plants useful for health. During the flash flood at Great Falls (June 29, 1805), she showed emergency composure, saving critical expedition supplies including instruments and journals while holding her infant as waters rose. However, she was more often a recipient of medical aid during the expedition (severe illness near Great Falls) than a provider."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of mathematical or formal analytical reasoning. This reflects source limitations—the journalists had no occasion to record such skills—rather than definitive absence."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vols. 5–7"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Her knowledge of plant resources, gathering seasons, and root preparation methods was significant for both Shoshone/Hidatsa subsistence patterns and expedition food supply. She actively gathered roots, berries, and other wild foods that supplemented the expedition's provisions at critical points. Lewis documented her identifying edible plants unknown to the Euro-American members."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Moulton (ed.), The Journals of the Lewis and Clark Expedition, vol. 4 (May 14, 1805 entry)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Sacagawea solved practical problems with available resources—identifying food sources in unfamiliar terrain, recognizing geographic features to aid navigation, and adapting her knowledge to assist the expedition. During the pirogue capsizing (May 14, 1805), she calmly retrieved important papers, instruments, and medicines from the water while Charbonneau panicked, showing presence of mind in technical crisis. However, she did not operate cutting-edge technology of her era."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.68,
+    "general_competency_avg_0_10": 4.0,
+    "overall_normalized_equal_avg_0_10": 4.57,
+    "created_at": "2026-03-22T18:46:22.843Z",
+    "updated_at": "2026-03-22T18:46:22.861Z"
+  }
+}
+]

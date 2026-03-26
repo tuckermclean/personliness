@@ -1,0 +1,389 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 188,
+  "fields": {
+    "name": "Martin Luther",
+    "slug": "martin-luther",
+    "bio_short": "A titanic cognitive and cultural-social figure whose theological innovations (sola fide, sola scriptura, priesthood of all believers) and masterful use of the printing press ignited the Protestant Reformation, reshaping Western civilization. Exceptional in leadership, institution-building, legacy, and archetype resonance; deeply embedded in everyday life through earthy humor, music, and domesticity. His moral-affective profile is sharply uneven: extraordinary courage at Worms and under lifelong threat, but severe failures of compassion and justice toward Jews, peasants, and dissenters. Heinlei",
+    "bio_long": "Martin Luther was a German priest, theologian, author, hymnwriter, professor, and former Augustinian friar. Luther was the seminal figure of the Protestant Reformation, and his theological beliefs form the basis of Lutheranism. He is widely regarded as one of the most influential figures in Western and Christian history.",
+    "source_notes": "https://en.wikipedia.org/wiki/Martin_Luther",
+    "image": "figures/330px-Lucas_Cranach_d.C384._-_Martin_Luther2C_1528_28Veste_Coburg29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Brecht, *Martin Luther: His Road to Reformation 1483–1521* (1985)",
+              "Edwards, *Printing, Propaganda, and Martin Luther* (1994)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Luther strategically leveraged the printing press to disseminate the 95 Theses (1517) and subsequent pamphlets, reaching an unprecedented audience. He successfully adapted when reform within the Catholic Church became impossible, pivoting to building an independent movement allied with German princes (e.g., the Schmalkaldic League). However, his response to the Peasants' War (1525)—'Against the Murderous, Thieving Hordes of Peasants'—was a strategic blunder that alienated large segments of his popular base, preventing a score of 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Edwards, *Printing, Propaganda, and Martin Luther* (1994)",
+              "Pettegree, *Brand Luther* (2015)",
+              "Brecht, *Martin Luther: Shaping and Defining the Reformation 1521–1532* (1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Luther's German Bible translation (1522/1534) standardized the German language and created a new paradigm of vernacular scriptural access. His hymn compositions (e.g., 'Ein feste Burg ist unser Gott') invented congregational hymnody as a Protestant worship form. His unprecedented use of pamphlets and the printing press as mass communication created a before/after difference in public intellectual discourse. Each represents a demonstrable paradigm shift attributable to Luther."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Oberman, *Luther: Man Between God and the Devil* (1989)",
+              "Kolb & Arand, *The Genius of Luther's Theology* (2008)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Luther's doctrines of justification by faith alone, sola scriptura, and the priesthood of all believers constituted a fundamental reorientation of Western moral and metaphysical thought, directly influencing Kant's moral autonomy, Kierkegaard's existential theology, and modern concepts of individual conscience. His 'Freedom of a Christian' (1520) articulated a profound dialectic of liberty and service. Counterexample: his moral reasoning was incoherent regarding religious freedom—championing conscience at Worms (1521) while supporting suppression of Anabaptists and writing 'On the Jews and Their Lies' (1543). Without counterexample: 3. With full weight: 2. Final: 3, because the rubric measures depth and influence of philosophical insight, not moral consistency, and his principles reshaped thought across civilizations; the incoherence is noted but does not erase the insight's epoch-making depth."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Brecht, *Martin Luther: The Preservation of the Church 1532–1546* (1993)",
+              "Kolb, *Martin Luther: Confessor of the Faith* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Luther drafted the Small and Large Catechisms (1529), which became enduring foundations for Protestant education still in use today. He designed church visitation protocols and liturgical orders (Deutsche Messe, 1526) that structured Lutheran worship for centuries. He also advocated for municipal school systems. However, much of the detailed administrative work was delegated to Melanchthon and the German princes; Luther was a visionary more than an administrator, preventing a score of 3."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Luther, *Letters of Spiritual Counsel* (ed. Tappert, 1955)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+              "Brecht, *Martin Luther* (3 vols.)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Luther documented behavior across at least six distinct relational modes: (1) spouse—tender and humorous with Katharina; (2) parent—emotionally expressive with children; (3) child—complex, documented relationship with father Hans Luther; (4) friend—warm correspondence with Spalatin and Amsdorf; (5) adversary—fierce polemical engagement with Erasmus, Zwingli, the Pope; (6) subordinate—obedient to Staupitz as his Augustinian superior; (7) superior/leader—directive toward students and the reform movement; (8) pastoral stranger—wrote consolation letters to unknown petitioners. He showed qualitatively different behavior in each mode."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+              "Bainton, *Here I Stand* (1950)",
+              "Treu, *Katharina von Bora: Martin Luther's Wife* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Luther's marriage to Katharina von Bora (1525) was, by extensive documentary evidence, a partnership of genuine mutual respect and deepening affection. He called her 'My Lord Katie' (Herr Käthe) with a mix of humor and admiration; she managed their extensive household, farm, and finances with skill he openly praised. Their correspondence shows emotional availability and warmth. They supported each other through their children's deaths. Era-normalized, this was an exceptional partnership, though Luther's publicly patriarchal framing and occasional condescension in letters prevent a score of 3."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+              "Brecht, *Martin Luther: The Preservation of the Church* (1993)",
+              "Wengert, *Philip Melanchthon, Speaker of the Reformation* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Luther was an engaged father—his grief at Magdalena's death (1542) and his letters to his children reveal genuine emotional investment. As a mentor, he shaped Melanchthon, Bugenhagen, Jonas, and many Wittenberg students, several of whom developed genuine theological autonomy (Melanchthon went on to author the Augsburg Confession independently). However, Luther could be overbearing: his disputes with Agricola and his dominance over Melanchthon suggest mentoring that sometimes constrained rather than fully liberated protégés."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "MacCulloch, *The Reformation* (2003)",
+              "Gregory, *The Unintended Reformation* (2012)",
+              "Weber, *The Protestant Ethic and the Spirit of Capitalism* (1905)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Protestant Reformation reshaped Western civilization across multiple domains: religion (Protestantism now has ~900 million adherents), politics (contributed to the development of the nation-state and religious pluralism), culture (vernacular Bible reading, congregational hymnody, universal literacy ideals), and arguably economics (Weber's 'Protestant Ethic' thesis). Effects are clearly operative 500+ years later across every inhabited continent."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Oberman, *Luther: Man Between God and the Devil* (1989)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+              "Pettegree, *Brand Luther* (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Luther embodies the archetype of the individual conscience defying institutional authority—'Here I stand, I can do no other.' This resonates far beyond Christianity: he is invoked in secular contexts of dissent and reform worldwide. Martin Luther King Jr. was named after him. He serves as a cross-cultural symbol of principled protest, conscience, and reformation. His image is recognized across religious and cultural traditions."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Kolb, *Martin Luther: Confessor of the Faith* (2009)",
+              "Brecht, *Martin Luther: The Preservation of the Church* (1993)",
+              "Lindberg, *The European Reformations* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Lutheran churches exist worldwide today—nearly 500 years after Luther's death—with recognizable continuity in doctrine, liturgy, and catechetical instruction. The Small Catechism (1529) is still in active use. Lutheran educational reforms influenced the development of public schooling in Germany and Scandinavia. The institutional framework of territorial Protestant churches that Luther helped establish persisted for centuries."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Pettegree, *Brand Luther* (2015)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+              "Brecht, *Martin Luther: His Road to Reformation* (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Luther mobilized millions across social classes—princes, burghers, peasants, students—into the most consequential religious movement since early Christianity. He led in qualitatively different contexts: as an academic professor at Wittenberg, as a crisis leader during the Reformation's dangerous early years (1517–1525), and as a stabilizing institution-builder in later decades. He influenced political leaders (Frederick the Wise, Philip of Hesse) and directed a vast network of reformers across German-speaking lands."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Luther, *Table Talk* (various editions)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+              "Bainton, *Here I Stand: A Life of Martin Luther* (1950)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Luther's 'Table Talk' (Tischreden), recorded by students, reveals an earthy personality: crude jokes about the devil and flatulence, love of beer and sausage, lute-playing, gardening, and engaged fathering. He married a former nun (Katharina von Bora, 1525), embraced domestic life, and mended his own relationships with mundane humor. At the height of his fame, he remained immersed in household management, child-rearing, and everyday pleasures. This is among the best-documented domestic lives of any pre-modern figure."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Kaufmann, *Luther's Jews* (2017)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+              "Brecht, *Martin Luther: Shaping and Defining the Reformation* (1990)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Luther's initial critique of indulgences (1517) was motivated by genuine concern that the poor were being exploited by clerical corruption, and he advocated for common chests for poor relief and universal education. Without counterexamples: 2. However, his call for violent suppression of peasants (1525) directly contradicted his own principles of justice for the oppressed, and 'On the Jews and Their Lies' (1543) advocated systematic persecution. These are not marginal cases but central to assessing justice orientation, involving the most vulnerable populations. With full weight: 1. Final: 1, because the counterexamples involve extreme injustice toward outgroups and are not offset by his in-group fairness."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Oberman, *Luther: Man Between God and the Devil* (1989)",
+              "Kaufmann, *Luther's Jews* (2017)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Luther showed genuine compassion within his community: pastoral letters to the bereaved, deep grief at his daughter Magdalena's death (1542), care for students, and early sympathetic outreach to Jews ('That Jesus Christ Was Born a Jew,' 1523). Without counterexamples: 2. However, 'On the Jews and Their Lies' (1543) called for burning synagogues and expelling Jews; 'Against the Murderous, Thieving Hordes of Peasants' (1525) urged princes to 'smite, slay, and stab' rebels. These represent extreme failures of compassion toward outgroups with catastrophic moral stakes. With full weight: 1. Final: 1, because Score 2+ requires consistent compassion and Score 3 requires compassion toward adversaries, which Luther emphatically lacked."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Brecht, *Martin Luther: His Road to Reformation* (1985)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+              "Oberman, *Luther: Man Between God and the Devil* (1989)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Luther's refusal to recant at the Diet of Worms (1521) before Emperor Charles V, knowing he faced potential execution as a heretic, is one of history's iconic acts of moral courage. He had already been excommunicated (1521). He returned to Wittenberg in 1522 despite the Imperial ban to quell the Wittenberg disturbances, risking arrest. He continued prolific public work for 25 years under constant threat. This constitutes sustained courage across multiple high-stakes situations over decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Oberman, *Luther: Man Between God and the Devil* (1989)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Luther shifted from seeking internal Catholic reform to founding a new movement, showing some adaptive capacity. He revised his position on Jews—but negatively, from cautious optimism ('That Jesus Christ Was Born a Jew,' 1523) to virulent hatred (1543). He was notoriously stubborn in theological disputes (e.g., with Zwingli at Marburg, 1529). The Lutheran tradition valorizes his refusal to recant, which makes evidence of acknowledged error sparse. There is no documented instance of Luther reversing a prior position upon accepting correction with visible positive behavioral change afterward."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Brecht, *Martin Luther* (3 vols., 1985–1993)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+              "Oberman, *Luther: Man Between God and the Devil* (1989)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Luther functioned effectively across multiple qualitatively different adversities: (1) political/existential danger—excommunication, Imperial ban, and threat of execution from 1521 onward; (2) personal bereavement—deaths of daughters Elizabeth (1528) and Magdalena (1542); (3) chronic illness throughout his adult life; (4) exile at the Wartburg (1521–1522), where despite isolation he translated the New Testament into German. Through all of these, he maintained extraordinary productivity—his collected works fill over 100 volumes."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Oberman, *Luther: Man Between God and the Devil* (1989)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+              "Lull & Nelson, *Resilient Reformer: The Life and Thought of Martin Luther* (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Luther inhabited at least three (and more) seemingly contradictory roles without fragmenting: (1) revolutionary who attacked the papacy's authority yet conservative who opposed the Peasants' War and social revolution; (2) ascetic former monk who embraced marriage, domestic life, beer, and earthly pleasure; (3) profound theologian and scholar who wrote vulgar popular pamphlets; (4) champion of individual conscience who supported princely authority over dissenters; (5) gentle father and pastor who unleashed fierce polemical violence in print. He held these contradictions coherently through his theology of the 'two kingdoms.'"
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Brecht, *Martin Luther: The Preservation of the Church* (1993)",
+              "Bainton, *Here I Stand* (1950)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "At the Diet of Worms (1521), Luther faced possible execution with composure, reportedly telling Spalatin, 'I will go even if there are as many devils as tiles on the roofs.' On his deathbed in Eisleben (February 18, 1546), when asked if he remained firm in his faith, he answered 'Yes'—a documented moment of composure facing imminent death. He wrote extensively about death and the ars moriendi tradition. This meets the criterion for documented composure in the face of one's own death, though the deathbed account, while attested by witnesses (Justus Jonas), is hagiographically colored."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Brecht, *Martin Luther: The Preservation of the Church* (1993)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Luther suffered from chronic illnesses throughout his adult life: kidney stones, Ménière's disease, constipation, heart problems, and general physical decline from his 40s onward. He endured the physical rigors of Augustinian monastic discipline in his youth and traveled extensively despite poor health, maintaining enormous literary productivity. However, physical endurance was not a strength—his chronic ailments are extensively documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Luther, *Table Talk*",
+              "Leaver, *Luther's Liturgical Music* (2007)",
+              "Roper, *Martin Luther: Renegade and Prophet* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Luther was a passionate musician who played the lute, composed hymns, and declared 'next to the Word of God, the noble art of music is the greatest treasure in the world.' His Table Talk is replete with non-instrumental humor—crude jokes, wordplay, and domestic banter. He enjoyed beer, good food, and gardening. Much of his musical output was intertwined with worship purposes, but his personal lute-playing and domestic humor were clearly pursued for their own sake. The evidence is strong but somewhat short of the exceptional standard for 3, as his aesthetic life remained substantially integrated with his religious vocation."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 7.78,
+          "Core_5D_Avg": 7.69,
+          "Cultural-Social": 10.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Martin Luther",
+      "overall": {
+        "Core_5D_Avg": 7.69,
+        "Overall_Normalized_Equal_Avg": 7.04,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "A titanic cognitive and cultural-social figure whose theological innovations (sola fide, sola scriptura, priesthood of all believers) and masterful use of the printing press ignited the Protestant Reformation, reshaping Western civilization. Exceptional in leadership, institution-building, legacy, and archetype resonance; deeply embedded in everyday life through earthy humor, music, and domesticity. His moral-affective profile is sharply uneven: extraordinary courage at Worms and under lifelong threat, but severe failures of compassion and justice toward Jews, peasants, and dissenters. Heinlein competency is narrow—brilliant in artistic expression, leadership, and existential composure, but negligible in practical/manual domains. A figure of immense depth and equally immense contradiction.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Luther clearly enjoyed food and beer, but there is no evidence he personally cooked or possessed culinary skill. Katharina managed the household's food preparation. Enjoyment of food does not equal competence in preparing it."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Brecht, *Martin Luther: His Road to Reformation* (1985)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Luther was not a soldier and there is no evidence of combat skill. He relied on princely protection (Frederick the Wise, the Wartburg) rather than personal defense capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+            "Luther, *Letters of Spiritual Counsel* (ed. Tappert, 1955)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Luther personally sat at the bedside of his dying daughter Magdalena (1542), wrote pastoral consolation letters to bereaved strangers, and cared for students boarding in his home. His emotional expressiveness in grief and his documented pastoral attention to individuals in crisis show consistent caregiving capacity, though not as a primary life-focus."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Bainton, *Here I Stand* (1950)",
+            "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+            "Brecht, *Martin Luther: The Preservation of the Church* (1993)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Luther faced the prospect of execution at the Diet of Worms (1521) with documented composure, reportedly stating he would go 'even if there were as many devils as tiles on the roofs.' He lived under the Imperial ban for 25 years, continuing his work without apparent paralysis. On his deathbed in Eisleben (1546), he affirmed his faith calmly when asked. His lifelong engagement with mortality—both theological and personal—showed consistent existential composure under extraordinary and sustained threat."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence of manual craft or repair skills in the historical record. Luther's father was a copper miner, but there is no documented evidence Luther himself practiced manual crafts."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Brecht, *Martin Luther: His Road to Reformation* (1985)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Luther traveled extensively across German lands—to Rome as a young monk (1510–1511), to Worms (1521), and to numerous cities for debates and pastoral visits. He navigated 16th-century roads and conditions competently, but navigation was not a distinctive skill and he traveled with companions and guides."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence that Luther personally butchered animals or processed food. His household's practical affairs were managed primarily by Katharina von Bora. Anti-halo rule applies: fame in theology does not imply competence in food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Roper, *Martin Luther: Renegade and Prophet* (2017)",
+            "Oberman, *Luther: Man Between God and the Devil* (1989)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Luther was an exceptional leader who directed the Reformation movement across multiple German territories and inspired reformers across Europe. He also demonstrated effective followership: as a young Augustinian friar, he submitted to monastic discipline and was guided by his superior Johann von Staupitz, crediting Staupitz with directing him toward Scripture and away from despair. This dual capacity—commanding a movement while crediting and deferring to mentors—marks exceptional range."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence of building or construction skills in the historical record. Luther was a scholar and clergyman, not a builder. Anti-halo rule applies."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Pettegree, *Brand Luther* (2015)",
+            "Brecht, *Martin Luther: Shaping and Defining the Reformation* (1990)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Luther coordinated a vast reform movement across German-speaking lands, managed complex relationships with multiple princes, timed publications for maximum political impact, and navigated the treacherous politics of the Holy Roman Empire. However, strategic blunders (the Peasants' War pamphlet, the Marburg Colloquy's failure with Zwingli) prevent a score of 3."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Leaver, *Luther's Liturgical Music* (2007)",
+            "Pettegree, *Brand Luther* (2015)",
+            "Edwards, *Printing, Propaganda, and Martin Luther* (1994)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Luther composed approximately 36 hymns including 'Ein feste Burg ist unser Gott,' one of the most famous hymns in history, effectively creating the genre of Protestant congregational hymnody. His German Bible translation (1522/1534) is a literary masterpiece that standardized the German language. He was a powerful prose stylist whose pamphlets defined German literary culture for generations. He also played the lute competently."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Luther, *Whether One May Flee from a Deadly Plague* (1527)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence of medical or emergency response skills. Luther wrote about plague response ('Whether One May Flee from a Deadly Plague,' 1527) advocating care for the sick, but this was pastoral/ethical counsel, not medical practice."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Brecht, *Martin Luther: His Road to Reformation* (1985)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Luther received a Master of Arts at Erfurt (1505), which included training in logic and the quadrivium. He employed rigorous logical argumentation in theological disputes (e.g., the 'Heidelberg Disputation,' 1518). However, his strengths were literary and theological rather than mathematical, and there is no evidence of distinctive quantitative ability."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Treu, *Katharina von Bora* (1999)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Although the Luther household managed a farm and garden (primarily under Katharina's direction), there is no specific evidence that Luther himself possessed notable agricultural skills. Anti-halo rule applies."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Pettegree, *Brand Luther* (2015)",
+            "Edwards, *Printing, Propaganda, and Martin Luther* (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Luther's mastery of the printing press as a mass communication tool was cutting-edge for his era. He worked closely with printers (especially Hans Lufft) on typeface, layout, illustration, and distribution—understanding the technical system, not merely providing content. Pettegree argues Luther essentially invented the pamphlet as a media form and understood print technology's possibilities better than any contemporary."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.69,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 7.04,
+    "created_at": "2026-03-22T21:55:42.099Z",
+    "updated_at": "2026-03-22T21:55:42.118Z"
+  }
+}
+]

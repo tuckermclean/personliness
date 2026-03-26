@@ -1,0 +1,371 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 209,
+  "fields": {
+    "name": "Otto von Bismarck",
+    "slug": "otto-von-bismarck",
+    "bio_short": "Bismarck was a supreme political strategist and institution-builder whose unification of Germany and creation of the modern welfare state represent paradigm-shifting achievements. His cognitive and cultural-social scores are among the highest possible, reflecting exceptional strategic intelligence, innovative statecraft, and enduring institutional legacy. His moral-affective profile is notably weaker: compassion, justice orientation, and moral growth were subordinated to Realpolitik pragmatism. Relationally, he was devoted to his wife but controlling toward his sons. His Heinlein competency co",
+    "bio_long": "Otto Eduard Leopold, Prince of Bismarck, Count of Bismarck-Schönhausen, Duke of Lauenburg was a German statesman and diplomat who oversaw the unification of Germany and served as its first chancellor from 1871 to 1890. Bismarck's Realpolitik and firm governance earned him the nickname Iron Chancellor.",
+    "source_notes": "https://en.wikipedia.org/wiki/Otto_von_Bismarck",
+    "image": "figures/330px-Otto_von_Bismarck_1885_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Pflanze, *Bismarck and the Development of Germany*, 3 vols (1963–1990)",
+              "Kissinger, *Diplomacy* (1994), ch. 5–7",
+              "Steinberg, *Bismarck: A Life* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bismarck is among history's foremost strategic minds. He isolated Austria diplomatically before the 1866 war, manipulated the Ems Dispatch to provoke France in 1870, and—crucially—adapted when plans failed: he abandoned the Kulturkampf when it backfired, reversed economic policy from free trade to protectionism in 1879, and after Königgrätz overruled his own military's desire to march on Vienna, foreseeing Austria's future value as an ally. His post-unification alliance system (Dual Alliance 1879, Reinsurance Treaty 1887) managed competing great-power interests for two decades."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Pflanze, *Bismarck and the Development of Germany*, vol. 3 (1990)",
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Gall, *Bismarck: The White Revolutionary* (1986)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bismarck's social insurance legislation (health insurance 1883, accident insurance 1884, old-age pensions 1889) created the world's first comprehensive welfare state—a genuine paradigm shift adopted across Europe and globally. His 'revolution from above' used conservative monarchical power to achieve national unification that liberal revolutionaries had failed to accomplish in 1848, fundamentally redefining the relationship between nationalism and conservatism. Both represent clear before/after differences attributable to Bismarck."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Gall, *Bismarck: The White Revolutionary* (1986)",
+              "Kissinger, *Diplomacy* (1994)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Bismarck articulated a coherent Realpolitik worldview—'politics is the art of the possible'—that influenced subsequent political thought, notably Morgenthau's realist school and Kissinger's diplomacy. However, his contribution is to political strategy rather than moral or metaphysical reasoning per se; he offered no systematic ethical framework and explicitly subordinated moral principles to state interest. His personal Lutheran piety was sincere but philosophically conventional."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Pflanze, *Bismarck and the Development of Germany*, vols. 1–3 (1963–1990)",
+              "Eyck, *Bismarck and the German Empire* (1950)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bismarck designed the constitutions of the North German Confederation (1867) and the German Empire (1871), creating a federal system that balanced Prussian hegemony with smaller states' autonomy and endured until 1918. His social insurance system survived both World Wars and remains the structural basis of the German welfare state today. He managed a complex bureaucratic apparatus coordinating diplomacy, military affairs, and domestic legislation across two decades."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Gall, *Bismarck: The White Revolutionary* (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bismarck operated across multiple relational modes: devoted (if imperfect) spouse to Johanna, subordinate to Wilhelm I (combining deference with manipulation), domineering superior to ministers, charming diplomat with foreign heads of state, fierce adversary to political opponents (Windthorst, Lasker), and warm friend to a few intimates (Roon, the American historian John Lothrop Motley). However, his dominant relational style—controlling, manipulative, emotionally volatile—tended to bleed across contexts, limiting genuine adaptability."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Pflanze, *Bismarck and the Development of Germany*, vol. 1 (1963)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bismarck married Johanna von Puttkamer in 1847 and remained deeply attached to her until her death in 1894. His letters to her reveal genuine tenderness, emotional dependence, and mutual support. She provided crucial emotional stability during political crises. He was reportedly devastated by her death. However, his political obsessions and frequent absences strained the marriage, and an earlier emotional attachment to Katharina Orlov complicated the picture. The relationship shows genuine depth but also significant imbalance."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Pflanze, *Bismarck and the Development of Germany*, vol. 3 (1990)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Bismarck's relationship with his eldest son Herbert was notably controlling: he drafted Herbert into diplomatic service and infamously blocked Herbert's desired marriage to Princess Elisabeth von Carolath-Beuthen, sacrificing his son's personal happiness for political considerations. Herbert became dependent and alcoholic. His relationships with his other children (Wilhelm and Marie) were warmer but still shaped by patriarchal dominance. His political protégés were instruments rather than independently developed successors."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Kissinger, *Diplomacy* (1994)",
+              "Pflanze, *Bismarck and the Development of Germany* (1963–1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bismarck's unification of Germany fundamentally reshaped European and world politics, directly contributing to the dynamics that produced both World Wars. His welfare state model has been adopted across multiple civilizations and remains operative globally. His alliance diplomacy and Realpolitik influenced international relations theory across the 20th and 21st centuries. While only 125 years have passed since his death (precluding the literal 500-year test), his effects are operative across multiple civilizations and show no sign of diminishing."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Taylor, *Bismarck: The Man and the Statesman* (1955)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The 'Iron Chancellor' is a widely recognized archetype of the ruthless, pragmatic statesman across Western political culture and beyond. Bismarck is invoked as a symbol of Realpolitik in Chinese, Japanese, and other non-Western political discourse. However, his archetypal recognition is primarily within political-historical contexts rather than the broader cultural/mythic resonance of religious or literary figures."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Pflanze, *Bismarck and the Development of Germany*, 3 vols (1963–1990)",
+              "Gall, *Bismarck: The White Revolutionary* (1986)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The German Empire (1871–1918), its federal constitution, the Reichstag parliamentary system, and the social insurance system all survived well beyond two generations with recognizable continuity. The welfare state model he created endures in modified form in Germany today and was adopted worldwide. The federal structure of Germany, while transformed, traces lineage to his constitutional design."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Taylor, *Bismarck: The Man and the Statesman* (1955)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bismarck led successfully across qualitatively different contexts: as diplomat (ambassador to Russia and France), crisis leader (constitutional crisis 1862–66), wartime coordinator (three wars of unification 1864–71), and peacetime chancellor managing a complex empire for nearly two decades. He mobilized Prussian elites, managed parliamentary coalitions, directed European diplomacy at the Congress of Berlin (1878), and dominated German politics as no subsequent chancellor did until the 20th century."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Gall, *Bismarck: The White Revolutionary* (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Even at the height of power, Bismarck retreated to his estates at Varzin and Friedrichsruh to manage forestry, hunt, and tend to his dogs. He was a legendary eater and drinker, known for earthy humor and frank conversation. His letters to Johanna reveal mundane domestic concerns alongside high politics. He personally supervised agricultural operations on his estates. These activities were genuine, not performative."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Pflanze, *Bismarck and the Development of Germany*, vol. 2 (1990)",
+              "Eyck, *Bismarck and the German Empire* (1950)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Bismarck's Realpolitik explicitly prioritized state interest over abstract justice. He suppressed Catholics (Kulturkampf), socialists (Anti-Socialist Laws 1878), and ethnic minorities (Germanization policies in Polish territories). He manipulated elections and press. No documented cases of ruling against personal or group interest in favor of principle. His social legislation, while benefiting workers, was openly designed to undercut socialist movements rather than from justice principles."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Pflanze, *Bismarck and the Development of Germany*, vol. 2 (1990)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Bismarck showed personal warmth toward his wife Johanna and his dogs, and his social welfare legislation arguably reflected some concern for workers' suffering. However, he was notably vindictive toward political opponents, pursued the Kulturkampf against Catholics and the Anti-Socialist Laws against labor movements, and oversaw discriminatory policies against Poles and Danes in annexed territories. No documented acts of compassion toward adversaries or outgroup members rise above the instrumental."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Gall, *Bismarck: The White Revolutionary* (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bismarck governed without a legal budget during the Prussian constitutional crisis (1862–66), risking prosecution. He showed physical courage during the 1866 assassination attempt by Ferdinand Cohen-Blind, subduing the gunman after being shot at. He was present at the front during the Franco-Prussian War. He repeatedly defied Wilhelm I on policy matters. However, he operated with substantial institutional backing from the crown throughout, and his courage was largely calculated risk-taking from a position of considerable power rather than personal vulnerability."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Bismarck, *Gedanken und Erinnerungen* (1898)",
+              "Pflanze, *Bismarck and the Development of Germany*, vol. 3 (1990)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Bismarck reversed course on the Kulturkampf (making peace with the Catholic Center Party by the early 1880s) and shifted from free trade to protectionism in 1879, showing genuine behavioral change. However, he framed these as strategic recalibrations rather than moral acknowledgments of error. He never publicly admitted having been wrong on principle. His memoirs (Gedanken und Erinnerungen) are notably self-justifying, offering strategic not moral retrospection."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Pflanze, *Bismarck and the Development of Germany*, vol. 3 (1990)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bismarck endured qualitatively different forms of adversity: chronic physical illness (neuralgia, shingles, digestive disorders, obesity-related ailments) that plagued him for decades, and severe political adversity including the stress of the constitutional crisis, threats of prosecution, and the trauma of his forced dismissal in 1890. He also bore personal grief at Johanna's death in 1894. Through most of these he continued to function effectively, though his post-dismissal years showed significant bitterness."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Gall, *Bismarck: The White Revolutionary* (1986)",
+              "Taylor, *Bismarck: The Man and the Statesman* (1955)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Bismarck integrated at least four seemingly contradictory roles: (1) conservative monarchist who enacted revolutionary social legislation; (2) warmaker who engineered three wars, then became Europe's chief peacekeeper for two decades; (3) Prussian particularist who built a pan-German empire; (4) authoritarian who operated skillfully within parliamentary structures and manipulated democratic processes. These contradictions were held together by his coherent Realpolitik worldview without fragmenting into inconsistency."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Pflanze, *Bismarck and the Development of Germany*, vol. 3 (1990)",
+              "Steinberg, *Bismarck: A Life* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Bismarck reflected on mortality throughout his later years, particularly after Johanna's death in 1894. He faced his own declining health and approaching death with a degree of composure, continuing to receive visitors and comment on affairs at Friedrichsruh. His final illness in 1898 was met with relative calm. However, his post-dismissal years were marked by considerable bitterness toward Wilhelm II, suggesting incomplete existential peace. Evidence of deathbed composure specifically is limited."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Steinberg, *Bismarck: A Life* (2011)",
+              "Pflanze, *Bismarck and the Development of Germany*, vol. 3 (1990)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bismarck was a large, physically imposing man who was an accomplished horseman and avid hunter throughout his life. He rode with the Prussian army during the wars of unification into his 50s. He endured chronic health problems—neuralgia, digestive disorders, insomnia—yet maintained a grueling work schedule for decades. His physical capacities spanned multiple life-stages, though they declined significantly in later years."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Busch, *Bismarck: Some Secret Pages of His History* (1898)",
+              "Steinberg, *Bismarck: A Life* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Bismarck was a voracious consumer of food and drink, a passionate hunter, and a devoted dog-lover—pleasures that were clearly non-instrumental. He enjoyed piano music, particularly Beethoven, and read widely in literature including Shakespeare and Byron. His witty, often cutting humor in conversation was well-documented by contemporaries like Moritz Busch. These engagements with pleasure and beauty were genuine personal enthusiasms rather than political performances."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.81,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Otto von Bismarck",
+      "overall": {
+        "Core_5D_Avg": 6.81,
+        "Overall_Normalized_Equal_Avg": 6.41,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Bismarck was a supreme political strategist and institution-builder whose unification of Germany and creation of the modern welfare state represent paradigm-shifting achievements. His cognitive and cultural-social scores are among the highest possible, reflecting exceptional strategic intelligence, innovative statecraft, and enduring institutional legacy. His moral-affective profile is notably weaker: compassion, justice orientation, and moral growth were subordinated to Realpolitik pragmatism. Relationally, he was devoted to his wife but controlling toward his sons. His Heinlein competency concentrates in leadership, strategy, and intellectual domains, with negligible skills in manual, medical, or construction areas. The Iron Chancellor archetype captures both his extraordinary capabilities and significant human limitations.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Busch, *Bismarck: Some Secret Pages of His History* (1898)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Despite being one of history's most legendary eaters and drinkers—consuming enormous quantities of food and drink at meals documented by contemporaries like Busch—there is no evidence Bismarck personally cooked or prepared meals. He was a passionate consumer rather than a producer of food."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Steinberg, *Bismarck: A Life* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Bismarck fought at least one duel in his youth (reportedly with Georg von Vincke), carried weapons, and showed physical combativeness during the 1866 assassination attempt when he grappled with Cohen-Blind. He was present near the front lines during the wars of unification. However, he had no military training or sustained combat experience; he was a civilian statesman in war zones."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Steinberg, *Bismarck: A Life* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Bismarck showed personal devotion to his wife Johanna during her illnesses and was tender with his dogs and grandchildren in later years. However, caregiving was not a significant or defining activity; he relied on household staff and his emotional availability was limited by political obsessions."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Steinberg, *Bismarck: A Life* (2011)",
+            "Pflanze, *Bismarck and the Development of Germany*, vol. 3 (1990)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Bismarck maintained composure during multiple crises: the assassination attempt of 1866 (reportedly calm immediately afterward), the political brinkmanship of the constitutional crisis, and wartime uncertainty. During his final years he faced declining health and approaching death with dignity, continuing to engage with visitors and politics at Friedrichsruh. However, his post-dismissal bitterness toward Wilhelm II and emotional volatility throughout his career temper the assessment."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Bismarck engaged in manual craft, tool-making, or repair work. As a Junker aristocrat, he employed craftsmen and servants for such tasks."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Steinberg, *Bismarck: A Life* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Bismarck traveled extensively across Europe as diplomat and statesman—to St. Petersburg, Paris, Vienna, and across the German states—and knew the terrain around his estates well from decades of hunting and riding. However, navigation was never a personal skill he exercised independently; he traveled by coach, rail, and with guides."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Steinberg, *Bismarck: A Life* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "As a Junker estate owner at Schönhausen, Varzin, and Friedrichsruh, Bismarck oversaw livestock operations and was an avid hunter who killed game regularly. He had practical familiarity with animal husbandry in the context of estate management, though no evidence he personally butchered or processed animals."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Steinberg, *Bismarck: A Life* (2011)",
+            "Gall, *Bismarck: The White Revolutionary* (1986)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Bismarck was an exceptional leader who dominated European politics for three decades. Equally importantly, he demonstrated the capacity to follow: he served Wilhelm I with outward deference for nearly three decades, accepting the monarch's authority even while maneuvering around it. He cooperated with military leaders Roon and Moltke, deferring to their operational expertise during wartime. His ability to both command and submit to authority was central to his success."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Bismarck personally designed or built physical structures. He commissioned renovations and construction at his estates but these were directed by architects and builders."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Pflanze, *Bismarck and the Development of Germany* (1963–1990)",
+            "Kissinger, *Diplomacy* (1994)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Bismarck coordinated the diplomatic and political dimensions of three wars of unification (1864, 1866, 1870–71), managed the Congress of Berlin (1878), and sustained a complex European alliance system for two decades. He directed grand strategy across military, diplomatic, and domestic political domains simultaneously, adapting plans when circumstances changed (e.g., limiting war aims after Königgrätz)."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Bismarck, *Gedanken und Erinnerungen* (1898)",
+            "Taylor, *Bismarck: The Man and the Statesman* (1955)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Bismarck's memoirs (*Gedanken und Erinnerungen*, 1898) are considered a masterpiece of German political prose. His speeches and diplomatic dispatches were rhetorically powerful and stylistically distinctive. His personal letters, particularly to Johanna, display genuine literary quality. He also played piano competently. While not a professional artist, his written output constitutes a significant literary achievement."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of Bismarck providing medical aid or emergency medical response. He was frequently a patient himself, consulting physicians for his chronic ailments, but there is no record of him treating others."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Pflanze, *Bismarck and the Development of Germany* (1963–1990)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Bismarck studied law at Göttingen and Berlin, managed complex estate finances at multiple properties, and directed economic policy including the tariff reform of 1879 and the design of the social insurance funding mechanisms. He demonstrated strong analytical reasoning in assessing complex political-diplomatic situations, though he was not a mathematician or scientist."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Pflanze, *Bismarck and the Development of Germany*, vol. 1 (1963)",
+            "Steinberg, *Bismarck: A Life* (2011)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Bismarck personally managed three major estates (Schönhausen, Varzin, Friedrichsruh), overseeing forestry operations, agricultural production, and a distillery at Schönhausen. He took a hands-on interest in timber management at Varzin and was knowledgeable about crop yields, land management, and rural economics. This was a genuine competence, not merely nominal ownership."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Pflanze, *Bismarck and the Development of Germany* (1963–1990)",
+            "Steinberg, *Bismarck: A Life* (2011)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Bismarck skillfully exploited the cutting-edge technologies of his era for political purposes: he used the telegraph system to coordinate diplomacy (most famously editing the Ems Dispatch for transmission), leveraged railways for military mobilization during the wars of unification, and manipulated the press through systematic news management. He understood modern communication and transportation systems as political tools."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.81,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 6.41,
+    "created_at": "2026-03-22T23:08:53.095Z",
+    "updated_at": "2026-03-22T23:08:53.121Z"
+  }
+}
+]

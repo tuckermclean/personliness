@@ -1,0 +1,391 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 159,
+  "fields": {
+    "name": "Umar",
+    "slug": "umar",
+    "bio_short": "Umar scores exceptionally in cultural-social dimensions, reflecting his world-historical impact as architect of the early Islamic state. Cognitive and moral-affective scores are strong, driven by documented strategic management of multi-front conquests, administrative innovation (diwan, provincial system, Hijri calendar), and a renowned justice orientation. Embodied-existential scores are high due to hardship tolerance, mortality composure, and paradox integration. Relational scores are moderate, limited by thin evidence on spousal quality. Heinlein competency breadth is constrained by hagiogr",
+    "bio_long": "Umar ibn al-Khattab, also spelled Omar, was the second Rashidun caliph, ruling from August 634 until his assassination in 644. He succeeded Abu Bakr and is regarded as a senior companion and father-in-law of the Islamic prophet Muhammad.",
+    "source_notes": "https://en.wikipedia.org/wiki/Umar",
+    "image": "figures/330px-Hagia_Sopia_6163502494_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Kennedy, Hugh. *The Great Arab Conquests* (2007)",
+              "Donner, Fred. *The Early Islamic Conquests* (1981)",
+              "Hoyland, Robert. *In God's Path: The Arab Conquests and the Creation of an Islamic World Order* (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Umar directed simultaneous conquests of the Sasanian and Byzantine empires from Medina, coordinating generals like Khalid ibn al-Walid, Sa'd ibn Abi Waqqas, and Abu Ubayda across multiple fronts. When the Iraq front stalled, he reorganized reinforcements. His dismissal of Khalid—his most successful general—mid-campaign to assert that victories came from God rather than one man demonstrated strategic-political adaptation, and he pivoted to the garrison-city (amsar) model when governing conquered territory required new approaches."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Kennedy, Hugh. *The Great Arab Conquests* (2007)",
+              "Donner, Fred. *The Early Islamic Conquests* (1981)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Umar introduced the diwan (military stipend register), the Hijri calendar, the garrison-city (amsar) system, the appointment of qadis (judges) separate from governors, and night patrol policing. These adapted existing Byzantine and Sasanian administrative models to novel circumstances rather than representing paradigm-shifting originality, but the synthesis was creative and consequential, producing a new template for imperial governance."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk* (History of Prophets and Kings)",
+              "Crone, Patricia & Hinds, Martin. *God's Caliph* (1986)",
+              "Madelung, Wilfrid. *The Succession to Muhammad* (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Umar articulated governance principles emphasizing ruler accountability, public consultation (shura), and separation of public treasury from personal wealth. His reported letters to governors (preserved in Tabari) demanded justice toward conquered peoples and insisted rulers are servants of the community. These principles influenced Islamic political theory for centuries, including works by al-Mawardi and Ibn Khaldun, but remained practical-ethical rather than constituting a systematic philosophical framework."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Kennedy, Hugh. *The Great Arab Conquests* (2007)",
+              "Hoyland, Robert. *In God's Path* (2015)",
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Umar's administrative achievements are among the most consequential in history: the diwan system, provincial governance with appointed governors and independent judges, the bayt al-mal (public treasury), the kharaj land-tax system for conquered territories, and the founding of garrison cities (Kufa, Basra, Fustat) that became permanent urban centers. These systems endured through the Umayyad and Abbasid periods and beyond—the kharaj system persisted for centuries, and the cities remain major population centers today."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*",
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+              "Ibn Hisham. *al-Sira al-Nabawiyya*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Umar demonstrably operated across at least six distinct relational modes: as a subordinate to Muhammad (accepting correction at Hudaybiyyah), as a peer/friend to Abu Bakr and other senior companions, as a superior commanding governors and generals, as a father to Hafsa and Abdullah, as an adversary (dismissing Khalid ibn al-Walid, confronting governors), and as a stranger encountering ordinary citizens on his night patrols. The traditions preserve qualitatively distinct behavior across these modes—deferential with Muhammad, collaborative with Abu Bakr, commanding with subordinates, tender with children on patrol."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Umar had multiple marriages (to Zaynab bint Maz'un, Umm Kulthum bint Jarwal, Qurayba, Jamila bint Thabit, and later Umm Kulthum bint Ali among others), and he divorced at least two wives. Islamic traditions provide relatively little detail about the quality of these relationships in terms of mutual respect or emotional depth. Some traditions mention tensions. The evidence is too thin to support a higher score; the multiple divorces and lack of documented relational depth prevent a higher assessment."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Umar's son Abdullah ibn Umar became one of the most respected and independent-minded scholars of early Islam, known for his piety and juristic independence—suggesting genuine developmental mentoring rather than mere obedience. His daughter Hafsa became custodian of the authoritative Quran manuscript. As caliph, he mentored governors through detailed instructions and oversight, though his management style was often more command-oriented than developmental. He publicly disciplined his son for drinking, holding family to the same standard as others."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Hoyland, Robert. *Seeing Islam as Others Saw It* (1997)",
+              "Kennedy, Hugh. *The Great Arab Conquests* (2007)",
+              "Donner, Fred. *The Early Islamic Conquests* (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Umar's conquests permanently reshaped the Middle East, North Africa, and Central Asia, displacing the Sasanian Empire entirely and reducing Byzantium by half. The administrative and legal frameworks he established influenced Islamic governance across Arab, Persian, Turkish, and South Asian civilizations for over a millennium. Cities he founded remain major population centers. The Hijri calendar endures globally. Non-Muslim sources (e.g., the Chronicle of Fredegar, Sebeos) independently confirm the scale of the conquests. His legacy is clearly operative well beyond 500 years across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Hart, Michael. *The 100: A Ranking of the Most Influential Persons in History* (1978)",
+              "Kennedy, Hugh. *The Great Arab Conquests* (2007)",
+              "al-Mawardi. *al-Ahkam al-Sultaniyyah*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Umar serves as the primary archetype of the 'just ruler' (al-Farooq—'the Distinguisher') across Sunni Islamic civilizations spanning Arab, Persian, Turkish, South Asian, and Southeast Asian cultures. He is invoked as the model of righteous governance in political discourse from medieval to modern times. Michael Hart included him in the 100 most influential historical figures. His archetype is recognized in Western historiography as a pivotal state-builder. The breadth spans multiple civilizations even if concentrated in the Islamic world."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Kennedy, Hugh. *The Great Arab Conquests* (2007)",
+              "Hoyland, Robert. *In God's Path* (2015)",
+              "Donner, Fred. *The Early Islamic Conquests* (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Umar established the diwan system, provincial governance structure, independent judiciary (qadi appointments), bayt al-mal, kharaj taxation, the Hijri calendar, and garrison cities. These institutions formed the administrative backbone of the Umayyad and Abbasid caliphates and persisted in recognizable form for centuries. The garrison cities of Kufa, Basra, and Fustat evolved into permanent major urban centers. The Hijri calendar remains in global use today among 1.8 billion Muslims."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Madelung, Wilfrid. *The Succession to Muhammad* (1997)",
+              "Donner, Fred. *The Early Islamic Conquests* (1981)",
+              "Kennedy, Hugh. *The Great Arab Conquests* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Umar led across qualitatively different contexts: as an influential Qurayshi in pre-Islamic Mecca, as a key advisor to Muhammad during both war and diplomacy, as the decisive voice supporting Abu Bakr's election during the Saqifa crisis (a moment of extreme political fragility), and as caliph governing the most rapidly expanding polity in history. He managed both the crisis of consolidation (post-Ridda wars) and the stability-building of administering vast new territories with diverse populations."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*",
+              "Abu Nu'aym. *Hilyat al-Awliya*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Islamic traditions extensively document Umar's austere lifestyle at the height of imperial power: wearing patched clothing, sleeping under date palms, carrying flour sacks to needy families on his own back, milking goats, eating barley bread with olive oil, and refusing guards or special treatment. The night patrol tradition shows him engaging with ordinary citizens incognito—discovering their needs, cooking for hungry families, sitting with the bereaved. The sheer volume and consistency of austerity traditions across multiple source compilations is notable."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*",
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+              "Crone, Patricia. *God's Caliph* (1986)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Umar required governors to declare assets before and after appointment and dismissed those suspected of enrichment. He reportedly ruled against his own son in a legal dispute and publicly flogged him for drinking. The famous account of the Coptic Christian who complained against the son of governor Amr ibn al-As—Umar summoned both parties and allowed the Coptic to strike back, declaring 'Since when have you enslaved people whose mothers bore them free?'—exemplifies ruling against group interest. His decision not to distribute conquered Iraqi lands to soldiers but to keep them as state kharaj benefiting the whole community overrode powerful pressure from his own base."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*",
+              "Hoyland, Robert. *In God's Path* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Islamic traditions consistently record Umar's night patrols in Medina to check on citizens' welfare, including the well-known account of finding a woman boiling stones for hungry children and personally carrying flour and cooking for the family. He established welfare provisions from the bayt al-mal for non-Muslim dhimmis, including the elderly and disabled. However, counterexamples include the expulsion of Jews and Christians from the Hijaz and harsh corporal punishments. Without these counterexamples the score would be 3; with them weighed proportionally, 2 reflects the balance between systemic compassion and exclusionary policies."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Ibn Hisham. *al-Sira al-Nabawiyya*",
+              "Donner, Fred. *The Early Islamic Conquests* (1981)",
+              "Kennedy, Hugh. *The Great Arab Conquests* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Umar openly declared his Islam in Mecca when most Muslims practiced in secret, facing clan hostility and physical threats. He participated in the battles of Badr, Uhud, Khandaq, and Khaybar. As caliph, he personally traveled to Jerusalem to accept the city's surrender. He continued governing effectively through the plague of Amwas (639 CE), which killed key commanders including Abu Ubayda, and through the Year of Ashes famine (639–640 CE). This represents sustained courage across military, political, and crisis contexts."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Ibn Hisham. *al-Sira al-Nabawiyya*",
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*",
+              "Madelung, Wilfrid. *The Succession to Muhammad* (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Umar's conversion from active persecutor of Muslims to Islam's most forceful champion represents a dramatic moral transformation. He openly opposed Muhammad's Treaty of Hudaybiyyah (628 CE), then later acknowledged this as wrong and reportedly performed extra acts of piety in atonement. Traditions record women correcting him publicly on dowry law, after which he accepted the correction. The Islamic tradition preserves these embarrassing episodes rather than sanitizing them entirely, but hagiographic enhancement remains possible. The pattern of accepting correction is sufficiently attested to exceed a score of 1."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*",
+              "Kennedy, Hugh. *The Great Arab Conquests* (2007)",
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Umar endured the early Meccan persecution of Muslims (social ostracism, clan pressure), the material deprivation of the Medinan migration, multiple military campaigns, the deaths of close companions in battle and to the plague of Amwas (639 CE, which killed Abu Ubayda and Mu'adh ibn Jabal), and the Year of Ashes famine (639–640 CE). Throughout, he maintained effective governance. He voluntarily endured material austerity as caliph despite access to enormous state wealth. This covers material deprivation, bereavement, and crisis management."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*",
+              "Kennedy, Hugh. *The Great Arab Conquests* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Umar inhabited multiple seemingly contradictory roles without incoherence: fierce warrior and tender night-patroller feeding hungry families; stern disciplinarian who publicly flogged his own son and compassionate leader who wept during prayer; ruler of the era's largest empire who wore patched garments and slept under trees; former violent persecutor of Muslims who became their foremost champion; the man who dismissed his most successful general on principle while presiding over history's most successful military expansion. This represents at least four contradictory role-pairs integrated into a coherent identity."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*",
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+              "al-Bukhari. *Sahih al-Bukhari*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "After being stabbed by Abu Lu'lu'a in November 644 CE, Umar reportedly remained composed during his final days: he organized the succession by appointing a shura council of six companions to choose the next caliph, settled his personal debts, instructed his son Abdullah to request Aisha's permission for burial beside Muhammad, and died with deliberate composure. The detailed, consistent account across multiple hadith compilations describes a man facing imminent death with extraordinary intentionality."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Ibn Hisham. *al-Sira al-Nabawiyya*",
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Umar was renowned in pre-Islamic Mecca as a physically imposing man and accomplished wrestler. He fought in the major battles of Badr (624), Uhud (625), Khandaq (627), and Khaybar (628). As caliph in his late 50s, he maintained an austere physical lifestyle and traveled to Jerusalem by camel. However, specific feats of endurance in later life beyond general austerity are not extensively documented, preventing a score of 3."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+              "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Umar was deeply knowledgeable about pre-Islamic Arabic poetry and is documented quoting and appreciating it, which suggests genuine aesthetic engagement. However, the dominant tradition portrays him as stern and ascetic. There are scattered reports of humor with companions, but these are not prominent. His poetry knowledge may have been partly instrumental (poetry was used for legal and genealogical purposes in Arabian culture). Evidence of non-instrumental play or aesthetic delight is thin."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 6.67,
+          "Core_5D_Avg": 8.27,
+          "Cultural-Social": 10.0,
+          "Moral-Affective": 8.33,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Umar ibn al-Khattab",
+      "overall": {
+        "Core_5D_Avg": 8.27,
+        "Overall_Normalized_Equal_Avg": 7.78,
+        "General_Competency_Avg_10scale": 5.33
+      },
+      "summary": "Umar scores exceptionally in cultural-social dimensions, reflecting his world-historical impact as architect of the early Islamic state. Cognitive and moral-affective scores are strong, driven by documented strategic management of multi-front conquests, administrative innovation (diwan, provincial system, Hijri calendar), and a renowned justice orientation. Embodied-existential scores are high due to hardship tolerance, mortality composure, and paradox integration. Relational scores are moderate, limited by thin evidence on spousal quality. Heinlein competency breadth is constrained by hagiographic source focus on leadership and governance rather than manual or domestic skills. Most scores carry Medium confidence due to source distance and hagiographic tendencies.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.6,
+          "General_Competency_Avg_10scale": 5.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of culinary skill in the historical record. While the night patrol tradition includes one account of Umar cooking for a hungry family, this is a single episode with no indication of culinary competence per se. His austerity tradition emphasizes simple eating (barley bread, olive oil) rather than cooking ability."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Ibn Hisham. *al-Sira al-Nabawiyya*",
+            "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Umar was known as a physically formidable man and wrestler in pre-Islamic Mecca. He fought at Badr (624), Uhud (625), Khandaq (627), Khaybar (628), and the conquest of Mecca (630). He was a recognized warrior among the companions. However, he was not primarily renowned as a battlefield commander (that role belonged to Khalid ibn al-Walid, Ali ibn Abi Talib, and others), and his caliphal role was administrative rather than field-combat oriented."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+            "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Umar's night patrols in Medina included personally carrying food to hungry families, cooking for a starving woman and her children, and sitting with the bereaved. He established systematic welfare provisions through the bayt al-mal for widows, orphans, the elderly, and non-Muslim dhimmis. These combine personal caregiving acts with institutional care systems."
+        },
+        "Existential Composure": {
+          "citations": [
+            "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*",
+            "al-Bukhari. *Sahih al-Bukhari*",
+            "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "After being mortally stabbed by Abu Lu'lu'a in 644 CE, Umar remained composed for several days: he organized the succession through a shura council of six, settled personal debts, instructed his son Abdullah to request Aisha's permission for burial beside Muhammad, and died with reported serenity. Throughout his caliphate he also maintained composure during the plague of Amwas and the Year of Ashes famine, which tested his community to its limits."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence in the historical record of Umar engaging in manual craft or repair work. While basic tool use would be expected of any 7th-century Arabian, the anti-halo rule requires specific documented evidence, which is absent."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Ibn Hisham. *al-Sira al-Nabawiyya*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Umar made the hijra from Mecca to Medina (a multi-day desert journey) and later traveled to Jerusalem as caliph. As a Qurayshi, he likely participated in trade caravans before Islam. However, no specific navigation feats or wayfinding expertise are documented; these journeys were undertaken with companions and guides."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Traditions mention Umar milking goats, consistent with 7th-century Arabian life where animal husbandry was a basic skill. However, no specific evidence of butchering or food processing is documented beyond this. Era normalization supports basic competence but the anti-halo rule limits the score given thin specific evidence."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Madelung, Wilfrid. *The Succession to Muhammad* (1997)",
+            "Donner, Fred. *The Early Islamic Conquests* (1981)",
+            "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Umar demonstrated exceptional leadership as caliph of a vast empire, managing generals, governors, and judges. Equally important, he demonstrated genuine followership: he followed Muhammad's leadership even when he disagreed (accepting the Treaty of Hudaybiyyah after initial protest), loyally supported Abu Bakr's caliphate without undermining it, and deferred to consensus among companions on legal matters. The combination of commanding authority and documented submission to legitimate authority is distinctive."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Umar ordered the expansion of the Prophet's Mosque in Medina and the construction of garrison cities (Kufa, Basra, Fustat), but this was administrative oversight, not personal construction skill. As a 7th-century Arabian, basic shelter and tent construction would have been within his repertoire, but no specific personal building activities are documented."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Donner, Fred. *The Early Islamic Conquests* (1981)",
+            "Kennedy, Hugh. *The Great Arab Conquests* (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Umar coordinated simultaneous multi-front conquests of the Sasanian and Byzantine empires from Medina, managing logistics, troop deployments, and general appointments across Iraq, Syria, Egypt, and Persia. He successfully adapted when setbacks occurred (reinforcing the Iraq front after the Battle of the Bridge), and his garrison-city strategy solved the novel problem of governing conquered territory without assimilating into local populations."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Ibn Sa'd. *Kitab al-Tabaqat al-Kabir*",
+            "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Umar was deeply knowledgeable about pre-Islamic Arabic poetry—a significant cultural attainment in his context—and is documented reciting and judging it. However, he was not a poet or artist himself. His oratorical skill in sermons and public addresses was noted, but his primary contributions were administrative and political rather than artistic."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*",
+            "Kennedy, Hugh. *The Great Arab Conquests* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Umar organized large-scale emergency responses to the plague of Amwas (639 CE) and the Year of Ashes famine (639–640 CE), mobilizing food supplies from provinces to Medina and coordinating relief. However, this was administrative emergency management rather than personal medical care. No specific evidence of him personally treating injuries or illness exists, though participation in multiple battles implies some exposure to wound care."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Kennedy, Hugh. *The Great Arab Conquests* (2007)",
+            "Donner, Fred. *The Early Islamic Conquests* (1981)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Umar established the diwan system, which required systematic registration of soldiers and calculation of stipends based on precedence and service. He organized the kharaj land-tax system for conquered territories and managed the bayt al-mal's complex revenues and expenditures. As a Qurayshi merchant before Islam, he would have possessed commercial arithmetic skills. The analytical capacity to design these systems from scratch for a novel polity is notable."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Kennedy, Hugh. *The Great Arab Conquests* (2007)",
+            "al-Tabari. *Tarikh al-Rusul wa'l-Muluk*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Umar's decision not to distribute conquered Iraqi and Egyptian farmlands to soldiers but to keep them as state kharaj land was a landmark resource-management decision that preserved agricultural productivity. He ordered canal construction in Iraq (the Abu Musa canal) and Egypt to support irrigation and agriculture. He managed the Year of Ashes famine through inter-provincial food transfers. These are administrative rather than personal agricultural skills, but they represent high-level resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Kennedy, Hugh. *The Great Arab Conquests* (2007)",
+            "Hoyland, Robert. *In God's Path* (2015)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Umar adapted Byzantine and Sasanian administrative technologies to the needs of the new Islamic state, creating hybrid systems for taxation, postal communication, and provincial governance. He organized the first systematic census/registry (diwan) in Islamic governance and commissioned canal construction projects. These represent significant technical-systemic problem-solving at the cutting edge of 7th-century statecraft."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.27,
+    "general_competency_avg_0_10": 5.33,
+    "overall_normalized_equal_avg_0_10": 7.78,
+    "created_at": "2026-03-22T19:46:15.427Z",
+    "updated_at": "2026-03-22T19:46:15.448Z"
+  }
+}
+]

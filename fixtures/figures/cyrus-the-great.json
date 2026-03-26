@@ -1,0 +1,386 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 177,
+  "fields": {
+    "name": "Cyrus the Great",
+    "slug": "cyrus-the-great",
+    "bio_short": "Cyrus the Great scores exceptionally in cultural-social impact — his institution-building, legacy, and archetype resonance are among the highest in antiquity. Strategic intelligence and leadership are defining strengths. Moral-affective scores are solid but tempered by hagiographic source filters that obscure fallibility. Relational evidence is thin due to source limitations. Heinlein competency is concentrated in military-political domains (command, combat, leadership) with large gaps in domestic/manual skills typical of an ancient sovereign whose private life is poorly documented. Overall, a",
+    "bio_long": "Cyrus II of Persia, commonly known as Cyrus the Great, was the founder of the Achaemenid Empire. Hailing from Persis, he brought the Achaemenid dynasty to power by defeating the Median Empire and embracing all of the previous civilized states of the ancient Near East, expanding vastly across most of West Asia and much of Central Asia to create what would soon become the largest empire in history at the time. The Achaemenid Empire's greatest territorial extent was achieved under Darius the Great, whose rule stretched from Southeast Europe and Eastern North Africa in the west to the Indus Valley in the east.",
+    "source_notes": "https://en.wikipedia.org/wiki/Cyrus_the_Great",
+    "image": "figures/330px-Cyrus_II_28The_Great29_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Herodotus, Histories, Book 1",
+              "Nabonidus Chronicle (British Museum)",
+              "Briant, From Cyrus to Alexander (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Cyrus defeated three major empires — Media, Lydia, and Babylon — each requiring distinct strategic adaptation. Against Croesus he launched an unexpected winter campaign and reportedly used camels to disrupt Lydian cavalry at Thymbra. Against Babylon, he combined political subversion of anti-Nabonidus factions with rapid military advance, entering the city with minimal destruction (confirmed by the Nabonidus Chronicle). His fatal campaign against the Massagetae is a counterexample of strategic failure; without it the score would be 3, and with it the score remains 3 because three prior campaigns each involved successful adaptation to different opponents, terrains, and political contexts."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Briant, From Cyrus to Alexander (2002)",
+              "Waters, Ancient Persia: A Concise History of the Achaemenid Empire (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cyrus's model of governing a vast multi-ethnic empire through local autonomy, religious tolerance, and repatriation of displaced peoples was a significant departure from Assyrian deportation policies. This approach created a before/after shift in Near Eastern imperial governance. However, elements of tolerant imperialism had Babylonian and earlier precedents, so the innovation, while substantial, was more evolutionary than a clean paradigm shift attributable solely to Cyrus."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Cyrus Cylinder (British Museum, BM 90920)",
+              "Kuhrt, 'The Cyrus Cylinder and Achaemenid Imperial Policy', JSOT 25 (1983)",
+              "Isaiah 44:28–45:1"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Cyrus Cylinder articulates principles of religious restoration and tolerance toward conquered peoples, and Isaiah 44:28–45:1 hails Cyrus as God's anointed for freeing the Jewish exiles. These ideas influenced Enlightenment thinkers — Jefferson owned Xenophon's Cyropaedia — but the Cylinder follows Mesopotamian royal genre conventions and represents practical governance policy more than original philosophical articulation. The principles had cross-cultural reach but lack the depth of systematic ethical reasoning required for a 3."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Briant, From Cyrus to Alexander (2002), ch. 2",
+              "Dandamaev, A Political History of the Achaemenid Empire (1989)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cyrus established the initial administrative framework for the largest empire the world had yet seen, appointing regional governors and maintaining local elites in authority. These foundations endured through Cambyses and were refined by Darius I into the mature satrapy system. Because the durable, systematic administrative apparatus (standardized satrapies, royal road, tax system) is primarily attributed to Darius rather than Cyrus, a score of 3 is not warranted, but Cyrus's foundational structures clearly functioned beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Herodotus, Histories, Book 1",
+              "Briant, From Cyrus to Alexander (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cyrus operated across multiple relational modes: subordinate/vassal (to Astyages before rebellion), military commander (to his armies), ruler/superior (over conquered territories), spouse (to Cassandane), parent (to Cambyses and Bardiya), and manager of adversary-turned-subject relationships (with Astyages, possibly Croesus). This represents at least five modes, but the evidence for most is thin — we see these roles existed but lack documentation of qualitatively distinct behavior in each, keeping the score at 2 rather than 3."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Herodotus, Histories 2.1, 3.2–3",
+              "Brosius, Women in Ancient Persia (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Herodotus (3.2–3) mentions Cassandane as Cyrus's wife and reports that Cyrus mourned her death deeply, ordering empire-wide mourning. This suggests genuine emotional attachment. However, evidence is limited to this single passage and provides no documentation of mutual respect, support during crisis, or emotional availability across the arc of the relationship. Other wives are barely mentioned."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Herodotus, Histories, Book 3 (Cambyses)",
+              "Xenophon, Cyropaedia 8.7"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Cyrus's son Cambyses II succeeded him and successfully conquered Egypt, suggesting some competence, but Cambyses is also portrayed negatively in Greek sources (possibly due to propaganda by Darius I). Xenophon's Cyropaedia includes an idealized deathbed speech where Cyrus advises his sons, but this is fictional. Direct evidence of Cyrus's parenting or mentoring practices is essentially absent from the historical record."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Briant, From Cyrus to Alexander (2002)",
+              "Isaiah 44–45",
+              "Xenophon, Cyropaedia (reception history in Nadon, Xenophon's Prince, 2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cyrus's legacy remains operative over 2,500 years later across multiple civilizations. He is foundational to Iranian national identity; the Cyrus Cylinder was adopted by the United Nations as a symbol of human rights (1971); he appears in the Hebrew Bible as God's anointed; Xenophon's Cyropaedia influenced Hellenistic, Roman, and Enlightenment political thought. His model of tolerant multi-ethnic governance influenced successor empires from the Seleucids to the Mughals."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Isaiah 44:28–45:1",
+              "Xenophon, Cyropaedia",
+              "Mallowan, 'Cyrus the Great', in Cambridge History of Iran vol. 2 (1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cyrus is the archetypal benevolent conqueror-liberator across at least four distinct traditions: Persian/Iranian (national founding father), Jewish (messianic liberator in Isaiah), Greek (ideal ruler in Xenophon), and modern Western (symbol of religious tolerance and human rights). His title 'the Great' is recognized cross-culturally. He embodies the archetype of the just king who conquers not to destroy but to restore — a symbol operative across cultures far beyond his own."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Briant, From Cyrus to Alexander (2002)",
+              "Kuhrt, The Persian Empire: A Corpus of Sources (2007)",
+              "Archaeological evidence from Pasargadae"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Achaemenid Empire Cyrus founded survived for over 200 years until Alexander's conquest in 330 BCE, enduring through multiple succession crises (including Cambyses, the revolt of Gaumata/Bardiya, and Darius's consolidation). The basic framework of tolerant multi-ethnic governance, regional autonomy, and imperial administration he established persisted with recognizable continuity well beyond two generations. Pasargadae remained a sacred royal site throughout the empire's existence."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Herodotus, Histories, Book 1",
+              "Nabonidus Chronicle",
+              "Waters, Ancient Persia (2014)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Cyrus led successfully across qualitatively different contexts: as a tribal/clan leader rallying the Persians, as a rebel commander overthrowing the Median Empire, as a conqueror integrating Lydia and Babylon, and as ruler of a vast multi-ethnic empire requiring diplomatic governance. He transitioned from vassal to world emperor, demonstrating leadership in both crisis (rebellion, siege) and stability (post-conquest administration). Multiple independent traditions attest to his charismatic authority."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Herodotus, Histories 1.107–122",
+              "Xenophon, Cyropaedia"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Herodotus tells a story of Cyrus's humble upbringing among shepherds (Histories 1.107–122), but this follows the common ancient exposure-narrative motif and is likely legendary. Xenophon includes idealized vignettes of Cyrus's simplicity, but these serve didactic purposes. No credible evidence documents Cyrus engaging in mundane everyday activities (cooking, manual labor, play with children) at the height of power. The record is dominated by military and political actions."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Cyrus Cylinder",
+              "Xenophon, Cyropaedia",
+              "Kuhrt, The Persian Empire: A Corpus of Sources (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Cyrus Cylinder presents Cyrus as restorer of justice, claiming he ended Nabonidus's unjust rule and returned religious freedom. The repatriation of displaced peoples and restoration of local cult practices are attested across multiple traditions. However, we lack specific documented cases of Cyrus ruling against his personal or Persian group interest in favor of abstract principle — his tolerance served imperial consolidation. Xenophon's idealised portrayals in the Cyropaedia cannot be taken at face value."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Cyrus Cylinder (British Museum)",
+              "Ezra 1:1–4",
+              "Herodotus, Histories 1.130 (treatment of Astyages)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cyrus freed Jewish exiles from Babylon (corroborated by Ezra 1:1–4 and the Cyrus Cylinder), restored temples and displaced peoples across Mesopotamia, and reportedly spared defeated kings including Astyages of Media and possibly Croesus of Lydia. These are documented acts of compassion toward adversaries and outgroup members, corroborated across three independent traditions (Babylonian, Jewish, Greek). However, the genuine compassion vs. calculated political tolerance distinction is debated; the Cylinder is royal propaganda, and military conquest inevitably entailed suffering. Without counterexample of conquest violence: 3. With it weighed: 2, because the tolerance, while remarkable, may have been primarily instrumental."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Herodotus, Histories 1.214 (death in battle against Massagetae)",
+              "Nabonidus Chronicle",
+              "Briant, From Cyrus to Alexander (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Cyrus personally led military campaigns spanning approximately three decades — from his rebellion against Astyages of Media (an inherently high-risk act as a vassal), through conquests of Lydia and Babylon, to his final campaign against the Massagetae where he died in battle. This represents sustained physical courage across multiple high-stakes situations over a full career. The consistency of personal military leadership across all major sources (Herodotus, Nabonidus Chronicle, Ctesias) makes this one of the best-attested traits."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Xenophon, Cyropaedia (acknowledged as idealized, see Tatum, Xenophon's Imperial Fiction, 1989)",
+              "Briant, From Cyrus to Alexander (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Sources uniformly idealize Cyrus. The Cyropaedia is hagiographic, the Cylinder is royal propaganda, and the Hebrew Bible portrays him as divinely appointed. No source documents Cyrus acknowledging a mistake or reversing a prior position based on correction. The rubric specifies that figures whose traditions sanitize them should be capped at 1 unless independent evidence of growth exists, and no such evidence survives for Cyrus."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Herodotus, Histories, Book 1",
+              "Waters, Ancient Persia (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cyrus endured the rigors of multiple military campaigns across harsh environments — Central Asian steppes, Anatolian winters, Mesopotamian heat — representing sustained material and physical adversity. Herodotus's account of childhood exposure and humble upbringing (if credited) adds a qualitatively different form of hardship (material deprivation). Even discounting the legendary childhood, decades of campaigning across diverse hostile territories and the political stress of managing a newly-conquered multi-ethnic empire represent effective functioning under prolonged adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Briant, From Cyrus to Alexander (2002)",
+              "Cyrus Cylinder",
+              "Herodotus, Histories, Book 1"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Cyrus coherently inhabited at least three seemingly contradictory roles: (1) conqueror who destroyed three empires yet liberator celebrated for freeing captive peoples; (2) warrior-king who personally led armies yet magnanimous ruler known for sparing defeated enemies; (3) Persian tribal chieftain rooted in local identity yet cosmopolitan emperor of the world's largest multi-ethnic state. These contradictions are attested across independent traditions — the Cylinder emphasizes liberation, Herodotus emphasizes conquest, Isaiah emphasizes divine mission — yet all describe the same coherent figure."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Herodotus, Histories 1.214",
+              "Xenophon, Cyropaedia 8.7"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cyrus continued to personally lead military campaigns into old age and died in battle against the Massagetae, demonstrating willingness to face mortal danger rather than delegate from safety. Xenophon's Cyropaedia includes a composed deathbed scene (8.7) where Cyrus calmly arranges succession, but this is almost certainly fictional. The pattern of continued risk-taking in combat throughout life is attested across sources. Without the Cyropaedia deathbed scene (which would push toward 3), the score rests on behavioral evidence of mortality acceptance through action rather than documented composure at the moment of death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Herodotus, Histories 1.214",
+              "Briant, From Cyrus to Alexander (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cyrus personally led military campaigns across vast distances — from Persis to Anatolia to Mesopotamia to Central Asia — spanning approximately three decades. He was still actively campaigning at the end of his life, dying in battle against the Massagetae. This demonstrates sustained physical endurance across multiple life-stages, not merely youth. However, specific physical feats beyond general campaigning are not well-documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Xenophon, Cyropaedia",
+              "Stronach, Pasargadae: A Report on the Excavations (1978)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Persian royal gardens (pairidaeza, origin of 'paradise') developed under Cyrus at Pasargadae reflect aesthetic vision, and Xenophon attributes to Cyrus a love of gardens and hunting. However, this evidence comes from the idealized Cyropaedia and archaeological remains that may reflect court conventions rather than personal aesthetic engagement. No evidence of non-instrumental play or humor survives."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.79,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Cyrus the Great",
+      "overall": {
+        "Core_5D_Avg": 6.79,
+        "Overall_Normalized_Equal_Avg": 6.44,
+        "General_Competency_Avg_10scale": 4.67
+      },
+      "summary": "Cyrus the Great scores exceptionally in cultural-social impact — his institution-building, legacy, and archetype resonance are among the highest in antiquity. Strategic intelligence and leadership are defining strengths. Moral-affective scores are solid but tempered by hagiographic source filters that obscure fallibility. Relational evidence is thin due to source limitations. Heinlein competency is concentrated in military-political domains (command, combat, leadership) with large gaps in domestic/manual skills typical of an ancient sovereign whose private life is poorly documented. Overall, a towering figure in the political-strategic-cultural register with limited visibility into personal and practical dimensions.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.4,
+          "General_Competency_Avg_10scale": 4.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence documents Cyrus preparing food. Persian royal culture involved elaborate feasting (later documented by Polyaenus and Heracleides), but personal culinary skill by Cyrus is unattested."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Herodotus, Histories 1.214",
+            "Herodotus, Histories 1.76–80 (battle of Thymbra)",
+            "Briant, From Cyrus to Alexander (2002)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Cyrus personally led armies in multiple major battles across three decades: against Astyages of Media, against Croesus at Pteria and Thymbra, in the capture of Sardis and Babylon, and in Central Asian campaigns. He died fighting the Massagetae in personal combat. Persian aristocratic education emphasized martial skills (riding, archery, physical combat), and Cyrus's career-long battlefield presence attests to sustained combat capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Herodotus, Histories 3.2",
+            "Cyrus Cylinder"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Cyrus's policy of restoring displaced peoples and temple cults across the empire reflects a form of collective care at the political level. However, no individual caregiving acts are documented. The mourning for Cassandane (Herodotus 3.2) hints at emotional capacity but does not constitute evidence of hands-on caregiving."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Herodotus, Histories 1.214",
+            "Xenophon, Cyropaedia 8.7"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cyrus faced mortal danger repeatedly throughout a three-decade military career and continued to personally lead campaigns into old age rather than delegating from safety, ultimately dying in battle. This behavioral pattern demonstrates sustained composure in the face of mortality risk. Xenophon's composed deathbed scene (Cyropaedia 8.7) would push this to 3 but is almost certainly fictional."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists that Cyrus engaged in manual craft or repair work. As a Persian aristocrat and king, such activities would not have been expected or recorded."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Briant, From Cyrus to Alexander (2002)",
+            "Herodotus, Histories, Book 1"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cyrus led armies across vast and diverse terrains — the Zagros Mountains, the Anatolian plateau, the Mesopotamian river systems, and the Central Asian steppes — requiring practical knowledge of geography and route-planning. The logistics of moving armies across these distances in the 6th century BCE presuppose navigational competence, though he likely relied on local guides and scouts."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Xenophon, Cyropaedia 1.2–4",
+            "Herodotus, Histories 1.136"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Xenophon's Cyropaedia describes Cyrus as an avid hunter in his youth, consistent with the Persian aristocratic education that emphasized riding, archery, and hunting (Herodotus 1.136). However, specific evidence for Cyrus personally processing animals or food is absent; the hunting accounts are from an idealized source."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Herodotus, Histories, Book 1",
+            "Nabonidus Chronicle",
+            "Briant, From Cyrus to Alexander (2002)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Cyrus demonstrated exceptional leadership in mobilizing diverse groups — Persian tribes, Median defectors, Babylonian dissidents — toward shared goals. He also reportedly served loyally under Astyages before his rebellion, and his ability to build coalitions (incorporating conquered elites into his administration rather than replacing them) shows both the ability to lead and to cooperate with and defer to local authorities when strategically appropriate."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Stronach, Pasargadae: A Report on the Excavations (1978)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Cyrus founded Pasargadae, which included palace complexes, gardens, and his monumental tomb (still standing). The site shows sophisticated architectural planning blending Mesopotamian, Lydian, and Persian elements. However, the degree of Cyrus's personal involvement in design versus delegation to architects is unknown."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Nabonidus Chronicle",
+            "Herodotus, Histories, Book 1",
+            "Briant, From Cyrus to Alexander (2002)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Cyrus planned and executed the sequential conquest of three major empires (Media, Lydia, Babylon), each requiring different strategic approaches. The Babylonian campaign combined political subversion of anti-Nabonidus elements with rapid military advance, resulting in the capture of the greatest city in the world with minimal destruction. He coordinated campaigns across thousands of miles of diverse terrain over decades."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Stronach, Pasargadae (1978)",
+            "Briant, From Cyrus to Alexander (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Pasargadae's architectural program represents a distinctive artistic synthesis of Near Eastern traditions, and the Persian paradise garden tradition (pairidaeza) originated under Cyrus's patronage. However, this reflects cultural patronage rather than personal artistic creation. No literary, musical, or performative works are attributed to Cyrus."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence documents Cyrus providing medical aid or emergency treatment. There is no basis for scoring this domain."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Managing the logistics of multi-front imperial conquest — army provisioning, tribute calculation, garrison deployment — required analytical capacity, but no specific mathematical or analytical work is attributed to Cyrus individually. Era-normalized, a successful empire-builder would possess some baseline competence, but evidence is indirect."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Cyrus Cylinder",
+            "Briant, From Cyrus to Alexander (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Cyrus Cylinder mentions restoration of agricultural lands and waterways in Babylon. The development of the qanat irrigation system is associated with the early Achaemenid period. Persian royal gardens at Pasargadae demonstrate resource management. However, specific evidence of Cyrus's personal involvement in agricultural practices is absent; these likely represent delegated administration."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Herodotus, Histories 1.191",
+            "Stronach, Pasargadae (1978)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Low",
+          "justification": "The alleged diversion of the Euphrates River to facilitate the capture of Babylon (Herodotus 1.191) — if historical — demonstrates innovative engineering-type problem-solving. Additionally, the management of imperial communications and logistics across the largest empire yet seen required systemic thinking. The construction program at Pasargadae involved technically sophisticated water management. However, specific attribution to Cyrus personally versus his engineers is uncertain."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.79,
+    "general_competency_avg_0_10": 4.67,
+    "overall_normalized_equal_avg_0_10": 6.44,
+    "created_at": "2026-03-22T21:42:04.132Z",
+    "updated_at": "2026-03-22T21:42:04.145Z"
+  }
+}
+]

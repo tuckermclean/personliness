@@ -1,0 +1,394 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 194,
+  "fields": {
+    "name": "Leo Tolstoy",
+    "slug": "leo-tolstoy",
+    "bio_short": "Leo Tolstoy stands as one of history's supreme literary artists and moral philosophers, with exceptional creative and ethical-philosophical contributions that reshaped world literature and nonviolent resistance movements globally. His cultural-social impact is extraordinary — as author of War and Peace and Anna Karenina, and as inspiration to Gandhi and King. He scores highest in creative thinking, philosophical insight, moral growth, impact legacy, archetype resonance, and cultural relatability. His relational dimension is notably weak, marked by a deeply troubled marriage and conflicted pare",
+    "bio_long": "Count Lev Nikolayevich Tolstoy, usually referred to in English as Leo Tolstoy, was a Russian writer. He is regarded as one of the greatest and most influential authors of all time.",
+    "source_notes": "https://en.wikipedia.org/wiki/Leo_Tolstoy",
+    "image": "figures/330px-Leo_Tolstoy_1908_Portrait_283x4_cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Simmons, Leo Tolstoy (1946)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tolstoy served as an artillery officer in the Crimean War and coordinated multi-district famine relief operations in 1891-92, showing logistical competence. His analysis of military strategy in War and Peace demonstrates sophisticated understanding of how plans fail. However, he was not primarily a strategic actor, and his personal affairs (estate management, copyright disputes) often showed poor strategic judgment."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Berlin, The Hedgehog and the Fox (1953)",
+              "Morson, Hidden in Plain View: Narrative and Creative Potentials in War and Peace (1987)",
+              "Orwin (ed.), Cambridge Companion to Tolstoy (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "War and Peace (1869) and Anna Karenina (1877) revolutionized the novel form through unprecedented psychological realism, free indirect discourse at scale, and the integration of historical-philosophical argument with narrative fiction. There is a clear before/after difference in the European novel attributable to Tolstoy; writers from Thomas Mann to Virginia Woolf to Proust acknowledged his paradigm-shifting influence on literary technique."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Gandhi, An Autobiography (1927)",
+              "Orwin (ed.), Cambridge Companion to Tolstoy (2002)",
+              "Tolstoy, The Kingdom of God Is Within You (1894)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tolstoy's ethical writings — A Confession (1882), The Kingdom of God Is Within You (1894), What I Believe (1884) — articulated a coherent Christian anarchist philosophy of nonviolent resistance that directly influenced Gandhi (who corresponded with Tolstoy in 1909-10) and through Gandhi influenced Martin Luther King Jr. and global nonviolent movements. His moral philosophy transcended his own community and era, reshaping political ethics across civilizations."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Maude, The Life of Tolstoy (1908-10)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tolstoy managed his estate at Yasnaya Polyana, established experimental peasant schools (1859-62) with an innovative pedagogical journal, and co-founded the Posrednik (Intermediary) publishing house in 1885 for cheap edifying literature. However, his schools closed after a few years, his estate management was often neglected or contentious, and none of these systems endured robustly beyond his direct involvement."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Maude, The Life of Tolstoy (1908-10)",
+              "Wilson, Tolstoy: A Biography (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tolstoy inhabited multiple relational modes: spouse (to Sophia), parent (to 13 children), child/ward (raised by aunt Tatyana Yergolskaya after orphanhood), friend (deep friendship and famous quarrel with Turgenev, friendship with Fet), adversary (conflict with the Orthodox Church hierarchy), mentor/superior (to Tolstoyan followers, peasant students), subordinate (military service as junior officer), and stranger (engagement with peasants, visitors, correspondents worldwide including Gandhi). He demonstrated qualitatively different behaviors across these modes — deferential as a young officer, domineering as a patriarch, tender with children, intellectually combative with peers. However, a moralizing/dominating tendency pervaded many of his later relationships."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Tolstoy, Sophia, My Life (memoirs)",
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Wilson, Tolstoy: A Biography (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tolstoy's 48-year marriage to Sophia Behrs (1862-1910) shows a deeply mixed arc. Early years featured genuine passion and intellectual partnership — Sophia hand-copied War and Peace multiple times and was an essential collaborator. However, after his spiritual conversion in the late 1870s, the marriage deteriorated severely. He insisted she read his youthful sexual diaries before marriage (causing lasting trauma), engaged in bitter disputes over property and copyright, allied with his disciple Chertkov against her interests, and ultimately fled the marriage at 82. The arc shows mutual respect declining into mutual torment. Without the later cruelty, early partnership might score 2; with it fully weighted, 1."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Simmons, Leo Tolstoy (1946)",
+              "Tolstoy, Sophia, My Life (memoirs)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tolstoy fathered 13 children and was an engaged father in some respects — he taught them, played with them, and involved them in estate life. His pedagogical work with peasant children (1859-62) showed genuine mentoring innovation. His daughter Alexandra became a significant public figure. However, his spiritual conversion created deep family divisions; several children were estranged, his son Lev Jr. publicly criticized him, and the household was marked by conflict. His relationship with disciple Chertkov became arguably controlling and co-dependent, displacing family bonds. The record does not consistently show mentees developing genuine autonomy."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Orwin (ed.), Cambridge Companion to Tolstoy (2002)",
+              "Berlin, The Hedgehog and the Fox (1953)",
+              "Gandhi, An Autobiography (1927)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tolstoy's literary works remain central to world literature in every major language; War and Peace and Anna Karenina are consistently ranked among the greatest novels ever written. His philosophical influence on nonviolent resistance shaped the 20th century through Gandhi's Indian independence movement and King's US civil rights movement. His literary techniques influenced the entire trajectory of the modern novel across European, American, and Asian literary traditions. Though only 115 years since his death (the 500-year criterion cannot be literally confirmed), the trajectory of his influence is unmistakable and cross-civilizational."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Wilson, Tolstoy: A Biography (2001)",
+              "Bartlett, Tolstoy: A Russian Life (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tolstoy is recognized globally as an archetype of the 'great writer' and the 'prophet who renounces worldly wealth.' His iconic image — the long-bearded patriarch in peasant blouse — is recognizable across cultures far beyond Russia. He functions as a symbol of moral seriousness in literature, of the artist as conscience of society, and of the wealthy person who sacrifices privilege for principle. This archetypal recognition extends across European, South Asian (via Gandhi), East Asian, and American cultures."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Simmons, Leo Tolstoy (1946)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tolstoy established peasant schools at Yasnaya Polyana (1859-62), the pedagogical journal Yasnaya Polyana, and co-founded the Posrednik publishing house (1885). His pedagogical ideas influenced progressive education broadly. However, his schools closed after roughly three years, the Tolstoyan communes dissolved within a generation, and none of his directly-founded institutions survived two generations with recognizable continuity. The Posrednik press lasted longer but evolved well beyond his vision."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Gandhi, An Autobiography (1927)",
+              "Maude, The Life of Tolstoy (1908-10)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tolstoy inspired and led the Tolstoyan movement, which established agricultural communes across Russia and abroad. He coordinated large-scale famine relief in 1891-92, mobilizing resources and volunteers across multiple districts. He influenced political leaders across cultures (Gandhi corresponded with him; his ideas shaped Czech, Hungarian, and Japanese intellectual movements). However, his Tolstoyan communes mostly failed organizationally, and he was more an inspirational/prophetic leader than a successful organizational one. He led effectively in crisis (famine) but less consistently in institutional contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Bulgakov, The Last Year of Leo Tolstoy (1911)",
+              "Tolstoy, Sophia, My Life (memoirs)",
+              "Maude, The Life of Tolstoy (1908-10)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At the height of his global fame, Tolstoy plowed fields alongside peasants, made his own boots (learning cobbling in his 50s), chopped wood, cleaned his own room, and carried water. His diaries record mundane activities — interactions with village children, mending clothes, walks in the forest. He played with his grandchildren and engaged in physical labor daily. Multiple sources (Sophia's diaries, secretary Bulgakov's memoirs, visitor accounts) confirm this was genuine daily practice, not performance."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Tolstoy, I Cannot Be Silent (1908)",
+              "Wilson, Tolstoy: A Biography (2001)",
+              "Bartlett, Tolstoy: A Russian Life (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tolstoy advocated consistently for peasant land rights, wrote against capital punishment (I Cannot Be Silent, 1908, protesting mass executions), and supported the Doukhobors against state persecution. He attempted to renounce his estate and copyright to his works, ruling against his family's financial interest in favor of principle. However, this renunciation was incomplete — he transferred copyright to his daughter and disciple Chertkov in ways that generated bitter family conflict rather than clean principled action. The pattern shows strong justice orientation with imperfect execution."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Tolstoy, Sophia, My Life (memoirs)",
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Simmons, Leo Tolstoy (1946)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tolstoy demonstrated tangible compassion through founding peasant schools, organizing famine relief in Ryazan province in 1891-92 (feeding thousands), advocating for persecuted Doukhobors (helping fund their emigration to Canada), and writing against capital punishment. However, a serious counterexample exists: his treatment of his wife Sophia was often cruel in later decades — he made her copy diaries detailing past sexual exploits, engaged in bitter property disputes, and ultimately fled the marriage. Without this counterexample, score would be 3 (compassion toward outgroups is well-documented). With it fully weighted, the pattern is genuinely mixed, warranting 2."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Tolstoy, Sevastopol Sketches (1855)",
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Maude, The Life of Tolstoy (1908-10)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tolstoy volunteered for dangerous artillery duty at the Fourth Bastion during the Siege of Sevastopol (1854-55), one of the most perilous positions in the Crimean War, serving under fire for months. Later, he published works banned by the censor (The Kingdom of God Is Within You circulated underground), was excommunicated by the Russian Orthodox Church in 1901 and did not recant, and maintained radical positions knowing his followers were imprisoned for distributing his works. This represents sustained courage across military and intellectual/political domains. His aristocratic fame shielded him from the worst consequences of his later defiance, which mitigates but does not negate the willingness."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Tolstoy, A Confession (1882)",
+              "Tolstoy, Diaries (various years, published posthumously)",
+              "Bartlett, Tolstoy: A Russian Life (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tolstoy's moral transformation is one of the most thoroughly documented in history. In A Confession (1882) he explicitly catalogued his youthful gambling debts, sexual profligacy, vanity, and complicity in violence during military service. His spiritual crisis of the late 1870s led to a wholesale reversal: from aristocratic novelist to radical pacifist, vegetarian, manual laborer, and critic of institutional religion. Visible behavioral changes included adopting peasant dress, making his own boots, attempting to renounce property, and ceasing to write fiction for years. His diaries (published posthumously) are extraordinarily self-critical across decades."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Tolstoy, A Confession (1882)",
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Simmons, Leo Tolstoy (1946)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tolstoy endured the material and physical dangers of the Crimean War (months under fire at Sevastopol), the deaths of multiple children (at least five of his thirteen children died, several in infancy), and a profound existential-spiritual crisis in his late 40s/early 50s in which he describes hiding ropes and guns from himself (A Confession). He continued producing major works through and after each ordeal. However, during his spiritual crisis he was significantly debilitated, and his flight from home at 82 suggests ongoing existential distress rather than fully effective functioning under adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Berlin, The Hedgehog and the Fox (1953)",
+              "Wilson, Tolstoy: A Biography (2001)",
+              "Bartlett, Tolstoy: A Russian Life (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tolstoy inhabited strikingly contradictory roles: wealthy aristocrat / advocate for peasant poverty; great artist / denouncer of art; military veteran / radical pacifist; family patriarch of 13 children / preacher of sexual abstinence; sensualist / ascetic. His late philosophy attempted to reconcile these tensions into a coherent Christian anarchist worldview. However, the family vs. asceticism tension was never resolved — his final flight from home represents a fracturing rather than integration. He inhabited at least four contradictory role-pairs but arguably fragmented under their weight rather than fully integrating them."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Tolstoy, The Death of Ivan Ilyich (1886)",
+              "Bulgakov, The Last Year of Leo Tolstoy (1911)",
+              "Bartlett, Tolstoy: A Russian Life (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tolstoy engaged with mortality more profoundly than almost any writer — The Death of Ivan Ilyich (1886) is one of literature's supreme meditations on dying. On his deathbed at Astapovo station in November 1910, he reportedly showed periods of composure and stated philosophical acceptance. However, his lifelong fear of death is extensively documented in his diaries, and his dramatic midnight flight from Yasnaya Polyana at age 82 — which precipitated his death — suggests ongoing existential turmoil rather than serene acceptance. The pattern is deep engagement with mortality alongside persistent anxiety about it."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Maude, The Life of Tolstoy (1908-10)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tolstoy was renowned for physical vitality across his lifespan. He served in active combat in the Crimean War in his 20s, was an avid horseman and hunter through middle age, swam and did gymnastics, performed heavy agricultural labor into his 60s and 70s, and famously learned to ride a bicycle at age 67. He remained physically active into his 80s, walking several miles daily shortly before his death. Multiple life-stages of documented physical capacity."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Tolstoy, What Is Art? (1897)",
+              "Bartlett, Tolstoy: A Russian Life (2011)",
+              "Maude, The Life of Tolstoy (1908-10)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tolstoy wept listening to Chopin and was deeply moved by music throughout his life. He enjoyed horseback riding, hunting, tennis, swimming, and card games (in youth). He learned to ride a bicycle at 67 for pure enjoyment. He played actively with children and grandchildren. These engagements appear non-instrumental. However, in his later moral phase he wrote What Is Art? (1897), denouncing most art as decadent and renouncing many pleasures as immoral, creating a tension between genuine aesthetic appreciation and its philosophical rejection."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.66,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Leo Tolstoy",
+      "overall": {
+        "Core_5D_Avg": 6.66,
+        "Overall_Normalized_Equal_Avg": 6.33,
+        "General_Competency_Avg_10scale": 4.67
+      },
+      "summary": "Leo Tolstoy stands as one of history's supreme literary artists and moral philosophers, with exceptional creative and ethical-philosophical contributions that reshaped world literature and nonviolent resistance movements globally. His cultural-social impact is extraordinary — as author of War and Peace and Anna Karenina, and as inspiration to Gandhi and King. He scores highest in creative thinking, philosophical insight, moral growth, impact legacy, archetype resonance, and cultural relatability. His relational dimension is notably weak, marked by a deeply troubled marriage and conflicted parenthood. Heinlein competencies show genuine breadth — military combat, manual craft, agricultural labor — but with gaps in medical, culinary, and technical domains. A towering achiever undermined in intimate relationships. Core 5D Avg: 6.66; Heinlein Avg: 4.67; Overall: 6.33.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.4,
+          "General_Competency_Avg_10scale": 4.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence documents Tolstoy personally cooking meals. His household employed servants and cooks; Sophia managed the domestic kitchen. While he adopted vegetarianism after his conversion and had opinions about diet, there are no documented instances of him preparing meals. His engagement with food was philosophical (advocacy of simple diet) rather than culinary."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Tolstoy, Sevastopol Sketches (1855)",
+            "Bartlett, Tolstoy: A Russian Life (2011)",
+            "Simmons, Leo Tolstoy (1946)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Tolstoy served in active combat during the Crimean War (1854-55), commanding an artillery battery at the Siege of Sevastopol under sustained enemy fire. He participated in the Battle of the Chernaya River and multiple skirmishes in the Caucasus (1851-53). He was an experienced hunter with firearms proficiency. His Sevastopol Sketches demonstrate firsthand knowledge of combat. He showed competence under fire across multiple engagements over several years."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Bartlett, Tolstoy: A Russian Life (2011)",
+            "Simmons, Leo Tolstoy (1946)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Tolstoy organized and personally participated in famine relief in Ryazan province (1891-92), feeding thousands of peasants through soup kitchens. He taught peasant children at his Yasnaya Polyana schools (1859-62), providing direct care and instruction. He was involved in raising his 13 children, though the quality of that care deteriorated in later years. His engagement with the sick and dying is documented in visitor accounts."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Bulgakov, The Last Year of Leo Tolstoy (1911)",
+            "Tolstoy, A Confession (1882)",
+            "Bartlett, Tolstoy: A Russian Life (2011)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Tolstoy faced death and crisis repeatedly with significant composure: he remained functional under artillery fire at Sevastopol, endured the deaths of multiple children while continuing to work, and on his deathbed at Astapovo station reportedly maintained periods of philosophical acceptance. However, his lifelong death-anxiety (documented extensively in his diaries) and his dramatic midnight flight from home at 82 suggest that full composure eluded him. The pattern is one of struggling toward composure rather than effortless equanimity."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Bulgakov, The Last Year of Leo Tolstoy (1911)",
+            "Bartlett, Tolstoy: A Russian Life (2011)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Tolstoy famously learned cobbling (bootmaking) in his 50s and produced wearable boots, a skill he practiced regularly. He mended clothes, performed basic woodworking, and engaged in various manual crafts as part of his commitment to peasant labor. Visitor accounts and photographs document him working with tools at his cobbler's bench. This represents genuine, practiced manual skill, not mere dabbling."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Tolstoy, The Cossacks (1863)",
+            "Bartlett, Tolstoy: A Russian Life (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Tolstoy traveled extensively through the Caucasus mountains during his military service (1851-54), navigated rural Russian terrain on horseback, and later traveled across Russia for famine relief work. His Caucasus writings (The Cossacks, Hadji Murad) demonstrate familiarity with mountain terrain navigation. However, navigation was not a distinctive skill; he traveled primarily on established routes with military or estate resources."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Bartlett, Tolstoy: A Russian Life (2011)",
+            "Maude, The Life of Tolstoy (1908-10)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Tolstoy was an avid hunter in his youth and middle years, which in 19th-century rural Russia entailed direct handling and processing of game. He managed an estate with livestock. After his moral conversion, he became a vegetarian and renounced hunting, but his earlier experience with animal husbandry and game processing is documented in his stories (e.g., the hunting scenes in War and Peace and Anna Karenina reflect firsthand knowledge)."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Bartlett, Tolstoy: A Russian Life (2011)",
+            "Maude, The Life of Tolstoy (1908-10)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Tolstoy demonstrated both giving and taking orders: he served as a subordinate artillery officer in the Crimean War, following military discipline and chain of command. He later led the Tolstoyan movement, directed famine relief operations, and commanded a large household. He gave effective direction to the Posrednik publishing enterprise. The range from obedient junior officer to international movement leader shows both capacities, though his later leadership style could be domineering."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Maude, The Life of Tolstoy (1908-10)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Tolstoy participated in manual labor on his estate, including basic construction and repair tasks alongside peasants. His commitment to physical labor after his conversion included building and maintenance work. However, there is no documented evidence of him designing or independently constructing durable structures; his construction involvement was participatory rather than skilled."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Tolstoy, Sevastopol Sketches (1855)",
+            "Bartlett, Tolstoy: A Russian Life (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Tolstoy served as an artillery officer during the Crimean War, commanding gun batteries at the Siege of Sevastopol. He coordinated multi-district famine relief in 1891-92 involving logistics of food supply and volunteer management. However, these were relatively limited command contexts; he was not a senior military or organizational leader, and his estate management was often disorganized."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Orwin (ed.), Cambridge Companion to Tolstoy (2002)",
+            "Berlin, The Hedgehog and the Fox (1953)",
+            "Nabokov, Lectures on Russian Literature (1981)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Tolstoy is widely regarded as one of the greatest novelists in human history. War and Peace (1869), Anna Karenina (1877), The Death of Ivan Ilyich (1886), and Hadji Murad (1912) are masterworks of world literature. He also wrote plays (The Power of Darkness), philosophical essays, children's stories, and pedagogical texts. His artistic output spans multiple genres and represents the highest level of literary achievement across any era."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No specific evidence documents Tolstoy providing medical treatment or emergency medical response. While he would have witnessed battlefield medicine during the Crimean War, there are no accounts of him personally treating wounds or illness in a medical capacity. His famine relief work was organizational rather than medical."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Morson, Hidden in Plain View (1987)",
+            "Bartlett, Tolstoy: A Russian Life (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Tolstoy studied mathematics briefly at Kazan University (though he dropped out) and his discussions of probability and historical causation in War and Peace show genuine analytical reasoning about complex systems. He managed estate finances (with mixed success). However, mathematics and formal logic were not strengths; his reasoning was primarily literary-philosophical rather than quantitative."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Bartlett, Tolstoy: A Russian Life (2011)",
+            "Maude, The Life of Tolstoy (1908-10)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Tolstoy managed the Yasnaya Polyana estate for decades, overseeing crop cultivation, livestock, and forestry. He personally plowed fields, sowed grain, and harvested alongside peasants — documented by photographs, visitor accounts, and family memoirs. He experimented with agricultural methods and wrote about land reform. His engagement was hands-on and sustained, though his management was sometimes neglected during periods of literary or philosophical preoccupation."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Bartlett, Tolstoy: A Russian Life (2011)",
+            "Simmons, Leo Tolstoy (1946)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Tolstoy developed an innovative pedagogical system for his peasant schools, incorporating progressive methods that anticipated later educational reform. He established the Posrednik publishing system for mass distribution of affordable literature. These show systemic problem-solving ability. However, he did not engage with the technical or scientific tools of his era in any notable way; his problem-solving was organizational and intellectual rather than technical."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.66,
+    "general_competency_avg_0_10": 4.67,
+    "overall_normalized_equal_avg_0_10": 6.33,
+    "created_at": "2026-03-22T22:05:49.228Z",
+    "updated_at": "2026-03-22T22:05:49.244Z"
+  }
+}
+]

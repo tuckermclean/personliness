@@ -1,0 +1,366 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 124,
+  "fields": {
+    "name": "Frida Kahlo",
+    "slug": "frida-kahlo",
+    "bio_short": "Kahlo scores exceptionally in Embodied-Existential dimensions — hardship tolerance, joy, mortality acceptance, and paradox integration are all defining traits. Her creative/innovative thinking produced a genuine paradigm shift in autobiographical art. She is a global archetype of resilient suffering and defiant vitality. Cognitive and Heinlein competency breadth are limited by her specialization and physical constraints, though her artistic and existential competencies are among the highest in the historical record. Relational life was intense and wide-ranging but marked by spousal dysfunction",
+    "bio_long": "Magdalena Carmen Frida Kahlo y Calderón was a Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico. Inspired by the country's popular culture, she employed a naïve folk art style to explore questions of identity, postcolonialism, gender, class, and race in Mexican society. Her paintings often had strong autobiographical elements and mixed realism with fantasy. In addition to belonging to the post-revolutionary Mexicayotl movement, which sought to define a Mexican identity, Kahlo has been described as a surrealist or magical realist. She is also known for painting about her experience of chronic pain. Her 1940 self-portrait titled The Dream  holds the record for the most expensive work by a female artist ever auctioned at $54.7 million.",
+    "source_notes": "https://en.wikipedia.org/wiki/Frida_Kahlo",
+    "image": "figures/330px-Frida_Kahlo2C_by_Guillermo_Kahlo.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Zamora, Martha. *Frida Kahlo: The Brush of Anguish* (1990)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Kahlo showed adaptive resourcefulness — painting from bed with a mirror-mounted easel after her accident, cultivating André Breton and Julien Levy to secure New York and Paris exhibitions — but these are narrow, career-level adaptations, not multi-domain strategic foresight. No documented cases of managing large-scale uncertainty or recovering from failed plans in the political/organizational sense."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Ankori, Gannit. *Frida Kahlo* (2002)",
+              "Breton, André. 'Frida Kahlo de Rivera,' preface to New York exhibition catalog (1938)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Kahlo created a genuinely new artistic mode: the fusion of Mexican folk art, ex-voto tradition, surrealist imagery, and unflinching autobiographical content about the female body, pain, and desire. Before Kahlo, raw autobiographical painting about female corporeal experience was not a recognized artistic genre; after her, it became a major current in feminist and confessional art (influencing artists from Ana Mendieta to Tracey Emin). André Breton identified her as a surrealist, but she insisted 'I never painted dreams. I painted my own reality,' marking a conscious paradigm distinction."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Barnet-Sanchez, Holly. 'Frida Kahlo: Her Life and Art Revisited,' in *Third Woman* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Kahlo's paintings — 'The Two Fridas' (1939), 'My Birth' (1932), 'The Broken Column' (1944) — articulate profound explorations of identity, bodily autonomy, colonialism, and gendered suffering that anticipated feminist and postcolonial theory by decades. Her diary engages seriously with Marxist thought and indigenous Mexican cosmology. However, she did not produce systematic philosophical writing; her insights were visual and experiential, reaching beyond her community primarily through later scholarly interpretation (e.g., by Chicana feminists in the 1970s–80s)."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Kahlo held no administrative or legislative position. She taught briefly at La Esmeralda (1943–44) but moved classes to Casa Azul due to her health; she created no lasting organizational systems. Her political activism was participatory (Communist Party membership, protest attendance), not organizational."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Zamora, Martha. *Frida Kahlo: The Brush of Anguish* (1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Kahlo inhabited at least six qualitatively distinct relational modes with documented, differentiated behavior: (1) spouse — the intense, stormy, co-dependent dynamic with Rivera; (2) lover — passionate, distinct relationships with Trotsky, Nickolas Muray, Josephine Baker, and others; (3) daughter — close, tender relationship with her photographer father Guillermo, who taught her art and encouraged her independence; (4) teacher/mentor — nurturing, egalitarian approach with Los Fridos; (5) friend — warm, humorous bonds with figures like Lucienne Bloch and Emmy Lou Packard; (6) political comrade — disciplined party member; (7) host — sheltering Trotsky. Her relational style varied markedly across these modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Zamora, Martha. *Frida Kahlo: The Brush of Anguish* (1990)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kahlo's marriage to Diego Rivera (1929–39, 1940–54) was marked by mutual artistic admiration and genuine emotional depth, but also by Rivera's affair with Kahlo's sister Cristina, Kahlo's retaliatory affairs, jealousy, co-dependency, and Rivera's controlling behavior. Kahlo called their marriage her 'second accident.' The remarriage in 1940 showed growth (financial independence, renegotiated terms), and there was real mutual support during medical crises. However, the persistent pattern of infidelity, emotional volatility, and periods of dysfunction prevent a higher score. Without the counterexamples of betrayal, this might be 2 given the emotional intensity and durability; with them, 1 is appropriate."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Ankori, Gannit. *Frida Kahlo* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Kahlo had no surviving children (multiple miscarriages documented in paintings like 'Henry Ford Hospital,' 1932). As a teacher at La Esmeralda, she mentored 'Los Fridos' — Fanny Rabel, Arturo García Bustos, Guillermo Monroy, and Arturo Estrada — with an unconventional, nurturing approach, inviting them to Casa Azul and encouraging individual artistic development. Several went on to significant careers, particularly Rabel and García Bustos, suggesting genuine autonomy rather than mere replication. The mentoring was limited in scope (a small group over ~2 years) but qualitatively strong."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Lindauer, Margaret A. *Devouring Frida* (1999)",
+              "Ankori, Gannit. *Frida Kahlo* (2002)",
+              "Baddeley, Oriana. 'Her Dress Hangs Here,' in *Oxford Art Journal* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Kahlo's impact is now global and multi-civilizational: she is an icon in feminist movements worldwide, in LGBTQ+ communities, in Chicano/a and Latin American identity politics, and in popular culture (fashion, merchandise, film). Her face is among the most recognized of any artist. Her work set a $54.7 million auction record. However, the 500-year criterion for a score of 3 cannot be met — she died in 1954. Her current trajectory of influence (~70 years) is extraordinary and accelerating, but durability beyond centuries remains to be proven."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Lindauer, Margaret A. *Devouring Frida* (1999)",
+              "Baddeley, Oriana. 'Her Dress Hangs Here,' *Oxford Art Journal* (1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Kahlo is recognized as an archetype of the suffering artist, the defiant woman, and the resilient body across cultures far beyond Mexico. Her image (unibrow, flower crown, Tehuana dress) is one of the most recognizable artistic icons worldwide. She functions as a symbol in feminism, disability rights, LGBTQ+ pride, and Latin American identity in East Asia, Europe, Africa, and the Americas. 'Fridamania' as a cultural phenomenon has been studied as a distinct case of cross-cultural archetypal projection."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kahlo did not deliberately build lasting institutions. Casa Azul became the Museo Frida Kahlo after her death (1958), but this was Diego Rivera's initiative, not hers. Her informal school of students 'Los Fridos' continued to work in her spirit but did not constitute a formal, enduring institution. She contributed to the Mexicanidad cultural movement but did not found or organize it."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Ankori, Gannit. *Frida Kahlo* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "During her lifetime, Kahlo was an influential presence in Mexican cultural and leftist political circles, hosting salons at Casa Azul and shaping the Mexicanidad aesthetic. She led her students ('Los Fridos') with a distinctive pedagogical approach, taking them into the streets to paint murals. She was respected in international avant-garde circles (exhibited in New York, Paris). However, her influence was primarily cultural and interpersonal rather than organizational or mass-mobilizing, and her greatest influence came posthumously."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Rivera, Guadalupe & Colle, Marie-Pierre. *Frida's Fiestas: Recipes and Reminiscences of Life with Frida Kahlo* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Even at the height of her fame, Kahlo wore traditional Tehuana dress daily, cooked elaborate Mexican meals (her recipes have been published posthumously), tended her garden at Casa Azul, kept pet spider monkeys (Fulang-Chang, Caimito de Guayabal), parrots, and xoloitzcuintli dogs, and engaged in bawdy humor and tequila-drinking with friends. She mended clothes, arranged flowers, and maintained deep connections to her Coyoacán neighborhood. Her art drew constantly on everyday Mexican imagery — fruit, animals, domestic objects."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Lindauer, Margaret A. *Devouring Frida: The Art History and Popular Celebrity of Frida Kahlo* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Kahlo was a lifelong communist who joined the Mexican Communist Party, actively supported workers' and indigenous rights, and used her art to engage with class and racial inequality. She attended the anti-CIA Guatemala protest shortly before death. Her art championed mestizo and indigenous identity against European aesthetic norms. However, there is limited documented evidence of her ruling against personal or group interest in favor of abstract principle — her justice orientation was consistent but expressed through art and political affiliation rather than specific impartial adjudication."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Zamora, Martha. *Frida Kahlo: The Brush of Anguish* (1990)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Kahlo sheltered Leon Trotsky — a foreign political exile and ideological outsider to Mexican nationalism — in Casa Azul (1937–39), an act of tangible compassion toward an outgroup member at personal and political risk. She was nurturing toward her students 'Los Fridos,' inviting them into her home and supporting their development. Her art expressed deep empathy for the suffering of the poor and indigenous peoples. However, counterexamples exist: her affairs caused significant pain to Rivera and others, and her relationship dynamics could be manipulative. Without the counterexample, score would be 3; with it, 2 is appropriate given the pattern of interpersonal harm alongside broader empathy."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Ankori, Gannit. *Frida Kahlo* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Kahlo endured polio at age 6, a catastrophic bus accident at 18 (broken spine, pelvis, ribs, collarbone, crushed foot, punctured abdomen), 30+ surgeries, multiple miscarriages, chronic pain, and leg amputation in 1953 — and through all of this continued to paint, love, and engage politically. She was openly bisexual in conservative mid-century Mexico. Her final public act was attending a protest against the CIA-backed Guatemalan coup in a wheelchair, 11 days before her death (July 2, 1954). This represents sustained courage across physical, artistic, sexual, and political domains."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Kahlo, Frida. *The Diary of Frida Kahlo: An Intimate Self-Portrait* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Kahlo demonstrated growth through her divorce from Rivera in 1939 and remarriage in 1940 on renegotiated terms (financial independence, no sexual obligations), reflecting a meaningful behavioral change after processing the pain of his affair with her sister Cristina. Her diary shows self-aware wrestling with her contradictions and destructive patterns. She acknowledged vulnerability and failure openly in her art — 'A Few Small Nips' (1935) processed Rivera's betrayal with raw honesty. However, some destructive patterns (alcoholism, dependency) persisted rather than being fully overcome."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Ankori, Gannit. *Frida Kahlo* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Kahlo functioned effectively across at least four qualitatively different forms of adversity: (1) chronic physical pain and disability from the 1925 accident and 30+ surgeries; (2) personal bereavement from multiple miscarriages and inability to bear children; (3) emotional devastation from Rivera's affair with her sister Cristina; (4) material constraints during periods of separation from Rivera. Through all of these she continued to produce major artworks, maintain relationships, and participate in political life. 'The Broken Column' (1944) and 'Henry Ford Hospital' (1932) document her capacity to transform suffering into creative function."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Ankori, Gannit. *Frida Kahlo* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Kahlo inhabited at least five seemingly contradictory roles without incoherence: (1) sufferer of chronic pain and exuberant celebrant of life; (2) deeply rooted Mexican traditionalist and cosmopolitan avant-garde artist; (3) devoted wife and fiercely independent woman with multiple lovers; (4) politically committed communist and intensely personal/confessional artist; (5) physically broken body and source of powerful creative vitality. These paradoxes were not sequential phases but simultaneous, integrated aspects of her identity — visible in single paintings like 'The Two Fridas' (1939)."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Kahlo, Frida. *The Diary of Frida Kahlo* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Kahlo engaged with death throughout her art — skulls, skeletons, and Day of the Dead imagery recur in works like 'The Dream' (1940) and 'Thinking about Death' (1943). Her diary's final entry reads: 'I hope the exit is joyful and I hope never to return — Frida.' She painted 'Viva la Vida' (Long Live Life) in her final days, a vivid affirmation written on watermelons. She attended the Guatemala protest 11 days before death despite critical illness. Whether her death was from pulmonary embolism or intentional overdose, her documented composure and intentionality in her final weeks meet the criterion for score 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kahlo's body was severely compromised from childhood polio, the 1925 bus accident, and decades of surgery. She required a wheelchair in later years and her right leg was amputated in 1953. She was not known for physical prowess. However, the sheer physical survival through 30+ surgeries and continued manual work (painting) despite a broken spine and chronic pain represents notable endurance of a biological kind, preventing a score of 0. The primary physical skill domain — fine painting — she maintained into her final year."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+              "Bloch, Lucienne. Diary and photographs (1930s)",
+              "Kahlo, Frida. *The Diary of Frida Kahlo* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Kahlo's love of beauty and play was non-instrumental and well-documented: she decorated Casa Azul in vivid blues, yellows, and reds; collected Mexican folk art and pre-Columbian artifacts for personal delight; kept exotic pets she adored (naming her spider monkeys); dressed in elaborate Tehuana ensembles with genuine pleasure; hosted raucous dinner parties; had a notoriously ribald sense of humor recorded by friends like Lucienne Bloch; and sang corridos and rancheras. Her final painting, 'Viva la Vida' (watermelons), is a celebration of sensory pleasure created days before death."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.0,
+          "Relational": 6.67,
+          "Core_5D_Avg": 7.03,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Frida Kahlo",
+      "overall": {
+        "Core_5D_Avg": 7.03,
+        "Overall_Normalized_Equal_Avg": 6.49,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "Kahlo scores exceptionally in Embodied-Existential dimensions — hardship tolerance, joy, mortality acceptance, and paradox integration are all defining traits. Her creative/innovative thinking produced a genuine paradigm shift in autobiographical art. She is a global archetype of resilient suffering and defiant vitality. Cognitive and Heinlein competency breadth are limited by her specialization and physical constraints, though her artistic and existential competencies are among the highest in the historical record. Relational life was intense and wide-ranging but marked by spousal dysfunction. Her legacy, though not yet 500 years old, is operative across multiple civilizations and growing.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Rivera, Guadalupe & Colle, Marie-Pierre. *Frida's Fiestas* (1994)",
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Kahlo was an accomplished cook of traditional Mexican cuisine, known for elaborate meals at Casa Azul featuring mole, chiles en nogada, and other complex dishes. Her stepdaughter Guadalupe Rivera co-authored 'Frida's Fiestas,' documenting her recipes and food culture. The kitchen at Casa Azul (with Kahlo's name spelled in pottery on the wall) was a central domestic space. Cooking was both a cultural practice and a source of personal pride."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No documented evidence of combat training or defensive skills. Photographs occasionally show Kahlo holding a pistol, but these appear performative rather than indicative of combat competency. No record of self-defense training or participation in physical conflict."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Kahlo cared devotedly for her many pets (spider monkeys Fulang-Chang and Caimito de Guayabal, xoloitzcuintli dogs, parrots), nurtured her students at Casa Azul, and was described by friends as emotionally generous in caregiving despite her own constant need for care. She nursed Rivera through illnesses. However, her own dependency on care from others and the absence of child-rearing experience limit the score."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+            "Kahlo, Frida. *The Diary of Frida Kahlo* (1995)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Kahlo faced her own mortality with extraordinary composure throughout her life and especially at its end. Her diary's final entry — 'I hope the exit is joyful and I hope never to return' — and her final painting 'Viva la Vida' (Long Live Life) inscribed on bright watermelons, created in her last days, demonstrate profound composure before imminent death. She attended the Guatemala protest in a wheelchair 11 days before dying. Her entire artistic oeuvre constitutes a sustained, dignified confrontation with mortality."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Kahlo's painting required precise manual skill, which she maintained despite severe physical impairment. She prepared her own canvases and mixed pigments. She also made small craft objects and jewelry. Her father Guillermo taught her photography and retouching, skills involving manual precision. However, there is no evidence of broader repair, tool-making, or mechanical skills."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Kahlo traveled to San Francisco (1930), New York (1931, 1938), Detroit (1932), and Paris (1939), navigating foreign cities and cultures. However, she typically traveled with Rivera or friends and was not responsible for route-finding or expedition-level navigation. The travel demonstrates adaptability rather than navigation skill per se."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Rivera, Guadalupe & Colle, Marie-Pierre. *Frida's Fiestas* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Kahlo kept and managed numerous animals at Casa Azul and was familiar with Mexican food preparation traditions, which in her era and context included processing raw ingredients. Her cookbook-related legacy suggests familiarity with handling animal and food products, but no evidence of butchering or primary food processing as a skilled practice."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Kahlo demonstrated both leadership (as a teacher inspiring Los Fridos, as a cultural figure in Mexican art circles, as a presence in political salons) and followership (disciplined Communist Party membership, deference to party directives, following Rivera in some joint ventures). She gave direction to students and took direction from political organizations, showing capacity in both modes."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No documented evidence of Kahlo designing or building physical structures. Casa Azul was her family home, later modified under Rivera's direction. She did not engage in construction or fabrication as a practice."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of military, operational, or large-scale strategic planning. Kahlo managed her artistic career and household logistics, but these do not rise to the level of coordinating complex operations under constraints in any documented way."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)",
+            "Ankori, Gannit. *Frida Kahlo* (2002)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Kahlo produced approximately 200 paintings, including ~55 self-portraits, that are among the most celebrated in 20th-century art history. Works like 'The Two Fridas' (1939), 'Self-Portrait with Thorn Necklace and Hummingbird' (1940), and 'The Broken Column' (1944) represent exceptional artistic achievement. She holds the record for most expensive work by a female artist at auction ($54.7 million). Her synthesis of Mexican folk art, surrealism, and confessional autobiography created an entirely new artistic mode."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Although Kahlo had intended to study medicine before her 1925 accident and had extensive personal experience as a patient, there is no documented evidence of her providing medical aid or emergency response to others."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of mathematical, financial, or analytical reasoning as a competency. Kahlo attended the National Preparatory School with a pre-medical orientation before her accident, suggesting some science education, but no specific applications of numerical reasoning are recorded."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Kahlo maintained a garden at Casa Azul with fruit trees, flowers, and plants, and managed a household menagerie. This represents domestic-level agricultural skill appropriate to her context, but there is no evidence of large-scale cultivation or resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Herrera, Hayden. *Frida: A Biography of Frida Kahlo* (1983)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Kahlo adapted her artistic practice to severe physical constraints — using a specially designed bed-easel, positioning mirrors for self-portraits, developing techniques for painting while supine. She learned photography from her father Guillermo, a professional photographer. These represent creative technical problem-solving within her domain, but there is no evidence of broader technical or systemic capability."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.03,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 6.49,
+    "created_at": "2026-03-16T17:38:17.980Z",
+    "updated_at": "2026-03-16T17:38:18.046Z"
+  }
+}
+]

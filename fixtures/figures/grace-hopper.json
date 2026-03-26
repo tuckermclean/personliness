@@ -1,0 +1,362 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 141,
+  "fields": {
+    "name": "Grace Hopper",
+    "slug": "grace-hopper",
+    "bio_short": "A pioneering computer scientist and Navy rear admiral whose invention of the compiler and contributions to COBOL represent a genuine paradigm shift in computing. Exceptional cognitive creativity and technical problem-solving, strong leadership across military, corporate, and academic contexts. Moderate moral-affective and embodied-existential depth, with limited evidence in relational and many practical Heinlein domains owing to a life focused intensely on computing and military service. Her wit, humor, and mentoring partially offset a narrow competency breadth profile. A specialist of extraor",
+    "bio_long": "Grace Brewster Hopper was an American computer scientist, mathematician, and United States Navy rear admiral. She was a pioneer of computer programming. Hopper was the first to devise the theory of machine-independent programming languages, and used this theory to develop the FLOW-MATIC programming language and COBOL, an early high-level programming language still in use today. She was also one of the first programmers on the Harvard Mark I computer. She is credited with writing the first computer manual, \"A Manual of Operation for the Automatic Sequence Controlled Calculator.\"",
+    "source_notes": "https://en.wikipedia.org/wiki/Grace_Hopper",
+    "image": "figures/330px-Commodore_Grace_M._Hopper2C_USN_28covered29_head_and_shoulders_crop.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Beyer, Kurt W., *Grace Hopper and the Invention of the Information Age* (MIT Press, 2009)",
+              "Williams, Kathleen Broome, *Grace Hopper: Admiral of the Cyber Sea* (Naval Institute Press, 2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Hopper foresaw that computers would need to be accessible to non-mathematicians when the establishment believed they could only do arithmetic. When her 1952 compiler concept (A-0 system) was initially dismissed ('computers can only do arithmetic'), she adapted by demonstrating practical results with FLOW-MATIC and then pivoting to the CODASYL committee process to achieve COBOL standardization. However, her strategic vision was largely confined to the computing domain rather than spanning multiple unrelated fields."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Beyer, Kurt W., *Grace Hopper and the Invention of the Information Age* (MIT Press, 2009)",
+              "Ceruzzi, Paul, *A History of Modern Computing* (MIT Press, 2003)",
+              "Sammet, Jean E., *Programming Languages: History and Fundamentals* (Prentice-Hall, 1969)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hopper's development of the first compiler (A-0 system, 1952) represents a clear paradigm shift: before, programming meant writing machine code; after, human-readable instructions could be automatically translated. She then extended this with FLOW-MATIC (1958), the first programming language to use English-like syntax, which directly informed COBOL (1959). The before/after difference — from machine code to compiled high-level languages — is directly attributable to her foundational work and remains the basis of all modern software development."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Beyer, Kurt W., *Grace Hopper and the Invention of the Information Age* (MIT Press, 2009)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Hopper articulated important principles about democratizing computing access and famously warned against the complacency of 'We've always done it that way.' These are practical-professional insights rather than deep ethical or metaphysical contributions that influenced thinkers beyond her own community. Her ideas about accessibility were influential within computing culture but did not constitute a broader philosophical framework."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Williams, Kathleen Broome, *Grace Hopper: Admiral of the Cyber Sea* (Naval Institute Press, 2004)",
+              "Beyer, *Grace Hopper and the Invention of the Information Age*"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Hopper managed the programming team for the Mark I at Harvard, led compiler development at Remington Rand/Sperry, and played a central role in CODASYL's creation of COBOL standards. She later directed the Navy Programming Languages Group, establishing standardization protocols for Navy computing. COBOL itself endured far beyond her oversight and is still running critical financial systems today. However, she was not the sole architect of these institutional structures — she worked within larger organizational frameworks."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*",
+              "Beyer, *Grace Hopper and the Invention of the Information Age*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hopper functioned as a subordinate in the Navy chain of command, a superior managing programming teams, a colleague among peers at Harvard and Remington Rand, a teacher/mentor to students and junior programmers, and a public figure interacting with media and general audiences. This represents at least five relational modes. However, documentation of her as a friend, family member, or in adversarial relationships is thin — the record is dominated by her professional roles."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hopper married Vincent Foster Hopper, an NYU English professor, in 1930; they divorced in 1945 during the war years after she joined the Navy. She never remarried. The historical record contains very little about the quality of the marriage — Hopper herself rarely spoke about it publicly. The divorce coincided with her dramatic career shift into the Navy and computing. Evidence of mutual support during crisis or emotional availability is essentially absent from the record."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*",
+              "Beyer, *Grace Hopper and the Invention of the Information Age*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hopper had no children but was renowned as a mentor to generations of programmers. She invested extensively in teaching and public speaking, particularly to young people, throughout her career. Many successful computer scientists and Navy computing professionals cited her influence. She reputedly stayed after lectures to speak individually with students. However, specific documentation of individual mentees developing genuine autonomy (rather than general testimony of her inspirational quality) is limited in academic sources."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Ceruzzi, *A History of Modern Computing*",
+              "Beyer, *Grace Hopper and the Invention of the Information Age*"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Hopper's compiler concept and high-level programming language work are foundational to all modern software development, affecting billions of people globally. COBOL still processes an estimated 95% of ATM transactions and 80% of in-person transactions. However, the strict criterion of effects operative 500+ years later cannot yet be verified for a 20th-century figure. Her impact is civilizational in scale but temporally young. She is also one key contributor within a collective enterprise, not the sole creator of modern computing."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*",
+              "Beyer, *Grace Hopper and the Invention of the Information Age*"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Hopper has become an archetype of the pioneering woman in STEM: the USS Hopper (DDG-70) was named after her, Yale renamed Calhoun College to Grace Hopper College (2017), and the annual Grace Hopper Celebration of Women in Computing is the world's largest gathering of women technologists. She is widely recognized as a symbol of female achievement in technology. However, her archetypal resonance is primarily within Western and computing cultures rather than cross-civilizational."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Sammet, Jean E., *Programming Languages: History and Fundamentals* (1969)",
+              "Beyer, *Grace Hopper and the Invention of the Information Age*"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Hopper was instrumental in the CODASYL committee that created and maintained COBOL standards, an institutional framework that endured for decades. She established Navy computing standardization protocols that persisted well beyond her service. COBOL itself, as a maintained standard, survived many generations. However, she did not found a freestanding organization — her institutional contributions were embedded within larger structures (the Navy, CODASYL, corporate employers)."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Beyer, *Grace Hopper and the Invention of the Information Age*",
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*",
+              "Ceruzzi, *A History of Modern Computing*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Hopper led successfully across qualitatively different contexts: directing the Mark I programming team at Harvard during WWII (crisis), managing compiler development at Remington Rand/Sperry (corporate), heading the Navy Programming Languages Group (military/bureaucratic), and serving as a charismatic public advocate for computing education at hundreds of lectures and conferences (public influence). She mobilized the CODASYL committee toward COBOL standardization, uniting competing corporate and government interests. Her influence spanned small technical teams and shaped an entire profession."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*",
+              "Letterman, David, *Late Night with David Letterman* interview (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hopper was renowned for her wit, humor, and accessible communication style. Her nanosecond wire demonstration (handing out 11.8-inch pieces of wire representing the distance light travels in one nanosecond) was a masterful piece of grounded, tangible teaching. She was known for irreverent humor and storytelling even as a rear admiral. Her famous quips ('It's easier to ask forgiveness than permission') show a grounded, practical personality. Specific documentation of domestic/mundane activities (cooking, manual labor) is limited."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Beyer, *Grace Hopper and the Invention of the Information Age*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Hopper advocated for open computing standards through COBOL rather than proprietary systems, which can be read as a fairness-oriented position against corporate lock-in. She also pushed for computing education to be broadly accessible. However, documented cases of her ruling against personal or group interest in favor of abstract principle are sparse; her advocacy was largely aligned with her own professional interests and vision."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Williams, Kathleen Broome, *Grace Hopper: Admiral of the Cyber Sea* (Naval Institute Press, 2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hopper was widely known for her generosity toward young programmers and students, often spending extensive time mentoring junior colleagues and speaking at universities and conferences well into her 70s and 80s. She advocated for making computing accessible to all, not just elites. However, documented acts of compassion toward adversaries or outgroup members specifically are limited in the record, which is largely hagiographic."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Beyer, *Grace Hopper and the Invention of the Information Age*",
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Hopper left a secure tenured-track position at Vassar to join the Navy WAVES in 1943 at age 36, when she was technically overage and underweight for enlistment. She persisted in advocating for compilers for years against an establishment that insisted computers could only do arithmetic. She was recalled from retirement twice (1967 and later extensions) and served on active duty until age 79, navigating male-dominated military and computing cultures throughout. This represents sustained courage across multiple contexts."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Beyer, *Grace Hopper and the Invention of the Information Age*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The biographical record on Hopper is largely celebratory and hagiographic, with limited documentation of her reversing prior positions or accepting correction. She did evolve her technical views — e.g., initially working in machine-specific contexts before championing machine-independent languages — but this represents technical evolution rather than documented moral growth. Per the rubric, figures whose traditions sanitize them should be capped at 1 unless independent evidence exists."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Beyer, *Grace Hopper and the Invention of the Information Age*",
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hopper endured multiple qualitatively different forms of adversity: her divorce from Vincent Foster Hopper in 1945, persistent institutional resistance to her compiler ideas throughout the 1950s, navigating a male-dominated military hierarchy as a woman for over four decades, and professional displacement when forced into retirement (which she resisted and was recalled from twice). She functioned effectively under sustained professional adversity and personal upheaval."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Beyer, *Grace Hopper and the Invention of the Information Age*",
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hopper integrated several seemingly contradictory roles: military officer who followed orders and radical innovator who challenged orthodoxy; rigorous mathematician and accessible popularizer who used pepper packets and wires; elderly woman in a youth-oriented field who remained relevant into her 80s; subordinate rear admiral and commanding intellectual authority. These represent at least three distinct paradoxes held together coherently, though the military-innovator tension is the most sharply documented."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Hopper famously resisted retirement from the Navy, crying at her 1966 retirement ceremony and being recalled in 1967 — she reportedly said retirement was the saddest day of her life. While this reflects passion for her work, it also suggests difficulty accepting the winding down of her active career. There is limited specific documentation of composure facing her own death (she died January 1, 1992). Her resistance to retirement does not meet the criterion for imminent death composure."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Hopper maintained active Navy duty until age 79, which demonstrates notable physical resilience for her era. She was initially rejected from the Navy in 1943 for being underweight (105 lbs at 5'6\") and overage, requiring a waiver. However, she was primarily an intellectual worker, and there is no documentation of notable physical feats or athletic accomplishment. Her endurance was more cognitive and professional than physical."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Williams, *Grace Hopper: Admiral of the Cyber Sea*",
+              "Beyer, *Grace Hopper and the Invention of the Information Age*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Hopper's public lectures were infused with genuine humor and playfulness — her nanosecond wire and 'picosecond' pepper-packet demonstrations, her irreverent storytelling about the 'first computer bug' (a moth taped into the Mark II logbook), and her general delight in surprising audiences all suggest non-instrumental play. She reportedly kept the original bug logbook page and delighted in showing it. However, evidence of engagement with arts, music, or nature for their own sake is limited."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 5.98,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Grace Hopper",
+      "overall": {
+        "Core_5D_Avg": 5.98,
+        "Overall_Normalized_Equal_Avg": 5.58,
+        "General_Competency_Avg_10scale": 3.56
+      },
+      "summary": "A pioneering computer scientist and Navy rear admiral whose invention of the compiler and contributions to COBOL represent a genuine paradigm shift in computing. Exceptional cognitive creativity and technical problem-solving, strong leadership across military, corporate, and academic contexts. Moderate moral-affective and embodied-existential depth, with limited evidence in relational and many practical Heinlein domains owing to a life focused intensely on computing and military service. Her wit, humor, and mentoring partially offset a narrow competency breadth profile. A specialist of extraordinary impact rather than a generalist.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.07,
+          "General_Competency_Avg_10scale": 3.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record of notable culinary skill or interest in cooking."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Hopper served in the Navy but exclusively in computing and technical roles. She had no combat experience and there is no documentation of physical combat or defense skills. Her military service was entirely in ordnance computation and programming."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Hopper's mentoring of young programmers and extensive public speaking to students show professional nurture, but evidence of hands-on physical or emotional caregiving across the lifespan (childcare, elder care, nursing) is absent from the record. She had no children. Her care was primarily intellectual and professional in nature."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Hopper maintained dignity and humor throughout her later years of public life, but she famously found forced retirement devastating (crying at her 1966 retirement ceremony) and actively resisted it. There is limited documentation of her facing her own mortality with composure. Her professional tenacity could be read as difficulty accepting endings rather than existential equanimity."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Beyer, *Grace Hopper and the Invention of the Information Age*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Working with the Harvard Mark I and early UNIVAC computers in the 1940s-50s involved significant hands-on interaction with physical equipment — wiring, switches, relays, and paper tape. Hopper would have had practical familiarity with the physical machinery of early computing. However, she was primarily a programmer and mathematician rather than a hardware technician."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a Navy officer, Hopper would have had basic familiarity with naval navigation concepts and maritime orientation. However, she served in computing/ordnance roles, not as a line officer, and there is no specific documentation of navigation skill or wayfinding accomplishment."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record of Hopper engaging in animal husbandry, butchering, or food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Williams, *Grace Hopper: Admiral of the Cyber Sea*",
+            "Beyer, *Grace Hopper and the Invention of the Information Age*"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Hopper demonstrated exceptional ability in both giving and taking orders across decades. She served as a subordinate in the Navy chain of command from lieutenant junior grade to rear admiral (1943-1986), faithfully following military protocols while simultaneously leading groundbreaking technical teams. She managed programming groups at Harvard, Remington Rand, and the Navy, and also submitted to military hierarchy, accepted forced retirement gracefully enough to be recalled, and cooperated with corporate superiors. Her dual mastery of leadership and followership is a defining feature."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record of Hopper designing or building physical structures. Her work was in software and mathematical abstraction, not physical construction."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Beyer, *Grace Hopper and the Invention of the Information Age*",
+            "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Hopper coordinated complex computing operations: she managed the Mark I programming team at Harvard during WWII, directed compiler development at Remington Rand, and led the Navy Programming Languages Group responsible for standardizing COBOL across the military. She orchestrated the CODASYL committee process that brought together competing corporate interests. These are multi-stakeholder coordination tasks under significant constraints."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Williams, *Grace Hopper: Admiral of the Cyber Sea*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Hopper was an exceptional public speaker and storyteller whose lectures were widely praised as performances — her nanosecond wire demonstrations, her anecdotes about the 'first bug,' and her memorable aphorisms constitute a form of rhetorical artistry. However, she did not produce works of art, music, literature, or visual expression."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record of Hopper providing medical care, treating injuries, or responding to medical emergencies."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Hopper, Grace, 'New Types of Irreducibility Criteria' (Yale PhD dissertation, 1934)",
+            "Beyer, *Grace Hopper and the Invention of the Information Age*"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Hopper earned a PhD in mathematics from Yale (1934) with a dissertation on 'New Types of Irreducibility Criteria.' She applied advanced mathematical and logical reasoning to develop compiler theory, creating the formal basis for translating high-level language constructs into machine code. Her analytical capabilities were among the defining features of her career and placed her at the frontier of mathematical computing."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural experience or natural resource management. Hopper was raised in New York City and spent her career in academic, corporate, and military computing environments."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Beyer, *Grace Hopper and the Invention of the Information Age*",
+            "Ceruzzi, *A History of Modern Computing*"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Hopper worked at the absolute cutting edge of her era's technology throughout her career: programming the Mark I (one of the first large-scale computers), developing the A-0 compiler (the first of its kind), creating FLOW-MATIC, contributing to COBOL, and driving Navy computing standardization. She repeatedly created novel technical solutions to systemic problems — translating the conceptual leap from machine code to compiled languages into working systems. This is a defining competency."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.98,
+    "general_competency_avg_0_10": 3.56,
+    "overall_normalized_equal_avg_0_10": 5.58,
+    "created_at": "2026-03-22T18:45:23.886Z",
+    "updated_at": "2026-03-22T18:45:23.908Z"
+  }
+}
+]

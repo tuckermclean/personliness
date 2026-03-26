@@ -1,0 +1,367 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 220,
+  "fields": {
+    "name": "Ibn Arabi",
+    "slug": "ibn-arabi",
+    "bio_short": "Ibn Arabi is one of history's supreme metaphysical thinkers, scoring highest in Ethical/Philosophical Insight, Creative/Innovative Thinking, and Paradox Integration — the architecture of his waḥdat al-wujūd system reshaped Islamic intellectual life across multiple civilizations for 800 years. His Cultural-Social dimension is strongest (8.0/10), reflecting enormous legacy, archetype resonance, and leadership, though he founded no formal institution. Moral-Affective and Relational scores are moderate, limited by hagiographic sourcing and thin documentation of personal relationships. Heinlein com",
+    "bio_long": "Ibn 'Arabī was a Sunni Muslim Arab scholar, Sufi mystic, poet, and Muslim philosopher from al-Andalus, who exercised notable influence within Sufi metaphysics and Islamic thought in general. There are 850 works attributed to Ibn 'Arabi, though only 700 of these are considered authentic, and only 400 are extant. His cosmological teachings became a dominant intellectual framework in many regions of the Muslim world.",
+    "source_notes": "https://en.wikipedia.org/wiki/Ibn_Arabi",
+    "image": "figures/330px-D982D8A8D8B1_D8A7D984D8B4D98AD8AE_D985D8ADD98AD98A_D8A7D984D8AFD98AD986_D8_6p2a9HF.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Addas, Claude. *Quest for the Red Sulphur: The Life of Ibn 'Arabi*. Islamic Texts Society, 1993.",
+              "Hirtenstein, Stephen. *The Unlimited Mercifier: The Spiritual Life and Thought of Ibn 'Arabi*. Anqa Publishing, 1999."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Ibn Arabi successfully navigated complex political landscapes across multiple regions — securing patronage from the Seljuk court in Konya and the Ayyubids in Damascus — and managed to maintain his controversial teachings despite opposition from orthodox scholars. However, there is no documented case of strategic adaptation when initial plans failed; his movements appear more opportunistic and spiritually motivated than strategically planned."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Chittick, William C. *The Self-Disclosure of God: Principles of Ibn al-ʿArabī's Cosmology*. SUNY Press, 1998.",
+              "Bashier, Salman H. *Ibn al-ʿArabī's Barzakh: The Concept of the Limit and the Relationship between God and the World*. SUNY Press, 2004."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ibn Arabi created a genuinely novel metaphysical paradigm synthesizing Quranic hermeneutics, Neoplatonic emanationism, and systematic mystical phenomenology into an unprecedented framework. His concept of the mundus imaginalis (ʿālam al-mithāl), his theory of the divine self-disclosure (tajallī), and his ontological system represent a clear before/after difference in Islamic intellectual history. Prior Sufism produced practitioners and some theoretical works; after Ibn Arabi, the entire conceptual landscape of Sufi philosophy was transformed."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Chittick, William C. *The Sufi Path of Knowledge: Ibn al-ʿArabī's Metaphysics of Imagination*. SUNY Press, 1989.",
+              "Corbin, Henry. *Creative Imagination in the Ṣūfism of Ibn 'Arabī*. Princeton UP, 1969.",
+              "Izutsu, Toshihiko. *Sufism and Taoism*. University of California Press, 1984."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ibn Arabi's metaphysical system — articulated principally in the *Fuṣūṣ al-Ḥikam* and the *al-Futūḥāt al-Makkiyya* — introduced concepts such as waḥdat al-wujūd (Unity of Being), the Perfect Human (al-insān al-kāmil), and the barzakh (isthmus between realities) that profoundly shaped Islamic philosophy, theology, and Sufism far beyond his own community. His ideas influenced Ottoman, Mughal, Malay, and West African intellectual traditions, and through Henry Corbin and Toshihiko Izutsu reached Western and Japanese comparative philosophy."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Ibn Arabi was knowledgeable in Islamic jurisprudence and reportedly served briefly as a secretary in his youth in Seville. He managed a circle of disciples in various cities and organized a vast literary corpus, but he created no administrative systems, governing structures, or legislative frameworks that endured beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993.",
+              "Hirtenstein, Stephen. *The Unlimited Mercifier*. Anqa Publishing, 1999."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ibn Arabi is documented operating as: (1) student/subordinate under female teachers like Fāṭima bint Ibn al-Muthannā; (2) master/superior to disciples like al-Qūnawī; (3) spouse in multiple marriages; (4) interlocutor with political rulers (Seljuk and Ayyubid courts); (5) intellectual adversary to hostile jurists. This covers at least five relational modes. However, the quality of documentation for each mode varies significantly, with most accounts filtered through hagiographic sources, and behavior in some modes (e.g., spouse, parent) is thinly documented."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Ibn Arabi married multiple times, including Maryam bint Muḥammad ibn ʿAbdūn in Seville, who is described by Addas as a spiritual companion. His encounter with Niẓām bint Makīn al-Dīn in Mecca inspired the *Tarjumān al-Ashwāq*, though the nature of that relationship remains debated. Specific details about mutual support, emotional availability, or the arc of his marriages are not well-documented in independent sources; the record is thin on intimate relational quality."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Chittick, William C. 'The Last Will and Testament of Ibn 'Arabi's Foremost Disciple, Sadr al-Din Qunawi,' *Sophia Perennis* 4.1, 1978.",
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "As a mentor, Ibn Arabi's primary student Ṣadr al-Dīn al-Qūnawī (d. 1274) became a major independent philosopher who systematized Akbarian metaphysics while developing his own distinctive approach — demonstrating genuine autonomy and competence rather than mere replication. Ibn Arabi also mentored other figures who became significant in their own right. He had biological children including Saʿd al-Dīn, but documentation of his parenting is minimal."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Knysh, Alexander. *Ibn 'Arabi in the Later Islamic Tradition*. SUNY Press, 1999.",
+              "Morris, James W. 'Ibn 'Arabi and His Interpreters,' *Journal of the American Oriental Society* 106–107, 1986–1987."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ibn Arabi's metaphysical concepts — waḥdat al-wujūd, the Perfect Human, the imaginal world — shaped Islamic philosophy, theology, and mysticism across the Ottoman, Safavid, Mughal, and Southeast Asian Islamic civilizations for over 700 years. His influence extends to Western comparative philosophy through Corbin, Izutsu, and Chittick. His ideas remain actively debated in Islamic seminaries, Sufi circles, and academic philosophy departments worldwide, clearly operative across multiple civilizations well beyond the 500-year threshold."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Corbin, Henry. *Creative Imagination in the Ṣūfism of Ibn 'Arabī*. Princeton UP, 1969.",
+              "Izutsu, Toshihiko. *Sufism and Taoism*. University of California Press, 1984."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Known as 'al-Shaykh al-Akbar' (the Greatest Master), Ibn Arabi embodies the archetype of the mystic-sage across Islamic civilization. Through the work of Corbin, who framed him as a central figure in a universal 'prophetic philosophy,' and Izutsu, who compared his ontology with Daoist thought, he achieved cross-cultural recognition as a symbol of mystical universalism. He is invoked in interfaith dialogue, perennial philosophy, and comparative mysticism well beyond the Islamic world."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Chittick, William C. *Ibn 'Arabi: Heir to the Prophets*. Oneworld, 2005.",
+              "Knysh, Alexander. *Ibn 'Arabi in the Later Islamic Tradition*. SUNY Press, 1999."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ibn Arabi did not found a formal Sufi order (ṭarīqa), but the Akbarian intellectual school, systematized by his direct student Ṣadr al-Dīn al-Qūnawī, persisted as a recognizable tradition for centuries across the Islamic world. Ottoman Sultan Selim I built a mosque and memorial complex at his tomb in Damascus in 1516, institutionalizing his veneration. The tradition survived many generations with recognizable continuity, but lacked the formal organizational structure of a founded institution."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Knysh, Alexander. *Ibn 'Arabi in the Later Islamic Tradition*. SUNY Press, 1999.",
+              "Chittick, William C. *The Sufi Path of Knowledge*. SUNY Press, 1989."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ibn Arabi led intimate circles of disciples in Seville, Fez, Mecca, Konya, and Damascus — qualitatively different contexts ranging from Almohad al-Andalus to Seljuk Anatolia to Ayyubid Syria. He influenced the Seljuk court through his student al-Qūnawī, shaped Ottoman religious policy for centuries, and his teachings became the dominant intellectual framework in Sufi lodges from Istanbul to Delhi to Java. He exercised leadership in both small-group and civilizational-scale contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The dominant image of Ibn Arabi is that of an elite intellectual mystic whose primary works (*Futūḥāt al-Makkiyya* alone runs to thousands of pages of dense metaphysical prose) are accessible only to advanced scholars. Addas documents his youth in Seville and his early employment as a secretary, and hagiographic accounts mention his humility and accessibility, but specific documented engagement with mundane everyday activities at the height of his career is sparse. His persona remained that of a visionary sage rather than a man of the people."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Ibn Arabi. *Fuṣūṣ al-Ḥikam*, chapter on Moses.",
+              "Chittick, William C. *The Sufi Path of Knowledge*. SUNY Press, 1989."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "In the *Fuṣūṣ al-Ḥikam*, Ibn Arabi controversially defended the spiritual status of Pharaoh — a figure universally condemned in Islamic tradition — arguing that his final utterance constituted genuine faith, demonstrating willingness to challenge conventional moral judgments on principle. His metaphysical framework implies fundamental equality of all creatures before divine reality. However, specific cases of ruling against personal or group interest in a concrete judicial or political sense are not documented."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Ibn Arabi. *Tarjumān al-Ashwāq* (Nicholson translation, 1911).",
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ibn Arabi's famous poem from the *Tarjumān al-Ashwāq* — 'My heart has become capable of every form: a pasture for gazelles, a monastery for monks, a temple for idols, the Ka'ba of the pilgrim' — articulates a radical theological compassion extending to all beings and faiths. He studied under female Sufi teachers including Fāṭima bint Ibn al-Muthannā of Córdoba and Shams of Marchena, demonstrating genuine respect across gender lines unusual for his era. However, specific documented acts of compassion toward named adversaries are not well-attested in independent sources."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993.",
+              "Knysh, Alexander. *Ibn 'Arabi in the Later Islamic Tradition: The Making of a Polemical Image in Medieval Islam*. SUNY Press, 1999."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ibn Arabi maintained his controversial mystical teachings despite persistent accusations of heresy from jurists such as Ibn Taymiyya's intellectual predecessors and other Ẓāhirī critics. He left al-Andalus permanently during the turbulent Almohad period and spent decades traveling across politically unstable regions during the era of the Crusades and Mongol threat. His persistence in teaching and writing across multiple contexts despite opposition demonstrates sustained courage."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993.",
+              "Hirtenstein, Stephen. *The Unlimited Mercifier*. Anqa Publishing, 1999."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The hagiographic tradition around Ibn Arabi, reinforced by his own autobiographical accounts in the *Futūḥāt*, presents him as divinely guided from youth — including his famous meeting with Averroes as a young man where he already appears as a spiritual prodigy. While the *Futūḥāt* describes progressive spiritual development, this is framed as mystical unveiling rather than moral correction. No specific documented instances of reversing a prior position or accepting correction from others survive in the record. Per the rubric's instruction, the hagiographic nature of sources caps this at 1."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993.",
+              "Knysh, Alexander. *Ibn 'Arabi in the Later Islamic Tradition*. SUNY Press, 1999."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ibn Arabi permanently left his homeland of al-Andalus during the Almohad period, a form of exile. He endured accusations of heresy from powerful jurists throughout his career — a serious threat in medieval Islamic society. He also faced the physical rigors of decades of travel across politically unstable regions during the Crusader and early Mongol periods. These represent at least two qualitatively different forms of adversity: exile/displacement and intellectual/religious persecution."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Chittick, William C. *The Sufi Path of Knowledge*. SUNY Press, 1989.",
+              "Corbin, Henry. *Creative Imagination in the Ṣūfism of Ibn 'Arabī*. Princeton UP, 1969.",
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Ibn Arabi inhabited at least four seemingly contradictory roles without incoherence: (1) rigorous legal scholar versed in Ẓāhirī jurisprudence yet radical mystic visionary; (2) erotic love poet yet advocate of spiritual transcendence; (3) deeply rooted in Islamic orthodoxy yet theologically universalist; (4) systematic philosopher yet experiential mystic who insisted on the primacy of kashf (unveiling) over rational argument. His very metaphysics is built on the concept of barzakh — the isthmus that reconciles opposites. This paradox integration is arguably his defining existential achievement."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Chittick, William C. *The Sufi Path of Knowledge*. SUNY Press, 1989.",
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ibn Arabi's metaphysical system treats death as a transition within the unity of being, with elaborate eschatological discussions in the *Futūḥāt*. He reportedly died peacefully in Damascus in 1240 at approximately age 75, with his affairs and legacy substantially in order. His writings demonstrate more than abstract philosophical acceptance — they contain detailed preparations for death. However, detailed accounts of his final moments are hagiographic and lack independent corroboration."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993.",
+              "Hirtenstein, Stephen. *The Unlimited Mercifier*. Anqa Publishing, 1999."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Ibn Arabi traveled by the available means of the 12th–13th centuries across enormous distances: from Murcia and Seville to Fez, Tunis, Cairo, Mecca, Baghdad, Konya, and Damascus. This peripatetic life spanned decades and required significant physical endurance. He remained intellectually productive into his mid-seventies, dying in Damascus in 1240 at approximately age 75 — remarkable longevity and sustained capacity for his era."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Ibn Arabi. *Tarjumān al-Ashwāq*, trans. R.A. Nicholson, 1911.",
+              "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The *Tarjumān al-Ashwāq* (Interpreter of Desires), inspired by his encounter with the learned and beautiful Niẓām bint Makīn al-Dīn in Mecca, reveals deep aesthetic sensibility expressed through love poetry of high literary quality. His mystical writings frequently employ imagery of gardens, beauty, and ecstatic experience. However, the question of instrumentality is complex: he later wrote a commentary insisting the poems were purely spiritual allegory, which could mean the aesthetic engagement was always didactically motivated."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.68,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Ibn Arabi",
+      "overall": {
+        "Core_5D_Avg": 6.68,
+        "Overall_Normalized_Equal_Avg": 6.08,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "Ibn Arabi is one of history's supreme metaphysical thinkers, scoring highest in Ethical/Philosophical Insight, Creative/Innovative Thinking, and Paradox Integration — the architecture of his waḥdat al-wujūd system reshaped Islamic intellectual life across multiple civilizations for 800 years. His Cultural-Social dimension is strongest (8.0/10), reflecting enormous legacy, archetype resonance, and leadership, though he founded no formal institution. Moral-Affective and Relational scores are moderate, limited by hagiographic sourcing and thin documentation of personal relationships. Heinlein competency is narrow: exceptional in artistic expression and existential composure, but negligible evidence for practical/manual domains. A towering intellect with relatively limited documented breadth outside the life of the mind.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of culinary skills in the historical record for Ibn Arabi."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of combat experience or martial skill. Ibn Arabi lived during the Crusades and Mongol invasions but was not a combatant; he was a scholar and mystic throughout his life."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Chittick, William C. *The Sufi Path of Knowledge*. SUNY Press, 1989.",
+            "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a Sufi shaykh, Ibn Arabi provided intensive spiritual guidance and care to disciples over decades across multiple cities. The *Futūḥāt al-Makkiyya* contains elaborate guidance on spiritual development that demonstrates deep understanding of human psychological and spiritual needs. His role as murshid (spiritual guide) was a core form of caregiving in his cultural context."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Chittick, William C. *The Sufi Path of Knowledge*. SUNY Press, 1989.",
+            "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Ibn Arabi's entire philosophical and spiritual project is an exercise in existential composure of the highest order. His detailed eschatological discussions in the *Futūḥāt*, his metaphysics of death as barzakh transition, his reported peaceful death in Damascus at ~75 after a lifetime of facing heresy accusations and displacement — all demonstrate exceptional composure. His concept that 'the cosmos is imagination within imagination' provided a framework for radical equanimity in the face of mortality and crisis."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of manual craft, tool-making, or repair skills in the historical record for Ibn Arabi."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993.",
+            "Hirtenstein, Stephen. *The Unlimited Mercifier*. Anqa Publishing, 1999."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Ibn Arabi traveled extensively across the medieval Islamic world — from Murcia to Seville, Fez, Tunis, Cairo, Mecca, Jerusalem, Baghdad, Malatya, Konya, and Damascus — over a period of decades. Navigating these routes by land and sea in the 12th–13th centuries required significant wayfinding competence. His journeys included both well-traveled pilgrimage routes and less standard itineraries."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record of Ibn Arabi engaging in animal husbandry, butchering, or food processing activities."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Ibn Arabi demonstrated both modes: as a young man he studied humbly under multiple teachers, including female Sufi masters like Fāṭima bint Ibn al-Muthannā, showing genuine capacity for followership. As he matured, he led circles of disciples in multiple cities with authority, culminating in his position as the preeminent Sufi master in Ayyubid Damascus. The dual capacity is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record of Ibn Arabi engaging in building, construction, or physical fabrication of structures."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Addas, Claude. *Quest for the Red Sulphur*. Islamic Texts Society, 1993."
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Ibn Arabi held no military or political command positions. There is no evidence of coordinating complex operations or leading under strategic constraints in a military, political, or organizational sense."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Ibn Arabi. *Tarjumān al-Ashwāq*, trans. R.A. Nicholson, 1911.",
+            "Chittick, William C. *The Sufi Path of Knowledge*. SUNY Press, 1989."
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Ibn Arabi produced an extraordinary literary corpus: the *Tarjumān al-Ashwāq* is recognized as one of the finest collections of Sufi love poetry; the *Futūḥāt al-Makkiyya* is a literary and philosophical masterwork of enormous scope; the *Fuṣūṣ al-Ḥikam* is a masterpiece of philosophical prose. With approximately 700 authentic works spanning poetry, prose, metaphysical treatise, and scriptural commentary, his artistic output is among the most prolific and accomplished in Islamic literary history."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of medical practice or emergency response skills in the historical record for Ibn Arabi, despite his broad intellectual interests."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Chittick, William C. *The Self-Disclosure of God*. SUNY Press, 1998.",
+            "Bashier, Salman H. *Ibn al-ʿArabī's Barzakh*. SUNY Press, 2004."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Ibn Arabi's works demonstrate extraordinarily sophisticated analytical reasoning — the systematic cosmological schemas of the *Futūḥāt*, his use of letter-number mysticism (ʿilm al-ḥurūf), and his complex ontological hierarchies all require and display high-level logical and analytical capacities. While not a mathematician per se, his analytical rigor in constructing metaphysical systems is exceptional for any era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural activity or resource management in the historical record for Ibn Arabi. He lived as a scholar dependent on patronage and endowments."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of engagement with technical or material-technological problem-solving. His systematic thinking was entirely in the metaphysical and philosophical domain, which is scored under core cognitive traits rather than this practical competency."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.68,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 6.08,
+    "created_at": "2026-03-22T23:24:52.142Z",
+    "updated_at": "2026-03-22T23:24:52.159Z"
+  }
+}
+]

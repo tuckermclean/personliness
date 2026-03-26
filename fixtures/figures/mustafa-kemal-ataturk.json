@@ -1,0 +1,377 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 208,
+  "fields": {
+    "name": "Mustafa Kemal Atatürk",
+    "slug": "mustafa-kemal-ataturk",
+    "bio_short": "Atatürk emerges as an extraordinary cognitive-strategic and cultural-social figure — one of the 20th century's most impactful nation-builders. His military genius at Gallipoli and during the War of Independence, combined with revolutionary institutional and legislative reforms, produced a lasting modern state. Moral-affective scores are moderated by authoritarian methods (Independence Tribunals, Dersim) and hagiographic source limitations. Relational depth is constrained by a brief failed marriage and sanitized biographical traditions. Heinlein competency shows peaks in command, combat, and le",
+    "bio_long": "Mustafa Kemal Atatürk was a Turkish field marshal and statesperson who was the founder of the Republic of Turkey and served as its first president from 1923 until his death in 1938. He led sweeping reforms, turning Turkey into a secular, industrialising nation. Ideologically a secularist, republican and nationalist, his policies and socio-political theories became known as Kemalism.",
+    "source_notes": "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+    "image": "figures/330px-Portrait_photograph_of_Mustafa_Kemal_in_military_uniform_1930.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Mango, Andrew. *Atatürk: The Biography of the Founder of Modern Turkey* (2000)",
+              "Kinross, Lord. *Atatürk: A Biography of Mustafa Kemal, Father of Modern Turkey* (1964)",
+              "Erickson, Edward J. *Gallipoli and the Middle East 1914–1918* (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At Gallipoli (1915), Atatürk correctly anticipated Allied landing points at Ari Burnu and deployed the 57th Regiment at the critical moment, adapting to a rapidly changing situation. During the War of Independence, he managed a strategic retreat before the Greek advance, traded space for time, then executed a devastating counteroffensive at the Battle of Dumlupınar (August 1922). The Battle of Sakarya (1921) required 22 days of adaptive defensive operations under extreme resource constraints, earning him the rank of Marshal."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Lewis, Bernard. *The Emergence of Modern Turkey* (3rd ed., 2002)",
+              "Hanioğlu, M. Şükrü. *Atatürk: An Intellectual Biography* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The 1928 alphabet reform — replacing Arabic script with a modified Latin alphabet — was unprecedented in the Islamic world and produced a measurable before/after difference in literacy rates (rising from roughly 10% to over 30% within a decade). The abolition of the caliphate (1924), adoption of the Swiss Civil Code (1926), and granting women's suffrage (1934, ahead of France and Italy) collectively constituted a paradigm shift: the transformation of an Islamic imperial polity into a secular nation-state without clear historical precedent."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Zürcher, Erik Jan. *Turkey: A Modern History* (3rd ed., 2004)",
+              "Hanioğlu, M. Şükrü. *Atatürk: An Intellectual Biography* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Atatürk articulated a coherent political philosophy — the Six Arrows (Republicanism, Populism, Nationalism, Secularism, Statism, Revolutionism) — that influenced modernizing leaders across the Muslim world, including Reza Shah Pahlavi in Iran and Habib Bourguiba in Tunisia. His secularism drew substantially on French laïcité and Enlightenment rationalism rather than constituting a wholly original philosophical framework, and his ideas influenced political practice more than philosophical discourse beyond his own region."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Zürcher, Erik Jan. *Turkey: A Modern History* (2004)",
+              "Lewis, Bernard. *The Emergence of Modern Turkey* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Atatürk established the Grand National Assembly (1920) as a functioning legislature during wartime, then built the institutional framework of the Republic: a constitution (1924), wholesale adoption of European legal codes (Swiss Civil, Italian Penal, German Commercial), a secular national education system, and economic planning institutions. The Republican People's Party (CHP, founded 1923) remains active today. Village Institutes, People's Houses (Halkevleri), the Turkish Language Association, and the Turkish Historical Society all outlasted his direct oversight and shaped Turkey for generations."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Hanioğlu, M. Şükrü. *Atatürk: An Intellectual Biography* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Atatürk inhabited multiple relational roles: military subordinate (under Liman von Sanders at Gallipoli), military superior/commander, head of state, spouse (briefly), adoptive parent, friend (sofra companions like Falih Rıfkı Atay), and adversary (against the Sultan, Allied powers, political opponents). This represents at least six distinct modes. However, evidence for qualitatively distinct relational behavior across these roles is filtered through hagiographic sources, and his dominant relational style — commanding, charismatic authority — appears to have pervaded most of his relationships, limiting the score to 2."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Çalışlar, İpek. *Latife Hanım* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Atatürk married Latife Uşşaki (Uşaklıgil) in January 1923 and divorced her in August 1925 — a marriage lasting barely two and a half years. The divorce was reportedly initiated unilaterally by Atatürk, and Latife was legally silenced about the marriage for decades. Before and after this marriage, no documented long-term intimate partnership exists. The brevity, unilateral dissolution, and absence of evidence for mutual support during crisis or emotional availability limit this score."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Kinross, Lord. *Atatürk* (1964)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Atatürk adopted at least seven children, including Sabiha Gökçen, who became Turkey's first female combat pilot, and Afet İnan, who earned a doctorate in history from the University of Geneva and became a respected academic. These outcomes suggest genuine encouragement of autonomy and competence rather than mere obedience. He also mentored political successors, notably İsmet İnönü, who became president after his death. However, the İnönü relationship was sometimes strained, and some adopted children's lives are less well documented."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Lewis, Bernard. *The Emergence of Modern Turkey* (2002)",
+              "Cleveland, William L. *A History of the Modern Middle East* (5th ed., 2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Atatürk founded a major nation-state of 85+ million people that remains a significant geopolitical actor. His secularist modernization model influenced reform movements across the Muslim world (Iran, Tunisia, Central Asia, Pakistan). The Latin alphabet, secular legal system, and republican government he introduced remain operative in Turkey. While fewer than 500 years have elapsed since his death (the strict criterion for a 3), the cross-civilizational scale and trajectory of his impact — reshaping the political imagination of the entire Muslim world regarding the relationship between religion and state — places him among the most consequential figures of the modern era."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Hart, Michael. *The 100: A Ranking of the Most Influential Persons in History* (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Atatürk embodies the archetype of the secular modernizing nation-builder — his very surname means 'Father of the Turks.' He is widely recognized beyond Turkey as a model for modernization in the Muslim world, studied comparatively alongside Meiji Japan and Peter the Great's Russia. However, his cross-cultural symbolic recognition does not reach the level of figures like Napoleon, Gandhi, or Caesar; outside Turkey and studies of modernization, his archetype resonance is more limited."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Lewis, Bernard. *The Emergence of Modern Turkey* (2002)",
+              "Zürcher, Erik Jan. *Turkey: A Modern History* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Atatürk founded the Republic of Turkey itself (1923), the Grand National Assembly, the Republican People's Party (CHP, still active), the secular education system, the Turkish Language Association (TDK), and the Turkish Historical Society (TTK). He established the legal infrastructure (adopted European legal codes) and economic planning institutions. These institutions survived well beyond two generations with recognizable continuity — the Republic, its parliament, and its legal framework persist nearly a century later."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Zürcher, Erik Jan. *The Unionist Factor* (1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Atatürk mobilized a defeated, occupied nation into a unified independence movement (1919–1923), commanded armies across multiple fronts, then transitioned to peacetime leadership as head of state implementing revolutionary social reforms — qualitatively different leadership contexts. He led small guerrilla bands in Libya (1911–12), commanded a division at Gallipoli, directed a national military campaign, managed a fractious parliament, and drove top-down cultural revolution, demonstrating leadership across crisis and stability, small and large groups."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Kinross, Lord. *Atatürk* (1964)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Atatürk personally worked at the Atatürk Forest Farm (AOÇ, established 1925), engaging in agricultural experiments. He was famous for his raki-fueled evening gatherings (sofra) involving wide-ranging conversation. During the alphabet campaign (1928), he personally traveled to villages and taught the new script at a blackboard. He played with his adopted children and maintained relatively modest personal habits by head-of-state standards. Some of this engagement had instrumental purposes (literacy campaigns), but the farming and social conviviality appear genuinely personal."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Zürcher, Erik Jan. *Turkey: A Modern History* (2004)",
+              "Lewis, Bernard. *The Emergence of Modern Turkey* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Atatürk replaced Ottoman religious courts with secular courts applying the Swiss Civil Code (1926), establishing formal legal equality regardless of religion and gender — including equal divorce and inheritance rights for women. Without counterexamples, this institutional commitment to impartial law would support a score of 2–3. However, the Independence Tribunals suppressed legitimate political opposition (the Progressive Republican Party was banned in 1925), and the Dersim campaign targeted an ethnic-religious minority. These counterexamples, weighed against the genuine structural reforms, yield a final score of 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Zürcher, Erik Jan. *Turkey: A Modern History* (2004)",
+              "Üngör, Uğur Ümit. *The Making of Modern Turkey: Nation and State in Eastern Anatolia, 1913–1950* (2011)",
+              "Mango, Andrew. *Atatürk* (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Atatürk adopted several orphaned children (including Sabiha Gökçen and Afet İnan), and his 1934 Gallipoli memorial address — 'Your sons are now lying in our bosom... they have become our sons as well' — showed magnanimity toward former enemies. Without counterexamples, this pattern would merit a score of 2. However, the Dersim operations (1937–38), authorized under his direct oversight, resulted in thousands of civilian deaths among Kurdish Alevis. The Independence Tribunals (İstiklal Mahkemeleri, 1925) executed political opponents with minimal due process. Given the moral stakes of these counterexamples, the score is reduced to 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Kinross, Lord. *Atatürk: A Biography of Mustafa Kemal* (1964)",
+              "Erickson, Edward J. *Ordered to Die: A History of the Ottoman Army in the First World War* (2001)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At Gallipoli (1915), Atatürk led the 57th Regiment from the front and was struck by shrapnel that hit his pocket watch, saving his life — he continued commanding. At the Battle of Sakarya (1921), he commanded despite broken ribs sustained in a fall. Throughout the War of Independence (1919–1922), he defied the Ottoman Sultan, the Allied occupation forces, and the Treaty of Sèvres simultaneously, facing potential execution as a rebel. This sustained courage across a decade of military campaigns and political crises constitutes an exceptional record."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Hanioğlu, M. Şükrü. *Atatürk: An Intellectual Biography* (2011)",
+              "Zürcher, Erik Jan. *The Unionist Factor* (1984)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The Kemalist tradition in Turkey has heavily sanitized Atatürk's legacy, making documented instances of acknowledged error extremely rare. He did evolve from working within the Ottoman system to full republicanism, and shifted economic policy after the İzmir Economic Congress (1923), but these are better characterized as strategic development than publicly acknowledged moral correction. Per the rubric's instruction that figures whose traditions sanitize them should be capped at 1 unless independent evidence of acknowledged error exists, the score is capped at 1."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Kinross, Lord. *Atatürk* (1964)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Atatürk functioned effectively through at least two qualitatively different forms of adversity: (1) material/military deprivation — leading a poorly supplied, under-equipped army during the War of Independence against better-resourced Greek, French, and Armenian forces; and (2) political danger and isolation — defying the Sultan and the Allied powers, facing arrest warrants and death sentences, while building a rival government in Ankara. He also endured personal losses including his divorce (1925), the deaths of close comrades, and his mother's death (1923), all while maintaining effective leadership."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Hanioğlu, M. Şükrü. *Atatürk: An Intellectual Biography* (2011)",
+              "Zürcher, Erik Jan. *Turkey: A Modern History* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Atatürk simultaneously inhabited at least three seemingly contradictory roles: (1) authoritarian strongman who established democratic parliamentary institutions; (2) fierce Turkish nationalist who imported wholesale foreign (Western) legal, educational, and cultural systems; (3) military commander who built civilian governance and voluntarily adopted the title of civilian president; (4) destroyer of the Islamic caliphate who remained culturally Muslim and maintained mosques. These paradoxes were integrated into a coherent modernizing vision rather than producing fragmentation or incoherence."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Kinross, Lord. *Atatürk* (1964)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "After being diagnosed with cirrhosis in 1937, Atatürk continued working on state affairs despite rapidly declining health. He prepared his will, distributing wealth to the Turkish Language Association, Turkish Historical Society, and his adopted daughters. His Address to Turkish Youth (Gençliğe Hitabe) demonstrates intentional legacy planning beyond his own death. He reportedly maintained composure during his final illness at Dolmabahçe Palace (November 1938), though accounts of his last days are filtered through hagiographic sources, limiting confidence."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Erickson, Edward J. *Gallipoli and the Middle East 1914–1918* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Atatürk's military career spanned over a decade of active campaigns: Libya (1911–12), Balkans (1912–13), Gallipoli (1915), Caucasus (1916), Syria (1918), and the War of Independence (1919–22). He survived a shrapnel wound at Gallipoli and commanded at Sakarya with broken ribs. He was a skilled horseback rider throughout his military career. However, his health deteriorated significantly in his 50s due to heavy alcohol consumption, and he died of cirrhosis at 57, limiting the 'across multiple life-stages' criterion."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Mango, Andrew. *Atatürk* (2000)",
+              "Hanioğlu, M. Şükrü. *Atatürk: An Intellectual Biography* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Atatürk was an avid reader with an extensive personal library spanning history, philosophy, and literature. He enjoyed Western-style ballroom dancing and frequently hosted long evening discussions (sofra) with friends over raki — a social ritual he valued throughout his life. He took personal pleasure in farming at the Atatürk Forest Farm. While some of this socializing served political functions, his dancing, reading, and farming appear to reflect genuine non-instrumental aesthetic and recreational engagement."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.45,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Mustafa Kemal Atatürk",
+      "overall": {
+        "Core_5D_Avg": 7.45,
+        "Overall_Normalized_Equal_Avg": 7.14,
+        "General_Competency_Avg_10scale": 5.56
+      },
+      "summary": "Atatürk emerges as an extraordinary cognitive-strategic and cultural-social figure — one of the 20th century's most impactful nation-builders. His military genius at Gallipoli and during the War of Independence, combined with revolutionary institutional and legislative reforms, produced a lasting modern state. Moral-affective scores are moderated by authoritarian methods (Independence Tribunals, Dersim) and hagiographic source limitations. Relational depth is constrained by a brief failed marriage and sanitized biographical traditions. Heinlein competency shows peaks in command, combat, and leadership but notable gaps in manual, culinary, and domestic skills typical of a career military officer and statesman.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.67,
+          "General_Competency_Avg_10scale": 5.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists in the biographical record of Atatürk personally preparing meals. As a military officer and head of state, his meals were prepared by others. His famous appreciation for raki and long dinner conversations reflects consumption and connoisseurship rather than culinary production."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Erickson, Edward J. *Gallipoli and the Middle East* (2001)",
+            "Mango, Andrew. *Atatürk* (2000)",
+            "Kinross, Lord. *Atatürk* (1964)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Atatürk personally led troops in combat across multiple campaigns: the Italo-Turkish War in Libya (1911–12), the Balkan Wars (1912–13), Gallipoli (1915), the Caucasus front (1916), the Palestine/Syria campaign (1918), and the War of Independence (1919–22). He survived a shrapnel wound at Gallipoli (the famous pocket watch incident) and demonstrated personal bravery under fire repeatedly. His combat experience spans over a decade across diverse theaters, representing an exceptional record."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Mango, Andrew. *Atatürk* (2000)",
+            "Kinross, Lord. *Atatürk* (1964)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Atatürk adopted and raised at least seven children, providing for their education and personal development. Sabiha Gökçen's memoirs describe his parental warmth and encouragement. He was reportedly attentive to wounded soldiers during military campaigns. These documented caregiving behaviors across adoptive parenting and military contexts demonstrate consistent, above-average nurturing capacity."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Mango, Andrew. *Atatürk* (2000)",
+            "Kinross, Lord. *Atatürk* (1964)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Atatürk faced death multiple times in battle — at Gallipoli, the Caucasus, and the War of Independence — with documented composure, continuing to command under fire. After his cirrhosis diagnosis in 1937, he continued state duties and prepared his will and legacy, including the Address to Turkish Youth. He maintained public composure during his final months at Dolmabahçe Palace. Accounts of his last days are filtered through hagiographic sources, but the overall pattern of facing mortality with dignity is consistent across independent sources."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence exists in the historical record of Atatürk personally making, fixing, or adapting tools, machines, or physical systems. His career trajectory — from military cadet to officer to head of state — did not require or develop manual craft skills, and no biographer documents such activities."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Erickson, Edward J. *Gallipoli and the Middle East* (2001)",
+            "Mango, Andrew. *Atatürk* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a professional military officer trained at Ottoman military academies, Atatürk would have received formal instruction in map reading, terrain analysis, and navigation. His campaigns across diverse terrain — from the mountains of eastern Anatolia to the Gallipoli peninsula to the Syrian plains — required practical navigation skills. His tactical exploitation of terrain at Chunuk Bair (Gallipoli) and in the Sakarya defense line demonstrates applied wayfinding competence."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Mango, Andrew. *Atatürk* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Atatürk established the Atatürk Forest Farm (AOÇ) near Ankara in 1925, which included livestock operations and dairy production. He took personal interest in the farm's operations and visited frequently. However, evidence of his personal hands-on involvement in butchering or processing animals is absent; the farm was managed by professional staff."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Mango, Andrew. *Atatürk* (2000)",
+            "Zürcher, Erik Jan. *Turkey: A Modern History* (2004)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Atatürk demonstrated exceptional leadership across military and political contexts — from divisional command at Gallipoli to national command during the War of Independence to presidential leadership of revolutionary reform. He also demonstrated followership: serving effectively under Liman von Sanders at Gallipoli, working within the Grand National Assembly's collective decision-making processes, and accepting parliamentary debate on his proposals. The combination of commanding authority and capacity to operate within institutional constraints is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Mango, Andrew. *Atatürk* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a military officer, Atatürk oversaw the construction of defensive positions and fortifications during multiple campaigns. As president, he directed large-scale construction projects including the development of Ankara as a new capital city. However, these represent command-level oversight rather than personal construction or fabrication skills. No evidence of hands-on building work exists."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Erickson, Edward J. *Gallipoli and the Middle East* (2001)",
+            "Mango, Andrew. *Atatürk* (2000)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "At Gallipoli (1915), Atatürk anticipated Allied landing points and deployed reserves at the critical moment. During the War of Independence, he coordinated military operations across Western, Eastern, and Southern fronts with severely limited resources. The Great Offensive (August 1922) was a masterfully planned and executed campaign that destroyed the Greek Army in Anatolia within weeks. The Battle of Sakarya (1921) required 22 days of sustained adaptive command."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Hanioğlu, M. Şükrü. *Atatürk: An Intellectual Biography* (2011)",
+            "Lewis, Bernard. *The Emergence of Modern Turkey* (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Atatürk wrote poetry in his youth and delivered the Nutuk (Great Speech, 1927) — a 36-hour oration that functions as both political document and literary achievement. He promoted Western classical music, opera, and ballet as national cultural priorities and founded conservatories. However, he was primarily a patron and promoter of arts rather than a practitioner, and his own artistic output was limited."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Mango, Andrew. *Atatürk* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Ottoman military officers received basic first-aid training as part of their education. Atatürk served in multiple active combat zones over a decade, where basic wound treatment would have been a practical necessity. However, no specific documented instance of him personally providing medical care has been identified in the biographical literature."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Mango, Andrew. *Atatürk* (2000)",
+            "Zürcher, Erik Jan. *Turkey: A Modern History* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Atatürk's Ottoman military academy education included mathematics and technical subjects. He successfully managed complex military logistics with severely constrained resources during the War of Independence — allocating scarce ammunition, supplies, and manpower across multiple fronts. He also engaged with economic planning and statistical analysis in developing Turkey's first five-year plans (1933). His analytical reasoning is evidenced by his capacity for detailed operational planning."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Mango, Andrew. *Atatürk* (2000)",
+            "Lewis, Bernard. *The Emergence of Modern Turkey* (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Atatürk founded the Atatürk Forest Farm (AOÇ, 1925) near Ankara as a model farm demonstrating modern agricultural techniques, personally overseeing experiments with new crops and livestock breeds. He made agricultural modernization a national priority, establishing agricultural schools and promoting mechanized farming. While much of this was policy-level, his personal engagement with the AOÇ — visiting regularly and directing experiments — demonstrates genuine agricultural competence beyond mere delegation."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Lewis, Bernard. *The Emergence of Modern Turkey* (2002)",
+            "Zürcher, Erik Jan. *Turkey: A Modern History* (2004)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Atatürk managed the systemic implementation of the alphabet reform (1928), which required coordinating new printing, education materials, teacher training, and nationwide literacy campaigns — a massive technical-logistical challenge executed within months. He oversaw the adaptation of multiple European legal codes to Turkish conditions and directed early industrialization efforts including railroads and factories. These represent high-level systemic problem-solving, though he operated as decision-maker rather than technical implementer."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.45,
+    "general_competency_avg_0_10": 5.56,
+    "overall_normalized_equal_avg_0_10": 7.14,
+    "created_at": "2026-03-22T23:08:17.678Z",
+    "updated_at": "2026-03-22T23:08:17.697Z"
+  }
+}
+]

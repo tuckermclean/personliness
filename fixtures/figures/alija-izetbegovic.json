@@ -1,0 +1,369 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 139,
+  "fields": {
+    "name": "Alija Izetbegović",
+    "slug": "alija-izetbegovic",
+    "bio_short": "An Islamic philosopher turned wartime president, Izetbegović's defining traits are sustained courage under extreme adversity, hardship tolerance across imprisonment and siege, and leadership across radically different contexts—clandestine intellectual, party founder, and wartime head of state. His philosophical work (\"Islam Between East and West\") is notable but not paradigm-shifting. Heinlein-style generalist competency is low: he was primarily an intellectual and statesman with little documented practical or manual skill. His moral record is strong but complicated by partisan historiography.",
+    "bio_long": "Alija Izetbegović was a Bosnian politician, Islamic philosopher and author who served as the president of the presidency of the Republic of Bosnia and Herzegovina from 1990 to 1996. He later served as the first chairman of the presidency of Bosnia and Herzegovina from 1996 to 1998, and then briefly in 2000. He was also the founder and first president of the Party of Democratic Action.",
+    "source_notes": "https://en.wikipedia.org/wiki/Alija_Izetbegovi%C4%87",
+    "image": "figures/330px-Alija_Izetbegovic_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Burg & Shoup, 'The War in Bosnia-Herzegovina' (1999)",
+              "Silber & Little, 'Yugoslavia: Death of a Nation' (1997)",
+              "Bose, 'Bosnia after Dayton' (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Izetbegović navigated Bosnia through a three-sided war (1992–95), successfully internationalizing the conflict and ultimately securing NATO intervention and the Dayton Agreement. However, his rejection of the Cutileiro Plan (March 1992) is widely debated as a strategic misstep that may have failed to prevent war. He adapted from peacetime politician to wartime leader and managed complex trilateral diplomacy, but Bosnian military preparedness was initially catastrophic, suggesting reactive rather than anticipatory strategy."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Izetbegović, 'The Islamic Declaration' (1970/1990)",
+              "Izetbegović, 'Islam Between East and West' (1984/1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His synthesis of Islamic philosophy with Western philosophical traditions was genuinely novel in its systematic approach, and his vision of Bosnia as a multi-ethnic, multi-religious European Muslim polity was innovative for the Balkans. 'The Islamic Declaration' (1970) offered an original framework for Islamic political renewal. However, neither work created a clear paradigm shift—a before/after difference attributable to him—in broader intellectual history."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Izetbegović, 'Islam Between East and West' (1984/1994)",
+              "Karčić, 'The Political Thought of Alija Izetbegović', in 'Bosnian Studies' (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "'Islam Between East and West' (1984) presents a sophisticated tripartite civilizational analysis engaging with Bergson, Spengler, Hegel, and Kant, arguing Islam synthesizes the material and spiritual dimensions neglected by both pure materialism and pure spiritualism. The work has been translated into over a dozen languages and is studied in Islamic intellectual circles globally. However, its influence on philosophical discourse outside the Islamic world remains limited, falling short of the cross-community criterion for a 3."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Bose, 'Bosnia after Dayton' (2002)",
+              "Donia, 'Sarajevo: A Biography' (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He founded the Party of Democratic Action (SDA) in 1990, which became and has remained the dominant Bosniak political party for over three decades. He maintained governmental functions in besieged Sarajevo under extraordinarily difficult conditions, preserving state institutions during wartime. However, wartime governance was chaotic, and the Dayton institutions he helped negotiate are widely criticized as dysfunctional (e.g., the two-entity structure with multiple layers of government)."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Silber & Little, 'Yugoslavia: Death of a Nation' (1997)",
+              "Izetbegović, 'Inescapable Questions' (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He functioned as husband, father, subordinate prisoner, clandestine dissident, party leader, wartime president, and international diplomat (negotiating face-to-face with adversaries Milošević and Tuđman at Dayton, and with allies like Clinton and Chirac). He related to ordinary Sarajevans during the siege and to international statesmen. This spans at least five relational modes (spouse, parent, subordinate, superior, adversary negotiator), though evidence of qualitatively distinct behavioral adaptation across these modes—rather than a consistent dignified-intellectual style—is limited."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Izetbegović, 'Inescapable Questions' (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He married Halida Repovac in 1949, and their marriage endured through two imprisonments (totaling 8 years of separation) and the Bosnian War—over 50 years until his death in 2003. Halida supported him steadfastly during his incarcerations and during the siege. His memoirs speak warmly of their relationship. However, detailed evidence of mutual emotional dynamics, conflicts, or the quality of the relationship beyond its remarkable durability is limited in the public record."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Bose, 'Bosnia after Dayton' (2002)",
+              "Izetbegović, 'Inescapable Questions' (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He mentored a generation of Bosniak political leaders through the SDA and broader political movement, including figures like Haris Silajdžić (who became Prime Minister). His son Bakir Izetbegović later became a prominent politician and SDA chairman, though this could reflect dynastic replication rather than autonomy-development. His philosophical works served as intellectual mentorship for a broader audience. Evidence of the specific quality of mentoring relationships—whether they fostered genuine autonomy—is debated."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Karčić, 'The Political Thought of Alija Izetbegović' (2013)",
+              "Mahmutćehajić, 'Bosnia the Good' (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Izetbegović's legacy is deeply significant within Bosnia, where he is a founding-father figure for Bosniaks, and within the broader Muslim world, where he is respected as a model of Islamic political leadership in a European context. His philosophical works continue to be read and translated. However, his global impact does not meet the 500-year, multi-civilizational criterion for a 3—his influence remains primarily regional and within the Islamic intellectual tradition."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Mahmutćehajić, 'Bosnia the Good' (2000)",
+              "Donia, 'Sarajevo: A Biography' (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He embodies the archetype of the philosopher-king in crisis—the intellectual forced by circumstances into wartime leadership—and the imprisoned dissident who becomes head of state (comparable to Mandela or Havel). Within Bosniak culture, he is a founding-father archetype. However, his cross-cultural recognition as a symbol or archetype remains limited compared to figures like Mandela or Gandhi; outside the Balkans and the Muslim world, he is not widely recognized."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Bose, 'Bosnia after Dayton' (2002)",
+              "Belloni, 'State Building and International Intervention in Bosnia' (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The SDA, which he founded in 1990, has survived well beyond two generations and remains a dominant political party in Bosnia over 30 years later. The Bosnian state institutions preserved through the war—however imperfect—represent institutional survival against extraordinary odds. However, the Dayton framework is widely criticized as dysfunctional, and the SDA itself has been associated with patronage networks rather than robust institutional governance."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Silber & Little, 'Yugoslavia: Death of a Nation' (1997)",
+              "Hoare, 'How Bosnia Armed' (2004)",
+              "Bose, 'Bosnia after Dayton' (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Izetbegović led successfully across qualitatively different contexts: as a clandestine intellectual and dissident under Yugoslav communism, as the founding leader of the SDA during Bosnia's democratic transition (1990), and as wartime president during an existential crisis (1992–95), mobilizing a largely unarmed population against vastly superior military forces. He then pivoted to post-war diplomatic leadership at Dayton. His ability to command loyalty across these radically different environments—underground resistance, democratic party politics, siege warfare, and international diplomacy—meets the criterion."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Izetbegović, 'Inescapable Questions' (2003)",
+              "Donia, 'Sarajevo: A Biography' (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "During the siege, Izetbegović shared many of the same conditions as ordinary Sarajevans—limited food, water, and electricity. He was known for his modest personal lifestyle, lack of ostentation, and love of books. His memoirs describe everyday concerns and personal reflections. He walked the streets of besieged Sarajevo. However, evidence of specifically mundane activities (cooking, humor with children, manual labor) at the height of power is limited in the record."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Bose, 'Bosnia after Dayton' (2002)",
+              "Burg & Shoup, 'The War in Bosnia-Herzegovina' (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He publicly committed to a multi-ethnic Bosnia governed by rule of law, and accepted the Dayton Agreement in 1995 despite its deeply unfavorable terms (recognizing Republika Srpska), prioritizing peace over maximalist Bosniak claims. He supported the International Criminal Tribunal for the former Yugoslavia. However, his own party (SDA) was repeatedly associated with nepotism and corruption, and documented cases of ruling explicitly against his own group's interest in favor of abstract principle are limited."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Izetbegović, 'Inescapable Questions: Autobiographical Notes' (2003)",
+              "Silber & Little, 'Yugoslavia: Death of a Nation' (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Izetbegović consistently advocated for multi-ethnic coexistence and publicly opposed revenge against Serb and Croat civilians during the war, at a time when his own people were subjected to genocide at Srebrenica and ethnic cleansing across eastern Bosnia. He spoke at the Dayton talks about the rights of all Bosnian citizens regardless of ethnicity. However, critics point to some wartime rhetoric that was more narrowly Bosniak-focused, and specific documented acts of compassion toward individual adversaries are limited in the record."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Izetbegović, 'Inescapable Questions' (2003)",
+              "Donia, 'Sarajevo: A Biography' (2006)",
+              "Hoare, 'How Bosnia Armed' (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "He was imprisoned by the Yugoslav communist regime twice—first from 1946 to 1949 for his involvement with the Young Muslims organization, and again from 1983 to 1988 for 'The Islamic Declaration.' He then chose to remain in Sarajevo throughout the entire 1,425-day siege (1992–1995), the longest siege of a capital in modern warfare, enduring constant sniper fire and bombardment. He survived multiple assassination attempts and led his country during the Srebrenica genocide. This represents sustained courage across multiple high-stakes situations spanning decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Izetbegović, 'Inescapable Questions' (2003)",
+              "Izetbegović, 'The Islamic Declaration' (1970)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His intellectual trajectory shows meaningful evolution: 'The Islamic Declaration' (1970) was more explicitly Islamist in tone, while his later career and 'Islam Between East and West' emphasized civilizational synthesis and multi-ethnic coexistence. He reportedly acknowledged that some wartime decisions, including aspects of the Cutileiro Plan rejection, may have been errors. His memoirs ('Inescapable Questions') reflect on personal limitations. However, Bosniak hagiographic tradition somewhat sanitizes his record, and the degree of genuine reversal vs. rhetorical shift is debated."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Izetbegović, 'Inescapable Questions' (2003)",
+              "Donia, 'Sarajevo: A Biography' (2006)",
+              "Hoare, 'How Bosnia Armed' (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "He endured at least two qualitatively different forms of extreme adversity while maintaining effective functioning: (1) political imprisonment under the Yugoslav regime, totaling roughly 8 years across two separate incarcerations (1946–49, 1983–88), including isolation and deprivation; (2) the siege of Sarajevo (1992–95), with constant mortal danger from sniping and shelling, while simultaneously managing wartime governance; and (3) the personal grief of the Srebrenica genocide and loss of fellow Bosnians. He maintained political and intellectual productivity throughout all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Izetbegović, 'Islam Between East and West' (1984)",
+              "Bose, 'Bosnia after Dayton' (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He inhabited several seemingly contradictory roles: Islamic philosopher and advocate for secular multi-ethnic statehood; political prisoner and head of state; man of peace and wartime leader; contemplative intellectual and decisive political actor. Critics argue, however, that the tension between 'The Islamic Declaration' and his multi-ethnic rhetoric was never fully resolved, representing inconsistency rather than integration. Without the counterexample of this perceived inconsistency, a 3 would be justified; with it given weight, a 2 reflects the partial integration achieved."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Izetbegović, 'Inescapable Questions' (2003)",
+              "Donia, 'Sarajevo: A Biography' (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "His decision to remain in besieged Sarajevo when evacuation was possible demonstrates acceptance of mortal risk in service of leadership. He faced assassination attempts with documented composure. His philosophical and religious writings engage seriously with mortality. In his final years, he dealt with serious heart disease and wrote reflective memoirs before his death in 2003. However, detailed documentation of his composure in the face of his own imminent death is limited."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Izetbegović, 'Inescapable Questions' (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "He physically endured years of imprisonment (1946–49 and 1983–88) and the three-and-a-half-year siege of Sarajevo in his late 60s and early 70s. However, he was primarily an intellectual rather than a physically active figure, and no specific physical feats or endurance across multiple life-stages are documented beyond survival under harsh conditions. His health declined significantly in later years (heart disease)."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Izetbegović, 'Islam Between East and West' (1984/1994)",
+              "Izetbegović, 'Inescapable Questions' (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "'Islam Between East and West' contains extensive, non-instrumental discussions of art, literature, and aesthetics, arguing that artistic expression is evidence of the spiritual dimension of human existence. He engaged substantively with European literature, philosophy, and culture as intrinsic goods. He was known as a passionate book collector and reader throughout his life. His memoirs reflect genuine personal pleasure in intellectual and aesthetic pursuits."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 6.67,
+          "Core_5D_Avg": 6.97,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Alija Izetbegović",
+      "overall": {
+        "Core_5D_Avg": 6.97,
+        "Overall_Normalized_Equal_Avg": 6.25,
+        "General_Competency_Avg_10scale": 2.67
+      },
+      "summary": "An Islamic philosopher turned wartime president, Izetbegović's defining traits are sustained courage under extreme adversity, hardship tolerance across imprisonment and siege, and leadership across radically different contexts—clandestine intellectual, party founder, and wartime head of state. His philosophical work (\"Islam Between East and West\") is notable but not paradigm-shifting. Heinlein-style generalist competency is low: he was primarily an intellectual and statesman with little documented practical or manual skill. His moral record is strong but complicated by partisan historiography. His greatest legacy is the preservation of Bosnia as a multi-ethnic state through an existential war.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.8,
+          "General_Competency_Avg_10scale": 2.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of culinary skill in the historical record."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Hoare, 'How Bosnia Armed' (2004)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "As wartime president, he organized Bosnia's defense and oversaw the creation of the Army of the Republic of Bosnia and Herzegovina (ARBiH). He remained in a combat zone (besieged Sarajevo) for over three years. However, he was not personally a combatant and had no military training or experience. The score of 1 reflects his role in directing defense at the highest level without personal combat capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Izetbegović, 'Inescapable Questions' (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "He showed concern for his people as a political leader and maintained a family through decades of hardship, but specific documented acts of hands-on caregiving—nursing the sick, comforting the bereaved individually—are sparse in the historical record. His role was primarily that of political leader rather than caregiver."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Izetbegović, 'Inescapable Questions' (2003)",
+            "Donia, 'Sarajevo: A Biography' (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "He maintained composure and dignified leadership throughout the siege of Sarajevo, facing constant mortal danger from sniping and shelling. He survived two extended imprisonments with his intellectual mission intact, emerging to write major works. His philosophical framework provided him with explicit resources for facing mortality and crisis. He dealt with terminal heart disease in his final years while writing reflective memoirs."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of manual craft or repair skills in the historical record. His career was entirely intellectual, legal, and political."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of navigation or wayfinding skill. His life was primarily sedentary and urban-based."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of competence in animal husbandry or food processing. He was an urban intellectual and lawyer by profession."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Silber & Little, 'Yugoslavia: Death of a Nation' (1997)",
+            "Bose, 'Bosnia after Dayton' (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "He demonstrated strong leadership as SDA founder, wartime president, and international diplomat. He also showed capacity for followership: as a political prisoner he complied with prison regimes while maintaining dignity, and at Dayton he accepted terms dictated by stronger powers (the US-brokered agreement) despite personal reservations, demonstrating ability to subordinate his preferences to larger strategic necessity."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of construction or fabrication skills. He was trained as a lawyer and worked as an intellectual and politician."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Hoare, 'How Bosnia Armed' (2004)",
+            "Burg & Shoup, 'The War in Bosnia-Herzegovina' (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "He coordinated Bosnia's military and diplomatic strategy during the 1992–95 war, working with commanders like Rasim Delić and navigating complex trilateral diplomacy. He managed the transition from a virtually unarmed population to a functioning military force. However, he was not a military commander himself and relied heavily on others for operational planning."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Izetbegović, 'Islam Between East and West' (1984)",
+            "Izetbegović, 'Inescapable Questions' (2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "He authored several published books, including the philosophically ambitious 'Islam Between East and West' and the politically influential 'Islamic Declaration,' as well as his reflective memoirs 'Inescapable Questions.' His written prose engages substantively with European literary and philosophical traditions. He was a skilled essayist and polemicist, though not primarily known as a literary artist."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of medical knowledge or emergency response capability. During the siege, medical care was provided by trained professionals and aid organizations, not by Izetbegović personally."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Izetbegović, 'Islam Between East and West' (1984)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "He was trained as a lawyer (University of Sarajevo) and his philosophical work demonstrates systematic analytical reasoning. However, no specific mathematical, financial, or quantitative competence is documented in the record beyond what professional legal training implies."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural knowledge or resource management skill outside his political role. Wartime resource management in besieged Sarajevo was handled by logistical and military structures rather than by Izetbegović personally."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Donia, 'Sarajevo: A Biography' (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "He managed complex political and organizational systems under extreme wartime constraints, including maintaining communication and governance infrastructure in besieged Sarajevo. His legal training provided systematic problem-solving skills. However, no engagement with the cutting-edge technologies of his era is documented."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.97,
+    "general_competency_avg_0_10": 2.67,
+    "overall_normalized_equal_avg_0_10": 6.25,
+    "created_at": "2026-03-22T18:42:24.890Z",
+    "updated_at": "2026-03-22T18:42:24.910Z"
+  }
+}
+]

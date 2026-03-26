@@ -1,0 +1,368 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 168,
+  "fields": {
+    "name": "Immanuel Kant",
+    "slug": "immanuel-kant",
+    "bio_short": "Kant is history's preeminent systematic philosopher, scoring exceptionally in ethical/philosophical insight and creative/innovative thinking for his revolutionary Critiques and the categorical imperative. His cultural-social impact across epistemology, ethics, aesthetics, and political philosophy is civilizational in scale. However, his extraordinarily narrow life — never leaving Königsberg, never marrying, minimal physical or practical engagement — yields low scores in relational, embodied, and Heinlein competency domains. A figure of supreme intellectual specialization rather than broad huma",
+    "bio_long": "Immanuel Kant was a German philosopher. Born in Königsberg in the Kingdom of Prussia, he is considered one of the central thinkers of the Enlightenment. His comprehensive and systematic works in epistemology, metaphysics, ethics, and aesthetics have made him one of the most influential and highly discussed figures in modern Western philosophy.",
+    "source_notes": "https://en.wikipedia.org/wiki/Immanuel_Kant",
+    "image": "figures/330px-Immanuel_Kant_-_Gemaelde_1.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)",
+              "Guyer, Paul. *Kant* (Routledge, 2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kant showed some strategic thinking in navigating the Prussian censorship crisis of 1792–94, publishing Religion within the Boundaries of Mere Reason through a university faculty rather than the royal censor, then prudently agreeing to cease religious writing under Frederick William II. He also strategically planned the decade-long 'silent period' (1770–1781) to develop the first Critique. However, these are instances of intellectual/career navigation, not multi-outcome strategic adaptation across high-stakes scenarios."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Kant, *Critique of Pure Reason*, Preface to 2nd ed. (1787)",
+              "Guyer, Paul (ed.). *The Cambridge Companion to Kant* (Cambridge UP, 1992)",
+              "Beiser, Frederick. *The Fate of Reason* (Harvard UP, 1987)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Kant's self-described 'Copernican Revolution' in epistemology — the thesis that objects conform to our cognition rather than vice versa — represents a genuine paradigm shift. Before the Critique of Pure Reason, philosophy was divided between rationalism (Leibniz-Wolff) and empiricism (Hume); Kant's transcendental idealism synthesized and superseded both. The before/after difference is clearly attributable to Kant: German Idealism, phenomenology, and analytic philosophy all define themselves in relation to his framework."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Rawls, John. *A Theory of Justice* (1971)",
+              "Wood, Allen. *Kant's Ethical Thought* (Cambridge UP, 1999)",
+              "Schneewind, J.B. *The Invention of Autonomy* (Cambridge UP, 1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Kant articulated the categorical imperative, the formula of humanity (treating persons as ends in themselves), and the architectonic of pure and practical reason in the three Critiques and the Groundwork. These principles influenced virtually every subsequent moral philosopher — Rawls's *A Theory of Justice* explicitly builds on Kant, Habermas's discourse ethics is Kantian, and modern human rights frameworks draw on his concept of dignity. His influence spans far beyond his own community and era, making him the paradigm case for this trait."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kant served twice as rector of the University of Königsberg (1786, 1788) and fulfilled his administrative duties competently, managing faculty affairs and student examinations. However, there is no evidence he created administrative systems that endured beyond his direct oversight, nor did he reform university governance in lasting ways. His primary identity was always that of a scholar and lecturer."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kant inhabited the roles of friend (Joseph Green, dinner circle), professor/mentor (to students), subordinate (to university administration, the Prussian crown), and colleague (to faculty). However, he was never a spouse, parent, military comrade, or adversary in any sustained relational sense. His relational world was overwhelmingly academic and intellectual, with a narrow social circle. This yields only about four relational modes, below the five required for a score of 2 or higher."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Kant never married and had no known romantic partnerships. He reportedly considered marriage on two occasions but decided against it both times, once remarking that when he wanted a wife he could not afford one, and when he could afford one he no longer wanted one. There is no evidence of intimate partnership to evaluate."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)",
+              "Beiser, Frederick. *The Fate of Reason* (Harvard UP, 1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Kant mentored several students who became significant thinkers in their own right. Johann Gottfried Herder studied under him (1762–1764) and developed into an independent and even critical voice — precisely the autonomy the rubric values. Marcus Herz became a prominent physician and philosopher who served as Kant's intellectual interlocutor for decades. Karl Leonhard Reinhold and Johann Gottlieb Fichte were profoundly shaped by Kant's work. The fact that Herder developed genuine opposition to Kant suggests mentoring that fostered independence rather than mere replication."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Schneewind, J.B. *The Invention of Autonomy* (Cambridge UP, 1998)",
+              "O'Neill, Onora. *Constructions of Reason* (Cambridge UP, 1989)",
+              "Guyer, Paul (ed.). *The Cambridge Companion to Kant* (Cambridge UP, 1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Kant's influence remains clearly operative across multiple civilizations more than 200 years after his death. His epistemology reshaped the structure of all subsequent Western philosophy; his ethics undergird modern human rights law (the UN Declaration echoes his dignity concept); his political philosophy shaped liberal constitutionalism globally; his aesthetics influenced art criticism worldwide. His impact spans European, American, and increasingly Asian and African intellectual traditions. While only 220 years have passed, the depth and breadth of influence make an enduring 500+ year legacy virtually certain."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)",
+              "Borowski, Ludwig Ernst. *Darstellung des Lebens und Charakters Immanuel Kants* (1804)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Kant embodies the archetype of the pure philosopher — the thinker who revolutionized human understanding while living an outwardly uneventful life of extreme regularity in a provincial city. His clockwork walks are legendary across cultures. He is recognized as a symbol of Enlightenment reason itself. However, the 'philosopher' archetype has narrower cross-cultural resonance than archetypes like the prophet, warrior, or liberator, limiting him to 2 rather than 3."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kant did not found or reform any lasting institution. He served the University of Königsberg but did not transform it. While 'Kantianism' as an intellectual tradition endured and reshaped philosophy departments across Europe, this is an indirect legacy of his ideas rather than deliberate institution-building. He created no organizations, schools, or governance structures that survived with recognizable institutional continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Beiser, Frederick. *The Fate of Reason* (Harvard UP, 1987)",
+              "Guyer, Paul (ed.). *The Cambridge Companion to Kant* (Cambridge UP, 1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Kant was the intellectual leader of the German Enlightenment and the most influential philosopher of the modern era. His Critiques directly catalyzed German Idealism (Fichte, Schelling, Hegel), shaped Romanticism, and continue to structure philosophical debate today. However, his leadership was exercised exclusively in the intellectual/academic domain — he never led in crisis management, military affairs, or mass social movements. The rubric requires leadership across qualitatively different contexts for a score of 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)",
+              "Wasianski, E.A.C. *Immanuel Kant in seinen letzten Lebensjahren* (1804)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kant's famous dinner parties — he insisted on 3–9 guests and wide-ranging non-philosophical conversation — and his enjoyment of wine, snuff, and daily walks show some engagement with everyday life. However, he never married, had no children, never traveled more than ~100 km from Königsberg, and lived an extraordinarily cloistered academic existence. His daily routines were eccentric rather than relatable (neighbors setting clocks by his walks). Overall, he was notably removed from many domains of ordinary human experience."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Kant, *Perpetual Peace* (1795)",
+              "Rawls, John. *Lectures on the History of Moral Philosophy* (Harvard UP, 2000)",
+              "Kleingeld, Pauline. 'Kant's Second Thoughts on Race,' *Philosophical Quarterly* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Kant's philosophical articulation of justice — the categorical imperative, the kingdom of ends, cosmopolitan right in *Perpetual Peace* (1795), and his opposition to despotism and colonialism in principle — constitutes one of the most influential justice frameworks in history. However, in practice he largely conformed to Prussian absolutism and his racial hierarchy writings contradict his own universalist principles. Without counterexample: 3 for the philosophical framework alone. With counterexample: 2, since the racial writings represent a serious failure to apply his own justice principles consistently. Final: 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)",
+              "Mills, Charles. *The Racial Contract* (Cornell UP, 1997)",
+              "Eze, Emmanuel Chukwudi. 'The Color of Reason' in *Postcolonial African Philosophy* (1997)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Kant was personally generous — biographers record his financial support for students and kindness to his servant Lampe. However, his moral philosophy explicitly subordinates compassionate feeling to duty, and his writings on race in 'Of the Different Races of Human Beings' (1775) and his physical geography lectures establish hierarchies among peoples that undercut claims of universalized empathy. Without counterexample (racial writings): score would be 2 for documented personal generosity. With counterexample given full weight: 1, because the gap between abstract universalism and specific racial hierarchy is morally significant. Final: 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)",
+              "Guyer, Paul. *Kant* (Routledge, 2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kant showed intellectual courage in publishing Religion within the Boundaries of Mere Reason (1793) despite knowing it would provoke Prussian censors, and he persisted through over a decade of near-silence while developing the first Critique. However, the censorship conflict was the only genuinely high-stakes confrontation in his life, and he ultimately capitulated by promising to cease writing on religion. The rubric requires sustained courage across multiple high-stakes situations for a higher score."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Kant, *Prolegomena to Any Future Metaphysics* (1783), Preface",
+              "Kleingeld, Pauline. 'Kant's Second Thoughts on Race,' *Philosophical Quarterly* (2007)",
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Kant explicitly acknowledged that reading Hume 'awakened him from dogmatic slumber' (Prolegomena, 1783), triggering the complete reversal from his pre-critical rationalist metaphysics to the critical philosophy — one of the most consequential intellectual course-corrections in Western thought. Pauline Kleingeld has argued that Kant's views on race softened in his later writings, though this is debated. The Hume acknowledgment alone constitutes a documented instance of accepting correction with massive behavioral change."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kant lost his mother at age 13 and his father at 22, and spent years as a poorly-paid private tutor (1748–1755) before securing a university position. He endured the political pressure of Prussian censorship in the 1790s and significant cognitive and physical decline in his final years. These represent multiple forms of adversity, but none was extreme by the standards of his era — he was never destitute, exiled, or in mortal danger — and his responses, while competent, were not exceptional."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)",
+              "Beiser, Frederick. *The Fate of Reason* (Harvard UP, 1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Kant integrated several seemingly contradictory stances: radical philosophical revolutionary yet extreme personal conservative and creature of habit; cosmopolitan universalist who never left Königsberg; champion of intellectual freedom who submitted to royal censorship; rigorous rationalist who defended the limits of reason and the necessity of moral faith. These are genuine paradoxes held together coherently. However, they are primarily intellectual tensions rather than lived social roles (warrior-peacemaker, ascetic-leader), keeping the score at 2."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Wasianski, E.A.C. *Immanuel Kant in seinen letzten Lebensjahren* (1804)",
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Kant's final words, reported by his caretaker Wasianski, were 'Es ist gut' ('It is sufficient') — suggesting composure and acceptance at the moment of death. His philosophical writings addressed immortality as a postulate of practical reason rather than with anxiety. His final years involved increasing frailty and cognitive decline, through which he maintained what dignity he could. The cognitive decline complicates attribution of intentional composure, but the convergence of philosophical preparation and reported deathbed calm supports a 2."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)",
+              "Wasianski, E.A.C. *Immanuel Kant in seinen letzten Lebensjahren* (1804)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Kant was physically frail — small, thin, with a deformed chest (possibly pectus excavatum). He compensated through extraordinary personal discipline: strict dietary regimen, daily walks regardless of weather, and regulated sleep. He managed to live to age 79, remarkable for the era, through sheer self-management rather than natural robustness. No physical feats are documented, but his disciplined maintenance of a fragile body across decades merits a 1."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Borowski, Ludwig Ernst. *Darstellung des Lebens und Charakters Immanuel Kants* (1804)",
+              "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Kant's dinner parties were genuine occasions of pleasure — he insisted on lively conversation covering politics, science, and travel (not philosophy), and enjoyed good food and wine. His lectures were reportedly witty and entertaining, and contemporaries described him as a charming conversationalist in social settings. Borowski's memoir describes his genuine enjoyment of sociability. These pleasures appear non-instrumental — they were not performed for political or didactic purposes but for personal enjoyment."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 3.33,
+          "Core_5D_Avg": 5.27,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Immanuel Kant",
+      "overall": {
+        "Core_5D_Avg": 5.27,
+        "Overall_Normalized_Equal_Avg": 4.76,
+        "General_Competency_Avg_10scale": 2.22
+      },
+      "summary": "Kant is history's preeminent systematic philosopher, scoring exceptionally in ethical/philosophical insight and creative/innovative thinking for his revolutionary Critiques and the categorical imperative. His cultural-social impact across epistemology, ethics, aesthetics, and political philosophy is civilizational in scale. However, his extraordinarily narrow life — never leaving Königsberg, never marrying, minimal physical or practical engagement — yields low scores in relational, embodied, and Heinlein competency domains. A figure of supreme intellectual specialization rather than broad human versatility, whose depth in one domain is nearly unmatched but whose life otherwise illustrates Heinlein's warning about specialization.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.67,
+          "General_Competency_Avg_10scale": 2.22
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Although Kant was famous for his dinner parties and appreciation of good food and wine, he employed a cook and there is no evidence he prepared food himself. His expertise was as a discerning consumer and host, not a cook."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Kant ever engaged in physical combat, weapons training, or self-defense. He lived in a relatively peaceful academic environment throughout his life and was physically frail."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Kant showed kindness to his long-serving servant Lampe and provided financial support to students in need. He tended to friends in his social circle. However, there is no evidence of sustained hands-on caregiving — nursing the sick, raising children, or providing physical care across the lifespan. His caregiving was limited to financial generosity and social warmth."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Wasianski, E.A.C. *Immanuel Kant in seinen letzten Lebensjahren* (1804)",
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Kant faced his own declining health and approaching death with notable composure. His final words 'Es ist gut' ('It is sufficient'), reported by Wasianski, suggest acceptance. His philosophical framework treated death as a transition grounded in moral faith rather than something to be feared. Throughout his final years of cognitive decline, he maintained dignity and routine as long as physically possible."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Kant engaged in manual crafts, tool-making, or repair of any kind. He was raised in a saddler's household (his father was a master harness-maker), but there is no record of Kant himself practicing the trade or any manual skill."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Kant famously never traveled more than approximately 100 km from Königsberg in his entire life. While he taught physical geography and could describe distant lands from books, he had no practical navigation or wayfinding experience. His geographic knowledge was entirely theoretical."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Kant ever butchered, hunted, fished, or processed animal products. He was a lifelong urban academic who relied on servants and tradespeople for food preparation."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Kant demonstrated leadership as university rector and intellectual leader of the German Enlightenment. He also demonstrated followership: he submitted to the Prussian king's censorship order in 1794, operated within university hierarchies for decades, and respected institutional authority even when it conflicted with his convictions. The combination of intellectual leadership and institutional compliance across different contexts supports a 2."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Kant ever designed or built physical structures, engaged in carpentry, masonry, or any construction activity. His life was entirely academic."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Kant served as university rector twice and managed the decade-long planning of his critical philosophy with extraordinary systematic discipline. However, he never coordinated complex operations involving multiple agents under time pressure or adversarial conditions. His planning was solitary and intellectual rather than operational."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Kant, *Critique of Judgment* (1790)",
+            "Guyer, Paul. *Kant and the Claims of Taste* (Cambridge UP, 1997)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Kant authored the *Critique of Judgment* (1790), one of the most influential works on aesthetics, demonstrating profound understanding of beauty and art. He reportedly wrote some early Latin poetry and his lectures were described as witty and engaging. However, he was a philosopher of art rather than an artist — he produced no poetry, music, visual art, or literary works of note. His contribution is analytical rather than creative-expressive."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Kant ever provided medical aid or emergency care to anyone. He was attentive to his own health through strict regimen but this is self-care, not medical skill applied to others."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Kant, *Universal Natural History and Theory of the Heavens* (1755)",
+            "Friedman, Michael. *Kant and the Exact Sciences* (Harvard UP, 1992)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Kant's early scientific work demonstrates strong analytical reasoning: his *Universal Natural History and Theory of the Heavens* (1755) proposed the nebular hypothesis for solar system formation, anticipating Laplace. He wrote on the physics of earthquakes after the 1755 Lisbon event and published work on the nature of winds. His philosophical method involves extraordinary logical rigor and systematic categorization. Era-normalized, this represents high competence in the scientific-analytical tools of his time."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Kuehn, Manfred. *Kant: A Biography* (Cambridge UP, 2001)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Kant ever engaged in agriculture, animal husbandry, or natural resource management. He was a lifelong urban academic in Königsberg."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Kant, *Universal Natural History and Theory of the Heavens* (1755)",
+            "Friedman, Michael. *Kant and the Exact Sciences* (Harvard UP, 1992)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Kant engaged with the cutting-edge science of his era: his nebular hypothesis (1755) applied Newtonian mechanics to cosmogony, and he wrote on seismology, meteorology, and physics. However, these were theoretical contributions from an armchair rather than hands-on technical work. He did not build instruments, conduct experiments, or operate machinery. Era-normalized, his theoretical engagement with scientific tools merits a 1."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.27,
+    "general_competency_avg_0_10": 2.22,
+    "overall_normalized_equal_avg_0_10": 4.76,
+    "created_at": "2026-03-22T21:28:24.928Z",
+    "updated_at": "2026-03-22T21:28:24.945Z"
+  }
+}
+]

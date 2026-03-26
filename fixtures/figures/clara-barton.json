@@ -1,0 +1,368 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 132,
+  "fields": {
+    "name": "Clara Barton",
+    "slug": "clara-barton",
+    "bio_short": "A defining exemplar of humanitarian courage and institution-building. Barton's founding of the American Red Cross and her decades of battlefield and disaster relief represent exceptional compassion, resilience, and leadership across qualitatively different contexts. Her cognitive and organizational skills were strong but not flawless—she struggled with delegation and was ultimately pushed out of her own organization. Relational depth is limited by the absence of sustained intimate partnerships. Heinlein-style breadth is moderate: extraordinary in caregiving and emergency response, but with thi",
+    "bio_long": "Clarissa Harlowe \"Clara\" Barton was an American nurse who founded the American Red Cross. She was a hospital nurse in the American Civil War, a teacher, and a patent clerk. Since nursing education was not very formalized, and she did not attend nursing school, she provided self-taught nursing care. Barton is noteworthy for doing humanitarian work and civil rights advocacy at a time before women had the right to vote. She was inducted into the National Women's Hall of Fame in 1973.",
+    "source_notes": "https://en.wikipedia.org/wiki/Clara_Barton",
+    "image": "figures/330px-28Union_nurse_Clara_Barton29_28LOC29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Oates, A Woman of Valor: Clara Barton and the Civil War (1994)",
+              "Pryor, Clara Barton: Professional Angel (1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Barton independently developed a battlefield supply distribution system during the Civil War when the Army Medical Bureau's system failed, arriving at Antietam with critical supplies just as army stocks ran out. She adapted her operational model across qualitatively different contexts: from Civil War battlefields to the missing soldiers identification program at Andersonville (locating 22,000+ men) to international disaster relief (Johnstown Flood 1889, Galveston Hurricane 1900). Her strategic adaptability was strong but not flawless—her later resistance to organizational reform at the Red Cross showed strategic rigidity."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Oates, A Woman of Valor (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "She founded one of New Jersey's first free public schools in Bordentown (1852), created a novel system for tracking missing Civil War soldiers, and adapted the European Red Cross model for American conditions by adding peacetime disaster relief—the 'American Amendment.' Each represented genuine innovation in its domain. However, the international Red Cross concept originated with Henry Dunant; Barton's contribution was adaptive innovation rather than a full paradigm shift."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Burton, Clara Barton: In the Service of Humanity (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Barton articulated and enacted the principle that humanitarian aid should be provided regardless of the recipient's allegiance—she aided Confederate and Union soldiers alike. She successfully lobbied for the 'American Amendment' to the Geneva Convention, extending Red Cross work to natural disaster relief, a conceptual innovation that influenced international humanitarian law beyond her own community. However, she was primarily a practitioner rather than a systematic ethical theorist; her moral vision was expressed through action more than written philosophy."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Jones, The American Red Cross from Clara Barton to the New Deal (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Barton successfully lobbied Congress and the Arthur administration for U.S. ratification of the Geneva Convention in 1882. She built the American Red Cross into a functioning national organization that survived well beyond her tenure. However, her centralized, personal management style drew criticism—she resisted financial transparency reforms and was ultimately forced to resign in 1904 after a Congressional investigation. The institution endured but required substantial reorganization after her departure."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Oates, A Woman of Valor (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Barton documented qualitatively distinct behavior across multiple relational modes: teacher/authority figure (Bordentown school), subordinate/employee (Patent Office clerk under male supervisors), organizational leader (Red Cross president), peer/friend (documented friendships with Susan B. Anthony, Frederick Douglass), and stranger-caregiver (nursing unknown soldiers). She also interacted with presidents (Lincoln, Arthur) and foreign dignitaries. However, the spousal/partner and parental modes are absent from her life, limiting the range somewhat."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Barton never married. Pryor's biography documents emotionally significant relationships with several men, including Colonel John Elwell during the Civil War, but none constituted a sustained intimate partnership with documented mutuality, support during crisis, and emotional availability across a full relationship arc. Her close emotional bonds were real but do not meet the criteria for higher scores on spousal/partner quality."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Burton, Clara Barton: In the Service of Humanity (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Barton had no children but was an effective teacher who founded the free public school in Bordentown, New Jersey, which grew from 6 to 600 students under her direction. She mentored Red Cross workers and trained volunteers for disaster relief. Her teaching career demonstrated genuine investment in developing others' capacities. However, evidence that specific mentees developed notable autonomy and independent competence is limited in the record."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Burton, Clara Barton: In the Service of Humanity (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The American Red Cross continues as a major institution, and the 'American Amendment' influenced the scope of international humanitarian operations. Her advocacy contributed to the broader women's rights movement. However, her primary impact is concentrated in American and Western humanitarian culture; the International Red Cross movement was founded by Henry Dunant, not Barton. Her impact does not clearly meet the threshold of effects operative across multiple civilizations for 500+ years, though the Red Cross model has spread globally."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "National Women's Hall of Fame records"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Barton is known as the 'Angel of the Battlefield,' embodying the archetype of selfless humanitarian service. She is a powerful symbol in American culture—featured in children's literature, school curricula, and the National Women's Hall of Fame (1973). However, her cross-cultural recognition beyond the Anglophone world is more limited compared to Florence Nightingale, who occupies a similar archetype with broader global resonance."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "American Red Cross organizational records"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The American Red Cross, founded by Barton in 1881, remains one of the most prominent humanitarian organizations in the world over 140 years later with clear institutional continuity. She also established the Office of Correspondence with Friends of the Missing Men of the United States Army (1865), which identified over 22,000 missing soldiers. The Red Cross far exceeds the two-generation survival threshold."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Oates, A Woman of Valor (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Barton led successfully across qualitatively different contexts: small-group classroom teaching (Bordentown school), battlefield logistics during crisis (Civil War field operations at Antietam, Fredericksburg), international diplomacy (lobbying for Geneva Convention ratification), organizational leadership (American Red Cross, 1881-1904), and large-scale disaster relief coordination (Johnstown Flood involving thousands of volunteers, Galveston Hurricane). She mobilized volunteers, influenced presidents and Congress, and directed operations under extreme conditions."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Oates, A Woman of Valor (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Barton came from modest farming origins in Oxford, Massachusetts, and worked as a schoolteacher and patent clerk before her humanitarian career. She personally distributed food, blankets, and supplies to soldiers and disaster victims rather than merely directing from a distance—at Johnstown she lived in a tent alongside the displaced. Pryor documents her as unpretentious and hands-on even at the height of her fame. However, specific evidence of mundane domestic activities (cooking for pleasure, humor with children) is thin."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Burton, Clara Barton: In the Service of Humanity (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Barton advocated for women's suffrage alongside Susan B. Anthony and Frederick Douglass. She supported equal pay for women (she was paid the same salary as male clerks at the Patent Office through special arrangement). She treated wounded soldiers regardless of allegiance. She advocated for African American civil rights during and after the Civil War. However, her justice orientation was primarily expressed through advocacy rather than adjudicatory decisions where she ruled against her own interest."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Oates, A Woman of Valor (1994)",
+              "Pryor, Clara Barton: Professional Angel (1987)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Barton provided care to wounded soldiers on both Union and Confederate sides during the Civil War, explicitly rejecting partisan distinctions. She organized relief for Armenian massacre victims in the 1890s—outgroup members in a distant land with no political benefit to her. She personally distributed supplies at Andersonville prison camp and later at the Galveston hurricane site at age 79. Her compassion extended consistently across racial, national, and political boundaries throughout her life."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Oates, A Woman of Valor (1994)",
+              "Pryor, Clara Barton: Professional Angel (1987)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "At Antietam, a bullet passed through her sleeve and killed the soldier she was tending; she continued working. She served under fire at Second Bull Run, Fredericksburg, and the Wilderness. Beyond physical courage, she showed sustained social courage as a woman entering male-dominated spaces (battlefields, the Patent Office, Congress), endured severe depression requiring a period of convalescence in Europe, and continued active disaster relief work into her 80s. This represents sustained courage across physical, social, and psychological domains."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Jones, The American Red Cross from Clara Barton to the New Deal (2013)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Barton had significant flaws including controlling behavior, resistance to delegation, and difficulty accepting organizational reform at the Red Cross. When faced with Congressional criticism and demands for financial transparency in the early 1900s, she fought the reforms rather than accepting them, and was forced to resign in 1904. There is limited evidence of her publicly acknowledging mistakes or reversing positions. Her hagiographic legacy further obscures potential instances of growth. She evolved from teacher to battlefield nurse to institution-builder, but this represents career development more than moral self-correction."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Oates, A Woman of Valor (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Barton functioned effectively across multiple qualitatively different forms of adversity: physical danger and deprivation on Civil War battlefields, severe depression requiring extended recovery in the late 1860s, social ostracism and gender discrimination throughout her career, the grief of losing soldiers she cared for, and political opposition culminating in her forced resignation from the Red Cross at age 82. She continued productive work through each of these adversities rather than withdrawing."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)",
+              "Oates, A Woman of Valor (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Barton inhabited seemingly contradictory roles: tender caregiver and unflinching battlefield presence, modest small-town teacher and powerful Washington lobbyist, gentle nurturer and fiercely independent organizational leader who resisted male authority. She combined traditionally feminine caregiving with traditionally masculine assertiveness and political ambition. However, evidence for a fourth clearly contradictory role is thinner, limiting this to 2 rather than 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Oates, A Woman of Valor (1994)",
+              "Pryor, Clara Barton: Professional Angel (1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "At Antietam, Barton continued nursing while a bullet passed through her sleeve, demonstrating composure in the immediate face of death. She repeatedly placed herself in mortal danger during the Civil War without apparent paralysis or withdrawal. She remained active and purposeful into her 90th year, dying peacefully at home in 1912 at age 90. However, documentation of her specific reflections or composure regarding her own mortality in later life is limited."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Oates, A Woman of Valor (1994)",
+              "Pryor, Clara Barton: Professional Angel (1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Barton endured grueling physical conditions on Civil War battlefields—working without sleep for days during the battles of Antietam and Fredericksburg, hauling supplies in wagons she drove herself. She continued physically demanding disaster relief work into her late 70s and early 80s (Galveston hurricane relief at age 79). She survived a period of serious illness and depression in the late 1860s. Her physical endurance spanned decades but she was not known for exceptional athletic feats."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Pryor, Clara Barton: Professional Angel (1987)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Barton's life was overwhelmingly defined by work and service. Pryor notes she enjoyed reading and maintained warm friendships, and she appreciated the natural beauty of places she visited in Europe during her recovery period. However, evidence of non-instrumental play, aesthetic engagement, or leisure is sparse. Her diaries focus primarily on her work and causes rather than personal enjoyment."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.88,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Clara Barton",
+      "overall": {
+        "Core_5D_Avg": 6.88,
+        "Overall_Normalized_Equal_Avg": 6.55,
+        "General_Competency_Avg_10scale": 4.89
+      },
+      "summary": "A defining exemplar of humanitarian courage and institution-building. Barton's founding of the American Red Cross and her decades of battlefield and disaster relief represent exceptional compassion, resilience, and leadership across qualitatively different contexts. Her cognitive and organizational skills were strong but not flawless—she struggled with delegation and was ultimately pushed out of her own organization. Relational depth is limited by the absence of sustained intimate partnerships. Heinlein-style breadth is moderate: extraordinary in caregiving and emergency response, but with thin evidence in manual, agricultural, and construction domains. Her legacy endures primarily through the institution she built and the archetype of selfless service she embodies in American culture.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.47,
+          "General_Competency_Avg_10scale": 4.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Oates, A Woman of Valor (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Barton prepared food for wounded soldiers during the Civil War, including making soup and other sustenance in field conditions. Oates describes her cooking for soldiers at several battle sites. However, there is no evidence of culinary skill beyond emergency field cooking, and no indication this was a notable competency."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Oates, A Woman of Valor (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Barton was not a combatant but functioned effectively under direct fire on multiple occasions. At Antietam, a bullet passed through her sleeve while she nursed a soldier. She worked through artillery bombardments at Fredericksburg. She demonstrated the ability to maintain composure and continue functioning in active combat zones, though she did not personally fight."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Oates, A Woman of Valor (1994)",
+            "Pryor, Clara Barton: Professional Angel (1987)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Barton's defining competency. She personally nursed wounded soldiers at Antietam, Fredericksburg, the Wilderness, and other Civil War battlefields. She provided emotional comfort to dying soldiers and organized care for disaster victims at Johnstown, the Sea Islands, and Galveston over four decades. She provided both physical wound care and emotional sustenance across the full human lifespan."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Oates, A Woman of Valor (1994)",
+            "Pryor, Clara Barton: Professional Angel (1987)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Barton maintained composure under fire at Antietam and other battles where death was immediate and proximate. She endured severe depression and personal crisis without permanent withdrawal from her mission. She remained purposeful and active into her 90th year, dying at home in 1912 with apparent peace. Her composure in the face of both others' deaths and her own danger was consistent across decades."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Oates, A Woman of Valor (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Barton improvised medical equipment and supplies under field conditions during the Civil War, adapting available materials to urgent needs. Oates describes her fashioning bandages and tourniquets from whatever was at hand. However, there is no evidence of sustained craft or mechanical repair skills beyond emergency improvisation."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Oates, A Woman of Valor (1994)",
+            "Pryor, Clara Barton: Professional Angel (1987)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Barton independently navigated to active battlefields during the Civil War, driving supply wagons to the front lines at Antietam and other engagements—often without military escort and through unfamiliar terrain. She traveled extensively through Europe during the Franco-Prussian War and navigated to disaster sites across the American continent (Texas, South Carolina, Pennsylvania) throughout her career."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence documents Barton butchering, processing, or handling animals for food. While she grew up on a Massachusetts farm where such skills were common, no primary or secondary source I can identify describes her personally performing these tasks."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Pryor, Clara Barton: Professional Angel (1987)",
+            "Oates, A Woman of Valor (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Barton demonstrated strong leadership as founder and president of the American Red Cross and as a battlefield logistics coordinator. She also showed capacity for followership—working under military authority during the Civil War and collaborating with the International Committee of the Red Cross in Geneva. However, her difficulty accepting organizational reform and resistance to oversight at the Red Cross suggest limitations in followership when authority was imposed on her own organization."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence documents Barton designing or constructing durable physical structures. While she oversaw the setup of relief shelters during disaster operations, the record does not credit her with personal construction or fabrication work."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Pryor, Clara Barton: Professional Angel (1987)",
+            "Oates, A Woman of Valor (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Barton planned and coordinated large-scale relief operations including Civil War supply distribution, the Johnstown Flood relief (1889), and the Galveston Hurricane response (1900). She adapted logistics when conditions changed on battlefields. However, her centralized management style and resistance to organizational modernization at the Red Cross reveal limits in strategic planning at the institutional level."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Pryor, Clara Barton: Professional Angel (1987)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Barton was a skilled public speaker who gave lectures across the country about her Civil War experiences and humanitarian causes. She kept extensive diaries and wrote effective correspondence. However, she did not produce works of art, literature, or music as creative achievements in their own right; her expression was primarily instrumental to her humanitarian mission."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Oates, A Woman of Valor (1994)",
+            "Pryor, Clara Barton: Professional Angel (1987)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Self-taught in nursing, Barton provided medical care under fire at the era's bloodiest battles: Antietam, Second Bull Run, Fredericksburg, the Wilderness, and Spotsylvania. She treated wounds, administered medicine, performed triage, and assisted surgeons. She then translated these skills to civilian disaster response across four decades. Relative to the medical knowledge available in her era and her lack of formal training, her competence was exceptional."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Pryor, Clara Barton: Professional Angel (1987)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Barton managed supply logistics requiring quantitative coordination during the Civil War and Red Cross operations. Her missing soldiers program at Andersonville required systematic data management across 22,000+ cases. However, her financial management of the Red Cross was criticized during the 1904 Congressional investigation, suggesting limitations in analytical rigor with organizational accounting."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Pryor, Clara Barton: Professional Angel (1987)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Barton grew up on a farm in Oxford, Massachusetts, during the 1820s-30s, when agricultural work was a routine part of rural childhood. She managed large-scale resource distribution during disaster relief operations. However, no specific evidence documents her personally cultivating crops or managing agricultural resources as an adult."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Pryor, Clara Barton: Professional Angel (1987)",
+            "Oates, A Woman of Valor (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Barton developed a systematic records-matching program to identify over 22,000 missing Civil War soldiers at Andersonville—an early example of large-scale data management. She created disaster relief protocols and supply chain systems that were cutting-edge organizational technologies for her era. She lobbied for and helped implement the Geneva Convention framework in the American context."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.88,
+    "general_competency_avg_0_10": 4.89,
+    "overall_normalized_equal_avg_0_10": 6.55,
+    "created_at": "2026-03-22T18:32:51.408Z",
+    "updated_at": "2026-03-22T18:32:51.426Z"
+  }
+}
+]

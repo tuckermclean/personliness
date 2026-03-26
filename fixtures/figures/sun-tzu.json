@@ -1,0 +1,362 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 204,
+  "fields": {
+    "name": "Sun Tzu",
+    "slug": "sun-tzu",
+    "bio_short": "Sun Tzu's assessment is dominated by the extraordinary cognitive and cultural-social impact of The Art of War, but severely constrained by the near-absence of reliable biographical evidence. The text represents a paradigm shift in strategic thought with cross-civilizational influence spanning 2,500 years, earning exceptional scores for strategic intelligence, creative thinking, impact legacy, and archetype resonance. However, moral-affective, embodied-existential, and relational dimensions are largely unscoreable due to the thinness of the historical record. He exemplifies a figure whose textu",
+    "bio_long": "Sun Tzu was a Chinese military general, strategist, philosopher, and writer who lived during the Eastern Zhou period. Sun Tzu is traditionally credited as the author of The Art of War, a Classical Chinese text on military strategy from the Warring States period, though the earliest parts of the work probably date to at least a century after him.",
+    "source_notes": "https://en.wikipedia.org/wiki/Sun_Tzu",
+    "image": "figures/250px-E590B4E58FB8E9A9ACE5AD99E6ADA6.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Sima Qian, Shiji (Records of the Grand Historian), c. 100 BCE",
+              "Griffith, Samuel B., Sun Tzu: The Art of War (Oxford, 1963)",
+              "Sawyer, Ralph D., The Seven Military Classics of Ancient China (Westview, 1993)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Art of War systematically addresses adaptation under uncertainty, intelligence-gathering, terrain exploitation, and flexible response to changing conditions — e.g., the famous dictum to adapt like water. Sima Qian's account credits Sun Tzu with helping King Helü of Wu defeat the much larger state of Chu through unconventional strategy. The text's emphasis on winning without fighting and adapting plans to circumstances (Chapter 6 on 'Weak Points and Strong') represents the most influential articulation of adaptive strategy in pre-modern history."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Lewis, Mark Edward, Sanctioned Violence in Early China (SUNY, 1990)",
+              "Griffith, Samuel B., Sun Tzu: The Art of War (Oxford, 1963)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Art of War represents a paradigm shift from aristocratic, ritual-bound warfare (characteristic of the Spring and Autumn period) to systematic, rational, deception-based strategy. Before this tradition, Chinese warfare was heavily influenced by li (ritual propriety); the text's emphasis on deception, espionage, and rational calculation marked a clear before/after in military thought. Concepts like the five-factor strategic assessment (Chapter 1) and the taxonomy of terrain (Chapters 10-11) created analytical frameworks still used today."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Ames, Roger T., Sun-Tzu: The Art of Warfare (Ballantine, 1993)",
+              "Mair, Victor, The Art of War: Sun Zi's Military Methods (Columbia, 2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Art of War contains philosophically significant principles about the relationship between warfare and statecraft, including that 'the supreme art of war is to subdue the enemy without fighting' and that reckless warfare harms the state. These ideas integrate Daoist concepts of wu wei and yin-yang thinking into strategic ethics. However, the text's ethical dimension is predominantly instrumental (minimizing costs) rather than deeply deontological, and its influence on ethical philosophy per se is secondary to its strategic influence."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65 (Sun Tzu biography)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The concubine drill story from Sima Qian demonstrates organizational and disciplinary capability — Sun Tzu reportedly transformed the king's harem into an ordered unit through strict discipline. The Art of War discusses military organization, chain of command, and logistics. However, there is no evidence of administrative systems he created that endured beyond his direct oversight, and the biographical record is too thin to warrant a higher score."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The biographical record shows Sun Tzu in essentially two relational modes: as advisor/subordinate to King Helü and as commander over troops (and the concubines in the drill). This covers superior and subordinate modes but lacks evidence of friendship, spousal relationship, parenting, or other relational contexts."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No information whatsoever exists in the historical record about Sun Tzu's spouse(s) or intimate partnerships. The biographical tradition is silent on his personal and domestic life."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65",
+              "Sawyer, Ralph D., The Seven Military Classics of Ancient China (1993)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "While tradition holds that Sun Bin (a later military strategist) was a descendant, there is no documented evidence of Sun Tzu's parenting or direct mentoring relationships. No specific mentee or student is named in the biographical sources with evidence of the quality of that relationship."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Griffith, Samuel B., Sun Tzu: The Art of War (Oxford, 1963)",
+              "Handel, Michael I., Masters of War: Classical Strategic Thought (Frank Cass, 2001)",
+              "Mair, Victor, The Art of War: Sun Zi's Military Methods (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Art of War has influenced military strategy, political theory, and business thought across Chinese, Japanese, Korean, Vietnamese, European, and American civilizations for over 2,000 years. It was studied by Napoleon (reportedly), Mao Zedong, and is required reading at West Point and Sandhurst. Its concepts permeate modern business strategy, game theory, and international relations. This is among the most impactful texts in human history regardless of authorship questions."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Handel, Michael I., Masters of War (2001)",
+              "Sawyer, Ralph D., The Seven Military Classics of Ancient China (1993)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Sun Tzu is the global archetype of the master strategist — referenced across cultures far beyond ancient China. He functions as a symbol of strategic wisdom in Japanese bushido tradition, Western military academies, Silicon Valley boardrooms, and popular culture worldwide. The name 'Sun Tzu' is invoked as shorthand for strategic genius in languages and contexts wholly removed from his original milieu."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Sawyer, Ralph D., The Seven Military Classics of Ancient China (1993)",
+              "Mair, Victor, The Art of War: Sun Zi's Military Methods (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Art of War became the foundational text of Chinese military education, integrated into imperial examinations and military academies for millennia. The tradition of systematic strategic analysis it established shaped Chinese military institutions continuously. However, Sun Tzu did not personally found a school, academy, or organizational structure — the institutionalization was of the text rather than of a directly founded organization."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65",
+              "Griffith, Samuel B., Sun Tzu: The Art of War (Oxford, 1963)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sima Qian records that Sun Tzu was appointed general of Wu's armies and led successful campaigns against Chu, including the capture of the Chu capital Ying in 506 BCE (though his precise role relative to Wu Zixu is debated). The concubine drill demonstrates effective command in a training context. However, we lack evidence of leadership across qualitatively different contexts (e.g., peacetime governance), which would be required for a score of 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "The historical record contains no evidence of mundane, everyday activities — no accounts of Sun Tzu cooking, engaging in humor, doing manual labor, or participating in ordinary domestic life. He exists in the record almost entirely as an abstracted strategic mind. The extreme thinness of the biographical tradition makes this trait unscoreable."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The concubine drill story shows strict enforcement of rules regardless of the high status of the offenders — executing the king's favorites when they disobeyed orders, asserting that 'if orders are not clear, it is the commander's fault; if orders are clear and not obeyed, it is the officers' fault.' The Art of War also discusses fair treatment of soldiers. However, there is insufficient evidence of ruling against personal or group interest in favor of abstract principle beyond this single anecdote."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65",
+              "Sawyer, Ralph D., The Seven Military Classics of Ancient China (1993)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Art of War advocates treating prisoners well ('treat captives kindly,' Chapter 2) and emphasizes that prolonged warfare causes unnecessary suffering to soldiers and civilians. However, the concubine drill story — in which Sun Tzu executed two of King Helü's favorite concubines to enforce discipline — suggests ruthlessness when his authority was challenged. Without counterexample, the compassion in the text might score 2; with the execution anecdote given full weight, the pragmatic rather than empathetic framing of mercy reduces this to 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Sima Qian's account implies Sun Tzu participated in military campaigns for Wu against Chu, and the concubine drill story shows willingness to defy a king's wishes at personal risk. However, there are no specific documented instances of personal courage in battle or sustained resilience under hardship. The evidence is too thin for more than an episodic score."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "The historical record contains no documented instances of Sun Tzu acknowledging mistakes, reversing prior positions, or demonstrating moral growth. The biographical record is so thin (essentially one anecdote from Sima Qian plus the text) that no evidence exists for this trait in either direction. Per the rubric, this scores 0 for absence of credible evidence."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Military campaigning in the Warring States period inherently involved significant hardship, and Sun Tzu's service in Wu's campaigns against Chu implies tolerance of campaign conditions. However, no specific instances of prolonged adversity, exile, grief, or material deprivation are documented in the biographical record."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Ames, Roger T., Sun-Tzu: The Art of Warfare (1993)",
+              "Griffith, Samuel B., Sun Tzu: The Art of War (1963)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Art of War masterfully integrates paradoxes: strength through appearing weak, victory through avoidance of battle, advance through retreat, knowledge through deception. The biographical tradition shows someone who was both a servant to a king and an authority who defied royal wishes (executing the concubines). However, the biographical record is too thin to confirm three contradictory roles inhabited in life, limiting this to 2 (text-based paradox integration is clearly present but personal-life evidence is sparse)."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "There is no documented account of how Sun Tzu faced his own death or aging. The circumstances of his death are unknown. While The Art of War discusses the risks of battle philosophically, there is no evidence of personal composure in the face of imminent death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "As a military general in the Warring States period who reportedly participated in campaigns against Chu, some physical capability is implied — campaign life in this era involved marching, rough terrain, and physical hardship. However, no specific physical feats or endurance across multiple life-stages are documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Sima Qian, Shiji, ch. 65"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No evidence exists in the historical record of Sun Tzu engaging in play, aesthetic appreciation, humor, or leisure activities. The biographical tradition presents him exclusively in strategic and military contexts."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 1.11,
+          "Core_5D_Avg": 4.09,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 2.5,
+          "Embodied-Existential": 2.67
+        }
+      },
+      "figure": "Sun Tzu",
+      "overall": {
+        "Core_5D_Avg": 4.09,
+        "Overall_Normalized_Equal_Avg": 4.08,
+        "General_Competency_Avg_10scale": 4.0
+      },
+      "summary": "Sun Tzu's assessment is dominated by the extraordinary cognitive and cultural-social impact of The Art of War, but severely constrained by the near-absence of reliable biographical evidence. The text represents a paradigm shift in strategic thought with cross-civilizational influence spanning 2,500 years, earning exceptional scores for strategic intelligence, creative thinking, impact legacy, and archetype resonance. However, moral-affective, embodied-existential, and relational dimensions are largely unscoreable due to the thinness of the historical record. He exemplifies a figure whose textual legacy vastly exceeds documented personhood. Confidence is generally Low to Medium throughout given reliance on Sima Qian's account written ~400 years after the events.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.2,
+          "General_Competency_Avg_10scale": 4.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record of culinary skill or food preparation."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 65",
+            "Lewis, Mark Edward, Sanctioned Violence in Early China (1990)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Low",
+          "justification": "As a general who reportedly led Wu's armies in successful campaigns against Chu (including the capture of the capital Ying, c. 506 BCE), personal combat competence is strongly implied by the era's expectations of military commanders. The Art of War's detailed tactical discussions of formations, engagements, and weaponry suggest deep practical familiarity. However, no specific personal combat feats are documented."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists in the historical record of Sun Tzu providing emotional or physical care to others in a nurturing capacity. The biographical tradition focuses exclusively on military and strategic contexts."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 65",
+            "Griffith, Samuel B., Sun Tzu: The Art of War (1963)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Art of War reflects a composed, systematic approach to the chaos and mortal danger of warfare, and the concubine drill shows composure under royal displeasure. However, no evidence documents Sun Tzu facing his own mortality or personal crisis with dignity. The philosophical composure of the text is suggestive but not dispositive for the individual."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record of personal involvement in manual crafts, tool-making, or repair."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Griffith, Samuel B., Sun Tzu: The Art of War (1963), Chapters 10-11",
+            "Sawyer, Ralph D., The Seven Military Classics of Ancient China (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Art of War devotes extensive analysis to terrain classification (Chapters 10-11), discussing nine types of ground, the use of terrain for tactical advantage, and the importance of knowing geography for campaign planning. As a general who reportedly campaigned across the Wu-Chu frontier, practical navigation knowledge is strongly implied by the text's detailed and practical terrain taxonomy."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record of personal involvement in animal husbandry or food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Sima Qian, Shiji, ch. 65",
+            "Griffith, Samuel B., Sun Tzu: The Art of War (1963)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The concubine drill demonstrates effective command and the willingness to enforce discipline even against royal preferences. His appointment by King Helü shows he successfully served as an advisor/subordinate. The Art of War explicitly discusses when to follow a sovereign's orders and when to refuse them (Chapter 8), showing awareness of both roles. However, evidence is limited to one biographical context."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Griffith, Samuel B., Sun Tzu: The Art of War (1963)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Art of War discusses siege warfare, fortifications, and the construction of field works (Chapter 3 on attacking by stratagem, Chapter 12 on fire attacks). This implies familiarity with military engineering and construction, but no evidence of personal construction skill exists."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Griffith, Samuel B., Sun Tzu: The Art of War (1963)",
+            "Sima Qian, Shiji, ch. 65"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "The Art of War is the defining text on strategic planning and command in world history, covering campaign logistics, intelligence operations, force deployment, terrain analysis, and coordinated multi-axis operations. Sima Qian credits Sun Tzu with coordinating Wu's successful invasion of Chu, capturing the capital Ying — a complex multi-state strategic operation."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Mair, Victor, The Art of War: Sun Zi's Military Methods (2007)",
+            "Ames, Roger T., Sun-Tzu: The Art of Warfare (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Art of War is recognized not only as a strategic treatise but as a masterpiece of Classical Chinese prose — terse, aphoristic, and aesthetically influential. Its literary style influenced subsequent Chinese philosophical and military writing. The text demonstrates considerable literary craft in its use of parallelism, metaphor (water imagery), and compressed expression."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record of medical knowledge or emergency treatment capability. The Art of War does not address medical topics."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Griffith, Samuel B., Sun Tzu: The Art of War (1963), Chapter 1",
+            "Ames, Roger T., Sun-Tzu: The Art of Warfare (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Chapter 1 of The Art of War emphasizes calculation (ji) as the foundation of strategy, including force ratios (5:1 for encirclement, 2:1 for direct attack), cost analysis of prolonged campaigns (Chapter 2 on the cost of war), and systematic comparative assessment of five factors. This demonstrates sophisticated analytical reasoning relative to the era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Griffith, Samuel B., Sun Tzu: The Art of War (1963), Chapter 2"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Art of War discusses foraging, supply logistics, and the economic costs of sustaining an army in the field (Chapter 2), including the importance of living off enemy territory rather than straining domestic agriculture. This implies understanding of resource management in a military context, but no evidence of personal agricultural activity."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Griffith, Samuel B., Sun Tzu: The Art of War (1963), Chapters 12-13",
+            "Sawyer, Ralph D., The Seven Military Classics of Ancient China (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Art of War discusses fire attacks (Chapter 12), espionage networks (Chapter 13), signal systems, and logistics chains — representing engagement with the cutting-edge military technologies and systems of the Warring States period. The five-category espionage system described in Chapter 13 represents sophisticated systemic thinking about intelligence operations."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.09,
+    "general_competency_avg_0_10": 4.0,
+    "overall_normalized_equal_avg_0_10": 4.08,
+    "created_at": "2026-03-22T22:16:14.948Z",
+    "updated_at": "2026-03-22T22:16:14.962Z"
+  }
+}
+]

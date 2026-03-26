@@ -1,0 +1,368 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 167,
+  "fields": {
+    "name": "Louis Pasteur",
+    "slug": "louis-pasteur",
+    "bio_short": "Louis Pasteur exemplifies the transformative scientist: exceptional creative and strategic intelligence drove paradigm-shifting discoveries in germ theory, vaccination, and pasteurization. His cultural-social impact is among the highest in scientific history, with the Pasteur Institute enduring globally and his archetype as the heroic scientist resonating cross-culturally. Moral-affective scores are tempered by Geison's revelations of ethical opacity and fierce priority disputes. Remarkable hardship tolerance—continuing groundbreaking work for 27 years after a debilitating stroke while grievin",
+    "bio_long": "Louis Pasteur was a French chemist, pharmacist, and microbiologist renowned for his discoveries of the principles of vaccination, microbial fermentation, and pasteurization, the last of which was named after him. His research in chemistry led to remarkable breakthroughs in the understanding of the causes and preventions of diseases, which laid down the foundations of hygiene, public health and much of modern medicine. Pasteur's works are credited with saving millions of lives through the developments of vaccines for rabies and anthrax. He is regarded as one of the founders of modern bacteriology and has been honored as the \"father of bacteriology\" and the \"father of microbiology\".",
+    "source_notes": "https://en.wikipedia.org/wiki/Louis_Pasteur",
+    "image": "figures/330px-Louis_Pasteur2C_foto_av_Paul_Nadar2C_Crisco_edit.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995.",
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Pasteur repeatedly adapted when initial approaches failed. His discovery of attenuated vaccines arose when chicken cholera cultures left over summer unexpectedly lost virulence—he recognized the implication and pivoted to a new vaccination paradigm. He strategically accepted Rossignol's public challenge at Pouilly-le-Fort (1881) and designed a dramatic demonstration that validated anthrax vaccination. His career-long progression from crystallography to fermentation to germ theory to vaccination shows sustained strategic adaptation across domains."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Pasteur generated multiple paradigm shifts: discovery of molecular chirality (1848) founded stereochemistry; germ theory of disease replaced miasma theory and spontaneous generation; pasteurization created an entirely new food-safety paradigm; and the principle of attenuated vaccines (chicken cholera, anthrax, rabies) transformed preventive medicine. Each represents a clear before/after difference attributable to Pasteur. His 1885 rabies treatment of Joseph Meister inaugurated a new era of applied immunology."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995.",
+              "Latour, Bruno. *The Pasteurization of France*. Harvard UP, 1988."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Pasteur's definitive refutation of spontaneous generation (swan-neck flask experiments, 1859–1861) had profound philosophical implications for understanding the origin and nature of life, influencing thinkers well beyond microbiology. His articulation of germ theory reshaped humanity's causal understanding of disease. However, he was primarily a scientist rather than a systematic philosopher, and Geison's analysis reveals his ethical reasoning about human experimentation was sometimes expedient rather than principled."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+              "Moulin, Anne Marie. 'The Pasteur Institutes,' in *Companion Encyclopedia of the History of Medicine*, ed. Bynum & Porter, 1993."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Pasteur founded the Pasteur Institute (1887) through an international fundraising campaign, designing its organizational structure for research and vaccine production. The Institute survived well beyond his oversight and operates globally today. He also managed multiple simultaneous research programs and government commissions (silkworm disease for the French silk industry, fermentation studies for the wine and beer industries). However, his administrative style was autocratic and he delegated poorly, relying heavily on loyal assistants like Roux and Chamberland."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pasteur operated across multiple relational modes: devoted spouse to Marie, grieving father, demanding mentor/superior to laboratory assistants, fierce adversary to scientific rivals (Koch, Pouchet, Bastian), respectful subordinate to early mentors (Biot, Balard, Dumas), public figure addressing general audiences, and institutional leader at the Pasteur Institute. This spans at least six distinct modes. However, his relational style was often similar across contexts—intense, driven, and somewhat autocratic—suggesting less adaptability than breadth."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Vallery-Radot, René. *The Life of Pasteur*. 1902.",
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pasteur married Marie Laurent in 1849 and they remained together until his death in 1895—a 46-year partnership. Marie served as his laboratory secretary, copying notes and assisting with correspondence throughout his career. She supported him through his stroke, the deaths of three children, and intense professional conflicts. His letters to her express genuine affection and reliance. However, the relationship was notably asymmetric—Marie's role was consistently supportive/secretarial rather than that of an intellectual equal, and evidence of mutual emotional availability (rather than one-directional support) is limited."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995.",
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "As a parent, Pasteur suffered the devastating loss of three of his five children to typhoid, which deeply marked him but about which limited relational detail survives. As a mentor, he trained an exceptional generation of scientists: Émile Roux (co-developed diphtheria antitoxin), Charles Chamberland (developed the Chamberland filter), and Émile Duclaux (succeeded him as director of the Institut Pasteur). These mentees achieved genuine autonomy and independent accomplishment. However, Pasteur was notoriously controlling in the laboratory, and Geison documents tensions where he claimed credit for subordinates' contributions (e.g., the Pouilly-le-Fort method)."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+              "Latour, Bruno. *The Pasteurization of France*. Harvard UP, 1988."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Pasteur's contributions—germ theory, pasteurization, vaccination principles—are foundational to modern medicine, public health, and food safety across every civilization on earth. Pasteurization alone affects billions of people daily. Vaccination has eradicated or controlled diseases globally. Though only ~130 years have elapsed (short of the 500-year benchmark), the magnitude and irreversibility of these transformations across all human civilizations place Pasteur at the maximum level; no credible scenario suggests these impacts will diminish."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Latour, Bruno. *The Pasteurization of France*. Harvard UP, 1988.",
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Pasteur serves as the global archetype of the heroic scientist—the lone researcher whose laboratory discoveries save millions. He is recognized as a symbol of scientific progress in cultures far beyond France: streets, universities, and institutions bear his name worldwide (from Buenos Aires to Ho Chi Minh City). The narrative of the Meister rabies treatment is retold across cultures as a parable of science's humanitarian potential. His image transcends microbiology to represent the ideal of knowledge serving humanity."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Moulin, Anne Marie. 'The Pasteur Institutes,' in *Companion Encyclopedia of the History of Medicine*, ed. Bynum & Porter, 1993.",
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Institut Pasteur, founded in 1887 through an international public subscription campaign, has operated continuously for over 135 years with branches in more than 25 countries. It has produced multiple Nobel laureates and remains a leading global biomedical research institution. This far exceeds the two-generation threshold. Pasteur also institutionalized the practice of applied microbiology within French universities and public health agencies."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+              "Latour, Bruno. *The Pasteurization of France*. Harvard UP, 1988."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Pasteur successfully led in qualitatively different contexts: small laboratory teams at the École Normale Supérieure, large-scale government commissions (silkworm disease crisis in southern France), public campaigns for vaccination, and the international fundraising and founding of the Pasteur Institute. He mobilized both scientists and the general public, with the Meister case generating worldwide attention and popular support for vaccination. His influence extended to training a generation of microbiologists (Roux, Chamberland, Duclaux, Metchnikoff) who became leaders in their own right."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Vallery-Radot, René. *The Life of Pasteur*. 1902.",
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pasteur's humble origins as the son of a tanner in Dole, Jura, grounded him in ordinary French provincial life. He painted accomplished portraits and pastels in his youth, a pursuit unrelated to his scientific career. He was deeply affected by the deaths of three children, sharing in ordinary parental grief. His correspondence reveals personal warmth and humor with family. However, at the height of his fame he lived a relatively cloistered laboratory-centered life, and evidence of mundane engagement (manual labor, cooking, play with children) at this stage is limited."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995.",
+              "Cadeddu, Antonio. 'Pasteur et la cholera des poules: révision critique d'un récit historique,' *History and Philosophy of the Life Sciences*, 1985."
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Pasteur championed rigorous experimental proof over argument from authority, which reflects a commitment to scientific fairness. However, Geison's analysis of his private notebooks revealed he publicly misrepresented which method he used for the Pouilly-le-Fort anthrax vaccine (using Chamberland's chemical method rather than his own published attenuation method), undermining transparency. He engaged in aggressive priority disputes with Toussaint and others, sometimes claiming credit unfairly. There is no strong documented case of Pasteur ruling against his own interest in favor of principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995.",
+              "Vallery-Radot, René. *The Life of Pasteur*. 1902 (hagiographic but primary source for family correspondence)."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pasteur's decision to treat nine-year-old Joseph Meister (1885) with his untested rabies vaccine was driven by genuine compassion for the boy, as documented in his correspondence. The loss of three of his five children to typhoid deeply affected him and motivated his disease research. He expressed empathy for suffering animals in his vivisection debates. However, Geison notes that compassion for subjects sometimes competed with scientific ambition, and there is limited evidence of compassion specifically toward adversaries or outgroup members."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Pasteur demonstrated sustained courage across multiple high-stakes situations: he suffered a severe cerebral hemorrhage in 1868 at age 46, leaving him hemiplegic on his left side, yet continued his most important work (anthrax and rabies vaccines) for 27 more years. He publicly accepted the Pouilly-le-Fort challenge knowing failure would destroy his credibility. He risked his reputation administering the first rabies treatment to Meister. He endured fierce personal attacks from rivals (Koch, Bastian, the anti-vivisection movement) without retreating from his positions."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995.",
+              "Vallery-Radot, René. *The Life of Pasteur*. 1902."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Pasteur's tradition heavily sanitized his record; Vallery-Radot's hagiographic biography (by his son-in-law) established a near-saintly image. Geison's 1995 analysis of the private notebooks, sealed until 1964, revealed significant discrepancies between Pasteur's public claims and private practice. During the silkworm disease investigations (1865–1870), Pasteur initially pursued an incorrect hypothesis and was corrected by evidence over several years, showing intellectual growth. However, there is little evidence he publicly acknowledged moral errors or reversed positions based on ethical reconsideration. Capped at 1 per rubric guidance on sanitized traditions."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Pasteur endured at least two qualitatively distinct forms of severe adversity while maintaining exceptional productivity: (1) the deaths of three of his five children (Jeanne in 1859, Camille in 1865, Cécile in 1866) to typhoid fever—devastating personal bereavements; and (2) a severe cerebral hemorrhage in 1868 that left him permanently hemiplegic, after which he conducted his most celebrated work on anthrax and rabies vaccines for 27 more years. He also weathered intense professional hostility from Koch and other rivals without diminished output."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995.",
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pasteur inhabited several seemingly contradictory roles: devout Catholic and champion of empirical science against vitalism; gentle family man and fiercely combative scientific polemicist; physically disabled man who produced his most consequential work after his stroke; a chemist by training who became the father of microbiology and revolutionized medicine. These represent at least three contradictory pairings integrated without fragmentation. However, the contradictions are less extreme than in some figures—his combativeness and gentleness operated in relatively separate spheres rather than being reconciled in the same context."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Vallery-Radot, René. *The Life of Pasteur*. 1902.",
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pasteur's final days (September 1895) are described as composed: he reportedly held a crucifix in one hand and his wife's hand in the other, dying peacefully at Villeneuve-l'Étang. His reported last words—'Il faut travailler' ('One must work')—suggest acceptance and resolution rather than fear. As a devout Catholic, he drew on religious faith in confronting death. However, these accounts derive primarily from Vallery-Radot's hagiographic biography, limiting independent corroboration of the specific details of his composure."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Before his 1868 stroke, Pasteur showed no particular physical distinction beyond the normal demands of laboratory work. After the stroke, he was hemiplegic on his left side and required assistance for many physical tasks. While his continued laboratory work despite paralysis is remarkable, it reflects resilience (scored under Hardship Tolerance) rather than physical endurance or skill per se. No evidence of notable physical feats across multiple life stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+              "Vallery-Radot, René. *The Life of Pasteur*. 1902."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "As a teenager and young man, Pasteur was a talented painter who created accomplished pastel portraits of family members and friends (preserved in the Musée Pasteur at the Institut Pasteur). This artistic engagement appears genuinely non-instrumental—pursued before his scientific career began. His correspondence shows warmth, humor, and appreciation for the French countryside. However, after committing to science, aesthetic pursuits receded, and there is limited evidence of sustained play or artistic engagement in his later decades."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 6.67,
+          "Core_5D_Avg": 7.37,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Louis Pasteur",
+      "overall": {
+        "Core_5D_Avg": 7.37,
+        "Overall_Normalized_Equal_Avg": 6.92,
+        "General_Competency_Avg_10scale": 4.67
+      },
+      "summary": "Louis Pasteur exemplifies the transformative scientist: exceptional creative and strategic intelligence drove paradigm-shifting discoveries in germ theory, vaccination, and pasteurization. His cultural-social impact is among the highest in scientific history, with the Pasteur Institute enduring globally and his archetype as the heroic scientist resonating cross-culturally. Moral-affective scores are tempered by Geison's revelations of ethical opacity and fierce priority disputes. Remarkable hardship tolerance—continuing groundbreaking work for 27 years after a debilitating stroke while grieving three children—anchors his embodied-existential profile. Heinlein competency is moderate: deep technical brilliance and youthful artistic talent are offset by no evidence of combat, culinary, or navigational skills. Core 5D Avg: 7.37; Heinlein Avg: 4.67; Overall: 6.92.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.4,
+          "General_Competency_Avg_10scale": 4.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence exists that Pasteur engaged in cooking or food preparation. As a 19th-century bourgeois French scientist, domestic cooking would have been performed by household staff or his wife. His work on fermentation and pasteurization was industrial/scientific, not culinary."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of any combat experience, martial training, or physical defense capability. Pasteur was a civilian scientist throughout his life. During the Franco-Prussian War (1870–1871), he expressed patriotic sentiment and returned his honorary degree from the University of Bonn, but did not participate in any military or defensive capacity."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Vallery-Radot, René. *The Life of Pasteur*. 1902."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Pasteur's family life included caring for his children and supporting his wife through shared bereavements, indicating baseline caregiving capacity. His treatment of Joseph Meister and other rabies patients reflects concern for the vulnerable. However, there is no specific documented evidence of sustained, hands-on caregiving (nursing the ill, comforting the dying in a personal capacity) beyond what would be expected of any 19th-century French father."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Vallery-Radot, René. *The Life of Pasteur*. 1902.",
+            "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Pasteur endured the deaths of three children and a catastrophic stroke with continued productivity and apparent composure. His final days were reportedly peaceful, facing death with Catholic faith and a sense of work completed. His willingness to stake his reputation on the rabies treatment, knowing failure could mean the death of a child and professional ruin, reflects composure under existential pressure. Source limitations (hagiographic accounts of deathbed) temper but do not negate this assessment."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Pasteur demonstrated skilled laboratory manual work: precise microscopy, glassblowing for custom apparatus, and careful manipulation of cultures and specimens. This is particularly notable given his left-side paralysis after 1868. However, evidence of broader manual craft and repair skills (fixing machinery, carpentry, metalwork) is absent."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence exists of Pasteur demonstrating notable navigational or wayfinding skill. He traveled within France for his commissions but there is no record of him navigating challenging terrain or guiding others through unfamiliar environments."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Pasteur worked hands-on with animals throughout his career: silkworms (pébrine studies), chickens (cholera), sheep (anthrax), dogs and rabbits (rabies). He personally handled, inoculated, and dissected animals in his laboratory. His development of pasteurization for wine, beer, and eventually milk represents direct competence in food processing and preservation at the cutting edge of his era."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+            "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Pasteur led laboratory teams, managed government commissions, and directed the Pasteur Institute with commanding authority. He also demonstrated followership in his early career, working under mentors Biot, Balard, and Dumas with evident respect and deference, crediting them appropriately. The combination of effective leadership in maturity and genuine followership in youth demonstrates both modes. However, his leadership style was notably autocratic, and he struggled to share credit or cede control."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Pasteur designed ingenious laboratory apparatus, most notably the swan-neck flasks used in his spontaneous generation experiments—custom-designed glassware that was both functionally precise and conceptually elegant. However, this represents specialized laboratory fabrication rather than broader construction competence (building structures, walls, or durable physical systems)."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+            "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Pasteur coordinated complex multi-year research programs, managed government commissions (silkworm disease investigation across southern France, 1865–1870), and orchestrated the Pouilly-le-Fort public trial (1881) with precise logistical planning involving 50 sheep, multiple inoculation rounds, and public witnesses. He planned and executed the international fundraising campaign for the Institut Pasteur. These demonstrate strong strategic planning, though always within a scientific/institutional rather than military or political context."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+            "Musée Pasteur collection, Institut Pasteur, Paris."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "As a young man, Pasteur produced accomplished pastel portraits of his parents, friends, and neighbors—works of sufficient quality that they are preserved and displayed in the Musée Pasteur at the Institut Pasteur. Art historians have noted their competence and expressiveness. He also wrote vividly in his scientific communications. However, he abandoned art for science in his early twenties and did not continue artistic production as a mature figure."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995."
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Pasteur was a chemist, not a physician—he held no medical degree and could not legally practice medicine. He administered the rabies treatment to Joseph Meister (1885) and subsequently to Jean-Baptiste Jupille, but relied on physician Joseph Grancher to perform the actual injections. His medical knowledge was specialized to microbiology and immunology rather than general clinical competence. Era-normalized, this represents limited but meaningful medical aid capacity."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Pasteur's discovery of molecular chirality (1848) required sophisticated geometric and crystallographic reasoning. His experimental designs were rigorously controlled and analytically sound, with careful quantitative measurements of fermentation rates, vaccination dosages, and culture attenuation. His work on optical rotation of tartaric acid crystals required precise mathematical analysis. However, he was not a mathematician per se and relied on experimental rather than theoretical-mathematical approaches."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998.",
+            "Latour, Bruno. *The Pasteurization of France*. Harvard UP, 1988."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Pasteur's work directly saved the French silk industry through his identification and control measures for pébrine and flacherie in silkworms (1865–1870). His pasteurization process transformed the French wine and beer industries. His anthrax vaccine had massive economic impact on livestock agriculture. These demonstrate practical competence in managing biological resources at an industrial scale, even if Pasteur himself was not a farmer."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Geison, Gerald L. *The Private Science of Louis Pasteur*. Princeton UP, 1995.",
+            "Debré, Patrice. *Louis Pasteur*. Johns Hopkins UP, 1998."
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Pasteur operated at the absolute cutting edge of his era's technology and created new technical systems: he invented pasteurization (a novel industrial process), developed methods for attenuating pathogens to create vaccines, designed controlled experiments that set the standard for microbiology, and pioneered aseptic technique. His ability to move from crystallography to fermentation to disease required mastering and creating new technical systems in each domain. This represents the highest level of technical and systemic problem-solving available in 19th-century science."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.37,
+    "general_competency_avg_0_10": 4.67,
+    "overall_normalized_equal_avg_0_10": 6.92,
+    "created_at": "2026-03-22T21:27:58.329Z",
+    "updated_at": "2026-03-22T21:27:58.349Z"
+  }
+}
+]

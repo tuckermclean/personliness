@@ -1,0 +1,375 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 152,
+  "fields": {
+    "name": "Josip Broz Tito",
+    "slug": "josip-broz-tito",
+    "bio_short": "Tito was a remarkably versatile leader who excelled in strategic intelligence, military courage, and hardship tolerance. His greatest strengths lay in crisis leadership across military, political, and diplomatic domains, and in integrating contradictory roles—guerrilla fighter, statesman, cosmopolitan diplomat. Moral-affective scores are diminished by authoritarian repression (Goli Otok, Bleiburg massacres) and the imprisonment of former allies like Djilas. His relational life shows personal bonds repeatedly subordinated to political imperatives. Heinlein competency reflects a working-class po",
+    "bio_long": "Josip Broz, commonly known as Tito, was a Yugoslav communist revolutionary and politician who led Yugoslavia as prime minister from 1943 to 1963 and as president from 1953 until his death in 1980. He was the longtime leader of the League of Communists of Yugoslavia, supreme commander of the Yugoslav Partisans during World War II, and was one of the founders of the Non-Aligned Movement. The political ideology and policies associated with his rule are known as Titoism.",
+    "source_notes": "https://en.wikipedia.org/wiki/Josip_Broz_Tito",
+    "image": "figures/330px-Josip_Broz_Tito_uniform_portrait.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Ridley, Jasper, *Tito: A Biography* (2006)",
+              "Djilas, Milovan, *Wartime* (1977)",
+              "West, Richard, *Tito and the Rise and Fall of Yugoslavia* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tito adapted brilliantly when plans failed: at the Battle of the Neretva (1943) he executed a feigned retreat and bridge-destruction to redirect Axis forces, then reversed direction to rescue wounded; at the Battle of Sutjeska (1943) he led a breakout from encirclement by vastly superior German forces. After the 1948 Tito-Stalin split, he pivoted Yugoslavia's entire geopolitical orientation, balancing between East and West, and co-founded the Non-Aligned Movement (1961) as a novel strategic position. These represent successful adaptation across military, diplomatic, and institutional domains."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Rusinow, *The Yugoslav Experiment* (1977)",
+              "Prashad, Vijay, *The Darker Nations: A People's History of the Third World* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Workers' self-management was a genuinely novel model of socialist governance—neither Soviet central planning nor Western capitalism—creating a before/after within socialist thought. The Non-Aligned Movement (1961, with Nehru and Nasser) created a new category in Cold War international relations. However, neither innovation achieved a full paradigm shift that replaced prior thinking globally; they remained important alternatives rather than dominant new frameworks."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Rusinow, Dennison, *The Yugoslav Experiment 1948–1974* (1977)",
+              "Kardelj, Edvard, *Self-Management and the Political System* (1980)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tito articulated a coherent alternative to Soviet communism through workers' self-management and non-alignment, influencing political thinkers in the Global South and Western left. The Kardelj-Tito framework of socialist self-management was studied internationally. However, his philosophical contributions were practical-political rather than deeply systematic, and they remained primarily within the socialist intellectual tradition rather than transcending it."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Lampe, John R., *Yugoslavia as History: Twice There Was a Country* (2000)",
+              "Ramet, Sabrina P., *The Three Yugoslavias* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tito designed Yugoslavia's complex federal system balancing six republics and two autonomous provinces, codified in the 1974 Constitution. He implemented workers' self-management across the entire economy. However, these systems were heavily dependent on his personal authority and charisma: Yugoslavia disintegrated violently within 11 years of his death (1991), suggesting the systems did not robustly endure beyond his oversight, falling short of the two-generation criterion for score 3."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "West, *Tito and the Rise and Fall of Yugoslavia* (1994)",
+              "Djilas, *Conversations with Stalin* (1962)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tito operated across multiple relational modes: spouse (multiple marriages), parent, military commander (Partisan supreme commander), subordinate (early Comintern operative), friend (Djilas, pre-break), adversary (Stalin, post-1948), diplomatic peer (Nehru, Nasser, Churchill). This covers at least six distinct modes. However, his relational style tended toward authority and control across contexts, limiting the qualitative distinctiveness between modes that a score of 3 would require."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Pirjevec, *Tito and His Comrades* (2018)",
+              "Ridley, *Tito: A Biography* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Tito had multiple marriages and relationships: Pelagija Belousova (married 1919, effectively abandoned when he returned to Yugoslavia), Herta Haas (relationship in 1930s–40s, had son Mišo), and Jovanka Broz (married 1952). His relationship with Jovanka deteriorated severely in the 1970s—she was effectively placed under house arrest after political disagreements and lived in isolation for decades after his death. The pattern shows personal relationships consistently subordinated to political imperatives."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Djilas, *Rise and Fall* (1985)",
+              "Pirjevec, *Tito and His Comrades* (2018)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Tito's son Žarko was left in the Soviet Union for years during Tito's underground work; his son Mišo (with Herta Haas) had a complicated relationship with his father. As a political mentor, Tito cultivated talented leaders (Djilas, Kardelj, Ranković, Bakarić) but turned against several: Djilas was imprisoned (1956, 1962) for ideological deviation, and Ranković was purged (1966). This pattern—mentoring followed by punishment rather than fostering genuine autonomy—limits the score."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Ramet, *The Three Yugoslavias* (2006)",
+              "Prashad, *The Darker Nations* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Titoism remains a recognized political concept studied in political science; the Non-Aligned Movement shaped Cold War geopolitics and continues formally. Yugoslavia's breakup and the 1990s wars are themselves part of his legacy. 'Yugo-nostalgia' persists in successor states. However, his impact does not meet the 500-year, multi-civilizational criterion for score 3—his influence is primarily 20th-century and concentrated in Southeast Europe and the Global South."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "West, *Tito and the Rise and Fall of Yugoslavia* (1994)",
+              "Pirjevec, Jože, *Tito and His Comrades* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tito embodies several recognizable archetypes: the partisan/resistance hero, the benevolent strongman, and the independent small-nation leader defying superpowers. He is recognized beyond Yugoslavia—in the Global South as a symbol of non-alignment, and in the West as the communist who defied Stalin. However, his archetypal resonance does not reach the truly cross-cultural, trans-historical level of figures like Caesar, Gandhi, or Confucius."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Lampe, *Yugoslavia as History* (2000)",
+              "Ramet, *The Three Yugoslavias* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Tito built the Yugoslav federal state, the League of Communists of Yugoslavia, the Yugoslav People's Army, and co-founded the Non-Aligned Movement (which persists formally to the present day with 120 members). Workers' self-management councils were institutionalized across the economy. However, the Yugoslav state collapsed catastrophically in 1991, only 11 years after his death—falling short of the two-generation survival criterion for score 3. The NAM survived but with diminished influence."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "West, *Tito and the Rise and Fall of Yugoslavia* (1994)",
+              "Prashad, *The Darker Nations* (2007)",
+              "Ridley, *Tito: A Biography* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tito led across qualitatively different contexts: guerrilla military resistance (1941–1945), peacetime state-building of a multi-ethnic federation (1945–1980), and international diplomacy as co-founder of the Non-Aligned Movement (1961, Belgrade Conference, with Nehru, Nasser, Nkrumah, Sukarno). He mobilized a fractious multi-ethnic Partisan force of 800,000 and later governed 22 million people across six republics. His personal charisma and authority were recognized by contemporaries from Churchill to Nehru."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Ridley, *Tito: A Biography* (2006)",
+              "Pirjevec, *Tito and His Comrades* (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tito was documented enjoying hunting on Brioni island, cooking Croatian dishes for guests, watching Western films, gardening, and appreciating fine wine and cigars. His working-class origins as a metalworker in Kumrovec gave him relatable roots. However, at the height of power he maintained an extravagant lifestyle—multiple palaces, the Blue Train, Brioni residence—that distanced him from ordinary citizens, creating tension with the 'mundane engagement' criterion."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Djilas, Milovan, *The New Class* (1957)",
+              "Banac, *With Stalin Against Tito* (1988)",
+              "Ramet, *The Three Yugoslavias* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Tito's federal system attempted ethnic balance, and the 1974 Constitution gave significant autonomy to republics and provinces. However, political opponents were systematically suppressed: Milovan Djilas, his closest wartime companion, was imprisoned (1956, 1962) for political criticism; Aleksandar Ranković was purged (1966); the Croatian Spring movement was crushed (1971). The Goli Otok camp and post-war reprisals show justice subordinated to political control. Without these counterexamples the score might reach 2, but the pattern of punishing dissent is consistent."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Tomasevich, Jozo, *War and Revolution in Yugoslavia, 1941–1945* (2001)",
+              "Banac, Ivo, *With Stalin Against Tito* (1988)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Tito showed some personal warmth—documented kindness to individual soldiers and visitors—but serious counterexamples dominate. The Bleiburg repatriations (1945) resulted in mass killings of surrendering Croatian, Serbian, and Slovenian collaborators and their families. The Goli Otok prison camp (1949–1956) subjected political prisoners, including former comrades, to brutal forced labor. Without these counterexamples the score might reach 2 given personal anecdotes of magnanimity, but given their moral gravity—mass extrajudicial killing and systematic torture—the score remains 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Ridley, *Tito: A Biography* (2006)",
+              "Djilas, *Wartime* (1977)",
+              "West, *Tito and the Rise and Fall of Yugoslavia* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tito demonstrated sustained courage across decades: wounded and captured as an Austro-Hungarian soldier in WWI (1915); imprisoned for communist organizing (1928–1934, Lepoglava); led Partisan warfare under extreme danger (1941–1945), personally wounded at Sutjeska (1943) and narrowly escaping the German airborne assault at Drvar (Operation Rösselsprung, 1944); defied Stalin in 1948 knowing the risk of assassination and invasion. This pattern spans military, political, and existential domains over 30+ years."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Banac, *With Stalin Against Tito* (1988)",
+              "Rusinow, *The Yugoslav Experiment* (1977)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The 1948 break with Stalin represented a major political evolution from orthodox Stalinism toward an independent socialist path, and the subsequent introduction of workers' self-management (1950) showed capacity for institutional adaptation. However, there is very limited evidence of Tito publicly acknowledging personal errors or accepting correction. Yugoslav historiography sanitized his record extensively. His evolution was substantially forced by circumstances (Soviet expulsion) rather than voluntary moral reflection."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Ridley, *Tito: A Biography* (2006)",
+              "Banac, *With Stalin Against Tito* (1988)",
+              "West, *Tito and the Rise and Fall of Yugoslavia* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tito endured qualitatively different forms of severe adversity while remaining effective: POW captivity in Russia (1915–1917); six years of political imprisonment in Yugoslavia (1928–1934, Lepoglava and Maribor); sustained Partisan warfare under conditions of starvation, cold, and constant mortal danger (1941–1945); and political-existential isolation after the 1948 Stalin break, when assassination was a real threat. He functioned at a high level throughout each of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "West, *Tito and the Rise and Fall of Yugoslavia* (1994)",
+              "Pirjevec, *Tito and His Comrades* (2018)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Tito coherently inhabited multiple seemingly contradictory roles: guerrilla fighter and sophisticated diplomat; communist ideologue and luxurious bon vivant; authoritarian ruler and promoter of workers' self-management and decentralization; peasant metalworker's son and cosmopolitan statesman entertained by queens and presidents; anti-imperialist leader who governed a multi-ethnic quasi-empire; wartime destroyer and peacetime builder. These represent at least five contradictory pairings integrated without apparent fragmentation."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Ridley, *Tito: A Biography* (2006)",
+              "West, *Tito and the Rise and Fall of Yugoslavia* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tito's famous (though possibly apocryphal) letter to Stalin—'Stop sending people to kill me... if you don't stop, I will send one to Moscow'—suggests composure regarding assassination threats. During his prolonged final illness (1980), including leg amputation for gangrene, Yugoslav sources report he maintained dignity. He repeatedly accepted mortal risk during WWII. However, primary sources on his final days are largely Yugoslav state media, warranting caution."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Ridley, *Tito: A Biography* (2006)",
+              "Djilas, *Wartime* (1977)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tito served in WWI and was severely wounded (bayonet/lance wound and shrapnel, 1915). During the Partisan campaign (1941–1945), he traversed the mountainous terrain of Bosnia, Montenegro, and Serbia under extreme conditions, and was wounded at Sutjeska (1943). He remained physically active into his 70s and 80s through hunting expeditions. However, his later decades were increasingly sedentary and marked by health decline, preventing a score of 3."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Pirjevec, *Tito and His Comrades* (2018)",
+              "Ridley, *Tito: A Biography* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Tito was a passionate and lifelong hunter, maintaining reserves on Brioni island; he enjoyed Western films, fine cuisine, wine, and cigars; he was known for elegant personal style and appreciation of music (played piano). These pursuits appear genuinely personal rather than purely instrumental, particularly the hunting and film-watching. However, his lavish entertaining also served diplomatic purposes, making the boundary between personal and instrumental somewhat blurred."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.45,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Josip Broz Tito",
+      "overall": {
+        "Core_5D_Avg": 6.45,
+        "Overall_Normalized_Equal_Avg": 6.3,
+        "General_Competency_Avg_10scale": 5.56
+      },
+      "summary": "Tito was a remarkably versatile leader who excelled in strategic intelligence, military courage, and hardship tolerance. His greatest strengths lay in crisis leadership across military, political, and diplomatic domains, and in integrating contradictory roles—guerrilla fighter, statesman, cosmopolitan diplomat. Moral-affective scores are diminished by authoritarian repression (Goli Otok, Bleiburg massacres) and the imprisonment of former allies like Djilas. His relational life shows personal bonds repeatedly subordinated to political imperatives. Heinlein competency reflects a working-class polymath strong in combat and command but limited in caregiving and artistic domains.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.67,
+          "General_Competency_Avg_10scale": 5.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Pirjevec, *Tito and His Comrades* (2018)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Biographers note Tito enjoyed cooking and sometimes prepared Croatian dishes for guests, reflecting his peasant origins. He was a known gourmet who appreciated fine cuisine. However, evidence of personal culinary skill is anecdotal rather than extensively documented."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Djilas, *Wartime* (1977)",
+            "Ridley, *Tito: A Biography* (2006)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Tito fought as a non-commissioned officer in WWI (wounded in close combat, 1915). He led Partisan guerrilla warfare for four years (1941–1945), including direct combat situations. He survived the targeted German airborne assault at Drvar (Operation Rösselsprung, May 1944), escaping through a cave. He was wounded at least twice in combat. His personal combat experience spans both conventional and guerrilla warfare."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Djilas, *Wartime* (1977)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Limited evidence of personal caregiving. Some reports of Tito attending to wounded Partisans during WWII marches, but his primary role was always command rather than direct care. No documented sustained caregiving across the lifespan."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Ridley, *Tito: A Biography* (2006)",
+            "West, *Tito and the Rise and Fall of Yugoslavia* (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Tito repeatedly faced mortal danger with documented composure: during Partisan warfare, at the Drvar attack, and throughout the Stalin confrontation (his reputed letter threatening Stalin demonstrates defiant composure). His prolonged final illness in 1980, including amputation, was reportedly faced with dignity. However, primary sources on his final days are Yugoslav state-controlled, limiting certainty."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Ridley, *Tito: A Biography* (2006)",
+            "West, *Tito and the Rise and Fall of Yugoslavia* (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Tito was a trained metalworker and locksmith who worked in factories in Zagreb, Kamnik, Vienna, and Munich (1907–1913 and periodically thereafter). This was his primary trade before becoming a full-time revolutionary. Metalworking and locksmithing involve significant manual craft and repair skills, and he reportedly maintained these abilities."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Djilas, *Wartime* (1977)",
+            "West, *Tito and the Rise and Fall of Yugoslavia* (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Led Partisan forces on extended marches through the mountainous terrain of Bosnia, Montenegro, and Serbia (1941–1945), requiring intimate knowledge of geography and terrain. The retreat and counterattack at the Neretva and the breakout at Sutjeska both required navigating hostile mountain terrain under pursuit. He also traveled extensively across Europe during his Comintern years (1920s–1930s)."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Ridley, *Tito: A Biography* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Tito grew up in a peasant household in Kumrovec, Croatia, where basic animal husbandry was standard. He was a lifelong hunter, implying field dressing of game. However, specific documentation of butchering or food processing skill is minimal."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Maclean, Fitzroy, *Eastern Approaches* (1949)",
+            "Ridley, *Tito: A Biography* (2006)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Tito excelled at both: as a Comintern operative in the 1920s–30s, he followed Moscow's directives and party discipline; as Partisan supreme commander and head of state, he demonstrated extraordinary leadership across military and political domains. He cooperated with Allied missions (British SOE liaison Fitzroy Maclean) while maintaining independence. He led diverse coalitions and accepted constraints when strategically necessary."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Ridley, *Tito: A Biography* (2006)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Tito's training as a metalworker and locksmith involved fabrication skills, and the Partisans constructed improvised shelters, bridges, and fortifications during WWII. However, there is no specific evidence of Tito personally designing or building durable structures."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Djilas, *Wartime* (1977)",
+            "Ridley, *Tito: A Biography* (2006)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Led the Yugoslav Partisans—one of WWII's most successful resistance movements—coordinating multi-front guerrilla operations against German, Italian, Chetnik, and Ustaše forces. Planned the battles of Neretva and Sutjeska. Post-war, managed Yugoslavia's complex geopolitical positioning between NATO and the Warsaw Pact, and coordinated the founding of the Non-Aligned Movement."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Pirjevec, *Tito and His Comrades* (2018)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Tito was an appreciator rather than creator of art. He played piano and enjoyed music and cinema. He patronized Yugoslav arts and culture as head of state. However, he produced no notable artistic, literary, or musical works himself."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a WWI soldier and WWII Partisan commander, Tito would have had basic battlefield first-aid knowledge. The Partisan medical corps was under his overall command. However, no specific evidence exists of Tito personally providing medical treatment beyond what any frontline soldier would know."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Rusinow, *The Yugoslav Experiment* (1977)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Tito managed complex Partisan logistics (supply, armaments, troop movements) and later oversaw national economic planning. However, he relied on specialists like Edvard Kardelj and Boris Kidrič for economic analysis. No evidence of personal mathematical or analytical work beyond competent delegation."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Lampe, *Yugoslavia as History* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Born into a peasant family in Kumrovec, Tito had childhood agricultural experience. As head of state, he oversaw agricultural policy including controversial collectivization attempts (later reversed). He maintained gardens at Brioni. However, agricultural management was handled primarily through delegation, and collectivization was largely unsuccessful."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Rusinow, *The Yugoslav Experiment* (1977)",
+            "West, *Tito and the Rise and Fall of Yugoslavia* (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Tito's metalworking training provided technical foundations. During the Partisan war, he oversaw the creation of improvised communication networks, weapons workshops, and supply systems in occupied territory. Post-war, he drove Yugoslavia's industrialization and the implementation of the technically novel workers' self-management economic system, requiring systemic problem-solving even if implemented through delegation."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.45,
+    "general_competency_avg_0_10": 5.56,
+    "overall_normalized_equal_avg_0_10": 6.3,
+    "created_at": "2026-03-22T19:32:33.006Z",
+    "updated_at": "2026-03-22T19:32:33.024Z"
+  }
+}
+]

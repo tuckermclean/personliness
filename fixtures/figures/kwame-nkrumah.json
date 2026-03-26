@@ -1,0 +1,390 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 224,
+  "fields": {
+    "name": "Kwame Nkrumah",
+    "slug": "kwame-nkrumah",
+    "bio_short": "A towering figure of African decolonization whose cognitive and cultural-social scores are strong—exceptional leadership across mass movement, governance, and international diplomacy, and significant institution-building (OAU, universities, Volta Dam). His political philosophy (Consciencism, neo-colonialism concept) remains globally influential. However, moral-affective scores are dampened by the Preventive Detention Act, Danquah's death in detention, and the slide into authoritarianism. Embodied-existential and relational dimensions are modestly documented. Heinlein competency breadth is limi",
+    "bio_long": "Francis Kwame Nkrumah was a Ghanaian politician, political theorist, and revolutionary. He served as Prime Minister of the Gold Coast from 1952 until 1957, when it gained independence from Britain. He was then the first prime minister and then the president of Ghana, from 1957 until 1966. An influential advocate of Pan-Africanism, Nkrumah was a founding member of the Organization of African Unity (OAU) and winner of the Lenin Peace Prize from the Soviet Union in 1962.",
+    "source_notes": "https://en.wikipedia.org/wiki/Kwame_Nkrumah",
+    "image": "figures/330px-Kwame_Nkrumah_Portrait2C_The_National_Archives_UK.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Biney, Ama. *The Political and Social Thought of Kwame Nkrumah*. Palgrave Macmillan, 2011.",
+              "Rooney, David. *Kwame Nkrumah: Vision and Tragedy*. Sub-Saharan Publishers, 2007.",
+              "Austin, Dennis. *Politics in Ghana, 1946–1960*. Oxford University Press, 1964."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nkrumah demonstrated strong strategic adaptation in the independence campaign: he broke from the elite UGCC to form the mass-based CPP in 1949, launched 'Positive Action' (strikes and boycotts) knowing it risked imprisonment, won the 1951 election from prison, and then pragmatically shifted from confrontation to negotiated transition with the British. He adapted the Volta River Project to Cold War dynamics, securing both Western and Eastern interest. However, his later strategic failures—economic mismanagement, failure to foresee the 1966 coup while abroad in China, and alienation of allies through the Preventive Detention Act—prevent a score of 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Sherwood, Marika. *Kwame Nkrumah: The Years Abroad 1935–1947*. Freedom Publications, 1996.",
+              "Biney, 2011.",
+              "Nkrumah, Kwame. *Africa Must Unite*. Frederick A. Praeger, 1963."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nkrumah's vision of a United States of Africa with a continental government was genuinely novel in its political ambition and scope, going far beyond the gradualism of contemporaries. His adaptation of Gandhian nonviolent resistance ('Positive Action') to the African colonial context was innovative. The concept of neo-colonialism provided a new analytical framework for understanding postcolonial economic dependency. However, he built substantially on prior thinkers (Du Bois, Garvey, Padmore, Marx-Lenin), so the innovation was more synthetic than paradigm-shifting."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Nkrumah, Kwame. *Consciencism: Philosophy and Ideology for De-Colonization*. Monthly Review Press, 1964.",
+              "Nkrumah, Kwame. *Neo-Colonialism: The Last Stage of Imperialism*. Thomas Nelson, 1965.",
+              "Biney, 2011."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nkrumah authored *Consciencism* (1964), attempting a synthesis of African traditional thought, Islamic philosophy, and Euro-Christian philosophy into a coherent framework for African socialism. *Neo-Colonialism: The Last Stage of Imperialism* (1965) articulated the concept of neo-colonialism, which became a foundational term in postcolonial studies worldwide, influencing thinkers well beyond Africa (e.g., dependency theory scholars). His ideas reached beyond his community but lacked the depth and internal consistency of a score-3 philosopher—*Consciencism* was revised between editions in ways suggesting political expediency."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Rimmer, Douglas. *Staying Poor: Ghana's Political Economy, 1950–1990*. Pergamon Press, 1992.",
+              "Austin, 1964.",
+              "Rooney, 2007."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nkrumah oversaw major administrative achievements: the Volta River Project (Akosombo Dam, operational 1965 and still functioning), dramatic expansion of the education system (including founding KNUST and expanding the University of Ghana), new road and port infrastructure, and the Cocoa Marketing Board. He co-founded the OAU (1963), which endured until 2002 as the African Union. However, his economic planning led to severe fiscal crisis by 1965, the one-party state collapsed immediately with the 1966 coup, and the Preventive Detention Act (1958) was an instrument of repression rather than sound governance. Systems had mixed durability beyond his oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Sherwood, 1996.",
+              "Hooker, James R. *Black Revolutionary: George Padmore's Path from Communism to Pan-Africanism*. Praeger, 1967.",
+              "Biney, 2011."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nkrumah operated across multiple relational modes: political leader/superior (to CPP members, ministers); student/subordinate (under mentors like Azikiwe at Lincoln, and in the UGCC under Danquah before breaking away); friend (close relationship with George Padmore, who became his advisor; hosted W.E.B. Du Bois in Ghana); adversary (to British colonial authorities, to Danquah and political opponents); spouse (to Fathia); international peer/ally (Sékou Touré, Nasser, Nehru). This spans at least five modes with documented qualitative differences in behavior, though depth of documentation varies across modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Milne, 2000.",
+              "Rooney, 2007."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Nkrumah married Fathia Rizk (Fathia Nkrumah), an Egyptian Coptic woman, in December 1957, partly symbolizing pan-African unity between sub-Saharan and North Africa. They had three children together. Fathia remained loyal to his memory after his death and returned to Ghana in 2007. However, detailed documentation of the mutual emotional quality of the relationship is sparse; the marriage had a significant political dimension. Evidence of mutual support during crisis (exile) is limited—Fathia did not accompany him to Guinea."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Milne, 2000.",
+              "Biney, 2011."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Nkrumah had three children (Gamal, Samia, and Sekou). Gamal became a journalist in Egypt, Samia became an activist. He mentored various young African political figures. However, detailed evidence about the quality of his parenting or mentoring is sparse. His children were young when he was overthrown and they were separated by exile. There is no strong documentation showing that his mentees developed genuine autonomy and competence through his guidance specifically, as distinct from their own abilities."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Nkrumah, *Neo-Colonialism*, 1965.",
+              "Young, Crawford. *The African Colonial State in Comparative Perspective*. Yale University Press, 1994.",
+              "Biney, 2011."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Ghana's independence (1957) catalyzed the decolonization of an entire continent within a decade—a world-historical event affecting hundreds of millions. The concept of neo-colonialism became a standard analytical framework in global political and academic discourse. Pan-Africanism as a political movement continues across Africa and the diaspora. However, the strict 500-year criterion for a score of 3 cannot be verified for a figure who died in 1972. His impact, while continental and cross-civilizational (Africa, Caribbean, global postcolonial studies), is not yet at the scale of figures like Marx or Gandhi in breadth of civilizational influence."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Birmingham, 1998.",
+              "Biney, 2011."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nkrumah is recognized as the archetype of the African independence leader—'the father of African nationalism.' His image appears on Ghanaian currency, stamps, and memorials (Kwame Nkrumah Mausoleum, Accra). He is a symbol of decolonization and pan-African unity across the continent and Black diaspora. However, his cross-cultural archetypal recognition outside Africa and the diaspora is more limited than figures who achieve score 3; he is not a universal archetype in the way that, say, Gandhi or Mandela function in global culture."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Rooney, 2007.",
+              "Rimmer, 1992.",
+              "Birmingham, 1998."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The OAU (co-founded 1963) survived until 2002 and was succeeded by the African Union—well beyond two generations. The Akosombo Dam (completed 1965) remains Ghana's primary electricity source. Universities he established or expanded (University of Ghana, KNUST) endure. However, Nkrumah was co-founder of the OAU rather than sole creator; his domestic political system (one-party state, CPP dominance) collapsed immediately with the 1966 coup; and many economic institutions were substantially reformed after his ouster. The durability record is mixed."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Birmingham, David. *Kwame Nkrumah: The Father of African Nationalism*. Ohio University Press, 1998.",
+              "Biney, 2011.",
+              "Austin, 1964."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nkrumah led successfully across qualitatively different contexts: mass political mobilization (building the CPP into a party with broad support from market women, trade unionists, and youth), governance of a new nation-state (Prime Minister 1952–60, President 1960–66), and international diplomacy (co-founding the OAU in 1963, hosting the All-African People's Conference in 1958, inspiring independence movements across the continent). He transitioned from opposition agitator to prison leader to Prime Minister to international statesman. His personal influence on figures like Patrice Lumumba and his role as intellectual leader of pan-Africanism confirm leadership across distinct domains."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Omari, 1970.",
+              "Rooney, 2007.",
+              "Nkrumah, Kwame. *Ghana: The Autobiography of Kwame Nkrumah*. Thomas Nelson, 1957."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Nkrumah's early life in rural Nkroful and his years as a struggling student in the US (working as a dishwasher and in a soap factory) demonstrate connection to ordinary experience. However, at the height of power, he became increasingly isolated in Christiansborg Castle, cultivated a personality cult ('Osagyefo'—Redeemer), and surrounded himself with sycophants. There is limited documented evidence of engagement with mundane everyday activities during his presidency. His trajectory was away from relatability toward monarchical remoteness."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Austin, 1964.",
+              "Omari, 1970.",
+              "Rathbone, Richard. *Nkrumah and the Chiefs*. Ohio University Press, 2000."
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nkrumah was a powerful advocate for anti-colonial justice, racial equality, and the sovereignty of African peoples on the world stage—supporting independence movements continent-wide and championing the Non-Aligned Movement. However, domestically he dismissed Chief Justice Sir Arku Korsah in 1963 after an acquittal in a treason trial Nkrumah found politically unacceptable, undermining judicial independence. The 1964 referendum establishing a one-party state was widely seen as rigged. The Preventive Detention Act allowed imprisonment without trial. Without these: 2–3 for international justice advocacy. With these systematic departures from due process and fairness given full weight: 1."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Omari, T. Peter. *Kwame Nkrumah: The Anatomy of an African Dictatorship*. Africana Publishing, 1970.",
+              "Rooney, 2007.",
+              "Biney, 2011."
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nkrumah championed free primary education, expanded healthcare, and expressed genuine concern for the welfare of colonized peoples across Africa—his early career reflected authentic identification with ordinary Ghanaians. However, the Preventive Detention Act (1958) was used to imprison political opponents without trial, including former UGCC ally J.B. Danquah, who died in Nsawam Prison in 1965 under harsh conditions. Without the PDA and Danquah's death, compassion toward colonized peoples would merit a 2. With these serious counterexamples given full weight—detention of adversaries resulting in death—the score drops to 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Rooney, 2007.",
+              "Milne, June. *Kwame Nkrumah: A Biography*. Panaf Books, 2000.",
+              "Biney, 2011."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nkrumah launched 'Positive Action' in 1950 knowing it risked imprisonment, and was indeed jailed; he survived the Kulungugu bomb attack in August 1962, sustaining injuries but continuing to govern; he faced multiple other assassination attempts (the Flagstaff House bomb, 1964). After the 1966 coup, he continued political writing and organizing from exile in Guinea despite declining health from prostate cancer. This represents sustained courage across multiple high-stakes situations over more than a decade."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Nkrumah, Kwame. *Revolutionary Path*. Panaf Books, 1973.",
+              "Biney, 2011.",
+              "Rooney, 2007."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Nkrumah revised *Consciencism* between the 1964 and 1970 editions, showing some intellectual flexibility. His exile writings (e.g., *Revolutionary Path*, 1973) contain some reflection on the failures of his government. However, these largely attribute failure to external forces (imperialism, CIA intervention) rather than acknowledging personal errors in governance style. His trajectory was toward increasing authoritarianism and personality cult ('Osagyefo'), not self-correction. No documented instance of reversing a position based on criticism from subordinates or peers. The Nkrumahist tradition is hagiographic, further limiting evidence."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Sherwood, 1996.",
+              "Nkrumah, *Autobiography*, 1957.",
+              "Milne, 2000."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nkrumah experienced qualitatively different forms of adversity: material deprivation as a student in the US from 1935–1945 (working menial jobs while studying at Lincoln University and UPenn); imprisonment in James Fort Prison in 1950; the trauma of assassination attempts (Kulungugu 1962); and exile in Guinea from 1966 while suffering from terminal cancer. He remained productive through all these periods—studying, organizing, writing, and planning. This meets the criterion of effective functioning across at least two distinct forms of hardship."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Biney, 2011.",
+              "Birmingham, 1998.",
+              "Rooney, 2007."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nkrumah inhabited several seemingly contradictory roles: Western-educated intellectual (Lincoln, UPenn, LSE) yet champion of African cultural identity; socialist revolutionary yet pragmatic dealmaker with Western capital (Kaiser Aluminum for the Volta Project); advocate for democracy and self-determination yet authoritarian one-party ruler; pan-African idealist yet Ghanaian nationalist in practice. He managed these tensions with partial coherence but the contradiction between democratic ideals and authoritarian practice was a genuine incoherence, not a successfully integrated paradox. Three contradictory roles are documented but not all were held without fragmentation."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Milne, 2000.",
+              "Rooney, 2007."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Nkrumah continued writing and working during his final years in exile despite declining health from prostate cancer, which suggests a degree of composure. He died in Bucharest, Romania, in April 1972. However, detailed documentation of his personal attitude toward his own approaching death is sparse. There are no well-documented deathbed scenes or statements about mortality that would support a higher score."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Rooney, 2007.",
+              "Milne, 2000."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Nkrumah endured the physical demands of campaigning across the Gold Coast in the late 1940s and survived the Kulungugu assassination attempt (1962), sustaining shrapnel injuries. He physically weathered imprisonment in 1950. However, his health declined significantly in later life—he suffered from prostate cancer during exile and died at 62. There are no documented exceptional physical feats or sustained endurance across multiple life stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Nkrumah, *Autobiography*, 1957.",
+              "Biney, 2011."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Nkrumah established the Ghana Dance Ensemble and the Institute of Arts and Culture, and commissioned public art and architecture (e.g., the Independence Arch). He appreciated music and dance at state events. However, most of this cultural promotion was instrumental—serving nation-building and ideological purposes. Evidence of non-instrumental play, humor, or aesthetic engagement for its own sake is sparse in the historical record. His autobiography reveals some enjoyment of student life in the US, but detailed evidence at the height of power is lacking."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 4.44,
+          "Core_5D_Avg": 5.32,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 4.67
+        }
+      },
+      "figure": "Kwame Nkrumah",
+      "overall": {
+        "Core_5D_Avg": 5.32,
+        "Overall_Normalized_Equal_Avg": 4.88,
+        "General_Competency_Avg_10scale": 2.67
+      },
+      "summary": "A towering figure of African decolonization whose cognitive and cultural-social scores are strong—exceptional leadership across mass movement, governance, and international diplomacy, and significant institution-building (OAU, universities, Volta Dam). His political philosophy (Consciencism, neo-colonialism concept) remains globally influential. However, moral-affective scores are dampened by the Preventive Detention Act, Danquah's death in detention, and the slide into authoritarianism. Embodied-existential and relational dimensions are modestly documented. Heinlein competency breadth is limited: he was fundamentally a political intellectual, not a generalist, with little evidence of practical manual, agricultural, or combat skills.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.8,
+          "General_Competency_Avg_10scale": 2.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of culinary skill. As a struggling student in the US, Nkrumah presumably prepared basic meals, but no specific evidence exists in the historical record."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Rooney, 2007."
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Nkrumah was not a military leader. Ghana's independence was achieved through political action, not armed struggle. He was a target of violence (Kulungugu bomb, 1962) rather than a combatant. No evidence of personal combat training or skill."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Biney, 2011.",
+            "Nkrumah, *Autobiography*, 1957."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nkrumah championed welfare policies at the state level—free compulsory primary education, expanded healthcare access, and the welfare-state ethos of the CPP government. However, evidence of personal caregiving (hands-on nursing, comforting individuals in distress) is sparse. His policy-level compassion is documented but personal caregiving acts are not."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Milne, 2000.",
+            "Rooney, 2007.",
+            "Nkrumah, *Revolutionary Path*, 1973."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Nkrumah maintained composure and productive activity after the 1966 coup overthrew him in absentia—rather than collapsing, he immediately began writing and organizing from exile in Conakry, Guinea. He survived multiple assassination attempts (Kulungugu 1962, Flagstaff House 1964) and continued governing. He worked through terminal illness, continuing to write political works until close to his death in April 1972. This represents dignity and self-control across multiple crises."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of Nkrumah personally making, fixing, or adapting tools, machines, or physical systems. His career was entirely intellectual and political."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Sherwood, 1996.",
+            "Nkrumah, *Autobiography*, 1957."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Nkrumah traveled from the Gold Coast to the United States in 1935, navigating life across multiple American cities (Lincoln, PA; Philadelphia; New York) as a young African colonial subject in a segregated country. He later traveled to London and back to the Gold Coast, and as head of state traveled internationally. This represents practical wayfinding across varied environments in an era when such travel was far less accessible, though he was a traveler rather than a navigator per se."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence in the historical record of Nkrumah personally butchering, processing, or handling animals for food. He grew up in rural Nkroful where such activities would have been common, but no specific documentation exists."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Austin, 1964.",
+            "Biney, 2011.",
+            "Omari, 1970."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Exceptional leadership across multiple contexts—mass movement, governance, international diplomacy. He also demonstrated followership: he initially worked within the UGCC under J.B. Danquah (1947–49) before breaking away, and he studied under mentors at Lincoln (notably Nnamdi Azikiwe's influence) and at LSE. However, his later career showed increasing difficulty accepting counsel, criticism, or sharing authority—the dismissal of advisors and concentration of power suggest degraded followership capacity over time."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal construction or fabrication skills. The Akosombo Dam and national infrastructure were projects he commissioned and oversaw politically, not designed or built personally."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Austin, 1964.",
+            "Rooney, 2007.",
+            "Birmingham, 1998."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Successfully planned and executed the independence campaign including the 'Positive Action' general strike (1950), the CPP's electoral strategy leading to the 1951 landslide, and the negotiated transition to independence (1957). Coordinated the All-African People's Conference (Accra, 1958) and the complex Volta River Project involving multinational negotiations. However, economic planning failures and inability to prevent the 1966 coup represent significant strategic command limitations."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Nkrumah, *Autobiography*, 1957.",
+            "Biney, 2011."
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Nkrumah was a prolific author—*Ghana: The Autobiography of Kwame Nkrumah* (1957), *Africa Must Unite* (1963), *Consciencism* (1964), *Neo-Colonialism* (1965), and numerous pamphlets and speeches. While primarily political-philosophical rather than literary works, they represent substantial cultural expression. He also supported the arts institutionally (Ghana Dance Ensemble, Institute of Arts and Culture). He was not an artist himself in the traditional sense."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal medical or emergency response skills. Nkrumah expanded healthcare infrastructure as a policy matter but did not practice medical aid himself."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Sherwood, 1996.",
+            "Nkrumah, *Neo-Colonialism*, 1965."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nkrumah earned degrees from Lincoln University (BA in economics and sociology, 1939; BA in theology, 1942) and the University of Pennsylvania (MSc in education, 1942; MA in philosophy, 1943), and studied at LSE. His political-economic writings demonstrate analytical reasoning about dependency structures and economic exploitation. However, there is no evidence of particular mathematical or quantitative sophistication beyond standard university-level training."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Rimmer, 1992.",
+            "Nkrumah, *Autobiography*, 1957."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Nkrumah grew up in the agricultural village of Nkroful and would have had childhood exposure to subsistence farming. As president, he managed cocoa as a strategic national resource through the Cocoa Marketing Board and pursued the Volta River Project for hydroelectric resource management. However, cocoa farmers' incomes declined under his policies, and personal agricultural skill is undocumented beyond childhood environment."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Rimmer, 1992.",
+            "Rooney, 2007."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nkrumah engaged with the technical challenges of nation-building—industrialization policy, the engineering and economic complexities of the Volta River Project, and telecommunications infrastructure. He established the Ghana Atomic Energy Commission (1963). However, he engaged with these as a political decision-maker commissioning technical work, not as a hands-on technical problem-solver. His understanding was at the policy level."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.32,
+    "general_competency_avg_0_10": 2.67,
+    "overall_normalized_equal_avg_0_10": 4.88,
+    "created_at": "2026-03-22T23:30:11.827Z",
+    "updated_at": "2026-03-22T23:30:11.857Z"
+  }
+}
+]

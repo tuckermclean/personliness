@@ -1,0 +1,397 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 205,
+  "fields": {
+    "name": "Akbar",
+    "slug": "akbar",
+    "bio_short": "Akbar ranks among history's most exceptional ruler-administrators, scoring near the ceiling in cognitive, cultural-social, and embodied-existential domains. His sulh-i-kul policy, mansabdari system, and revenue reforms represent paradigm-shifting innovations that endured for generations. Moral-affective scores are strong but tempered by the Chittorgarh massacre and limited evidence of moral self-correction. Relational scores reflect a troubled relationship with his son Jahangir and thin evidence for spousal intimacy amid a large harem. Heinlein competency is moderate: extraordinary in command,",
+    "bio_long": "Akbar, also known as Akbar the Great, was the third Mughal emperor, who reigned from 1556 to 1605. Akbar succeeded his father, Humayun, under a regent, Bairam Khan, who helped the young emperor expand and consolidate Mughal domains in the Indian subcontinent. He is generally considered one of the greatest emperors in Indian history and led a successful campaign to unify the various kingdoms of Hindūstān or India proper.",
+    "source_notes": "https://en.wikipedia.org/wiki/Akbar",
+    "image": "figures/330px-Govardhan._Akbar_With_Lion_and_Calf_ca._16302C_Metmuseum_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Richards, *The Mughal Empire* (New Cambridge History of India, 1993)",
+              "Abu'l Fazl, *Akbarnama* (tr. Beveridge)",
+              "Eraly, *The Mughal Throne* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Akbar demonstrated exceptional strategic adaptability across decades: at age 13, he consolidated power after the Second Battle of Panipat (1556); he conquered Rajputana through a dual strategy of military force (siege of Chittorgarh, 1568) and diplomatic marriage alliances (Amber/Jaipur); his famous rapid forced march to Gujarat (1572–73) covering hundreds of miles to suppress rebellion showed brilliant improvisation; and he adapted his Deccan strategy when initial approaches proved insufficient. When Bairam Khan's regency became problematic, Akbar pivoted to assert personal rule."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Richards, *The Mughal Empire* (1993)",
+              "Abu'l Fazl, *Ain-i-Akbari*",
+              "Beach, *Mughal and Rajput Painting* (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Akbar introduced multiple paradigm-shifting innovations: the mansabdari system reorganized the entire military-administrative hierarchy of the empire on a rational numerical basis; Todar Mal's Dahsala revenue system (implemented under Akbar's direction) standardized land assessment based on measured productivity, replacing arbitrary taxation; Mughal miniature painting was transformed under his patronage into a distinctive synthesis of Persian, Indian, and European styles; and Fatehpur Sikri represented innovative architectural fusion. Each created clear before/after differences in Indian governance and culture."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Rizvi, *Religious and Intellectual History of the Muslims in Akbar's Reign* (1975)",
+              "Abu'l Fazl, *Ain-i-Akbari*",
+              "Mukhia, *The Mughals of India* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Akbar articulated and implemented sulh-i-kul (peace with all), a principle of universal religious tolerance that went beyond pragmatic pluralism into a coherent ethical framework. He hosted the Ibadat Khana debates at Fatehpur Sikri (from 1575) with Muslim, Hindu, Jain, Christian, and Zoroastrian scholars, synthesizing ideas into the Din-i-Ilahi. His abolition of the jizya (1564) and pilgrim taxes challenged centuries of Islamic legal tradition. These principles influenced later Indian political philosophy and remain central to modern Indian secularist discourse, extending well beyond his own era and community."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "M. Athar Ali, *The Mughal Nobility under Akbar* (1966)",
+              "Richards, *The Mughal Empire* (1993)",
+              "Abu'l Fazl, *Ain-i-Akbari*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The mansabdari system organized nobility into a ranked hierarchy (with zat and sawar ranks) that functioned through successive Mughal emperors for over 150 years. The provincial (subah) administrative structure divided the empire into governable units with standardized procedures. The Dahsala revenue system provided fiscal stability well beyond Akbar's reign. The Ain-i-Akbari documents the extraordinary administrative detail of his governance, covering everything from mint regulations to market pricing. These systems demonstrably survived multiple successions and operated for generations."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Abu'l Fazl, *Akbarnama*",
+              "Richards, *The Mughal Empire* (1993)",
+              "Mukhoty, *Akbar: The Great Mughal* (2020)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Akbar operated across a remarkable breadth of relational modes with documented behavioral differences: as subordinate (initially deferring to Bairam Khan's regency, then skillfully asserting independence); as superior (governing vast populations and commanding armies); as friend (intimate, playful relationships with Birbal and Abu'l Fazl); as adversary (strategic magnanimity toward some defeated enemies, severity toward others); as son (devoted relationship with his mother Hamida Banu Begum); as husband (multiple marriages across cultural lines); as father (complex, troubled relationship with Jahangir); and as peer (diplomatic engagement with Rajput kings as near-equals). This represents at least six distinct relational modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Abu'l Fazl, *Akbarnama*",
+              "Mukhoty, *Akbar: The Great Mughal* (2020)",
+              "Lal, *The Mughal Harem* (1988)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Akbar had numerous wives in a large harem, with marriages largely political in nature (Rajput alliances, diplomatic unions). His principal wife Mariam-uz-Zamani (the Rajput wife) was permitted to maintain her Hindu faith and managed her own trading enterprises, suggesting some respect and autonomy. However, evidence for genuine emotional intimacy, mutual support during crises, or deep partnership is thin and largely from later romantic traditions rather than contemporary sources. The sheer number of wives and concubines also complicates assessing depth of any single relationship."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Richards, *The Mughal Empire* (1993)",
+              "Abu'l Fazl, *Akbarnama*",
+              "Eraly, *The Mughal Throne* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Akbar was an effective mentor to numerous figures who developed genuine competence and autonomy: Raja Man Singh became a formidable military commander; Todar Mal transformed imperial revenue administration; Abu'l Fazl became a major intellectual figure. However, his relationship with his biological son Jahangir (Salim) was deeply troubled — Jahangir openly rebelled (1599), and Akbar had Abu'l Fazl assassinated by Jahangir's allies. The father-son conflict was never fully resolved before Akbar's death. Score without the Jahangir counterexample: 3 (excellent mentoring). With it given full weight: 2, as the failure with one's own heir is significant."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Mukhia, *The Mughals of India* (2004)",
+              "Richards, *The Mughal Empire* (1993)",
+              "Truschke, *Culture of Encounters: Sanskrit at the Mughal Court* (2016)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Akbar's impact remains operative over 400 years later and across multiple civilizations. His model of religious tolerance is invoked in modern Indian constitutional discourse. The administrative structures he built influenced subsequent Indian governance through the Mughal, British colonial, and post-independence periods. Mughal artistic and architectural traditions he patronized remain globally recognized cultural heritage (Fatehpur Sikri is a UNESCO World Heritage Site). His legacy is discussed in comparative political philosophy regarding pluralism and tolerance, extending well beyond the Indian subcontinent."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Smith, *Akbar the Great Mogul* (1917)",
+              "Eraly, *The Mughal Throne* (2003)",
+              "Mukhoty, *Akbar: The Great Mughal* (2020)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Akbar serves as the quintessential archetype of the wise, tolerant ruler in South Asian consciousness and is recognized well beyond it. He appears in Indian films (Jodhaa Akbar, 2008), literature, and school curricula across the subcontinent. In Western scholarship and popular culture, he is cited alongside figures like Marcus Aurelius and Ashoka as exemplars of enlightened governance. His name itself has become synonymous with greatness and tolerance in multiple cultures. He functions as a cross-cultural symbol of interfaith harmony."
+          },
+          "Institution-Building": {
+            "citations": [
+              "M. Athar Ali, *The Mughal Nobility under Akbar* (1966)",
+              "Richards, *The Mughal Empire* (1993)",
+              "Habib, *The Agrarian System of Mughal India* (1963)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The mansabdari system, the subah provincial structure, and the Dahsala revenue system all survived and functioned recognizably for over 150 years through multiple Mughal successors (Jahangir, Shah Jahan, Aurangzeb). The Mughal painting atelier he established produced masterworks for generations. The administrative practices documented in the Ain-i-Akbari became the template for subsequent governance. Even the British East India Company adapted elements of Mughal revenue administration. These institutions clearly survived well beyond two generations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Richards, *The Mughal Empire* (1993)",
+              "Mukhia, *The Mughals of India* (2004)",
+              "Abu'l Fazl, *Akbarnama*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Akbar led successfully in qualitatively different contexts: as a boy-emperor navigating the dangerous transition from Bairam Khan's regency; as a military commander personally leading siege operations and rapid campaigns; as a diplomatic negotiator forging alliances with Rajput kings through marriage and shared governance; as a religious-philosophical innovator hosting the Ibadat Khana debates; and as an administrator governing a multi-ethnic empire of roughly 100 million people. He inspired intense loyalty in extraordinarily diverse followers — Rajput warriors (Man Singh), Muslim intellectuals (Abu'l Fazl), Hindu administrators (Todar Mal), and Hindu musicians (Tansen)."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Abu'l Fazl, *Ain-i-Akbari*",
+              "Abu'l Fazl, *Akbarnama*",
+              "Eraly, *The Mughal Throne* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Abu'l Fazl describes Akbar's personal engagement with everyday life: his passionate love of hunting (maintaining hundreds of trained cheetahs and elephants), his personal visits to artisan workshops where he examined and handled their products, his enjoyment of wrestling and animal fights, his humor and accessibility to common petitioners. He was reportedly dyslexic/illiterate yet sat for hours having texts read to him and debating their contents. However, much of this comes from hagiographic sources (Abu'l Fazl was Akbar's devoted courtier), and as emperor his daily life was inevitably removed from ordinary experience."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Richards, *The Mughal Empire* (1993)",
+              "M. Athar Ali, *The Mughal Nobility under Akbar* (1966)",
+              "Abu'l Fazl, *Ain-i-Akbari*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Akbar's abolition of the jizya directly opposed the interests of his Muslim ruling class and established Islamic jurisprudence, clearly ruling against his own group's benefit in favor of principle. His revenue reforms aimed at fair assessment of agricultural productivity rather than arbitrary extraction. He appointed Hindu officials like Todar Mal and Man Singh to the highest positions based on merit. However, the Chittorgarh massacre and other instances of collective punishment complicate the picture. Without the counterexamples, this would score 3; with them given proportional weight to their moral stakes (mass civilian death), the score is 2."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Smith, *Akbar the Great Mogul* (1917)",
+              "Abu'l Fazl, *Akbarnama*",
+              "Richards, *The Mughal Empire* (1993)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Akbar showed genuine compassion toward outgroup members: he abolished the jizya and pilgrim taxes that burdened Hindus, granted religious freedom to non-Muslims, and incorporated Rajput and Hindu officials into the highest ranks of government. He reportedly wept at accounts of suffering and established charitable kitchens. However, the massacre at Chittorgarh (1568), where reportedly 30,000 non-combatants were killed, is a serious counterexample. Without the Chittorgarh massacre, the score would be 3 (compassion toward outgroups is well-documented); with it given full weight, the score is 2, as mass killing of civilians contradicts compassionate character even if it followed siege conventions of the era."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Abu'l Fazl, *Akbarnama*",
+              "Eraly, *The Mughal Throne* (2003)",
+              "Mukhoty, *Akbar: The Great Mughal* (2020)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Akbar demonstrated sustained physical and moral courage across decades: as a youth, he famously rode the musth (enraged) elephant Hawa'i; he personally led military charges at Chittorgarh (1568) and in Gujarat (1572–73); he suppressed multiple rebellions including the Uzbek revolts and his half-brother Mirza Hakim's incursions. In later life, he faced down his own son Jahangir's rebellion (1599–1604) without fleeing or abdicating. His courage was not limited to single dramatic moments but sustained across qualitatively different threats — military combat, political conspiracy, and familial betrayal."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Rizvi, *Religious and Intellectual History of the Muslims in Akbar's Reign* (1975)",
+              "Abu'l Fazl, *Akbarnama*",
+              "Mukhia, *The Mughals of India* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Akbar showed meaningful evolution over his lifetime: he shifted from conventional Sunni orthodoxy in his early reign toward increasing heterodoxy and tolerance, culminating in sulh-i-kul and the Din-i-Ilahi. His early reliance on Bairam Khan gave way to assertive personal rule after recognizing the regent's overreach. His military approach evolved from the brutality of Chittorgarh toward more diplomatic methods of conquest and integration with Rajput states. However, primary sources (especially Abu'l Fazl) tend to sanitize Akbar, making it difficult to identify explicit moments of acknowledged error. The growth pattern is visible but may be partly a narrative construction."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Abu'l Fazl, *Akbarnama*",
+              "Richards, *The Mughal Empire* (1993)",
+              "Eraly, *The Mughal Throne* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Akbar faced qualitatively different forms of adversity and continued functioning effectively: political insecurity as a boy-emperor inheriting a fragile kingdom after his father Humayun's sudden death (1556); the grief of losing twin sons Hasan and Husain in infancy; multiple serious rebellions including his own son Jahangir's revolt (1599–1604), which combined political danger with deep personal betrayal. Through all these, he maintained effective governance. However, as emperor he always had material resources and institutional support, which moderates the hardship somewhat compared to figures who endured material destitution."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Mukhia, *The Mughals of India* (2004)",
+              "Richards, *The Mughal Empire* (1993)",
+              "Rizvi, *Religious and Intellectual History of the Muslims in Akbar's Reign* (1975)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Akbar coherently inhabited at least five seemingly contradictory roles: (1) ruthless military conqueror who championed sulh-i-kul (universal peace); (2) Muslim emperor who created a syncretic religion and abolished Islamic taxes; (3) illiterate man who became one of history's greatest patrons of learning and arts; (4) absolute autocrat who promoted religious freedom and meritocratic appointment; (5) foreign Timurid-Mongol invader who became the most culturally embedded ruler in Indian history. These were not sequential phases but often simultaneous, held together without apparent fragmentation."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Abu'l Fazl, *Akbarnama*",
+              "Smith, *Akbar the Great Mogul* (1917)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Akbar's lifelong engagement with religious and philosophical questions about the afterlife — through the Ibadat Khana debates, his exploration of multiple religious traditions, and the Din-i-Ilahi — suggests deep intellectual grappling with mortality. During his final illness (1605), accounts describe him making arrangements for succession and maintaining composure, though these accounts come primarily from courtly sources. He faced physical danger with equanimity throughout his life (musth elephants, combat). However, evidence for his specific composure at death is limited and from hagiographic sources, preventing a score of 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Abu'l Fazl, *Akbarnama*",
+              "Abu'l Fazl, *Ain-i-Akbari*",
+              "Smith, *Akbar the Great Mogul* (1917)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Akbar's physical prowess is documented across his lifespan: as a youth, he famously controlled the musth elephant Hawa'i; in his 20s and 30s, he led grueling military campaigns including the legendary rapid march to Gujarat (approximately 500 miles in 9 days with a small force); he was an expert horseman, archer, and swordsman who personally participated in combat. In middle and later life, he continued extensive hunting expeditions (the Ain-i-Akbari documents elaborate hunts into his 50s and 60s). Multiple accounts attest to his unusual physical strength and endurance across life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Abu'l Fazl, *Ain-i-Akbari*",
+              "Beach, *Mughal and Rajput Painting* (1992)",
+              "Eraly, *The Mughal Throne* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Akbar showed profound non-instrumental aesthetic engagement: he personally supervised the imperial painting workshop (kitabkhana), spending hours examining and commenting on individual paintings; he maintained the legendary musician Tansen at court and was deeply moved by music; he organized elaborate festivals and games; his love of hunting was clearly a passionate personal pursuit, not merely a political display. The construction of Fatehpur Sikri reflects genuine architectural-aesthetic vision. The Ain-i-Akbari describes his personal delight in flowers, perfumes, pigeons, and other sensory pleasures well beyond any political utility."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 10.0,
+          "Relational": 6.67,
+          "Core_5D_Avg": 8.43,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.67
+        }
+      },
+      "figure": "Akbar (Mughal Emperor, r. 1556–1605)",
+      "overall": {
+        "Core_5D_Avg": 8.43,
+        "Overall_Normalized_Equal_Avg": 7.95,
+        "General_Competency_Avg_10scale": 5.56
+      },
+      "summary": "Akbar ranks among history's most exceptional ruler-administrators, scoring near the ceiling in cognitive, cultural-social, and embodied-existential domains. His sulh-i-kul policy, mansabdari system, and revenue reforms represent paradigm-shifting innovations that endured for generations. Moral-affective scores are strong but tempered by the Chittorgarh massacre and limited evidence of moral self-correction. Relational scores reflect a troubled relationship with his son Jahangir and thin evidence for spousal intimacy amid a large harem. Heinlein competency is moderate: extraordinary in command, combat, and leadership, but little evidence for domestic skills like cooking, medicine, or manual craft, consistent with his imperial station.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.67,
+          "General_Competency_Avg_10scale": 5.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Abu'l Fazl, *Ain-i-Akbari*"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists of Akbar personally cooking meals. The Ain-i-Akbari describes elaborate imperial kitchens and food preferences in great detail, but these describe what was prepared for him, not by him. As an emperor, personal cooking would have been culturally anomalous."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Abu'l Fazl, *Akbarnama*",
+            "Smith, *Akbar the Great Mogul* (1917)",
+            "Eraly, *The Mughal Throne* (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Akbar was personally skilled in combat, documented across multiple contexts: expert swordsmanship and archery; personal participation in the siege of Chittorgarh (1568) and numerous other engagements; the famous taming of the musth elephant Hawa'i demonstrated exceptional physical courage and animal-combat skill; he personally led cavalry charges and was known to fight in the front ranks. His combat experience spanned from his teenage years through middle age, demonstrating sustained martial capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Abu'l Fazl, *Ain-i-Akbari*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Akbar established charitable kitchens (langar-type institutions) and showed concern for welfare of subjects through policy, but direct personal caregiving evidence is sparse. He reportedly showed tenderness toward his mother Hamida Banu Begum and grief at children's deaths, suggesting emotional capacity, but no documented hands-on care of the sick, elderly, or infants is recorded."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Abu'l Fazl, *Akbarnama*",
+            "Smith, *Akbar the Great Mogul* (1917)",
+            "Rizvi, *Religious and Intellectual History of the Muslims in Akbar's Reign* (1975)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Akbar's lifelong philosophical engagement with questions of mortality through the Ibadat Khana debates and his exploration of multiple religious traditions demonstrates intellectual composure before existential questions. He faced physical danger with equanimity throughout his life — riding musth elephants, leading cavalry charges, confronting rebellions. During his final illness (1605), he reportedly maintained dignity and arranged succession. However, specific documentation of his composure at death is limited to courtly sources."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Abu'l Fazl, *Ain-i-Akbari*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Ain-i-Akbari mentions Akbar's curiosity about crafts and his visits to artisan workshops where he handled tools and products. He reportedly tried his hand at various crafts and invented some mechanical devices. However, specific evidence of sustained craft skill or repair capability is limited, and the accounts may reflect hagiographic embellishment of an emperor's dabbling."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Abu'l Fazl, *Akbarnama*",
+            "Richards, *The Mughal Empire* (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Akbar personally led military campaigns across vast and varied terrain — from the deserts of Rajasthan to the mountains of Kashmir to the riverine plains of Bengal. His rapid march to Gujarat demonstrated intimate knowledge of routes and terrain. He made decisions about march routes and camp locations during campaigns. However, he relied on scouts, guides, and local knowledge, as any commander would."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Abu'l Fazl, *Ain-i-Akbari*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Akbar was an avid hunter who killed large numbers of animals (the Ain-i-Akbari records elaborate hunts), suggesting practical familiarity with animals and their handling. He maintained extensive stables and personally trained elephants and cheetahs. However, there is no specific evidence of butchering or processing animals for food — such work would have been done by servants."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Richards, *The Mughal Empire* (1993)",
+            "M. Athar Ali, *The Mughal Nobility under Akbar* (1966)",
+            "Abu'l Fazl, *Akbarnama*"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Akbar's leadership across military, administrative, religious, and cultural domains is exceptionally well-documented. Critically, he also demonstrated effective followership: he deferred to Bairam Khan's regency in his early years, learning from the experienced general before asserting independence; he listened to and incorporated counsel from advisors like Todar Mal, Abu'l Fazl, and Birbal; he adopted the revenue expertise of Hindu administrators rather than insisting on his own methods. This combination of giving and taking direction is rare among absolute monarchs."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Abu'l Fazl, *Ain-i-Akbari*",
+            "Koch, *Mughal Architecture* (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Akbar personally supervised the construction of Fatehpur Sikri (1571–85), the renovation of Agra Fort, and the construction of Lahore Fort. Abu'l Fazl records that Akbar took active interest in architectural design decisions, materials selection, and construction methods — visiting sites and directing modifications. He engaged with builders and craftsmen directly. However, he was a director and patron rather than a hands-on builder."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Richards, *The Mughal Empire* (1993)",
+            "Abu'l Fazl, *Akbarnama*",
+            "Eraly, *The Mughal Throne* (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Akbar was among the great military-administrative commanders in world history. He planned and executed the conquest of Rajputana, Gujarat, Bengal, Kashmir, and parts of the Deccan. His rapid march to Gujarat (1572–73) with a small force to suppress rebellion demonstrated brilliant operational planning. The mansabdari system represented sophisticated strategic organization of military resources across a continental empire."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Beach, *Mughal and Rajput Painting* (1992)",
+            "Abu'l Fazl, *Ain-i-Akbari*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Akbar was one of history's greatest art patrons, personally supervising the imperial painting workshop and directing artistic programs (the illustrated Hamzanama, Akbarnama manuscripts). He had deep aesthetic sensibility and influenced artistic direction. However, he was reportedly illiterate and did not personally create literary or visual art. His contribution was as curator, director, and connoisseur rather than creator, which still represents significant artistic competence in its own right."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence exists of Akbar personally providing medical treatment or emergency medical response. He patronized physicians and maintained a medical establishment, but there are no documented instances of hands-on medical aid."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Abu'l Fazl, *Ain-i-Akbari*",
+            "Richards, *The Mughal Empire* (1993)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Akbar was reportedly illiterate, which limits evidence for formal numerical reasoning. However, he clearly grasped complex administrative calculations — the mansabdari system's ranking structure and the Dahsala revenue system required understanding of quantitative relationships. He delegated technical computation to Todar Mal and others but engaged with the underlying logic. His analytical capability was strong but expressed through oral and practical rather than written means."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Habib, *The Agrarian System of Mughal India* (1963)",
+            "Abu'l Fazl, *Ain-i-Akbari*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Dahsala revenue system implemented under Akbar (designed by Todar Mal) demonstrated sophisticated understanding of agricultural productivity, crop cycles, and soil quality across diverse regions. Akbar's policies included famine relief measures and attempts to stabilize agricultural output. The Ain-i-Akbari contains detailed data on crop yields, land classifications, and resource management. While Akbar directed rather than personally farmed, his administrative engagement with agriculture was deep and consequential."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Abu'l Fazl, *Ain-i-Akbari*",
+            "Richards, *The Mughal Empire* (1993)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Akbar engaged with the cutting-edge technologies of his era: he integrated gunpowder weapons (cannon and matchlock firearms) into Mughal military strategy, transforming the army's tactical capabilities. He promoted innovations in architecture and engineering at Fatehpur Sikri. The Ain-i-Akbari records his interest in mechanical devices and technological processes. He also supported the development of new administrative technologies (standardized weights, measures, and coinage)."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 8.43,
+    "general_competency_avg_0_10": 5.56,
+    "overall_normalized_equal_avg_0_10": 7.95,
+    "created_at": "2026-03-22T22:19:49.062Z",
+    "updated_at": "2026-03-22T22:19:49.087Z"
+  }
+}
+]

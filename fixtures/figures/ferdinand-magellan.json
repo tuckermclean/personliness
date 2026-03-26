@@ -1,0 +1,366 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 223,
+  "fields": {
+    "name": "Ferdinand Magellan",
+    "slug": "ferdinand-magellan",
+    "bio_short": "Ferdinand Magellan scores exceptionally in strategic vision, creative innovation, and cultural legacy—his conception and partial execution of the first circumnavigation fundamentally reshaped human geographic understanding. He demonstrated extraordinary courage, hardship tolerance, and composure facing death at Mactan. His leadership spanned military, diplomatic, and exploratory contexts. However, his relational and moral-affective dimensions are modest: limited documentation of his marriage and parenting, little evidence of compassion toward adversaries or moral self-correction. His Heinlein ",
+    "bio_long": "Ferdinand Magellan was a Portuguese explorer best known for planning and leading the 1519–22 Spanish expedition to the East Indies. During this expedition, he discovered the Strait of Magellan, performed the first European crossing of the Pacific Ocean, and made the first known European contact with the Philippines. Magellan himself was killed in battle in the Philippines in 1521, but his crew, commanded by Spanish navigator Juan Sebastián Elcano, completed the return trip to Spain in 1522, achieving the first circumnavigation of Earth in history.",
+    "source_notes": "https://en.wikipedia.org/wiki/Ferdinand_Magellan",
+    "image": "figures/330px-Ferdinand_Magellan.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Bergreen, *Over the Edge of the World* (2003)",
+              "Pigafetta, *The First Voyage Around the World* (c. 1525)",
+              "Joyner, *Magellan* (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Magellan conceived and executed a westward route to the Spice Islands, systematically exploring southward after the Río de la Plata proved not to be the strait. He adapted decisively when initial plans failed: suppressing the Easter 1520 mutiny at Port St. Julian, navigating the complex strait after the San Antonio deserted, and crossing the unknown Pacific with dwindling supplies. The Battle of Mactan was a tactical blunder that cost his life; without this counterexample the score is an unqualified 3, and with it given full weight the score remains 3 because the pattern of successful adaptation across many crises is overwhelming."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Morison, *The European Discovery of America: The Southern Voyages* (1974)",
+              "Pigafetta, *The First Voyage Around the World*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Magellan synthesized Portuguese navigational intelligence from his service in India and Malacca with geographic theories to propose an entirely new route to the Spice Islands via a southern strait. The expedition's discovery of the strait, the Pacific crossing, and demonstration of the Earth's practical circumnavigability constituted a paradigm shift in European geography—there is a clear before/after difference attributable to this voyage."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Magellan was a practical navigator and military commander, not a philosopher. His conversion efforts in the Philippines reflected conventional 16th-century Catholic missionary zeal rather than novel ethical reasoning. No writings or articulated moral principles influenced thinkers beyond his immediate context."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Bergreen, *Over the Edge of the World* (2003)",
+              "Joyner, *Magellan* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Magellan organized a five-ship, ~270-man expedition (the Armada de Molucca), negotiating terms with King Charles I and managing provisioning, crew recruitment, and logistics. He maintained operational coherence through mutiny, desertion, and extreme deprivation. However, the serious Easter 1520 mutiny indicates imperfect personnel management, and his organizational systems did not outlast the expedition itself."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*",
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Magellan operated as subordinate (Portuguese military service under Almeida and Albuquerque), superior/commander (expedition leader), spouse (to Beatriz), adversary (to mutineers and Lapu-Lapu), and diplomat (with Charles I and Philippine chieftains such as Humabon). Pigafetta documents distinct behaviors across these modes—stern with mutineers, diplomatic with indigenous rulers, inspiring to loyal followers—showing at least five relational modes with some behavioral differentiation."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Joyner, *Magellan* (1992)",
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Magellan married Beatriz Barbosa in Seville in 1517, daughter of his patron Diogo Barbosa. They had a son, Rodrigo. He departed on his voyage in September 1519 and never returned. Beatriz and Rodrigo both died before the Victoria returned to Spain. The marriage appears partly strategic (securing Barbosa family patronage), and there is virtually no documentation of the quality of their emotional relationship."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Magellan's son Rodrigo was an infant when he departed in 1519, and Magellan died in 1521 without returning. No evidence of meaningful parental engagement exists. As a mentor, Pigafetta's deep devotion and detailed chronicle suggest Magellan inspired loyalty and learning, but specific mentoring acts are not well documented beyond the commander-chronicler relationship."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Morison, *The European Discovery of America: The Southern Voyages* (1974)",
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The first circumnavigation fundamentally transformed European understanding of world geography, confirmed the Earth's practical sphericity, revealed the Pacific's vastness, and reshaped global trade. Over 500 years later, the Strait of Magellan remains a named and used passage, astronomical features bear his name (Magellanic Clouds, Magellan spacecraft), and the voyage remains foundational in world history across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Zweig, *Magellan* (1938)",
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Magellan embodies the archetype of the intrepid explorer who ventures beyond the known world at ultimate personal cost. He is recognized as a universal symbol of discovery and human daring across cultures far beyond the Iberian world—his name marks galaxies, spacecraft, straits, and appears in educational curricula globally. The tragic structure of his story (visionary who dies before seeing completion) resonates as a cross-cultural mythic pattern."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Magellan did not create enduring institutions. His expedition was a singular venture. While the Spanish colonial presence in the Philippines traces in part to his initial contact, this connection is indirect and mediated by decades of subsequent decisions. No organizational structure he created survived beyond the voyage itself."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*",
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Magellan led successfully across qualitatively different contexts: as a junior soldier in Portuguese campaigns in India and Malacca, as a diplomatic negotiator securing royal sponsorship from Charles I, as a crisis commander suppressing armed mutiny, and as an explorer navigating unknown waters. He inspired fierce personal loyalty in Pigafetta and other crew members while managing a multinational, fractious crew under extreme duress."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Magellan was an aristocratic military officer and explorer. While Pigafetta provides some humanizing details (his limp, his emotional reactions), there is no documented engagement with mundane everyday activities such as cooking, manual labor, humor with children, or domestic life at the height of his command. His life as recorded is almost entirely defined by military and exploratory roles."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Bergreen, *Over the Edge of the World* (2003)",
+              "Pigafetta, *The First Voyage Around the World*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Magellan's punishment of the Port St. Julian mutineers served his authority and expedition survival more than abstract justice. His dealings with Philippine chieftains mixed diplomacy with coercion (demanding conversion as a condition of alliance). No documented cases exist of him ruling against his own interest in favor of impartial principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*",
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Pigafetta records Magellan sharing rations with crew during the Pacific crossing and weeping upon reaching the Pacific, suggesting emotional engagement. However, his treatment of mutineers was harsh—executing Quesada, quartering Mendoza's body, and marooning Cartagena and a priest on a desolate shore. No documented acts of compassion toward adversaries or outgroup members meet the threshold for a higher score."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*",
+              "Zweig, *Magellan* (1938)",
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Magellan demonstrated sustained courage across multiple high-stakes situations spanning over a decade: the Battle of Diu (1509), the conquest of Malacca (1511), combat in Morocco where he was permanently lamed (c. 1513), facing down armed mutineers at Port St. Julian (1520), navigating the terrifying strait, and finally the Battle of Mactan (1521) where Pigafetta records him fighting wounded in the shallows to cover his men's retreat until killed."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*",
+              "Joyner, *Magellan* (1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Limited evidence exists of Magellan acknowledging mistakes or reversing positions. His insistence on personally leading the attack at Mactan despite advice against it suggests inflexibility. His shift from Portuguese to Spanish service was pragmatic rather than reflecting moral growth. Sources are thin on his inner moral life, and no independent evidence of self-correction exists."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*",
+              "Bergreen, *Over the Edge of the World* (2003)",
+              "Joyner, *Magellan* (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Magellan endured qualitatively different forms of adversity with continued effective functioning: material deprivation during the Pacific crossing (months of starvation and scurvy), permanent physical disability from the Moroccan campaign, professional rejection and loss of royal favor in Portugal, armed mutiny by his own officers, and the desertion of the San Antonio with critical supplies. He maintained command effectiveness throughout all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Zweig, *Magellan* (1938)",
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Magellan inhabited several seemingly contradictory roles: a Portuguese patriot who served the Spanish crown against Portuguese interests, a permanently disabled man who led one of history's most physically demanding expeditions, and a military commander who also acted as missionary-diplomat in the Philippines. This represents at least two strong paradoxes coherently integrated, but documented evidence of a third fully distinct contradictory role is thin."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*",
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "At the Battle of Mactan, Pigafetta's eyewitness account describes Magellan fighting in the shallows, wounded multiple times by spears, bamboo lances, and swords, yet continuing to fight to cover the retreat of his men to the boats. He refused to flee and died facing his death with documented composure and self-sacrifice. This is one of the more vividly documented deaths-in-battle of the Age of Exploration."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*",
+              "Bergreen, *Over the Edge of the World* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Magellan served in physically demanding military campaigns in India, Malacca, and Morocco from his mid-20s to early 30s. He was permanently lamed in Morocco (c. 1513) yet continued to function as a sailor and commander through the grueling circumnavigation voyage—including the nearly four-month Pacific crossing with extreme deprivation (crew eating rats, leather, sawdust)—and fought at Mactan at age ~41 despite his disability. This represents endurance across multiple life-stages, though physical prowess is not a primary reason he is remembered."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Pigafetta, *The First Voyage Around the World*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Pigafetta records Magellan weeping with joy upon first sighting the Pacific, suggesting genuine emotional-aesthetic engagement with the sublime. However, specific evidence of non-instrumental play, humor, or aesthetic appreciation is not well documented. His life as recorded is overwhelmingly defined by duty and mission rather than leisure or beauty."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.32,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Ferdinand Magellan",
+      "overall": {
+        "Core_5D_Avg": 6.32,
+        "Overall_Normalized_Equal_Avg": 6.12,
+        "General_Competency_Avg_10scale": 5.11
+      },
+      "summary": "Ferdinand Magellan scores exceptionally in strategic vision, creative innovation, and cultural legacy—his conception and partial execution of the first circumnavigation fundamentally reshaped human geographic understanding. He demonstrated extraordinary courage, hardship tolerance, and composure facing death at Mactan. His leadership spanned military, diplomatic, and exploratory contexts. However, his relational and moral-affective dimensions are modest: limited documentation of his marriage and parenting, little evidence of compassion toward adversaries or moral self-correction. His Heinlein competency profile is specialized—exceptional in navigation, command, and existential composure, but with no evidence of artistic, culinary, or animal-processing skills. A defining explorer whose greatness was concentrated in vision and endurance rather than breadth.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.53,
+          "General_Competency_Avg_10scale": 5.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists of Magellan personally preparing meals or possessing culinary skill. Food preparation during the voyage was handled by ship's cooks, and no source attributes cooking ability to Magellan."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Pigafetta, *The First Voyage Around the World*",
+            "Bergreen, *Over the Edge of the World* (2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Magellan was a veteran of multiple military engagements over a decade: the Battle of Diu (1509), the conquest of Malacca (1511), combat in Morocco (c. 1513), suppression of the Port St. Julian mutiny (1520), and the Battle of Mactan (1521). He was a competent and experienced warrior, though he lost the Battle of Mactan through tactical overconfidence. Combat skill was a consistent feature of his career but not a primary reason for his historical fame."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Pigafetta, *The First Voyage Around the World*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Pigafetta mentions Magellan sharing rations and showing concern for sick crew during the Pacific crossing, but specific caregiving acts (nursing, comforting the dying) are not documented in detail. Basic concern for crew welfare is evident but not exceptional."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Pigafetta, *The First Voyage Around the World*",
+            "Bergreen, *Over the Edge of the World* (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Pigafetta's eyewitness account describes Magellan maintaining composure during the mutiny crisis, the terrifying strait passage, and the desperate Pacific crossing. At Mactan, he faced his own death fighting in the shallows, wounded multiple times, refusing to retreat, covering his men's escape with his life. This is among the most vividly documented examples of existential composure in the face of imminent death in the Age of Exploration."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a career military man and sailor from the 1500s, Magellan would have possessed practical skills in rigging, weapons maintenance, and basic ship repairs. However, no specific feats of manual craft or repair are documented in the primary sources."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Morison, *The European Discovery of America: The Southern Voyages* (1974)",
+            "Pigafetta, *The First Voyage Around the World*"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Magellan navigated the extraordinarily complex Strait of Magellan (a narrow, winding passage with fierce currents and weather) over 38 days, crossed the entire Pacific Ocean using dead reckoning and celestial navigation—the first European to do so—and island-hopped through Southeast Asian waters. This navigational achievement is among the most remarkable in the Age of Exploration and a primary reason he is remembered."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence exists of Magellan personally butchering or processing animals. While his crews hunted and processed food at various stops, no source attributes personal skill in this domain to Magellan himself."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Pigafetta, *The First Voyage Around the World*",
+            "Bergreen, *Over the Edge of the World* (2003)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Magellan demonstrated exceptional leadership: commanding the expedition through mutiny, desertion, and unknown waters, inspiring deep loyalty in followers like Pigafetta. He also demonstrated effective followership during his years of Portuguese military service under commanders Almeida and Albuquerque in India and Malacca, and in subordination to Spanish crown authority. The successful suppression of the mutiny and maintenance of expedition coherence under extreme duress exemplify both capacities."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Bergreen, *Over the Edge of the World* (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Magellan oversaw careening and ship repairs at various stops (e.g., Port St. Julian, Rio de Janeiro). As a career sailor, he would have possessed basic knowledge of ship repair and maintenance, but no exceptional construction or fabrication feats are documented."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Bergreen, *Over the Edge of the World* (2003)",
+            "Pigafetta, *The First Voyage Around the World*"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Magellan planned the entire Armada de Molucca expedition: securing funding from Charles I, equipping five ships, provisioning for a multi-year voyage, devising the route, and executing the plan through mutiny, desertion, and unknown geography. He adapted successfully when the Río de la Plata proved not to be the strait, when the San Antonio deserted, and when supplies ran critically low."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists of Magellan producing artistic or literary works. He left no significant writings, poetry, music, or art. His fame rests entirely on exploration and military achievements."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Pigafetta, *The First Voyage Around the World*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Magellan managed emergency situations throughout the voyage (storms, mutiny, starvation), demonstrating crisis response. However, during the severe scurvy outbreak on the Pacific crossing, there is no evidence he possessed particular medical knowledge or skill—responses were limited by the era's understanding of the disease."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Morison, *The European Discovery of America: The Southern Voyages* (1974)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Sixteenth-century oceanic navigation required significant mathematical skill: calculating latitude by stellar observation, dead reckoning, estimating provisions for months-long voyages. Magellan's successful Pacific crossing (though he underestimated its width, as did all Europeans) and strait navigation demonstrate strong applied analytical reasoning within the limits of contemporary geographic knowledge."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Bergreen, *Over the Edge of the World* (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Magellan managed provisioning for a multi-year voyage across multiple resupply stops, but the near-fatal supply shortage during the Pacific crossing—driven by the unexpected vastness of the ocean but also by imperfect planning—limits the score. Basic resource management competence is evident but not exceptional."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Morison, *The European Discovery of America: The Southern Voyages* (1974)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Magellan used the cutting-edge navigational technology of his era (astrolabes, compasses, cross-staffs, rutters) and managed the complex technical systems of a five-ship fleet. His navigation through the strait required sophisticated technical problem-solving with tidal currents, wind patterns, and uncharted coastline. He did not create new technologies but applied existing ones at the highest level."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.32,
+    "general_competency_avg_0_10": 5.11,
+    "overall_normalized_equal_avg_0_10": 6.12,
+    "created_at": "2026-03-22T23:28:45.328Z",
+    "updated_at": "2026-03-22T23:28:45.342Z"
+  }
+}
+]

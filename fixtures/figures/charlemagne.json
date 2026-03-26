@@ -1,0 +1,397 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 175,
+  "fields": {
+    "name": "Charlemagne",
+    "slug": "charlemagne",
+    "bio_short": "Charlemagne scores exceptionally in Cultural-Social dimensions—his institution-building, legacy, and archetypal resonance are among the highest in European history. Strong cognitive marks reflect strategic adaptability across 30+ years of Saxon Wars and enduring administrative systems. Moral-Affective scores are tempered by the Verden massacre and forced conversions, despite genuine resilience and some moral growth. Embodied-Existential scores reflect documented physical vigor, paradox integration (illiterate champion of learning, warrior-patron), and hardship tolerance. Relational depth is mo",
+    "bio_long": "Charlemagne was King of the Franks from 768, King of the Lombards from 774, and Emperor of what is now known as the Carolingian Empire from 800. He united most of Western and Central Europe and was the first recognised emperor to rule from the west after the fall of the Western Roman Empire approximately three centuries earlier. Charlemagne's reign was marked by political and social changes that had lasting influence on Europe throughout the Middle Ages.",
+    "source_notes": "https://en.wikipedia.org/wiki/Charlemagne",
+    "image": "figures/330px-Charlemagne_denier_Mayence_812_814.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Einhard, Vita Karoli Magni",
+              "Collins, Charlemagne (1998)",
+              "McKitterick, Charlemagne: The Formation of a European Identity (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Charlemagne adapted repeatedly during the 30-year Saxon Wars (772–804), shifting from punitive expeditions to mass deportations to more conciliatory integration after initial strategies failed. He coordinated simultaneous campaigns on multiple fronts—Lombardy (773–774), Spain (778), the Avar campaigns (791–796)—and after the Roncevaux disaster (778) established the Spanish March as an adaptive defensive solution. These demonstrate successful adaptation when plans failed, not merely first-attempt success."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "McKitterick, The Carolingians and the Written Word (1989)",
+              "Contreni, 'The Carolingian Renaissance: Education and Literary Culture' in NCMH vol. 2 (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Charlemagne drove the Carolingian Renaissance—the systematic revival of classical learning, standardization of Carolingian minuscule script, establishment of cathedral and monastic schools, and liturgical reform. He commissioned the Fossa Carolina canal project and the Rhine bridge at Mainz, applying engineering innovation. These represent significant creative vision, though he was orchestrating others' creativity rather than personally generating paradigm-shifting ideas."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Alcuin, Epistolae (MGH)",
+              "Admonitio Generalis (789)",
+              "Bullough, Alcuin: Achievement and Reputation (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Charlemagne engaged seriously with Alcuin of York on questions of Christian governance and education, and the Admonitio Generalis (789) articulated a coherent vision of Christian kingship linking moral reform, education, and political order. His ideas influenced subsequent medieval political theology (the Carolingian model of rex et sacerdos). However, he was primarily a patron and implementer of others' ideas rather than an original philosophical thinker, and his ethical framework did not transcend his Christian-Frankish milieu."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Capitulare de Villis (c. 771–800)",
+              "Ganshof, Frankish Institutions Under Charlemagne (1968)",
+              "McKitterick, Charlemagne: The Formation of a European Identity (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Charlemagne created a sophisticated administrative system: missi dominici (paired royal envoys) to inspect counties, the capitulary system of detailed legislation (Capitulare de Villis for estate management, Admonitio Generalis for church and education), standardized weights and currency (the livre), and regular general assemblies. These systems functioned beyond his direct oversight and survived (in evolved form) under Louis the Pious and beyond. The county system and capitulary tradition shaped Carolingian governance for generations."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Einhard, Vita Karoli Magni",
+              "Alcuin, Epistolae (MGH)",
+              "Royal Frankish Annals, s.a. 802 (Harun al-Rashid embassy)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Charlemagne demonstrably operated across at least six distinct relational modes: (1) spouse/partner—multiple marriages with different dynamics; (2) parent—actively involved in children's education; (3) superior/emperor—commanding counts and bishops; (4) subordinate—deferring to Pope in spiritual matters; (5) friend/peer—his intimate intellectual friendship with Alcuin, documented in extensive correspondence; (6) adversary—negotiating with and fighting Saxons, Lombards, Byzantines; (7) diplomat—gift exchange with Harun al-Rashid of the Abbasid Caliphate. His behavior was qualitatively distinct across these modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Einhard, Vita Karoli Magni, chs. 18–19",
+              "Nelson, King and Emperor (2019)",
+              "Stafford, Queens, Concubines, and Dowagers (1983)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Charlemagne had four wives (Desiderata, repudiated after ~1 year for political reasons; Hildegard, d. 783; Fastrada, d. 794; Luitgard, d. 800) and several named concubines. Einhard reports genuine affection for Hildegard, who accompanied him on campaigns and bore nine children. However, the repudiation of Desiderata was coldly political, Fastrada was reportedly harsh and unpopular, and the concurrent concubines undermine claims of deep mutual partnership. Evidence of emotional availability and mutual respect is thin beyond Einhard's brief, hagiographic comments about Hildegard."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Einhard, Vita Karoli Magni, ch. 19",
+              "Bullough, Alcuin: Achievement and Reputation (2004)",
+              "Nelson, King and Emperor (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Charlemagne educated all his children, including daughters, in liberal arts and practical skills—unusual for the era. He mentored scholars like Alcuin, Einhard, and Theodulf, fostering independent intellectual work. His son Louis the Pious developed into a capable (if different) ruler. However, his refusal to allow his daughters to marry—resulting in several having illegitimate children—suggests controlling behavior. His eldest son Pepin the Hunchback's rebellion (792) points to relational failure. Mentees like Einhard did develop genuine autonomy."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Fried, Charlemagne (2016)",
+              "McKitterick, Charlemagne: The Formation of a European Identity (2008)",
+              "Wilson, Heart of Europe: A History of the Holy Roman Empire (2016)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Charlemagne's legacy is still operative over 1,200 years later across multiple civilizations: the political geography of France and Germany traces to the Carolingian partition (Treaty of Verdun, 843); the preservation of Latin classical texts through Carolingian scriptoria undergirds Western intellectual history; the concept of a united Christian Europe informed centuries of European political thought; the Charlemagne Prize (Karlspreis) is awarded for European unification contributions. Both France and Germany claim him as a national founding figure."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "La Chanson de Roland (c. 1100)",
+              "Morrissey, Charlemagne and France (2003)",
+              "Barbero, Charlemagne: Father of a Continent (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Charlemagne became the central figure of the Matter of France (chansons de geste), most notably the Song of Roland, and served as the archetype of the ideal Christian king across medieval European cultures—French, German, Italian, Spanish, and Scandinavian. He is recognized as a saint in some Catholic traditions. His archetypal role as 'Father of Europe' transcends his own Frankish culture and persists in modern European identity discourse."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Contreni, 'The Carolingian Renaissance' in NCMH vol. 2 (1995)",
+              "Ganshof, Frankish Institutions Under Charlemagne (1968)",
+              "McKitterick, The Carolingians and the Written Word (1989)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Charlemagne's institutional legacy includes: the Carolingian educational system (cathedral and monastic schools that preserved classical learning for centuries), the administrative county-missi system, the revived Western imperial title (the conceptual seed of the Holy Roman Empire, which endured until 1806), and reformed Benedictine monasticism. These institutions survived well beyond two generations with recognizable continuity."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Einhard, Vita Karoli Magni",
+              "McKitterick, Charlemagne: The Formation of a European Identity (2008)",
+              "Nelson, King and Emperor: A New Life of Charlemagne (2019)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Charlemagne led effectively across qualitatively different contexts: crisis military leadership (Saxon Wars, Lombard conquest, Avar campaigns), stable peacetime governance (Carolingian Renaissance, administrative reform), small advisory councils (with Alcuin, Einhard, Theodulf), and large general assemblies of the Frankish nobility. He commanded loyalty from diverse peoples—Franks, Lombards, Bavarians, Aquitanians—and inspired both military and intellectual followings."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Einhard, Vita Karoli Magni, chs. 22–25",
+              "Nelson, King and Emperor: A New Life of Charlemagne (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Einhard provides vivid details of Charlemagne's personal life: he preferred simple Frankish dress over Roman robes, loved swimming in the thermal baths at Aachen (often inviting friends and guards to join), enjoyed roasted meat at meals, had readings from Augustine's City of God performed during dinner, and famously attempted to learn to write late in life (keeping wax tablets under his pillow). These details convey genuine connection to ordinary pleasures and struggles, though Einhard's account is hagiographic."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Capitulatio de partibus Saxoniae (782)",
+              "Capitulare Saxonicum (797)",
+              "Ganshof, Frankish Institutions Under Charlemagne (1968)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Charlemagne standardized legal procedures, established circuit courts via missi dominici to check local abuses, and his capitularies include protections for the poor and widows against powerful litigants. The shift from the draconian Capitulatio de partibus Saxoniae (782) to the more moderate Capitulare Saxonicum (797) shows evolution toward fairness. However, his justice system remained fundamentally hierarchical and ethnically stratified (Frankish supremacy), and the forced conversion campaigns contradict impartiality. No strong evidence of ruling against his own group interest on principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Einhard, Vita Karoli Magni, ch. 27",
+              "Barbero, Charlemagne: Father of a Continent (2004)",
+              "Royal Frankish Annals (Annales Regni Francorum), s.a. 782"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Einhard reports Charlemagne's generosity in almsgiving—to the poor of Rome, Jerusalem, Alexandria, and Carthage—and his concern for the welfare of commoners is reflected in capitulary provisions protecting the poor from judicial abuse. However, the Massacre of Verden (782), where reportedly 4,500 Saxon captives were executed, is a severe counterexample. Without Verden, evidence of almsgiving and protective legislation would support a score of 2. With Verden given weight—even accounting for possible source exaggeration (Barbero notes the textual controversy)—the deliberate mass killing of prisoners represents a fundamental failure of compassion toward adversaries, reducing the score to 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Einhard, Vita Karoli Magni",
+              "Collins, Charlemagne (1998)",
+              "Royal Frankish Annals"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Charlemagne personally led military campaigns for over 40 years, from the Lombard conquest (773–774) through the Saxon Wars to the Avar campaigns. He endured the Roncevaux disaster (778), the repeated Saxon revolts and reversals, the rebellion of his son Pepin the Hunchback (792), and the deaths of multiple wives and children—yet maintained effective rule throughout. This constitutes sustained courage across multiple high-stakes military, political, and personal crises."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Alcuin, Epistola 110 (to Arn of Salzburg, 796)",
+              "Capitulare Saxonicum (797)",
+              "Sullivan, 'Carolingian Missionary Theories' in Catholic Historical Review (1953)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The documented shift from the harsh Capitulatio de partibus Saxoniae (782, prescribing death for refusing baptism) to the more lenient Capitulare Saxonicum (797, allowing monetary fines) represents a genuine policy reversal with visible behavioral change, likely influenced by Alcuin's preserved letters criticizing forced conversion ('Faith must be voluntary'). This constitutes acceptance of correction from an advisor. However, Einhard's hagiographic account largely sanitizes Charlemagne, and we lack extensive evidence of explicit self-criticism or acknowledgment of error."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Einhard, Vita Karoli Magni, ch. 19",
+              "Royal Frankish Annals",
+              "Nelson, King and Emperor (2019)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Charlemagne endured qualitatively distinct forms of adversity while maintaining effective functioning: (1) military setbacks—the Roncevaux disaster (778), repeated Saxon revolts over 30 years, Avar campaign challenges; (2) personal bereavement—the deaths of wives Hildegard (783) and Fastrada (794), and the premature deaths of sons Charles (811) and Pepin of Italy (810); (3) political betrayal—his eldest son Pepin the Hunchback's conspiracy (792). Through all of these he continued to govern effectively."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Einhard, Vita Karoli Magni",
+              "Barbero, Charlemagne: Father of a Continent (2004)",
+              "McKitterick, Charlemagne: The Formation of a European Identity (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Charlemagne inhabited at least four seemingly contradictory roles without fragmentation: (1) illiterate/semi-literate man who championed systematic education and classical learning; (2) brutal warrior (Verden, Saxon Wars) and patron of Christian mercy and reform; (3) simple Frankish tribesman in dress and diet who claimed the Roman imperial title; (4) devout Christian who defied papal preferences when politically necessary (e.g., his Lombard policies, the filioque controversy). These paradoxes were integrated into a coherent identity, not compartmentalized."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Einhard, Vita Karoli Magni, ch. 30",
+              "Thegan, Gesta Hludowici imperatoris",
+              "Nelson, King and Emperor (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Charlemagne prepared deliberately for death: in 813 he summoned Louis the Pious and had him crowned co-emperor, ensuring succession. Einhard describes his final illness (January 814) and reports he received the sacraments and died composedly. However, this account is hagiographic and follows conventional deathbed narratives for Christian kings, limiting confidence. There is no evidence of profound philosophical engagement with mortality, but the practical preparations demonstrate intentionality."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Einhard, Vita Karoli Magni, ch. 22",
+              "Rühli et al., 'Charlemagne was very tall but not robust,' Economics & Human Biology (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Einhard describes Charlemagne as exceptionally tall and physically powerful, an avid swimmer and hunter who remained active into his sixties. Modern examination of his remains confirmed a height of approximately 184 cm (6 feet)—extraordinary for the 8th century. He personally participated in campaigns spanning decades. However, specific athletic or martial feats beyond general campaign leadership and hunting are not well-documented, preventing a score of 3."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Einhard, Vita Karoli Magni, chs. 22, 24, 29",
+              "Nelson, King and Emperor (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Einhard documents Charlemagne's non-instrumental pleasures: swimming at Aachen's thermal springs purely for enjoyment, hunting as recreation, feasting with companions, having heroic songs and histories read aloud at dinner, and collecting old Frankish songs and poems for their own sake. He commissioned the Palatine Chapel at Aachen, reflecting genuine aesthetic investment. These pleasures appear genuinely personal rather than merely political performance."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 6.67,
+          "Core_5D_Avg": 7.8,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Charlemagne",
+      "overall": {
+        "Core_5D_Avg": 7.8,
+        "Overall_Normalized_Equal_Avg": 7.35,
+        "General_Competency_Avg_10scale": 5.11
+      },
+      "summary": "Charlemagne scores exceptionally in Cultural-Social dimensions—his institution-building, legacy, and archetypal resonance are among the highest in European history. Strong cognitive marks reflect strategic adaptability across 30+ years of Saxon Wars and enduring administrative systems. Moral-Affective scores are tempered by the Verden massacre and forced conversions, despite genuine resilience and some moral growth. Embodied-Existential scores reflect documented physical vigor, paradox integration (illiterate champion of learning, warrior-patron), and hardship tolerance. Relational depth is moderate; spousal evidence is thin beyond Hildegard, and his daughters' situation is ambiguous. Heinlein competency is strong in command and leadership but weak in craft and medical domains, as expected for a sovereign.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.53,
+          "General_Competency_Avg_10scale": 5.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Einhard, Vita Karoli Magni, ch. 24"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Charlemagne personally cooked. Einhard describes his food preferences (roasted meat, dislike of physicians' dietary advice) but not personal food preparation. As a king, he had cooks throughout his life."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Einhard, Vita Karoli Magni",
+            "Bachrach, Charlemagne's Early Campaigns (2013)",
+            "Royal Frankish Annals"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Charlemagne personally participated in military campaigns for over 40 years and was known as a formidable warrior-king. Einhard describes his physical imposingness and martial bearing. The Frankish military system under his command was the most effective in Western Europe. However, specific accounts of personal combat (individual fighting skill) are sparse; his military reputation rests more on command than documented personal martial feats. Era-normalized for a king who led from the front, this merits a 2."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Einhard, Vita Karoli Magni, ch. 19",
+            "Nelson, King and Emperor (2019)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Einhard describes Charlemagne as deeply attentive to his children, insisting they dine with him, educating them personally, and reportedly being inconsolable at the deaths of his sons and daughters. He kept his daughters close throughout their lives. His care extended to dependents at court. For a medieval sovereign, this represents notable caregiving engagement."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Einhard, Vita Karoli Magni, chs. 19, 30",
+            "Nelson, King and Emperor (2019)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Charlemagne faced the deaths of multiple children and wives while maintaining effective governance. In 813, foreseeing his own decline, he calmly arranged the coronation of Louis the Pious as co-emperor to ensure orderly succession. Einhard describes his death as composed, receiving sacraments. His continued equanimity after the deaths of sons Charles and Pepin of Italy in 810–811 demonstrates existential composure under grief, though hagiographic framing limits full confidence."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Einhard, Vita Karoli Magni"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence exists that Charlemagne personally engaged in manual craftsmanship, tool-making, or repair work. As a Frankish king from youth, he would have had servants and specialists for such tasks. Einhard does not mention any craft skills."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Royal Frankish Annals",
+            "Collins, Charlemagne (1998)",
+            "Squatriti, 'Digging Ditches in Early Medieval Europe,' Past & Present (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Charlemagne personally led armies across diverse European terrain—from the Pyrenees to the Elbe, from the Italian peninsula to the North Sea coast—over decades. He navigated Alpine passes during the Lombard campaign (773) and traversed Saxon forests repeatedly. The Fossa Carolina canal project (connecting Rhine and Danube watersheds) demonstrates understanding of continental geography. Era-normalized, this represents strong wayfinding capability."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Einhard, Vita Karoli Magni, ch. 22",
+            "Capitulare de Villis"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Charlemagne was an avid and lifelong hunter, as documented by Einhard, which in the 8th-century context involved direct engagement with game animals. The Capitulare de Villis specifies detailed management of livestock and food processing on royal estates, indicating familiarity with these processes. However, as king, he would not have personally butchered or processed animals regularly."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Einhard, Vita Karoli Magni",
+            "Nelson, King and Emperor (2019)",
+            "Alcuin, Epistolae"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Charlemagne is among the strongest exemplars of combined leadership and followership in the medieval period. He gave effective orders as supreme military and political commander for 46 years. He also demonstrated followership: deferring to Pope Hadrian I and Leo III in ecclesiastical matters, listening to Alcuin's counsel on Saxon policy and modifying his approach, and operating within Frankish assembly traditions that required noble consensus. His ability to both command and defer marks exceptional range."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Einhard, Vita Karoli Magni, chs. 17, 26",
+            "McClendon, The Origins of Medieval Architecture (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Charlemagne commissioned major construction projects: the Palatine Chapel and palace complex at Aachen, the Rhine bridge at Mainz, and the attempted Fossa Carolina canal. He directed these projects and made design decisions (e.g., importing columns from Ravenna for Aachen). However, he was a patron and director, not a builder; no evidence suggests personal construction skills."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Collins, Charlemagne (1998)",
+            "Bachrach, Charlemagne's Early Campaigns (2013)",
+            "Royal Frankish Annals"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Charlemagne coordinated complex multi-front military operations for over 40 years: simultaneous Saxon, Avar, and Spanish March campaigns required logistical coordination across vast distances. The annual general assemblies combined military planning with administrative governance. His ability to sustain these operations across decades with adaptive strategy marks him as among the strongest exemplars of his era."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Einhard, Vita Karoli Magni, ch. 29",
+            "McKitterick, Charlemagne: The Formation of a European Identity (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Charlemagne was a patron rather than a creator: he commissioned the Palatine Chapel, collected Frankish heroic songs, and sponsored the Carolingian Renaissance's literary and artistic output. He did not personally compose, paint, or perform. His collection of vernacular poetry shows genuine aesthetic sensibility, but personal artistic creation is undocumented."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Einhard, Vita Karoli Magni, ch. 30"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence exists of Charlemagne providing medical treatment or emergency care. Einhard mentions that Charlemagne disliked the advice of physicians during his final illness, suggesting distance from medical practice rather than competence in it."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Capitulare de Villis",
+            "Ganshof, Frankish Institutions Under Charlemagne (1968)",
+            "McCormick, Origins of the European Economy (2001)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Capitulare de Villis demonstrates sophisticated accounting requirements for royal estates—detailed inventories, yields, and resource allocation. Charlemagne standardized coinage (the silver denier system) and weights and measures across the empire, requiring analytical understanding of economic systems. He managed the logistics of a continental empire. However, he was likely semi-literate and relied on clerks for detailed calculations."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Capitulare de Villis (c. 771–800)",
+            "Verhulst, The Carolingian Economy (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Capitulare de Villis is one of the most detailed agricultural management documents of the early Middle Ages, specifying crop rotations, orchard management, livestock breeding, and estate administration. Even if Charlemagne did not draft it personally, it reflects his directive oversight of agricultural systems across hundreds of royal estates. This represents exceptional resource management competence for a sovereign of his era."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Squatriti, 'Digging Ditches in Early Medieval Europe,' Past & Present (2002)",
+            "McKitterick, The Carolingians and the Written Word (1989)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Charlemagne engaged with the cutting-edge technical challenges of his era: the Fossa Carolina canal project (attempting to link Rhine and Danube river systems, an ambitious hydraulic engineering project), the Rhine bridge at Mainz, standardization of script (Carolingian minuscule), and monetary reform. While he directed rather than personally engineered these, his ability to identify, commission, and oversee systemic technical solutions was strong for his context."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.8,
+    "general_competency_avg_0_10": 5.11,
+    "overall_normalized_equal_avg_0_10": 7.35,
+    "created_at": "2026-03-22T21:38:57.250Z",
+    "updated_at": "2026-03-22T21:38:57.271Z"
+  }
+}
+]

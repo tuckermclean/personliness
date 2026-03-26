@@ -1,0 +1,368 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 219,
+  "fields": {
+    "name": "Haile Selassie",
+    "slug": "haile-selassie",
+    "bio_short": "A modernizing absolute monarch who became a global symbol of African sovereignty and anti-colonial resistance. Exceptional in archetype resonance (Rastafari divinity, pan-African icon) and leadership across crisis and stability, with solid cognitive abilities in diplomacy and state-building. Weakened by moral-affective shortcomings—particularly the 1973 famine indifference—and limited relatability due to regal distance. Heinlein competency is narrow: strong in command, composure, and leadership, but negligible in manual, culinary, medical, or craft skills. His legacy is paradoxical: revered as",
+    "bio_long": "Haile Selassie I was Emperor of Ethiopia from 1930 to 1974. He rose to power as the Regent Plenipotentiary of Ethiopia under Empress Zewditu between 1916 and 1930.",
+    "source_notes": "https://en.wikipedia.org/wiki/Haile_Selassie",
+    "image": "figures/330px-Haile_Selassie_in_full_dress_283x4_cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Marcus, Harold G., *Haile Sellassie I: The Formative Years* (1987)",
+              "Mockler, Anthony, *Haile Selassie's War* (1984)",
+              "Bahru Zewde, *A History of Modern Ethiopia* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Successfully navigated the complex Ethiopian aristocratic hierarchy from governor's son to regent (1916) to emperor (1930), outmaneuvering rivals like Ras Gugsa Welle. His strategic appeal to the League of Nations in 1936 and organized return from exile with British cooperation in 1941 show adaptive planning. However, he fatally failed to adapt to domestic unrest in the 1960s–70s, misjudging both the 1960 coup and the Derg's threat, preventing a score of 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Bahru Zewde, *A History of Modern Ethiopia* (2001)",
+              "Marcus, Harold G., *A History of Ethiopia* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Introduced Ethiopia's first written constitution (1931), brought Ethiopia into the League of Nations (1923)—the first African member—and founded Ethiopian Airlines (1945), one of Africa's most enduring modern enterprises. His attempt to modernize a feudal Solomonic monarchy while preserving its cultural identity was creative for the African context but did not constitute a paradigm shift in governance theory beyond Ethiopia."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Haile Selassie, *My Life and Ethiopia's Progress* (autobiography, 1976 English ed.)",
+              "Getachew, Adom, *Worldmaking After Empire* (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "His 1936 League of Nations address is a landmark articulation of collective security and the moral bankruptcy of appeasement, influencing international legal thought. His 1963 OAU founding speech articulated principles of pan-African unity and sovereignty that resonated across the continent. His rhetoric blended Ethiopian Orthodox theology with modernist governance ideals. Influence extended beyond his community but he was not primarily a systematic philosopher."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Bahru Zewde, *A History of Modern Ethiopia* (2001)",
+              "Clapham, Christopher, *Haile Selassie's Government* (1969)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Promulgated Ethiopia's first (1931) and revised (1955) constitutions, centralized administrative authority away from feudal lords, established a modern bureaucracy, courts, and educational system including the University College of Addis Ababa (1950). Ethiopian Airlines (1945) endured beyond his rule. However, domestic governance institutions were highly personalized and proved brittle—most were swept away or radically restructured after 1974, limiting the score."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Spencer, John H., *Ethiopia at Bay* (1984)",
+              "Clapham, Christopher, *Haile Selassie's Government* (1969)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Functioned as sovereign (superior), diplomat among world leaders (peer), exile dependent on British hospitality (subordinate/guest), husband, father, and religious symbol to millions of strangers. His interactions with Churchill, Roosevelt, and Kennedy demonstrated diplomatic adaptability distinct from his imperial persona. However, evidence of genuine friendship, informal peer relationships, or warmth with subordinates is thin; his relational style was predominantly formal and hierarchical across contexts."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Marcus, Harold G., *Haile Sellassie I: The Formative Years* (1987)",
+              "Spencer, John H., *Ethiopia at Bay* (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Married Empress Menen Asfaw in 1911; the marriage endured 51 years until her death in 1962. They shared exile in England (1936–41), enduring hardship together. Menen was active in charitable and religious work, and Haile Selassie publicly honored her role. Contemporary accounts suggest genuine mutual respect. However, the formal Ethiopian court culture limits evidence of emotional intimacy or vulnerability, and detailed private accounts are scarce."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Marcus, Harold G., *A History of Ethiopia* (2002)",
+              "Bahru Zewde, *A History of Modern Ethiopia* (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Father of several children, but the record shows limited evidence of close, developmental mentoring. Crown Prince Asfa Wossen had a fraught relationship with his father and was forced to read a statement supporting the 1960 coup plotters—suggesting the father-son bond was compromised. Several children and grandchildren met tragic fates. His failure to prepare a viable succession contributed to the dynasty's fall. No documented cases of mentees developing genuine autonomy through his guidance."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Chevannes, Barry, *Rastafari: Roots and Ideology* (1994)",
+              "Getachew, Adom, *Worldmaking After Empire* (2019)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The Rastafari movement (originating c. 1930) has millions of adherents worldwide and deeply influenced Caribbean culture, reggae music (Bob Marley), and global counterculture. His role in founding the OAU/AU continues to shape African continental politics. His League of Nations speech remains a touchstone in international law discourse. However, the strict 500-year criterion for Score 3 cannot be met by a 20th-century figure whose long-term durability is still uncertain; his cross-civilizational impact is remarkable but unproven over such timescales."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Chevannes, Barry, *Rastafari: Roots and Ideology* (1994)",
+              "Barrett, Leonard, *The Rastafarians* (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Venerated as the returned Messiah and incarnation of God by the global Rastafari movement—a cross-cultural religious phenomenon spanning Jamaica, the Americas, Europe, and Africa. He embodies the archetype of the ancient African king resisting European colonial aggression. His titles ('Conquering Lion of the Tribe of Judah,' 'Elect of God') resonate across Christian and Judaic mythic traditions. His image is iconic in global pop culture far beyond Ethiopia, recognized in cultures and traditions entirely distinct from his own."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Clapham, Christopher, *Haile Selassie's Government* (1969)",
+              "Bahru Zewde, *A History of Modern Ethiopia* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Founded the Organization of African Unity (1963), which survived as the African Union—enduring well beyond two generations with recognizable continuity. Established Ethiopian Airlines (1945), still one of Africa's largest carriers, and Addis Ababa University (1950). However, many domestic governmental institutions (the imperial bureaucracy, the revised constitution, the Senate) were dismantled after 1974. The mixed durability of domestic vs. international institutions prevents a score of 3."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Marcus, Harold G., *Haile Sellassie I: The Formative Years* (1987)",
+              "Bahru Zewde, *A History of Modern Ethiopia* (2001)",
+              "Getachew, Adom, *Worldmaking After Empire* (2019)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Led Ethiopia through qualitatively different crises and contexts: the pre-war modernization period as regent and young emperor, the Italian invasion and exile (1936–41), the post-war restoration and reconstruction (1941–60s), and the founding of the OAU (1963). He mobilized international opinion at the League of Nations, inspired pan-African independence movements, and directed both small advisory circles and a nation of millions. His influence extended across Africa, the Caribbean (Rastafari), and the global anti-colonial movement."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Kapuściński, Ryszard, *The Emperor* (1978)",
+              "Dimbleby, Jonathan, *The Unknown Famine* (BBC, 1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Known for maintaining near-divine regal distance. Court protocol was extraordinarily formal; courtiers reportedly bowed and backed away. His reported affection for his Chihuahuas and pet lions shows some personal warmth but is idiosyncratic rather than mundane. The Jonathan Dimbleby film and Kapuściński's 'The Emperor' depict a life of extreme formality. No documented evidence of engaging in cooking, manual labor, informal humor, or everyday activities at the height of power."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Clapham, Christopher, *Haile Selassie's Government* (1969)",
+              "Bahru Zewde, *A History of Modern Ethiopia* (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Formally abolished slavery (completed 1942), introduced modern legal codes, and established courts. However, he maintained a feudal land-tenure system that kept the majority of Ethiopians in serfdom-like conditions. He suppressed Eritrean autonomy after annexation (1962), imprisoned political opponents, and crushed the 1960 coup with executions of plotters. No clear documented cases of ruling against personal or group interest in favor of principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Dimbleby, Jonathan, *The Unknown Famine* (BBC, 1973)",
+              "Marcus, Harold G., *Haile Sellassie I: The Formative Years* (1987)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "His 1936 League of Nations speech conveyed genuine anguish for his people's suffering under Italian chemical warfare. He supported establishing hospitals and schools. However, the 1973 Wollo famine—documented in Jonathan Dimbleby's BBC film 'The Unknown Famine'—exposed a devastating contrast between palace luxury and mass starvation, with an estimated 200,000 dead. Without the famine counterexample, a score of 2 would be plausible for institutional compassion; with it given full weight—given the moral stakes of mass death under his direct sovereignty—the score is 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Mockler, Anthony, *Haile Selassie's War* (1984)",
+              "Spencer, John H., *Ethiopia at Bay* (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Faced Italian-paid journalists attempting to disrupt his 1936 League of Nations address, delivering it with composure despite tear gas being used. Endured five years of exile (1936–1941) while his country was occupied and family members killed. Survived the 1960 Imperial Guard coup attempt. His departure from Ethiopia during the Italian invasion was controversial—some called it abandonment—but he consistently re-engaged rather than capitulating. Sustained courage across multiple high-stakes contexts, though not personally leading troops in battle."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Kapuściński, Ryszard, *The Emperor* (1978, fictionalized but informed by interviews)",
+              "Bahru Zewde, *A History of Modern Ethiopia* (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Some evolution is visible: he moved from accepting feudal norms to promoting modernization, and the revised 1955 constitution expanded participation modestly compared to 1931. However, he became increasingly rigid in later decades, refusing meaningful land reform or political liberalization despite growing pressure. His failure to acknowledge or respond to the 1973 famine—reportedly denying its severity—represents a decisive failure of moral growth. The imperial tradition presents him as divinely guided, limiting evidence of acknowledged error."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Marcus, Harold G., *Haile Sellassie I: The Formative Years* (1987)",
+              "Spencer, John H., *Ethiopia at Bay* (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Endured five years of exile in Bath, England (1936–41) while his country was under brutal Italian occupation—a form of political and psychological adversity. He suffered personal bereavement: two sons-in-law were killed by Italians, and his daughter was imprisoned. He faced the 1960 coup attempt and the loss of his wife Empress Menen in 1962. He continued to function effectively through both material-political adversity and personal grief, meeting the two-form requirement."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Clapham, Christopher, *Haile Selassie's Government* (1969)",
+              "Marcus, Harold G., *Haile Sellassie I: The Formative Years* (1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "He inhabited multiple seemingly contradictory roles: ancient Solomonic monarch and 20th-century modernizer; feudal lord and constitutional reformer; Ethiopian nationalist and pan-African internationalist; devout Orthodox Christian and secular state-builder. He was revered as divine by Rastafari while functioning as a pragmatic political leader. However, some of these paradoxes arguably resulted in incoherence rather than integration—his modernization was incomplete precisely because he could not fully reconcile the feudal and modern roles, falling short of three fully integrated contradictions."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Bahru Zewde, *A History of Modern Ethiopia* (2001)",
+              "Henze, Paul B., *Layers of Time: A History of Ethiopia* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Reports from 1974 indicate he faced his overthrow by the Derg with notable composure and dignity, reportedly telling the soldiers who came for him that he had expected them. He was confined and likely murdered in August 1975, apparently aware of the danger. His 1936 League of Nations speech, delivered when Ethiopian sovereignty was effectively dying, showed profound composure. However, detailed accounts of his final days are limited and contested, preventing a score of 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Mockler, Anthony, *Haile Selassie's War* (1984)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "He was physically slight (approximately 5'4\") and not known for physical prowess or athletic feats. He endured the rigors of travel during the 1941 return to Ethiopia through Sudan (the 'Gideon Force' campaign), which involved difficult terrain. He lived to 83, suggesting reasonable physical constitution. However, no documented physical feats or endurance across multiple life-stages warrant a higher score."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Kapuściński, Ryszard, *The Emperor* (1978)",
+              "Marcus, Harold G., *A History of Ethiopia* (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "He was a patron of Ethiopian arts and culture and reportedly enjoyed the company of his small dogs. He supported the establishment of cultural institutions. However, his public persona was overwhelmingly formal and dignified; accounts emphasize his austere, controlled bearing. There is limited evidence of non-instrumental play, spontaneous aesthetic engagement, or humor. Court accounts focus on ceremony and protocol rather than personal enjoyment."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 5.81,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Haile Selassie I",
+      "overall": {
+        "Core_5D_Avg": 5.81,
+        "Overall_Normalized_Equal_Avg": 5.32,
+        "General_Competency_Avg_10scale": 2.89
+      },
+      "summary": "A modernizing absolute monarch who became a global symbol of African sovereignty and anti-colonial resistance. Exceptional in archetype resonance (Rastafari divinity, pan-African icon) and leadership across crisis and stability, with solid cognitive abilities in diplomacy and state-building. Weakened by moral-affective shortcomings—particularly the 1973 famine indifference—and limited relatability due to regal distance. Heinlein competency is narrow: strong in command, composure, and leadership, but negligible in manual, culinary, medical, or craft skills. His legacy is paradoxical: revered as divine abroad while overthrown as a tyrant at home.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.87,
+          "General_Competency_Avg_10scale": 2.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence whatsoever of personal cooking or food preparation. Court records and accounts describe elaborate banquets prepared by palace staff. His entire documented life was one of being served rather than preparing food."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Mockler, Anthony, *Haile Selassie's War* (1984)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "He was present in the field during the Second Italo-Ethiopian War (1935–36) and reportedly observed battles, though he was not a frontline combatant. Ethiopian tradition required emperors to lead armies, and he fulfilled this ceremonially. He personally carried sidearms. However, there is no documentation of personal combat skill or effective defensive fighting; the Ethiopian army was defeated, and he departed for exile."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Marcus, Harold G., *A History of Ethiopia* (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Oversaw the establishment of hospitals, schools, and orphanages as part of Ethiopia's modernization, showing institutional concern for care. His wife Empress Menen led charitable organizations with his support. However, no documented evidence of personal, hands-on caregiving—nursing the sick, tending to children, or comforting individuals in distress."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Spencer, John H., *Ethiopia at Bay* (1984)",
+            "Henze, Paul B., *Layers of Time: A History of Ethiopia* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Displayed remarkable composure during the 1936 League of Nations address, facing hostility from Italian journalists who threw stink bombs. He reportedly faced his 1974 deposition by the Derg with calm dignity. Multiple accounts suggest he told the soldiers who came for him words to the effect that he had been expecting them. He endured captivity until his death in 1975 with reported stoicism, though detailed accounts are limited."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal engagement with manual craft, tool-making, or repair. His aristocratic upbringing and lifelong position of authority make it unlikely he engaged in such activities, and no source documents them."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Mockler, Anthony, *Haile Selassie's War* (1984)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Traveled extensively throughout his life: from Harar to Addis Ababa in youth, across the Red Sea to exile via Djibouti (1936), through England, and back through Sudan in 1941 during the Gideon Force campaign. He traversed difficult terrain on the return march. However, there is no evidence he personally navigated; he relied on guides, aides, and military escorts."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence that Haile Selassie personally butchered, processed, or handled animals for food at any point in his documented life. He kept pet dogs and lions but in a ceremonial/companionship capacity."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Clapham, Christopher, *Haile Selassie's Government* (1969)",
+            "Marcus, Harold G., *Haile Sellassie I: The Formative Years* (1987)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Demonstrated exceptional leadership across multiple domains: as regent under Empress Zewditu (1916–30), as wartime emperor (1935–36), as diplomat-in-exile, and as post-war modernizer. He also showed capacity for followership: serving as regent subordinate to Zewditu, cooperating within the British military framework during the 1941 liberation, and working within League of Nations and UN multilateral structures rather than acting unilaterally."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal involvement in physical construction or fabrication. He commissioned significant building projects (palaces, government buildings, roads, dams) but exclusively as a patron and decision-maker, not as a builder or designer."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Mockler, Anthony, *Haile Selassie's War* (1984)",
+            "Spencer, John H., *Ethiopia at Bay* (1984)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Directed Ethiopia's military response to the 1935 Italian invasion, coordinating multiple provincial armies against a technologically superior foe. Planned his 1941 return from exile in coordination with British forces (Gideon Force under Orde Wingate). Orchestrated the complex diplomacy of founding the OAU in 1963, managing competing interests of newly independent African states. His later failure to manage the Derg threat prevents a score of 3."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Haile Selassie, *My Life and Ethiopia's Progress* (1976 English ed.)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Authored his autobiography, *My Life and Ethiopia's Progress*, and delivered several speeches of notable rhetorical power, especially the 1936 League of Nations address. He patronized Ethiopian artistic traditions and established cultural institutions. However, he was not primarily a creator of art, literature, or music; his contributions were rhetorical and patronage-based rather than artistic in the creative sense."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal medical knowledge or emergency response skills. He supported the establishment of modern medical infrastructure in Ethiopia but exclusively in a policy capacity. His inadequate response to the 1973 Wollo famine further undermines any claim to emergency response competence."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Clapham, Christopher, *Haile Selassie's Government* (1969)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Managed state finances and oversaw national budgets during Ethiopia's modernization. He engaged with economic planning for infrastructure development and currency reform. However, there is no documented evidence of personal mathematical sophistication or analytical reasoning beyond what any competent head of state would demonstrate through advisors."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Bahru Zewde, *A History of Modern Ethiopia* (2001)",
+            "Dimbleby, Jonathan, *The Unknown Famine* (BBC, 1973)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Oversaw Ethiopia's agricultural economy as emperor but maintained the feudal land-tenure system that inhibited agricultural development. His failure to implement meaningful land reform was a persistent critique. The 1973 famine in Wollo province exposed catastrophic failures in resource management under his watch. Some modernization of water and agricultural infrastructure occurred but was insufficient."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Bahru Zewde, *A History of Modern Ethiopia* (2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Introduced modern telecommunications, aviation (Ethiopian Airlines with TWA partnership, 1945), and electrical infrastructure to Ethiopia. He engaged with the cutting-edge technologies of his era as a patron and adopter rather than as a technical practitioner. He understood the strategic importance of technology for Ethiopian sovereignty but relied entirely on foreign technical expertise for implementation."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.81,
+    "general_competency_avg_0_10": 2.89,
+    "overall_normalized_equal_avg_0_10": 5.32,
+    "created_at": "2026-03-22T23:24:36.379Z",
+    "updated_at": "2026-03-22T23:24:36.397Z"
+  }
+}
+]

@@ -1,0 +1,377 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 190,
+  "fields": {
+    "name": "Wolfgang Amadeus Mozart",
+    "slug": "wolfgang-amadeus-mozart",
+    "bio_short": "The supreme exemplar of artistic genius, Mozart's defining traits are creative innovation, cultural impact, and aesthetic joy. His 600+ works across every major genre represent a paradigm shift in Western music, and his archetype as the divinely gifted prodigy resonates globally. He integrated profound contradictions—sacred and profane, playful and profound—with remarkable coherence. His moral-affective and relational dimensions are moderate: genuinely compassionate and courageous but not exceptional in justice orientation or institutional leadership. The Heinlein competency profile is extreme",
+    "bio_long": "Wolfgang Amadeus Mozart was a Classical composer and musician. In his brief life, he completed more than 800 works including outstanding examples of most of the genres of his time: symphonies, concertos, chamber music, opera, and choral music.",
+    "source_notes": "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart",
+    "image": "figures/330px-The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Maynard Solomon, *Mozart: A Life* (1995)",
+              "Robert W. Gutman, *Mozart: A Cultural Biography* (1999)",
+              "Mozart's letters to Michael Puchberg (1788–1791)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Mozart showed some adaptive capacity in his career—navigating the Viennese freelance music scene after his dramatic break with Archbishop Colloredo in 1781, and organizing subscription concert series in 1784–86. However, his chronic financial mismanagement, repeated borrowing from Michael Puchberg, and inability to secure stable patronage indicate limited strategic foresight. Plans succeeded when musical talent carried them, not through strategic adaptation to failure."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Charles Rosen, *The Classical Style* (1971)",
+              "Simon P. Keefe, *Mozart's Piano Concertos* (2001)",
+              "Julian Rushton, *Mozart* (New Grove, 2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mozart effected paradigm shifts in multiple genres: he essentially created the modern piano concerto as a dramatic form (the series from K. 449–K. 595), transformed opera by integrating continuous dramatic action with complex musical ensembles (the Act II and Act IV finales of *Figaro*), and synthesized Italian, German, and French styles into a unified Classical idiom. There is a clear before/after difference in Western music attributable to his innovations, acknowledged by Haydn, Beethoven, and virtually all subsequent composers."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Kierkegaard, *Either/Or* (1843), section on Don Giovanni",
+              "Charles Rosen, *The Classical Style* (1971)",
+              "Nicholas Till, *Mozart and the Enlightenment* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Mozart's mature operas embody profound moral and philosophical themes: *The Marriage of Figaro* (1786) dramatizes class injustice and the radical power of forgiveness; *Don Giovanni* (1787) explores moral accountability and divine judgment; *The Magic Flute* (1791) encodes Enlightenment and Masonic ideals of reason triumphing over superstition. Kierkegaard devoted extended analysis to Don Giovanni in *Either/Or*, and these works have shaped philosophical discourse on morality, gender, and forgiveness for over two centuries. The insight is expressed through dramatic art rather than systematic philosophy, which limits the score."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Maynard Solomon, *Mozart: A Life* (1995)",
+              "Volkmar Braunbehrens, *Mozart in Vienna, 1781–1791* (1986)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Mozart organized subscription concert series in Vienna (1784–86), managed logistics for opera premieres, and briefly served as Imperial Chamber Composer (1787). However, none of these arrangements endured beyond his direct involvement. His subscription concerts declined by 1788, and he built no lasting organizational structures. His financial affairs were chaotic, requiring repeated loans."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Mozart's letters, ed. Anderson (1938/1985)",
+              "Maynard Solomon, *Mozart: A Life* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Mozart documented qualitatively distinct relational behavior across at least five modes: (1) son—complex obedience-rebellion dynamic with Leopold, moving from total dependence to painful autonomy; (2) spouse—playful, affectionate intimacy with Constanze; (3) friend—mutual admiration with Haydn, dedicating six quartets to him (1785) with a famous dedicatory letter; (4) subordinate—serving under Colloredo, then dramatically breaking free; (5) mentor—patient instruction with Attwood. His letters shift tone markedly across these relationships, showing genuine relational adaptability rather than a single mode."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Mozart's letters, ed. Anderson (1938/1985)",
+              "Maynard Solomon, *Mozart: A Life* (1995)",
+              "Robert Spaethling, *Mozart's Letters, Mozart's Life* (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Mozart's letters to Constanze Weber Mozart reveal genuine affection, playful intimacy, and concern during her health treatments at Baden. He wrote tenderly ('my dear little wife') and expressed loneliness during separations. He married her against his father's wishes in 1782, demonstrating commitment. However, he left her in financially precarious situations, and some biographers note possible infidelities (though evidence is inconclusive). The relationship endured through hardship, but mutual support was uneven—Constanze bore the brunt of domestic difficulty."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Thomas Attwood's studies with Mozart, ed. Erich Hertzmann et al. (1965)",
+              "Maynard Solomon, *Mozart: A Life* (1995)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Four of Mozart's six children died in infancy—a tragedy of the era, but one that limits evidence of parenting. His two surviving sons, Karl Thomas and Franz Xaver Wolfgang, were 7 and 4 months old respectively when he died, so Mozart's direct parenting was brief. As a teacher, he instructed Thomas Attwood (whose notebooks survive) and Barbara Ployer, showing pedagogical patience. However, no evidence suggests his mentees developed notably autonomous competence attributable to his guidance; Attwood remained a minor composer."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Charles Rosen, *The Classical Style* (1971)",
+              "Julian Rushton, *Mozart* (New Grove, 2006)",
+              "Maynard Solomon, *Mozart: A Life* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mozart's impact on Western music and global culture is among the most profound of any individual. His works remain the most performed in the classical repertoire worldwide. He directly influenced Beethoven, Schubert, Brahms, Tchaikovsky, and Richard Strauss. His operas remain central to every major opera house across multiple civilizations. The 'Mozart effect' entered popular culture. While only 233 years have elapsed since his death (short of the 500-year benchmark), the cross-civilizational reach—from Japan to Latin America to Africa—and the undiminished trajectory justify the top score."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Peter Shaffer, *Amadeus* (1979)",
+              "Maynard Solomon, *Mozart: A Life* (1995)",
+              "Norbert Elias, *Mozart: Portrait of a Genius* (1993)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mozart is the archetypal child prodigy and divinely gifted artist—recognized as such across cultures well beyond the Western classical tradition. Peter Shaffer's *Amadeus* (play 1979, film 1984) cemented his mythic status as the vessel of inexplicable genius opposing worldly mediocrity. The name 'Mozart' functions as a metonym for genius itself in dozens of languages. He is recognized in cultures from East Asia to the Americas as a symbol of transcendent creative gift."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Volkmar Braunbehrens, *Mozart in Vienna, 1781–1791* (1986)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Mozart built no lasting institutions. His subscription concert series (1784–86) dissolved within a few years. He held the minor court position of Imperial Chamber Composer but did not reshape the institution. He founded no school, academy, publishing house, or performing organization. His legacy is entirely in his compositions, not in institutional structures."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Maynard Solomon, *Mozart: A Life* (1995)",
+              "Robbins Landon, *Haydn: Chronicle and Works* (1976–1980)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Mozart influenced other musicians profoundly—Haydn declared to Leopold Mozart that Wolfgang was 'the greatest composer known to me'—and he led opera productions and concert performances. However, he did not mobilize or direct groups toward shared goals in qualitatively different contexts. His influence was primarily through his art rather than organizational leadership. He never led a musical institution, school, or movement."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Mozart's letters, ed. Anderson (1938/1985)",
+              "Maynard Solomon, *Mozart: A Life* (1995)",
+              "Robert Spaethling, *Mozart's Letters, Mozart's Life* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mozart's letters reveal pervasive engagement with mundane life even at the height of fame: his love of billiards, his scatological humor in the 'Bäsle letters' to his cousin Maria Anna Thekla, his enjoyment of dancing, card games, and pet birds (a starling he memorialized with a mock funeral poem). He joked with his children, complained about landlords, and wrote bawdy canons ('Leck mich im Arsch,' K. 231). This is documented engagement with ordinary life, not curated public image."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Nicholas Till, *Mozart and the Enlightenment* (1992)",
+              "Maynard Solomon, *Mozart: A Life* (1995)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Mozart chose to set Beaumarchais' politically subversive *Marriage of Figaro* as an opera when the play was banned in Vienna, a choice with implicit justice commitments regarding class hierarchy. His Masonic membership (Lodge 'Zur Wohltätigkeit,' 1784) aligned him with Enlightenment ideals of equality and brotherhood. However, no documented cases exist of Mozart ruling against personal interest in favor of abstract principle; his break with Colloredo was primarily about personal dignity rather than justice for others."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Mozart's letters, ed. Anderson (1938/1985)",
+              "Maynard Solomon, *Mozart: A Life* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Mozart's letters reveal genuine concern for family members: he expressed deep grief at his mother's death in Paris (1778), wrote tenderly to Constanze during her illnesses at Baden, and showed warmth toward friends. His operatic characterizations—the Countess's pain in *Figaro*, Pamina's suicidal despair in *The Magic Flute*—display extraordinary empathic imagination. However, documented acts of compassion toward adversaries or outgroup members are limited; his relationship with Colloredo was bitter, and rivalries (Clementi, others) show no notable magnanimity."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Maynard Solomon, *Mozart: A Life* (1995)",
+              "H.C. Robbins Landon, *1791: Mozart's Last Year* (1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Mozart broke with his secure position under Archbishop Colloredo in 1781—an act of genuine professional courage in a patronage-dependent era—and sustained a freelance career despite mounting debts. He continued composing prolifically through the deaths of four of his six children in infancy, severe financial distress (1788–1790), and his own declining health. His final year (1791) saw the composition of *The Magic Flute*, the Clarinet Concerto, and the unfinished Requiem—sustained creative output under mortal adversity."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Mozart's letters, ed. Anderson (1938/1985)",
+              "Maynard Solomon, *Mozart: A Life* (1995)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Mozart's letters occasionally reveal self-awareness about his faults—his spending habits, his strained relationship with his father. His artistic maturation shows extraordinary growth from prodigy to profound dramatic composer. However, specific documented instances of reversing a moral position or accepting correction with visible behavioral change are scarce. His financial recklessness persisted throughout his life without correction, and his relationship with Leopold deteriorated without clear reconciliation before Leopold's death in 1787."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "H.C. Robbins Landon, *1791: Mozart's Last Year* (1988)",
+              "Maynard Solomon, *Mozart: A Life* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Mozart faced multiple qualitatively different forms of adversity while maintaining extraordinary productivity: financial distress (chronic debt from 1788, begging letters to Puchberg), bereavement (four of six children died in infancy; his father died in 1787), professional setbacks (declining concert attendance, loss of students), and physical illness. Through all of this, his final three years produced *Così fan tutte*, *The Magic Flute*, the Clarinet Concerto, and the Requiem—among his greatest works."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Norbert Elias, *Mozart: Portrait of a Genius* (1993)",
+              "Maynard Solomon, *Mozart: A Life* (1995)",
+              "Charles Rosen, *The Classical Style* (1971)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mozart inhabited at least four seemingly contradictory roles with coherent integrity: (1) sacred composer of sublime devotional music (Mass in C minor, Ave Verum Corpus) and scatological humorist (Bäsle letters, K. 231); (2) court servant who obeyed protocol and independent rebel who literally received a kick from Colloredo's steward upon dismissal; (3) child prodigy performing for royalty and mature artist of unmatched depth; (4) creator of lighthearted comedies (*Così fan tutte*) and devastating tragedies (the Commendatore scene in *Don Giovanni*). These contradictions coexist without fragmentation."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "H.C. Robbins Landon, *1791: Mozart's Last Year* (1988)",
+              "Maynard Solomon, *Mozart: A Life* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Mozart composed the Requiem in D minor (K. 626) during his final illness, reportedly rehearsing portions from his deathbed with visitors on December 4, 1791, the day before he died. This suggests remarkable composure in the face of death. However, some accounts (partly from Constanze's later reminiscences, which are hagiographic) suggest he also expressed fear about being poisoned and anxiety about dying. The evidence is mixed: clear composure in continuing creative work, but not the serene acceptance that would merit a 3. Without the counterevidence of anxiety, this might score 3; with it, 2 is appropriate."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Maynard Solomon, *Mozart: A Life* (1995)",
+              "Volkmar Braunbehrens, *Mozart in Vienna* (1986)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "As a child, Mozart endured grueling European tours (1762–1773): carriage travel across the Alps, through Germany, France, England, and Italy, often performing nightly. These tours lasted months and involved genuine physical hardship for a child. However, as an adult, Mozart was frequently ill—suffering from rheumatic fever, kidney disease, and various ailments—and died at 35. His physical endurance was notable in childhood but clearly declined, and no physical feats beyond travel endurance are documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Mozart's letters, ed. Anderson (1938/1985)",
+              "Robert Spaethling, *Mozart's Letters, Mozart's Life* (2000)",
+              "Maynard Solomon, *Mozart: A Life* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mozart's engagement with play and beauty was non-instrumental and pervasive: he loved billiards, dancing at Carnival balls, keeping pet birds, and composing bawdy canons for friends' amusement. The 'Bäsle letters' (1777–78) to his cousin are explosions of scatological wordplay, clearly for sheer pleasure. He held a mock funeral for his pet starling. His aesthetic appreciation is self-evident in his music but also extended to his documented love of Italian opera, theater, and visual art."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.08,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Wolfgang Amadeus Mozart",
+      "overall": {
+        "Core_5D_Avg": 6.08,
+        "Overall_Normalized_Equal_Avg": 5.58,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "The supreme exemplar of artistic genius, Mozart's defining traits are creative innovation, cultural impact, and aesthetic joy. His 600+ works across every major genre represent a paradigm shift in Western music, and his archetype as the divinely gifted prodigy resonates globally. He integrated profound contradictions—sacred and profane, playful and profound—with remarkable coherence. His moral-affective and relational dimensions are moderate: genuinely compassionate and courageous but not exceptional in justice orientation or institutional leadership. The Heinlein competency profile is extremely narrow—near-zero in practical domains (construction, agriculture, combat, medicine) but transcendent in artistic expression. His early death at 35 limits assessment of several traits, but what evidence exists reveals an intensely alive, relatable human being.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Mozart's letters, ed. Anderson (1938/1985)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Mozart's letters mention enjoying food (he was fond of liver dumplings and pork cutlets), but there is no evidence he cooked. In 18th-century Vienna, a man of his class would have relied on servants or eating houses. No documented culinary skill exists."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of military service, combat training, or physical defense skills. Mozart lived entirely as a civilian musician and never faced documented physical conflict requiring combat ability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Mozart's letters, ed. Anderson (1938/1985)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Mozart expressed concern for Constanze during her illnesses, arranging her health trips to Baden and writing anxious letters. He showed affection toward his surviving children in letters. However, no evidence of sustained or skilled caregiving beyond normal spousal/parental concern exists; Constanze managed most domestic caregiving."
+        },
+        "Existential Composure": {
+          "citations": [
+            "H.C. Robbins Landon, *1791: Mozart's Last Year* (1988)",
+            "Maynard Solomon, *Mozart: A Life* (1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Mozart continued composing his Requiem while terminally ill, reportedly rehearsing portions from his deathbed on December 4, 1791. He maintained creative focus through financial desperation and declining health throughout his final years. Some accounts suggest anxiety about death, but the predominant evidence shows a man working until the very end with dignity and purpose."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of Mozart making, fixing, or adapting tools, machines, or physical systems. His manual dexterity was channeled entirely into musical performance (keyboard and violin), which is scored under Artistic Expression."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Maynard Solomon, *Mozart: A Life* (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Mozart traveled extensively across Europe from childhood—through the Alps, Italy, France, England, and Germany—accumulating significant travel experience. However, his father Leopold managed most logistics during the grand tours, and as an adult his travel was primarily along established routes between Vienna, Prague, and other major cities. He was an experienced traveler but not a navigator in any specialized sense."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Maynard Solomon, *Mozart: A Life* (1995)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence exists of Mozart butchering, processing, or handling animals or raw food resources. He was an urban musician from a professional family; such skills were outside his documented experience."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Maynard Solomon, *Mozart: A Life* (1995)",
+            "Andrew Steptoe, *The Mozart–Da Ponte Operas* (1988)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Mozart demonstrated both giving and taking direction: he served obediently under Archbishop Colloredo as court musician (1773–1781), then led opera productions in Vienna and Prague as composer-director. He collaborated effectively with librettist Lorenzo Da Ponte across three operas, showing the ability to integrate another's vision. He deferred to Haydn as an elder peer while simultaneously leading younger musicians. This dual capacity is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of Mozart designing or building physical structures. He lived in rented apartments in Vienna and showed no documented interest or skill in construction or fabrication."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Volkmar Braunbehrens, *Mozart in Vienna, 1781–1791* (1986)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Mozart organized subscription concert series in Vienna (1784–86) and coordinated opera premieres involving singers, orchestra, and staging. However, these efforts were short-lived, and his overall career and financial planning were poor. He did not command complex operations beyond musical productions."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Charles Rosen, *The Classical Style* (1971)",
+            "Julian Rushton, *Mozart* (New Grove, 2006)",
+            "Köchel, *Chronologisch-thematisches Verzeichnis* (6th ed., 1964)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Mozart is among the greatest artistic creators in recorded history. He composed over 600 catalogued works (Köchel catalogue) spanning symphonies (No. 41 'Jupiter'), piano concertos (27 total), operas (*The Marriage of Figaro*, *Don Giovanni*, *The Magic Flute*), chamber music (the 'Haydn' quartets), sacred music (Requiem, Mass in C minor), and serenades (*Eine kleine Nachtmusik*). He mastered every genre of his era and transformed several of them. This represents the highest level of artistic and cultural expression documented in any individual."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of Mozart providing medical aid or emergency response. He was himself frequently a patient, and his letters show no knowledge of or engagement with medical practice."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Charles Rosen, *The Classical Style* (1971)",
+            "Maynard Solomon, *Mozart: A Life* (1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Mozart's compositions demonstrate extraordinary analytical reasoning: complex counterpoint (the finale of the 'Jupiter' Symphony combines five independent themes simultaneously), structural innovation in sonata form, and the ability to hold vast musical architectures in memory—reportedly composing the overture to *Don Giovanni* in a single night from a mental draft. However, his inability to manage personal finances and no evidence of mathematical or scientific work beyond music limit the score."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of agricultural knowledge or resource management. Mozart was an entirely urban figure whose family background was in court music, not farming or land management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Simon P. Keefe, *Mozart's Piano Concertos* (2001)",
+            "Cliff Eisen & Simon P. Keefe, eds., *The Cambridge Mozart Encyclopedia* (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Mozart exploited the cutting-edge musical technology of his era: he composed for the newly developed fortepiano, pushing its capabilities in his concertos; he understood acoustics and vocal production intimately, writing for specific singers' strengths (e.g., tailoring arias for soprano Aloysia Weber and bass Ludwig Fischer). His orchestration pushed the technical limits of contemporary instruments. He engaged with the mechanical organ (K. 594, K. 608) and the glass harmonica (K. 617), demonstrating adaptability to novel instruments."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.08,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 5.58,
+    "created_at": "2026-03-22T21:59:10.927Z",
+    "updated_at": "2026-03-22T21:59:10.944Z"
+  }
+}
+]

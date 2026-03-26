@@ -1,0 +1,369 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 197,
+  "fields": {
+    "name": "Shaka",
+    "slug": "shaka",
+    "bio_short": "A transformative military innovator and state-builder who consolidated the Zulu Kingdom from a minor chiefdom into a major southern African power (c.1816–1828). Exceptional in strategic intelligence, combat, and leadership, but severely limited in relational depth (no spouse, few documented mentoring relationships). Source-critical caution is essential: most evidence derives from problematic European accounts (Fynn, Isaacs) and later oral traditions, now substantially revised by scholars like Wylie and Hamilton. Strongest in cognitive-military and embodied-existential domains; weakest in moral",
+    "bio_long": "Shaka kaSenzangakhona, also known as Shaka (the) Zulu and Sigidi kaSenzangakhona, was the king of the Zulu Kingdom from 1816 to 1828. One of the most influential monarchs of the Zulu, he ordered wide-reaching reforms that reorganized the military into a formidable force.",
+    "source_notes": "https://en.wikipedia.org/wiki/Shaka",
+    "image": "figures/330px-KingShaka.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Wylie, Dan. *Myth of Iron: Shaka in History* (2006)",
+              "Hamilton, Carolyn. *Terrific Majesty: The Powers of Shaka Zulu and the Limits of Historical Invention* (1998)",
+              "Knight, Ian. *The Anatomy of the Zulu Army* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Shaka revolutionized southern African warfare with the 'bull horn' (impondo zenkomo) formation, replaced throwing assegais with the short iklwa stabbing spear for close combat, and successfully adapted strategy across campaigns against qualitatively different opponents including the Ndwandwe under Zwide (Battle of Gqokli Hill c.1818, where he used defensive terrain after being initially outnumbered, then pursued a counter-offensive). He also adapted politically, integrating conquered groups rather than merely destroying them—a strategic flexibility that built the Zulu state."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Wylie, Dan. *Myth of Iron: Shaka in History* (2006)",
+              "Knight, Ian. *The Anatomy of the Zulu Army* (1995)",
+              "Bryant, A.T. *Olden Times in Zululand and Natal* (1929)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The military reforms attributed to Shaka constitute a genuine paradigm shift: the iklwa replaced the throwing spear, the large cowhide shield was used offensively to hook an opponent's shield aside, barefoot training replaced sandals for speed, and the amabutho age-regiment system reorganized society around permanent military units rather than ad hoc levies. Warfare in southeastern Africa was fundamentally different after Shaka's innovations. While some scholars (Wylie, Hamilton) note these may have developed more collectively or been attributed retroactively, the weight of evidence supports Shaka as the primary catalyst."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Shaka is not remembered for articulating ethical or philosophical principles that influenced thinkers beyond his own polity. His governance was pragmatic and power-centered rather than philosophically systematic. Some oral traditions attribute wisdom-sayings to him, but these do not constitute a developed ethical framework and are of uncertain provenance."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)",
+              "Guy, Jeff. *The Destruction of the Zulu Kingdom* (1979)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shaka reorganized Zulu society around the amabutho age-regiment system, which served both military and administrative functions, with royal amakhanda (military kraals) distributed across the kingdom as centers of control. He integrated conquered chiefdoms into the Zulu state rather than merely subjugating them, creating a system that outlasted him through Dingane, Mpande, and Cetshwayo. However, the system was heavily dependent on military mobilization and centralized royal authority, limiting its administrative sophistication compared to bureaucratic state-builders."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)",
+              "Fynn, Henry Francis. *Diary* (ed. Stuart & Malcolm, 1950)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shaka operated across several relational modes: as a devoted son to Nandi, as a subordinate warrior under Dingiswayo, as supreme military commander over his regiments, as king over a diverse polity, and as a diplomatic interlocutor with European traders (Fynn, Farewell, Isaacs). This covers child, subordinate, superior, and stranger/foreigner modes—at least four distinct roles. However, evidence of the qualitative distinctiveness of his behavior across these modes is limited by source quality, falling short of the five modes required for a 3."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)",
+              "Wylie, Dan. *Myth of Iron* (2006)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "Shaka reportedly did not marry and acknowledged no children. Some traditions suggest he deliberately avoided marriage to prevent succession disputes; others suggest he feared heirs as potential rivals. There is no documented spousal or intimate partnership to evaluate. The absence of a spousal relationship is itself a notable biographical feature."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Shaka had no acknowledged children. He was himself mentored by Dingiswayo of the Mthethwa, suggesting he understood the mentoring relationship. He elevated commanders and incorporated young men into the amabutho system, but this was a system of obedience and replication rather than one designed to develop autonomy and independent competence. No specific mentee is documented as having developed genuine autonomy under his guidance."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Cobbing, Julian. 'The Mfecane as Alibi' (1988)",
+              "Hamilton, Carolyn (ed.). *The Mfecane Aftermath* (1995)",
+              "Wylie, Dan. *Myth of Iron* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shaka's state-building reshaped the political map of southern Africa, contributing to population movements and state formation across the subcontinent (the mfecane/difaqane, though Cobbing and others dispute its scope and causation). The Zulu became a potent symbol of African military resistance to colonialism, influencing pan-African consciousness. However, the impact is primarily regional rather than cross-civilizational, and at roughly 200 years does not meet the 500-year, multi-civilization threshold for a score of 3."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Wylie, Dan. *Savage Delight: White Myths of Shaka* (2000)",
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shaka has become an archetype of the warrior-king and African state-builder, recognized well beyond the Zulu community—in pan-African discourse, in global popular culture (the 1986 TV miniseries *Shaka Zulu*, numerous novels), and as a symbol variously invoked by both African nationalists and apartheid-era propagandists. He is recognized cross-culturally but primarily within the African and colonial/post-colonial discourse rather than attaining the universal archetypal status of figures like Alexander or Genghis Khan."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Guy, Jeff. *The Destruction of the Zulu Kingdom* (1979)",
+              "Laband, John. *The Rise and Fall of the Zulu Nation* (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Zulu Kingdom Shaka established survived his assassination in 1828 and endured through his successors Dingane (1828–1840), Mpande (1840–1872), and Cetshwayo (1872–1879)—well over two generations with recognizable continuity in the amabutho system, centralized monarchy, and military culture. The kingdom was only destroyed by British imperial intervention in 1879, not by internal institutional failure."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)",
+              "Laband, John. *The Rise and Fall of the Zulu Nation* (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Shaka transformed a small chiefdom of perhaps 1,500 people into a kingdom of an estimated 250,000, mobilizing diverse groups through military incorporation and political consolidation. He led effectively in both military crisis (campaigns against the Ndwandwe, Thembu, and others) and in peacetime state-building (establishing amakhanda, managing tribute networks, diplomatic engagement with European traders like Fynn and Farewell). His leadership spanned qualitatively different contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Most accounts emphasize Shaka's extraordinary, almost superhuman qualities. His early life as an outcast provides some humanizing detail, and the relationship with his mother Nandi shows emotional vulnerability. However, at the height of his power, he is portrayed as increasingly isolated and autocratic. There is minimal documented evidence of engagement with mundane everyday activities (cooking, humor with children, manual labor) during his reign."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Wylie, Dan. *Myth of Iron* (2006)",
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Shaka's rule was autocratic, with justice administered personally and often harshly. There is no documented tradition of him ruling against his own interest in favor of abstract principle. While oral traditions record some instances of fair judgment, the overall pattern is one of personal authority rather than impartial justice. European accounts describe arbitrary executions, and even with scholarly discounting of their exaggerations, the system was not one oriented toward procedural fairness."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Wylie, Dan. *Myth of Iron: Shaka in History* (2006)",
+              "Isaacs, Nathaniel. *Travels and Adventures in Eastern Africa* (1836, problematic source)",
+              "Fynn, Henry Francis. *Diary* (ed. Stuart & Malcolm, 1950, problematic source)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Shaka's devotion to his mother Nandi is widely attested in oral tradition and European accounts, suggesting genuine emotional attachment. However, the tradition also records mass killings and brutal punishments—though scholars like Wylie argue European sources (Isaacs, Fynn) grossly exaggerated Zulu violence to justify colonial intervention. Without the counterexample of reported mass violence, the score might be 2 based on the Nandi relationship; with it given weight (even discounted for source bias), 1 is appropriate since compassion toward adversaries or outgroup members is not documented."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)",
+              "Bryant, A.T. *Olden Times in Zululand and Natal* (1929)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Shaka rose from social exile as an illegitimate outcast—his mother Nandi was driven from the Zulu court, and they lived among the eLangeni and then the Mthethwa—to become the paramount ruler of a major kingdom. He reportedly distinguished himself as a warrior under Dingiswayo's Mthethwa confederation before seizing the Zulu chieftainship. He personally participated in multiple military campaigns over roughly a decade of rule, demonstrating sustained courage across high-stakes situations rather than a single moment."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)",
+              "Wylie, Dan. *Myth of Iron* (2006)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "There is no documented instance of Shaka reversing a prior position, accepting correction, or acknowledging a mistake with visible behavioral change afterward. The oral and written traditions portray him as increasingly authoritarian, especially after Nandi's death (c.1827), when he reportedly imposed extreme mourning practices. The hagiographic and hostile source traditions both present him as unyielding; neither preserves evidence of moral self-correction."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)",
+              "Wylie, Dan. *Myth of Iron* (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Shaka endured qualitatively different forms of adversity: (1) social exile and material deprivation in youth, when he and his mother Nandi were outcasts living among the eLangeni (who reportedly mistreated them) and then the Mthethwa; (2) the rigors of sustained military campaigning as a warrior and then king; and (3) personal bereavement at Nandi's death (c.1827). He functioned effectively through the first two categories, though his functioning after the third is disputed."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)",
+              "Wylie, Dan. *Myth of Iron* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Shaka inhabited seemingly contradictory roles: outcast and king, destroyer and state-builder, warrior and political administrator, subordinate (under Dingiswayo) and supreme commander. He integrated conquered enemies into his state while being feared as a conqueror. However, evidence of self-conscious reconciliation of these tensions is lacking—the sources show him exercising different roles at different times rather than articulating an integrated identity. Two clearly documented paradoxical roles (destroyer/builder, outcast/king) merit a 2 but not the three required for a 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Wylie, Dan. *Myth of Iron* (2006)",
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Shaka was assassinated by his half-brothers Dingane and Mhlangana in September 1828. The famous tradition that he uttered prophetic dying words about white colonizers is almost certainly apocryphal (Wylie). The assassination appears to have been a surprise attack, not a situation where Shaka faced death with composure. His reported erratic behavior after Nandi's death (imposing extreme mourning, executing those who did not grieve sufficiently) suggests difficulty facing mortality rather than acceptance of it."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Knight, Ian. *The Anatomy of the Zulu Army* (1995)",
+              "Bryant, A.T. *Olden Times in Zululand and Natal* (1929)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Shaka was reportedly an exceptional individual warrior from youth, distinguishing himself in the Mthethwa iziCwe regiment under Dingiswayo. He is credited with developing the close-combat iklwa technique personally and training alongside his warriors, including the famous barefoot endurance marches. He participated in military campaigns throughout his reign, demonstrating physical prowess across multiple life stages (youth as a warrior, adulthood as a campaigning king)."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Zulu culture under Shaka featured elaborate military ceremonies, praise-singing (izibongo), and dance. Shaka reportedly enjoyed military displays and ceremonies. However, evidence of non-instrumental joy or aesthetic appreciation—engagement with beauty or play for its own sake rather than for military or political purposes—is thin in the surviving sources."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 3.33,
+          "Core_5D_Avg": 5.8,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Shaka kaSenzangakhona (Shaka Zulu)",
+      "overall": {
+        "Core_5D_Avg": 5.8,
+        "Overall_Normalized_Equal_Avg": 5.61,
+        "General_Competency_Avg_10scale": 4.67
+      },
+      "summary": "A transformative military innovator and state-builder who consolidated the Zulu Kingdom from a minor chiefdom into a major southern African power (c.1816–1828). Exceptional in strategic intelligence, combat, and leadership, but severely limited in relational depth (no spouse, few documented mentoring relationships). Source-critical caution is essential: most evidence derives from problematic European accounts (Fynn, Isaacs) and later oral traditions, now substantially revised by scholars like Wylie and Hamilton. Strongest in cognitive-military and embodied-existential domains; weakest in moral-affective reflection and relational breadth.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.4,
+          "General_Competency_Avg_10scale": 4.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of personal culinary skill. As king, Shaka would have had food prepared for him. No traditions record him cooking or preparing meals."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Knight, Ian. *The Anatomy of the Zulu Army* (1995)",
+            "Wylie, Dan. *Myth of Iron* (2006)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Shaka is remembered as one of the most formidable individual warriors in southern African history, reportedly distinguishing himself in the Mthethwa regiment before becoming king. He developed the close-combat technique with the iklwa and large shield that became standard Zulu practice. He personally participated in battles throughout his reign, and his combat innovations were adopted across the region."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Shaka's devotion to his mother Nandi is widely attested, suggesting some capacity for emotional caregiving. However, this is limited to one relationship, and the broader record does not document caregiving across the lifespan or toward non-family members in a nurturing capacity."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Wylie, Dan. *Myth of Iron* (2006)",
+            "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Shaka's reported behavior after his mother Nandi's death—imposing extreme mourning, reportedly ordering executions of those who did not grieve sufficiently—suggests significant difficulty managing existential crisis. His assassination in 1828 was apparently a surprise, providing no opportunity to demonstrate composure in the face of death. The apocryphal dying prophecy about white colonizers, even if credited, would be a single moment rather than sustained composure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Knight, Ian. *The Anatomy of the Zulu Army* (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The innovation of the iklwa short stabbing spear is sometimes attributed to Shaka's personal design or specification, suggesting familiarity with weapons craft. As a young warrior he would have maintained his own equipment. However, specific manual craft skills beyond basic weapon maintenance are not documented."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Knight, Ian. *The Anatomy of the Zulu Army* (1995)",
+            "Laband, John. *The Rise and Fall of the Zulu Nation* (1997)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Shaka conducted military campaigns across a wide area of present-day KwaZulu-Natal and beyond, selecting terrain for military advantage (e.g., the defensive position at Gqokli Hill). He relocated his capital (kwaBulawayo) strategically. His military operations required sophisticated knowledge of terrain, water sources, and movement corridors across southeastern Africa."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Bryant, A.T. *Olden Times in Zululand and Natal* (1929)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a young man in rural Zululand, Shaka would have been familiar with cattle herding and basic animal husbandry—cattle being central to Zulu society and economy. Era normalization supports at least basic competence. However, no specific documented expertise in butchering, hide processing, or food preservation is recorded."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Hamilton, Carolyn. *Terrific Majesty* (1998)",
+            "Bryant, A.T. *Olden Times in Zululand and Natal* (1929)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Shaka demonstrated both exceptional leadership (building the Zulu Kingdom, commanding armies, managing a complex polity) and effective followership (serving loyally and with distinction under Dingiswayo in the Mthethwa iziCwe regiment before ascending to the Zulu chieftainship). This dual capacity—giving and taking orders effectively—is well documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Shaka established multiple amakhanda (royal military kraals) across the kingdom, which required organizational oversight of construction. However, there is no evidence he personally designed or built structures. Era-normalized for a Zulu king, construction oversight was part of the role but not a personal craft skill."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Knight, Ian. *The Anatomy of the Zulu Army* (1995)",
+            "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Shaka's defining competency. He planned and executed multi-campaign conquests, adapted strategy at the Battle of Gqokli Hill when outnumbered by the Ndwandwe, organized the amabutho system as a permanent military force, and coordinated supply and logistics for large-scale military operations across southeastern Africa."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Cope, Trevor. *Izibongo: Zulu Praise-Poems* (1968)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Zulu culture under Shaka featured elaborate praise poetry (izibongo), military dance, and ceremonial display. Shaka is credited with fostering these cultural forms, and some praise poems about him survive. However, there is no evidence of personal artistic creation—he was a patron and subject of art rather than a creator."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence documents Shaka providing medical aid or treating injuries. Zulu society had specialized healers (izinyanga, izangoma), and there is no tradition of Shaka personally performing medical functions."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Managing a growing kingdom and army required logistical calculation—troop numbers, cattle tribute, supply requirements. Shaka demonstrated practical analytical capacity in military planning. However, no specific evidence of mathematical or formal analytical skill is documented, and the era did not feature written numerical systems in Zulu society."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Guy, Jeff. *The Destruction of the Zulu Kingdom* (1979)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As king, Shaka managed the Zulu cattle economy and tribute system, and cattle were central to his political power. However, specific evidence of personal agricultural knowledge or sustainable resource management practices is absent. The kingdom's resource management was collective rather than reflecting individual expertise."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Knight, Ian. *The Anatomy of the Zulu Army* (1995)",
+            "Hamilton, Carolyn. *Terrific Majesty* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Shaka's military innovations—the iklwa, the offensive shield technique, the amabutho regimental system, barefoot training, the bull horn formation—represent significant systemic problem-solving using the cutting-edge 'technologies' of his era and context. His integration of conquered peoples into the Zulu state was also a systemic solution to a political problem."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.8,
+    "general_competency_avg_0_10": 4.67,
+    "overall_normalized_equal_avg_0_10": 5.61,
+    "created_at": "2026-03-22T22:09:09.673Z",
+    "updated_at": "2026-03-22T22:09:09.688Z"
+  }
+}
+]

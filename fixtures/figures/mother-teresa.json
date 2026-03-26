@@ -1,0 +1,366 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 140,
+  "fields": {
+    "name": "Mother Teresa",
+    "slug": "mother-teresa",
+    "bio_short": "A figure of extraordinary cultural-social impact — the modern archetype of selfless service — who built a durable global institution and displayed exceptional courage through decades of work amid squalor and inner spiritual darkness. Her moral profile is complex: genuine compassion tempered by a theology of suffering that critics argue compromised care quality, and a justice orientation weakened by acceptance of dictators' patronage and refusal to advocate structural change. Cognitive contributions were organizational rather than intellectual. Heinlein-style competency breadth is narrow, conce",
+    "bio_long": "Mary Teresa Bojaxhiu, better known as Mother Teresa or Saint Mother Teresa, was an Albanian-Indian Catholic nun, founder of the Missionaries of Charity and a Catholic saint. Born in Skopje, then part of the Ottoman Empire, she was raised in a devoutly Catholic family. At the age of 18, she moved to Ireland to join the Sisters of Loreto and later to India, where she lived most of her life and carried out her missionary work. On 4 September 2016, she was canonised by the Catholic Church as Saint Teresa of Calcutta. The anniversary of her death, 5 September, is now observed as her feast day.",
+    "source_notes": "https://en.wikipedia.org/wiki/Mother_Teresa",
+    "image": "figures/330px-Mother_Teresa_1.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)",
+              "Alpion, *Mother Teresa: Saint or Celebrity?* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Expanded the Missionaries of Charity from a single house in Calcutta (1950) to over 600 missions in 130+ countries by 1997, navigating diverse political regimes from Cold War India to Communist Eastern Europe. She adapted her approach to gain Vatican recognition (1950), then Pontifical status (1965), strategically leveraging media relationships — especially her partnership with Malcolm Muggeridge whose 1969 BBC documentary 'Something Beautiful for God' transformed her profile. However, there is limited evidence of adaptive replanning when strategies failed; her model was largely consistent expansion of a proven template."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)",
+              "Scott, *A Revolution of Love: The Meaning of Mother Teresa* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Founded a novel religious order with the distinctive fourth vow of 'wholehearted free service to the poorest of the poor,' and created the Nirmal Hriday ('Pure Heart') home for the dying in 1952 Calcutta — a genuinely innovative institutional form for its context. She also pioneered the religious order's combination of contemplative life with active street-level service to the destitute. However, this built on existing models (Vincentian charities, mendicant orders) and did not constitute a full paradigm shift in charitable practice or theology."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Hitchens, *The Missionary Position* (1995)",
+              "Kolodiejchuk (ed.), *Mother Teresa: Come Be My Light* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Her central ethical idea — seeing 'Christ in the distressing disguise of the poor' — was a powerful pastoral reframing but drew directly from Matthew 25 and existing Catholic social teaching rather than constituting original philosophical contribution. Her Nobel Prize lecture (1979) was memorable but theologically conventional. Her views on suffering ('There is something beautiful in seeing the poor accept their lot, to suffer it like Christ's Passion') were critiqued by Hitchens and others as ethically problematic. Her influence was through example rather than articulated principles that shaped thinkers beyond her community."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Chatterjee, *Mother Teresa: The Untold Story* (2003)",
+              "Alpion, *Mother Teresa: Saint or Celebrity?* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Designed the Missionaries of Charity constitution, managed its expansion to thousands of members across 130+ countries, and established multiple branches (active sisters, contemplative sisters, brothers, fathers, lay co-workers). The organization survived her death in 1997 and continues to operate globally with recognizable continuity. However, critics noted opaque financial management — the order reportedly held large sums in bank accounts rather than deploying them for care — and former members described excessively rigid internal governance."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)",
+              "Alpion, *Mother Teresa: Saint or Celebrity?* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She operated as: superior (leading the order), subordinate (obedient to Vatican hierarchy and spiritual directors like Fr. Van Exem and Archbishop Périer), caregiver (to the poor and dying), public figure/friend (to world leaders, media figures, supporters), and child (she maintained connection to her Albanian family early on, though she never returned to Skopje). She did not inhabit spouse or biological parent roles. Her relational style was relatively consistent across contexts — warm but firm, pious, and mission-focused — rather than demonstrating dramatically different modes. Five relational modes are documented but without the qualitative distinctiveness required for a 3."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "As a celibate Catholic nun from age 18 until her death at 87, Mother Teresa had no spousal or intimate partner relationships. This is a vocational choice, not a personal deficiency, but the trait is absent from the historical record. Her spiritual relationship with Christ, while central to her identity, does not meet the rubric's requirement for mutual human partnership with documented evidence of reciprocal support."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Chatterjee, *Mother Teresa: The Untold Story* (2003)",
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She mentored thousands of sisters in the Missionaries of Charity and was universally called 'Mother.' She corresponded extensively with individual sisters, providing spiritual direction. She mentored key successors like Sister Nirmala Joshi, who led the order after her death. However, accounts from former members (e.g., in Chatterjee's work) describe an extremely controlling environment with rigid rules that may have limited genuine autonomy. The order's continued functioning under new leadership suggests some effective mentoring, but the heavily centralized governance model raises questions about whether successors developed genuine independent competence or primarily replicated her model."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Alpion, *Mother Teresa: Saint or Celebrity?* (2007)",
+              "Chawla, *Mother Teresa: The Authorized Biography* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She became one of the most recognized people of the 20th century, won the Nobel Peace Prize (1979), and was canonized (2016). Her name became a global shorthand for charitable work. However, the 500-year criterion for score 3 cannot yet be assessed for a figure who died in 1997. Her impact is primarily within the Catholic charitable tradition and the broader humanitarian sector; it is genuinely cross-civilizational but its longevity remains to be determined. Her institutional and symbolic legacy is strong but not yet of the duration required for the highest score."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Alpion, *Mother Teresa: Saint or Celebrity?* (2007)",
+              "Gallup polling data, 1980s-1990s"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mother Teresa is the defining modern archetype of selfless charitable service. 'She's no Mother Teresa' is an expression used across cultures, languages, and religions worldwide. She is recognized as a symbol of compassion by Hindus, Muslims, secularists, and Christians alike — far beyond her own Catholic tradition. Gallup polls consistently ranked her as the most admired woman in the world during the 1980s-90s. Her symbolic resonance transcends her specific religious community and national identity."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)",
+              "Scott, *A Revolution of Love* (2005)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Founded the Missionaries of Charity in 1950; it now has over 5,000 members operating in 139 countries. She also established the Missionaries of Charity Brothers (1963), Contemplative Sisters (1976), Contemplative Brothers (1979), and the lay Co-Workers of Mother Teresa. All branches have survived well beyond two generations with recognizable continuity to the founder's vision. The order continues to operate homes for the dying, orphanages, and care centers worldwide after her 1997 death."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)",
+              "Chawla, *Mother Teresa: The Authorized Biography* (1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "She led the Missionaries of Charity from a single nun with no resources (1948) to a global organization of thousands. She mobilized massive charitable donations worldwide and was received by heads of state across the political spectrum (Reagan, Castro, Princess Diana, Fidel Castro). She inspired millions to charitable action. She led effectively in crisis contexts (Bhopal disaster response 1984, Beirut ceasefire 1982) and in sustained institutional stability (daily governance of hundreds of houses for decades). This meets the criterion of leadership across qualitatively different contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)",
+              "Chawla, *Mother Teresa: The Authorized Biography* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She wore the same simple white-and-blue sari throughout her public life, ate the same simple food as her sisters, slept on a thin mattress, and personally performed manual labor — washing patients, scrubbing floors, sorting donations — even as a global celebrity. Co-workers described her engaging in mundane domestic tasks and having a warm personal manner. However, from the 1970s onward she was increasingly in the world of international celebrity, private jets, and meetings with heads of state, which created distance from ordinary life. Her mundane activities were part of her institutional role rather than fully domestic in the 'cooking, humor with children' sense."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Hitchens, *The Missionary Position* (1995)",
+              "Chatterjee, *Mother Teresa: The Untold Story* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "While she served the poor, she explicitly disavowed systemic justice work: 'I am not a social worker. I don't do it for this reason. I do it for Christ.' She accepted donations from and praised Jean-Claude Duvalier of Haiti and Charles Keating (convicted of fraud), testified on Keating's behalf, and did not return the misappropriated funds when asked by prosecutors. She opposed divorce, contraception, and abortion without exception, including in cases of rape, at the 1994 National Prayer Breakfast. No documented cases of ruling against personal or group interest in favor of impartial principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Fox, 'Calcutta Perspective,' *The Lancet* 344 (1994)",
+              "Hitchens, *The Missionary Position* (1995)",
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "She personally bathed, fed, and held dying people of all faiths for decades in Calcutta's slums, touching lepers and AIDS patients when others would not — clear compassion toward outgroup members (Hindus, Muslims, untouchables). However, serious counterexamples exist: Robin Fox's 1994 Lancet report documented poor medical standards in her homes despite substantial donations; needles were reused, pain management was inadequate, and diagnoses were not systematically made. Without counterexamples the score would be 3; with them weighted proportionally to their moral stakes (vulnerable dying people receiving substandard care when resources existed), the score is 2. Her theology of suffering — valorizing pain as sharing in Christ's Passion — raises questions about whether empathy fully translated into relief of suffering."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Kolodiejchuk (ed.), *Mother Teresa: Come Be My Light* (2007)",
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Left the security of the Loreto convent in 1948 to work alone in Calcutta's slums with no institutional support — a decision her spiritual director called 'the most difficult thing she ever did.' She persisted through decades of physically and emotionally grueling work. Her private letters (*Come Be My Light*) reveal nearly 50 years of spiritual desolation — profound inner darkness and feeling abandoned by God — yet she continued her mission without interruption. She entered active conflict zones, including negotiating a ceasefire in Beirut (1982) to evacuate children from a hospital. This represents sustained courage across physical danger, material deprivation, and extreme spiritual-psychological adversity."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Kolodiejchuk (ed.), *Mother Teresa: Come Be My Light* (2007)",
+              "Alpion, *Mother Teresa: Saint or Celebrity?* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "There is no documented instance of Mother Teresa publicly reversing a position or accepting correction on a substantive matter. Her theological and ethical positions remained fixed from the 1950s through the 1990s. The private letters reveal profound doubt but not growth in the sense of changed behavior or revised positions. The hagiographic tradition around her — culminating in canonization — systematically sanitizes evidence of error. Per rubric rules, figures whose traditions remove evidence of error are capped at 1 unless independent evidence of growth exists; none is documented."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Kolodiejchuk (ed.), *Mother Teresa: Come Be My Light* (2007)",
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "She endured material deprivation (voluntary poverty for decades), daily emotional exposure to death and suffering, physical illness (heart attacks, malaria, broken bones), and — most remarkably — nearly 50 years of spiritual desolation described in her private letters as feeling completely abandoned by God ('the silence and the emptiness is so great that I look and do not see, listen and do not hear'). She functioned at a high level through all of this simultaneously. This constitutes effective functioning across at least three qualitatively different forms of adversity: material, physical, and profound psychological-spiritual."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Kolodiejchuk (ed.), *Mother Teresa: Come Be My Light* (2007)",
+              "Alpion, *Mother Teresa: Saint or Celebrity?* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She inhabited seemingly contradictory roles: humble servant of the poor and global celebrity, person of proclaimed faith and person experiencing decades of inner doubt, gentle caregiver and fierce conservative on social issues, obedient nun and autonomous institution-builder. The private letters reveal the most dramatic paradox — public certainty masking interior darkness. However, the doubt was hidden rather than publicly integrated; she compartmentalized rather than reconciled these tensions. This represents two or three paradoxes held together, but not fully integrated in a way visible to others."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Kolodiejchuk (ed.), *Mother Teresa: Come Be My Light* (2007)",
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She worked intimately with the dying for nearly five decades, demonstrating sustained composure in the presence of death. She faced her own health crises (heart attacks, multiple hospitalizations in the 1990s) with reported calm and continued working. She received the Anointing of the Sick before her death on September 5, 1997, and reportedly died peacefully. However, her private letters reveal deep existential anguish — not about death per se, but about God's silence — which complicates claims of full acceptance. She did not leave documented final reflections showing serene composure about her own imminent death in the manner of, say, Socrates or Marcus Aurelius."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Worked in the physically demanding conditions of Calcutta's slums from her late 30s into her 80s — heat, monsoon, unsanitary conditions — performing hands-on care daily. She continued active work despite a heart attack in 1983, broken ribs (1990s), repeated bouts of malaria, and pneumonia. She was hospitalized multiple times but returned to work each time. This demonstrates significant endurance across life-stages, though she was not known for physical feats beyond sustained occupational stamina."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Kolodiejchuk (ed.), *Mother Teresa: Come Be My Light* (2007)",
+              "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Co-workers and biographers report she had a warm laugh and occasionally engaged in light humor with sisters and children. However, her life was famously austere, and her private letters reveal profound interior joylessness. There is no documented evidence of sustained engagement with art, music, beauty, or leisure for its own sake. What joy she expressed publicly appeared instrumental — encouraging sisters and visitors — rather than spontaneous aesthetic delight. Evidence is thin and largely anecdotal."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.29,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Mother Teresa (Saint Teresa of Calcutta)",
+      "overall": {
+        "Core_5D_Avg": 6.29,
+        "Overall_Normalized_Equal_Avg": 5.8,
+        "General_Competency_Avg_10scale": 3.33
+      },
+      "summary": "A figure of extraordinary cultural-social impact — the modern archetype of selfless service — who built a durable global institution and displayed exceptional courage through decades of work amid squalor and inner spiritual darkness. Her moral profile is complex: genuine compassion tempered by a theology of suffering that critics argue compromised care quality, and a justice orientation weakened by acceptance of dictators' patronage and refusal to advocate structural change. Cognitive contributions were organizational rather than intellectual. Heinlein-style competency breadth is narrow, concentrated almost entirely in caregiving and leadership. Relational range is limited by her celibate vocation.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.0,
+          "General_Competency_Avg_10scale": 3.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of culinary skill. The Missionaries of Charity prepared simple communal meals, but no sources document Mother Teresa's personal cooking ability or any notable culinary competence."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of combat or physical defense skills. She was a pacifist by vocation and orientation. Her approach to conflict zones (Beirut 1982) relied on negotiation and moral authority rather than physical combat capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Spink, *Mother Teresa: An Authorized Biography* (2011)",
+            "Chawla, *Mother Teresa: The Authorized Biography* (1992)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Her defining life competency. She personally bathed, fed, and held dying destitute people in Calcutta for nearly 50 years. She established Nirmal Hriday (Home for the Dying) in 1952 and expanded caregiving operations to orphanages, leprosy clinics, and hospices across 139 countries. She provided emotional and physical care across the human lifespan — from abandoned infants to dying elderly — making this the core skill of her entire vocation."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Kolodiejchuk (ed.), *Mother Teresa: Come Be My Light* (2007)",
+            "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "She worked intimately with death and dying for nearly 50 years, maintaining daily composure in the face of others' mortality. She faced her own serious health crises (heart attacks, hospitalizations) with reported calm and returned to work. She died peacefully on September 5, 1997, having received last rites. However, her private letters reveal profound inner turmoil and spiritual anguish that complicates claims of full existential composure — the outward composure was maintained at great interior cost."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of competency in making, fixing, or adapting tools, machines, or physical systems. Her manual work was limited to caregiving tasks (washing, cleaning) rather than craft or repair."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She traveled extensively across the globe — from Skopje to Ireland to India and eventually to over 100 countries. She navigated the dense streets and slums of Calcutta effectively from 1948 onward. However, this represents standard international travel competency for a public figure of her era, not exceptional wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence in the historical record that Mother Teresa engaged in animal husbandry, butchering, or food processing. Her order received donated food and prepared simple vegetarian meals, but there is no documentation of this specific competency."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Spink, *Mother Teresa: An Authorized Biography* (2011)",
+            "Kolodiejchuk (ed.), *Mother Teresa: Come Be My Light* (2007)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Exceptional in both dimensions. As leader: built and directed a global organization of thousands, inspired millions, commanded the attention of world leaders. As follower: she was genuinely obedient to Catholic Church hierarchy throughout her life — sought and accepted direction from spiritual directors Father Van Exem and Archbishop Périer, submitted her order's constitution for Vatican approval, accepted Church decisions on her order's governance, and deferred on doctrinal matters. This dual competency is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of hands-on construction or fabrication skill. While she oversaw the establishment of hundreds of physical facilities, this was organizational and logistical work rather than personal building competency."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Coordinated the expansion of the Missionaries of Charity across 139 countries, managing logistics of opening new houses, training sisters, and navigating diverse legal and cultural environments. She organized emergency responses (Bhopal 1984, Ethiopian famine relief, Beirut 1982). However, her planning was more organic growth and personal charisma-driven than systematic strategic command, and she delegated relatively little operational authority."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Kolodiejchuk (ed.), *Mother Teresa: Come Be My Light* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Her private letters, published posthumously in *Come Be My Light* (2007), are considered powerful spiritual literature — raw, honest accounts of inner desolation. Her Nobel Prize acceptance speech (1979) was rhetorically effective. However, she did not compose these as deliberate artistic works, and she produced no art, music, poetry, or literary works. Her cultural expression was primarily through her lived example rather than created artifacts."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Fox, 'Calcutta Perspective,' *The Lancet* 344 (1994)",
+            "Spink, *Mother Teresa: An Authorized Biography* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "She completed basic medical training from the Medical Mission Sisters in Patna (1948) before entering the slums, and provided basic nursing care — wound cleaning, basic medication administration — for decades. She organized emergency responses to crises (Bhopal disaster, Beirut conflict). However, Robin Fox's 1994 Lancet article documented that her homes provided care well below available medical standards: reused needles, inadequate pain management, no systematic diagnosis. Era normalization applies, but even by 1980s-90s Indian standards, the medical care was criticized as substandard."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Chatterjee, *Mother Teresa: The Untold Story* (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She managed a global organization's operations and finances, which required basic accounting and analytical skills. She was educated as a teacher (teaching geography and history at St. Mary's School, Calcutta, 1931-1948). However, critics noted her organization's finances were opaque and there is no evidence of sophisticated analytical reasoning. She was not known for mathematical or logical problem-solving."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of agricultural competency or natural resource management. Her resource management was fundraising and donation-based rather than agricultural."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Alpion, *Mother Teresa: Saint or Celebrity?* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She solved organizational and logistical problems in establishing missions across diverse national contexts, navigating bureaucracies, and securing legal recognition for her order in multiple countries. However, there is no evidence of engagement with cutting-edge technology or sophisticated technical systems. Her problem-solving was interpersonal and institutional rather than technical."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.29,
+    "general_competency_avg_0_10": 3.33,
+    "overall_normalized_equal_avg_0_10": 5.8,
+    "created_at": "2026-03-22T18:43:20.381Z",
+    "updated_at": "2026-03-22T18:43:20.398Z"
+  }
+}
+]

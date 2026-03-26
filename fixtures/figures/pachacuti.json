@@ -1,0 +1,377 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 199,
+  "fields": {
+    "name": "Pachacuti",
+    "slug": "pachacuti",
+    "bio_short": "Pachacuti stands as one of history's great empire-builders, transforming the Cusco chiefdom into Tawantinsuyu through exceptional strategic, administrative, and creative vision. Cognitive and cultural-social scores are his strongest, reflecting documented achievements in military adaptation, institutional design (mit'a, four-suyu system, qhapaq ñan), and monumental construction (Machu Picchu, Cusco). Moral-affective and relational scores are moderate-to-low, constrained by hagiographic oral-tradition sources and limited evidence of personal relationships, compassion toward adversaries, or mora",
+    "bio_long": "Pachacuti Inca Yupanqui, also called Pachacútec, was the ninth Sapa Inca of the Chiefdom of Cusco, which he transformed into the Inca Empire. Most archaeologists now believe that the famous Inca site of Machu Picchu was built as an estate for Pachacuti.",
+    "source_notes": "https://en.wikipedia.org/wiki/Pachacuti",
+    "image": "figures/330px-Brooklyn_Museum_-_Pachacuti2C_Tenth_Inca2C_1_of_14_Portraits_of_Inca_Kings_DUzGNVO.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "D'Altroy, Terence, *The Incas* (2nd ed., Blackwell, 2015)",
+              "Sarmiento de Gamboa, *Historia de los Incas* (1572)",
+              "Bauer, Brian, *Ancient Cuzco* (University of Texas Press, 2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "When the Chanka confederation attacked Cusco and his father Viracocha Inca and designated heir Urco fled, Pachacuti rallied the defense and defeated the invaders—a textbook case of successful adaptation when initial plans (reliance on the ruling Sapa Inca) collapsed. He then systematically adapted conquest strategies, incorporating some polities diplomatically while subduing others militarily, adjusting to varied Andean ecological and political conditions over decades of expansion."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Bauer, Brian, *The Sacred Landscape of the Inca: The Cusco Ceque System* (University of Texas Press, 1998)",
+              "Rowe, John H., 'Inca Culture at the Time of the Spanish Conquest,' *Handbook of South American Indians* (1946)",
+              "D'Altroy, *The Incas*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Pachacuti is credited with a genuine paradigm shift: transforming a regional Cusco chiefdom into the largest pre-Columbian empire in the Americas. The redesign of Cusco in the shape of a puma, the creation of the ceque system radiating administrative-ritual lines from the Qoricancha, the construction of Machu Picchu with its sophisticated water management and astronomical alignments, and the invention of the four-suyu organizational model all represent a clear before/after difference attributable to this figure."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Betanzos, Juan de, *Narrative of the Incas* (trans. Hamilton & Buchanan, University of Texas Press, 1996)",
+              "D'Altroy, *The Incas*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pachacuti is credited with religious reforms elevating Inti worship and reinterpreting the role of Viracocha as creator-god, constituting a coherent cosmological-political philosophy linking imperial rule to divine order. Some chroniclers (notably Betanzos and Sarmiento) attribute philosophical maxims to him. However, these ideas did not demonstrably influence thinkers beyond the Andean world, as the Spanish conquest disrupted transmission, preventing a score of 3."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "D'Altroy, *The Incas*",
+              "Murra, John V., *The Economic Organization of the Inka State* (JAI Press, 1980)",
+              "Julien, Catherine, *Reading Inca History* (University of Iowa Press, 2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Pachacuti designed the core administrative architecture of Tawantinsuyu: the four-suyu territorial division, the decimal administrative hierarchy, the mit'a rotational labor tax, the qollqa state storehouse network, and the expansion of quipu-based record-keeping for administration. These systems functioned effectively through the reigns of Tupac Inca Yupanqui and Huayna Capac—well beyond his direct oversight—until disrupted by the Spanish conquest roughly 60 years after his death."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "D'Altroy, *The Incas*",
+              "Betanzos, *Narrative of the Incas*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "Pachacuti is documented operating as subordinate son (before the Chanka crisis), rebellious son who deposed his father, military commander to his troops, sovereign to subject peoples, father and mentor to Tupac Inca, and religious authority. This spans multiple relational modes (child, superior, parent, adversary). However, documented qualitatively distinct behavior across five or more modes—particularly friend, spouse, or peer—is limited by the source material."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Betanzos, *Narrative of the Incas*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Pachacuti's primary wife (coya) is traditionally identified as Mama Anawarque. Betanzos, who married an Inca noblewoman descended from Pachacuti's lineage, provides some detail, but evidence of mutual respect, emotional availability, or support during crisis within the marriage is essentially absent from the record. The relationship is attested but its quality is undocumented."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Sarmiento de Gamboa, *Historia de los Incas*",
+              "D'Altroy, *The Incas*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pachacuti selected his son Tupac Inca Yupanqui as heir and reportedly trained him by assigning him leadership of major military campaigns (particularly the northern conquests) while Pachacuti focused on Cusco's administration. Tupac Inca proved a highly effective ruler who further expanded the empire, suggesting successful mentoring that produced genuine autonomy and competence rather than mere obedience."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "D'Altroy, *The Incas*",
+              "Protzen, Jean-Pierre, *Inca Architecture and Construction at Ollantaytambo* (Oxford, 1993)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pachacuti's legacy profoundly shaped Andean South America: Quechua language spread, Inca cultural identity, and sites like Machu Picchu (now a UNESCO World Heritage Site and global icon). However, the Spanish conquest severely disrupted institutional continuity, and his impact across multiple civilizations over 500+ years is primarily mediated through archaeological tourism and Andean cultural memory rather than operative political or philosophical systems. This falls short of the cross-civilizational threshold for 3."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "D'Altroy, *The Incas*",
+              "Rowe, 'Inca Culture at the Time of the Spanish Conquest'"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pachacuti embodies the 'world-shaker' / empire-founder archetype within Andean tradition—his very name means 'earth-shaker' or 'he who overturns space and time.' He is recognized in broader world history as a peer of Alexander or Augustus. However, his symbolic resonance outside of Andean and Latin American cultures is more limited than that of analogous figures from Eurasian traditions, precluding a 3."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Murra, *The Economic Organization of the Inka State*",
+              "D'Altroy, *The Incas*",
+              "Hyslop, John, *The Inka Road System* (Academic Press, 1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The four-suyu administrative structure, mit'a labor system, qollqa storehouse network, qhapaq ñan road system, and reformed Qoricancha religious complex all survived with recognizable continuity through at least two subsequent Sapa Incas (Tupac Inca and Huayna Capac), spanning roughly 60+ years until the Spanish conquest. Elements of the mit'a system were even adapted by the Spanish colonial mita."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "D'Altroy, *The Incas*",
+              "Bauer, *Ancient Cuzco*",
+              "Sarmiento de Gamboa, *Historia de los Incas*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Pachacuti demonstrated successful leadership across qualitatively distinct contexts: crisis military command (the Chanka defense), sustained military conquest campaigns across the Andes, large-scale urban planning and monumental construction (Cusco, Machu Picchu), religious reform, and peacetime administrative reorganization of an entire empire. This breadth across both crisis and stability, small-group combat and large-population governance, meets the threshold for 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Betanzos, *Narrative of the Incas*",
+              "D'Altroy, *The Incas*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The chronicles present Pachacuti almost exclusively in his roles as conqueror, lawgiver, and builder. Evidence of engagement with mundane, everyday activities—cooking, humor with children, manual labor—at the height of his power is essentially absent. Inca royal ideology emphasized the Sapa Inca's divine or semi-divine status, which worked against recording such activities."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Sarmiento de Gamboa, *Historia de los Incas*",
+              "D'Altroy, *The Incas*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sarmiento de Gamboa and other chroniclers attribute a body of laws to Pachacuti regulating social conduct, property, and punishment. The mit'a system embodied structured reciprocity, and the administrative decimal hierarchy created standardized obligations. However, documented cases of ruling against personal or group interest in favor of principle are not clearly attested—his deposition of his father and brother, while arguably restoring effective governance, also served his own ascent."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Betanzos, *Narrative of the Incas*",
+              "D'Altroy, *The Incas*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Some chronicles report that Pachacuti incorporated defeated peoples into the empire with reciprocal obligations rather than pure subjugation, and Betanzos describes instances of generosity toward submitted lords. However, these acts are difficult to separate from strategic incorporation, and evidence of compassion toward outright adversaries (e.g., the Chanka) is thin—defeated Chanka were reportedly resettled as mitma colonists. Without clearer evidence of non-instrumental compassion, this remains episodic."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Sarmiento de Gamboa, *Historia de los Incas*",
+              "Cieza de León, *Crónica del Perú, Segunda Parte* (1553)",
+              "D'Altroy, *The Incas*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Pachacuti's defining act was standing to defend Cusco against the Chanka when his father and heir-apparent fled, reportedly rallying the garrison and personally fighting. He then led or co-directed multiple military campaigns over approximately two decades of imperial expansion across diverse Andean regions. The chronicles consistently describe sustained personal bravery across these engagements, not a single dramatic moment."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Julien, *Reading Inca History*",
+              "D'Altroy, *The Incas*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The oral traditions about Pachacuti, as recorded by Spanish chroniclers, present him as a culture hero and founder figure; they largely sanitize his record. No clear instances of acknowledged error, reversed positions, or accepted correction survive in the record. Per the rubric's instruction that sanitized traditions cap this score at 1 unless independent evidence exists, the score is capped here."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Sarmiento de Gamboa, *Historia de los Incas*",
+              "D'Altroy, *The Incas*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pachacuti faced the political-military crisis of the Chanka invasion and his father's abandonment of Cusco, requiring him to assume emergency leadership as a younger, non-designated son. He then endured decades of military campaigning in challenging Andean conditions. These represent at least two qualitatively different forms of adversity (political crisis/betrayal and sustained physical hardship), though the evidence is filtered through hagiographic tradition."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "D'Altroy, *The Incas*",
+              "Rowe, 'Inca Culture at the Time of the Spanish Conquest'"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pachacuti inhabited seemingly contradictory roles: revolutionary who overthrew his own father yet became the supreme lawgiver and institution-builder; fierce military conqueror who was simultaneously a meticulous urban planner and architect of a sophisticated redistributive economy; destroyer of the old Cusco order and creator of the new. These represent at least two clear paradoxical pairings, but fully documenting three or more with behavioral specificity is difficult given source limitations."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Betanzos, *Narrative of the Incas*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Betanzos describes Pachacuti's preparations for death—arranging succession, giving final instructions, and composing a farewell lament. However, the accounts are formulaic and hagiographic, and detailed evidence of personal composure in the face of imminent death (as opposed to an orderly political succession) is thin."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "D'Altroy, *The Incas*",
+              "Cieza de León, *Crónica del Perú*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Pachacuti personally led military campaigns across extreme Andean terrain—high-altitude passes above 4,000m, diverse ecological zones—over a period spanning roughly two decades. The physical demands of Andean warfare and travel at altitude are severe. However, specific documented feats across multiple life-stages (particularly old age) are limited by the nature of the sources."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Protzen, *Inca Architecture and Construction at Ollantaytambo*",
+              "Betanzos, *Narrative of the Incas*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The siting and design of Machu Picchu—dramatically positioned between cloud-forest peaks with sophisticated landscape integration—suggests profound aesthetic sensibility beyond mere function. The reconstruction of Cusco and the lavish gold-work of the Qoricancha also reflect aesthetic investment. Some traditions attribute poetic compositions to Pachacuti. However, separating pure aesthetic appreciation from political/religious instrumentality is difficult given the sources."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 9.17,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.78,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Pachacuti Inca Yupanqui",
+      "overall": {
+        "Core_5D_Avg": 6.78,
+        "Overall_Normalized_Equal_Avg": 6.46,
+        "General_Competency_Avg_10scale": 4.89
+      },
+      "summary": "Pachacuti stands as one of history's great empire-builders, transforming the Cusco chiefdom into Tawantinsuyu through exceptional strategic, administrative, and creative vision. Cognitive and cultural-social scores are his strongest, reflecting documented achievements in military adaptation, institutional design (mit'a, four-suyu system, qhapaq ñan), and monumental construction (Machu Picchu, Cusco). Moral-affective and relational scores are moderate-to-low, constrained by hagiographic oral-tradition sources and limited evidence of personal relationships, compassion toward adversaries, or moral self-correction. Heinlein competency shows strength in command and strategic planning but gaps in domestic and craft domains typical of sovereign rulers. Source limitations cap most confidence at Medium or Low.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.47,
+          "General_Competency_Avg_10scale": 4.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of personal culinary skills. As Sapa Inca, Pachacuti's meals would have been prepared by palace servants and the aqllakuna (chosen women)."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Sarmiento de Gamboa, *Historia de los Incas*",
+            "Cieza de León, *Crónica del Perú*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Pachacuti personally led the defense of Cusco against the Chanka confederation and subsequently directed multiple military campaigns of expansion. The chronicles describe him as a formidable warrior in the Chanka battle specifically. However, the hagiographic nature of these accounts and the difficulty of separating personal combat prowess from command ability counsel against a score of 3."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "D'Altroy, *The Incas*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As Sapa Inca, Pachacuti oversaw a redistributive economy that provided for subjects' material needs through the qollqa storehouse system—a form of large-scale societal caregiving. However, evidence of personal, hands-on caregiving (nursing the sick, comforting individuals) is absent from the record."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Betanzos, *Narrative of the Incas*",
+            "Sarmiento de Gamboa, *Historia de los Incas*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Pachacuti demonstrated composure under extreme existential threat when he stood to defend Cusco while his father and brother fled the Chanka onslaught—facing potential death and annihilation of his polity. Betanzos describes his preparations for death as orderly and dignified, though the account is hagiographic."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of personal manual craft or repair skills. The Inca elite had specialist artisans (e.g., the kamayuq) for such tasks, and nothing in the record suggests Pachacuti personally made or repaired tools or objects."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Hyslop, *The Inka Road System*",
+            "Bauer, *The Sacred Landscape of the Inca*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Low",
+          "justification": "Pachacuti personally led military campaigns across extremely challenging Andean terrain—high passes, river valleys, and diverse ecological zones from highland puna to montaña. The creation of the qhapaq ñan road system and the ceque system of radiating lines from Cusco demonstrate sophisticated geographic and spatial understanding, though the degree of his personal navigation versus reliance on scouts is uncertain."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the historical record of Pachacuti personally butchering animals or processing food. As Sapa Inca, such activities would have been performed by servants and specialists."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "D'Altroy, *The Incas*",
+            "Sarmiento de Gamboa, *Historia de los Incas*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Pachacuti's leadership abilities are exceptional and well-documented across military, administrative, and religious domains. However, the followership component is less clear: before the Chanka crisis, he was a younger son operating within the existing Cusco political hierarchy, but his defining act was effectively overthrowing his father's authority rather than following it. The balance tips heavily toward leadership over followership."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Protzen, *Inca Architecture and Construction at Ollantaytambo*",
+            "Niles, Susan, *The Shape of Inca History* (University of Iowa Press, 1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Pachacuti directed the reconstruction of Cusco, the building of Machu Picchu, and major works at Sacsayhuamán and the Qoricancha. These projects involved sophisticated dry-stone fitting, terracing, and hydraulic engineering. Era-normalized, a ruler who conceived and oversaw such technically innovative construction—even without personal stone-cutting—demonstrates significant competency in this domain."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "D'Altroy, *The Incas*",
+            "Hyslop, *The Inka Road System*"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Pachacuti planned and executed the defense of Cusco against the Chanka, then directed the systematic expansion of the empire across the Andes through coordinated military campaigns, simultaneously overseeing massive infrastructure projects (qhapaq ñan road system, qollqa storehouses) and administrative reorganization. The scale and success of these simultaneous, multi-domain operations represent exceptional strategic planning and command."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Betanzos, *Narrative of the Incas*",
+            "D'Altroy, *The Incas*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The aesthetic vision embodied in Machu Picchu's landscape integration, Cusco's planned urban design, and the Qoricancha's gold-clad interior represent significant artistic achievement. Some chronicles attribute hymns and poetic compositions to Pachacuti, though authorship is uncertain. His religious reforms reshaped Inca cultural expression."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Pachacuti personally treating injuries or illness. Inca medical knowledge existed among specialist healers (hampi kamayuq), but nothing in the record attributes medical skills to Pachacuti himself."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Murra, *The Economic Organization of the Inka State*",
+            "Urton, Gary, *Signs of the Inka Khipu* (University of Texas Press, 2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The decimal administrative hierarchy, quipu-based record-keeping system, and the complex logistics of the mit'a labor allocation and qollqa storehouse management all required sophisticated quantitative and analytical reasoning. Pachacuti is credited with systematizing these tools for imperial governance, demonstrating strong applied analytical capacity."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Murra, John V., 'El control vertical de un máximo de pisos ecológicos' (1972)",
+            "D'Altroy, *The Incas*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Under Pachacuti, the Inca state developed extensive agricultural terrace systems, the qollqa storehouse network for long-term food storage, and the redistributive economic system that managed resources across diverse ecological zones (the 'vertical archipelago' model expanded under imperial administration). These represent sophisticated resource management at scale."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Hyslop, *The Inka Road System*",
+            "Protzen, *Inca Architecture and Construction at Ollantaytambo*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The engineering achievements under Pachacuti's direction—the qhapaq ñan road system with suspension bridges, sophisticated agricultural terracing with irrigation, the hydraulic engineering at Machu Picchu, and the quipu information management system—represent cutting-edge technology for the pre-Columbian Americas. He oversaw the application of these technical solutions to imperial-scale problems."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.78,
+    "general_competency_avg_0_10": 4.89,
+    "overall_normalized_equal_avg_0_10": 6.46,
+    "created_at": "2026-03-22T22:10:56.568Z",
+    "updated_at": "2026-03-22T22:10:56.584Z"
+  }
+}
+]

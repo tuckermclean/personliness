@@ -1,0 +1,380 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 174,
+  "fields": {
+    "name": "Mao Zedong",
+    "slug": "mao-zedong",
+    "bio_short": "Mao was a revolutionary genius with exceptional creative/strategic thinking and unparalleled institution-building who founded the PRC and reshaped global revolutionary theory. His Cultural-Social scores are near-maximal (9.33/10), reflecting extraordinary leadership, legacy, and archetype resonance. Embodied-Existential is strong (8.00) given Long March endurance, hardship tolerance, and paradox integration. Cognitive scores are high (7.50) driven by paradigm-shifting Maoism. However, Moral-Affective (5.00) is deeply compromised by callousness during the Great Leap Forward and Cultural Revolut",
+    "bio_long": "Mao Zedong, also known as Chairman Mao, was a Chinese revolutionary, politician, writer, political theorist and the founder of the People's Republic of China (PRC). He led China from the PRC's establishment in October 1949 until his death in September 1976, primarily through his role as the Chairman of the Chinese Communist Party (CCP). His theories, which he advocated as a Chinese adaptation of Marxism–Leninism, are known as Maoism.",
+    "source_notes": "https://en.wikipedia.org/wiki/Mao_Zedong",
+    "image": "figures/330px-Mao_Zedong_1950_Portrait_283x4_cropped2928229.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Schram, *The Thought of Mao Tse-Tung* (Cambridge, 1989)",
+              "Pantsov & Levine, *Mao: The Real Story* (Simon & Schuster, 2012)",
+              "Dikötter, *Mao's Great Famine* (Bloomsbury, 2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Mao demonstrated brilliant military adaptation from 1927-1949: after the failure of urban insurrection, he pivoted to rural base areas; after the Fifth Encirclement Campaign nearly destroyed the CCP, he adapted strategy at the Zunyi Conference (1935); during the Civil War he shifted from guerrilla to conventional warfare as conditions permitted. However, the Great Leap Forward (1958-62) represents a catastrophic strategic failure where he refused to adapt despite mounting evidence of famine killing tens of millions. Without the GLF counterexample, this would be 3; with it given proportional weight to its enormous moral stakes, 2 is the final score."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Womack, *The Foundations of Mao Zedong's Political Thought* (University of Hawaii Press, 1982)",
+              "Mao, *On Protracted War* (1938)",
+              "Selden, *The Yenan Way in Revolutionary China* (Harvard UP, 1971)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mao's reconceptualization of Marxist revolution around the peasantry rather than the urban proletariat constitutes a genuine paradigm shift with a clear before/after difference: before Mao, orthodox Marxism held that only the industrial working class could lead revolution; after, peasant-based revolution became the dominant model across Asia, Africa, and Latin America. His guerrilla warfare doctrine ('On Protracted War,' 1938) became foundational for insurgency theory worldwide. The mass-line concept of leadership was also a novel organizational innovation."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Knight, *Mao Zedong on Dialectical Materialism* (M.E. Sharpe, 1990)",
+              "Schram, *The Political Thought of Mao Tse-Tung* (Praeger, 1969)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Mao's 'On Contradiction' (1937) and 'On Practice' (1937) show genuine philosophical sophistication in dialectical reasoning, applying Marxist-Leninist epistemology to Chinese conditions. His adaptation of Marxism to peasant society influenced revolutionary thinkers across the Third World (Guevara, Ho Chi Minh, the Naxalites). However, his philosophical system remained derivative of Marx and Lenin rather than wholly original, and his ethical reasoning justified mass suffering. He falls short of score 3's requirement of influence on thinkers beyond his own era in a transformative way—his influence was primarily within one ideological tradition."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Lieberthal, *Governing China* (W.W. Norton, 2004)",
+              "MacFarquhar & Schoenhals, *Mao's Last Revolution* (Harvard UP, 2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Mao built the CCP from a small party into a governing apparatus for the world's most populous nation, and the PRC's basic administrative structures endured beyond his lifetime. However, he deliberately undermined institutional stability during the Cultural Revolution (1966-76), purging experienced administrators and attacking bureaucratic structures. Much of the competent administration was handled by Zhou Enlai and Liu Shaoqi. His land reform program was implemented at enormous scale but with massive violence and administrative chaos. The systems endured partly because successors (Deng Xiaoping) rebuilt what Mao destroyed."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Snow, *Red Star Over China* (1938)",
+              "Li Zhisui, *The Private Life of Chairman Mao* (1994)",
+              "Kissinger, *On China* (Penguin, 2011)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Mao operated across multiple relational modes: subordinate (to Comintern and early CCP leadership), supreme leader, military commander, husband (four times), parent, international peer (meetings with Stalin, Khrushchev, Nixon), friend (relationship with Edgar Snow), and adversary (Chiang Kai-shek, various purged rivals). However, a pattern of domination and manipulation ran through most relationships. His interactions with Snow vs. party subordinates vs. foreign leaders show some range, but he tended to instrumentalize relationships. Score 3 requires qualitatively distinct behavior across modes; Mao's manipulative style was relatively consistent."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Li Zhisui, *The Private Life of Chairman Mao* (1994)",
+              "Pantsov & Levine, *Mao: The Real Story* (2012)",
+              "Chang & Halliday, *Mao: The Unknown Story* (though treat with caution for bias; Knopf, 2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Mao married four times. His second wife Yang Kaihui was devoted to him but was effectively abandoned when he left for revolutionary activity; her private letters (discovered in 1982 in the walls of her home) reveal deep pain and loneliness. She was executed by the KMT in 1930. His third wife He Zizhen was replaced by Jiang Qing while He was seeking medical treatment in the USSR. Li Zhisui's memoir documents Mao's numerous casual sexual relationships during his marriage to Jiang Qing. No relationship shows evidence of mutual respect, support during crisis, and emotional availability across its arc."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Pantsov & Levine, *Mao: The Real Story* (2012)",
+              "MacFarquhar & Schoenhals, *Mao's Last Revolution* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Several of Mao's children suffered gravely: some were left with families during the Long March and lost for years; Mao Anying was killed in the Korean War (1950); Mao Anqing suffered from mental illness with limited paternal support. As a political mentor, Mao elevated and then destroyed successive protégés—Liu Shaoqi (persecuted to death), Lin Biao (died fleeing after alleged coup), Deng Xiaoping (purged twice). His mentoring pattern produced dependence and obedience rather than genuine autonomy. Only Deng's later independent success occurred despite, not because of, Mao's mentorship."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Spence, *The Search for Modern China* (W.W. Norton, 2012)",
+              "Meisner, *Mao's China and After* (Free Press, 1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mao transformed China from a semi-colonial fragmented state into a unified nuclear power that is now the world's second-largest economy. Maoism influenced revolutionary movements across Asia (Vietnam, Cambodia, Nepal), Latin America (Peru's Shining Path), Africa, and Europe. His legacy shapes contemporary Chinese politics, global geopolitics, and development discourse. While the 500-year criterion cannot be confirmed for a 20th-century figure, the scale and trajectory of impact—affecting over a billion people directly and reshaping the global order—clearly places him among the most impactful figures in recorded history."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Leese, *Mao Cult: Rhetoric and Ritual in China's Cultural Revolution* (Cambridge UP, 2011)",
+              "Barmé, *Shades of Mao* (M.E. Sharpe, 1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mao is globally recognized as an archetype of revolutionary transformation and totalitarian power. His image (the Tiananmen portrait, Andy Warhol's prints) is among the most reproduced in human history. The Little Red Book became a symbol of radical politics across cultures far from China. He functions as a symbol in Western, Asian, African, and Latin American cultural contexts—representing peasant empowerment, revolutionary idealism, and the dangers of unchecked power simultaneously."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Lieberthal, *Governing China* (2004)",
+              "Saich, *The Rise to Power of the Chinese Communist Party* (M.E. Sharpe, 1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mao founded the People's Republic of China (1949), built the CCP into a governing apparatus that has survived 75+ years with recognizable continuity, and created the People's Liberation Army—all institutions that survived well beyond two generations. The Cultural Revolution counterexample, where he deliberately destroyed institutions, must be noted: without it, this is unambiguous 3; with it, 3 still holds because the institutions he built ultimately survived and define modern China's political structure."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Schram, *Mao Tse-Tung* (Penguin, 1966)",
+              "Short, *Mao: A Life* (Henry Holt, 2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mao successfully led across qualitatively different contexts: guerrilla warfare in the Jiangxi Soviet (1930s), the crisis of the Long March, the united front diplomacy of the Anti-Japanese War, conventional military campaigns in the Civil War (1946-49), and peacetime governance of the world's most populous nation. He inspired revolutionary movements on every inhabited continent. His ability to mobilize hundreds of millions during campaigns like the Cultural Revolution—however destructive—demonstrates extraordinary influence across both crisis and stability contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Snow, *Red Star Over China* (1938)",
+              "Li Zhisui, *The Private Life of Chairman Mao* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Mao maintained some connection to ordinary life: his peasant origins informed his earthy humor and directness; he was famous for his love of spicy Hunanese food and informal personal manner; his swimming in the Yangtze (1966) and recreational swimming generally showed engagement with physical activity. Edgar Snow documented his approachable, rustic persona in Yan'an. However, his later years saw increasing isolation in the Zhongnanhai compound, and some 'ordinary' activities (the Yangtze swim) were partly political performances. Score 3 is not met because his engagement became increasingly performative at the height of power."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "MacFarquhar, *The Origins of the Cultural Revolution* (3 vols, Columbia UP, 1974-1997)",
+              "Dikötter, *The Tragedy of Liberation* (Bloomsbury, 2013)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Mao's revolutionary program included justice-oriented goals—land redistribution, anti-imperialism, gender equality laws (Marriage Law of 1950). However, implementation consistently violated fairness and impartiality: the Anti-Rightist Campaign (1957) persecuted hundreds of thousands who had been invited to speak freely; the Cultural Revolution attacked perceived class enemies without due process; land reform involved arbitrary executions. There is no documented case of Mao ruling against personal or group interest in favor of abstract principle. His justice orientation was instrumental to power consolidation rather than principled."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Li Zhisui, *The Private Life of Chairman Mao* (Random House, 1994)",
+              "Dikötter, *Mao's Great Famine* (Bloomsbury, 2010)",
+              "Mao, *Report on an Investigation of the Peasant Movement in Hunan* (1927)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Mao's early 'Report on an Investigation of the Peasant Movement in Hunan' (1927) demonstrated genuine awareness of peasant suffering and emotional identification with the rural poor. However, during the Great Leap Forward he dismissed reports of mass starvation, reportedly stating that deaths were inevitable. His physician Li Zhisui documented his casual disregard for individual suffering. He showed little compassion toward adversaries: landlords during land reform, intellectuals during the Anti-Rightist Campaign, and perceived political rivals during the Cultural Revolution were subjected to systematic persecution. Score 1 reflects episodic early empathy overwhelmed by sustained later callousness."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Snow, *Red Star Over China* (Grove Press, 1938)",
+              "Pantsov & Levine, *Mao: The Real Story* (2012)",
+              "Salisbury, *The Long March* (Harper & Row, 1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mao demonstrated sustained physical and political courage across decades of revolutionary struggle: surviving the Autumn Harvest Uprising failure (1927) and rebuilding; enduring the Long March (1934-35) through extreme conditions and military encirclement; maintaining resistance during the Anti-Japanese War from the resource-poor Yan'an base; and persisting through internal party power struggles where defeat meant potential execution. His willingness to face mortal danger was sustained across multiple high-stakes situations over more than two decades, meeting the score 3 threshold clearly."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "MacFarquhar & Schoenhals, *Mao's Last Revolution* (Harvard UP, 2006)",
+              "Teiwes & Sun, *The End of the Maoist Era* (M.E. Sharpe, 2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "At the Seven Thousand Cadres Conference (1962), Mao offered a partial self-criticism regarding the Great Leap Forward, acknowledging some responsibility for its failures. However, this self-criticism was tactical and limited—he subsequently launched the Cultural Revolution (1966) partly to reassert authority against those who had pressed for accountability. He reversed positions strategically (urban to rural revolution, united front with KMT) but these were strategic adaptations, not moral growth. His tradition extensively sanitized his image, and genuine moral self-correction is not documented. The rubric caps sanitized figures at 1."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Pantsov & Levine, *Mao: The Real Story* (2012)",
+              "Short, *Mao: A Life* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mao functioned effectively through multiple qualitatively different forms of adversity: material deprivation during the Yan'an years (1936-47) where the base area was impoverished and blockaded; personal bereavement including the death of his son Mao Anying in Korea (1950), the loss of other children during the revolutionary period, and the execution of his second wife Yang Kaihui by the KMT (1930); and political marginalization before the Zunyi Conference (1935) when he was sidelined within the party. Through all of these, he maintained strategic effectiveness."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Schram, *The Thought of Mao Tse-Tung* (1989)",
+              "Barmé, *Shades of Mao* (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mao inhabited at least three seemingly contradictory roles without fragmenting into inconsistency: (1) peasant of humble origins and supreme ruler of 600+ million; (2) refined classical poet-calligrapher and ruthless military commander; (3) Marxist materialist who drew deeply on classical Chinese philosophy and historical precedent; (4) state-builder who deliberately destroyed the institutions he created; (5) ascetic revolutionary who in later life lived in hedonistic luxury. He maintained a coherent personal identity and political vision across these contradictions, whatever one thinks of that vision's moral content."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Li Zhisui, *The Private Life of Chairman Mao* (1994)",
+              "Snow, *Red Star Over China* (1938)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "During the revolutionary period, Mao repeatedly faced mortal danger with apparent equanimity—the Long March, encirclement campaigns, and Japanese bombing of Yan'an. He made philosophical statements about death being natural and inevitable. Li Zhisui's memoir describes Mao in his final years as showing some acceptance of physical decline, though he also clung tenaciously to political power. His composure under fire during the revolutionary years is well-attested, but his behavior in his final illness was more complex—marked by both acceptance and denial. He does not quite meet score 3's requirement of documented composure in the face of imminent death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Salisbury, *The Long March* (1985)",
+              "Li Zhisui, *The Private Life of Chairman Mao* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Mao survived the Long March (1934-35)—approximately 6,000 miles through mountains, swamps, and hostile territory—demonstrating exceptional physical endurance. He continued swimming into his seventies, famously crossing the Yangtze River in 1966 at age 72. However, in his final decade he became significantly debilitated, suffering from motor neuron disease and requiring extensive medical support. Physical capability across two life stages (revolutionary youth/middle age and active old age) is documented, but the severe decline limits this to 2."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Schram, *Mao's Road to Power* (M.E. Sharpe, multi-volume)",
+              "Barnstone & Ko, trans., *The Poems of Mao Zedong* (University of California Press, 2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Mao was a genuine classical Chinese poet whose works—including 'Snow' (1936) and 'Swimming' (1956)—are considered accomplished by literary scholars, not merely political verse. He practiced calligraphy as a lifelong pursuit. He was a voracious reader of classical Chinese literature and history for pleasure, keeping his bed famously stacked with books. His recreational swimming appears to have been genuinely enjoyed. However, some aesthetic activities (public calligraphy, the Yangtze swim) also served political purposes, making it difficult to fully separate instrumental from non-instrumental engagement."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.85,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Mao Zedong",
+      "overall": {
+        "Core_5D_Avg": 6.85,
+        "Overall_Normalized_Equal_Avg": 6.41,
+        "General_Competency_Avg_10scale": 4.22
+      },
+      "summary": "Mao was a revolutionary genius with exceptional creative/strategic thinking and unparalleled institution-building who founded the PRC and reshaped global revolutionary theory. His Cultural-Social scores are near-maximal (9.33/10), reflecting extraordinary leadership, legacy, and archetype resonance. Embodied-Existential is strong (8.00) given Long March endurance, hardship tolerance, and paradox integration. Cognitive scores are high (7.50) driven by paradigm-shifting Maoism. However, Moral-Affective (5.00) is deeply compromised by callousness during the Great Leap Forward and Cultural Revolution, and Relational (4.44) is weak due to serial spousal abandonment and destructive mentoring. Heinlein competency (4.22/10) is narrow—concentrated in leadership and strategy, sparse in practical crafts. Core 5D Avg: 6.85. Overall: 6.41.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.27,
+          "General_Competency_Avg_10scale": 4.22
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Li Zhisui, *The Private Life of Chairman Mao* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Mao was famous for his love of spicy Hunanese cuisine, particularly red-braised pork (hongshao rou). His rural peasant upbringing would have included basic food preparation skills, era-normalized. However, no specific evidence documents him personally cooking meals; he had personal cooks throughout his time in power. Score 1 reflects inferred basic competence from rural upbringing."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Short, *Mao: A Life* (2000)",
+            "Snow, *Red Star Over China* (1938)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Mao participated in military campaigns during the early revolutionary period, including the Autumn Harvest Uprising (1927) where he personally led troops. However, he was primarily a strategic and political leader rather than a personal combatant. He carried a weapon during the Long March but his role was command, not front-line fighting. His military genius was strategic, not tactical-personal."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Snow, *Red Star Over China* (1938)",
+            "Li Zhisui, *The Private Life of Chairman Mao* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Mao showed some capacity for personal warmth—Edgar Snow described his approachable manner with soldiers and peasants in Yan'an. However, his record of family caregiving is poor: children were left behind during the Long March, his wives were serially abandoned, and Li Zhisui's memoir portrays emotional unavailability. His caregiving was episodic and limited to political contexts (comforting followers) rather than sustained personal care."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Li Zhisui, *The Private Life of Chairman Mao* (1994)",
+            "Snow, *Red Star Over China* (1938)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Mao repeatedly faced mortal danger with composure during the revolutionary period—encirclement campaigns, the Long March, Japanese bombing of Yan'an—and maintained strategic focus throughout. He made philosophical statements about accepting death as natural. However, his final years showed a more complex picture: Li Zhisui describes him clinging to political power while his body deteriorated. His composure under fire was genuine but his composure facing his own mortality was partial."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Snow, *Red Star Over China* (1938)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists of Mao personally making, fixing, or adapting tools or physical systems. He was known as an intellectual from youth; his father reportedly criticized his aversion to manual farm labor. Even during the Yan'an years, his role was exclusively intellectual and political."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Salisbury, *The Long March* (1985)",
+            "Mao, *Report on an Investigation of the Peasant Movement in Hunan* (1927)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The Long March (1934-35) traversed approximately 6,000 miles across some of China's most challenging terrain—mountains, rivers, swamps, and grasslands. Mao's guerrilla campaigns in Jiangxi and later in northern China required intimate knowledge of terrain for survival. While he relied on scouts and subordinates, his strategic decisions required geographic understanding. His early investigations of rural Hunan also involved extensive personal travel through the countryside."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Snow, *Red Star Over China* (1938)",
+            "Pantsov & Levine, *Mao: The Real Story* (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Mao grew up on a farm in Shaoshan, Hunan, where his father was a prosperous peasant who raised pigs and grew rice. Basic animal husbandry and food processing would have been part of his childhood experience. However, no specific evidence documents personal proficiency in butchering or food processing beyond what is inferred from his rural upbringing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Saich, *The Rise to Power of the Chinese Communist Party* (1996)",
+            "Pantsov & Levine, *Mao: The Real Story* (2012)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Mao's leadership abilities are among the most extraordinary of the 20th century: he built a revolutionary movement from near-destruction to control of the world's most populous nation. He also demonstrated followership in his early career—operating under CCP Central Committee discipline, accepting Comintern direction (though often resentfully), and working within collective leadership structures before the Zunyi Conference. His ability to give and take orders across different career phases is well-documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence exists of Mao personally designing or building physical structures. He was an intellectual and political leader, not a builder. Even during the Yan'an period when base construction was necessary, this work was performed by others."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Mao, *On Protracted War* (1938)",
+            "Whitson, *The Chinese High Command* (Praeger, 1973)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Mao's military strategic planning from 1927-1949 ranks among the most impressive of the 20th century: he coordinated the survival and growth of the CCP from a nearly destroyed guerrilla force to victory over a numerically superior KMT army. His 'On Protracted War' (1938) laid out a multi-phase strategic framework that proved remarkably accurate. He successfully managed the transition from guerrilla to conventional warfare during the Civil War, coordinating operations across multiple theaters."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Barnstone & Ko, trans., *The Poems of Mao Zedong* (University of California Press, 2008)",
+            "Schram, *Mao's Road to Power* (M.E. Sharpe)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Mao was a genuine classical Chinese poet; works like 'Snow—to the tune of Chin Yuan Chun' (1936) and 'Swimming—to the tune of Shui Tiao Ke Tou' (1956) are considered accomplished ci poetry by literary scholars. His calligraphy in the cursive grass script is admired and widely reproduced. These represent genuine artistic achievement within the classical Chinese literary tradition, though he is not regarded as among the greatest Chinese poets historically."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Li Zhisui, *The Private Life of Chairman Mao* (1994)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence exists of Mao providing medical aid or emergency medical response. He relied on physicians (including Dr. Li Zhisui) for his own health and did not practice any form of medicine."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Knight, *Mao Zedong on Dialectical Materialism* (1990)",
+            "Dikötter, *Mao's Great Famine* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Mao's theoretical works ('On Contradiction,' 'On Practice') demonstrate structured analytical reasoning and dialectical logic. However, there is no evidence of mathematical proficiency or quantitative analysis. His catastrophic miscalculation of agricultural yields during the Great Leap Forward—accepting wildly inflated production figures—suggests weak quantitative judgment. His analytical ability was primarily qualitative and political rather than numerical."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Dikötter, *Mao's Great Famine* (2010)",
+            "Mao, *Report on an Investigation of the Peasant Movement in Hunan* (1927)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Mao grew up on a farm and showed understanding of rural agricultural conditions in his early investigative writings. However, his large-scale agricultural policies were catastrophic: the Great Leap Forward's collectivization, backyard steel furnaces (which pulled labor from harvests), and the 'Learn from Dazhai' campaign promoted unsound practices. His personal agricultural knowledge from childhood was real but his applied agricultural judgment at scale was disastrous."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Selden, *The Yenan Way in Revolutionary China* (1971)",
+            "Dikötter, *Mao's Great Famine* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Mao showed systemic thinking in his approach to revolutionary organization—the mass line concept and base-area development strategy were innovative organizational solutions. However, he had no technical skills in engineering, mechanics, or technology. His promotion of 'backyard steel furnaces' during the Great Leap Forward demonstrated fundamental misunderstanding of industrial processes. Score 1 reflects organizational problem-solving but absence of technical capability."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.85,
+    "general_competency_avg_0_10": 4.22,
+    "overall_normalized_equal_avg_0_10": 6.41,
+    "created_at": "2026-03-22T21:37:55.409Z",
+    "updated_at": "2026-03-22T21:37:55.425Z"
+  }
+}
+]

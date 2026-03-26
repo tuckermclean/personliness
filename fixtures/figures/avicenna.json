@@ -1,0 +1,366 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 218,
+  "fields": {
+    "name": "Avicenna",
+    "slug": "avicenna",
+    "bio_short": "Avicenna stands as one of history's supreme intellects—a philosopher-physician whose Canon of Medicine and Book of Healing constituted paradigm shifts in both fields, influencing Islamic and European thought for over 600 years. His cognitive scores are exceptional, but relational and moral-affective evidence is thinner, reflecting both hagiographic source bias and a life oriented toward intellectual rather than domestic achievement. His Heinlein competency is narrow: towering in medicine, reasoning, and cultural expression but with no documented practical skills in construction, agriculture, c",
+    "bio_long": "Ibn Sina, commonly known in the West as Avicenna, was a preeminent philosopher and physician of the Muslim world. He was a seminal figure of the Islamic Golden Age, serving in the courts of various Iranian rulers, and was influential to medieval European medical and Scholastic thought.",
+    "source_notes": "https://en.wikipedia.org/wiki/Avicenna",
+    "image": "figures/330px-Avicenna_Bust2C_left_profile_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Gutas, *Avicenna and the Aristotelian Tradition* (2nd ed., 2014)",
+              "Gohlman, *The Life of Ibn Sina: A Critical Edition and Annotated Translation* (1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Avicenna navigated the courts of multiple Iranian dynasties (Samanids, Buyids, Kakuyids), adapting when expelled from one to secure patronage at another. He fled Ghaznavid pursuit, survived imprisonment in the fortress of Fardajan, and re-established himself at Isfahan under 'Ala al-Dawla. However, his vizieriate under Shams al-Dawla ended in a military revolt, showing incomplete political mastery."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Pormann & Savage-Smith, *Medieval Islamic Medicine* (2007)",
+              "Street, 'Arabic Logic' in *Handbook of the History of Logic* Vol. 1 (2004)",
+              "McGinnis, *Avicenna* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Canon of Medicine (al-Qanun fi al-Tibb) reorganized Galenic and Arabic medical knowledge into a systematic whole that became THE medical paradigm in both Islamic and European universities for over five centuries. The Book of Healing (al-Shifa) created a comprehensive philosophical system synthesizing Aristotelian, Neoplatonic, and Islamic thought in genuinely novel ways. His innovations in modal logic (temporal modalities) anticipated developments not revisited until the 20th century."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Gutas, *Avicenna and the Aristotelian Tradition* (2014)",
+              "Hasse, *Avicenna's De Anima in the Latin West* (2000)",
+              "McGinnis, *Avicenna* (Oxford UP, 2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Avicenna's distinction between essence and existence became foundational in both Islamic philosophy (kalam and falsafa) and Latin Scholasticism—directly shaping Thomas Aquinas, Duns Scotus, and Albertus Magnus. His 'Flying Man' thought experiment anticipated Cartesian cogito arguments by six centuries. His proof of the Necessary Existent restructured theological philosophy across civilizations."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)",
+              "Gutas, *Avicenna and the Aristotelian Tradition* (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Avicenna served as vizier to Shams al-Dawla in Hamadan, managing state affairs. However, his tenure provoked a military revolt that led to his brief imprisonment, and his administrative systems did not endure beyond his direct involvement. His legacy is intellectual rather than institutional or legislative."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Documented relational modes include: teacher/mentor (al-Juzjani), subordinate/physician to rulers (Nuh ibn Mansur, Shams al-Dawla), superior/vizier to officials, and colleague to other scholars. However, evidence of qualitatively distinct behavior across these modes is thin—most accounts describe him through the single lens of intellectual authority. No evidence survives of him as spouse, parent, or in casual friendships with social inferiors."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "Avicenna never married according to surviving biographical sources. No intimate partnerships are documented in al-Juzjani's biography or other primary accounts. This is an absence of evidence rather than evidence of failure, but it means the trait cannot be scored."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)",
+              "Gutas, *Avicenna and the Aristotelian Tradition* (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Avicenna's mentorship of Abu 'Ubayd al-Juzjani is well-documented: al-Juzjani accompanied him for approximately 25 years, served as his scribe and collaborator, and became an accomplished scholar who completed and edited several of Avicenna's unfinished works after his death. This demonstrates a mentee who developed genuine competence and autonomy. Other students (e.g., Bahmanyar ibn al-Marzuban) also became noted philosophers."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Siraisi, *Avicenna in Renaissance Italy* (1987)",
+              "Hasse, *Avicenna's De Anima in the Latin West* (2000)",
+              "Pormann & Savage-Smith, *Medieval Islamic Medicine* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Canon of Medicine was the standard medical textbook at European universities (Montpellier, Leuven) into the 17th century and in Islamic medical education even longer. His philosophical system shaped Latin Scholasticism, Iranian Illuminationist philosophy, and Ottoman intellectual culture. His impact is still clearly operative 1000 years later across Islamic, European, and South Asian civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Gutas, *Avicenna and the Aristotelian Tradition* (2014)",
+              "McGinnis, *Avicenna* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Avicenna serves as the archetype of the Islamic Golden Age polymath in both Islamic and Western cultural memory. He appears on Iranian currency, UNESCO named a prize after him, and he is a symbol of the physician-philosopher ideal. However, his symbolic resonance is strongest within intellectual and medical communities rather than as a universal folk archetype."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Gutas, *Avicenna and the Aristotelian Tradition* (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Avicenna did not establish enduring institutions (hospitals, schools, madrasas) that survived him in organizational form. His legacy operated through texts rather than institutions. While his intellectual school persisted through students, it lacked the formal institutional continuity required for a higher score."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)",
+              "McGinnis, *Avicenna* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Avicenna led as a court physician, vizier, and intellectual master attracting devoted disciples (notably al-Juzjani, who accompanied him for ~25 years). He successfully mobilized scholarly circles and influenced political courts. However, his political leadership was unstable—he was ousted from one court and imprisoned—limiting evidence of successful leadership across both crisis and stability."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Al-Juzjani's biography records Avicenna's enjoyment of wine, music, and evening social gatherings. However, documented engagement with mundane activities—cooking, manual labor, humor with children—is absent from the surviving record. He was an intellectual elite whose recorded life centers on courts and scholarship."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "As vizier, Avicenna reportedly attempted reforms, but specific documented cases of ruling against personal or group interest in favor of principle are not preserved in the surviving record. Al-Juzjani's account mentions his administrative duties but provides no detailed cases of impartial adjudication."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Avicenna practiced medicine throughout his life and reportedly treated patients across social classes, including during periods when he held no court appointment. However, specific documented acts of compassion toward adversaries or outgroup members are absent from the surviving record. Al-Juzjani's biography emphasizes intellectual achievement over charitable acts."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)",
+              "Gutas, *Avicenna and the Aristotelian Tradition* (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Avicenna endured imprisonment in the fortress of Fardajan, fled Ghaznavid agents, escaped from Hamadan in disguise, and continued writing prolifically during all these periods—reportedly composing portions of the Book of Healing while imprisoned or in hiding. He rebuilt his career multiple times after political catastrophe, showing sustained resilience across repeated crises."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)",
+              "Gutas, *Avicenna and the Aristotelian Tradition* (2014)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The primary biographical source (al-Juzjani) is hagiographic and does not document meaningful moral reversals or growth. Later critics noted his indulgence in wine and sensual pleasures, but Avicenna's own writings do not reflect self-correction on these matters. Per the rubric, figures whose traditions sanitize them are capped at 1 without independent evidence of moral growth."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)",
+              "Gutas, *Avicenna and the Aristotelian Tradition* (2014)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Avicenna endured qualitatively different forms of adversity: imprisonment in the fortress of Fardajan (material deprivation and confinement), loss of his manuscripts and library, political exile requiring multiple flights, and serious illness in his later years. Through all of these he continued producing major works, demonstrating effective functioning under prolonged adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Gutas, *Avicenna and the Aristotelian Tradition* (2014)",
+              "McGinnis, *Avicenna* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Avicenna integrated multiple seemingly contradictory roles: rigorous Aristotelian rationalist and devout Muslim; physician devoted to empirical observation and metaphysical philosopher; political leader (vizier) and contemplative scholar; ascetic intellectual and wine-drinking hedonist. These constitute at least four contradictory roles held coherently, though the integration was not always seamless (his hedonism drew contemporary criticism)."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "During his final illness (colic/intestinal disease), Avicenna reportedly treated himself, and when he recognized treatment was futile, he ceased medication and prepared for death with philosophical composure. Al-Juzjani reports he gave away his possessions and freed his slaves. This represents documented composure in the face of his own imminent death, though the source is hagiographic."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Avicenna traveled extensively across Iran—from Bukhara to Gurgan, Rayy, Hamadan, and Isfahan—often under difficult conditions while fleeing political persecution. However, his health declined significantly in his 50s (he suffered from colic/intestinal disease), and there is no evidence of exceptional physical feats. He died at 57, reportedly weakened by overwork and self-medication."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Gohlman, *The Life of Ibn Sina* (1974)",
+              "Wright, 'Music' in *Encyclopaedia of Islam* (2nd ed.)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Al-Juzjani records that Avicenna regularly hosted evening gatherings with wine, music, and recitation—activities that appear genuinely recreational rather than instrumentally political. He wrote poetry and composed a significant treatise on music theory in the Book of Healing that reflects deep aesthetic engagement with musical form. These suggest non-instrumental aesthetic appreciation."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 3.33,
+          "Core_5D_Avg": 5.4,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Avicenna (Ibn Sina)",
+      "overall": {
+        "Core_5D_Avg": 5.4,
+        "Overall_Normalized_Equal_Avg": 5.17,
+        "General_Competency_Avg_10scale": 4.0
+      },
+      "summary": "Avicenna stands as one of history's supreme intellects—a philosopher-physician whose Canon of Medicine and Book of Healing constituted paradigm shifts in both fields, influencing Islamic and European thought for over 600 years. His cognitive scores are exceptional, but relational and moral-affective evidence is thinner, reflecting both hagiographic source bias and a life oriented toward intellectual rather than domestic achievement. His Heinlein competency is narrow: towering in medicine, reasoning, and cultural expression but with no documented practical skills in construction, agriculture, combat, or manual craft. A specialist of the highest order despite Heinlein's dictum.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.2,
+          "General_Competency_Avg_10scale": 4.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Avicenna cooked or prepared meals. The Canon contains extensive dietary and nutritional advice, but this reflects medical theory rather than culinary practice."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Gohlman, *The Life of Ibn Sina* (1974)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Avicenna engaged in combat or possessed martial skills. His responses to political danger were evasion and flight rather than armed resistance."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Pormann & Savage-Smith, *Medieval Islamic Medicine* (2007)",
+            "Gohlman, *The Life of Ibn Sina* (1974)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a practicing physician throughout his life, Avicenna provided direct medical care across social classes. He treated the Samanid ruler Nuh ibn Mansur at age 18 and continued practicing medicine until his own final illness. The Canon devotes significant attention to patient care, diet, and convalescence, reflecting practical caregiving knowledge."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Gohlman, *The Life of Ibn Sina* (1974)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Avicenna faced his final illness with reported philosophical composure—ceasing treatment when he judged it futile, distributing his possessions, and freeing his slaves. He maintained intellectual productivity through imprisonment and political exile. These reflect consistent existential composure across multiple crises, though the deathbed account is from a hagiographic source."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the surviving record that Avicenna engaged in manual crafts, tool-making, or repair work. His skills were intellectual and clinical rather than artisanal."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Gohlman, *The Life of Ibn Sina* (1974)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Avicenna traveled extensively across Iran—from Bukhara to Gurgan, Rayy, Hamadan, and Isfahan—often under conditions requiring evasion of political enemies. This suggests practical wayfinding competence within his cultural context, though no exceptional navigational feats are documented."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the biographical or scholarly record that Avicenna personally butchered animals or processed food. While the Canon contains detailed knowledge of animal anatomy, this reflects medical scholarship rather than practical butchery."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Gohlman, *The Life of Ibn Sina* (1974)",
+            "Gutas, *Avicenna and the Aristotelian Tradition* (2014)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Avicenna served loyally under multiple rulers as court physician (followership) and led as vizier in Hamadan (leadership). He directed scholarly circles and managed students while also deferring to political authority when necessary. His ability to function in both roles is documented, though his political leadership was not always successful."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Avicenna designed or built physical structures. His contributions were intellectual rather than material/constructive."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Gohlman, *The Life of Ibn Sina* (1974)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Avicenna served as vizier to Shams al-Dawla, overseeing state operations, but his tenure ended in a military revolt. He managed complex escapes from political persecution (fleeing Hamadan in disguise), showing tactical capability, but he was not primarily a military or operational commander."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Wright, 'Music' in *Encyclopaedia of Islam* (2nd ed.)",
+            "McGinnis, *Avicenna* (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Avicenna wrote philosophical poetry (including the well-known 'Ode on the Soul'), composed a major treatise on music theory in the Book of Healing that remains a significant contribution to musicology, and his philosophical prose is noted for literary quality. These demonstrate genuine artistic accomplishment beyond mere technical writing."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Pormann & Savage-Smith, *Medieval Islamic Medicine* (2007)",
+            "Siraisi, *Avicenna in Renaissance Italy* (1987)",
+            "Gohlman, *The Life of Ibn Sina* (1974)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Avicenna mastered medicine by age 16, successfully treated the Samanid ruler Nuh ibn Mansur (gaining access to the royal library as reward), and practiced clinical medicine throughout his life. The Canon of Medicine represents the most comprehensive medical synthesis of its era, covering diagnosis, pharmacology, surgery, and public health. He was arguably the foremost physician of the medieval world."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Street, 'Arabic Logic' in *Handbook of the History of Logic* Vol. 1 (2004)",
+            "McGinnis, *Avicenna* (2010)",
+            "Gutas, *Avicenna and the Aristotelian Tradition* (2014)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Avicenna made original contributions to logic (temporal modalities, propositional logic), mathematics, and astronomy. His logical innovations in the Book of Healing went beyond Aristotle and were not replicated until modern formal logic. His medical methodology in the Canon demonstrates rigorous empirical-analytical reasoning, including his criteria for testing drug efficacy—a proto-experimental method."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural practice or resource management. While the Canon discusses dietary plants and materia medica, this reflects pharmacological knowledge rather than agricultural skill."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "McGinnis, *Avicenna* (2010)",
+            "Pormann & Savage-Smith, *Medieval Islamic Medicine* (2007)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Avicenna's diagnostic methodology in the Canon represents cutting-edge technical problem-solving for his era, including pulse diagnosis, urine analysis, and systematic drug-testing criteria. He also contributed to observational astronomy and designed philosophical systems as problem-solving frameworks. However, he was not primarily an engineer or technical inventor."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.4,
+    "general_competency_avg_0_10": 4.0,
+    "overall_normalized_equal_avg_0_10": 5.17,
+    "created_at": "2026-03-22T23:24:01.855Z",
+    "updated_at": "2026-03-22T23:24:01.876Z"
+  }
+}
+]

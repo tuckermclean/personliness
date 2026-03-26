@@ -1,0 +1,368 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 158,
+  "fields": {
+    "name": "Richard Nixon",
+    "slug": "richard-nixon",
+    "bio_short": "A figure of extraordinary strategic intelligence and political resilience undermined by deep moral flaws. Nixon's opening to China, détente, and institution-building (EPA, OSHA) represent exceptional cognitive and social-cultural achievements. However, Watergate, the abuse of governmental power, and his vindictive political style reveal serious deficiencies in justice orientation and compassion. His Heinlein competency profile is narrow—brilliant at strategy and leadership but lacking in manual, technical, and caregiving domains. A paradoxical figure whose strengths and self-destructive tenden",
+    "bio_long": "Richard Milhous Nixon was the 37th president of the United States, serving from 1969 until his resignation in 1974. A member of the Republican Party, he represented California in both houses of the United States Congress before serving as the 36th vice president under President Dwight D. Eisenhower from 1953 to 1961. His presidency saw the reduction of U.S. involvement in the Vietnam War, détente with the Soviet Union and China, the Apollo 11 Moon landing, and the establishment of the Environmental Protection Agency and Occupational Safety and Health Administration. Nixon's second term ended early when he became the only U.S. president to resign from office, as a result of the Watergate scandal.",
+    "source_notes": "https://en.wikipedia.org/wiki/Richard_Nixon",
+    "image": "figures/330px-Richard_Nixon_presidential_portrait_28129.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Dallek, *Nixon and Kissinger: Partners in Power* (2007)",
+              "Gaddis, *Strategies of Containment* (2005)",
+              "Small, *The Presidency of Richard Nixon* (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nixon's opening to China (1971-72) exploited the Sino-Soviet split to create triangular diplomacy, widely regarded as one of the most sophisticated strategic gambits of the Cold War. When initial Vietnam escalation failed to achieve objectives, he adapted through Vietnamization and ultimately the Paris Peace Accords (1973). He secured SALT I and the ABM Treaty through multi-track negotiations. Watergate represents a serious strategic failure in crisis management; however, the counterexample rule notes a single failure does not override a consistent pattern of exceptional strategic adaptation. Without Watergate: 3. With Watergate given full weight: 2-3. Final: 3, as the foreign policy achievements represent among the strongest examples of strategic intelligence in the modern presidency."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Goh, *Constructing the U.S. Rapprochement with China* (2005)",
+              "Hoff, *Nixon Reconsidered* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The opening to China reversed two decades of U.S. policy and reshaped global alignments—a genuinely creative strategic move. The creation of the EPA consolidated environmental regulation in a novel institutional form. Revenue sharing with states was a policy innovation. However, the conceptual framework (balance of power, triangular diplomacy) drew on classical diplomatic theory rather than creating a wholly new paradigm, and domestic innovations were partly strategic outflanking of Democrats."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Nixon, *The Real War* (1980)",
+              "Hoff, *Nixon Reconsidered* (1994)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nixon's foreign policy operated within a realpolitik framework, but this intellectual architecture was principally articulated by Kissinger. His post-presidential writings (*The Real War*, *Beyond Peace*) offered geopolitical analysis rather than original ethical or philosophical insight. He did not articulate principles that influenced thinkers beyond his own political tradition in any enduring way."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Hoff, *Nixon Reconsidered* (1994)",
+              "Small, *The Presidency of Richard Nixon* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nixon created the EPA (1970), OSHA (1970), the Council on Environmental Quality, and the Office of Management and Budget—institutions that have endured for over 50 years. He implemented revenue sharing and oversaw significant Southern school desegregation. Without Watergate: 3. With Watergate, which revealed systematic abuse of administrative power (enemies lists, plumbers unit, IRS weaponization), the score must account for the damage to administrative norms. Final: 2, as the enduring institutions are counterbalanced by the corruption of administrative processes."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Ambrose, *Nixon* trilogy (1987-1991)",
+              "Thomas, *Being Nixon* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nixon operated across multiple relational modes with qualitatively distinct behavior: deferential subordinate to Eisenhower as VP, commanding superior as president, ruthless adversary to political enemies, relaxed friend to Bebe Rebozo and Bob Abplanalp, warm (if emotionally limited) father to his daughters, and respectful diplomatic partner to Mao and Brezhnev. That represents at least five distinct modes. However, his underlying guardedness and suspicion permeated most relationships, limiting the adaptability score."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Swift, *Pat and Dick: The Nixons, An Intimate Portrait of a Marriage* (2014)",
+              "Thomas, *Being Nixon* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nixon and Pat Ryan Nixon were married for 53 years (1940-1993). His early courtship letters reveal genuine warmth and devotion. Pat was a loyal political partner who endured decades of public life she reportedly disliked. However, biographers note emotional distance, Pat's desire for him to leave politics (especially after 1962), and her suffering during Watergate. The relationship showed durability and mutual support during crises but also evidence of emotional unavailability on Nixon's part."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Eisenhower, Julie Nixon, *Pat Nixon: The Untold Story* (1986)",
+              "Thomas, *Being Nixon* (2015)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Nixon had two daughters, Tricia and Julie, who by all accounts loved him deeply. Julie Nixon Eisenhower became a public figure and author. He mentored some political figures, though relationships were often transactional. Evidence of specific parental investment is limited in the biographical record beyond general descriptions of family warmth. His political career consumed most of his time and energy, and he was not documented as an exceptionally engaged father relative to peers."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Gaddis, *The Cold War: A New History* (2005)",
+              "Perlstein, *Nixonland* (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nixon's impact is enormous but too recent to confirm the 500-year, multi-civilizational threshold. His opening to China reshaped global geopolitics in ways still operative today. 'Watergate' entered global vocabulary as a synonym for political scandal (with '-gate' suffix applied worldwide). The EPA transformed environmental governance. The Southern Strategy realigned American politics for half a century. His legacy clearly extends beyond one civilization but the 500-year criterion cannot yet be evaluated with certainty."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Wills, *Nixon Agonistes* (1970)",
+              "Thomas, *Being Nixon* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nixon functions as a powerful archetype of the 'tragic fallen leader'—a brilliant but fatally flawed figure destroyed by his own paranoia. 'Nixonian' entered the English language. His image (V-signs, jowly face, 'I am not a crook') is globally recognizable. He appears as a character or reference point across literature, film, and political discourse. However, his archetypal resonance is strongest within Western political culture rather than truly cross-cultural in the way of figures like Caesar or Napoleon."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Hoff, *Nixon Reconsidered* (1994)",
+              "Small, *The Presidency of Richard Nixon* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nixon created the EPA (1970) and OSHA (1970), both of which have survived over 50 years with recognizable continuity—meeting the two-generation threshold. He established the diplomatic framework with China that endured for decades, and SALT I initiated an arms control architecture that continued through multiple treaties. Without Watergate: 3. However, his presidency also severely damaged institutional norms (abuse of FBI, IRS, erosion of public trust), and the resulting reforms (War Powers Act, FISA, intelligence oversight) were corrective responses to his institutional damage. Final: 2, balancing enduring creations against serious institutional harm."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Perlstein, *Nixonland* (2008)",
+              "Ambrose, *Nixon* trilogy (1987-1991)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Nixon led successfully across qualitatively different contexts: as a junior congressman driving the Hiss investigation, as Eisenhower's VP managing crises during presidential illnesses, as a presidential candidate mobilizing the 'silent majority,' as president managing Vietnam withdrawal and the China opening, and as a post-resignation elder statesman consulted by subsequent presidents. He reshaped the Republican Party through the 'Southern Strategy,' creating a political realignment that endured for decades. His influence spans crisis and stability, small-group and mass-public contexts."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Thomas, *Being Nixon: A Man Divided* (2015)",
+              "Perlstein, *Nixonland* (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nixon's modest Quaker upbringing in Yorba Linda and the 'Checkers speech' (1952) attempted to project ordinariness. However, he was famously socially awkward—walking on the beach in dress shoes, stiff in casual settings. His bowling alone in the White House and cottage cheese with ketchup are memorable precisely because of their oddness rather than relatability. He lacked the common touch that peers like Eisenhower or Johnson possessed naturally."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Kutler, *The Wars of Watergate* (1990)",
+              "Dean, *Blind Ambition* (1976)",
+              "Kutler, *Abuse of Power: The New Nixon Tapes* (1997)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nixon oversaw significant Southern school desegregation and signed Title IX into law. However, Watergate represents a systematic abuse of governmental power against the rule of law: the cover-up, the Saturday Night Massacre (firing Special Prosecutor Archibald Cox, October 1973), the enemies list targeting private citizens through the IRS and FBI, and obstruction of justice documented on the White House tapes. Without these abuses: 2. With them given full weight: 0-1. Final: 1, as the desegregation achievements are real but the pattern of institutional abuse is too central and sustained to be treated as a single counterexample."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Kutler, *The Wars of Watergate* (1990)",
+              "Shawcross, *Sideshow: Kissinger, Nixon, and the Destruction of Cambodia* (1979)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nixon's administration desegregated more Southern schools than any predecessor—a tangible act benefiting marginalized communities. However, his documented 'enemies list,' vindictive treatment of political opponents, approval of the secret Cambodia bombing campaign (Operation Menu, 1969-70) causing thousands of civilian casualties, and the callous indifference captured on the White House tapes collectively outweigh episodic compassion. No documented acts of compassion toward adversaries or outgroup members beyond political calculation."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Ambrose, *Nixon: The Triumph of a Politician 1962-1972* (1989)",
+              "Thomas, *Being Nixon: A Man Divided* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nixon showed sustained resilience: pursuing the Alger Hiss case as a freshman congressman (1948) risking his career, facing hostile mobs in Caracas (1958) with physical bravery, recovering from the devastating 1960 presidential and 1962 gubernatorial losses to win the presidency in 1968, and rebuilding his reputation as an elder statesman after resignation. Multiple high-stakes situations across decades. However, some resilience was driven by personal ambition rather than a cause, and his functioning degraded during the terminal Watergate period (increased drinking, erratic behavior reported by Secretary of Defense Schlesinger)."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Frost, *Frost/Nixon* interviews (1977)",
+              "Thomas, *Being Nixon: A Man Divided* (2015)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nixon's resignation speech (August 8, 1974) notably avoided admitting wrongdoing: 'if some of my judgments were wrong...they were made in what I believed at the time to be the best interest of the nation.' The Frost/Nixon interviews (1977) came closest to an apology ('I let the American people down') but still stopped short of full acknowledgment. His later years showed some reflective growth in foreign policy writings, but he never fully reversed his position on Watergate or accepted the moral weight of his actions. Some behavioral change (more measured public persona in later years) but no documented instance of genuine reversal on a specific prior position."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Thomas, *Being Nixon* (2015)",
+              "Ambrose, *Nixon: Ruin and Recovery 1973-1990* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nixon endured qualitatively different forms of adversity: childhood poverty and family loss (two brothers died of tuberculosis), devastating political defeats (1960, 1962), massive anti-war protests during his presidency, the Watergate crisis, resignation and national disgrace, and a near-fatal phlebitis episode in 1974. He functioned effectively through most of these—rebuilding after each defeat. However, during the terminal Watergate period, his functioning degraded significantly (increased drinking, erratic behavior prompting Defense Secretary Schlesinger's precautionary military orders)."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Wills, *Nixon Agonistes* (1970)",
+              "Thomas, *Being Nixon: A Man Divided* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Nixon inhabited multiple contradictory roles: anti-communist crusader who opened relations with Communist China; conservative Republican who created the EPA and expanded social programs; Quaker from a pacifist tradition who escalated bombing in Southeast Asia; socially awkward introvert who became one of the most successful politicians of his era; self-made populist who built an imperial presidency. These represent at least three contradictory role-pairs. However, the integration was imperfect—the tension between his statesmanlike instincts and his paranoid vindictiveness was never resolved and ultimately destroyed his presidency."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Ambrose, *Nixon: Ruin and Recovery 1973-1990* (1991)",
+              "Thomas, *Being Nixon* (2015)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "After resignation, Nixon nearly died from phlebitis and reportedly accepted the prospect of death with composure. His post-resignation years (1974-1994) were remarkably purposeful and productive—writing ten books, advising presidents, rebuilding his reputation—suggesting a man who had come to terms with his political death and made peace with his diminished status. He remained active until his final stroke in April 1994 and reportedly died with dignity."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Ambrose, *Nixon: The Education of a Politician 1913-1962* (1987)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Nixon played football at Whittier College, though mainly as a benchwarmer valued for persistence rather than athleticism. He served in the U.S. Navy in the South Pacific during WWII (logistics, not combat). He endured grueling campaign schedules across decades. He suffered phlebitis requiring hospitalization in 1974. No evidence of exceptional physical feats or endurance across life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Thomas, *Being Nixon* (2015)",
+              "Ambrose, *Nixon: The Education of a Politician* (1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Nixon was a genuinely skilled pianist who played classical music throughout his life, including a public performance on the Jack Paar Show. He was an avid and knowledgeable sports fan, particularly of football—famously suggesting a play to Miami Dolphins coach Don Shula. He enjoyed bowling recreationally. These interests appear genuinely non-instrumental, pursued for personal pleasure rather than political purposes."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 5.56,
+          "Core_5D_Avg": 5.81,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Richard Nixon",
+      "overall": {
+        "Core_5D_Avg": 5.81,
+        "Overall_Normalized_Equal_Avg": 5.43,
+        "General_Competency_Avg_10scale": 3.56
+      },
+      "summary": "A figure of extraordinary strategic intelligence and political resilience undermined by deep moral flaws. Nixon's opening to China, détente, and institution-building (EPA, OSHA) represent exceptional cognitive and social-cultural achievements. However, Watergate, the abuse of governmental power, and his vindictive political style reveal serious deficiencies in justice orientation and compassion. His Heinlein competency profile is narrow—brilliant at strategy and leadership but lacking in manual, technical, and caregiving domains. A paradoxical figure whose strengths and self-destructive tendencies remain inseparable.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.07,
+          "General_Competency_Avg_10scale": 3.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Thomas, *Being Nixon* (2015)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "Nixon was famously associated with cottage cheese and ketchup. No evidence exists of cooking skill or culinary interest. White House records and biographies do not document him preparing meals."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Ambrose, *Nixon: The Education of a Politician* (1987)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nixon served in the Navy during WWII in the South Pacific, though primarily in logistics and supply roles (SCAT—South Pacific Combat Air Transport Command) rather than direct combat. He was reportedly under occasional Japanese bombardment. He survived the Caracas mob attack in 1958 with composure. These represent limited but real exposure to physical danger."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Thomas, *Being Nixon* (2015)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nixon showed some caregiving in his family life—attending to Pat during illnesses and maintaining family bonds. However, he was not documented as an especially nurturing figure. His emotional reserve, noted by biographers, limited his caregiving capacity even within his family."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Ambrose, *Nixon: Ruin and Recovery 1973-1990* (1991)",
+            "Thomas, *Being Nixon* (2015)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Nixon faced the destruction of his presidency with sufficient composure to execute an orderly resignation and transition of power. His near-death phlebitis episode shortly after was met with reported calm. His 20-year post-resignation career—writing, advising, traveling—demonstrated remarkable composure in the face of permanent public disgrace. His final days in 1994 were by all accounts dignified."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of manual craft or repair skills. Nixon's background was academic and legal, and no biographer documents handiwork or mechanical aptitude."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Ambrose, *Nixon: The Education of a Politician* (1987)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Nixon served as a Navy lieutenant commander in the South Pacific during WWII, which would have required basic navigation awareness. He traveled extensively throughout his political career, including to remote and hostile locations (Caracas 1958, China 1972). No evidence of exceptional personal navigation skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence in the historical record of Nixon processing animals or raw food resources. His upbringing, while modest, was suburban/small-town rather than agricultural."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Perlstein, *Nixonland* (2008)",
+            "Small, *The Presidency of Richard Nixon* (1999)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Nixon demonstrated exceptional leadership as president, party leader, and campaign strategist. He also showed capacity to follow: serving as a disciplined VP under Eisenhower for eight years, accepting Eisenhower's sometimes dismissive treatment, and following military command structures during his Navy service. He cooperated effectively with congressional leaders of both parties on domestic legislation (EPA, OSHA, Title IX)."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence of Nixon designing or building physical structures. His skills were entirely in the political, legal, and diplomatic domains."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Dallek, *Nixon and Kissinger* (2007)",
+            "Gaddis, *Strategies of Containment* (2005)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Among the strongest exemplars in the modern presidency. The China opening required years of secret diplomatic planning (back-channel through Pakistan, Kissinger's secret 1971 trip). Vietnam Vietnamization was a multi-year phased withdrawal under fire. SALT I negotiations required coordinating multiple bureaucratic actors against Soviet counterparts. His 1968 and 1972 campaigns were masterfully planned operations."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Thomas, *Being Nixon* (2015)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Nixon was a competent pianist who performed classical music publicly, including on the Jack Paar Show. He was also a prolific author of political books in his post-presidency. However, he was a performer/consumer of art rather than a creative artist, and his writing was analytical rather than literary."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of medical knowledge or emergency response capability beyond what any WWII-era naval officer would have received in basic training."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Hoff, *Nixon Reconsidered* (1994)",
+            "Ambrose, *Nixon: The Education of a Politician* (1987)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Nixon graduated third in his class at Duke University School of Law, demonstrating strong analytical capacity. His foreign policy analysis in works like *The Real War* shows sophisticated multi-variable reasoning. He personally managed budget and economic decisions (including the 1971 wage-price controls and closing the gold window), demonstrating comfort with economic and quantitative analysis."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Hoff, *Nixon Reconsidered* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nixon had no direct agricultural experience, but his establishment of the EPA (1970) and signing of the Clean Air Act, Clean Water Act, and Endangered Species Act represent significant engagement with natural resource management at the policy level. Era-normalized, this represents meaningful competence in the domain, though at the policy rather than hands-on level."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Hoff, *Nixon Reconsidered* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Nixon was not technically oriented, but he understood policy systems at a sophisticated level. His management of the 1971 'Nixon Shock' (closing the gold window, imposing wage-price controls) showed ability to manipulate complex economic systems. He relied on technical advisors but could engage with their output intelligently. Not a technologist but a competent systems-level operator."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.81,
+    "general_competency_avg_0_10": 3.56,
+    "overall_normalized_equal_avg_0_10": 5.43,
+    "created_at": "2026-03-22T19:41:55.573Z",
+    "updated_at": "2026-03-22T19:41:55.588Z"
+  }
+}
+]

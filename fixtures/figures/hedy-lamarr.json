@@ -1,0 +1,356 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 131,
+  "fields": {
+    "name": "Hedy Lamarr",
+    "slug": "hedy-lamarr",
+    "bio_short": "A singular figure who bridged glamorous Hollywood stardom and genuine technical invention. Her frequency-hopping spread spectrum patent (with Antheil) was a creative milestone later recognized as a precursor to modern wireless communications. She showed courage escaping an abusive marriage and resilience navigating refugee life to Hollywood success. Her paradox of sex symbol and inventor is her defining archetype. Relational life was turbulent (six divorces), and later years were marked by reclusiveness. Heinlein competency is narrow — exceptional in artistic expression and solid in technical ",
+    "bio_long": "Hedy Lamarr was an Austrian and American actress and inventor. After a brief early film career in Czechoslovakia, including the controversial erotic romantic drama Ecstasy (1933), she fled from her first husband, Friedrich Mandl, and secretly moved to Paris. Traveling to London, she met Louis B. Mayer, who offered her a film contract in Hollywood. Lamarr became a film star with her performance in the romantic drama Algiers (1938). She achieved further success with the Western Boom Town (1940) and the drama White Cargo (1942). Lamarr's most successful film was the religious epic Samson and Delilah (1949). She also acted on television before the release of her final film in 1958. She was honored with a star on the Hollywood Walk of Fame in 1960.",
+    "source_notes": "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+    "image": "figures/330px-Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Rhodes, Richard. *Hedy's Folly: The Life and Breakthrough Inventions of Hedy Lamarr* (2011)",
+              "Barton, Ruth. *Hedy Lamarr: The Most Beautiful Woman in Film* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lamarr's escape from arms-dealer husband Friedrich Mandl required multi-step planning — reportedly drugging a maid, disguising herself, and navigating from Vienna to Paris to London. She then strategically positioned herself on the same transatlantic liner as MGM head Louis B. Mayer, parlaying the encounter into a Hollywood contract. The frequency-hopping torpedo patent also shows capacity for thinking about complex adversarial scenarios. However, there is no documented case of adapting when a major plan failed, capping at 2."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Rhodes, Richard. *Hedy's Folly* (2011)",
+              "US Patent 2,292,387 (1942)",
+              "Electronic Frontier Foundation Pioneer Award (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Co-invented (with George Antheil) a frequency-hopping spread spectrum communication system (US Patent 2,292,387, 1942), using synchronized player-piano-roll mechanisms to make radio-guided torpedoes harder to jam. The concept was genuinely novel. While she is widely credited as a precursor to modern Wi-Fi, Bluetooth, and GPS technology, and was inducted into the National Inventors Hall of Fame (2014), the direct causal lineage from her patent to modern implementations is debated — military engineers later developed spread spectrum somewhat independently. The patent expired unused. This is clearly innovative but the paradigm-shift attribution needed for 3 is not fully established."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Rhodes, Richard. *Hedy's Folly* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lamarr expressed patriotic motivation for her invention work, wanting to help the Allied war effort after learning of the sinking of a ship carrying evacuee children (SS City of Benares). This shows moral concern but not systematic ethical or philosophical reasoning. She left no philosophical writings or speeches that influenced subsequent thinkers."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "(no citation)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "No evidence of designing, organizing, or sustaining administrative systems, policies, or organizations. Lamarr's contributions were in acting and invention, not governance or institutional management."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Shearer, Stephen Michael. *Beautiful: The Life of Hedy Lamarr* (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lamarr occupied roles as spouse, parent, colleague (with Antheil), and Hollywood professional under studio direction. However, evidence of qualitatively distinct relational behavior across multiple modes is thin. She became increasingly reclusive and communicated primarily by telephone in later decades. There is limited evidence of deep friendships, mentoring, or adaptive behavior across the five+ relational modes required for higher scores."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Shearer, Stephen Michael. *Beautiful: The Life of Hedy Lamarr* (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lamarr had six marriages, all ending in divorce: Friedrich Mandl (1933–37, abusive/controlling), Gene Markey (1939–41), John Loder (1943–47, three children), Ernest 'Ted' Stauffer (1951–52), W. Howard Lee (1953–60), and Lewis J. Boies (1963–65). The first marriage was not her fault, but the pattern of five subsequent failed marriages suggests significant difficulty sustaining intimate partnerships. No evidence of deep mutual relationships in the record."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Shearer, Stephen Michael. *Beautiful: The Life of Hedy Lamarr* (2010)",
+              "Dean, Alexandra. *Bombshell: The Hedy Lamarr Story* (2017)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Lamarr had three children: James Lamarr Loder (adopted), Denise Loder, and Anthony Loder. Her son Anthony spoke publicly about their complicated relationship, and her growing reclusiveness affected family ties. Anthony did carry out her final wish to scatter her ashes in Vienna, suggesting some enduring bond. However, there is limited evidence of mentoring that developed genuine autonomy in her children or others."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "National Inventors Hall of Fame induction (2014)",
+              "Dean, Alexandra (dir.). *Bombshell: The Hedy Lamarr Story* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lamarr's legacy operates in two domains: as a Hollywood Golden Age icon whose films remain culturally referenced, and as a symbol of women in STEM whose frequency-hopping patent is recognized as a conceptual precursor to modern spread spectrum technology. She was inducted into the National Inventors Hall of Fame (2014) and is the subject of the documentary *Bombshell: The Hedy Lamarr Story* (2017). Her legacy is clearly operative today but has not yet passed the 500-year, multi-civilization threshold required for 3."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Rhodes, Richard. *Hedy's Folly* (2011)",
+              "Dean, Alexandra. *Bombshell: The Hedy Lamarr Story* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Lamarr has become the archetype of 'beauty and brains' — the idea that physical beauty and intellectual capability coexist. She is invoked cross-culturally as a symbol of women's unrecognized contributions to technology. Her story resonates beyond the American context, from her Austrian origins to global tech culture. However, her archetypal recognition, while growing, is not yet at the universal level of figures scoring 3."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Rhodes, Richard. *Hedy's Folly* (2011)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Lamarr built no enduring institutions, organizations, or social structures. Her patent was not commercialized during her lifetime, and she founded no companies, schools, or organizations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Barton, Ruth. *Hedy Lamarr: The Most Beautiful Woman in Film* (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lamarr was a major cultural figure who influenced beauty standards — reportedly inspiring the look of Snow White and later Catwoman. However, she did not mobilize or direct groups toward shared goals in the leadership sense. Her invention work was a private collaboration with Antheil, not a leadership effort. Her cultural influence was passive (as an icon) rather than active."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Shearer, Stephen Michael. *Beautiful: The Life of Hedy Lamarr* (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "As a glamorous Hollywood star, Lamarr lived at a remove from ordinary life. She was known for her beauty and remoteness. Her home inventing hobby (she had a workshop and tinkered with household improvements including an improved traffic stoplight and a fizzing tablet for carbonated drinks) shows some engagement with everyday problem-solving. However, she became increasingly reclusive in later decades, and documented instances of mundane everyday engagement are limited."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Rhodes, Richard. *Hedy's Folly* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Her invention was motivated by a desire to help defeat Nazism, and she worked to sell war bonds. However, there is no documented pattern of ruling against personal interest in favor of justice, or of impartial adjudication. Her justice orientation was patriotic rather than principled-systematic."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Rhodes, Richard. *Hedy's Folly* (2011)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lamarr was reportedly moved to work on her torpedo guidance invention after the SS City of Benares sinking (1940), which killed evacuee children. She also sold war bonds. However, there is no documented pattern of compassion toward adversaries or outgroup members, and specific acts of empathy beyond these wartime motivations are sparse in the record."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Barton, Ruth. *Hedy Lamarr: The Most Beautiful Woman in Film* (2010)",
+              "Shearer, Stephen Michael. *Beautiful: The Life of Hedy Lamarr* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Escaping Friedrich Mandl — a controlling arms dealer with connections to Mussolini and Austrian fascist circles — required significant courage. She then rebuilt her life as a Jewish refugee in a new country, rising to Hollywood stardom. Later she endured career decline, shoplifting scandals, and public ridicule with varying degrees of resilience. This spans multiple high-stakes situations but her later-life difficulties suggest the sustained composure needed for 3 was not maintained."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Shearer, Stephen Michael. *Beautiful: The Life of Hedy Lamarr* (2010)",
+              "Lamarr, Hedy (attributed). *Ecstasy and Me: My Life as a Woman* (1966)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lamarr's later life included two shoplifting arrests (1966, 1991), litigiousness, and increasing reclusiveness. There is limited evidence of acknowledging mistakes or meaningful behavioral change. Her autobiography *Ecstasy and Me* (1966) was disowned by her as fabricated by ghostwriters, suggesting avoidance rather than moral reckoning. Six failed marriages show a pattern without documented growth."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Shearer, Stephen Michael. *Beautiful: The Life of Hedy Lamarr* (2010)",
+              "Barton, Ruth. *Hedy Lamarr: The Most Beautiful Woman in Film* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lamarr endured qualitatively different forms of adversity: a controlling, quasi-captive marriage to Mandl (1933–37); life as a Jewish refugee fleeing fascism; career decline and aging in image-obsessed Hollywood; public shoplifting humiliations; and failed surgeries. She functioned effectively through the first two adversities, building a new career from nothing. Later hardships were handled less effectively (reclusiveness, litigiousness), which prevents a score of 3."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Rhodes, Richard. *Hedy's Folly* (2011)",
+              "Barton, Ruth. *Hedy Lamarr: The Most Beautiful Woman in Film* (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lamarr inhabited seemingly contradictory roles: (1) glamorous sex symbol and Hollywood star, (2) serious technical inventor and analytical thinker, (3) refugee and survivor of an abusive marriage, and (4) patriotic American war-effort contributor despite her Austrian origins. She navigated these roles simultaneously during the 1940s without obvious inconsistency. However, her later-life fragmentation — reclusiveness, failed relationships, and inability to reconcile her aging with her identity as a beauty icon — suggests the integration was not fully sustained, preventing a score of 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Shearer, Stephen Michael. *Beautiful: The Life of Hedy Lamarr* (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Lamarr became reclusive in her final decades, communicating mainly by phone. She requested her ashes be scattered in the Vienna Woods, suggesting some peace with her origins. However, her extensive and ultimately disfiguring plastic surgeries suggest difficulty accepting aging. There is no documented composure in the face of imminent death beyond her burial wish."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Barton, Ruth. *Hedy Lamarr: The Most Beautiful Woman in Film* (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Lamarr's physical escape from Mandl required daring, and her film career demanded sustained physical presentation. However, she is not known for athletic feats or physical endurance beyond what her career required. No documented physical accomplishments across multiple life stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Rhodes, Richard. *Hedy's Folly* (2011)",
+              "Antheil, George. *Bad Boy of Music* (1945)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Lamarr maintained a home inventor's workshop where she tinkered for pleasure, working on diverse projects from improved traffic signals to dissolving carbonated drink tablets. George Antheil described her as genuinely enthusiastic about inventing, not merely instrumentally motivated. Her appreciation for film as an art form and her playful engagement with engineering problems were non-instrumental joys. This was a consistent pattern, not a one-off."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 4.17,
+          "Relational": 3.33,
+          "Core_5D_Avg": 4.2,
+          "Cultural-Social": 4.0,
+          "Moral-Affective": 4.17,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Hedy Lamarr",
+      "overall": {
+        "Core_5D_Avg": 4.2,
+        "Overall_Normalized_Equal_Avg": 4.02,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "A singular figure who bridged glamorous Hollywood stardom and genuine technical invention. Her frequency-hopping spread spectrum patent (with Antheil) was a creative milestone later recognized as a precursor to modern wireless communications. She showed courage escaping an abusive marriage and resilience navigating refugee life to Hollywood success. Her paradox of sex symbol and inventor is her defining archetype. Relational life was turbulent (six divorces), and later years were marked by reclusiveness. Heinlein competency is narrow — exceptional in artistic expression and solid in technical problem-solving, but thin outside those domains.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of culinary skill in the historical record. While she reportedly invented a bouillon-cube-like product for flavoring water, this was an invention concept rather than evidence of cooking ability."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of combat skills or physical defense capability. Her escape from Mandl was achieved through subterfuge and planning rather than physical confrontation."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Shearer, Stephen Michael. *Beautiful: The Life of Hedy Lamarr* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Lamarr was a mother to three children and presumably provided basic care. She sold war bonds and expressed concern for evacuee children killed in the SS City of Benares sinking. However, specific evidence of sustained or exceptional caregiving is limited, and her later reclusiveness strained family bonds."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Shearer, Stephen Michael. *Beautiful: The Life of Hedy Lamarr* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Lamarr endured the crisis of fleeing fascist Europe with composure and rebuilt her life successfully. However, she struggled with the existential challenges of aging — undergoing disfiguring plastic surgeries and becoming reclusive. Her final wish to have ashes scattered in the Vienna Woods suggests some late-life resolution, but overall evidence of composure facing mortality is limited."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Rhodes, Richard. *Hedy's Folly* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Lamarr reportedly tinkered in her home workshop, building models and small inventions. She worked with her hands on prototypes. However, the evidence suggests hobbyist-level craft rather than skilled repair or fabrication of complex systems."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Barton, Ruth. *Hedy Lamarr: The Most Beautiful Woman in Film* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Lamarr navigated from Vienna to Paris to London to Hollywood as a refugee, making her way through multiple countries during a dangerous political period. This represents social and logistical navigation rather than physical wayfinding, but it was competent travel across varied environments under duress."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record of Lamarr handling or processing animals or raw food resources."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Barton, Ruth. *Hedy Lamarr: The Most Beautiful Woman in Film* (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Lamarr worked effectively under studio direction as a contract actress at MGM, demonstrating followership. She collaborated as an equal with George Antheil on their invention. However, she was not known for leading teams or organizations, and her ability to follow was sometimes strained by conflicts with studios."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Rhodes, Richard. *Hedy's Folly* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Lamarr maintained a home inventor's workshop and reportedly built prototypes, including a model of her frequency-hopping device. She also worked on ideas for improved wing designs for Howard Hughes's aircraft. These are fabrication activities but at a hobbyist level, not construction of durable structures."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Rhodes, Richard. *Hedy's Folly* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Her escape from Mandl and her navigation from Austria to Hollywood showed planning capability. The torpedo guidance invention addressed a real strategic military problem. However, she never commanded operations or coordinated complex multi-person efforts."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Barton, Ruth. *Hedy Lamarr: The Most Beautiful Woman in Film* (2010)",
+            "Hollywood Walk of Fame (1960)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Lamarr was one of the major film actresses of Hollywood's Golden Age. She starred in landmark films including Ecstasy (1933, groundbreaking for its erotic content), Algiers (1938), Boom Town (1940), White Cargo (1942), and the commercially successful Samson and Delilah (1949). She received a star on the Hollywood Walk of Fame (1960). Her cultural impact on cinema and beauty standards was exceptional and defining."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence in the historical record of Lamarr providing medical aid or responding to health emergencies."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Rhodes, Richard. *Hedy's Folly* (2011)",
+            "US Patent 2,292,387 (1942)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The frequency-hopping patent required understanding of signal frequency, synchronization mechanics, and the mathematics of the player-piano-roll encoding system. She reportedly discussed aerodynamic principles with Howard Hughes's engineers. While not formally trained in mathematics, she demonstrated applied analytical reasoning well beyond what was expected of actresses of her era."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of agricultural work or natural resource management in Lamarr's life."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Rhodes, Richard. *Hedy's Folly* (2011)",
+            "US Patent 2,292,387 (1942)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The frequency-hopping spread spectrum patent demonstrates genuine technical problem-solving: she identified the vulnerability of radio-guided torpedoes to jamming and devised a synchronization-based countermeasure using the cutting-edge mechanical technology of her era (player-piano roll mechanisms). She also reportedly worked with Howard Hughes's engineers on aerodynamic improvements to aircraft designs. For someone without formal engineering training, this represents notable technical competence."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.2,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 4.02,
+    "created_at": "2026-03-22T17:59:30.654Z",
+    "updated_at": "2026-03-22T17:59:30.665Z"
+  }
+}
+]

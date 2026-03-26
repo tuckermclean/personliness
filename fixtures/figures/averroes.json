@@ -1,0 +1,365 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 221,
+  "fields": {
+    "name": "Averroes",
+    "slug": "averroes",
+    "bio_short": "A towering Andalusian polymath whose exceptional philosophical insight and wide-ranging scholarship defined medieval rationalism. Averroes excelled in cognitive and cultural-social dimensions through his Aristotelian commentaries, medical works, and jurisprudence, with lasting impact across Islamic, Jewish, and Christian civilizations. His moral-affective profile is moderate, reflecting intellectual courage through exile and the integration of philosophy with faith. Relational and practical competency evidence is sparse, reflecting the limits of the historical record for a primarily intellectu",
+    "bio_long": "Ibn Rushd, Latinized as Averroes, was an Andalusian polymath and jurist who was proficient in a variety of intellectual fields, including philosophy, theology, medicine, astronomy, physics, psychology, mathematics, neurology, Islamic jurisprudence and law, and linguistics. The author of more than 100 books and treatises, his philosophical works include numerous commentaries on Aristotle, for which he was known in the Western world as \"The Commentator\" and \"Father of Rationalism\".",
+    "source_notes": "https://en.wikipedia.org/wiki/Averroes",
+    "image": "figures/330px-Andrea_di_bonaiuto2C_apotesosi_di_san_tommaso_d27aquino2C_11_averroC3A8.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991.",
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Averroes navigated Almohad court politics for decades, securing patronage from Caliph Abu Yaqub Yusuf I and maintaining his positions as qadi and court physician. However, he ultimately failed to anticipate the conservative backlash under Abu Yusuf Yaqub al-Mansur, resulting in exile to Lucena and the burning of his philosophical works (~1195). This represents episodic political navigation rather than sustained strategic adaptation."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Endress, Gerhard. 'Averroes' De Caelo: Ibn Rushd's Cosmology in his Commentaries on Aristotle's On the Heavens,' Arabic Sciences and Philosophy, 1995.",
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Averroes created a three-tiered system of Aristotelian commentary (epitome, middle, and long) that became the standard format through which medieval Europe accessed Aristotle's thought, translated by Michael Scot and others. His novel framework in the Fasl al-Maqal—that philosophy and scripture cannot truly contradict because truth is one—was an original synthesis. His medical work Colliget offered original observations including identifying the retina's photoreceptive function. However, his genius was primarily in systematic explication and synthesis of Aristotle rather than the creation of an entirely new philosophical paradigm; the core framework (Aristotelianism) predated him."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Averroes, *Fasl al-Maqal* (Decisive Treatise), trans. Charles Butterworth, BYU Press, 2001.",
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001.",
+              "Taylor, Richard C. 'Averroes: Religious Dialectic and Aristotelian Philosophical Thought,' in *The Cambridge Companion to Arabic Philosophy*, 2005."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "His Fasl al-Maqal (Decisive Treatise) articulated a principled framework for the compatibility of philosophy and revealed religion that influenced thinkers far beyond his own community, including Thomas Aquinas, Siger of Brabant, and the Latin Averroist movement at the University of Paris. His Tahafut al-Tahafut systematically rebutted al-Ghazali's attack on philosophy, defending rational inquiry with unprecedented rigor. These works shaped centuries of debate about reason and faith across Islamic, Jewish (influencing Maimonides' circle and Gersonides), and Christian traditions."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Averroes, *Bidayat al-Mujtahid* (The Distinguished Jurist's Primer), trans. Imran Ahsan Khan Nyazee, Garnet Publishing, 1994.",
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Averroes served as qadi (chief judge) of both Seville and Córdoba, administering Islamic law across major Andalusian cities. His Bidayat al-Mujtahid wa Nihayat al-Muqtasid is a masterwork of comparative Islamic jurisprudence that systematically analyzed disagreements among legal schools and their methodological roots, demonstrating deep legal-administrative knowledge. However, there is no evidence he created lasting institutional or legal reforms that endured beyond his own tenure."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Averroes demonstrably operated as a subordinate to the Almohad caliphs, a superior as chief judge, an intellectual peer with fellow scholars, and a father. However, documented qualitatively distinct behavior across these modes is limited. The sources present him primarily through his professional and intellectual roles rather than revealing relational adaptability across different human contexts."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "The historical record preserves virtually no information about Averroes' marriage(s) or intimate partnerships. We know he had children (his son Abu Muhammad became a physician), indicating at least one marriage, but no documented evidence of mutual respect, support during crisis, or emotional availability survives. The anecdote that he only missed one night of study (his wedding night) may suggest intellectual absorption at the expense of partnership, but even this is insufficiently documented to score."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991.",
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "His son Abu Muhammad ibn Rushd became a physician, suggesting some professional mentoring and transmission of knowledge. Averroes also mentored students within the Andalusian scholarly tradition. However, specific documented evidence of his parenting style, mentoring methods, or whether his mentees developed genuine autonomy (rather than replication) is lacking in the sources."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001.",
+              "Ivry, Alfred. 'Averroes and the West,' in *A Companion to Philosophy in the Middle Ages*, Blackwell, 2003.",
+              "Dante, *Inferno*, Canto IV."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Averroes' commentaries on Aristotle fundamentally shaped medieval European philosophy for centuries; Aquinas cited 'the Commentator' over 500 times in his works. Latin Averroism persisted as a major intellectual force through the Renaissance. His influence on Jewish philosophy (Gersonides, the Tibbonid translators) created a lasting tradition. Dante placed him among the great pagan thinkers in the Divine Comedy. His impact is still clearly operative today in philosophy of religion, Islamic thought, and the historiography of medieval philosophy across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Dante, *Inferno*, Canto IV.",
+              "Raphael, *The School of Athens*, Vatican Museums, 1509–1511.",
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Averroes serves as a symbol of rationalism within Islamic civilization and the bridge between Greek philosophy and medieval European thought. Raphael depicted him in 'The School of Athens' (1509–1511) alongside Plato and Aristotle; Dante placed him in the Noble Castle of Limbo. He is a cross-cultural symbol recognized in Islamic, Jewish, and Christian traditions. However, his archetypal recognition is largely confined to intellectual history and does not extend broadly into popular culture or universal mythic patterns."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Averroes did not found lasting institutions. He served within existing ones—the Almohad judiciary, the court, the scholarly tradition. Latin Averroism was an intellectual movement that emerged after his death through the translation and reception of his works, not an institution he deliberately built. His jurisprudential and medical traditions were influential but not institutionally distinct from the broader Maliki and Andalusian scholarly frameworks."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001.",
+              "Ivry, Alfred. 'Averroes and the West,' in *A Companion to Philosophy in the Middle Ages*, Blackwell, 2003."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Averroes held the highest judicial office in Córdoba and served as court physician—positions of significant institutional influence. His intellectual influence was enormous: he inspired the Latin Averroist movement, shaped Aquinas's engagement with Aristotle, and influenced Jewish philosophers including Gersonides and members of Maimonides' intellectual circle. However, his leadership was primarily intellectual and judicial; he did not lead across qualitatively different contexts such as military and civilian, or crisis and stability."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The historical record for Averroes focuses almost entirely on his intellectual and professional life. We know he came from a prominent Córdoban family of jurists and was embedded in Andalusian social life, but specific documented engagement with mundane, everyday activities—cooking, humor with children, manual labor—is essentially absent from the sources. His humanity is glimpsed only indirectly through his roles as father and physician."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Averroes, *Bidayat al-Mujtahid*, trans. Nyazee, Garnet Publishing, 1994.",
+              "Leaman, Oliver. *Averroes and His Philosophy*. Clarendon Press, 1988."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "As qadi of Seville and Córdoba, justice was his professional vocation. His Bidayat al-Mujtahid demonstrates a commitment to impartial analysis of all legal schools rather than partisan defense of his own Maliki tradition, weighing each school's reasoning on its merits. His philosophical works argue for the rights of qualified thinkers to pursue philosophical inquiry regardless of theological objections. However, specific documented cases of ruling against personal or group interest are not preserved."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001.",
+              "Leaman, Oliver. *Averroes and His Philosophy*. Clarendon Press, 1988."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "As a practicing physician and court doctor, Averroes had a professional orientation toward care for the ill. In his commentary on Plato's Republic, he noted that the subordination of women in Almohad society was harmful, suggesting concern for those beyond his immediate in-group. However, specific documented acts of compassion toward adversaries or outgroup members are not preserved in the primary sources."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991.",
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Averroes persistently defended Aristotelian philosophy in an increasingly conservative Almohad intellectual climate, knowing the risks. When Caliph al-Mansur ordered his exile to Lucena and the burning of his philosophical works (~1195), he endured public disgrace and loss of all positions. He was later rehabilitated before his death in 1198. His sustained intellectual courage in defending falsafa against theological attacks was a defining feature, though this was primarily one domain of courage (intellectual/professional)."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Averroes' three levels of commentary on Aristotle (composed over decades) show intellectual development and refinement of positions, suggesting growth. However, specific documented instances where he reversed a prior position, accepted correction, or acknowledged error are not preserved in the historical record. The hagiographic and scholarly tradition presents him as consistently brilliant rather than as someone who struggled and changed, capping this score per the rubric's sanitization rule."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001.",
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Averroes endured exile to Lucena (~1195), public disgrace, loss of all his positions, and the burning of his philosophical works—a devastating blow for a scholar. He survived this period and was rehabilitated before his death in 1198. This represents effective functioning through professional ruin and social humiliation. However, evidence of a second qualitatively different form of adversity (e.g., material deprivation or personal bereavement) is limited in the sources."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Averroes, *Fasl al-Maqal*, trans. Butterworth, BYU Press, 2001.",
+              "Leaman, Oliver. *Averroes and His Philosophy*. Clarendon Press, 1988."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Averroes inhabited roles that were in tension: Aristotelian philosopher committed to rational demonstration, Maliki jurist upholding religious law, practicing physician relying on empirical observation, and Almohad court official navigating political power. His Fasl al-Maqal explicitly theorized how philosophical inquiry and religious obligation coexist. However, within his Andalusian context, combining philosophy, medicine, and jurisprudence was not as contradictory as it might appear—many scholars were polymaths. The philosophy-religion tension is the most genuinely paradoxical integration."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Averroes died in Marrakesh in December 1198. The sources do not preserve detailed accounts of his final days or specific evidence of composure in facing his own death. His philosophical works engage with Aristotelian views on the soul and immortality, including the controversial doctrine of the unity of the intellect, but these are philosophical positions rather than personal testimony about mortality acceptance."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Averroes lived to approximately 72 years, a considerable age for the 12th century, and maintained intellectual productivity into old age, suggesting reasonable physical constitution. He traveled between Córdoba, Seville, and Marrakesh, crossing varied terrain and the Strait of Gibraltar. However, no specific physical feats or endurance challenges beyond travel are documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991.",
+              "Leaman, Oliver. *Averroes and His Philosophy*. Clarendon Press, 1988."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Averroes' extensive commentaries on Aristotle and his systematic engagement with Greek thought suggest genuine intellectual delight in philosophical inquiry—his devotion to commentary exceeded any professional requirement. He reportedly remarked that he only missed one night of study (his wedding night), suggesting all-consuming intellectual passion. However, specific documented instances of play, humor, or non-instrumental aesthetic engagement are sparse."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 2.22,
+          "Core_5D_Avg": 4.91,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 4.67
+        }
+      },
+      "figure": "Averroes (Ibn Rushd)",
+      "overall": {
+        "Core_5D_Avg": 4.91,
+        "Overall_Normalized_Equal_Avg": 4.61,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "A towering Andalusian polymath whose exceptional philosophical insight and wide-ranging scholarship defined medieval rationalism. Averroes excelled in cognitive and cultural-social dimensions through his Aristotelian commentaries, medical works, and jurisprudence, with lasting impact across Islamic, Jewish, and Christian civilizations. His moral-affective profile is moderate, reflecting intellectual courage through exile and the integration of philosophy with faith. Relational and practical competency evidence is sparse, reflecting the limits of the historical record for a primarily intellectual figure. His greatest legacy is as \"The Commentator\" who transmitted and reinterpreted Greek philosophy for Europe and defended rational inquiry against theological attack.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of culinary activity. His elite social position and the nature of the historical record provide no information on this domain."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of military service or combat skill. Averroes was a scholar, jurist, and physician throughout his career, with no known military involvement despite living in a period of Reconquista conflict."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Averroes, *Kitab al-Kulliyyat fi al-Tibb* (Colliget).",
+            "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As court physician to the Almohad caliphs, Averroes had professional orientation toward caring for the ill. His medical encyclopedia Colliget (Kitab al-Kulliyyat fi al-Tibb) discusses patient care and treatment. However, specific documented instances of personal caregiving beyond his professional role are not preserved."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Averroes endured exile and the burning of his philosophical works with apparent composure, as he was rehabilitated before death. His philosophical framework—especially his engagement with Aristotelian psychology and the immortality of the intellect—suggests deep existential integration. However, specific documented evidence of composure in the face of his own imminent death or during the crisis of his exile is limited."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of Averroes making, fixing, or adapting tools or physical systems. His work was entirely intellectual and professional."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Averroes traveled between Córdoba, Seville, and Marrakesh, including crossing the Strait of Gibraltar—significant journeys in 12th-century Iberia and North Africa. However, there is no evidence of personal navigational skill or exceptional wayfinding ability; he likely traveled with retinues appropriate to his station."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of Averroes butchering, processing animals, or handling raw food resources. His elite social position as a jurist and physician makes such activities unlikely to have been documented even if they occurred."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991.",
+            "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As chief judge, Averroes gave orders and directed legal proceedings; as court physician, he served at the pleasure of the caliph and followed royal directives. He navigated both roles effectively for decades, demonstrating capacity for both leadership and deference. His ability to maintain intellectual independence while serving within the Almohad hierarchy shows skill in both modes, though his eventual exile suggests limits."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of Averroes designing or building physical structures. His contributions were entirely intellectual and professional."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Urvoy, Dominique. *Ibn Rushd (Averroes)*. Routledge, 1991."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "As chief judge of Córdoba and Seville, Averroes managed judicial administration requiring coordination of legal proceedings and staff. He also managed the logistics of his enormous scholarly output (over 100 works). However, he was not a military commander or political leader who coordinated complex multi-domain operations under adversarial pressure."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001.",
+            "Leaman, Oliver. *Averroes and His Philosophy*. Clarendon Press, 1988."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Averroes authored over 100 books and treatises spanning philosophy, medicine, jurisprudence, astronomy, and theology. His Aristotelian commentaries are considered masterworks of philosophical prose, and his Tahafut al-Tahafut and Fasl al-Maqal demonstrate sophisticated literary-argumentative craft. His Bidayat al-Mujtahid is also regarded as a model of legal comparative writing. These represent major cultural-intellectual expression, though primarily scholarly rather than artistic in the narrow sense."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Averroes, *Kitab al-Kulliyyat fi al-Tibb* (Colliget).",
+            "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Averroes served as court physician to two Almohad caliphs and wrote the Colliget (Kitab al-Kulliyyat fi al-Tibb), a comprehensive medical encyclopedia covering anatomy, pathology, diagnosis, therapeutics, and hygiene. The work was translated into Latin and used as a medical textbook in European universities for centuries. He made original observations including on the retina's photoreceptive function and the course of smallpox conferring immunity. This represents high medical competence relative to his era."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Sabra, A.I. 'The Andalusian Revolt Against Ptolemaic Astronomy,' in *Transformation and Tradition in the Sciences*, Cambridge, 1984.",
+            "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Averroes studied mathematics and astronomy, writing on celestial mechanics and critiquing Ptolemaic epicycles. His philosophical methodology was rigorously logical, applying Aristotelian demonstrative science systematically. His medical work required quantitative reasoning about dosages and prognoses. His astronomical work engaged with the mathematical models of his era at a high level."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No documented evidence of agricultural activity or natural resource management. Averroes was an urban intellectual and professional throughout his recorded life."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Sabra, A.I. 'The Andalusian Revolt Against Ptolemaic Astronomy,' in *Transformation and Tradition in the Sciences*, Cambridge, 1984.",
+            "Fakhry, Majid. *Averroes: His Life, Works and Influence*. Oneworld, 2001."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Averroes engaged with the cutting-edge knowledge systems of his era: his astronomical work critiqued Ptolemaic epicycles and proposed alternative models; his medical practice as court physician required practical diagnostic problem-solving; and his philosophical methodology systematized Aristotelian demonstrative science in ways that were technically innovative for medieval scholarship."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.91,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 4.61,
+    "created_at": "2026-03-22T23:25:53.822Z",
+    "updated_at": "2026-03-22T23:25:53.839Z"
+  }
+}
+]

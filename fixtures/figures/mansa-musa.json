@@ -1,0 +1,371 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 196,
+  "fields": {
+    "name": "Mansa Musa",
+    "slug": "mansa-musa",
+    "bio_short": "Mansa Musa's greatest strengths lie in the cultural-social domain: exceptional leadership across military, diplomatic, and religious contexts, institution-building that endured centuries (Djinguereber Mosque, Timbuktu's scholarly tradition), and a lasting global legacy. Cognitive and moral-affective traits are moderate but limited by thin source material — almost everything we know comes from Arabic-language external accounts (al-Umari, Ibn Battuta, Ibn Khaldun). Embodied-existential and relational dimensions are poorly documented. Heinlein-style practical breadth is constrained by his elite s",
+    "bio_long": "Mansa Musa was the ninth Mansa of the Mali Empire, which reached its territorial peak during his reign. Musa's reign is often regarded as the zenith of Mali's power and prestige, although he features less in Mandinka oral traditions than his predecessors.",
+    "source_notes": "https://en.wikipedia.org/wiki/Mansa_Musa",
+    "image": "figures/330px-Catalan_Atlas_BNF_Sheet_6_Mansa_Musa_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Levtzion, 'Ancient Ghana and Mali' (1973)",
+              "Al-Umari, 'Masalik al-Absar fi Mamalik al-Amsar' (14th c.), trans. in Levtzion & Hopkins, 'Corpus of Early Arabic Sources for West African History' (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Musa managed one of the largest empires of his era and executed the logistically extraordinary 1324 hajj involving thousands of people and tons of gold across the Sahara. When his lavish gold distribution crashed Cairo's gold market, he attempted to mitigate the damage by borrowing gold back at high interest — reactive adaptation, if imperfect. His annexation and integration of Timbuktu and Gao into Mali's trade network showed strategic foresight, but we lack evidence of successful adaptation when initial plans failed in a military or political crisis."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Hunwick, 'Timbuktu and the Songhay Empire' (2003)",
+              "Conrad, 'Empires of Medieval West Africa: Ghana, Mali, and Songhay' (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Musa's decision to bring the Andalusian architect Abu Ishaq al-Sahili back from his hajj introduced fired-brick construction techniques to the western Sudan, transforming the region's monumental architecture. His transformation of Timbuktu from a seasonal trading camp into a center of Islamic scholarship was a significant innovation in cultural infrastructure. However, these were acts of ambitious patronage and cultural importation rather than wholly original paradigm shifts attributable to his own thinking."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Gomez, 'African Dominion: A New History of Empire in Early and Medieval West Africa' (2018)",
+              "Levtzion & Hopkins, 'Corpus of Early Arabic Sources for West African History' (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Musa was a devout Muslim who promoted Islamic learning and brought scholars from the Hejaz and Egypt to Mali. However, no direct writings, speeches, or articulated philosophical positions survive from him. His contributions were as a patron of Islamic education rather than as an original moral or philosophical thinker. His influence on thinkers beyond his own community is indirect at best."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Levtzion, 'Ancient Ghana and Mali' (1973)",
+              "Ibn Battuta, 'Rihla' (c. 1355), trans. in Levtzion & Hopkins (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Musa administered a vast empire with a provincial governance system including appointed governors (farba/farin), a taxation framework on gold and salt trades, and trade regulation across trans-Saharan routes. Ibn Battuta's account of Mali under Musa's successor Sulayman describes a functioning bureaucracy and court protocol that Musa likely consolidated. However, many administrative structures were inherited from Sundiata, and the empire weakened notably under Musa's son Maghan, suggesting the systems were not fully robust beyond his direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Al-Umari in Levtzion & Hopkins (2000)",
+              "Ibn Battuta in Levtzion & Hopkins (2000)",
+              "Levtzion, 'Ancient Ghana and Mali' (1973)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Sources document Musa in several relational modes: as sovereign (elaborate court protocol described by Ibn Battuta), as diplomatic guest (his complex interaction with the Mamluk sultan in Cairo, initially resisting prostration before compromising), as religious pilgrim (submitting to the authority of Islamic ritual), as patron to scholars and architects (al-Sahili), and as spouse (traveling with Inari Kunate). This covers at least four distinct relational modes with documented behavioral variation, though not five."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Al-Umari in Levtzion & Hopkins (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Musa's wife Inari Kunate is mentioned as accompanying him on the 1324 hajj — a significant detail suggesting she was valued enough to bring on this extraordinary journey. Al-Umari mentions her presence. However, no evidence survives regarding the quality of their relationship: mutual respect, emotional availability, or support during crisis. The mere fact of her presence on the hajj provides weak but real evidence of partnership."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Levtzion, 'Ancient Ghana and Mali' (1973)",
+              "Ibn Khaldun in Levtzion & Hopkins (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Musa's son Maghan I succeeded him but proved an ineffective ruler under whom the empire began to decline, losing control of Timbuktu briefly. This is weak negative evidence regarding mentoring success, though a son's failure is not conclusive about a father's quality. Musa brought scholars to Mali and established educational infrastructure, showing investment in the development of his people broadly, but specific mentoring relationships are undocumented."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Catalan Atlas (1375), Bibliothèque nationale de France",
+              "Gomez, 'African Dominion' (2018)",
+              "Austen, 'Trans-Saharan Africa in World History' (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Musa's legacy spans more than 500 years and multiple civilizations: the 1375 Catalan Atlas depicted him holding a gold nugget, placing West Africa on European maps; Islamic historiography preserved his reputation as the paradigm of African Muslim kingship; the gold trade networks he strengthened shaped the medieval Mediterranean economy; and in the 21st century he is globally cited as possibly the wealthiest person in history, reshaping popular understanding of pre-colonial African civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Catalan Atlas (1375)",
+              "Gomez, 'African Dominion' (2018)",
+              "Conrad, 'Empires of Medieval West Africa' (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Musa is recognized cross-culturally as the archetype of the fabulously wealthy, generous African ruler — his image on the Catalan Atlas circulated in medieval Europe, and in the modern era he serves as a counter-symbol to narratives of African poverty. He is recognized in Islamic, European, and modern global contexts. However, his archetypal resonance is narrower than figures like Alexander or Solomon; he primarily symbolizes wealth and African grandeur rather than a universal human archetype."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Hunwick, 'Timbuktu and the Songhay Empire' (2003)",
+              "Conrad, 'Empires of Medieval West Africa' (2005)",
+              "Levtzion, 'Ancient Ghana and Mali' (1973)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Musa commissioned the Djinguereber Mosque in Timbuktu (built by al-Sahili, c. 1327), which still stands today as a UNESCO World Heritage Site nearly 700 years later. He significantly enhanced the Sankore Mosque complex, which became one of the medieval world's great centers of Islamic learning. He established royal audience halls and administrative structures in Niani and Timbuktu. The scholarly tradition he catalyzed in Timbuktu survived through the Songhai period and beyond, well exceeding the two-generation threshold."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Levtzion, 'Ancient Ghana and Mali' (1973)",
+              "Al-Umari in Levtzion & Hopkins (2000)",
+              "Gomez, 'African Dominion' (2018)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Musa led successfully across qualitatively different contexts: (1) domestic governance of one of the world's largest empires by area, (2) military expansion incorporating Timbuktu and Gao, (3) international diplomacy — his reception in Cairo impressed the Mamluk court and established Mali in the consciousness of the Islamic world, and (4) religious-cultural patronage that attracted scholars from across the Muslim world. Al-Umari recorded that Musa's visit so impressed Cairo that informants were still talking about it years later."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Levtzion & Hopkins (2000)",
+              "Conrad, 'Sunjata: A West African Epic of the Mande Hunters' (2004)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Surviving sources focus overwhelmingly on Musa's extraordinary wealth, piety, and power. Al-Umari and Ibn Khaldun describe his court and hajj in terms of spectacle and grandeur. Ibn Battuta's descriptions of Malian court life emphasize elaborate protocol. We have almost no documentation of Musa engaging in mundane everyday activities — cooking, humor, manual labor, or ordinary domestic life. Mandinka oral traditions, which often preserve more personal details, actually feature Musa less than Sundiata."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Ibn Battuta, 'Rihla' in Levtzion & Hopkins (2000)",
+              "Levtzion, 'Ancient Ghana and Mali' (1973)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Ibn Battuta described the Mali court's elaborate judicial procedures under Musa's successor, suggesting a legal culture Musa cultivated. Musa promoted Islamic law and its application. However, no specific cases are documented where he ruled against personal or group interest in favor of principle. The evidence is suggestive of a functioning justice system but lacks specific adjudication examples."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Al-Umari, 'Masalik al-Absar' in Levtzion & Hopkins (2000)",
+              "Gomez, 'African Dominion' (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Al-Umari's informants in Cairo documented Musa's extraordinary generosity during the 1324 hajj: he distributed gold to virtually everyone he encountered, from Mamluk officials to ordinary beggars, to such an extent that he depressed gold prices in Egypt for over a decade. This went beyond political necessity. However, we lack documented evidence of compassion specifically toward adversaries or conquered peoples; his military campaigns to expand the empire suggest standard imperial behavior rather than exceptional mercy."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Conrad, 'Empires of Medieval West Africa' (2005)",
+              "Levtzion, 'Ancient Ghana and Mali' (1973)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The trans-Saharan hajj (c. 4,000+ miles each way) was a genuinely hazardous undertaking involving desert crossings where entire caravans could perish. Musa undertook this with a massive entourage and returned successfully. His military campaigns to consolidate and expand the empire (including campaigns along the Niger Bend) also required sustained leadership under pressure. These represent two distinct high-stakes contexts, though evidence of personal battlefield courage is not documented."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Al-Umari in Levtzion & Hopkins (2000)",
+              "Ibn Khaldun, 'Kitab al-Ibar' in Levtzion & Hopkins (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The gold-market incident in Cairo is the closest documented case: Musa's excessive generosity crashed the gold price, and he subsequently attempted to correct this by borrowing gold back at high interest — showing recognition of error and attempted correction. However, the sources are not framed as moral growth narratives, and our primary sources (al-Umari, Ibn Khaldun) tend toward laudatory accounts. No clear reversal of a prior moral position is documented. The hagiographic tendency caps this at 1 per rubric guidelines."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Al-Umari in Levtzion & Hopkins (2000)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Musa was born into Mali's royal family and ascended to the throne, likely without experiencing material deprivation. The Saharan crossing during the hajj involved real physical hardship, but he traveled with extraordinary luxury (reportedly 60,000 porters and 80 camels carrying gold). We lack evidence of functioning effectively under bereavement, exile, illness, or sustained material adversity — the two qualitatively different forms of hardship required for score 3."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Gomez, 'African Dominion' (2018)",
+              "Levtzion, 'Ancient Ghana and Mali' (1973)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Musa inhabited multiple seemingly contradictory roles: military conqueror who expanded Mali by force yet devoted pilgrim who submitted to Islamic religious authority; possessor of legendary wealth yet one who gave it away so freely he disrupted an entire economy; traditional Mandinka sacral king yet promoter of cosmopolitan Islamic scholarship. These represent at least three contradictory role-pairs. However, the evidence for how he personally navigated these tensions — rather than simply occupying these roles sequentially — is thin in the surviving sources."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Levtzion, 'Ancient Ghana and Mali' (1973)",
+              "Bell, 'The Age of Mansa Musa of Mali' (1972)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No credible evidence exists regarding Musa's attitude toward his own death. The date and circumstances of his death (c. 1332-1337, dates debated) are poorly documented. While his hajj reflects Islamic piety and awareness of divine judgment, this is general religious observance rather than documented composure in the face of imminent personal death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Levtzion, 'Ancient Ghana and Mali' (1973)",
+              "Al-Umari in Levtzion & Hopkins (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The 1324 hajj required crossing the Sahara Desert — one of the most physically demanding journeys possible in the medieval world — both ways. Even traveling with a large retinue and provisions, the months-long desert crossing demanded sustained physical endurance. However, this is documented for only one period of his life, and we lack evidence of physical feats or endurance across multiple life-stages as required for score 3."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Hunwick, 'Timbuktu and the Songhay Empire' (2003)",
+              "Al-Umari in Levtzion & Hopkins (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Musa's decision to bring the architect al-Sahili across the Sahara to build the Djinguereber Mosque and a royal palace demonstrates strong aesthetic investment. The architectural patronage — choosing fired-brick construction with new decorative elements — goes beyond mere functionality to aesthetic ambition. Al-Umari's accounts suggest Musa's court featured elaborate ceremonial displays. However, we cannot fully disentangle aesthetic appreciation from political display, and evidence of non-instrumental play or humor is absent."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 4.44,
+          "Core_5D_Avg": 5.59,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 4.67
+        }
+      },
+      "figure": "Mansa Musa",
+      "overall": {
+        "Core_5D_Avg": 5.59,
+        "Overall_Normalized_Equal_Avg": 5.18,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "Mansa Musa's greatest strengths lie in the cultural-social domain: exceptional leadership across military, diplomatic, and religious contexts, institution-building that endured centuries (Djinguereber Mosque, Timbuktu's scholarly tradition), and a lasting global legacy. Cognitive and moral-affective traits are moderate but limited by thin source material — almost everything we know comes from Arabic-language external accounts (al-Umari, Ibn Battuta, Ibn Khaldun). Embodied-existential and relational dimensions are poorly documented. Heinlein-style practical breadth is constrained by his elite social position and lack of evidence for hands-on skills. He remains one of history's most consequential African rulers, but source limitations cap our certainty about many personal traits.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists that Musa personally prepared food. As a monarch, meals would have been prepared by court staff."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Levtzion, 'Ancient Ghana and Mali' (1973)",
+            "Ibn Khaldun in Levtzion & Hopkins (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Musa expanded the Mali Empire through military campaigns, notably incorporating Timbuktu and Gao and reportedly conquering 24 cities. His general Sagmandia captured the Songhai capital on his behalf. However, evidence of Musa's personal combat skill is absent — his role was as commander rather than warrior, and specific battlefield actions are not attributed to him personally."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Al-Umari in Levtzion & Hopkins (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Musa's prodigious generosity to the poor in Cairo (documented by al-Umari) and his investment in educational and religious infrastructure for his subjects suggest a broad caregiving orientation. However, no specific evidence exists of personal, hands-on caregiving — tending the sick, comforting individuals, or providing direct emotional support."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Al-Umari in Levtzion & Hopkins (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Musa's devout Islamic practice and completion of the hajj — a journey that involved real mortal risk — suggest some composure in the face of existential challenges. However, no specific documentation exists of his behavior facing personal crisis, mortal danger, or death. The hajj demonstrates willingness to face risk, but composure under crisis is not specifically attested."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists that Musa personally engaged in manual crafts, tool-making, or repair work. As a sacral king in the Mandinka tradition, such activities would have been socially unusual for his station."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Austen, 'Trans-Saharan Africa in World History' (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Musa traversed the trans-Saharan trade routes during his hajj, one of the most demanding navigational challenges of the medieval world. However, he almost certainly relied on experienced guides and established caravan routes rather than personal navigational skill. His awareness of the geography of his empire and beyond is implied by his governance of a vast territory."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists in any surviving source that Musa personally engaged in animal husbandry, butchering, or food processing. As a royal figure, such tasks would have been performed by others."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Al-Umari in Levtzion & Hopkins (2000)",
+            "Levtzion, 'Ancient Ghana and Mali' (1973)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Musa was an outstanding leader — governing a vast empire, commanding military campaigns, and orchestrating international diplomacy. He also demonstrated followership: the hajj itself was an act of submission to divine authority, and in Cairo he ultimately deferred to local court protocol by acknowledging the Mamluk sultan (after initial resistance), showing capacity to follow social norms outside his sovereignty."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Hunwick, 'Timbuktu and the Songhay Empire' (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Musa commissioned significant construction projects including the Djinguereber Mosque, a royal palace in Timbuktu, and audience halls, demonstrating understanding of construction as a patron. He recruited al-Sahili specifically for his architectural expertise, showing discernment about building quality. However, there is no evidence he personally designed or built anything."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Al-Umari in Levtzion & Hopkins (2000)",
+            "Levtzion, 'Ancient Ghana and Mali' (1973)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The 1324 hajj was one of the most complex logistical operations of the medieval period: coordinating reportedly 60,000 people, 80 camels carrying 300 pounds of gold each, provisions for months of desert travel, and diplomatic arrangements across multiple polities (Mali, Egypt, Hejaz). He also coordinated military campaigns to incorporate Timbuktu and Gao into the empire."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Gomez, 'African Dominion' (2018)",
+            "Hunwick, 'Timbuktu and the Songhay Empire' (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Musa was an exceptional patron of architecture, scholarship, and Islamic culture — bringing scholars, books, and an architect back from the hajj. His court featured elaborate ceremonial arts. However, no evidence exists that he personally created works of art, literature, music, or performance. His role was as patron and consumer of culture, not creator."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists that Musa had personal medical knowledge or engaged in treating injuries or illnesses. No accounts of emergency response in a medical context survive."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Al-Umari in Levtzion & Hopkins (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Managing the gold and salt trade revenues of the Mali Empire required some numerical and economic reasoning, and Musa's attempt to correct the gold-price crash in Cairo by borrowing gold back shows awareness of economic mechanisms. However, no specific evidence of mathematical skill, accounting practices, or analytical reasoning by Musa personally is documented."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Levtzion, 'Ancient Ghana and Mali' (1973)",
+            "Austen, 'Trans-Saharan Africa in World History' (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Musa managed the Mali Empire's extraordinary gold and salt resources — the Bambuk and Bure goldfields were the primary source of gold for the Mediterranean world during his reign. He regulated trade across trans-Saharan routes and managed the empire's agricultural surplus sufficient to support major urban centers. This represents high-level resource management, though personal involvement in agricultural practice is undocumented."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Conrad, 'Empires of Medieval West Africa' (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Musa showed awareness of cutting-edge technologies by importing fired-brick construction techniques via al-Sahili and bringing Islamic educational technologies (books, scholarly methods) to Mali. His attempt to correct the Cairo gold-price disruption through counter-borrowing shows systemic thinking. However, these were acts of technology transfer and economic adjustment rather than personal technical problem-solving."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.59,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 5.18,
+    "created_at": "2026-03-22T22:07:28.882Z",
+    "updated_at": "2026-03-22T22:07:28.897Z"
+  }
+}
+]

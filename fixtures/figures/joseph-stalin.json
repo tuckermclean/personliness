@@ -1,0 +1,386 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 157,
+  "fields": {
+    "name": "Joseph Stalin",
+    "slug": "joseph-stalin",
+    "bio_short": "Stalin was a figure of extreme contrasts—exceptional in cognitive-strategic and cultural-social domains (political maneuvering, institution-building, global impact) but near-zero in moral-affective and relational dimensions. His administrative systems endured for decades, but his reign produced catastrophic human suffering through purges, forced collectivization, and the Gulag. Heinlein competency breadth was narrow, concentrated almost entirely in command and leadership rather than practical skills. A towering historical force defined by power-acquisition excellence and profound moral-relatio",
+    "bio_long": "Joseph Vissarionovich Stalin was a Soviet revolutionary and politician who led the Soviet Union from 1924 until his death in 1953. He held office as general secretary of the Communist Party from 1922 to 1952 and as premier from 1941 until his death. Despite initially governing the country as part of a collective leadership, he eventually consolidated power to become a dictator by the 1930s. Stalin codified the party's official interpretation of Marxism as Marxism–Leninism, and his version of it is referred to as Stalinism.",
+    "source_notes": "https://en.wikipedia.org/wiki/Joseph_Stalin",
+    "image": "figures/330px-Joseph_Stalin_in_1932_28429_28cropped2928229.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Kotkin, *Stalin: Waiting for Hitler, 1929–1941* (2017)",
+              "Service, *Stalin: A Biography* (2005)",
+              "Montefiore, *Stalin: The Court of the Red Tsar* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Stalin outmaneuvered Trotsky, Zinoviev, Kamenev, and Bukharin through shifting alliances in the 1920s—first allying with Zinoviev and Kamenev against Trotsky, then with Bukharin against the Left Opposition, then turning on Bukharin. Critically, the rubric requires adaptation when plans fail: despite catastrophic misjudgments (purging the Red Army officer corps 1937-38, ignoring intelligence about Barbarossa), he recovered—reorganizing command, appointing Zhukov, and directing the war effort to victory. At Tehran and Yalta he secured Soviet control of Eastern Europe through deft negotiation. Counterexample: his reported paralysis for several days after Barbarossa (June 22, 1941) is a significant strategic lapse, but it was temporary and followed by effective adaptation, which is precisely what the rubric rewards."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Davies, *The Socialist Offensive: The Collectivisation of Soviet Agriculture* (1980)",
+              "Nove, *An Economic History of the USSR* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The Five-Year Plans (beginning 1928) implemented a full command economy at unprecedented scale, a genuinely novel approach to industrialization that was widely imitated by China, Eastern Bloc nations, and developing countries. 'Socialism in one country' represented a significant doctrinal innovation departing from Trotsky's permanent revolution. However, these innovations built substantially on existing Marxist ideas and War Communism precedents, and their catastrophic implementation (Holodomor, chronic inefficiency) limits the case for a paradigm shift attributable primarily to his creative genius rather than his willingness to use coercive power."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Tucker, *Stalin as Revolutionary, 1879–1929* (1973)",
+              "van Ree, *The Political Thought of Joseph Stalin* (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Stalin wrote 'Marxism and the National Question' (1913), praised by Lenin, and 'Dialectical and Historical Materialism' (1938), but scholars widely regard his theoretical contributions as derivative simplifications of Marx and Lenin rather than original philosophical insight. 'Socialism in one country' was more a political slogan than a philosophical breakthrough. His ethical framework rationalized mass terror, famines, and the Gulag—representing a failure of ethical insight rather than its depth. His ideas influenced global communist movements, but primarily through political power rather than philosophical merit."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Rees, ed., *The Nature of Stalin's Dictatorship* (2004)",
+              "Kotkin, *Stalin: Paradoxes of Power, 1878–1928* (2014)",
+              "Harrison, *Accounting for War: Soviet Production, Employment, and the Defence Burden, 1940–1945* (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Stalin transformed the USSR from an agrarian society into a major industrial power through systematic Five-Year Plans. He built the Communist Party apparatus into a vast administrative machine, created the collective farm (kolkhoz) system, and organized the NKVD/MVD security infrastructure. The wartime evacuation of 1,500+ factories east of the Urals in 1941-42 was an administrative feat of extraordinary scale. These systems functioned and endured well beyond his death in 1953—the Soviet administrative structure, planned economy, and party apparatus persisted until 1991, meeting the rubric's criterion of systems that endured beyond direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Montefiore, *Stalin: The Court of the Red Tsar* (2004)",
+              "Khlevniuk, *Stalin: New Biography of a Dictator* (2015)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Stalin technically inhabited multiple relational modes: son (his mother Keke remained in Georgia), husband, father, subordinate (to Lenin), superior (to the Politburo), friend (Kirov, Ordzhonikidze), adversary (Trotsky, Bukharin), and diplomatic peer (Churchill, Roosevelt at Tehran and Yalta). However, his dominant relational mode was strikingly uniform: manipulation, domination, and paranoid suspicion applied across virtually all contexts. Even friendships like that with Kirov ended in probable assassination (1934). His diplomatic flexibility with Churchill and Roosevelt shows some range, but the overwhelming pattern is monochromatic control."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Alliluyeva, *Twenty Letters to a Friend* (1967)",
+              "Montefiore, *Stalin: The Court of the Red Tsar* (2004)",
+              "Khlevniuk, *Stalin: New Biography of a Dictator* (2015)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Stalin's second wife, Nadezhda Alliluyeva, committed suicide on November 9, 1932, following a public quarrel at a dinner party—a devastating indictment of the relationship. Accounts from Svetlana Alliluyeva and others describe emotional neglect, controlling behavior, and growing coldness. While he reportedly expressed deep grief at his first wife Kato Svanidze's death (1907), saying his last warm feelings died with her, the overall pattern—culminating in a spouse's suicide—represents comprehensive failure as a partner. There is no evidence of mutual respect or emotional availability sustained across any relationship."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Alliluyeva, *Twenty Letters to a Friend* (1967)",
+              "Montefiore, *Stalin: The Court of the Red Tsar* (2004)",
+              "Service, *Stalin: A Biography* (2005)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "All three of Stalin's children suffered profoundly. His eldest son Yakov attempted suicide (Stalin reportedly mocked him: 'He can't even shoot straight'); when captured by Germans, Stalin refused to negotiate, and Yakov died in Sachsenhausen camp (1943). His son Vasily became a severe alcoholic, was imprisoned after Stalin's death, and died at 40. His daughter Svetlana defected to the West in 1967. As a political mentor, his proteges (Yezhov, Beria, Molotov) lived in constant terror; many were purged. None developed genuine autonomy—they survived by absolute submission."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Zubok, *A Failed Empire* (2007)",
+              "Westad, *The Cold War: A World History* (2017)",
+              "Snyder, *Bloodlands* (2010)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Stalin's impact reshaped multiple civilizations: the Soviet industrialization model was adopted across Asia, Africa, and Latin America; the Cold War he helped initiate structured global politics for 45 years; the geopolitical map of Eastern Europe still reflects his decisions at Yalta and Potsdam; China's communist revolution was shaped by Soviet support; decolonization movements worldwide were influenced by the Soviet model. These effects remain clearly operative today across multiple civilizations. The 500-year criterion cannot yet be confirmed (died 1953), but the cross-civilizational scope and depth of impact is extraordinary."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Applebaum, *Iron Curtain: The Crushing of Eastern Europe* (2012)",
+              "Brandenberger, *Propaganda State in Crisis: Soviet Ideology, Indoctrination, and Terror under Stalin* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Stalin is recognized worldwide as a defining archetype of the totalitarian dictator—alongside Hitler, he represents the 20th century's darkest political possibilities. 'Stalinist' is a universally understood cross-cultural adjective denoting authoritarian control, ideological rigidity, and state terror. He is referenced as an archetype in cultures far beyond Russia: in Western liberal democracies, post-colonial states, and East Asian societies. He also serves as a contested symbol of wartime strength and modernization in some contexts (e.g., nostalgia polls in contemporary Russia)."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Khlevniuk, *Stalin: New Biography of a Dictator* (2015)",
+              "Rees, ed., *The Nature of Stalin's Dictatorship* (2004)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Stalin built or fundamentally reshaped: the CPSU apparatus into a centralized administrative machine, the command economy system (Gosplan, Five-Year Plans), the collective farm system, the NKVD/KGB security apparatus, the Soviet military-industrial complex, and the Eastern Bloc alliance system (formalized through COMECON 1949, Warsaw Pact 1955). The Soviet system survived until 1991—38 years and multiple leadership transitions beyond his death—with recognizable institutional continuity. Russia's FSB descends directly from his security apparatus."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Kotkin, *Stalin: Paradoxes of Power* (2014)",
+              "Service, *Stalin: A Biography* (2005)",
+              "Zubok, *A Failed Empire: The Soviet Union in the Cold War* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Stalin led across qualitatively different contexts: the revolutionary underground (1900s-1917), bureaucratic consolidation of power (1920s), crisis industrialization (1930s), supreme wartime command (1941-45), post-war reconstruction, and Cold War geopolitics. He directed both small groups (Politburo) and a vast multinational state. His influence extended globally through the Comintern and world communist movements from China to Cuba. He inspired genuine devotion alongside terror, and his leadership style—combining bureaucratic mastery with personal authority—remains studied as a model of authoritarian consolidation."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Montefiore, *Stalin: The Court of the Red Tsar* (2004)",
+              "Khlevniuk, *Stalin: New Biography of a Dictator* (2015)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Stalin cultivated a persona of simplicity—wearing a plain military tunic, old boots, and smoking a pipe—which projected an image of ordinariness. In his early life, he was connected to everyday Georgian village and seminary life. However, from the 1930s onward, he was profoundly isolated: living in heavily guarded dachas, surrounded by terror, with his infamous late-night dinners involving forced drinking and humiliation of Politburo members. This extreme isolation from normal human intercourse caps the score, despite surface-level signifiers of simplicity."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Conquest, *The Great Terror* (1990)",
+              "Getty & Naumov, *The Road to Terror* (1999)",
+              "Pohl, *Ethnic Cleansing in the USSR, 1937–1949* (1999)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Stalin's regime was defined by systematic injustice: the Moscow Show Trials (1936-38) used fabricated confessions to execute loyal Old Bolsheviks like Zinoviev, Kamenev, and Bukharin. The Gulag imprisoned millions without meaningful due process. Entire ethnic groups were forcibly deported—Chechens, Crimean Tatars, Volga Germans, Kalmyks—constituting collective punishment. There is no documented instance of Stalin ruling against personal or group interest in favor of principle; the pattern is consistently one of instrumentalizing 'justice' for political ends."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Conquest, *The Great Terror: A Reassessment* (1990)",
+              "Applebaum, *Gulag: A History* (2003)",
+              "Snyder, *Bloodlands: Europe Between Hitler and Stalin* (2010)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Stalin was the architect of the Great Purge (1936-38), which killed hundreds of thousands; forced collectivization causing the Holodomor (1932-33) with millions of deaths; and the Gulag system imprisoning millions. While there are minor anecdotes of personal warmth—reportedly grieving at his first wife Kato's funeral (1907), occasional charm in small settings—these are vanishingly small against the systematic infliction of suffering. There is no documented compassion toward adversaries; his consistent practice was their destruction."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Montefiore, *Young Stalin* (2007)",
+              "Kotkin, *Stalin: Paradoxes of Power* (2014)",
+              "Braithwaite, *Moscow 1941* (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Stalin endured at least six arrests and Siberian exiles between 1902-1913, escaping multiple times under harsh conditions. He organized the 1907 Tiflis bank robbery, a high-risk revolutionary action. He remained in Moscow during the October 1941 crisis when German forces approached the capital, bolstering morale. Counterexample: his reported paralysis and retreat to his dacha for several days after Barbarossa (late June 1941) represents a notable lapse in composure under extreme pressure. Without this counterexample, the score would be 3; with it given due weight as a significant failure at a critical moment, 2 is appropriate."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Tucker, *Stalin in Power: The Revolution from Above, 1928–1941* (1990)",
+              "Khlevniuk, *Stalin: New Biography of a Dictator* (2015)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Stalin was notoriously unwilling to admit error. His 'Dizzy with Success' article (March 1930) appeared to acknowledge collectivization excesses, but he resumed aggressive collectivization within months—making it a tactical retreat rather than genuine moral growth. He blamed generals for early WWII defeats. He never acknowledged the Holodomor, the Purges' injustices, or the Gulag's horrors. The cult of personality enforced his infallibility. No independent evidence of genuine moral self-correction exists."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Kotkin, *Stalin: Paradoxes of Power* (2014)",
+              "Montefiore, *Young Stalin* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Stalin functioned effectively through qualitatively different adversities: childhood poverty in Gori, Georgia; multiple Siberian exiles with extreme deprivation (1902-1913); the death of his first wife Kato Svanidze (1907), which he described as devastating; his son Yakov's capture and death in German captivity (1941-43); and the existential crisis of WWII with the German advance to the outskirts of Moscow. He maintained effective leadership through material deprivation, personal bereavement, and national existential threat—meeting the criterion of at least two qualitatively different forms of adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Kotkin, *Stalin: Paradoxes of Power* (2014)",
+              "van Ree, *The Political Thought of Joseph Stalin* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Stalin inhabited several contradictory roles: seminary student and atheist ideologue; Georgian nationalist and Russian imperialist; theorist of national self-determination and architect of forced Russification; champion of 'people's democracy' and absolute dictator; revolutionary and social conservative (recriminalizing homosexuality, restricting abortion, promoting traditional family rhetoric). He functioned effectively while embodying these contradictions. However, one could argue he did not genuinely integrate these paradoxes into a coherent whole so much as deploy ideology instrumentally, which limits the score to 2 rather than 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Alliluyeva, *Twenty Letters to a Friend* (1967)",
+              "Brent & Naumov, *Stalin's Last Crime* (2003)",
+              "Braithwaite, *Moscow 1941* (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Stalin remained in Moscow during the October 1941 crisis when German forces approached, demonstrating some composure in the face of mortal risk. However, his actual death (March 1953) was marked by dysfunction: his guards were too terrified to check on him after his stroke, delaying medical care by many hours. His daughter Svetlana Alliluyeva described his final moments as involving a gesture of apparent anger or threat. He left no succession plan, suggesting avoidance rather than acceptance of mortality. Without the death scene evidence, this would score 2; with it, 1 is appropriate."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Montefiore, *Young Stalin* (2007)",
+              "Service, *Stalin: A Biography* (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Stalin endured the physical rigors of multiple Siberian exiles (1902-1913) in extreme cold and deprivation, and escaped from exile several times, requiring physical hardiness. However, he had a withered left arm from a childhood carriage accident, pockmarked face from childhood smallpox, and was not noted for physical prowess. His health declined significantly in later years (cardiovascular disease). Physical endurance was not documented across multiple life-stages as the rubric requires for higher scores."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Montefiore, *Young Stalin* (2007)",
+              "Montefiore, *Stalin: The Court of the Red Tsar* (2004)",
+              "Dobrenko, *Stalin's Forgotten Zion* (references to cultural engagement)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Stalin wrote lyric poetry in Georgian as a young man, published in the literary journal Iveria and reportedly praised by contemporaries for their quality. He was an avid film viewer, watching movies almost nightly at his Kremlin or dacha screenings—this appears to have been genuinely for personal enjoyment. He sang Georgian folk songs with apparent pleasure (having trained as a choirboy in the Tiflis seminary). He was a voracious reader across genres. The film watching and singing appear non-instrumental, though his role as cultural censor complicates the picture."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 1.11,
+          "Core_5D_Avg": 4.99,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 1.67,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Joseph Stalin",
+      "overall": {
+        "Core_5D_Avg": 4.99,
+        "Overall_Normalized_Equal_Avg": 4.57,
+        "General_Competency_Avg_10scale": 2.44
+      },
+      "summary": "Stalin was a figure of extreme contrasts—exceptional in cognitive-strategic and cultural-social domains (political maneuvering, institution-building, global impact) but near-zero in moral-affective and relational dimensions. His administrative systems endured for decades, but his reign produced catastrophic human suffering through purges, forced collectivization, and the Gulag. Heinlein competency breadth was narrow, concentrated almost entirely in command and leadership rather than practical skills. A towering historical force defined by power-acquisition excellence and profound moral-relational failure, yielding a moderate overall score despite outsized civilizational impact.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.73,
+          "General_Competency_Avg_10scale": 2.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Montefiore, *Stalin: The Court of the Red Tsar* (2004)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal cooking skill. Stalin had cooks and servants who prepared his meals. While he was known for his appreciation of Georgian cuisine and hosted extensive dinners at his dachas, no sources document him personally preparing food with any competence."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Montefiore, *Young Stalin* (2007)",
+            "Service, *Stalin: A Biography* (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Stalin organized the 1907 Tiflis bank robbery, a violent revolutionary action, though his personal role in the combat itself is debated (Kamo led the actual assault). He served as a military commissar during the Russian Civil War (notably at Tsaritsyn/Stalingrad in 1918), engaging in defense operations. However, he was not a combat soldier—his role was always political-organizational rather than physically combative. During WWII he commanded from Moscow, never visiting the front. His personal combat skill was limited."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Alliluyeva, *Twenty Letters to a Friend* (1967)",
+            "Montefiore, *Stalin: The Court of the Red Tsar* (2004)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of meaningful caregiving. His children suffered profoundly (Yakov died in captivity, Vasily became an alcoholic, Svetlana defected). His second wife committed suicide. Associates lived in terror rather than receiving care. The record is one of relational destruction rather than nurture."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Braithwaite, *Moscow 1941* (2006)",
+            "Alliluyeva, *Twenty Letters to a Friend* (1967)",
+            "Brent & Naumov, *Stalin's Last Crime* (2003)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Stalin showed composure by remaining in Moscow during the October 1941 German advance, and he endured Siberian exile conditions with functional equanimity. However, his reported paralysis at the onset of Barbarossa (retreating to his dacha for several days) and his chaotic, fear-surrounded death in March 1953—with guards too terrified to check on him, and Svetlana Alliluyeva describing distressed final moments—undermine claims of existential composure. The pattern is mixed: composure in some crises, dysfunction in others."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal manual craft or repair skills. Stalin's occupations were exclusively political and intellectual (seminary student, revolutionary organizer, journalist, politician). No sources document him making, fixing, or adapting physical objects or tools."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Montefiore, *Young Stalin* (2007)",
+            "Service, *Stalin: A Biography* (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Stalin escaped from Siberian exile multiple times (e.g., from Novaya Uda in 1904, from Solvychegodsk in 1909), which required navigating vast, harsh wilderness in winter conditions. However, specific details of his navigation methods are poorly documented, and he likely relied on established escape networks. His later life involved no personal navigation—he was transported by train and automobile with extensive security."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Montefiore, *Young Stalin* (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal skill in animal husbandry or food processing. Stalin grew up in the small town of Gori and then moved into revolutionary politics and seminary education. While he may have had incidental exposure to rural life, no source documents any personal competence in this domain."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Kotkin, *Stalin: Paradoxes of Power* (2014)",
+            "Tucker, *Stalin as Revolutionary* (1973)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Stalin was an exceptional leader who directed the Soviet state for nearly three decades. He also demonstrated effective followership under Lenin (1917-1924), serving as a reliable and valued organizational operative—Lenin appointed him General Secretary precisely for his administrative diligence. However, even under Lenin, Stalin was already maneuvering for power, and Lenin's Testament (1922-23) warned against his accumulation of authority. His followership was more tactical submission than genuine deference, and after Lenin's death he rapidly moved to dominate. The combination of both modes earns a 2."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Kotkin, *Magnetic Mountain: Stalinism as a Civilization* (1995)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of personal construction or fabrication skills. Stalin was a seminary student, revolutionary organizer, and politician. While he directed massive construction projects (Magnitogorsk, the Moscow Metro, the White Sea Canal), these were command decisions, not personal building competence."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Glantz, *Colossus Reborn: The Red Army at War* (2005)",
+            "Harrison, *Accounting for War* (1996)",
+            "Kotkin, *Stalin: Waiting for Hitler* (2017)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Stalin directed the Soviet war effort across the Eastern Front in WWII, coordinating millions of troops and vast industrial mobilization. He oversaw the strategic evacuation of 1,500+ factories east of the Urals in 1941-42. He managed the Five-Year Plans' industrial transformation of the USSR. He directed Cold War strategy including the Berlin Blockade, support for Communist China, and the Soviet nuclear weapons program. Despite initial WWII failures, his overall record of coordinating complex operations at civilizational scale is among the most consequential in modern history."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Montefiore, *Young Stalin* (2007)",
+            "Rayfield, 'Stalin as Poet' in *PN Review* (1984)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "As a young man in Georgia, Stalin wrote lyric poetry in Georgian that was published in the respected literary journal Iveria (1895-96) and later anthologized. Some poems were reportedly praised by contemporaries and one was included in a Georgian literary anthology. He had a trained singing voice from his seminary years. However, he abandoned artistic production early, and his later engagement with culture was primarily as censor and patron rather than creator."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence of personal medical skill or emergency response capability. Stalin had no medical training and no documented instances of providing medical care or emergency aid to others."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Khlevniuk, *Stalin: New Biography of a Dictator* (2015)",
+            "Service, *Stalin: A Biography* (2005)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Stalin engaged with industrial production statistics and economic data in managing the Five-Year Plans, reportedly possessing a strong memory for figures and an ability to interrogate economic reports. He reviewed detailed military maps and operational data during WWII. However, he had no formal training in mathematics or science (his education was theological at the Tiflis Seminary), and his analytical engagement was that of an intelligent administrator rather than a technical specialist."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Davies, *The Socialist Offensive* (1980)",
+            "Conquest, *The Harvest of Sorrow* (1986)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Stalin directed Soviet agricultural policy (collectivization), but the results were catastrophic: the Holodomor killed millions, and Soviet agriculture suffered chronic inefficiency throughout his rule. More importantly, this domain assesses personal competence, and Stalin had no personal agricultural knowledge or experience. He was a political leader making command decisions about farming, not a practitioner."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Holloway, *Stalin and the Bomb* (1994)",
+            "Kotkin, *Stalin: Waiting for Hitler* (2017)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Stalin directed cutting-edge technological programs including the Soviet nuclear weapons project (under Beria's operational management, achieving the first Soviet atomic bomb in 1949) and rapid industrialization using contemporary technology. He engaged sufficiently with technical details to make consequential decisions about prioritization. However, this was political direction of technical projects, not personal technical competence. He had no engineering, scientific, or technical training."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.99,
+    "general_competency_avg_0_10": 2.44,
+    "overall_normalized_equal_avg_0_10": 4.57,
+    "created_at": "2026-03-22T19:41:49.294Z",
+    "updated_at": "2026-03-22T19:41:49.310Z"
+  }
+}
+]

@@ -1,0 +1,368 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 192,
+  "fields": {
+    "name": "Homer",
+    "slug": "homer",
+    "bio_short": "Homer is a figure of towering cultural-cognitive impact but nearly total biographical opacity. The Iliad and Odyssey demonstrate exceptional creative, philosophical, and aesthetic capacity, and their legacy across millennia and civilizations is virtually unmatched in literature. However, almost nothing reliable is known about Homer as a historical person—relationships, physical traits, practical skills, and moral character are largely inaccessible. This produces a highly asymmetric profile: extraordinary in artistic expression and cultural legacy, but scored near zero across most personal, rel",
+    "bio_long": "Homer was an ancient Greek poet who is widely credited as the author of the Iliad and the Odyssey, two epic poems that are foundational works of ancient Greek literature. Although his life and authorship remain obscure, Homer was highly revered in ancient Greek society and is considered one of the most influential authors in history.",
+    "source_notes": "https://en.wikipedia.org/wiki/Homer",
+    "image": "figures/330px-Homer_British_Museum.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Parry, *The Making of Homeric Verse* (1971)",
+              "Lord, *The Singer of Tales* (1960)",
+              "Whitman, *Homer and the Heroic Tradition* (1958)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The composition and organization of the Iliad (~15,693 lines) and Odyssey (~12,110 lines) with intricate ring composition, interwoven plotlines, and sophisticated narrative pacing demonstrates exceptional cognitive planning. The management of dozens of characters and parallel narrative threads (e.g., the Embassy to Achilles in Iliad 9, the intercut Telemachy in Odyssey 1-4) implies sustained strategic organization. However, no evidence exists of personal strategic decision-making outside literary composition."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Nagy, *The Best of the Achaeans* (1979)",
+              "Fowler (ed.), *The Cambridge Companion to Homer* (2004)",
+              "West, *The Making of the Iliad* (2011)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Homer represents a paradigm shift in literary expression. The Iliad and Odyssey crystallized the epic form that defined Western literature for over two millennia. Techniques attributed to Homer—in medias res narration, extended simile, dramatic irony, free indirect discourse avant la lettre—became foundational conventions. Virgil, Dante, Milton, and Joyce all explicitly modeled works on Homeric originals. The before/after difference is clear: post-Homer, the entire trajectory of Western narrative literature was set on a new course."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Weil, *The Iliad, or the Poem of Force* (1939)",
+              "Plato, *Republic* Books 2-3, 10",
+              "Griffin, *Homer on Life and Death* (1980)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Iliad and Odyssey articulate profound moral insights that influenced thinkers far beyond Homer's own community and era. The supplication scene of Priam and Achilles (Iliad 24) presents a vision of shared human mortality and compassion across enemy lines that Simone Weil called the supreme expression of human suffering in literature. The exploration of kleos vs. nostos, the tragic consequences of wrath, and the moral complexity of revenge (Odyssey 22-24) influenced Greek philosophy (Plato engages directly with Homer in the Republic), Roman ethics, and Western moral thought continuously for nearly three millennia."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Graziosi, *Inventing Homer* (2002)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No evidence exists of Homer engaging in any administrative, legislative, or governance activity. Ancient biographical traditions mention no political role."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Graziosi, *Inventing Homer* (2002)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No reliable evidence documents Homer's personal relationships across different relational modes (spouse, parent, friend, adversary, etc.). The works depict an extraordinary range of relational dynamics, but this is literary imagination, not documented personal behavior."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Graziosi, *Inventing Homer* (2002)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No evidence exists regarding Homer's intimate partnerships. Some late traditions mention a wife, but these are unreliable legends with no specific detail about relationship quality."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Nagy, *Homeric Questions* (1996)",
+              "West, *Studies in the Text and Transmission of the Iliad* (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Homeridae, a guild of reciters on Chios who claimed descent from Homer, suggest a tradition of poetic mentoring or transmission. The oral-formulaic tradition itself requires master-apprentice transmission, implying Homer (or the Homeric tradition) mentored successors. However, no specific mentor-mentee relationships are documented with reliable evidence."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Silk, *Homer: The Iliad* (2004)",
+              "Graziosi & Greenwood (eds.), *Homer in the Twentieth Century* (2007)",
+              "Hall, *The Return of Ulysses* (2008)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Iliad and Odyssey have shaped Western (and global) civilization for nearly 3,000 years. They influenced Roman literature (Virgil's Aeneid), medieval romance, Renaissance art, Enlightenment thought, and modern literature (Joyce's Ulysses). They remain foundational texts in education worldwide. Effects are clearly operative across multiple civilizations and millennia—meeting the 500-year, multi-civilizational threshold many times over."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Nagy, *The Best of the Achaeans* (1979)",
+              "Stanford, *The Ulysses Theme* (1954)",
+              "Manguel, *Homer's The Iliad and The Odyssey: A Biography* (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Homer is THE archetype of the inspired poet/bard across cultures—the blind seer who sees more deeply than the sighted. Characters he created—Achilles (the tragic warrior), Odysseus (the cunning survivor), Helen (beauty as cause of conflict), Penelope (faithful spouse)—are recognized as universal archetypes globally. Homer's symbolic role extends far beyond Greek culture into Islamic, Christian, and modern secular traditions."
+          },
+          "Institution-Building": {
+            "citations": [
+              "West, *Studies in the Text and Transmission of the Iliad* (2001)",
+              "Nagy, *Homer's Text and Language* (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Homeric tradition became institutionalized: the Homeridae (a guild of reciters claiming descent from Homer) on Chios, the Panathenaic recitation at Athens (established c. 566 BCE), and the centrality of Homer in Greek educational curricula all represent enduring institutional forms. These survived many generations. However, Homer did not personally design these institutions; they grew around his works."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Plato, *Republic* 606e",
+              "Havelock, *Preface to Plato* (1963)",
+              "Marrou, *A History of Education in Antiquity* (1956)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Homer was called 'the educator of Greece' (Plato, Republic 606e). The epics shaped Greek cultural identity, provided the core curriculum of Greek education (paideia), and influenced the self-understanding of Greek city-states. This cultural influence is immense but indirect—Homer led through literary vision rather than organizational direction of groups. He did not lead in qualitatively different contexts (crisis vs. stability), which would be required for a 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Graziosi, *Inventing Homer* (2002)",
+              "Pseudo-Herodotus, *Life of Homer*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Ancient traditions portray Homer as a wandering, blind, impoverished poet—a figure of humble circumstances. The Contest of Homer and Hesiod depicts him engaging in poetic competition at a local level. The works themselves show intimate knowledge of everyday life (farming similes, domestic scenes, cooking descriptions in the Odyssey). However, specific documented engagement with mundane activities at the height of fame is lacking, and biographical traditions are unreliable."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Lloyd-Jones, *The Justice of Zeus* (1971)",
+              "Allan, *Homer: The Odyssey* (2017)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The works explore justice extensively—Zeus is portrayed as guardian of xenia and justice, the suitors' punishment in the Odyssey is framed as divine justice, and Iliad 16 contains a famous passage on crooked judgments bringing floods. These suggest deep engagement with justice as a concept. However, no evidence exists of Homer personally ruling or adjudicating in favor of principle over self-interest."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Griffin, *Homer on Life and Death* (1980)",
+              "Schein, *The Mortal Hero* (1984)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "The works demonstrate extraordinary empathetic range—Homer portrays both Greeks and Trojans with deep humanity. Hector's farewell to Andromache (Iliad 6), Priam kissing the hands that killed his son (Iliad 24), and Odysseus weeping at the bard's song of his own suffering (Odyssey 8) all evidence a mind of exceptional empathetic capacity. The equal sympathy given to enemies is particularly notable. However, these are literary expressions, not documented personal acts of compassion, which limits the score."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Graziosi, *Inventing Homer* (2002)",
+              "Pseudo-Herodotus, *Life of Homer*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Ancient traditions (Lives of Homer, attributed to pseudo-Herodotus and others) describe Homer as a blind, itinerant poet who endured poverty and performed across multiple cities, implying resilience. However, these biographical traditions are late, legendary, and unreliable. The sustained creative effort of composing two massive epics implies personal perseverance, but specific acts of courage are undocumented."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Graziosi, *Inventing Homer* (2002)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No evidence exists of Homer's personal moral development, mistakes, or behavioral change. The biographical tradition is too thin and too legendary to support any assessment. Per the rubric's instruction that traditions which sanitize or remove evidence of error should cap at 1, and here we have not even sanitization but simply absence of biographical data."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Pseudo-Herodotus, *Life of Homer*",
+              "Graziosi, *Inventing Homer* (2002)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Ancient biographical traditions describe Homer as blind and poor, wandering from city to city and sometimes being refused hospitality (pseudo-Herodotus, Life of Homer). If accurate, this implies tolerance of material deprivation and physical disability. However, these traditions are late and unreliable, capping confidence. The sheer cognitive labor of composing two massive epics, likely over years, implies perseverance under some form of adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Whitman, *Homer and the Heroic Tradition* (1958)",
+              "Pucci, *Odysseus Polutropos* (1987)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The works integrate profound paradoxes: the Iliad simultaneously celebrates heroic glory and exposes the devastating costs of war; Homer portrays enemies with equal sympathy (Hector is as noble as Achilles); the Odyssey's hero is both trickster and king, liar and truth-seeker. The poet holds these contradictions in creative tension without resolution. As a figure, Homer may have been both blind and a 'seer,' both humble itinerant and cultural authority—but the biographical paradoxes are largely legendary."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Griffin, *Homer on Life and Death* (1980)",
+              "Schein, *The Mortal Hero* (1984)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Iliad is fundamentally a meditation on mortality—Achilles' choice of a short glorious life over a long obscure one (Iliad 9.410-416), and the recognition that 'the generation of men is as the generation of leaves' (Iliad 6.146-149). These demonstrate profound literary engagement with mortality. However, no evidence exists about Homer's own attitude toward or composure in the face of his personal death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Graziosi, *Inventing Homer* (2002)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No reliable evidence of Homer's physical capabilities exists. The tradition of blindness and itinerant performance implies some physical endurance for travel, but this is legendary and unverifiable. No documented physical feats."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Becker, *The Shield of Achilles and the Poetics of Ekphrasis* (1995)",
+              "Taplin, *Homeric Soundings* (1992)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The works overflow with non-instrumental aesthetic delight: the extended similes comparing warriors to natural phenomena (lions, storms, stars) go far beyond narrative necessity; the description of the Shield of Achilles (Iliad 18.478-608) is a virtuosic ekphrasis celebrating artistic creation; the Phaeacian court scenes revel in music, dance, and feast. The Homeric Hymns (some attributed to Homer) celebrate divine beauty for its own sake. These evidence a mind of extraordinary aesthetic sensibility, though we cannot fully confirm personal vs. professional aesthetic engagement."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 1.11,
+          "Core_5D_Avg": 4.49,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 3.33,
+          "Embodied-Existential": 4.0
+        }
+      },
+      "figure": "Homer",
+      "overall": {
+        "Core_5D_Avg": 4.49,
+        "Overall_Normalized_Equal_Avg": 4.0,
+        "General_Competency_Avg_10scale": 1.56
+      },
+      "summary": "Homer is a figure of towering cultural-cognitive impact but nearly total biographical opacity. The Iliad and Odyssey demonstrate exceptional creative, philosophical, and aesthetic capacity, and their legacy across millennia and civilizations is virtually unmatched in literature. However, almost nothing reliable is known about Homer as a historical person—relationships, physical traits, practical skills, and moral character are largely inaccessible. This produces a highly asymmetric profile: extraordinary in artistic expression and cultural legacy, but scored near zero across most personal, relational, and practical domains due to evidentiary absence rather than demonstrated deficiency.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.47,
+          "General_Competency_Avg_10scale": 1.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Homer's personal culinary skills. The epics describe meal preparation in formulaic detail (roasting meat on spits, mixing wine with water), reflecting cultural norms rather than documented personal cooking ability."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Graziosi, *Inventing Homer* (2002)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Homer engaging in personal combat. The detailed and anatomically specific battle descriptions in the Iliad may reflect observation or oral tradition rather than personal martial experience. Ancient traditions do not attribute military service to Homer."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists of Homer providing physical or emotional care to others. The works depict caregiving scenes (Hecuba nursing Hector, Eurycleia tending Odysseus), but these are literary creations, not evidence of personal caregiving practice."
+        },
+        "Existential Composure": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists regarding Homer's personal composure in the face of mortality or crisis. The works treat mortality with extraordinary depth (Achilles' choice in Iliad 9, the 'leaves' simile in Iliad 6.146), but this is literary-philosophical engagement, not documented personal behavior during crisis."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Homer personally engaging in manual craft or repair. The lyre used in performance might imply basic instrument maintenance, but this is speculative and undocumented."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Pseudo-Herodotus, *Life of Homer*",
+            "Clay, *Homer's Trojan Theater* (2011)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Odyssey demonstrates detailed knowledge of Mediterranean geography, seafaring, and celestial navigation (Odysseus steers by the Pleiades and Boötes in Odyssey 5.270-277). The tradition of Homer as an itinerant poet traveling across Ionia and the Aegean implies wayfinding experience. However, specific navigational feats are undocumented."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Homer personally butchering or processing animals. The epics describe animal sacrifice and feasting in ritual detail (e.g., the preparation of sacrificial meat in Odyssey 3.418-472), suggesting cultural familiarity, but not personal skill."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Homer personally leading or following in organizational contexts. His cultural authority as a poet is attested, but specific instances of giving or taking orders in group settings are undocumented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Homer building physical structures. The description of Odysseus building his marriage bed (Odyssey 23.190-201) and his raft (Odyssey 5.243-261) demonstrate literary knowledge of carpentry techniques but not personal building skill."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Homer personally planning or commanding military or complex operations. The detailed depictions of battle tactics in the Iliad (e.g., the Trojan breach of the Greek wall in Book 12) show literary knowledge of warfare but not personal command experience."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Parry, *The Making of Homeric Verse* (1971)",
+            "Auerbach, *Mimesis* (1946), Chapter 1: 'Odysseus' Scar'",
+            "Taplin, *Homeric Soundings* (1992)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Homer is among the greatest literary artists in recorded history. The Iliad and Odyssey are masterworks of oral/literary art that have been continuously admired for nearly three millennia. The sophistication of Homeric technique—formulaic composition, extended simile, ring structure, dramatic irony, character development—represents the highest level of artistic achievement in the ancient world and remains a benchmark for narrative art."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Saunders, *The Wounds in Iliad 13-16* (1999)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Homer providing medical care. The Iliad contains remarkably detailed wound descriptions (over 140 distinct injuries catalogued by scholars), suggesting familiarity with battlefield medicine, but this is literary knowledge, not documented personal medical practice."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Edwards, *Homer: Poet of the Iliad* (1987)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The complex structures of the epics—ring composition, balanced books, mathematical proportions in narrative architecture—imply analytical reasoning capacity. Mark Edwards and others have identified numerical patterns in Homeric composition. However, no evidence exists of Homer engaging in mathematics, accounting, or explicit analytical reasoning outside literary structure."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Homer personally managing agricultural resources. The epics contain vivid agricultural similes (e.g., Iliad 18.541-572 on the Shield depicting plowing and harvest), suggesting cultural familiarity but not personal farming practice."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Parry, *The Making of Homeric Verse* (1971)",
+            "Lord, *The Singer of Tales* (1960)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Homer mastered the oral-formulaic composition system—the cutting-edge information technology of his era. Milman Parry and Albert Lord demonstrated that Homeric poetry employs a sophisticated system of formulas, type-scenes, and compositional techniques that represent the highest development of oral technology for preserving and transmitting complex cultural knowledge. This system enabled the composition and memorization of poems totaling ~28,000 lines."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.49,
+    "general_competency_avg_0_10": 1.56,
+    "overall_normalized_equal_avg_0_10": 4.0,
+    "created_at": "2026-03-22T22:02:00.989Z",
+    "updated_at": "2026-03-22T22:02:01.005Z"
+  }
+}
+]

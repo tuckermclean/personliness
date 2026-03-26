@@ -1,0 +1,363 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 187,
+  "fields": {
+    "name": "Laozi",
+    "slug": "laozi",
+    "bio_short": "Laozi is a largely legendary figure whose historical existence is disputed by modern scholarship. Exceptional scores cluster in philosophical insight, creative thinking, impact legacy, archetype resonance, and paradox integration—all driven by the Tao Te Ching, one of history's most influential texts. Behavioral and relational traits score low due to absence of verifiable biographical evidence. Heinlein competency is narrow, centered on literary-philosophical expression and existential composure. Overall profile: towering intellectual and cultural influence paired with an almost entirely opaqu",
+    "bio_long": "Laozi, formerly latinized as Laocius, was a legendary Chinese philosopher considered to be the author of the Tao Te Ching, one of the foundational texts of Taoism. Modern scholarship generally regards his biographical details as later inventions and his opus a collaboration of various writers, with the name Laozi, literally meaning 'Old Master', likely intended to portray an archaic anonymity that could converse with Confucianism. Traditional accounts addend him as Li Er, born in the 6th-century BC state of Chu during China's Spring and Autumn period. Serving as the royal archivist for the Zhou court at Wangcheng, he met and impressed Confucius on one occasion, composing the Dào Dé Jīng in a single session before retiring into the western wilderness.",
+    "source_notes": "https://en.wikipedia.org/wiki/Laozi",
+    "image": "figures/330px-Laozi_28Chinese_characters29.svg.png",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Sima Qian, Shiji (Records of the Grand Historian), c. 94 BC, Ch. 63",
+              "Lau, D.C., Tao Te Ching (Penguin Classics, 1963), Introduction"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Tao Te Ching contains strategic maxims (e.g., 'The soft overcomes the hard,' Ch. 78; military counsel in Ch. 69) that later influenced Chinese strategists, but there is no documented case of Laozi personally planning, adapting, or managing uncertainty in a real operation. The traditional archivist role implies organizational awareness, but no specific adaptive episode is recorded."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Graham, A.C., Disputers of the Tao (Open Court, 1989)",
+              "Schwartz, Benjamin, The World of Thought in Ancient China (Harvard UP, 1985)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Tao Te Ching introduced a paradigm shift in Chinese intellectual history: before it, dominant discourse centered on ritual propriety (li) and hierarchical governance. The TTC offered a radically different naturalistic metaphysics, the concept of the Dao as unnameable ground of being, and the paradoxical method of wu wei. This constituted a demonstrable before/after shift in Chinese philosophy, generating the entire Daoist philosophical tradition."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Graham, A.C., Disputers of the Tao (Open Court, 1989)",
+              "Moeller, Hans-Georg, The Philosophy of the Daodejing (Columbia UP, 2006)",
+              "LaFargue, Michael, The Tao of the Tao Te Ching (SUNY Press, 1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "The Tao Te Ching articulates a coherent naturalistic ethics centered on wu wei, complementarity of opposites, and critique of coercive governance that influenced not only Daoist and Chinese Buddhist traditions but also Japanese Zen, Western transcendentalism (Thoreau), Heideggerian phenomenology, and contemporary environmental philosophy—clearly meeting the criterion of influence beyond the figure's own community and era."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Sima Qian, Shiji, Ch. 63",
+              "Csikszentmihalyi, Mark, 'Laozi' in Stanford Encyclopedia of Philosophy (2020)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Traditional accounts in Sima Qian's Shiji describe Laozi as keeper of the royal archives at the Zhou court, implying archival and bureaucratic competence. However, no specific administrative system, policy, or institutional reform is attributed to him, and even the archival role is considered legendary by modern scholars such as Graham and Csikszentmihalyi."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Sima Qian, Shiji, Ch. 63"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The documented relational modes are extremely limited: subordinate (archivist under the Zhou court), teacher/superior (to Confucius and Yinxi), and perhaps peer (with other scholars). No evidence of friend, parent, spouse, adversary, or child relationships exists. This falls far short of the five distinct modes required for higher scores."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Sima Qian, Shiji, Ch. 63",
+              "Csikszentmihalyi, Mark, 'Laozi' in Stanford Encyclopedia of Philosophy (2020)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No information about Laozi's spouse or intimate partnerships exists in any traditional or modern source. The hagiographic tradition is silent on this dimension entirely. There is no evidence to score."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Sima Qian, Shiji, Ch. 63",
+              "Zhuangzi, Ch. 14 (Tian Yun)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The legendary encounter with Confucius (described in Sima Qian and the Zhuangzi) portrays Laozi as an impressive but cryptic teacher who admonished Confucius to abandon pride and desire. The border guard Yinxi (Yin Xi) reportedly requested and received the TTC as instruction. These are brief, legendary mentoring episodes without evidence of mentees developing autonomy or competence as a result of Laozi's guidance specifically."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Schwartz, Benjamin, The World of Thought in Ancient China (Harvard UP, 1985)",
+              "Clarke, J.J., The Tao of the West (Routledge, 2000)",
+              "Kohn, Livia, Daoism Handbook (Brill, 2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Tao Te Ching is one of the most translated and widely read texts in human history, with effects still operative over 2,000 years later across Chinese, Japanese, Korean, Vietnamese, and Western civilizations. It shaped Chinese Buddhism (Chan/Zen), governance philosophy, aesthetics, medicine, and martial arts. In the West, it influenced Romanticism, Transcendentalism, environmental ethics, and process philosophy. This unambiguously meets the 500-year, multi-civilizational criterion."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Clarke, J.J., The Tao of the West (Routledge, 2000)",
+              "Kohn, Livia, God of the Dao: Lord Lao in History and Myth (Michigan, 1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Laozi is the paradigmatic wise old sage—the figure who sees through worldly vanity and departs on an ox into mystery. This archetype is recognized globally: in East Asian art, in Western popular culture (the 'Eastern sage'), and across philosophical traditions. He functions as a symbol of natural wisdom, anti-authoritarianism, and mystical insight in cultures far beyond China."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Robinet, Isabelle, Taoism: Growth of a Religion (Stanford UP, 1997)",
+              "Bokenkamp, Stephen, Early Daoist Scriptures (UC Press, 1997)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Laozi did not found any organization or institutional structure. The Daoist religious institutions (Celestial Masters, Shangqing, Lingbao schools) were created centuries after his supposed lifetime by figures like Zhang Daoling, who adopted the TTC as scripture. The text inspired institutions built by others, but the figure himself is not an institution-builder."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Sima Qian, Shiji, Ch. 63",
+              "Robinet, Isabelle, Taoism: Growth of a Religion (Stanford UP, 1997)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Laozi is not documented as having led any group, movement, or community during his putative lifetime. His influence is entirely posthumous and textual. The legendary meeting with Confucius portrays him as an individual teacher, not a leader of followers. Organized Daoism arose centuries later (Celestial Masters movement, 2nd century AD) and attributed authority to him retroactively."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Lau, D.C., Tao Te Ching (Penguin, 1963)",
+              "Sima Qian, Shiji, Ch. 63"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The TTC draws on homely imagery—water, valleys, uncarved blocks, infants, cooking small fish—suggesting connection to everyday life. However, there is no documented engagement with mundane activities (cooking, mending, humor with children) by the biographical figure. The hagiographic tradition portrays him as ethereal and removed, not embedded in ordinary life."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Lau, D.C., Tao Te Ching (Penguin, 1963), Ch. 53, 75",
+              "Hansen, Chad, A Daoist Theory of Chinese Thought (Oxford UP, 1992)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The TTC contains sharp critiques of unjust governance (Ch. 75: 'The people starve because those above eat too much tax-grain'; Ch. 53 on rulers who follow bypaths while fields are full of weeds). These express a strong justice orientation philosophically, but no documented case of Laozi personally ruling against self-interest or adjudicating disputes exists."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Lau, D.C., Tao Te Ching (Penguin, 1963), Ch. 67",
+              "Moeller, Hans-Georg, The Philosophy of the Daodejing (Columbia UP, 2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The TTC names compassion (ci 慈) as one of the 'three treasures' (Ch. 67) and advocates gentleness toward all beings. However, no specific documented act of compassion toward adversaries or any particular individual is recorded. The advocacy is philosophical rather than biographical, and sources are hagiographic, limiting this to the episodic/philosophical level."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Sima Qian, Shiji, Ch. 63"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The legendary account of departing westward into the wilderness during the decline of the Zhou dynasty implies a form of philosophical courage—choosing exile over complicity. However, this is a single legendary episode with no corroboration, and no sustained pattern of facing danger or hardship is documented."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Csikszentmihalyi, Mark, 'Laozi' in Stanford Encyclopedia of Philosophy (2020)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "No documented instances of Laozi reversing a prior position or accepting correction exist. The Daoist tradition sanitizes him as an enlightened sage from the outset. Per rubric rules, figures whose traditions remove evidence of error should be capped at 1 unless independent evidence exists, which it does not. The TTC's epistemological humility ('The Tao that can be told is not the eternal Tao') implies openness to error in principle, justifying 1 rather than 0."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Sima Qian, Shiji, Ch. 63"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The legendary context places Laozi during the decline of the Zhou dynasty, a period of political turmoil, and his departure into the wilderness implies tolerance of material deprivation. However, no specific hardships (illness, bereavement, poverty) are documented, and the tradition portrays him as transcending rather than enduring adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Graham, A.C., Disputers of the Tao (Open Court, 1989)",
+              "Moeller, Hans-Georg, The Philosophy of the Daodejing (Columbia UP, 2006)",
+              "Hansen, Chad, A Daoist Theory of Chinese Thought (Oxford UP, 1992)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Paradox integration is arguably the defining feature of the Laozi figure and text. The TTC is built on holding opposites in creative tension: strength through yielding, leadership through non-assertion, knowledge through unknowing. The figure inhabits contradictory roles—court archivist and anti-establishment sage, teacher and advocate of silence, philosopher and anti-philosopher ('Those who know do not speak,' Ch. 56), worldly official and wilderness recluse. This easily meets three contradictory roles held without fragmentation."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Lau, D.C., Tao Te Ching (Penguin, 1963), Ch. 50, 76",
+              "Moeller, Hans-Georg, The Philosophy of the Daodejing (Columbia UP, 2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Low",
+            "justification": "The TTC addresses death with equanimity: Ch. 50 discusses entering the realm of death without fear, Ch. 76 uses the metaphor of suppleness (life) versus rigidity (death). The legendary departure into the western wilderness reads as a symbolic embrace of dissolution. However, no account of Laozi facing his own imminent death with documented composure exists, preventing a score of 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Sima Qian, Shiji, Ch. 63"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The traditional account describes Laozi traveling westward on an ox through Hangu Pass, implying capacity for long-distance travel in old age. However, this is a single legendary episode with no corroboration, and no physical feats or endurance across multiple life stages are documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Owen, Stephen, Readings in Chinese Literary Thought (Harvard UP, 1992)",
+              "Lau, D.C., Tao Te Ching (Penguin, 1963)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Tao Te Ching is itself a work of extraordinary literary beauty—its paradoxes, rhythmic couplets, and nature imagery (Ch. 8 on water, Ch. 11 on emptiness) display genuine aesthetic sensibility. The playful, paradoxical style suggests non-instrumental delight in language and form. While we cannot confirm this was recreational for the author(s), the text's aesthetic qualities are intrinsic, not merely didactic."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 2.22,
+          "Core_5D_Avg": 4.84,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 3.33,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Laozi",
+      "overall": {
+        "Core_5D_Avg": 4.84,
+        "Overall_Normalized_Equal_Avg": 4.44,
+        "General_Competency_Avg_10scale": 2.44
+      },
+      "summary": "Laozi is a largely legendary figure whose historical existence is disputed by modern scholarship. Exceptional scores cluster in philosophical insight, creative thinking, impact legacy, archetype resonance, and paradox integration—all driven by the Tao Te Ching, one of history's most influential texts. Behavioral and relational traits score low due to absence of verifiable biographical evidence. Heinlein competency is narrow, centered on literary-philosophical expression and existential composure. Overall profile: towering intellectual and cultural influence paired with an almost entirely opaque personal life, yielding severe confidence limitations on most action-based traits.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.73,
+          "General_Competency_Avg_10scale": 2.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of culinary activity exists. The famous metaphor 'governing a great state is like cooking a small fish' (Ch. 60) implies familiarity with cooking but is a political analogy, not evidence of culinary practice."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Lau, D.C., Tao Te Ching (Penguin, 1963), Ch. 30, 31"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of personal combat or defensive action by Laozi exists. The TTC discusses warfare philosophically (Ch. 30, 31, 69) but advocates against it and attributes no martial experience to the author. Later martial arts traditions (e.g., taijiquan) invoke Daoist philosophy but postdate Laozi by millennia."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Lau, D.C., Tao Te Ching (Penguin, 1963), Ch. 20, 25, 67"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The TTC's 'three treasures' include compassion (ci), and the text uses maternal/nurturing metaphors extensively (Ch. 25: 'the mother of all things'; Ch. 20: 'I am like an infant'). This suggests philosophical understanding of nurture, but no documented caregiving acts exist for the biographical figure."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Lau, D.C., Tao Te Ching (Penguin, 1963), Ch. 50, 76",
+            "Moeller, Hans-Georg, The Philosophy of the Daodejing (Columbia UP, 2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "The TTC exhibits profound existential composure: equanimity before death (Ch. 50), acceptance of transience (Ch. 76), and the legendary departure into the western wilderness as a deliberate embrace of the unknown and dissolution. The entire philosophical system counsels composure before mortality and crisis. However, no documented face-to-face encounter with imminent death is recorded, preventing a score of 3."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Laozi engaging in manual craft, tool-making, or repair work exists in any source. The TTC mentions craftsmen metaphorically (Ch. 28: 'the uncarved block') but attributes no such skills to its author."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Sima Qian, Shiji, Ch. 63"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The legendary journey from the Zhou capital westward through Hangu Pass implies travel capability across significant terrain. In the era-normalized context of Spring and Autumn China, long-distance overland travel required meaningful navigation skill. However, this is a single legendary episode."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence of Laozi engaging in animal husbandry, butchering, or food processing exists in any source. The ox of the legendary departure is a mount, not evidence of animal management."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Sima Qian, Shiji, Ch. 63"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The traditional account of serving as archivist under the Zhou court implies capacity for followership within a hierarchical system. The encounter with Confucius and the border guard Yinxi show a teaching/authority role. However, no sustained leadership of groups or demonstrated ability to follow others under pressure is documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists of Laozi building or designing physical structures. The TTC uses architectural metaphors (Ch. 11: 'Thirty spokes share one hub... Cut doors and windows for a room') but these are philosophical illustrations, not evidence of personal construction skill."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Lau, D.C., Tao Te Ching (Penguin, 1963), Ch. 30, 31, 69"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The TTC contains strategic counsel later adopted by military thinkers (Ch. 69: 'I dare not be the host but would rather be the guest'; Ch. 30-31 on the use of force). However, no documented instance of Laozi commanding or planning an operation exists. The strategic wisdom is theoretical and textual, not demonstrated in practice."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Owen, Stephen, Readings in Chinese Literary Thought (Harvard UP, 1992)",
+            "Lau, D.C., Tao Te Ching (Penguin, 1963)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "The Tao Te Ching is one of the supreme literary achievements of Chinese civilization—81 chapters of compressed, rhythmic, paradoxical poetry-philosophy that has been translated more times than nearly any text except the Bible and the Bhagavad Gita. Its literary qualities (parallelism, imagery, aphoristic concision) represent the highest level of artistic expression in the philosophical genre. Authorship uncertainty lowers confidence but not the score per Rule 9."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of medical practice or emergency response by Laozi exists. Later Daoist traditions developed medical and alchemical knowledge, but these postdate the traditional figure by centuries and cannot be attributed to him."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Lau, D.C., Tao Te Ching (Penguin, 1963), Ch. 42"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The TTC contains cosmological numerology (Ch. 42: 'The Dao gives birth to one, one gives birth to two, two gives birth to three, three gives birth to the ten thousand things') and the archivist role would have required record-keeping skills. But no specific mathematical or analytical achievements are documented."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of agricultural or resource management activity by Laozi exists. The TTC references agriculture metaphorically (Ch. 59: 'governing a great state is like cooking small fish'; Ch. 80 on simple agrarian society) but these are philosophical visions, not evidence of personal farming or resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Sima Qian, Shiji, Ch. 63"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As keeper of the Zhou royal archives, Laozi would have managed one of the most complex information systems of the ancient Chinese world—bamboo-slip records of ritual, genealogy, and administration. This implies systemic organizational competence appropriate to the era, though the role itself is legendary."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 4.84,
+    "general_competency_avg_0_10": 2.44,
+    "overall_normalized_equal_avg_0_10": 4.44,
+    "created_at": "2026-03-22T21:55:01.949Z",
+    "updated_at": "2026-03-22T21:55:01.966Z"
+  }
+}
+]

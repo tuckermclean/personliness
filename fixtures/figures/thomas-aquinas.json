@@ -1,0 +1,374 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 217,
+  "fields": {
+    "name": "Thomas Aquinas",
+    "slug": "thomas-aquinas",
+    "bio_short": "Thomas Aquinas ranks among history's supreme philosophical and theological minds, scoring exceptionally in ethical insight, creative synthesis, and intellectual legacy. His Aristotelian-Christian synthesis constituted a paradigm shift whose effects persist after 750 years. Moral-affective scores are solid but capped by hagiographic source limitations. The celibate religious life limits relational scoring. His Heinlein competency is narrow—a quintessential specialist in the life of the mind—with negligible evidence for manual, agricultural, culinary, or combat skills. Existential composure is e",
+    "bio_long": "Thomas Aquinas was an Italian Dominican friar and priest, theologian, and philosopher. He is considered one of the most influential thinkers in the history of Catholic theology and Western philosophy.",
+    "source_notes": "https://en.wikipedia.org/wiki/Thomas_Aquinas",
+    "image": "figures/330px-St-thomas-aquinasFXD.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1: The Person and His Work (Catholic University of America Press, 1996)",
+              "Weisheipl, James A. Friar Thomas d'Aquino: His Life, Thought, and Works (Doubleday, 1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Aquinas navigated the highly charged Aristotelian reception in 13th-century Latin Christendom with remarkable intellectual strategy—defending Aristotelianism against conservative Augustinians while simultaneously distancing himself from the radical Averroists (De unitate intellectus, 1270). He adapted his approach during the mendicant controversy at Paris (1250s–60s), producing polemical and diplomatic texts as needed. His structuring of the Summa Theologica as a systematic pedagogical tool replacing the unwieldy Sentences commentary tradition shows foresight in intellectual planning."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Kenny, Anthony. Aquinas on Mind (Routledge, 1993)",
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)",
+              "Kretzmann, Norman and Stump, Eleonore, eds. The Cambridge Companion to Aquinas (Cambridge University Press, 1993)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Aquinas effected a paradigm shift in Western intellectual history by synthesizing Aristotelian philosophy with Christian theology at a time when Aristotle's works were viewed with deep suspicion—the Bishop of Paris had condemned Aristotelian propositions in 1210 and 1215. Before Aquinas, the dominant framework was Augustinian-Neoplatonic; after him, Aristotelianism became the backbone of Catholic intellectual life. His Five Ways, his hylomorphic account of the soul, and his theory of analogical predication were genuinely novel contributions that reshaped both philosophy and theology."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "MacIntyre, Alasdair. After Virtue (University of Notre Dame Press, 1981)",
+              "Finnis, John. Natural Law and Natural Rights (Oxford University Press, 1980)",
+              "Stump, Eleonore. Aquinas (Routledge, 2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Aquinas's natural law theory (Summa Theologica I-II, qq. 90–97) became foundational for Western ethics, jurisprudence, and political philosophy far beyond Catholic circles—influencing Hugo Grotius, John Locke, and modern human rights discourse. His virtue ethics synthesized Aristotelian eudaimonism with Christian theology, creating a framework that remains central to contemporary moral philosophy (e.g., Alasdair MacIntyre's After Virtue revival). His metaphysical distinctions (essence/existence, analogy of being) shaped centuries of philosophical debate across traditions."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Weisheipl, James A. Friar Thomas d'Aquino (1974)",
+              "Tugwell, Simon. Albert and Thomas: Selected Writings (Paulist Press, 1988)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Aquinas organized the Dominican studium at Santa Sabina in Rome (1265–1268), designing a novel curriculum that incorporated philosophical training alongside theology—a structure that influenced later Dominican educational institutions. However, he held no major governmental or legislative office, and his administrative role was limited to academic settings within his order. His intellectual frameworks later informed Canon Law and Catholic institutional structure, but this was indirect rather than direct administrative work."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)",
+              "Weisheipl, James A. Friar Thomas d'Aquino (1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Aquinas inhabited multiple relational modes: dutiful but defiant son (family conflict over Dominican vocation), devoted student (under Albertus Magnus in Cologne), mentor/teacher (to Reginald of Piperno and many students), loyal subordinate within Dominican hierarchy, advisor to popes (Urban IV, Clement IV), intellectual adversary (debates with Averroists and conservative Augustinians), and friend/brother within his religious community. This represents at least six distinct relational modes with documented qualitative differences in behavior. However, the absence of spousal and parental roles limits the full range."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Weisheipl, James A. Friar Thomas d'Aquino (1974)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Aquinas was a celibate Dominican friar throughout his adult life. There is no evidence of any romantic or spousal partnership. His vow of celibacy was maintained consistently from his entry into the Dominican Order around age 19 until his death. The absence of evidence here reflects a deliberate life choice rather than a deficiency, but the trait cannot be scored positively without evidence."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)",
+              "Weisheipl, James A. Friar Thomas d'Aquino (1974)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Aquinas was a devoted teacher and mentor throughout his career at Paris, Rome, Naples, and other Dominican studia. His closest mentoring relationship was with Reginald of Piperno, his socius and secretary, who continued to organize and disseminate his work after his death. The Summa Theologica was explicitly designed as a pedagogical text for 'beginners' in theology, showing care for student development. Multiple students developed into independent scholars within the Thomistic tradition. His reputation for patient, clear teaching is attested in multiple early sources."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "MacIntyre, Alasdair. After Virtue (1981)",
+              "Finnis, John. Natural Law and Natural Rights (1980)",
+              "Maritain, Jacques. The Degrees of Knowledge (University of Notre Dame Press, 1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Aquinas's influence remains clearly operative 750 years later across multiple civilizations. His natural law theory undergirds international human rights discourse; his metaphysics shaped both Catholic and secular philosophy; his just war theory remains a framework in international law and military ethics. He is studied in universities worldwide across religious and secular contexts. The Thomistic revival of the 20th century (Maritain, Gilson, MacIntyre) demonstrates continuing vitality. His impact spans theology, philosophy, law, ethics, and political theory."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Chesterton, G.K. Saint Thomas Aquinas: The Dumb Ox (1933)",
+              "Pieper, Josef. Guide to Thomas Aquinas (Pantheon, 1962)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Aquinas embodies the 'sage-scholar' archetype—the thinker who synthesizes faith and reason. He is recognized as 'Doctor Angelicus' and 'Doctor Communis' within Christianity and as one of history's greatest philosophers across Western civilization. However, his cross-cultural recognition outside Western and Christian-influenced contexts is more limited than figures like Buddha, Confucius, or Socrates. He is iconic within a broad but not universal cultural sphere."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Leo XIII, Aeterni Patris (1879)",
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)",
+              "Boyle, Leonard. The Setting of the Summa Theologiae of Saint Thomas (Pontifical Institute of Mediaeval Studies, 1982)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Aquinas established the Dominican studium at Santa Sabina in Rome with a novel curriculum integrating philosophy and theology, a model adopted by other Dominican houses. The Thomistic school of thought he founded became institutionalized in Catholic education—the Council of Trent placed the Summa on the altar, and Leo XIII's Aeterni Patris (1879) mandated Thomistic philosophy in seminaries. However, his direct institutional contributions were modest; the massive institutional impact was a posthumous consequence of his intellectual system rather than organizational building during his lifetime."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Weisheipl, James A. Friar Thomas d'Aquino (1974)",
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Aquinas was a magnetic teacher who attracted students at Paris, Rome, and Naples, and directed Dominican educational programs. He led through intellectual authority rather than political power, shaping the trajectory of Catholic thought during a critical period. He successfully defended the Dominican order's right to teach at the University of Paris during the mendicant crisis. However, his leadership was primarily within academic and religious settings; he did not lead across qualitatively different contexts such as military or political crises."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "William of Tocco, Ystoria sancti Thome de Aquino (c. 1318)",
+              "Chesterton, G.K. Saint Thomas Aquinas: The Dumb Ox (1933)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Despite his intellectual eminence, Aquinas chose voluntary mendicant poverty over aristocratic privilege. Early biographical accounts describe his large physical frame (the 'dumb ox' nickname from Cologne), his absent-mindedness at meals (once famously pounding the table at a royal dinner, exclaiming about an argument against the Manichees), and his simplicity of manner. He walked thousands of miles as a mendicant friar. These anecdotes, while partly hagiographic, consistently portray a figure grounded in ordinary physical life despite extraordinary intellectual powers."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Finnis, John. Aquinas: Moral, Political, and Legal Theory (Oxford University Press, 1998)",
+              "Porter, Jean. Nature as Reason: A Thomistic Theory of the Natural Law (Eerdmans, 2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Aquinas's Treatise on Justice (Summa Theologica II-II, qq. 57–122) is one of the most systematic treatments of justice in Western philosophy, articulating principles of distributive and commutative justice, just war criteria, and the common good. He argued that unjust laws are not truly laws (I-II, q. 96, a. 4), a principle later invoked by Martin Luther King Jr. However, as a friar-scholar without judicial or political office, documented cases of personally ruling against self-interest in favor of principle are limited to his choice of mendicant poverty over noble privilege."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "William of Tocco, Ystoria sancti Thome de Aquino (c. 1318)",
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Aquinas's intellectual charity is well-documented: he consistently presented opponents' arguments in their strongest form before responding (the objections in the Summa), and treated Islamic philosophers (Averroes, Avicenna, Maimonides) with notable respect rather than dismissal. William of Tocco's early vita describes his gentleness with students and care for the poor, consistent across multiple early accounts. However, these personal accounts are hagiographic, and specific tangible acts of compassion toward adversaries beyond intellectual charity are not independently documented."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Weisheipl, James A. Friar Thomas d'Aquino (1974)",
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "As a young man (c. 1244–45), Aquinas defied his powerful noble family to join the mendicant Dominicans, enduring approximately one year of house arrest/kidnapping at the family castle of Monte San Giovanni Campano. He later defended Aristotelianism against strong conservative opposition at the University of Paris, risking his academic standing. He also defended the mendicant orders against William of Saint-Amour's attacks (Contra impugnantes Dei cultum, 1256). These represent sustained courage across multiple high-stakes contexts."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)",
+              "William of Tocco, Ystoria sancti Thome de Aquino (c. 1318)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The hagiographic tradition around Aquinas is extensive and substantially sanitizes him, presenting a consistently saintly and intellectually flawless figure. Per the rubric, this caps the score at 1 unless independent evidence exists. There are intellectual refinements between his earlier Scriptum on the Sentences and the later Summa, and the famous 'straw' episode (December 1273, where he ceased writing after a mystical experience) could indicate a radical reassessment, but this is more mystical than moral in character. No clear documented instance of reversing a moral position after correction survives in the independent record."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Weisheipl, James A. Friar Thomas d'Aquino (1974)",
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Aquinas endured family imprisonment for approximately a year (c. 1244–45) while maintaining his commitment to the Dominican vocation—qualitatively distinct from the voluntary poverty and rigorous asceticism he practiced throughout his life as a mendicant. He also weathered intense intellectual opposition and the threat of condemnation for his Aristotelian positions at Paris. He maintained extraordinary scholarly productivity (producing millions of words) despite travel hardships and political pressures, demonstrating effective functioning across material deprivation and professional adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Chesterton, G.K. Saint Thomas Aquinas: The Dumb Ox (1933)",
+              "Pieper, Josef. The Silence of Saint Thomas (Pantheon, 1957)",
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Aquinas integrated at least four seemingly contradictory roles into a coherent life: (1) aristocratic nobleman and mendicant beggar-friar; (2) supreme rationalist philosopher and mystical contemplative; (3) gentle, humble, absent-minded friar and the most authoritative intellectual voice of his era; (4) rigorous Aristotelian naturalist and committed supernaturalist theologian. His entire philosophical project—the synthesis of faith and reason, nature and grace—was itself an exercise in paradox integration. His physical bulk and the 'dumb ox' reputation versus his soaring intellect adds a fifth dimension of embodied paradox."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "William of Tocco, Ystoria sancti Thome de Aquino (c. 1318)",
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)",
+              "Weisheipl, James A. Friar Thomas d'Aquino (1974)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "In December 1273, Aquinas had a mystical experience during Mass at Naples after which he ceased writing entirely, telling Reginald of Piperno: 'All that I have written seems like straw compared to what has now been revealed to me.' This radical letting-go of his life's work represents extraordinary existential composure. He died on March 7, 1274, at the Cistercian monastery of Fossanova with documented serenity, receiving the sacraments and reportedly expressing readiness for death. Multiple early sources (William of Tocco, Bernard Gui) describe his composed final days, and modern critical scholars (Torrell, Weisheipl) accept the general narrative."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Weisheipl, James A. Friar Thomas d'Aquino (1974)",
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Aquinas traveled extensively on foot across Europe as a Dominican friar—from Italy to Paris to Cologne and back multiple times—covering thousands of miles over decades, a significant physical feat in the 13th century. He was described as a large, heavy man who nonetheless maintained this itinerant life for most of his career. However, he was not known for physical feats or skill beyond the demands of mendicant travel, and his health declined in his late 40s."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Eco, Umberto. The Aesthetics of Thomas Aquinas (Harvard University Press, 1988)",
+              "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Aquinas composed several of the finest Latin hymns in the Western tradition—Pange Lingua Gloriosi Corporis Mysterium, Adoro Te Devote, and Tantum Ergo—which remain in liturgical use 750 years later. Though commissioned by Pope Urban IV for Corpus Christi (1264), their poetic quality far exceeds the functional requirement, revealing genuine aesthetic sensibility. His philosophical treatment of beauty as a transcendental property of being (pulchrum) in the Summa shows sustained aesthetic engagement. Anecdotes of his humor and absent-minded table-pounding suggest a personality capable of spontaneous delight."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.49,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Thomas Aquinas",
+      "overall": {
+        "Core_5D_Avg": 6.49,
+        "Overall_Normalized_Equal_Avg": 5.96,
+        "General_Competency_Avg_10scale": 3.33
+      },
+      "summary": "Thomas Aquinas ranks among history's supreme philosophical and theological minds, scoring exceptionally in ethical insight, creative synthesis, and intellectual legacy. His Aristotelian-Christian synthesis constituted a paradigm shift whose effects persist after 750 years. Moral-affective scores are solid but capped by hagiographic source limitations. The celibate religious life limits relational scoring. His Heinlein competency is narrow—a quintessential specialist in the life of the mind—with negligible evidence for manual, agricultural, culinary, or combat skills. Existential composure is exceptional, evidenced by his serene death and the famous 'straw' episode. Overall: a towering intellect with deep but narrow personhood breadth.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.0,
+          "General_Competency_Avg_10scale": 3.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists that Aquinas cooked or had culinary skills. Anecdotes suggest he was a hearty eater (a semicircle was reportedly cut from the table to accommodate his girth), but food preparation in Dominican convents was handled by others."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "William of Tocco, Ystoria sancti Thome de Aquino (c. 1318)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of combat skill exists. The hagiographic story of Aquinas driving a woman from his room with a burning brand during his family's imprisonment is a moral anecdote rather than evidence of combat ability. He was a man of peace who wrote about just war theory but never engaged in physical conflict."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "William of Tocco, Ystoria sancti Thome de Aquino (c. 1318)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Hagiographic sources (William of Tocco) describe Aquinas's pastoral care for fellow Dominicans and his compassionate interactions with the sick and poor as part of his religious duties. As a friar, basic caregiving for community members was expected. However, no specific documented episodes of sustained caregiving beyond the norms of Dominican communal life are independently attested."
+        },
+        "Existential Composure": {
+          "citations": [
+            "William of Tocco, Ystoria sancti Thome de Aquino (c. 1318)",
+            "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)",
+            "Weisheipl, James A. Friar Thomas d'Aquino (1974)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Aquinas's mystical experience in December 1273, after which he ceased writing and declared 'All that I have written seems like straw,' represents one of history's most striking acts of existential composure—a voluntary letting-go of his life's work. His serene death at Fossanova on March 7, 1274, receiving the sacraments with calm devotion, is attested in multiple early sources. He approached mortality with the same systematic composure he brought to philosophical questions, representing the practical fulfillment of his own theological teachings on death and beatitude."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists that Aquinas engaged in manual crafts or repair work. His life as an aristocrat-turned-friar-scholar did not involve such activities, and no source mentions manual skills."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Weisheipl, James A. Friar Thomas d'Aquino (1974)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Aquinas traveled extensively across medieval Europe as a mendicant friar—from southern Italy to Paris, Cologne, Rome, Orvieto, and back—covering thousands of miles over his career. While mendicant travel required practical wayfinding skills (following pilgrimage routes, finding hospices), there is no evidence he was an exceptional navigator rather than simply an experienced traveler on established routes."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists that Aquinas engaged in butchering, animal husbandry, or food processing. He lived in Dominican convents where such tasks were handled by lay brothers or servants."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)",
+            "Weisheipl, James A. Friar Thomas d'Aquino (1974)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Aquinas demonstrated both leadership and followership: he led Dominican studia, directed major intellectual projects, and taught at the foremost universities of his era. Simultaneously, he was a model of Dominican obedience—accepting reassignments from superiors, traveling to teach wherever directed, and submitting his work to ecclesiastical authority. When summoned to the Council of Lyon in 1274, he complied despite poor health, dying en route. This dual capacity is well documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists that Aquinas engaged in construction or fabrication of physical structures. His creative output was entirely intellectual and literary."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Aquinas organized the Dominican studium at Santa Sabina in Rome (1265–1268), designing curriculum and managing an educational program. He also planned his massive literary output with remarkable systematization—the Summa alone required coordinating research, dictation to multiple secretaries, and integration of hundreds of sources. However, he never commanded military or large-scale operations."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Eco, Umberto. The Aesthetics of Thomas Aquinas (Harvard University Press, 1988)",
+            "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Aquinas composed several of the most celebrated hymns in the Latin liturgical tradition: Pange Lingua Gloriosi Corporis Mysterium, Adoro Te Devote, Tantum Ergo, and O Salutaris Hostia, all commissioned by Pope Urban IV for the Feast of Corpus Christi (1264). These remain in active liturgical use 750 years later and are recognized as masterpieces of medieval Latin poetry. Umberto Eco devoted an entire monograph to Aquinas's aesthetics."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists that Aquinas practiced medical aid or emergency response. While he wrote philosophically about the body and the soul, there are no accounts of him providing medical care."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Stump, Eleonore. Aquinas (Routledge, 2003)",
+            "Kretzmann, Norman. The Metaphysics of Theism: Aquinas's Natural Theology in Summa Contra Gentiles I (Oxford University Press, 1997)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The Summa Theologica contains over 3,000 articles, each structured with precise logical argumentation—objections, sed contra, respondeo, and replies—demonstrating sustained analytical reasoning of extraordinary rigor. His commentaries on Aristotle's logical works and his mastery of syllogistic reasoning represent the pinnacle of medieval analytical thought. His systematic taxonomy of virtues, sins, laws, and theological distinctions shows unparalleled capacity for logical organization and classification."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists that Aquinas engaged in agriculture or resource management. Though raised on a noble estate, he entered monastic life at age 5 and the Dominican order at 19, with no documented agricultural activity."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Chenu, Marie-Dominique. Toward Understanding Saint Thomas (Henry Regnery, 1964)",
+            "Torrell, Jean-Pierre. Saint Thomas Aquinas, Vol. 1 (1996)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Aquinas's development of the quaestio disputata format into a comprehensive systematic method, his innovative use of newly translated Aristotelian and Arabic philosophical texts, and his creation of an integrated intellectual system synthesizing multiple knowledge traditions represent cutting-edge 'intellectual technology' of his era. His method of systematically cataloguing and addressing every known objection was a breakthrough in knowledge organization that prefigured later encyclopedic and analytical methods."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.49,
+    "general_competency_avg_0_10": 3.33,
+    "overall_normalized_equal_avg_0_10": 5.96,
+    "created_at": "2026-03-22T23:21:06.354Z",
+    "updated_at": "2026-03-22T23:21:06.365Z"
+  }
+}
+]

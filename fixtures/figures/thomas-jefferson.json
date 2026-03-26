@@ -1,0 +1,403 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 185,
+  "fields": {
+    "name": "Thomas Jefferson",
+    "slug": "thomas-jefferson",
+    "bio_short": "Thomas Jefferson was a towering intellectual and cultural figure whose cognitive and creative gifts profoundly shaped democratic governance worldwide. His Cultural-Social impact is near-maximal: the Declaration of Independence, the University of Virginia, and the Virginia Statute for Religious Freedom remain living legacies. His aesthetic sensibility, physical vitality, and existential composure mark strong embodied presence. However, his Moral-Affective scores are significantly depressed by the irreconcilable contradiction between his liberty principles and slaveholding practice, including hi",
+    "bio_long": "Thomas Jefferson was an American Founding Father and the third president of the United States from 1801 to 1809. He was the primary author of the Declaration of Independence. Jefferson was a leading proponent of democracy, republicanism, and natural rights, and he produced formative documents and decisions at the state, national, and international levels.",
+    "source_notes": "https://en.wikipedia.org/wiki/Thomas_Jefferson",
+    "image": "figures/330px-Official_Presidential_portrait_of_Thomas_Jefferson_28by_Rembrandt_Peale2C_180029.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Meacham, *Thomas Jefferson: The Art of Power* (2012)",
+              "Tucker & Hendrickson, *Empire of Liberty: The Statecraft of Thomas Jefferson* (1990)",
+              "Kukla, *A Wilderness So Immense: The Louisiana Purchase* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jefferson executed the Louisiana Purchase (1803) by adapting his strict-constructionist principles when strategic necessity demanded it, doubling the nation's territory. He organized the Lewis and Clark Expedition as a multi-objective intelligence-gathering mission. However, the Embargo Act of 1807-1809 was a major strategic failure that damaged the American economy and had to be repealed, demonstrating inconsistent adaptation under pressure."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "McLaughlin, *Jefferson and Monticello* (1988)",
+              "Hellenbrand, *The Unfinished Revolution: Education and Politics in the Thought of Thomas Jefferson* (1990)",
+              "Howard, *Thomas Jefferson, Architect* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jefferson introduced neoclassical architecture to America with the Virginia State Capitol (modeled on the Maison Carrée), creating a before/after paradigm shift in American public architecture. He designed the University of Virginia's 'academical village' concept—integrating faculty housing, student rooms, and classrooms around a central library—a model that influenced university design globally. His synthesis of Locke, Scottish Enlightenment thought, and republican theory into the Declaration produced a new political vocabulary that demonstrably changed political practice."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Wills, *Inventing America: Jefferson's Declaration of Independence* (1978)",
+              "Peterson, *Thomas Jefferson and the New Nation* (1970)",
+              "Ragosta, *Religious Freedom: Jefferson's Legacy, America's Creed* (2013)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Declaration of Independence articulated principles of natural rights and government by consent that influenced democratic movements worldwide—the French Declaration of the Rights of Man, Latin American independence movements, and modern human rights discourse. The Virginia Statute for Religious Freedom (drafted 1777, enacted 1786) established a philosophical framework for church-state separation adopted far beyond Virginia. These principles influenced thinkers across multiple civilizations and centuries, satisfying the criterion for score 3."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Malone, *Jefferson and His Time* (6 vols., 1948-1981)",
+              "Bernstein, *Thomas Jefferson* (2003)",
+              "Cunningham, *The Process of Government Under Jefferson* (1978)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jefferson drafted the Virginia Statute for Religious Freedom, which endured and influenced the First Amendment. He designed the University of Virginia's academic structure, governance, and curriculum—an institution functioning 200+ years later. However, his governorship of Virginia (1779-1781) was widely criticized for administrative unpreparedness during the British invasion, and the Embargo Act required administrative enforcement mechanisms that failed. His legislative drafting was exceptional, but executive administration was uneven."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Burstein, *Jefferson's Secrets* (2005)",
+              "Ellis, *Founding Brothers* (2000)",
+              "Cappon (ed.), *The Adams-Jefferson Letters* (1959)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jefferson operated across a remarkably wide range of relational modes with documented qualitative differences: devoted spouse (to Martha), affectionate/pedagogical parent (to daughters), dutiful subordinate (Secretary of State under Washington, where he deferred despite disagreements), commanding superior (as President), fierce adversary (against Hamilton, showing political ruthlessness), warm intimate friend (with Madison, Adams in their correspondence), mentor (to Lewis, Short), and gracious host to strangers (Monticello's famous hospitality strained his finances). Each mode shows distinct relational behavior—his letters to Madison differ markedly in tone from those to his daughters or political opponents. This covers at least six distinct relational modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Gordon-Reed, *Thomas Jefferson and Sally Hemings: An American Controversy* (1997)",
+              "Gordon-Reed, *The Hemingses of Monticello* (2008)",
+              "Malone, *Jefferson and His Time*, vol. 1 (1948)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jefferson's marriage to Martha Wayles Skelton (1772-1782) was by all accounts deeply loving—he was devastated by her death and reportedly promised never to remarry, a promise he kept. He nursed her through her final illness with attentive devotion. However, the relationship with Sally Hemings (documented by DNA evidence and Gordon-Reed's scholarship) was fundamentally unequal: an enslaved woman could not meaningfully consent, and Jefferson never publicly acknowledged the relationship or their children during his lifetime. Without the Hemings relationship: 3 (documented mutual devotion under crisis). With it given full weight: 1 (exploitation of a dependent). Final: 2, recognizing genuine spousal devotion to Martha while weighing the Hemings relationship's inherent inequality."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Kierner, *Martha Jefferson Randolph, Daughter of Monticello* (2012)",
+              "Gordon-Reed, *The Hemingses of Monticello* (2008)",
+              "Ketcham, *James Madison: A Biography* (1971)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jefferson invested heavily in his daughters' education—his letters to Martha ('Patsy') and Mary ('Polly') are detailed, affectionate, and intellectually stimulating, prescribing reading lists and encouraging independent thought. Martha became a capable manager of Monticello. He mentored James Madison (who became a towering figure in his own right), Meriwether Lewis (whom he prepared for the expedition), and William Short. His mentees developed genuine autonomy and competence. However, he did not acknowledge or publicly parent his children with Sally Hemings, and his mentoring of his acknowledged daughters reflected patriarchal control as well as genuine investment."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Armitage, *The Declaration of Independence: A Global History* (2007)",
+              "Peterson, *The Jefferson Image in the American Mind* (1960)",
+              "Onuf, *Jefferson's Empire: The Language of American Nationhood* (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Declaration of Independence's principles of natural rights, equality, and consent of the governed remain operative foundations of democratic governance worldwide nearly 250 years later, influencing the French Revolution, the Universal Declaration of Human Rights (1948), and decolonization movements across Africa and Asia. Jefferson's model of church-state separation influenced constitutional design globally. His legacy also includes the ongoing reckoning with American slavery, making him a fulcrum figure in debates about democracy's contradictions across multiple civilizations."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Peterson, *The Jefferson Image in the American Mind* (1960)",
+              "Ellis, *American Sphinx* (1997)",
+              "Onuf (ed.), *Jeffersonian Legacies* (1993)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jefferson serves as a cross-cultural archetype of the Enlightenment polymath-statesman, recognized globally as a symbol of democratic aspiration. In the 20th-21st centuries, he has also become an archetype of the contradictions inherent in liberal democracy—the slaveholding author of 'all men are created equal.' This dual archetypal resonance (idealist and hypocrite) is recognized across Western, post-colonial, and global democratic cultures, satisfying the criterion for recognition beyond his own tradition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Hellenbrand, *The Unfinished Revolution* (1990)",
+              "Cunningham, *The Jeffersonian Republicans* (1957)",
+              "Malone, *Jefferson and His Time*, vol. 6 (1981)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jefferson founded the University of Virginia (1819), which has operated continuously for over 200 years with his architectural and curricular vision still recognizable. He co-founded the Democratic-Republican Party, which evolved into the Democratic Party—the longest-running political party in the world. His sale of his personal library to Congress reconstituted the Library of Congress after its 1814 destruction. The Virginia Statute for Religious Freedom became a template for the First Amendment. All these institutions survived well beyond two generations."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Meacham, *Thomas Jefferson: The Art of Power* (2012)",
+              "Freeman, *Affairs of Honor: National Politics in the New Republic* (2001)",
+              "Cunningham, *The Jeffersonian Republicans* (1957)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jefferson led successfully across qualitatively different contexts: as revolutionary author galvanizing a colonial independence movement (1776), as wartime governor of Virginia (imperfect but functional), as diplomat in France navigating complex European politics, as party co-founder organizing the Democratic-Republican opposition, and as two-term president managing both the Louisiana Purchase and peaceful domestic governance. He led small intellectual circles (American Philosophical Society) and a continental nation. The peaceful transfer of power in 1801 from Federalists to his party was itself a historic leadership achievement."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Hatch, *'A Rich Spot of Earth': Thomas Jefferson's Revolutionary Garden at Monticello* (2012)",
+              "Betts (ed.), *Thomas Jefferson's Garden Book* (1944)",
+              "Bear & Stanton (eds.), *Jefferson's Memorandum Books* (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jefferson maintained deep engagement with mundane activities throughout his life, including at the height of presidential power. His Garden Book (1766-1824) meticulously records daily plantings, harvests, and observations at Monticello. He played violin daily for years, rode horseback every afternoon, recorded daily weather observations, experimented with wine-making, and personally supervised kitchen gardens. His letters describe ordinary domestic pleasures—grandchildren, meals, books—alongside affairs of state. Archaeological and documentary evidence from Monticello confirms this everyday engagement."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Miller, *The Wolf by the Ears: Thomas Jefferson and Slavery* (1977)",
+              "Ragosta, *Religious Freedom* (2013)",
+              "Peterson, *Thomas Jefferson and the New Nation* (1970)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jefferson championed the Virginia Statute for Religious Freedom against the powerful Anglican establishment, abolished primogeniture and entail in Virginia (against his own planter class's interest), and supported the Bill of Rights even as President when it constrained executive power. These represent documented cases of ruling against personal or group interest. However, the counterexample of slaveholding—maintaining a system he himself called a 'moral and political depravity' in Notes on Virginia—is devastating. Without it: 3 (legislative achievements for justice are extraordinary). With it: 1 (fundamental betrayal of own principles). Final: 2, because the legislative achievements for religious freedom and legal equality among white citizens are real, enduring, and against-interest, but the slavery contradiction prevents the score from being defining."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Gordon-Reed, *The Hemingses of Monticello* (2008)",
+              "Stanton, *'Those Who Labor for My Happiness': Slavery at Thomas Jefferson's Monticello* (2012)",
+              "Malone, *Jefferson and His Time*, vol. 1 (1948)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Jefferson showed personal warmth and emotional attentiveness to family and friends—his letters to daughters Martha and Mary are deeply affectionate, and he personally nursed his dying wife Martha in 1782. However, the counterexample of enslaving over 600 people across his lifetime, including the children he fathered with Sally Hemings whom he did not publicly acknowledge, represents a fundamental failure of empathy toward those most dependent on him. Without this counterexample: 2 (warm personal relationships, expressed concern for ordinary citizens). With it given full weight: 0-1 (systematic denial of humanity to hundreds). Final: 1, because documented personal compassion existed but was catastrophically bounded by racial exclusion."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Meacham, *Thomas Jefferson: The Art of Power* (2012)",
+              "Ellis, *American Sphinx: The Character of Thomas Jefferson* (1997)",
+              "Wheelan, *Jefferson's War: America's First War on Terror* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jefferson risked execution for treason by authoring the Declaration of Independence in 1776. He endured vicious political attacks during the 1800 election (Callender's libels, Federalist accusations of atheism) and persisted in public life. He confronted the Barbary pirates militarily rather than continue paying tribute. However, his flight from Monticello during Tarleton's 1781 raid was a notable failure of physical courage, and he was not tested in sustained physical danger. Courage was primarily political and sustained across decades, meeting the 'multiple high-stakes situations' criterion, but not exceptional."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Ellis, *American Sphinx* (1997)",
+              "Gordon-Reed, *The Hemingses of Monticello* (2008)",
+              "Cappon (ed.), *The Adams-Jefferson Letters* (1959)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Jefferson reversed his strict-constructionist constitutional position to execute the Louisiana Purchase, acknowledging the contradiction. He reconciled with John Adams in 1812 after over a decade of bitter estrangement, initiated by Benjamin Rush, producing one of history's great correspondences. However, on slavery—the central moral question of his life—he repeatedly acknowledged the evil ('I tremble for my country when I reflect that God is just') yet never freed the vast majority of his enslaved people, freed only five in his will (all Hemings family), and proposed no effective emancipation scheme. This failure to translate acknowledged moral insight into behavioral change on the most consequential issue limits the score."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Ellis, *American Sphinx* (1997)",
+              "Sloan, *Principle and Interest: Thomas Jefferson and the Problem of Debt* (1995)",
+              "Malone, *Jefferson and His Time*, vol. 1 (1948)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jefferson endured multiple qualitatively different forms of adversity: the death of his wife Martha in 1782 (after which he withdrew for months but eventually returned to vigorous public service), the deaths of four of his six children with Martha, severe financial distress culminating in debt of over $100,000 at death (forcing the sale of Monticello), and relentless political attacks including Callender's published allegations about Sally Hemings. He continued to function as president, architect, and university founder through these adversities, though his initial collapse after Martha's death suggests he was not uniformly resilient."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Ellis, *American Sphinx* (1997)",
+              "Onuf, *The Mind of Thomas Jefferson* (2007)",
+              "Miller, *The Wolf by the Ears* (1977)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Jefferson inhabited multiple seemingly contradictory roles: slaveholder and champion of human equality; strict constructionist and expansionist president; aristocratic planter and democratic populist; contemplative scholar and active executive; francophile cosmopolitan and American nationalist. However, the slavery contradiction represents a genuine fragmentation rather than integration—he never reconciled his principles with his practice, instead resorting to fatalism ('the wolf by the ear'). While he held political and intellectual paradoxes together functionally (strict constructionism + Louisiana Purchase), the moral paradox of slavery remained genuinely unresolved. This prevents score 3, which requires coherent integration rather than compartmentalization."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Randolph, reported in Malone, *Jefferson and His Time*, vol. 6 (1981)",
+              "Dunglison's account in Peterson, *Thomas Jefferson: Writings* (Library of America, 1984)",
+              "Ellis, *American Sphinx* (1997)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Jefferson faced his own death with documented composure and intentionality. In his final days in late June 1826, attended by physician Robley Dunglison and grandson Thomas Jefferson Randolph, he reportedly asked 'Is it the Fourth?' and appeared to hold on consciously until July 4, 1826—the 50th anniversary of the Declaration of Independence. His final letters show philosophical equanimity about death. He had prepared detailed instructions for his burial and epitaph, choosing to be remembered for three achievements rather than the presidency, demonstrating intentional self-reckoning at life's end."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Malone, *Jefferson and His Time* (1948-1981)",
+              "Bear (ed.), *Jefferson at Monticello* (1967)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Jefferson was an avid horseman who rode daily into his seventies, reportedly spending hours in the saddle. He undertook arduous multi-day horseback journeys between Virginia and Philadelphia/Washington throughout his career. He walked extensively and maintained physical vigor well into old age—he was still riding at age 82, shortly before his death. While not known for exceptional physical feats, his sustained physical activity across multiple life-stages (traveler, farmer, elderly statesman) represents consistent embodied capacity for his era."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Stein, *The Worlds of Thomas Jefferson at Monticello* (1993)",
+              "Gabler, *Passions: The Wines and Travels of Thomas Jefferson* (1995)",
+              "McLaughlin, *Jefferson and Monticello* (1988)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Jefferson's aesthetic engagement was deep, sustained, and non-instrumental. He played violin for personal pleasure for decades, designed Monticello as an expression of architectural beauty (not merely function), collected European art and sculpture during his years in France, cultivated elaborate ornamental gardens alongside practical ones, and was one of America's first serious oenophiles—his wine cellar and tasting notes survive. His delight in books was legendarily personal ('I cannot live without books,' he wrote to Adams). These pursuits were genuine passions, not performed for political advantage."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 7.78,
+          "Core_5D_Avg": 7.82,
+          "Cultural-Social": 10.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Thomas Jefferson",
+      "overall": {
+        "Core_5D_Avg": 7.82,
+        "Overall_Normalized_Equal_Avg": 7.52,
+        "General_Competency_Avg_10scale": 6.0
+      },
+      "summary": "Thomas Jefferson was a towering intellectual and cultural figure whose cognitive and creative gifts profoundly shaped democratic governance worldwide. His Cultural-Social impact is near-maximal: the Declaration of Independence, the University of Virginia, and the Virginia Statute for Religious Freedom remain living legacies. His aesthetic sensibility, physical vitality, and existential composure mark strong embodied presence. However, his Moral-Affective scores are significantly depressed by the irreconcilable contradiction between his liberty principles and slaveholding practice, including his failure to grow meaningfully on this central moral issue. His Heinlein competency shows exceptional range in design, expression, and leadership, but gaps in combat, manual craft, and practical trades reflect his gentry position. Core 5D Avg: 7.82; Heinlein Avg: 6.0; Overall: 7.52.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.8,
+          "General_Competency_Avg_10scale": 6.0
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Fowler, *Dining at Monticello* (2005)",
+            "Gordon-Reed, *The Hemingses of Monticello* (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Jefferson was a renowned gastronome who introduced French culinary traditions to American dining, brought pasta machines and recipes from Europe, and maintained detailed notes on food preparation. However, the actual cooking was performed by enslaved chefs, particularly James Hemings (whom he had trained in French cuisine in Paris) and later his brother Peter Hemings. Jefferson's role was that of an informed patron and taste-maker rather than a cook. Era-normalized, even wealthy men might have cooked occasionally, but evidence for Jefferson doing so is absent."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Meacham, *Thomas Jefferson: The Art of Power* (2012)",
+            "Malone, *Jefferson and His Time*, vol. 1 (1948)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Jefferson had no military service, no documented combat experience, and no known proficiency with weapons beyond what a Virginia gentleman might possess for hunting. He fled Monticello during Tarleton's 1781 raid rather than organizing defense. He explicitly preferred diplomacy and economic coercion (the Embargo) to military action. There is no credible evidence of personal combat or defense capability."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Malone, *Jefferson and His Time*, vol. 1 (1948)",
+            "Kierner, *Martha Jefferson Randolph* (2012)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Jefferson personally nursed his wife Martha through her final illness in 1782, remaining at her bedside for weeks. He was attentive to his daughters' physical and emotional needs, and his letters show concern for the health and well-being of his grandchildren. He provided for extended family members financially. However, caregiving was bounded—he did not extend comparable nurture to the enslaved people who depended on him."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Malone, *Jefferson and His Time*, vol. 6 (1981)",
+            "Peterson, *Thomas Jefferson: Writings* (Library of America, 1984)",
+            "Ellis, *American Sphinx* (1997)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Jefferson faced his own death in late June 1826 with documented composure and intentionality. Attended by Dr. Robley Dunglison and grandson Thomas Jefferson Randolph, he declined laudanum to maintain clarity, asked 'Is it the Fourth?' and died on July 4, 1826—the 50th anniversary of the Declaration. His final letter (declining an invitation to Washington for the July 4 celebration) expressed serene confidence that the principles of liberty would endure. He had composed his own epitaph, choosing three achievements and omitting the presidency, showing deliberate self-reckoning."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Bedini, *Thomas Jefferson: Statesman of Science* (1990)",
+            "Stanton, *'Those Who Labor for My Happiness'* (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Jefferson tinkered with mechanical devices and constructed prototypes of his moldboard plow and wheel cipher. He assembled and maintained scientific instruments (thermometers, barometers). However, Monticello's joinery workshop was staffed by enslaved artisans (notably John Hemings), and there is limited evidence of Jefferson personally performing sustained manual craft work. His engagement was more design-oriented than hands-on fabrication."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Jackson (ed.), *Letters of the Lewis and Clark Expedition* (1962)",
+            "Malone, *Jefferson and His Time*, vol. 2 (1951)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Jefferson traveled extensively—between Virginia and Philadelphia, across the Atlantic to France, and throughout Europe—but relied on established roads, ship captains, and guides. He was knowledgeable about geography and cartography (he prepared detailed instructions for Lewis and Clark's route), but there is no evidence of personal navigational skill in unfamiliar terrain. His geographical knowledge was scholarly rather than embodied."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Betts (ed.), *Thomas Jefferson's Farm Book* (1953)",
+            "Stanton, *'Those Who Labor for My Happiness'* (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "As a plantation owner, Jefferson oversaw livestock operations and maintained records of animal husbandry in his Farm Book—documenting sheep breeding, hog slaughtering schedules, and cattle management. However, hands-on animal processing was performed by enslaved workers and overseers. Jefferson's engagement was managerial and intellectual rather than practical. Era-normalized for a planter-class gentleman, this represents supervisory knowledge without personal skill."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Meacham, *Thomas Jefferson: The Art of Power* (2012)",
+            "Cunningham, *The Process of Government Under Jefferson* (1978)",
+            "Cappon (ed.), *The Adams-Jefferson Letters* (1959)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Jefferson demonstrated exceptional leadership as President, party founder, and university creator. Critically, he also demonstrated effective followership: he served loyally (if sometimes grudgingly) as Secretary of State under Washington, deferring to the President's authority on key decisions even when he disagreed (e.g., the Neutrality Proclamation). He took direction from the Continental Congress in revising the Declaration. He followed Benjamin Rush's lead in reconciling with Adams. This dual capacity for commanding and subordinating marks a score of 3."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "McLaughlin, *Jefferson and Monticello* (1988)",
+            "Howard, *Thomas Jefferson, Architect* (2003)",
+            "Nichols, *Thomas Jefferson's Architectural Drawings* (1961)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Jefferson designed Monticello (built, demolished, and rebuilt over decades), the Virginia State Capitol in Richmond, and the University of Virginia campus including the Rotunda and ten pavilions—all durable structures still standing. He produced detailed architectural drawings, specified materials and construction techniques, and personally supervised building operations. His designs incorporated innovative features (dumbwaiters, skylights, alcove beds). Era-normalized, this represents exceptional architectural design and construction management skill."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Kukla, *A Wilderness So Immense* (2003)",
+            "Cunningham, *The Process of Government Under Jefferson* (1978)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Jefferson successfully planned the Louisiana Purchase negotiation (1803), commissioning and organizing the Lewis and Clark Expedition with detailed scientific and diplomatic objectives. He coordinated the Democratic-Republican electoral strategy for 1800. However, the Embargo Act (1807-1809) was a strategic planning failure—enforcement was impractical and economic damage severe. His command during the British invasion of Virginia (1780-1781) was inadequate. Consistent capability with notable failures prevents a score of 3."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Stein, *The Worlds of Thomas Jefferson at Monticello* (1993)",
+            "Wills, *Inventing America* (1978)",
+            "Cripe, *Thomas Jefferson and Music* (1974)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Jefferson was a skilled violinist who played chamber music regularly for decades. The Declaration of Independence is recognized as a masterpiece of political prose—its cadences and structure reflect genuine literary artistry. His architectural designs (Monticello, UVA) are acknowledged works of art in the neoclassical tradition. He collected paintings and sculpture in Europe and curated Monticello as an aesthetic environment. This represents creative output across multiple artistic domains (music, literature, architecture, visual curation)."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Bedini, *Thomas Jefferson: Statesman of Science* (1990)",
+            "Malone, *Jefferson and His Time*, vol. 1 (1948)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Jefferson arranged smallpox inoculations for his family and enslaved people, demonstrating awareness of preventive medicine. He maintained a medicine chest and had basic knowledge of contemporary medical practice. He corresponded with Benjamin Rush on medical topics. However, there is no evidence of personal medical treatment beyond basic household care, and he relied on physicians for serious illness. Era-normalized for a gentleman planter, this represents basic competence."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Cohen, *Science and the Founding Fathers* (1995)",
+            "Bedini, *Thomas Jefferson: Statesman of Science* (1990)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Jefferson applied mathematical principles to design his moldboard plow (using calculus of variations to optimize the curve), kept meticulous quantitative records in his Garden Book and Farm Book, made systematic weather observations with instruments, and engaged with political arithmetic and census data. He studied mathematics formally at William & Mary. While not a professional mathematician, his analytical reasoning was substantially above his peer average and applied to practical problems across domains."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Hatch, *'A Rich Spot of Earth'* (2012)",
+            "Betts (ed.), *Thomas Jefferson's Garden Book* (1944)",
+            "Sloan, *Principle and Interest* (1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Jefferson experimented extensively with crop rotation, soil improvement, and new plant varieties at Monticello—his Garden Book documents trials of over 300 vegetable varieties and 170 fruit varieties. He promoted sustainable farming practices and critiqued tobacco monoculture as soil-depleting. He introduced upland rice and olive cultivation experiments. However, his plantation was chronically unprofitable, and he died deeply in debt, suggesting his resource management, while intellectually sophisticated, was practically deficient."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Bedini, *Thomas Jefferson: Statesman of Science* (1990)",
+            "Cohen, *Science and the Founding Fathers* (1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Jefferson designed the wheel cipher (a polyalphabetic encryption device rediscovered by the Army in the 20th century), created a mathematically optimized moldboard plow, designed innovative architectural features (dumbwaiters, revolving doors, a great clock with cannonball weights indicating the day of the week), and experimented with polygraph copying machines. He engaged with the cutting-edge technology of his era across multiple domains—cryptography, agriculture, architecture, and instrumentation."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.82,
+    "general_competency_avg_0_10": 6.0,
+    "overall_normalized_equal_avg_0_10": 7.52,
+    "created_at": "2026-03-22T21:51:32.547Z",
+    "updated_at": "2026-03-22T21:51:32.565Z"
+  }
+}
+]

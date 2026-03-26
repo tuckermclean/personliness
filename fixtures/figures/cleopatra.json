@@ -1,0 +1,391 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 148,
+  "fields": {
+    "name": "Cleopatra",
+    "slug": "cleopatra",
+    "bio_short": "Cleopatra VII excels in cultural-social and embodied-existential dimensions, standing as one of history's most recognizable archetypes with remarkable hardship tolerance, mortality acceptance, and paradox integration—simultaneously Greek queen, Egyptian pharaoh, mother, scholar, and military strategist. Her cognitive abilities were strong but not paradigm-shifting; her moral-affective profile is uneven, marked by exceptional courage but limited evidence of compassion or principled justice. Heinlein competency breadth is narrow, reflecting a monarch's specialization in leadership and statecraft",
+    "bio_long": "Cleopatra VII Thea Philopator was Queen of the Ptolemaic Kingdom of Egypt from 51 to 30 BC, and the last active Hellenistic pharaoh. A member of the Ptolemaic dynasty, she was a descendant of its founder Ptolemy I Soter, a Macedonian Greek general and companion of Alexander the Great. Her first language was Koine Greek, and she is the only Ptolemaic ruler known to have learned the Egyptian language, among several others. After her death, Egypt became a province of the Roman Empire, marking the end of the Hellenistic period in the Mediterranean, which had begun during the reign of Alexander.",
+    "source_notes": "https://en.wikipedia.org/wiki/Cleopatra",
+    "image": "figures/330px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Roller, Duane. *Cleopatra: A Biography*. Oxford UP, 2010",
+              "Plutarch, *Life of Antony*",
+              "Schiff, Stacy. *Cleopatra: A Life*. Little, Brown, 2010"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cleopatra adapted strategically across multiple crises: after being exiled by Ptolemy XIII (~48 BC), she raised an army and smuggled herself to Caesar to secure his backing; after Caesar's assassination (44 BC), she returned to Egypt, consolidated power, and later allied with Antony. She managed Egyptian independence for ~21 years against Roman encroachment. However, her final strategic position collapsed at Actium (31 BC) and she could not negotiate favorable terms with Octavian, preventing a score of 3."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Plutarch, *Life of Antony* 25-27",
+              "Tyldesley, Joyce. *Cleopatra: Last Queen of Egypt*. Profile Books, 2008"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cleopatra was the only Ptolemaic ruler to learn the Egyptian language and reportedly spoke nine languages (Plutarch, *Antony* 27), representing a genuine innovation in how Ptolemaic rulers related to their subjects. Her theatrical self-presentation as Isis-Aphrodite at Tarsus (41 BC) was a masterwork of diplomatic spectacle that merged Hellenistic and Egyptian symbolism in novel ways. These innovations were significant but did not constitute a paradigm shift beyond her own context."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Plutarch, *Life of Antony* 27",
+              "Roller, *Cleopatra: A Biography*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Cleopatra was educated in the Mouseion tradition of Alexandria and was reportedly versed in philosophy and rhetoric (Plutarch, *Antony* 27). However, she left no known philosophical writings, and no ethical principles attributable to her influenced thinkers beyond her own court. Her intellectual reputation is attested but not through original ethical or philosophical contributions."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "P.Bingen 45 (royal decree)",
+              "Hölbl, Günther. *A History of the Ptolemaic Empire*. Routledge, 2001",
+              "Roller, *Cleopatra: A Biography*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She administered Egypt for approximately 21 years, maintaining its grain economy, trade networks, and currency system. A surviving papyrus (P.Bingen 45) shows her personally authorizing tax exemptions for Canidius's commercial operations, evidencing direct administrative engagement. She managed a Nile flood-dependent economy through periods of famine (the low Nile floods of the 40s BC). However, her administrative systems did not survive her death—Egypt became a Roman province immediately."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Plutarch, *Life of Antony*",
+              "Roller, *Cleopatra: A Biography*",
+              "Tyldesley, *Cleopatra: Last Queen of Egypt*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Cleopatra demonstrated qualitatively distinct behavior across multiple relational modes: sovereign ruler (to Egyptian and Greek subjects), intimate partner/lover (to Caesar and Antony), adversary (to Octavian, Ptolemy XIII, Arsinoe IV), mother (to four children), religious figure (as living Isis to Egyptian worshippers), and diplomatic peer (to Roman generals and Eastern client kings). That represents at least five distinct modes. However, detailed evidence of her behavioral adaptation across these modes is limited to Plutarch's account and Roman historiography, and her behavior in subordinate or follower roles is poorly documented."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Plutarch, *Life of Antony* 28-29, 53-54, 76-77",
+              "Roller, *Cleopatra: A Biography*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Her relationship with Antony lasted approximately 11 years (41-30 BC), produced three children, and involved genuine partnership—they co-ruled, co-campaigned, and formed the 'Inimitable Livers' society centered on shared pleasure. Plutarch describes intimate companionship: fishing together, nighttime wandering, and sustained emotional connection. Her earlier relationship with Caesar (~48-44 BC) produced Caesarion and involved political partnership. However, both relationships were inseparable from political alliance, and Antony's concurrent marriage to Octavia complicates the picture of mutuality. Evidence of emotional availability during crisis exists (she was with Antony near the end) but is filtered through hostile Roman sources."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Plutarch, *Life of Antony* 54",
+              "Roller, *Cleopatra: A Biography*",
+              "Roller, Duane. *The World of Juba II and Kleopatra Selene*. Routledge, 2003"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Cleopatra had four children: Caesarion (with Caesar) and Alexander Helios, Cleopatra Selene, and Ptolemy Philadelphus (with Antony). She secured political positions for them through the Donations of Alexandria (34 BC), giving them nominal rulership of eastern territories. She fought to establish Caesarion as Caesar's legitimate heir. However, specific evidence of parenting quality—investment in their development, fostering autonomy—is absent from the record. After her death, Caesarion was executed by Octavian; the surviving children were raised by Octavia. Cleopatra Selene's later success as Queen of Mauretania might reflect her mother's influence but this is speculative."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Shakespeare, *Antony and Cleopatra* (1607)",
+              "Hughes-Hallett, Lucy. *Cleopatra: Histories, Dreams and Distortions*. Harper, 1990",
+              "Schiff, *Cleopatra: A Life*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cleopatra's impact is clearly operative more than 2,000 years later across multiple civilizations. Her defeat marked the end of the Hellenistic period and Egypt's independence for nearly two millennia. She has been a subject of art, literature, and drama from Horace and Virgil through Shakespeare (*Antony and Cleopatra*, 1607), Handel's opera, to modern cinema (1963 film). She remains a defining figure in discussions of female political power, East-West relations, and the fall of the ancient world."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Hughes-Hallett, *Cleopatra: Histories, Dreams and Distortions*",
+              "Horace, *Odes* 1.37",
+              "Wyke, *The Roman Mistress*"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Cleopatra is the defining archetype of the powerful female ruler and the seductive queen across Western, Middle Eastern, and global cultures. She is recognized as a symbol in Roman poetry (Horace's Ode 1.37), medieval Arabic literature (al-Masudi), Renaissance art, Shakespearean drama, Romantic opera, Hollywood film, and contemporary feminism. Her cross-cultural resonance spans civilizations from Roman to Islamic to modern Western, easily meeting the criterion for recognition beyond her own tradition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Hölbl, *A History of the Ptolemaic Empire*",
+              "Roller, *Cleopatra: A Biography*"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Cleopatra sustained existing Ptolemaic institutions (the Mouseion, the Library of Alexandria, the Egyptian bureaucratic-priestly apparatus) but did not create new institutions that survived beyond her death. Egypt was annexed by Rome in 30 BC, and Ptolemaic governmental structures were replaced. She supported the Library and scholarly community but this was continuation rather than foundation. The Ptolemaic dynasty ended with her."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Plutarch, *Life of Antony*",
+              "Roller, *Cleopatra: A Biography*",
+              "Grant, Michael. *Cleopatra*. Weidenfeld & Nicolson, 1972"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Cleopatra led Egypt across qualitatively different contexts: crisis (civil war with Ptolemy XIII, 48 BC), diplomatic negotiation (with Caesar and Antony), economic management (grain trade, currency), military alliance (the Donations of Alexandria, 34 BC; Actium campaign), and religious ceremonial leadership (as living Isis). She commanded loyalty from Egyptian subjects and Greek elites simultaneously, and personally negotiated with the most powerful Romans of her era across two decades."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Plutarch, *Life of Antony* 28-29",
+              "Schiff, *Cleopatra: A Life*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Plutarch preserves specific anecdotes of mundane engagement at the height of her power: the 'Inimitable Livers' (Amimetobioi) society with Antony involved nighttime wandering through Alexandria's streets in disguise, knocking on doors and playing pranks on ordinary citizens. She played a fishing joke on Antony, having a diver attach a salted fish to his line. These are specific, non-instrumental examples of play and everyday engagement. However, much of this evidence comes from a single source (Plutarch), limiting confidence."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Roller, *Cleopatra: A Biography*",
+              "Tyldesley, *Cleopatra: Last Queen of Egypt*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "There is no well-documented case of Cleopatra ruling against her own dynastic or personal interest in favor of abstract principle. She eliminated dynastic rivals (Arsinoe IV, possibly Ptolemy XIV) and her governance appears pragmatically oriented rather than principled. While she may have administered justice within Egypt's legal system, specific cases of impartial rulings are not preserved in the record."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Plutarch, *Life of Antony*",
+              "Cassius Dio, *Roman History* 43.19",
+              "Roller, *Cleopatra: A Biography*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "There is limited specific evidence of compassion toward adversaries or outgroup members. She reportedly arranged the execution of her sister Arsinoe IV at Ephesus (41 BC) and may have poisoned her brother/co-ruler Ptolemy XIV (44 BC), which are significant counterexamples. Plutarch describes her personal charm and conversational empathy, but these were primarily deployed in service of political goals. Without the counterexamples the score might reach 2; with them given proportional weight, 1 is appropriate given the moral stakes of dynastic killing."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Plutarch, *Life of Antony* 60-86",
+              "Roller, *Cleopatra: A Biography*",
+              "Cassius Dio, *Roman History* 50-51"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Cleopatra demonstrated sustained courage across multiple high-stakes situations: she returned from exile to contest her brother's rule (48 BC); smuggled herself into Caesar's quarters at great personal risk; navigated the lethal aftermath of Caesar's assassination in Rome; maintained Egyptian sovereignty for two decades against Roman pressure; and chose death by suicide (30 BC) rather than being paraded in Octavian's triumph. The counterexample of her fleet's withdrawal at Actium (31 BC) has been reinterpreted by modern scholarship as a preplanned tactical retreat rather than cowardice (Roller 2010). Without this counterexample: 3; with it given full weight: 2; given the scholarly reinterpretation: 3."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Schiff, *Cleopatra: A Life*",
+              "Wyke, Maria. *The Roman Mistress*. Oxford UP, 2002"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The surviving sources—overwhelmingly Roman and hostile—do not preserve any documented instance of Cleopatra reversing a prior position or accepting correction with visible behavioral change. The tradition around her is heavily shaped by Augustan propaganda (pro-Octavian) which portrayed her as a villain, leaving little room for nuanced moral self-reflection to enter the record. Per the rubric, figures whose traditions obscure evidence of error are capped at 1 absent independent evidence."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Plutarch, *Life of Antony* 76-86",
+              "Roller, *Cleopatra: A Biography*",
+              "Cassius Dio, *Roman History* 51"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Cleopatra functioned effectively across at least three qualitatively different forms of adversity: political exile and armed conflict with her brother (48 BC); the assassination of her primary political ally and father of her child, Caesar (44 BC), after which she returned to Egypt and consolidated power; and final military defeat at Actium (31 BC) followed by Antony's suicide, through which she maintained agency and attempted negotiation with Octavian before choosing death on her own terms."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Roller, *Cleopatra: A Biography*",
+              "Tyldesley, *Cleopatra: Last Queen of Egypt*",
+              "Schiff, *Cleopatra: A Life*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Cleopatra simultaneously inhabited at least four seemingly contradictory roles without fragmenting: (1) Macedonian-Greek Ptolemaic heir who embraced Egyptian identity and religion as living Isis; (2) woman wielding supreme political and military power in a male-dominated Hellenistic and Roman world; (3) devoted mother of four who was also a ruthless dynastic operator who eliminated siblings; (4) intellectual scholar in the Mouseion tradition who was also a figure of sensual luxury and theatrical display; (5) independent sovereign who operated within and through Roman power structures. This exceeds the three-role threshold."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Plutarch, *Life of Antony* 71, 85-86",
+              "Cassius Dio, *Roman History* 51.11-14",
+              "Roller, *Cleopatra: A Biography*"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Cleopatra's death is one of the most famous in antiquity. She chose suicide rather than captivity and display in Octavian's triumph. Plutarch reports she had previously experimented with poisons to find the most painless method (*Antony* 71). She prepared for death deliberately, reportedly adorning herself in royal regalia. Both Plutarch and Dio describe her composure in the face of imminent death. This represents documented composure before one's own death, not merely abstract philosophical statements."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Plutarch, *Life of Antony*",
+              "Roller, *Cleopatra: A Biography*"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Cleopatra traveled extensively across the Mediterranean—from Egypt to Rome and back, through military campaigns, and at Actium she was aboard her flagship. She bore four children and survived to age 39 in an era of high maternal mortality. However, no specific physical feats or endurance across multiple life-stages are documented; her physical capacity was within normal expectations for a Hellenistic monarch."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Plutarch, *Life of Antony* 28-29",
+              "Pliny the Elder, *Natural History* 9.58",
+              "Schiff, *Cleopatra: A Life*"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The 'Inimitable Livers' society she co-founded with Antony was explicitly devoted to pleasure, feasting, and entertainment (Plutarch, *Antony* 28). She staged elaborate banquets—the famous story of dissolving a pearl in vinegar to win a bet with Antony (Pliny, *Natural History* 9.58). The nighttime street pranks in Alexandria suggest genuine non-instrumental play. However, some of this aesthetic engagement served diplomatic purposes (e.g., the Tarsus spectacle), complicating the distinction between genuine and instrumental pleasure."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.83,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.48,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Cleopatra VII Thea Philopator",
+      "overall": {
+        "Core_5D_Avg": 6.48,
+        "Overall_Normalized_Equal_Avg": 6.03,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "Cleopatra VII excels in cultural-social and embodied-existential dimensions, standing as one of history's most recognizable archetypes with remarkable hardship tolerance, mortality acceptance, and paradox integration—simultaneously Greek queen, Egyptian pharaoh, mother, scholar, and military strategist. Her cognitive abilities were strong but not paradigm-shifting; her moral-affective profile is uneven, marked by exceptional courage but limited evidence of compassion or principled justice. Heinlein competency breadth is narrow, reflecting a monarch's specialization in leadership and statecraft rather than manual or practical skills. Her lasting legacy is primarily symbolic and cultural rather than institutional, as Egypt fell to Rome immediately upon her death.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Plutarch, *Life of Antony* 28",
+            "Pliny, *Natural History* 9.58"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal culinary skill. While she hosted legendary banquets (Plutarch describes extraordinary feasts for Antony, *Antony* 28), these were prepared by palace kitchens. The pearl-in-vinegar story (Pliny, *NH* 9.58) is about conspicuous consumption, not cooking ability."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Plutarch, *Life of Antony* 63-68",
+            "Cassius Dio, *Roman History* 50.33"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Cleopatra was present at the Battle of Actium (31 BC) commanding her Egyptian fleet contingent, and she successfully extracted her ships from the engagement. She raised an army to contest Ptolemy XIII's rule (48 BC). However, no personal combat skill is documented—her role was that of commander and sovereign, not warrior. Era-normalized for a Hellenistic queen, her presence at a naval battle is notable but does not demonstrate personal fighting proficiency."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Roller, *Cleopatra: A Biography*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As mother of four children, Cleopatra provided for their care and political futures (Donations of Alexandria, 34 BC). However, specific evidence of personal emotional caregiving or nurture is absent from the historical record. The Ptolemaic royal household would have employed nurses and tutors, and no anecdotes of hands-on caregiving survive."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Plutarch, *Life of Antony* 85-86",
+            "Cassius Dio, *Roman History* 51.11-14",
+            "Roller, *Cleopatra: A Biography*"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Cleopatra's death represents one of history's most documented examples of existential composure. She chose suicide over humiliation, prepared carefully by researching painless poisons (Plutarch, *Antony* 71), adorned herself in full royal regalia, and died with deliberate dignity. Plutarch and Dio both describe her composure. Octavian reportedly found her dead on her golden couch, arranged as if sleeping. This was not a panicked act but a controlled, sovereign choice in the face of certain defeat."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence exists of personal manual craft or repair skills. As a Ptolemaic queen, she would not have been expected to perform manual labor, and no anecdotes suggest otherwise."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Plutarch, *Life of Antony*",
+            "Roller, *Cleopatra: A Biography*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Cleopatra traveled extensively across the eastern Mediterranean—from Alexandria to Rome (~46 BC), to Tarsus (41 BC), and commanded her fleet at Actium (31 BC), successfully navigating her ships away from the battle. However, actual navigation would have been performed by her ship captains and pilots. Her travel demonstrates familiarity with Mediterranean routes but not personal wayfinding skill."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Plutarch, *Life of Antony* 29"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No credible evidence exists that Cleopatra personally processed animals or food. As a Hellenistic monarch, such tasks were performed by household staff. The fishing anecdote with Antony (Plutarch, *Antony* 29) shows recreational fishing, not food processing competence."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Plutarch, *Life of Antony*",
+            "Roller, *Cleopatra: A Biography*",
+            "Grant, *Cleopatra*"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Cleopatra was an exceptional leader who maintained Egyptian independence for 21 years, commanded loyalty from diverse constituencies (Egyptian priests, Greek elites, her military), and personally directed diplomacy with Rome's most powerful figures. She also demonstrated followership: she subordinated herself to Roman political frameworks when necessary, deferred to Caesar's military authority during the Alexandrian War (48-47 BC), and coordinated with Antony as junior partner in military campaigns. This combination of effective command and strategic deference across contexts merits the highest score."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Roller, *Cleopatra: A Biography*"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal construction or fabrication skills. She commissioned building projects (the Caesareum in Alexandria) but as patron, not builder. No documented personal involvement in construction or design at any scale."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Plutarch, *Life of Antony*",
+            "Cassius Dio, *Roman History* 50",
+            "Roller, *Cleopatra: A Biography*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "She coordinated complex politico-military operations: the alliance with Caesar against Ptolemy XIII (48 BC), the logistical support for Antony's Parthian campaign (36 BC), and the joint Actium campaign (31 BC). She personally commanded the Egyptian fleet at Actium. Her strategic planning sustained Egyptian independence for two decades, though the final campaign ended in defeat."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Plutarch, *Life of Antony* 26-27",
+            "Galen, *De Compositione Medicamentorum* 12.403",
+            "Tyldesley, *Cleopatra: Last Queen of Egypt*"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Cleopatra was a patron of the Mouseion and Library of Alexandria. She staged elaborate theatrical self-presentations—most notably her arrival at Tarsus as Aphrodite/Isis, described by Plutarch as an artistic spectacle with purple sails, silver oars, flute music, and incense (*Antony* 26). Galen attributes to her a treatise (*Kosmētikon*) on cosmetics and possibly medicines. Her multilingual conversational ability was itself described as an art form by Plutarch."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Galen, *De Compositione Medicamentorum* 12.403",
+            "Plutarch, *Life of Antony* 71"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Galen credits Cleopatra with authoring a treatise on cosmetics and pharmaceutical preparations (*Kosmētikon*), and Plutarch reports she experimented with poisons on condemned prisoners to determine their effects (*Antony* 71). This demonstrates pharmacological knowledge within her era's context. However, no evidence of clinical medical practice or emergency medical response exists."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "P.Bingen 45",
+            "Roller, *Cleopatra: A Biography*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Cleopatra managed Egypt's complex economy including currency policy, tax systems, and grain trade. The surviving P.Bingen 45 decree shows her engaging with specific commercial tax exemptions. However, no evidence of personal mathematical or analytical reasoning beyond standard administrative competence for a Hellenistic ruler exists. Her education in the Mouseion likely included mathematical training, but this is inferred rather than documented."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Hölbl, *A History of the Ptolemaic Empire*",
+            "Roller, *Cleopatra: A Biography*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Egypt under Cleopatra remained the Mediterranean's primary grain supplier. She managed the Nile flood-dependent agricultural economy through periods of low inundation in the 40s BC and reportedly opened royal granaries during famine. However, resource management was mediated through bureaucratic structures she inherited rather than personally designed, and specific evidence of her personal agricultural competence (as opposed to administrative oversight) is limited."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Plutarch, *Life of Antony* 71",
+            "Roller, *Cleopatra: A Biography*"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "She managed Egypt's complex bureaucratic, monetary, and trade systems—among the most sophisticated of the ancient world. She navigated the Ptolemaic administrative apparatus and adapted it to changing political circumstances. Her poison experimentation (Plutarch) shows systematic empirical investigation. However, no evidence of personal technical innovation or creation with cutting-edge tools exists."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.48,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 6.03,
+    "created_at": "2026-03-22T19:05:13.108Z",
+    "updated_at": "2026-03-22T19:05:13.126Z"
+  }
+}
+]

@@ -1,0 +1,368 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 216,
+  "fields": {
+    "name": "Vasco da Gama",
+    "slug": "vasco-da-gama",
+    "bio_short": "Vasco da Gama was a narrowly brilliant explorer whose navigational courage and endurance opened the sea route to India, yielding one of history's greatest impact legacies. His cognitive and relational profiles are modest—limited philosophical depth, poor initial diplomacy, and thin personal records. His moral profile is sharply bifurcated: extraordinary physical courage paired with documented cruelty (the Miri burning, Calicut bombardment) and zero evidence of ethical growth. Core 5D Avg: 3.83/10. Heinlein Competency: 3.78/10. Overall: 3.82/10. He exemplifies how a single domain of exceptional",
+    "bio_long": "Vasco da Gama was a Portuguese mariner, explorer and nobleman. His discovery of the first direct maritime route between Europe and India via the Cape of Good Hope and across the Indian Ocean from Malindi in Kenya to Kozhikode was to open up European exploration of, and commerce with, India, and is considered a landmark event and a turning point in world history.",
+    "source_notes": "https://en.wikipedia.org/wiki/Vasco_da_Gama",
+    "image": "figures/330px-Ignoto_portoghese2C_ritratto_di_un_cavaliere_dell27ordine_di_cristo2C__0ACwuBp._02.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Subrahmanyam, Sanjay. *The Career and Legend of Vasco da Gama*. Cambridge UP, 1997.",
+              "Ames, Glenn J. *Vasco da Gama: Renaissance Crusader*. Pearson, 2005."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Da Gama adapted to a hostile reception at Calicut on his first voyage (1498) by taking hostages to secure his departure when the Zamorin refused favorable terms. When his initial diplomatic approach failed due to inadequate gifts, he pivoted on his second voyage (1502) to a massive armed fleet of 20 ships, fundamentally changing strategy. His use of the wide South Atlantic sweep (volta do mar) to catch favorable winds for rounding the Cape also shows strategic navigation planning, though royal cosmographers likely contributed."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Diffie, Bailey W., and George D. Winius. *Foundations of the Portuguese Empire, 1415–1580*. U of Minnesota Press, 1977.",
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Da Gama executed the first European sea voyage to India, but the route built on decades of Portuguese exploration (Dias rounded the Cape in 1488) and the navigational planning likely involved royal cosmographers. His specific innovation was completing the Indian Ocean crossing from Malindi using an Arab pilot. He did not create a paradigm shift so much as complete one that was already underway."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Newitt, Malyn. *A History of Portuguese Overseas Expansion, 1400–1668*. Routledge, 2005."
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Da Gama left no philosophical writings, moral treatises, or recorded reflections on ethics. His actions—the burning of the Miri pilgrim ship, the bombardment of Calicut—show no evidence of sophisticated moral reasoning. His worldview appears to have been straightforwardly that of a crusading Portuguese nobleman seeking commercial and religious dominance."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Ames, *Vasco da Gama: Renaissance Crusader*, 2005.",
+              "Correia, Gaspar. *Lendas da Índia* (16th century chronicle)."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "On his third voyage (1524), da Gama was appointed Viceroy of Portuguese India and attempted to reform corrupt colonial administration by cracking down on private trading by officials. However, he died in Cochin only three months after arriving, and his reforms did not have time to take root or endure. His fleet management across voyages shows organizational capacity but not enduring system-building."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Correia, *Lendas da Índia*."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Da Gama interacted with King Manuel I (subordinate), his crews (superior), the Zamorin of Calicut (diplomatic adversary), Arab merchants (trading partners/adversaries), and his family. However, his relational style appears consistently authoritarian and domineering across contexts. Chronicles describe him as imperious with kings and crews alike. Limited evidence of genuine relational adaptability across different modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Ames, *Vasco da Gama: Renaissance Crusader*, 2005."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Da Gama married Catarina de Ataíde around 1500–1501 and they had six sons and one daughter. He was absent for years on his second and third voyages. The marriage appears to have been a stable aristocratic union, but the historical record contains virtually no evidence of emotional quality, mutual support during crisis, or the texture of the relationship beyond its existence and fertility."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Da Gama had seven children, and several sons served in Portuguese India (Estêvão da Gama later became governor of Portuguese India, 1540–42). This suggests some transmission of competence and ambition, but specific evidence of his parenting—investment in education, emotional availability, mentorship—is almost entirely absent from the historical record."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Diffie and Winius, *Foundations of the Portuguese Empire*, 1977.",
+              "Chaudhuri, K.N. *Trade and Civilisation in the Indian Ocean*. Cambridge UP, 1985."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Da Gama's discovery of the sea route to India (1498) fundamentally reshaped global trade, shifting commercial power from Mediterranean to Atlantic nations, initiating European colonialism in Asia, and connecting the economies of Europe, Africa, and Asia by sea. These effects are clearly operative 500+ years later across multiple civilizations and remain central to understanding modern globalization."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Camões, Luís de. *Os Lusíadas*, 1572.",
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997 (esp. on competing legacies)."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Da Gama is a central figure in the explorer archetype, celebrated as the hero of Camões' *Os Lusíadas* (1572), Portugal's national epic. He is recognized across cultures as a symbol of both maritime exploration and colonial violence. However, his cross-cultural symbolic resonance is somewhat narrower than figures like Columbus or Magellan in global popular culture, and his recognition as a villain in Indian and Muslim historiography is distinct from archetypal admiration."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Pearson, M.N. *The Portuguese in India*. Cambridge UP, 1987."
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "While da Gama's voyages laid the foundation for the Portuguese Estado da Índia (which endured until 1961), the actual institutional architecture—forts, factories, administrative systems—was built primarily by successors like Afonso de Albuquerque. Da Gama's direct institutional contributions were limited: his Viceroyalty lasted only three months before his death. He established initial trade contacts but not enduring structures."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Ravenstein (ed.), *A Journal of the First Voyage*, 1898."
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Da Gama successfully led three expeditions: the first with ~170 men on a two-year voyage into unknown waters, the second commanding 20 warships in naval operations, and the third as Viceroy of a colonial administration. He maintained discipline through scurvy crises and hostile encounters. His leadership style was autocratic and often brutal, effective in crisis but not marked by the inspirational quality that would merit a 3."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Correia, Gaspar. *Lendas da Índia*."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Very limited evidence of da Gama engaging in mundane, everyday activities. The historical record focuses almost entirely on his voyages and public/political actions. He was a nobleman who maintained aristocratic distance. Some brief mentions in chronicles of his personal habits aboard ship exist, but nothing approaching documented engagement with ordinary life at the height of his prominence."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Newitt, *A History of Portuguese Overseas Expansion*, 2005."
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Da Gama's actions consistently prioritized Portuguese commercial and religious dominance over fairness. The Miri incident, the bombardment of Calicut, and the mutilation of prisoners demonstrate disregard for justice toward non-Portuguese peoples. Even his reforms as Viceroy were aimed at enforcing Crown interests rather than principled fairness. No documented cases of ruling against personal or group interest in favor of principle exist."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997, ch. 6.",
+              "Ames, *Vasco da Gama: Renaissance Crusader*, 2005."
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Da Gama is documented as having ordered the burning of the Miri, a ship carrying 200–400 Muslim pilgrims (including women and children) returning from Mecca in 1502, after looting its cargo. He also bombarded Calicut with cannons and mutilated captured fishermen, sending their body parts ashore. No documented acts of compassion toward adversaries or outgroup members exist in the record."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Ravenstein, E.G. (ed.). *A Journal of the First Voyage of Vasco da Gama, 1497–1499*. Hakluyt Society, 1898."
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Da Gama undertook three voyages to India spanning 27 years (1497–99, 1502–03, 1524). The first was into entirely unknown waters, lasting over two years, with severe scurvy killing roughly a third of his crew. He faced hostile receptions at Calicut, navigated treacherous storms off the Cape, and on his third voyage accepted the Viceroyalty at approximately age 64. This represents sustained courage across multiple high-stakes situations over decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Ames, *Vasco da Gama: Renaissance Crusader*, 2005."
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "There is no documented evidence of da Gama acknowledging mistakes or changing behavior based on moral reflection. His second voyage (1502) was markedly more violent than the first (1497–99), suggesting escalation rather than growth. No chronicles record him expressing regret for the Miri burning or Calicut bombardment. The historical record shows no trajectory of moral development."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Ravenstein (ed.), *A Journal of the First Voyage*, 1898.",
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Da Gama endured months of scurvy on his first voyage (losing roughly 55 of 170 crew members), hostile receptions at Calicut, dangerous storms rounding the Cape, and ultimately died on his third voyage far from home. He functioned effectively through both material deprivation at sea and mortal danger. These represent at least two qualitatively different forms of adversity (disease/deprivation and physical danger)."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+              "Ames, *Vasco da Gama: Renaissance Crusader*, 2005."
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Da Gama was both a devout Christian who saw his mission in crusading terms and a perpetrator of extreme violence, and both a nobleman and a practical seaman. However, these tensions were not consciously reconciled into a coherent identity so much as they coexisted within a standard 15th-century Portuguese worldview where crusading violence and piety were not experienced as contradictory. He does not demonstrate integration of genuinely opposing roles."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Correia, Gaspar. *Lendas da Índia* (written c. 1550s).",
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997."
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Da Gama accepted dangerous assignments three times, the last at approximately age 64, suggesting acceptance of mortal risk. He died in Cochin on Christmas Eve 1524. Gaspar Correia's account describes his final days, but specific evidence of composure in the face of imminent death is limited and comes from later chroniclers writing decades after the events. This caps at 1 without stronger corroboration."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Ravenstein (ed.), *A Journal of the First Voyage*, 1898.",
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997."
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Da Gama's first voyage covered approximately 24,000 miles over two years, the longest ocean voyage yet made at that time. He endured storms, extreme heat, months of scurvy aboard ship, and hostile encounters. He undertook his third voyage at approximately age 64, demonstrating endurance across life stages. However, as commander, his physical role was supervisory rather than involving specific physical feats."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997."
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "The historical record contains essentially no evidence of da Gama engaging in play, humor, or aesthetic appreciation for its own sake. Sources focus entirely on his expeditions, political dealings, and military actions. No letters, diaries, or chronicles record personal aesthetic interests or moments of leisure."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 3.33,
+          "Relational": 3.33,
+          "Core_5D_Avg": 3.83,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 2.5,
+          "Embodied-Existential": 4.0
+        }
+      },
+      "figure": "Vasco da Gama",
+      "overall": {
+        "Core_5D_Avg": 3.83,
+        "Overall_Normalized_Equal_Avg": 3.82,
+        "General_Competency_Avg_10scale": 3.78
+      },
+      "summary": "Vasco da Gama was a narrowly brilliant explorer whose navigational courage and endurance opened the sea route to India, yielding one of history's greatest impact legacies. His cognitive and relational profiles are modest—limited philosophical depth, poor initial diplomacy, and thin personal records. His moral profile is sharply bifurcated: extraordinary physical courage paired with documented cruelty (the Miri burning, Calicut bombardment) and zero evidence of ethical growth. Core 5D Avg: 3.83/10. Heinlein Competency: 3.78/10. Overall: 3.82/10. He exemplifies how a single domain of exceptional competence—oceanic exploration—can reshape civilizations while leaving the person behind it remarkably one-dimensional by broader human measures.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.13,
+          "General_Competency_Avg_10scale": 3.78
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal culinary skills. As a nobleman and fleet commander, da Gama would not have been expected to cook. No chronicles mention food preparation by him."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997, ch. 6.",
+            "Ames, *Vasco da Gama: Renaissance Crusader*, 2005."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Da Gama engaged in naval combat during his second voyage (1502), bombarding Calicut, capturing and destroying merchant vessels, and using his fleet aggressively to establish Portuguese dominance in the Indian Ocean. He managed armed confrontations at multiple ports. While not primarily a military commander (unlike Albuquerque), he demonstrated tactical competence in naval warfare across multiple engagements."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997."
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of caregiving activities in the historical record. Da Gama's treatment of his crew during the scurvy crisis on the first voyage shows command management but not personal caregiving. His interactions with local populations were commercial or violent, not nurturing."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+            "Ames, *Vasco da Gama: Renaissance Crusader*, 2005."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Da Gama repeatedly undertook voyages with high mortality risk, maintaining command composure through crises including the scurvy epidemic, hostile confrontations, and violent storms. His acceptance of the third voyage at approximately age 64, knowing the dangers from prior experience, demonstrates existential composure in the face of mortal risk sustained over decades."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Ravenstein (ed.), *A Journal of the First Voyage*, 1898."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a long-voyage sea captain, da Gama would have had practical familiarity with ship repair, rigging, and maintenance—knowledge expected of Portuguese maritime commanders in this era. However, as fleet commander, hands-on repair would have been delegated. Specific evidence is thin, but era normalization supports basic competence."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+            "Ravenstein (ed.), *A Journal of the First Voyage*, 1898.",
+            "Diffie and Winius, *Foundations of the Portuguese Empire*, 1977."
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Da Gama navigated the first European sea route to India, a journey of approximately 24,000 miles through largely unknown waters. He utilized celestial navigation, the volta do mar technique through the South Atlantic, and secured an Arab pilot (possibly Ahmad ibn Majid) for the Indian Ocean crossing from Malindi to Calicut. This represents the pinnacle of navigational achievement for his era and the defining reason he is remembered."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Ravenstein (ed.), *A Journal of the First Voyage*, 1898."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a sea captain managing long voyages, da Gama would have overseen provisioning including livestock management aboard ships (common on Portuguese carracks). He managed food resources through African port stops. However, specific evidence of personal skill in animal or food processing is absent; this was supervised rather than hands-on work."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+            "Ames, *Vasco da Gama: Renaissance Crusader*, 2005."
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Da Gama demonstrated effective fleet leadership across three voyages, maintaining crew discipline through severe hardship. He also showed followership in faithfully executing King Manuel I's commercial and religious objectives across decades. However, he was known for being headstrong and imperious, and his ability to subordinate himself gracefully is questionable—chronicles describe clashes even with royal officials."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of construction or fabrication skills. Da Gama did not design ships (the carracks were built by royal shipwrights), build structures in India, or engage in any documented construction activity."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997.",
+            "Ames, *Vasco da Gama: Renaissance Crusader*, 2005."
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Successfully planned and executed three voyages to India, commanding fleets of varying sizes. The first voyage required managing provisions for a two-year journey into unknown waters. The second involved coordinating 20 warships in naval operations against Calicut. He adapted strategy between voyages, shifting from diplomacy to force after the first voyage's mixed results."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Subrahmanyam, *The Career and Legend of Vasco da Gama*, 1997."
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Da Gama left no artistic works—no writings, poetry, music, or visual art. He is the subject of art (notably Camões' *Os Lusíadas*) but not a creator. No evidence of artistic inclination in any chronicle."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Ravenstein (ed.), *A Journal of the First Voyage*, 1898."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "During the first voyage, da Gama managed a fleet-wide scurvy crisis that killed roughly a third of his crew by seeking resupply at East African ports and managing limited resources. This represents emergency response at the command level, though no personal medical skill is documented. Era-normalized, a captain managing a health crisis through practical measures warrants minimal credit."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Diffie and Winius, *Foundations of the Portuguese Empire*, 1977."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Oceanic navigation in the late 15th century required working competence in celestial coordinate calculation, dead reckoning, and basic trigonometric concepts. Da Gama would have had practical numeracy for these tasks, though specialized mathematical work was typically delegated to pilots and cosmographers. No evidence of advanced analytical work beyond practical navigation."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Ravenstein (ed.), *A Journal of the First Voyage*, 1898."
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Da Gama managed provisions and resources for extended sea voyages—a significant logistical challenge involving food preservation, water management, and resupply planning across African and Indian ports. He also managed the spice trade infrastructure on his voyages. However, no evidence of agricultural activity or land-based resource management exists."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Diffie and Winius, *Foundations of the Portuguese Empire*, 1977."
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Da Gama employed the most advanced maritime technology of his era—caravels and carracks, the astrolabe, quadrant, and compass. He operated within a cutting-edge navigational system developed by the Portuguese. However, he was a skilled user of existing technology rather than a technical innovator; the instruments and techniques were developed by others."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 3.83,
+    "general_competency_avg_0_10": 3.78,
+    "overall_normalized_equal_avg_0_10": 3.82,
+    "created_at": "2026-03-22T23:20:59.940Z",
+    "updated_at": "2026-03-22T23:20:59.962Z"
+  }
+}
+]

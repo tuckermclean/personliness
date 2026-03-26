@@ -1,0 +1,371 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 135,
+  "fields": {
+    "name": "Elizabeth II",
+    "slug": "elizabeth-ii",
+    "bio_short": "Elizabeth II excelled as a cultural-social and embodied-existential figure: an unparalleled archetype of constitutional duty, remarkably relatable despite her station, and composed in the face of mortality until her final days. Her cognitive scores are modest because her constitutional role precluded original philosophical, legislative, or strategic agency. Moral-affective traits are solid but not exceptional, with the Diana crisis revealing both fallibility and genuine growth. Heinlein competency breadth is narrow—she was not a builder, healer, or combatant—but her leadership-followership dua",
+    "bio_long": "Elizabeth II was Queen of the United Kingdom and other Commonwealth realms from 6 February 1952 until her death in 2022. She was queen regnant of 32 sovereign states during her lifetime and was the monarch of 15 realms at her death. Her reign of 70 years and 214 days is the longest of any British monarch, the second-longest of any sovereign state, and the longest of any queen regnant in history.",
+    "source_notes": "https://en.wikipedia.org/wiki/Elizabeth_II",
+    "image": "figures/330px-Queen_Elizabeth_II_official_portrait_for_1959_tour_28retouched29_28cropped_7n6FDlw.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Pimlott, The Queen: Elizabeth II and the Monarchy (2001)",
+              "Hardman, Queen of Our Times: The Life of Elizabeth II (2022)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Elizabeth navigated the monarchy through decolonization, the Suez Crisis, the Diana crisis, Brexit, and COVID. After the disastrous initial response to Diana's death in 1997, she adapted by breaking protocol—ordering Buckingham Palace flags to half-mast and delivering a live broadcast—demonstrating strategic recalibration under pressure. She managed relationships with 15 Prime Ministers from Churchill to Truss, adapting her approach to each."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Lacey, Monarch: The Life and Reign of Elizabeth II (2002)",
+              "Pimlott, The Queen (2001)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "She approved the first televised coronation in 1953 (against Churchill's advice), the 1969 Royal Family documentary, and later opened Buckingham Palace to tourists after the 1992 Windsor Castle fire. These were pragmatic adaptations to modernity rather than paradigm shifts; no demonstrable before/after difference in wider thinking is attributable to her."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Marr, The Diamond Queen (2012)",
+              "Bedell Smith, Elizabeth the Queen: The Life of a Modern Monarch (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Her Christmas broadcasts articulated themes of duty, service, and Christian faith, but these were conventional moral reflections rather than original philosophical contributions. She did not produce writings or ideas that influenced thinkers beyond her own tradition. Her ethical stance was lived rather than theorized—admirable but not meeting the bar for score 2's requirement of influence beyond her community."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Bogdanor, The Monarchy and the Constitution (1995)",
+              "Hardman, Queen of Our Times (2022)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "As a constitutional monarch, she had no direct legislative power. She dutifully reviewed state papers daily for 70 years and maintained the administrative routines of the monarchy, but the systems she operated within were inherited. The modernization of royal finances (the Sovereign Grant Act 2011 replacing the Civil List) occurred under her reign but was driven by Parliament and advisors."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Bedell Smith, Elizabeth the Queen (2012)",
+              "Hardman, Queen of Our Times (2022)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "She demonstrably inhabited at least six distinct relational modes with qualitatively different behavior: (1) wife—73-year partnership with Philip marked by deference and intimacy; (2) mother/grandmother—varying closeness with children and grandchildren; (3) constitutional superior—weekly audiences with 15 PMs from Churchill to Truss; (4) subordinate—deferring to parliamentary sovereignty and constitutional convention; (5) employer—managing the Royal Household; (6) peer/friend—documented friendships with figures like racing manager Henry Porchester and dresser Angela Kelly; (7) public figure engaging with strangers on walkabouts."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Bedell Smith, Elizabeth the Queen (2012)",
+              "Brandreth, Philip and Elizabeth: Portrait of a Royal Marriage (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Her marriage to Prince Philip lasted 73 years (1947–2021) and was by most accounts a genuine love match initiated by her at age 13. Philip sacrificed his promising naval career for the marriage, and she reportedly relied on him as her most trusted advisor. She was visibly grief-stricken at his funeral. However, the relationship required Philip's subordination to her constitutional role, creating documented tensions, and persistent (though unproven) rumors of his infidelities complicate the picture. Score of 3 would require stronger evidence of consistent emotional mutuality."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Lacey, Monarch (2002)",
+              "Prince Harry, Spare (2023)",
+              "Bedell Smith, Elizabeth the Queen (2012)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Three of her four children's marriages ended in divorce. Prince Charles has described a somewhat distant upbringing, and the Queen was often absent during his early years due to extended Commonwealth tours (the 1953–54 tour lasted six months, leaving Charles and Anne behind). Prince Harry's memoir Spare (2023) depicts emotional distance. While she mentored figures within the institution, the mixed outcomes with her own children—and the well-documented prioritization of duty over parental presence—limit this score."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Pimlott, The Queen (2001)",
+              "Hardman, Queen of Our Times (2022)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Her reign defined an era (the 'New Elizabethan Age'), and she was the most widely traveled head of state in history. However, as a constitutional monarch, her causal impact on world events was limited. The 500-year cross-civilizational test for score 3 cannot yet be assessed, and her influence is primarily within the Anglosphere and Commonwealth. She stabilized the institution of monarchy but did not transform global politics, science, or culture."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Cannadine, 'The Context, Performance and Meaning of Ritual: The British Monarchy and the Invention of Tradition' (1983)",
+              "Hardman, Queen of Our Times (2022)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "She is recognized globally as the archetype of duty-bound constitutional monarchy—the 'servant queen.' Her image was on the currency and stamps of dozens of nations. She transcends British culture: she is recognized in East Asia, Africa, and the Americas as a symbol of steadfastness and institutional continuity. Her cultural resonance extends to parody and affection alike (from Paddington Bear to The Crown), demonstrating cross-cultural recognition well beyond her own tradition."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Murphy, Monarchy and the End of Empire (2013)",
+              "Bogdanor, The Monarchy and the Constitution (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "She sustained and adapted the British monarchy through its most challenging era of relevance, and personally championed the transformation of the Commonwealth from a post-imperial structure to a voluntary multiracial association—attending every Commonwealth Heads of Government Meeting from 1973 to 2018. However, these were inherited institutions she maintained rather than created, and the rubric's 3-bar ('survived two generations beyond the founder') implies founding. Her stewardship was exceptional but is better characterized as preservation than creation."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Hardman, Queen of Our Times (2022)",
+              "Marr, The Diamond Queen (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "She led the monarchy through decolonization, Cold War, and into the 21st century—qualitatively different contexts of crisis and stability. She influenced world leaders through personal diplomacy over 70 years and mobilized national sentiment in rare broadcasts (COVID address, 2020, invoking Vera Lynn's 'We'll Meet Again'). She led both the intimate institution of the royal household and the diffuse entity of the Commonwealth (2.4 billion people across 56 nations)."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Bedell Smith, Elizabeth the Queen (2012)",
+              "Hardman, Queen of Our Times (2022)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Even at the height of her power, she was documented walking her corgis daily, driving her Land Rover around Balmoral without a license plate, attending horse races at Royal Ascot with visible delight, and personally feeding her horses. She performed the Paddington Bear tea sketch (2022 Jubilee) and the James Bond parachute sketch (2012 Olympics) with evident humor. She was photographed in headscarves and Wellington boots on her estates, embodying country life."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Bogdanor, The Monarchy and the Constitution (1995)",
+              "Hardman, Queen of Our Times (2022)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "She maintained strict constitutional impartiality across 70 years, refusing to publicly endorse any political party or policy—even when she reportedly had strong personal views (e.g., Commonwealth unity against apartheid). She accepted the results of the 2016 Brexit referendum despite its implications for the Commonwealth. She stripped Prince Andrew of military titles and royal patronages in January 2022, ruling against family interest in favor of institutional integrity."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Hardman, Queen of Our Times (2022)",
+              "Bedell Smith, Elizabeth the Queen (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Her 2011 state visit to Ireland—the first by a British monarch in a century—included speaking Irish and laying a wreath at the Garden of Remembrance for those who fought against British rule. In 2012, she shook hands with former IRA commander Martin McGuinness, a gesture of reconciliation toward an adversary. Counterexample: the delayed visit to Aberfan (1966) and the delayed public response to Diana's death (1997) suggest empathy was sometimes subordinated to protocol. Without counterexamples, score would be 3; with them weighted proportionally, 2 is appropriate."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Pimlott, The Queen (2001)",
+              "Lacey, Monarch (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "She served in the Women's Auxiliary Territorial Service during WWII (1945), training as a driver and mechanic. During the 1981 Trooping the Colour, Marcus Sarjeant fired six blank shots at her; she calmly controlled her startled horse. She maintained her public duties through decades of family crises, media hostility, and the 'annus horribilis' of 1992. Sustained resilience across multiple contexts qualifies for 2; score 3 would require more direct physical danger sustained over time."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Pimlott, The Queen (2001)",
+              "Bedell Smith, Elizabeth the Queen (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Diana crisis (1997) is the clearest example: her initial adherence to protocol—remaining at Balmoral, not lowering flags—was perceived as cold indifference. She reversed course, returned to London, made an unprecedented live broadcast, and subsequently became more publicly accessible and emotionally expressive. Post-1997, walkabouts became warmer and the monarchy more media-friendly, reflecting genuine behavioral change rather than mere PR adjustment."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Pimlott, The Queen (2001)",
+              "Hardman, Queen of Our Times (2022)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "She endured qualitatively different adversities: the sudden death of her father (1952) thrust her into the throne at 25; the 'annus horribilis' (1992) brought three children's marital breakdowns and the Windsor Castle fire; Diana's death (1997) caused a legitimacy crisis for the monarchy; and Prince Philip's death (2021) left her bereaved after 73 years of marriage. She functioned effectively through all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Pimlott, The Queen (2001)",
+              "Cannadine, 'The Context, Performance and Meaning of Ritual' (1983)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "She inhabited at least five contradictory roles without fragmenting: (1) the most powerful symbolic figure in Britain yet constitutionally powerless; (2) a deeply private person in the most public role on earth; (3) head of a former empire who presided gracefully over decolonization; (4) a traditionalist who repeatedly modernized the institution (television, social media, informal walkabouts); (5) a formal, protocol-bound monarch who engaged in humor and self-deprecation (Paddington sketch, Olympics sketch). These paradoxes were sustained across decades."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Hardman, Queen of Our Times (2022)",
+              "BBC News coverage, September 2022"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "She appointed Prime Minister Liz Truss at Balmoral on September 6, 2022, and died on September 8—performing her constitutional duties within 48 hours of death. She had reportedly been declining for months but maintained composure and continued working. Her Christian faith provided an explicit framework for mortality acceptance, articulated in her final Christmas broadcast (2021): 'life of course consists of final partings as well as first meetings.'"
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Lacey, Monarch (2002)",
+              "Bedell Smith, Elizabeth the Queen (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "She was an accomplished horsewoman who rode regularly into her 90s. She trained as a military driver and mechanic at age 18 (ATS, 1945). She maintained a physically demanding schedule of public engagements—often standing for hours—well into her tenth decade. However, she did not face sustained physical trials comparable to military campaigners or explorers."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Bedell Smith, Elizabeth the Queen (2012)",
+              "Marr, The Diamond Queen (2012)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Her lifelong passion for horse racing and breeding was clearly non-instrumental—she studied bloodlines, attended race meetings with visible delight, and owned over 30 winning racehorses. Her attachment to her corgis (she bred over 30 during her lifetime) was personal rather than performative. She reportedly enjoyed mimicry and had a dry wit. However, she was not known for engagement with fine arts, music, or literature as forms of personal expression."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 4.17,
+          "Relational": 6.67,
+          "Core_5D_Avg": 6.84,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Elizabeth II",
+      "overall": {
+        "Core_5D_Avg": 6.84,
+        "Overall_Normalized_Equal_Avg": 6.22,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "Elizabeth II excelled as a cultural-social and embodied-existential figure: an unparalleled archetype of constitutional duty, remarkably relatable despite her station, and composed in the face of mortality until her final days. Her cognitive scores are modest because her constitutional role precluded original philosophical, legislative, or strategic agency. Moral-affective traits are solid but not exceptional, with the Diana crisis revealing both fallibility and genuine growth. Heinlein competency breadth is narrow—she was not a builder, healer, or combatant—but her leadership-followership duality and existential composure rank among the highest. Overall: an extraordinary exemplar of sustained institutional stewardship and personal paradox integration, less a transformative agent than an enduring symbol.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "McGrady, Eating Royally (2007)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Elizabeth II prepared meals. She was served by royal chefs throughout her life. Former royal chef Darren McGrady's accounts describe her as a consumer of food rather than a preparer."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Lacey, Monarch (2002)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "She served in the ATS during WWII in a support role (driver/mechanic), not in combat. She never personally engaged in physical conflict or received combat training. While she was Commander-in-Chief of the Armed Forces, this was a ceremonial role."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Bedell Smith, Elizabeth the Queen (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She visited hospitals, disaster sites, and care homes regularly throughout her reign, offering comfort. However, her own parenting was constrained by duty—she left young children for months-long tours. No evidence of hands-on caregiving (e.g., nursing the ill) beyond ceremonial visits."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Hardman, Queen of Our Times (2022)",
+            "BBC coverage, September 2022"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "She appointed PM Liz Truss two days before her death on September 8, 2022, performing constitutional duties while terminally declining. She sat alone at Prince Philip's funeral during COVID restrictions with visible dignity (April 2021). Throughout her life, she faced crises—her father's death, the Diana aftermath, family scandals—with documented composure. Her final Christmas broadcast (2021) explicitly addressed mortality with equanimity."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Lacey, Monarch (2002)",
+            "Imperial War Museum records"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "She trained as a mechanic in the ATS in 1945, learning to strip down and rebuild engines and change tires. This was practical hands-on skill documented in photographs and accounts. However, there is no evidence she maintained these skills or practiced mechanical repair in later life."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Cowper-Coles, Ever the Diplomat (2012)",
+            "Lacey, Monarch (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She was a trained military driver (ATS, 1945) and drove herself around her estates for decades, famously once driving Saudi Crown Prince Abdullah around Balmoral at speed (recounted by Sherard Cowper-Coles). She was the most traveled head of state in history, visiting over 100 countries. However, she was navigated rather than navigating on these trips."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Bedell Smith, Elizabeth the Queen (2012)",
+            "Marr, The Diamond Queen (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She was deeply knowledgeable about horse breeding and corgi husbandry, personally overseeing bloodlines and breeding programs at the Royal Studs. Her Balmoral and Sandringham estates included livestock, and she took active interest in estate management. No evidence of hands-on butchering or food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Bogdanor, The Monarchy and the Constitution (1995)",
+            "Hardman, Queen of Our Times (2022)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "She exemplified both roles at the highest level: as head of state, she led the monarchy, the Armed Forces (as Commander-in-Chief), and the Commonwealth for 70 years. Simultaneously, she was among history's most disciplined followers—deferring to parliamentary sovereignty, accepting the advice of her ministers even when she disagreed, and subordinating personal preference to constitutional convention throughout her reign. This dual mastery of leading and following is arguably her defining competency."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Elizabeth II designed or built physical structures. While she laid many ceremonial foundation stones, this does not constitute construction skill."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Bogdanor, The Monarchy and the Constitution (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "As constitutional monarch, she did not plan military operations or direct complex logistics. She managed the strategic positioning of the monarchy over decades, but operational command was always delegated to ministers and household staff. Her role was advisory and symbolic rather than directive."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Bedell Smith, Elizabeth the Queen (2012)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "She was a patron of the arts and maintained the Royal Collection, but she was not known for creating works of art, music, literature, or performance. Her public speeches were largely written by others. The Paddington sketch was a performance but a single event, not a sustained artistic practice."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence of medical training or emergency medical intervention. Her ATS training was in driving and vehicle maintenance, not medical aid."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Pimlott, The Queen (2001)",
+            "Hardman, Queen of Our Times (2022)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She reviewed state papers and government briefings daily for 70 years, developing what PMs described as an impressive grasp of policy detail. However, she was privately educated without formal higher education, and there is no evidence of mathematical or quantitative proficiency beyond competent management of estate and household accounts."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Bedell Smith, Elizabeth the Queen (2012)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She took an active personal interest in managing the Sandringham and Balmoral estates, which included working farms. She reportedly discussed crop yields, forestry, and land management with estate managers. However, she did not personally farm or manage resources at an operational level."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Hardman, Queen of Our Times (2022)",
+            "Pimlott, The Queen (2001)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "She adapted to successive waves of technology: she sent the first royal email in 1976 (via ARPANET during a visit to the Royal Signals and Radar Establishment), embraced television for the coronation, and the monarchy adopted social media under her reign. Her ATS mechanical training showed technical aptitude. However, there is no evidence of her personally operating or innovating with complex technical systems."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.84,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 6.22,
+    "created_at": "2026-03-22T18:36:32.477Z",
+    "updated_at": "2026-03-22T18:36:32.497Z"
+  }
+}
+]

@@ -1,0 +1,378 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 130,
+  "fields": {
+    "name": "Joan of Arc",
+    "slug": "joan-of-arc",
+    "bio_short": "Joan of Arc (c. 1412–1431) scores exceptionally in embodied-existential and cultural-social dimensions — her courage, mortality acceptance, paradox integration, archetype resonance, and impact legacy are among history's highest. Her cognitive scores are moderate, limited by her youth, lack of formal education, and brief career. Moral-affective scores are strong, anchored by extraordinary courage and documented compassion toward enemies. Relational scores are the weakest, as her life offered almost no opportunity for spousal or parental roles. Heinlein competency breadth is modest, reflecting h",
+    "bio_long": "Joan of Arc is a patron saint of France, honored as a defender of the French nation for her role in the siege of Orléans and her insistence on the coronation of Charles VII of France during the Hundred Years' War. Stating that she acted under divine guidance, she became a military leader who gained recognition as a savior of France.",
+    "source_notes": "https://en.wikipedia.org/wiki/Joan_of_Arc",
+    "image": "figures/330px-Joan_of_Arc_miniature_graded.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Taylor, Larissa. *The Virgin Warrior* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Joan insisted on aggressive assault at Orléans against cautious French commanders, correctly identifying English vulnerability; adapted tactics after being wounded by an arrow at Les Tourelles and returned to press the attack the same day. She grasped the strategic importance of the march to Reims for Charles VII's coronation, bypassing fortified English positions. However, her later campaigns (failed assault on Paris in September 1429, capture at Compiègne in May 1430) show limits in adapting when political support waned."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Joan's entire approach was radically innovative: a teenage peasant girl claiming divine authority to lead armies was unprecedented in late-medieval France. Her fusion of military aggression with symbolic-political strategy (insisting on the coronation at Reims as a military objective) was a creative insight that professional commanders had not pursued. She changed the psychological dynamic of the Hundred Years' War. However, she did not create a lasting paradigm shift in military or political method."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)",
+              "Warner, Marina. *Joan of Arc: The Image of Female Heroism* (1981)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Joan's moral framework was experiential and religiously grounded rather than systematically articulated. Her statements at the Rouen trial (1431) show remarkable clarity about conscience — 'If I am not in God's grace, may God put me there; if I am, may God keep me there' — but she did not produce ethical writings or articulate principles that influenced thinkers beyond her immediate context. Her influence is as a moral exemplar rather than a moral philosopher."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Joan demonstrated some organizational capacity: she dictated letters to English commanders and French towns, coordinated with military captains (La Hire, Jean d'Alençon, Dunois), and secured logistical support for the march to Reims. However, she designed no enduring systems, policies, or administrative structures. Her role was inspirational and tactical rather than bureaucratic."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Despite her youth and short career, Joan demonstrably inhabited multiple relational modes: daughter (to Jacques and Isabelle d'Arc), subordinate (to Charles VII, to whom she knelt and deferred), commander (over military captains like La Hire and Dunois), comrade/friend (Jean d'Alençon described genuine friendship), adversary (to the English and Burgundians, with whom she corresponded directly), and prisoner/defendant (to her judges at Rouen, where she showed a distinct relational mode of defiance and wit). This is at least five modes, though the brevity of her life limits depth in each."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Joan never married and had no documented intimate partnerships. She actively rejected an arranged marriage, breaking an engagement her parents had initiated, which was the subject of an ecclesiastical proceeding at Toul. Her vow of virginity was central to her identity. There is no evidence on which to score this trait."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Taylor, Larissa. *The Virgin Warrior* (2009)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Joan had no children and died at 19. However, she served as an inspirational figure and informal guide to soldiers. Jean d'Alençon and Dunois both testified at the rehabilitation trial that they learned from her example and were changed by their association with her. She also reportedly took a protective, quasi-maternal role toward young soldiers. The evidence is thin but present."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Warner, Marina. *Joan of Arc: The Image of Female Heroism* (1981)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Winock, Michel. 'Joan of Arc' in *Realms of Memory*, ed. Pierre Nora (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Joan's legacy is clearly operative nearly 600 years later across multiple civilizations. She is a patron saint of France (canonized 1920), a symbol in global feminism, a subject of works by Shakespeare, Voltaire, Schiller, Twain, Shaw, Brecht, Anouilh, and Dreyer. She is referenced in political discourse worldwide. Her impact spans religion, nationalism, gender politics, literature, and art across Western, and increasingly global, culture."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Warner, Marina. *Joan of Arc: The Image of Female Heroism* (1981)",
+              "Margolis, Nadia. *Joan of Arc in History, Literature, and Film* (1990)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Joan embodies multiple powerful archetypes recognized across cultures: the divinely inspired warrior-maiden, the peasant who challenges established power, the martyr for conscience, the incorruptible youth. She is recognized in cultures far beyond Catholic France — in Protestant, secular, feminist, nationalist, and artistic traditions. She has been claimed by the political left and right, by Catholics and secularists, making her one of the most polyvalent archetypes in world history."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Warner, Marina. *Joan of Arc: The Image of Female Heroism* (1981)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Joan did not create enduring institutions. However, her insistence on the coronation at Reims in 1429 materially strengthened the Valois monarchy under Charles VII, which survived and ultimately won the Hundred Years' War. This contributed to the institutional consolidation of the French state, but indirectly. She built no organizations, legal structures, or administrative systems that survived her."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Taylor, Larissa. *The Virgin Warrior* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Joan transformed French morale from despair to offensive confidence, convincing the Dauphin's court, professional military commanders (Dunois, La Hire, Jean d'Alençon), and common soldiers to follow her. She led in crisis (lifting the siege of Orléans when France was near collapse), in offensive campaigns (the Loire campaign), and in political-symbolic action (the march to Reims). She operated across qualitatively different contexts: persuading a skeptical court at Chinon, inspiring troops in battle, and navigating ecclesiastical examination at Poitiers."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Taylor, Larissa. *The Virgin Warrior* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Rehabilitation trial witnesses described Joan as an ordinary village girl in Domrémy who spun wool, tended livestock, played with other children near the fairy tree, and helped with household chores. Her peasant origins remain central to her identity. However, once her mission began, evidence of mundane engagement diminishes — she was consumed by her military and political role. Her relatability rests heavily on her pre-mission childhood."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Joan insisted on fair treatment of prisoners and reportedly opposed looting by French soldiers, attempting to enforce discipline. She demanded that soldiers confess sins and expelled prostitutes from the army camp. At her trial, she refused to submit to judges she recognized as biased, appealing to the Pope — asserting a principle of impartial justice over the kangaroo court. However, her justice orientation was largely aligned with her own cause (French legitimacy under Charles VII), and there are no clear cases of ruling against her own side's interest in favor of abstract principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)",
+              "Taylor, Larissa. *The Virgin Warrior* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Multiple witnesses at the 1456 rehabilitation trial testified that Joan wept for the dead and wounded on both sides after battles. She offered the English written warnings to withdraw before assaults, seeking to avoid bloodshed. She reportedly comforted a dying English soldier and was distressed by the violence she witnessed. This compassion toward adversaries (outgroup members) is documented but filtered through hagiographic rehabilitation testimony."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)",
+              "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Joan displayed sustained courage across qualitatively different high-stakes situations: traveling through enemy territory from Domrémy to Chinon (1429); leading assaults at Orléans, Jargeau, Meung, Beaugency, and Patay while personally present on the battlefield; being wounded by an arrow and crossbow bolt and returning to fight; enduring imprisonment in chains with threats of torture and sexual assault by guards; maintaining her convictions through months of hostile ecclesiastical interrogation at Rouen; and facing burning at the stake with composure. This is among the most sustained displays of courage in the medieval record."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)",
+              "Warner, Marina. *Joan of Arc: The Image of Female Heroism* (1981)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Joan's public career lasted roughly 15 months, limiting evidence of moral growth. She briefly signed an abjuration at her trial on May 24, 1431, possibly under duress and without fully understanding the document, then retracted it days later — a moment of human vulnerability followed by recommitment. The rehabilitation trial (1456) is hagiographic and sanitizes her record. There is no clear documented case of Joan reversing a prior position or accepting correction with visible behavioral change. Per the rubric's cap for sanitized traditions, score is capped at 1."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Taylor, Larissa. *The Virgin Warrior* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Joan endured qualitatively different forms of severe adversity while maintaining effectiveness: (1) material hardship and physical danger during military campaigns, including battle wounds; (2) imprisonment in chains for months at Beaurevoir and Rouen, with threats of torture, attempted sexual assault by guards, and a failed escape attempt involving a jump from a tower; (3) a hostile, rigged ecclesiastical trial conducted by enemies seeking her death. She maintained her convictions and composure throughout all three forms of adversity."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Warner, Marina. *Joan of Arc: The Image of Female Heroism* (1981)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Joan inhabited at least four seemingly contradictory roles without fragmenting: (1) illiterate peasant girl and military commander over noble knights; (2) deeply pious, virginal Christian and leader of violent military campaigns; (3) woman in a rigidly patriarchal society and authority figure who commanded obedience from men; (4) humble servant claiming to follow divine voices and defiant prisoner who outwitted trained theologians at her trial. These paradoxes were central to her identity and she integrated them with remarkable coherence."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Taylor, Larissa. *The Virgin Warrior* (2009)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Joan's composure at her execution on May 30, 1431, is documented by multiple contemporary and near-contemporary sources, including hostile English observers. She asked for a crucifix, which an English soldier fashioned from two sticks; she prayed aloud, called upon Jesus repeatedly as the flames rose, and witnesses — including the executioner Geoffroy Therage and several English soldiers — reportedly wept. She faced her own imminent, agonizing death with extraordinary composure at age 19."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)",
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Joan wore heavy plate armor, rode horses in combat, endured long marches across France (Domrémy to Chinon through hostile territory, the Loire campaign, the march to Reims), and was wounded at least twice — by an arrow above the breast at Orléans and by a crossbow bolt at Paris — returning to action each time. Era-normalized, this is remarkable physical performance, though her military career lasted only about a year and she was only 17-19 years old, precluding evidence across multiple life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+              "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Trial testimony mentions Joan enjoyed dancing with other children near the fairy tree of Domrémy and loved the sound of church bells. She reportedly took aesthetic pleasure in fine armor, banners, and horses. Jean d'Alençon testified she was skilled at jousting exercises. However, most evidence is from childhood, and during her mission she was intensely focused. There is limited evidence of non-instrumental play or aesthetic engagement during her period of prominence."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 5.0,
+          "Relational": 3.33,
+          "Core_5D_Avg": 6.2,
+          "Cultural-Social": 8.0,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Joan of Arc",
+      "overall": {
+        "Core_5D_Avg": 6.2,
+        "Overall_Normalized_Equal_Avg": 5.91,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Joan of Arc (c. 1412–1431) scores exceptionally in embodied-existential and cultural-social dimensions — her courage, mortality acceptance, paradox integration, archetype resonance, and impact legacy are among history's highest. Her cognitive scores are moderate, limited by her youth, lack of formal education, and brief career. Moral-affective scores are strong, anchored by extraordinary courage and documented compassion toward enemies. Relational scores are the weakest, as her life offered almost no opportunity for spousal or parental roles. Heinlein competency breadth is modest, reflecting her peasant background and abbreviated life. Core 5D Avg: 6.2/10; Heinlein Avg: 4.4/10; Overall: 5.9/10. A figure defined by depth of character over breadth of skill.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a peasant girl responsible for domestic duties, Joan would have had basic cooking skills typical of her era and station. Trial testimony mentions her domestic activities but does not specifically highlight culinary ability. Era-normalized basic competence is inferred."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)",
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Joan wore plate armor, rode warhorses, carried her banner into the thick of multiple battles (Orléans, Jargeau, Patay, Paris), and was wounded twice in combat. Jean d'Alençon testified she was skilled with a lance. She was not primarily a personal combatant — her role was inspirational and commanding — but she was physically present in intense fighting and survived multiple engagements. Era-normalized, this is strong competence."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Rehabilitation trial witnesses testified Joan comforted wounded and dying soldiers and was distressed by suffering. She reportedly cared for injured men after battles. However, this was episodic battlefield compassion rather than sustained caregiving practice, and the sources are hagiographic."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)",
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+            "Taylor, Larissa. *The Virgin Warrior* (2009)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Joan's composure during her months-long trial at Rouen and her execution by burning on May 30, 1431, is among the most documented examples of existential composure in medieval history. Multiple witnesses, including hostile English observers and the executioner, testified to her dignity and prayerful calm as she was burned alive at age 19. She asked for a crucifix and called on Jesus until she died."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Trial testimony confirms Joan could spin wool — a standard domestic craft for women in 15th-century Lorraine. She was noted for skill at spinning by Domrémy witnesses. No evidence of other craft or repair skills, though basic domestic competence is implied by her peasant background."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)",
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Joan navigated from Domrémy to Chinon (approximately 450 km) through Burgundian-controlled territory in 1429 with a small escort, successfully avoiding detection. She subsequently guided or co-guided army movements across the Loire valley and to Reims. This demonstrates significant wayfinding ability for a teenage peasant in 15th-century France."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "As a peasant girl in Domrémy, Joan tended her father's livestock, as attested by rehabilitation trial witnesses. This implies era-normalized basic competence in animal husbandry. No evidence of butchering or advanced food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)",
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)",
+            "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Joan excelled at both poles: she gave orders to experienced military commanders (La Hire, Dunois, Jean d'Alençon) who obeyed her, inspiring demoralized armies to offensive action. She also demonstrated followership — kneeling before Charles VII, submitting to examination at Poitiers, deferring to ecclesiastical authority when she believed it legitimate (appealing to the Pope at her trial). This dual capacity is well-documented across multiple sources."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence in the trial records or rehabilitation testimony of Joan engaging in construction or fabrication of any kind. She oversaw siege operations but the engineering was done by specialists."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)",
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Joan planned and executed the relief of Orléans (May 1429), coordinated the Loire campaign (Jargeau, Meung, Beaugency, Patay), and organized the march to Reims through hostile territory. She adapted plans when initial approaches failed at Orléans. Her later failures at Paris and Compiègne prevent a score of 3."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)",
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Joan dictated rhetorically powerful letters to the English (the 'Letter to the English' of March 1429 is a notable document of medieval prose) and designed her personal banner with specific iconography (Christ holding the world, flanked by angels). She was illiterate but showed instinct for symbolic communication. However, she was not an artist or writer in any sustained sense."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Joan reportedly treated her own arrow wound at Orléans with olive oil and lard, a common folk remedy. She comforted wounded soldiers. Era-normalized, basic wound treatment was common knowledge among people in conflict zones, but she showed no advanced medical skill."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Hobbins, Daniel. *The Trial of Joan of Arc* (2005)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Joan was illiterate and there is no evidence of mathematical or analytical reasoning beyond what a medieval peasant would possess. She showed practical intelligence but no documented numerical or formal analytical skill."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Pernoud, Régine. *Joan of Arc: Her Story* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Joan grew up in an agricultural household in Domrémy, tending livestock and helping with farm work as attested by childhood witnesses at the rehabilitation trial. This represents basic era-normalized agricultural competence but nothing exceptional."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "DeVries, Kelly. *Joan of Arc: A Military Leader* (1999)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Joan worked with the artillery and siege equipment of her era at Orléans and other engagements, understanding their tactical application. She directed the placement of cannons during siege operations. However, the technical expertise belonged to specialists; her role was command rather than technical operation."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.2,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 5.91,
+    "created_at": "2026-03-22T17:59:15.761Z",
+    "updated_at": "2026-03-22T17:59:15.778Z"
+  }
+}
+]

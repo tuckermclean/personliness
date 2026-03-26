@@ -1,0 +1,407 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 172,
+  "fields": {
+    "name": "Julius Caesar",
+    "slug": "julius-caesar",
+    "bio_short": "Caesar was a supreme military strategist, administrator, and literary stylist whose conquests, reforms (notably the Julian calendar), and role in ending the Roman Republic constitute one of history's greatest individual impacts. Core averages: Cognitive 7.5, Moral-Affective 5.8, Cultural-Social 8.7, Embodied-Existential 8.0, Relational 6.7 (5D avg 7.3). Heinlein avg 5.6/10. Overall 7.0. His moral-affective score reflects tension between famous clementia toward Roman enemies and brutal Gallic campaigns. Versatile in command, combat, literature, and engineering, but limited in domestic skills ty",
+    "bio_long": "Gaius Julius Caesar was a Roman general, statesman, and author who was the dictator of the Roman Republic almost continuously from 49 BC until his assassination in 44 BC. A member of the First Triumvirate, he led the Roman armies through the Gallic Wars and defeated his political rival Pompey in Caesar's civil war. He consolidated power and proclaimed himself dictator for life in 44 BC, which contributed to the political conditions that led to the collapse of the Roman Republic and the emergence of the Roman Empire. For his role in these events, he is regarded as one of the most influential historical figures.",
+    "source_notes": "https://en.wikipedia.org/wiki/Julius_Caesar",
+    "image": "figures/330px-Retrato_de_Julio_CC3A9sar_282672409310129_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Caesar, Commentarii de Bello Gallico, VII.69-89",
+              "Goldsworthy, Caesar: Life of a Colossus (2006), chs. 18-22",
+              "Gelzer, Caesar: Politician and Statesman (1968)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Caesar is among history's greatest adaptive strategists. At Alesia (52 BC), he constructed double fortifications (circumvallation and contravallation) to simultaneously besiege Vercingetorix and defend against a relief army of ~250,000. At Pharsalus (48 BC), outnumbered roughly 2:1, he improvised a hidden fourth line to counter Pompey's cavalry, winning decisively. After defeat at Dyrrachium, he successfully extricated his army and adapted his campaign to force a decisive engagement on favorable terms — a textbook recovery from failed plans."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Caesar, Commentarii de Bello Gallico IV.17",
+              "Feeney, Caesar's Calendar (2007)",
+              "Meier, Caesar: A Biography (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Caesar introduced the Julian calendar (46 BC, with astronomer Sosigenes), replacing the chaotic Republican calendar — a reform that dominated Western timekeeping for 1,600 years until the Gregorian correction. His Rhine bridge (55 BC), built in 10 days, was a pioneering feat of military engineering. His use of the commentarius genre as political propaganda was innovative. However, the astronomical expertise was Sosigenes', and his military innovations, while brilliant, built on existing Roman engineering traditions rather than creating an entirely new paradigm."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Sallust, Bellum Catilinae 51",
+              "Suetonius, Divus Julius 59",
+              "Griffin, 'Clementia after Caesar' in Caesar Against Liberty? (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Caesar was not primarily a moral philosopher. His most notable ethical statement is the speech against executing the Catilinarian conspirators (63 BC), preserved in Sallust's Bellum Catilinae, arguing against the death penalty on pragmatic and legal grounds. His clementia was more political strategy than articulated philosophical principle. He showed Epicurean leanings (skepticism about an afterlife in the Senate debate) but did not produce ethical frameworks that influenced thinkers beyond his era."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Suetonius, Divus Julius 40-44",
+              "Gelzer, Caesar: Politician and Statesman (1968), ch. 16",
+              "Brunt, 'The Lex Valeria Cornelia,' Journal of Roman Studies (1961)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Caesar's legislative and administrative reforms were extensive and many outlasted him by centuries. The Julian calendar endured until 1582. He extended citizenship to Cisalpine Gaul (a permanent change), reorganized provincial tax collection from farming to direct assessment, reformed the grain dole, established veteran colonies at Carthage and Corinth that thrived for centuries, reduced Senate corruption through expansion, and restructured municipal governance across Italy (the Lex Julia Municipalis). Augustus preserved and built upon most of these systems."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Suetonius, Divus Julius (passim)",
+              "Cicero, Letters to Atticus (various)",
+              "Goldsworthy, Caesar: Life of a Colossus (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Caesar operated across at least six qualitatively distinct relational modes with documented behavioral differences: (1) spouse — political marriages managed with varying loyalty; (2) parent — deep affection for Julia, strategic adoption of Octavian; (3) friend — genuine personal bonds with Balbus and Oppius, evidenced by decades of trust and correspondence; (4) adversary — complex shifting relationships with Pompey (ally-turned-enemy), Cicero (respected opponent), Cato (implacable foe treated differently from each other); (5) superior — commander inspiring fierce loyalty in soldiers; (6) subordinate — navigating Sulla's Rome, deferring to Senate conventions for decades before the civil war; (7) lover — passionate relationship with Cleopatra, long affair with Servilia. His relational style clearly adapted to context."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Suetonius, Divus Julius 1 (Cornelia), 50-52 (affairs)",
+              "Plutarch, Life of Caesar 10 (Pompeia)",
+              "Goldsworthy, Caesar: Life of a Colossus (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Caesar had three marriages: to Cornelia (~84-69 BC), Pompeia (~67-62 BC), and Calpurnia (59-44 BC). His refusal to divorce Cornelia when Sulla demanded it shows genuine loyalty. However, his divorce of Pompeia ('Caesar's wife must be above suspicion') was coldly political. His marriage to Calpurnia was arranged for political alliance with her father Piso. He was a notorious serial adulterer — Suetonius lists affairs with Servilia, Cleopatra, and numerous wives of political allies. Curio called him 'every woman's husband and every man's wife.' There is little evidence of mutual emotional availability or deep partnership in any of his marriages."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Suetonius, Divus Julius 83 (adoption of Octavian)",
+              "Plutarch, Life of Caesar 23 (Julia)",
+              "Goldsworthy, Caesar: Life of a Colossus (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Caesar adopted his grand-nephew Octavian in his will, selecting perhaps the most capable political successor in Western history — Augustus went on to establish the Principate with extraordinary competence and autonomy. Caesar's relationship with his biological daughter Julia was reportedly close and affectionate (her death in 54 BC devastated him). He mentored younger officers and political allies, fostering talent in figures like Decimus Brutus and Mark Antony. However, his relationship with Octavian involved limited personal contact, and Labienus — his most trusted legate — ultimately defected to Pompey, suggesting limits to his mentoring bonds."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Weinstock, Divus Julius (1971)",
+              "Canfora, Julius Caesar: The Life and Times of the People's Dictator (2007)",
+              "Goldsworthy, Caesar: Life of a Colossus (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Caesar's impact remains operative over 2,000 years later across multiple civilizations. The month of July bears his name. 'Caesar' became a title for rulers across European civilizations (German Kaiser, Russian Tsar). His role in transforming the Roman Republic into the Empire shaped Western political history fundamentally. His Commentarii remain standard Latin texts studied worldwide. His military campaigns shaped the cultural and linguistic map of Western Europe (Romanization of Gaul). The Julian calendar influenced global timekeeping. Shakespeare's Julius Caesar made his story a universal cultural reference."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Shakespeare, Julius Caesar (1599)",
+              "Dante, Inferno XXXIV",
+              "Wyke, Caesar: A Life in Western Culture (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Caesar functions as a cross-cultural archetype of political ambition, military genius, and the tragedy of overreach. 'Crossing the Rubicon' is a universal metaphor for irrevocable decision. 'Et tu, Brute?' symbolizes betrayal across cultures. 'Beware the Ides of March' resonates globally. Shakespeare's play (1599) cemented his archetypal status in the English-speaking world, but his symbolic role extends far beyond: Dante placed Brutus and Cassius in the lowest circle of Hell (Inferno XXXIV), and 'Caesar' as a title was adopted in German, Russian, and Arabic-speaking cultures. He is recognized as a symbol of ambition, power, and fate across traditions far beyond Rome."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Feeney, Caesar's Calendar (2007)",
+              "Suetonius, Divus Julius 40-44",
+              "Weinstock, Divus Julius (1971)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Caesar's Julian calendar survived 1,600 years with recognizable continuity — one of history's most enduring institutional reforms. His colonial foundations at Carthage and Corinth thrived for centuries. His extension of citizenship to Cisalpine Gaul was permanent and established precedents for imperial citizenship policy. However, his most important political 'institution' — personal dictatorship — collapsed immediately upon his assassination and required Augustus to redesign the system entirely. The political framework needed fundamental reconception, even though Augustus drew on Caesarian precedents."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Plutarch, Life of Caesar",
+              "Goldsworthy, Caesar: Life of a Colossus (2006)",
+              "Gruen, The Last Generation of the Roman Republic (1974)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Caesar led successfully across qualitatively different contexts: eight years of sustained military campaigning in Gaul (58-50 BC), political coalition-building in Rome (the First Triumvirate with Pompey and Crassus, 60 BC), crisis leadership during civil war (49-45 BC), and civil administration as dictator implementing sweeping reforms. His soldiers' loyalty was legendary — they followed him across the Rubicon against the legitimate state. He inspired devotion in both military subordinates and political allies (Balbus, Oppius, Antony) while managing complex rivalries."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Suetonius, Divus Julius 45 (baldness), 67 (soldiers)",
+              "Plutarch, Life of Caesar 17",
+              "Goldsworthy, Caesar: Life of a Colossus (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Caesar maintained connection to ordinary life in specific documented ways: he shared campaign hardships with soldiers (sleeping in the open, eating rough food), knew centurions by name, and displayed personal wit and humor (Suetonius records numerous bon mots). His love affairs (Cleopatra, Servilia) and personal vanity (combing hair over his bald spot) are relatable human details. However, he was fundamentally a patrician aristocrat who became increasingly elevated — accepting divine honors, the title dictator perpetuo, and extraordinary public deference. At the height of power, evidence of mundane engagement is thinner."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Suetonius, Divus Julius 41-42",
+              "Meier, Caesar: A Biography (1995)",
+              "Brunt, The Fall of the Roman Republic (1988)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Caesar implemented some equitable reforms — debt relief measures (Lex Julia de pecuniis mutuis), provincial tax reform reducing exploitation, and citizenship extension. However, he fundamentally subverted constitutional order by crossing the Rubicon, manipulated elections, accumulated unprecedented powers, and declared himself dictator perpetuo. His debt reforms served his political base (the indebted populares). There are no clear documented cases of Caesar ruling against his own political interest in favor of abstract principle; his 'justice' consistently aligned with political advantage."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Suetonius, Divus Julius 73-75",
+              "Plutarch, Life of Caesar 22 (Usipetes)",
+              "Gelzer, Caesar: Politician and Statesman (1968)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Caesar's clementia — pardoning defeated Roman enemies including Brutus, Cassius, Cicero, and Marcellus after the civil war — is one of the most documented acts of compassion toward adversaries in antiquity. However, this must be weighed against severe counterexamples: the massacre of the Usipetes and Tencteri (55 BC), which Cato denounced as a war crime even by Roman standards, and the amputation of defenders' hands at Uxellodunum (51 BC). Plutarch estimates a million Gauls killed and a million enslaved. Without Gallic counterexamples: 3. With them given full weight: 1. Final score of 2 reflects that the clementia was consistent and genuine toward Roman adversaries, but compassion was selectively extended along ethnic/political lines — a serious moral limitation even era-normalized."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Suetonius, Divus Julius 4 (pirates), 62 (Munda)",
+              "Plutarch, Life of Caesar 32 (Rubicon)",
+              "Caesar, Commentarii de Bello Gallico II.25 (Nervii)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Caesar demonstrated sustained physical and moral courage across decades. As a young man (c. 75 BC), captured by Cilician pirates, he joked with his captors and promised to return and crucify them — which he did. At the Battle of the Nervii (57 BC), when his line broke, he seized a shield and fought in the front rank. He personally led the charge at Munda (45 BC), one of the bloodiest battles of the civil war. At Alexandria (48 BC), he swam under fire holding documents above water. He crossed the Rubicon (49 BC) knowing it meant civil war against the Senate. This pattern spans multiple high-stakes situations across 30+ years."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Caesar, Commentarii de Bello Gallico (passim)",
+              "Suetonius, Divus Julius",
+              "Batstone & Damon, Caesar's Civil War (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Caesar's own Commentarii are highly self-serving and never acknowledge strategic or moral errors. Suetonius and Plutarch provide critical external perspectives but do not document instances of Caesar reversing positions or accepting correction. His clementia policy could be interpreted as learning from Sulla's failed proscriptions, but this is inferential rather than documented self-correction. The primary sources (largely sympathetic or Caesar's own) sanitize his record. Per the rubric's instruction on sanitized traditions, this caps at 1 absent independent evidence of acknowledged error."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Suetonius, Divus Julius 1 (Sulla), 18 (debts)",
+              "Plutarch, Life of Caesar 23 (Julia's death)",
+              "Gelzer, Caesar: Politician and Statesman (1968)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Caesar functioned effectively through qualitatively different forms of adversity: (1) mortal danger during Sulla's proscriptions (c. 82 BC), forced into hiding and bribery to survive; (2) massive personal debt throughout his early career (reportedly 25 million denarii in debt before leaving for Spain); (3) prolonged military hardship during Gallic and civil war campaigns spanning 14 years; (4) deep personal grief at the death of his daughter Julia (54 BC), reportedly the person he loved most; (5) possible chronic illness (epilepsy). Through all of these, he continued to function at the highest level of political and military achievement."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Meier, Caesar: A Biography (1995)",
+              "Suetonius, Divus Julius",
+              "Canfora, Julius Caesar: The Life and Times of the People's Dictator (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Caesar coherently inhabited at least three seemingly contradictory roles: (1) ruthless military conqueror in Gaul AND magnanimous pardoner of Roman enemies; (2) scion of Rome's oldest patrician family AND champion of the populares and common people; (3) Pontifex Maximus (head of state religion from 63 BC) AND philosophical skeptic with Epicurean sympathies; (4) brilliant man of letters and intellectual AND man of decisive physical action; (5) destroyer of the Republican constitution AND architect of sweeping civic reforms. These contradictions coexisted without incoherence — his personality integrated them into a unified political and personal identity that contemporaries found both compelling and unsettling."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Suetonius, Divus Julius 81-82, 86-87",
+              "Plutarch, Life of Caesar 63-66",
+              "Appian, Civil Wars II.116-117"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Caesar dismissed his Spanish bodyguard shortly before the assassination, reportedly saying 'it is better to die once than to live always in fear of death' (Suetonius, Div. Jul. 86). He ignored repeated warnings about the Ides of March, including Calpurnia's dreams and the soothsayer Spurinna's warning. According to tradition, he pulled his toga over his face as he fell — a gesture of Roman dignitas in death. During the pirate captivity (75 BC), he showed composure about potential death. However, the actual assassination accounts are filtered through literary tradition, and some details may be embellished. His philosophical composure about death is documented but the actual moment of dying was violent and chaotic."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Suetonius, Divus Julius 45, 57",
+              "Plutarch, Life of Caesar 17",
+              "Goldsworthy, Caesar: Life of a Colossus (2006)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Caesar was renowned as a horseman who could ride at speed with hands clasped behind his back (Suetonius, Div. Jul. 57). He endured grueling campaigns across Gaul, Britain, and Germany for eight years, then further campaigns during the civil war. At Alexandria (48 BC), aged 52, he swam a considerable distance under fire. Suetonius notes his ability to endure long marches. However, he reportedly suffered from episodes that may have been epilepsy (Suetonius, Div. Jul. 45; Plutarch, Life of Caesar 17), and his health apparently declined in his final years. Physical feats are documented across life stages (youth through his 50s)."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Cicero, Brutus 262",
+              "Suetonius, Divus Julius 47 (gems), 52 (Cleopatra)",
+              "Plutarch, Life of Caesar 49"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Caesar demonstrated genuine aesthetic appreciation: he was a literary stylist whom Cicero praised as writing Latin 'of an elegant and unspoiled purity' (Brutus 262). He reportedly took a pleasure cruise up the Nile with Cleopatra (47 BC), which appears non-instrumental given the military risks. Suetonius records his love of fine gems, artwork, and beautifully furnished villas. He was known for wit and dinner conversation. He staged elaborate spectacles (gladiatorial games, triumphal shows). However, much of the spectacle-giving was clearly political, and his literary work also served strategic purposes, making it difficult to fully separate instrumental from genuine aesthetic pleasure."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 6.67,
+          "Core_5D_Avg": 7.33,
+          "Cultural-Social": 8.67,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Julius Caesar",
+      "overall": {
+        "Core_5D_Avg": 7.33,
+        "Overall_Normalized_Equal_Avg": 7.04,
+        "General_Competency_Avg_10scale": 5.56
+      },
+      "summary": "Caesar was a supreme military strategist, administrator, and literary stylist whose conquests, reforms (notably the Julian calendar), and role in ending the Roman Republic constitute one of history's greatest individual impacts. Core averages: Cognitive 7.5, Moral-Affective 5.8, Cultural-Social 8.7, Embodied-Existential 8.0, Relational 6.7 (5D avg 7.3). Heinlein avg 5.6/10. Overall 7.0. His moral-affective score reflects tension between famous clementia toward Roman enemies and brutal Gallic campaigns. Versatile in command, combat, literature, and engineering, but limited in domestic skills typical of the Roman aristocratic class.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.67,
+          "General_Competency_Avg_10scale": 5.56
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Suetonius, Divus Julius 53"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No credible evidence of personal cooking ability. Suetonius records that Caesar once ate asparagus dressed with myrrh instead of olive oil without complaint (Div. Jul. 53), which demonstrates tolerance rather than culinary skill. As a Roman aristocrat, food preparation was performed by enslaved cooks. On campaign, soldiers prepared their own food in mess groups (contubernia), and commanders ate food prepared by personal staff. No evidence Caesar ever prepared his own meals."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Suetonius, Divus Julius 57, 62 (Munda)",
+            "Caesar, Commentarii de Bello Gallico II.25 (Nervii)",
+            "Appian, Civil Wars II.104 (Alexandria)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Caesar personally engaged in combat across his career. Suetonius describes him as an expert swordsman and horseman (Div. Jul. 57). He fought in the front rank at the Nervii (57 BC), grabbed a shield when his line broke and personally stabilized the position. At Munda (45 BC), he reportedly dismounted and fought on foot to rally his troops in a desperate battle. At Alexandria (48 BC), he swam considerable distance under enemy fire. He survived the pirate capture and personally led the punitive expedition. However, his primary military role was command rather than personal combat, and he is not remembered primarily as a warrior-fighter in the way of Alexander."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Suetonius, Divus Julius 67-68",
+            "Caesar, Commentarii de Bello Gallico (passim)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Caesar showed concern for his soldiers' welfare — visiting the wounded, ensuring supply lines, addressing troop morale. Suetonius notes he valued his soldiers' lives and mourned losses. His grief at Julia's death suggests emotional depth. However, no specific evidence documents personal caregiving acts (nursing the sick, tending the wounded himself). His engagement was that of a concerned commander rather than a hands-on caregiver."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Suetonius, Divus Julius 81-82, 86-87",
+            "Plutarch, Life of Caesar 63-66",
+            "Appian, Civil Wars II.116-117"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Caesar demonstrated notable composure in the face of mortality. During pirate captivity (75 BC), he joked with his captors and showed no fear. He reportedly stated 'the best death is a sudden one' (Suetonius, Div. Jul. 87) and dismissed his Spanish bodyguard, preferring risk to constant anxiety. He ignored multiple warnings about the Ides of March — soothsayer Spurinna, Calpurnia's dreams, unfavorable omens — and went to the Senate regardless. According to Suetonius, he pulled his toga over his face as he was stabbed, maintaining dignitas. However, these final moments are filtered through literary tradition, and a score of 3 would require less ambiguous evidence of composure during his actual death."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation for personal manual craft)",
+            "Suetonius, Divus Julius 57 (horsemanship and weapons)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "No specific evidence documents Caesar personally making, fixing, or adapting tools or equipment. As a Roman aristocrat and commander, he would have had basic familiarity with military equipment (weapons, armor, siege machinery) through hands-on inspection and use. Roman commanders were expected to understand their equipment. However, the absence of any documented personal craftsmanship limits this score. Era-normalized for an aristocratic commander, basic competence is probable but unattested."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Caesar, Commentarii de Bello Gallico IV.20-36 (Britain)",
+            "Caesar, Commentarii de Bello Gallico IV.17 (Rhine)",
+            "Goldsworthy, Caesar: Life of a Colossus (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Caesar led armies across vast distances: through Gaul, twice across the English Channel to Britain (55-54 BC), across the Rhine into Germany, across the Mediterranean to Egypt, through North Africa, and back to Spain. His British expeditions required complex naval planning and tidal navigation. He personally made route decisions through unfamiliar Gallic territory. He navigated the political and physical geography of the Mediterranean world with remarkable speed. However, he relied on scouts, pilots, and local guides as any commander would."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Roth, The Logistics of the Roman Army at War (1999)",
+            "(no citation for personal skill)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a Roman military commander, Caesar managed large-scale livestock supply chains for his armies and would have had general knowledge of animal husbandry relevant to cavalry and supply operations. Roman commanders oversaw butchering and provisioning. However, no specific evidence documents personal skill in animal processing or butchering. Era-normalized for a Roman aristocrat-general, basic familiarity is probable but unattested."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Suetonius, Divus Julius 65-70 (leadership)",
+            "Gruen, The Last Generation of the Roman Republic (1974)",
+            "Gelzer, Caesar: Politician and Statesman (1968)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Caesar is among history's strongest exemplars of combined leadership and followership. As leader: his soldiers crossed the Rubicon for him, his loyalty-inspiring command style is abundantly documented, and he led Rome as dictator with sweeping authority. As follower: he operated within Rome's political system for decades (serving as military tribune, quaestor, aedile, praetor, consul) before seizing power, cooperated as junior partner with Pompey and Crassus in the First Triumvirate (60 BC), and took orders from the Senate during his early military service. He demonstrated ability to subordinate himself when strategically necessary."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Caesar, Commentarii de Bello Gallico IV.17 (Rhine bridge), VII.69-74 (Alesia)",
+            "Suetonius, Divus Julius 44 (Roman building projects)",
+            "Goldsworthy, Caesar: Life of a Colossus (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Caesar oversaw extraordinary engineering projects and described them with technical understanding: the Rhine bridge (55 BC), built in 10 days and described in precise structural detail in BG IV.17; the double circumvallation at Alesia (25+ miles of fortifications); siege works at Avaricum, Uxellodunum, and Massilia; and urban development projects in Rome. His detailed descriptions of construction techniques in the Commentarii demonstrate genuine understanding of engineering principles, not merely delegation. Era-normalized, this represents high competence for a commander-statesman."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Caesar, Commentarii de Bello Gallico and de Bello Civili",
+            "Goldsworthy, Caesar: Life of a Colossus (2006)",
+            "Fuller, Julius Caesar: Man, Soldier, Tyrant (1965)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Caesar is among history's greatest strategic planners and commanders. The Gallic Wars (58-50 BC) required sustained logistical and strategic planning across eight years and multiple theaters. At Alesia, he coordinated simultaneous siege and defense against converging armies. During the civil war, he planned and executed campaigns across Italy, Spain, Greece, Egypt, Africa, and Spain again within five years, adapting to setbacks at Dyrrachium and recovering to win at Pharsalus. His speed of decision and execution was legendary — seizing Italy before Pompey could organize."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Cicero, Brutus 261-262",
+            "Quintilian, Institutio Oratoria X.1.114",
+            "Caesar, Commentarii de Bello Gallico"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Caesar was one of the finest Latin prose stylists. Cicero praised his Commentarii as models of 'bare, straight, and handsome' Latin stripped of rhetorical ornament (Brutus 262). Quintilian ranked his oratory alongside Cicero's. He also wrote De Analogia (a grammatical treatise dedicated to Cicero), poetry (lost), and a work on astronomy. His oratory was celebrated — the speech on the Catilinarians (63 BC) was considered masterful. For a figure whose primary domains were military and political, this literary achievement is remarkable, though not the primary reason he is remembered."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Caesar, Commentarii de Bello Gallico (passim)",
+            "Scarborough, Roman Medicine (1969)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Caesar managed army medical services and emergency logistics effectively — Roman legions had organized medical support (medici), and Caesar ensured his forces had adequate medical provisions. He responded to emergencies decisively (evacuating troops from Dyrrachium, managing the crisis at the Nervii battle). However, no evidence documents personal medical skill — treating wounds, setting bones, or administering remedies. Era-normalized, Roman commanders delegated medical care to specialists."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Feeney, Caesar's Calendar (2007)",
+            "Caesar, Commentarii de Bello Gallico (passim)",
+            "Roth, The Logistics of the Roman Army at War (1999)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Caesar managed complex logistics for armies of 40,000-60,000 across multiple theaters, requiring sophisticated supply calculations, troop movement planning, and resource allocation. He reformed the Roman calendar with Sosigenes, which required engagement with astronomical and mathematical reasoning. He managed enormous personal and state finances (accumulating and then deploying vast debts strategically). His Commentarii show precise analytical reasoning about terrain, distances, and force ratios. However, he was not a mathematician or natural philosopher."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Suetonius, Divus Julius 42 (colonies)",
+            "Rickman, The Corn Supply of Ancient Rome (1980)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Caesar managed resources at a strategic/political level: reforming Rome's grain supply (the annona), establishing veteran agricultural colonies (Carthage, Corinth, and others), and managing the resources of conquered Gaul. However, there is no evidence of personal agricultural knowledge or hands-on cultivation. His resource management was administrative rather than practical. Era-normalized for a Roman head of state, managing the grain dole was a critical competency, but the domain asks about cultivating food or managing natural resources, which implies more direct engagement."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Caesar, Commentarii de Bello Gallico IV.17 (bridge engineering)",
+            "Feeney, Caesar's Calendar (2007)",
+            "Campbell, 'The Roman Siege of Alesia,' in Ancient Siege Warfare (2006)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Caesar employed and directed cutting-edge Roman engineering and technology: the Rhine bridge (55 BC) using pile-driving techniques he describes in precise technical detail; sophisticated siege works incorporating artillery, towers, and tunneling; the calendar reform requiring integration of astronomical knowledge; and urban infrastructure projects in Rome. His Commentarii demonstrate sophisticated understanding of engineering systems (water supply management during sieges, fortification design). He operated at the frontier of Roman technical capability, though he relied on specialized engineers (praefecti fabrum) for execution."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.33,
+    "general_competency_avg_0_10": 5.56,
+    "overall_normalized_equal_avg_0_10": 7.04,
+    "created_at": "2026-03-22T21:35:01.654Z",
+    "updated_at": "2026-03-22T21:35:01.676Z"
+  }
+}
+]

@@ -1,0 +1,367 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 186,
+  "fields": {
+    "name": "Adam Smith",
+    "slug": "adam-smith",
+    "bio_short": "A towering cognitive figure whose two masterworks — The Theory of Moral Sentiments and The Wealth of Nations — created modern economics and reshaped moral philosophy. Exceptional in ethical insight and innovative thinking, with strong justice orientation and quiet personal compassion. His relational life was narrow (never married, no children) and his practical/physical competencies were limited to the intellectual-administrative sphere. Heinlein-generalized competency is low, reflecting deep specialization rather than breadth. His legacy is civilizational in scope but his personhood was that ",
+    "bio_long": "Adam Smith was a Scottish economist and philosopher who was a pioneer in the field of political economy and key figure during the Scottish Enlightenment. Seen by many as the \"father of economics\", or the \"father of capitalism\", he is primarily known for two classic works: The Theory of Moral Sentiments (1759) and An Inquiry into the Nature and Causes of the Wealth of Nations (1776). The latter, often abbreviated as The Wealth of Nations, is regarded as his magnum opus, marking the inception of modern economic scholarship as a comprehensive system and an academic discipline. Smith refuses to explain the distribution of wealth and power in terms of divine will and instead appeals to natural, political, social, economic, legal, environmental and technological factors, as well as the interactions among them. The work is notable for its contribution to economic theory, particularly in its exposition of the concept of absolute advantage.",
+    "source_notes": "https://en.wikipedia.org/wiki/Adam_Smith",
+    "image": "figures/330px-Adam_Smith_The_Muir_portrait.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Smith, An Inquiry into the Nature and Causes of the Wealth of Nations (1776), Book IV",
+              "Rothschild, Economic Sentiments: Adam Smith, Condorcet, and the Enlightenment (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Smith demonstrated remarkable intellectual foresight — predicting the unsustainability of mercantilist trade policies, analyzing the economic consequences of colonial relationships (WN Book IV), and foreseeing industrial developments through his division-of-labor analysis. However, he was not an operational strategist who had to adapt plans under failure; his strategic thinking was analytical and predictive rather than executive."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Smith, The Wealth of Nations (1776)",
+              "Skinner, A System of Social Science: Papers Relating to Adam Smith (1996)",
+              "Heilbroner, The Worldly Philosophers (1953)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Smith created modern economics as a systematic discipline. Before The Wealth of Nations, no work had synthesized labor theory, trade policy, price mechanisms, and institutional analysis into a comprehensive framework. The paradigm shift is unmistakable: the 'before' was mercantilist pamphleteering and physiocratic fragments; the 'after' was a recognizable academic discipline. His pin-factory analysis of the division of labor and the 'invisible hand' metaphor remain foundational."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Smith, The Theory of Moral Sentiments (1759)",
+              "Sen, 'Adam Smith's Prudence' in Theory and Decision (1986)",
+              "Raphael, The Impartial Spectator: Adam Smith's Moral Philosophy (2007)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Theory of Moral Sentiments (1759) developed the 'impartial spectator' concept and a sophisticated sympathy-based moral framework that influenced Kant, the utilitarians, and modern moral psychology (e.g., Amartya Sen explicitly builds on Smith). His integration of self-interest and moral sentiment across TMS and WN constitutes one of the most influential ethical frameworks in Western thought, clearly reaching far beyond his own community and era."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Ross, The Life of Adam Smith (2010)",
+              "Anderson, 'Adam Smith at the Customs,' Scottish Journal of Political Economy (2018)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Smith served as Commissioner of Customs in Edinburgh for twelve years (1778–1790), performing his duties conscientiously — he personally attended hearings and investigated smuggling cases. His economic frameworks informed William Pitt's trade reforms and free-trade legislation that endured into the 19th century, though Smith did not directly author those laws. He does not meet the score-3 threshold of creating enduring administrative systems himself."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Rasmussen, The Infidel and the Professor (2017)",
+              "Ross, The Life of Adam Smith (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Smith functioned as a devoted son (to his mother Margaret Douglas), a deeply loyal friend (to David Hume, Joseph Black, James Hutton), a respected teacher and mentor, a subordinate within university and government hierarchies, and a superior as Commissioner of Customs. He lacked the spousal and parental modes, and adversarial relationships are thinly documented. This represents at least four distinct relational modes with qualitatively different behavior."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Ross, The Life of Adam Smith (2010)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Adam Smith never married and no romantic partnership is documented in the historical record. He lived with his mother until her death in 1784 and with his cousin Janet Douglas. There is simply no evidence on which to score this trait."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Ross, The Life of Adam Smith (2010)",
+              "Phillipson, Adam Smith: An Enlightened Life (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Smith was a devoted teacher at Glasgow, where students traveled from across Europe to attend his lectures. His mentorship of the young Duke of Buccleuch during their Grand Tour (1764–1766) was successful: the Duke matured into a capable figure and maintained a lifelong bond with Smith, providing a generous pension. Smith's pedagogical legacy includes students who became significant figures in their own right."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Heilbroner, The Worldly Philosophers (1953)",
+              "Rothschild, Economic Sentiments (2001)",
+              "Sen, Development as Freedom (1999)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Smith's influence on global economic thought, policy, and governance is civilizational in scope. The Wealth of Nations shaped British free-trade policy, influenced the American founding (Hamilton and Jefferson both engaged with it), and remains foundational to economics as practiced worldwide. His ideas are operative nearly 250 years later across virtually every civilization — from market liberalization in East Asia to economic reform debates in Africa and Latin America."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Rothschild, Economic Sentiments (2001)",
+              "Kennedy, Adam Smith's Lost Legacy (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Smith is universally recognized as the 'father of economics' and the intellectual symbol of free-market capitalism. His name and the 'invisible hand' metaphor are invoked across cultures. However, his archetypal resonance is primarily within economic and political discourse rather than as a broader mythic/cultural symbol (unlike, say, Confucius or Socrates who resonate as general wisdom figures)."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Phillipson, Adam Smith: An Enlightened Life (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Smith did not found lasting organizations or institutions. His intellectual contribution was foundational to the discipline of economics, which became institutionalized in universities in the 19th century, but this was an organic disciplinary evolution rather than direct institution-building. He served existing institutions (University of Glasgow, Customs Board) rather than creating new ones."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Ross, The Life of Adam Smith (2010)",
+              "Phillipson, Adam Smith: An Enlightened Life (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Smith was a highly influential professor at Glasgow (students traveled from across Europe to attend), a central figure in Edinburgh's intellectual societies (Select Society, Poker Club), and his ideas shaped British and global economic policy. However, he was not a leader who mobilized masses or directed organizations through crisis; his influence was primarily intellectual and indirect through published works and personal networks."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Stewart, 'Account of the Life and Writings of Adam Smith' (1793)",
+              "Ross, The Life of Adam Smith (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Smith was famously absent-minded — reportedly once fell into a tanning pit while walking and talking, and would talk to himself in the streets of Edinburgh. He lived with his mother Margaret Douglas for most of his adult life, maintaining a close domestic bond. He enjoyed convivial dining clubs, long walks, and ordinary conversation with friends. These endearingly human traits ground him in everyday life despite his intellectual eminence."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Smith, The Wealth of Nations (1776), Book I Ch. 8 and Book IV",
+              "Fleischacker, On Adam Smith's Wealth of Nations: A Philosophical Companion (2004)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Smith consistently argued against monopolies, guild restrictions, and mercantilist policies that enriched the powerful at the expense of workers and consumers. In WN Book I, Ch. 8, he explicitly sides with laborers over masters, noting the asymmetry of bargaining power. He criticized the East India Company and colonial exploitation on principled grounds. As Commissioner of Customs he enforced laws impartially. These positions often ran against the interests of Scotland's commercial elite."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Stewart, 'Account of the Life and Writings of Adam Smith' (1793)",
+              "Smith, The Theory of Moral Sentiments (1759), Part I"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Smith's entire moral philosophy is grounded in 'sympathy' (fellow-feeling). Personally, he was discovered after death to have given away large portions of his income to charity in secret — his estate was surprisingly small for his earnings. In WN he argued passionately for the welfare of laborers and against merchant exploitation. However, specific documented acts of compassion toward personal adversaries are not well-attested in the biographical record."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Ross, The Life of Adam Smith (2010)",
+              "Rasmussen, The Infidel and the Professor: David Hume, Adam Smith, and the Friendship That Shaped Modern Thought (2017)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Smith showed intellectual courage in challenging entrenched mercantile interests and defending David Hume's reputation posthumously despite Hume's controversial atheism (Smith published Hume's autobiography and a letter praising Hume's character, drawing public censure). However, he lived a sheltered academic life and did not face sustained physical danger or dramatic political persecution."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Raphael and Macfie, 'Introduction' to Glasgow Edition of The Theory of Moral Sentiments (1976)",
+              "Ross, The Life of Adam Smith (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Smith substantially revised The Theory of Moral Sentiments through six editions (1759–1790), with the final edition adding an entirely new Part VI on the character of virtue — representing genuine intellectual and moral evolution over three decades. He ordered nearly all his unpublished manuscripts burned before death, suggesting intense self-critical awareness. The evolution from TMS to WN itself reflects deepening engagement with material/institutional dimensions of morality."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Rasmussen, The Infidel and the Professor (2017)",
+              "Ross, The Life of Adam Smith (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Smith's father died before his birth, and he endured the grief of losing close friends, most notably David Hume (1776). He experienced chronic health difficulties. However, he lived in relative material comfort — a professor's salary, a tutor's pension from the Duke of Buccleuch, and a government salary as Commissioner of Customs. He did not face exile, poverty, persecution, or war."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Montes, Adam Smith in Context (2004)",
+              "Raphael, The Impartial Spectator (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Smith integrated the roles of moral philosopher (emphasizing sympathy and virtue) with political economist (emphasizing self-interest and markets) — the so-called 'Das Adam Smith Problem.' He was simultaneously a revolutionary thinker and a conservative, routine-bound bachelor. He combined deep social insight with pronounced personal eccentricity and absent-mindedness. This represents two clear paradoxes, falling short of the three required for a score of 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Stewart, 'Account of the Life and Writings of Adam Smith' (1793)",
+              "Rasmussen, The Infidel and the Professor (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Smith faced his own death in 1790 with deliberate composure. He arranged the burning of nearly all his unpublished manuscripts (16 volumes) in the weeks before death, indicating intentional preparation. His reported final words — 'I believe we must adjourn this meeting to some other place' — suggest wry acceptance. He had earlier praised Hume's serene death, suggesting deep reflection on mortality."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Ross, The Life of Adam Smith (2010)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Smith was not known for physical prowess. He suffered from chronic health complaints throughout his life and was described as somewhat ungainly. However, he undertook extensive walking (his primary exercise) and completed a demanding two-year Grand Tour through France and Switzerland (1764–1766), traveling by carriage and on foot through varied terrain."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Smith, 'Of the Imitative Arts' in Essays on Philosophical Subjects (1795)",
+              "Phillipson, Adam Smith: An Enlightened Life (2010)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Smith lectured on rhetoric and belles-lettres at Edinburgh (1748–1751), showing deep literary and aesthetic engagement. He was an avid reader of poetry and drama, enjoyed convivial club meetings and dinner parties, and his absent-minded reveries during walks suggest genuine contemplative pleasure. His essay 'Of the Imitative Arts' reveals sophisticated aesthetic theory. This engagement appears intrinsic rather than instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 4.44,
+          "Core_5D_Avg": 6.12,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 5.33
+        }
+      },
+      "figure": "Adam Smith",
+      "overall": {
+        "Core_5D_Avg": 6.12,
+        "Overall_Normalized_Equal_Avg": 5.58,
+        "General_Competency_Avg_10scale": 2.89
+      },
+      "summary": "A towering cognitive figure whose two masterworks — The Theory of Moral Sentiments and The Wealth of Nations — created modern economics and reshaped moral philosophy. Exceptional in ethical insight and innovative thinking, with strong justice orientation and quiet personal compassion. His relational life was narrow (never married, no children) and his practical/physical competencies were limited to the intellectual-administrative sphere. Heinlein-generalized competency is low, reflecting deep specialization rather than breadth. His legacy is civilizational in scope but his personhood was that of a devoted, eccentric scholar rather than an all-around generalist.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.87,
+          "General_Competency_Avg_10scale": 2.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Ross, The Life of Adam Smith (2010)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of culinary ability. Smith was reportedly indifferent to food and so absorbed in thought that he sometimes forgot to eat. His household was managed by his mother and cousin."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Ross, The Life of Adam Smith (2010)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of combat experience or martial training. Smith lived entirely in civilian academic and administrative settings during a period when Scotland was largely at peace domestically."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Ross, The Life of Adam Smith (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Smith cared for his elderly mother Margaret Douglas, with whom he lived until her death in 1784; her death deeply grieved him. He also loyally tended David Hume's posthumous reputation at personal cost. But direct evidence of hands-on caregiving (nursing, comforting the dying) is limited."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Stewart, 'Account of the Life and Writings of Adam Smith' (1793)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Smith faced his own death with deliberate composure, arranging the destruction of his unpublished manuscripts and reportedly offering his final quip about adjourning to another place. He had earlier eulogized David Hume's serene death, suggesting deep personal reflection on mortality. His composure was not merely theoretical but enacted in his own final weeks."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of manual craft or repair skills. Smith's famous pin-factory analysis (WN Book I, Ch. 1) demonstrates intellectual understanding of manufacturing but not personal manual ability."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Ross, The Life of Adam Smith (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Smith undertook a two-year Grand Tour through France, Switzerland, and the Continent (1764–1766), navigating foreign cities and travel routes. However, he was famously absent-minded and reportedly got lost in his own city. Navigation was not a strength."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Smith butchered, processed, or handled animals for food. He lived in urban settings served by others throughout his adult life."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Phillipson, Adam Smith: An Enlightened Life (2010)",
+            "Ross, The Life of Adam Smith (2010)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Smith led intellectual societies (was a key figure in the Literary Society of Glasgow and Edinburgh clubs), directed university affairs as a professor, and managed customs staff. He also demonstrated followership: he served dutifully under university administration, deferred to the Duke of Buccleuch's family as tutor, and executed his customs duties under Crown authority. Both modes are clearly documented."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of construction, building, or fabrication skills in the historical record. Smith was a scholar and administrator with no documented manual building experience."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Ross, The Life of Adam Smith (2010)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Smith managed customs operations in Edinburgh for twelve years, coordinating enforcement against smuggling. However, this was a bureaucratic role rather than complex strategic command under uncertainty. His strategic contributions were intellectual (advising Pitt on trade policy) rather than operational."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Smith, Lectures on Rhetoric and Belles Lettres (Glasgow Edition, 1983)",
+            "Smith, Essays on Philosophical Subjects (1795)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Smith lectured on rhetoric and belles-lettres (1748–1751), demonstrating sophisticated literary criticism. His published prose in TMS and WN is considered among the finest non-fiction writing of the 18th century. His posthumous Essays on Philosophical Subjects include aesthetic theory on music and imitative arts. He was a connoisseur of literature and drama rather than a primary creative artist."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Smith provided medical aid or responded to medical emergencies. He was himself frequently in need of medical attention for chronic ailments."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Smith, The Wealth of Nations (1776), esp. Book I",
+            "Skinner, A System of Social Science (1996)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Smith deployed extensive empirical data — price tables, wage comparisons, trade statistics — in The Wealth of Nations, and his logical analysis of economic systems was groundbreaking. However, he did not use formal mathematics; his reasoning was primarily verbal-logical. Ricardo and later economists formalized what Smith argued discursively."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Smith, The Wealth of Nations (1776), Books III-IV"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "While Smith theorized extensively about agriculture (WN Book III on the progress of opulence, Book IV on the Corn Laws), there is no evidence he personally engaged in farming or resource management."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Smith, The Wealth of Nations (1776)",
+            "Skinner, A System of Social Science (1996)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Smith's systematic analysis of economic mechanisms — price formation, trade flows, labor markets, taxation — represents cutting-edge intellectual technology for his era. He created novel analytical frameworks (division of labor, absolute advantage) that solved previously intractable problems in political economy. His approach was the 18th-century equivalent of systems engineering applied to social science."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.12,
+    "general_competency_avg_0_10": 2.89,
+    "overall_normalized_equal_avg_0_10": 5.58,
+    "created_at": "2026-03-22T21:53:59.271Z",
+    "updated_at": "2026-03-22T21:53:59.289Z"
+  }
+}
+]

@@ -1,0 +1,368 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 133,
+  "fields": {
+    "name": "Margaret Thatcher",
+    "slug": "margaret-thatcher",
+    "bio_short": "A transformative conviction politician with exceptional courage, strategic administrative skill, and powerful leadership, but limited compassion, moral flexibility, and practical breadth. Thatcher's cognitive and cultural-social dimensions are strong — she reshaped British governance, championed privatization globally, and embodied the Iron Lady archetype. Her moral-affective profile is uneven: extraordinary resilience alongside low empathy and resistance to self-correction. Relational and Heinlein competency scores reflect a life overwhelmingly devoted to politics at the expense of versatilit",
+    "bio_long": "Margaret Hilda Thatcher, Baroness Thatcher, was a British stateswoman who served as Prime Minister of the United Kingdom from 1979 to 1990 and Leader of the Conservative Party from 1975 to 1990. She was the longest-serving British prime minister of the 20th century and the first woman to hold the position. As prime minister, she implemented policies that came to be known as Thatcherism. A Soviet journalist dubbed her the \"Iron Lady,\" a nickname that became associated with her uncompromising politics and leadership style.",
+    "source_notes": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
+    "image": "figures/330px-Margaret_Thatcher_stock_portrait_28cropped29.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography* (3 vols, 2013-2019)",
+              "Freedman, Lawrence. *The Official History of the Falklands Campaign* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Thatcher demonstrated outstanding strategic adaptation in the Falklands War (1982), assembling a task force across 8,000 miles and adjusting after losses like HMS Sheffield. She learned from Heath's 1974 failure against the miners by stockpiling coal before the 1984-85 strike. However, the Poll Tax (Community Charge) was a catastrophic strategic miscalculation she refused to adapt on, directly precipitating her downfall in 1990. Without the Poll Tax counterexample, a score of 3 would be warranted; with it, the refusal to adapt on a major policy prevents the top score."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Parker, David. *The Official History of Privatisation* (2 vols, 2009-2012)",
+              "Campbell, John. *The Iron Lady* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The large-scale privatization program — British Telecom (1984), British Gas (1986), British Airways (1987) — was unprecedented in scope and created a model adopted worldwide. The 'Right to Buy' council housing policy and 'popular capitalism' through mass share ownership were innovative political strategies. However, the underlying intellectual framework came from think tanks (IEA, CPS) and economists (Hayek, Friedman); Thatcher's innovation was in political packaging and implementation rather than original conceptual thinking."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Green, E.H.H. *Thatcher* (2006)",
+              "Vinen, Richard. *Thatcher's Britain* (2009)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Thatcher articulated a coherent philosophical framework grounded in individual liberty, free markets, and limited government, drawing on Hayek's *The Road to Serfdom* and Friedman's monetarism. Her 1980 'The Lady's Not for Turning' speech and 1987 Woman's Own interview crystallized a worldview that influenced policymakers globally. However, her philosophical contributions were largely applications and popularizations of existing ideas rather than original moral reasoning."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Evans, Eric J. *Thatcher and Thatcherism* (3rd ed., 2013)",
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 2* (2015)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Thatcher's legislative achievements endured far beyond her tenure: the Employment Acts (1980, 1982, 1988) and Trade Union Act (1984) permanently restructured union power; the Big Bang deregulation of 1986 transformed the City of London; privatized industries remained private under subsequent Labour governments. The Single European Act (1986) reshaped EU governance. These systems functioned and endured across multiple governments and decades."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Young, Hugo. *One of Us* (1989)",
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography* (3 vols)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Thatcher functioned as: head of government (superior), wife to Denis, mother, daughter (deeply shaped by Alfred Roberts), friend (Airey Neave, Ronald Reagan), adversary (Scargill, Galtieri, Delors), subordinate (to the Queen, with a famously complex relationship), and party colleague. She demonstrated distinct behavior across these modes — reportedly warm in private friendship, formidable in adversarial contexts, deferential (if stiffly) to the Queen. However, her dominant, forceful style pervaded most of her relationships, limiting genuine adaptability across modes."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Thatcher, Carol. *Below the Parapet: The Biography of Denis Thatcher* (1996)",
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 1* (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Margaret and Denis Thatcher were married from 1951 until his death in 2003 — over 50 years. Denis provided steady emotional and financial support throughout her political career, attending functions and managing his own business interests. She described him as her 'golden thread.' Their relationship appeared genuinely warm, with documented mutual affection and humor. However, Denis's role was largely subordinate; the public record is limited on deep emotional mutuality, and Carol Thatcher's memoir suggests the marriage, while stable, was shaped by Margaret's political primacy."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Thatcher, Carol. *A Swim-On Part in the Goldfish Bowl* (2008)",
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 3* (2019)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Carol Thatcher has spoken publicly about feeling emotionally neglected and living in her mother's shadow. Mark Thatcher's troubled trajectory — disappearing during the 1982 Paris-Dakar Rally, later arrested in connection with the 2004 Equatorial Guinea coup plot — suggests limited effective parenting. As a political mentor, Thatcher inspired many (e.g., John Major, whom she promoted) but could be domineering and was betrayed by several protégés. Her mentees did not consistently develop genuine autonomy; Major's subsequent government was haunted by her shadow."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Yergin, Daniel and Stanislaw, Joseph. *The Commanding Heights* (1998)",
+              "Harvey, David. *A Brief History of Neoliberalism* (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Thatcherism transformed Britain's political economy and the global privatization model she championed was adopted across dozens of countries. Her partnership with Reagan helped define the late Cold War period. 'Thatcherism' remains a live term in political discourse. However, the 500-year cross-civilizational criterion cannot be assessed for a figure who died in 2013; her impact is enormous but primarily within the modern Western and post-communist political context."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Campbell, John. *The Iron Lady* (2003)",
+              "Cannadine, David. *Margaret Thatcher: A Life and Legacy* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "The 'Iron Lady' sobriquet, coined by Soviet journalist Yuri Gavrilov in 1976, became globally recognized and transcends British culture. She is the primary modern archetype of the female conviction politician and is referenced in political discourse from Moscow to Beijing to Buenos Aires. However, her symbolic resonance remains primarily political rather than mythic or universally archetypal in the manner of figures like Joan of Arc; recognition is broad but culturally shallow beyond the politically engaged."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Green, E.H.H. *Thatcher* (2006)",
+              "Evans, Eric J. *Thatcher and Thatcherism* (2013)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Thatcher co-founded the Centre for Policy Studies (1974) with Keith Joseph, which became an enduring think tank. Her legislative and regulatory reforms — union law, financial deregulation, privatized utility structures — created institutional frameworks that survived well beyond two generations of political leadership. However, her primary mode was dismantling and reforming existing institutions rather than creating new ones, and the Conservative Party she left behind fractured over Europe within years of her departure."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Young, Hugo. *One of Us* (1989)",
+              "Campbell, John. *The Iron Lady* (2003)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Thatcher led effectively across qualitatively different contexts: wartime command during the Falklands (1982), sustained peacetime economic transformation (1979-90), international diplomacy during the Cold War's final phase (Reagan partnership, Gorbachev engagement), crisis management after the Brighton bombing (1984), and internal party management over 15 years as leader. She inspired political movements globally — Thatcherism influenced reform in New Zealand, Eastern Europe, and beyond. She mobilized both popular support (three consecutive election victories: 1979, 1983, 1987) and fierce opposition."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 1* (2013)",
+              "Thatcher, Carol. *Below the Parapet* (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Thatcher was a grocer's daughter from Grantham who referenced her father Alfred Roberts's values throughout her career. She was documented cooking breakfast for Denis, doing household shopping as PM, and practicing domestic thrift. She ironed Denis's shirts and was proud of her household competence. However, her public persona was imperious and her political style was decidedly elite; the domestic touch was genuine but partly performed for political purposes, and she was socially distant from the working-class communities most affected by her policies."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Vinen, Richard. *Thatcher's Britain* (2009)",
+              "Young, Hugo. *One of Us* (1989)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Thatcher championed rule of law and meritocracy in principle. However, she opposed comprehensive sanctions against apartheid South Africa (Eminent Persons Group, 1986), maintained a warm relationship with Pinochet, and the Poll Tax (1989-90) was widely regarded as regressive, shifting tax burden from wealthy to poor. Her support for the Khmer Rouge's UN seat for geopolitical reasons and Section 28 (1988) prohibiting promotion of homosexuality further complicate a justice-oriented reading. No clear cases of ruling against personal or group interest in favor of principle are documented."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Campbell, John. *The Iron Lady* (2003)",
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 1* (2013)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Thatcher visited wounded Falklands veterans in hospital and was reportedly warm in private encounters with individuals. However, her policies showed limited systemic empathy: unemployment peaked above 3 million in 1982-83 with minimal mitigation for displaced industrial communities; she refused concessions during Bobby Sands' hunger strike (1981); and her 'no such thing as society' remark (1987) was emblematic of a philosophy that subordinated communal solidarity to individual responsibility. No documented compassion toward adversaries or outgroup members meets the threshold for a higher score."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography* (3 vols)",
+              "Young, Hugo. *One of Us* (1989)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Thatcher survived the IRA Brighton hotel bombing (October 1984) and delivered her conference speech the next morning. She persisted with deflationary economic policies during the 1981 recession when 364 economists publicly denounced her approach. She faced down Arthur Scargill's NUM during the yearlong miners' strike (1984-85). She challenged the post-war consensus against enormous establishment opposition from the outset of her leadership. This constitutes sustained courage across multiple high-stakes situations over 15+ years."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Thatcher, Margaret. *The Downing Street Years* (1993)",
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 3* (2019)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Thatcher's defining political brand was 'The Lady's Not for Turning' (1980). She was notoriously resistant to changing positions and her memoirs (*The Downing Street Years*, 1993) show minimal self-criticism. She did pragmatically moderate some positions — accepting the welfare state in practice, signing the Single European Act despite Euroscepticism, engaging with Gorbachev — but these were rarely framed as acknowledging prior error. Her refusal to adapt on the Poll Tax despite mounting evidence of failure is the defining counterexample."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 2* (2015)",
+              "Thatcher, Carol. *Below the Parapet* (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Thatcher functioned effectively through sustained political adversity: the 1981 recession backlash, the Brighton assassination attempt (1984), constant internal party opposition from 'wets,' and eventual forced removal from office (1990) — an experience she found deeply painful. She also endured personal challenges including her father Alfred Roberts's death (1970) and the strain her career placed on family life. She maintained effective functioning across political and personal adversity, qualifying for this score."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Campbell, John. *The Iron Lady* (2003)",
+              "Cannadine, David. *Margaret Thatcher: A Life and Legacy* (2017)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Thatcher inhabited several contradictory roles: a woman who opposed feminism yet broke the ultimate glass ceiling; a radical reformer who revered tradition and the monarchy; a domestic housewife-figure who was an imperious political warrior; a champion of individual liberty who governed with authoritarian instincts. She also combined chemistry-trained empiricism with ideological conviction. These paradoxes were genuinely integrated in her persona rather than experienced as contradictions, though her refusal to acknowledge the tensions sometimes produced fractures rather than synthesis (e.g., signing the Single European Act while being fundamentally Eurosceptic)."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 2* (2015)",
+              "Campbell, John. *The Iron Lady* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "After the Brighton bombing (1984), which killed five people and nearly killed her, Thatcher showed remarkable composure, delivering her conference speech hours later. When removed from office in November 1990, she maintained public dignity ('It's a funny old world') despite weeping privately. Her later decline through dementia (diagnosed c. 2000) makes assessment of conscious mortality acceptance difficult. The Brighton response demonstrates crisis composure in the face of a genuine near-death experience, but not the sustained, reflective mortality acceptance that would merit a 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography* (3 vols)",
+              "Young, Hugo. *One of Us* (1989)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Thatcher was legendary for her stamina, reportedly functioning on only four hours of sleep per night throughout her 11-year premiership. She maintained a punishing work schedule that exhausted younger aides. She survived the Brighton bombing at age 59 and continued at full pace afterward. She remained politically active into her 70s before dementia intervened. No specific athletic or physical feats, but her sustained endurance across decades of high-pressure governance is well-documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 1* (2013)",
+              "Thatcher, Carol. *Below the Parapet* (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Thatcher enjoyed whisky (reportedly Famous Grouse), had a dry private wit, and appreciated some music. She attended opera occasionally. However, her life was overwhelmingly defined by work and political conviction. There is limited evidence of non-instrumental engagement with beauty, humor, or leisure. Her rare moments of playfulness were largely private and not well-documented."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 5.56,
+          "Core_5D_Avg": 6.28,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 6.0
+        }
+      },
+      "figure": "Margaret Thatcher",
+      "overall": {
+        "Core_5D_Avg": 6.28,
+        "Overall_Normalized_Equal_Avg": 5.68,
+        "General_Competency_Avg_10scale": 2.67
+      },
+      "summary": "A transformative conviction politician with exceptional courage, strategic administrative skill, and powerful leadership, but limited compassion, moral flexibility, and practical breadth. Thatcher's cognitive and cultural-social dimensions are strong — she reshaped British governance, championed privatization globally, and embodied the Iron Lady archetype. Her moral-affective profile is uneven: extraordinary resilience alongside low empathy and resistance to self-correction. Relational and Heinlein competency scores reflect a life overwhelmingly devoted to politics at the expense of versatility and intimate connection. Her legacy is enormous but polarizing.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.8,
+          "General_Competency_Avg_10scale": 2.67
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Thatcher, Carol. *Below the Parapet* (1996)",
+            "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 1* (2013)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Thatcher was documented cooking breakfast for Denis and preparing meals for family and occasionally for political colleagues. She took pride in domestic competence and was known for her thriftiness in the kitchen. However, no evidence suggests exceptional culinary skill — this was competent home cooking rather than notable culinary ability."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Freedman, Lawrence. *The Official History of the Falklands Campaign* (2005)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Thatcher had no personal combat experience or documented self-defense training. Her role in the Falklands War was as political commander-in-chief, not as a combatant."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Thatcher, Carol. *A Swim-On Part in the Goldfish Bowl* (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Thatcher was a mother of twins (Mark and Carol, born 1953) and reportedly cared for her father Alfred Roberts in his later years. However, her children's accounts suggest emotional distance and prioritization of career over nurturing. She was capable of personal warmth in private but caregiving was not a defining competency."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 2* (2015)",
+            "Campbell, John. *The Iron Lady* (2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Thatcher delivered her party conference speech hours after the Brighton bombing (1984), which killed five and nearly killed her. She maintained public composure when forced from office in November 1990, saying 'It's a funny old world' despite private distress. These demonstrate substantial existential composure under crisis, though her later years with dementia preclude assessment of conscious end-of-life composure."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of manual craft or repair skills. Her professional life moved from chemistry research to law to politics, with no recorded hands-on mechanical or craft work."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of navigation or wayfinding skill. Thatcher traveled extensively as PM but relied on official transport and security arrangements rather than personal navigation."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of skill in animal husbandry, butchering, or food processing. While she grew up above her father's grocery shop in Grantham, no specific competency in this domain is recorded."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Young, Hugo. *One of Us* (1989)",
+            "Hennessy, Peter. *The Prime Minister* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Thatcher was an exceptional leader — three election victories, 11 years as PM, transformation of British politics. However, her followership was notably weak: she was forced from office precisely because she could not accept collective cabinet governance. She did defer to military expertise during the Falklands (trusting Admiral Lewin and the Chiefs of Staff), demonstrating some followership capacity, but her dominant pattern was to command rather than follow."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of construction or fabrication skill. Her competencies were intellectual and political rather than physical or structural."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Freedman, Lawrence. *The Official History of the Falklands Campaign* (2005)",
+            "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 2* (2015)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "The Falklands War (1982) required coordinating a complex military operation across 8,000 miles under extreme time pressure. The miners' strike strategy (1984-85) involved years of advance preparation — coal stockpiling, legal reform, contingency planning — learned from Heath's 1974 failure. Both demonstrate exceptional strategic planning and command at the highest level."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 1* (2013)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "Thatcher produced no notable artistic works. She took elocution lessons and carefully crafted speeches, but these were political communication rather than artistic expression. She was not known for engagement with the arts as a practitioner."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented evidence of medical skill or emergency medical response. Her chemistry background was industrial (research on emulsifiers at J. Lyons and BX Plastics) rather than medical."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 1* (2013)",
+            "Campbell, John. *The Iron Lady* (2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Thatcher earned a degree in chemistry from Somerville College, Oxford (1947), studying under Nobel laureate Dorothy Hodgkin. She subsequently qualified as a barrister specializing in tax law (1953). Both disciplines require strong analytical and numerical reasoning. She was known for mastering complex policy briefs in detail and engaging with economic data directly."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No documented agricultural or resource management skills at a personal/practical level. Her father ran a grocery shop, not a farm. Her policies addressed resource management at a macro level (North Sea oil revenue, privatization of utilities) but this reflects administrative rather than practical competency."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Moore, Charles. *Margaret Thatcher: The Authorized Biography, Vol. 1* (2013)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Thatcher worked as a research chemist at BX Plastics and then at J. Lyons & Co. (1949-51), where she was part of the team that developed methods for soft-serve ice cream. This demonstrates competent era-appropriate technical work, but she left the technical field early for law and politics and did not return to hands-on technical problem-solving."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.28,
+    "general_competency_avg_0_10": 2.67,
+    "overall_normalized_equal_avg_0_10": 5.68,
+    "created_at": "2026-03-22T18:33:56.176Z",
+    "updated_at": "2026-03-22T18:33:56.191Z"
+  }
+}
+]

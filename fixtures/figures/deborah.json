@@ -1,0 +1,358 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 150,
+  "fields": {
+    "name": "Deborah",
+    "slug": "deborah",
+    "bio_short": "A remarkable figure of the pre-monarchic Israelite period, Deborah excels in cultural-social impact: her archetype as female judge-prophetess-warrior-poet resonates across millennia and civilizations. Strong cognitive and moral-affective scores reflect her strategic acumen and sustained courage, while the Song of Deborah ranks among the Hebrew Bible's oldest and finest poetry. However, the extremely limited and hagiographic source base — essentially Judges 4–5 — leaves large swathes of embodied, relational, and practical-competency domains unscoreable. Her legacy vastly outstrips what can be v",
+    "bio_long": "According to the Book of Judges, Deborah was a prophetess of Judaism, the fourth Judge of pre-monarchic Israel and the only female judge mentioned in the Hebrew Bible. Many scholars contend that the phrase, \"a woman of Lappidoth\", as translated from biblical Hebrew in Judges 4:4 denotes her marital status as the wife of Lapidoth. Alternatively, \"lappid\" translates as \"torch\" or \"lightning\", therefore the phrase, \"woman of Lappidoth\" could be referencing Deborah as a \"fiery woman\". Deborah told Barak, an Israelite general from Kedesh in Naphtali, that God commanded him to lead an attack against the forces of Jabin king of Canaan and his military commander Sisera ; the entire narrative is recounted in chapter 4.",
+    "source_notes": "https://en.wikipedia.org/wiki/Deborah",
+    "image": "figures/330px-Johanna_Unger_E28093_Debora.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Ackerman, Susan. 'Warrior, Dancer, Seductress, Queen: Women in Judges and Biblical Israel' (1998)",
+              "Halpern, Baruch. 'The First Historians' (1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Deborah selected the battlefield at Mount Tabor and timed the attack so that the Kishon River flooded, neutralizing Sisera's 900 iron chariots (Judges 4:6-7, 5:21). This terrain-based strategy proved decisive. However, no documented case of adaptation after plan failure exists — the battle succeeded on first attempt."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Cross, Frank Moore. 'Canaanite Myth and Hebrew Epic' (1973)",
+              "Schloen, J. David, cited in Meyers, Carol (ed.), 'Women in Scripture' (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Song of Deborah (Judges 5) is widely recognized by scholars as one of the oldest literary compositions in the Hebrew Bible (possibly 12th–11th century BCE), employing sophisticated poetic techniques including dramatic shifts in perspective, vivid battle imagery, and the psychologically complex portrait of Sisera's mother. Her exercise of authority as a female judge was culturally innovative, though not a 'paradigm shift' in governance structures."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Niditch, Susan. 'Judges: A Commentary' (Old Testament Library, 2008)",
+              "Lindars, Barnabas. 'Judges 1–5' (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Song of Deborah (Judges 5) articulates a theology of covenant faithfulness and divine justice, presenting Israel's victory as vindication of YHWH's covenant. These principles became embedded in Israelite theological tradition via canonical scripture. However, specific ethical principles attributed to Deborah that influenced thinkers beyond her community independently are not clearly documented."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Boling, Robert G. 'Judges' (Anchor Bible Commentary, 1975)",
+              "Niditch, Susan. 'Judges: A Commentary' (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Judges 4:5 states that Israelites came to Deborah for judgment under the Palm of Deborah between Ramah and Bethel, indicating she functioned as an active judicial authority in a recognized, stable setting. The text credits 40 years of subsequent peace (Judges 5:31). However, no evidence of systems she designed that endured beyond her direct oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Niditch, Susan. 'Judges: A Commentary' (2008)",
+              "Meyers, Carol (ed.). 'Women in Scripture' (2000)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Evidence shows Deborah functioning as: superior (judge over litigants), spiritual authority (prophetess), military advisor/peer to Barak, wife to Lapidoth, and communal 'mother.' These represent at least four to five relational modes. However, behavioral detail distinguishing how she related differently in each mode is thin — we largely see her in authoritative roles."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Ackerman, Susan. 'Warrior, Dancer, Seductress, Queen' (1998)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "Lapidoth (or Lappidoth) is mentioned only in Judges 4:4, and some scholars argue the phrase may not even refer to a husband but to Deborah's fiery character. No details of their relationship, mutual support, or emotional quality exist in the record. The evidence is genuinely absent."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Fewell, Danna Nolan and David M. Gunn. 'Gender, Power, and Promise' (1993)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Deborah's relationship with Barak has mentoring qualities: she summoned him, gave him divine instruction, and accompanied him to build his confidence (Judges 4:6-9). However, Barak remained dependent on her presence ('If you go with me, I will go; but if you don't go with me, I won't go'), suggesting limited development of autonomy. The title 'mother in Israel' (Judges 5:7) implies communal nurturing but is rhetorical."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Meyers, Carol (ed.). 'Women in Scripture' (2000)",
+              "Ackerman, Susan. 'Warrior, Dancer, Seductress, Queen' (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Deborah's narrative has been operative for over 2,500 years across Judaism, Christianity, and broader Western culture. She is invoked in discussions of female leadership, gender and religion, and political authority. The Song of Deborah is one of the most studied texts in biblical scholarship. Her story has shaped discourse on women's roles across multiple civilizations well beyond the 500-year threshold."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Exum, J. Cheryl. 'Fragmented Women: Feminist (Sub)versions of Biblical Narratives' (1993)",
+              "Meyers, Carol (ed.). 'Women in Scripture' (2000)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Deborah is the archetypal female judge, prophetess, and warrior-leader in the Western tradition. She is recognized as a symbol of female authority in Judaism, Christianity, secular feminism, and political rhetoric far beyond her original Israelite context. Her name and story have been invoked across cultures from medieval Europe to modern political movements."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Boling, Robert G. 'Judges' (Anchor Bible, 1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Deborah functioned within the existing ad hoc judgeship system of pre-monarchic Israel. There is no evidence she created new institutional structures, and the judgeship system itself did not survive Israel's transition to monarchy. Her 'seat' under the Palm of Deborah was a personal, charismatic authority rather than a transferable institutional structure."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Halpern, Baruch. 'The First Historians' (1988)",
+              "Stager, Lawrence E. 'The Song of Deborah' in Biblical Archaeology Review (1989)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Deborah led across qualitatively different contexts: peacetime judicial authority (Judges 4:5), prophetic command (summoning Barak and directing military strategy, Judges 4:6-7), and crisis leadership (accompanying the army into battle, Judges 4:9-10). She successfully mobilized forces from multiple Israelite tribes (Judges 5:14-18 names Ephraim, Benjamin, Machir, Zebulun, Issachar, Naphtali) — a feat of inter-tribal coalition-building."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Niditch, Susan. 'Judges: A Commentary' (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The only everyday detail in the narrative is that Deborah sat under a palm tree between Ramah and Bethel (Judges 4:5). The text does not describe domestic activities, humor, or mundane interactions. Her self-designation as 'a mother in Israel' (Judges 5:7) hints at relatable identity but is a rhetorical-political statement rather than documentation of everyday maternal activity."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Boling, Robert G. 'Judges' (Anchor Bible, 1975)",
+              "Niditch, Susan. 'Judges: A Commentary' (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Deborah served as the recognized judicial authority of Israel, with people seeking her out for dispute resolution (Judges 4:5). Her prophecy to Barak that 'the LORD will deliver Sisera into the hands of a woman' (Judges 4:9) — potentially disadvantaging male military prestige — shows a willingness to deliver uncomfortable truths. However, no specific cases of ruling against personal or group interest are documented."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Fewell, Danna Nolan and David M. Gunn. 'Gender, Power, and Promise' (1993)",
+              "Bal, Mieke. 'Murder and Difference: Gender, Genre, and Scholarship on Sisera's Death' (1988)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Judges 5:28-30 contains a poignant passage imagining Sisera's mother peering through a window awaiting her son's return — a remarkably empathetic moment toward an adversary. However, scholars debate whether this passage is genuinely empathetic or ironically mocking. The overall Song celebrates violent victory (Jael's killing of Sisera, Judges 5:24-27). Without the ambiguity: 2; given the celebratory context: 1."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Ackerman, Susan. 'Warrior, Dancer, Seductress, Queen' (1998)",
+              "Brenner, Athalya (ed.). 'A Feminist Companion to Judges' (1993)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Deborah exercised public judicial authority as a woman in a patriarchal society, summoned and commanded a military general (Barak) to battle, and personally accompanied the army to Mount Tabor when Barak refused to go without her (Judges 4:8-9). This demonstrates sustained courage across qualitatively different high-stakes domains: judicial authority, prophetic confrontation, and military risk."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Niditch, Susan. 'Judges: A Commentary' (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "The biblical text presents Deborah as an essentially flawless prophetic figure who delivers God's message without error. No instances of Deborah reversing a prior position or accepting correction are recorded. Per the rubric, figures whose traditions sanitize them and remove evidence of error are capped at 1 unless independent evidence exists. No independent evidence exists for Deborah."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Niditch, Susan. 'Judges: A Commentary' (2008)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Judges 4:3 and 5:6-8 indicate Israel was under Canaanite oppression for 20 years before Deborah's intervention, during which 'the roads were abandoned' and village life ceased. Deborah functioned as a leader during this period of collective oppression. However, specific personal hardships beyond this communal context are not documented."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Ackerman, Susan. 'Warrior, Dancer, Seductress, Queen' (1998)",
+              "Brenner, Athalya (ed.). 'A Feminist Companion to Judges' (1993)"
+            ],
+            "score_0_3": 3,
+            "confidence": "Medium",
+            "justification": "Deborah simultaneously inhabited the roles of prophetess (spiritual authority), judge (civil authority), military commander (martial authority), poet (artistic creator), wife (domestic role), and 'mother in Israel' (maternal-communal identity) — at least five seemingly contradictory roles in her patriarchal cultural context. She exercised martial command while being a female civilian, held divine authority while maintaining domestic identity, and merged judicial impartiality with prophetic passion without recorded inconsistency."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "(no citation)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No evidence exists in the biblical record regarding Deborah's death, aging, or personal confrontation with mortality. The narrative ends with 'the land had peace for forty years' (Judges 5:31) but provides no account of her death or final days."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Boling, Robert G. 'Judges' (Anchor Bible, 1975)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Deborah traveled from her judging seat (between Ramah and Bethel) to Mount Tabor to accompany Barak's army (Judges 4:9-10), a journey of considerable distance in ancient conditions. However, no specific physical feats or endurance across multiple life-stages are documented."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Cross, Frank Moore. 'Canaanite Myth and Hebrew Epic' (1973)",
+              "Alter, Robert. 'The Art of Biblical Poetry' (1985)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Song of Deborah (Judges 5) is a vibrant, aesthetically rich composition with vivid imagery, dramatic structure, and emotional range — from triumph to pathos. The act of singing a victory song suggests aesthetic engagement with lived experience. However, the Song serves a liturgical/political purpose, so it is partially instrumental rather than purely for its own sake."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 3.33,
+          "Core_5D_Avg": 5.57,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 5.83,
+          "Embodied-Existential": 4.67
+        }
+      },
+      "figure": "Deborah (Judge of Israel)",
+      "overall": {
+        "Core_5D_Avg": 5.57,
+        "Overall_Normalized_Equal_Avg": 5.16,
+        "General_Competency_Avg_10scale": 3.11
+      },
+      "summary": "A remarkable figure of the pre-monarchic Israelite period, Deborah excels in cultural-social impact: her archetype as female judge-prophetess-warrior-poet resonates across millennia and civilizations. Strong cognitive and moral-affective scores reflect her strategic acumen and sustained courage, while the Song of Deborah ranks among the Hebrew Bible's oldest and finest poetry. However, the extremely limited and hagiographic source base — essentially Judges 4–5 — leaves large swathes of embodied, relational, and practical-competency domains unscoreable. Her legacy vastly outstrips what can be verified about her daily life.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.93,
+          "General_Competency_Avg_10scale": 3.11
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of culinary activities in the Deborah narrative."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Niditch, Susan. 'Judges: A Commentary' (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Deborah accompanied the army to battle (Judges 4:9-10) and directed the timing of the attack (Judges 4:14), but did not personally engage in combat. The killing of Sisera was accomplished by Jael (Judges 4:21). Her role was command and inspiration rather than personal fighting."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Niditch, Susan. 'Judges: A Commentary' (2008)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Deborah's self-designation as 'a mother in Israel' (Judges 5:7) and her judicial role where people came to her for guidance imply communal caregiving. However, no specific acts of physical or emotional caregiving for individuals are documented."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Ackerman, Susan. 'Warrior, Dancer, Seductress, Queen' (1998)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Deborah displayed calm authority when summoning Barak to a dangerous military confrontation and calmly prophesied the outcome when Barak expressed reluctance (Judges 4:9). She accompanied the army to the battlefield without recorded hesitation. The Song of Deborah exhibits confident composure in reflecting on crisis. However, no evidence of facing her own imminent death."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of manual craft or repair activities in the Deborah narrative."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Boling, Robert G. 'Judges' (Anchor Bible, 1975)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Deborah demonstrated geographic knowledge in selecting Mount Tabor and the Kishon Valley as the battleground, and traveled from her seat between Ramah and Bethel to Kedesh in Naphtali (Judges 4:9-10). This implies competent wayfinding in the hill country of ancient Israel, but specific navigational feats are not documented."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence in the biblical text of Deborah engaging in animal husbandry or food processing."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Ackerman, Susan. 'Warrior, Dancer, Seductress, Queen' (1998)",
+            "Boling, Robert G. 'Judges' (Anchor Bible, 1975)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "Deborah demonstrated exceptional leadership as judge, prophetess, and military coordinator, mobilizing a multi-tribal coalition (Judges 5:14-18). She simultaneously demonstrated followership by transmitting divine commands rather than claiming authority as her own ('Has not the LORD, the God of Israel, commanded you?' Judges 4:6), subordinating her role to prophetic authority. She both gave orders to Barak and deferred to divine direction."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of Deborah engaging in construction or fabrication activities."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Halpern, Baruch. 'The First Historians' (1988)",
+            "Stager, Lawrence E. 'The Song of Deborah' in Biblical Archaeology Review (1989)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Deborah planned the campaign against Sisera, designating Mount Tabor as the staging ground and directing Barak to gather 10,000 men from Naphtali and Zebulun (Judges 4:6). The choice of terrain neutralized Sisera's chariot advantage when the Kishon flooded (Judges 5:21). She also determined the timing of the attack (Judges 4:14)."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Cross, Frank Moore. 'Canaanite Myth and Hebrew Epic' (1973)",
+            "Alter, Robert. 'The Art of Biblical Poetry' (1985)"
+          ],
+          "score_0_3": 3,
+          "confidence": "Medium",
+          "justification": "The Song of Deborah (Judges 5) is widely regarded by scholars as one of the oldest and finest poetic compositions in the Hebrew Bible, featuring sophisticated literary devices including parallelism, dramatic shifts in voice, vivid battle imagery, and the psychologically complex vignette of Sisera's mother. Frank Moore Cross and others date it to the 12th–11th century BCE, making it among the earliest surviving Hebrew literature."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of medical or emergency response activities in the Deborah narrative."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of mathematical or analytical reasoning in the Deborah narrative beyond the general organizational demands implicit in mobilizing an army."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of agricultural activity or resource management beyond the general context of pre-monarchic Israelite society."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Halpern, Baruch. 'The First Historians' (1988)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Deborah's exploitation of the Kishon River's flooding potential to neutralize Sisera's technologically superior chariot force (Judges 5:21) represents a systemic solution to a technical-military problem — using environmental conditions to overcome an arms disadvantage. However, this is a single documented instance."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 5.57,
+    "general_competency_avg_0_10": 3.11,
+    "overall_normalized_equal_avg_0_10": 5.16,
+    "created_at": "2026-03-22T19:31:23.058Z",
+    "updated_at": "2026-03-22T19:31:23.075Z"
+  }
+}
+]

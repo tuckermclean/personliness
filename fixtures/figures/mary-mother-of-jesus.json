@@ -1,0 +1,357 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 137,
+  "fields": {
+    "name": "Mary, mother of Jesus",
+    "slug": "mary-mother-of-jesus",
+    "bio_short": "Mary's historical personhood is among the thinnest documented of any figure with comparable cultural impact. The canonical Gospels provide only a handful of episodes about her — Annunciation, Visitation, Nativity, Temple finding, Cana, the Cross, Acts 1. Her cognitive and relational scores remain low due to evidence scarcity, while her Cultural-Social impact is extraordinary: she is arguably the single most venerated woman in human history, an archetype of motherhood across Christianity, Islam, and beyond. The Heinlein competency profile reflects plausible peasant-era skills inferred with low ",
+    "bio_long": "Mary was a first-century Jewish woman of Nazareth, the wife of Joseph and the mother of Jesus. She is an important figure of Christianity, venerated under various titles such as virgin or queen, many of which are mentioned in the Litany of Loreto. The Eastern and Oriental Orthodox, Catholic, Evangelical Lutheran, Reformed, Anglican, Methodist and Baptist churches believe that Mary, as mother of Jesus, is the Mother of God. The Church of the East historically regarded her as Christotokos, a term still used in the liturgy of the Assyrian Church of the East. She has the highest position in Islam among all women and is mentioned numerous times in the Quran, including in a chapter (surah) named after her. She is also revered in the Baháʼí and Druze faiths.",
+    "source_notes": "https://en.wikipedia.org/wiki/Mary%2C_mother_of_Jesus",
+    "image": "figures/330px-Madonna_Advocata.png",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Brown, *The Birth of the Messiah* (1977)",
+              "Meier, *A Marginal Jew*, Vol. 1 (1991)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "At the wedding at Cana (John 2:1-5), Mary identified the wine shortage and directed servants to Jesus, showing social awareness and initiative. The flight to Egypt (Matthew 2:13-15) involved rapid displacement, though the decision is attributed to Joseph. No documented cases of adapting failed plans."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Brown, *The Birth of the Messiah* (1977)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "No documented creative innovations, inventions, or paradigm-shifting ideas are attributed to Mary in any source. The Magnificat, even if partially hers, reworks existing Jewish liturgical traditions rather than introducing a novel framework."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Brown, *The Birth of the Messiah* (1977)",
+              "Fitzmyer, *The Gospel According to Luke I-IX* (1981)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Magnificat (Luke 1:46-55) articulates a vision of divine justice — scattering the proud, lifting the lowly, filling the hungry — drawing on Hannah's prayer (1 Samuel 2). However, critical scholarship widely attributes the composition to Luke rather than to Mary herself, making it a theological statement placed in her mouth rather than evidence of her own philosophical articulation."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Meier, *A Marginal Jew*, Vol. 1 (1991)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Medium",
+            "justification": "Mary held no administrative, legislative, or organizational position. As a peasant woman in 1st-century Galilee, she managed a household, but no evidence of system-building or policy design exists in any source."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Gaventa, *Mary: Glimpses of the Mother of Jesus* (1995)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Documented relational modes include: mother to Jesus (Luke 2, John 19), wife to Joseph (Matthew 1-2), kinswoman to Elizabeth (Luke 1), community member at Cana (John 2), and member of the early church (Acts 1:14). While five modes are listed, the behavioral evidence in each is minimal — typically a single brief episode — and qualitatively distinct behavior across modes is not documented."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Brown, *The Birth of the Messiah* (1977)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Very little is known about Mary and Joseph's relationship. Joseph's decision not to divorce her publicly (Matthew 1:19) and their joint travel and co-parenting are noted, but these details are about Joseph's actions or logistical facts. No evidence of emotional availability, mutual support during crisis from Mary's side, or specific relational dynamics is preserved in any source."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Meier, *A Marginal Jew*, Vol. 1 (1991)",
+              "Gaventa, *Mary: Glimpses of the Mother of Jesus* (1995)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Mary raised Jesus, who developed extraordinary autonomy and competence, but attributing this to her parenting specifically is speculative (Joseph co-parented; theological frameworks attribute Jesus's qualities to divinity). Luke 2:19, 51 portrays her as reflective — 'treasuring these things in her heart' — suggesting a contemplative rather than controlling parenting style. Mark 6:3 mentions Jesus's brothers, suggesting she raised multiple children. Evidence remains thin."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Pelikan, *Mary Through the Centuries* (1996)",
+              "Boss, *Mary: The Complete Resource* (2007)",
+              "Quran, Surah 19 (Maryam)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mary is venerated by over 2 billion Christians and revered in Islam's Quran (Surah 19, Maryam). Marian devotion has shaped Western art (thousands of Madonna paintings from Giotto to Raphael), architecture (Notre-Dame cathedrals), theology (Mariology), and popular piety for 2,000 years across European, Latin American, African, Asian, and Middle Eastern civilizations. Her cultural impact is among the largest of any figure in human history."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Pelikan, *Mary Through the Centuries* (1996)",
+              "Warner, *Alone of All Her Sex: The Myth and the Cult of the Virgin Mary* (1976)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Mary is the defining archetype of the sacred mother in Western and global culture, recognized across Christianity, Islam, Bahá'í, and Druze traditions. She functions as symbol of maternal love, purity, suffering, intercession, and mercy in cultures far beyond her own. Images of the Madonna and Child are among the most recognized symbols on earth."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Boss, *Mary: The Complete Resource* (2007)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "Mary founded no institutions. Marian devotion, religious orders dedicated to her (e.g., Carmelites, Servites), and shrines (Lourdes, Guadalupe, Fatima) were created by others centuries after her death. She cannot be credited with institution-building in any direct sense."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Gaventa, *Mary: Glimpses of the Mother of Jesus* (1995)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Mary appears among the early Christian community in Acts 1:14 but in no documented leadership role. At Cana she directed servants (John 2:5), showing initiative. Her historical influence during her lifetime was limited; her enormous influence is posthumous and symbolic rather than reflecting personal leadership of groups."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Meier, *A Marginal Jew*, Vol. 1 (1991)",
+              "Horsley, *Archaeology, History, and Society in Galilee* (1996)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Gospel narratives present Mary in deeply relatable circumstances: giving birth in humble conditions (Luke 2:7), fleeing as a refugee (Matthew 2), worrying about her lost child in Jerusalem (Luke 2:48), attending a village wedding (John 2). Her offering of turtledoves (Luke 2:24; cf. Leviticus 12:8) marks her as poor. However, Mary was never prominent during her lifetime — she was always an ordinary peasant — so the 'despite prominence' criterion for score 3 does not clearly apply."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Fitzmyer, *The Gospel According to Luke I-IX* (1981)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The Magnificat (Luke 1:46-55) voices a strong justice vision — God filling the hungry and sending the rich away empty. This is the only evidence, and its attribution to Mary is debated by scholars who see it as Lukan composition. No documented cases of ruling against personal interest in favor of principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Brown, *The Death of the Messiah* (1994)",
+              "Johnson, *Truly Our Sister* (2003)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The Visitation to her pregnant kinswoman Elizabeth (Luke 1:39-56) demonstrates concern and solidarity. At Cana (John 2:1-5), Mary noticed the hosts' social embarrassment and intervened. Her presence at the Cross (John 19:25-27) shows devotion to her suffering son. These span different life contexts, though all derive from theological narratives. No documented compassion toward adversaries limits the score below 3."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Brown, *The Birth of the Messiah* (1977)",
+              "Gaventa, *Mary: Glimpses of the Mother of Jesus* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Accepting pregnancy as an unwed woman in a patriarchal honor-shame society risked death or ostracism (Matthew 1:18-19; cf. Deuteronomy 22:20-21). She endured refugee flight to Egypt (Matthew 2:13-15). She stood at the foot of the Cross during her son's execution (John 19:25). These represent sustained courage across multiple high-stakes situations spanning decades."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Meier, *A Marginal Jew*, Vol. 3 (2001)",
+              "Gaventa, *Mary: Glimpses of the Mother of Jesus* (1995)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Mark 3:21, 31-35 suggests Jesus's family (including Mary) came to restrain him, thinking he was 'out of his mind' — a rare canonical moment of misunderstanding. Her later presence at the Cross (John 19:25) and with the disciples in Acts 1:14 may indicate growth and acceptance. However, Christian tradition has heavily sanitized Mary (Immaculate Conception, sinlessness doctrine), and the rubric caps sanitized figures at 1 unless independent evidence exists. No independent corroboration of the Mark 3 episode exists."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Brown, *The Birth of the Messiah* (1977)",
+              "Gaventa, *Mary: Glimpses of the Mother of Jesus* (1995)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Mary endured qualitatively different hardships: social stigma of unwed pregnancy in an honor-shame society (Matthew 1:18-19), material poverty (the turtledoves offering, Luke 2:24), displacement as a refugee to Egypt (Matthew 2:14), and witnessing her son's crucifixion (John 19:25). Simeon's prophecy — 'a sword will pierce your own soul' (Luke 2:35) — foreshadows this trajectory. She appears to have continued functioning through all of these."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Warner, *Alone of All Her Sex* (1976)",
+              "Pelikan, *Mary Through the Centuries* (1996)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Theologically, Mary embodies profound paradoxes: mother yet virgin, humble servant yet exalted queen, joyful yet pierced by sorrow. However, these are largely theological constructions by later tradition rather than documented behavioral patterns. As a historical figure, she inhabited roles of mother, wife, refugee, and community member — somewhat diverse but not 'three seemingly contradictory roles' supported by specific behavioral evidence."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Shoemaker, *Ancient Traditions of the Virgin Mary's Dormition and Assumption* (2002)"
+            ],
+            "score_0_3": 0,
+            "confidence": "Low",
+            "justification": "No canonical source documents Mary's own death or her composure in facing it. The Dormition/Assumption traditions emerge from 5th-6th century apocryphal texts (e.g., *Transitus Mariae*) and lack historical reliability. Her composure at the Cross (John 19:25) reflects facing her son's death, not her own. The rubric specifically requires composure facing one's own imminent death."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Brown, *The Birth of the Messiah* (1977)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Mary traveled from Nazareth to Bethlehem while near full-term pregnancy (~90 miles, Luke 2:4-5), fled to Egypt with an infant (Matthew 2:14), and made annual pilgrimages to Jerusalem (~70 miles each way, Luke 2:41). For a 1st-century peasant woman, these journeys represent real physical demand. However, specific feats across multiple life-stages are not individually documented beyond these inferred travels."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Gaventa, *Mary: Glimpses of the Mother of Jesus* (1995)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Mary attended the wedding feast at Cana (John 2:1-2), participating in communal celebration. The Magnificat (Luke 1:46-47) opens with 'My soul magnifies the Lord, and my spirit rejoices' — expressing exultation, though in a religious rather than purely aesthetic context. Evidence is thin and instrumentally framed."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 1.67,
+          "Relational": 3.33,
+          "Core_5D_Avg": 3.87,
+          "Cultural-Social": 6.0,
+          "Moral-Affective": 5.0,
+          "Embodied-Existential": 3.33
+        }
+      },
+      "figure": "Mary, mother of Jesus",
+      "overall": {
+        "Core_5D_Avg": 3.87,
+        "Overall_Normalized_Equal_Avg": 3.63,
+        "General_Competency_Avg_10scale": 2.44
+      },
+      "summary": "Mary's historical personhood is among the thinnest documented of any figure with comparable cultural impact. The canonical Gospels provide only a handful of episodes about her — Annunciation, Visitation, Nativity, Temple finding, Cana, the Cross, Acts 1. Her cognitive and relational scores remain low due to evidence scarcity, while her Cultural-Social impact is extraordinary: she is arguably the single most venerated woman in human history, an archetype of motherhood across Christianity, Islam, and beyond. The Heinlein competency profile reflects plausible peasant-era skills inferred with low confidence. The dominant pattern is an enormous gap between the historical person (barely recoverable) and the symbolic figure (world-shaping).",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 0.73,
+          "General_Competency_Avg_10scale": 2.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "Reed, *Archaeology and the Galilean Jesus* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As the primary homemaker in a 1st-century Jewish peasant household, Mary would have prepared daily meals — bread-making, cooking legumes and vegetables, and preparing Sabbath and festival meals. This is era-normalized inference from her social position; no specific episode documents her cooking."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of combat or physical defense skills. Nothing in any source — canonical, apocryphal, or Quranic — attributes martial ability to Mary."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Meier, *A Marginal Jew*, Vol. 1 (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "As a 1st-century Jewish mother, Mary raised Jesus and likely other children (Mark 6:3 names brothers James, Joses, Judas, Simon, and mentions sisters). Era-normalized, peasant mothers provided comprehensive physical and emotional care. Her visit to Elizabeth (Luke 1:39-56) during Elizabeth's pregnancy also demonstrates caregiving beyond her immediate household."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Brown, *The Death of the Messiah* (1994)",
+            "Gaventa, *Mary: Glimpses of the Mother of Jesus* (1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Standing at the foot of the Cross while her son was executed by crucifixion (John 19:25-27) is one of the most documented acts of existential composure in the face of crisis in the Western canon. She did not flee, collapse, or lose function — she was present and composed enough to be entrusted with a new familial relationship by the dying Jesus ('Woman, behold your son'). This is a single event but of extraordinary magnitude."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Reed, *Archaeology and the Galilean Jesus* (2000)",
+            "Hock, *The Infancy Gospels of James and Thomas* (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "First-century Galilean women routinely engaged in spinning, weaving, and textile production. The Protoevangelium of James describes Mary spinning thread. Archaeological evidence from Galilean villages confirms widespread domestic textile production. Era-normalized, this represents basic manual competence expected of her social position."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Brown, *The Birth of the Messiah* (1977)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Mary traveled from Nazareth to Bethlehem (Luke 2), to Egypt and back (Matthew 2), and made annual pilgrimages to Jerusalem (Luke 2:41). These are significant journeys for the era. However, she was likely accompanying Joseph or traveling in pilgrimage caravans rather than navigating independently."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Reed, *Archaeology and the Galilean Jesus* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As a peasant woman in 1st-century Galilee, Mary would have been involved in food processing as part of daily subsistence — grinding grain, preserving food, and possibly handling small livestock. Archaeological evidence from Nazareth confirms a small agricultural village. No specific episodes are documented, so this is an era-normalized inference."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Gaventa, *Mary: Glimpses of the Mother of Jesus* (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "At Cana, Mary directed the servants: 'Do whatever he tells you' (John 2:5), showing capacity to give direction. In Acts 1:14, she is present among the early Christian community, following the apostles' leadership. This shows both giving and taking direction, though in limited contexts."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of construction or fabrication skills. Joseph is identified as a tekton (carpenter/builder, Matthew 13:55), but no such skill is attributed to Mary in any source."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Brown, *The Birth of the Messiah* (1977)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of Mary planning or commanding complex operations. Decisions such as the flight to Egypt are attributed to Joseph (Matthew 2:13-14). She held no military, political, or organizational command role."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Fitzmyer, *The Gospel According to Luke I-IX* (1981)",
+            "Hock, *The Infancy Gospels of James and Thomas* (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "The Magnificat (Luke 1:46-55), if even partially reflecting Mary's own words, is a powerful poetic composition in the Jewish hymnic tradition. Its authorship is debated — most scholars attribute it to Luke. The Protoevangelium of James (2nd century) describes Mary spinning purple thread for the Temple veil, suggesting textile artistry, but this source is apocryphal."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No specific evidence of medical knowledge or emergency response. While 1st-century mothers would have had folk remedies and childbirth knowledge, no episode documents Mary providing medical aid to anyone."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of mathematical or analytical reasoning. As a peasant woman in 1st-century Galilee, she may have had basic household accounting skills, but nothing is documented."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Reed, *Archaeology and the Galilean Jesus* (2000)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Nazareth was a small agricultural village; archaeological evidence shows subsistence farming, olive pressing, and wine production. Mary would have participated in household agricultural tasks as a peasant woman. No specific episodes are documented."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence of engagement with the technical systems or cutting-edge tools of her era. No source attributes any technical innovation or systematic problem-solving to Mary."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 3.87,
+    "general_competency_avg_0_10": 2.44,
+    "overall_normalized_equal_avg_0_10": 3.63,
+    "created_at": "2026-03-22T18:38:16.126Z",
+    "updated_at": "2026-03-22T18:38:16.145Z"
+  }
+}
+]

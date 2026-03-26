@@ -1,0 +1,370 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 202,
+  "fields": {
+    "name": "Zheng He",
+    "slug": "zheng-he",
+    "bio_short": "Zheng He scores highest in embodied-existential traits (7.3/10), reflecting extraordinary hardship tolerance—surviving childhood capture, castration, and enslavement before decades of ocean voyaging—and exceptional paradox integration as a Muslim eunuch admiral bridging warrior and diplomat roles. Cognitive and moral-affective dimensions are solid (6.7/10 each), anchored by outstanding strategic intelligence and courage across seven voyages. Cultural-social impact (6.7/10) is strong on leadership but weaker on institution-building, as the voyages were discontinued after his death. Relational s",
+    "bio_long": "Zheng He was a Chinese explorer, admiral, diplomat, and eunuch from the early Ming dynasty, who is often regarded as the greatest admiral in Chinese history. Born into a Muslim family as Ma He, he later adopted the surname Zheng conferred onto him by the Yongle Emperor.",
+    "source_notes": "https://en.wikipedia.org/wiki/Zheng_He",
+    "image": "figures/330px-2016_Malakka2C_Stadhuys_280929.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Dreyer, *Zheng He: China and the Oceans in the Early Ming Dynasty, 1405–1433* (2007)",
+              "Levathes, *When China Ruled the Seas* (1994)",
+              "Mills (trans.), Ma Huan, *Ying-yai Sheng-lan* (1970)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Zheng He commanded seven massive naval expeditions (1405–1433) with fleets of up to 300+ ships and 27,000+ personnel across the Indian Ocean. He demonstrated successful adaptation when plans failed: at Palembang (1407) he defeated the pirate Chen Zuyi after Chen feigned submission and attempted a surprise attack; at Ceylon (1411) he was ambushed by King Alagonakkara's forces but improvised a land assault on the capital that turned the tide. Managing logistics, diplomacy, and military contingencies across decades of voyaging represents exceptional strategic adaptability."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Levathes, *When China Ruled the Seas* (1994)",
+              "Lo, 'The Decline of the Early Ming Navy' in *Oriens Extremus* (1958)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "The treasure fleet voyages represented an unprecedented scale of organized maritime diplomacy—integrating trade, tribute collection, cartographic mapping, and military projection into a single operational framework. The fleet's logistical architecture (rotating resupply points, specialized ship types for different functions) was genuinely novel at this scale. However, the voyages did not produce a lasting paradigm shift: they were discontinued after 1433, and Chinese maritime practice reverted rather than building on his innovations."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Sen, 'The Formation of Chinese Maritime Networks to Southern Asia, 1200–1450' (2006)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Zheng He's bilingual Galle trilingual inscription in Sri Lanka (1409) honored Buddha, Vishnu, and Allah simultaneously, reflecting genuine interfaith sensibility. His Changle and Liujiagang inscriptions (1431) express a coherent ethic of peaceful engagement and reverence for Heaven. However, he did not articulate philosophical principles that influenced thinkers beyond his immediate circle or era; his ethical insight was implicit in conduct rather than systematically expressed."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Deng, *Chinese Maritime Activities and Socioeconomic Development* (1997)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zheng He managed the logistics of fleets requiring provisioning, repair, diplomatic protocol, and personnel management across multi-year voyages touching dozens of ports from Nanjing to Mogadishu. He oversaw construction at the Longjiang shipyards and coordinated tributary missions with court bureaucracy. However, the systems did not endure beyond his direct oversight: the voyages were terminated, the fleet dismantled, and navigational records reportedly destroyed within decades of his death."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Mills (trans.), Ma Huan, *Ying-yai Sheng-lan* (1970)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zheng He operated across multiple relational modes with documented behavioral variation: (1) deferential subordinate to the Yongle Emperor; (2) commanding superior to fleet personnel; (3) gracious diplomat with foreign rulers from Java to Hormuz; (4) decisive military adversary against pirates and hostile kings; (5) adoptive kinsman to his nephew. He adapted his interpersonal style across these contexts effectively. However, intimate/familial modes are thinly documented, and evidence of the 'friend' and 'child' modes is largely absent."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)"
+            ],
+            "score_0_3": 0,
+            "confidence": "High",
+            "justification": "As a eunuch castrated in childhood, Zheng He had no spousal or intimate partnerships. This absence reflects a forced condition, not a personal failing, but the rubric requires evidence of the trait in the historical record, and none exists."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Levathes, *When China Ruled the Seas* (1994)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Zheng He adopted his nephew Zheng Enmai (son of his elder brother) to continue the family line. His subordinate commanders Wang Jinghong and Hong Bao led subsidiary expeditions with apparent competence, suggesting effective delegation. Ma Huan and Fei Xin, who accompanied the voyages and wrote important accounts, developed under his auspices. However, detailed documentation of the quality of these mentoring relationships—whether mentees developed genuine autonomy versus executing orders—is too thin for a higher score."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Levathes, *When China Ruled the Seas* (1994)",
+              "Finlay, 'The Voyages of Zheng He: Ideology, State Power, and Maritime Trade in Ming China' in *Journal of the Historical Society* (2008)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Zheng He's voyages are central to Chinese historical identity and are actively invoked in 21st-century Chinese foreign policy (Belt and Road Initiative, 'peaceful rise' narrative). He is commemorated across Southeast Asia in Chinese diaspora communities. His legacy is clearly operative 600 years later but primarily within Chinese and Southeast Asian civilizational contexts rather than globally across multiple civilizations. The voyages' discontinuation limited their direct geopolitical impact compared to contemporary European exploration."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Levathes, *When China Ruled the Seas* (1994)",
+              "Dreyer, *Zheng He* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zheng He embodies the archetype of the great explorer-admiral and the extraordinary rise from enslavement to command. He uniquely represents the 'eunuch who achieved greatness,' the 'Muslim who served a Chinese emperor,' and the 'peaceful admiral' who projected power through diplomacy rather than conquest. His symbolic resonance is strongest in Chinese and Southeast Asian cultures; while growing in global recognition, he has not yet achieved the cross-cultural archetypal status of figures like Columbus or Marco Polo in Western consciousness."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Deng, *Chinese Maritime Activities and Socioeconomic Development* (1997)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "While Zheng He strengthened Chinese diaspora communities in Southeast Asia and helped establish Malacca as a significant tributary port, he did not create institutions that survived two generations with recognizable continuity traceable to his design. The treasure fleet was dismantled, navigational records reportedly destroyed, and the Longjiang shipyard infrastructure decayed. Temples bearing his name (e.g., Sam Po Kong in Semarang) survived as cultural-religious sites but were not institutions he deliberately designed."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Levathes, *When China Ruled the Seas* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Zheng He led one of the largest pre-modern naval enterprises across seven voyages (1405–1433), commanding hundreds of ships and tens of thousands of personnel. He demonstrated leadership across qualitatively different contexts: military command during the Jingnan campaign (1399–1402), complex multinational diplomacy across dozens of polities, logistics management of unprecedented scale, and navigation of Ming court politics as a eunuch. He successfully managed both crisis situations (pirate ambushes, hostile kings) and sustained peacetime diplomatic operations."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Mills (trans.), Ma Huan, *Ying-yai Sheng-lan* (1970)",
+              "Dreyer, *Zheng He* (2007)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zheng He maintained his Muslim faith throughout his life, visiting mosques during voyages and arranging his father's tomb inscription in Yunnan, connecting him to ordinary religious practice. He patronized Mazu (Tianfei) temples alongside Buddhist and Islamic sites, embedding himself in popular folk religion. Ma Huan's accounts describe his engagement with local markets, customs, and communities. However, specific documentation of mundane everyday activities (humor, manual labor, cooking) at the height of his power is limited."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Wade, 'The Zheng He Voyages: A Reassessment' (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zheng He mediated the Siam-Malacca dispute by supporting Malacca's independence and helping establish it as a protected Ming tributary state, rather than simply siding with the stronger power. After Chinese envoys were accidentally killed in a Javanese civil conflict (1407), he pursued diplomatic redress rather than punitive conquest, accepting compensation. These suggest a commitment to proportionality and legitimate order. However, his justice orientation is difficult to disentangle from Ming imperial policy, and no clear case exists of him ruling against personal or group interest on pure principle."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Mills (trans.), Ma Huan, *Ying-yai Sheng-lan* (1970)",
+              "Wade, 'The Zheng He Voyages: A Reassessment' (2005)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zheng He's diplomatic approach prioritized gift-giving, trade, and peaceful engagement over conquest in the vast majority of encounters across Southeast Asia, South Asia, Arabia, and East Africa—unusual restraint for a commander with overwhelming military superiority. Ma Huan's accounts describe respectful interactions with diverse peoples. However, he did capture adversaries (Chen Zuyi at Palembang, King Alagonakkara of Ceylon) and sent them to Nanjing for judgment, showing limits to compassion toward enemies. Without the counterexample of captive treatment, score would be 2–3; with it, 2 remains appropriate since his military actions were retaliatory rather than gratuitous."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Levathes, *When China Ruled the Seas* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Zheng He demonstrated sustained courage across multiple high-stakes situations over decades: he survived childhood capture during the Ming conquest of Yunnan (1381), castration, and enslavement; fought in the Jingnan civil war (1399–1402) alongside the Prince of Yan; then led seven major ocean voyages across dangerous waters. He personally commanded military engagements against pirates at Palembang (1407), hostile forces in Ceylon (1411), and a pretender in Sumatra (1415). He undertook the final seventh voyage in his early 60s, dying during or shortly after it (1433)."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "The historical record does not preserve clear instances of Zheng He reversing a prior position or accepting correction. His extraordinary personal trajectory—from enslaved captive to admiral—represents profound growth, but this is circumstantial rather than documented moral self-correction. Sources (Ming Shi, Ma Huan, Fei Xin) are not structured to record personal introspection or admission of error. Per the rubric, figures whose traditions sanitize them should be capped at 1 absent independent evidence of moral growth."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Levathes, *When China Ruled the Seas* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Zheng He endured qualitatively distinct forms of adversity: (1) childhood capture, castration, and enslavement during the Ming conquest of Yunnan (1381)—extreme physical trauma and material deprivation; (2) the dangers of the Jingnan civil war (1399–1402); (3) the sustained physical and psychological demands of seven ocean voyages across nearly 30 years, including storms, disease, and hostile encounters; (4) navigating the precarious political position of a eunuch in Ming court politics. He not only survived but excelled through all of these, rising from enslaved captive to the empire's greatest admiral."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Levathes, *When China Ruled the Seas* (1994)",
+              "Sen, 'The Formation of Chinese Maritime Networks' (2006)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Zheng He simultaneously inhabited at least five seemingly contradictory roles: (1) a devout Muslim serving a Confucian Chinese emperor; (2) a eunuch—normally a marginalized, politically suspect figure—who became the empire's most trusted admiral; (3) a former slave who commanded tens of thousands; (4) a military commander who primarily pursued peaceful diplomacy and trade; (5) a patron of Islam, Buddhism, and Chinese folk religion (Mazu/Tianfei) without apparent contradiction. He navigated these identities with evident coherence across a 30-year career."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Levathes, *When China Ruled the Seas* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zheng He undertook the seventh and final voyage (1430–1433) at approximately age 60, knowing the physical risks of ocean travel at advanced age. The reflective tone of the Changle inscription (1431), commissioned before departure, suggests a man taking stock of his life's work with equanimity. He died during or shortly after the seventh voyage (1433). However, detailed accounts of his composure in the face of imminent death are absent, preventing a score of 3."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Dreyer, *Zheng He* (2007)",
+              "Levathes, *When China Ruled the Seas* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Zheng He survived childhood capture and castration (1381), then served in military campaigns during the Jingnan civil war (1399–1402). He subsequently undertook seven major ocean voyages over nearly three decades, the last in his early 60s—demanding sustained physical capacity through tropical climates, storms, and the rigors of pre-modern seafaring. The Ming Shi describes him as physically imposing. While his role as admiral meant he was not performing the most physically demanding tasks, maintaining health and function across decades of voyaging into old age demonstrates strong endurance across multiple life-stages."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Mills (trans.), Ma Huan, *Ying-yai Sheng-lan* (1970)",
+              "Dreyer, *Zheng He* (2007)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Low",
+            "justification": "Zheng He commissioned inscriptions (Liujiagang and Changle, 1431) with some literary quality, and his patronage of temples reflects aesthetic sensibility. Ma Huan's accounts suggest genuine curiosity about the cultures, flora, fauna, and landscapes encountered during voyages. However, temple patronage served both devotional and diplomatic purposes, and the evidence for purely non-instrumental play, humor, or aesthetic engagement is thin in the surviving record."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 6.67,
+          "Relational": 3.33,
+          "Core_5D_Avg": 6.13,
+          "Cultural-Social": 6.67,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 7.33
+        }
+      },
+      "figure": "Zheng He",
+      "overall": {
+        "Core_5D_Avg": 6.13,
+        "Overall_Normalized_Equal_Avg": 5.92,
+        "General_Competency_Avg_10scale": 4.89
+      },
+      "summary": "Zheng He scores highest in embodied-existential traits (7.3/10), reflecting extraordinary hardship tolerance—surviving childhood capture, castration, and enslavement before decades of ocean voyaging—and exceptional paradox integration as a Muslim eunuch admiral bridging warrior and diplomat roles. Cognitive and moral-affective dimensions are solid (6.7/10 each), anchored by outstanding strategic intelligence and courage across seven voyages. Cultural-social impact (6.7/10) is strong on leadership but weaker on institution-building, as the voyages were discontinued after his death. Relational scores (3.3/10) are structurally low due to his eunuch status precluding intimate partnerships. Heinlein competency breadth (4.9/10) shows peaks in command, navigation, and leadership but gaps in manual/domestic skills. Core 5D Avg: 6.1. Overall: 5.9/10.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.47,
+          "General_Competency_Avg_10scale": 4.89
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists of Zheng He personally cooking or preparing meals. As a high-ranking admiral and court eunuch, meals would have been prepared by dedicated staff. His Hui Muslim background may have involved familiarity with halal food preparation, but this is speculative without documentary evidence."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Dreyer, *Zheng He* (2007)",
+            "Levathes, *When China Ruled the Seas* (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Zheng He participated in the Jingnan civil war (1399–1402) and subsequently commanded military operations at Palembang against the pirate Chen Zuyi (1407), in Ceylon against King Alagonakkara (1411), and in Sumatra against the pretender Sekandar (1415). All three engagements were successful. As an admiral, his combat role was command-level rather than personal hand-to-hand fighting, but he demonstrated effective military capability across multiple distinct engagements."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Dreyer, *Zheng He* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Zheng He adopted his nephew Zheng Enmai and reportedly maintained responsibility for his extended family. His generally benevolent treatment of foreign peoples and subordinates during voyages suggests a caregiving orientation. However, specific evidence of hands-on emotional or physical caregiving is limited in the surviving record."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Dreyer, *Zheng He* (2007)",
+            "Levathes, *When China Ruled the Seas* (1994)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Zheng He's willingness to undertake the seventh voyage at approximately age 60, knowing the mortal risks, and the reflective equanimity of the Changle inscription (1431) suggest strong existential composure. His lifelong equanimity despite the trauma of childhood castration and enslavement further demonstrates this. He died during or shortly after the final voyage (1433), having chosen to go rather than retire. Detailed deathbed accounts are absent, preventing a score of 3."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists of Zheng He personally making, fixing, or adapting tools, machines, or physical systems. His fleet included specialized craftsmen for ship repair and equipment maintenance, but his role was command rather than manual work."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Dreyer, *Zheng He* (2007)",
+            "Mills (trans.), Ma Huan, *Ying-yai Sheng-lan* (1970)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Zheng He's fleets navigated from Nanjing through the South China Sea, Strait of Malacca, across the Indian Ocean to the Persian Gulf, Red Sea, and East African coast—a range of approximately 12,000 nautical miles. His voyages employed compass navigation, star charts, and the accumulated maritime knowledge later recorded in the Mao Kun map. While specialized navigators handled technical details, Zheng He as fleet commander made strategic navigational decisions across the most expansive maritime operations of his era."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Low",
+          "justification": "No evidence exists of Zheng He personally butchering animals or processing food. While his fleet carried livestock and provisions, these tasks were managed by specialized crew members. His childhood in Yunnan may have involved exposure to animal husbandry, but this is speculative."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Dreyer, *Zheng He* (2007)",
+            "Levathes, *When China Ruled the Seas* (1994)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Zheng He demonstrated exceptional leadership (commanding the treasure fleet across seven voyages, managing tens of thousands of personnel, directing military and diplomatic operations) and effective followership (loyal and subordinate service to the Yongle Emperor, accepting the Emperor's authority, navigating court politics as a eunuch without overstepping). He transitioned between these roles fluidly throughout his career—following during the Jingnan campaign, leading across the oceans, always deferring to imperial authority."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "Dreyer, *Zheng He* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Zheng He oversaw the commissioning and fitting-out of the treasure fleet at the Longjiang shipyards in Nanjing, and he commissioned temples and stone inscriptions at various locations (Liujiagang, Changle, Galle). His role was supervisory and commissioning rather than hands-on construction. No evidence of personal building or fabrication skills."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Dreyer, *Zheng He* (2007)",
+            "Levathes, *When China Ruled the Seas* (1994)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Zheng He coordinated seven massive naval expeditions (1405–1433) involving up to 300+ ships and 27,000+ personnel across the Indian Ocean. He managed provisioning, navigation, diplomacy, and military contingencies simultaneously, adapting plans in response to pirate ambushes (Palembang 1407), hostile rulers (Ceylon 1411), and changing political conditions at court. This represents one of the most complex pre-modern command achievements in the historical record."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Dreyer, *Zheng He* (2007)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Zheng He commissioned the Liujiagang and Changle inscriptions (1431), which have literary and historical value. He patronized temples across multiple religious traditions with aesthetic sensitivity. However, he is not known to have personally created works of art, literature, or music. His cultural expression was primarily through patronage and commissioning rather than personal creation."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Levathes, *When China Ruled the Seas* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "As fleet commander responsible for 27,000+ personnel on multi-year voyages, Zheng He necessarily oversaw the management of disease, injury, and medical emergencies. His fleet carried medical personnel and herbal medicines. However, no evidence exists of personal medical skill or hands-on emergency treatment. His contribution was organizational command of medical response rather than personal medical competence."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Dreyer, *Zheng He* (2007)",
+            "Deng, *Chinese Maritime Activities and Socioeconomic Development* (1997)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Managing the logistics of fleets with hundreds of ships and tens of thousands of personnel required calculating provisions (food, water, trade goods) for multi-year voyages, coordinating resupply schedules across dozens of ports, and managing tribute accounting for the Ming court. While Zheng He had staff for detailed calculations, his overall responsibility for these operations demonstrates strong practical analytical capacity. Era-normalized, this represents notable competence."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Levathes, *When China Ruled the Seas* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Zheng He managed resupply operations for his fleet, establishing provisioning points at ports like Malacca and Calicut. His fleet reportedly cultivated temporary gardens at some stops for fresh provisions. However, no evidence exists of personal agricultural skill or sustained resource management beyond fleet logistics."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Dreyer, *Zheng He* (2007)",
+            "Needham, *Science and Civilisation in China*, Vol. 4, Part 3 (1971)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Zheng He's fleet utilized the cutting-edge maritime technology of the era: the largest wooden ships ever constructed (treasure ships reportedly 400+ feet, though debated), watertight bulkhead compartments, magnetic compass navigation, and complex signal systems for fleet coordination. He oversaw the integration of these technologies into a functioning system at unprecedented scale, though he did not personally invent them."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 6.13,
+    "general_competency_avg_0_10": 4.89,
+    "overall_normalized_equal_avg_0_10": 5.92,
+    "created_at": "2026-03-22T22:15:20.147Z",
+    "updated_at": "2026-03-22T22:15:20.166Z"
+  }
+}
+]

@@ -1,0 +1,387 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 166,
+  "fields": {
+    "name": "Charles Darwin",
+    "slug": "charles-darwin",
+    "bio_short": "Darwin's supreme creative-intellectual achievement — the theory of natural selection — anchors exceptional scores in creative thinking, philosophical insight, impact legacy, and archetype resonance. His 43-year marriage to Emma Wedgwood and decades of productive work through chronic illness demonstrate remarkable spousal quality and hardship tolerance. Cognitive and cultural-social dimensions score highest; moral-affective and embodied-existential are solidly moderate. Heinlein-style practical breadth is limited by his gentleman-scholar lifestyle, with notable gaps in construction, culinary, a",
+    "bio_long": "Charles Robert Darwin was an English naturalist, geologist, and biologist, widely known for his contributions to evolutionary biology. His proposition that all species of life have descended from a common ancestor is now generally accepted and considered a fundamental scientific concept. In a joint presentation with Alfred Russel Wallace, he introduced his scientific theory that this branching pattern of evolution resulted from a process he called natural selection, in which the struggle for existence has a similar effect to the artificial selection involved in selective breeding. Darwin has been described as one of the most influential figures in human history and was honoured by burial in Westminster Abbey.",
+    "source_notes": "https://en.wikipedia.org/wiki/Charles_Darwin",
+    "image": "figures/330px-Charles_Darwin_seated_crop.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "Browne, *Charles Darwin: The Power of Place* (2002)",
+              "Desmond & Moore, *Darwin* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin strategically accumulated evidence for natural selection over ~20 years, building an overwhelming case before publishing. When Wallace's 1858 letter threatened to scoop him, Darwin adapted by agreeing to a joint Linnean Society presentation brokered by Lyell and Hooker, then rapidly condensing his planned multi-volume work into the accessible Origin of Species. He also structured Origin to systematically anticipate and address objections chapter by chapter."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Mayr, *The Growth of Biological Thought* (1982)",
+              "Darwin, *On the Origin of Species* (1859)",
+              "Browne, *Charles Darwin: Voyaging* (1995)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The theory of evolution by natural selection represents one of the clearest paradigm shifts in intellectual history, fulfilling the before/after requirement: before Darwin, the dominant view was special creation and fixity of species; after, descent with modification became the organizing principle of biology. Darwin synthesized insights from biogeography (Galápagos finches), paleontology, embryology, artificial selection (pigeon breeding), and Malthusian economics into a unified explanatory framework that no predecessor had achieved. Wallace independently conceived natural selection, but Darwin's 20-year evidence program and synthetic presentation were uniquely creative."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Dewey, 'The Influence of Darwinism on Philosophy' (1910)",
+              "Richards, *Darwin and the Emergence of Evolutionary Theories of Mind and Behavior* (1987)",
+              "Ruse, *The Darwinian Revolution* (1979)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Darwin's articulation of descent with modification and natural selection constituted a metaphysical revolution, displacing teleological thinking about nature and humanity's place in it. In *The Descent of Man* (1871), he explicitly argued that the moral sense evolved through natural selection — a founding argument in evolutionary ethics. Dewey's 1910 essay 'The Influence of Darwinism on Philosophy' credits Darwin with the most fundamental philosophical shift since the Greeks; his ideas influenced pragmatism, process philosophy, existentialism, and naturalized epistemology across multiple civilizations and eras."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Browne, *Charles Darwin: The Power of Place* (2002)",
+              "Darwin Correspondence Project, Cambridge University"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Darwin competently managed his household finances and estate at Down House, and his investments (guided by advice) made him wealthy. He organized a vast international correspondence network for gathering data, effectively running a distributed research program. However, he did not create administrative systems, legislation, or organizations that endured beyond his oversight."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Browne, *Charles Darwin: Voyaging* (1995)",
+              "Browne, *Charles Darwin: The Power of Place* (2002)",
+              "Darwin Correspondence Project, Cambridge University"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin operated as: devoted spouse (Emma), loving parent (ten children), grieving parent (Annie), mentee (Henslow, Sedgwick), mentor (Romanes, Lubbock), loyal friend (Hooker, Huxley, Lyell), generous colleague-competitor (Wallace), employer of servants, and deferential subordinate to FitzRoy during the Beagle voyage. This covers at least six relational modes. However, his relational style was remarkably consistent — warm, gentle, considerate — across most contexts, limiting evidence of qualitative behavioral adaptation. He largely avoided adversarial relationships."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Keynes, *Annie's Box* (2001)",
+              "Healey, *Emma Darwin: The Inspirational Wife of a Genius* (2001)",
+              "Darwin Correspondence Project, Cambridge University"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Darwin and Emma Wedgwood's 43-year marriage (1839–1882) is one of the best-documented Victorian partnerships. Emma nursed him devotedly through chronic illness; he respected her religious convictions even as his own faith dissolved, writing her a letter in 1839 acknowledging her concerns about his beliefs with great tenderness. They grieved Annie's death together. They played backgammon nightly, and his letters to her show sustained emotional warmth and mutual dependence. Emma served as editor and confidante for his work. The relationship demonstrates mutual respect, support during crisis, and emotional availability across its full arc."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Francis Darwin, *The Life and Letters of Charles Darwin* (1887)",
+              "Browne, *Charles Darwin: The Power of Place* (2002)",
+              "Keynes, *Annie's Box* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin was a devoted and observant father of ten children, studying infant development in son William and engaging playfully with all his children. He was devastated by Annie's death in 1851. Several sons achieved genuine distinction: George became Plumian Professor of Astronomy at Cambridge, Francis a noted botanist, Horace an engineer who founded the Cambridge Scientific Instrument Company. As a mentor, he guided younger scientists (Romanes, Lubbock) through correspondence, encouraging independent research. However, his chronic illness limited daily availability, and mentoring was conducted at a distance."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Mayr, *The Growth of Biological Thought* (1982)",
+              "Dennett, *Darwin's Dangerous Idea* (1995)",
+              "Ruse, *The Darwinian Revolution* (1979)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Darwin's theory of evolution by natural selection remains the foundational organizing principle of biology over 160 years later and has profoundly shaped medicine, psychology, anthropology, philosophy, economics, and computer science across all world civilizations. The theory's explanatory power has only increased with the discovery of DNA and molecular genetics. Few figures in any domain can claim effects so clearly operative across multiple civilizations for well over 500 years (projected, given acceleration of influence)."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Browne, 'Darwin in Caricature' in *Proceedings of the American Philosophical Society* (2001)",
+              "Numbers, *Darwinism Comes to America* (1998)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Darwin is a globally recognized archetype of the scientific discoverer — the patient observer who overturned received wisdom through careful evidence. His bearded image is iconic across cultures far beyond the English-speaking world. He serves as a symbol in science-vs-religion debates, in discussions of intellectual courage, and as a metonym for scientific revolution itself. He is recognized in cultures from East Asia to Latin America as a foundational figure."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Ruse, *The Darwinian Revolution* (1979)",
+              "Bowler, *Evolution: The History of an Idea* (2003)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "Darwin did not found formal organizations or institutions. His research program became institutionalized as evolutionary biology, but this was accomplished by others — Huxley's educational reforms, the founding of evolutionary biology departments at universities, the Modern Synthesis of the 1930s–40s. Darwin's personal contribution was intellectual framework, not institutional architecture."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "Browne, *Charles Darwin: The Power of Place* (2002)",
+              "Darwin Correspondence Project, Cambridge University"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin was the central node of Victorian natural history, directing a global correspondence network of over 2,000 correspondents who supplied data, specimens, and observations. He mobilized allies — Huxley, Hooker, Lyell, Asa Gray — into an effective advocacy coalition for evolutionary theory. However, his leadership was exercised almost entirely through private correspondence and publication from rural seclusion, not through public oratory, institutional command, or crisis management of groups. He led in stability but delegated crisis leadership to others."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Francis Darwin, *The Life and Letters of Charles Darwin* (1887)",
+              "Browne, *Charles Darwin: The Power of Place* (2002)",
+              "Keynes, *Annie's Box* (2001)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin was deeply embedded in everyday domestic life at Down House: he walked his 'Sandwalk' daily, played backgammon with Emma every evening (keeping a running tally), bred fancy pigeons as both hobby and research, gardened extensively, and was famously playful with his children — allowing them to run through his study during work hours. His earthworm experiments involved mundane garden observation. Francis Darwin's reminiscences document these everyday activities in detail."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Desmond & Moore, *Darwin's Sacred Cause* (2009)",
+              "Browne, *Charles Darwin: The Power of Place* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin's anti-slavery convictions ran deep through his Wedgwood family heritage (the 'Am I Not a Man and a Brother?' cameo). He was fair in crediting Wallace, agreeing to a joint 1858 presentation rather than claiming priority unilaterally. In *Descent of Man*, he argued against scientific racism of the polygenist school, maintaining human unity despite the social advantages of racial hierarchy theory for a Victorian gentleman. However, he did not rule against personal interest in dramatic institutional or legal contexts."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Desmond & Moore, *Darwin's Sacred Cause* (2009)",
+              "Darwin, *Journal of Researches* (1839)",
+              "Darwin, *The Descent of Man* (1871)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin was a committed abolitionist — his Beagle journal (1839) records visceral horror at witnessing slavery in Brazil, and he quarreled with Captain FitzRoy over the morality of slaveholding. In *The Descent of Man* he argued for the fundamental unity of human races against polygenists, extending moral consideration across racial boundaries. He also expressed deep concern for animal suffering, supporting anti-vivisection causes. These extend compassion to outgroup members, but not specifically to personal adversaries."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Browne, *Charles Darwin: The Power of Place* (2002)",
+              "Desmond & Moore, *Darwin* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin displayed sustained intellectual courage in developing and eventually publishing a theory he knew would be deeply controversial and painful to his devoutly religious wife Emma. He persevered through 40+ years of chronic debilitating illness while maintaining extraordinary productivity. However, he was famously conflict-averse, relying on Huxley ('Darwin's Bulldog') and Hooker for public defense, and he avoided the 1860 Oxford debate. This limits the score: courage was real but primarily private and intellectual rather than publicly confrontational."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Peckham, *The Origin of Species: A Variorum Text* (1959)",
+              "Darwin, *Autobiography* (ed. Barlow, 1958)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin revised Origin of Species through six editions, acknowledging errors and modifying positions in response to criticism (e.g., Fleeming Jenkin's blending inheritance objection led him to give more weight to Lamarckian mechanisms in later editions). He also acknowledged in his Autobiography that his earlier certainty about a Creator had faded gradually. His published errata and revisions are unusually transparent for a Victorian scientist. However, dramatic moral reversals are not documented — his changes were incremental and intellectual rather than ethical pivots."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Colp, *Darwin's Illness* (1977)",
+              "Keynes, *Annie's Box* (2001)",
+              "Browne, *Charles Darwin: The Power of Place* (2002)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Darwin functioned effectively under at least two qualitatively different forms of prolonged adversity: (1) chronic debilitating illness lasting 40+ years, during which he produced his most important works, and (2) the devastating death of his beloved daughter Annie in 1851, which shattered him emotionally yet did not halt his scientific work — he completed the barnacle monographs and began drafting the 'big species book' in the years following. He also endured sustained public controversy and religious doubt. His productivity under these compounding adversities is among the most remarkable in scientific history."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Browne, *Charles Darwin: The Power of Place* (2002)",
+              "Desmond & Moore, *Darwin* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin integrated several seemingly contradictory roles: (1) gentle, retiring country gentleman and revolutionary intellectual who overturned millennia of received wisdom; (2) loving husband of a devout Christian while being the chief architect of a worldview that undermined religious certainty; (3) chronically ill semi-invalid and one of the most productive scientists in history; (4) lover of nature's beauty and theorist of nature's cruelty. These are genuine paradoxes held coherently. However, they are more internal tensions than fully distinct social roles (e.g., he was not both warrior and peacemaker), so a score of 2 reflects integration without the dramatic role-switching the rubric envisions for 3."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Francis Darwin, *The Life and Letters of Charles Darwin* (1887)",
+              "Browne, *Charles Darwin: The Power of Place* (2002)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Darwin reportedly stated near the end of his life, 'I am not the least afraid of death,' and his final days at Down House in April 1882 were peaceful, surrounded by family. He had gradually relinquished religious belief and faced death without appeal to an afterlife. His letters in his final years show composure about declining health. However, the primary documentation comes from family accounts (Emma and Francis Darwin), which, while credible, are not fully independent. He meets the criterion of composure facing imminent death, though the evidence is limited to family testimony."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Darwin, *Journal of Researches* (1839)",
+              "Colp, *Darwin's Illness* (1977)",
+              "Browne, *Charles Darwin: Voyaging* (1995)"
+            ],
+            "score_0_3": 1,
+            "confidence": "High",
+            "justification": "During the Beagle voyage (1831–36), Darwin undertook extraordinary physical feats: long horseback rides across Patagonia, climbing in the Andes to over 13,000 feet, trekking through Brazilian jungle, and enduring seasickness throughout. He was also an avid hunter and rider at Cambridge. However, from his late 20s onward, chronic illness (possibly Chagas disease or psychosomatic) severely curtailed his physical capacity — he was frequently confined to bed and could work only a few hours daily. The rubric requires multiple life-stages for score 3; physical prowess was concentrated in youth."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "Darwin, *Autobiography* (ed. Barlow, 1958)",
+              "Darwin, *Journal of Researches* (1839)",
+              "Francis Darwin, *The Life and Letters of Charles Darwin* (1887)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Darwin's Beagle journal records rhapsodic descriptions of tropical forests ('delight...is a weak term for such transports of pleasure'). He played backgammon nightly with Emma for decades — purely recreational. He delighted in his children's company. He bred fancy pigeons partly for the sheer pleasure of it. His Autobiography laments that he lost his earlier capacity for aesthetic appreciation of poetry and music in later life, suggesting it was once present but declined. The backgammon and pigeon-fancying appear genuinely non-instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 7.5,
+          "Relational": 7.78,
+          "Core_5D_Avg": 7.19,
+          "Cultural-Social": 7.33,
+          "Moral-Affective": 6.67,
+          "Embodied-Existential": 6.67
+        }
+      },
+      "figure": "Charles Darwin",
+      "overall": {
+        "Core_5D_Avg": 7.19,
+        "Overall_Normalized_Equal_Avg": 6.73,
+        "General_Competency_Avg_10scale": 4.44
+      },
+      "summary": "Darwin's supreme creative-intellectual achievement — the theory of natural selection — anchors exceptional scores in creative thinking, philosophical insight, impact legacy, and archetype resonance. His 43-year marriage to Emma Wedgwood and decades of productive work through chronic illness demonstrate remarkable spousal quality and hardship tolerance. Cognitive and cultural-social dimensions score highest; moral-affective and embodied-existential are solidly moderate. Heinlein-style practical breadth is limited by his gentleman-scholar lifestyle, with notable gaps in construction, culinary, and combat domains, partially offset by Beagle-era navigation and naturalist fieldwork. Core 5D Average: 7.19/10; Heinlein Competency: 4.44/10; Overall: 6.73/10.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.33,
+          "General_Competency_Avg_10scale": 4.44
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence that Darwin prepared meals. As a Victorian gentleman with household servants and a cook, meal preparation was not part of his daily life. His membership in the Cambridge 'Glutton Club' involved eating unusual animals, not cooking them."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Darwin, *Autobiography* (ed. Barlow, 1958)",
+            "Browne, *Charles Darwin: Voyaging* (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Darwin was a proficient shooter in his youth — he was passionate about hunting at Cambridge and shot specimens during the Beagle voyage. He carried firearms in potentially dangerous territory in South America. However, he never engaged in combat, had no military training, and his shooting was sporting rather than defensive. Era-normalized, basic firearms competence is relevant but limited."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Keynes, *Annie's Box* (2001)",
+            "Francis Darwin, *The Life and Letters of Charles Darwin* (1887)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Darwin was actively involved in caring for his children — Francis Darwin's recollections describe him as tender and attentive. He was present during Annie's final illness in Malvern in 1851, writing agonized letters to Emma. He provided emotional support to Emma through bereavements. However, as a Victorian gentleman with servants, much physical caregiving was delegated, and Emma bore the greater burden of nursing him through his chronic illness."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Francis Darwin, *The Life and Letters of Charles Darwin* (1887)",
+            "Browne, *Charles Darwin: The Power of Place* (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Darwin faced decades of chronic illness, the loss of his daughter, the erosion of his religious faith, and sustained public controversy with remarkable equanimity and continued productivity. He reportedly faced his own death in April 1882 with calm, telling his family he was not afraid. He had gradually developed an agnostic worldview that accepted uncertainty without existential panic. His composure was sustained rather than dramatic."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Darwin, *A Monograph on the Sub-class Cirripedia* (1851–1854)",
+            "Browne, *Charles Darwin: The Power of Place* (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Darwin was a skilled specimen preparer and dissector — his eight-year study of barnacles (1846–1854) required meticulous microscopy and manual preparation of thousands of specimens. He improvised experimental setups for his botanical work. However, he was not known for mechanical repair, tool-making, or craftsmanship beyond the demands of natural history specimen work."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "Darwin, *Journal of Researches* (1839)",
+            "Browne, *Charles Darwin: Voyaging* (1995)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "During the Beagle voyage, Darwin independently navigated overland through remote regions of South America — riding across the Pampas with gauchos, crossing the Andes, and exploring the Galápagos Islands on foot. He traveled through unfamiliar terrain with local guides and on his own, demonstrating strong wayfinding ability in diverse environments (jungle, desert, mountains, islands). This is era-normalized as high competence for a naturalist-explorer."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "Darwin, *Journal of Researches* (1839)",
+            "Browne, *Charles Darwin: Voyaging* (1995)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Darwin was an enthusiastic hunter in his youth at Cambridge and during the Beagle voyage, shooting birds and other specimens. He ate exotic animals during the voyage (rhea, armadillo, puma). He bred and handled pigeons extensively at Down House, including killing and dissecting them for anatomical study. However, there is no evidence of systematic butchering or food processing skill beyond these episodic contexts."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Browne, *Charles Darwin: The Power of Place* (2002)",
+            "Darwin Correspondence Project, Cambridge University"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Darwin effectively led a global research network through correspondence, directing data collection and shaping scientific opinion. He also demonstrated followership: deferring to Captain FitzRoy's authority during the Beagle voyage, accepting Henslow's mentorship at Cambridge, and allowing Huxley and Hooker to lead public advocacy while he guided strategy from behind the scenes. This combination of leading and following in appropriate contexts demonstrates the dual capacity the domain requires."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Darwin designed or built physical structures. He used existing facilities (Down House greenhouse, garden) and had servants and tradesmen for construction needs. His experimental apparatus was improvised but rudimentary. The anti-halo rule requires scoring this on its own evidence."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "Browne, *Charles Darwin: The Power of Place* (2002)",
+            "Desmond & Moore, *Darwin* (1991)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Darwin executed a deliberate 20-year research strategy before publishing Origin, coordinating specimen collection from correspondents worldwide. He orchestrated the 1858 Linnean Society presentation with tactical sensitivity. He planned the sequence of his publications to build cumulative credibility (barnacles before species theory). These demonstrate sophisticated planning under constraints, though not military or crisis command."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "Beer, *Darwin's Plots* (1983)",
+            "Darwin, *On the Origin of Species* (1859)"
+          ],
+          "score_0_3": 1,
+          "confidence": "High",
+          "justification": "Darwin was an accomplished scientific prose writer — the closing paragraph of Origin ('There is grandeur in this view of life...') is celebrated as English literature, and the Voyage of the Beagle is a classic of travel writing. However, his writing was primarily expository and scientific rather than artistic in intent. He did not compose poetry, music, or visual art. His Autobiography notes a declining capacity for aesthetic appreciation in later life."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "Browne, *Charles Darwin: Voyaging* (1995)",
+            "Desmond & Moore, *Darwin* (1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Darwin studied medicine for two years at the University of Edinburgh (1825–1827) before abandoning it, finding surgery distressing. He retained some medical knowledge and was attentive to symptoms (his own and his children's). During the Beagle voyage he would have had basic first-aid capability. However, he did not practice medicine and his Edinburgh training was incomplete."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Darwin, *The Effects of Cross and Self Fertilisation in the Vegetable Kingdom* (1876)",
+            "Browne, *Charles Darwin: The Power of Place* (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Darwin applied statistical and probabilistic reasoning throughout his work — calculating rates of population increase, analyzing variation in barnacle measurements, and using quantitative data in his botanical experiments (e.g., cross- vs. self-fertilization yields in *The Effects of Cross and Self Fertilisation*). He corresponded with Francis Galton on statistical methods. He was not a mathematician, but his analytical reasoning was rigorous and effective for his research needs."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "Darwin, *The Formation of Vegetable Mould through the Action of Worms* (1881)",
+            "Browne, *Charles Darwin: The Power of Place* (2002)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Darwin maintained extensive gardens at Down House and conducted years of botanical experiments involving horticulture (orchid pollination, climbing plants, insectivorous plants, earthworm soil formation). He corresponded with farmers and breeders about artificial selection. However, he was a gentleman naturalist, not a working agriculturalist, and managed his property through hired labor."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Darwin, *The Effects of Cross and Self Fertilisation* (1876)",
+            "Browne, *Charles Darwin: The Power of Place* (2002)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Darwin devised ingenious experimental methods using the best available technology of his era: precision microscopy for barnacle taxonomy, greenhouse experiments for plant hybridization, controlled breeding experiments with pigeons, and innovative observational setups for earthworm behavior. He used cutting-edge geological instruments during the Beagle voyage. His experimental designs in botany were sophisticated and anticipate modern controlled-experiment methodology."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.19,
+    "general_competency_avg_0_10": 4.44,
+    "overall_normalized_equal_avg_0_10": 6.73,
+    "created_at": "2026-03-22T21:25:00.655Z",
+    "updated_at": "2026-03-22T21:25:00.675Z"
+  }
+}
+]

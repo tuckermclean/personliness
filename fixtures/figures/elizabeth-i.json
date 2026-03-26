@@ -1,0 +1,376 @@
+[
+{
+  "model": "figures.historicalfigure",
+  "pk": 176,
+  "fields": {
+    "name": "Elizabeth I",
+    "slug": "elizabeth-i",
+    "bio_short": "Elizabeth I scores exceptionally on Cultural-Social and Cognitive dimensions, reflecting her defining strategic brilliance, institution-building, and enduring global archetype resonance. Embodied-Existential scores are strong, driven by remarkable hardship tolerance and paradox integration (virgin queen/warrior/diplomat/scholar). Moral-Affective scores are solid but moderated by the intensifying persecution of Catholics and Irish campaigns. Relational scores are the weakest dimension, constrained by her deliberate choice of unmarried life and absence of children. Heinlein competency breadth is",
+    "bio_long": "Elizabeth I was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last and longest reigning monarch of the House of Tudor. Her eventful reign, and its effect on history and culture, gave name to the Elizabethan era.",
+    "source_notes": "https://en.wikipedia.org/wiki/Elizabeth_I",
+    "image": "figures/330px-Darnley_stage_3.jpg",
+    "score_json": {
+      "core": {
+        "Cognitive": {
+          "Strategic Intelligence": {
+            "citations": [
+              "MacCaffrey, *Elizabeth I: War and Politics, 1588–1603* (1992)",
+              "Alford, *The Early Elizabethan Polity: William Cecil and the British Succession Crisis, 1558–1569* (1998)",
+              "Doran, *Monarchy and Matrimony: The Courtships of Elizabeth I* (1996)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Elizabeth used marriage negotiations with the Valois and Habsburg dynasties as a decades-long diplomatic lever without committing, keeping France and Spain counterbalanced. When the Armada threat materialized in 1588 after diplomacy failed, she pivoted to coordinated naval and land defense. Her 19-year handling of the Mary Queen of Scots threat—delaying execution through shifting strategies of custody, negotiation, and entrapment (Walsingham's Babington Plot intercepts)—shows masterful adaptation under uncertainty."
+          },
+          "Creative / Innovative Thinking": {
+            "citations": [
+              "Strong, *The Cult of Elizabeth: Elizabethan Portraiture and Pageantry* (1977)",
+              "Haigh, *Elizabeth I* (1988)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Elizabeth's self-fashioning as the 'Virgin Queen'—transforming the political liability of unmarried female rule into a cult of devotion (drawing on Marian imagery, Petrarchan love poetry, and classical mythology)—was a genuinely innovative political technology. The Elizabethan Religious Settlement itself was a novel hybrid of Protestant doctrine and Catholic ceremony. These were creative solutions, but they built on existing cultural materials rather than creating a wholly new paradigm."
+          },
+          "Ethical / Philosophical Insight": {
+            "citations": [
+              "Collinson, *The Elizabethan Puritan Movement* (1967)",
+              "Levin, *The Heart and Stomach of a King: Elizabeth I and the Politics of Sex and Power* (1994)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Elizabeth articulated a principled via media in the 1559 Religious Settlement, arguing for conformity in practice while avoiding inquisition into private belief (the attributed maxim about 'windows into men's souls'). Her Golden Speech of 1601 expressed a sophisticated theory of reciprocal obligation between monarch and people. These principles influenced Anglican theology and constitutional thought, though she was primarily a political practitioner rather than a systematic philosopher."
+          },
+          "Administrative / Legislative Skill": {
+            "citations": [
+              "Guy, *Tudor England* (1988)",
+              "Slack, *Poverty and Policy in Tudor and Stuart England* (1988)",
+              "Neale, *Elizabeth I and Her Parliaments* (1953–57)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Elizabeth managed the Privy Council through factional balance (Cecil vs. Leicester, then Burghley vs. Essex), maintaining effective governance for 45 years. The 1559 Acts of Supremacy and Uniformity created a church settlement that endured for centuries. The Elizabethan Poor Laws (culminating in the 1601 Act) established England's welfare framework until 1834. Her fiscal management, while strained by war, preserved crown solvency far better than her Stuart successors managed."
+          }
+        },
+        "Relational": {
+          "Relational Range": {
+            "citations": [
+              "Levin, *The Heart and Stomach of a King* (1994)",
+              "Doran, *Monarchy and Matrimony* (1996)",
+              "Nichols, *Progresses and Public Processions* (1823)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Elizabeth demonstrated qualitatively distinct behavior across at least six relational modes: (1) subordinate—deferential survival under Mary I; (2) sovereign—commanding obedience from Parliament and Privy Council; (3) near-lover—intimate affection with Dudley; (4) rival—decades-long chess match with Mary Queen of Scots; (5) friend—genuine warmth with ladies like Blanche Parry and Kate Ashley; (6) diplomatic suitor—performing romantic interest with foreign princes; (7) populist—direct, earthy engagement with common subjects on progresses. Each mode shows distinct relational strategies rather than a single style."
+          },
+          "Spousal / Partner Quality": {
+            "citations": [
+              "Doran, *Monarchy and Matrimony* (1996)",
+              "Wilson, *Sweet Robin: A Biography of Robert Dudley, Earl of Leicester* (1981)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Elizabeth never married. Her closest intimate relationship, with Robert Dudley, Earl of Leicester, spanned nearly 30 years (c.1559–1588) and showed genuine emotional depth—she kept his last letter, marked 'his last letter,' in a bedside casket until her own death in 1603. However, the relationship was marked by extreme power asymmetry, her jealous prevention of his other romantic prospects, and fury at his secret marriage to Lettice Knollys (1578). The absence of any formalized partnership and these controlling dynamics limit the score despite the relationship's emotional intensity and durability."
+          },
+          "Parental / Mentoring Quality": {
+            "citations": [
+              "Hammer, *The Polarisation of Elizabethan Politics* (1999)",
+              "Somerset, *Elizabeth I* (1991)"
+            ],
+            "score_0_3": 1,
+            "confidence": "Medium",
+            "justification": "Elizabeth had no children. She served as godmother to numerous courtiers' children and took interest in younger courtiers' development. However, her most prominent mentoring relationship—with Robert Devereux, Earl of Essex—ended catastrophically in his rebellion and execution (1601), suggesting a failure of mentoring. She promoted talented men like Francis Bacon (though belatedly) and cultivated capable servants, but evidence of systematic mentoring toward genuine autonomy and competence is thin."
+          }
+        },
+        "Cultural-Social": {
+          "Impact Legacy": {
+            "citations": [
+              "Strong, *The Cult of Elizabeth* (1977)",
+              "Andrews, *Trade, Plunder and Settlement: Maritime Enterprise and the Genesis of the British Empire, 1480–1630* (1984)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Elizabethan era produced the cultural flowering that made English a global literary language (Shakespeare, Spenser, Marlowe flourished under her patronage). The Protestant settlement shaped English-speaking Christianity permanently. The voyages of Drake and Raleigh, chartered under her authority, initiated English colonial expansion. The Elizabethan constitutional model—strong monarchy checked by Parliament—influenced Anglo-American political development. These effects remain operative across multiple civilizations over 400 years later."
+          },
+          "Archetype Resonance": {
+            "citations": [
+              "Dobson and Watson, *England's Elizabeth: An Afterlife in Fame and Fantasy* (2002)",
+              "Levin, *The Heart and Stomach of a King* (1994)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Elizabeth is the defining archetype of the powerful female sovereign in Western culture, recognized globally. The 'Virgin Queen' archetype resonates across cultures—adapted in film (Cate Blanchett, Judi Dench), literature, and political discourse far beyond England. She serves as a symbol of female authority, strategic celibacy, and national destiny in traditions well beyond her own, including in East Asian and postcolonial contexts where her image is referenced."
+          },
+          "Institution-Building": {
+            "citations": [
+              "Guy, *Tudor England* (1988)",
+              "Slack, *Poverty and Policy in Tudor and Stuart England* (1988)",
+              "Chaudhuri, *The English East India Company* (1965)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "The Church of England as settled by the 1559 Acts of Supremacy and Uniformity remained the established church for centuries with recognizable continuity. The Elizabethan Poor Laws (1597–1601) constituted the basis of English poor relief until 1834. She consolidated the Privy Council system of governance that persisted through the Stuart era. Royal chartered companies (East India Company, 1600) launched during her reign became transformative institutions."
+          },
+          "Leadership / Influence": {
+            "citations": [
+              "MacCaffrey, *Elizabeth I: War and Politics* (1992)",
+              "Haigh, *Elizabeth I* (1988)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Elizabeth led successfully across crisis (Armada 1588, Northern Rebellion 1569, succession uncertainty) and long periods of stability. She managed small-group dynamics in the Privy Council, inspired mass popular devotion through progresses and public speeches, directed diplomatic strategy across Europe, and commanded military operations (albeit through intermediaries). Her leadership spanned 45 years and qualitatively different contexts—religious settlement, war, economic management, and cultural patronage."
+          },
+          "Relatability / Cultural Embeddedness": {
+            "citations": [
+              "Nichols, *The Progresses and Public Processions of Queen Elizabeth* (1823)",
+              "Somerset, *Elizabeth I* (1991)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Elizabeth engaged regularly in hunting, dancing (reportedly six galliards a morning into her 60s), and witty repartee with courtiers and commoners during royal progresses. She was known for earthy humor and directness with servants and ambassadors alike. However, as a lifelong sovereign, her engagement with truly mundane tasks (cooking, mending, manual labor) was minimal. She did embroidery and needlework throughout her life, and progresses brought her into direct contact with subjects, but her station inevitably limited full immersion in ordinary life."
+          }
+        },
+        "Moral-Affective": {
+          "Justice Orientation": {
+            "citations": [
+              "Neale, *Elizabeth I and Her Parliaments, Vol. 2* (1957)",
+              "Elton, *The Parliament of England, 1559–1581* (1986)"
+            ],
+            "score_0_3": 2,
+            "confidence": "High",
+            "justification": "Elizabeth's 1601 reversal on monopolies—conceding to Parliamentary grievances and revoking grants that benefited her own favorites—is a documented case of ruling against personal interest in favor of principle. The 1559 Settlement attempted fairness across confessional lines. However, the escalating anti-Catholic penal laws (1581 Act making it treason to convert to Catholicism) and the plantation policies in Ireland represent significant departures from impartiality. Without these counterexamples, score would approach 3; given their systematic nature, 2 is appropriate."
+          },
+          "Compassion / Empathy": {
+            "citations": [
+              "Duffy, *Fires of Faith: Catholic England Under Mary Tudor* (2009) [for comparative context]",
+              "Guy, *My Heart Is My Own: The Life of Mary Queen of Scots* (2004)",
+              "Edwards, *The Statesman's Trial: The Earl of Strafford and the Elizabethan Treason Law* (no citation — general Irish policy per Canny, *Making Ireland British, 1580–1650* (2001))"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Elizabeth agonized for months over the execution of Mary Queen of Scots (1587), delaying and attempting to have it done informally to avoid personal responsibility—indicating genuine moral distress. She showed initial moderation toward Catholics, and the 1559 Settlement was notably less punitive than Continental alternatives. Counterexamples include the intensifying persecution of Catholic recusants after 1580 (execution of ~130 seminary priests) and the brutal suppression of Ireland. Without these counterexamples the score would be 3; with them given proportional weight (especially Ireland), 2 is appropriate as the persecutions were systemic, not incidental."
+          },
+          "Courage / Resilience": {
+            "citations": [
+              "Loades, *Elizabeth I: A Biography* (2003)",
+              "Levin, *The Heart and Stomach of a King* (1994)",
+              "Alford, *The Watchers: A Secret History of the Reign of Elizabeth I* (2012)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Elizabeth survived her mother's execution (1536), the Seymour affair (1549), imprisonment in the Tower under Mary I (1554), and the constant threat of assassination (Ridolfi 1571, Throckmorton 1583, Babington 1586). At Tilbury in 1588, she appeared before troops facing potential Spanish invasion, declaring 'I have the heart and stomach of a king.' She sustained effective governance through decades of existential threats to her throne and person."
+          },
+          "Moral Fallibility & Growth": {
+            "citations": [
+              "Neale, *Elizabeth I and Her Parliaments, Vol. 2* (1957)",
+              "Hammer, *The Polarisation of Elizabethan Politics: The Political Career of Robert Devereux, 2nd Earl of Essex* (1999)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Elizabeth reversed her position on monopolies after the 1601 Parliamentary protest, publicly acknowledging in the Golden Speech that grants had been abused and thanking Parliament for bringing it to her attention—a clear acceptance of correction with behavioral change. She also evolved her approach to the French civil wars, shifting support between factions as she recognized earlier miscalculations. Her handling of the Essex rebellion (1601) showed painful recognition of her own misjudgment in elevating him. These represent genuine instances of acknowledged error and adaptation."
+          }
+        },
+        "Embodied-Existential": {
+          "Hardship Tolerance": {
+            "citations": [
+              "Loades, *Elizabeth I* (2003)",
+              "Guy, *Tudor England* (1988)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Elizabeth endured qualitatively different forms of adversity: material deprivation and mortal danger during imprisonment in the Tower (1554), personal bereavement (mother's execution, Dudley's death in 1588, deaths of close advisors), sustained existential threat from assassination plots spanning decades, and the emotional burden of ordering Mary Queen of Scots' execution. She functioned effectively as sovereign throughout all of these, never losing administrative control or political composure for extended periods."
+          },
+          "Paradox Integration": {
+            "citations": [
+              "Levin, *The Heart and Stomach of a King* (1994)",
+              "Haigh, *Elizabeth I* (1988)",
+              "Strong, *The Cult of Elizabeth* (1977)"
+            ],
+            "score_0_3": 3,
+            "confidence": "High",
+            "justification": "Elizabeth inhabited at least five seemingly contradictory roles without incoherence: (1) woman sovereign in a patriarchal society who claimed both 'the body of a weak and feeble woman' and 'the heart of a king'; (2) virgin who used sexual desirability as diplomatic currency; (3) Protestant Supreme Governor who preserved Catholic ceremony; (4) decisive war leader who was famously, strategically indecisive; (5) merciful queen who authorized executions. She integrated these paradoxes into a coherent political identity that strengthened rather than undermined her authority."
+          },
+          "Mortality Acceptance": {
+            "citations": [
+              "Carey, *Memoirs of Robert Carey* (c. 1627)",
+              "Weir, *The Life of Elizabeth I* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Elizabeth faced assassination threats with composure throughout her reign and appeared before troops at Tilbury under genuine mortal risk. In her final illness (March 1603), she reportedly refused medical treatment and accepted death, eventually giving assent to James VI's succession. However, she was also famously resistant to aging, refused to name a successor for decades, and reportedly lay on floor cushions refusing to go to bed in her final days—suggesting struggle alongside acceptance. Robert Carey's memoir and Lady Southwell's account provide near-contemporary documentation."
+          },
+          "Physical Endurance / Skill": {
+            "citations": [
+              "Somerset, *Elizabeth I* (1991)",
+              "Weir, *The Life of Elizabeth I* (1998)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Elizabeth was an accomplished horsewoman who hunted regularly into her 60s and danced vigorously throughout her life. She survived smallpox in 1562 and maintained the physical demands of royal progresses—weeks of travel, ceremonies, and public appearances—across decades. These are documented across multiple life stages but do not constitute extraordinary physical feats beyond what was expected of an active sovereign."
+          },
+          "Joy / Play / Aesthetic Appreciation": {
+            "citations": [
+              "May, *The Elizabethan Courtier Poets* (1991)",
+              "Melville, *Memoirs of His Own Life* (1683, repr. 1827)"
+            ],
+            "score_0_3": 2,
+            "confidence": "Medium",
+            "justification": "Elizabeth played the virginals privately (famously overheard by the Scottish ambassador Melville in 1564), composed poetry, loved theatrical performances (attending plays at court regularly), and danced with evident personal joy throughout her life. Her translation of Boethius' *Consolation of Philosophy* in her 60s appears to have been a genuine intellectual pleasure. While some cultural patronage was political, private music-making and dancing were not purely instrumental."
+          }
+        },
+        "dimension_averages_0_10": {
+          "Cognitive": 8.33,
+          "Relational": 5.56,
+          "Core_5D_Avg": 7.74,
+          "Cultural-Social": 9.33,
+          "Moral-Affective": 7.5,
+          "Embodied-Existential": 8.0
+        }
+      },
+      "figure": "Elizabeth I",
+      "overall": {
+        "Core_5D_Avg": 7.74,
+        "Overall_Normalized_Equal_Avg": 7.0,
+        "General_Competency_Avg_10scale": 3.33
+      },
+      "summary": "Elizabeth I scores exceptionally on Cultural-Social and Cognitive dimensions, reflecting her defining strategic brilliance, institution-building, and enduring global archetype resonance. Embodied-Existential scores are strong, driven by remarkable hardship tolerance and paradox integration (virgin queen/warrior/diplomat/scholar). Moral-Affective scores are solid but moderated by the intensifying persecution of Catholics and Irish campaigns. Relational scores are the weakest dimension, constrained by her deliberate choice of unmarried life and absence of children. Heinlein competency breadth is narrow—extraordinary in leadership and strategy but lacking in manual, agricultural, and practical survival domains, reflecting her royal social position.",
+      "heinlein_competency": {
+        "averages": {
+          "General_Competency_Avg_0_3": 1.0,
+          "General_Competency_Avg_10scale": 3.33
+        },
+        "Culinary Skill": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Elizabeth personally prepared food. Royal kitchens with professional staff served all meals. There is no documentation of personal cooking at any point in her life."
+        },
+        "Combat & Defense": {
+          "citations": [
+            "Levin, *The Heart and Stomach of a King* (1994)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Elizabeth appeared in armor at Tilbury (1588) and was an expert horsewoman and hunter, demonstrating physical skill with horses relevant to mounted combat. However, she never personally engaged in combat. Era-normalized for a female sovereign, her willingness to appear on the battlefield and her physical riding skills represent weak but present competence in this domain."
+        },
+        "Caregiving & Nurture": {
+          "citations": [
+            "Somerset, *Elizabeth I* (1991)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Low",
+          "justification": "Elizabeth reportedly visited sick courtiers and showed personal concern for ailing advisors like Burghley. She comforted ladies-in-waiting in distress. However, direct hands-on caregiving evidence is episodic and limited, reflecting her royal station where such tasks were delegated."
+        },
+        "Existential Composure": {
+          "citations": [
+            "Carey, *Memoirs of Robert Carey* (c. 1627)",
+            "Loades, *Elizabeth I* (2003)"
+          ],
+          "score_0_3": 2,
+          "confidence": "Medium",
+          "justification": "Elizabeth faced repeated assassination threats, the existential crisis of the Armada, and the burden of authorizing executions with documented composure. In her final days (March 1603), she accepted death without panic, declining medical intervention and managing the succession. However, her lifelong resistance to naming a successor and reported distress about aging suggest incomplete composure regarding mortality specifically, distinguishing this from full existential mastery."
+        },
+        "Manual Craft & Repair": {
+          "citations": [
+            "Weir, *The Life of Elizabeth I* (1998)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Elizabeth was skilled in embroidery and needlework, a manual craft she practiced from girlhood through her reign—surviving examples of her needlework exist. This represents genuine manual skill within the era-normalized expectations for a woman of her rank, though it is a limited domain."
+        },
+        "Navigation & Wayfinding": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "Medium",
+          "justification": "No evidence of personal navigation or wayfinding skill. Royal progresses were planned and managed by household officers. While she understood English geography for strategic purposes, this does not constitute personal navigational competence."
+        },
+        "Animal & Food Processing": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Elizabeth personally butchered, processed, or prepared animal products. While she hunted extensively, the kill was processed by servants. Her royal station made such tasks unnecessary and undocumented."
+        },
+        "Leadership & Followership": {
+          "citations": [
+            "Haigh, *Elizabeth I* (1988)",
+            "Alford, *The Early Elizabethan Polity* (1998)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Elizabeth demonstrated exceptional leadership across 45 years as sovereign, managing faction, war, and religious settlement. Crucially, she also demonstrated followership: during Mary I's reign (1553–58), she subordinated herself effectively, attending Mass, deferring to Mary's authority, and surviving by following rather than leading. She also deferred to expert counsel from Burghley and Walsingham on matters beyond her expertise, showing capacity to follow advice without abdicating authority."
+        },
+        "Construction & Fabrication": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence that Elizabeth designed or built physical structures. While she commissioned building projects and renovations at royal palaces, these were executed entirely by architects and craftsmen."
+        },
+        "Strategic Planning & Command": {
+          "citations": [
+            "MacCaffrey, *Elizabeth I: War and Politics, 1588–1603* (1992)",
+            "Parker and Martin, *The Spanish Armada* (1988)"
+          ],
+          "score_0_3": 3,
+          "confidence": "High",
+          "justification": "Elizabeth coordinated the multi-layered defense against the Spanish Armada (1588), balancing naval deployment under Howard and Drake with land forces, supply logistics, and alliance management with the Dutch. She managed military interventions in the Netherlands (1585–), France (1589–), and Ireland across decades, adapting strategies as circumstances shifted. Her decades of diplomatic maneuvering across European courts represent sustained strategic command."
+        },
+        "Artistic & Cultural Expression": {
+          "citations": [
+            "May, *The Elizabethan Courtier Poets* (1991)",
+            "Mueller and Marcus, eds., *Elizabeth I: Collected Works* (2000)"
+          ],
+          "score_0_3": 2,
+          "confidence": "High",
+          "justification": "Elizabeth composed original poetry (including 'The Doubt of Future Foes' and 'On Monsieur's Departure'), produced accomplished translations of Boethius, Horace, Plutarch, and Cicero, played the virginals with recognized skill, and crafted speeches of genuine literary quality (Tilbury, Golden Speech). Her artistic output was real and competent, though not at the level of professional artists of her era."
+        },
+        "Medical Aid & Emergency Response": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No credible evidence that Elizabeth personally administered medical treatment or emergency aid. Medical care was provided by court physicians. While she survived smallpox (1562), this demonstrates endurance, not medical skill."
+        },
+        "Numerical & Analytical Reasoning": {
+          "citations": [
+            "Ascham, *The Scholemaster* (1570)",
+            "Guy, *Tudor England* (1988)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Elizabeth was educated in mathematics by Roger Ascham and William Grindal. She personally reviewed crown financial accounts and was known for fiscal prudence, catching discrepancies in expenditure reports. However, there is no evidence of advanced mathematical or analytical reasoning beyond competent financial oversight."
+        },
+        "Agricultural & Resource Management": {
+          "citations": [
+            "(no citation)"
+          ],
+          "score_0_3": 0,
+          "confidence": "High",
+          "justification": "No evidence of personal agricultural engagement or direct resource management at the land level. Crown estates were managed by stewards and administrators. While she oversaw national resource policy, this is captured under Administrative Skill, not personal agricultural competence."
+        },
+        "Technical & Systemic Problem-Solving": {
+          "citations": [
+            "Alford, *The Watchers* (2012)",
+            "Guy, *Tudor England* (1988)"
+          ],
+          "score_0_3": 1,
+          "confidence": "Medium",
+          "justification": "Elizabeth understood and managed complex systems—the court, the church, the navy, diplomatic networks—and made decisions about cutting-edge technologies of her era (naval armament, intelligence networks under Walsingham). However, her engagement was managerial rather than technical; she did not personally design or operate systems. Her multilingual proficiency (Latin, Greek, French, Italian, Spanish) represents technical intellectual skill applied practically in diplomacy."
+        }
+      }
+    },
+    "core_4d_avg_0_10": 7.74,
+    "general_competency_avg_0_10": 3.33,
+    "overall_normalized_equal_avg_0_10": 7.0,
+    "created_at": "2026-03-22T21:40:41.017Z",
+    "updated_at": "2026-03-22T21:40:41.034Z"
+  }
+}
+]
