@@ -132,9 +132,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
+# Only include the local static dir if it exists — it holds no tracked
+# files, so git/Docker won't create it, which otherwise triggers W004.
+STATICFILES_DIRS = [BASE_DIR / "static"] if (BASE_DIR / "static").exists() else []
 
 FIXTURE_DIRS = [
     BASE_DIR / "fixtures",
