@@ -1,0 +1,15 @@
+# Role guard paths for /noodlebot:node (root-relative globs; a key given here replaces its default).
+# Owner answer Q12: tests are Django's tests.py files, test_*.py and tests/ directories.
+# fixtures/ holds application data (questions, figure profiles), so it is NOT a test path here.
+tests:
+  - "**/tests.py"
+  - "**/test_*.py"
+  - "**/tests/**"
+# The plan files, plus this file, so a role cannot rewrite its own guard.
+specs:
+  - "SPEC.md"
+  - "AGENTS.md"
+  - "CLAUDE.md"
+  - "docs/graph.yaml"
+  - "nodes/**"
+  - ".noodlebot/**"

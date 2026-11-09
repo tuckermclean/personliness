@@ -1,0 +1,56 @@
+# The plan the scheduler builds from. Authority: SPEC.md, then this file, then nodes/<ID>-<name>.md.
+# Check: python3 -I <plugin dir>/skills/node/check-regime.py --root .   (PROBLEMS 0)
+template: {headings: [Purpose, Tests, Changes, Gate, Risks]}
+
+nodes:
+  # T: the test suite itself
+  - id: T01
+    name: fix-trait-count-test
+    deps: []
+    track: now
+    size: S
+    summary: The trait sync test asserts the 36 traits the code has (21 core + 15 Heinlein) instead of 34, so it passes again.
+
+  # C: continuous integration
+  - id: C01
+    name: ci-backend-tests
+    deps: [T01]
+    track: now
+    size: S
+    summary: A CI job runs pytest against a PostgreSQL service container on every pull request and push to main, and the docs name pytest as the test command.
+    decisions: ["OD-5 coverage tool (default: none)"]
+
+  # V: input validation
+  - id: V01
+    name: validate-answers
+    deps: []
+    track: now
+    size: S
+    summary: POST /api/assessments/ rejects answer values outside 0-3 and unknown question IDs with HTTP 400 and stores nothing.
+    decisions: ["OD-3 accepted value types (default: JSON integers 0-3 only)", "OD-4 partial submissions (default: accepted as today)"]
+
+  # D: docs and configuration drift
+  - id: D01
+    name: docs-match-code
+    deps: []
+    track: later
+    size: S
+    summary: README, DEVELOPMENT.md and start.sh name only files, fixtures and commands that exist; LICENSE is left alone.
+    decisions: ["OD-2 LICENSE directory names (default: LICENSE unchanged)"]
+
+  - id: D02
+    name: llm-defaults
+    deps: []
+    track: later
+    size: S
+    summary: The default LLM profile is anthropic with refinement off in settings, both compose files and the README, matching .env.example.
+    decisions: ["OD-6 track of this node (default: later)"]
+
+  # H: hardening
+  - id: H01
+    name: harden-secret-key
+    deps: []
+    track: later
+    size: S
+    summary: With DEBUG off, the app refuses to start without a real DJANGO_SECRET_KEY; development keeps working unchanged.
+    decisions: ["OD-1 insecure defaults (default: only the production secret key check)"]
